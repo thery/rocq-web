@@ -37,6 +37,10 @@ or an archive's URL. The Share dialog can put both in a link. With
 `?temp`, as in an embed, the files stay in memory and the visitor's own are
 left alone, for a tutorial or a demo; a button keeps them if wanted.
 
+The site can be installed as an app and works offline once visited, with
+the libraries already downloaded. A new version waits until the header's
+New version button reloads the page with it.
+
 ## Limitations
 
 - `native_compute` falls back to the VM, with the same results.

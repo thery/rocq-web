@@ -9,9 +9,9 @@ made ([building.md](building.md)). Any host works if it does the following.
   messages without it. Also send `Cross-Origin-Resource-Policy:
   cross-origin`, without which a cross-origin isolated page cannot embed the
   site. `dist/_headers` sets them on Netlify and Cloudflare Pages. On hosts
-  without custom headers (GitHub Pages), a service worker (`coi.js`) adds
-  them from the second load on. It does nothing in an iframe, which only the
-  page around it can isolate.
+  without custom headers (GitHub Pages), the service worker (`sw.js`) adds
+  them, and the page reloads once to get them. It does nothing in an iframe,
+  which only the page around it can isolate.
 - **Brotli.** Serve `FILE.br` with `Content-Encoding: br` when it exists, or
   compress on the fly. The full build's libraries are 816 MB, 290 MB
   compressed, fetched file by file when a document needs them.
@@ -22,6 +22,19 @@ made ([building.md](building.md)). Any host works if it does the following.
 
 `make serve` (`scripts/serve.mjs`, `PORT=...`) does all of this except
 HTTP/2.
+
+The service worker (`app/sw.js`) keeps the page, its scripts and the small
+files of each build (`rocq/worker.js`, `lsp_worker.js`, `files.json`,
+`packages.json`) from the first visit, and `lsp_worker.wasm` and
+`search.tsv` once fetched when the site serves them. The page then works
+offline. Rocq's libraries, fetched with their version, stay in the
+browser's cache. `scripts/sw.mjs` writes `DIR/sw.js` with the list of these
+files and a hash of each, so that a deployment changes `sw.js` when it
+changes one of them. `make dist` runs it, and `make cloudflare` again for
+its copy. A new version waits in the cache until the user clicks New version
+in the header, which reloads the page with it. An open page looks for one at
+each load and every hour. `sw.js` must not be cached by the server for
+long, as the browser looks for a new version through it.
 
 ## Cloudflare Pages
 

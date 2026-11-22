@@ -96,6 +96,7 @@ covers putting it online.
 | `tests/packages.sh` | every package of the switch loads under node |
 | `tests/lsp.mjs` | coq-lsp over stdio |
 | `node tests/NAME.mjs [URL]` | the app in headless Chromium (`browser`, `goals`, `workspace`, `interrupt`...), at `http://localhost:5173/` by default |
+| `node tests/service_worker.mjs [DIR]` | the site of `make dist` (`dist` by default) offline, a new version, a host without headers |
 | `tests/remote.sh [-p PORT] HOST TEST.mjs` | one browser test run on another machine, reaching the local app through ssh |
 
 Browser tests take playwright from `PLAYWRIGHT_DIR` (`~/tools/pw` by
