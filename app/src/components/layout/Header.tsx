@@ -6,6 +6,7 @@ import { ArrowDown, ArrowDownToLine, ArrowRightToLine, ArrowUp, ArrowUpToLine, C
 import { useState } from "react";
 import type { Move } from "../../hooks/useDocument";
 import { navLabel } from "../../lib/keys";
+import { TemporaryBadge } from "./TemporaryBadge";
 
 export const moves: [Move, string, typeof ArrowDown, string][] = [
   ["start", "Back to the start", ArrowUpToLine, "Home"],
@@ -27,6 +28,8 @@ type Props = {
   share: () => void;
   openFull: () => void;
   help: () => void;
+  // (a temporary session) its files kept
+  keep?: () => void;
   // (a phone) the panels shown or hidden
   mobile?: boolean;
   panels?: () => void;
@@ -70,6 +73,7 @@ export function Header(p: Props) {
           </button>
         )}
         <h1>rocq-web</h1>
+        {p.keep && <TemporaryBadge keep={p.keep} compact />}
         <span className="status" data-status={p.status}>
           {p.status}
         </span>
@@ -95,6 +99,7 @@ export function Header(p: Props) {
   return (
     <header>
       <h1>rocq-web</h1>
+      {p.keep && <TemporaryBadge keep={p.keep} />}
       <span className="status" data-status={p.status}>
         {p.status}
       </span>

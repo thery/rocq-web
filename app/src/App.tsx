@@ -108,9 +108,9 @@ export function App() {
   const active = ws.active;
   useEffect(() => setDrawer(false), [active, nav.readOnly]);
 
-  // A temporary session (?temp): told, its changes lost when the page
-  // closes unless kept (lib/keep.ts), the page then loaded again without
-  // the link, what was kept told there
+  // A temporary session (?temp): told in the header, its changes lost when
+  // the page closes unless kept (lib/keep.ts), the page then loaded again
+  // without the link, what was kept told there
   const leaving = useRef(false);
   const { edited } = ws;
   useEffect(() => {
@@ -201,6 +201,7 @@ export function App() {
         share={share}
         openFull={openFull}
         help={() => setHelp(!help)}
+        keep={temporary && !embedded ? keep : undefined}
         mobile={mobile}
         panels={embedded ? undefined : () => setDrawer(!drawer)}
       />
@@ -208,14 +209,6 @@ export function App() {
       {build === "compat" && !compatSeen && !embedded && (
         <Banner kind="warning" close={() => setCompatSeen(true)}>
           {compatWarning}
-        </Banner>
-      )}
-      {temporary && !embedded && (
-        <Banner kind="warning">
-          <span>Temporary session: nothing is saved in this browser, and closing the page loses the changes.</span>
-          <button className="button" onClick={keep} title="Copy these files into your workspace, and leave the session">
-            Keep these files
-          </button>
         </Banner>
       )}
       {kept && (
