@@ -1,8 +1,8 @@
 // A temporary session (?temp, headless Chromium, as tests/browser.mjs): a
 // link's files (an archive served with CORS) in memory, the user's own
-// neither shown nor changed, the URL kept, told by a banner; the page left
-// without a question until a file is changed, then asked; the files kept
-// (Keep these files): in the user's workspace, beside a folder of the
+// neither shown nor changed, the URL kept, told by the header's badge; the
+// page left without a question until a file is changed, then asked; the
+// files kept (Keep these files, under the badge): in the user's workspace, beside a folder of the
 // same name in name_2, the change in, the page loaded again without the
 // link, told; a library of ?lib kept as one; the Share dialog: a temporary
 // session by default when the link opens folders, unchecked as asked, an
@@ -60,8 +60,11 @@ check(JSON.stringify(await stored(page)) === JSON.stringify(["course/Mine.v"]), 
 const panel = await shownFiles(page);
 check(panel.includes("B.v") && !panel.includes("Mine.v") && !panel.includes("scratch.v"), `the session's files shown, not the user's: ${panel}`);
 check(new URL(page.url()).searchParams.has("temp") && new URL(page.url()).searchParams.get("open") === archive, "the URL kept");
-const banner = page.locator(".shared", { hasText: "Temporary session" });
-check((await banner.count()) === 1, "told");
+const badge = page.locator("header .temporary-badge");
+check((await badge.count()) === 1 && (await page.locator(".shared", { hasText: "Temporary session" }).count()) === 0, "told in the header, not by a banner");
+await badge.click();
+check(await page.getByText("Nothing is saved in this browser").isVisible(), "what it means, once clicked");
+await badge.click();
 await page.waitForSelector('.status[data-status="Idle"]', { timeout: 180000 });
 check((await page.locator(".problems li").count()) === 0, "B.v checks (A.v in memory)");
 
@@ -69,7 +72,7 @@ check((await page.locator(".problems li").count()) === 0, "B.v checks (A.v in me
 dialogs.length = 0;
 await page.reload();
 await page.waitForFunction(() => document.querySelector(".cm-content")?.textContent.includes("Lemma b"), null, { timeout: 120000 });
-check(dialogs.length === 0 && (await page.locator(".shared", { hasText: "Temporary session" }).count()) === 1, "reloaded: nothing asked, the link's files again");
+check(dialogs.length === 0 && (await badge.count()) === 1, "reloaded: nothing asked, the link's files again");
 await page.locator(".cm-content").click();
 await page.keyboard.press("Control+End");
 await page.keyboard.type("\nDefinition mine2 := 2.\n");
@@ -83,7 +86,8 @@ await page.locator(".cm-content").click();
 await page.keyboard.press("Control+End");
 await page.keyboard.type("\nDefinition kept := 3.\n");
 dialogs.length = 0;
-await Promise.all([page.waitForURL((u) => !u.searchParams.has("temp"), { timeout: 30000 }), banner.locator("button").click()]);
+await badge.click();
+await Promise.all([page.waitForURL((u) => !u.searchParams.has("temp"), { timeout: 30000 }), page.getByRole("button", { name: "Keep these files" }).click()]);
 await page.waitForSelector(".shared", { timeout: 30000 });
 check(
   JSON.stringify(await stored(page)) === JSON.stringify(["course/Mine.v", "course_2/A.v", "course_2/B.v"]),
@@ -100,7 +104,7 @@ check(after.active === "course_2/B.v" && after.workspaces.includes("course_2"), 
 const u = new URL(page.url());
 check(!u.search && !u.hash, `the page without the link: ${page.url()}`);
 const told = await page.locator(".shared").allTextContents();
-check(told.some((t) => t.includes("Kept 2 files") && t.includes("course_2/")) && !told.some((t) => t.includes("Temporary session")), `told: ${told}`);
+check(told.some((t) => t.includes("Kept 2 files") && t.includes("course_2/")) && (await page.locator("header .temporary-badge").count()) === 0, `told: ${told}`);
 await page.close();
 
 // a library, kept as one
@@ -110,7 +114,7 @@ await page.waitForSelector(".library-entry", { timeout: 120000 });
 check((await stored(page)).length === 0, "a library in memory");
 await Promise.all([
   page.waitForURL((u) => !u.searchParams.has("temp"), { timeout: 30000 }),
-  page.locator(".shared", { hasText: "Temporary session" }).locator("button").click(),
+  page.locator("header .temporary-badge").click().then(() => page.getByRole("button", { name: "Keep these files" }).click()),
 ]);
 await page.waitForSelector(".library-entry", { timeout: 60000 });
 const libs = await page.evaluate(() => JSON.parse(localStorage.getItem("rocq-web:libraries") ?? "[]"));
