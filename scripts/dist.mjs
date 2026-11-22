@@ -65,6 +65,9 @@ writeFileSync(
       .join(""),
 );
 
+// the service worker, with the files it caches
+execFileSync("node", ["scripts/sw.mjs", dir], { stdio: "inherit" });
+
 function walk(d, f) {
   for (const e of readdirSync(d, { withFileTypes: true })) {
     const p = join(d, e.name);

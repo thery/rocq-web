@@ -5,21 +5,13 @@ import { examples, loadExample } from "./lib/examples";
 import { openShared } from "./lib/share";
 import { pickBuild } from "./lib/detect";
 import { setActiveFile, temporary } from "./lib/storage";
+import { registerServiceWorker } from "./lib/update";
 import { setLibraries } from "./lib/workspaces";
 import "./styles.css";
 
-// Not cross-origin isolated (a host without COOP and COEP headers): the
-// service worker public/coi.js adds them, from the next load of the page.
-// Not in an iframe, which only the page around it can make isolated
-if (import.meta.env.PROD && !crossOriginIsolated && "serviceWorker" in navigator && window === window.top) {
-  navigator.serviceWorker.register(`${import.meta.env.BASE_URL}coi.js`);
-  navigator.serviceWorker.ready.then(() => {
-    if (!navigator.serviceWorker.controller && !sessionStorage.getItem("rocq-web:coi")) {
-      sessionStorage.setItem("rocq-web:coi", "1");
-      location.reload();
-    }
-  });
-}
+// the service worker: the page offline, its new versions, cross-origin
+// isolation on hosts without headers
+registerServiceWorker();
 
 // iOS zooms in on a field focused whose text is smaller than 16px (the
 // editor's, on a phone): not with maximum-scale, which on iOS does not stop

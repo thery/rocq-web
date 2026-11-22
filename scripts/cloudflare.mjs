@@ -11,6 +11,7 @@
 // The big files must match the page's lsp_worker.js, so their directory is
 // named after their hash. An upload then never replaces a file a deployed
 // page uses, and the files can be cached for good.
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, relative, sep } from "node:path";
@@ -74,4 +75,6 @@ if (!/^var remote = \{\};$/m.test(source)) {
   process.exit(1);
 }
 writeFileSync(worker, source.replace(/^var remote = \{\};$/m, `var remote = ${JSON.stringify(remote)};`));
+// the service worker again, for this rocq/worker.js and without the big files
+execFileSync("node", ["scripts/sw.mjs", site], { stdio: "inherit" });
 console.log(`${site}: ${count - big.length} files; ${r2}/${version}: ${big.join(" ") || "nothing"}, served from ${base}`);

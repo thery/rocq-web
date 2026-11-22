@@ -7,6 +7,7 @@ import { useState } from "react";
 import type { Move } from "../../hooks/useDocument";
 import { navLabel } from "../../lib/keys";
 import { TemporaryBadge } from "./TemporaryBadge";
+import { UpdateBadge } from "./UpdateBadge";
 
 export const moves: [Move, string, typeof ArrowDown, string][] = [
   ["start", "Back to the start", ArrowUpToLine, "Home"],
@@ -74,6 +75,7 @@ export function Header(p: Props) {
         )}
         <h1>rocq-web</h1>
         {p.keep && <TemporaryBadge keep={p.keep} compact />}
+        <UpdateBadge compact />
         <span className="status" data-status={p.status}>
           {p.status}
         </span>
@@ -100,6 +102,7 @@ export function Header(p: Props) {
     <header>
       <h1>rocq-web</h1>
       {p.keep && <TemporaryBadge keep={p.keep} />}
+      <UpdateBadge />
       <span className="status" data-status={p.status}>
         {p.status}
       </span>
