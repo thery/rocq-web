@@ -100,8 +100,9 @@ can be embedded in another with `?embed`, its files then kept in memory
 only, like its libraries and the files it opens, which are fetched again
 at each load (`?embed&lib=...`, `?embed&open=...`). `?temp` makes such a
 temporary session in the full page, for a tutorial or a demo: the user's
-files are neither shown nor changed, a banner says so, and leaving after a
-change asks first. Its button "Keep these files" copies them into the
+files are neither shown nor changed, a badge in the header says so, and
+leaving after a change asks first. Clicked, the badge tells what this means
+and its button "Keep these files" copies them into the
 user's workspace, a folder whose name the user's holds other files going to
 `NAME_2/` as above, with its libraries and opened folders, and loads the
 page again without the link (tested by `tests/temp_session.mjs`). In a page without cross-origin isolation the full build
