@@ -48,6 +48,8 @@ export function PointBar({ root, goals, point }: {
   // (the first part of a link, and its action)
   const [first, setFirst] = useState<(Selected & { action: PointAction }) | null>(null);
   const [status, setStatus] = useState<string | null>(null);
+  // the mouse, followed during a link (null: not followed)
+  const [mouse, setMouse] = useState<{ x: number; y: number } | null>(null);
   const [check, setCheck] = usePersistentState("point-check", false);
   // the actions of the goals shown (asked once a part is selected), or
   // why there are none
@@ -82,6 +84,15 @@ export function PointBar({ root, goals, point }: {
     document.addEventListener("keydown", key);
     return () => document.removeEventListener("keydown", key);
   }, [first]);
+  useEffect(() => {
+    if (!first || selected) {
+      setMouse(null);
+      return;
+    }
+    const move = (e: MouseEvent) => setMouse({ x: e.clientX, y: e.clientY });
+    document.addEventListener("mousemove", move);
+    return () => document.removeEventListener("mousemove", move);
+  }, [first, selected]);
   const shown = selected ?? first;
   if (!shown) return null;
   const list = actions && actions.for === goals ? actions.list : null;
@@ -100,9 +111,15 @@ export function PointBar({ root, goals, point }: {
     setStatus(null);
     document.getSelection()?.removeAllRanges();
   };
-  // (below the selection's end, inside the window)
+  // (below the selection's end, inside the window; during a link, until the
+  // second part is selected, it follows the mouse, a little below and to the
+  // right of it, and lets the mouse through, so that it never covers the
+  // place where the second part is selected)
+  const following = first !== null && selected === null && mouse !== null;
   const box = shown.range.getBoundingClientRect();
-  const style = { left: Math.max(4, Math.min(box.right, window.innerWidth - 430)), top: box.bottom + 4 };
+  const style = following
+    ? { left: Math.max(4, Math.min(mouse.x + 16, window.innerWidth - 430)), top: Math.min(mouse.y + 18, window.innerHeight - 40), pointerEvents: "none" as const }
+    : { left: Math.max(4, Math.min(box.right, window.innerWidth - 430)), top: box.bottom + 4 };
   return (
     // (a click on it keeps the selection)
     <div className="point-bar" style={style} onMouseDown={(e) => e.preventDefault()} data-testid="point-bar">
