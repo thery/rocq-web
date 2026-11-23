@@ -12,8 +12,10 @@ written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
   installed in the switch by `scripts/demo-libs.sh`;
 - the examples `xtext` and `cyp`, first in the Examples panel; a first
   visit opens `xtext`;
-- without upstream's examples Mathematical Components and Equations: the
-  switch has neither library.
+- Mathematical Components 2.6.0 (boot, order, ssreflect, finite-group,
+  fingroup, algebra) on Hierarchy Builder's master, and its example
+  Mathematical Components; without upstream's example Equations: the
+  switch does not have the library.
 
 ## The switch
 
@@ -33,6 +35,15 @@ opam install rocq-elpi.3.7.0                  # with elpi 4.1.1: coq.parse.argum
 curl -L https://gitlab.inria.fr/fbesson/itauto/-/archive/9.1.0/itauto-9.1.0.tar.gz | tar xz
 cd itauto-9.1.0 && patch -p1 < ../rocq-web/patches/itauto-rocq-9.2.patch
 opam pin add -k path coq-itauto .
+# Hierarchy Builder's master: its release 1.10.3 does not build with
+# Elpi 4.1 (math-comp/hierarchy-builder#608, fixed by #605); pinned until
+# a release contains #605
+opam pin add -n rocq-hierarchy-builder.1.10.3+f32130a \
+  git+https://github.com/math-comp/hierarchy-builder.git#f32130a
+# mathcomp-algebra 2.6.0 needs rocq-micromega-plugin (micromega_plugin)
+opam install -j4 rocq-hierarchy-builder rocq-micromega-plugin.1.1.1 \
+  rocq-mathcomp-ssreflect.2.6.0 rocq-mathcomp-fingroup.2.6.0 \
+  rocq-mathcomp-algebra.2.6.0                 # about 16 min with -j4
 ```
 
 ## The xtext and cyp libraries
