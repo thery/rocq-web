@@ -1,11 +1,13 @@
-// Proof by pointing (pbp_select.v of github.com/thery/coq_tmp): parts of a
-// goal selected in the goals panel become the arguments of the tactic
-// `elpi pbp_pattern`, run after the sentence the goals are shown for (as a
-// query: the document unchanged); the pbp line it prints is written after
-// that sentence, its warnings and errors in the log; checked at once if
-// asked (step by step, the checking moved to its end; else the cursor,
-// put after it, shows the goals after it).
-import { type RefObject, useCallback } from "react";
+// Proof by pointing (point_actions.v of github.com/thery/coq_tmp): the
+// actions offered on parts of a goal selected in the goals panel are
+// declared in Rocq; `elpi point_actions` lists them (a JSON notice), `elpi
+// point_run "Name" ...` gives the line of one for the selections. Both are
+// run after the sentence the goals are shown for (as queries: the document
+// unchanged); the line printed is written after that sentence, its warnings
+// and errors in the log; checked at once if asked (step by step, the
+// checking moved to its end; else the cursor, put after it, shows the goals
+// after it).
+import { type RefObject, useCallback, useMemo } from "react";
 import type { EditorHandle } from "../components/editor/Editor";
 import { offsetAt, positionAt, sentenceAt, sentences } from "../lib/sentences";
 import { isRocq } from "../lib/storage";
@@ -19,15 +21,35 @@ import type { Workspace } from "./useWorkspace";
 // not blanks of its text as shown
 export type Pointed = { goal: number; hyp?: string; start: number; end: number };
 
+// An action of point_actions: [kind] point takes one part, link two
+export type PointAction = { name: string; kind: "point" | "link"; doc: string };
+
+export type Pointing = {
+  // the actions where the goals are shown, or why there are none
+  actions: () => Promise<PointAction[] | string>;
+  // writes the line of the action [name] for the parts [ps] (the error, or
+  // null once the line is written)
+  run: (name: string, ps: Pointed[], check: boolean) => Promise<string | null>;
+};
+
 const NOTICE = 3;
 
-// The arguments of pbp_pattern: one part, or two linked (the hypothesis
-// first when the other one is in the conclusion)
-function args(ps: Pointed[]) {
-  const [a, b] = ps.length === 2 && !ps[0].hyp && ps[1].hyp ? [ps[1], ps[0]] : ps;
-  const one = (p: Pointed) => [p.hyp, p.start, p.end].filter((x) => x !== undefined).join(" ");
-  if (!b) return one(a);
-  return a.hyp && !b.hyp ? `${one(a)} ${b.start} ${b.end}` : `${one(a)} ${one(b)}`;
+// The selections of point_run: the parts in the order they were selected
+// (the first is X of the pattern, the second Y)
+const args = (ps: Pointed[]) => ps.map((p) => [p.hyp, p.start, p.end].filter((x) => x !== undefined).join(" ")).join(" ");
+// (a Rocq string)
+const quoted = (s: string) => `"${s.replaceAll('"', '""')}"`;
+
+function parseActions(json: string): PointAction[] | null {
+  try {
+    const a: unknown = JSON.parse(json);
+    if (!Array.isArray(a)) return null;
+    return a.filter(
+      (x): x is PointAction => typeof x?.name === "string" && (x.kind === "point" || x.kind === "link"),
+    ).map((x) => ({ name: x.name, kind: x.kind, doc: typeof x.doc === "string" ? x.doc : "" }));
+  } catch {
+    return null;
+  }
 }
 
 export function usePoint({ session, ws, doc, editor, log }: {
@@ -36,29 +58,47 @@ export function usePoint({ session, ws, doc, editor, log }: {
   doc: Document;
   editor: RefObject<EditorHandle | null>;
   log: (m: string) => void;
-}) {
-  // (the error, or null once the line is written)
-  return useCallback(
-    async (ps: Pointed[], check: boolean): Promise<string | null> => {
+}): Pointing {
+  // [command] run after the sentence the goals are shown for: its
+  // feedback, or the error (the text after "Tactic failure: [tactic]: ")
+  const query = useCallback(
+    async (command: string, tactic: string, quiet = false): Promise<[number, string][] | string> => {
       const c = session.client.current;
       const active = ws.current.current.active;
       const at = doc.goals?.at;
       if (!c || !session.ready.current || !isRocq(active) || !at) return "No goal here.";
+      try {
+        const { feedback } = await c.run(workerUri(active), doc.version.current, at, command);
+        if (!quiet) for (const [level, m] of feedback) if (level < NOTICE) log(`${command} ${m}`);
+        return feedback;
+      } catch (e) {
+        const m = (e as Error).message.replace(/^Coq: /, "");
+        if (!quiet) log(`${command} ${m}`);
+        return m.replace(new RegExp(`^Tactic failure: ${tactic}: `), "");
+      }
+    },
+    [session, ws, doc, log],
+  );
+
+  const actions = useCallback(async () => {
+    const r = await query("elpi point_actions.", "point_actions", true);
+    if (typeof r === "string") return r;
+    const json = r.filter(([level]) => level === NOTICE).at(-1)?.[1];
+    return (json && parseActions(json)) || "point_actions printed no list.";
+  }, [query]);
+
+  const run = useCallback(
+    async (name: string, ps: Pointed[], check: boolean): Promise<string | null> => {
       if (ps.some((p) => p.goal !== ps[0].goal)) return "The two parts are not in the same goal.";
       // (a goal selector for another goal than the first)
       const goal = ps[0].goal > 0 ? `${ps[0].goal + 1}: ` : "";
-      const command = `${goal}elpi pbp_pattern ${args(ps)}.`;
-      let feedback: [number, string][];
-      try {
-        feedback = (await c.run(workerUri(active), doc.version.current, at, command)).feedback;
-      } catch (e) {
-        const m = (e as Error).message.replace(/^Coq: /, "");
-        log(`${command} ${m}`);
-        return m.replace(/^Tactic failure: pbp_pattern: /, "");
-      }
-      for (const [level, m] of feedback) if (level < NOTICE) log(`${command} ${m}`);
-      const line = feedback.filter(([level]) => level === NOTICE).at(-1)?.[1];
-      if (!line) return "pbp_pattern printed no line.";
+      const r = await query(`${goal}elpi point_run ${quoted(name)} ${args(ps)}.`, "point_run");
+      if (typeof r === "string") return r;
+      const line = r.filter(([level]) => level === NOTICE).at(-1)?.[1];
+      if (!line) return "point_run printed no line.";
+      const active = ws.current.current.active;
+      const at = doc.goals?.at;
+      if (!at) return "No goal here.";
       // after the sentence: on a line of its own, indented as it, when
       // nothing follows it on its line
       const text = ws.read(active);
@@ -72,6 +112,8 @@ export function usePoint({ session, ws, doc, editor, log }: {
       if (check && doc.stepByStep) doc.move("cursor", positionAt(ws.read(active), from + written.length));
       return null;
     },
-    [session, ws, doc, editor, log],
+    [query, ws, doc, editor],
   );
+
+  return useMemo(() => ({ actions, run }), [actions, run]);
 }

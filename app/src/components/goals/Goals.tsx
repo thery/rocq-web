@@ -3,7 +3,7 @@
 // hypotheses folded by a click on their names, parts of a goal selected
 // for proof by pointing (Point.tsx).
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import type { Pointed } from "../../hooks/usePoint";
+import type { Pointing } from "../../hooks/usePoint";
 import type { Goal, GoalsResult, Hyp } from "../../lib/lsp";
 import { added, type Text } from "../../lib/pp";
 import { PpView } from "./Pp";
@@ -127,7 +127,7 @@ export function Goals({ result, before, hint, error, point }: {
   before: GoalsResult | null;
   hint?: string;
   error?: string | null;
-  point?: (ps: Pointed[], check: boolean) => Promise<string | null>;
+  point?: Pointing;
 }) {
   const [ref, width] = useColumns();
   // (off by default, as in RocqIDE)

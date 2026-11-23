@@ -15,8 +15,10 @@ written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
 - the example `cyp-tutorial`: coq_tmp's cyp tutorial in one file,
   `tutorial.v`, to step through (installed by coq_tmp's
   `cyp/tutorial/rocq-web.sh`, below);
-- proof by pointing: select a part of a goal, click Point, and the `pbp`
-  line is written in the script (example `pbp`, section below);
+- proof by pointing: select a part of a goal, the bar shows the pointing
+  actions declared in Rocq (Point, Link…, Simplify here, Unfold here,
+  those a file declares), a click writes the line in the script (example
+  `pbp`, section below);
 - Mathematical Components 2.6.0 (boot, order, ssreflect, finite-group,
   fingroup, algebra) on Hierarchy Builder's master, and its example
   Mathematical Components; without upstream's example Equations: the
@@ -97,25 +99,38 @@ but the file has no Rocq error. Under node, its output is coq_tmp's
 
 ## Proof by pointing
 
-An experiment with `pbp.v` and `pbp_select.v` of coq_tmp (see its
-README, section "pbp: proof by pointing"). In the
-goals panel, select a part of a focused goal with the mouse, in its
-conclusion or in the type of a hypothesis: a small bar appears under the
-selection.
+An experiment with `pbp.v`, `pbp_select.v` and `point_actions.v` of
+coq_tmp (see its README, sections "pbp: proof by pointing" and "Pointing
+actions: the protocol for the interfaces"). In the goals panel, select a
+part of a focused goal with the mouse, in its conclusion or in the type
+of a hypothesis: a small bar appears under the selection, with one
+button per pointing action.
 
-- **Point** runs `elpi pbp_pattern S E.` (`H S E` for hypothesis `H`;
-  `N: ...` for goal `N`) after the sentence the goals are shown for, as a
-  query: the document is unchanged. `S E` count the characters that are
-  not blanks of the part's text, so the panel's line breaks do not
+The page knows no action: they are declared in Rocq, and the bar shows
+those loaded at the sentence the goals are shown for.
+
+- **The list.** Once a part is selected, the page runs `elpi
+  point_actions.` after that sentence, as a query (the document is
+  unchanged), and keeps the list it prints (a JSON array of `name`,
+  `kind`, `doc`) for these goals: it is asked again only when the goals
+  shown change. A button per action, in the order of their
+  declarations, its `doc` as tooltip. When the query fails (the file does
+  not load `point_actions`), the bar says so quietly, without buttons.
+- **An action of kind `point`** (`Point`, `Simplify here`, `Unfold
+  here`): its button runs `elpi point_run "Name" S E.` (`H S E` for
+  hypothesis `H`; `N: ...` for goal `N`). `S E` count the characters that
+  are not blanks of the part's text, so the panel's line breaks do not
   matter. The line it prints (`pbp [X in X + _ = _].`) is written after
   that sentence: on a new line indented as it when nothing follows it on
   its line, else after it on the same line; the cursor goes to its end.
   Step by step, Alt+↓ then checks it.
-- **Link…** keeps the selection (highlighted); select the second part and
-  click **Link**: `elpi pbp_pattern S E S' E'` (or `H S E S' E'`, the
-  hypothesis first, or `H S E H' S' E'`). Escape or ✕ forgets the first.
+- **An action of kind `link`** (`Link`): its button is `Name…`; it keeps
+  the part (highlighted); select the second part and click `Name`:
+  `elpi point_run "Name" S E S' E'` (or `H S E S' E'`, `S E H S' E'`,
+  `H S E H' S' E'`), the parts in the order they were selected (the first
+  is `X` of the pattern, the second `Y`). Escape or ✕ forgets the first.
 - The widened warning (`pbp-widened`) and the errors go to the Log panel;
-  an error is also shown in the bar.
+  an error is also shown in the bar (the text after `point_run: `).
 - **check** (a box in the bar, off by default, remembered in the
   browser): the line written is checked at once. Step by step, the
   checking goes to its end (as Alt+→ there), so the goals shown are those
@@ -124,16 +139,36 @@ selection.
   cursor is put after the line in any case, so the goals shown are
   already those after it.
 
+### Declaring an action
+
+Any file can add buttons, after `From coq_tmp Require Import
+point_actions.`, with a template:
+
+```
+PointAction "Name it" point "set x := ({text})." "name the selected subterm".
+```
+
+The kind is `point` (one part) or `link` (two); the last string, the
+tooltip, is optional. The placeholders of the template are `{pattern}`
+(the pattern of pbp, `[X in ...]`), `{revert}` (`move: H; ` for a part
+of a hypothesis), `{local}` (the pattern in the conclusion or in the
+hypothesis the part is in), `{in}` (` in H`), `{head}` (the constant at
+the head of the part) and `{text}` (the part, as printed); an action
+that computes its line is written in Elpi (coq_tmp's README). The
+buttons of the sentences after the declaration have the new action, not
+those before. `PointActions.` prints the actions known at that point
+(name, kind, where declared, template, doc). The demo `pbp_demo.v`
+declares `Name it` between two `PointActions.` lines.
+
 The files come as the example `pbp` (`app/public/examples/pbp`: `pbp.v`,
-`pbp_select.v` as in coq_tmp 65a1f30, a `_RocqProject` `-R . coq_tmp` so
-that their `From coq_tmp Require` works, and `pbp_demo.v`). They stay
-in the example, not in `rocq-xtext-cyp`: one reads them beside the demo,
-and the page compiles them in a few seconds. When coq_tmp's change,
-copy them again from its root. (`pbp.v` has one warning of Elpi, a
-linear variable `H` at line 276, as in coq_tmp.) A file that
-points needs `From elpi Require Import elpi.` and `From coq_tmp Require
-Import pbp_select.` (the `elpi` tactic of the command). Its code:
-`app/src/components/goals/Point.tsx` (the selection, the bar),
-`app/src/hooks/usePoint.ts` (the command, the line written). Test:
-`CHECK=step|all node tests/pbp.mjs` (`CHROME=/usr/bin/google-chrome` for
-the system's Chrome, `SHOTS=DIR` for screenshots).
+`pbp_select.v` and `point_actions.v` as in coq_tmp a7da995, a
+`_RocqProject` `-R . coq_tmp` so that their `From coq_tmp Require`
+works, and `pbp_demo.v`). They stay in the example, not in
+`rocq-xtext-cyp`: one reads them beside the demo, and the page compiles
+them in a few seconds. When coq_tmp's change, copy them again from its
+root. (`pbp.v` has one warning of Elpi, a linear variable `H` at line
+276, as in coq_tmp.) Its code: `app/src/components/goals/Point.tsx` (the
+selection, the bar), `app/src/hooks/usePoint.ts` (the queries, the line
+written). Test: `CHECK=step|all node tests/pbp.mjs`
+(`CHROME=/usr/bin/google-chrome` for the system's Chrome, `SHOTS=DIR`
+for screenshots).

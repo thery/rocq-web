@@ -1,12 +1,13 @@
 // Proof by pointing: a part of a goal selected with the mouse (in its
-// conclusion, or in the type of a hypothesis), a button next to the
-// selection writes the pbp line that brings it to the surface
-// (hooks/usePoint.ts). "Link…" keeps the selection (highlighted), the next
-// one is linked with it; Escape forgets it. "check": the line written is
-// checked at once (remembered).
-import { type RefObject, useEffect, useState } from "react";
+// conclusion, or in the type of a hypothesis), a bar next to the selection
+// shows the pointing actions declared in Rocq (hooks/usePoint.ts), one
+// button each, its doc as tooltip; one of kind point writes its line for
+// the part. One of kind link ("Name…") keeps the part (highlighted), the
+// next one is linked with it ("Name"); Escape forgets it. "check": the line
+// written is checked at once (remembered).
+import { type RefObject, useEffect, useRef, useState } from "react";
 import { usePersistentState } from "../../hooks/usePersistentState";
-import type { Pointed } from "../../hooks/usePoint";
+import type { PointAction, Pointed, Pointing } from "../../hooks/usePoint";
 
 const nonBlanks = (s: string) => [...s].filter((c) => !/\s/.test(c)).length;
 
@@ -36,16 +37,21 @@ function highlight(range: Range | null) {
   else hs.delete("pbp-first");
 }
 
-// [root]: the goals; [goals]: they changed (the selections forgotten)
+// [root]: the goals; [goals]: they changed (the selections forgotten, the
+// actions asked again)
 export function PointBar({ root, goals, point }: {
   root: RefObject<HTMLElement | null>;
   goals: unknown;
-  point: (ps: Pointed[], check: boolean) => Promise<string | null>;
+  point: Pointing;
 }) {
   const [selected, setSelected] = useState<Selected | null>(null);
-  const [first, setFirst] = useState<Selected | null>(null);
+  // (the first part of a link, and its action)
+  const [first, setFirst] = useState<(Selected & { action: PointAction }) | null>(null);
   const [status, setStatus] = useState<string | null>(null);
   const [check, setCheck] = usePersistentState("point-check", false);
+  // the actions of the goals shown (asked once a part is selected), or
+  // why there are none
+  const [actions, setActions] = useState<{ for: unknown; list: PointAction[] | string } | null>(null);
   useEffect(() => {
     const change = () => {
       const s = document.getSelection();
@@ -61,6 +67,14 @@ export function PointBar({ root, goals, point }: {
     setSelected(null);
     setFirst(null);
   }, [goals]);
+  const asked = useRef<unknown>(undefined);
+  useEffect(() => {
+    if (!selected || asked.current === goals) return;
+    asked.current = goals;
+    point.actions().then((list) => {
+      if (asked.current === goals) setActions({ for: goals, list });
+    });
+  }, [selected, goals, point]);
   useEffect(() => {
     highlight(first?.range ?? null);
     if (!first) return;
@@ -70,36 +84,56 @@ export function PointBar({ root, goals, point }: {
   }, [first]);
   const shown = selected ?? first;
   if (!shown) return null;
-  const run = async () => {
+  const list = actions && actions.for === goals ? actions.list : null;
+  const run = async (action: PointAction) => {
     if (!selected) return;
     setStatus("…");
-    const error = await point(first ? [first.p, selected.p] : [selected.p], check);
+    const error = await point.run(action.name, first ? [first.p, selected.p] : [selected.p], check);
     setStatus(error);
     if (error) return;
     setFirst(null);
     document.getSelection()?.removeAllRanges();
   };
-  const keep = () => {
-    setFirst(selected);
+  const keep = (action: PointAction) => {
+    if (!selected) return;
+    setFirst({ ...selected, action });
+    setStatus(null);
     document.getSelection()?.removeAllRanges();
   };
   // (below the selection's end, inside the window)
   const box = shown.range.getBoundingClientRect();
-  const style = { left: Math.max(4, Math.min(box.right, window.innerWidth - 330)), top: box.bottom + 4 };
+  const style = { left: Math.max(4, Math.min(box.right, window.innerWidth - 430)), top: box.bottom + 4 };
   return (
     // (a click on it keeps the selection)
     <div className="point-bar" style={style} onMouseDown={(e) => e.preventDefault()} data-testid="point-bar">
-      {selected ? (
-        <button onClick={run} title={first ? "Write the pbp line linking the two parts" : "Write the pbp line that brings this part to the surface"}>
-          {first ? "Link" : "Point"}
-        </button>
+      {first ? (
+        selected ? (
+          <button onClick={() => run(first.action)} title={first.action.doc || undefined}>
+            {first.action.name}
+          </button>
+        ) : (
+          <span className="muted">Select the part to link it with</span>
+        )
+      ) : list === null ? (
+        <span className="muted">…</span>
+      ) : typeof list === "string" ? (
+        <span className="muted" title={`No pointing actions loaded here (From coq_tmp Require Import point_actions.): ${list}`} data-testid="no-actions">
+          No pointing actions
+        </span>
+      ) : list.length === 0 ? (
+        <span className="muted">No pointing actions</span>
       ) : (
-        <span className="muted">Select the part to link it with</span>
-      )}
-      {selected && !first && (
-        <button onClick={keep} title="Keep this part, then select the one to link it with">
-          Link…
-        </button>
+        list.map((a) =>
+          a.kind === "point" ? (
+            <button key={a.name} onClick={() => run(a)} title={a.doc || undefined}>
+              {a.name}
+            </button>
+          ) : (
+            <button key={a.name} onClick={() => keep(a)} title={`${a.doc ? `${a.doc}. ` : ""}Keep this part, then select the second one`}>
+              {a.name}…
+            </button>
+          ),
+        )
       )}
       {first && (
         <button onClick={() => setFirst(null)} title="Forget the first part (Escape)" aria-label="Cancel">

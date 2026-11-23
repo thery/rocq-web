@@ -1,6 +1,8 @@
 // Proof by pointing (headless Chromium, as tests/browser.mjs): the example
 // pbp opened, parts of goals selected (a Range on the goal's text), the
-// Point bar's buttons, the pbp line written after the sentence.
+// bar's buttons (the actions of point_actions.v, and the one pbp_demo.v
+// declares, after its declaration only), the line written after the
+// sentence.
 //   CHECK=step|all CHROME=/usr/bin/google-chrome SHOTS=DIR node tests/pbp.mjs
 import { launch } from "./launch.mjs";
 
@@ -25,19 +27,19 @@ const idle = async () => {
 await page.goto(`${url}?example=pbp&file=pbp_demo.v`);
 await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("server ready"), null, { timeout: 120000 });
 // (the document opened once pbp.v and pbp_select.v are compiled)
-await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("compiled pbp/pbp_select.v"), null, { timeout: 300000 });
+await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("compiled pbp/point_actions.v"), null, { timeout: 300000 });
 await idle();
 const original = await page.evaluate(() => window.rocqView.state.doc.toString());
 const lines = original.split("\n");
 const goals = page.locator('[data-testid="goals"]');
 
 // The goals after the line [after] then [n] lines (the cursor at its end;
-// step by step, checked up to there), the text as it was
-async function goTo(after, n = 1) {
+// step by step, checked up to there), the text as it was (or [text])
+async function goTo(after, n = 1, text = original) {
   await page.evaluate((t) => {
     const v = window.rocqView;
     if (v.state.doc.toString() !== t) v.dispatch({ changes: { from: 0, to: v.state.doc.length, insert: t } });
-  }, original);
+  }, text);
   const line = lines.findIndex((l) => l.startsWith(after)) + n;
   await page.evaluate((line) => {
     const v = window.rocqView;
@@ -80,6 +82,14 @@ async function select(s, k, { goal = 0, hyp } = {}) {
   );
 }
 
+// The text of [l] now, null if it is not there (textContent would wait
+// for it)
+const textNow = async (l) => ((await l.count()) ? l.first().textContent() : null);
+// The labels of the bar's buttons (once the actions are there)
+async function buttons() {
+  await page.waitForFunction(() => !document.querySelector(".point-bar")?.textContent.startsWith("…"), null, { timeout: 30000 }).catch(() => {});
+  return page.locator(".point-bar button").allTextContents();
+}
 const click = async (label) => {
   await page.locator(".point-bar button", { hasText: new RegExp(`^${label}$`) }).click();
 };
@@ -88,7 +98,7 @@ async function written(line) {
   for (let i = 0; i < 100; i++) {
     const now = await page.evaluate(() => window.rocqView.state.doc.toString());
     if (now !== original) return now.split("\n")[line + 1];
-    const error = await page.locator(".point-bar .error").textContent().catch(() => null);
+    const error = await textNow(page.locator(".point-bar .error"));
     if (error) return `error: ${error}`;
     await page.waitForTimeout(200);
   }
@@ -109,15 +119,23 @@ const cases = [
     line: "move: ab; pbp [X Y in (_ -> X) -> Y].",
     proves: true,
   },
+  // (X is the first part selected: here the conclusion's B)
   {
     name: "linking, conclusion first",
     at: "Lemma modus_ponens",
     sel: [["B", 0], ["B", 0, { hyp: "ab" }]],
-    line: "move: ab; pbp [X Y in (_ -> X) -> Y].",
+    line: "move: ab; pbp [X Y in (_ -> Y) -> X].",
+    proves: true,
   },
   { name: "linking, conclusion", at: "Lemma test_pbp1", sel: [["A", 0], ["A", 1]], line: "pbp [X Y in X /\\ _ -> Y /\\ _]." },
   { name: "second goal", at: "Lemma and_proj", n: 2, sel: [["B", 1, { goal: 1 }]], line: "2: pbp [X in _ -> X]." },
   { name: "nested", at: "Lemma add_comm", sel: [["a + b", 0], ["a", 0]], line: /^error: the two selections/ },
+  { name: "Simplify here", at: "Lemma simplify_unfold", action: "Simplify here", sel: [["1 + 1", 0]], line: "rewrite [X in X + _ = _]/=.", proves: true },
+  { name: "Unfold here", at: "Lemma simplify_unfold", action: "Unfold here", sel: [["double (1 + a)", 0]], line: "rewrite [X in _ = X]/double.", proves: true },
+  { name: "Unfold here, the head", at: "Lemma simplify_unfold", action: "Unfold here", sel: [["double", 0]], line: "rewrite [X in _ = X _]/double." },
+  { name: "Simplify here, hypothesis", at: "Lemma modus_ponens", action: "Simplify here", sel: [["A -> B", 0, { hyp: "ab" }]], line: "rewrite [X in X]/= in ab." },
+  { name: "Name it", at: "Lemma name_it", action: "Name it", sel: [["double (1 + a)", 0]], line: "set x := (double (1 + a)).", proves: true },
+  { name: "Unfold here, a variable", at: "Lemma add_comm", action: "Unfold here", sel: [["a", 0]], line: /^error: the selection is not a constant nor an application of a constant/ },
 ];
 // Selects the parts of [c.sel] (Link… between two), clicks Point or Link
 async function point(c) {
@@ -131,7 +149,24 @@ async function point(c) {
     }
   }
   if (c.name === "linking") await shot("link-second");
-  await click(c.sel.length === 2 ? "Link" : "Point");
+  await click(c.action ?? (c.sel.length === 2 ? "Link" : "Point"));
+}
+
+// The bar lists the actions declared where the goals are shown, in the
+// order of their declarations, each with its doc as tooltip; pbp_demo.v's
+// own after its declaration only
+const four = ["Point", "Link…", "Simplify here", "Unfold here"];
+for (const [at, want] of [["Lemma add_comm", four], ["Lemma simplify_unfold", four], ["Lemma name_it", [...four, "Name it"]]]) {
+  await goTo(at);
+  await select("a", 0);
+  await page.waitForSelector(".point-bar");
+  const got = await buttons();
+  check(JSON.stringify(got) === JSON.stringify(want), `the bar at ${at}: ${JSON.stringify(got)}`);
+  if (at === "Lemma name_it") await shot("actions");
+}
+{
+  const title = await page.locator(".point-bar button", { hasText: /^Point$/ }).getAttribute("title");
+  check(title === "pbp: bring the selected subformula to the surface of the goal", `Point's tooltip: ${JSON.stringify(title)}`);
 }
 
 for (const c of process.env.ONLY === "checked" ? [] : cases) {
@@ -154,18 +189,19 @@ for (const c of process.env.ONLY === "checked" ? [] : cases) {
 }
 // "check": the line written is checked at once (step by step, the
 // checking moved past it; else the cursor after it)
-const concl = () => goals.locator(".concl").first().textContent().catch(() => null);
+const concl = () => textNow(goals.locator(".concl"));
 const problem = async () =>
   mode === "step"
-    ? await page.locator('[data-testid="stopped"]').textContent().catch(() => null)
+    ? await textNow(page.locator('[data-testid="stopped"]'))
     : (await page.locator(".problems li").allTextContents()).join(" | ") || null;
-// The goals once they change from [before], or a problem
-async function after(before) {
+// The goals once they change from [before], or a problem (only a
+// problem, if [fails])
+async function after(before, fails = false) {
   for (let i = 0; i < 150; i++) {
     const p = await problem();
     if (p) return { problem: p };
     const now = await goals.textContent();
-    if (now !== before && !/Nothing checked|Not in a proof/.test(now)) return { goals: now, concl: await concl() };
+    if (!fails && now !== before && !/Nothing checked|Not in a proof/.test(now)) return { goals: now, concl: await concl() };
     await page.waitForTimeout(200);
   }
   return {};
@@ -183,7 +219,7 @@ for (const c of checked) {
   const before = await goals.textContent();
   await point(c);
   const got = await written(line);
-  const r = await after(before);
+  const r = await after(before, c.fails);
   if (c.fails) check(!!r.problem, `${c.name}: ${got}, stopped: ${r.problem}`);
   else if (c.concl) check(!r.problem && r.concl?.trim() === c.concl, `${c.name}: ${got}, ${JSON.stringify(r)}`);
   else {
@@ -195,10 +231,21 @@ for (const c of checked) {
     await page.waitForFunction((l) => window.rocqView.state.doc.line(l + 3).text.includes("pbp"), line, { timeout: 30000 }).catch(() => {});
     const again = await after(r.goals);
     const now = (await page.evaluate(() => window.rocqView.state.doc.toString())).split("\n");
-    check(/pbp/.test(now[line + 2]) && (again.concl !== r.concl || again.problem), `pointing again: ${JSON.stringify(now[line + 2])}, then ${JSON.stringify(again)}`);
+    check(/pbp/.test(now[line + 2]) && (again.goals !== r.goals || again.problem), `pointing again: ${JSON.stringify(now[line + 2])}, then ${JSON.stringify(again)}`);
     await shot("checked-twice");
   }
   if (c.fails) await shot("checked-error");
+}
+// Without point_actions: no buttons, a quiet hint
+{
+  const without = original.replace("From coq_tmp Require Import point_actions.", "From coq_tmp Require Import pbp_select.");
+  await goTo("Lemma add_comm", 1, without);
+  await select("a", 0);
+  await page.waitForSelector(".point-bar");
+  await page.waitForSelector('[data-testid="no-actions"]', { timeout: 30000 }).catch(() => {});
+  const hint = await textNow(page.locator('[data-testid="no-actions"]'));
+  check(!!hint && (await buttons()).length === 0, `without point_actions: ${JSON.stringify(hint)}`);
+  await shot("no-actions");
 }
 await browser.close();
 console.log(`${failed} failed (${mode})`);
