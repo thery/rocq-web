@@ -1,8 +1,8 @@
 // Proof by pointing (headless Chromium, as tests/browser.mjs): the example
 // pbp opened, parts of goals selected (a Range on the goal's text), the
-// bar's buttons (the actions of point_actions.v, and the one pbp_demo.v
-// declares, after its declaration only), the line written after the
-// sentence.
+// bar's buttons (the actions of point_actions.v and point_actions_more.v,
+// and the one pbp_demo.v declares, after its declaration only), the line
+// written after the sentence.
 //   CHECK=step|all CHROME=/usr/bin/google-chrome SHOTS=DIR node tests/pbp.mjs
 import { launch } from "./launch.mjs";
 
@@ -238,7 +238,7 @@ for (const c of checked) {
 }
 // Without point_actions: no buttons, a quiet hint
 {
-  const without = original.replace("From coq_tmp Require Import point_actions.", "From coq_tmp Require Import pbp_select.");
+  const without = original.replace("From coq_tmp Require Import point_actions_more.", "From coq_tmp Require Import pbp_select.");
   await goTo("Lemma add_comm", 1, without);
   await select("a", 0);
   await page.waitForSelector(".point-bar");

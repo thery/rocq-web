@@ -1,6 +1,7 @@
 // The point-actions example (point_actions_tutorial.v): the whole tutorial is
-// checked with no error in the page, and the first click of its section 0
-// writes its line.
+// checked with no error in the page, and the bar of a goal of each stage
+// (part 1, after Simplify here, after Unfold here) has the buttons declared
+// there; a click on the new one writes its line.
 //   ROCQ_WEB_URL=http://localhost:5173/ CHROME=/usr/bin/google-chrome node tests/point-actions.mjs
 import { launch } from "./launch.mjs";
 
@@ -105,10 +106,11 @@ async function written(line) {
 const shot = async (name) => shots && (await page.screenshot({ path: `${shots}/${mode}-${name}.png` }));
 
 // smoke test of the point-actions example: the whole tutorial is checked
-// with no error, and the first click of section 0 writes its line
+// with no error; the bar grows with the tutorial: Point and Link… in part
+// 1, then Simplify here once 2a has declared it, then Unfold here once 2e
+// has; a click on each writes its line
 {
-  const n = original.split("\n").length;
-  await page.evaluate((line) => {
+  await page.evaluate(() => {
     const v = window.rocqView; v.dispatch({ selection: { anchor: v.state.doc.length } }); v.focus();
   });
   await page.keyboard.press("Alt+ArrowRight");
@@ -116,14 +118,26 @@ const shot = async (name) => shots && (await page.screenshot({ path: `${shots}/$
   await page.waitForTimeout(1500);
   const errs = await page.locator(".cm-lintRange-error").count();
   check(errs === 0, `the whole tutorial checked with no error (${errs} error marks)`);
-  const line = await goTo("Lemma pointing_yourself", 2);
-  await select("B", 0);
-  await page.waitForSelector(".point-bar");
-  const got = await buttons();
-  check(got.includes("Point") && got.includes("Simplify here"), `the bar in section 0: ${JSON.stringify(got)}`);
-  await click("Point");
-  const w = await written(line);
-  check(w === "pbp [X in X /\\ _].", `Point writes ${JSON.stringify(w)}`);
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  // [lemma]: the goal after its Proof. (its statement on one line), [s] the k-th occurrence selected
+  // (in [hyp] if given), [want] the buttons, [label] clicked, [line]
+  // the line it writes
+  const stages = [
+    { lemma: "Lemma pointing_and_yourself", s: "B", k: 0, want: ["Point", "Link…"], label: "Point", line: "pbp [X in X /\\ _]." },
+    { lemma: "Lemma simplify_2a", s: "1 + 1", k: 0, want: ["Point", "Link…", "Simplify here"], label: "Simplify here", line: "rewrite /=." },
+    { lemma: "Lemma unfold_2e", s: "double (1 + a)", k: 0, want: ["Point", "Link…", "Simplify here", "Unfold here"], label: "Unfold here", line: "rewrite [X in X = _]/double." },
+  ];
+  for (const { lemma, s, k, want, label, line: expected } of stages) {
+    const line = await goTo(lemma, 1);
+    await select(s, k);
+    await page.waitForSelector(".point-bar");
+    const got = await buttons();
+    check(same(got, want), `the bar at ${lemma.slice(6)}: ${JSON.stringify(got)}`);
+    await click(label);
+    const w = await written(line);
+    check(w === expected, `${label} writes ${JSON.stringify(w)}`);
+    await shot(lemma.slice(6));
+  }
 }
 await browser.close();
 console.log(`${failed} failed (smoke)`);

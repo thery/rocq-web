@@ -1,6 +1,6 @@
 (* pbp: proof by pointing.
    https://github.com/thery/coq_tmp (pbp.v, pbp_select.v,
-   point_actions.v)
+   point_actions.v, point_actions_more.v)
 
    Step into a proof (Alt+↓), select a part of the goal
    with the mouse: a bar under the selection shows the
@@ -21,16 +21,17 @@
    next goal.
 
    The actions are declared in Rocq, with PointAction (the
-   five above in point_actions.v, a sixth one below): the
+   five above in point_actions.v and point_actions_more.v,
+   a sixth one below): the
    bar shows those that are loaded where the goal is.
-   Pointing needs the Require of point_actions below.
+   Pointing needs the Require of point_actions_more below.
 
    pbp has rules for /\, \/, -> and ~ only: the line for
    a part of [a + b = b + a] is a valid pattern (for
    [rewrite [X in ...]] too), but pbp fails on it. *)
 From Stdlib Require Import ssreflect.
 From elpi Require Import elpi.
-From coq_tmp Require Import point_actions.
+From coq_tmp Require Import point_actions_more.
 
 (* Select the first a, or the last one *)
 Lemma add_comm (a b : nat) : a + b = b + a.
@@ -67,7 +68,7 @@ Abort.
 
 (* PointActions shows the actions known at this
    point (under the goals, the cursor after it): the
-   five of point_actions.v. *)
+   five of point_actions.v and point_actions_more.v. *)
 PointActions.
 
 (* An action declared here: from now on, the bar has
