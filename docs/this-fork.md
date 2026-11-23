@@ -16,7 +16,7 @@ written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
   `tutorial.v`, to step through (installed by coq_tmp's
   `cyp/tutorial/rocq-web.sh`, below);
 - proof by pointing: select a part of a goal, the bar shows the pointing
-  actions declared in Rocq (Point, Link…, Simplify here, Unfold here,
+  actions declared in Rocq (Point, Link…, Simplify here, Unfold here, Name occurrence,
   those a file declares), a click writes the line in the script (example
   `pbp`, section below);
 - Mathematical Components 2.6.0 (boot, order, ssreflect, finite-group,

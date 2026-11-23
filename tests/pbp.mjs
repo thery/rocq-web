@@ -155,7 +155,7 @@ async function point(c) {
 // The bar lists the actions declared where the goals are shown, in the
 // order of their declarations, each with its doc as tooltip; pbp_demo.v's
 // own after its declaration only
-const four = ["Point", "Link…", "Simplify here", "Unfold here"];
+const four = ["Point", "Link…", "Simplify here", "Unfold here", "Name occurrence"];
 for (const [at, want] of [["Lemma add_comm", four], ["Lemma simplify_unfold", four], ["Lemma name_it", [...four, "Name it"]]]) {
   await goTo(at);
   await select("a", 0);

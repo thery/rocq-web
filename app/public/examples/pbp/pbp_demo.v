@@ -11,6 +11,8 @@
      surface;
    - Simplify here, Unfold here: a rewrite that simplifies
      the part, or unfolds the constant at its head.
+   - Name occurrence: a set of the part, with its
+     occurrence number ({2}).
    Link… (two parts): select the first one, click Link…,
    select the second one and click Link.  A part of a
    hypothesis can be selected too: the line then starts
@@ -19,7 +21,7 @@
    next goal.
 
    The actions are declared in Rocq, with PointAction (the
-   four above in point_actions.v, a fifth one below): the
+   five above in point_actions.v, a sixth one below): the
    bar shows those that are loaded where the goal is.
    Pointing needs the Require of point_actions below.
 
@@ -65,7 +67,7 @@ Abort.
 
 (* PointActions shows the actions known at this
    point (under the goals, the cursor after it): the
-   four of point_actions.v. *)
+   five of point_actions.v. *)
 PointActions.
 
 (* An action declared here: from now on, the bar has
