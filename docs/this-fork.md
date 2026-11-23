@@ -1,0 +1,61 @@
+# This fork
+
+[rocq-web](https://github.com/rboudrouss/rocq-web) with the proof-text
+tools xtext and cyp of [thery/coq_tmp](https://github.com/thery/coq_tmp),
+written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
+
+- itauto (`From Cdcl Require Import Itauto`, which cyp uses): its plugin
+  is built after itauto's own `make`, which extracts `src/proverPatch.ml`,
+  and `patches/itauto-rocq-9.2.patch` makes its release 9.1.0 build with
+  Rocq 9.2;
+- the opam package `rocq-xtext-cyp`, the libraries of xtext and cyp,
+  installed in the switch by `scripts/demo-libs.sh`;
+- the examples `xtext` and `cyp`, first in the Examples panel; a first
+  visit opens `xtext`.
+
+## The switch
+
+As in [building.md](building.md) (ocaml-emcc a47c6e6 or later: it exports
+the C maths functions that micromega and Elpi's float builtins call), plus:
+
+```sh
+opam pin add -n rocq-core 9.2.0
+opam pin add -n dune 3.23.1                   # 3.24 dropped dune's coq extension
+opam pin add -n rocq-elpi "git+https://github.com/LPCIC/coq-elpi.git#4a8efd92"
+                                              # coq.parse.argument, coq.ltac.name-uvar
+opam install rocq-elpi                        # with elpi 4.0.0
+# itauto's release 9.1.0 and patches/itauto-rocq-9.2.patch: Rocq 9.2's API
+# (Evd.add_constraints, PolyFlags), `Set Itauto Classic` finding
+# Stdlib.Logic.Classical_Prop, the opam bounds (itauto's master follows
+# Rocq's development version, past 9.2)
+curl -L https://gitlab.inria.fr/fbesson/itauto/-/archive/9.1.0/itauto-9.1.0.tar.gz | tar xz
+cd itauto-9.1.0 && patch -p1 < ../rocq-web/patches/itauto-rocq-9.2.patch
+opam pin add -k path coq-itauto .
+```
+
+## The xtext and cyp libraries
+
+```sh
+eval "$(make -s SWITCH=rocq-web env)"
+sh scripts/demo-libs.sh [~/git/coq_tmp [COMMIT]]   # main by default, a few seconds
+node scripts/assets.mjs full out/full/web && node scripts/dist.mjs
+```
+
+`scripts/demo-libs.sh` copies the files the libraries need from a commit
+of coq_tmp into `_src/demo-libs/`, with `demo-libs/Makefile` and
+`demo-libs/rocq-xtext-cyp.opam` (version: the commit's date and hash), and
+pins the package there. `scripts/assets.mjs` then ships it like any other
+package, `.elpi` files included. Its logical names are those of coq_tmp:
+
+| name | folder of coq_tmp | installed |
+|------|-------------------|-----------|
+| `ProofText` | `prooftext/` | `Tactics.vo` and the `.elpi` files xtext and cyp share |
+| `Lexicon` | `lexicon/` | the vocabulary of each language, `.elpi` files |
+| `XText` | `xtext/` | `ExtractText.vo` (`ExtractText`, `ExtractText_partial`) and `elpi/` |
+| `CypV` | `cyp/vernac/` | `Gaps.vo`, `Cyp.vo` (`Cyp Lemma`, `Cyp File`, `CypFile`) and `elpi/` |
+
+The examples follow coq_tmp's main at commit 49f6c78 (package version
+2026.11.20+49f6c78). When coq_tmp changes, rerun `scripts/demo-libs.sh`,
+check that its list of files and `demo-libs/Makefile` still match what
+`ExtractText.v` and `Cyp.v` load (`From ... Extra Dependency`), and that
+each example compiles under node: `node out/full/rocq_web.js compile f.v`.
