@@ -191,6 +191,7 @@ _build/byte-plugins/%.cma: PACKAGE = $(basename $(notdir $(firstword \
 _build/byte-plugins/%.cma: VERSION = $(notdir $(firstword $(wildcard $(OPAM_SWITCH_PREFIX)/.opam-switch/packages/$(PACKAGE).*)))
 prebuild.rocq-metarocq-template = bash ./configure.sh && make -C template-rocq
 prebuild.rocq-relation-algebra = ./configure --enable-ssr --enable-aac && make
+prebuild.coq-itauto = make
 
 _build/byte-plugins/%.cma:
 	echo "$(@F) from $(PACKAGE)"

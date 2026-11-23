@@ -1,0 +1,55 @@
+diff --git a/coq-itauto.opam b/coq-itauto.opam
+--- a/coq-itauto.opam	2025-09-24 18:49:07.000000000 +0200
++++ b/coq-itauto.opam	2026-11-19 14:36:48.000000000 +0100
+@@ -22,7 +22,8 @@
+ install: [make "install"]
+ depends: [
+   "ocaml" {>= "4.9~"}
+-  "coq" {= "dev"}
++  "rocq-core" {>= "9.2" & < "9.3~"}
++  "rocq-stdlib"
+   "dune" {>= "2.9"}
+   "coq-mathcomp-zify" {with-test}
+ ]
+diff --git a/src/cdcl.ml b/src/cdcl.ml
+--- a/src/cdcl.ml	2025-09-24 18:49:07.000000000 +0200
++++ b/src/cdcl.ml	2026-11-19 14:36:48.000000000 +0100
+@@ -301,7 +301,7 @@
+     match EConstr.eq_constr_universes_proj env sigma x y with
+     | Some csts -> (
+       let csts = UnivProblem.Set.force csts in
+-      match Evd.add_universe_constraints sigma csts with
++      match Evd.add_constraints sigma csts with
+       | evd -> Some sigma
+       | exception UGraph.UniverseInconsistency _ -> None )
+     | None -> None
+@@ -1059,7 +1059,7 @@
+       let _, pv, _, _, _ =
+         Proofview.apply
+           ~name:(Names.Id.of_string "unsat_core")
+-          ~poly:false env
++          ~poly:(PolyFlags.of_univ_poly false) env
+           (Tacticals.tclTHENLIST
+              [ dirty_intros cids
+              ; Tacticals.tclCOMPLETE tac ])
+@@ -1272,7 +1272,7 @@
+   let (e,pv) = Proofview.init sigma [(env,gl)] in
+   let env,_,_,_,_ =  Proofview.apply
+                     ~name:(Names.Id.of_string "dirty_clear")
+-                    ~poly:false env
++                    ~poly:(PolyFlags.of_univ_poly false) env
+                     (Proofview.tclTHEN (Tactics.keep []) get_env)   pv in
+   env
+ 
+@@ -1596,6 +1596,10 @@
+ 
+ let nnpp =
+   Proofview.Goal.enter (fun gl ->
+-      if use_classic () && is_loaded_library ["Coq"; "Logic"; "Classical_Prop"] then
++      (* the classical library: Stdlib.Logic.Classical_Prop since Rocq 9,
++         Coq.Logic.Classical_Prop before *)
++      if use_classic ()
++         && (is_loaded_library ["Stdlib"; "Logic"; "Classical_Prop"]
++             || is_loaded_library ["Coq"; "Logic"; "Classical_Prop"]) then
+         Tactics.apply (Lazy.force coq_nnpp)
+       else Tacticals.tclIDTAC)
