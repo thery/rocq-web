@@ -32,6 +32,7 @@ import { useKeyboard, useMobile } from "./hooks/useMobile";
 import { useNavigation } from "./hooks/useNavigation";
 import { openedSpecs, useOpenLink } from "./hooks/useOpenLink";
 import { usePersistentState } from "./hooks/usePersistentState";
+import { usePoint } from "./hooks/usePoint";
 import { useQueries } from "./hooks/useQueries";
 import { useRocqSession } from "./hooks/useRocqSession";
 import { useWorkspace } from "./hooks/useWorkspace";
@@ -60,6 +61,7 @@ export function App() {
   const doc = useDocument({ session, ws, editor, log });
   const nav = useNavigation({ session, ws, doc, editor, packages: session.packages, log });
   const queries = useQueries({ session, ws, doc });
+  const point = usePoint({ session, ws, doc, editor, log });
   const libs = useLibraries(ws, log);
   const opened = useOpenLink(ws, log);
 
@@ -175,7 +177,7 @@ export function App() {
     : undefined;
   const goals = (
     <div className="goals" data-testid="goals">
-      <Goals result={doc.goals?.now ?? null} before={doc.goals?.before ?? null} hint={hint} error={doc.stopped} />
+      <Goals result={doc.goals?.now ?? null} before={doc.goals?.before ?? null} hint={hint} error={doc.stopped} point={point} />
     </div>
   );
   const problems = <ProblemsPanel diagnostics={doc.diagnostics} goTo={nav.goTo} depError={doc.depError} />;

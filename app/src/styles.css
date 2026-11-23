@@ -100,6 +100,12 @@ aside.right .tabs { flex: 2; }
 .hyp-name { border: 0; background: none; padding: 0; font: inherit; font-weight: 700; color: inherit; }
 .diff-added { background: #d4f5d4; border-radius: 2px; }
 .hyp.diff-new { background: #e6f7e6; }
+.point-bar { position: fixed; z-index: 20; display: flex; align-items: center; gap: 0.3rem; padding: 0.15rem; background: #fff; border: 1px solid #d0d4dc; border-radius: 5px; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); font-family: system-ui, sans-serif; font-size: 0.75rem; max-width: 320px; }
+.point-bar button { border: 0; background: none; padding: 0.1rem 0.45rem; border-radius: 3px; font: inherit; color: inherit; }
+.point-bar button:hover { background: #eef1f6; }
+.point-bar .muted, .point-bar .error { padding: 0 0.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.point-bar .error { color: #b00020; }
+::highlight(pbp-first) { background: #ffe08a; }
 .pp-constr-keyword { color: #7a3e9d; }
 .pp-constr-notation { color: #555; }
 .pp-constr-variable { color: #1f5fa8; }
@@ -193,6 +199,10 @@ button.info:hover, button.info[aria-expanded="true"] { color: #3b6fd8; }
   .kind { color: #c19ae6; }
   .diff-added { background: #24502b; }
   .hyp.diff-new { background: #1e3a24; }
+  .point-bar { background: #282c34; border-color: #444b58; }
+  .point-bar button:hover { background: #333946; }
+  .point-bar .error { color: #ff7b7b; }
+  ::highlight(pbp-first) { background: #5c4a14; }
   .pp-constr-keyword { color: #c678dd; }
   .pp-constr-notation { color: #abb2bf; }
   .pp-constr-variable { color: #61afef; }

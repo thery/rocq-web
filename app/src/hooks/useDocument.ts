@@ -14,7 +14,8 @@ import { workerUri } from "../lib/workspaces";
 import type { Session } from "./useRocqSession";
 import type { Workspace } from "./useWorkspace";
 
-export type Goals = { now: GoalsResult; before: GoalsResult | null };
+// (at: the point they are for, where a query about them runs)
+export type Goals = { now: GoalsResult; before: GoalsResult | null; at: Position };
 
 // Where the checking goes: the next sentence, the previous one, the
 // cursor, the start, the end
@@ -96,7 +97,7 @@ export function useDocument({
         // (before the sentence: at its start)
         const s = sentenceAt(sentences(text), offsetAt(text, at));
         const before = s ? await c.goals(uri, v, positionAt(text, s.start), "Prev").catch(() => null) : null;
-        if (current()) setGoals({ now, before });
+        if (current()) setGoals({ now, before, at });
       },
       (e: Error) => log(`goals: ${e.message}`),
     );

@@ -74,3 +74,35 @@ The examples follow coq_tmp's main at commit 49f6c78 (package version
 `demo-libs/Makefile` still match what `ExtractText.v` and `Cyp.v` load
 (`From ... Extra Dependency`), and that each example compiles under node:
 `node out/full/rocq_web.js compile f.v`.
+
+## Proof by pointing (branch `pbp-click`)
+
+An experiment with `pbp.v` and `pbp_select.v` of coq_tmp (branch
+`pbp-select`, see its README, section "pbp: proof by pointing"). In the
+goals panel, select a part of a focused goal with the mouse, in its
+conclusion or in the type of a hypothesis: a small bar appears under the
+selection.
+
+- **Point** runs `elpi pbp_pattern S E.` (`H S E` for hypothesis `H`;
+  `N: ...` for goal `N`) after the sentence the goals are shown for, as a
+  query: the document is unchanged. `S E` count the characters that are
+  not blanks of the part's text, so the panel's line breaks do not
+  matter. The line it prints (`pbp [X in X + _ = _].`) is written after
+  that sentence: on a new line indented as it when nothing follows it on
+  its line, else after it on the same line; the cursor goes to its end.
+  Step by step, Alt+↓ then checks it.
+- **Link…** keeps the selection (highlighted); select the second part and
+  click **Link**: `elpi pbp_pattern S E S' E'` (or `H S E S' E'`, the
+  hypothesis first, or `H S E H' S' E'`). Escape or ✕ forgets the first.
+- The widened warning (`pbp-widened`) and the errors go to the Log panel;
+  an error is also shown in the bar.
+
+The files come as the example `pbp` (`app/public/examples/pbp`: `pbp.v`,
+`pbp_select.v` as in coq_tmp 9083864, a `_RocqProject` `-R . coq_tmp` so
+that their `From coq_tmp Require` works, and `pbp_demo.v`). A file that
+points needs `From elpi Require Import elpi.` and `From coq_tmp Require
+Import pbp_select.` (the `elpi` tactic of the command). Its code:
+`app/src/components/goals/Point.tsx` (the selection, the bar),
+`app/src/hooks/usePoint.ts` (the command, the line written). Test:
+`CHECK=step|all node tests/pbp.mjs` (`CHROME=/usr/bin/google-chrome` for
+the system's Chrome, `SHOTS=DIR` for screenshots).

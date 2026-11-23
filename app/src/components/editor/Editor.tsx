@@ -26,6 +26,8 @@ export type EditorHandle = {
   insertLine: (text: string) => void;
   // Types [text] at the cursor (over the selection)
   insert: (text: string) => void;
+  // Writes [text] at [p], the cursor after it
+  insertAt: (p: Position, text: string) => void;
 };
 
 type Props = {
@@ -266,6 +268,13 @@ export const Editor = forwardRef<EditorHandle, Props>(function Editor(props, ref
       if (!v) return;
       v.dispatch(v.state.replaceSelection(text), { scrollIntoView: true });
       v.focus();
+    },
+    insertAt(p, text) {
+      const v = view.current;
+      if (!v) return;
+      const from = offset(v.state.doc, p);
+      v.dispatch({ changes: { from, insert: text }, selection: { anchor: from + text.length }, scrollIntoView: true });
+      if (callbacks.current.focusOnGoTo !== false || v.hasFocus) v.focus();
     },
   }));
 

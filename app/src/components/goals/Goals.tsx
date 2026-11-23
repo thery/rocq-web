@@ -1,10 +1,13 @@
 // The goals at the cursor: Rocq's documents laid out for the panel's
 // width, what the sentence changed highlighted (the goals before it), the
-// hypotheses folded by a click on their names.
+// hypotheses folded by a click on their names, parts of a goal selected
+// for proof by pointing (Point.tsx).
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { Pointed } from "../../hooks/usePoint";
 import type { Goal, GoalsResult, Hyp } from "../../lib/lsp";
 import { added, type Text } from "../../lib/pp";
 import { PpView } from "./Pp";
+import { PointBar } from "./Point";
 
 // The panel's width in characters
 function useColumns() {
@@ -57,7 +60,9 @@ function HypView({ hyp, before, width, diffs, folded, fold }: {
             </>
           )}
           {" : "}
-          <PpView text={hyp.ty} width={width} start={names.length + 3} highlight={diffs && before ? added(before.ty, hyp.ty) : undefined} />
+          <span data-part data-hyp={hyp.names[0]}>
+            <PpView text={hyp.ty} width={width} start={names.length + 3} highlight={diffs && before ? added(before.ty, hyp.ty) : undefined} />
+          </span>
         </>
       )}
     </div>
@@ -65,13 +70,14 @@ function HypView({ hyp, before, width, diffs, folded, fold }: {
 }
 
 // (open: its hypotheses shown at first, as RocqIDE those of the first goal
-// only)
-function GoalView({ goal, before, index, total, open: opened, width, diffs, folded, fold }: {
+// only; focused: its parts can be pointed at)
+function GoalView({ goal, before, index, total, open: opened, focused, width, diffs, folded, fold }: {
   goal: Goal;
   before?: Goal;
   index: number;
   total: number;
   open: boolean;
+  focused: boolean;
   width: number;
   diffs: boolean;
   folded: Set<string>;
@@ -80,7 +86,7 @@ function GoalView({ goal, before, index, total, open: opened, width, diffs, fold
   const [open, setOpen] = useState(opened);
   const prev = new Map((before?.hyps ?? []).flatMap((h) => h.names.map((n) => [n, h] as const)));
   return (
-    <div className="goal">
+    <div className="goal" data-goal={focused ? index : undefined}>
       {open &&
         goal.hyps.map((h, i) => (
           <HypView
@@ -97,7 +103,7 @@ function GoalView({ goal, before, index, total, open: opened, width, diffs, fold
         ({index + 1}/{total})
         {!open && goal.hyps.length > 0 && ` ${goal.hyps.length} hypotheses`}
       </button>
-      <div className="concl">
+      <div className="concl" data-part>
         <PpView text={goal.ty} width={width} highlight={diffs && before ? added(before.ty, goal.ty) : undefined} />
       </div>
     </div>
@@ -114,12 +120,14 @@ export function beforeOf(b: Goal[], n: number, i: number): Goal | undefined {
 const text = (m: Text | { level: number; text: Text }) => (typeof m === "object" && !Array.isArray(m) ? m.text : m);
 
 // [result]: the goals after a sentence, [before]: before it (hint: shown
-// without goals; error: the one the checking stopped before)
-export function Goals({ result, before, hint, error }: {
+// without goals; error: the one the checking stopped before; point: the
+// parts of the goals selected, proof by pointing)
+export function Goals({ result, before, hint, error, point }: {
   result: GoalsResult | null;
   before: GoalsResult | null;
   hint?: string;
   error?: string | null;
+  point?: (ps: Pointed[]) => Promise<string | null>;
 }) {
   const [ref, width] = useColumns();
   // (off by default, as in RocqIDE)
@@ -145,6 +153,7 @@ export function Goals({ result, before, hint, error }: {
         index={i}
         total={goals.length}
         open={focused && i === 0}
+        focused={focused}
         width={width}
         diffs={diffs && focused}
         folded={folded}
@@ -181,6 +190,7 @@ export function Goals({ result, before, hint, error }: {
       )}
       {g && g.shelf.length > 0 && <p className="muted">{g.shelf.length} shelved</p>}
       {g && g.given_up.length > 0 && <p className="muted">{g.given_up.length} given up</p>}
+      {point && <PointBar root={ref} goals={result} point={point} />}
       {error && <pre className="error" data-testid="stopped">{error}</pre>}
       {result?.error && (
         <pre className="error">
