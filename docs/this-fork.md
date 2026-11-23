@@ -11,7 +11,9 @@ written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
 - the opam package `rocq-xtext-cyp`, the libraries of xtext and cyp,
   installed in the switch by `scripts/demo-libs.sh`;
 - the examples `xtext` and `cyp`, first in the Examples panel; a first
-  visit opens `xtext`.
+  visit opens `xtext`;
+- without upstream's examples Mathematical Components and Equations: the
+  switch has neither library.
 
 ## The switch
 
@@ -21,9 +23,9 @@ the C maths functions that micromega and Elpi's float builtins call), plus:
 ```sh
 opam pin add -n rocq-core 9.2.0
 opam pin add -n dune 3.23.1                   # 3.24 dropped dune's coq extension
-opam pin add -n rocq-elpi "git+https://github.com/LPCIC/coq-elpi.git#4a8efd92"
-                                              # coq.parse.argument, coq.ltac.name-uvar
-opam install rocq-elpi                        # with elpi 4.0.0
+opam repo add --this-switch rocq-released https://rocq-prover.org/opam/released
+opam install rocq-elpi.3.7.0                  # with elpi 4.1.1: coq.parse.argument,
+                                              # coq.ltac.name-uvar (xtext and cyp)
 # itauto's release 9.1.0 and patches/itauto-rocq-9.2.patch: Rocq 9.2's API
 # (Evd.add_constraints, PolyFlags), `Set Itauto Classic` finding
 # Stdlib.Logic.Classical_Prop, the opam bounds (itauto's master follows
@@ -55,7 +57,9 @@ package, `.elpi` files included. Its logical names are those of coq_tmp:
 | `CypV` | `cyp/vernac/` | `Gaps.vo`, `Cyp.vo` (`Cyp Lemma`, `Cyp File`, `CypFile`) and `elpi/` |
 
 The examples follow coq_tmp's main at commit 49f6c78 (package version
-2026.11.20+49f6c78). When coq_tmp changes, rerun `scripts/demo-libs.sh`,
-check that its list of files and `demo-libs/Makefile` still match what
-`ExtractText.v` and `Cyp.v` load (`From ... Extra Dependency`), and that
-each example compiles under node: `node out/full/rocq_web.js compile f.v`.
+2026.11.20+49f6c78), which works unchanged with rocq-elpi 3.7.0 and Elpi
+4.1.1, as with Elpi 4.0.0. When coq_tmp changes, rerun
+`scripts/demo-libs.sh`, check that its list of files and
+`demo-libs/Makefile` still match what `ExtractText.v` and `Cyp.v` load
+(`From ... Extra Dependency`), and that each example compiles under node:
+`node out/full/rocq_web.js compile f.v`.
