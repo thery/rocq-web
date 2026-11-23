@@ -12,6 +12,11 @@ written in Rocq-Elpi. The branch `elpi-files` is upstream's `main` plus:
   installed in the switch by `scripts/demo-libs.sh`;
 - the examples `xtext` and `cyp`, first in the Examples panel; a first
   visit opens `xtext`;
+- the example `cyp-tutorial`: coq_tmp's cyp tutorial in one file,
+  `tutorial.v`, to step through (installed by coq_tmp's
+  `cyp/tutorial/rocq-web.sh`, below);
+- proof by pointing: select a part of a goal, click Point, and the `pbp`
+  line is written in the script (example `pbp`, section below);
 - Mathematical Components 2.6.0 (boot, order, ssreflect, finite-group,
   fingroup, algebra) on Hierarchy Builder's master, and its example
   Mathematical Components; without upstream's example Equations: the
@@ -67,18 +72,33 @@ package, `.elpi` files included. Its logical names are those of coq_tmp:
 | `XText` | `xtext/` | `ExtractText.vo` (`ExtractText`, `ExtractText_partial`) and `elpi/` |
 | `CypV` | `cyp/vernac/` | `Gaps.vo`, `Cyp.vo` (`Cyp Lemma`, `Cyp File`, `CypFile`) and `elpi/` |
 
-The examples follow coq_tmp's main at commit 49f6c78 (package version
-2026.11.20+49f6c78), which works unchanged with rocq-elpi 3.7.0 and Elpi
-4.1.1, as with Elpi 4.0.0. When coq_tmp changes, rerun
+The examples follow coq_tmp's main at commit 65a1f30 (package version
+2026.11.23+65a1f30), with rocq-elpi 3.7.0 and Elpi 4.1.1. Its
+`Tactics.v` has the command `CypJustification` (a word of the proofs
+declared to mean a tactic), which the tutorial uses. When coq_tmp changes, rerun
 `scripts/demo-libs.sh`, check that its list of files and
 `demo-libs/Makefile` still match what `ExtractText.v` and `Cyp.v` load
 (`From ... Extra Dependency`), and that each example compiles under node:
 `node out/full/rocq_web.js compile f.v`.
 
-## Proof by pointing (branch `pbp-click`)
+## The cyp tutorial
 
-An experiment with `pbp.v` and `pbp_select.v` of coq_tmp (branch
-`pbp-select`, see its README, section "pbp: proof by pointing"). In the
+```sh
+sh ~/git/coq_tmp/cyp/tutorial/rocq-web.sh app/public/examples
+```
+
+copies coq_tmp's `cyp/tutorial/tutorial.v` (the whole tutorial, chapter
+by chapter, in one Rocq file) to `app/public/examples/cyp-tutorial/` and
+adds its entry to `index.json`, after `cyp`. The page opens it with
+`?example=cyp-tutorial&file=tutorial.v`. Some of its proofs are wrong on
+purpose (the chapter on errors): cyp marks their nodes ❌ in the messages,
+but the file has no Rocq error. Under node, its output is coq_tmp's
+`cyp/tutorial/expected/rocq/tutorial.out`.
+
+## Proof by pointing
+
+An experiment with `pbp.v` and `pbp_select.v` of coq_tmp (see its
+README, section "pbp: proof by pointing"). In the
 goals panel, select a part of a focused goal with the mouse, in its
 conclusion or in the type of a hypothesis: a small bar appears under the
 selection.
@@ -105,8 +125,12 @@ selection.
   already those after it.
 
 The files come as the example `pbp` (`app/public/examples/pbp`: `pbp.v`,
-`pbp_select.v` as in coq_tmp 9083864, a `_RocqProject` `-R . coq_tmp` so
-that their `From coq_tmp Require` works, and `pbp_demo.v`). A file that
+`pbp_select.v` as in coq_tmp 65a1f30, a `_RocqProject` `-R . coq_tmp` so
+that their `From coq_tmp Require` works, and `pbp_demo.v`). They stay
+in the example, not in `rocq-xtext-cyp`: one reads them beside the demo,
+and the page compiles them in a few seconds. When coq_tmp's change,
+copy them again from its root. (`pbp.v` has one warning of Elpi, a
+linear variable `H` at line 276, as in coq_tmp.) A file that
 points needs `From elpi Require Import elpi.` and `From coq_tmp Require
 Import pbp_select.` (the `elpi` tactic of the command). Its code:
 `app/src/components/goals/Point.tsx` (the selection, the bar),
