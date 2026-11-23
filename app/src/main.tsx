@@ -21,14 +21,39 @@ if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
   meta?.setAttribute("content", `${meta.getAttribute("content")}, maximum-scale=1`);
 }
 
-// An example of a link (?example=ID, its file ?file=NAME active)
+// The example opened on a first visit: this fork's demo of xtext (not for
+// a link that brings its own files: ?example, ?open, ?lib, #share, #files,
+// nor in a temporary or embedded session)
+const firstExample = "xtext";
+
+// [firstVisit()]: true until an example has been opened in this browser
+// (its storage remembers it, visited() records it once the example is
+// loaded, so that a reload of the page before that, for cross-origin
+// isolation, does not skip it; without storage, every visit is a first one)
+function firstVisit(params: URLSearchParams) {
+  if (temporary || params.has("open") || params.has("lib") || /^#(share|files)=/.test(location.hash)) return false;
+  try {
+    return !localStorage.getItem("rocq-web:visited");
+  } catch {
+    return true;
+  }
+}
+function visited() {
+  try {
+    localStorage.setItem("rocq-web:visited", "1");
+  } catch {}
+}
+
+// An example of a link (?example=ID, its file ?file=NAME active), or on a
+// first visit firstExample
 async function openExample() {
   const params = new URLSearchParams(location.search);
-  const id = params.get("example");
+  const id = params.get("example") ?? (firstVisit(params) ? firstExample : null);
   if (!id) return;
   const e = (await examples()).find((e) => e.id === id);
   if (!e) return;
   const paths = await loadExample(e);
+  if (!temporary) visited();
   const file = params.get("file");
   setActiveFile(paths.find((p) => p.endsWith(`/${file}`)) ?? paths[0]);
   if (!temporary) {
