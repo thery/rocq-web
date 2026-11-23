@@ -2,8 +2,10 @@
 // conclusion, or in the type of a hypothesis), a button next to the
 // selection writes the pbp line that brings it to the surface
 // (hooks/usePoint.ts). "Link…" keeps the selection (highlighted), the next
-// one is linked with it; Escape forgets it.
+// one is linked with it; Escape forgets it. "check": the line written is
+// checked at once (remembered).
 import { type RefObject, useEffect, useState } from "react";
+import { usePersistentState } from "../../hooks/usePersistentState";
 import type { Pointed } from "../../hooks/usePoint";
 
 const nonBlanks = (s: string) => [...s].filter((c) => !/\s/.test(c)).length;
@@ -38,11 +40,12 @@ function highlight(range: Range | null) {
 export function PointBar({ root, goals, point }: {
   root: RefObject<HTMLElement | null>;
   goals: unknown;
-  point: (ps: Pointed[]) => Promise<string | null>;
+  point: (ps: Pointed[], check: boolean) => Promise<string | null>;
 }) {
   const [selected, setSelected] = useState<Selected | null>(null);
   const [first, setFirst] = useState<Selected | null>(null);
   const [status, setStatus] = useState<string | null>(null);
+  const [check, setCheck] = usePersistentState("point-check", false);
   useEffect(() => {
     const change = () => {
       const s = document.getSelection();
@@ -70,7 +73,7 @@ export function PointBar({ root, goals, point }: {
   const run = async () => {
     if (!selected) return;
     setStatus("…");
-    const error = await point(first ? [first.p, selected.p] : [selected.p]);
+    const error = await point(first ? [first.p, selected.p] : [selected.p], check);
     setStatus(error);
     if (error) return;
     setFirst(null);
@@ -103,6 +106,9 @@ export function PointBar({ root, goals, point }: {
           ✕
         </button>
       )}
+      <label title="Check the line once written">
+        <input type="checkbox" checked={check} onChange={(e) => setCheck(e.target.checked)} /> check
+      </label>
       {status && <span className={status === "…" ? "muted" : "error"} title={status}>{status}</span>}
     </div>
   );

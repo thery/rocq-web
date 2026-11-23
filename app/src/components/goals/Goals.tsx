@@ -127,7 +127,7 @@ export function Goals({ result, before, hint, error, point }: {
   before: GoalsResult | null;
   hint?: string;
   error?: string | null;
-  point?: (ps: Pointed[]) => Promise<string | null>;
+  point?: (ps: Pointed[], check: boolean) => Promise<string | null>;
 }) {
   const [ref, width] = useColumns();
   // (off by default, as in RocqIDE)

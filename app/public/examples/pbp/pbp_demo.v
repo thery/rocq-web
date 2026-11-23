@@ -8,8 +8,9 @@
    To link two parts, select the first one, click "Link…",
    select the second one and click "Link".  A part of a
    hypothesis can be selected too: the line then starts
-   with [move: H;].  Pointing needs the two Require of
-   elpi and pbp_select below.
+   with [move: H;].  Tick "check" in the bar to check the
+   line at once, then point at the next goal.  Pointing
+   needs the two Require of elpi and pbp_select below.
 
    pbp has rules for /\, \/, -> and ~ only: the line for
    a part of [a + b = b + a] is a valid pattern (for

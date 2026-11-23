@@ -14,7 +14,9 @@ export function usePersistentState<T>(key: string, initial: T) {
   const set = useCallback(
     (v: T) => {
       setValue(v);
-      localStorage.setItem(k, JSON.stringify(v));
+      try {
+        localStorage.setItem(k, JSON.stringify(v));
+      } catch {}
     },
     [k],
   );

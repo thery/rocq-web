@@ -10,6 +10,7 @@ const shots = process.env.SHOTS;
 
 const browser = await launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
 const page = await browser.newPage({ viewport: { width: 1400, height: 850 } });
+page.setDefaultTimeout(60000);
 await page.addInitScript((m) => localStorage.setItem("rocq-web:check", m), mode);
 page.on("pageerror", (e) => console.log(`[pageerror] ${e.message}`));
 let failed = 0;
@@ -118,8 +119,8 @@ const cases = [
   { name: "second goal", at: "Lemma and_proj", n: 2, sel: [["B", 1, { goal: 1 }]], line: "2: pbp [X in _ -> X]." },
   { name: "nested", at: "Lemma add_comm", sel: [["a + b", 0], ["a", 0]], line: /^error: the two selections/ },
 ];
-for (const c of cases) {
-  const line = await goTo(c.at, c.n);
+// Selects the parts of [c.sel] (Link… between two), clicks Point or Link
+async function point(c) {
   for (const [i, [s, k, o]] of c.sel.entries()) {
     await select(s, k, o);
     await page.waitForSelector(".point-bar button");
@@ -131,6 +132,11 @@ for (const c of cases) {
   }
   if (c.name === "linking") await shot("link-second");
   await click(c.sel.length === 2 ? "Link" : "Point");
+}
+
+for (const c of process.env.ONLY === "checked" ? [] : cases) {
+  const line = await goTo(c.at, c.n);
+  await point(c);
   const got = await written(line);
   check(typeof c.line === "string" ? got === c.line : c.line.test(got), `${c.name}: ${JSON.stringify(got)}`);
   if (c.log) check((await page.textContent(".log")).includes(c.log), `${c.name}: "${c.log}" in the log`);
@@ -145,6 +151,54 @@ for (const c of cases) {
     check(errors.length === 0, `${c.name}: checked ${errors.join(" | ")}`);
     if (c.name === "last A") await shot("checked");
   }
+}
+// "check": the line written is checked at once (step by step, the
+// checking moved past it; else the cursor after it)
+const concl = () => goals.locator(".concl").first().textContent().catch(() => null);
+const problem = async () =>
+  mode === "step"
+    ? await page.locator('[data-testid="stopped"]').textContent().catch(() => null)
+    : (await page.locator(".problems li").allTextContents()).join(" | ") || null;
+// The goals once they change from [before], or a problem
+async function after(before) {
+  for (let i = 0; i < 150; i++) {
+    const p = await problem();
+    if (p) return { problem: p };
+    const now = await goals.textContent();
+    if (now !== before && !/Nothing checked|Not in a proof/.test(now)) return { goals: now, concl: await concl() };
+    await page.waitForTimeout(200);
+  }
+  return {};
+}
+const checked = [
+  { name: "Point, checked", at: "Lemma and_swap", sel: [["A", 1]] },
+  { name: "Link, checked", at: "Lemma modus_ponens", sel: [["B", 0, { hyp: "ab" }], ["B", 0]], concl: "A" },
+  { name: "failing line, checked", at: "Lemma add_comm", sel: [["a", 0]], fails: true },
+];
+for (const c of checked) {
+  const line = await goTo(c.at);
+  await select(...c.sel[0]);
+  await page.waitForSelector(".point-bar input");
+  if (!(await page.locator(".point-bar input").isChecked())) await page.locator(".point-bar input").check();
+  const before = await goals.textContent();
+  await point(c);
+  const got = await written(line);
+  const r = await after(before);
+  if (c.fails) check(!!r.problem, `${c.name}: ${got}, stopped: ${r.problem}`);
+  else if (c.concl) check(!r.problem && r.concl?.trim() === c.concl, `${c.name}: ${got}, ${JSON.stringify(r)}`);
+  else {
+    check(!r.problem && r.concl, `${c.name}: ${got}, then ${JSON.stringify(r.concl)}`);
+    // pointing again, at the new goal (A, with pbp : A /\ B): linking the
+    // two A, its line written after the first
+    await shot("checked-once");
+    await point({ sel: [["A", 0, { hyp: "pbp" }], ["A", 0]] });
+    await page.waitForFunction((l) => window.rocqView.state.doc.line(l + 3).text.includes("pbp"), line, { timeout: 30000 }).catch(() => {});
+    const again = await after(r.goals);
+    const now = (await page.evaluate(() => window.rocqView.state.doc.toString())).split("\n");
+    check(/pbp/.test(now[line + 2]) && (again.concl !== r.concl || again.problem), `pointing again: ${JSON.stringify(now[line + 2])}, then ${JSON.stringify(again)}`);
+    await shot("checked-twice");
+  }
+  if (c.fails) await shot("checked-error");
 }
 await browser.close();
 console.log(`${failed} failed (${mode})`);

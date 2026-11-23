@@ -96,6 +96,13 @@ selection.
   hypothesis first, or `H S E H' S' E'`). Escape or ✕ forgets the first.
 - The widened warning (`pbp-widened`) and the errors go to the Log panel;
   an error is also shown in the bar.
+- **check** (a box in the bar, off by default, remembered in the
+  browser): the line written is checked at once. Step by step, the
+  checking goes to its end (as Alt+→ there), so the goals shown are those
+  after it and one can point again; a line that fails stops the checking
+  before it, its error shown as usual. When checking as you type, the
+  cursor is put after the line in any case, so the goals shown are
+  already those after it.
 
 The files come as the example `pbp` (`app/public/examples/pbp`: `pbp.v`,
 `pbp_select.v` as in coq_tmp 9083864, a `_RocqProject` `-R . coq_tmp` so

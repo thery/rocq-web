@@ -2,7 +2,9 @@
 // goal selected in the goals panel become the arguments of the tactic
 // `elpi pbp_pattern`, run after the sentence the goals are shown for (as a
 // query: the document unchanged); the pbp line it prints is written after
-// that sentence, its warnings and errors in the log.
+// that sentence, its warnings and errors in the log; checked at once if
+// asked (step by step, the checking moved to its end; else the cursor,
+// put after it, shows the goals after it).
 import { type RefObject, useCallback } from "react";
 import type { EditorHandle } from "../components/editor/Editor";
 import { offsetAt, positionAt, sentenceAt, sentences } from "../lib/sentences";
@@ -37,7 +39,7 @@ export function usePoint({ session, ws, doc, editor, log }: {
 }) {
   // (the error, or null once the line is written)
   return useCallback(
-    async (ps: Pointed[]): Promise<string | null> => {
+    async (ps: Pointed[], check: boolean): Promise<string | null> => {
       const c = session.client.current;
       const active = ws.current.current.active;
       const at = doc.goals?.at;
@@ -65,8 +67,9 @@ export function usePoint({ session, ws, doc, editor, log }: {
       const eol = text.indexOf("\n", end) < 0 ? text.length : text.indexOf("\n", end);
       const lineStart = text.lastIndexOf("\n", (s?.start ?? end) - 1) + 1;
       const indent = /^[ \t]*/.exec(text.slice(lineStart))![0];
-      if (/^\s*$/.test(text.slice(end, eol))) editor.current?.insertAt(positionAt(text, eol), `\n${indent}${goal}${line}`);
-      else editor.current?.insertAt(positionAt(text, end), ` ${goal}${line}`);
+      const [from, written] = /^\s*$/.test(text.slice(end, eol)) ? [eol, `\n${indent}${goal}${line}`] : [end, ` ${goal}${line}`];
+      editor.current?.insertAt(positionAt(text, from), written);
+      if (check && doc.stepByStep) doc.move("cursor", positionAt(ws.read(active), from + written.length));
       return null;
     },
     [session, ws, doc, editor, log],
