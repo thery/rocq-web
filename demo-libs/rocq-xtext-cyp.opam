@@ -1,0 +1,19 @@
+opam-version: "2.0"
+synopsis: "Proofs explained as text (xtext) and proofs written as text (cyp)"
+description: """
+From https://github.com/thery/coq_tmp (branch main), in Rocq-Elpi.
+xtext's command ExtractText writes the proof of a lemma as text, in ten
+languages; cyp's command Cyp Lemma checks a proof written as text, step by
+step. Logical names XText, CypV, ProofText and Lexicon."""
+maintainer: "Laurent Théry <Laurent.Thery@inria.fr>"
+authors: "Laurent Théry"
+homepage: "https://github.com/thery/coq_tmp"
+bug-reports: "https://github.com/thery/coq_tmp/issues"
+depends: [
+  "rocq-core" {>= "9.2"}
+  "rocq-stdlib"
+  "rocq-elpi"
+  "coq-itauto"
+]
+build: [make "-j%{jobs}%"]
+install: [make "install"]
