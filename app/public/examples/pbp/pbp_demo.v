@@ -1,6 +1,7 @@
 (* pbp: proof by pointing.
    https://github.com/thery/coq_tmp (pbp.v, pbp_select.v,
-   point_actions.v, point_actions_more.v)
+   point_actions.v, point_actions_more.v,
+   point_actions_show.v, point_actions_notations.v)
 
    Step into a proof (Alt+↓), select a part of the goal
    with the mouse: a bar under the selection shows the
@@ -13,16 +14,25 @@
      the part, or unfolds the constant at its head.
    - Name occurrence: a set of the part, with its
      occurrence number ({2}).
+   - Disable notation, Enable notation: the line that
+     disables (enables) the notation of the part.
    Link… (two parts): select the first one, click Link…,
    select the second one and click Link.  A part of a
    hypothesis can be selected too: the line then starts
    with [move: H;] (or ends with [in H]).  Tick "check" in
    the bar to check the line at once, then point at the
    next goal.
+   The actions that show instead of writing (Type of,
+   Check this, Normal form, Head normal form, Where
+   defined, Unfolds to, Without notations) print their
+   text in the bar; nothing is written (try_show_actions
+   and try_notation_actions at the end).
 
    The actions are declared in Rocq, with PointAction (the
-   five above in point_actions.v and point_actions_more.v,
-   a sixth one below): the
+   five first ones in point_actions.v and
+   point_actions_more.v, the show ones in
+   point_actions_show.v, the notation ones in
+   point_actions_notations.v, and one more below): the
    bar shows those that are loaded where the goal is.
    Pointing needs the Require of point_actions_more below.
 
@@ -31,7 +41,7 @@
    [rewrite [X in ...]] too), but pbp fails on it. *)
 From Stdlib Require Import ssreflect.
 From elpi Require Import elpi.
-From coq_tmp Require Import point_actions_more.
+From coq_tmp Require Import point_actions_more point_actions_notations.
 
 (* Select the first a, or the last one *)
 Lemma add_comm (a b : nat) : a + b = b + a.
@@ -68,7 +78,9 @@ Abort.
 
 (* PointActions shows the actions known at this
    point (under the goals, the cursor after it): the
-   five of point_actions.v and point_actions_more.v. *)
+   five of point_actions.v and point_actions_more.v,
+   the six of point_actions_show.v and the three of
+   point_actions_notations.v. *)
 PointActions.
 
 (* An action declared here: from now on, the bar has
@@ -124,5 +136,36 @@ Abort.
 
 (* pbp [X Y in (X -> H) /\ Y -> _].  move: H.  pbp [X Y in X -> _ -> Y]. *)
 Lemma test_pb6 (A B : Prop) : (A -> B) /\ A -> B.
+Proof.
+Abort.
+
+(* Try the show actions (point_actions_show.v): they show a
+   text in the bar and write nothing.  Select a part and
+   click:
+   - Type of: the type of the part (on 1 + a: 1 + a : nat);
+   - Check this: what Check prints for it;
+   - Normal form, Head normal form: its value (on
+     double 2: double 2 ⇒ 4);
+   - Where defined: its head constant or variable, its
+     kind, its library (on double (1 + a): ...double: a
+     definition, ...; on a: a hypothesis of the goal);
+   - Unfolds to: one unfolding of its head constant (on
+     double (1 + a): double (1 + a) ⇒ 1 + a + (1 + a)). *)
+Lemma try_show_actions (a : nat) (H : double (1 + a) = 2 + a + a) :
+  forall n : nat, n + double 2 = n + 4.
+Proof.
+Abort.
+
+(* Try the notation actions (point_actions_notations.v):
+   - select b * 2 and click Disable notation: the line
+     Disable Notation := (Nat.mul _ _) (all).
+     once checked, the goal prints a + Nat.mul b 2 = b;
+   - select Nat.mul b 2 and click Enable notation: the
+     line Enable Notation := (Nat.mul _ _) (all).  puts
+     it back;
+   - select a part and click Without notations (it
+     shows): the part printed without notations, on the
+     whole goal eq (Nat.add a (Nat.mul b 2)) b. *)
+Lemma try_notation_actions (a b : nat) : a + b * 2 = b.
 Proof.
 Abort.

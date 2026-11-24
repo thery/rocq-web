@@ -1,6 +1,7 @@
 // Proof by pointing (headless Chromium, as tests/browser.mjs): the example
 // pbp opened, parts of goals selected (a Range on the goal's text), the
-// bar's buttons (the actions of point_actions.v and point_actions_more.v,
+// bar's buttons (the actions of point_actions.v, point_actions_more.v,
+// point_actions_show.v and point_actions_notations.v,
 // and the one pbp_demo.v declares, after its declaration only), the line
 // written after the sentence.
 //   CHECK=step|all CHROME=/usr/bin/google-chrome SHOTS=DIR node tests/pbp.mjs
@@ -26,8 +27,8 @@ const idle = async () => {
 };
 await page.goto(`${url}?example=pbp&file=pbp_demo.v`);
 await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("server ready"), null, { timeout: 120000 });
-// (the document opened once pbp.v and pbp_select.v are compiled)
-await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("compiled pbp/point_actions.v"), null, { timeout: 300000 });
+// (the document opened once the files it requires are compiled, point_actions_notations.v last)
+await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("compiled pbp/point_actions_notations.v"), null, { timeout: 300000 });
 await idle();
 const original = await page.evaluate(() => window.rocqView.state.doc.toString());
 const lines = original.split("\n");
@@ -155,8 +156,12 @@ async function point(c) {
 // The bar lists the actions declared where the goals are shown, in the
 // order of their declarations, each with its doc as tooltip; pbp_demo.v's
 // own after its declaration only
-const four = ["Point", "Link…", "Simplify here", "Unfold here", "Name occurrence"];
-for (const [at, want] of [["Lemma add_comm", four], ["Lemma simplify_unfold", four], ["Lemma name_it", [...four, "Name it"]]]) {
+const loaded = [
+  "Point", "Link…", "Simplify here", "Unfold here", "Name occurrence",
+  "Type of", "Check this", "Normal form", "Head normal form", "Where defined", "Unfolds to",
+  "Disable notation", "Enable notation", "Without notations",
+];
+for (const [at, want] of [["Lemma add_comm", loaded], ["Lemma simplify_unfold", loaded], ["Lemma name_it", [...loaded, "Name it"]]]) {
   await goTo(at);
   await select("a", 0);
   await page.waitForSelector(".point-bar");
@@ -238,7 +243,7 @@ for (const c of checked) {
 }
 // Without point_actions: no buttons, a quiet hint
 {
-  const without = original.replace("From coq_tmp Require Import point_actions_more.", "From coq_tmp Require Import pbp_select.");
+  const without = original.replace("From coq_tmp Require Import point_actions_more point_actions_notations.", "From coq_tmp Require Import pbp_select.");
   await goTo("Lemma add_comm", 1, without);
   await select("a", 0);
   await page.waitForSelector(".point-bar");
