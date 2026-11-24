@@ -9,6 +9,7 @@
 // the actions are declared of kind point and the page's list of actions
 // says show for them (MOCK in the output): the rest is real (point_run
 // runs, its text is the one shown).
+// EXAMPLE=pbp-paths (the example pbp-paths, where it exists: by paths).
 //   ROCQ_WEB_URL=http://localhost:5173/ CHROME=/usr/bin/google-chrome node tests/point-show.mjs
 import { launch } from "./launch.mjs";
 
@@ -16,8 +17,10 @@ const url = process.env.ROCQ_WEB_URL ?? "http://localhost:5173/";
 const mode = process.env.CHECK ?? "step";
 const shots = process.env.SHOTS;
 const scratch = ["Echo", "Twice", "Head"];
+const example = process.env.EXAMPLE ?? "pbp";
+const [file, compiled] = example === "pbp-paths" ? ["pbp_paths_demo.v", "point_actions_more.v"] : ["pbp_demo.v", "point_actions.v"];
 
-const actionsFile = await (await fetch(new URL("examples/pbp/point_actions.v", url))).text();
+const actionsFile = await (await fetch(new URL(`examples/${example}/point_actions.v`, url))).text();
 const supported = /point-kind-name show /.test(actionsFile);
 const kind = supported ? "show" : "point";
 console.log(supported ? "the kind show is known by point_actions.v" : "MOCK: point_actions.v does not know the kind show: declared as point, listed as show");
@@ -47,9 +50,9 @@ const idle = async () => {
   await page.waitForTimeout(500);
   await page.waitForSelector('.status[data-status="Idle"]', { timeout: 300000 });
 };
-await page.goto(`${url}?example=pbp&file=pbp_demo.v`);
+await page.goto(`${url}?example=${example}&file=${file}`);
 await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("server ready"), null, { timeout: 120000 });
-await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("compiled pbp/point_actions.v"), null, { timeout: 300000 });
+await page.waitForFunction((m) => document.querySelector(".log")?.textContent.includes(m), `compiled ${example}/${compiled}`, { timeout: 600000 });
 await idle();
 const original = await page.evaluate(() => window.rocqView.state.doc.toString());
 const text = `${original.trimEnd()}
@@ -197,7 +200,11 @@ await select("+ 1");
 await click("Echo");
 const widened = await result();
 check(widened === "1 + 1", `Echo on "+ 1" (widened): ${JSON.stringify(widened)}`);
-check((await page.textContent(".log")).includes("widened to 1 + 1"), "the widening warning in the log");
+if (example === "pbp-paths") {
+  // (by paths: the subterm around the selection, no widening)
+  const last = await page.evaluate(() => window.rocqWebPoint?.());
+  check(/^elpi point_run_path "Echo" "[0-9.]*"\.$/.test(last), `by its path: ${last}`);
+} else check((await page.textContent(".log")).includes("widened to 1 + 1"), "the widening warning in the log");
 
 // an error: in the bar, no text
 await select("a", 0);
