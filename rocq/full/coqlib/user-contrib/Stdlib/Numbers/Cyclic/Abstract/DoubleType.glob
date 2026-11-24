@@ -1,0 +1,79 @@
+DIGEST 24d650ee63b028bfbc71b18b11f8f41a
+FStdlib.Numbers.Cyclic.Abstract.DoubleType
+R878:883 Stdlib.ZArith.BinInt <> <> lib
+R913:921 Stdlib.Numbers.Cyclic.Int63.CarryType <> <> lib
+def 965:968 <> base
+binder 970:975 <> digits:1
+R980:984 Stdlib.ZArith.BinInt Z pow def
+R989:992 Corelib.Numbers.BinNums <> Zpos constr
+R994:999 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> digits:1 var
+R1013:1016 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> base def
+abbrev 1049:1053 <> carry
+R1058:1062 Corelib.Numbers.Cyclic.Int63.CarryType <> carry variant
+abbrev 1089:1090 <> C0
+R1095:1096 Corelib.Numbers.Cyclic.Int63.CarryType <> C0 constr
+abbrev 1123:1124 <> C1
+R1129:1130 Corelib.Numbers.Cyclic.Int63.CarryType <> C1 constr
+def 1160:1171 <> interp_carry
+binder 1174:1174 <> A:2
+R1183:1183 Corelib.Numbers.BinNums <> Z ind
+binder 1178:1181 <> sign:3
+R1188:1188 Corelib.Numbers.BinNums <> Z ind
+binder 1186:1186 <> B:4
+R1199:1202 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1198:1198 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> A:2 var
+R1203:1203 Corelib.Numbers.BinNums <> Z ind
+binder 1191:1196 <> interp:5
+binder 1206:1206 <> c:6
+R1219:1219 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> c:6 var
+R1230:1231 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> C0 abbrev
+R1238:1243 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> interp:5 var
+R1251:1252 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> C1 abbrev
+R1265:1267 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1263:1263 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1259:1262 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> sign:3 var
+R1264:1264 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> B:4 var
+R1268:1273 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> interp:5 var
+ind 1532:1535 <> zn2z
+constr 1555:1556 <> W0
+constr 1567:1568 <> WW
+binder 1538:1540 <> znz:8
+R1560:1563 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> zn2z:9 ind
+R1575:1578 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1572:1574 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> znz:8 var
+R1582:1585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1579:1581 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> znz:8 var
+R1586:1589 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> zn2z:9 ind
+R1602:1605 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> zn2z variant
+def 1638:1646 <> zn2z_to_Z
+binder 1648:1650 <> znz:11
+R1656:1656 Corelib.Numbers.BinNums <> Z ind
+binder 1653:1654 <> wB:12
+R1670:1671 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1667:1669 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> znz:11 var
+R1672:1672 Corelib.Numbers.BinNums <> Z ind
+binder 1660:1665 <> w_to_Z:13
+R1678:1681 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> zn2z variant
+R1683:1685 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> znz:11 var
+binder 1676:1676 <> x:14
+R1699:1699 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> x:14 var
+R1710:1711 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+R1722:1723 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R1748:1750 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1743:1745 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1734:1739 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> w_to_Z:13 var
+R1746:1747 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> wB:12 var
+R1751:1756 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> w_to_Z:13 var
+R1779:1780 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+def 2025:2028 <> word
+binder 2031:2031 <> w:16
+R2041:2043 Corelib.Init.Datatypes <> nat ind
+binder 2039:2039 <> n:17
+R2062:2062 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> n:17 var
+R2072:2072 Corelib.Init.Datatypes <> O constr
+R2077:2077 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> w:16 var
+R2082:2082 Corelib.Init.Datatypes <> S constr
+R2089:2092 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> zn2z variant
+R2095:2098 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> word:18 def
+R2102:2102 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> n:17 var
+R2100:2100 Stdlib.Numbers.Cyclic.Abstract.DoubleType <> w:16 var

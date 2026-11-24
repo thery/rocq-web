@@ -1,0 +1,102 @@
+DIGEST dcc1975eccca754302be819492a1c73e
+FStdlib.Bool.IfProp
+R703:706 Stdlib.Bool.Bool <> <> lib
+ind 720:725 <> IfProp
+constr 760:765 <> Iftrue
+constr 794:800 <> Iffalse
+binder 728:728 <> A:1
+binder 730:730 <> B:2
+R744:747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R740:743 Corelib.Init.Datatypes <> bool ind
+R770:773 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R769:769 Stdlib.Bool.IfProp <> A:1 var
+R774:779 Stdlib.Bool.IfProp <> IfProp:3 ind
+R785:788 Corelib.Init.Datatypes <> true constr
+R783:783 Stdlib.Bool.IfProp <> B:2 var
+R781:781 Stdlib.Bool.IfProp <> A:1 var
+R805:808 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R804:804 Stdlib.Bool.IfProp <> B:2 var
+R809:814 Stdlib.Bool.IfProp <> IfProp:3 ind
+R820:824 Corelib.Init.Datatypes <> false constr
+R818:818 Stdlib.Bool.IfProp <> B:2 var
+R816:816 Stdlib.Bool.IfProp <> A:1 var
+scheme 720:725 <> IfProp_ind
+scheme 720:725 <> IfProp_sind
+prf 880:889 <> Iftrue_inv
+binder 901:901 <> A:5
+binder 903:903 <> B:6
+R914:917 Corelib.Init.Datatypes <> bool ind
+binder 912:912 <> b:7
+R933:936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R921:926 Stdlib.Bool.IfProp <> IfProp ind
+R928:928 Stdlib.Bool.IfProp <> A:5 var
+R930:930 Stdlib.Bool.IfProp <> B:6 var
+R932:932 Stdlib.Bool.IfProp <> b:7 var
+R945:948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R938:940 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R937:937 Stdlib.Bool.IfProp <> b:7 var
+R941:944 Corelib.Init.Datatypes <> true constr
+R949:949 Stdlib.Bool.IfProp <> A:5 var
+R1000:1014 Stdlib.Bool.Bool <> diff_true_false thm
+prf 1045:1055 <> Iffalse_inv
+binder 1068:1068 <> A:8
+binder 1070:1070 <> B:9
+R1081:1084 Corelib.Init.Datatypes <> bool ind
+binder 1079:1079 <> b:10
+R1100:1103 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1088:1093 Stdlib.Bool.IfProp <> IfProp ind
+R1095:1095 Stdlib.Bool.IfProp <> A:8 var
+R1097:1097 Stdlib.Bool.IfProp <> B:9 var
+R1099:1099 Stdlib.Bool.IfProp <> b:10 var
+R1113:1116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1105:1107 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1104:1104 Stdlib.Bool.IfProp <> b:10 var
+R1108:1112 Corelib.Init.Datatypes <> false constr
+R1117:1117 Stdlib.Bool.IfProp <> B:9 var
+R1168:1182 Stdlib.Bool.Bool <> diff_true_false thm
+prf 1216:1226 <> IfProp_true
+binder 1237:1237 <> A:11
+binder 1239:1239 <> B:12
+R1262:1265 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1247:1252 Stdlib.Bool.IfProp <> IfProp ind
+R1254:1254 Stdlib.Bool.IfProp <> A:11 var
+R1256:1256 Stdlib.Bool.IfProp <> B:12 var
+R1258:1261 Corelib.Init.Datatypes <> true constr
+R1266:1266 Stdlib.Bool.IfProp <> A:11 var
+prf 1327:1338 <> IfProp_false
+binder 1349:1349 <> A:13
+binder 1351:1351 <> B:14
+R1375:1378 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1359:1364 Stdlib.Bool.IfProp <> IfProp ind
+R1366:1366 Stdlib.Bool.IfProp <> A:13 var
+R1368:1368 Stdlib.Bool.IfProp <> B:14 var
+R1370:1374 Corelib.Init.Datatypes <> false constr
+R1379:1379 Stdlib.Bool.IfProp <> B:14 var
+prf 1440:1448 <> IfProp_or
+binder 1460:1460 <> A:15
+binder 1462:1462 <> B:16
+R1473:1476 Corelib.Init.Datatypes <> bool ind
+binder 1471:1471 <> b:17
+R1492:1495 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1480:1485 Stdlib.Bool.IfProp <> IfProp ind
+R1487:1487 Stdlib.Bool.IfProp <> A:15 var
+R1489:1489 Stdlib.Bool.IfProp <> B:16 var
+R1491:1491 Stdlib.Bool.IfProp <> b:17 var
+R1497:1500 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1496:1496 Stdlib.Bool.IfProp <> A:15 var
+R1501:1501 Stdlib.Bool.IfProp <> B:16 var
+prf 1551:1560 <> IfProp_sum
+binder 1572:1572 <> A:18
+binder 1574:1574 <> B:19
+R1585:1588 Corelib.Init.Datatypes <> bool ind
+binder 1583:1583 <> b:20
+R1604:1607 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1592:1597 Stdlib.Bool.IfProp <> IfProp ind
+R1599:1599 Stdlib.Bool.IfProp <> A:18 var
+R1601:1601 Stdlib.Bool.IfProp <> B:19 var
+R1603:1603 Stdlib.Bool.IfProp <> b:20 var
+R1608:1608 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1610:1614 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1616:1616 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1609:1609 Stdlib.Bool.IfProp <> A:18 var
+R1615:1615 Stdlib.Bool.IfProp <> B:19 var

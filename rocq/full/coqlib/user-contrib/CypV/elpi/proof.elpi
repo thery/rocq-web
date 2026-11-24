@@ -1,0 +1,480 @@
+% A proof: the tree of its nodes, turned into a Rocq proof.
+%
+% A proof is a verification condition generator.  Each node of the tree
+% (prooftext/nodes.elpi) with variables V, hypotheses H, conclusion C and
+% subnodes P1 ... Pk gives one condition, numbered like the node (Dewey
+% notation: 2.1 is the first subnode of node 2, 0 the top node, the
+% statement): C, in the context made of the variables and hypotheses of
+% the node and of the nodes around it, the subnodes P1 ... Pk, and the
+% nodes before it in its list and before each node around it (R1, the
+% rule of the 2003 paper).  A node is used from outside as ∀ V, H → C
+% (its variables and hypotheses hold in it only), whatever its proof.
+% Each condition is discharged by the node's justifications and facts
+% (check.elpi), or the rules and the default tactics; in proof mode
+% (proof-mode), one that is not becomes a goal of the Proof block.  The
+% condition of an open goal of the text, `C`{.goal}, is not tried: it is
+% a goal of the Proof block (goal-condition).
+% The proof term of a node: fun V H => cyp_have T1 C P1 (fun c1 : T1 =>
+% ... cyp_have Tk C Pk (fun ck : Tk => proof of C)), Ti the subnode Pi
+% seen from outside, ci its name (the name of its conclusion).
+
+% a node of the proof, as cyp checks it: its number, its elements, the
+% name of its conclusion, whether the reader found errors in it, its
+% subnodes (the remarks left out: their subnodes are those of the node
+% around them)
+kind cnode type.
+type cnode string -> list element -> string -> bool -> list cnode -> cnode.
+
+% [proof-node Errors Numbered N]: the node of the proof of the numbered
+% node of prooftext's tree; Errors, the errors of the tree
+pred proof-node i:list prooftext.node-error, i:pair string prooftext.node, o:cnode.
+proof-node Errors (pr Id N) (cnode Id Es Name Flawed Children) :-
+  prooftext.node-parts N Ps, part-elements Ps Es, prooftext.node-name Id Ps Name,
+  (if (std.exists Errors (e\ sigma L E\ e = prooftext.node-error Id L E)) (Flawed = tt) (Flawed = ff)),
+  prooftext.node-children Id N Cs, std.map Cs (proof-node Errors) Children.
+
+% ------------------------------------------------------------------ %
+% Declarations: each variable, hypothesis, conclusion or definition of the
+% proof is declared with its name and its type recorded (under-decl,
+% under-def), so that a hypothesis with no name gets one that nothing in
+% scope has (hyp-name), and that a fact is found among them (check.elpi).
+% (Rocq-Elpi's decl cannot be listed: its first argument is an input.)
+
+% (name-in-scope and local-in-scope, the names declared: text.elpi)
+
+% [under-decl Nm T G]: G x, for a new variable x : T named Nm, declared in
+% the context with its name and its type recorded
+pred under-decl i:name, i:term, i:(term -> prop).
+under-decl Nm T G :- coq.name->id Nm Id,
+  pi x\ (decl x Nm T, name-in-scope Id, local-in-scope x Id T) => G x.
+
+% [under-def Nm T B G]: G x, for a new local definition x : T := B named
+% Nm, declared in the context with its name recorded
+pred under-def i:name, i:term, i:term, i:(term -> prop).
+under-def Nm T B G :- coq.name->id Nm Id,
+  pi x\ (def x Nm T B, name-in-scope Id, local-in-scope x Id T) => G x.
+
+% [under-context C Ty Pf G]: Ty = forall x1 .. xn, T and Pf = fun x1 ..
+% xn => P, for the variables x1 .. xn of the context C (read by
+% coq.parse: "x y : nat"), each declared by under-decl, with G T P under
+% them
+pred under-context i:context-decl, o:term, o:term, i:(term -> term -> prop).
+under-context context-end Ty Pf G :- G Ty Pf.
+under-context (context-item Id _ T _ C) (prod Nm T TyR) (fun Nm T PfR) G :-
+  coq.id->name Id Nm,
+  under-decl Nm T (x\ under-context (C x) (TyR x) (PfR x) G).
+
+% [current-scope Sc]: the notation scope of the formulas (the header's
+% scope:), "" for none
+pred current-scope o:string.
+
+% the report of a node
+kind status type.
+type ok status.
+type ko string -> status.               % the goal not proved
+type bad string -> status.              % an error: an error of the tree, a
+                                        % fact or a name unknown, a conclusion
+                                        % that does not parse
+type unread string -> status.           % an error: a variable, a hypothesis
+                                        % or a definition that does not parse,
+                                        % left out of the node
+type todo string -> status.             % a goal left to the Proof block
+type goal string -> status.             % an open goal of the text
+                                        % ({.goal}): not tried; a goal of the
+                                        % Proof block, or not proved without
+                                        % one
+
+% A node with an error is reported, and the proof goes on: with a
+% conclusion C, its condition is not tried, and in proof mode C is a goal
+% of the Proof block (todo), so that the nodes after it still use C; with
+% no conclusion (none, several, or one that does not parse), the node is
+% ∀ V, H → True, used by nothing, its subnodes checked all the same (their
+% conclusions seen by the subnodes after them, not outside the node).
+kind report type.
+type rep string -> status -> report.    % the number of the node
+
+% proof mode: the conditions not discharged are left to the Proof block
+pred proof-mode.
+% bare mode: no condition is tried; each is printed with its context and
+% left as a hole (implies proof mode)
+pred bare-mode.
+
+% [error-reports Errors Rs]: the reports of the errors of the tree, one per
+% node (its messages joined)
+pred error-reports i:list prooftext.node-error, o:list report.
+error-reports [] [].
+error-reports ([prooftext.node-error Id _ _ | _] as Es) [rep Id (bad M) | Rs] :-
+  std.filter Es (e\ sigma L E\ e = prooftext.node-error Id L E) Mine,
+  std.filter Es (e\ not (sigma L E\ e = prooftext.node-error Id L E)) Others,
+  std.map Mine error-text Ms, std.string.concat "; " Ms M,
+  error-reports Others Rs.
+
+% [error-text E S]: the message of the error E, in the language of the
+% text, with its line (numbered from 1; none for a text with no lines,
+% Cyp Lemma)
+pred error-text i:prooftext.node-error, o:string.
+error-text (prooftext.node-error _ L (prooftext.text-error K As)) S :-
+  msg K As M,
+  if (L < 0) (S = M) (msg "at-line" [{std.any->string {calc (L + 1)}}, M] S).
+
+% ------------------------------------------------------------------ %
+% Formulas
+
+% [parse E T D]: the term of a formula, in the current context
+pred parse i:element, o:term, o:diagnostic.
+parse (elt _ S) T D :-
+  current-scope Sc, P is "(" ^ S ^ ")",
+  coq.parse.argument P ff Sc A D, (D = ok, A = trm T ; true), !.
+parse (eltt _ T0) T D :- coq.elaborate-skeleton T0 _ T D.
+
+% [variables S C D]: the variables S of a Let (e.g. "a b : Z"), as a
+% context C, in the current context; D the diagnostic.  The declaration
+% "Context (S)" is parsed raw and its types elaborated here: elaborated by
+% coq.parse.argument, a Context keeps only its own universes in the
+% universe state (Rocq's interp_context restricts the state to them), so
+% the universes of the formulas parsed before it would be lost and the
+% lemma could not be defined ("Universe ... undefined").
+pred variables i:string, o:context-decl, o:diagnostic.
+variables S C D :-
+  P is "Context (" ^ S ^ ")",
+  coq.parse.argument P tt "" A D0,
+  if (D0 = ok, A = ctx-decl R) (elaborate-context R C D) (D = D0).
+
+% [elaborate-context R C D]: the raw context R elaborated, each variable
+% known to the types after it
+pred elaborate-context i:context-decl, o:context-decl, o:diagnostic.
+elaborate-context context-end context-end ok.
+elaborate-context (context-item Id Imp T0 none R) (context-item Id Imp T none C) D :-
+  coq.elaborate-ty-skeleton T0 _ T D0,
+  if (D0 = ok)
+     (coq.id->name Id N,
+      under-decl N T (x\ elaborate-context (R x) (C x) D))
+     (D = D0).
+elaborate-context (context-item Id Imp T0 (some B0) R) (context-item Id Imp T (some B) C) D :-
+  coq.elaborate-ty-skeleton T0 _ T D0,
+  if (D0 = ok) (coq.elaborate-skeleton B0 T B D1) (D1 = D0),
+  if (D1 = ok)
+     (coq.id->name Id N,
+      under-def N T B (x\ elaborate-context (R x) (C x) D))
+     (D = D1).
+
+% [is-prop T]: the term T is a proposition
+pred is-prop i:term.
+is-prop T :- coq.typecheck T Ty ok, coq.unify-eq Ty (sort prop) ok.
+
+% [diagnostic-text D S]: the message of a diagnostic that is not ok
+pred diagnostic-text i:diagnostic, o:string.
+diagnostic-text (error M) M :- !.
+diagnostic-text _ "".
+
+% the parts of a node
+% [claims Es Cs]: its conclusions (one for a node of the tree)
+pred claims i:list element, o:list element.
+claims L C :- std.filter L is-claim C.
+% [is-claim E]: the element E is a conclusion
+pred is-claim i:element.
+is-claim (elt rclaim _).
+is-claim (eltt rclaim _).
+is-claim E :- is-goal E.
+% [is-goal E]: the element E is an open goal of the text, {.goal}
+pred is-goal i:element.
+is-goal (elt rgoal _).
+is-goal (eltt rgoal _).
+% [is-hyp E]: the element E is a hypothesis
+pred is-hyp i:element.
+is-hyp (elt rhyp _).
+is-hyp (eltt rhyp _).
+% [justifications Es Js]: the names of its justifications
+pred justifications i:list element, o:list string.
+justifications Es Js :- std.map-filter Es (e\ j\ e = just j) Js.
+% [facts Es Fs]: its facts
+pred facts i:list element, o:list element.
+facts Es Fs :- std.filter Es (e\ e = elt rfact _ ; e = eltt rfact _) Fs.
+
+% a variable or a hypothesis of a node, in the order of the text
+kind binder type.
+type var-binder string -> binder.                 % x y : T, or u := e
+type hyp-binder element -> option string -> binder.
+                                                  % a hypothesis and its name
+
+% [node-binders Es Bs]: the variables and hypotheses of the elements Es
+pred node-binders i:list element, o:list binder.
+node-binders [] [].
+node-binders [elt rvar S | Es] [var-binder S | Bs] :- !, node-binders Es Bs.
+node-binders [E | Es] [hyp-binder E Name | Bs] :- is-hyp E, !,
+  name-after Es Name Es1, node-binders Es1 Bs.
+node-binders [_ | Es] Bs :- node-binders Es Bs.
+
+% [name-after L Name Rest]: the name at the head of the elements L, hname
+% N (Name = some N; none if L starts with no name), and the elements
+% after it
+pred name-after i:list element, o:option string, o:list element.
+name-after [hname N | L] (some N) L :- !.
+name-after L none L.
+
+% ------------------------------------------------------------------ %
+% Proving a condition
+
+% [step-proof M I T P R]: the condition I, of type T, proved by P (the
+% method M, check.elpi) or else left to the Proof block or not proved;
+% with CYP_TIME set, the time spent on it is printed
+pred step-proof i:method, i:string, i:term, o:term, o:report.
+step-proof M I T P R :-
+  gettimeofday T0, condition-proof M I T P R, gettimeofday T1,
+  say-time I {calc (T1 - T0)}.
+
+% [condition-proof M I T P R]: as step-proof, without the timing
+pred condition-proof i:method, i:string, i:term, o:term, o:report.
+condition-proof _ I T P (rep I (todo S)) :- bare-mode, !,
+  condition-hole I T P, coq.term->string T S.
+condition-proof M I T P (rep I ok) :- prove M T P, !.
+condition-proof _ I T P (rep I (todo S)) :- proof-mode, !,
+  condition-hole I T P, coq.term->string T S.
+condition-proof _ I T _ (rep I (ko S)) :- coq.term->string T S.
+
+% a hole for the condition I, of type T: a goal of the Proof block, named
+% after the node (condition-ident: the goal of 2.1 is ?c2_1)
+pred condition-hole i:string, i:term, o:term.
+condition-hole I T H :-
+  coq.typecheck H T ok, coq.ltac.name-uvar H {condition-ident I}.
+
+% the identifier of condition Id: c followed by its number, dots as _
+% (2.1 gives c2_1; a Rocq name cannot begin with a digit nor hold a
+% dot); the name of its goal in the Proof block, and of its conclusion in
+% the goals after it when the text gives it no name (prooftext's
+% auto-name)
+pred condition-ident i:string, o:id.
+condition-ident Id N :- prooftext.auto-name Id N.
+
+% [condition Id Es C P Rs]: the condition of node Id, of elements Es and
+% conclusion C: its facts must be hypotheses or conclusions in scope, and
+% its justifications name something known; then it is proved by them,
+% else the error is reported and the condition is not tried
+pred condition i:string, i:list element, i:term, o:term, o:list report.
+condition Id Es C P Rs :-
+  facts Es Fs, std.map Fs fact-hypothesis Found,
+  std.map-filter Found (f\ s\ f = unknown-fact s) Unknown,
+  justifications Es Js, classify Js Ms Gs NotNames,
+  std.map-filter Found (f\ h\ f = known-fact h) Hs,
+  if (Unknown = [S | _]) (Rs = [rep Id (bad {msg "fact-unknown" [S]}) | Rs1], error-condition Id C P Rs1)
+  (if (NotNames = [X | _]) (Rs = [rep Id (bad {msg "name-unknown" [X]}) | Rs1], error-condition Id C P Rs1)
+  (node-method Ms Gs Hs MF,
+   if (MF = wrong M) (Rs = [rep Id (bad M) | Rs1], error-condition Id C P Rs1)
+   (MF = right Me, step-proof Me Id C P R, Rs = [R]))).
+
+% the method of a node, or why it has none
+kind method-found type.
+type right method -> method-found.
+type wrong string -> method-found.      % the message
+
+% [node-method Ms Gs Hs F]: the method of a node of rule and tactic names
+% Ms, names given Gs and facts Hs (the hypotheses they are).  With a
+% fixed method (match, induction: prooftext's method), its objects are
+% the hypotheses and variables named (else the facts), each of the type
+% named, if one is (*nat*{.just}); with a type named and no object, the
+% one hypothesis or variable in scope of that type.  A type named with no
+% fixed method is an error: it names nothing a step can use
+pred node-method i:list string, i:list given, i:list string, o:method-found.
+node-method Ms Gs Hs F :- std.filter Ms prooftext.method [E | _], !,
+  std.filter Ms (m\ not (prooftext.method m)) Ms1,
+  std.map-filter Gs (g\ i\ g = given-lemma (indt i)) Types,
+  std.map-filter Gs (g\ x\ g = given-local x) Named0,
+  std.filter Gs (g\ not (g = given-lemma (indt _)), not (g = given-local _)) Gs1,
+  (if (Named0 = []) (Named = Hs, Hs1 = []) (Named = Named0, Hs1 = Hs)),
+  elimination-objects E Types Named F0,
+  (if (F0 = right-objects Ts)
+     (std.filter Hs1 (h\ not (std.mem Ts h)) Hs2,
+      F = right (eliminating E Ts (method Ms1 Gs1 Hs2)))
+     (F0 = wrong-objects M, F = wrong M)).
+node-method _ Gs _ (wrong M) :- std.mem Gs (given-lemma (indt I)), !,
+  msg "type-alone" [{coq.gref->id (indt I)}] M.
+node-method Ms Gs Hs (right (method Ms Gs Hs)).
+
+% the objects of a fixed method, or why there are none
+kind objects type.
+type right-objects list string -> objects.
+type wrong-objects string -> objects.
+
+% [elimination-objects E Types Named O]: the objects of the method E,
+% from the types named and the names given
+pred elimination-objects i:string, i:list inductive, i:list string, o:objects.
+elimination-objects E [] [] (wrong-objects M) :- !, msg "method-no-object" [E] M.
+elimination-objects _ [] Named (right-objects Named) :- !.
+elimination-objects _ [I | _] [] O :- !,
+  std.findall (local-in-scope _ _ _) L,
+  std.map-filter L (l\ s\ sigma X T\ l = local-in-scope X s T, of-inductive T I) Ss0,
+  undup Ss0 Ss,
+  (if (Ss = [S]) (O = right-objects [S])
+     (O = wrong-objects M, std.length Ss N,
+      msg "type-objects" [{coq.gref->id (indt I)}, {std.any->string N}] M)).
+elimination-objects _ [I | _] Named O :-
+  std.filter Named (s\ not (local-of-inductive s I)) Bad,
+  (if (Bad = [B | _])
+     (O = wrong-objects M, msg "not-of-type" [B, {coq.gref->id (indt I)}] M)
+     (O = right-objects Named)).
+
+% [local-of-inductive S I]: the latest variable or hypothesis named S in
+% scope has the type I (of-inductive)
+pred local-of-inductive i:string, i:inductive.
+local-of-inductive S I :- local-in-scope _ S T, !, of-inductive T I.
+
+% [of-inductive T I]: the type T is the inductive type I applied (up to
+% its weak head normal form)
+pred of-inductive i:term, i:inductive.
+of-inductive T I :- coq.reduction.lazy.whd T W, (W = global (indt I) ; W = app [global (indt I) | _]), !.
+
+% [error-condition Id C P Rs]: the condition C of a node Id with an error,
+% not tried: in proof mode, a goal of the Proof block named after the node
+% (the report todo); else not proved (no report: the error's is the node's)
+pred error-condition i:string, i:term, o:term, o:list report.
+error-condition Id C P [rep Id (todo S)] :- proof-mode, !,
+  condition-hole Id C P, coq.term->string C S.
+error-condition _ _ _ [].
+
+% [goal-condition Id C P Rs]: the condition C of a node Id whose
+% conclusion is an open goal of the text, {.goal}: not tried; in proof
+% mode a goal of the Proof block named after the node (?c2_1), else left
+% unproved (the lemma is not defined); its report says it either way
+pred goal-condition i:string, i:term, o:term, o:list report.
+goal-condition Id C P [rep Id (goal S)] :- coq.term->string C S,
+  if (proof-mode) (condition-hole Id C P) true.
+
+% the hypothesis a fact is
+kind fact-found type.
+type known-fact string -> fact-found.   % the name of a hypothesis or conclusion in scope
+type unknown-fact string -> fact-found. % none: the fact as it is written
+
+% [fact-hypothesis E F]: the hypothesis or conclusion in scope (the latest)
+% whose type is the fact E, up to conversion
+pred fact-hypothesis i:element, o:fact-found.
+fact-hypothesis E (known-fact S) :-
+  parse E F ok, is-prop F,
+  local-in-scope _ S T, coq.unify-eq T F ok, !.
+fact-hypothesis E (unknown-fact S) :- element-text E S.
+
+% [element-text E S]: the text of a formula, for a message
+pred element-text i:element, o:string.
+element-text (elt _ S) S.
+element-text (eltt _ T) S :- coq.term->string T S.
+
+% ------------------------------------------------------------------ %
+% Proving a node
+
+% [node-proof N Ty Pf Concluded Rs]: in the current context, Pf : Ty, Ty
+% the node N seen from outside, ∀ V, H → C (its definitions u := e
+% replaced by their values); Concluded = ff for a node with no
+% conclusion (then C is True, the node is not used by the nodes after it,
+% and its subnodes are checked all the same)
+pred node-proof i:cnode, o:term, o:term, o:bool, o:list report.
+node-proof (cnode Id Es _ _ _ as N) Ty Pf Concluded Rs :-
+  node-binders Es Bs,
+  binders-proof Id Bs N Ty0 Pf Concluded Rs,
+  zeta-binders Ty0 Ty.
+
+% [zeta-binders T T1]: T with the definitions of its leading binders
+% replaced by their values
+pred zeta-binders i:term, o:term.
+zeta-binders (let _ _ B F) T :- !, zeta-binders (F B) T.
+zeta-binders (prod N A F) (prod N A G) :- !, pi x\ zeta-binders (F x) (G x).
+zeta-binders T T.
+
+% [binders-proof Id Bs N Ty Pf Concluded Rs]: Ty = ∀ Bs, C and Pf its
+% proof, the node N under its binders Bs; a binder that does not parse is
+% reported, and left out
+pred binders-proof i:string, i:list binder, i:cnode, o:term, o:term, o:bool, o:list report.
+binders-proof _ [] N C P Concluded Rs :- node-body N C P Concluded Rs.
+binders-proof Id [var-binder S | Bs] N Ty Pf Concluded Rs :- rex.match ".*:=" S, !,
+  % a definition u := e (or u : T := e)
+  coq.parse.argument {calc ("Definition " ^ S)} ff {current-scope} A D,
+  if (D = ok, A = const-decl Def (some Bo) Ar)
+     (coq.arity->term Ar T, coq.id->name Def Nm,
+      Ty = let Nm T Bo TyR, Pf = let Nm T Bo PfR,
+      under-def Nm T Bo (x\ binders-proof Id Bs N (TyR x) (PfR x) Concluded Rs))
+     (Rs = [rep Id (unread {msg "definition-not-parsed" [S]}) | Rs1],
+      binders-proof Id Bs N Ty Pf Concluded Rs1).
+binders-proof Id [var-binder S | Bs] N Ty Pf Concluded Rs :-
+  variables S C D,
+  if (D = ok)
+     (under-context C Ty Pf (ty\ pf\ binders-proof Id Bs N ty pf Concluded Rs))
+     (Rs = [rep Id (unread {msg "variables-not-parsed" [S, {diagnostic-text D}]}) | Rs1],
+      binders-proof Id Bs N Ty Pf Concluded Rs1).
+binders-proof Id [hyp-binder E Nm0 | Bs] N Ty Pf Concluded Rs :-
+  parse E A D,
+  if (D = ok)
+     (hyp-name Nm0 Nm, Ty = prod Nm A TyR, Pf = fun Nm A PfR,
+      under-decl Nm A (h\ binders-proof Id Bs N (TyR h) (PfR h) Concluded Rs))
+     (Rs = [rep Id (unread {msg "hypothesis-not-parsed" [{element-text E}, {diagnostic-text D}]}) | Rs1],
+      binders-proof Id Bs N Ty Pf Concluded Rs1).
+
+% [hyp-name Given Name]: the name of a hypothesis: the one the text gives
+% it, else the first of H1, H2, ... that no variable, hypothesis or
+% conclusion in scope has, so that every name in scope names one
+% hypothesis (Rocq would rename a second H behind the text's back)
+pred hyp-name i:option string, o:name.
+hyp-name (some S) N :- !, coq.id->name S N.
+hyp-name none N :- names-in-scope Used, prooftext.numbered-name Used "H" 1 S, coq.id->name S N.
+
+% [names-in-scope Used]: the names of the variables, hypotheses,
+% conclusions and definitions declared so far
+pred names-in-scope o:list string.
+names-in-scope Used :- std.findall (name-in-scope _) L, std.map L (c\ s\ c = name-in-scope s) Used.
+
+% [node-body N C P Concluded Rs]: under the binders of the node N, its
+% conclusion C proved by P from its subnodes
+pred node-body i:cnode, o:term, o:term, o:bool, o:list report.
+node-body (cnode Id Es _ Flawed Subs) C P Concluded Rs :-
+  conclusion Es Found,
+  if (Found = found C0)
+     (C = C0, Concluded = tt, Goal = some C0, Rs0 = [])
+     (C = {{ True }}, Concluded = ff, Goal = none, missing-report Id Found Rs0),
+  children-chain Id Es Flawed Subs Goal P Rs1,
+  std.append Rs0 Rs1 Rs.
+
+% the conclusion of a node
+kind conclusion-found type.
+type found term -> conclusion-found.         % the conclusion
+type none-written conclusion-found.          % none, or several: an error
+                                             % of the tree (nodes.elpi)
+type unparsed string -> conclusion-found.    % it does not parse, or is no
+                                             % proposition: the message
+
+% [conclusion Es F]: the conclusion of a node of elements Es
+pred conclusion i:list element, o:conclusion-found.
+conclusion Es F :- claims Es [E], !,
+  parse E T D,
+  if (D = ok)
+     (if (is-prop T) (F = found T) (F = unparsed {msg "conclusion-not-prop" [{element-text E}]}))
+     (F = unparsed {msg "md-not-parsed" [{diagnostic-text D}]}).
+conclusion _ none-written.
+
+% [missing-report Id F Rs]: the report of a conclusion that does not parse
+% (an error of the tree has its own report)
+pred missing-report i:string, i:conclusion-found, o:list report.
+missing-report Id (unparsed M) [rep Id (bad M)] :- !.
+missing-report _ _ [].
+
+% [children-chain Id Es Flawed Subs Goal P Rs]: P proves the goal of node
+% Id (some C; none for a node with no conclusion) from its subnodes Subs,
+% each known to the subnodes after it and to the condition; the
+% condition last, unless the node has an error of the tree (Flawed = tt:
+% the condition is not tried, error-condition)
+pred children-chain i:string, i:list element, i:bool, i:list cnode, i:option term,
+  o:term, o:list report.
+children-chain Id Es ff [] (some C) P Rs :- std.exists Es is-goal, !, goal-condition Id C P Rs.
+children-chain Id Es ff [] (some C) P Rs :- !, condition Id Es C P Rs.
+children-chain Id _ tt [] (some C) P Rs :- !, error-condition Id C P Rs.
+children-chain _ _ _ [] none {{ I }} [] :- !.
+children-chain Id Es Flawed [S | Ss] Goal P Rs :-
+  node-proof S T PS Concluded RsS,
+  goal-term Goal G,
+  if (Concluded = tt)
+     (S = cnode _ _ Name _ _, coq.id->name Name Nm,
+      P = {{ cyp_have lp:T lp:G lp:PS lp:K }}, K = fun Nm T Q,
+      under-decl Nm T (x\ children-chain Id Es Flawed Ss Goal (Q x) Rs1))
+     (children-chain Id Es Flawed Ss Goal P Rs1),
+  std.append RsS Rs1 Rs.
+
+% [goal-term Goal G]: the goal of a node: its conclusion, or True
+pred goal-term i:option term, o:term.
+goal-term (some C) C.
+goal-term none {{ True }}.

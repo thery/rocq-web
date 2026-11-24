@@ -1,0 +1,1137 @@
+DIGEST 4350e95518acee84ff160c2d19069418
+Fmathcomp.algebra.fraction
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.eqtype <> <> lib
+R256:261 mathcomp.boot.ssrnat <> <> lib
+R263:265 mathcomp.boot.seq <> <> lib
+R267:272 mathcomp.boot.choice <> <> lib
+R304:308 mathcomp.boot.ssrAC <> <> lib
+R310:325 mathcomp.boot.generic_quotient <> <> lib
+R327:333 mathcomp.boot.nmodule <> <> lib
+R365:390 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> <> lib
+R392:397 mathcomp.algebra.algebraic_hierarchy.divalg <> <> lib
+R1140:1151 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory <> mod
+sec 1398:1407 <> FracDomain
+var 1419:1419 FracDomain R
+R1423:1432 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing.Exports nzRingType abbrev
+rec 1514:1518 <> ratio
+proj 1533:1536 <> frac
+R1542:1544 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1541:1541 mathcomp.algebra.fraction <> FracDomain.R var
+R1545:1545 mathcomp.algebra.fraction <> FracDomain.R var
+R1558:1561 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R1556:1557 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R1552:1555 mathcomp.algebra.fraction <> frac:4 meth
+scheme 1514:1518 <> ratio_rect
+scheme 1514:1518 <> ratio_ind
+scheme 1514:1518 <> ratio_rec
+scheme 1514:1518 <> ratio_sind
+R1596:1606 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R1611:1611 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R1607:1610 mathcomp.algebra.fraction <> frac proj
+def 1568:1612 <> HB_unnamed_factory_1
+def 1568:1612 <> fraction_ratio__canonical__eqtype_SubType
+R1642:1652 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R1658:1664 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R1653:1657 mathcomp.algebra.fraction <> ratio indrec
+def 1614:1665 <> HB_unnamed_factory_3
+def 1614:1665 <> choice_Choice__to__choice_hasChoice
+def 1614:1665 <> choice_Choice__to__eqtype_hasDecEq
+def 1614:1665 <> HB_unnamed_mixin_6
+def 1614:1665 <> fraction_ratio__canonical__eqtype_Equality
+def 1614:1665 <> fraction_ratio__canonical__eqtype_SubEquality
+def 1614:1665 <> HB_unnamed_mixin_7
+def 1614:1665 <> fraction_ratio__canonical__choice_Choice
+def 1614:1665 <> fraction_ratio__canonical__choice_SubChoice
+prf 1674:1685 <> denom_ratioP
+R1700:1704 mathcomp.algebra.fraction <> ratio indrec
+binder 1696:1696 <> f:5
+R1710:1713 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R1708:1709 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R1707:1707 mathcomp.algebra.fraction <> f:5 var
+def 1750:1755 <> ratio0
+R1762:1768 mathcomp.algebra.fraction <> mkRatio constr
+R1770:1770 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1772:1773 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1775:1775 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1778:1786 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_neq0 def
+def 1804:1808 <> Ratio
+binder 1810:1810 <> x:6
+binder 1812:1812 <> y:7
+R1816:1820 mathcomp.algebra.fraction <> ratio indrec
+R1825:1830 mathcomp.boot.eqtype <> insubd def
+R1839:1839 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1841:1842 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1844:1844 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1840:1840 mathcomp.algebra.fraction <> x:6 var
+R1843:1843 mathcomp.algebra.fraction <> y:7 var
+R1832:1837 mathcomp.algebra.fraction <> ratio0 def
+prf 1854:1864 <> numer_Ratio
+binder 1866:1866 <> x:8
+binder 1868:1868 <> y:9
+R1878:1881 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1873:1876 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R1872:1872 mathcomp.algebra.fraction <> y:9 var
+R1895:1897 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1882:1882 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R1892:1894 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R1883:1887 mathcomp.algebra.fraction <> Ratio def
+R1891:1891 mathcomp.algebra.fraction <> y:9 var
+R1889:1889 mathcomp.algebra.fraction <> x:8 var
+R1898:1898 mathcomp.algebra.fraction <> x:8 var
+R1932:1936 mathcomp.algebra.fraction <> Ratio def
+R1939:1944 mathcomp.boot.eqtype <> insubd def
+R1946:1951 mathcomp.boot.eqtype <> insubT thm
+prf 1966:1976 <> denom_Ratio
+binder 1978:1978 <> x:10
+binder 1980:1980 <> y:11
+R1990:1993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1985:1988 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R1984:1984 mathcomp.algebra.fraction <> y:11 var
+R2007:2009 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1994:1994 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R2004:2006 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R1995:1999 mathcomp.algebra.fraction <> Ratio def
+R2003:2003 mathcomp.algebra.fraction <> y:11 var
+R2001:2001 mathcomp.algebra.fraction <> x:10 var
+R2010:2010 mathcomp.algebra.fraction <> y:11 var
+R2044:2048 mathcomp.algebra.fraction <> Ratio def
+R2051:2056 mathcomp.boot.eqtype <> insubd def
+R2058:2063 mathcomp.boot.eqtype <> insubT thm
+def 2083:2094 <> numden_Ratio
+R2099:2099 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2111:2112 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2124:2124 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2100:2110 mathcomp.algebra.fraction <> numer_Ratio thm
+R2113:2123 mathcomp.algebra.fraction <> denom_Ratio thm
+ind 2136:2145 <> Ratio_spec
+constr 2190:2198 <> RatioNull
+constr 2241:2252 <> RatioNonNull
+R2154:2154 mathcomp.algebra.fraction <> FracDomain.R var
+binder 2148:2148 <> n:12
+binder 2150:2150 <> d:13
+R2164:2167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2159:2163 mathcomp.algebra.fraction <> ratio indrec
+R2169:2172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2168:2168 mathcomp.algebra.fraction <> FracDomain.R var
+R2174:2177 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2173:2173 mathcomp.algebra.fraction <> FracDomain.R var
+R2204:2206 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2203:2203 mathcomp.algebra.fraction <> d:13 var
+R2211:2220 mathcomp.algebra.fraction <> Ratio_spec:14 ind
+R2233:2233 mathcomp.algebra.fraction <> n:12 var
+R2226:2231 mathcomp.algebra.fraction <> ratio0 def
+R2224:2224 mathcomp.algebra.fraction <> d:13 var
+R2222:2222 mathcomp.algebra.fraction <> n:12 var
+R2265:2268 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R2264:2264 mathcomp.algebra.fraction <> d:13 var
+binder 2255:2260 <> d_neq0:16
+R2278:2287 mathcomp.algebra.fraction <> Ratio_spec:14 ind
+R2320:2320 mathcomp.algebra.fraction <> d:13 var
+R2318:2318 mathcomp.algebra.fraction <> n:12 var
+R2295:2301 mathcomp.algebra.fraction <> mkRatio constr
+R2303:2303 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2305:2306 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2308:2308 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2304 mathcomp.algebra.fraction <> n:12 var
+R2307:2307 mathcomp.algebra.fraction <> d:13 var
+R2310:2315 mathcomp.algebra.fraction <> d_neq0:16 var
+R2291:2291 mathcomp.algebra.fraction <> d:13 var
+R2289:2289 mathcomp.algebra.fraction <> n:12 var
+prf 2330:2335 <> RatioP
+binder 2337:2337 <> n:17
+binder 2339:2339 <> d:18
+R2343:2352 mathcomp.algebra.fraction <> Ratio_spec variant
+R2372:2372 mathcomp.algebra.fraction <> d:18 var
+R2370:2370 mathcomp.algebra.fraction <> n:17 var
+R2359:2363 mathcomp.algebra.fraction <> Ratio def
+R2367:2367 mathcomp.algebra.fraction <> d:18 var
+R2365:2365 mathcomp.algebra.fraction <> n:17 var
+R2356:2356 mathcomp.algebra.fraction <> d:18 var
+R2354:2354 mathcomp.algebra.fraction <> n:17 var
+R2391:2395 mathcomp.algebra.fraction <> Ratio def
+R2398:2403 mathcomp.boot.eqtype <> insubd def
+R2412:2417 mathcomp.boot.eqtype <> insubP thm
+R2491:2497 mathcomp.boot.eqtype <> val_inj thm
+R2455:2457 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2459:2465 mathcomp.algebra.fraction <> mkRatio constr
+R2467:2467 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2469:2470 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2472:2472 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2529:2533 Corelib.ssr.ssrbool <> negbK thm
+R2538:2540 mathcomp.boot.eqtype <> eqP def
+prf 2586:2591 <> Ratio0
+binder 2593:2593 <> x:19
+R2606:2608 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2597:2601 mathcomp.algebra.fraction <> Ratio def
+R2603:2603 mathcomp.algebra.fraction <> x:19 var
+R2609:2614 mathcomp.algebra.fraction <> ratio0 def
+R2636:2640 mathcomp.algebra.fraction <> Ratio def
+R2643:2648 mathcomp.boot.eqtype <> insubd def
+R2657:2662 mathcomp.boot.eqtype <> insubP thm
+R2677:2680 mathcomp.boot.eqtype <> eqxx abbrev
+R2693:2702 mathcomp.algebra.fraction FracDomain <> sec
+R2716:2720 mathcomp.algebra.fraction <> ratio indrec
+R2761:2765 mathcomp.algebra.fraction <> ratio indrec
+not 2741:2741 <> ::type_scope:'{'_'ratio'_x_'}'
+R2808:2808 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R2815:2817 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R2809:2812 mathcomp.algebra.fraction <> frac proj
+not 2794:2794 <> :::'\n_'_x
+R2890:2890 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R2897:2899 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R2891:2894 mathcomp.algebra.fraction <> frac proj
+not 2876:2876 <> :::'\d_'_x
+mod 2957:2965 <> FracField
+sec 2976:2984 FracField FracField
+var 2997:2997 FracField.FracField R
+R3001:3011 mathcomp.algebra.algebraic_hierarchy.divalg GRing.IntegralDomain.Exports idomainType abbrev
+abbrev 3030:3033 FracField frac
+R3040:3042 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R3039:3039 mathcomp.algebra.fraction <> FracField.FracField.R var
+R3043:3043 mathcomp.algebra.fraction <> FracField.FracField.R var
+abbrev 3062:3064 FracField dom
+R3070:3074 mathcomp.algebra.fraction <> ratio indrec
+R3076:3076 mathcomp.algebra.fraction <> FracField.FracField.R var
+abbrev 3095:3098 FracField domP
+R3103:3114 mathcomp.algebra.fraction <> denom_ratioP thm
+R3141:3143 mathcomp.algebra.fraction FracField dom abbrev
+abbrev 3199:3213 FracField equivf_notation
+R3234:3237 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R3227:3229 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R3223:3225 mathcomp.algebra.fraction <> :::'\n_'_x not
+R3230:3232 mathcomp.algebra.fraction <> :::'\d_'_x not
+R3242:3244 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R3238:3240 mathcomp.algebra.fraction <> :::'\d_'_x not
+R3245:3247 mathcomp.algebra.fraction <> :::'\n_'_x not
+def 3263:3268 FracField equivf
+binder 3270:3270 <> x:22
+binder 3272:3272 <> y:23
+R3277:3291 mathcomp.algebra.fraction FracField equivf_notation abbrev
+R3293:3293 mathcomp.algebra.fraction <> x:22 var
+R3295:3295 mathcomp.algebra.fraction <> y:23 var
+prf 3305:3311 FracField equivfE
+binder 3313:3313 <> x:24
+binder 3315:3315 <> y:25
+R3329:3331 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3319:3324 mathcomp.algebra.fraction FracField equivf def
+R3328:3328 mathcomp.algebra.fraction <> y:25 var
+R3326:3326 mathcomp.algebra.fraction <> x:24 var
+R3332:3346 mathcomp.algebra.fraction FracField equivf_notation abbrev
+R3348:3348 mathcomp.algebra.fraction <> x:24 var
+R3350:3350 mathcomp.algebra.fraction <> y:25 var
+prf 3379:3389 FracField equivf_refl
+R3393:3401 Corelib.ssr.ssrbool <> reflexive def
+R3403:3408 mathcomp.algebra.fraction FracField equivf def
+R3440:3445 mathcomp.algebra.fraction FracField equivf def
+R3447:3451 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+prf 3466:3475 FracField equivf_sym
+R3479:3487 Corelib.ssr.ssrbool <> symmetric def
+R3489:3494 mathcomp.algebra.fraction FracField equivf def
+R3528:3533 mathcomp.algebra.fraction FracField equivf def
+R3535:3540 mathcomp.boot.eqtype <> eq_sym thm
+R3551:3552 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R3565:3569 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+prf 3584:3595 FracField equivf_trans
+R3599:3608 Corelib.ssr.ssrbool <> transitive def
+R3610:3615 mathcomp.algebra.fraction FracField equivf def
+R3663:3668 mathcomp.algebra.fraction FracField equivf def
+R3673:3677 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+R3683:3685 mathcomp.boot.eqtype <> eqP def
+R3691:3693 mathcomp.boot.eqtype <> eqP def
+R3712:3717 mathcomp.boot.eqtype <> inj_eq thm
+R3720:3724 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulfI def
+R3731:3735 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrA def
+R3741:3745 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrA def
+R3750:3755 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrCA def
+def 3818:3829 FracField equivf_equiv
+R3834:3841 mathcomp.boot.generic_quotient <> EquivRel abbrev
+R3843:3848 mathcomp.algebra.fraction FracField equivf def
+R3850:3860 mathcomp.algebra.fraction FracField equivf_refl thm
+R3862:3871 mathcomp.algebra.fraction FracField equivf_sym thm
+R3873:3884 mathcomp.algebra.fraction FracField equivf_trans thm
+def 3899:3902 FracField type
+R3907:3915 mathcomp.boot.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R3922:3922 mathcomp.boot.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R3916:3921 mathcomp.algebra.fraction FracField equivf def
+R4002:4011 mathcomp.boot.generic_quotient <> EqQuotient abbrev
+R4022:4025 mathcomp.algebra.fraction FracField type def
+R4015:4020 mathcomp.algebra.fraction FracField equivf def
+R4030:4042 mathcomp.boot.generic_quotient EqQuotient on abbrev
+R4044:4047 mathcomp.algebra.fraction FracField type def
+def 3975:4048 FracField HB_unnamed_factory_8
+def 3975:4048 FracField generic_quotient_EqQuotient__to__generic_quotient_isQuotient
+def 3975:4048 FracField generic_quotient_EqQuotient__to__eqtype_hasDecEq
+def 3975:4048 FracField generic_quotient_EqQuotient__to__generic_quotient_isEqQuotient
+def 3975:4048 FracField HB_unnamed_mixin_12
+def 3975:4048 FracField FracField_type__canonical__generic_quotient_Quotient
+def 3975:4048 FracField HB_unnamed_mixin_13
+def 3975:4048 FracField FracField_type__canonical__eqtype_Equality
+def 3975:4048 FracField HB_unnamed_mixin_14
+def 3975:4048 FracField FracField_type__canonical__generic_quotient_EqQuotient
+R4078:4086 mathcomp.boot.choice Choice on abbrev
+R4088:4091 mathcomp.algebra.fraction FracField type def
+def 4050:4092 FracField HB_unnamed_factory_15
+def 4050:4092 FracField choice_Choice__to__choice_hasChoice
+def 4050:4092 FracField HB_unnamed_mixin_18
+def 4050:4092 FracField FracField_type__canonical__choice_Choice
+prf 4159:4168 FracField equivf_def
+R4177:4181 mathcomp.algebra.fraction <> ratio indrec
+R4183:4183 mathcomp.algebra.fraction <> FracField.FracField.R var
+binder 4171:4171 <> x:26
+binder 4173:4173 <> y:27
+R4190:4190 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4209:4213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4240:4240 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4192:4195 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R4197:4203 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R4208:4208 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R4204:4207 mathcomp.algebra.fraction FracField type def
+R4191:4191 mathcomp.algebra.fraction <> x:26 var
+R4196:4196 mathcomp.algebra.fraction <> y:27 var
+R4225:4228 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R4218:4220 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4214:4216 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4217:4217 mathcomp.algebra.fraction <> x:26 var
+R4221:4223 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4224:4224 mathcomp.algebra.fraction <> y:27 var
+R4233:4235 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4229:4231 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4232:4232 mathcomp.algebra.fraction <> x:26 var
+R4236:4238 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4239:4239 mathcomp.algebra.fraction <> y:27 var
+R4261:4266 mathcomp.boot.generic_quotient <> eqmodE thm
+prf 4281:4288 FracField equivf_r
+binder 4290:4290 <> x:28
+R4323:4325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4298:4300 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4294:4296 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4297:4297 mathcomp.algebra.fraction <> x:28 var
+R4301:4304 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4322:4322 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4305:4308 mathcomp.boot.generic_quotient <> repr abbrev
+R4311:4314 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4319:4320 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4315:4318 mathcomp.algebra.fraction FracField type def
+R4320:4320 mathcomp.algebra.fraction <> x:28 var
+R4330:4332 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4326:4328 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4329:4329 mathcomp.algebra.fraction <> x:28 var
+R4333:4336 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4354:4354 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4337:4340 mathcomp.boot.generic_quotient <> repr abbrev
+R4343:4346 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4351:4352 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4347:4350 mathcomp.algebra.fraction FracField type def
+R4352:4352 mathcomp.algebra.fraction <> x:28 var
+R4373:4375 mathcomp.boot.eqtype <> eqP def
+R4387:4396 mathcomp.algebra.fraction FracField equivf_def thm
+R4398:4402 mathcomp.boot.generic_quotient <> reprK thm
+prf 4417:4424 FracField equivf_l
+binder 4426:4426 <> x:29
+R4459:4461 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4452:4454 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4430:4433 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4451:4451 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4434:4437 mathcomp.boot.generic_quotient <> repr abbrev
+R4440:4443 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4448:4449 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4444:4447 mathcomp.algebra.fraction FracField type def
+R4449:4449 mathcomp.algebra.fraction <> x:29 var
+R4455:4457 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4458:4458 mathcomp.algebra.fraction <> x:29 var
+R4484:4486 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R4462:4465 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4483:4483 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4466:4469 mathcomp.boot.generic_quotient <> repr abbrev
+R4472:4475 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4480:4481 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R4476:4479 mathcomp.algebra.fraction FracField type def
+R4481:4481 mathcomp.algebra.fraction <> x:29 var
+R4487:4489 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4490:4490 mathcomp.algebra.fraction <> x:29 var
+R4509:4511 mathcomp.boot.eqtype <> eqP def
+R4523:4532 mathcomp.algebra.fraction FracField equivf_def thm
+R4534:4538 mathcomp.boot.generic_quotient <> reprK thm
+prf 4553:4558 FracField numer0
+binder 4560:4560 <> x:30
+R4564:4564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4574:4578 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4611:4611 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4569:4572 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R4565:4567 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4568:4568 mathcomp.algebra.fraction <> x:30 var
+R4580:4584 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R4593:4603 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R4610:4610 mathcomp.boot.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R4604:4609 mathcomp.algebra.fraction FracField equivf def
+R4579:4579 mathcomp.algebra.fraction <> x:30 var
+R4585:4590 mathcomp.algebra.fraction <> ratio0 def
+R4592:4592 mathcomp.algebra.fraction <> FracField.FracField.R var
+R4632:4637 mathcomp.boot.generic_quotient <> eqmodE thm
+R4643:4649 mathcomp.algebra.fraction FracField equivfE thm
+R4654:4658 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R4660:4664 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+prf 4679:4690 FracField Ratio_numden
+binder 4701:4701 <> x:31
+R4719:4721 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4704:4708 mathcomp.algebra.fraction <> Ratio def
+R4715:4717 mathcomp.algebra.fraction <> :::'\d_'_x not
+R4718:4718 mathcomp.algebra.fraction <> x:31 var
+R4710:4712 mathcomp.algebra.fraction <> :::'\n_'_x not
+R4713:4713 mathcomp.algebra.fraction <> x:31 var
+R4722:4722 mathcomp.algebra.fraction <> x:31 var
+R4763:4767 mathcomp.algebra.fraction <> Ratio def
+R4770:4775 mathcomp.boot.eqtype <> insubd def
+R4785:4791 mathcomp.boot.eqtype <> val_inj thm
+R4808:4813 mathcomp.boot.eqtype <> insubP thm
+def 4851:4856 FracField tofrac
+R4861:4870 mathcomp.boot.generic_quotient <> lift_embed abbrev
+R4872:4875 mathcomp.algebra.fraction FracField type def
+R4886:4886 mathcomp.algebra.fraction <> FracField.FracField.R var
+binder 4882:4882 <> x:32
+R4891:4895 mathcomp.algebra.fraction <> Ratio def
+R4897:4897 mathcomp.algebra.fraction <> x:32 var
+def 4913:4927 FracField tofrac_pi_morph
+R4932:4938 mathcomp.boot.generic_quotient <> PiEmbed abbrev
+R4940:4945 mathcomp.algebra.fraction FracField tofrac def
+R4972:4977 mathcomp.algebra.fraction FracField tofrac def
+not 4958:4958 FracField.FracField :::x_'%:F'
+R5007:5010 mathcomp.algebra.fraction FracField type def
+def 5025:5028 FracField addf
+binder 5030:5030 <> x:33
+binder 5032:5032 <> y:34
+R5036:5038 mathcomp.algebra.fraction FracField dom abbrev
+R5043:5047 mathcomp.algebra.fraction <> Ratio def
+R5082:5084 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R5078:5080 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5081:5081 mathcomp.algebra.fraction <> x:33 var
+R5085:5087 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5088:5088 mathcomp.algebra.fraction <> y:34 var
+R5061:5063 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R5054:5056 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R5050:5052 mathcomp.algebra.fraction <> :::'\n_'_x not
+R5053:5053 mathcomp.algebra.fraction <> x:33 var
+R5057:5059 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5060:5060 mathcomp.algebra.fraction <> y:34 var
+R5068:5070 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R5064:5066 mathcomp.algebra.fraction <> :::'\n_'_x not
+R5067:5067 mathcomp.algebra.fraction <> y:34 var
+R5071:5073 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5074:5074 mathcomp.algebra.fraction <> x:33 var
+def 5103:5105 FracField add
+R5110:5117 mathcomp.boot.generic_quotient <> lift_op2 abbrev
+R5119:5122 mathcomp.algebra.fraction FracField type def
+R5124:5127 mathcomp.algebra.fraction FracField addf def
+prf 5137:5142 FracField pi_add
+R5146:5152 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5156:5158 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5160:5160 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5162:5164 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5173:5177 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5185:5185 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5153:5155 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi' not
+binder 5159:5159 <> x:35
+binder 5161:5161 <> y:36
+R5165:5168 mathcomp.algebra.fraction FracField addf def
+R5172:5172 mathcomp.algebra.fraction <> y:36 var
+R5170:5170 mathcomp.algebra.fraction <> x:35 var
+binder 5159:5159 <> x:37
+binder 5161:5161 <> y:38
+R5178:5180 mathcomp.algebra.fraction FracField add def
+R5184:5184 mathcomp.algebra.fraction <> y:38 var
+R5182:5182 mathcomp.algebra.fraction <> x:37 var
+R5214:5216 mathcomp.algebra.fraction FracField add def
+R5225:5230 mathcomp.boot.generic_quotient <> eqmodP thm
+R5244:5250 mathcomp.algebra.fraction FracField equivfE thm
+R5253:5256 mathcomp.algebra.fraction FracField addf def
+R5271:5282 mathcomp.algebra.fraction <> numden_Ratio def
+R5285:5293 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R5296:5299 mathcomp.algebra.fraction FracField domP abbrev
+R5304:5309 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDr def
+R5311:5316 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDl def
+R5325:5327 mathcomp.boot.eqtype <> eqP def
+R5349:5350 mathcomp.boot.ssrAC <> AC abbrev
+R5354:5354 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5364:5364 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5362:5362 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5360:5360 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5370:5371 mathcomp.boot.ssrAC <> AC abbrev
+R5375:5375 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5385:5385 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5383:5383 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5381:5381 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5405:5412 mathcomp.algebra.fraction FracField equivf_l thm
+R5415:5417 mathcomp.boot.ssrAC <> ACl abbrev
+R5420:5420 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5424:5426 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5430:5430 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5422:5422 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5428:5428 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5435:5437 mathcomp.boot.ssrAC <> ACl abbrev
+R5440:5440 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5444:5446 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5450:5450 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5442:5442 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R5448:5448 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+def 5472:5483 FracField pi_add_morph
+R5488:5495 mathcomp.boot.generic_quotient <> PiMorph2 abbrev
+R5497:5502 mathcomp.algebra.fraction FracField pi_add thm
+def 5517:5520 FracField oppf
+binder 5522:5522 <> x:39
+R5526:5528 mathcomp.algebra.fraction FracField dom abbrev
+R5533:5537 mathcomp.algebra.fraction <> Ratio def
+R5548:5550 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5551:5551 mathcomp.algebra.fraction <> x:39 var
+R5540:5541 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R5542:5544 mathcomp.algebra.fraction <> :::'\n_'_x not
+R5545:5545 mathcomp.algebra.fraction <> x:39 var
+def 5565:5567 FracField opp
+R5572:5579 mathcomp.boot.generic_quotient <> lift_op1 abbrev
+R5581:5584 mathcomp.algebra.fraction FracField type def
+R5586:5589 mathcomp.algebra.fraction FracField oppf def
+prf 5598:5603 FracField pi_opp
+R5607:5613 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R5617:5619 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R5621:5623 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R5630:5634 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R5640:5640 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R5614:5616 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi' not
+binder 5620:5620 <> x:40
+R5624:5627 mathcomp.algebra.fraction FracField oppf def
+R5629:5629 mathcomp.algebra.fraction <> x:40 var
+binder 5620:5620 <> x:41
+R5635:5637 mathcomp.algebra.fraction FracField opp def
+R5639:5639 mathcomp.algebra.fraction <> x:41 var
+R5667:5669 mathcomp.algebra.fraction FracField opp def
+R5678:5683 mathcomp.boot.generic_quotient <> eqmodP thm
+R5698:5703 mathcomp.algebra.fraction FracField equivf def
+R5706:5709 mathcomp.algebra.fraction FracField oppf def
+R5727:5738 mathcomp.algebra.fraction <> numden_Ratio def
+R5741:5741 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5746:5746 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5756:5756 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5742:5745 mathcomp.algebra.fraction FracField domP abbrev
+R5747:5755 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R5761:5765 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulNr def
+R5767:5771 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrN def
+R5774:5781 mathcomp.algebra.fraction FracField equivf_r thm
+def 5799:5810 FracField pi_opp_morph
+R5815:5822 mathcomp.boot.generic_quotient <> PiMorph1 abbrev
+R5824:5829 mathcomp.algebra.fraction FracField pi_opp thm
+def 5844:5847 FracField mulf
+binder 5849:5849 <> x:42
+binder 5851:5851 <> y:43
+R5855:5857 mathcomp.algebra.fraction FracField dom abbrev
+R5862:5866 mathcomp.algebra.fraction <> Ratio def
+R5887:5889 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R5883:5885 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5886:5886 mathcomp.algebra.fraction <> x:42 var
+R5890:5892 mathcomp.algebra.fraction <> :::'\d_'_x not
+R5893:5893 mathcomp.algebra.fraction <> y:43 var
+R5873:5875 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R5869:5871 mathcomp.algebra.fraction <> :::'\n_'_x not
+R5872:5872 mathcomp.algebra.fraction <> x:42 var
+R5876:5878 mathcomp.algebra.fraction <> :::'\n_'_x not
+R5879:5879 mathcomp.algebra.fraction <> y:43 var
+def 5908:5910 FracField mul
+R5915:5922 mathcomp.boot.generic_quotient <> lift_op2 abbrev
+R5924:5927 mathcomp.algebra.fraction FracField type def
+R5929:5932 mathcomp.algebra.fraction FracField mulf def
+prf 5942:5947 FracField pi_mul
+R5951:5957 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5961:5963 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5965:5965 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5967:5969 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5978:5982 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5990:5990 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R5958:5960 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi' not
+binder 5964:5964 <> x:44
+binder 5966:5966 <> y:45
+R5970:5973 mathcomp.algebra.fraction FracField mulf def
+R5977:5977 mathcomp.algebra.fraction <> y:45 var
+R5975:5975 mathcomp.algebra.fraction <> x:44 var
+binder 5964:5964 <> x:46
+binder 5966:5966 <> y:47
+R5983:5985 mathcomp.algebra.fraction FracField mul def
+R5989:5989 mathcomp.algebra.fraction <> y:47 var
+R5987:5987 mathcomp.algebra.fraction <> x:46 var
+R6019:6021 mathcomp.algebra.fraction FracField mul def
+R6030:6035 mathcomp.boot.generic_quotient <> eqmodP thm
+R6051:6057 mathcomp.algebra.fraction FracField equivfE thm
+R6063:6066 mathcomp.algebra.fraction FracField addf def
+R6072:6083 mathcomp.algebra.fraction <> numden_Ratio def
+R6086:6094 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R6097:6100 mathcomp.algebra.fraction FracField domP abbrev
+R6117:6123 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrACA def
+R6126:6133 mathcomp.algebra.fraction FracField equivf_r thm
+R6135:6141 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrACA def
+def 6159:6170 FracField pi_mul_morph
+R6175:6182 mathcomp.boot.generic_quotient <> PiMorph2 abbrev
+R6184:6189 mathcomp.algebra.fraction FracField pi_mul thm
+def 6204:6207 FracField invf
+binder 6209:6209 <> x:48
+R6213:6215 mathcomp.algebra.fraction FracField dom abbrev
+R6220:6224 mathcomp.algebra.fraction <> Ratio def
+R6231:6233 mathcomp.algebra.fraction <> :::'\n_'_x not
+R6234:6234 mathcomp.algebra.fraction <> x:48 var
+R6226:6228 mathcomp.algebra.fraction <> :::'\d_'_x not
+R6229:6229 mathcomp.algebra.fraction <> x:48 var
+def 6248:6250 FracField inv
+R6255:6262 mathcomp.boot.generic_quotient <> lift_op1 abbrev
+R6264:6267 mathcomp.algebra.fraction FracField type def
+R6269:6272 mathcomp.algebra.fraction FracField invf def
+prf 6282:6287 FracField pi_inv
+R6291:6297 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R6301:6303 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R6305:6307 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R6314:6318 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R6324:6324 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R6298:6300 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi' not
+binder 6304:6304 <> x:49
+R6308:6311 mathcomp.algebra.fraction FracField invf def
+R6313:6313 mathcomp.algebra.fraction <> x:49 var
+binder 6304:6304 <> x:50
+R6319:6321 mathcomp.algebra.fraction FracField inv def
+R6323:6323 mathcomp.algebra.fraction <> x:50 var
+R6351:6353 mathcomp.algebra.fraction FracField inv def
+R6362:6367 mathcomp.boot.generic_quotient <> eqmodP thm
+R6383:6389 mathcomp.algebra.fraction FracField equivfE thm
+R6392:6395 mathcomp.algebra.fraction FracField invf def
+R6397:6402 mathcomp.boot.eqtype <> eq_sym thm
+R6416:6421 mathcomp.algebra.fraction <> RatioP thm
+R6448:6452 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul0r def
+R6455:6459 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R6463:6472 mathcomp.algebra.fraction FracField equivf_def thm
+R6475:6480 mathcomp.algebra.fraction FracField numer0 thm
+R6483:6487 mathcomp.boot.generic_quotient <> reprK thm
+R6430:6432 mathcomp.boot.eqtype <> eqP def
+R6530:6533 mathcomp.boot.eqtype <> eqxx abbrev
+R6509:6511 mathcomp.boot.eqtype <> eqP def
+R6569:6572 mathcomp.boot.eqtype <> eqxx abbrev
+R6553:6555 mathcomp.boot.eqtype <> eqP def
+def 6590:6601 FracField pi_inv_morph
+R6606:6613 mathcomp.boot.generic_quotient <> PiMorph1 abbrev
+R6615:6620 mathcomp.algebra.fraction FracField pi_inv thm
+prf 6630:6633 FracField addA
+R6637:6647 Corelib.ssr.ssrfun <> associative def
+R6649:6651 mathcomp.algebra.fraction FracField add def
+R6718:6720 mathcomp.boot.generic_quotient <> piE abbrev
+R6666:6670 mathcomp.boot.generic_quotient <> quotW thm
+R6682:6686 mathcomp.boot.generic_quotient <> quotW thm
+R6698:6702 mathcomp.boot.generic_quotient <> quotW thm
+R6732:6735 mathcomp.algebra.fraction FracField addf def
+R6741:6752 mathcomp.algebra.fraction <> numden_Ratio def
+R6755:6763 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R6766:6769 mathcomp.algebra.fraction FracField domP abbrev
+R6775:6780 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDl def
+R6795:6799 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrA def
+R6802:6806 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrA def
+R6815:6817 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R6811:6813 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R6818:6820 mathcomp.algebra.fraction <> :::'\d_'_x not
+R6823:6828 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrAC def
+prf 6843:6846 FracField addC
+R6850:6860 Corelib.ssr.ssrfun <> commutative def
+R6862:6864 mathcomp.algebra.fraction FracField add def
+R6918:6920 mathcomp.boot.generic_quotient <> piE abbrev
+R6923:6926 mathcomp.algebra.fraction FracField addf def
+R6928:6932 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrC def
+R6939:6941 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R6935:6937 mathcomp.algebra.fraction <> :::'\d_'_x not
+R6944:6948 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+R6882:6886 mathcomp.boot.generic_quotient <> quotW thm
+R6898:6902 mathcomp.boot.generic_quotient <> quotW thm
+prf 6963:6968 FracField add0_l
+R6972:6978 Corelib.ssr.ssrfun <> left_id def
+R6985:6987 mathcomp.algebra.fraction FracField add def
+R6981:6983 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R7022:7024 mathcomp.boot.generic_quotient <> piE abbrev
+R7027:7030 mathcomp.algebra.fraction FracField addf def
+R7033:7044 mathcomp.algebra.fraction <> numden_Ratio def
+R7047:7054 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R7002:7006 mathcomp.boot.generic_quotient <> quotW thm
+R7071:7075 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul0r def
+R7077:7081 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R7083:7087 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R7089:7093 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory add0r def
+R7095:7106 mathcomp.algebra.fraction FracField Ratio_numden thm
+prf 7121:7126 FracField addN_l
+R7130:7141 Corelib.ssr.ssrfun <> left_inverse def
+R7152:7154 mathcomp.algebra.fraction FracField add def
+R7148:7150 mathcomp.algebra.fraction FracField opp def
+R7144:7146 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R7186:7188 mathcomp.boot.eqtype <> eqP def
+R7199:7201 mathcomp.boot.generic_quotient <> piE abbrev
+R7204:7209 mathcomp.algebra.fraction FracField equivf def
+R7169:7173 mathcomp.boot.generic_quotient <> quotW thm
+R7221:7224 mathcomp.algebra.fraction FracField addf def
+R7227:7230 mathcomp.algebra.fraction FracField oppf def
+R7233:7244 mathcomp.algebra.fraction <> numden_Ratio def
+R7247:7247 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7256:7257 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7267:7268 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7273:7273 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7248:7255 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R7258:7266 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R7269:7272 mathcomp.algebra.fraction FracField domP abbrev
+R7290:7294 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R7296:7300 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+R7302:7306 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulNr def
+R7308:7312 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addNr def
+R7386:7406 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.isZmodule Build abbrev
+R7408:7411 mathcomp.algebra.fraction FracField type def
+R7430:7435 mathcomp.algebra.fraction FracField addN_l thm
+R7423:7428 mathcomp.algebra.fraction FracField add0_l thm
+R7418:7421 mathcomp.algebra.fraction FracField addC thm
+R7413:7416 mathcomp.algebra.fraction FracField addA thm
+def 7358:7436 FracField HB_unnamed_factory_19
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_hasOpp
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_BaseZmoduleNmodule_isZmodule
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_hasAdd
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_AddMagma_isAddSemigroup
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_BaseAddMagma_isAddMagma
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_BaseAddUMagma_isAddUMagma
+def 7358:7436 FracField GRing_isZmodule__to__Algebra_hasZero
+def 7358:7436 FracField HB_unnamed_mixin_27
+def 7358:7436 FracField FracField_type__canonical__Algebra_BaseAddMagma
+def 7358:7436 FracField FracField_type__canonical__Algebra_ChoiceBaseAddMagma
+def 7358:7436 FracField HB_unnamed_mixin_28
+def 7358:7436 FracField FracField_type__canonical__Algebra_AddMagma
+def 7358:7436 FracField HB_unnamed_mixin_29
+def 7358:7436 FracField FracField_type__canonical__Algebra_AddSemigroup
+def 7358:7436 FracField HB_unnamed_mixin_30
+def 7358:7436 FracField FracField_type__canonical__Algebra_BaseAddUMagma
+def 7358:7436 FracField FracField_type__canonical__Algebra_ChoiceBaseAddUMagma
+def 7358:7436 FracField HB_unnamed_mixin_31
+def 7358:7436 FracField FracField_type__canonical__Algebra_BaseZmodule
+def 7358:7436 FracField HB_unnamed_mixin_32
+def 7358:7436 FracField FracField_type__canonical__Algebra_AddUMagma
+def 7358:7436 FracField FracField_type__canonical__Algebra_Nmodule
+def 7358:7436 FracField HB_unnamed_mixin_33
+def 7358:7436 FracField FracField_type__canonical__Algebra_Zmodule
+prf 7445:7448 FracField mulA
+R7452:7462 Corelib.ssr.ssrfun <> associative def
+R7464:7466 mathcomp.algebra.fraction FracField mul def
+R7533:7535 mathcomp.boot.generic_quotient <> piE abbrev
+R7481:7485 mathcomp.boot.generic_quotient <> quotW thm
+R7497:7501 mathcomp.boot.generic_quotient <> quotW thm
+R7513:7517 mathcomp.boot.generic_quotient <> quotW thm
+R7550:7553 mathcomp.algebra.fraction FracField mulf def
+R7556:7567 mathcomp.algebra.fraction <> numden_Ratio def
+R7570:7578 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R7581:7584 mathcomp.algebra.fraction FracField domP abbrev
+R7590:7594 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrA def
+prf 7609:7612 FracField mulC
+R7616:7626 Corelib.ssr.ssrfun <> commutative def
+R7628:7630 mathcomp.algebra.fraction FracField mul def
+R7681:7683 mathcomp.boot.generic_quotient <> piE abbrev
+R7686:7689 mathcomp.algebra.fraction FracField mulf def
+R7645:7649 mathcomp.boot.generic_quotient <> quotW thm
+R7661:7665 mathcomp.boot.generic_quotient <> quotW thm
+R7705:7708 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R7713:7713 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R7709:7711 mathcomp.algebra.fraction <> :::'\d_'_x not
+R7715:7719 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+R7723:7726 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R7731:7731 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R7727:7729 mathcomp.algebra.fraction <> :::'\n_'_x not
+R7733:7737 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+prf 7752:7757 FracField mul1_l
+R7761:7767 Corelib.ssr.ssrfun <> left_id def
+R7774:7776 mathcomp.algebra.fraction FracField mul def
+R7770:7772 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R7811:7813 mathcomp.boot.generic_quotient <> piE abbrev
+R7816:7819 mathcomp.algebra.fraction FracField mulf def
+R7791:7795 mathcomp.boot.generic_quotient <> quotW thm
+R7834:7845 mathcomp.algebra.fraction <> numden_Ratio def
+R7848:7855 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R7861:7865 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R7867:7878 mathcomp.algebra.fraction FracField Ratio_numden thm
+prf 7893:7900 FracField mul_addl
+R7904:7920 Corelib.ssr.ssrfun <> left_distributive def
+R7926:7928 mathcomp.algebra.fraction FracField add def
+R7922:7924 mathcomp.algebra.fraction FracField mul def
+R7992:7994 mathcomp.boot.eqtype <> eqP def
+R7943:7947 mathcomp.boot.generic_quotient <> quotW thm
+R7959:7963 mathcomp.boot.generic_quotient <> quotW thm
+R7975:7979 mathcomp.boot.generic_quotient <> quotW thm
+R8006:8008 mathcomp.boot.generic_quotient <> piE abbrev
+R8011:8016 mathcomp.algebra.fraction FracField equivf def
+R8019:8022 mathcomp.algebra.fraction FracField mulf def
+R8025:8028 mathcomp.algebra.fraction FracField addf def
+R8031:8042 mathcomp.algebra.fraction <> numden_Ratio def
+R8045:8053 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R8056:8059 mathcomp.algebra.fraction FracField domP abbrev
+R8071:8073 mathcomp.boot.eqtype <> eqP def
+R8085:8085 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8092:8093 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8100:8100 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8086:8091 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDr def
+R8094:8099 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDl def
+R8103:8104 mathcomp.boot.ssrAC <> AC abbrev
+R8108:8109 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8113:8113 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8111:8111 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8122:8123 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8135:8135 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8120:8120 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8118:8118 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8124:8124 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8128:8130 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8134:8134 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8126:8126 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8132:8132 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8160:8162 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R8166:8167 mathcomp.boot.ssrAC <> AC abbrev
+R8171:8172 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8176:8176 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8174:8174 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8185:8186 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8198:8198 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8183:8183 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8181:8181 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8187:8187 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8191:8193 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8197:8197 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8189:8189 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+R8195:8195 mathcomp.boot.ssrAC AC.Syntax ::AC_scope:x_'*'_x not
+prf 8217:8224 FracField nonzero1
+R8232:8235 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R8240:8243 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R8244:8247 mathcomp.algebra.fraction FracField type def
+R8229:8231 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8237:8239 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8268:8270 mathcomp.boot.generic_quotient <> piE abbrev
+R8272:8278 mathcomp.algebra.fraction FracField equivfE thm
+R8281:8292 mathcomp.algebra.fraction <> numden_Ratio def
+R8295:8299 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R8302:8309 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R8388:8418 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Zmodule_isComNzRing Build abbrev
+R8420:8423 mathcomp.algebra.fraction FracField type def
+R8451:8458 mathcomp.algebra.fraction FracField nonzero1 thm
+R8442:8449 mathcomp.algebra.fraction FracField mul_addl thm
+R8435:8440 mathcomp.algebra.fraction FracField mul1_l thm
+R8430:8433 mathcomp.algebra.fraction FracField mulC thm
+R8425:8428 mathcomp.algebra.fraction FracField mulA thm
+def 8358:8459 FracField HB_unnamed_factory_34
+def 8358:8459 FracField GRing_Zmodule_isComNzRing__to__GRing_PzSemiRing_isNonZero
+def 8358:8459 FracField GRing_Zmodule_isComNzRing__to__GRing_Nmodule_isPzSemiRing
+def 8358:8459 FracField GRing_Zmodule_isComNzRing__to__GRing_SemiRing_hasCommutativeMul
+def 8358:8459 FracField HB_unnamed_mixin_38
+def 8358:8459 FracField FracField_type__canonical__GRing_PzSemiRing
+def 8358:8459 FracField FracField_type__canonical__GRing_PzRing
+def 8358:8459 FracField HB_unnamed_mixin_39
+def 8358:8459 FracField FracField_type__canonical__GRing_NzSemiRing
+def 8358:8459 FracField FracField_type__canonical__GRing_NzRing
+def 8358:8459 FracField HB_unnamed_mixin_40
+def 8358:8459 FracField FracField_type__canonical__GRing_ComPzSemiRing
+def 8358:8459 FracField FracField_type__canonical__GRing_ComPzRing
+def 8358:8459 FracField FracField_type__canonical__GRing_ComNzSemiRing
+def 8358:8459 FracField FracField_type__canonical__GRing_ComNzRing
+prf 8468:8473 FracField mulV_l
+binder 8484:8484 <> a:51
+R8496:8499 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8488:8491 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R8487:8487 mathcomp.algebra.fraction <> a:51 var
+R8493:8495 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8513:8515 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8500:8502 mathcomp.algebra.fraction FracField mul def
+R8512:8512 mathcomp.algebra.fraction <> a:51 var
+R8505:8507 mathcomp.algebra.fraction FracField inv def
+R8509:8509 mathcomp.algebra.fraction <> a:51 var
+R8517:8519 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8557:8559 mathcomp.boot.generic_quotient <> piE abbrev
+R8534:8538 mathcomp.boot.generic_quotient <> quotW thm
+R8571:8576 mathcomp.algebra.fraction FracField equivf def
+R8579:8590 mathcomp.algebra.fraction <> numden_Ratio def
+R8593:8600 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R8605:8609 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R8611:8615 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+R8630:8635 mathcomp.boot.generic_quotient <> eqmodP thm
+R8649:8655 mathcomp.algebra.fraction FracField equivfE thm
+R8670:8681 mathcomp.algebra.fraction <> numden_Ratio def
+R8684:8684 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8693:8694 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8704:8705 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8710:8710 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8685:8692 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R8695:8703 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_neq0 def
+R8706:8709 mathcomp.algebra.fraction FracField domP abbrev
+R8716:8720 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R8722:8726 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+prf 8741:8744 FracField inv0
+R8756:8758 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8748:8750 mathcomp.algebra.fraction FracField inv def
+R8753:8755 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8760:8762 mathcomp.algebra.fraction FracField.FracField :::x_'%:F' not
+R8781:8783 mathcomp.boot.generic_quotient <> piE abbrev
+R8786:8789 mathcomp.algebra.fraction FracField invf def
+R8792:8803 mathcomp.algebra.fraction <> numden_Ratio def
+R8806:8813 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R8819:8823 mathcomp.algebra.fraction <> Ratio def
+R8826:8831 mathcomp.boot.eqtype <> insubd def
+R8845:8850 mathcomp.boot.eqtype <> insubP thm
+R8866:8869 mathcomp.boot.eqtype <> eqxx abbrev
+R8872:8879 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R8906:8908 mathcomp.boot.generic_quotient <> ::quotient_scope:'\pi' not
+R8918:8924 mathcomp.boot.eqtype <> val_inj thm
+R9052:9080 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComNzRing_isField Build abbrev
+R9082:9085 mathcomp.algebra.fraction FracField type def
+R9094:9097 mathcomp.algebra.fraction FracField inv0 thm
+R9087:9092 mathcomp.algebra.fraction FracField mulV_l thm
+def 9024:9098 FracField HB_unnamed_factory_41
+def 9024:9098 FracField GRing_ComNzRing_isField__to__GRing_ComUnitRing_isIntegral
+def 9024:9098 FracField GRing_ComNzRing_isField__to__GRing_UnitRing_isField
+def 9024:9098 FracField GRing_ComNzRing_isField__to__GRing_NzRing_hasMulInverse
+def 9024:9098 FracField HB_unnamed_mixin_45
+def 9024:9098 FracField FracField_type__canonical__GRing_UnitRing
+def 9024:9098 FracField FracField_type__canonical__GRing_ComUnitRing
+def 9024:9098 FracField HB_unnamed_mixin_46
+def 9024:9098 FracField FracField_type__canonical__GRing_IntegralDomain
+def 9024:9098 FracField HB_unnamed_mixin_47
+def 9024:9098 FracField FracField_type__canonical__GRing_Field
+R9105:9113 mathcomp.algebra.fraction FracField.FracField <> sec
+R9120:9128 mathcomp.algebra.fraction FracField <> mod
+R9163:9176 mathcomp.algebra.fraction <> type def
+R9220:9233 mathcomp.algebra.fraction <> type def
+not 9197:9197 <> :::'{'_'fraction'_x_'}'
+abbrev 9248:9253 <> equivf
+R9260:9275 mathcomp.algebra.fraction <> equivf def
+sec 9334:9348 <> FracFieldTheory
+R9359:9367 mathcomp.algebra.fraction FracField <> mod
+var 9380:9380 FracFieldTheory R
+R9384:9394 mathcomp.algebra.algebraic_hierarchy.divalg GRing.IntegralDomain.Exports idomainType abbrev
+prf 9404:9415 <> Ratio_numden
+R9422:9428 mathcomp.algebra.fraction <> ::type_scope:'{'_'ratio'_x_'}' not
+R9430:9430 mathcomp.algebra.fraction <> ::type_scope:'{'_'ratio'_x_'}' not
+R9429:9429 mathcomp.algebra.fraction <> FracFieldTheory.R var
+binder 9418:9418 <> x:54
+R9450:9452 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9435:9439 mathcomp.algebra.fraction <> Ratio def
+R9446:9448 mathcomp.algebra.fraction <> :::'\d_'_x not
+R9449:9449 mathcomp.algebra.fraction <> x:54 var
+R9441:9443 mathcomp.algebra.fraction <> :::'\n_'_x not
+R9444:9444 mathcomp.algebra.fraction <> x:54 var
+R9453:9453 mathcomp.algebra.fraction <> x:54 var
+R9470:9491 mathcomp.algebra.fraction <> Ratio_numden thm
+abbrev 9568:9573 <> tofrac
+R9580:9595 mathcomp.algebra.fraction <> tofrac def
+R9597:9597 mathcomp.algebra.fraction <> FracFieldTheory.R var
+R9628:9633 mathcomp.algebra.fraction <> tofrac abbrev
+not 9616:9616 FracFieldTheory :::x_'%:F'
+prf 9646:9668 <> tofrac_is_zmod_morphism
+R9671:9683 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory zmod_morphism def
+R9685:9690 mathcomp.algebra.fraction <> tofrac abbrev
+R9722:9727 mathcomp.algebra.fraction <> tofrac abbrev
+R9746:9748 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9750:9752 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R9755:9760 mathcomp.algebra.fraction <> pi_opp thm
+R9764:9766 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R9768:9773 mathcomp.algebra.fraction <> pi_add thm
+R9788:9791 mathcomp.algebra.fraction <> addf def
+R9794:9797 mathcomp.algebra.fraction <> oppf def
+R9803:9814 mathcomp.algebra.fraction <> numden_Ratio def
+R9817:9817 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9827:9828 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9834:9835 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9841:9841 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9818:9826 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_neq0 def
+R9829:9833 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R9836:9840 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+def 9933:9950 <> tofrac_is_additive
+R9955:9977 mathcomp.algebra.fraction <> tofrac_is_zmod_morphism thm
+R10009:10034 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.isZmodMorphism Build abbrev
+R10036:10036 mathcomp.algebra.fraction <> FracFieldTheory.R var
+R10038:10047 mathcomp.algebra.fraction <> :::'{'_'fraction'_x_'}' not
+R10049:10049 mathcomp.algebra.fraction <> :::'{'_'fraction'_x_'}' not
+R10048:10048 mathcomp.algebra.fraction <> FracFieldTheory.R var
+R10051:10056 mathcomp.algebra.fraction <> tofrac abbrev
+R10060:10082 mathcomp.algebra.fraction <> tofrac_is_zmod_morphism thm
+def 9981:10083 <> HB_unnamed_factory_48
+def 9981:10083 <> GRing_isZmodMorphism__to__Algebra_isNmodMorphism
+def 9981:10083 <> HB_unnamed_mixin_50
+def 9981:10083 <> FracField_tofrac__canonical__Algebra_Additive
+prf 10092:10116 <> tofrac_is_monoid_morphism
+R10119:10133 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory monoid_morphism def
+R10135:10140 mathcomp.algebra.fraction <> tofrac abbrev
+R10175:10180 mathcomp.algebra.fraction <> tofrac abbrev
+R10193:10195 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R10197:10202 mathcomp.algebra.fraction <> pi_mul thm
+R10217:10220 mathcomp.algebra.fraction <> mulf def
+R10226:10237 mathcomp.algebra.fraction <> numden_Ratio def
+R10240:10240 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10250:10251 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10257:10258 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10264:10264 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10241:10249 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_neq0 def
+R10252:10256 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R10259:10263 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+def 10358:10381 <> tofrac_is_multiplicative
+R10386:10410 mathcomp.algebra.fraction <> tofrac_is_monoid_morphism thm
+R10442:10469 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isMonoidMorphism Build abbrev
+R10471:10471 mathcomp.algebra.fraction <> FracFieldTheory.R var
+R10473:10482 mathcomp.algebra.fraction <> :::'{'_'fraction'_x_'}' not
+R10484:10484 mathcomp.algebra.fraction <> :::'{'_'fraction'_x_'}' not
+R10483:10483 mathcomp.algebra.fraction <> FracFieldTheory.R var
+R10486:10491 mathcomp.algebra.fraction <> tofrac abbrev
+R10495:10519 mathcomp.algebra.fraction <> tofrac_is_monoid_morphism thm
+def 10414:10520 <> HB_unnamed_factory_51
+def 10414:10520 <> FracField_tofrac__canonical__GRing_RMorphism
+prf 10541:10547 <> tofrac0
+R10555:10557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10552:10554 mathcomp.algebra.fraction FracFieldTheory :::x_'%:F' not
+R10575:10581 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorph0 def
+prf 10595:10601 <> tofracN
+R10605:10611 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10618:10619 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10621:10623 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10627:10627 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10612:10617 mathcomp.algebra.fraction <> tofrac abbrev
+binder 10620:10620 <> x:55
+R10624:10625 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R10626:10626 mathcomp.algebra.fraction <> x:55 var
+binder 10620:10620 <> x:56
+R10626:10626 mathcomp.algebra.fraction <> x:56 var
+R10644:10650 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphN def
+prf 10664:10670 <> tofracD
+R10674:10680 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10687:10688 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10690:10690 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10692:10694 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10700:10700 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10681:10686 mathcomp.algebra.fraction <> tofrac abbrev
+binder 10689:10689 <> x:57
+binder 10691:10691 <> y:58
+R10696:10698 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R10695:10695 mathcomp.algebra.fraction <> x:57 var
+R10699:10699 mathcomp.algebra.fraction <> y:58 var
+binder 10689:10689 <> x:59
+binder 10691:10691 <> y:60
+R10695:10695 mathcomp.algebra.fraction <> x:59 var
+R10699:10699 mathcomp.algebra.fraction <> y:60 var
+R10717:10723 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphD def
+prf 10737:10743 <> tofracB
+R10747:10753 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10760:10761 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10763:10763 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10765:10767 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10773:10773 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R10754:10759 mathcomp.algebra.fraction <> tofrac abbrev
+binder 10762:10762 <> x:61
+binder 10764:10764 <> y:62
+R10769:10771 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R10768:10768 mathcomp.algebra.fraction <> x:61 var
+R10772:10772 mathcomp.algebra.fraction <> y:62 var
+binder 10762:10762 <> x:63
+binder 10764:10764 <> y:64
+R10768:10768 mathcomp.algebra.fraction <> x:63 var
+R10772:10772 mathcomp.algebra.fraction <> y:64 var
+R10790:10796 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphB def
+prf 10810:10817 <> tofracMn
+binder 10819:10819 <> n:65
+R10823:10829 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10836:10837 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10839:10841 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10848:10848 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10830:10835 mathcomp.algebra.fraction <> tofrac abbrev
+binder 10838:10838 <> x:66
+R10843:10846 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R10842:10842 mathcomp.algebra.fraction <> x:66 var
+R10847:10847 mathcomp.algebra.fraction <> n:65 var
+binder 10838:10838 <> x:67
+R10842:10842 mathcomp.algebra.fraction <> x:67 var
+R10865:10872 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphMn def
+prf 10886:10894 <> tofracMNn
+binder 10896:10896 <> n:68
+R10900:10906 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10913:10914 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10916:10918 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10925:10925 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R10907:10912 mathcomp.algebra.fraction <> tofrac abbrev
+binder 10915:10915 <> x:69
+R10920:10923 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*-'_x not
+R10919:10919 mathcomp.algebra.fraction <> x:69 var
+R10924:10924 mathcomp.algebra.fraction <> n:68 var
+binder 10915:10915 <> x:70
+R10919:10919 mathcomp.algebra.fraction <> x:70 var
+R10942:10950 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphMNn def
+prf 10964:10970 <> tofrac1
+R10978:10980 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10975:10977 mathcomp.algebra.fraction FracFieldTheory :::x_'%:F' not
+R10998:11004 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorph1 def
+prf 11018:11024 <> tofracM
+R11028:11034 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R11041:11042 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R11044:11044 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R11046:11049 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R11055:11055 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R11035:11040 mathcomp.algebra.fraction <> tofrac abbrev
+binder 11043:11043 <> x:71
+binder 11045:11045 <> y:72
+R11051:11053 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R11050:11050 mathcomp.algebra.fraction <> x:71 var
+R11054:11054 mathcomp.algebra.fraction <> y:72 var
+binder 11043:11043 <> x:73
+binder 11045:11045 <> y:74
+R11050:11050 mathcomp.algebra.fraction <> x:73 var
+R11054:11054 mathcomp.algebra.fraction <> y:74 var
+R11072:11078 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphM def
+prf 11092:11099 <> tofracXn
+binder 11101:11101 <> n:75
+R11105:11111 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R11118:11119 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R11121:11123 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R11130:11130 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}' not
+R11112:11117 mathcomp.algebra.fraction <> tofrac abbrev
+binder 11120:11120 <> x:76
+R11125:11128 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'^+'_x not
+R11124:11124 mathcomp.algebra.fraction <> x:76 var
+R11129:11129 mathcomp.algebra.fraction <> n:75 var
+binder 11120:11120 <> x:77
+R11124:11124 mathcomp.algebra.fraction <> x:77 var
+R11147:11154 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorphXn def
+prf 11169:11177 <> tofrac_eq
+R11186:11186 mathcomp.algebra.fraction <> FracFieldTheory.R var
+binder 11180:11180 <> p:78
+binder 11182:11182 <> q:79
+R11190:11190 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11203:11207 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11214:11214 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11195:11198 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11192:11194 mathcomp.algebra.fraction FracFieldTheory :::x_'%:F' not
+R11191:11191 mathcomp.algebra.fraction <> p:78 var
+R11200:11202 mathcomp.algebra.fraction FracFieldTheory :::x_'%:F' not
+R11199:11199 mathcomp.algebra.fraction <> q:79 var
+R11209:11212 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11208:11208 mathcomp.algebra.fraction <> p:78 var
+R11213:11213 mathcomp.algebra.fraction <> q:79 var
+R11230:11232 mathcomp.boot.eqtype <> eqP def
+R11234:11236 mathcomp.boot.eqtype <> eqP def
+R11256:11261 mathcomp.algebra.fraction <> tofrac abbrev
+R11266:11271 mathcomp.boot.generic_quotient <> eqmodP thm
+R11274:11276 mathcomp.boot.eqtype <> eqP def
+R11294:11305 mathcomp.algebra.fraction <> numden_Ratio def
+R11308:11308 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11317:11318 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11324:11325 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11331:11331 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11309:11316 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R11319:11323 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R11326:11330 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+prf 11346:11355 <> tofrac_eq0
+R11362:11362 mathcomp.algebra.fraction <> FracFieldTheory.R var
+binder 11358:11358 <> p:80
+R11366:11366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11376:11380 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11387:11387 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11371:11374 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11368:11370 mathcomp.algebra.fraction FracFieldTheory :::x_'%:F' not
+R11367:11367 mathcomp.algebra.fraction <> p:80 var
+R11382:11385 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11381:11381 mathcomp.algebra.fraction <> p:80 var
+R11408:11416 mathcomp.algebra.fraction <> tofrac_eq thm
+R11428:11442 mathcomp.algebra.fraction FracFieldTheory <> sec

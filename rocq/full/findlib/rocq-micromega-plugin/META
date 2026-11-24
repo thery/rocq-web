@@ -1,0 +1,18 @@
+package "plugin" (
+  directory = "plugin"
+  description = ""
+  requires = "rocq-runtime.plugins.ltac rocq-runtime.vernac"
+  archive(byte) = "micromega_ml_plugin.cma"
+  archive(native) = "micromega_ml_plugin.cmxa"
+  plugin(byte) = "micromega_ml_plugin.cma"
+  plugin(native) = "micromega_ml_plugin.cmxs"
+)
+package "zify" (
+  directory = "zify"
+  description = ""
+  requires = "rocq-runtime.plugins.ltac"
+  archive(byte) = "zify_ml_plugin.cma"
+  archive(native) = "zify_ml_plugin.cmxa"
+  plugin(byte) = "zify_ml_plugin.cma"
+  plugin(native) = "zify_ml_plugin.cmxs"
+)

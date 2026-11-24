@@ -1,0 +1,622 @@
+DIGEST 0d73b6c17655ccc04e5d991d8ae60392
+FStdlib.micromega.QMicromega
+R1155:1165 Stdlib.micromega.OrderedRing <> <> lib
+R1195:1207 Stdlib.micromega.RingMicromega <> <> lib
+R1237:1240 Stdlib.micromega.Refl <> <> lib
+R1270:1280 Stdlib.QArith.QArith_base <> <> lib
+R1310:1315 Stdlib.QArith.Qfield <> <> lib
+prf 1325:1328 <> Qsor
+R1332:1334 Stdlib.micromega.OrderedRing <> SOR rec
+R1373:1375 Stdlib.QArith.QArith_base <> Qlt def
+R1369:1371 Stdlib.QArith.QArith_base <> Qle def
+R1364:1366 Stdlib.QArith.QArith_base <> Qeq def
+R1359:1362 Stdlib.QArith.QArith_base <> Qopp def
+R1352:1357 Stdlib.QArith.QArith_base <> Qminus def
+R1346:1350 Stdlib.QArith.QArith_base <> Qmult def
+R1340:1344 Stdlib.QArith.QArith_base <> Qplus def
+R1470:1477 Stdlib.QArith.QArith_base <> Q_Setoid inst
+R1763:1766 Stdlib.QArith.Qfield <> Qsrt def
+R1780:1788 Stdlib.QArith.QArith_base <> Qle_trans thm
+R1810:1819 Stdlib.QArith.QArith_base <> Qlt_not_eq thm
+R1852:1856 Stdlib.QArith.QArith_base <> Q_dec thm
+R1903:1917 Stdlib.QArith.QArith_base <> Qplus_le_compat thm
+R1930:1937 Stdlib.QArith.QArith_base <> Qle_refl thm
+R1962:1978 Stdlib.QArith.QArith_base <> Qmult_lt_compat_r thm
+R2005:2013 Stdlib.QArith.QArith_base <> Qmult_0_l thm
+prf 2075:2083 <> QSORaddon
+R2089:2096 Stdlib.micromega.RingMicromega <> SORaddon rec
+R2254:2258 Stdlib.setoid_ring.Ring_theory <> pow_N def
+R2262:2266 Stdlib.QArith.QArith_base <> Qmult def
+binder 2245:2245 <> x:1
+R2250:2250 Stdlib.micromega.QMicromega <> x:1 var
+binder 2232:2232 <> x:2
+R2237:2237 Stdlib.micromega.QMicromega <> x:2 var
+R2216:2223 Stdlib.QArith.QArith_base <> Qle_bool def
+R2207:2214 Stdlib.QArith.QArith_base <> Qeq_bool def
+R2181:2184 Stdlib.QArith.QArith_base <> Qopp def
+R2174:2179 Stdlib.QArith.QArith_base <> Qminus def
+R2168:2172 Stdlib.QArith.QArith_base <> Qmult def
+R2162:2166 Stdlib.QArith.QArith_base <> Qplus def
+R2132:2134 Stdlib.QArith.QArith_base <> Qle def
+R2127:2129 Stdlib.QArith.QArith_base <> Qeq def
+R2121:2124 Stdlib.QArith.QArith_base <> Qopp def
+R2114:2119 Stdlib.QArith.QArith_base <> Qminus def
+R2108:2112 Stdlib.QArith.QArith_base <> Qmult def
+R2102:2106 Stdlib.QArith.QArith_base <> Qplus def
+R2346:2356 Stdlib.QArith.QArith_base <> Qeq_bool_eq thm
+R2425:2436 Stdlib.QArith.QArith_base <> Qeq_bool_neq thm
+R2456:2470 Stdlib.QArith.QArith_base <> Qle_bool_imp_le thm
+R2617:2623 Stdlib.micromega.EnvRing <> <> lib
+def 2636:2645 <> Qeval_expr
+R2653:2658 Stdlib.micromega.RingMicromega <> PolEnv def
+R2660:2660 Stdlib.QArith.QArith_base <> Q rec
+binder 2648:2650 <> env:3
+R2667:2671 Stdlib.micromega.EnvRing <> PExpr ind
+R2673:2673 Stdlib.QArith.QArith_base <> Q rec
+binder 2664:2664 <> e:4
+R2678:2678 Stdlib.QArith.QArith_base <> Q rec
+R2691:2691 Stdlib.micromega.QMicromega <> e:4 var
+R2704:2706 Stdlib.micromega.EnvRing <> PEc constr
+R2722:2724 Stdlib.micromega.EnvRing <> PEX constr
+R2732:2734 Stdlib.micromega.QMicromega <> env:3 var
+R2744:2748 Stdlib.micromega.EnvRing <> PEadd constr
+R2761:2761 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2780:2784 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2803:2803 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2762:2771 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2773:2775 Stdlib.micromega.QMicromega <> env:3 var
+R2785:2794 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2796:2798 Stdlib.micromega.QMicromega <> env:3 var
+R2811:2815 Stdlib.micromega.EnvRing <> PEsub constr
+R2828:2828 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2847:2851 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2870:2870 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2829:2838 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2840:2842 Stdlib.micromega.QMicromega <> env:3 var
+R2852:2861 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2863:2865 Stdlib.micromega.QMicromega <> env:3 var
+R2878:2882 Stdlib.micromega.EnvRing <> PEmul constr
+R2895:2895 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2914:2918 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2937:2937 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2896:2905 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2907:2909 Stdlib.micromega.QMicromega <> env:3 var
+R2919:2928 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2930:2932 Stdlib.micromega.QMicromega <> env:3 var
+R2945:2949 Stdlib.micromega.EnvRing <> PEopp constr
+R2958:2960 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2979:2979 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2961:2970 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R2972:2974 Stdlib.micromega.QMicromega <> env:3 var
+R2987:2991 Stdlib.micromega.EnvRing <> PEpow constr
+R3002:3007 Stdlib.QArith.QArith_base <> Qpower def
+R3010:3019 Stdlib.micromega.QMicromega <> Qeval_expr:5 def
+R3021:3023 Stdlib.micromega.QMicromega <> env:3 var
+R3032:3037 Stdlib.ZArith.BinInt Z of_N def
+prf 3056:3071 <> Qeval_expr_simpl
+binder 3082:3084 <> env:7
+binder 3086:3086 <> e:8
+R3107:3111 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3091:3100 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3102:3104 Stdlib.micromega.QMicromega <> env:7 var
+R3106:3106 Stdlib.micromega.QMicromega <> e:8 var
+R3118:3118 Stdlib.micromega.QMicromega <> e:8 var
+R3131:3133 Stdlib.micromega.EnvRing <> PEc constr
+R3149:3151 Stdlib.micromega.EnvRing <> PEX constr
+R3159:3161 Stdlib.micromega.QMicromega <> env:7 var
+R3171:3175 Stdlib.micromega.EnvRing <> PEadd constr
+R3188:3188 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R3207:3211 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R3230:3230 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R3189:3198 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3200:3202 Stdlib.micromega.QMicromega <> env:7 var
+R3212:3221 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3223:3225 Stdlib.micromega.QMicromega <> env:7 var
+R3238:3242 Stdlib.micromega.EnvRing <> PEsub constr
+R3255:3255 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R3274:3278 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R3297:3297 Stdlib.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R3256:3265 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3267:3269 Stdlib.micromega.QMicromega <> env:7 var
+R3279:3288 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3290:3292 Stdlib.micromega.QMicromega <> env:7 var
+R3305:3309 Stdlib.micromega.EnvRing <> PEmul constr
+R3322:3322 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3341:3345 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3364:3364 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3323:3332 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3334:3336 Stdlib.micromega.QMicromega <> env:7 var
+R3346:3355 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3357:3359 Stdlib.micromega.QMicromega <> env:7 var
+R3372:3376 Stdlib.micromega.EnvRing <> PEopp constr
+R3385:3387 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R3406:3406 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R3388:3397 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3399:3401 Stdlib.micromega.QMicromega <> env:7 var
+R3414:3418 Stdlib.micromega.EnvRing <> PEpow constr
+R3429:3434 Stdlib.QArith.QArith_base <> Qpower def
+R3437:3446 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3448:3450 Stdlib.micromega.QMicromega <> env:7 var
+R3459:3464 Stdlib.ZArith.BinInt Z of_N def
+def 3528:3538 <> Qeval_expr'
+R3543:3552 Stdlib.micromega.RingMicromega <> eval_pexpr def
+R3606:3610 Stdlib.setoid_ring.Ring_theory <> pow_N def
+R3614:3618 Stdlib.QArith.QArith_base <> Qmult def
+binder 3597:3597 <> x:10
+R3602:3602 Stdlib.micromega.QMicromega <> x:10 var
+binder 3584:3584 <> x:11
+R3589:3589 Stdlib.micromega.QMicromega <> x:11 var
+R3574:3577 Stdlib.QArith.QArith_base <> Qopp def
+R3567:3572 Stdlib.QArith.QArith_base <> Qminus def
+R3561:3565 Stdlib.QArith.QArith_base <> Qmult def
+R3555:3559 Stdlib.QArith.QArith_base <> Qplus def
+prf 3629:3635 <> QNpower
+binder 3646:3646 <> r:12
+binder 3648:3648 <> n:13
+R3663:3665 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3652:3654 Stdlib.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R3651:3651 Stdlib.micromega.QMicromega <> r:12 var
+R3655:3660 Stdlib.ZArith.BinInt Z of_N def
+R3662:3662 Stdlib.micromega.QMicromega <> n:13 var
+R3666:3670 Stdlib.setoid_ring.Ring_theory <> pow_N def
+R3682:3682 Stdlib.micromega.QMicromega <> n:13 var
+R3680:3680 Stdlib.micromega.QMicromega <> r:12 var
+R3674:3678 Stdlib.QArith.QArith_base <> Qmult def
+prf 3733:3749 <> Qeval_expr_compat
+binder 3760:3762 <> env:14
+binder 3764:3764 <> e:15
+R3783:3785 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3767:3776 Stdlib.micromega.QMicromega <> Qeval_expr def
+R3778:3780 Stdlib.micromega.QMicromega <> env:14 var
+R3782:3782 Stdlib.micromega.QMicromega <> e:15 var
+R3786:3796 Stdlib.micromega.QMicromega <> Qeval_expr' def
+R3798:3800 Stdlib.micromega.QMicromega <> env:14 var
+R3802:3802 Stdlib.micromega.QMicromega <> e:15 var
+R3904:3910 Stdlib.micromega.QMicromega <> QNpower thm
+def 3930:3939 <> Qeval_pop2
+R3946:3948 Stdlib.micromega.RingMicromega <> Op2 ind
+binder 3942:3942 <> o:16
+R3954:3957 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3953:3953 Stdlib.QArith.QArith_base <> Q rec
+R3959:3962 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3958:3958 Stdlib.QArith.QArith_base <> Q rec
+R3977:3977 Stdlib.micromega.QMicromega <> o:16 var
+R3986:3989 Stdlib.micromega.RingMicromega <> OpEq constr
+R3995:3997 Stdlib.QArith.QArith_base <> Qeq def
+R4001:4005 Stdlib.micromega.RingMicromega <> OpNEq constr
+binder 4014:4014 <> x:18
+binder 4016:4016 <> y:19
+R4022:4023 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4025:4028 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4024:4024 Stdlib.micromega.QMicromega <> x:18 var
+R4029:4029 Stdlib.micromega.QMicromega <> y:19 var
+R4033:4036 Stdlib.micromega.RingMicromega <> OpLe constr
+R4041:4043 Stdlib.QArith.QArith_base <> Qle def
+R4047:4050 Stdlib.micromega.RingMicromega <> OpGe constr
+binder 4059:4059 <> x:20
+binder 4061:4061 <> y:21
+R4066:4068 Stdlib.QArith.QArith_base <> Qle def
+R4070:4070 Stdlib.micromega.QMicromega <> y:21 var
+R4072:4072 Stdlib.micromega.QMicromega <> x:20 var
+R4076:4079 Stdlib.micromega.RingMicromega <> OpLt constr
+R4084:4086 Stdlib.QArith.QArith_base <> Qlt def
+R4090:4093 Stdlib.micromega.RingMicromega <> OpGt constr
+binder 4102:4102 <> x:22
+binder 4104:4104 <> y:23
+R4109:4111 Stdlib.QArith.QArith_base <> Qlt def
+R4113:4113 Stdlib.micromega.QMicromega <> y:23 var
+R4115:4115 Stdlib.micromega.QMicromega <> x:22 var
+def 4135:4142 <> Qlt_bool
+R4151:4151 Stdlib.QArith.QArith_base <> Q rec
+binder 4145:4145 <> x:24
+binder 4147:4147 <> y:25
+R4175:4178 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R4166:4168 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4160:4163 Stdlib.QArith.QArith_base <> Qnum proj
+R4165:4165 Stdlib.micromega.QMicromega <> x:24 var
+R4169:4172 Stdlib.QArith.QArith_base <> QDen abbrev
+R4174:4174 Stdlib.micromega.QMicromega <> y:25 var
+R4185:4187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4179:4182 Stdlib.QArith.QArith_base <> Qnum proj
+R4184:4184 Stdlib.micromega.QMicromega <> y:25 var
+R4188:4191 Stdlib.QArith.QArith_base <> QDen abbrev
+R4193:4193 Stdlib.micromega.QMicromega <> x:24 var
+def 4211:4220 <> Qeval_bop2
+R4227:4229 Stdlib.micromega.RingMicromega <> Op2 ind
+binder 4223:4223 <> o:26
+R4235:4238 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4234:4234 Stdlib.QArith.QArith_base <> Q rec
+R4240:4243 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4239:4239 Stdlib.QArith.QArith_base <> Q rec
+R4244:4247 Corelib.Init.Datatypes <> bool ind
+R4260:4260 Stdlib.micromega.QMicromega <> o:26 var
+R4271:4274 Stdlib.micromega.RingMicromega <> OpEq constr
+R4280:4287 Stdlib.QArith.QArith_base <> Qeq_bool def
+R4293:4297 Stdlib.micromega.RingMicromega <> OpNEq constr
+binder 4306:4306 <> x:28
+binder 4308:4308 <> y:29
+R4313:4316 Corelib.Init.Datatypes <> negb def
+R4319:4326 Stdlib.QArith.QArith_base <> Qeq_bool def
+R4328:4328 Stdlib.micromega.QMicromega <> x:28 var
+R4330:4330 Stdlib.micromega.QMicromega <> y:29 var
+R4337:4340 Stdlib.micromega.RingMicromega <> OpLe constr
+R4346:4353 Stdlib.QArith.QArith_base <> Qle_bool def
+R4359:4362 Stdlib.micromega.RingMicromega <> OpGe constr
+binder 4372:4372 <> x:30
+binder 4374:4374 <> y:31
+R4379:4386 Stdlib.QArith.QArith_base <> Qle_bool def
+R4388:4388 Stdlib.micromega.QMicromega <> y:31 var
+R4390:4390 Stdlib.micromega.QMicromega <> x:30 var
+R4396:4399 Stdlib.micromega.RingMicromega <> OpLt constr
+R4405:4412 Stdlib.micromega.QMicromega <> Qlt_bool def
+R4418:4421 Stdlib.micromega.RingMicromega <> OpGt constr
+binder 4431:4431 <> x:32
+binder 4433:4433 <> y:33
+R4438:4445 Stdlib.micromega.QMicromega <> Qlt_bool def
+R4447:4447 Stdlib.micromega.QMicromega <> y:33 var
+R4449:4449 Stdlib.micromega.QMicromega <> x:32 var
+prf 4465:4476 <> Qlt_bool_iff
+binder 4487:4488 <> q1:34
+binder 4490:4491 <> q2:35
+R4519:4523 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4512:4514 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4498:4505 Stdlib.micromega.QMicromega <> Qlt_bool def
+R4507:4508 Stdlib.micromega.QMicromega <> q1:34 var
+R4510:4511 Stdlib.micromega.QMicromega <> q2:35 var
+R4515:4518 Corelib.Init.Datatypes <> true constr
+R4526:4528 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R4524:4525 Stdlib.micromega.QMicromega <> q1:34 var
+R4529:4530 Stdlib.micromega.QMicromega <> q2:35 var
+R4549:4556 Stdlib.micromega.QMicromega <> Qlt_bool def
+R4568:4570 Stdlib.QArith.QArith_base <> Qlt def
+R4589:4596 Stdlib.ZArith.BinInt Z ltb_lt thm
+prf 4611:4619 <> pop2_bop2
+R4638:4640 Stdlib.micromega.RingMicromega <> Op2 ind
+binder 4633:4634 <> op:36
+R4652:4652 Stdlib.QArith.QArith_base <> Q rec
+binder 4644:4645 <> q1:37
+binder 4647:4648 <> q2:38
+R4685:4689 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4656:4662 Corelib.Init.Datatypes <> is_true def
+R4665:4674 Stdlib.micromega.QMicromega <> Qeval_bop2 def
+R4676:4677 Stdlib.micromega.QMicromega <> op:36 var
+R4679:4680 Stdlib.micromega.QMicromega <> q1:37 var
+R4682:4683 Stdlib.micromega.QMicromega <> q2:38 var
+R4690:4699 Stdlib.micromega.QMicromega <> Qeval_pop2 def
+R4701:4702 Stdlib.micromega.QMicromega <> op:36 var
+R4704:4705 Stdlib.micromega.QMicromega <> q1:37 var
+R4707:4708 Stdlib.micromega.QMicromega <> q2:38 var
+R4727:4733 Corelib.Init.Datatypes <> is_true def
+R4777:4788 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+R4806:4817 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+R4832:4844 Stdlib.Bool.Bool <> negb_true_iff thm
+R4861:4868 Stdlib.QArith.QArith_base <> Qeq_bool def
+R4911:4922 Stdlib.QArith.QArith_base <> Qle_bool_iff thm
+R4935:4946 Stdlib.QArith.QArith_base <> Qle_bool_iff thm
+R4959:4970 Stdlib.micromega.QMicromega <> Qlt_bool_iff thm
+R4983:4994 Stdlib.micromega.QMicromega <> Qlt_bool_iff thm
+def 5014:5022 <> Qeval_op2
+R5027:5036 Stdlib.micromega.Tauto <> kind ind
+binder 5025:5025 <> k:39
+R5045:5049 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5042:5044 Stdlib.micromega.RingMicromega <> Op2 ind
+R5051:5054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5050:5050 Stdlib.QArith.QArith_base <> Q rec
+R5056:5059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5055:5055 Stdlib.QArith.QArith_base <> Q rec
+R5060:5069 Stdlib.micromega.Tauto <> rtyp def
+R5071:5071 Stdlib.micromega.QMicromega <> k:39 var
+R5080:5080 Stdlib.micromega.QMicromega <> k:39 var
+R5099:5102 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5096:5098 Stdlib.micromega.RingMicromega <> Op2 ind
+R5104:5107 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5103:5103 Stdlib.QArith.QArith_base <> Q rec
+R5109:5112 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5108:5108 Stdlib.QArith.QArith_base <> Q rec
+R5113:5122 Stdlib.micromega.Tauto <> rtyp def
+R5124:5125 Stdlib.micromega.QMicromega <> k0:40 var
+R5151:5160 Stdlib.micromega.QMicromega <> Qeval_bop2 def
+R5135:5144 Stdlib.micromega.QMicromega <> Qeval_pop2 def
+prf 5171:5184 <> Qeval_op2_hold
+binder 5195:5195 <> k:41
+binder 5197:5198 <> op:42
+binder 5200:5201 <> q1:43
+binder 5203:5204 <> q2:44
+R5246:5250 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5211:5220 Stdlib.micromega.Tauto <> hold def
+R5225:5233 Stdlib.micromega.QMicromega <> Qeval_op2 def
+R5235:5235 Stdlib.micromega.QMicromega <> k:41 var
+R5237:5238 Stdlib.micromega.QMicromega <> op:42 var
+R5240:5241 Stdlib.micromega.QMicromega <> q1:43 var
+R5243:5244 Stdlib.micromega.QMicromega <> q2:44 var
+R5222:5222 Stdlib.micromega.QMicromega <> k:41 var
+R5251:5260 Stdlib.micromega.QMicromega <> Qeval_pop2 def
+R5262:5263 Stdlib.micromega.QMicromega <> op:42 var
+R5265:5266 Stdlib.micromega.QMicromega <> q1:43 var
+R5268:5269 Stdlib.micromega.QMicromega <> q2:44 var
+R5329:5337 Stdlib.micromega.QMicromega <> pop2_bop2 thm
+def 5357:5369 <> Qeval_formula
+R5374:5379 Stdlib.micromega.RingMicromega <> PolEnv def
+R5381:5381 Stdlib.QArith.QArith_base <> Q rec
+binder 5372:5372 <> e:45
+R5388:5397 Stdlib.micromega.Tauto <> kind ind
+binder 5385:5385 <> k:46
+R5406:5412 Stdlib.micromega.RingMicromega <> Formula rec
+R5414:5414 Stdlib.QArith.QArith_base <> Q rec
+binder 5401:5402 <> ff:47
+R5441:5442 Stdlib.micromega.QMicromega <> ff:47 var
+binder 5427:5429 <> lhs:48
+binder 5431:5431 <> o:49
+binder 5433:5435 <> rhs:50
+R5447:5455 Stdlib.micromega.QMicromega <> Qeval_op2 def
+R5457:5457 Stdlib.micromega.QMicromega <> k:46 var
+R5459:5459 Stdlib.micromega.QMicromega <> o:49 var
+R5462:5471 Stdlib.micromega.QMicromega <> Qeval_expr def
+R5473:5473 Stdlib.micromega.QMicromega <> e:45 var
+R5475:5477 Stdlib.micromega.QMicromega <> lhs:48 var
+R5481:5490 Stdlib.micromega.QMicromega <> Qeval_expr def
+R5492:5492 Stdlib.micromega.QMicromega <> e:45 var
+R5494:5496 Stdlib.micromega.QMicromega <> rhs:50 var
+def 5512:5525 <> Qeval_formula'
+R5532:5543 Stdlib.micromega.RingMicromega <> eval_formula def
+R5609:5613 Stdlib.setoid_ring.Ring_theory <> pow_N def
+R5617:5621 Stdlib.QArith.QArith_base <> Qmult def
+binder 5600:5600 <> x:51
+R5605:5605 Stdlib.micromega.QMicromega <> x:51 var
+binder 5587:5587 <> x:52
+R5592:5592 Stdlib.micromega.QMicromega <> x:52 var
+R5578:5580 Stdlib.QArith.QArith_base <> Qlt def
+R5574:5576 Stdlib.QArith.QArith_base <> Qle def
+R5570:5572 Stdlib.QArith.QArith_base <> Qeq def
+R5565:5568 Stdlib.QArith.QArith_base <> Qopp def
+R5558:5563 Stdlib.QArith.QArith_base <> Qminus def
+R5552:5556 Stdlib.QArith.QArith_base <> Qmult def
+R5546:5550 Stdlib.QArith.QArith_base <> Qplus def
+prf 5633:5652 <> Qeval_formula_compat
+binder 5663:5665 <> env:53
+binder 5667:5667 <> b:54
+binder 5669:5669 <> f:55
+R5708:5712 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5672:5681 Stdlib.micromega.Tauto <> hold def
+R5686:5698 Stdlib.micromega.QMicromega <> Qeval_formula def
+R5700:5702 Stdlib.micromega.QMicromega <> env:53 var
+R5704:5704 Stdlib.micromega.QMicromega <> b:54 var
+R5706:5706 Stdlib.micromega.QMicromega <> f:55 var
+R5683:5683 Stdlib.micromega.QMicromega <> b:54 var
+R5713:5726 Stdlib.micromega.QMicromega <> Qeval_formula' def
+R5728:5730 Stdlib.micromega.QMicromega <> env:53 var
+R5732:5732 Stdlib.micromega.QMicromega <> f:55 var
+R5761:5773 Stdlib.micromega.QMicromega <> Qeval_formula def
+R5807:5823 Stdlib.micromega.QMicromega <> Qeval_expr_compat thm
+R5835:5848 Stdlib.micromega.QMicromega <> Qeval_formula' def
+R5860:5870 Stdlib.micromega.QMicromega <> Qeval_expr' def
+R5892:5905 Stdlib.micromega.QMicromega <> Qeval_op2_hold thm
+def 5964:5977 <> Qeval_nformula
+R5984:5996 Stdlib.micromega.RingMicromega <> eval_nformula def
+binder 6030:6030 <> x:56
+R6035:6035 Stdlib.micromega.QMicromega <> x:56 var
+R6021:6023 Stdlib.QArith.QArith_base <> Qlt def
+R6017:6019 Stdlib.QArith.QArith_base <> Qle def
+R6013:6015 Stdlib.QArith.QArith_base <> Qeq def
+R6006:6010 Stdlib.QArith.QArith_base <> Qmult def
+R6000:6004 Stdlib.QArith.QArith_base <> Qplus def
+def 6052:6060 <> Qeval_op1
+R6067:6069 Stdlib.micromega.RingMicromega <> Op1 ind
+binder 6063:6063 <> o:57
+R6075:6078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6074:6074 Stdlib.QArith.QArith_base <> Q rec
+R6093:6093 Stdlib.micromega.QMicromega <> o:57 var
+R6102:6106 Stdlib.micromega.RingMicromega <> Equal constr
+R6119:6119 Stdlib.QArith.QArith_base <> Q rec
+binder 6115:6115 <> x:59
+R6125:6128 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R6124:6124 Stdlib.micromega.QMicromega <> x:59 var
+R6133:6140 Stdlib.micromega.RingMicromega <> NonEqual constr
+R6153:6153 Stdlib.QArith.QArith_base <> Q rec
+binder 6149:6149 <> x:60
+R6158:6159 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6161:6164 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R6160:6160 Stdlib.micromega.QMicromega <> x:60 var
+R6169:6174 Stdlib.micromega.RingMicromega <> Strict constr
+R6187:6187 Stdlib.QArith.QArith_base <> Q rec
+binder 6183:6183 <> x:61
+R6193:6195 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R6196:6196 Stdlib.micromega.QMicromega <> x:61 var
+R6200:6208 Stdlib.micromega.RingMicromega <> NonStrict constr
+R6221:6221 Stdlib.QArith.QArith_base <> Q rec
+binder 6217:6217 <> x:62
+R6227:6230 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R6231:6231 Stdlib.micromega.QMicromega <> x:62 var
+prf 6246:6263 <> Qeval_nformula_dec
+binder 6274:6276 <> env:63
+binder 6278:6278 <> d:64
+R6281:6281 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6302:6306 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6282:6295 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R6297:6299 Stdlib.micromega.QMicromega <> env:63 var
+R6301:6301 Stdlib.micromega.QMicromega <> d:64 var
+R6307:6309 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6330:6330 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6310:6323 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R6325:6327 Stdlib.micromega.QMicromega <> env:63 var
+R6329:6329 Stdlib.micromega.QMicromega <> d:64 var
+binder 6353:6355 <> env:65
+binder 6357:6357 <> d:66
+R6361:6377 Stdlib.micromega.RingMicromega <> eval_nformula_dec thm
+R6402:6402 Stdlib.micromega.QMicromega <> d:66 var
+R6398:6400 Stdlib.micromega.QMicromega <> env:65 var
+binder 6389:6389 <> x:67
+R6394:6394 Stdlib.micromega.QMicromega <> x:67 var
+R6379:6382 Stdlib.micromega.QMicromega <> Qsor thm
+binder 6353:6355 <> env:68
+binder 6357:6357 <> d:69
+R6402:6402 Stdlib.micromega.QMicromega <> d:69 var
+R6398:6400 Stdlib.micromega.QMicromega <> env:68 var
+binder 6389:6389 <> x:70
+R6394:6394 Stdlib.micromega.QMicromega <> x:70 var
+def 6423:6430 <> QWitness
+R6435:6439 Stdlib.micromega.RingMicromega <> Psatz ind
+R6441:6441 Stdlib.QArith.QArith_base <> Q rec
+def 6504:6515 <> QWeakChecker
+R6520:6544 Stdlib.micromega.RingMicromega <> check_normalised_formulas def
+R6571:6578 Stdlib.QArith.QArith_base <> Qle_bool def
+R6562:6569 Stdlib.QArith.QArith_base <> Qeq_bool def
+R6556:6560 Stdlib.QArith.QArith_base <> Qmult def
+R6550:6554 Stdlib.QArith.QArith_base <> Qplus def
+R6609:6612 Stdlib.Lists.List <> <> lib
+prf 6622:6639 <> QWeakChecker_sound
+R6657:6660 Corelib.Init.Datatypes <> list ind
+R6663:6670 Stdlib.micromega.RingMicromega <> NFormula def
+R6672:6672 Stdlib.QArith.QArith_base <> Q rec
+binder 6653:6653 <> l:71
+R6682:6689 Stdlib.micromega.QMicromega <> QWitness def
+binder 6677:6678 <> cm:72
+R6719:6724 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6712:6714 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6695:6706 Stdlib.micromega.QMicromega <> QWeakChecker def
+R6708:6708 Stdlib.micromega.QMicromega <> l:71 var
+R6710:6711 Stdlib.micromega.QMicromega <> cm:72 var
+R6715:6718 Corelib.Init.Datatypes <> true constr
+binder 6732:6734 <> env:73
+R6737:6745 Stdlib.micromega.Refl <> make_impl def
+R6770:6774 Corelib.Init.Logic <> False ind
+R6768:6768 Stdlib.micromega.QMicromega <> l:71 var
+R6748:6761 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R6763:6765 Stdlib.micromega.QMicromega <> env:73 var
+R6819:6832 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R6844:6859 Stdlib.micromega.RingMicromega <> checker_nf_sound thm
+R6866:6874 Stdlib.micromega.QMicromega <> QSORaddon thm
+R6861:6864 Stdlib.micromega.QMicromega <> Qsor thm
+R6892:6903 Stdlib.micromega.QMicromega <> QWeakChecker def
+R6965:6969 Stdlib.micromega.Tauto <> <> lib
+def 6984:6993 <> Qnormalise
+R6999:7011 Stdlib.micromega.RingMicromega <> cnf_normalise def
+R7013:7013 Stdlib.QArith.QArith_base <> Q rec
+R7019:7023 Stdlib.QArith.QArith_base <> Qplus def
+R7025:7029 Stdlib.QArith.QArith_base <> Qmult def
+R7031:7036 Stdlib.QArith.QArith_base <> Qminus def
+R7038:7041 Stdlib.QArith.QArith_base <> Qopp def
+R7043:7050 Stdlib.QArith.QArith_base <> Qeq_bool def
+R7052:7059 Stdlib.QArith.QArith_base <> Qle_bool def
+def 7074:7080 <> Qnegate
+R7086:7095 Stdlib.micromega.RingMicromega <> cnf_negate def
+R7097:7097 Stdlib.QArith.QArith_base <> Q rec
+R7103:7107 Stdlib.QArith.QArith_base <> Qplus def
+R7109:7113 Stdlib.QArith.QArith_base <> Qmult def
+R7115:7120 Stdlib.QArith.QArith_base <> Qminus def
+R7122:7125 Stdlib.QArith.QArith_base <> Qopp def
+R7127:7134 Stdlib.QArith.QArith_base <> Qeq_bool def
+R7136:7143 Stdlib.QArith.QArith_base <> Qle_bool def
+def 7158:7163 <> qunsat
+R7168:7185 Stdlib.micromega.RingMicromega <> check_inconsistent def
+R7198:7205 Stdlib.QArith.QArith_base <> Qle_bool def
+R7189:7196 Stdlib.QArith.QArith_base <> Qeq_bool def
+def 7220:7226 <> qdeduce
+R7231:7252 Stdlib.micromega.RingMicromega <> nformula_plus_nformula def
+R7262:7269 Stdlib.QArith.QArith_base <> Qeq_bool def
+R7256:7260 Stdlib.QArith.QArith_base <> Qplus def
+def 7284:7288 <> normQ
+R7294:7297 Stdlib.micromega.RingMicromega <> norm def
+R7327:7334 Stdlib.QArith.QArith_base <> Qeq_bool def
+R7322:7325 Stdlib.QArith.QArith_base <> Qopp def
+R7315:7320 Stdlib.QArith.QArith_base <> Qminus def
+R7309:7313 Stdlib.QArith.QArith_base <> Qmult def
+R7303:7307 Stdlib.QArith.QArith_base <> Qplus def
+R7361:7365 Stdlib.micromega.QMicromega <> normQ def
+R7367:7384 Stdlib.micromega.RingMicromega <> norm def
+def 7399:7402 <> cnfQ
+binder 7405:7409 <> Annot:74
+R7432:7435 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7422:7431 Stdlib.micromega.Tauto <> kind ind
+binder 7418:7419 <> TX:75
+binder 7444:7445 <> AF:76
+R7458:7467 Stdlib.micromega.Tauto <> kind ind
+binder 7455:7455 <> k:77
+R7474:7481 Stdlib.micromega.Tauto <> TFormula def
+R7507:7507 Stdlib.micromega.QMicromega <> k:77 var
+R7504:7505 Stdlib.micromega.QMicromega <> AF:76 var
+R7501:7502 Stdlib.micromega.QMicromega <> TX:75 var
+R7495:7499 Stdlib.micromega.QMicromega <> Annot:74 var
+R7484:7490 Stdlib.micromega.RingMicromega <> Formula rec
+R7492:7492 Stdlib.QArith.QArith_base <> Q rec
+binder 7471:7471 <> f:78
+R7515:7519 Stdlib.micromega.Tauto <> rxcnf def
+R7576:7576 Stdlib.micromega.QMicromega <> f:78 var
+R7571:7574 Corelib.Init.Datatypes <> true constr
+R7556:7562 Stdlib.micromega.QMicromega <> Qnegate def
+R7564:7568 Stdlib.micromega.QMicromega <> Annot:74 var
+R7537:7546 Stdlib.micromega.QMicromega <> Qnormalise def
+R7548:7552 Stdlib.micromega.QMicromega <> Annot:74 var
+R7528:7534 Stdlib.micromega.QMicromega <> qdeduce def
+R7521:7526 Stdlib.micromega.QMicromega <> qunsat def
+def 7591:7603 <> QTautoChecker
+R7611:7618 Stdlib.micromega.Tauto <> BFormula def
+R7632:7643 Stdlib.micromega.Tauto <> isProp constr
+R7621:7627 Stdlib.micromega.RingMicromega <> Formula rec
+R7629:7629 Stdlib.QArith.QArith_base <> Q rec
+binder 7607:7607 <> f:79
+R7650:7653 Corelib.Init.Datatypes <> list ind
+R7655:7662 Stdlib.micromega.QMicromega <> QWitness def
+binder 7647:7647 <> w:80
+R7668:7671 Corelib.Init.Datatypes <> bool ind
+R7679:7691 Stdlib.micromega.Tauto <> tauto_checker def
+R7694:7700 Stdlib.micromega.RingMicromega <> Formula rec
+R7702:7702 Stdlib.QArith.QArith_base <> Q rec
+R7706:7713 Stdlib.micromega.RingMicromega <> NFormula def
+R7715:7715 Stdlib.QArith.QArith_base <> Q rec
+R7718:7721 Corelib.Init.Datatypes <> unit ind
+R7725:7730 Stdlib.micromega.QMicromega <> qunsat def
+R7732:7738 Stdlib.micromega.QMicromega <> qdeduce def
+R7743:7752 Stdlib.micromega.QMicromega <> Qnormalise def
+R7754:7757 Corelib.Init.Datatypes <> unit ind
+R7763:7769 Stdlib.micromega.QMicromega <> Qnegate def
+R7771:7774 Corelib.Init.Datatypes <> unit ind
+R7777:7784 Stdlib.micromega.QMicromega <> QWitness def
+binder 7791:7792 <> cl:81
+R7797:7808 Stdlib.micromega.QMicromega <> QWeakChecker def
+R7811:7818 Stdlib.Lists.List <> map abbrev
+R7824:7825 Stdlib.micromega.QMicromega <> cl:81 var
+R7820:7822 Corelib.Init.Datatypes <> fst def
+R7829:7829 Stdlib.micromega.QMicromega <> f:79 var
+R7831:7831 Stdlib.micromega.QMicromega <> w:80 var
+prf 7843:7861 <> QTautoChecker_sound
+binder 7872:7872 <> f:82
+binder 7874:7874 <> w:83
+R7901:7904 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7894:7896 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7877:7889 Stdlib.micromega.QMicromega <> QTautoChecker def
+R7891:7891 Stdlib.micromega.QMicromega <> f:82 var
+R7893:7893 Stdlib.micromega.QMicromega <> w:83 var
+R7897:7900 Corelib.Init.Datatypes <> true constr
+binder 7912:7914 <> env:84
+R7917:7923 Stdlib.micromega.Tauto <> eval_bf def
+R7947:7947 Stdlib.micromega.QMicromega <> f:82 var
+R7927:7939 Stdlib.micromega.QMicromega <> Qeval_formula def
+R7941:7943 Stdlib.micromega.QMicromega <> env:84 var
+R7980:7992 Stdlib.micromega.QMicromega <> QTautoChecker def
+R8037:8049 Stdlib.micromega.QMicromega <> Qeval_formula def
+R8061:8074 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R8003:8021 Stdlib.micromega.Tauto <> tauto_checker_sound thm
+R8088:8105 Stdlib.micromega.QMicromega <> Qeval_nformula_dec thm
+R8141:8153 Stdlib.micromega.RingMicromega <> eval_nformula def
+R8163:8189 Stdlib.micromega.RingMicromega <> eval_nformula def
+R8219:8242 Stdlib.micromega.RingMicromega <> check_inconsistent_sound thm
+R8249:8257 Stdlib.micromega.QMicromega <> QSORaddon thm
+R8244:8247 Stdlib.micromega.QMicromega <> Qsor thm
+R8279:8285 Stdlib.micromega.QMicromega <> qdeduce def
+R8313:8342 Stdlib.micromega.RingMicromega <> nformula_plus_nformula_correct thm
+R8349:8357 Stdlib.micromega.QMicromega <> QSORaddon thm
+R8344:8347 Stdlib.micromega.QMicromega <> Qsor thm
+R8390:8409 Stdlib.micromega.QMicromega <> Qeval_formula_compat thm
+R8424:8444 Stdlib.micromega.RingMicromega <> cnf_normalise_correct thm
+R8451:8459 Stdlib.micromega.QMicromega <> QSORaddon thm
+R8446:8449 Stdlib.micromega.QMicromega <> Qsor thm
+R8492:8506 Stdlib.micromega.Tauto <> hold_eNOT thm
+R8517:8536 Stdlib.micromega.QMicromega <> Qeval_formula_compat thm
+R8555:8572 Stdlib.micromega.RingMicromega <> cnf_negate_correct thm
+R8579:8587 Stdlib.micromega.QMicromega <> QSORaddon thm
+R8574:8577 Stdlib.micromega.QMicromega <> Qsor thm
+R8625:8631 Stdlib.micromega.Tauto <> eval_tt def
+R8686:8699 Stdlib.micromega.QMicromega <> Qeval_nformula def
+R8658:8670 Stdlib.micromega.Refl <> make_impl_map thm
+R8720:8737 Stdlib.micromega.QMicromega <> QWeakChecker_sound thm

@@ -1,0 +1,53 @@
+DIGEST 8c7dd68baea7146743d2ee5bc528fc64
+FStdlib.setoid_ring.ZArithRing
+R703:708 Stdlib.ZArith.BinInt <> <> lib
+R750:753 Stdlib.setoid_ring.Ring <> <> lib
+R764:774 Stdlib.setoid_ring.InitialRing <> <> mod
+R844:847 Corelib.Init.Datatypes <> true constr
+R871:881 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R933:936 Corelib.Numbers.BinNums <> Zpos constr
+R957:958 Corelib.Numbers.BinNums <> Z0 constr
+R994:998 Corelib.Init.Datatypes <> false constr
+R971:974 Corelib.Init.Datatypes <> true constr
+abbrev 1018:1023 <> N_of_Z
+R1028:1033 Stdlib.ZArith.BinInt Z to_N def
+R1100:1103 Corelib.Init.Datatypes <> true constr
+R1142:1152 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R1116:1121 Stdlib.setoid_ring.ZArithRing <> N_of_Z abbrev
+R1255:1259 Stdlib.ZArith.BinInt Z pow def
+R1264:1267 Corelib.Numbers.BinNums <> Zneg constr
+R1302:1303 Corelib.Numbers.BinNums <> Z0 constr
+prf 1355:1374 <> Private_proj1_eqb_eq
+binder 1376:1376 <> x:1
+binder 1378:1378 <> y:2
+R1398:1401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1391:1393 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1382:1386 Stdlib.ZArith.BinInt Z eqb def
+R1388:1388 Stdlib.setoid_ring.ZArithRing <> x:1 var
+R1390:1390 Stdlib.setoid_ring.ZArithRing <> y:2 var
+R1394:1397 Corelib.Init.Datatypes <> true constr
+R1403:1405 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1402:1402 Stdlib.setoid_ring.ZArithRing <> x:1 var
+R1406:1406 Stdlib.setoid_ring.ZArithRing <> y:2 var
+R1422:1429 Stdlib.ZArith.BinInt Z eqb_eq thm
+prf 1444:1456 <> Zpower_theory
+R1460:1471 Stdlib.setoid_ring.Ring_theory <> power_theory rec
+R1498:1502 Stdlib.ZArith.BinInt Z pow def
+R1491:1496 Stdlib.ZArith.BinInt Z of_N def
+R1485:1486 Corelib.Init.Logic <> eq ind
+R1488:1488 Corelib.Numbers.BinNums <> Z ind
+R1477:1481 Stdlib.ZArith.BinInt Z mul def
+R1581:1589 Stdlib.ZArith.BinInt Z pow_pos def
+R1605:1613 Stdlib.ZArith.BinInt Z mul_1_r thm
+R1616:1622 Stdlib.setoid_ring.Ring_theory <> pow_pos def
+R1711:1721 Stdlib.ZArith.BinInt Z mul_assoc thm
+R1753:1755 Stdlib.setoid_ring.InitialRing <> Zth thm
+R1770:1789 Stdlib.setoid_ring.ZArithRing <> Private_proj1_eqb_eq thm
+R1862:1874 Stdlib.setoid_ring.ZArithRing <> Zpower_theory thm
+R2089:2100 Stdlib.setoid_ring.InitialRing <> get_signZ_th thm
+R2032:2055 Stdlib.setoid_ring.InitialRing <> Ztriv_div_th thm
+R2070:2074 Stdlib.setoid_ring.Ring_theory <> IDphi def
+R2076:2076 Corelib.Numbers.BinNums <> Z ind
+R2059:2063 Stdlib.setoid_ring.Ring_theory <> Eqsth thm
+R2065:2065 Corelib.Numbers.BinNums <> Z ind
+R1840:1845 Stdlib.ZArith.BinInt Z succ def

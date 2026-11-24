@@ -1,0 +1,1115 @@
+DIGEST 69ef2c12209c5126b32ecda9485cff52
+Fmathcomp.boot.ssrAC
+R23:32 HB.structures <> <> lib
+R63:68 Corelib.BinNums.PosDef <> <> lib
+R100:108 mathcomp.boot.ssreflect <> <> lib
+R110:116 mathcomp.boot.ssrbool <> <> lib
+R118:123 mathcomp.boot.ssrfun <> <> lib
+R125:130 mathcomp.boot.ssrnat <> <> lib
+R132:137 mathcomp.boot.eqtype <> <> lib
+R139:141 mathcomp.boot.seq <> <> lib
+R143:147 mathcomp.boot.bigop <> <> lib
+def 4335:4345 <> change_type
+binder 4347:4348 <> ty:1
+binder 4350:4352 <> ty':2
+R4359:4360 mathcomp.boot.ssrAC <> ty:1 var
+binder 4355:4355 <> x:3
+R4377:4379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4375:4376 mathcomp.boot.ssrAC <> ty:1 var
+R4380:4382 mathcomp.boot.ssrAC <> ty':2 var
+binder 4364:4371 <> strategy:4
+R4387:4389 mathcomp.boot.ssrAC <> ty':2 var
+R4395:4399 Corelib.ssr.ssrfun <> ecast abbrev
+binder 4401:4402 <> ty:5
+binder 4401:4402 <> ty:6
+R4407:4414 mathcomp.boot.ssrAC <> strategy:4 var
+R4416:4416 mathcomp.boot.ssrAC <> x:3 var
+R4404:4405 mathcomp.boot.ssrAC <> ty:5 var
+abbrev 4428:4436 <> simplrefl
+abbrev 4495:4501 <> cbvrefl
+abbrev 4558:4563 <> vmrefl
+mod 4644:4646 <> Pos
+R4657:4659 Corelib.BinNums.PosDef Pos <> mod
+abbrev 4751:4753 Pos ten
+R4759:4760 Corelib.Numbers.BinNums <> xO constr
+R4763:4764 Corelib.Numbers.BinNums <> xI constr
+R4767:4768 Corelib.Numbers.BinNums <> xO constr
+R4770:4771 Corelib.Numbers.BinNums <> xH constr
+def 4787:4797 Pos of_uint_acc
+R4802:4813 Corelib.Init.Decimal <> uint ind
+binder 4800:4800 <> d:7
+R4821:4828 Corelib.Numbers.BinNums <> positive ind
+binder 4817:4819 <> acc:8
+R4842:4842 mathcomp.boot.ssrAC <> d:7 var
+R4853:4863 Corelib.Init.Decimal <> Nil constr
+R4868:4870 mathcomp.boot.ssrAC <> acc:8 var
+R4876:4885 Corelib.Init.Decimal <> D0 constr
+R4892:4902 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R4907:4909 Corelib.BinNums.PosDef Pos mul def
+R4911:4913 mathcomp.boot.ssrAC Pos ten abbrev
+R4915:4917 mathcomp.boot.ssrAC <> acc:8 var
+R4924:4933 Corelib.Init.Decimal <> D1 constr
+R4940:4950 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R4955:4957 Corelib.BinNums.PosDef Pos add def
+R4962:4964 Corelib.BinNums.PosDef Pos mul def
+R4966:4968 mathcomp.boot.ssrAC Pos ten abbrev
+R4970:4972 mathcomp.boot.ssrAC <> acc:8 var
+R4980:4989 Corelib.Init.Decimal <> D2 constr
+R4996:5006 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5011:5013 Corelib.BinNums.PosDef Pos add def
+R5016:5017 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5020:5022 Corelib.BinNums.PosDef Pos mul def
+R5024:5026 mathcomp.boot.ssrAC Pos ten abbrev
+R5028:5030 mathcomp.boot.ssrAC <> acc:8 var
+R5038:5047 Corelib.Init.Decimal <> D3 constr
+R5054:5064 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5069:5071 Corelib.BinNums.PosDef Pos add def
+R5074:5075 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5078:5080 Corelib.BinNums.PosDef Pos mul def
+R5082:5084 mathcomp.boot.ssrAC Pos ten abbrev
+R5086:5088 mathcomp.boot.ssrAC <> acc:8 var
+R5096:5105 Corelib.Init.Decimal <> D4 constr
+R5112:5122 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5127:5129 Corelib.BinNums.PosDef Pos add def
+R5134:5135 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5132:5133 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5138:5140 Corelib.BinNums.PosDef Pos mul def
+R5142:5144 mathcomp.boot.ssrAC Pos ten abbrev
+R5146:5148 mathcomp.boot.ssrAC <> acc:8 var
+R5156:5165 Corelib.Init.Decimal <> D5 constr
+R5172:5182 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5187:5189 Corelib.BinNums.PosDef Pos add def
+R5194:5195 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5192:5193 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5198:5200 Corelib.BinNums.PosDef Pos mul def
+R5202:5204 mathcomp.boot.ssrAC Pos ten abbrev
+R5206:5208 mathcomp.boot.ssrAC <> acc:8 var
+R5216:5225 Corelib.Init.Decimal <> D6 constr
+R5232:5242 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5247:5249 Corelib.BinNums.PosDef Pos add def
+R5254:5255 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5252:5253 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5258:5260 Corelib.BinNums.PosDef Pos mul def
+R5262:5264 mathcomp.boot.ssrAC Pos ten abbrev
+R5266:5268 mathcomp.boot.ssrAC <> acc:8 var
+R5276:5285 Corelib.Init.Decimal <> D7 constr
+R5292:5302 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5307:5309 Corelib.BinNums.PosDef Pos add def
+R5314:5315 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5312:5313 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5318:5320 Corelib.BinNums.PosDef Pos mul def
+R5322:5324 mathcomp.boot.ssrAC Pos ten abbrev
+R5326:5328 mathcomp.boot.ssrAC <> acc:8 var
+R5336:5345 Corelib.Init.Decimal <> D8 constr
+R5352:5362 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5367:5369 Corelib.BinNums.PosDef Pos add def
+R5376:5377 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5374:5375 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5372:5373 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5380:5382 Corelib.BinNums.PosDef Pos mul def
+R5384:5386 mathcomp.boot.ssrAC Pos ten abbrev
+R5388:5390 mathcomp.boot.ssrAC <> acc:8 var
+R5398:5407 Corelib.Init.Decimal <> D9 constr
+R5414:5424 mathcomp.boot.ssrAC <> of_uint_acc:9 def
+R5429:5431 Corelib.BinNums.PosDef Pos add def
+R5438:5439 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5436:5437 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5434:5435 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5442:5444 Corelib.BinNums.PosDef Pos mul def
+R5446:5448 mathcomp.boot.ssrAC Pos ten abbrev
+R5450:5452 mathcomp.boot.ssrAC <> acc:8 var
+def 5473:5479 Pos of_uint
+R5484:5495 Corelib.Init.Decimal <> uint ind
+binder 5482:5482 <> d:11
+R5500:5500 Corelib.Numbers.BinNums <> N ind
+R5513:5513 mathcomp.boot.ssrAC <> d:11 var
+R5524:5534 Corelib.Init.Decimal <> Nil constr
+R5539:5540 Corelib.Numbers.BinNums <> N0 constr
+R5546:5555 Corelib.Init.Decimal <> D0 constr
+R5562:5568 mathcomp.boot.ssrAC <> of_uint:12 def
+R5576:5585 Corelib.Init.Decimal <> D1 constr
+R5592:5595 Corelib.Numbers.BinNums <> Npos constr
+R5598:5608 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5619:5628 Corelib.Init.Decimal <> D2 constr
+R5635:5638 Corelib.Numbers.BinNums <> Npos constr
+R5641:5651 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5656:5657 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5664:5673 Corelib.Init.Decimal <> D3 constr
+R5680:5683 Corelib.Numbers.BinNums <> Npos constr
+R5686:5696 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5701:5702 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5709:5718 Corelib.Init.Decimal <> D4 constr
+R5725:5728 Corelib.Numbers.BinNums <> Npos constr
+R5731:5741 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5748:5749 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5746:5747 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5756:5765 Corelib.Init.Decimal <> D5 constr
+R5772:5775 Corelib.Numbers.BinNums <> Npos constr
+R5778:5788 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5795:5796 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5793:5794 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5803:5812 Corelib.Init.Decimal <> D6 constr
+R5819:5822 Corelib.Numbers.BinNums <> Npos constr
+R5825:5835 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5842:5843 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5840:5841 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5850:5859 Corelib.Init.Decimal <> D7 constr
+R5866:5869 Corelib.Numbers.BinNums <> Npos constr
+R5872:5882 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5889:5890 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5887:5888 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5897:5906 Corelib.Init.Decimal <> D8 constr
+R5913:5916 Corelib.Numbers.BinNums <> Npos constr
+R5919:5929 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5938:5939 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5936:5937 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5934:5935 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5946:5955 Corelib.Init.Decimal <> D9 constr
+R5962:5965 Corelib.Numbers.BinNums <> Npos constr
+R5968:5978 mathcomp.boot.ssrAC Pos of_uint_acc def
+R5987:5988 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5985:5986 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5983:5984 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+abbrev 6014:6020 Pos sixteen
+R6026:6027 Corelib.Numbers.BinNums <> xO constr
+R6030:6031 Corelib.Numbers.BinNums <> xO constr
+R6034:6035 Corelib.Numbers.BinNums <> xO constr
+R6038:6039 Corelib.Numbers.BinNums <> xO constr
+R6041:6042 Corelib.Numbers.BinNums <> xH constr
+def 6059:6073 Pos of_hex_uint_acc
+R6078:6093 Corelib.Init.Hexadecimal <> uint ind
+binder 6076:6076 <> d:14
+R6101:6108 Corelib.Numbers.BinNums <> positive ind
+binder 6097:6099 <> acc:15
+R6122:6122 mathcomp.boot.ssrAC <> d:14 var
+R6133:6147 Corelib.Init.Hexadecimal <> Nil constr
+R6152:6154 mathcomp.boot.ssrAC <> acc:15 var
+R6160:6173 Corelib.Init.Hexadecimal <> D0 constr
+R6180:6194 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6199:6201 Corelib.BinNums.PosDef Pos mul def
+R6203:6209 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6211:6213 mathcomp.boot.ssrAC <> acc:15 var
+R6220:6233 Corelib.Init.Hexadecimal <> D1 constr
+R6240:6254 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6259:6261 Corelib.BinNums.PosDef Pos add def
+R6266:6268 Corelib.BinNums.PosDef Pos mul def
+R6270:6276 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6278:6280 mathcomp.boot.ssrAC <> acc:15 var
+R6288:6301 Corelib.Init.Hexadecimal <> D2 constr
+R6308:6322 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6327:6329 Corelib.BinNums.PosDef Pos add def
+R6332:6333 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6336:6338 Corelib.BinNums.PosDef Pos mul def
+R6340:6346 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6348:6350 mathcomp.boot.ssrAC <> acc:15 var
+R6358:6371 Corelib.Init.Hexadecimal <> D3 constr
+R6378:6392 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6397:6399 Corelib.BinNums.PosDef Pos add def
+R6402:6403 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6406:6408 Corelib.BinNums.PosDef Pos mul def
+R6410:6416 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6418:6420 mathcomp.boot.ssrAC <> acc:15 var
+R6428:6441 Corelib.Init.Hexadecimal <> D4 constr
+R6448:6462 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6467:6469 Corelib.BinNums.PosDef Pos add def
+R6474:6475 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6472:6473 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6478:6480 Corelib.BinNums.PosDef Pos mul def
+R6482:6488 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6490:6492 mathcomp.boot.ssrAC <> acc:15 var
+R6500:6513 Corelib.Init.Hexadecimal <> D5 constr
+R6520:6534 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6539:6541 Corelib.BinNums.PosDef Pos add def
+R6546:6547 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6544:6545 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6550:6552 Corelib.BinNums.PosDef Pos mul def
+R6554:6560 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6562:6564 mathcomp.boot.ssrAC <> acc:15 var
+R6572:6585 Corelib.Init.Hexadecimal <> D6 constr
+R6592:6606 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6611:6613 Corelib.BinNums.PosDef Pos add def
+R6618:6619 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6616:6617 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6622:6624 Corelib.BinNums.PosDef Pos mul def
+R6626:6632 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6634:6636 mathcomp.boot.ssrAC <> acc:15 var
+R6644:6657 Corelib.Init.Hexadecimal <> D7 constr
+R6664:6678 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6683:6685 Corelib.BinNums.PosDef Pos add def
+R6690:6691 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6688:6689 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6694:6696 Corelib.BinNums.PosDef Pos mul def
+R6698:6704 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6706:6708 mathcomp.boot.ssrAC <> acc:15 var
+R6716:6729 Corelib.Init.Hexadecimal <> D8 constr
+R6736:6750 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6755:6757 Corelib.BinNums.PosDef Pos add def
+R6764:6765 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6762:6763 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6760:6761 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6768:6770 Corelib.BinNums.PosDef Pos mul def
+R6772:6778 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6780:6782 mathcomp.boot.ssrAC <> acc:15 var
+R6790:6803 Corelib.Init.Hexadecimal <> D9 constr
+R6810:6824 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6829:6831 Corelib.BinNums.PosDef Pos add def
+R6838:6839 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6836:6837 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6834:6835 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6842:6844 Corelib.BinNums.PosDef Pos mul def
+R6846:6852 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6854:6856 mathcomp.boot.ssrAC <> acc:15 var
+R6864:6877 Corelib.Init.Hexadecimal <> Da constr
+R6884:6898 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6903:6905 Corelib.BinNums.PosDef Pos add def
+R6912:6913 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6910:6911 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6908:6909 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6916:6918 Corelib.BinNums.PosDef Pos mul def
+R6920:6926 mathcomp.boot.ssrAC Pos sixteen abbrev
+R6928:6930 mathcomp.boot.ssrAC <> acc:15 var
+R6938:6951 Corelib.Init.Hexadecimal <> Db constr
+R6958:6972 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R6977:6979 Corelib.BinNums.PosDef Pos add def
+R6986:6987 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6984:6985 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6982:6983 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6990:6992 Corelib.BinNums.PosDef Pos mul def
+R6994:7000 mathcomp.boot.ssrAC Pos sixteen abbrev
+R7002:7004 mathcomp.boot.ssrAC <> acc:15 var
+R7012:7025 Corelib.Init.Hexadecimal <> Dc constr
+R7032:7046 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R7051:7053 Corelib.BinNums.PosDef Pos add def
+R7060:7061 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7058:7059 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7056:7057 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7064:7066 Corelib.BinNums.PosDef Pos mul def
+R7068:7074 mathcomp.boot.ssrAC Pos sixteen abbrev
+R7076:7078 mathcomp.boot.ssrAC <> acc:15 var
+R7086:7099 Corelib.Init.Hexadecimal <> Dd constr
+R7106:7120 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R7125:7127 Corelib.BinNums.PosDef Pos add def
+R7134:7135 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7132:7133 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7130:7131 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7138:7140 Corelib.BinNums.PosDef Pos mul def
+R7142:7148 mathcomp.boot.ssrAC Pos sixteen abbrev
+R7150:7152 mathcomp.boot.ssrAC <> acc:15 var
+R7160:7173 Corelib.Init.Hexadecimal <> De constr
+R7180:7194 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R7199:7201 Corelib.BinNums.PosDef Pos add def
+R7208:7209 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7206:7207 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7204:7205 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7212:7214 Corelib.BinNums.PosDef Pos mul def
+R7216:7222 mathcomp.boot.ssrAC Pos sixteen abbrev
+R7224:7226 mathcomp.boot.ssrAC <> acc:15 var
+R7234:7247 Corelib.Init.Hexadecimal <> Df constr
+R7254:7268 mathcomp.boot.ssrAC <> of_hex_uint_acc:16 def
+R7273:7275 Corelib.BinNums.PosDef Pos add def
+R7282:7283 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7280:7281 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7278:7279 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7286:7288 Corelib.BinNums.PosDef Pos mul def
+R7290:7296 mathcomp.boot.ssrAC Pos sixteen abbrev
+R7298:7300 mathcomp.boot.ssrAC <> acc:15 var
+def 7321:7331 Pos of_hex_uint
+R7336:7351 Corelib.Init.Hexadecimal <> uint ind
+binder 7334:7334 <> d:18
+R7356:7356 Corelib.Numbers.BinNums <> N ind
+R7369:7369 mathcomp.boot.ssrAC <> d:18 var
+R7380:7394 Corelib.Init.Hexadecimal <> Nil constr
+R7399:7400 Corelib.Numbers.BinNums <> N0 constr
+R7406:7419 Corelib.Init.Hexadecimal <> D0 constr
+R7426:7436 mathcomp.boot.ssrAC <> of_hex_uint:19 def
+R7444:7457 Corelib.Init.Hexadecimal <> D1 constr
+R7464:7467 Corelib.Numbers.BinNums <> Npos constr
+R7470:7484 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7495:7508 Corelib.Init.Hexadecimal <> D2 constr
+R7515:7518 Corelib.Numbers.BinNums <> Npos constr
+R7521:7535 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7540:7541 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7548:7561 Corelib.Init.Hexadecimal <> D3 constr
+R7568:7571 Corelib.Numbers.BinNums <> Npos constr
+R7574:7588 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7593:7594 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7601:7614 Corelib.Init.Hexadecimal <> D4 constr
+R7621:7624 Corelib.Numbers.BinNums <> Npos constr
+R7627:7641 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7648:7649 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7646:7647 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7656:7669 Corelib.Init.Hexadecimal <> D5 constr
+R7676:7679 Corelib.Numbers.BinNums <> Npos constr
+R7682:7696 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7703:7704 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7701:7702 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7711:7724 Corelib.Init.Hexadecimal <> D6 constr
+R7731:7734 Corelib.Numbers.BinNums <> Npos constr
+R7737:7751 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7758:7759 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7756:7757 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7766:7779 Corelib.Init.Hexadecimal <> D7 constr
+R7786:7789 Corelib.Numbers.BinNums <> Npos constr
+R7792:7806 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7813:7814 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7811:7812 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7821:7834 Corelib.Init.Hexadecimal <> D8 constr
+R7841:7844 Corelib.Numbers.BinNums <> Npos constr
+R7847:7861 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7870:7871 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7868:7869 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7866:7867 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7878:7891 Corelib.Init.Hexadecimal <> D9 constr
+R7898:7901 Corelib.Numbers.BinNums <> Npos constr
+R7904:7918 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7927:7928 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7925:7926 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7923:7924 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7935:7948 Corelib.Init.Hexadecimal <> Da constr
+R7955:7958 Corelib.Numbers.BinNums <> Npos constr
+R7961:7975 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R7984:7985 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7982:7983 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7980:7981 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7992:8005 Corelib.Init.Hexadecimal <> Db constr
+R8012:8015 Corelib.Numbers.BinNums <> Npos constr
+R8018:8032 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R8041:8042 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8039:8040 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8037:8038 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8049:8062 Corelib.Init.Hexadecimal <> Dc constr
+R8069:8072 Corelib.Numbers.BinNums <> Npos constr
+R8075:8089 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R8098:8099 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8096:8097 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8094:8095 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8106:8119 Corelib.Init.Hexadecimal <> Dd constr
+R8126:8129 Corelib.Numbers.BinNums <> Npos constr
+R8132:8146 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R8155:8156 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8153:8154 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8151:8152 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8163:8176 Corelib.Init.Hexadecimal <> De constr
+R8183:8186 Corelib.Numbers.BinNums <> Npos constr
+R8189:8203 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R8212:8213 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8210:8211 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8208:8209 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8220:8233 Corelib.Init.Hexadecimal <> Df constr
+R8240:8243 Corelib.Numbers.BinNums <> Npos constr
+R8246:8260 mathcomp.boot.ssrAC Pos of_hex_uint_acc def
+R8269:8270 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8267:8268 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8265:8266 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+def 8292:8297 Pos of_int
+R8302:8312 Corelib.Init.Decimal <> int abbrev
+binder 8300:8300 <> d:21
+R8317:8322 Corelib.Init.Datatypes <> option ind
+R8324:8331 Corelib.Numbers.BinNums <> positive ind
+R8344:8344 mathcomp.boot.ssrAC <> d:21 var
+R8355:8365 Corelib.Init.Decimal <> Pos constr
+R8382:8388 mathcomp.boot.ssrAC Pos of_uint def
+R8390:8390 mathcomp.boot.ssrAC <> d:21 var
+R8403:8404 Corelib.Numbers.BinNums <> N0 constr
+R8409:8412 Corelib.Init.Datatypes <> None constr
+R8420:8423 Corelib.Numbers.BinNums <> Npos constr
+R8430:8433 Corelib.Init.Datatypes <> Some constr
+R8449:8459 Corelib.Init.Decimal <> Neg constr
+R8466:8469 Corelib.Init.Datatypes <> None constr
+def 8490:8499 Pos of_hex_int
+R8504:8518 Corelib.Init.Hexadecimal <> int abbrev
+binder 8502:8502 <> d:23
+R8523:8528 Corelib.Init.Datatypes <> option ind
+R8530:8537 Corelib.Numbers.BinNums <> positive ind
+R8550:8550 mathcomp.boot.ssrAC <> d:23 var
+R8561:8575 Corelib.Init.Hexadecimal <> Pos constr
+R8592:8602 mathcomp.boot.ssrAC Pos of_hex_uint def
+R8604:8604 mathcomp.boot.ssrAC <> d:23 var
+R8617:8618 Corelib.Numbers.BinNums <> N0 constr
+R8623:8626 Corelib.Init.Datatypes <> None constr
+R8634:8637 Corelib.Numbers.BinNums <> Npos constr
+R8644:8647 Corelib.Init.Datatypes <> Some constr
+R8663:8677 Corelib.Init.Hexadecimal <> Neg constr
+R8684:8687 Corelib.Init.Datatypes <> None constr
+def 8708:8717 Pos of_num_int
+R8722:8731 Corelib.Init.Number <> int abbrev
+binder 8720:8720 <> d:25
+R8736:8741 Corelib.Init.Datatypes <> option ind
+R8743:8750 Corelib.Numbers.BinNums <> positive ind
+R8763:8763 mathcomp.boot.ssrAC <> d:25 var
+R8774:8790 Corelib.Init.Number <> IntDecimal constr
+R8797:8802 mathcomp.boot.ssrAC Pos of_int def
+R8804:8804 mathcomp.boot.ssrAC <> d:25 var
+R8810:8830 Corelib.Init.Number <> IntHexadecimal constr
+R8837:8846 mathcomp.boot.ssrAC Pos of_hex_int def
+R8848:8848 mathcomp.boot.ssrAC <> d:25 var
+def 8867:8880 Pos to_little_uint
+binder 8882:8882 <> p:27
+R8895:8895 mathcomp.boot.ssrAC <> p:27 var
+R8906:8907 Corelib.Numbers.BinNums <> xH constr
+R8912:8921 Corelib.Init.Decimal <> D1 constr
+R8923:8933 Corelib.Init.Decimal <> Nil constr
+R8939:8940 Corelib.Numbers.BinNums <> xI constr
+R8947:8972 Corelib.Init.Decimal Little succ_double def
+R8975:8988 mathcomp.boot.ssrAC <> to_little_uint:28 def
+R8990:8990 mathcomp.boot.ssrAC <> p:27 var
+R8997:8998 Corelib.Numbers.BinNums <> xO constr
+R9005:9025 Corelib.Init.Decimal Little double def
+R9028:9041 mathcomp.boot.ssrAC <> to_little_uint:28 def
+R9043:9043 mathcomp.boot.ssrAC <> p:27 var
+def 9065:9071 Pos to_uint
+binder 9073:9073 <> p:30
+R9078:9088 Corelib.Init.Decimal <> rev def
+R9091:9104 mathcomp.boot.ssrAC Pos to_little_uint def
+R9106:9106 mathcomp.boot.ssrAC <> p:30 var
+def 9122:9132 Pos to_num_uint
+binder 9134:9134 <> p:31
+R9139:9156 Corelib.Init.Number <> UIntDecimal constr
+R9159:9165 mathcomp.boot.ssrAC Pos to_uint def
+R9167:9167 mathcomp.boot.ssrAC <> p:31 var
+def 9204:9208 Pos Nsucc
+binder 9210:9210 <> n:32
+R9223:9223 mathcomp.boot.ssrAC <> n:32 var
+R9234:9235 Corelib.Numbers.BinNums <> N0 constr
+R9240:9243 Corelib.Numbers.BinNums <> Npos constr
+R9245:9246 Corelib.Numbers.BinNums <> xH constr
+R9252:9255 Corelib.Numbers.BinNums <> Npos constr
+R9262:9265 Corelib.Numbers.BinNums <> Npos constr
+R9268:9275 Corelib.BinNums.PosDef Pos succ def
+prf 9294:9308 Pos nat_of_succ_bin
+binder 9310:9310 <> b:34
+R9334:9336 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9353:9356 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9357:9359 Corelib.Init.Datatypes <> nat ind
+R9314:9323 mathcomp.boot.ssrnat <> nat_of_bin coe
+R9326:9330 mathcomp.boot.ssrAC Pos Nsucc def
+R9332:9332 mathcomp.boot.ssrAC <> b:34 var
+R9338:9340 mathcomp.boot.ssrnat <> ::nat_scope:x_'+'_x not
+R9341:9350 mathcomp.boot.ssrnat <> nat_of_bin coe
+R9352:9352 mathcomp.boot.ssrAC <> b:34 var
+R9402:9416 mathcomp.boot.ssrnat <> nat_of_succ_pos thm
+prf 9433:9438 Pos eqb_eq
+binder 9440:9440 <> p:35
+binder 9442:9442 <> q:36
+R9464:9468 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9457:9459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9446:9452 Corelib.BinNums.PosDef Pos eqb def
+R9454:9454 mathcomp.boot.ssrAC <> p:35 var
+R9456:9456 mathcomp.boot.ssrAC <> q:36 var
+R9460:9463 Corelib.Init.Datatypes <> true constr
+R9470:9470 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9469:9469 mathcomp.boot.ssrAC <> p:35 var
+R9471:9471 mathcomp.boot.ssrAC <> q:36 var
+R9568:9570 mathcomp.boot.ssrAC Pos <> mod
+mod 9581:9582 <> AC
+R9614:9627 mathcomp.boot.eqtype hasDecEq Build abbrev
+R9629:9636 Corelib.Numbers.BinNums <> positive ind
+R9652:9657 Corelib.ssr.ssrbool <> equivP thm
+R9664:9673 mathcomp.boot.ssrAC Pos eqb_eq thm
+R9659:9661 Corelib.ssr.ssrbool <> idP thm
+def 9586:9680 AC HB_unnamed_factory_1
+def 9586:9680 AC BinNums_positive__canonical__eqtype_Equality
+ind 9693:9698 AC syntax
+constr 9703:9706 AC Leaf
+constr 9722:9723 AC Op
+R9711:9718 Corelib.Numbers.BinNums <> positive ind
+R9728:9733 mathcomp.boot.ssrAC <> syntax:37 ind
+R9737:9742 mathcomp.boot.ssrAC <> syntax:37 ind
+scheme 9693:9698 AC syntax_rect
+scheme 9693:9698 AC syntax_ind
+scheme 9693:9698 AC syntax_rec
+scheme 9693:9698 AC syntax_sind
+def 9754:9759 AC serial
+R9781:9783 mathcomp.boot.seq <> seq abbrev
+R9785:9792 Corelib.Numbers.BinNums <> positive ind
+binder 9775:9777 <> acc:39
+R9800:9805 mathcomp.boot.ssrAC AC syntax ind
+binder 9796:9796 <> s:40
+R9820:9820 mathcomp.boot.ssrAC <> s:40 var
+R9832:9835 mathcomp.boot.ssrAC AC Leaf constr
+R9843:9846 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R9847:9849 mathcomp.boot.ssrAC <> acc:39 var
+R9856:9857 mathcomp.boot.ssrAC AC Op constr
+R9872:9874 Corelib.ssr.ssrfun <> ::function_scope:x_'^~'_x not
+R9876:9891 Corelib.ssr.ssrfun <> ::function_scope:x_'^~'_x not
+R9875:9875 mathcomp.boot.ssrAC <> s:40 var
+R9868:9871 mathcomp.boot.ssrAC <> loop:41 var
+R9882:9884 Corelib.ssr.ssrfun <> ::function_scope:x_'^~'_x not
+R9887:9890 Corelib.ssr.ssrfun <> ::function_scope:x_'^~'_x not
+R9878:9881 mathcomp.boot.ssrAC <> loop:41 var
+R9888:9890 mathcomp.boot.ssrAC <> acc:39 var
+R9902:9905 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+prf 9915:9923 AC serial_Op
+binder 9925:9926 <> s1:43
+binder 9928:9929 <> s2:44
+R9941:9943 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9952:9955 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9956:9958 mathcomp.boot.seq <> seq abbrev
+R9933:9934 mathcomp.boot.ssrAC AC Op constr
+R9939:9940 mathcomp.boot.ssrAC <> s2:44 var
+R9936:9937 mathcomp.boot.ssrAC <> s1:43 var
+R9946:9949 mathcomp.boot.seq <> ::seq_scope:x_'++'_x not
+R9944:9945 mathcomp.boot.ssrAC <> s1:43 var
+R9950:9951 mathcomp.boot.ssrAC <> s2:44 var
+R9979:9984 mathcomp.boot.ssrAC AC serial coe
+R10007:10010 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R10005:10005 mathcomp.boot.ssrAC <> X:45 var
+R10045:10048 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R10106:10108 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R10120:10123 mathcomp.boot.seq <> catA thm
+def 10143:10153 AC Leaf_of_nat
+binder 10155:10155 <> n:46
+R10160:10163 mathcomp.boot.ssrAC AC Leaf constr
+R10166:10172 Corelib.BinNums.PosDef Pos sub def
+R10175:10184 mathcomp.boot.ssrnat <> pos_of_nat def
+R10188:10188 mathcomp.boot.ssrAC <> n:46 var
+R10186:10186 mathcomp.boot.ssrAC <> n:46 var
+R10191:10192 Corelib.Numbers.BinNums <> xH constr
+mod 10211:10216 <> AC.Syntax
+R10268:10275 Corelib.Numbers.BinNums <> positive ind
+R10277:10290 mathcomp.boot.ssrAC Pos of_num_int def
+R10292:10306 mathcomp.boot.ssrAC Pos to_num_uint def
+R10320:10354 mathcomp.boot.ssrAC AC Leaf constr
+R10357:10393 mathcomp.boot.ssrAC AC Leaf_of_nat def
+R10417:10418 mathcomp.boot.ssrAC AC Op constr
+not 10405:10405 AC.Syntax ::AC_scope:x_'*'_x
+R10447:10452 mathcomp.boot.ssrAC AC.Syntax <> mod
+def 10467:10473 AC pattern
+R10480:10485 mathcomp.boot.ssrAC AC syntax ind
+binder 10476:10476 <> s:47
+R10491:10491 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R10838:10840 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+binder 10502:10502 <> n:48
+binder 10504:10504 <> s:49
+R10517:10517 mathcomp.boot.ssrAC <> s:49 var
+R10528:10531 mathcomp.boot.ssrAC AC Leaf constr
+R10547:10547 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10554:10555 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10566:10566 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10548:10551 mathcomp.boot.ssrAC AC Leaf constr
+R10553:10553 mathcomp.boot.ssrAC <> n:48 var
+R10556:10563 Corelib.BinNums.PosDef Pos succ def
+R10565:10565 mathcomp.boot.ssrAC <> n:48 var
+R10572:10575 mathcomp.boot.ssrAC AC Leaf constr
+R10582:10589 Corelib.BinNums.PosDef Pos iter def
+R10685:10691 Corelib.BinNums.PosDef Pos sub def
+R10695:10696 Corelib.Numbers.BinNums <> xH constr
+R10663:10663 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10670:10671 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10682:10682 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10664:10667 mathcomp.boot.ssrAC AC Leaf constr
+R10669:10669 mathcomp.boot.ssrAC <> n:48 var
+R10672:10679 Corelib.BinNums.PosDef Pos succ def
+R10681:10681 mathcomp.boot.ssrAC <> n:48 var
+binder 10596:10597 <> oi:52
+R10602:10602 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10622:10623 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10637:10637 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10603:10604 mathcomp.boot.ssrAC AC Op constr
+R10612:10615 mathcomp.boot.ssrAC AC Leaf constr
+R10619:10620 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R10617:10618 mathcomp.boot.ssrAC <> oi:52 var
+R10608:10609 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R10606:10607 mathcomp.boot.ssrAC <> oi:52 var
+R10624:10631 Corelib.BinNums.PosDef Pos succ def
+R10635:10636 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R10633:10634 mathcomp.boot.ssrAC <> oi:52 var
+R10703:10704 mathcomp.boot.ssrAC AC Op constr
+R10730:10733 mathcomp.boot.ssrAC <> loop:50 var
+R10737:10737 mathcomp.boot.ssrAC <> s:49 var
+R10735:10735 mathcomp.boot.ssrAC <> n:48 var
+R10719:10719 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10721:10722 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10725:10725 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10775:10778 mathcomp.boot.ssrAC <> loop:50 var
+R10762:10762 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10765:10766 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10770:10770 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10804:10804 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10812:10813 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10817:10817 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10805:10806 mathcomp.boot.ssrAC AC Op constr
+R10837:10837 mathcomp.boot.ssrAC <> s:47 var
+sec 10852:10855 AC eval
+var 10869:10869 AC.eval T
+var 10880:10882 AC.eval idx
+var 10890:10891 AC.eval op
+R10886:10886 mathcomp.boot.ssrAC <> T:54 var
+R10896:10899 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10895:10895 mathcomp.boot.ssrAC <> T:54 var
+R10901:10904 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10900:10900 mathcomp.boot.ssrAC <> T:54 var
+R10905:10905 mathcomp.boot.ssrAC <> T:54 var
+ind 10919:10921 AC env
+constr 10926:10930 AC Empty
+constr 10934:10938 AC ENode
+R10943:10943 mathcomp.boot.ssrAC <> AC.eval.T var
+R10947:10949 mathcomp.boot.ssrAC <> env:59 ind
+R10953:10955 mathcomp.boot.ssrAC <> env:59 ind
+scheme 10919:10921 AC env_rect
+scheme 10919:10921 AC env_ind
+scheme 10919:10921 AC env_rec
+scheme 10919:10921 AC env_sind
+def 10969:10971 AC pos
+R10990:10992 mathcomp.boot.ssrAC AC env ind
+binder 10986:10986 <> e:61
+binder 10995:10995 <> p:62
+R11022:11022 mathcomp.boot.ssrAC <> p:62 var
+R11019:11019 mathcomp.boot.ssrAC <> e:61 var
+R11032:11036 mathcomp.boot.ssrAC AC ENode constr
+R11064:11068 mathcomp.boot.ssrAC AC ENode constr
+R11079:11080 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R11095:11098 mathcomp.boot.ssrAC <> loop:63 var
+R11102:11102 mathcomp.boot.ssrAC <> p:62 var
+R11100:11100 mathcomp.boot.ssrAC <> e:61 var
+R11107:11111 mathcomp.boot.ssrAC AC ENode constr
+R11122:11123 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R11138:11141 mathcomp.boot.ssrAC <> loop:63 var
+R11145:11145 mathcomp.boot.ssrAC <> p:62 var
+R11143:11143 mathcomp.boot.ssrAC <> e:61 var
+R11158:11160 mathcomp.boot.ssrAC <> AC.eval.idx var
+def 11179:11185 AC set_pos
+R11193:11196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11192:11192 mathcomp.boot.ssrAC <> AC.eval.T var
+R11197:11197 mathcomp.boot.ssrAC <> AC.eval.T var
+binder 11188:11188 <> f:66
+binder 11212:11212 <> e:67
+binder 11214:11214 <> p:68
+R11241:11241 mathcomp.boot.ssrAC <> p:68 var
+R11238:11238 mathcomp.boot.ssrAC <> e:67 var
+R11251:11255 mathcomp.boot.ssrAC AC ENode constr
+R11279:11283 mathcomp.boot.ssrAC AC ENode constr
+R11291:11291 mathcomp.boot.ssrAC <> e:67 var
+R11286:11286 mathcomp.boot.ssrAC <> f:66 var
+R11299:11303 mathcomp.boot.ssrAC AC ENode constr
+R11315:11316 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R11331:11335 mathcomp.boot.ssrAC AC ENode constr
+R11340:11343 mathcomp.boot.ssrAC <> loop:69 var
+R11347:11347 mathcomp.boot.ssrAC <> p:68 var
+R11345:11345 mathcomp.boot.ssrAC <> e:67 var
+R11356:11360 mathcomp.boot.ssrAC AC ENode constr
+R11372:11373 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R11388:11392 mathcomp.boot.ssrAC AC ENode constr
+R11399:11402 mathcomp.boot.ssrAC <> loop:69 var
+R11407:11407 mathcomp.boot.ssrAC <> p:68 var
+R11396:11396 mathcomp.boot.ssrAC <> e:67 var
+R11413:11417 mathcomp.boot.ssrAC AC Empty constr
+R11434:11438 mathcomp.boot.ssrAC AC ENode constr
+R11454:11458 mathcomp.boot.ssrAC AC Empty constr
+R11448:11452 mathcomp.boot.ssrAC AC Empty constr
+R11441:11441 mathcomp.boot.ssrAC <> f:66 var
+R11443:11445 mathcomp.boot.ssrAC <> AC.eval.idx var
+R11463:11467 mathcomp.boot.ssrAC AC Empty constr
+R11472:11473 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R11488:11492 mathcomp.boot.ssrAC AC ENode constr
+R11513:11517 mathcomp.boot.ssrAC AC Empty constr
+R11499:11502 mathcomp.boot.ssrAC <> loop:69 var
+R11510:11510 mathcomp.boot.ssrAC <> p:68 var
+R11504:11508 mathcomp.boot.ssrAC AC Empty constr
+R11494:11496 mathcomp.boot.ssrAC <> AC.eval.idx var
+R11522:11526 mathcomp.boot.ssrAC AC Empty constr
+R11531:11532 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R11547:11551 mathcomp.boot.ssrAC AC ENode constr
+R11564:11567 mathcomp.boot.ssrAC <> loop:69 var
+R11575:11575 mathcomp.boot.ssrAC <> p:68 var
+R11569:11573 mathcomp.boot.ssrAC AC Empty constr
+R11557:11561 mathcomp.boot.ssrAC AC Empty constr
+R11553:11555 mathcomp.boot.ssrAC <> AC.eval.idx var
+prf 11591:11601 AC pos_set_pos
+R11609:11612 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11608:11608 mathcomp.boot.ssrAC <> AC.eval.T var
+R11613:11613 mathcomp.boot.ssrAC <> AC.eval.T var
+binder 11604:11604 <> f:72
+binder 11616:11616 <> e:73
+R11626:11633 Corelib.Numbers.BinNums <> positive ind
+binder 11619:11619 <> p:74
+binder 11621:11622 <> p':75
+R11662:11664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11640:11642 mathcomp.boot.ssrAC AC pos def
+R11660:11661 mathcomp.boot.ssrAC <> p':75 var
+R11645:11651 mathcomp.boot.ssrAC AC set_pos def
+R11657:11657 mathcomp.boot.ssrAC <> p:74 var
+R11655:11655 mathcomp.boot.ssrAC <> e:73 var
+R11653:11653 mathcomp.boot.ssrAC <> f:72 var
+R11665:11667 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R11675:11680 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R11692:11697 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R11669:11672 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11668:11668 mathcomp.boot.ssrAC <> p:74 var
+R11673:11674 mathcomp.boot.ssrAC <> p':75 var
+R11681:11681 mathcomp.boot.ssrAC <> f:72 var
+R11684:11686 mathcomp.boot.ssrAC AC pos def
+R11690:11690 mathcomp.boot.ssrAC <> p:74 var
+R11688:11688 mathcomp.boot.ssrAC <> e:73 var
+R11698:11700 mathcomp.boot.ssrAC AC pos def
+R11704:11705 mathcomp.boot.ssrAC <> p':75 var
+R11702:11702 mathcomp.boot.ssrAC <> e:73 var
+def 11795:11799 AC unzip
+binder 11801:11801 <> z:76
+R11808:11810 mathcomp.boot.ssrAC AC env ind
+binder 11804:11804 <> e:77
+R11815:11817 mathcomp.boot.ssrAC AC env ind
+R11828:11828 mathcomp.boot.ssrAC <> z:76 var
+R11838:11841 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R11846:11846 mathcomp.boot.ssrAC <> e:77 var
+R11862:11865 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R11851:11851 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11853:11854 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11861:11861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11855:11857 Corelib.Init.Datatypes <> inl constr
+R11872:11876 mathcomp.boot.ssrAC <> unzip:78 def
+R11882:11886 mathcomp.boot.ssrAC AC ENode constr
+R11893:11893 mathcomp.boot.ssrAC <> e:77 var
+R11910:11913 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R11899:11899 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11901:11902 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11909:11909 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11903:11905 Corelib.Init.Datatypes <> inr constr
+R11920:11924 mathcomp.boot.ssrAC <> unzip:78 def
+R11930:11934 mathcomp.boot.ssrAC AC ENode constr
+R11938:11938 mathcomp.boot.ssrAC <> e:77 var
+def 11961:11972 AC set_pos_trec
+R11980:11983 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11979:11979 mathcomp.boot.ssrAC <> AC.eval.T var
+R11984:11984 mathcomp.boot.ssrAC <> AC.eval.T var
+binder 11975:11975 <> f:80
+binder 11999:11999 <> z:81
+binder 12001:12001 <> e:82
+binder 12003:12003 <> p:83
+R12030:12030 mathcomp.boot.ssrAC <> p:83 var
+R12027:12027 mathcomp.boot.ssrAC <> e:82 var
+R12040:12044 mathcomp.boot.ssrAC AC ENode constr
+R12068:12072 mathcomp.boot.ssrAC AC unzip def
+R12077:12081 mathcomp.boot.ssrAC AC ENode constr
+R12089:12089 mathcomp.boot.ssrAC <> e:82 var
+R12084:12084 mathcomp.boot.ssrAC <> f:80 var
+R12074:12074 mathcomp.boot.ssrAC <> z:81 var
+R12098:12102 mathcomp.boot.ssrAC AC ENode constr
+R12114:12115 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R12130:12133 mathcomp.boot.ssrAC <> loop:84 var
+R12156:12156 mathcomp.boot.ssrAC <> p:83 var
+R12154:12154 mathcomp.boot.ssrAC <> e:82 var
+R12147:12150 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R12136:12136 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12138:12139 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12146:12146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12140:12142 Corelib.Init.Datatypes <> inr constr
+R12151:12151 mathcomp.boot.ssrAC <> z:81 var
+R12161:12165 mathcomp.boot.ssrAC AC ENode constr
+R12177:12178 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R12193:12196 mathcomp.boot.ssrAC <> loop:84 var
+R12219:12219 mathcomp.boot.ssrAC <> p:83 var
+R12209:12212 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R12199:12199 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12201:12202 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12208:12208 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12203:12205 Corelib.Init.Datatypes <> inl constr
+R12207:12207 mathcomp.boot.ssrAC <> e:82 var
+R12213:12213 mathcomp.boot.ssrAC <> z:81 var
+R12224:12228 mathcomp.boot.ssrAC AC Empty constr
+R12245:12249 mathcomp.boot.ssrAC AC unzip def
+R12254:12258 mathcomp.boot.ssrAC AC ENode constr
+R12274:12278 mathcomp.boot.ssrAC AC Empty constr
+R12268:12272 mathcomp.boot.ssrAC AC Empty constr
+R12261:12261 mathcomp.boot.ssrAC <> f:80 var
+R12263:12265 mathcomp.boot.ssrAC <> AC.eval.idx var
+R12251:12251 mathcomp.boot.ssrAC <> z:81 var
+R12284:12288 mathcomp.boot.ssrAC AC Empty constr
+R12293:12294 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R12309:12312 mathcomp.boot.ssrAC <> loop:84 var
+R12346:12346 mathcomp.boot.ssrAC <> p:83 var
+R12340:12344 mathcomp.boot.ssrAC AC Empty constr
+R12333:12336 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R12315:12315 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12319:12321 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12331:12332 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12316:12318 mathcomp.boot.ssrAC <> AC.eval.idx var
+R12322:12324 Corelib.Init.Datatypes <> inr constr
+R12326:12330 mathcomp.boot.ssrAC AC Empty constr
+R12337:12337 mathcomp.boot.ssrAC <> z:81 var
+R12351:12355 mathcomp.boot.ssrAC AC Empty constr
+R12360:12361 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R12376:12379 mathcomp.boot.ssrAC <> loop:84 var
+R12413:12413 mathcomp.boot.ssrAC <> p:83 var
+R12407:12411 mathcomp.boot.ssrAC AC Empty constr
+R12400:12403 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R12382:12382 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12386:12388 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12398:12399 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12383:12385 mathcomp.boot.ssrAC <> AC.eval.idx var
+R12389:12391 Corelib.Init.Datatypes <> inl constr
+R12393:12397 mathcomp.boot.ssrAC AC Empty constr
+R12404:12404 mathcomp.boot.ssrAC <> z:81 var
+prf 12428:12440 AC set_pos_trecE
+binder 12442:12442 <> f:87
+binder 12444:12444 <> z:88
+binder 12446:12446 <> e:89
+binder 12448:12448 <> p:90
+R12472:12474 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12452:12463 mathcomp.boot.ssrAC AC set_pos_trec def
+R12471:12471 mathcomp.boot.ssrAC <> p:90 var
+R12469:12469 mathcomp.boot.ssrAC <> e:89 var
+R12467:12467 mathcomp.boot.ssrAC <> z:88 var
+R12465:12465 mathcomp.boot.ssrAC <> f:87 var
+R12475:12479 mathcomp.boot.ssrAC AC unzip def
+R12484:12490 mathcomp.boot.ssrAC AC set_pos def
+R12496:12496 mathcomp.boot.ssrAC <> p:90 var
+R12494:12494 mathcomp.boot.ssrAC <> e:89 var
+R12492:12492 mathcomp.boot.ssrAC <> f:87 var
+R12481:12481 mathcomp.boot.ssrAC <> z:88 var
+def 12592:12595 AC eval
+R12602:12604 mathcomp.boot.ssrAC AC env ind
+binder 12598:12598 <> e:91
+R12624:12629 mathcomp.boot.ssrAC AC syntax ind
+binder 12620:12620 <> s:92
+R12641:12641 mathcomp.boot.ssrAC <> s:92 var
+R12652:12655 mathcomp.boot.ssrAC AC Leaf constr
+R12662:12664 mathcomp.boot.ssrAC AC pos def
+R12666:12666 mathcomp.boot.ssrAC <> e:91 var
+R12674:12675 mathcomp.boot.ssrAC AC Op constr
+R12685:12686 mathcomp.boot.ssrAC <> AC.eval.op var
+R12698:12701 mathcomp.boot.ssrAC <> loop:93 var
+R12689:12692 mathcomp.boot.ssrAC <> loop:93 var
+R12694:12694 mathcomp.boot.ssrAC <> s:92 var
+R12716:12719 mathcomp.boot.ssrAC AC.eval <> sec
+R12732:12736 mathcomp.boot.ssrAC AC Empty constr
+def 12755:12761 AC content
+R12783:12785 mathcomp.boot.ssrAC AC env ind
+R12787:12787 Corelib.Numbers.BinNums <> N ind
+binder 12777:12779 <> acc:95
+binder 12790:12790 <> s:96
+R12803:12803 mathcomp.boot.ssrAC <> s:96 var
+R12814:12817 mathcomp.boot.ssrAC AC Leaf constr
+R12824:12835 mathcomp.boot.ssrAC AC set_pos_trec def
+R12855:12857 mathcomp.boot.ssrAC <> acc:95 var
+R12850:12853 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R12840:12848 mathcomp.boot.ssrAC Pos Nsucc def
+R12837:12838 Corelib.Numbers.BinNums <> N0 constr
+R12865:12866 mathcomp.boot.ssrAC AC Op constr
+R12876:12879 mathcomp.boot.ssrAC <> loop:97 var
+R12895:12895 mathcomp.boot.ssrAC <> s:96 var
+R12882:12885 mathcomp.boot.ssrAC <> loop:97 var
+R12887:12889 mathcomp.boot.ssrAC <> acc:95 var
+R12904:12908 mathcomp.boot.ssrAC AC Empty constr
+prf 12918:12927 AC count_memE
+binder 12929:12929 <> x:99
+R12936:12941 mathcomp.boot.ssrAC AC syntax ind
+binder 12932:12932 <> t:100
+R12961:12963 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12948:12956 mathcomp.boot.seq <> count_mem abbrev
+R12958:12958 mathcomp.boot.ssrAC <> x:99 var
+R12960:12960 mathcomp.boot.ssrAC <> t:100 var
+R12964:12973 mathcomp.boot.ssrnat <> nat_of_bin coe
+R12976:12978 mathcomp.boot.ssrAC AC pos def
+R12995:12995 mathcomp.boot.ssrAC <> x:99 var
+R12984:12990 mathcomp.boot.ssrAC AC content def
+R12992:12992 mathcomp.boot.ssrAC <> t:100 var
+R12980:12981 Corelib.Numbers.BinNums <> N0 constr
+R13015:13021 mathcomp.boot.ssrAC AC content def
+R13044:13048 mathcomp.boot.ssrAC AC Empty constr
+R13042:13042 mathcomp.boot.ssrAC <> X:101 var
+R13078:13080 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R13082:13086 mathcomp.boot.ssrnat <> addn0 thm
+R13126:13128 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R13130:13133 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R13134:13136 Corelib.Init.Datatypes <> nat ind
+R13099:13108 mathcomp.boot.ssrnat <> nat_of_bin coe
+R13111:13113 mathcomp.boot.ssrAC AC pos def
+R13118:13122 mathcomp.boot.ssrAC AC Empty constr
+R13115:13116 Corelib.Numbers.BinNums <> N0 constr
+R13158:13162 mathcomp.boot.ssrAC AC Empty constr
+R13217:13225 mathcomp.boot.ssrAC AC serial_Op thm
+R13227:13235 mathcomp.boot.seq <> count_cat thm
+R13238:13242 mathcomp.boot.ssrnat <> addnA thm
+R13263:13267 mathcomp.boot.ssrnat <> addn0 thm
+R13269:13281 mathcomp.boot.ssrAC AC set_pos_trecE thm
+R13283:13293 mathcomp.boot.ssrAC AC pos_set_pos thm
+R13303:13306 Corelib.ssr.ssrbool <> altP thm
+R13308:13310 mathcomp.boot.eqtype <> eqP def
+R13338:13356 mathcomp.boot.ssrAC Pos nat_of_succ_bin thm
+def 13376:13382 AC cforall
+binder 13384:13384 <> N:102
+binder 13386:13386 <> T:103
+R13395:13398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13390:13392 mathcomp.boot.ssrAC AC env ind
+R13394:13394 mathcomp.boot.ssrAC <> N:102 var
+R13399:13399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13413:13417 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13405:13408 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13400:13402 mathcomp.boot.ssrAC AC env ind
+R13404:13404 mathcomp.boot.ssrAC <> T:103 var
+R13426:13433 mathcomp.boot.ssrAC AC env_rect scheme
+binder 13456:13456 <> e:104
+binder 13458:13460 <> IHe:105
+binder 13462:13463 <> e':106
+binder 13465:13468 <> IHe':107
+binder 13470:13470 <> R:108
+binder 13482:13482 <> x:109
+R13485:13487 mathcomp.boot.ssrAC <> IHe:105 var
+binder 13494:13495 <> xe:110
+R13500:13503 mathcomp.boot.ssrAC <> IHe':107 var
+R13507:13510 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R13506:13506 mathcomp.boot.ssrAC <> R:108 var
+R13511:13515 mathcomp.boot.ssrAC AC ENode constr
+R13519:13520 mathcomp.boot.ssrAC <> xe:110 var
+R13517:13517 mathcomp.boot.ssrAC <> x:109 var
+R13436:13439 Corelib.ssr.ssrfun <> ::function_scope:'@^~'_x not
+R13440:13444 mathcomp.boot.ssrAC AC Empty constr
+prf 13533:13540 AC cforallP
+binder 13542:13542 <> N:111
+binder 13544:13544 <> T:112
+binder 13546:13546 <> R:113
+R13550:13550 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13572:13576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13562:13564 mathcomp.boot.ssrAC AC env ind
+R13566:13566 mathcomp.boot.ssrAC <> T:112 var
+binder 13558:13558 <> e:114
+R13569:13569 mathcomp.boot.ssrAC <> R:113 var
+R13571:13571 mathcomp.boot.ssrAC <> e:114 var
+R13589:13591 mathcomp.boot.ssrAC AC env ind
+R13593:13593 mathcomp.boot.ssrAC <> N:111 var
+binder 13585:13585 <> e:115
+R13597:13603 mathcomp.boot.ssrAC AC cforall def
+R13607:13607 mathcomp.boot.ssrAC <> R:113 var
+R13605:13605 mathcomp.boot.ssrAC <> e:115 var
+sec 13731:13737 AC eq_eval
+var 13751:13751 AC.eq_eval T
+var 13762:13764 AC.eq_eval idx
+var 13772:13773 AC.eq_eval op
+R13768:13768 mathcomp.boot.ssrAC <> T:117 var
+R13777:13790 mathcomp.boot.bigop Monoid com_law abbrev
+R13792:13794 mathcomp.boot.ssrAC <> idx:119 var
+prf 13805:13809 AC proof
+R13818:13823 mathcomp.boot.ssrAC AC syntax ind
+binder 13812:13812 <> p:122
+binder 13814:13814 <> s:123
+R13849:13854 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13837:13839 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13828:13834 mathcomp.boot.ssrAC AC content def
+R13836:13836 mathcomp.boot.ssrAC <> p:122 var
+R13840:13846 mathcomp.boot.ssrAC AC content def
+R13848:13848 mathcomp.boot.ssrAC <> s:123 var
+binder 13862:13864 <> env:124
+R13884:13886 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13867:13870 mathcomp.boot.ssrAC AC eval def
+R13883:13883 mathcomp.boot.ssrAC <> p:122 var
+R13879:13881 mathcomp.boot.ssrAC <> env:124 var
+R13876:13877 mathcomp.boot.ssrAC <> AC.eq_eval.op var
+R13872:13874 mathcomp.boot.ssrAC <> AC.eq_eval.idx var
+R13887:13890 mathcomp.boot.ssrAC AC eval def
+R13903:13903 mathcomp.boot.ssrAC <> s:123 var
+R13899:13901 mathcomp.boot.ssrAC <> env:124 var
+R13896:13897 mathcomp.boot.ssrAC <> AC.eq_eval.op var
+R13892:13894 mathcomp.boot.ssrAC <> AC.eq_eval.idx var
+R13949:13951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13932:13935 mathcomp.boot.ssrAC AC eval def
+R13948:13948 mathcomp.boot.ssrAC <> t:126 var
+R13944:13946 mathcomp.boot.ssrAC <> env:125 var
+R13941:13942 mathcomp.boot.ssrAC <> AC.eq_eval.op var
+R13937:13939 mathcomp.boot.ssrAC <> AC.eq_eval.idx var
+R13952:13956 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13959:13959 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13963:13965 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13967:13970 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13972:13974 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13988:13988 mathcomp.boot.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_')'_x not
+R13960:13962 mathcomp.boot.ssrAC <> AC.eq_eval.idx var
+R13971:13971 mathcomp.boot.ssrAC <> t:126 var
+binder 13966:13966 <> i:127
+binder 13966:13966 <> i:128
+binder 13966:13966 <> i:129
+R13957:13958 mathcomp.boot.ssrAC <> AC.eq_eval.op var
+R13975:13977 mathcomp.boot.ssrAC AC pos def
+R13987:13987 mathcomp.boot.ssrAC <> i:127 var
+R13983:13985 mathcomp.boot.ssrAC <> env:125 var
+R13979:13981 mathcomp.boot.ssrAC <> AC.eq_eval.idx var
+R14030:14037 mathcomp.boot.bigop <> perm_big thm
+R14051:14054 mathcomp.boot.seq <> allP thm
+R14076:14085 mathcomp.boot.ssrAC AC count_memE thm
+R14139:14147 mathcomp.boot.ssrAC AC serial_Op thm
+R14149:14155 mathcomp.boot.bigop <> big_cat thm
+R14169:14176 mathcomp.boot.bigop <> big_cons thm
+R14178:14184 mathcomp.boot.bigop <> big_nil thm
+R14186:14197 mathcomp.boot.bigop Monoid mulm1 thm
+def 14217:14222 AC direct
+binder 14224:14224 <> p:130
+binder 14226:14226 <> s:131
+binder 14228:14229 <> ps:132
+R14234:14241 mathcomp.boot.ssrAC AC cforallP thm
+R14260:14266 mathcomp.boot.ssrAC AC content def
+R14268:14268 mathcomp.boot.ssrAC <> p:130 var
+R14245:14249 mathcomp.boot.ssrAC AC proof thm
+R14251:14251 mathcomp.boot.ssrAC <> p:130 var
+R14253:14253 mathcomp.boot.ssrAC <> s:131 var
+R14255:14256 mathcomp.boot.ssrAC <> ps:132 var
+R14277:14283 mathcomp.boot.ssrAC AC.eq_eval <> sec
+mod 14294:14300 <> AC.Exports
+R14310:14318 mathcomp.boot.ssrAC AC.Syntax <> mod
+R14325:14331 mathcomp.boot.ssrAC AC.Exports <> mod
+R14338:14339 mathcomp.boot.ssrAC AC <> mod
+R14349:14358 mathcomp.boot.ssrAC AC.Exports <> mod
+abbrev 14371:14386 <> AC_check_pattern
+R14439:14441 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14424:14433 mathcomp.boot.ssrAC <> content def
+R14442:14451 mathcomp.boot.ssrAC <> content def
+abbrev 14883:14888 <> opACof
+binder 14907:14907 <> T:133
+binder 14909:14911 <> idx:134
+binder 14913:14914 <> op:135
+binder 14916:14920 <> assoc:136
+binder 14922:14924 <> lid:137
+binder 14926:14928 <> rid:138
+binder 14930:14933 <> comm:139
+R14939:14949 mathcomp.boot.ssrAC <> change_type def
+R15272:15278 mathcomp.boot.ssrAC <> cbvrefl abbrev
+R14953:14961 mathcomp.boot.ssrAC <> direct def
+R14963:14963 mathcomp.boot.ssrAC <> T:133 var
+R14965:14967 mathcomp.boot.ssrAC <> idx:134 var
+R14973:14990 mathcomp.boot.bigop Monoid.ComLaw Pack constr
+R15068:15086 mathcomp.boot.bigop Monoid.ComLaw Class constr
+R15195:15228 mathcomp.boot.bigop SemiGroup.isCommutativeLaw Axioms_ constr
+R15233:15236 mathcomp.boot.ssrAC <> comm:139 var
+R15230:15231 mathcomp.boot.ssrAC <> op:135 var
+R15142:15167 mathcomp.boot.bigop Monoid.isMonoidLaw Axioms_ constr
+R15180:15182 mathcomp.boot.ssrAC <> rid:138 var
+R15176:15178 mathcomp.boot.ssrAC <> lid:137 var
+R15173:15174 mathcomp.boot.ssrAC <> op:135 var
+R15169:15171 mathcomp.boot.ssrAC <> idx:134 var
+R15098:15120 mathcomp.boot.bigop SemiGroup.isLaw Axioms_ constr
+R15125:15129 mathcomp.boot.ssrAC <> assoc:136 var
+R15122:15123 mathcomp.boot.ssrAC <> op:135 var
+R15254:15269 mathcomp.boot.ssrAC <> AC_check_pattern abbrev
+R15291:15302 mathcomp.boot.bigop Monoid mulmA thm
+R15308:15319 mathcomp.boot.bigop Monoid mul1m thm
+R15325:15336 mathcomp.boot.bigop Monoid mulm1 thm
+R15342:15353 mathcomp.boot.bigop Monoid mulmC thm
+abbrev 15385:15388 <> opAC
+R15402:15407 mathcomp.boot.ssrAC <> opACof abbrev
+R15413:15422 mathcomp.boot.ssrAC <> pattern def
+abbrev 15461:15465 <> opACl
+R15476:15479 mathcomp.boot.ssrAC <> opAC abbrev
+R15485:15498 mathcomp.boot.ssrAC <> Leaf_of_nat def
+R15501:15504 mathcomp.boot.seq <> size def
+R15507:15515 mathcomp.boot.ssrAC <> serial coe
+R15584:15589 mathcomp.boot.ssrAC <> opACof abbrev
+not 15559:15559 <> :::x_'.['_'ACof'_x_x_']'
+R15653:15656 mathcomp.boot.ssrAC <> opAC abbrev
+not 15630:15630 <> :::x_'.['_'AC'_x_x_']'
+R15719:15723 mathcomp.boot.ssrAC <> opACl abbrev
+not 15697:15697 <> :::x_'.['_'ACl'_x_']'
+abbrev 15760:15770 <> AC_strategy
+R15791:15808 mathcomp.boot.bigop Monoid.ComLaw sort def
+R15810:15824 mathcomp.boot.bigop Monoid.Law sort def
+abbrev 15869:15872 <> ACof
+R15882:15892 mathcomp.boot.ssrAC <> change_type def
+R15943:15953 mathcomp.boot.ssrAC <> AC_strategy abbrev
+R15898:15906 mathcomp.boot.ssrAC <> direct def
+R15925:15940 mathcomp.boot.ssrAC <> AC_check_pattern abbrev
+abbrev 15983:15984 <> AC
+R15994:15997 mathcomp.boot.ssrAC <> ACof abbrev
+R16000:16009 mathcomp.boot.ssrAC <> pattern def
+abbrev 16048:16050 <> ACl
+R16058:16059 mathcomp.boot.ssrAC <> AC abbrev
+R16062:16075 mathcomp.boot.ssrAC <> Leaf_of_nat def
+R16078:16081 mathcomp.boot.seq <> size def
+R16084:16092 mathcomp.boot.ssrAC <> serial coe

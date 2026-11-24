@@ -1,0 +1,62 @@
+% xtext: The type expected at the place of a subproof, and "that is".
+% (part of xtext's writer; the files are loaded in the order of ExtractText.v)
+
+% "that is" (the Cast' of the thesis, 5.2.2): when the type that a proof
+% proves (synthesised) differs from the type expected at its place
+% (inherited) but Rocq finds them convertible, its conclusion says both
+pred that-is i:term, i:term, i:pf, o:pf.
+that-is T Exp (prfp P Ps) Q :- !, that-is T Exp P P1,
+  (if (P1 = P) (Q = prfp P Ps) (Q = P1)).
+that-is T Exp (prf L (some C)) (prf L (some C1)) :-
+  not (off "thatis"), typ T Syn, not (Syn = Exp), coq.unify-eq Syn Exp ok, !,
+  formula rclaim Exp F, restated-line C F C1.
+that-is _ _ P P.
+
+% [restated-line C F C1]: the line C, its conclusion restated as the
+% formula F, `F`{.claim}: "A, that is B".  B is the conclusion, the form
+% the steps after it use (decision 3 of the proposal); A, the form the
+% step's justification is about, is shown untagged (Rocq checked the
+% conversion); the name of the conclusion, if any, goes after B
+pred restated-line i:line, i:string, o:line.
+restated-line (it S Ch) F (it S1 Ch) :- restated S F S1.
+restated-line (with-closing O Ch S) F (with-closing O Ch S1) :- restated S F S1.
+
+% [restated S F S1]: the sentence S, its conclusion untagged, then ", that
+% is" and the formula F, followed by the name of the conclusion if it had one
+pred restated i:string, i:string, o:string.
+restated S F S1 :-
+  (if (rex.match ".*`{[.]claim} ([A-Za-z0-9_']+)" S)
+      (rex.replace "^.*`{[.]claim} (\\([A-Za-z0-9_']+\\)).*$" "\\1" S N,
+       rex.replace "`{[.]claim} ([A-Za-z0-9_']+)" "`" S S0,
+       Name = [tx "(", tx N, tx ")"])
+      (rex.replace "`{[.]claim}" "`" S S0, Name = [])),
+  sentence [tx S0, tx ",", wd "that-is", tx F | Name] S1.
+
+% [at-expected T E P0 P]: the text P0 of the subproof T, at a place where
+% the type E is expected: "that is" E, if E is known (not a hole)
+pred at-expected i:term, i:term, i:pf, o:pf.
+at-expected T E P0 P :- ground_term E, !, that-is T E P0 P.
+at-expected _ _ P P.
+
+% [domains Ty As Es]: the expected types of the arguments As of a term of
+% type Ty (holes where the type is not a product)
+pred domains i:term, i:list term, o:list term.
+domains _ [] [] :- !.
+domains (prod _ D B) [A|As] [D1|Ds] :- !, beta-ty D D1, domains (B A) As Ds.
+domains Ty As Ds :- whnf Ty (prod N D B), !, domains (prod N D B) As Ds.
+domains _ As Ds :- std.map As (_\ d\ true) Ds.
+
+% [next-expected Es E Rest]: the expected type E of the next subproof (a
+% hole when there is none) and those of the subproofs after it
+pred next-expected i:list term, o:term, o:list term.
+next-expected [E|Es] E Es :- !.
+next-expected [] _ [].
+
+% [dashed-exp Ts Es Path Ds]: the subproofs Ts as dashed lines, each at its
+% expected type
+pred dashed-exp i:list term, i:list term, i:list int, o:list line.
+dashed-exp [] _ _ [].
+dashed-exp [T|Ts] Es Path [D|Ds] :-
+  next-expected Es E Er,
+  tr T nostar Path P0, at-expected T E P0 P,
+  dashed P D, dashed-exp Ts Er Path Ds.

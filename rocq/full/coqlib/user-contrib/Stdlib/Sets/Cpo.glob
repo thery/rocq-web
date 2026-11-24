@@ -1,0 +1,359 @@
+DIGEST e8ce614e0c2591fdff19d56c427444f8
+FStdlib.Sets.Cpo
+R1850:1858 Stdlib.Sets.Ensembles <> <> lib
+R1888:1898 Stdlib.Sets.Relations_1 <> <> lib
+R1928:1940 Stdlib.Sets.Partial_Order <> <> lib
+sec 1952:1957 <> Bounds
+var 1971:1971 Bounds U
+var 1992:1992 Bounds D
+R1996:1997 Stdlib.Sets.Partial_Order <> PO rec
+R1999:1999 Stdlib.Sets.Cpo <> Bounds.U var
+var 2009:2009 Bounds C
+R2015:2024 Stdlib.Sets.Partial_Order <> Carrier_of proj
+R2026:2026 Stdlib.Sets.Cpo <> Bounds.U var
+R2028:2028 Stdlib.Sets.Cpo <> Bounds.D var
+var 2038:2038 Bounds R
+R2044:2049 Stdlib.Sets.Partial_Order <> Rel_of proj
+R2051:2051 Stdlib.Sets.Cpo <> Bounds.U var
+R2053:2053 Stdlib.Sets.Cpo <> Bounds.D var
+ind 2069:2079 <> Upper_Bound
+constr 2116:2137 <> Upper_Bound_definition
+R2084:2091 Stdlib.Sets.Ensembles <> Ensemble def
+R2093:2093 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2082:2082 <> B:5
+R2099:2099 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2097:2097 <> x:6
+R2153:2156 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2145:2146 Stdlib.Sets.Ensembles <> In def
+R2150:2150 Stdlib.Sets.Cpo <> Bounds.C var
+R2152:2152 Stdlib.Sets.Cpo <> x:6 var
+R2148:2148 Stdlib.Sets.Cpo <> Bounds.U var
+R2157:2157 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2187:2191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2167:2167 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2165:2165 <> y:9
+R2178:2181 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2170:2171 Stdlib.Sets.Ensembles <> In def
+R2175:2175 Stdlib.Sets.Cpo <> B:5 var
+R2177:2177 Stdlib.Sets.Cpo <> y:9 var
+R2173:2173 Stdlib.Sets.Cpo <> Bounds.U var
+R2182:2182 Stdlib.Sets.Cpo <> Bounds.R var
+R2184:2184 Stdlib.Sets.Cpo <> y:9 var
+R2186:2186 Stdlib.Sets.Cpo <> x:6 var
+R2192:2202 Stdlib.Sets.Cpo <> Upper_Bound:7 ind
+R2206:2206 Stdlib.Sets.Cpo <> x:6 var
+R2204:2204 Stdlib.Sets.Cpo <> B:5 var
+scheme 2069:2079 <> Upper_Bound_rect
+scheme 2069:2079 <> Upper_Bound_ind
+scheme 2069:2079 <> Upper_Bound_rec
+scheme 2069:2079 <> Upper_Bound_sind
+ind 2222:2232 <> Lower_Bound
+constr 2269:2290 <> Lower_Bound_definition
+R2237:2244 Stdlib.Sets.Ensembles <> Ensemble def
+R2246:2246 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2235:2235 <> B:10
+R2252:2252 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2250:2250 <> x:11
+R2306:2309 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2298:2299 Stdlib.Sets.Ensembles <> In def
+R2303:2303 Stdlib.Sets.Cpo <> Bounds.C var
+R2305:2305 Stdlib.Sets.Cpo <> x:11 var
+R2301:2301 Stdlib.Sets.Cpo <> Bounds.U var
+R2310:2310 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2340:2344 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2320:2320 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2318:2318 <> y:14
+R2331:2334 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2323:2324 Stdlib.Sets.Ensembles <> In def
+R2328:2328 Stdlib.Sets.Cpo <> B:10 var
+R2330:2330 Stdlib.Sets.Cpo <> y:14 var
+R2326:2326 Stdlib.Sets.Cpo <> Bounds.U var
+R2335:2335 Stdlib.Sets.Cpo <> Bounds.R var
+R2337:2337 Stdlib.Sets.Cpo <> x:11 var
+R2339:2339 Stdlib.Sets.Cpo <> y:14 var
+R2345:2355 Stdlib.Sets.Cpo <> Lower_Bound:12 ind
+R2359:2359 Stdlib.Sets.Cpo <> x:11 var
+R2357:2357 Stdlib.Sets.Cpo <> B:10 var
+scheme 2222:2232 <> Lower_Bound_rect
+scheme 2222:2232 <> Lower_Bound_ind
+scheme 2222:2232 <> Lower_Bound_rec
+scheme 2222:2232 <> Lower_Bound_sind
+ind 2375:2377 <> Lub
+constr 2414:2427 <> Lub_definition
+R2382:2389 Stdlib.Sets.Ensembles <> Ensemble def
+R2391:2391 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2380:2380 <> B:15
+R2397:2397 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2395:2395 <> x:16
+R2450:2453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2435:2445 Stdlib.Sets.Cpo <> Upper_Bound ind
+R2447:2447 Stdlib.Sets.Cpo <> B:15 var
+R2449:2449 Stdlib.Sets.Cpo <> x:16 var
+R2454:2454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2491:2495 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2464:2464 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2462:2462 <> y:19
+R2482:2485 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2467:2477 Stdlib.Sets.Cpo <> Upper_Bound ind
+R2479:2479 Stdlib.Sets.Cpo <> B:15 var
+R2481:2481 Stdlib.Sets.Cpo <> y:19 var
+R2486:2486 Stdlib.Sets.Cpo <> Bounds.R var
+R2488:2488 Stdlib.Sets.Cpo <> x:16 var
+R2490:2490 Stdlib.Sets.Cpo <> y:19 var
+R2496:2498 Stdlib.Sets.Cpo <> Lub:17 ind
+R2502:2502 Stdlib.Sets.Cpo <> x:16 var
+R2500:2500 Stdlib.Sets.Cpo <> B:15 var
+scheme 2375:2377 <> Lub_rect
+scheme 2375:2377 <> Lub_ind
+scheme 2375:2377 <> Lub_rec
+scheme 2375:2377 <> Lub_sind
+ind 2518:2520 <> Glb
+constr 2557:2570 <> Glb_definition
+R2525:2532 Stdlib.Sets.Ensembles <> Ensemble def
+R2534:2534 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2523:2523 <> B:20
+R2540:2540 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2538:2538 <> x:21
+R2593:2596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2578:2588 Stdlib.Sets.Cpo <> Lower_Bound ind
+R2590:2590 Stdlib.Sets.Cpo <> B:20 var
+R2592:2592 Stdlib.Sets.Cpo <> x:21 var
+R2597:2597 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2634:2638 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2607:2607 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2605:2605 <> y:24
+R2625:2628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2610:2620 Stdlib.Sets.Cpo <> Lower_Bound ind
+R2622:2622 Stdlib.Sets.Cpo <> B:20 var
+R2624:2624 Stdlib.Sets.Cpo <> y:24 var
+R2629:2629 Stdlib.Sets.Cpo <> Bounds.R var
+R2631:2631 Stdlib.Sets.Cpo <> y:24 var
+R2633:2633 Stdlib.Sets.Cpo <> x:21 var
+R2639:2641 Stdlib.Sets.Cpo <> Glb:22 ind
+R2645:2645 Stdlib.Sets.Cpo <> x:21 var
+R2643:2643 Stdlib.Sets.Cpo <> B:20 var
+scheme 2518:2520 <> Glb_rect
+scheme 2518:2520 <> Glb_ind
+scheme 2518:2520 <> Glb_rec
+scheme 2518:2520 <> Glb_sind
+ind 2661:2666 <> Bottom
+constr 2690:2706 <> Bottom_definition
+R2673:2673 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2669:2671 <> bot:25
+R2724:2727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2714:2715 Stdlib.Sets.Ensembles <> In def
+R2719:2719 Stdlib.Sets.Cpo <> Bounds.C var
+R2721:2723 Stdlib.Sets.Cpo <> bot:25 var
+R2717:2717 Stdlib.Sets.Cpo <> Bounds.U var
+R2728:2728 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2760:2764 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2738:2738 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2736:2736 <> y:28
+R2749:2752 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2741:2742 Stdlib.Sets.Ensembles <> In def
+R2746:2746 Stdlib.Sets.Cpo <> Bounds.C var
+R2748:2748 Stdlib.Sets.Cpo <> y:28 var
+R2744:2744 Stdlib.Sets.Cpo <> Bounds.U var
+R2753:2753 Stdlib.Sets.Cpo <> Bounds.R var
+R2755:2757 Stdlib.Sets.Cpo <> bot:25 var
+R2759:2759 Stdlib.Sets.Cpo <> y:28 var
+R2765:2770 Stdlib.Sets.Cpo <> Bottom:26 ind
+R2772:2774 Stdlib.Sets.Cpo <> bot:25 var
+scheme 2661:2666 <> Bottom_rect
+scheme 2661:2666 <> Bottom_ind
+scheme 2661:2666 <> Bottom_rec
+scheme 2661:2666 <> Bottom_sind
+ind 2790:2804 <> Totally_ordered
+constr 2835:2860 <> Totally_ordered_definition
+R2809:2816 Stdlib.Sets.Ensembles <> Ensemble def
+R2818:2818 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2807:2807 <> B:29
+R2868:2868 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2952:2960 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2883:2892 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2869:2876 Stdlib.Sets.Ensembles <> Included def
+R2880:2880 Stdlib.Sets.Cpo <> B:29 var
+R2882:2882 Stdlib.Sets.Cpo <> Bounds.C var
+R2878:2878 Stdlib.Sets.Cpo <> Bounds.U var
+R2904:2904 Stdlib.Sets.Cpo <> Bounds.U var
+binder 2900:2900 <> x:32
+binder 2902:2902 <> y:33
+R2934:2937 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2907:2914 Stdlib.Sets.Ensembles <> Included def
+R2919:2924 Stdlib.Sets.Ensembles <> Couple ind
+R2928:2928 Stdlib.Sets.Cpo <> x:32 var
+R2930:2930 Stdlib.Sets.Cpo <> y:33 var
+R2926:2926 Stdlib.Sets.Cpo <> Bounds.U var
+R2933:2933 Stdlib.Sets.Cpo <> B:29 var
+R2916:2916 Stdlib.Sets.Cpo <> Bounds.U var
+R2943:2946 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2938:2938 Stdlib.Sets.Cpo <> Bounds.R var
+R2940:2940 Stdlib.Sets.Cpo <> x:32 var
+R2942:2942 Stdlib.Sets.Cpo <> y:33 var
+R2947:2947 Stdlib.Sets.Cpo <> Bounds.R var
+R2949:2949 Stdlib.Sets.Cpo <> y:33 var
+R2951:2951 Stdlib.Sets.Cpo <> x:32 var
+R2961:2975 Stdlib.Sets.Cpo <> Totally_ordered:30 ind
+R2977:2977 Stdlib.Sets.Cpo <> B:29 var
+scheme 2790:2804 <> Totally_ordered_rect
+scheme 2790:2804 <> Totally_ordered_ind
+scheme 2790:2804 <> Totally_ordered_rec
+scheme 2790:2804 <> Totally_ordered_sind
+def 2994:3003 <> Compatible
+R3007:3014 Stdlib.Sets.Relations_1 <> Relation def
+R3016:3016 Stdlib.Sets.Cpo <> Bounds.U var
+R3033:3033 Stdlib.Sets.Cpo <> Bounds.U var
+binder 3029:3029 <> x:34
+binder 3031:3031 <> y:35
+R3052:3061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3044:3045 Stdlib.Sets.Ensembles <> In def
+R3049:3049 Stdlib.Sets.Cpo <> Bounds.C var
+R3051:3051 Stdlib.Sets.Cpo <> x:34 var
+R3047:3047 Stdlib.Sets.Cpo <> Bounds.U var
+R3070:3074 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3062:3063 Stdlib.Sets.Ensembles <> In def
+R3067:3067 Stdlib.Sets.Cpo <> Bounds.C var
+R3069:3069 Stdlib.Sets.Cpo <> y:35 var
+R3065:3065 Stdlib.Sets.Cpo <> Bounds.U var
+R3075:3081 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3087:3088 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3082:3082 <> z:36
+R3097:3100 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3089:3090 Stdlib.Sets.Ensembles <> In def
+R3094:3094 Stdlib.Sets.Cpo <> Bounds.C var
+R3096:3096 Stdlib.Sets.Cpo <> z:36 var
+R3092:3092 Stdlib.Sets.Cpo <> Bounds.U var
+R3101:3111 Stdlib.Sets.Cpo <> Upper_Bound ind
+R3114:3119 Stdlib.Sets.Ensembles <> Couple ind
+R3123:3123 Stdlib.Sets.Cpo <> x:34 var
+R3125:3125 Stdlib.Sets.Cpo <> y:35 var
+R3121:3121 Stdlib.Sets.Cpo <> Bounds.U var
+R3128:3128 Stdlib.Sets.Cpo <> z:36 var
+ind 3144:3151 <> Directed
+constr 3182:3203 <> Definition_of_Directed
+R3156:3163 Stdlib.Sets.Ensembles <> Ensemble def
+R3165:3165 Stdlib.Sets.Cpo <> Bounds.U var
+binder 3154:3154 <> X:37
+R3225:3232 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3211:3218 Stdlib.Sets.Ensembles <> Included def
+R3222:3222 Stdlib.Sets.Cpo <> X:37 var
+R3224:3224 Stdlib.Sets.Cpo <> Bounds.C var
+R3220:3220 Stdlib.Sets.Cpo <> Bounds.U var
+R3246:3253 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3233:3241 Stdlib.Sets.Ensembles <> Inhabited ind
+R3245:3245 Stdlib.Sets.Cpo <> X:37 var
+R3243:3243 Stdlib.Sets.Cpo <> Bounds.U var
+R3254:3254 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3375:3383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3268:3268 Stdlib.Sets.Cpo <> Bounds.U var
+binder 3262:3263 <> x1:40
+binder 3265:3266 <> x2:41
+R3306:3315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3277:3284 Stdlib.Sets.Ensembles <> Included def
+R3289:3294 Stdlib.Sets.Ensembles <> Couple ind
+R3298:3299 Stdlib.Sets.Cpo <> x1:40 var
+R3301:3302 Stdlib.Sets.Cpo <> x2:41 var
+R3296:3296 Stdlib.Sets.Cpo <> Bounds.U var
+R3305:3305 Stdlib.Sets.Cpo <> X:37 var
+R3286:3286 Stdlib.Sets.Cpo <> Bounds.U var
+R3316:3322 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3329:3330 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3323:3324 <> x3:42
+R3340:3343 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3331:3332 Stdlib.Sets.Ensembles <> In def
+R3336:3336 Stdlib.Sets.Cpo <> X:37 var
+R3338:3339 Stdlib.Sets.Cpo <> x3:42 var
+R3334:3334 Stdlib.Sets.Cpo <> Bounds.U var
+R3344:3354 Stdlib.Sets.Cpo <> Upper_Bound ind
+R3357:3362 Stdlib.Sets.Ensembles <> Couple ind
+R3366:3367 Stdlib.Sets.Cpo <> x1:40 var
+R3369:3370 Stdlib.Sets.Cpo <> x2:41 var
+R3364:3364 Stdlib.Sets.Cpo <> Bounds.U var
+R3373:3374 Stdlib.Sets.Cpo <> x3:42 var
+R3384:3391 Stdlib.Sets.Cpo <> Directed:38 ind
+R3393:3393 Stdlib.Sets.Cpo <> X:37 var
+scheme 3144:3151 <> Directed_rect
+scheme 3144:3151 <> Directed_ind
+scheme 3144:3151 <> Directed_rec
+scheme 3144:3151 <> Directed_sind
+ind 3409:3416 <> Complete
+constr 3432:3453 <> Definition_of_Complete
+R3461:3461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3488:3496 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3462:3468 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3476:3477 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3469:3471 <> bot:45
+R3478:3483 Stdlib.Sets.Cpo <> Bottom ind
+R3485:3487 Stdlib.Sets.Cpo <> bot:45 var
+R3497:3497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3561:3569 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3507:3514 Stdlib.Sets.Ensembles <> Ensemble def
+R3516:3516 Stdlib.Sets.Cpo <> Bounds.U var
+binder 3505:3505 <> X:46
+R3529:3533 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3519:3526 Stdlib.Sets.Cpo <> Directed ind
+R3528:3528 Stdlib.Sets.Cpo <> X:46 var
+R3534:3540 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3549:3550 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3541:3544 <> bsup:47
+R3551:3553 Stdlib.Sets.Cpo <> Lub ind
+R3555:3555 Stdlib.Sets.Cpo <> X:46 var
+R3557:3560 Stdlib.Sets.Cpo <> bsup:47 var
+R3570:3577 Stdlib.Sets.Cpo <> Complete:43 ind
+scheme 3409:3416 <> Complete_rect
+scheme 3409:3416 <> Complete_ind
+scheme 3409:3416 <> Complete_rec
+scheme 3409:3416 <> Complete_sind
+ind 3593:3614 <> Conditionally_complete
+constr 3630:3665 <> Definition_of_Conditionally_complete
+R3673:3673 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3797:3801 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3683:3690 Stdlib.Sets.Ensembles <> Ensemble def
+R3692:3692 Stdlib.Sets.Cpo <> Bounds.U var
+binder 3681:3681 <> X:50
+R3715:3724 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3701:3708 Stdlib.Sets.Ensembles <> Included def
+R3712:3712 Stdlib.Sets.Cpo <> X:50 var
+R3714:3714 Stdlib.Sets.Cpo <> Bounds.C var
+R3710:3710 Stdlib.Sets.Cpo <> Bounds.U var
+R3725:3725 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3759:3769 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3726:3732 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3740:3741 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3733:3735 <> maj:51
+R3742:3752 Stdlib.Sets.Cpo <> Upper_Bound ind
+R3754:3754 Stdlib.Sets.Cpo <> X:50 var
+R3756:3758 Stdlib.Sets.Cpo <> maj:51 var
+R3770:3776 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3785:3786 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3777:3780 <> bsup:52
+R3787:3789 Stdlib.Sets.Cpo <> Lub ind
+R3791:3791 Stdlib.Sets.Cpo <> X:50 var
+R3793:3796 Stdlib.Sets.Cpo <> bsup:52 var
+R3802:3823 Stdlib.Sets.Cpo <> Conditionally_complete:48 ind
+scheme 3593:3614 <> Conditionally_complete_rect
+scheme 3593:3614 <> Conditionally_complete_ind
+scheme 3593:3614 <> Conditionally_complete_rec
+scheme 3593:3614 <> Conditionally_complete_sind
+R3830:3835 Stdlib.Sets.Cpo Bounds <> sec
+sec 4089:4103 <> Specific_orders
+var 4117:4117 Specific_orders U
+rec 4137:4139 <> Cpo
+proj 4174:4182 <> PO_of_cpo
+proj 4192:4199 <> Cpo_cond
+R4186:4187 Stdlib.Sets.Partial_Order <> PO rec
+R4189:4189 Stdlib.Sets.Cpo <> Specific_orders.U var
+R4203:4210 Stdlib.Sets.Cpo <> Complete ind
+R4214:4222 Stdlib.Sets.Cpo <> PO_of_cpo:56 meth
+R4212:4212 Stdlib.Sets.Cpo <> Specific_orders.U var
+rec 4236:4240 <> Chain
+proj 4277:4287 <> PO_of_chain
+proj 4301:4310 <> Chain_cond
+R4291:4292 Stdlib.Sets.Partial_Order <> PO rec
+R4294:4294 Stdlib.Sets.Cpo <> Specific_orders.U var
+R4314:4328 Stdlib.Sets.Cpo <> Totally_ordered ind
+R4346:4355 Stdlib.Sets.Partial_Order <> Carrier_of proj
+R4359:4369 Stdlib.Sets.Cpo <> PO_of_chain:59 meth
+R4332:4342 Stdlib.Sets.Cpo <> PO_of_chain:59 meth
+R4330:4330 Stdlib.Sets.Cpo <> Specific_orders.U var
+R4379:4393 Stdlib.Sets.Cpo Specific_orders <> sec

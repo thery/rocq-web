@@ -1,0 +1,849 @@
+DIGEST df941c4f0f3a0b9e6057778aa0756603
+FStdlib.Numbers.Natural.Abstract.NSub
+R853:861 Stdlib.Numbers.Natural.Abstract.NMulOrder <> <> lib
+R898:912 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> modtype
+modtype 877:884 <> NSubProp
+R877:884 Stdlib.Numbers.Natural.Abstract.NSub N <> mod
+R924:936 Stdlib.Numbers.Natural.Abstract.NMulOrder NMulOrderProp <> mod
+R938:938 Stdlib.Numbers.Natural.Abstract.NSub N <> mod
+prf 950:956 NSubProp sub_0_l
+binder 967:967 <> n:1
+R975:978 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R971:973 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R974:974 Stdlib.Numbers.Natural.Abstract.NSub <> n:1 var
+R1016:1022 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R1048:1057 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R1082:1087 Stdlib.Numbers.Natural.Abstract.NSub N pred_0 prfax
+prf 1104:1111 NSubProp sub_succ
+binder 1122:1122 <> n:2
+binder 1124:1124 <> m:3
+R1136:1139 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1130:1132 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1127:1127 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R1129:1129 Stdlib.Numbers.Natural.Abstract.NSub <> n:2 var
+R1133:1133 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R1135:1135 Stdlib.Numbers.Natural.Abstract.NSub <> m:3 var
+R1141:1143 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1140:1140 Stdlib.Numbers.Natural.Abstract.NSub <> n:2 var
+R1144:1144 Stdlib.Numbers.Natural.Abstract.NSub <> m:3 var
+R1186:1195 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R1211:1217 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R1232:1240 Stdlib.Numbers.Natural.Abstract.NSub N pred_succ prfax
+R1266:1275 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R1302:1311 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+prf 1328:1335 NSubProp sub_diag
+binder 1346:1346 <> n:4
+R1354:1357 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1350:1352 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1349:1349 Stdlib.Numbers.Natural.Abstract.NSub <> n:4 var
+R1353:1353 Stdlib.Numbers.Natural.Abstract.NSub <> n:4 var
+R1399:1405 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R1433:1440 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+prf 1473:1478 NSubProp sub_gt
+binder 1489:1489 <> n:5
+binder 1491:1491 <> m:6
+R1499:1502 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1495:1497 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R1498:1498 Stdlib.Numbers.Natural.Abstract.NSub <> m:6 var
+R1494:1494 Stdlib.Numbers.Natural.Abstract.NSub <> n:5 var
+R1508:1511 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1504:1506 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1503:1503 Stdlib.Numbers.Natural.Abstract.NSub <> n:5 var
+R1507:1507 Stdlib.Numbers.Natural.Abstract.NSub <> m:6 var
+R1549:1558 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_ind_rel thm
+R1607:1613 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R1622:1631 Stdlib.Numbers.Natural.Abstract.NSub NSubProp neq_succ_0 thm
+R1656:1663 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+prf 1680:1692 NSubProp add_sub_assoc
+binder 1703:1703 <> n:7
+binder 1705:1705 <> m:8
+binder 1707:1707 <> p:9
+R1716:1719 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1711:1714 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1710:1710 Stdlib.Numbers.Natural.Abstract.NSub <> p:9 var
+R1715:1715 Stdlib.Numbers.Natural.Abstract.NSub <> m:8 var
+R1731:1734 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1721:1724 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1730:1730 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1720:1720 Stdlib.Numbers.Natural.Abstract.NSub <> n:7 var
+R1726:1728 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1725:1725 Stdlib.Numbers.Natural.Abstract.NSub <> m:8 var
+R1729:1729 Stdlib.Numbers.Natural.Abstract.NSub <> p:9 var
+R1735:1735 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1741:1744 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1737:1739 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1736:1736 Stdlib.Numbers.Natural.Abstract.NSub <> n:7 var
+R1740:1740 Stdlib.Numbers.Natural.Abstract.NSub <> m:8 var
+R1745:1745 Stdlib.Numbers.Natural.Abstract.NSub <> p:9 var
+R1805:1811 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R1844:1853 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R1882:1891 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_le_incl thm
+R1904:1912 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+R1947:1952 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_gt thm
+R1965:1973 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+R1926:1935 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_pred_r thm
+prf 2006:2015 NSubProp sub_succ_l
+binder 2026:2026 <> n:10
+binder 2028:2028 <> m:11
+R2037:2040 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2032:2035 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2031:2031 Stdlib.Numbers.Natural.Abstract.NSub <> n:10 var
+R2036:2036 Stdlib.Numbers.Natural.Abstract.NSub <> m:11 var
+R2048:2051 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2044:2046 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2041:2041 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R2043:2043 Stdlib.Numbers.Natural.Abstract.NSub <> m:11 var
+R2047:2047 Stdlib.Numbers.Natural.Abstract.NSub <> n:10 var
+R2052:2052 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R2056:2058 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2055:2055 Stdlib.Numbers.Natural.Abstract.NSub <> m:11 var
+R2059:2059 Stdlib.Numbers.Natural.Abstract.NSub <> n:10 var
+R2096:2102 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_1_l thm
+R2120:2126 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_1_l thm
+R2130:2132 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2158:2170 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+prf 2187:2193 NSubProp add_sub
+binder 2204:2204 <> n:12
+binder 2206:2206 <> m:13
+R2220:2223 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2209:2209 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2215:2218 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2211:2213 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2210:2210 Stdlib.Numbers.Natural.Abstract.NSub <> n:12 var
+R2214:2214 Stdlib.Numbers.Natural.Abstract.NSub <> m:13 var
+R2219:2219 Stdlib.Numbers.Natural.Abstract.NSub <> m:13 var
+R2224:2224 Stdlib.Numbers.Natural.Abstract.NSub <> n:12 var
+R2281:2287 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_refl thm
+R2257:2269 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+R2299:2306 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_diag thm
+R2321:2327 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_0_r thm
+def 2347:2357 NSubProp add_simpl_r
+R2362:2368 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub thm
+prf 2380:2390 NSubProp add_simpl_l
+binder 2401:2401 <> n:14
+binder 2403:2403 <> m:15
+R2417:2420 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2406:2406 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2412:2415 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2408:2410 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2407:2407 Stdlib.Numbers.Natural.Abstract.NSub <> n:14 var
+R2411:2411 Stdlib.Numbers.Natural.Abstract.NSub <> m:15 var
+R2416:2416 Stdlib.Numbers.Natural.Abstract.NSub <> n:14 var
+R2421:2421 Stdlib.Numbers.Natural.Abstract.NSub <> m:15 var
+R2451:2458 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R2467:2473 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub thm
+prf 2490:2506 NSubProp add_add_simpl_l_l
+binder 2508:2508 <> n:16
+binder 2510:2510 <> m:17
+binder 2512:2512 <> p:18
+R2533:2536 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2516:2516 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2522:2526 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2532:2532 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2518:2520 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2517:2517 Stdlib.Numbers.Natural.Abstract.NSub <> n:16 var
+R2521:2521 Stdlib.Numbers.Natural.Abstract.NSub <> m:17 var
+R2528:2530 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2527:2527 Stdlib.Numbers.Natural.Abstract.NSub <> n:16 var
+R2531:2531 Stdlib.Numbers.Natural.Abstract.NSub <> p:18 var
+R2538:2540 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2537:2537 Stdlib.Numbers.Natural.Abstract.NSub <> m:17 var
+R2541:2541 Stdlib.Numbers.Natural.Abstract.NSub <> p:18 var
+R2577:2583 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R2610:2619 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+R2634:2641 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+prf 2658:2664 NSubProp sub_add
+binder 2675:2675 <> n:19
+binder 2677:2677 <> m:20
+R2686:2689 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2681:2684 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2680:2680 Stdlib.Numbers.Natural.Abstract.NSub <> n:19 var
+R2685:2685 Stdlib.Numbers.Natural.Abstract.NSub <> m:20 var
+R2701:2704 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2690:2690 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2696:2699 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2692:2694 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2691:2691 Stdlib.Numbers.Natural.Abstract.NSub <> m:20 var
+R2695:2695 Stdlib.Numbers.Natural.Abstract.NSub <> n:19 var
+R2700:2700 Stdlib.Numbers.Natural.Abstract.NSub <> n:19 var
+R2705:2705 Stdlib.Numbers.Natural.Abstract.NSub <> m:20 var
+R2737:2744 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R2755:2767 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+R2792:2799 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R2808:2814 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub thm
+prf 2831:2842 NSubProp add_sub_eq_l
+binder 2853:2853 <> n:21
+binder 2855:2855 <> m:22
+binder 2857:2857 <> p:23
+R2870:2873 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2865:2868 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2861:2863 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2860:2860 Stdlib.Numbers.Natural.Abstract.NSub <> m:22 var
+R2864:2864 Stdlib.Numbers.Natural.Abstract.NSub <> p:23 var
+R2869:2869 Stdlib.Numbers.Natural.Abstract.NSub <> n:21 var
+R2879:2882 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2875:2877 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2874:2874 Stdlib.Numbers.Natural.Abstract.NSub <> n:21 var
+R2878:2878 Stdlib.Numbers.Natural.Abstract.NSub <> m:22 var
+R2883:2883 Stdlib.Numbers.Natural.Abstract.NSub <> p:23 var
+R2941:2944 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2937:2939 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2933:2935 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2946:2948 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2978:2985 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R3006:3012 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub thm
+prf 3035:3046 NSubProp add_sub_eq_r
+binder 3057:3057 <> n:24
+binder 3059:3059 <> m:25
+binder 3061:3061 <> p:26
+R3074:3077 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3069:3072 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3065:3067 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3064:3064 Stdlib.Numbers.Natural.Abstract.NSub <> m:25 var
+R3068:3068 Stdlib.Numbers.Natural.Abstract.NSub <> p:26 var
+R3073:3073 Stdlib.Numbers.Natural.Abstract.NSub <> n:24 var
+R3083:3086 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3079:3081 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3078:3078 Stdlib.Numbers.Natural.Abstract.NSub <> n:24 var
+R3082:3082 Stdlib.Numbers.Natural.Abstract.NSub <> p:26 var
+R3087:3087 Stdlib.Numbers.Natural.Abstract.NSub <> m:25 var
+R3121:3128 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R3146:3157 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_eq_l thm
+prf 3305:3317 NSubProp add_sub_eq_nz
+binder 3328:3328 <> n:27
+binder 3330:3330 <> m:28
+binder 3332:3332 <> p:29
+R3341:3344 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3336:3339 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3335:3335 Stdlib.Numbers.Natural.Abstract.NSub <> p:29 var
+R3355:3358 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3350:3353 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3346:3348 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3345:3345 Stdlib.Numbers.Natural.Abstract.NSub <> n:27 var
+R3349:3349 Stdlib.Numbers.Natural.Abstract.NSub <> m:28 var
+R3354:3354 Stdlib.Numbers.Natural.Abstract.NSub <> p:29 var
+R3364:3367 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3360:3362 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3359:3359 Stdlib.Numbers.Natural.Abstract.NSub <> m:28 var
+R3363:3363 Stdlib.Numbers.Natural.Abstract.NSub <> p:29 var
+R3368:3368 Stdlib.Numbers.Natural.Abstract.NSub <> n:27 var
+R3436:3442 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R3502:3508 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R3523:3529 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R3560:3567 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+R3602:3611 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+prf 3644:3656 NSubProp sub_add_distr
+binder 3667:3667 <> n:30
+binder 3669:3669 <> m:31
+binder 3671:3671 <> p:32
+R3685:3688 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3675:3678 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3684:3684 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3674:3674 Stdlib.Numbers.Natural.Abstract.NSub <> n:30 var
+R3680:3682 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3679:3679 Stdlib.Numbers.Natural.Abstract.NSub <> m:31 var
+R3683:3683 Stdlib.Numbers.Natural.Abstract.NSub <> p:32 var
+R3689:3689 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3695:3698 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3691:3693 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3690:3690 Stdlib.Numbers.Natural.Abstract.NSub <> n:30 var
+R3694:3694 Stdlib.Numbers.Natural.Abstract.NSub <> m:31 var
+R3699:3699 Stdlib.Numbers.Natural.Abstract.NSub <> p:32 var
+R3743:3749 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_0_r thm
+R3764:3770 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R3796:3805 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_succ_r thm
+R3821:3830 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+prf 3863:3874 NSubProp add_sub_swap
+binder 3885:3885 <> n:33
+binder 3887:3887 <> m:34
+binder 3889:3889 <> p:35
+R3898:3901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3893:3896 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3892:3892 Stdlib.Numbers.Natural.Abstract.NSub <> p:35 var
+R3897:3897 Stdlib.Numbers.Natural.Abstract.NSub <> n:33 var
+R3911:3914 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3907:3909 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3903:3905 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3902:3902 Stdlib.Numbers.Natural.Abstract.NSub <> n:33 var
+R3906:3906 Stdlib.Numbers.Natural.Abstract.NSub <> m:34 var
+R3910:3910 Stdlib.Numbers.Natural.Abstract.NSub <> p:35 var
+R3920:3922 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3916:3918 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3915:3915 Stdlib.Numbers.Natural.Abstract.NSub <> n:33 var
+R3919:3919 Stdlib.Numbers.Natural.Abstract.NSub <> p:35 var
+R3923:3923 Stdlib.Numbers.Natural.Abstract.NSub <> m:34 var
+R3958:3965 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R3984:3996 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+R4026:4033 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R4039:4041 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+prf 4083:4090 NSubProp le_sub_l
+binder 4101:4101 <> n:36
+binder 4103:4103 <> m:37
+R4111:4114 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4107:4109 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4106:4106 Stdlib.Numbers.Natural.Abstract.NSub <> n:36 var
+R4110:4110 Stdlib.Numbers.Natural.Abstract.NSub <> m:37 var
+R4115:4115 Stdlib.Numbers.Natural.Abstract.NSub <> n:36 var
+R4157:4163 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R4176:4185 Stdlib.Numbers.Natural.Abstract.NSub NSubProp eq_le_incl thm
+R4211:4220 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R4247:4249 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4231:4238 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_trans thm
+R4261:4269 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_pred_l thm
+prf 4300:4307 NSubProp sub_0_le
+binder 4318:4318 <> n:38
+binder 4320:4320 <> m:39
+R4333:4337 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4328:4331 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4324:4326 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4323:4323 Stdlib.Numbers.Natural.Abstract.NSub <> n:38 var
+R4327:4327 Stdlib.Numbers.Natural.Abstract.NSub <> m:39 var
+R4339:4342 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4338:4338 Stdlib.Numbers.Natural.Abstract.NSub <> n:38 var
+R4343:4343 Stdlib.Numbers.Natural.Abstract.NSub <> m:39 var
+R4416:4421 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_0_l thm
+R4431:4437 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R4460:4466 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R4502:4511 Stdlib.Numbers.Natural.Abstract.NSub NSubProp neq_succ_0 thm
+R4527:4536 Stdlib.Numbers.Natural.Abstract.NSub NSubProp nle_succ_0 thm
+R4567:4578 Stdlib.Numbers.Natural.Abstract.NSub NSubProp succ_le_mono thm
+R4593:4600 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+prf 4617:4626 NSubProp sub_pred_l
+binder 4637:4637 <> n:40
+binder 4639:4639 <> m:41
+R4649:4652 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4645:4647 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4642:4642 Stdlib.Numbers.Natural.Abstract.NSub N P abbrev
+R4644:4644 Stdlib.Numbers.Natural.Abstract.NSub <> n:40 var
+R4648:4648 Stdlib.Numbers.Natural.Abstract.NSub <> m:41 var
+R4653:4653 Stdlib.Numbers.Natural.Abstract.NSub N P abbrev
+R4657:4659 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4656:4656 Stdlib.Numbers.Natural.Abstract.NSub <> n:40 var
+R4660:4660 Stdlib.Numbers.Natural.Abstract.NSub <> m:41 var
+R4693:4704 Stdlib.Numbers.Natural.Abstract.NSub NSubProp zero_or_succ thm
+R4737:4742 Stdlib.Numbers.Natural.Abstract.NSub N pred_0 prfax
+R4745:4751 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R4754:4759 Stdlib.Numbers.Natural.Abstract.NSub N pred_0 prfax
+R4785:4793 Stdlib.Numbers.Natural.Abstract.NSub N pred_succ prfax
+R4806:4816 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_ge_cases thm
+R4888:4895 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R4865:4874 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_le_incl thm
+R4908:4916 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+R4919:4926 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R4948:4953 Stdlib.Numbers.Natural.Abstract.NSub N pred_0 prfax
+R4981:4990 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ_l thm
+R4993:5001 Stdlib.Numbers.Natural.Abstract.NSub N pred_succ prfax
+prf 5044:5053 NSubProp sub_pred_r
+binder 5064:5064 <> n:42
+binder 5066:5066 <> m:43
+R5075:5078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5070:5073 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5069:5069 Stdlib.Numbers.Natural.Abstract.NSub <> m:43 var
+R5085:5088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5080:5083 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5079:5079 Stdlib.Numbers.Natural.Abstract.NSub <> m:43 var
+R5084:5084 Stdlib.Numbers.Natural.Abstract.NSub <> n:42 var
+R5096:5099 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5090:5092 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5089:5089 Stdlib.Numbers.Natural.Abstract.NSub <> n:42 var
+R5093:5093 Stdlib.Numbers.Natural.Abstract.NSub N P abbrev
+R5095:5095 Stdlib.Numbers.Natural.Abstract.NSub <> m:43 var
+R5100:5100 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R5104:5106 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5103:5103 Stdlib.Numbers.Natural.Abstract.NSub <> n:42 var
+R5107:5107 Stdlib.Numbers.Natural.Abstract.NSub <> m:43 var
+R5145:5156 Stdlib.Numbers.Natural.Abstract.NSub NSubProp zero_or_succ thm
+R5206:5214 Stdlib.Numbers.Natural.Abstract.NSub N pred_succ prfax
+R5217:5226 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R5229:5237 Stdlib.Numbers.Natural.Abstract.NSub NSubProp succ_pred thm
+R5263:5268 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_gt thm
+R5271:5279 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+prf 5306:5315 NSubProp sub_add_le
+binder 5326:5326 <> n:44
+binder 5328:5328 <> m:45
+R5332:5335 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5331:5331 Stdlib.Numbers.Natural.Abstract.NSub <> n:44 var
+R5341:5343 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5337:5339 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5336:5336 Stdlib.Numbers.Natural.Abstract.NSub <> n:44 var
+R5340:5340 Stdlib.Numbers.Natural.Abstract.NSub <> m:45 var
+R5344:5344 Stdlib.Numbers.Natural.Abstract.NSub <> m:45 var
+R5376:5386 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_ge_cases thm
+R5418:5425 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R5472:5479 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R5492:5498 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+R5521:5527 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_refl thm
+prf 5544:5558 NSubProp le_sub_le_add_r
+binder 5569:5569 <> n:46
+binder 5571:5571 <> m:47
+binder 5573:5573 <> p:48
+R5587:5591 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5582:5585 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5578:5580 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5577:5577 Stdlib.Numbers.Natural.Abstract.NSub <> n:46 var
+R5581:5581 Stdlib.Numbers.Natural.Abstract.NSub <> p:48 var
+R5586:5586 Stdlib.Numbers.Natural.Abstract.NSub <> m:47 var
+R5593:5596 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5592:5592 Stdlib.Numbers.Natural.Abstract.NSub <> n:46 var
+R5598:5600 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5597:5597 Stdlib.Numbers.Natural.Abstract.NSub <> m:47 var
+R5601:5601 Stdlib.Numbers.Natural.Abstract.NSub <> p:48 var
+R5654:5666 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono_r thm
+R5708:5708 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5706:5706 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5690:5697 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_trans thm
+R5724:5733 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add_le thm
+R5748:5758 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_ge_cases thm
+R5793:5800 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R5829:5834 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_0_l thm
+R5850:5862 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono_r thm
+R5884:5890 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+prf 5907:5921 NSubProp le_sub_le_add_l
+binder 5932:5932 <> n:49
+binder 5934:5934 <> m:50
+binder 5936:5936 <> p:51
+R5949:5953 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5944:5947 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5940:5942 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5939:5939 Stdlib.Numbers.Natural.Abstract.NSub <> n:49 var
+R5943:5943 Stdlib.Numbers.Natural.Abstract.NSub <> m:50 var
+R5948:5948 Stdlib.Numbers.Natural.Abstract.NSub <> p:51 var
+R5955:5958 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5954:5954 Stdlib.Numbers.Natural.Abstract.NSub <> n:49 var
+R5960:5962 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5959:5959 Stdlib.Numbers.Natural.Abstract.NSub <> m:50 var
+R5963:5963 Stdlib.Numbers.Natural.Abstract.NSub <> p:51 var
+R5995:6002 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R6011:6025 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_sub_le_add_r thm
+prf 6042:6056 NSubProp lt_sub_lt_add_r
+binder 6067:6067 <> n:52
+binder 6069:6069 <> m:53
+binder 6071:6071 <> p:54
+R6084:6087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6080:6082 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6076:6078 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6075:6075 Stdlib.Numbers.Natural.Abstract.NSub <> n:52 var
+R6079:6079 Stdlib.Numbers.Natural.Abstract.NSub <> p:54 var
+R6083:6083 Stdlib.Numbers.Natural.Abstract.NSub <> m:53 var
+R6089:6091 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6088:6088 Stdlib.Numbers.Natural.Abstract.NSub <> n:52 var
+R6093:6095 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6092:6092 Stdlib.Numbers.Natural.Abstract.NSub <> m:53 var
+R6096:6096 Stdlib.Numbers.Natural.Abstract.NSub <> p:54 var
+R6132:6144 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_lt_mono_r thm
+R6187:6187 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6185:6185 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6166:6176 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_lt_trans thm
+R6203:6212 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add_le thm
+prf 6335:6349 NSubProp lt_sub_lt_add_l
+binder 6360:6360 <> n:55
+binder 6362:6362 <> m:56
+binder 6364:6364 <> p:57
+R6376:6379 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6372:6374 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6368:6370 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6367:6367 Stdlib.Numbers.Natural.Abstract.NSub <> n:55 var
+R6371:6371 Stdlib.Numbers.Natural.Abstract.NSub <> m:56 var
+R6375:6375 Stdlib.Numbers.Natural.Abstract.NSub <> p:57 var
+R6381:6383 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6380:6380 Stdlib.Numbers.Natural.Abstract.NSub <> n:55 var
+R6385:6387 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6384:6384 Stdlib.Numbers.Natural.Abstract.NSub <> m:56 var
+R6388:6388 Stdlib.Numbers.Natural.Abstract.NSub <> p:57 var
+R6420:6427 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R6436:6450 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_sub_lt_add_r thm
+prf 6467:6481 NSubProp le_add_le_sub_r
+binder 6492:6492 <> n:58
+binder 6494:6494 <> m:59
+binder 6496:6496 <> p:60
+R6509:6512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6504:6507 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6500:6502 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6499:6499 Stdlib.Numbers.Natural.Abstract.NSub <> n:58 var
+R6503:6503 Stdlib.Numbers.Natural.Abstract.NSub <> p:60 var
+R6508:6508 Stdlib.Numbers.Natural.Abstract.NSub <> m:59 var
+R6514:6517 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6513:6513 Stdlib.Numbers.Natural.Abstract.NSub <> n:58 var
+R6519:6521 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6518:6518 Stdlib.Numbers.Natural.Abstract.NSub <> m:59 var
+R6522:6522 Stdlib.Numbers.Natural.Abstract.NSub <> p:60 var
+R6556:6568 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono_r thm
+R6586:6592 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+R6633:6633 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6617:6624 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_trans thm
+R6661:6667 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R6689:6701 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono_r thm
+R6710:6715 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_0_l thm
+prf 6842:6856 NSubProp le_add_le_sub_l
+binder 6867:6867 <> n:61
+binder 6869:6869 <> m:62
+binder 6871:6871 <> p:63
+R6884:6887 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6879:6882 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6875:6877 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6874:6874 Stdlib.Numbers.Natural.Abstract.NSub <> n:61 var
+R6878:6878 Stdlib.Numbers.Natural.Abstract.NSub <> p:63 var
+R6883:6883 Stdlib.Numbers.Natural.Abstract.NSub <> m:62 var
+R6889:6892 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6888:6888 Stdlib.Numbers.Natural.Abstract.NSub <> p:63 var
+R6894:6896 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6893:6893 Stdlib.Numbers.Natural.Abstract.NSub <> m:62 var
+R6897:6897 Stdlib.Numbers.Natural.Abstract.NSub <> n:61 var
+R6929:6936 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R6945:6959 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_add_le_sub_r thm
+prf 6976:6990 NSubProp lt_add_lt_sub_r
+binder 7001:7001 <> n:64
+binder 7003:7003 <> m:65
+binder 7005:7005 <> p:66
+R7017:7021 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7013:7015 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7009:7011 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7008:7008 Stdlib.Numbers.Natural.Abstract.NSub <> n:64 var
+R7012:7012 Stdlib.Numbers.Natural.Abstract.NSub <> p:66 var
+R7016:7016 Stdlib.Numbers.Natural.Abstract.NSub <> m:65 var
+R7023:7025 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7022:7022 Stdlib.Numbers.Natural.Abstract.NSub <> n:64 var
+R7027:7029 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7026:7026 Stdlib.Numbers.Natural.Abstract.NSub <> m:65 var
+R7030:7030 Stdlib.Numbers.Natural.Abstract.NSub <> p:66 var
+R7064:7074 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_ge_cases thm
+R7107:7113 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+R7157:7169 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_lt_mono_r thm
+R7205:7212 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R7265:7273 Stdlib.Numbers.Natural.Abstract.NSub N lt_irrefl prfax
+R7304:7304 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7285:7295 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_lt_trans thm
+R7334:7340 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R7352:7362 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono thm
+R7377:7382 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_0_l thm
+R7417:7423 Stdlib.Numbers.Natural.Abstract.NSub NSubProp nlt_0_r thm
+prf 7443:7457 NSubProp lt_add_lt_sub_l
+binder 7468:7468 <> n:67
+binder 7470:7470 <> m:68
+binder 7472:7472 <> p:69
+R7484:7488 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7480:7482 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7476:7478 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7475:7475 Stdlib.Numbers.Natural.Abstract.NSub <> n:67 var
+R7479:7479 Stdlib.Numbers.Natural.Abstract.NSub <> p:69 var
+R7483:7483 Stdlib.Numbers.Natural.Abstract.NSub <> m:68 var
+R7490:7492 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7489:7489 Stdlib.Numbers.Natural.Abstract.NSub <> p:69 var
+R7494:7496 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7493:7493 Stdlib.Numbers.Natural.Abstract.NSub <> m:68 var
+R7497:7497 Stdlib.Numbers.Natural.Abstract.NSub <> n:67 var
+R7529:7536 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R7545:7559 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_add_lt_sub_r thm
+prf 7576:7581 NSubProp sub_lt
+binder 7592:7592 <> n:70
+binder 7594:7594 <> m:71
+R7603:7606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7598:7601 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7597:7597 Stdlib.Numbers.Natural.Abstract.NSub <> m:71 var
+R7602:7602 Stdlib.Numbers.Natural.Abstract.NSub <> n:70 var
+R7612:7615 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7608:7610 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7611:7611 Stdlib.Numbers.Natural.Abstract.NSub <> m:71 var
+R7621:7623 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7617:7619 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7616:7616 Stdlib.Numbers.Natural.Abstract.NSub <> n:70 var
+R7620:7620 Stdlib.Numbers.Natural.Abstract.NSub <> m:71 var
+R7624:7624 Stdlib.Numbers.Natural.Abstract.NSub <> n:70 var
+R7667:7674 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_sub_l thm
+R7690:7700 Stdlib.Numbers.Natural.Abstract.NSub N lt_eq_cases prfax
+R7758:7770 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_eq_nz thm
+R7800:7812 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_lt_mono_r thm
+R7822:7828 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+prf 7856:7868 NSubProp sub_le_mono_r
+binder 7879:7879 <> n:72
+binder 7881:7881 <> m:73
+binder 7883:7883 <> p:74
+R7892:7895 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7887:7890 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7886:7886 Stdlib.Numbers.Natural.Abstract.NSub <> n:72 var
+R7891:7891 Stdlib.Numbers.Natural.Abstract.NSub <> m:73 var
+R7899:7902 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7897:7897 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7896:7896 Stdlib.Numbers.Natural.Abstract.NSub <> n:72 var
+R7898:7898 Stdlib.Numbers.Natural.Abstract.NSub <> p:74 var
+R7904:7904 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7903:7903 Stdlib.Numbers.Natural.Abstract.NSub <> m:73 var
+R7905:7905 Stdlib.Numbers.Natural.Abstract.NSub <> p:74 var
+R7938:7952 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_sub_le_add_r thm
+R7996:8005 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add_le thm
+prf 8020:8032 NSubProp sub_le_mono_l
+binder 8043:8043 <> n:75
+binder 8045:8045 <> m:76
+binder 8047:8047 <> p:77
+R8056:8059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8051:8054 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8050:8050 Stdlib.Numbers.Natural.Abstract.NSub <> n:75 var
+R8055:8055 Stdlib.Numbers.Natural.Abstract.NSub <> m:76 var
+R8063:8066 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8061:8061 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8060:8060 Stdlib.Numbers.Natural.Abstract.NSub <> p:77 var
+R8062:8062 Stdlib.Numbers.Natural.Abstract.NSub <> m:76 var
+R8068:8068 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8067:8067 Stdlib.Numbers.Natural.Abstract.NSub <> p:77 var
+R8069:8069 Stdlib.Numbers.Natural.Abstract.NSub <> n:75 var
+R8102:8116 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_sub_le_add_r thm
+R8137:8137 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R8135:8135 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8150:8159 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add_le thm
+R8173:8185 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_le_mono_l thm
+prf 8203:8215 NSubProp sub_sub_distr
+binder 8228:8228 <> n:78
+binder 8230:8230 <> m:79
+binder 8232:8232 <> p:80
+R8241:8244 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8236:8239 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8235:8235 Stdlib.Numbers.Natural.Abstract.NSub <> p:80 var
+R8240:8240 Stdlib.Numbers.Natural.Abstract.NSub <> m:79 var
+R8251:8254 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8246:8249 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8245:8245 Stdlib.Numbers.Natural.Abstract.NSub <> m:79 var
+R8250:8250 Stdlib.Numbers.Natural.Abstract.NSub <> n:78 var
+R8266:8269 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8256:8259 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8265:8265 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8255:8255 Stdlib.Numbers.Natural.Abstract.NSub <> n:78 var
+R8261:8263 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8260:8260 Stdlib.Numbers.Natural.Abstract.NSub <> m:79 var
+R8264:8264 Stdlib.Numbers.Natural.Abstract.NSub <> p:80 var
+R8270:8270 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R8276:8279 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R8272:8274 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8271:8271 Stdlib.Numbers.Natural.Abstract.NSub <> n:78 var
+R8275:8275 Stdlib.Numbers.Natural.Abstract.NSub <> m:79 var
+R8280:8280 Stdlib.Numbers.Natural.Abstract.NSub <> p:80 var
+R8356:8362 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_0_r thm
+R8365:8371 Stdlib.Numbers.Natural.Abstract.NSub N sub_0_r prfax
+R8422:8431 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_succ_r thm
+R8448:8459 Stdlib.Numbers.Natural.Abstract.NSub NSubProp zero_or_succ thm
+R8522:8531 Stdlib.Numbers.Natural.Abstract.NSub NSubProp nle_succ_0 thm
+R8580:8587 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ thm
+R8598:8609 Stdlib.Numbers.Natural.Abstract.NSub NSubProp succ_le_mono thm
+R8637:8640 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8633:8635 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8660:8665 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_gt thm
+R8668:8676 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+R8704:8713 Stdlib.Numbers.Natural.Abstract.NSub N sub_succ_r prfax
+R8716:8725 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_pred_l thm
+R8787:8794 Stdlib.Numbers.Natural.Abstract.NSub NSubProp eq_add_0 thm
+R8756:8764 Stdlib.Numbers.Natural.Abstract.NSub NSubProp succ_pred thm
+R8829:8836 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_trans thm
+R8867:8880 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_diag_r thm
+prf 8920:8929 NSubProp mul_pred_r
+binder 8940:8940 <> n:81
+binder 8942:8942 <> m:82
+R8954:8957 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8946:8949 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8953:8953 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8945:8945 Stdlib.Numbers.Natural.Abstract.NSub <> n:81 var
+R8950:8950 Stdlib.Numbers.Natural.Abstract.NSub N P abbrev
+R8952:8952 Stdlib.Numbers.Natural.Abstract.NSub <> m:82 var
+R8963:8965 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R8959:8961 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8958:8958 Stdlib.Numbers.Natural.Abstract.NSub <> n:81 var
+R8962:8962 Stdlib.Numbers.Natural.Abstract.NSub <> m:82 var
+R8966:8966 Stdlib.Numbers.Natural.Abstract.NSub <> n:81 var
+R9011:9016 Stdlib.Numbers.Natural.Abstract.NSub N pred_0 prfax
+R9019:9025 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_0_r thm
+R9028:9034 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R9056:9064 Stdlib.Numbers.Natural.Abstract.NSub N pred_succ prfax
+R9067:9076 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_succ_r thm
+R9082:9094 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+R9113:9120 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_diag thm
+R9123:9129 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_0_r thm
+R9146:9155 Stdlib.Numbers.Natural.Abstract.NSub NSubProp eq_le_incl thm
+prf 9172:9186 NSubProp mul_sub_distr_r
+binder 9197:9197 <> n:83
+binder 9199:9199 <> m:84
+binder 9201:9201 <> p:85
+R9215:9218 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9204:9204 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9210:9213 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9206:9208 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9205:9205 Stdlib.Numbers.Natural.Abstract.NSub <> n:83 var
+R9209:9209 Stdlib.Numbers.Natural.Abstract.NSub <> m:84 var
+R9214:9214 Stdlib.Numbers.Natural.Abstract.NSub <> p:85 var
+R9224:9226 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9220:9222 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9219:9219 Stdlib.Numbers.Natural.Abstract.NSub <> n:83 var
+R9223:9223 Stdlib.Numbers.Natural.Abstract.NSub <> p:85 var
+R9228:9230 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9227:9227 Stdlib.Numbers.Natural.Abstract.NSub <> m:84 var
+R9231:9231 Stdlib.Numbers.Natural.Abstract.NSub <> p:85 var
+R9279:9285 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R9288:9294 Stdlib.Numbers.Natural.Abstract.NSub N mul_0_l prfax
+R9297:9303 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_l thm
+R9331:9341 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_gt_cases thm
+R9372:9381 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_succ_l thm
+R9411:9420 Stdlib.Numbers.Natural.Abstract.NSub N mul_succ_l prfax
+R9436:9443 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R9446:9446 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9452:9455 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9448:9450 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9464:9471 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R9475:9477 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9547:9559 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_le_mono_r thm
+R9501:9513 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_sub_assoc thm
+R9519:9521 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9527:9529 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9576:9587 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_cancel_l thm
+R9610:9613 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9607:9607 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R9630:9638 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+R9664:9666 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9661:9661 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R9690:9697 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R9720:9720 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9728:9731 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9724:9726 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9721:9721 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R9733:9735 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9756:9763 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_0_le thm
+R9776:9788 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_le_mono_r thm
+R9802:9808 Stdlib.Numbers.Natural.Abstract.NSub N mul_0_l prfax
+prf 9825:9839 NSubProp mul_sub_distr_l
+binder 9850:9850 <> n:86
+binder 9852:9852 <> m:87
+binder 9854:9854 <> p:88
+R9868:9871 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9858:9861 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9867:9867 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9857:9857 Stdlib.Numbers.Natural.Abstract.NSub <> p:88 var
+R9863:9865 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9862:9862 Stdlib.Numbers.Natural.Abstract.NSub <> n:86 var
+R9866:9866 Stdlib.Numbers.Natural.Abstract.NSub <> m:87 var
+R9877:9879 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9873:9875 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9872:9872 Stdlib.Numbers.Natural.Abstract.NSub <> p:88 var
+R9876:9876 Stdlib.Numbers.Natural.Abstract.NSub <> n:86 var
+R9881:9883 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9880:9880 Stdlib.Numbers.Natural.Abstract.NSub <> p:88 var
+R9884:9884 Stdlib.Numbers.Natural.Abstract.NSub <> m:87 var
+R9917:9924 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_comm thm
+R9930:9932 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R9939:9946 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_comm thm
+R9955:9962 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_comm thm
+R9976:9990 Stdlib.Numbers.Natural.Abstract.NSub NSubProp mul_sub_distr_r thm
+def 10071:10076 NSubProp le_alt
+binder 10078:10078 <> n:89
+binder 10080:10080 <> m:90
+R10085:10091 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10093:10094 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10092:10092 <> p:91
+R10100:10103 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10096:10098 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10095:10095 Stdlib.Numbers.Natural.Abstract.NSub <> p:91 var
+R10099:10099 Stdlib.Numbers.Natural.Abstract.NSub <> n:89 var
+R10104:10104 Stdlib.Numbers.Natural.Abstract.NSub <> m:90 var
+def 10118:10123 NSubProp lt_alt
+binder 10125:10125 <> n:92
+binder 10127:10127 <> m:93
+R10132:10138 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10140:10141 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10139:10139 <> p:94
+R10149:10152 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10145:10147 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10142:10142 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R10144:10144 Stdlib.Numbers.Natural.Abstract.NSub <> p:94 var
+R10148:10148 Stdlib.Numbers.Natural.Abstract.NSub <> n:92 var
+R10153:10153 Stdlib.Numbers.Natural.Abstract.NSub <> m:93 var
+prf 10163:10170 NSubProp le_equiv
+binder 10181:10181 <> n:95
+binder 10183:10183 <> m:96
+R10196:10200 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10186:10191 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt def
+R10193:10193 Stdlib.Numbers.Natural.Abstract.NSub <> n:95 var
+R10195:10195 Stdlib.Numbers.Natural.Abstract.NSub <> m:96 var
+R10202:10205 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10201:10201 Stdlib.Numbers.Natural.Abstract.NSub <> n:95 var
+R10206:10206 Stdlib.Numbers.Natural.Abstract.NSub <> m:96 var
+R10265:10272 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R10281:10288 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_add_r thm
+R10311:10311 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R10326:10332 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+prf 10347:10354 NSubProp lt_equiv
+binder 10365:10365 <> n:97
+binder 10367:10367 <> m:98
+R10380:10384 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10370:10375 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_alt def
+R10377:10377 Stdlib.Numbers.Natural.Abstract.NSub <> n:97 var
+R10379:10379 Stdlib.Numbers.Natural.Abstract.NSub <> m:98 var
+R10386:10388 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10385:10385 Stdlib.Numbers.Natural.Abstract.NSub <> n:97 var
+R10389:10389 Stdlib.Numbers.Natural.Abstract.NSub <> m:98 var
+R10448:10457 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+R10460:10468 Stdlib.Numbers.Natural.Abstract.NSub N lt_succ_r prfax
+R10471:10478 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_comm thm
+R10487:10494 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_add_r thm
+R10517:10517 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R10518:10518 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R10532:10541 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+R10547:10556 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_succ_r thm
+R10567:10573 Stdlib.Numbers.Natural.Abstract.NSub NSubProp sub_add thm
+R10588:10596 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_succ_l thm
+inst 10624:10632 NSubProp le_alt_wd
+R10636:10641 Corelib.Classes.Morphisms <> Proper class
+R10659:10664 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt def
+R10646:10648 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10644:10645 Stdlib.Numbers.Natural.Abstract.NSub N eq defax
+R10651:10653 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10649:10650 Stdlib.Numbers.Natural.Abstract.NSub N eq defax
+R10654:10656 Corelib.Init.Logic <> iff def
+R10706:10711 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt def
+inst 10791:10799 NSubProp lt_alt_wd
+R10803:10808 Corelib.Classes.Morphisms <> Proper class
+R10826:10831 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_alt def
+R10813:10815 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10811:10812 Stdlib.Numbers.Natural.Abstract.NSub N eq defax
+R10818:10820 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10816:10817 Stdlib.Numbers.Natural.Abstract.NSub N eq defax
+R10821:10823 Corelib.Init.Logic <> iff def
+R10873:10878 Stdlib.Numbers.Natural.Abstract.NSub NSubProp lt_alt def
+prf 11316:11331 NSubProp le_alt_dichotomy
+binder 11342:11342 <> n:99
+binder 11344:11344 <> m:100
+R11357:11360 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11347:11352 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt def
+R11354:11354 Stdlib.Numbers.Natural.Abstract.NSub <> n:99 var
+R11356:11356 Stdlib.Numbers.Natural.Abstract.NSub <> m:100 var
+R11361:11366 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt def
+R11368:11368 Stdlib.Numbers.Natural.Abstract.NSub <> m:100 var
+R11370:11370 Stdlib.Numbers.Natural.Abstract.NSub <> n:99 var
+R11426:11432 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_0_r thm
+R11498:11509 Stdlib.Numbers.Natural.Abstract.NSub NSubProp zero_or_succ thm
+R11564:11570 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R11593:11593 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R11610:11619 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+R11640:11646 Stdlib.Numbers.Natural.Abstract.NSub N add_0_l prfax
+R11680:11689 Stdlib.Numbers.Natural.Abstract.NSub NSubProp add_succ_r thm
+R11704:11713 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+R11740:11740 Stdlib.Numbers.Natural.Abstract.NSub N S abbrev
+R11754:11763 Stdlib.Numbers.Natural.Abstract.NSub N add_succ_l prfax
+prf 11795:11807 NSubProp add_dichotomy
+binder 11820:11820 <> n:101
+binder 11822:11822 <> m:102
+R11825:11825 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11846:11851 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11872:11872 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11826:11832 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11834:11835 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11833:11833 <> p:103
+R11841:11844 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11837:11839 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11836:11836 Stdlib.Numbers.Natural.Abstract.NSub <> p:103 var
+R11840:11840 Stdlib.Numbers.Natural.Abstract.NSub <> n:101 var
+R11845:11845 Stdlib.Numbers.Natural.Abstract.NSub <> m:102 var
+R11852:11858 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11860:11861 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11859:11859 <> p:104
+R11867:11870 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11863:11865 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11862:11862 Stdlib.Numbers.Natural.Abstract.NSub <> p:104 var
+R11866:11866 Stdlib.Numbers.Natural.Abstract.NSub <> m:102 var
+R11871:11871 Stdlib.Numbers.Natural.Abstract.NSub <> n:101 var
+R11888:11903 Stdlib.Numbers.Natural.Abstract.NSub NSubProp le_alt_dichotomy thm
+R11916:11923 Stdlib.Numbers.Natural.Abstract.NSub NSubProp <> modtype

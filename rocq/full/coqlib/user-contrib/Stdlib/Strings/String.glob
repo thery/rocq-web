@@ -1,0 +1,780 @@
+DIGEST 5ee7a6b3ebbe5bc91826f34dc959ca93
+FStdlib.Strings.String
+R828:831 Stdlib.Lists.List <> <> lib
+R861:868 Stdlib.Arith.PeanoNat <> <> lib
+R898:902 Stdlib.Strings.Ascii <> <> lib
+R932:935 Stdlib.Bool.Bool <> <> lib
+R973:976 Stdlib.Strings.Byte <> <> lib
+R986:996 Corelib.Init.Notations IfNotations <> mod
+ind 1105:1110 <> string
+constr 1125:1135 <> EmptyString
+constr 1150:1155 <> String
+R1139:1144 Stdlib.Strings.String <> string:1 ind
+R1164:1167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1159:1163 Stdlib.Strings.Ascii <> ascii ind
+R1174:1177 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1168:1173 Stdlib.Strings.String <> string:1 ind
+R1178:1183 Stdlib.Strings.String <> string:1 ind
+scheme 1105:1110 <> string_rect
+scheme 1105:1110 <> string_ind
+scheme 1105:1110 <> string_rec
+scheme 1105:1110 <> string_sind
+def 1488:1497 <> string_dec
+R1516:1521 Stdlib.Strings.String <> string ind
+binder 1508:1509 <> s1:3
+binder 1511:1512 <> s2:4
+R1524:1524 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1532:1536 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1545:1545 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1527:1529 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1525:1526 Stdlib.Strings.String <> s1:3 var
+R1530:1531 Stdlib.Strings.String <> s2:4 var
+R1539:1542 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1537:1538 Stdlib.Strings.String <> s1:3 var
+R1543:1544 Stdlib.Strings.String <> s2:4 var
+R1579:1587 Stdlib.Strings.Ascii <> ascii_dec def
+def 1647:1649 <> eqb
+binder 1651:1652 <> s1:5
+binder 1654:1655 <> s2:6
+R1659:1662 Corelib.Init.Datatypes <> bool ind
+R1678:1679 Stdlib.Strings.String <> s2:6 var
+R1674:1675 Stdlib.Strings.String <> s1:5 var
+R1689:1699 Stdlib.Strings.String <> EmptyString constr
+R1702:1712 Stdlib.Strings.String <> EmptyString constr
+R1717:1720 Corelib.Init.Datatypes <> true constr
+R1725:1730 Stdlib.Strings.String <> String constr
+R1740:1745 Stdlib.Strings.String <> String constr
+R1772:1776 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1777:1779 Stdlib.Strings.String <> eqb:7 def
+R1757:1765 Stdlib.Strings.Ascii <> eqb def
+R1799:1803 Corelib.Init.Datatypes <> false constr
+R1826:1828 Stdlib.Strings.String <> eqb def
+not 1818:1818 <> ::string_scope:x_'=?'_x
+prf 1853:1860 <> eqb_spec
+binder 1862:1863 <> s1:10
+binder 1865:1866 <> s2:11
+R1870:1881 Stdlib.Bool.Bool <> reflect abbrev
+R1896:1899 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R1894:1895 Stdlib.Strings.String <> s1:10 var
+R1900:1901 Stdlib.Strings.String <> s2:11 var
+R1886:1888 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1884:1885 Stdlib.Strings.String <> s1:10 var
+R1889:1890 Stdlib.Strings.String <> s2:11 var
+R2024:2037 Stdlib.Strings.Ascii <> eqb_spec thm
+R2276:2279 Corelib.Init.Logic <> conj constr
+R2346:2348 Stdlib.Strings.String <> eqb def
+R2372:2379 Stdlib.Strings.String <> eqb_spec thm
+prf 2439:2446 <> eqb_refl
+binder 2448:2448 <> x:12
+R2467:2469 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2454:2457 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2453:2453 Stdlib.Strings.String <> x:12 var
+R2458:2458 Stdlib.Strings.String <> x:12 var
+R2470:2473 Corelib.Init.Datatypes <> true constr
+prf 2501:2507 <> eqb_sym
+binder 2509:2509 <> x:13
+binder 2511:2511 <> y:14
+R2530:2532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2517:2520 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2516:2516 Stdlib.Strings.String <> x:13 var
+R2521:2521 Stdlib.Strings.String <> y:14 var
+R2535:2538 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2534:2534 Stdlib.Strings.String <> y:14 var
+R2539:2539 Stdlib.Strings.String <> x:13 var
+prf 2575:2580 <> eqb_eq
+binder 2582:2582 <> n:15
+binder 2584:2584 <> m:16
+R2610:2614 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2603:2605 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2590:2593 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2589:2589 Stdlib.Strings.String <> n:15 var
+R2594:2594 Stdlib.Strings.String <> m:16 var
+R2606:2609 Corelib.Init.Datatypes <> true constr
+R2616:2618 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2615:2615 Stdlib.Strings.String <> n:15 var
+R2619:2619 Stdlib.Strings.String <> m:16 var
+prf 2647:2653 <> eqb_neq
+binder 2655:2655 <> x:17
+binder 2657:2657 <> y:18
+R2684:2688 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2676:2678 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2663:2666 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2662:2662 Stdlib.Strings.String <> x:17 var
+R2667:2667 Stdlib.Strings.String <> y:18 var
+R2679:2683 Corelib.Init.Datatypes <> false constr
+R2690:2693 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2689:2689 Stdlib.Strings.String <> x:17 var
+R2694:2694 Stdlib.Strings.String <> y:18 var
+prf 2722:2731 <> eqb_compat
+R2734:2749 Corelib.Classes.Morphisms <> Proper class
+R2806:2808 Stdlib.Strings.String <> eqb def
+R2752:2771 Corelib.Classes.Morphisms <> respectful def
+R2777:2796 Corelib.Classes.Morphisms <> respectful def
+R2801:2802 Corelib.Init.Logic <> eq ind
+R2798:2799 Corelib.Init.Logic <> eq ind
+R2773:2774 Corelib.Init.Logic <> eq ind
+def 2886:2892 <> compare
+R2903:2908 Stdlib.Strings.String <> string ind
+binder 2895:2896 <> s1:19
+binder 2898:2899 <> s2:20
+R2913:2922 Corelib.Init.Datatypes <> comparison ind
+R2939:2940 Stdlib.Strings.String <> s2:20 var
+R2935:2936 Stdlib.Strings.String <> s1:19 var
+R2951:2961 Stdlib.Strings.String <> EmptyString constr
+R2964:2974 Stdlib.Strings.String <> EmptyString constr
+R2979:2980 Corelib.Init.Datatypes <> Eq constr
+R2986:2996 Stdlib.Strings.String <> EmptyString constr
+R2999:3004 Stdlib.Strings.String <> String constr
+R3014:3015 Corelib.Init.Datatypes <> Lt constr
+R3021:3026 Stdlib.Strings.String <> String constr
+R3034:3044 Stdlib.Strings.String <> EmptyString constr
+R3049:3050 Corelib.Init.Datatypes <> Gt constr
+R3056:3061 Stdlib.Strings.String <> String constr
+R3071:3076 Stdlib.Strings.String <> String constr
+R3098:3110 Stdlib.Strings.Ascii <> compare def
+R3129:3130 Corelib.Init.Datatypes <> Eq constr
+R3135:3141 Stdlib.Strings.String <> compare:21 def
+prf 3188:3202 <> compare_antisym
+R3221:3226 Stdlib.Strings.String <> string ind
+binder 3213:3214 <> s1:24
+binder 3216:3217 <> s2:25
+R3246:3248 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3233:3239 Stdlib.Strings.String <> compare def
+R3241:3242 Stdlib.Strings.String <> s1:24 var
+R3244:3245 Stdlib.Strings.String <> s2:25 var
+R3249:3255 Corelib.Init.Datatypes <> CompOpp def
+R3258:3264 Stdlib.Strings.String <> compare def
+R3266:3267 Stdlib.Strings.String <> s2:25 var
+R3269:3270 Stdlib.Strings.String <> s1:24 var
+R3331:3351 Stdlib.Strings.Ascii <> compare_antisym thm
+R3366:3378 Stdlib.Strings.Ascii <> compare def
+prf 3417:3430 <> compare_eq_iff
+R3449:3454 Stdlib.Strings.String <> string ind
+binder 3441:3442 <> s1:26
+binder 3444:3445 <> s2:27
+R3479:3482 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3474:3476 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3461:3467 Stdlib.Strings.String <> compare def
+R3469:3470 Stdlib.Strings.String <> s1:26 var
+R3472:3473 Stdlib.Strings.String <> s2:27 var
+R3477:3478 Corelib.Init.Datatypes <> Eq constr
+R3485:3487 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3483:3484 Stdlib.Strings.String <> s1:26 var
+R3488:3489 Stdlib.Strings.String <> s2:27 var
+R3555:3567 Stdlib.Strings.Ascii <> compare def
+R3613:3632 Stdlib.Strings.Ascii <> compare_eq_iff thm
+def 3703:3705 <> ltb
+R3716:3721 Stdlib.Strings.String <> string ind
+binder 3708:3709 <> s1:28
+binder 3711:3712 <> s2:29
+R3726:3729 Corelib.Init.Datatypes <> bool ind
+R3736:3738 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3752:3755 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3758:3763 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3768:3773 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3739:3745 Stdlib.Strings.String <> compare def
+R3747:3748 Stdlib.Strings.String <> s1:28 var
+R3750:3751 Stdlib.Strings.String <> s2:29 var
+R3756:3757 Corelib.Init.Datatypes <> Lt constr
+binder 3756:3757 <> pat:30
+R3764:3767 Corelib.Init.Datatypes <> true constr
+R3774:3778 Corelib.Init.Datatypes <> false constr
+def 3793:3795 <> leb
+R3806:3811 Stdlib.Strings.String <> string ind
+binder 3798:3799 <> s1:31
+binder 3801:3802 <> s2:32
+R3816:3819 Corelib.Init.Datatypes <> bool ind
+R3826:3828 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3842:3845 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3848:3853 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3859:3864 Corelib.Init.Notations IfNotations :::'if'_x_'is'_x_'then'_x_'else'_x not
+R3829:3835 Stdlib.Strings.String <> compare def
+R3837:3838 Stdlib.Strings.String <> s1:31 var
+R3840:3841 Stdlib.Strings.String <> s2:32 var
+R3846:3847 Corelib.Init.Datatypes <> Gt constr
+binder 3846:3847 <> pat:33
+R3854:3858 Corelib.Init.Datatypes <> false constr
+R3865:3868 Corelib.Init.Datatypes <> true constr
+prf 3878:3888 <> leb_antisym
+R3899:3904 Stdlib.Strings.String <> string ind
+binder 3891:3892 <> s1:34
+binder 3894:3895 <> s2:35
+R3927:3930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3920:3922 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3911:3913 Stdlib.Strings.String <> leb def
+R3915:3916 Stdlib.Strings.String <> s1:34 var
+R3918:3919 Stdlib.Strings.String <> s2:35 var
+R3923:3926 Corelib.Init.Datatypes <> true constr
+R3947:3950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3940:3942 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3931:3933 Stdlib.Strings.String <> leb def
+R3935:3936 Stdlib.Strings.String <> s2:35 var
+R3938:3939 Stdlib.Strings.String <> s1:34 var
+R3943:3946 Corelib.Init.Datatypes <> true constr
+R3953:3955 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3951:3952 Stdlib.Strings.String <> s1:34 var
+R3956:3957 Stdlib.Strings.String <> s2:35 var
+R3976:3978 Stdlib.Strings.String <> leb def
+R3991:4005 Stdlib.Strings.String <> compare_antisym thm
+R4020:4026 Stdlib.Strings.String <> compare def
+R4078:4091 Stdlib.Strings.String <> compare_eq_iff thm
+prf 4166:4174 <> leb_total
+R4185:4190 Stdlib.Strings.String <> string ind
+binder 4177:4178 <> s1:36
+binder 4180:4181 <> s2:37
+R4211:4214 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4204:4206 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4195:4197 Stdlib.Strings.String <> leb def
+R4199:4200 Stdlib.Strings.String <> s1:36 var
+R4202:4203 Stdlib.Strings.String <> s2:37 var
+R4207:4210 Corelib.Init.Datatypes <> true constr
+R4224:4226 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4215:4217 Stdlib.Strings.String <> leb def
+R4219:4220 Stdlib.Strings.String <> s2:37 var
+R4222:4223 Stdlib.Strings.String <> s1:36 var
+R4227:4230 Corelib.Init.Datatypes <> true constr
+R4249:4251 Stdlib.Strings.String <> leb def
+R4264:4278 Stdlib.Strings.String <> compare_antisym thm
+R4293:4299 Stdlib.Strings.String <> compare def
+R4341:4347 Stdlib.Strings.String <> compare def
+not 4332:4332 <> ::string_scope:x_'?='_x
+R4380:4382 Stdlib.Strings.String <> ltb def
+not 4371:4371 <> ::string_scope:x_'<?'_x
+R4419:4421 Stdlib.Strings.String <> leb def
+not 4410:4410 <> ::string_scope:x_'<=?'_x
+def 4554:4559 <> append
+R4570:4575 Stdlib.Strings.String <> string ind
+binder 4562:4563 <> s1:38
+binder 4565:4566 <> s2:39
+R4580:4585 Stdlib.Strings.String <> string ind
+R4696:4701 Stdlib.Strings.String <> append:40 def
+R4598:4599 Stdlib.Strings.String <> s1:38 var
+R4610:4620 Stdlib.Strings.String <> EmptyString constr
+R4625:4626 Stdlib.Strings.String <> s2:39 var
+R4632:4637 Stdlib.Strings.String <> String constr
+R4648:4653 Stdlib.Strings.String <> String constr
+R4661:4664 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R4665:4666 Stdlib.Strings.String <> s2:39 var
+R4696:4701 Stdlib.Strings.String <> append def
+not 4681:4681 <> ::string_scope:x_'++'_x
+def 4836:4841 <> length
+R4848:4853 Stdlib.Strings.String <> string ind
+binder 4844:4844 <> s:42
+R4858:4860 Corelib.Init.Datatypes <> nat ind
+R4873:4873 Stdlib.Strings.String <> s:42 var
+R4884:4894 Stdlib.Strings.String <> EmptyString constr
+R4905:4910 Stdlib.Strings.String <> String constr
+R4920:4920 Corelib.Init.Datatypes <> S constr
+R4923:4928 Stdlib.Strings.String <> length:43 def
+def 5051:5053 <> get
+R5060:5062 Corelib.Init.Datatypes <> nat ind
+binder 5056:5056 <> n:45
+R5070:5075 Stdlib.Strings.String <> string ind
+binder 5066:5066 <> s:46
+R5091:5096 Corelib.Init.Datatypes <> option ind
+R5098:5102 Stdlib.Strings.Ascii <> ascii ind
+R5115:5115 Stdlib.Strings.String <> s:46 var
+R5126:5136 Stdlib.Strings.String <> EmptyString constr
+R5141:5144 Corelib.Init.Datatypes <> None constr
+R5150:5155 Stdlib.Strings.String <> String constr
+R5171:5171 Stdlib.Strings.String <> n:45 var
+R5199:5199 Corelib.Init.Datatypes <> O constr
+R5204:5207 Corelib.Init.Datatypes <> Some constr
+R5232:5232 Corelib.Init.Datatypes <> S constr
+R5240:5242 Stdlib.Strings.String <> get:47 def
+prf 5362:5372 <> get_correct
+R5393:5398 Stdlib.Strings.String <> string ind
+binder 5385:5386 <> s1:50
+binder 5388:5389 <> s2:51
+R5401:5401 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5437:5442 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5413:5415 Corelib.Init.Datatypes <> nat ind
+binder 5409:5409 <> n:52
+R5426:5428 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5418:5420 Stdlib.Strings.String <> get def
+R5422:5422 Stdlib.Strings.String <> n:52 var
+R5424:5425 Stdlib.Strings.String <> s1:50 var
+R5429:5431 Stdlib.Strings.String <> get def
+R5433:5433 Stdlib.Strings.String <> n:52 var
+R5435:5436 Stdlib.Strings.String <> s2:51 var
+R5445:5447 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5443:5444 Stdlib.Strings.String <> s1:50 var
+R5448:5449 Stdlib.Strings.String <> s2:51 var
+R5556:5556 Corelib.Init.Datatypes <> O constr
+R5701:5701 Corelib.Init.Datatypes <> O constr
+R5784:5784 Corelib.Init.Datatypes <> O constr
+R5895:5895 Corelib.Init.Datatypes <> S constr
+prf 6047:6061 <> append_correct1
+R6082:6087 Stdlib.Strings.String <> string ind
+binder 6074:6075 <> s1:53
+binder 6077:6078 <> s2:54
+R6095:6097 Corelib.Init.Datatypes <> nat ind
+binder 6091:6091 <> n:55
+R6115:6118 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6103:6105 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6102:6102 Stdlib.Strings.String <> n:55 var
+R6106:6111 Stdlib.Strings.String <> length def
+R6113:6114 Stdlib.Strings.String <> s1:53 var
+R6127:6129 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6119:6121 Stdlib.Strings.String <> get def
+R6123:6123 Stdlib.Strings.String <> n:55 var
+R6125:6126 Stdlib.Strings.String <> s1:53 var
+R6130:6132 Stdlib.Strings.String <> get def
+R6134:6134 Stdlib.Strings.String <> n:55 var
+R6139:6142 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R6137:6138 Stdlib.Strings.String <> s1:53 var
+R6143:6144 Stdlib.Strings.String <> s2:54 var
+R6304:6319 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+prf 6403:6417 <> append_correct2
+R6438:6443 Stdlib.Strings.String <> string ind
+binder 6430:6431 <> s1:56
+binder 6433:6434 <> s2:57
+R6451:6453 Corelib.Init.Datatypes <> nat ind
+binder 6447:6447 <> n:58
+R6466:6468 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6458:6460 Stdlib.Strings.String <> get def
+R6462:6462 Stdlib.Strings.String <> n:58 var
+R6464:6465 Stdlib.Strings.String <> s2:57 var
+R6469:6471 Stdlib.Strings.String <> get def
+R6475:6477 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6474:6474 Stdlib.Strings.String <> n:58 var
+R6478:6483 Stdlib.Strings.String <> length def
+R6485:6486 Stdlib.Strings.String <> s1:56 var
+R6492:6495 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R6490:6491 Stdlib.Strings.String <> s1:56 var
+R6496:6497 Stdlib.Strings.String <> s2:57 var
+R6564:6575 Stdlib.Arith.PeanoNat Nat add_comm thm
+R6661:6663 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6664:6664 Corelib.Init.Datatypes <> S constr
+R6667:6672 Stdlib.Strings.String <> length def
+R6694:6696 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6690:6690 Corelib.Init.Datatypes <> S constr
+R6697:6702 Stdlib.Strings.String <> length def
+R6724:6737 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+def 6939:6947 <> substring
+R6956:6958 Corelib.Init.Datatypes <> nat ind
+binder 6950:6950 <> n:59
+binder 6952:6952 <> m:60
+R6966:6971 Stdlib.Strings.String <> string ind
+binder 6962:6962 <> s:61
+R6976:6981 Stdlib.Strings.String <> string ind
+R7000:7000 Stdlib.Strings.String <> s:61 var
+R6997:6997 Stdlib.Strings.String <> m:60 var
+R6994:6994 Stdlib.Strings.String <> n:59 var
+R7011:7011 Corelib.Init.Datatypes <> O constr
+R7014:7014 Corelib.Init.Datatypes <> O constr
+R7022:7032 Stdlib.Strings.String <> EmptyString constr
+R7038:7038 Corelib.Init.Datatypes <> O constr
+R7041:7041 Corelib.Init.Datatypes <> S constr
+R7047:7057 Stdlib.Strings.String <> EmptyString constr
+R7062:7062 Stdlib.Strings.String <> s:61 var
+R7068:7068 Corelib.Init.Datatypes <> O constr
+R7071:7071 Corelib.Init.Datatypes <> S constr
+R7077:7082 Stdlib.Strings.String <> String constr
+R7092:7097 Stdlib.Strings.String <> String constr
+R7102:7110 Stdlib.Strings.String <> substring:62 def
+R7125:7125 Corelib.Init.Datatypes <> S constr
+R7134:7144 Stdlib.Strings.String <> EmptyString constr
+R7149:7149 Stdlib.Strings.String <> s:61 var
+R7155:7155 Corelib.Init.Datatypes <> S constr
+R7164:7169 Stdlib.Strings.String <> String constr
+R7179:7187 Stdlib.Strings.String <> substring:62 def
+R7192:7192 Stdlib.Strings.String <> m:60 var
+prf 7269:7286 <> substring_correct1
+R7303:7308 Stdlib.Strings.String <> string ind
+binder 7299:7299 <> s:66
+R7320:7322 Corelib.Init.Datatypes <> nat ind
+binder 7312:7312 <> n:67
+binder 7314:7314 <> m:68
+binder 7316:7316 <> p:69
+R7332:7335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7328:7330 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7327:7327 Stdlib.Strings.String <> p:69 var
+R7331:7331 Stdlib.Strings.String <> m:68 var
+R7359:7361 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7336:7338 Stdlib.Strings.String <> get def
+R7340:7340 Stdlib.Strings.String <> p:69 var
+R7343:7351 Stdlib.Strings.String <> substring def
+R7353:7353 Stdlib.Strings.String <> n:67 var
+R7355:7355 Stdlib.Strings.String <> m:68 var
+R7357:7357 Stdlib.Strings.String <> s:66 var
+R7362:7364 Stdlib.Strings.String <> get def
+R7368:7370 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R7367:7367 Stdlib.Strings.String <> p:69 var
+R7371:7371 Stdlib.Strings.String <> n:67 var
+R7374:7374 Stdlib.Strings.String <> s:66 var
+R7695:7710 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+R7748:7761 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+prf 7831:7848 <> substring_correct2
+R7865:7870 Stdlib.Strings.String <> string ind
+binder 7861:7861 <> s:70
+R7882:7884 Corelib.Init.Datatypes <> nat ind
+binder 7874:7874 <> n:71
+binder 7876:7876 <> m:72
+binder 7878:7878 <> p:73
+R7894:7897 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7889:7892 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7888:7888 Stdlib.Strings.String <> m:72 var
+R7893:7893 Stdlib.Strings.String <> p:73 var
+R7921:7923 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7898:7900 Stdlib.Strings.String <> get def
+R7902:7902 Stdlib.Strings.String <> p:73 var
+R7905:7913 Stdlib.Strings.String <> substring def
+R7915:7915 Stdlib.Strings.String <> n:71 var
+R7917:7917 Stdlib.Strings.String <> m:72 var
+R7919:7919 Stdlib.Strings.String <> s:70 var
+R7924:7927 Corelib.Init.Datatypes <> None constr
+R8234:8249 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+def 8434:8439 <> concat
+R8448:8453 Stdlib.Strings.String <> string ind
+binder 8442:8444 <> sep:74
+R8462:8465 Corelib.Init.Datatypes <> list ind
+R8467:8472 Stdlib.Strings.String <> string ind
+binder 8457:8458 <> ls:75
+R8486:8487 Stdlib.Strings.String <> ls:75 var
+R8498:8500 Corelib.Init.Datatypes <> nil constr
+R8505:8515 Stdlib.Strings.String <> EmptyString constr
+R8521:8524 Corelib.Init.Datatypes <> cons constr
+R8528:8530 Corelib.Init.Datatypes <> nil constr
+R8541:8544 Corelib.Init.Datatypes <> cons constr
+R8555:8558 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R8562:8565 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R8559:8561 Stdlib.Strings.String <> sep:74 var
+R8566:8571 Stdlib.Strings.String <> concat:76 def
+R8573:8575 Stdlib.Strings.String <> sep:74 var
+def 8665:8670 <> prefix
+R8681:8686 Stdlib.Strings.String <> string ind
+binder 8673:8674 <> s1:78
+binder 8676:8677 <> s2:79
+R8703:8706 Corelib.Init.Datatypes <> bool ind
+R8719:8720 Stdlib.Strings.String <> s1:78 var
+R8731:8741 Stdlib.Strings.String <> EmptyString constr
+R8746:8749 Corelib.Init.Datatypes <> true constr
+R8755:8760 Stdlib.Strings.String <> String constr
+R8783:8784 Stdlib.Strings.String <> s2:79 var
+R8799:8809 Stdlib.Strings.String <> EmptyString constr
+R8814:8818 Corelib.Init.Datatypes <> false constr
+R8828:8833 Stdlib.Strings.String <> String constr
+R8860:8868 Stdlib.Strings.Ascii <> ascii_dec def
+R8891:8894 Corelib.Init.Specif <> left constr
+R8901:8906 Stdlib.Strings.String <> prefix:80 def
+R8928:8932 Corelib.Init.Specif <> right constr
+R8939:8943 Corelib.Init.Datatypes <> false constr
+prf 9103:9116 <> prefix_correct
+R9136:9141 Stdlib.Strings.String <> string ind
+binder 9128:9129 <> s1:83
+binder 9131:9132 <> s2:84
+R9164:9168 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9157:9159 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9145:9150 Stdlib.Strings.String <> prefix def
+R9152:9153 Stdlib.Strings.String <> s1:83 var
+R9155:9156 Stdlib.Strings.String <> s2:84 var
+R9160:9163 Corelib.Init.Datatypes <> true constr
+R9195:9197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9169:9177 Stdlib.Strings.String <> substring def
+R9182:9187 Stdlib.Strings.String <> length def
+R9189:9190 Stdlib.Strings.String <> s1:83 var
+R9193:9194 Stdlib.Strings.String <> s2:84 var
+R9198:9199 Stdlib.Strings.String <> s1:83 var
+R9386:9394 Stdlib.Strings.Ascii <> ascii_dec def
+def 9759:9763 <> index
+R9770:9772 Corelib.Init.Datatypes <> nat ind
+binder 9766:9766 <> n:85
+R9784:9789 Stdlib.Strings.String <> string ind
+binder 9776:9777 <> s1:86
+binder 9779:9780 <> s2:87
+R9794:9799 Corelib.Init.Datatypes <> option ind
+R9801:9803 Corelib.Init.Datatypes <> nat ind
+R9820:9820 Stdlib.Strings.String <> n:85 var
+R9816:9817 Stdlib.Strings.String <> s2:87 var
+R9831:9841 Stdlib.Strings.String <> EmptyString constr
+R9844:9844 Corelib.Init.Datatypes <> O constr
+R9861:9862 Stdlib.Strings.String <> s1:86 var
+R9877:9887 Stdlib.Strings.String <> EmptyString constr
+R9892:9895 Corelib.Init.Datatypes <> Some constr
+R9897:9897 Corelib.Init.Datatypes <> O constr
+R9907:9912 Stdlib.Strings.String <> String constr
+R9923:9926 Corelib.Init.Datatypes <> None constr
+R9942:9952 Stdlib.Strings.String <> EmptyString constr
+R9955:9955 Corelib.Init.Datatypes <> S constr
+R9963:9966 Corelib.Init.Datatypes <> None constr
+R9972:9977 Stdlib.Strings.String <> String constr
+R9986:9986 Corelib.Init.Datatypes <> O constr
+R10000:10005 Stdlib.Strings.String <> prefix def
+R10007:10008 Stdlib.Strings.String <> s1:86 var
+R10010:10011 Stdlib.Strings.String <> s2:87 var
+R10050:10054 Stdlib.Strings.String <> index:88 def
+R10058:10059 Stdlib.Strings.String <> s1:86 var
+R10056:10056 Corelib.Init.Datatypes <> O constr
+R10080:10083 Corelib.Init.Datatypes <> Some constr
+R10090:10093 Corelib.Init.Datatypes <> Some constr
+R10096:10096 Corelib.Init.Datatypes <> S constr
+R10098:10098 Stdlib.Strings.String <> n:85 var
+R10111:10114 Corelib.Init.Datatypes <> None constr
+R10119:10122 Corelib.Init.Datatypes <> None constr
+R10018:10021 Corelib.Init.Datatypes <> Some constr
+R10023:10023 Corelib.Init.Datatypes <> O constr
+R10141:10146 Stdlib.Strings.String <> String constr
+R10155:10155 Corelib.Init.Datatypes <> S constr
+R10175:10179 Stdlib.Strings.String <> index:88 def
+R10184:10185 Stdlib.Strings.String <> s1:86 var
+R10204:10207 Corelib.Init.Datatypes <> Some constr
+R10214:10217 Corelib.Init.Datatypes <> Some constr
+R10220:10220 Corelib.Init.Datatypes <> S constr
+R10222:10222 Stdlib.Strings.String <> n:85 var
+R10233:10236 Corelib.Init.Datatypes <> None constr
+R10241:10244 Corelib.Init.Datatypes <> None constr
+R10333:10338 Stdlib.Strings.String <> prefix def
+prf 10425:10438 <> index_correct1
+R10457:10459 Corelib.Init.Datatypes <> nat ind
+binder 10451:10451 <> n:92
+binder 10453:10453 <> m:93
+R10471:10476 Stdlib.Strings.String <> string ind
+binder 10463:10464 <> s1:94
+binder 10466:10467 <> s2:95
+R10503:10506 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10494:10496 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10481:10485 Stdlib.Strings.String <> index def
+R10487:10487 Stdlib.Strings.String <> n:92 var
+R10489:10490 Stdlib.Strings.String <> s1:94 var
+R10492:10493 Stdlib.Strings.String <> s2:95 var
+R10497:10500 Corelib.Init.Datatypes <> Some constr
+R10502:10502 Stdlib.Strings.String <> m:93 var
+R10533:10535 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10507:10515 Stdlib.Strings.String <> substring def
+R10517:10517 Stdlib.Strings.String <> m:93 var
+R10520:10525 Stdlib.Strings.String <> length def
+R10527:10528 Stdlib.Strings.String <> s1:94 var
+R10531:10532 Stdlib.Strings.String <> s2:95 var
+R10536:10537 Stdlib.Strings.String <> s1:94 var
+R10840:10853 Stdlib.Strings.String <> prefix_correct thm
+R10859:10864 Stdlib.Strings.String <> String constr
+R10887:10892 Stdlib.Strings.String <> prefix def
+R10898:10903 Stdlib.Strings.String <> String constr
+R11014:11018 Stdlib.Strings.String <> index def
+R11020:11020 Corelib.Init.Datatypes <> O constr
+R11089:11089 Corelib.Init.Datatypes <> O constr
+R11105:11109 Stdlib.Strings.String <> index def
+R11111:11111 Corelib.Init.Datatypes <> O constr
+R11269:11273 Stdlib.Strings.String <> index def
+R11359:11363 Stdlib.Strings.String <> index def
+prf 11570:11583 <> index_correct2
+R11602:11604 Corelib.Init.Datatypes <> nat ind
+binder 11596:11596 <> n:96
+binder 11598:11598 <> m:97
+R11616:11621 Stdlib.Strings.String <> string ind
+binder 11608:11609 <> s1:98
+binder 11611:11612 <> s2:99
+R11648:11652 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11639:11641 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11626:11630 Stdlib.Strings.String <> index def
+R11632:11632 Stdlib.Strings.String <> n:96 var
+R11634:11635 Stdlib.Strings.String <> s1:98 var
+R11637:11638 Stdlib.Strings.String <> s2:99 var
+R11642:11645 Corelib.Init.Datatypes <> Some constr
+R11647:11647 Stdlib.Strings.String <> m:97 var
+R11664:11666 Corelib.Init.Datatypes <> nat ind
+binder 11660:11660 <> p:100
+R11675:11678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11670:11673 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R11669:11669 Stdlib.Strings.String <> n:96 var
+R11674:11674 Stdlib.Strings.String <> p:100 var
+R11684:11687 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11680:11682 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R11679:11679 Stdlib.Strings.String <> p:100 var
+R11683:11683 Stdlib.Strings.String <> m:97 var
+R11714:11717 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R11688:11696 Stdlib.Strings.String <> substring def
+R11698:11698 Stdlib.Strings.String <> p:100 var
+R11701:11706 Stdlib.Strings.String <> length def
+R11708:11709 Stdlib.Strings.String <> s1:98 var
+R11712:11713 Stdlib.Strings.String <> s2:99 var
+R11718:11719 Stdlib.Strings.String <> s1:98 var
+R12052:12065 Stdlib.Strings.String <> prefix_correct thm
+R12071:12076 Stdlib.Strings.String <> String constr
+R12099:12104 Stdlib.Strings.String <> prefix def
+R12110:12115 Stdlib.Strings.String <> String constr
+R12234:12238 Stdlib.Strings.String <> index def
+R12309:12309 Corelib.Init.Datatypes <> O constr
+R12325:12329 Stdlib.Strings.String <> index def
+R12501:12503 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12496:12500 Corelib.Init.Datatypes <> false constr
+R12504:12507 Corelib.Init.Datatypes <> true constr
+R12636:12645 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R12674:12689 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+R12797:12801 Stdlib.Strings.String <> index def
+R12887:12891 Stdlib.Strings.String <> index def
+R13105:13120 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R13153:13168 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+prf 13308:13321 <> index_correct3
+R13340:13342 Corelib.Init.Datatypes <> nat ind
+binder 13334:13334 <> n:101
+binder 13336:13336 <> m:102
+R13354:13359 Stdlib.Strings.String <> string ind
+binder 13346:13347 <> s1:103
+binder 13349:13350 <> s2:104
+R13384:13388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13377:13379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13364:13368 Stdlib.Strings.String <> index def
+R13370:13370 Stdlib.Strings.String <> n:101 var
+R13372:13373 Stdlib.Strings.String <> s1:103 var
+R13375:13376 Stdlib.Strings.String <> s2:104 var
+R13380:13383 Corelib.Init.Datatypes <> None constr
+R13406:13409 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13391:13394 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R13389:13390 Stdlib.Strings.String <> s1:103 var
+R13395:13405 Stdlib.Strings.String <> EmptyString constr
+R13416:13419 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13411:13414 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R13410:13410 Stdlib.Strings.String <> n:101 var
+R13415:13415 Stdlib.Strings.String <> m:102 var
+R13446:13449 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R13420:13428 Stdlib.Strings.String <> substring def
+R13430:13430 Stdlib.Strings.String <> m:102 var
+R13433:13438 Stdlib.Strings.String <> length def
+R13440:13441 Stdlib.Strings.String <> s1:103 var
+R13444:13445 Stdlib.Strings.String <> s2:104 var
+R13450:13451 Stdlib.Strings.String <> s1:103 var
+R13788:13801 Stdlib.Strings.String <> prefix_correct thm
+R13807:13812 Stdlib.Strings.String <> String constr
+R13835:13840 Stdlib.Strings.String <> prefix def
+R13846:13851 Stdlib.Strings.String <> String constr
+R14050:14052 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14045:14049 Corelib.Init.Datatypes <> false constr
+R14053:14056 Corelib.Init.Datatypes <> true constr
+R14199:14202 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14161:14169 Stdlib.Strings.String <> substring def
+R14175:14180 Stdlib.Strings.String <> length def
+R14183:14188 Stdlib.Strings.String <> String constr
+R14203:14208 Stdlib.Strings.String <> String constr
+R14238:14238 Corelib.Init.Datatypes <> O constr
+R14281:14285 Stdlib.Strings.String <> index def
+R14290:14295 Stdlib.Strings.String <> String constr
+R14375:14384 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R14535:14539 Stdlib.Strings.String <> index def
+R14614:14629 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R14688:14693 Stdlib.Strings.String <> prefix def
+prf 14833:14846 <> index_correct4
+R14863:14865 Corelib.Init.Datatypes <> nat ind
+binder 14859:14859 <> n:105
+R14873:14878 Stdlib.Strings.String <> string ind
+binder 14869:14869 <> s:106
+R14911:14914 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14904:14906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14883:14887 Stdlib.Strings.String <> index def
+R14889:14889 Stdlib.Strings.String <> n:105 var
+R14891:14901 Stdlib.Strings.String <> EmptyString constr
+R14903:14903 Stdlib.Strings.String <> s:106 var
+R14907:14910 Corelib.Init.Datatypes <> None constr
+R14923:14925 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R14915:14920 Stdlib.Strings.String <> length def
+R14922:14922 Stdlib.Strings.String <> s:106 var
+R14926:14926 Stdlib.Strings.String <> n:105 var
+R15069:15081 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R15190:15194 Stdlib.Strings.String <> index def
+R15199:15209 Stdlib.Strings.String <> EmptyString constr
+R15292:15307 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+def 15425:15430 <> findex
+binder 15432:15432 <> n:107
+binder 15434:15435 <> s1:108
+binder 15437:15438 <> s2:109
+R15451:15455 Stdlib.Strings.String <> index def
+R15457:15457 Stdlib.Strings.String <> n:107 var
+R15459:15460 Stdlib.Strings.String <> s1:108 var
+R15462:15463 Stdlib.Strings.String <> s2:109 var
+R15474:15477 Corelib.Init.Datatypes <> Some constr
+R15484:15484 Stdlib.Strings.String <> n:107 var
+R15490:15493 Corelib.Init.Datatypes <> None constr
+R15498:15498 Corelib.Init.Datatypes <> O constr
+def 15577:15596 <> string_of_list_ascii
+R15603:15606 Corelib.Init.Datatypes <> list ind
+R15608:15612 Stdlib.Strings.Ascii <> ascii ind
+binder 15599:15599 <> s:110
+R15617:15622 Stdlib.Strings.String <> string ind
+R15635:15635 Stdlib.Strings.String <> s:110 var
+R15649:15651 Corelib.Init.Datatypes <> nil constr
+R15656:15666 Stdlib.Strings.String <> EmptyString constr
+R15675:15678 Corelib.Init.Datatypes <> cons constr
+R15688:15693 Stdlib.Strings.String <> String constr
+R15699:15718 Stdlib.Strings.String <> string_of_list_ascii:111 def
+R15720:15720 Stdlib.Strings.String <> s:110 var
+def 15743:15762 <> list_ascii_of_string
+R15769:15774 Stdlib.Strings.String <> string ind
+binder 15765:15765 <> s:113
+R15779:15782 Corelib.Init.Datatypes <> list ind
+R15784:15788 Stdlib.Strings.Ascii <> ascii ind
+R15801:15801 Stdlib.Strings.String <> s:113 var
+R15815:15825 Stdlib.Strings.String <> EmptyString constr
+R15830:15832 Corelib.Init.Datatypes <> nil constr
+R15841:15846 Stdlib.Strings.String <> String constr
+R15856:15859 Corelib.Init.Datatypes <> cons constr
+R15865:15884 Stdlib.Strings.String <> list_ascii_of_string:114 def
+R15886:15886 Stdlib.Strings.String <> s:113 var
+prf 15906:15935 <> string_of_list_ascii_of_string
+binder 15937:15937 <> s:116
+R15986:15988 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15941:15960 Stdlib.Strings.String <> string_of_list_ascii def
+R15963:15982 Stdlib.Strings.String <> list_ascii_of_string def
+R15984:15984 Stdlib.Strings.String <> s:116 var
+R15989:15989 Stdlib.Strings.String <> s:116 var
+R16055:16061 Corelib.Init.Logic <> f_equal thm
+prf 16087:16120 <> list_ascii_of_string_of_list_ascii
+binder 16122:16122 <> s:117
+R16171:16173 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16126:16145 Stdlib.Strings.String <> list_ascii_of_string def
+R16148:16167 Stdlib.Strings.String <> string_of_list_ascii def
+R16169:16169 Stdlib.Strings.String <> s:117 var
+R16174:16174 Stdlib.Strings.String <> s:117 var
+R16240:16246 Corelib.Init.Logic <> f_equal thm
+def 16277:16295 <> string_of_list_byte
+R16302:16305 Corelib.Init.Datatypes <> list ind
+R16307:16310 Corelib.Init.Byte <> byte ind
+binder 16298:16298 <> s:118
+R16315:16320 Stdlib.Strings.String <> string ind
+R16327:16346 Stdlib.Strings.String <> string_of_list_ascii def
+R16349:16356 Stdlib.Lists.List <> map abbrev
+R16372:16372 Stdlib.Strings.String <> s:118 var
+R16358:16370 Stdlib.Strings.Ascii <> ascii_of_byte def
+def 16388:16406 <> list_byte_of_string
+R16413:16418 Stdlib.Strings.String <> string ind
+binder 16409:16409 <> s:119
+R16423:16426 Corelib.Init.Datatypes <> list ind
+R16428:16431 Corelib.Init.Byte <> byte ind
+R16438:16445 Stdlib.Lists.List <> map abbrev
+R16462:16481 Stdlib.Strings.String <> list_ascii_of_string def
+R16483:16483 Stdlib.Strings.String <> s:119 var
+R16447:16459 Stdlib.Strings.Ascii <> byte_of_ascii def
+prf 16494:16522 <> string_of_list_byte_of_string
+binder 16524:16524 <> s:120
+R16571:16573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16528:16546 Stdlib.Strings.String <> string_of_list_byte def
+R16549:16567 Stdlib.Strings.String <> list_byte_of_string def
+R16569:16569 Stdlib.Strings.String <> s:120 var
+R16574:16574 Stdlib.Strings.String <> s:120 var
+R16591:16609 Stdlib.Strings.String <> string_of_list_byte def
+R16611:16629 Stdlib.Strings.String <> list_byte_of_string def
+R16644:16655 Stdlib.Lists.List <> map_map thm
+R16658:16669 Stdlib.Lists.List <> map_ext thm
+R16672:16682 Stdlib.Lists.List <> map_id thm
+R16685:16714 Stdlib.Strings.String <> string_of_list_ascii_of_string thm
+R16750:16771 Stdlib.Strings.Ascii <> ascii_of_byte_of_ascii thm
+prf 16786:16817 <> list_byte_of_string_of_list_byte
+binder 16819:16819 <> s:121
+R16866:16868 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16823:16841 Stdlib.Strings.String <> list_byte_of_string def
+R16844:16862 Stdlib.Strings.String <> string_of_list_byte def
+R16864:16864 Stdlib.Strings.String <> s:121 var
+R16869:16869 Stdlib.Strings.String <> s:121 var
+R16886:16904 Stdlib.Strings.String <> string_of_list_byte def
+R16906:16924 Stdlib.Strings.String <> list_byte_of_string def
+R16939:16972 Stdlib.Strings.String <> list_ascii_of_string_of_list_ascii thm
+R16975:16986 Stdlib.Lists.List <> map_map thm
+R16989:17000 Stdlib.Lists.List <> map_ext thm
+R17003:17013 Stdlib.Lists.List <> map_id thm
+R17049:17069 Stdlib.Strings.Ascii <> byte_of_ascii_of_byte thm
+mod 17611:17622 <> StringSyntax
+R17650:17668 Stdlib.Strings.String <> string_of_list_byte def
+R17670:17688 Stdlib.Strings.String <> list_byte_of_string def
+R17643:17648 Stdlib.Strings.String <> string ind
+R17710:17721 Stdlib.Strings.String StringSyntax <> mod
+def 17733:17742 <> HelloWorld

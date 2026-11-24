@@ -1,0 +1,92 @@
+DIGEST 790ddba871ee63a2cc47db642e983eb1
+FStdlib.Logic.PropExtensionalityFacts
+abbrev 1614:1640 <> PropositionalExtensionality
+binder 1655:1655 <> A:1
+binder 1657:1657 <> B:2
+R1667:1667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1675:1679 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1669:1673 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1668:1668 Stdlib.Logic.PropExtensionalityFacts <> A:1 var
+R1674:1674 Stdlib.Logic.PropExtensionalityFacts <> B:2 var
+R1681:1683 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1680:1680 Stdlib.Logic.PropExtensionalityFacts <> A:1 var
+R1684:1684 Stdlib.Logic.PropExtensionalityFacts <> B:2 var
+abbrev 1751:1783 <> ProvablePropositionExtensionality
+binder 1798:1798 <> A:3
+R1807:1810 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1806:1806 Stdlib.Logic.PropExtensionalityFacts <> A:3 var
+R1812:1814 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1811:1811 Stdlib.Logic.PropExtensionalityFacts <> A:3 var
+R1815:1818 Corelib.Init.Logic <> True ind
+abbrev 1886:1919 <> RefutablePropositionExtensionality
+binder 1934:1934 <> A:4
+R1944:1947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1942:1942 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1943:1943 Stdlib.Logic.PropExtensionalityFacts <> A:4 var
+R1949:1951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1948:1948 Stdlib.Logic.PropExtensionalityFacts <> A:4 var
+R1952:1956 Corelib.Init.Logic <> False ind
+abbrev 2012:2034 <> PredicateExtensionality
+binder 2050:2050 <> A:5
+R2066:2069 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2065:2065 Stdlib.Logic.PropExtensionalityFacts <> A:5 var
+binder 2059:2059 <> P:6
+binder 2061:2061 <> Q:7
+R2077:2077 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2099:2103 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 2085:2085 <> x:8
+R2091:2095 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2088:2088 Stdlib.Logic.PropExtensionalityFacts <> P:6 var
+R2090:2090 Stdlib.Logic.PropExtensionalityFacts <> x:8 var
+R2096:2096 Stdlib.Logic.PropExtensionalityFacts <> Q:7 var
+R2098:2098 Stdlib.Logic.PropExtensionalityFacts <> x:8 var
+R2105:2107 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2104:2104 Stdlib.Logic.PropExtensionalityFacts <> P:6 var
+R2108:2108 Stdlib.Logic.PropExtensionalityFacts <> Q:7 var
+abbrev 2179:2215 <> PropositionalFunctionalExtensionality
+binder 2231:2231 <> A:9
+R2247:2250 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2246:2246 Stdlib.Logic.PropExtensionalityFacts <> A:9 var
+binder 2240:2240 <> P:10
+binder 2242:2242 <> Q:11
+R2258:2258 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2278:2282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 2266:2266 <> x:12
+R2272:2274 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2269:2269 Stdlib.Logic.PropExtensionalityFacts <> P:10 var
+R2271:2271 Stdlib.Logic.PropExtensionalityFacts <> x:12 var
+R2275:2275 Stdlib.Logic.PropExtensionalityFacts <> Q:11 var
+R2277:2277 Stdlib.Logic.PropExtensionalityFacts <> x:12 var
+R2284:2286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2283:2283 Stdlib.Logic.PropExtensionalityFacts <> P:10 var
+R2287:2287 Stdlib.Logic.PropExtensionalityFacts <> Q:11 var
+prf 2629:2647 <> PredExt_imp_PropExt
+R2674:2677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2651:2673 Stdlib.Logic.PropExtensionalityFacts <> PredicateExtensionality abbrev
+R2678:2704 Stdlib.Logic.PropExtensionalityFacts <> PropositionalExtensionality abbrev
+R2768:2768 Corelib.Init.Logic <> I constr
+R2809:2812 Corelib.Init.Logic <> True ind
+prf 2850:2871 <> PredExt_imp_PropFunExt
+R2898:2901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2875:2897 Stdlib.Logic.PropExtensionalityFacts <> PredicateExtensionality abbrev
+R2902:2938 Stdlib.Logic.PropExtensionalityFacts <> PropositionalFunctionalExtensionality abbrev
+prf 3024:3057 <> PropExt_and_PropFunExt_imp_PredExt
+R3090:3093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3063:3089 Stdlib.Logic.PropExtensionalityFacts <> PropositionalExtensionality abbrev
+R3131:3134 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3094:3130 Stdlib.Logic.PropExtensionalityFacts <> PropositionalFunctionalExtensionality abbrev
+R3135:3157 Stdlib.Logic.PropExtensionalityFacts <> PredicateExtensionality abbrev
+prf 3255:3288 <> PropExt_and_PropFunExt_iff_PredExt
+R3362:3366 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3321:3324 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3294:3320 Stdlib.Logic.PropExtensionalityFacts <> PropositionalExtensionality abbrev
+R3325:3361 Stdlib.Logic.PropExtensionalityFacts <> PropositionalFunctionalExtensionality abbrev
+R3367:3389 Stdlib.Logic.PropExtensionalityFacts <> PredicateExtensionality abbrev
+prf 3664:3686 <> PropExt_imp_ProvPropExt
+R3717:3720 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3690:3716 Stdlib.Logic.PropExtensionalityFacts <> PropositionalExtensionality abbrev
+R3721:3753 Stdlib.Logic.PropExtensionalityFacts <> ProvablePropositionExtensionality abbrev
+prf 3975:3998 <> PropExt_imp_RefutPropExt
+R4029:4032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4002:4028 Stdlib.Logic.PropExtensionalityFacts <> PropositionalExtensionality abbrev
+R4033:4066 Stdlib.Logic.PropExtensionalityFacts <> RefutablePropositionExtensionality abbrev

@@ -1,0 +1,780 @@
+DIGEST e8e99f320778502c784d4ca6ebe170d9
+FStdlib.Arith.Wf_nat
+R754:761 Stdlib.Arith.PeanoNat <> <> lib
+R820:822 Corelib.Init.Datatypes <> nat ind
+sec 834:849 <> Well_founded_Nat
+var 862:862 Well_founded_Nat A
+var 882:882 Well_founded_Nat f
+R887:890 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R886:886 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+R891:893 Corelib.Init.Datatypes <> nat ind
+def 907:910 <> ltof
+R917:917 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 913:913 <> a:5
+binder 915:915 <> b:6
+R926:928 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R923:923 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R925:925 Stdlib.Arith.Wf_nat <> a:5 var
+R929:929 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R931:931 Stdlib.Arith.Wf_nat <> b:6 var
+def 945:948 <> gtof
+R955:955 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 951:951 <> a:7
+binder 953:953 <> b:8
+R964:966 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R961:961 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R963:963 Stdlib.Arith.Wf_nat <> b:8 var
+R967:967 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R969:969 Stdlib.Arith.Wf_nat <> a:7 var
+prf 981:997 <> well_founded_ltof
+R1001:1012 Corelib.Init.Wf <> well_founded def
+R1014:1017 Stdlib.Arith.Wf_nat <> ltof def
+binder 1048:1048 <> n:9
+R1053:1053 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 1051:1051 <> a:10
+R1064:1067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1060:1062 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1057:1057 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R1059:1059 Stdlib.Arith.Wf_nat <> a:10 var
+R1063:1063 Stdlib.Arith.Wf_nat <> n:9 var
+R1068:1070 Corelib.Init.Wf <> Acc ind
+R1077:1077 Stdlib.Arith.Wf_nat <> a:10 var
+R1072:1075 Stdlib.Arith.Wf_nat <> ltof def
+binder 1048:1048 <> n:11
+binder 1051:1051 <> a:12
+R1059:1059 Stdlib.Arith.Wf_nat <> a:12 var
+R1063:1063 Stdlib.Arith.Wf_nat <> n:11 var
+R1077:1077 Stdlib.Arith.Wf_nat <> a:12 var
+R1149:1151 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1146:1146 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R1168:1178 Stdlib.Arith.PeanoNat Nat nlt_0_r thm
+R1206:1214 Corelib.Init.Wf <> Acc_intro constr
+R1224:1227 Stdlib.Arith.Wf_nat <> ltof def
+R1293:1293 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R1271:1285 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R1315:1330 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R1357:1357 Corelib.Init.Datatypes <> S constr
+R1360:1360 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R1374:1391 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+prf 1470:1486 <> well_founded_gtof
+R1490:1501 Corelib.Init.Wf <> well_founded def
+R1503:1506 Stdlib.Arith.Wf_nat <> gtof def
+R1524:1540 Stdlib.Arith.Wf_nat <> well_founded_ltof thm
+prf 2115:2129 <> induction_ltof1
+R2145:2148 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2144:2144 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2142:2142 <> P:13
+R2159:2159 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2208:2212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2169:2169 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2167:2167 <> x:14
+R2172:2172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2200:2204 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2182:2182 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2180:2180 <> y:15
+R2193:2196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2185:2188 Stdlib.Arith.Wf_nat <> ltof def
+R2190:2190 Stdlib.Arith.Wf_nat <> y:15 var
+R2192:2192 Stdlib.Arith.Wf_nat <> x:14 var
+R2197:2197 Stdlib.Arith.Wf_nat <> P:13 var
+R2199:2199 Stdlib.Arith.Wf_nat <> y:15 var
+R2205:2205 Stdlib.Arith.Wf_nat <> P:13 var
+R2207:2207 Stdlib.Arith.Wf_nat <> x:14 var
+R2222:2222 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2220:2220 <> a:16
+R2225:2225 Stdlib.Arith.Wf_nat <> P:13 var
+R2227:2227 Stdlib.Arith.Wf_nat <> a:16 var
+binder 2272:2272 <> n:17
+R2277:2277 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2275:2275 <> a:18
+R2288:2291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2284:2286 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R2281:2281 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R2283:2283 Stdlib.Arith.Wf_nat <> a:18 var
+R2287:2287 Stdlib.Arith.Wf_nat <> n:17 var
+R2294:2294 Stdlib.Arith.Wf_nat <> a:18 var
+binder 2272:2272 <> n:19
+binder 2275:2275 <> a:20
+R2283:2283 Stdlib.Arith.Wf_nat <> a:20 var
+R2287:2287 Stdlib.Arith.Wf_nat <> n:19 var
+R2294:2294 Stdlib.Arith.Wf_nat <> a:20 var
+R2366:2368 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R2363:2363 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R2385:2395 Stdlib.Arith.PeanoNat Nat nlt_0_r thm
+R2433:2436 Stdlib.Arith.Wf_nat <> ltof def
+R2497:2497 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R2475:2489 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R2519:2534 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R2561:2561 Corelib.Init.Datatypes <> S constr
+R2564:2564 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R2578:2595 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+prf 2616:2630 <> induction_gtof1
+R2646:2649 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2645:2645 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2643:2643 <> P:21
+R2660:2660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2709:2713 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2670:2670 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2668:2668 <> x:22
+R2673:2673 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2701:2705 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2683:2683 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2681:2681 <> y:23
+R2694:2697 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2686:2689 Stdlib.Arith.Wf_nat <> gtof def
+R2691:2691 Stdlib.Arith.Wf_nat <> y:23 var
+R2693:2693 Stdlib.Arith.Wf_nat <> x:22 var
+R2698:2698 Stdlib.Arith.Wf_nat <> P:21 var
+R2700:2700 Stdlib.Arith.Wf_nat <> y:23 var
+R2706:2706 Stdlib.Arith.Wf_nat <> P:21 var
+R2708:2708 Stdlib.Arith.Wf_nat <> x:22 var
+R2723:2723 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2721:2721 <> a:24
+R2726:2726 Stdlib.Arith.Wf_nat <> P:21 var
+R2728:2728 Stdlib.Arith.Wf_nat <> a:24 var
+R2746:2760 Stdlib.Arith.Wf_nat <> induction_ltof1 thm
+prf 2781:2795 <> induction_ltof2
+R2811:2814 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2810:2810 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2808:2808 <> P:25
+R2825:2825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2874:2878 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2835:2835 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2833:2833 <> x:26
+R2838:2838 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2866:2870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2848:2848 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2846:2846 <> y:27
+R2859:2862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2851:2854 Stdlib.Arith.Wf_nat <> ltof def
+R2856:2856 Stdlib.Arith.Wf_nat <> y:27 var
+R2858:2858 Stdlib.Arith.Wf_nat <> x:26 var
+R2863:2863 Stdlib.Arith.Wf_nat <> P:25 var
+R2865:2865 Stdlib.Arith.Wf_nat <> y:27 var
+R2871:2871 Stdlib.Arith.Wf_nat <> P:25 var
+R2873:2873 Stdlib.Arith.Wf_nat <> x:26 var
+R2888:2888 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 2886:2886 <> a:28
+R2891:2891 Stdlib.Arith.Wf_nat <> P:25 var
+R2893:2893 Stdlib.Arith.Wf_nat <> a:28 var
+R2912:2938 Corelib.Init.Wf <> well_founded_induction_type thm
+R2940:2956 Stdlib.Arith.Wf_nat <> well_founded_ltof thm
+prf 2978:2992 <> induction_gtof2
+R3008:3011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3007:3007 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3005:3005 <> P:29
+R3022:3022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3071:3075 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3032:3032 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3030:3030 <> x:30
+R3035:3035 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3063:3067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3045:3045 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3043:3043 <> y:31
+R3056:3059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3048:3051 Stdlib.Arith.Wf_nat <> gtof def
+R3053:3053 Stdlib.Arith.Wf_nat <> y:31 var
+R3055:3055 Stdlib.Arith.Wf_nat <> x:30 var
+R3060:3060 Stdlib.Arith.Wf_nat <> P:29 var
+R3062:3062 Stdlib.Arith.Wf_nat <> y:31 var
+R3068:3068 Stdlib.Arith.Wf_nat <> P:29 var
+R3070:3070 Stdlib.Arith.Wf_nat <> x:30 var
+R3085:3085 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3083:3083 <> a:32
+R3088:3088 Stdlib.Arith.Wf_nat <> P:29 var
+R3090:3090 Stdlib.Arith.Wf_nat <> a:32 var
+R3108:3122 Stdlib.Arith.Wf_nat <> induction_ltof2 thm
+var 3255:3255 Well_founded_Nat R
+R3260:3263 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3259:3259 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+R3265:3268 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3264:3264 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+var 3287:3294 Well_founded_Nat H_compat
+R3309:3309 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3305:3305 <> x:35
+binder 3307:3307 <> y:36
+R3317:3320 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3312:3312 Stdlib.Arith.Wf_nat <> Well_founded_Nat.R var
+R3314:3314 Stdlib.Arith.Wf_nat <> x:35 var
+R3316:3316 Stdlib.Arith.Wf_nat <> y:36 var
+R3324:3326 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3321:3321 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3323:3323 Stdlib.Arith.Wf_nat <> x:35 var
+R3327:3327 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3329:3329 Stdlib.Arith.Wf_nat <> y:36 var
+prf 3341:3362 <> well_founded_lt_compat
+R3366:3377 Corelib.Init.Wf <> well_founded def
+R3379:3379 Stdlib.Arith.Wf_nat <> Well_founded_Nat.R var
+binder 3410:3410 <> n:39
+R3415:3415 Stdlib.Arith.Wf_nat <> Well_founded_Nat.A var
+binder 3413:3413 <> a:40
+R3426:3429 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3422:3424 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3419:3419 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3421:3421 Stdlib.Arith.Wf_nat <> a:40 var
+R3425:3425 Stdlib.Arith.Wf_nat <> n:39 var
+R3430:3432 Corelib.Init.Wf <> Acc ind
+R3436:3436 Stdlib.Arith.Wf_nat <> a:40 var
+R3434:3434 Stdlib.Arith.Wf_nat <> Well_founded_Nat.R var
+binder 3410:3410 <> n:41
+binder 3413:3413 <> a:42
+R3421:3421 Stdlib.Arith.Wf_nat <> a:42 var
+R3425:3425 Stdlib.Arith.Wf_nat <> n:41 var
+R3436:3436 Stdlib.Arith.Wf_nat <> a:42 var
+R3508:3510 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3505:3505 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3527:3537 Stdlib.Arith.PeanoNat Nat nlt_0_r thm
+R3565:3573 Corelib.Init.Wf <> Acc_intro constr
+R3634:3634 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3612:3626 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R3656:3671 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R3698:3698 Corelib.Init.Datatypes <> S constr
+R3701:3701 Stdlib.Arith.Wf_nat <> Well_founded_Nat.f var
+R3715:3732 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+R3749:3764 Stdlib.Arith.Wf_nat Well_founded_Nat <> sec
+prf 3774:3778 <> lt_wf
+R3782:3793 Corelib.Init.Wf <> well_founded def
+R3795:3796 Corelib.Init.Peano <> lt def
+R3815:3831 Stdlib.Arith.Wf_nat <> well_founded_ltof thm
+binder 3842:3842 <> m:43
+R3847:3847 Stdlib.Arith.Wf_nat <> m:43 var
+R3833:3835 Corelib.Init.Datatypes <> nat ind
+binder 3842:3842 <> m:44
+R3847:3847 Stdlib.Arith.Wf_nat <> m:44 var
+prf 3868:3878 <> lt_wf_rect1
+binder 3891:3891 <> n:45
+R3899:3902 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3896:3898 Corelib.Init.Datatypes <> nat ind
+binder 3894:3894 <> P:46
+R3910:3910 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3952:3956 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3918:3918 <> n:47
+R3921:3921 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3944:3948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3929:3929 <> m:48
+R3937:3940 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3933:3935 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3932:3932 Stdlib.Arith.Wf_nat <> m:48 var
+R3936:3936 Stdlib.Arith.Wf_nat <> n:47 var
+R3941:3941 Stdlib.Arith.Wf_nat <> P:46 var
+R3943:3943 Stdlib.Arith.Wf_nat <> m:48 var
+R3949:3949 Stdlib.Arith.Wf_nat <> P:46 var
+R3951:3951 Stdlib.Arith.Wf_nat <> n:47 var
+R3957:3957 Stdlib.Arith.Wf_nat <> P:46 var
+R3959:3959 Stdlib.Arith.Wf_nat <> n:45 var
+binder 3982:3982 <> p:49
+binder 3984:3984 <> P:50
+binder 3986:3986 <> F:51
+R3991:4005 Stdlib.Arith.Wf_nat <> induction_ltof1 thm
+R4024:4024 Stdlib.Arith.Wf_nat <> P:50 var
+R4026:4026 Stdlib.Arith.Wf_nat <> F:51 var
+R4028:4028 Stdlib.Arith.Wf_nat <> p:49 var
+binder 4016:4016 <> m:52
+R4021:4021 Stdlib.Arith.Wf_nat <> m:52 var
+R4007:4009 Corelib.Init.Datatypes <> nat ind
+binder 3982:3982 <> p:53
+binder 3984:3984 <> P:54
+binder 3986:3986 <> F:55
+R4024:4024 Stdlib.Arith.Wf_nat <> P:54 var
+R4026:4026 Stdlib.Arith.Wf_nat <> F:55 var
+R4028:4028 Stdlib.Arith.Wf_nat <> p:53 var
+binder 4016:4016 <> m:56
+R4021:4021 Stdlib.Arith.Wf_nat <> m:56 var
+prf 4048:4057 <> lt_wf_rect
+binder 4070:4070 <> n:57
+R4078:4081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4075:4077 Corelib.Init.Datatypes <> nat ind
+binder 4073:4073 <> P:58
+R4089:4089 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4131:4135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4097:4097 <> n:59
+R4100:4100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4123:4127 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4108:4108 <> m:60
+R4116:4119 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4112:4114 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4111:4111 Stdlib.Arith.Wf_nat <> m:60 var
+R4115:4115 Stdlib.Arith.Wf_nat <> n:59 var
+R4120:4120 Stdlib.Arith.Wf_nat <> P:58 var
+R4122:4122 Stdlib.Arith.Wf_nat <> m:60 var
+R4128:4128 Stdlib.Arith.Wf_nat <> P:58 var
+R4130:4130 Stdlib.Arith.Wf_nat <> n:59 var
+R4136:4136 Stdlib.Arith.Wf_nat <> P:58 var
+R4138:4138 Stdlib.Arith.Wf_nat <> n:57 var
+binder 4161:4161 <> p:61
+binder 4163:4163 <> P:62
+binder 4165:4165 <> F:63
+R4170:4184 Stdlib.Arith.Wf_nat <> induction_ltof2 thm
+R4203:4203 Stdlib.Arith.Wf_nat <> P:62 var
+R4205:4205 Stdlib.Arith.Wf_nat <> F:63 var
+R4207:4207 Stdlib.Arith.Wf_nat <> p:61 var
+binder 4195:4195 <> m:64
+R4200:4200 Stdlib.Arith.Wf_nat <> m:64 var
+R4186:4188 Corelib.Init.Datatypes <> nat ind
+binder 4161:4161 <> p:65
+binder 4163:4163 <> P:66
+binder 4165:4165 <> F:67
+R4203:4203 Stdlib.Arith.Wf_nat <> P:66 var
+R4205:4205 Stdlib.Arith.Wf_nat <> F:67 var
+R4207:4207 Stdlib.Arith.Wf_nat <> p:65 var
+binder 4195:4195 <> m:68
+R4200:4200 Stdlib.Arith.Wf_nat <> m:68 var
+prf 4227:4236 <> lt_wf_rec1
+binder 4249:4249 <> n:69
+R4257:4260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4254:4256 Corelib.Init.Datatypes <> nat ind
+binder 4252:4252 <> P:70
+R4267:4267 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4309:4313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4275:4275 <> n:71
+R4278:4278 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4301:4305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4286:4286 <> m:72
+R4294:4297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4290:4292 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4289:4289 Stdlib.Arith.Wf_nat <> m:72 var
+R4293:4293 Stdlib.Arith.Wf_nat <> n:71 var
+R4298:4298 Stdlib.Arith.Wf_nat <> P:70 var
+R4300:4300 Stdlib.Arith.Wf_nat <> m:72 var
+R4306:4306 Stdlib.Arith.Wf_nat <> P:70 var
+R4308:4308 Stdlib.Arith.Wf_nat <> n:71 var
+R4314:4314 Stdlib.Arith.Wf_nat <> P:70 var
+R4316:4316 Stdlib.Arith.Wf_nat <> n:69 var
+binder 4339:4339 <> p:73
+binder 4341:4341 <> P:74
+binder 4343:4343 <> F:75
+R4348:4362 Stdlib.Arith.Wf_nat <> induction_ltof1 thm
+R4381:4381 Stdlib.Arith.Wf_nat <> P:74 var
+R4383:4383 Stdlib.Arith.Wf_nat <> F:75 var
+R4385:4385 Stdlib.Arith.Wf_nat <> p:73 var
+binder 4373:4373 <> m:76
+R4378:4378 Stdlib.Arith.Wf_nat <> m:76 var
+R4364:4366 Corelib.Init.Datatypes <> nat ind
+binder 4339:4339 <> p:77
+binder 4341:4341 <> P:78
+binder 4343:4343 <> F:79
+R4381:4381 Stdlib.Arith.Wf_nat <> P:78 var
+R4383:4383 Stdlib.Arith.Wf_nat <> F:79 var
+R4385:4385 Stdlib.Arith.Wf_nat <> p:77 var
+binder 4373:4373 <> m:80
+R4378:4378 Stdlib.Arith.Wf_nat <> m:80 var
+prf 4405:4413 <> lt_wf_rec
+binder 4426:4426 <> n:81
+R4434:4437 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4431:4433 Corelib.Init.Datatypes <> nat ind
+binder 4429:4429 <> P:82
+R4444:4444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4486:4490 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4452:4452 <> n:83
+R4455:4455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4478:4482 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4463:4463 <> m:84
+R4471:4474 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4467:4469 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4466:4466 Stdlib.Arith.Wf_nat <> m:84 var
+R4470:4470 Stdlib.Arith.Wf_nat <> n:83 var
+R4475:4475 Stdlib.Arith.Wf_nat <> P:82 var
+R4477:4477 Stdlib.Arith.Wf_nat <> m:84 var
+R4483:4483 Stdlib.Arith.Wf_nat <> P:82 var
+R4485:4485 Stdlib.Arith.Wf_nat <> n:83 var
+R4491:4491 Stdlib.Arith.Wf_nat <> P:82 var
+R4493:4493 Stdlib.Arith.Wf_nat <> n:81 var
+binder 4516:4516 <> p:85
+binder 4518:4518 <> P:86
+binder 4520:4520 <> F:87
+R4525:4539 Stdlib.Arith.Wf_nat <> induction_ltof2 thm
+R4558:4558 Stdlib.Arith.Wf_nat <> P:86 var
+R4560:4560 Stdlib.Arith.Wf_nat <> F:87 var
+R4562:4562 Stdlib.Arith.Wf_nat <> p:85 var
+binder 4550:4550 <> m:88
+R4555:4555 Stdlib.Arith.Wf_nat <> m:88 var
+R4541:4543 Corelib.Init.Datatypes <> nat ind
+binder 4516:4516 <> p:89
+binder 4518:4518 <> P:90
+binder 4520:4520 <> F:91
+R4558:4558 Stdlib.Arith.Wf_nat <> P:90 var
+R4560:4560 Stdlib.Arith.Wf_nat <> F:91 var
+R4562:4562 Stdlib.Arith.Wf_nat <> p:89 var
+binder 4550:4550 <> m:92
+R4555:4555 Stdlib.Arith.Wf_nat <> m:92 var
+prf 4582:4590 <> lt_wf_ind
+binder 4603:4603 <> n:93
+R4611:4614 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4608:4610 Corelib.Init.Datatypes <> nat ind
+binder 4606:4606 <> P:94
+R4622:4622 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4664:4668 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4630:4630 <> n:95
+R4633:4633 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4656:4660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4641:4641 <> m:96
+R4649:4652 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4645:4647 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4644:4644 Stdlib.Arith.Wf_nat <> m:96 var
+R4648:4648 Stdlib.Arith.Wf_nat <> n:95 var
+R4653:4653 Stdlib.Arith.Wf_nat <> P:94 var
+R4655:4655 Stdlib.Arith.Wf_nat <> m:96 var
+R4661:4661 Stdlib.Arith.Wf_nat <> P:94 var
+R4663:4663 Stdlib.Arith.Wf_nat <> n:95 var
+R4669:4669 Stdlib.Arith.Wf_nat <> P:94 var
+R4671:4671 Stdlib.Arith.Wf_nat <> n:93 var
+R4706:4710 Stdlib.Arith.Wf_nat <> lt_wf thm
+prf 4734:4743 <> gt_wf_rect
+binder 4756:4756 <> n:97
+R4764:4767 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4761:4763 Corelib.Init.Datatypes <> nat ind
+binder 4759:4759 <> P:98
+R4775:4775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4817:4821 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4783:4783 <> n:99
+R4786:4786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4809:4813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4794:4794 <> m:100
+R4802:4805 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4798:4800 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R4797:4797 Stdlib.Arith.Wf_nat <> n:99 var
+R4801:4801 Stdlib.Arith.Wf_nat <> m:100 var
+R4806:4806 Stdlib.Arith.Wf_nat <> P:98 var
+R4808:4808 Stdlib.Arith.Wf_nat <> m:100 var
+R4814:4814 Stdlib.Arith.Wf_nat <> P:98 var
+R4816:4816 Stdlib.Arith.Wf_nat <> n:99 var
+R4822:4822 Stdlib.Arith.Wf_nat <> P:98 var
+R4824:4824 Stdlib.Arith.Wf_nat <> n:97 var
+R4842:4851 Stdlib.Arith.Wf_nat <> lt_wf_rect thm
+prf 4870:4878 <> gt_wf_rec
+binder 4891:4891 <> n:101
+R4899:4902 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4896:4898 Corelib.Init.Datatypes <> nat ind
+binder 4894:4894 <> P:102
+R4909:4909 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4951:4955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4917:4917 <> n:103
+R4920:4920 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4943:4947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4928:4928 <> m:104
+R4936:4939 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4932:4934 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R4931:4931 Stdlib.Arith.Wf_nat <> n:103 var
+R4935:4935 Stdlib.Arith.Wf_nat <> m:104 var
+R4940:4940 Stdlib.Arith.Wf_nat <> P:102 var
+R4942:4942 Stdlib.Arith.Wf_nat <> m:104 var
+R4948:4948 Stdlib.Arith.Wf_nat <> P:102 var
+R4950:4950 Stdlib.Arith.Wf_nat <> n:103 var
+R4956:4956 Stdlib.Arith.Wf_nat <> P:102 var
+R4958:4958 Stdlib.Arith.Wf_nat <> n:101 var
+R4976:4984 Stdlib.Arith.Wf_nat <> lt_wf_rec thm
+prf 5003:5011 <> gt_wf_ind
+binder 5024:5024 <> n:105
+R5032:5035 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5029:5031 Corelib.Init.Datatypes <> nat ind
+binder 5027:5027 <> P:106
+R5043:5043 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5085:5089 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5051:5051 <> n:107
+R5054:5054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5077:5081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5062:5062 <> m:108
+R5070:5073 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5066:5068 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R5065:5065 Stdlib.Arith.Wf_nat <> n:107 var
+R5069:5069 Stdlib.Arith.Wf_nat <> m:108 var
+R5074:5074 Stdlib.Arith.Wf_nat <> P:106 var
+R5076:5076 Stdlib.Arith.Wf_nat <> m:108 var
+R5082:5082 Stdlib.Arith.Wf_nat <> P:106 var
+R5084:5084 Stdlib.Arith.Wf_nat <> n:107 var
+R5090:5090 Stdlib.Arith.Wf_nat <> P:106 var
+R5092:5092 Stdlib.Arith.Wf_nat <> n:105 var
+R5110:5118 Stdlib.Arith.Wf_nat <> lt_wf_ind thm
+prf 5133:5149 <> lt_wf_double_rect
+R5166:5169 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5163:5165 Corelib.Init.Datatypes <> nat ind
+R5173:5176 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5170:5172 Corelib.Init.Datatypes <> nat ind
+binder 5161:5161 <> P:109
+R5186:5186 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5276:5280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5194:5194 <> n:110
+binder 5196:5196 <> m:111
+R5204:5204 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5231:5240 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5212:5212 <> p:112
+binder 5214:5214 <> q:113
+R5222:5225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5218:5220 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5217:5217 Stdlib.Arith.Wf_nat <> p:112 var
+R5221:5221 Stdlib.Arith.Wf_nat <> n:110 var
+R5226:5226 Stdlib.Arith.Wf_nat <> P:109 var
+R5230:5230 Stdlib.Arith.Wf_nat <> q:113 var
+R5228:5228 Stdlib.Arith.Wf_nat <> p:112 var
+R5241:5241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5266:5270 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5249:5249 <> p:114
+R5257:5260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5253:5255 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5252:5252 Stdlib.Arith.Wf_nat <> p:114 var
+R5256:5256 Stdlib.Arith.Wf_nat <> m:111 var
+R5261:5261 Stdlib.Arith.Wf_nat <> P:109 var
+R5265:5265 Stdlib.Arith.Wf_nat <> p:114 var
+R5263:5263 Stdlib.Arith.Wf_nat <> n:110 var
+R5271:5271 Stdlib.Arith.Wf_nat <> P:109 var
+R5275:5275 Stdlib.Arith.Wf_nat <> m:111 var
+R5273:5273 Stdlib.Arith.Wf_nat <> n:110 var
+binder 5288:5288 <> n:115
+binder 5290:5290 <> m:116
+R5293:5293 Stdlib.Arith.Wf_nat <> P:109 var
+R5297:5297 Stdlib.Arith.Wf_nat <> m:116 var
+R5295:5295 Stdlib.Arith.Wf_nat <> n:115 var
+R5343:5352 Stdlib.Arith.Wf_nat <> lt_wf_rect thm
+R5388:5397 Stdlib.Arith.Wf_nat <> lt_wf_rect thm
+prf 5422:5437 <> lt_wf_double_rec
+R5454:5457 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5451:5453 Corelib.Init.Datatypes <> nat ind
+R5461:5464 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5458:5460 Corelib.Init.Datatypes <> nat ind
+binder 5449:5449 <> P:117
+R5473:5473 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5563:5567 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5481:5481 <> n:118
+binder 5483:5483 <> m:119
+R5491:5491 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5518:5527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5499:5499 <> p:120
+binder 5501:5501 <> q:121
+R5509:5512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5505:5507 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5504:5504 Stdlib.Arith.Wf_nat <> p:120 var
+R5508:5508 Stdlib.Arith.Wf_nat <> n:118 var
+R5513:5513 Stdlib.Arith.Wf_nat <> P:117 var
+R5517:5517 Stdlib.Arith.Wf_nat <> q:121 var
+R5515:5515 Stdlib.Arith.Wf_nat <> p:120 var
+R5528:5528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5553:5557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5536:5536 <> p:122
+R5544:5547 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5540:5542 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5539:5539 Stdlib.Arith.Wf_nat <> p:122 var
+R5543:5543 Stdlib.Arith.Wf_nat <> m:119 var
+R5548:5548 Stdlib.Arith.Wf_nat <> P:117 var
+R5552:5552 Stdlib.Arith.Wf_nat <> p:122 var
+R5550:5550 Stdlib.Arith.Wf_nat <> n:118 var
+R5558:5558 Stdlib.Arith.Wf_nat <> P:117 var
+R5562:5562 Stdlib.Arith.Wf_nat <> m:119 var
+R5560:5560 Stdlib.Arith.Wf_nat <> n:118 var
+binder 5575:5575 <> n:123
+binder 5577:5577 <> m:124
+R5580:5580 Stdlib.Arith.Wf_nat <> P:117 var
+R5584:5584 Stdlib.Arith.Wf_nat <> m:124 var
+R5582:5582 Stdlib.Arith.Wf_nat <> n:123 var
+R5630:5638 Stdlib.Arith.Wf_nat <> lt_wf_rec thm
+R5674:5682 Stdlib.Arith.Wf_nat <> lt_wf_rec thm
+prf 5707:5722 <> lt_wf_double_ind
+R5740:5743 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5737:5739 Corelib.Init.Datatypes <> nat ind
+R5747:5750 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5744:5746 Corelib.Init.Datatypes <> nat ind
+binder 5735:5735 <> P:125
+R5761:5761 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5859:5863 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5769:5769 <> n:126
+binder 5771:5771 <> m:127
+R5780:5780 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5813:5823 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5788:5788 <> p:128
+R5793:5795 Corelib.Init.Datatypes <> nat ind
+binder 5791:5791 <> q:129
+R5804:5807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5800:5802 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5799:5799 Stdlib.Arith.Wf_nat <> p:128 var
+R5803:5803 Stdlib.Arith.Wf_nat <> n:126 var
+R5808:5808 Stdlib.Arith.Wf_nat <> P:125 var
+R5812:5812 Stdlib.Arith.Wf_nat <> q:129 var
+R5810:5810 Stdlib.Arith.Wf_nat <> p:128 var
+R5824:5824 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5849:5853 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5832:5832 <> p:130
+R5840:5843 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5836:5838 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5835:5835 Stdlib.Arith.Wf_nat <> p:130 var
+R5839:5839 Stdlib.Arith.Wf_nat <> m:127 var
+R5844:5844 Stdlib.Arith.Wf_nat <> P:125 var
+R5848:5848 Stdlib.Arith.Wf_nat <> p:130 var
+R5846:5846 Stdlib.Arith.Wf_nat <> n:126 var
+R5854:5854 Stdlib.Arith.Wf_nat <> P:125 var
+R5858:5858 Stdlib.Arith.Wf_nat <> m:127 var
+R5856:5856 Stdlib.Arith.Wf_nat <> n:126 var
+binder 5871:5871 <> n:131
+binder 5873:5873 <> m:132
+R5876:5876 Stdlib.Arith.Wf_nat <> P:125 var
+R5880:5880 Stdlib.Arith.Wf_nat <> m:132 var
+R5878:5878 Stdlib.Arith.Wf_nat <> n:131 var
+R5926:5934 Stdlib.Arith.Wf_nat <> lt_wf_ind thm
+R5970:5978 Stdlib.Arith.Wf_nat <> lt_wf_ind thm
+sec 6093:6101 <> LT_WF_REL
+var 6115:6115 LT_WF_REL A
+var 6135:6135 LT_WF_REL R
+R6140:6143 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6139:6139 Stdlib.Arith.Wf_nat <> LT_WF_REL.A var
+R6145:6148 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6144:6144 Stdlib.Arith.Wf_nat <> LT_WF_REL.A var
+var 6204:6204 LT_WF_REL F
+R6209:6212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6208:6208 Stdlib.Arith.Wf_nat <> LT_WF_REL.A var
+R6216:6219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6213:6215 Corelib.Init.Datatypes <> nat ind
+def 6239:6248 <> inv_lt_rel
+binder 6250:6250 <> x:139
+binder 6252:6252 <> y:140
+R6257:6264 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R6266:6267 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R6273:6276 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R6301:6301 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+binder 6265:6265 <> n:141
+R6268:6268 Stdlib.Arith.Wf_nat <> LT_WF_REL.F var
+R6270:6270 Stdlib.Arith.Wf_nat <> x:139 var
+R6272:6272 Stdlib.Arith.Wf_nat <> n:141 var
+binder 6265:6265 <> n:142
+binder 6284:6284 <> m:143
+R6292:6295 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6287:6287 Stdlib.Arith.Wf_nat <> LT_WF_REL.F var
+R6289:6289 Stdlib.Arith.Wf_nat <> y:140 var
+R6291:6291 Stdlib.Arith.Wf_nat <> m:143 var
+R6297:6299 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6296:6296 Stdlib.Arith.Wf_nat <> n:142 var
+R6300:6300 Stdlib.Arith.Wf_nat <> m:143 var
+var 6318:6325 LT_WF_REL F_compat
+R6340:6340 Stdlib.Arith.Wf_nat <> LT_WF_REL.A var
+binder 6336:6336 <> x:144
+binder 6338:6338 <> y:145
+R6348:6351 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6343:6343 Stdlib.Arith.Wf_nat <> LT_WF_REL.R var
+R6345:6345 Stdlib.Arith.Wf_nat <> x:144 var
+R6347:6347 Stdlib.Arith.Wf_nat <> y:145 var
+R6352:6361 Stdlib.Arith.Wf_nat <> inv_lt_rel def
+R6363:6363 Stdlib.Arith.Wf_nat <> x:144 var
+R6365:6365 Stdlib.Arith.Wf_nat <> y:145 var
+prf 6377:6386 <> acc_lt_rel
+R6399:6399 Stdlib.Arith.Wf_nat <> LT_WF_REL.A var
+binder 6397:6397 <> x:148
+R6402:6402 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6418:6422 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6403:6409 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6411:6412 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6410:6410 <> n:149
+R6413:6413 Stdlib.Arith.Wf_nat <> LT_WF_REL.F var
+R6415:6415 Stdlib.Arith.Wf_nat <> x:148 var
+R6417:6417 Stdlib.Arith.Wf_nat <> n:149 var
+R6423:6425 Corelib.Init.Wf <> Acc ind
+R6429:6429 Stdlib.Arith.Wf_nat <> x:148 var
+R6427:6427 Stdlib.Arith.Wf_nat <> LT_WF_REL.R var
+R6508:6516 Stdlib.Arith.Wf_nat <> lt_wf_ind thm
+R6582:6589 Stdlib.Arith.Wf_nat <> LT_WF_REL.F_compat var
+prf 6662:6691 <> well_founded_inv_lt_rel_compat
+R6695:6706 Corelib.Init.Wf <> well_founded def
+R6708:6708 Stdlib.Arith.Wf_nat <> LT_WF_REL.R var
+R6768:6775 Stdlib.Arith.Wf_nat <> LT_WF_REL.F_compat var
+R6815:6824 Stdlib.Arith.Wf_nat <> acc_lt_rel thm
+R6871:6879 Stdlib.Arith.Wf_nat LT_WF_REL <> sec
+prf 6889:6919 <> well_founded_inv_rel_inv_lt_rel
+binder 6922:6922 <> A:150
+R6933:6936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6932:6932 Stdlib.Arith.Wf_nat <> A:150 var
+R6940:6943 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6937:6939 Corelib.Init.Datatypes <> nat ind
+binder 6930:6930 <> F:151
+R6954:6965 Corelib.Init.Wf <> well_founded def
+R6968:6977 Stdlib.Arith.Wf_nat <> inv_lt_rel def
+R6981:6981 Stdlib.Arith.Wf_nat <> F:151 var
+R6979:6979 Stdlib.Arith.Wf_nat <> A:150 var
+R7001:7030 Stdlib.Arith.Wf_nat <> well_founded_inv_lt_rel_compat thm
+R7035:7044 Stdlib.Arith.Wf_nat <> inv_lt_rel def
+R7230:7240 Stdlib.Arith.Compare_dec <> <> lib
+R7270:7278 Stdlib.Logic.Decidable <> <> lib
+def 7293:7316 <> has_unique_least_element
+binder 7319:7319 <> A:152
+R7331:7332 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7330:7330 Stdlib.Arith.Wf_nat <> A:152 var
+R7334:7335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7333:7333 Stdlib.Arith.Wf_nat <> A:152 var
+binder 7328:7328 <> R:153
+R7346:7347 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7345:7345 Stdlib.Arith.Wf_nat <> A:152 var
+binder 7343:7343 <> P:154
+R7359:7366 Corelib.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R7368:7369 Corelib.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 7367:7367 <> x:155
+R7373:7376 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7370:7370 Stdlib.Arith.Wf_nat <> P:154 var
+R7372:7372 Stdlib.Arith.Wf_nat <> x:155 var
+binder 7384:7385 <> x':156
+R7392:7395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7388:7388 Stdlib.Arith.Wf_nat <> P:154 var
+R7390:7391 Stdlib.Arith.Wf_nat <> x':156 var
+R7396:7396 Stdlib.Arith.Wf_nat <> R:153 var
+R7400:7401 Stdlib.Arith.Wf_nat <> x':156 var
+R7398:7398 Stdlib.Arith.Wf_nat <> x:155 var
+prf 7411:7453 <> dec_inh_nat_subset_has_unique_least_element
+R7471:7472 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7468:7470 Corelib.Init.Datatypes <> nat ind
+binder 7466:7466 <> P:157
+R7479:7479 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7502:7510 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 7487:7487 <> n:158
+R7493:7496 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7490:7490 Stdlib.Arith.Wf_nat <> P:157 var
+R7492:7492 Stdlib.Arith.Wf_nat <> n:158 var
+R7497:7498 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7499:7499 Stdlib.Arith.Wf_nat <> P:157 var
+R7501:7501 Stdlib.Arith.Wf_nat <> n:158 var
+R7511:7511 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7525:7529 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7512:7518 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7520:7521 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7519:7519 <> n:159
+R7522:7522 Stdlib.Arith.Wf_nat <> P:157 var
+R7524:7524 Stdlib.Arith.Wf_nat <> n:159 var
+R7530:7553 Stdlib.Arith.Wf_nat <> has_unique_least_element def
+R7558:7558 Stdlib.Arith.Wf_nat <> P:157 var
+R7555:7556 Corelib.Init.Peano <> le ind
+binder 7616:7616 <> n:160
+R7619:7619 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7675:7695 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7720:7720 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7620:7626 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7629:7630 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7627:7628 <> n':161
+R7635:7638 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7633:7633 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7631:7632 Stdlib.Arith.Wf_nat <> n':161 var
+R7634:7634 Stdlib.Arith.Wf_nat <> n:160 var
+R7643:7646 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7641:7642 Stdlib.Arith.Wf_nat <> n':161 var
+binder 7654:7656 <> n'':162
+R7664:7667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7661:7663 Stdlib.Arith.Wf_nat <> n'':162 var
+R7670:7671 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7668:7669 Stdlib.Arith.Wf_nat <> n':161 var
+R7672:7674 Stdlib.Arith.Wf_nat <> n'':162 var
+binder 7703:7704 <> n':163
+R7711:7714 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7709:7710 Stdlib.Arith.Wf_nat <> n':163 var
+R7716:7717 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7715:7715 Stdlib.Arith.Wf_nat <> n:160 var
+R7718:7719 Stdlib.Arith.Wf_nat <> n':163 var
+binder 7616:7616 <> n:164
+binder 7627:7628 <> n':165
+R7631:7632 Stdlib.Arith.Wf_nat <> n':165 var
+R7634:7634 Stdlib.Arith.Wf_nat <> n:164 var
+R7641:7642 Stdlib.Arith.Wf_nat <> n':165 var
+binder 7654:7656 <> n'':166
+R7661:7663 Stdlib.Arith.Wf_nat <> n'':166 var
+R7668:7669 Stdlib.Arith.Wf_nat <> n':165 var
+R7672:7674 Stdlib.Arith.Wf_nat <> n'':166 var
+binder 7703:7704 <> n':167
+R7709:7710 Stdlib.Arith.Wf_nat <> n':167 var
+R7715:7715 Stdlib.Arith.Wf_nat <> n:164 var
+R7718:7719 Stdlib.Arith.Wf_nat <> n':167 var
+R7794:7803 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R8000:8009 Stdlib.Arith.PeanoNat Nat le_neq thm
+R8171:8185 Stdlib.Arith.PeanoNat Nat le_antisymm thm
+abbrev 8236:8243 <> iter_nat
+R8257:8264 Corelib.Init.Datatypes <> nat_rect scheme

@@ -1,0 +1,683 @@
+DIGEST 9ad8f60846922ee1db63d7d356a0d1cb
+FStdlib.Numbers.Natural.Abstract.NLcm
+R703:709 Stdlib.Numbers.Natural.Abstract.NAxioms <> <> lib
+R711:714 Stdlib.Numbers.Natural.Abstract.NSub <> <> lib
+R716:719 Stdlib.Numbers.Natural.Abstract.NDiv <> <> lib
+R721:724 Stdlib.Numbers.Natural.Abstract.NGcd <> <> lib
+R1124:1134 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsSig' <> modtype
+R1150:1157 Stdlib.Numbers.Natural.Abstract.NSub NSubProp <> modtype
+R1159:1159 Stdlib.Numbers.Natural.Abstract.NLcm A <> mod
+R1175:1182 Stdlib.Numbers.Natural.Abstract.NDiv NDivProp <> modtype
+R1184:1184 Stdlib.Numbers.Natural.Abstract.NLcm A <> mod
+R1186:1186 Stdlib.Numbers.Natural.Abstract.NLcm B <> mod
+R1202:1209 Stdlib.Numbers.Natural.Abstract.NGcd NGcdProp <> modtype
+R1211:1211 Stdlib.Numbers.Natural.Abstract.NLcm A <> mod
+R1213:1213 Stdlib.Numbers.Natural.Abstract.NLcm B <> mod
+modtype 1102:1109 <> NLcmProp
+R1102:1109 Stdlib.Numbers.Natural.Abstract.NLcm A <> mod
+R1102:1109 Stdlib.Numbers.Natural.Abstract.NLcm B <> mod
+R1102:1109 Stdlib.Numbers.Natural.Abstract.NLcm C <> mod
+R1102:1109 Stdlib.Numbers.Natural.Abstract.NLcm D <> mod
+prf 1254:1263 NLcmProp mod_divide
+binder 1274:1274 <> a:1
+binder 1276:1276 <> b:2
+R1283:1287 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1310:1310 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1280:1281 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1279:1279 Stdlib.Numbers.Natural.Abstract.NLcm <> b:2 var
+R1300:1304 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1295:1298 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1289:1293 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1288:1288 Stdlib.Numbers.Natural.Abstract.NLcm <> a:1 var
+R1294:1294 Stdlib.Numbers.Natural.Abstract.NLcm <> b:2 var
+R1305:1305 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1307:1307 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1309:1309 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1306:1306 Stdlib.Numbers.Natural.Abstract.NLcm <> b:2 var
+R1308:1308 Stdlib.Numbers.Natural.Abstract.NLcm <> a:1 var
+R1367:1367 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1380:1387 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R1402:1408 Stdlib.Numbers.Natural.Abstract.NLcm A div_mod prfax
+R1490:1496 Stdlib.Numbers.Natural.Abstract.NLcm C mod_mul thm
+prf 1511:1530 NLcmProp divide_div_mul_exact
+binder 1541:1541 <> a:3
+binder 1543:1543 <> b:4
+binder 1545:1545 <> c:5
+R1552:1555 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1549:1550 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1548:1548 Stdlib.Numbers.Natural.Abstract.NLcm <> b:4 var
+R1561:1565 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1556:1556 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1558:1558 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1560:1560 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1557:1557 Stdlib.Numbers.Natural.Abstract.NLcm <> b:4 var
+R1559:1559 Stdlib.Numbers.Natural.Abstract.NLcm <> a:3 var
+R1573:1576 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1566:1566 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1570:1571 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1568:1568 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1567:1567 Stdlib.Numbers.Natural.Abstract.NLcm <> c:5 var
+R1569:1569 Stdlib.Numbers.Natural.Abstract.NLcm <> a:3 var
+R1572:1572 Stdlib.Numbers.Natural.Abstract.NLcm <> b:4 var
+R1578:1579 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1583:1583 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1577:1577 Stdlib.Numbers.Natural.Abstract.NLcm <> c:5 var
+R1581:1581 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1580:1580 Stdlib.Numbers.Natural.Abstract.NLcm <> a:3 var
+R1582:1582 Stdlib.Numbers.Natural.Abstract.NLcm <> b:4 var
+R1620:1631 Stdlib.Numbers.Natural.Abstract.NLcm B mul_cancel_l thm
+R1659:1667 Stdlib.Numbers.Natural.Abstract.NLcm B mul_assoc thm
+R1670:1681 Stdlib.Numbers.Natural.Abstract.NLcm B mul_shuffle0 thm
+R1707:1716 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+R1719:1727 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R1762:1769 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R1794:1802 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R1821:1830 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+R1853:1864 Stdlib.Numbers.Natural.Abstract.NLcm D divide_mul_r def
+prf 1932:1945 NLcmProp gcd_div_factor
+binder 1956:1956 <> a:6
+binder 1958:1958 <> b:7
+binder 1960:1960 <> c:8
+R1967:1970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1964:1965 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1963:1963 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R1976:1979 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1971:1971 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1973:1973 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1975:1975 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1972:1972 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R1974:1974 Stdlib.Numbers.Natural.Abstract.NLcm <> a:6 var
+R1985:1989 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1980:1980 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1982:1982 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1984:1984 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1981:1981 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R1983:1983 Stdlib.Numbers.Natural.Abstract.NLcm <> b:7 var
+R2005:2008 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1990:1992 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R1996:1996 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1995:1995 Stdlib.Numbers.Natural.Abstract.NLcm <> a:6 var
+R1997:1997 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R2002:2002 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2001:2001 Stdlib.Numbers.Natural.Abstract.NLcm <> b:7 var
+R2003:2003 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R2009:2009 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2017:2018 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2010:2012 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R2014:2014 Stdlib.Numbers.Natural.Abstract.NLcm <> a:6 var
+R2016:2016 Stdlib.Numbers.Natural.Abstract.NLcm <> b:7 var
+R2019:2019 Stdlib.Numbers.Natural.Abstract.NLcm <> c:8 var
+R2060:2071 Stdlib.Numbers.Natural.Abstract.NLcm B mul_cancel_l thm
+R2104:2115 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_greatest prfax
+R2138:2147 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+R2150:2158 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R2204:2217 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_mul_mono_l thm
+R2257:2265 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R2287:2296 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+prf 2331:2341 NLcmProp gcd_div_gcd
+binder 2352:2352 <> a:9
+binder 2354:2354 <> b:10
+binder 2356:2356 <> g:11
+R2363:2366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2360:2361 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2359:2359 Stdlib.Numbers.Natural.Abstract.NLcm <> g:11 var
+R2379:2383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2368:2371 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2367:2367 Stdlib.Numbers.Natural.Abstract.NLcm <> g:11 var
+R2372:2374 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R2376:2376 Stdlib.Numbers.Natural.Abstract.NLcm <> a:9 var
+R2378:2378 Stdlib.Numbers.Natural.Abstract.NLcm <> b:10 var
+R2399:2402 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2384:2386 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R2390:2390 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2389:2389 Stdlib.Numbers.Natural.Abstract.NLcm <> a:9 var
+R2391:2391 Stdlib.Numbers.Natural.Abstract.NLcm <> g:11 var
+R2396:2396 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2395:2395 Stdlib.Numbers.Natural.Abstract.NLcm <> b:10 var
+R2397:2397 Stdlib.Numbers.Natural.Abstract.NLcm <> g:11 var
+R2442:2455 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp gcd_div_factor thm
+R2480:2487 Stdlib.Numbers.Natural.Abstract.NLcm C div_same thm
+R2505:2514 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_nonneg prfax
+R2550:2561 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_l prfax
+R2585:2596 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_r prfax
+prf 2674:2680 NLcmProp gcd_mod
+binder 2691:2691 <> a:12
+binder 2693:2693 <> b:13
+R2700:2703 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2697:2698 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2696:2696 Stdlib.Numbers.Natural.Abstract.NLcm <> b:13 var
+R2719:2722 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2704:2706 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R2710:2714 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2709:2709 Stdlib.Numbers.Natural.Abstract.NLcm <> a:12 var
+R2715:2715 Stdlib.Numbers.Natural.Abstract.NLcm <> b:13 var
+R2718:2718 Stdlib.Numbers.Natural.Abstract.NLcm <> b:13 var
+R2723:2725 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R2727:2727 Stdlib.Numbers.Natural.Abstract.NLcm <> b:13 var
+R2729:2729 Stdlib.Numbers.Natural.Abstract.NLcm <> a:12 var
+R2764:2771 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_comm def
+R2792:2810 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_add_mult_diag_r thm
+R2816:2820 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2826:2826 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2845:2852 Stdlib.Numbers.Natural.Abstract.NLcm B add_comm thm
+R2855:2862 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R2868:2874 Stdlib.Numbers.Natural.Abstract.NLcm A div_mod prfax
+def 3119:3121 NLcmProp lcm
+binder 3123:3123 <> a:14
+binder 3125:3125 <> b:15
+R3131:3132 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3142:3142 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3130:3130 Stdlib.Numbers.Natural.Abstract.NLcm <> a:14 var
+R3134:3134 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3133:3133 Stdlib.Numbers.Natural.Abstract.NLcm <> b:15 var
+R3135:3137 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3139:3139 Stdlib.Numbers.Natural.Abstract.NLcm <> a:14 var
+R3141:3141 Stdlib.Numbers.Natural.Abstract.NLcm <> b:15 var
+inst 3165:3170 NLcmProp lcm_wd
+R3174:3179 Corelib.Classes.Morphisms <> Proper class
+R3196:3198 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R3184:3186 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3182:3183 Stdlib.Numbers.Natural.Abstract.NLcm A eq defax
+R3189:3191 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3187:3188 Stdlib.Numbers.Natural.Abstract.NLcm A eq defax
+R3192:3193 Stdlib.Numbers.Natural.Abstract.NLcm A eq defax
+R3215:3217 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+prf 3246:3255 NLcmProp lcm_equiv1
+binder 3266:3266 <> a:16
+binder 3268:3268 <> b:17
+R3283:3288 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3278:3281 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3271:3273 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3275:3275 Stdlib.Numbers.Natural.Abstract.NLcm <> a:16 var
+R3277:3277 Stdlib.Numbers.Natural.Abstract.NLcm <> b:17 var
+R3306:3309 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3290:3293 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3305:3305 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3289:3289 Stdlib.Numbers.Natural.Abstract.NLcm <> a:16 var
+R3295:3297 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3294:3294 Stdlib.Numbers.Natural.Abstract.NLcm <> b:17 var
+R3298:3300 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3302:3302 Stdlib.Numbers.Natural.Abstract.NLcm <> a:16 var
+R3304:3304 Stdlib.Numbers.Natural.Abstract.NLcm <> b:17 var
+R3310:3310 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3314:3315 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3312:3312 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3311:3311 Stdlib.Numbers.Natural.Abstract.NLcm <> a:16 var
+R3313:3313 Stdlib.Numbers.Natural.Abstract.NLcm <> b:17 var
+R3316:3318 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3320:3320 Stdlib.Numbers.Natural.Abstract.NLcm <> a:16 var
+R3322:3322 Stdlib.Numbers.Natural.Abstract.NLcm <> b:17 var
+R3355:3374 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_div_mul_exact thm
+R3393:3404 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_r prfax
+prf 3419:3428 NLcmProp lcm_equiv2
+binder 3439:3439 <> a:18
+binder 3441:3441 <> b:19
+R3456:3461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3451:3454 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3444:3446 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3448:3448 Stdlib.Numbers.Natural.Abstract.NLcm <> a:18 var
+R3450:3450 Stdlib.Numbers.Natural.Abstract.NLcm <> b:19 var
+R3479:3482 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3462:3462 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3474:3477 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3464:3466 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3463:3463 Stdlib.Numbers.Natural.Abstract.NLcm <> a:18 var
+R3467:3469 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3471:3471 Stdlib.Numbers.Natural.Abstract.NLcm <> a:18 var
+R3473:3473 Stdlib.Numbers.Natural.Abstract.NLcm <> b:19 var
+R3478:3478 Stdlib.Numbers.Natural.Abstract.NLcm <> b:19 var
+R3483:3483 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3487:3488 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3485:3485 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3484:3484 Stdlib.Numbers.Natural.Abstract.NLcm <> a:18 var
+R3486:3486 Stdlib.Numbers.Natural.Abstract.NLcm <> b:19 var
+R3489:3491 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3493:3493 Stdlib.Numbers.Natural.Abstract.NLcm <> a:18 var
+R3495:3495 Stdlib.Numbers.Natural.Abstract.NLcm <> b:19 var
+R3531:3538 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R3555:3574 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_div_mul_exact thm
+R3593:3604 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_l prfax
+prf 3619:3630 NLcmProp gcd_div_swap
+binder 3641:3641 <> a:20
+binder 3643:3643 <> b:21
+R3664:3667 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3647:3647 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3659:3662 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3649:3651 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3648:3648 Stdlib.Numbers.Natural.Abstract.NLcm <> a:20 var
+R3652:3654 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3656:3656 Stdlib.Numbers.Natural.Abstract.NLcm <> a:20 var
+R3658:3658 Stdlib.Numbers.Natural.Abstract.NLcm <> b:21 var
+R3663:3663 Stdlib.Numbers.Natural.Abstract.NLcm <> b:21 var
+R3669:3672 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3684:3684 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3668:3668 Stdlib.Numbers.Natural.Abstract.NLcm <> a:20 var
+R3674:3676 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3673:3673 Stdlib.Numbers.Natural.Abstract.NLcm <> b:21 var
+R3677:3679 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3681:3681 Stdlib.Numbers.Natural.Abstract.NLcm <> a:20 var
+R3683:3683 Stdlib.Numbers.Natural.Abstract.NLcm <> b:21 var
+R3717:3728 Stdlib.Numbers.Natural.Abstract.NLcm B eq_decidable thm
+R3731:3733 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R3765:3772 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_eq_0 def
+R3851:3860 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_equiv1 thm
+R3865:3874 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_equiv2 thm
+prf 3889:3900 NLcmProp divide_lcm_l
+binder 3911:3911 <> a:22
+binder 3913:3913 <> b:23
+R3916:3916 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3918:3920 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3928:3928 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3917:3917 Stdlib.Numbers.Natural.Abstract.NLcm <> a:22 var
+R3921:3923 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R3925:3925 Stdlib.Numbers.Natural.Abstract.NLcm <> a:22 var
+R3927:3927 Stdlib.Numbers.Natural.Abstract.NLcm <> b:23 var
+R3946:3948 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R3969:3983 Stdlib.Numbers.Natural.Abstract.NLcm D divide_factor_l def
+prf 3998:4009 NLcmProp divide_lcm_r
+binder 4020:4020 <> a:24
+binder 4022:4022 <> b:25
+R4025:4025 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4027:4029 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4037:4037 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4026:4026 Stdlib.Numbers.Natural.Abstract.NLcm <> b:25 var
+R4030:4032 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R4034:4034 Stdlib.Numbers.Natural.Abstract.NLcm <> a:24 var
+R4036:4036 Stdlib.Numbers.Natural.Abstract.NLcm <> b:25 var
+R4055:4057 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R4083:4094 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp gcd_div_swap thm
+R4104:4118 Stdlib.Numbers.Natural.Abstract.NLcm D divide_factor_r def
+prf 4133:4142 NLcmProp divide_div
+binder 4153:4153 <> a:26
+binder 4155:4155 <> b:27
+binder 4157:4157 <> c:28
+R4164:4167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4161:4162 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4160:4160 Stdlib.Numbers.Natural.Abstract.NLcm <> a:26 var
+R4173:4176 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4168:4168 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4170:4170 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4172:4172 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4169:4169 Stdlib.Numbers.Natural.Abstract.NLcm <> a:26 var
+R4171:4171 Stdlib.Numbers.Natural.Abstract.NLcm <> b:27 var
+R4182:4185 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4177:4177 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4179:4179 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4181:4181 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4178:4178 Stdlib.Numbers.Natural.Abstract.NLcm <> b:27 var
+R4180:4180 Stdlib.Numbers.Natural.Abstract.NLcm <> c:28 var
+R4186:4186 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4190:4190 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4194:4194 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4188:4188 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4187:4187 Stdlib.Numbers.Natural.Abstract.NLcm <> b:27 var
+R4189:4189 Stdlib.Numbers.Natural.Abstract.NLcm <> a:26 var
+R4192:4192 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4191:4191 Stdlib.Numbers.Natural.Abstract.NLcm <> c:28 var
+R4193:4193 Stdlib.Numbers.Natural.Abstract.NLcm <> a:26 var
+R4260:4279 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_div_mul_exact thm
+prf 4298:4306 NLcmProp lcm_least
+binder 4317:4317 <> a:29
+binder 4319:4319 <> b:30
+binder 4321:4321 <> c:31
+R4332:4335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4325:4325 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4327:4329 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4331:4331 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4326:4326 Stdlib.Numbers.Natural.Abstract.NLcm <> a:29 var
+R4330:4330 Stdlib.Numbers.Natural.Abstract.NLcm <> c:31 var
+R4343:4346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4336:4336 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4338:4340 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4342:4342 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4337:4337 Stdlib.Numbers.Natural.Abstract.NLcm <> b:30 var
+R4341:4341 Stdlib.Numbers.Natural.Abstract.NLcm <> c:31 var
+R4347:4347 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4355:4357 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4359:4359 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4348:4350 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R4352:4352 Stdlib.Numbers.Natural.Abstract.NLcm <> a:29 var
+R4354:4354 Stdlib.Numbers.Natural.Abstract.NLcm <> b:30 var
+R4358:4358 Stdlib.Numbers.Natural.Abstract.NLcm <> c:31 var
+R4397:4399 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R4413:4424 Stdlib.Numbers.Natural.Abstract.NLcm B eq_decidable thm
+R4427:4429 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R4461:4468 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_eq_0 def
+R4549:4560 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_l prfax
+R4585:4596 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_r prfax
+R4615:4617 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R4648:4657 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_div thm
+R4695:4704 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_div thm
+R4766:4773 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R4792:4796 Stdlib.Numbers.Natural.Abstract.NLcm D gauss thm
+R4814:4824 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp gcd_div_gcd thm
+R4851:4858 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_comm def
+R4916:4927 Stdlib.Numbers.Natural.Abstract.NLcm B mul_shuffle3 thm
+R4950:4954 Corelib.Init.Logic <> proj2 thm
+R4957:4965 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R4996:5007 Stdlib.Numbers.Natural.Abstract.NLcm B mul_shuffle3 thm
+R5011:5018 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R5057:5065 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R5088:5097 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+R5120:5129 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+prf 5178:5185 NLcmProp lcm_comm
+binder 5196:5196 <> a:32
+binder 5198:5198 <> b:33
+R5208:5211 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5201:5203 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5205:5205 Stdlib.Numbers.Natural.Abstract.NLcm <> a:32 var
+R5207:5207 Stdlib.Numbers.Natural.Abstract.NLcm <> b:33 var
+R5212:5214 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5216:5216 Stdlib.Numbers.Natural.Abstract.NLcm <> b:33 var
+R5218:5218 Stdlib.Numbers.Natural.Abstract.NLcm <> a:32 var
+R5248:5250 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5262:5269 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_comm def
+R5276:5283 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R5305:5316 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp gcd_div_swap thm
+prf 5331:5344 NLcmProp lcm_divide_iff
+binder 5355:5355 <> n:34
+binder 5357:5357 <> m:35
+binder 5359:5359 <> p:36
+R5377:5381 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5364:5364 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5372:5374 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5376:5376 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5365:5367 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5369:5369 Stdlib.Numbers.Natural.Abstract.NLcm <> n:34 var
+R5371:5371 Stdlib.Numbers.Natural.Abstract.NLcm <> m:35 var
+R5375:5375 Stdlib.Numbers.Natural.Abstract.NLcm <> p:36 var
+R5389:5392 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5382:5382 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5384:5386 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5388:5388 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5383:5383 Stdlib.Numbers.Natural.Abstract.NLcm <> n:34 var
+R5387:5387 Stdlib.Numbers.Natural.Abstract.NLcm <> p:36 var
+R5393:5393 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5395:5397 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5399:5399 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5394:5394 Stdlib.Numbers.Natural.Abstract.NLcm <> m:35 var
+R5398:5398 Stdlib.Numbers.Natural.Abstract.NLcm <> p:36 var
+R5457:5459 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5481:5492 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_l thm
+R5512:5514 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5536:5547 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_r thm
+R5578:5586 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_least thm
+prf 5601:5610 NLcmProp lcm_unique
+binder 5621:5621 <> n:37
+binder 5623:5623 <> m:38
+binder 5625:5625 <> p:39
+R5633:5636 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5630:5631 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5632:5632 Stdlib.Numbers.Natural.Abstract.NLcm <> p:39 var
+R5642:5645 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5637:5637 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5639:5639 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5641:5641 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5638:5638 Stdlib.Numbers.Natural.Abstract.NLcm <> n:37 var
+R5640:5640 Stdlib.Numbers.Natural.Abstract.NLcm <> p:39 var
+R5651:5655 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5646:5646 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5648:5648 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5650:5650 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5647:5647 Stdlib.Numbers.Natural.Abstract.NLcm <> m:38 var
+R5649:5649 Stdlib.Numbers.Natural.Abstract.NLcm <> p:39 var
+R5656:5656 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5690:5695 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5664:5664 <> q:40
+R5672:5675 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5667:5667 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5669:5669 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5671:5671 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5668:5668 Stdlib.Numbers.Natural.Abstract.NLcm <> n:37 var
+R5670:5670 Stdlib.Numbers.Natural.Abstract.NLcm <> q:40 var
+R5681:5684 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5676:5676 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5678:5678 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5680:5680 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5677:5677 Stdlib.Numbers.Natural.Abstract.NLcm <> m:38 var
+R5679:5679 Stdlib.Numbers.Natural.Abstract.NLcm <> q:40 var
+R5685:5685 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5687:5687 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5689:5689 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5686:5686 Stdlib.Numbers.Natural.Abstract.NLcm <> p:39 var
+R5688:5688 Stdlib.Numbers.Natural.Abstract.NLcm <> q:40 var
+R5703:5706 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5696:5698 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5700:5700 Stdlib.Numbers.Natural.Abstract.NLcm <> n:37 var
+R5702:5702 Stdlib.Numbers.Natural.Abstract.NLcm <> m:38 var
+R5707:5707 Stdlib.Numbers.Natural.Abstract.NLcm <> p:39 var
+R5750:5763 Stdlib.Numbers.Natural.Abstract.NLcm D divide_antisym def
+R5788:5796 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_least thm
+R5822:5833 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_l thm
+R5847:5858 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_r thm
+prf 5873:5886 NLcmProp lcm_unique_alt
+binder 5897:5897 <> n:41
+binder 5899:5899 <> m:42
+binder 5901:5901 <> p:43
+R5908:5912 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5905:5906 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5907:5907 Stdlib.Numbers.Natural.Abstract.NLcm <> p:43 var
+R5913:5913 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5948:5953 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5921:5921 <> q:44
+R5929:5933 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5924:5924 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5926:5926 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5928:5928 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5925:5925 Stdlib.Numbers.Natural.Abstract.NLcm <> p:43 var
+R5927:5927 Stdlib.Numbers.Natural.Abstract.NLcm <> q:44 var
+R5939:5942 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5934:5934 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5936:5936 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5938:5938 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5935:5935 Stdlib.Numbers.Natural.Abstract.NLcm <> n:41 var
+R5937:5937 Stdlib.Numbers.Natural.Abstract.NLcm <> q:44 var
+R5943:5943 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5945:5945 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5947:5947 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5944:5944 Stdlib.Numbers.Natural.Abstract.NLcm <> m:42 var
+R5946:5946 Stdlib.Numbers.Natural.Abstract.NLcm <> q:44 var
+R5961:5964 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5954:5956 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R5958:5958 Stdlib.Numbers.Natural.Abstract.NLcm <> n:41 var
+R5960:5960 Stdlib.Numbers.Natural.Abstract.NLcm <> m:42 var
+R5965:5965 Stdlib.Numbers.Natural.Abstract.NLcm <> p:43 var
+R6002:6011 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique thm
+R6035:6045 Stdlib.Numbers.Natural.Abstract.NLcm D divide_refl def
+R6060:6070 Stdlib.Numbers.Natural.Abstract.NLcm D divide_refl def
+prf 6116:6124 NLcmProp lcm_assoc
+binder 6135:6135 <> n:45
+binder 6137:6137 <> m:46
+binder 6139:6139 <> p:47
+R6157:6160 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6142:6144 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6146:6146 Stdlib.Numbers.Natural.Abstract.NLcm <> n:45 var
+R6149:6151 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6153:6153 Stdlib.Numbers.Natural.Abstract.NLcm <> m:46 var
+R6155:6155 Stdlib.Numbers.Natural.Abstract.NLcm <> p:47 var
+R6161:6163 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6166:6168 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6170:6170 Stdlib.Numbers.Natural.Abstract.NLcm <> n:45 var
+R6172:6172 Stdlib.Numbers.Natural.Abstract.NLcm <> m:46 var
+R6175:6175 Stdlib.Numbers.Natural.Abstract.NLcm <> p:47 var
+R6201:6214 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique_alt thm
+R6227:6232 Stdlib.Numbers.Natural.Abstract.NLcm B le_0_l thm
+R6260:6273 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_divide_iff thm
+R6276:6284 Corelib.Init.Logic <> and_assoc thm
+prf 6299:6305 NLcmProp lcm_0_l
+binder 6316:6316 <> n:48
+R6326:6329 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6319:6321 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6325:6325 Stdlib.Numbers.Natural.Abstract.NLcm <> n:48 var
+R6356:6365 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique thm
+R6398:6408 Stdlib.Numbers.Natural.Abstract.NLcm D divide_refl def
+R6421:6430 Stdlib.Numbers.Natural.Abstract.NLcm D divide_0_r def
+prf 6445:6451 NLcmProp lcm_0_r
+binder 6462:6462 <> n:49
+R6472:6475 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6465:6467 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6469:6469 Stdlib.Numbers.Natural.Abstract.NLcm <> n:49 var
+R6507:6514 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_comm thm
+R6517:6523 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_0_l thm
+prf 6538:6544 NLcmProp lcm_1_l
+binder 6555:6555 <> n:50
+R6565:6568 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6558:6560 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6564:6564 Stdlib.Numbers.Natural.Abstract.NLcm <> n:50 var
+R6569:6569 Stdlib.Numbers.Natural.Abstract.NLcm <> n:50 var
+R6594:6603 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique thm
+R6620:6629 Stdlib.Numbers.Natural.Abstract.NLcm D divide_1_l def
+R6632:6637 Stdlib.Numbers.Natural.Abstract.NLcm B le_0_l thm
+R6640:6650 Stdlib.Numbers.Natural.Abstract.NLcm D divide_refl def
+prf 6665:6671 NLcmProp lcm_1_r
+binder 6682:6682 <> n:51
+R6692:6695 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6685:6687 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6689:6689 Stdlib.Numbers.Natural.Abstract.NLcm <> n:51 var
+R6696:6696 Stdlib.Numbers.Natural.Abstract.NLcm <> n:51 var
+R6727:6734 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_comm thm
+R6737:6743 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_1_l thm
+prf 6758:6765 NLcmProp lcm_diag
+binder 6776:6776 <> n:52
+R6786:6789 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6779:6781 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6783:6783 Stdlib.Numbers.Natural.Abstract.NLcm <> n:52 var
+R6785:6785 Stdlib.Numbers.Natural.Abstract.NLcm <> n:52 var
+R6790:6790 Stdlib.Numbers.Natural.Abstract.NLcm <> n:52 var
+R6815:6824 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique thm
+R6841:6851 Stdlib.Numbers.Natural.Abstract.NLcm D divide_refl def
+R6854:6859 Stdlib.Numbers.Natural.Abstract.NLcm B le_0_l thm
+prf 6874:6881 NLcmProp lcm_eq_0
+binder 6892:6892 <> n:53
+binder 6894:6894 <> m:54
+R6909:6913 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6904:6907 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6897:6899 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R6901:6901 Stdlib.Numbers.Natural.Abstract.NLcm <> n:53 var
+R6903:6903 Stdlib.Numbers.Natural.Abstract.NLcm <> m:54 var
+R6920:6923 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6915:6918 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6914:6914 Stdlib.Numbers.Natural.Abstract.NLcm <> n:53 var
+R6925:6928 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6924:6924 Stdlib.Numbers.Natural.Abstract.NLcm <> m:54 var
+R6978:6985 Stdlib.Numbers.Natural.Abstract.NLcm B eq_mul_0 thm
+R6997:7006 Stdlib.Numbers.Natural.Abstract.NLcm D divide_0_l def
+R7030:7038 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_least thm
+R7052:7066 Stdlib.Numbers.Natural.Abstract.NLcm D divide_factor_l def
+R7080:7094 Stdlib.Numbers.Natural.Abstract.NLcm D divide_factor_r def
+R7146:7152 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_0_l thm
+R7166:7172 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_0_r thm
+prf 7187:7201 NLcmProp divide_lcm_eq_r
+binder 7212:7212 <> n:55
+binder 7214:7214 <> m:56
+R7222:7225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7217:7217 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7219:7219 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7221:7221 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7218:7218 Stdlib.Numbers.Natural.Abstract.NLcm <> n:55 var
+R7220:7220 Stdlib.Numbers.Natural.Abstract.NLcm <> m:56 var
+R7233:7236 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7226:7228 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R7230:7230 Stdlib.Numbers.Natural.Abstract.NLcm <> n:55 var
+R7232:7232 Stdlib.Numbers.Natural.Abstract.NLcm <> m:56 var
+R7237:7237 Stdlib.Numbers.Natural.Abstract.NLcm <> m:56 var
+R7268:7281 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_unique_alt thm
+R7298:7303 Stdlib.Numbers.Natural.Abstract.NLcm B le_0_l thm
+prf 7394:7407 NLcmProp divide_lcm_iff
+binder 7418:7418 <> n:57
+binder 7420:7420 <> m:58
+R7428:7432 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7423:7423 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7425:7425 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7427:7427 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7424:7424 Stdlib.Numbers.Natural.Abstract.NLcm <> n:57 var
+R7426:7426 Stdlib.Numbers.Natural.Abstract.NLcm <> m:58 var
+R7440:7443 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7433:7435 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R7437:7437 Stdlib.Numbers.Natural.Abstract.NLcm <> n:57 var
+R7439:7439 Stdlib.Numbers.Natural.Abstract.NLcm <> m:58 var
+R7444:7444 Stdlib.Numbers.Natural.Abstract.NLcm <> m:58 var
+R7489:7503 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_eq_r thm
+R7542:7553 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp divide_lcm_l thm
+prf 7568:7581 NLcmProp lcm_mul_mono_l
+binder 7594:7594 <> n:59
+binder 7596:7596 <> m:60
+binder 7598:7598 <> p:61
+R7620:7623 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7601:7603 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R7607:7609 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7606:7606 Stdlib.Numbers.Natural.Abstract.NLcm <> p:61 var
+R7610:7610 Stdlib.Numbers.Natural.Abstract.NLcm <> n:59 var
+R7615:7617 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7614:7614 Stdlib.Numbers.Natural.Abstract.NLcm <> p:61 var
+R7618:7618 Stdlib.Numbers.Natural.Abstract.NLcm <> m:60 var
+R7625:7627 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7624:7624 Stdlib.Numbers.Natural.Abstract.NLcm <> p:61 var
+R7628:7630 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R7632:7632 Stdlib.Numbers.Natural.Abstract.NLcm <> n:59 var
+R7634:7634 Stdlib.Numbers.Natural.Abstract.NLcm <> m:60 var
+R7670:7681 Stdlib.Numbers.Natural.Abstract.NLcm B eq_decidable thm
+R7732:7738 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_0_l thm
+R7767:7778 Stdlib.Numbers.Natural.Abstract.NLcm B eq_decidable thm
+R7781:7783 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R7816:7823 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_eq_0 def
+R7894:7900 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_0_l thm
+R7928:7930 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R7946:7959 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_mul_mono_l thm
+R7975:7983 Stdlib.Numbers.Natural.Abstract.NLcm B mul_assoc thm
+R8012:8027 Stdlib.Numbers.Natural.Abstract.NLcm C div_mul_cancel_l thm
+prf 8042:8055 NLcmProp lcm_mul_mono_r
+binder 8067:8067 <> n:62
+binder 8069:8069 <> m:63
+binder 8071:8071 <> p:64
+R8093:8096 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8074:8076 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R8080:8082 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8079:8079 Stdlib.Numbers.Natural.Abstract.NLcm <> n:62 var
+R8083:8083 Stdlib.Numbers.Natural.Abstract.NLcm <> p:64 var
+R8088:8090 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8087:8087 Stdlib.Numbers.Natural.Abstract.NLcm <> m:63 var
+R8091:8091 Stdlib.Numbers.Natural.Abstract.NLcm <> p:64 var
+R8104:8106 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8097:8099 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R8101:8101 Stdlib.Numbers.Natural.Abstract.NLcm <> n:62 var
+R8103:8103 Stdlib.Numbers.Natural.Abstract.NLcm <> m:63 var
+R8107:8107 Stdlib.Numbers.Natural.Abstract.NLcm <> p:64 var
+R8146:8153 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+R8161:8174 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm_mul_mono_l thm
+R8177:8184 Stdlib.Numbers.Natural.Abstract.NLcm B mul_comm thm
+prf 8199:8211 NLcmProp gcd_1_lcm_mul
+binder 8222:8222 <> n:65
+binder 8224:8224 <> m:66
+R8231:8234 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8228:8229 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8227:8227 Stdlib.Numbers.Natural.Abstract.NLcm <> n:65 var
+R8239:8244 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8276:8276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8236:8237 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8235:8235 Stdlib.Numbers.Natural.Abstract.NLcm <> m:66 var
+R8257:8261 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8252:8255 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8245:8247 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R8249:8249 Stdlib.Numbers.Natural.Abstract.NLcm <> n:65 var
+R8251:8251 Stdlib.Numbers.Natural.Abstract.NLcm <> m:66 var
+R8269:8272 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8262:8264 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R8266:8266 Stdlib.Numbers.Natural.Abstract.NLcm <> n:65 var
+R8268:8268 Stdlib.Numbers.Natural.Abstract.NLcm <> m:66 var
+R8274:8274 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8273:8273 Stdlib.Numbers.Natural.Abstract.NLcm <> n:65 var
+R8275:8275 Stdlib.Numbers.Natural.Abstract.NLcm <> m:66 var
+R8332:8334 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R8360:8366 Stdlib.Numbers.Natural.Abstract.NLcm C div_1_r thm
+R8379:8381 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp lcm def
+R8398:8409 Stdlib.Numbers.Natural.Abstract.NLcm B mul_cancel_l thm
+R8449:8452 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8442:8444 Stdlib.Numbers.Natural.Abstract.NLcm A gcd defax
+R8473:8480 Stdlib.Numbers.Natural.Abstract.NLcm D gcd_eq_0 def
+R8520:8531 Stdlib.Numbers.Natural.Abstract.NLcm A gcd_divide_r prfax
+R8548:8557 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp mod_divide thm
+R8581:8589 Stdlib.Numbers.Natural.Abstract.NLcm C div_exact thm
+R8642:8648 Stdlib.Numbers.Natural.Abstract.NLcm B mul_1_l thm
+R8678:8689 Stdlib.Numbers.Natural.Abstract.NLcm B mul_cancel_r thm
+R8708:8715 Stdlib.Numbers.Natural.Abstract.NLcm NLcmProp <> modtype

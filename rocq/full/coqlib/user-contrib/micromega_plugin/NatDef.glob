@@ -1,0 +1,82 @@
+DIGEST 7872f4d630ec2cf89f04335dacc8a378
+Fmicromega_plugin.NatDef
+R37:42 micromega_plugin.PosDef <> <> lib
+R73:78 Corelib.BinNums.NatDef <> <> lib
+mod 123:123 <> N
+R134:134 Corelib.BinNums.NatDef N <> mod
+def 169:172 N succ
+binder 174:174 <> n:1
+R187:187 micromega_plugin.NatDef <> n:1 var
+R198:199 Corelib.Numbers.BinNums <> N0 constr
+R204:207 Corelib.Numbers.BinNums <> Npos constr
+R209:210 Corelib.Numbers.BinNums <> xH constr
+R216:219 Corelib.Numbers.BinNums <> Npos constr
+R226:229 Corelib.Numbers.BinNums <> Npos constr
+R232:239 Corelib.BinNums.PosDef Pos succ def
+def 283:285 N add
+binder 287:287 <> n:3
+binder 289:289 <> m:4
+R305:305 micromega_plugin.NatDef <> m:4 var
+R302:302 micromega_plugin.NatDef <> n:3 var
+R316:317 Corelib.Numbers.BinNums <> N0 constr
+R325:325 micromega_plugin.NatDef <> m:4 var
+R334:335 Corelib.Numbers.BinNums <> N0 constr
+R340:340 micromega_plugin.NatDef <> n:3 var
+R346:349 Corelib.Numbers.BinNums <> Npos constr
+R354:357 Corelib.Numbers.BinNums <> Npos constr
+R364:367 Corelib.Numbers.BinNums <> Npos constr
+R370:376 Corelib.BinNums.PosDef Pos add def
+def 425:427 N mul
+binder 429:429 <> n:7
+binder 431:431 <> m:8
+R447:447 micromega_plugin.NatDef <> m:8 var
+R444:444 micromega_plugin.NatDef <> n:7 var
+R458:459 Corelib.Numbers.BinNums <> N0 constr
+R467:468 Corelib.Numbers.BinNums <> N0 constr
+R477:478 Corelib.Numbers.BinNums <> N0 constr
+R483:484 Corelib.Numbers.BinNums <> N0 constr
+R490:493 Corelib.Numbers.BinNums <> Npos constr
+R498:501 Corelib.Numbers.BinNums <> Npos constr
+R508:511 Corelib.Numbers.BinNums <> Npos constr
+R514:520 Corelib.BinNums.PosDef Pos mul def
+def 586:588 N eqb
+binder 590:590 <> n:11
+binder 592:592 <> m:12
+R608:608 micromega_plugin.NatDef <> m:12 var
+R605:605 micromega_plugin.NatDef <> n:11 var
+R621:622 Corelib.Numbers.BinNums <> N0 constr
+R625:626 Corelib.Numbers.BinNums <> N0 constr
+R631:634 Corelib.Init.Datatypes <> true constr
+R642:645 Corelib.Numbers.BinNums <> Npos constr
+R650:653 Corelib.Numbers.BinNums <> Npos constr
+R660:666 Corelib.BinNums.PosDef Pos eqb def
+R686:690 Corelib.Init.Datatypes <> false constr
+def 759:764 N to_nat
+R771:771 Corelib.Numbers.BinNums <> N ind
+binder 767:767 <> a:15
+R785:785 micromega_plugin.NatDef <> a:15 var
+R798:799 Corelib.Numbers.BinNums <> N0 constr
+R804:804 Corelib.Init.Datatypes <> O constr
+R812:815 Corelib.Numbers.BinNums <> Npos constr
+R822:831 Corelib.BinNums.PosDef Pos to_nat def
+def 924:930 N of_uint
+R935:946 Corelib.Init.Decimal <> uint ind
+binder 933:933 <> d:17
+R952:962 micromega_plugin.PosDef Pos of_uint def
+R964:964 micromega_plugin.NatDef <> d:17 var
+def 979:989 N of_hex_uint
+R994:1009 Corelib.Init.Hexadecimal <> uint ind
+binder 992:992 <> d:18
+R1015:1029 micromega_plugin.PosDef Pos of_hex_uint def
+R1031:1031 micromega_plugin.NatDef <> d:18 var
+def 1046:1056 N of_num_uint
+R1061:1071 Corelib.Init.Number <> uint variant
+binder 1059:1059 <> d:19
+R1085:1085 micromega_plugin.NatDef <> d:19 var
+R1096:1113 Corelib.Init.Number <> UIntDecimal constr
+R1120:1126 micromega_plugin.NatDef N of_uint def
+R1128:1128 micromega_plugin.NatDef <> d:19 var
+R1134:1155 Corelib.Init.Number <> UIntHexadecimal constr
+R1162:1172 micromega_plugin.NatDef N of_hex_uint def
+R1174:1174 micromega_plugin.NatDef <> d:19 var
+R1187:1187 micromega_plugin.NatDef N <> mod

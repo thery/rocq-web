@@ -1,0 +1,811 @@
+DIGEST e31d14ff921837e87982faa20d727f87
+FStdlib.ZArith.Zcong
+R27:32 Stdlib.ZArith.BinInt <> <> lib
+R62:71 Stdlib.setoid_ring.ZArithRing <> <> lib
+R101:104 Stdlib.ZArith.Zdiv <> <> lib
+R134:146 Stdlib.ZArith.Zdivisibility <> <> lib
+mod 186:186 <> Z
+prf 227:251 Z cong_mul_cancel_r_coprime
+binder 253:253 <> a:1
+binder 255:255 <> b:2
+binder 257:257 <> m:3
+R266:269 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R265:265 Stdlib.ZArith.Zcong <> m:3 var
+binder 260:261 <> Hm:4
+R279:287 Stdlib.ZArith.Zdivisibility Z coprime def
+R289:289 Stdlib.ZArith.Zcong <> b:2 var
+R291:291 Stdlib.ZArith.Zcong <> m:3 var
+binder 274:275 <> Hb:5
+R314:316 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R301:301 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R307:312 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R303:305 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R302:302 Stdlib.ZArith.Zcong <> a:1 var
+R306:306 Stdlib.ZArith.Zcong <> b:2 var
+R313:313 Stdlib.ZArith.Zcong <> m:3 var
+binder 297:297 <> H:6
+R329:331 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R323:327 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R322:322 Stdlib.ZArith.Zcong <> a:1 var
+R328:328 Stdlib.ZArith.Zcong <> m:3 var
+R350:361 Stdlib.ZArith.BinInt Z mod_divide thm
+R392:401 Stdlib.ZArith.BinInt Z mul_comm thm
+R415:421 Stdlib.ZArith.BinInt Z gauss thm
+R424:435 Stdlib.ZArith.BinInt Z mod_divide thm
+R462:471 Stdlib.ZArith.BinInt Z gcd_comm thm
+def 500:505 Z invmod
+binder 507:507 <> a:7
+binder 509:509 <> m:8
+R546:550 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R514:516 Corelib.Init.Datatypes <> fst def
+R519:521 Corelib.Init.Datatypes <> fst def
+R524:531 Stdlib.ZArith.Zdivisibility Z extgcd def
+R543:543 Stdlib.ZArith.Zcong <> m:8 var
+R535:539 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R534:534 Stdlib.ZArith.Zcong <> a:7 var
+R540:540 Stdlib.ZArith.Zcong <> m:8 var
+R551:551 Stdlib.ZArith.Zcong <> m:8 var
+prf 561:570 Z invmod_0_l
+binder 572:572 <> m:9
+R586:588 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R576:581 Stdlib.ZArith.Zcong Z invmod def
+R585:585 Stdlib.ZArith.Zcong <> m:9 var
+prf 624:633 Z invmod_0_r
+binder 635:635 <> a:10
+R649:651 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R639:644 Stdlib.ZArith.Zcong Z invmod def
+R646:646 Stdlib.ZArith.Zcong <> a:10 var
+R652:656 Stdlib.ZArith.BinInt Z sgn def
+R658:658 Stdlib.ZArith.Zcong <> a:10 var
+R676:685 Stdlib.ZArith.BinInt Z eqb_spec thm
+R720:725 Stdlib.ZArith.Zcong Z invmod def
+R738:745 Stdlib.ZArith.Zdivisibility Z extgcd def
+R775:790 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R826:828 Corelib.Init.Datatypes <> fst def
+R830:832 Corelib.Init.Datatypes <> snd def
+R847:855 Stdlib.ZArith.BinInt Z mod_0_r thm
+R859:867 Stdlib.ZArith.BinInt Z mul_0_r thm
+R871:879 Stdlib.ZArith.BinInt Z add_0_r thm
+R897:905 Stdlib.ZArith.BinInt Z gcd_0_r thm
+R910:918 Stdlib.ZArith.BinInt Z sgn_abs thm
+R922:931 Stdlib.ZArith.BinInt Z mul_comm thm
+R951:964 Stdlib.ZArith.BinInt Z mul_cancel_l thm
+prf 986:994 Z invmod_ok
+binder 996:996 <> a:11
+binder 998:998 <> m:12
+R1022:1024 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1016:1020 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1012:1014 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1002:1007 Stdlib.ZArith.Zcong Z invmod def
+R1009:1009 Stdlib.ZArith.Zcong <> a:11 var
+R1011:1011 Stdlib.ZArith.Zcong <> m:12 var
+R1015:1015 Stdlib.ZArith.Zcong <> a:11 var
+R1021:1021 Stdlib.ZArith.Zcong <> m:12 var
+R1034:1038 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1025:1029 Stdlib.ZArith.BinInt Z gcd def
+R1031:1031 Stdlib.ZArith.Zcong <> a:11 var
+R1033:1033 Stdlib.ZArith.Zcong <> m:12 var
+R1039:1039 Stdlib.ZArith.Zcong <> m:12 var
+R1057:1066 Stdlib.ZArith.BinInt Z eqb_spec thm
+R1097:1106 Stdlib.ZArith.Zcong Z invmod_0_r thm
+R1110:1118 Stdlib.ZArith.BinInt Z mod_0_r thm
+R1122:1130 Stdlib.ZArith.BinInt Z gcd_0_r thm
+R1136:1144 Stdlib.ZArith.BinInt Z sgn_abs thm
+R1153:1162 Stdlib.ZArith.BinInt Z mul_comm thm
+R1174:1179 Stdlib.ZArith.Zcong Z invmod def
+R1192:1199 Stdlib.ZArith.Zdivisibility Z extgcd def
+R1229:1244 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R1280:1282 Corelib.Init.Datatypes <> fst def
+R1284:1286 Corelib.Init.Datatypes <> snd def
+R1300:1308 Stdlib.ZArith.BinInt Z gcd_mod thm
+R1311:1320 Stdlib.ZArith.BinInt Z gcd_comm thm
+R1363:1371 Stdlib.ZArith.BinInt Z mod_add thm
+R1374:1390 Stdlib.ZArith.BinInt Z mul_mod_idemp_l thm
+R1393:1409 Stdlib.ZArith.BinInt Z mul_mod_idemp_r thm
+prf 1433:1442 Z mod_invmod
+binder 1444:1444 <> m:13
+binder 1446:1446 <> a:14
+R1466:1468 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1460:1464 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1450:1455 Stdlib.ZArith.Zcong Z invmod def
+R1457:1457 Stdlib.ZArith.Zcong <> a:14 var
+R1459:1459 Stdlib.ZArith.Zcong <> m:13 var
+R1465:1465 Stdlib.ZArith.Zcong <> m:13 var
+R1469:1474 Stdlib.ZArith.Zcong Z invmod def
+R1476:1476 Stdlib.ZArith.Zcong <> a:14 var
+R1478:1478 Stdlib.ZArith.Zcong <> m:13 var
+R1494:1501 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+prf 1516:1530 Z invmod_coprime'
+binder 1532:1532 <> a:15
+binder 1534:1534 <> m:16
+R1541:1549 Stdlib.ZArith.Zdivisibility Z coprime def
+R1551:1551 Stdlib.ZArith.Zcong <> a:15 var
+R1553:1553 Stdlib.ZArith.Zcong <> m:16 var
+binder 1537:1537 <> H:17
+R1578:1580 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1572:1576 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1568:1570 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1558:1563 Stdlib.ZArith.Zcong Z invmod def
+R1565:1565 Stdlib.ZArith.Zcong <> a:15 var
+R1567:1567 Stdlib.ZArith.Zcong <> m:16 var
+R1571:1571 Stdlib.ZArith.Zcong <> a:15 var
+R1577:1577 Stdlib.ZArith.Zcong <> m:16 var
+R1582:1586 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1587:1587 Stdlib.ZArith.Zcong <> m:16 var
+R1605:1613 Stdlib.ZArith.Zcong Z invmod_ok thm
+prf 1640:1653 Z invmod_coprime
+binder 1655:1655 <> a:18
+binder 1657:1657 <> m:19
+R1666:1669 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1670:1670 Stdlib.ZArith.Zcong <> m:19 var
+binder 1660:1661 <> Hm:20
+R1678:1686 Stdlib.ZArith.Zdivisibility Z coprime def
+R1688:1688 Stdlib.ZArith.Zcong <> a:18 var
+R1690:1690 Stdlib.ZArith.Zcong <> m:19 var
+binder 1674:1674 <> H:21
+R1715:1717 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1709:1713 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1705:1707 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1695:1700 Stdlib.ZArith.Zcong Z invmod def
+R1702:1702 Stdlib.ZArith.Zcong <> a:18 var
+R1704:1704 Stdlib.ZArith.Zcong <> m:19 var
+R1708:1708 Stdlib.ZArith.Zcong <> a:18 var
+R1714:1714 Stdlib.ZArith.Zcong <> m:19 var
+R1738:1752 Stdlib.ZArith.Zcong Z invmod_coprime' thm
+R1755:1763 Stdlib.ZArith.BinInt Z mod_1_l thm
+R1794:1804 Stdlib.ZArith.BinInt Z le_succ_l thm
+prf 1828:1839 Z invmod_prime
+binder 1841:1841 <> a:22
+binder 1843:1843 <> m:23
+R1851:1857 Stdlib.ZArith.Zdivisibility Z prime class
+R1859:1859 Stdlib.ZArith.Zcong <> m:23 var
+binder 1846:1847 <> Hm:24
+R1874:1877 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1868:1872 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1867:1867 Stdlib.ZArith.Zcong <> a:22 var
+R1873:1873 Stdlib.ZArith.Zcong <> m:23 var
+binder 1863:1863 <> H:25
+R1903:1905 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1897:1901 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1893:1895 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1883:1888 Stdlib.ZArith.Zcong Z invmod def
+R1890:1890 Stdlib.ZArith.Zcong <> a:22 var
+R1892:1892 Stdlib.ZArith.Zcong <> m:23 var
+R1896:1896 Stdlib.ZArith.Zcong <> a:22 var
+R1902:1902 Stdlib.ZArith.Zcong <> m:23 var
+R1929:1940 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R2027:2039 Stdlib.ZArith.Zdivisibility Z not_prime_0 thm
+R1965:1976 Stdlib.ZArith.BinInt Z mod_divide thm
+R2051:2064 Stdlib.ZArith.Zcong Z invmod_coprime thm
+R2092:2108 Stdlib.ZArith.Zdivisibility Z coprime_prime_l thm
+prf 2132:2141 Z invmod_1_l
+binder 2143:2143 <> m:26
+R2157:2159 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2147:2152 Stdlib.ZArith.Zcong Z invmod def
+R2156:2156 Stdlib.ZArith.Zcong <> m:26 var
+R2161:2165 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2166:2166 Stdlib.ZArith.Zcong <> m:26 var
+R2189:2203 Stdlib.ZArith.Zcong Z invmod_coprime' thm
+R2221:2233 Stdlib.ZArith.Zdivisibility Z coprime_1_l thm
+R2247:2255 Stdlib.ZArith.BinInt Z mul_1_r thm
+R2258:2267 Stdlib.ZArith.Zcong Z mod_invmod thm
+prf 2296:2307 Z invmod_mod_l
+binder 2309:2309 <> a:27
+binder 2311:2311 <> m:28
+R2333:2335 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2315:2320 Stdlib.ZArith.Zcong Z invmod def
+R2324:2328 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2323:2323 Stdlib.ZArith.Zcong <> a:27 var
+R2329:2329 Stdlib.ZArith.Zcong <> m:28 var
+R2332:2332 Stdlib.ZArith.Zcong <> m:28 var
+R2336:2341 Stdlib.ZArith.Zcong Z invmod def
+R2343:2343 Stdlib.ZArith.Zcong <> a:27 var
+R2345:2345 Stdlib.ZArith.Zcong <> m:28 var
+R2363:2370 Stdlib.ZArith.BinInt Z eq_dec def
+R2396:2404 Stdlib.ZArith.BinInt Z mod_0_r thm
+R2425:2430 Stdlib.ZArith.Zcong Z invmod def
+R2442:2449 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+prf 2473:2486 Z coprime_invmod
+binder 2488:2488 <> a:29
+binder 2490:2490 <> m:30
+R2497:2505 Stdlib.ZArith.Zdivisibility Z coprime def
+R2507:2507 Stdlib.ZArith.Zcong <> a:29 var
+R2509:2509 Stdlib.ZArith.Zcong <> m:30 var
+binder 2493:2493 <> H:31
+R2514:2522 Stdlib.ZArith.Zdivisibility Z coprime def
+R2525:2530 Stdlib.ZArith.Zcong Z invmod def
+R2532:2532 Stdlib.ZArith.Zcong <> a:29 var
+R2534:2534 Stdlib.ZArith.Zcong <> m:30 var
+R2537:2537 Stdlib.ZArith.Zcong <> m:30 var
+R2559:2568 Stdlib.ZArith.BinInt Z eqb_spec thm
+R2597:2606 Stdlib.ZArith.Zcong Z invmod_0_r thm
+R2617:2633 Stdlib.ZArith.Zdivisibility Z coprime_0_r_iff thm
+R2672:2680 Stdlib.ZArith.Zdivisibility Z coprime def
+R2682:2687 Stdlib.ZArith.Zcong Z invmod def
+R2701:2709 Stdlib.ZArith.BinInt Z gcd_mod thm
+R2734:2741 Stdlib.ZArith.Zdivisibility Z extgcd def
+R2767:2782 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R2817:2819 Corelib.Init.Datatypes <> fst def
+R2833:2841 Stdlib.ZArith.BinInt Z gcd_mod thm
+R2844:2853 Stdlib.ZArith.BinInt Z gcd_comm thm
+R2907:2920 Stdlib.ZArith.BinInt Z bezout_1_gcd thm
+R2928:2935 Stdlib.ZArith.BinInt Z Bezout def
+R2979:2979 Corelib.Numbers.BinNums <> Z ind
+R2987:2987 Corelib.Numbers.BinNums <> Z ind
+R3011:3015 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+def 3084:3094 Z combinecong
+R3111:3111 Corelib.Numbers.BinNums <> Z ind
+binder 3097:3098 <> m1:32
+binder 3100:3101 <> m2:33
+binder 3103:3104 <> r1:34
+binder 3106:3107 <> r2:35
+R3137:3144 Stdlib.ZArith.Zdivisibility Z extgcd def
+R3149:3150 Stdlib.ZArith.Zcong <> m2:33 var
+R3146:3147 Stdlib.ZArith.Zcong <> m1:32 var
+R3124:3124 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3126:3127 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3129:3130 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3132:3132 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3160:3167 Stdlib.ZArith.BinInt Z eq_dec def
+R3172:3176 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3170:3171 Stdlib.ZArith.Zcong <> r1:34 var
+R3183:3187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3181:3182 Stdlib.ZArith.Zcong <> r2:35 var
+R3203:3210 Stdlib.ZArith.BinInt Z eq_dec def
+R3260:3264 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3237:3237 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3255:3258 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3245:3247 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3242:3242 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3239:3239 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3240:3241 Stdlib.ZArith.Zcong <> m2:33 var
+R3243:3244 Stdlib.ZArith.Zcong <> r1:34 var
+R3252:3252 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3249:3249 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3250:3251 Stdlib.ZArith.Zcong <> m1:32 var
+R3253:3254 Stdlib.ZArith.Zcong <> r2:35 var
+R3265:3269 Stdlib.ZArith.BinInt Z abs def
+R3274:3275 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3280:3280 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3272:3273 Stdlib.ZArith.Zcong <> m1:32 var
+R3278:3278 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3276:3277 Stdlib.ZArith.Zcong <> m2:33 var
+R3225:3226 Stdlib.ZArith.Zcong <> r1:34 var
+prf 3300:3318 Z mod_combinecong_lcm
+binder 3320:3321 <> m1:36
+binder 3323:3324 <> m2:37
+binder 3326:3327 <> r1:38
+binder 3329:3330 <> r2:39
+R3375:3377 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3359:3363 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3336:3346 Stdlib.ZArith.Zcong Z combinecong def
+R3348:3349 Stdlib.ZArith.Zcong <> m1:36 var
+R3351:3352 Stdlib.ZArith.Zcong <> m2:37 var
+R3354:3355 Stdlib.ZArith.Zcong <> r1:38 var
+R3357:3358 Stdlib.ZArith.Zcong <> r2:39 var
+R3364:3368 Stdlib.ZArith.BinInt Z lcm def
+R3370:3371 Stdlib.ZArith.Zcong <> m1:36 var
+R3373:3374 Stdlib.ZArith.Zcong <> m2:37 var
+R3378:3388 Stdlib.ZArith.Zcong Z combinecong def
+R3390:3391 Stdlib.ZArith.Zcong <> m1:36 var
+R3393:3394 Stdlib.ZArith.Zcong <> m2:37 var
+R3396:3397 Stdlib.ZArith.Zcong <> r1:38 var
+R3399:3400 Stdlib.ZArith.Zcong <> r2:39 var
+R3417:3427 Stdlib.ZArith.Zcong Z combinecong def
+R3429:3433 Stdlib.ZArith.BinInt Z lcm def
+R3448:3455 Stdlib.ZArith.Zdivisibility Z extgcd def
+R3493:3508 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R3563:3570 Stdlib.ZArith.BinInt Z eq_dec def
+R3595:3603 Stdlib.ZArith.BinInt Z div_0_r thm
+R3607:3615 Stdlib.ZArith.BinInt Z mul_0_r thm
+R3619:3627 Stdlib.ZArith.BinInt Z mod_0_r thm
+R3641:3648 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+prf 3663:3679 Z combinecong_sound
+binder 3681:3682 <> m1:40
+binder 3684:3685 <> m2:41
+binder 3687:3688 <> r1:42
+binder 3690:3691 <> r2:43
+R3716:3718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3700:3704 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3698:3699 Stdlib.ZArith.Zcong <> r1:42 var
+R3705:3709 Stdlib.ZArith.BinInt Z gcd def
+R3711:3712 Stdlib.ZArith.Zcong <> m1:40 var
+R3714:3715 Stdlib.ZArith.Zcong <> m2:41 var
+R3721:3725 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3719:3720 Stdlib.ZArith.Zcong <> r2:43 var
+R3726:3730 Stdlib.ZArith.BinInt Z gcd def
+R3732:3733 Stdlib.ZArith.Zcong <> m1:40 var
+R3735:3736 Stdlib.ZArith.Zcong <> m2:41 var
+binder 3694:3694 <> H:44
+R3747:3757 Stdlib.ZArith.Zcong Z combinecong def
+R3759:3760 Stdlib.ZArith.Zcong <> m1:40 var
+R3762:3763 Stdlib.ZArith.Zcong <> m2:41 var
+R3765:3766 Stdlib.ZArith.Zcong <> r1:42 var
+R3768:3769 Stdlib.ZArith.Zcong <> r2:43 var
+binder 3742:3742 <> x:45
+R3794:3797 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3782:3784 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3775:3779 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3774:3774 Stdlib.ZArith.Zcong <> x:45 var
+R3780:3781 Stdlib.ZArith.Zcong <> m1:40 var
+R3787:3791 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3785:3786 Stdlib.ZArith.Zcong <> r1:42 var
+R3792:3793 Stdlib.ZArith.Zcong <> m1:40 var
+R3806:3808 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3799:3803 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3798:3798 Stdlib.ZArith.Zcong <> x:45 var
+R3804:3805 Stdlib.ZArith.Zcong <> m2:41 var
+R3811:3815 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3809:3810 Stdlib.ZArith.Zcong <> r2:43 var
+R3816:3817 Stdlib.ZArith.Zcong <> m2:41 var
+R3845:3855 Stdlib.ZArith.Zcong Z combinecong def
+R3870:3877 Stdlib.ZArith.Zdivisibility Z extgcd def
+R3915:3930 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R3983:3987 Stdlib.ZArith.BinInt Z abs def
+R3998:4002 Stdlib.ZArith.BinInt Z lcm def
+R4024:4031 Stdlib.ZArith.BinInt Z eq_dec def
+R4034:4038 Stdlib.ZArith.BinInt Z gcd def
+R4066:4075 Stdlib.ZArith.BinInt Z gcd_eq_0 thm
+R4113:4120 Stdlib.ZArith.BinInt Z eq_dec def
+R4132:4140 Stdlib.ZArith.BinInt Z mod_0_r thm
+R4189:4196 Stdlib.ZArith.BinInt Z eq_dec def
+R4264:4277 Stdlib.ZArith.BinInt Z divide_lcm_l thm
+R4280:4293 Stdlib.ZArith.BinInt Z divide_lcm_r thm
+R4233:4248 Stdlib.ZArith.Zdiv Z mod_mod_divide thm
+R4304:4315 Stdlib.ZArith.Zdiv Z cong_iff_0 thm
+R4318:4329 Stdlib.ZArith.BinInt Z mod_divide thm
+R4384:4395 Stdlib.ZArith.Zdiv Z cong_iff_0 thm
+R4401:4411 Stdlib.ZArith.BinInt Z add_opp_r thm
+R4417:4425 Stdlib.ZArith.BinInt Z div_add thm
+R4479:4479 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4485:4488 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4481:4483 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4493:4493 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4490:4490 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4494:4495 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4501:4501 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4498:4498 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4531:4552 Stdlib.ZArith.BinInt Z divide_div_mul_exact thm
+R4555:4564 Stdlib.ZArith.BinInt Z mul_comm thm
+R4567:4577 Stdlib.ZArith.BinInt Z mul_assoc thm
+R4580:4589 Stdlib.ZArith.Zdiv <> Z_mod_mult thm
+R4611:4624 Stdlib.ZArith.BinInt Z divide_opp_r thm
+R4651:4651 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4657:4660 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4653:4655 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4665:4666 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4672:4672 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4662:4662 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4669:4669 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4702:4723 Stdlib.ZArith.BinInt Z divide_div_mul_exact thm
+R4726:4735 Stdlib.ZArith.BinInt Z mul_comm thm
+R4738:4748 Stdlib.ZArith.BinInt Z mul_assoc thm
+R4751:4760 Stdlib.ZArith.Zdiv <> Z_mod_mult thm
+prf 4786:4806 Z combinecong_complete'
+binder 4808:4808 <> a:46
+binder 4810:4811 <> m1:47
+binder 4813:4814 <> m2:48
+binder 4816:4817 <> r1:49
+binder 4819:4820 <> r2:50
+R4838:4840 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4831:4835 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4830:4830 Stdlib.ZArith.Zcong <> a:46 var
+R4836:4837 Stdlib.ZArith.Zcong <> m1:47 var
+R4843:4847 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4841:4842 Stdlib.ZArith.Zcong <> r1:49 var
+R4848:4849 Stdlib.ZArith.Zcong <> m1:47 var
+binder 4825:4826 <> H1:51
+R4866:4868 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4859:4863 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4858:4858 Stdlib.ZArith.Zcong <> a:46 var
+R4864:4865 Stdlib.ZArith.Zcong <> m2:48 var
+R4871:4875 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4869:4870 Stdlib.ZArith.Zcong <> r2:50 var
+R4876:4877 Stdlib.ZArith.Zcong <> m2:48 var
+binder 4853:4854 <> H2:52
+R4902:4904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4886:4890 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4884:4885 Stdlib.ZArith.Zcong <> r1:49 var
+R4891:4895 Stdlib.ZArith.BinInt Z gcd def
+R4897:4898 Stdlib.ZArith.Zcong <> m1:47 var
+R4900:4901 Stdlib.ZArith.Zcong <> m2:48 var
+R4907:4911 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4905:4906 Stdlib.ZArith.Zcong <> r2:50 var
+R4912:4916 Stdlib.ZArith.BinInt Z gcd def
+R4918:4919 Stdlib.ZArith.Zcong <> m1:47 var
+R4921:4922 Stdlib.ZArith.Zcong <> m2:48 var
+R4941:4947 Corelib.Init.Logic <> f_equal thm
+binder 4954:4954 <> x:53
+R4960:4964 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4959:4959 Stdlib.ZArith.Zcong <> x:53 var
+R4965:4969 Stdlib.ZArith.BinInt Z gcd def
+binder 4954:4954 <> x:54
+R4959:4959 Stdlib.ZArith.Zcong <> x:54 var
+binder 4954:4954 <> x:55
+R4959:4959 Stdlib.ZArith.Zcong <> x:55 var
+R5037:5050 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R5053:5066 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R5001:5016 Stdlib.ZArith.Zdiv Z mod_mod_divide thm
+prf 5095:5114 Z combinecong_complete
+binder 5116:5116 <> a:56
+binder 5118:5119 <> m1:57
+binder 5121:5122 <> m2:58
+binder 5124:5125 <> r1:59
+binder 5127:5128 <> r2:60
+R5146:5148 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5139:5143 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5138:5138 Stdlib.ZArith.Zcong <> a:56 var
+R5144:5145 Stdlib.ZArith.Zcong <> m1:57 var
+R5151:5155 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5149:5150 Stdlib.ZArith.Zcong <> r1:59 var
+R5156:5157 Stdlib.ZArith.Zcong <> m1:57 var
+binder 5133:5134 <> H1:61
+R5174:5176 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5167:5171 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5166:5166 Stdlib.ZArith.Zcong <> a:56 var
+R5172:5173 Stdlib.ZArith.Zcong <> m2:58 var
+R5179:5183 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5177:5178 Stdlib.ZArith.Zcong <> r2:60 var
+R5184:5185 Stdlib.ZArith.Zcong <> m2:58 var
+binder 5161:5162 <> H2:62
+R5209:5211 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5193:5197 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5192:5192 Stdlib.ZArith.Zcong <> a:56 var
+R5198:5202 Stdlib.ZArith.BinInt Z lcm def
+R5204:5205 Stdlib.ZArith.Zcong <> m1:57 var
+R5207:5208 Stdlib.ZArith.Zcong <> m2:58 var
+R5212:5222 Stdlib.ZArith.Zcong Z combinecong def
+R5224:5225 Stdlib.ZArith.Zcong <> m1:57 var
+R5227:5228 Stdlib.ZArith.Zcong <> m2:58 var
+R5230:5231 Stdlib.ZArith.Zcong <> r1:59 var
+R5233:5234 Stdlib.ZArith.Zcong <> r2:60 var
+R5257:5277 Stdlib.ZArith.Zcong Z combinecong_complete' thm
+R5327:5343 Stdlib.ZArith.Zcong Z combinecong_sound thm
+R5392:5410 Stdlib.ZArith.Zcong Z mod_combinecong_lcm thm
+R5423:5433 Stdlib.ZArith.Zcong Z combinecong def
+R5458:5465 Stdlib.ZArith.BinInt Z eq_dec def
+R5489:5496 Stdlib.ZArith.BinInt Z eq_dec def
+R5527:5535 Stdlib.ZArith.BinInt Z mod_0_r thm
+R5567:5579 Stdlib.ZArith.Zdiv Z cong_iff_ex thm
+R5656:5658 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5644:5644 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5641:5641 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5645:5649 Stdlib.ZArith.BinInt Z gcd def
+R5663:5663 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5660:5660 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5664:5668 Stdlib.ZArith.BinInt Z gcd def
+R5792:5801 Stdlib.ZArith.BinInt Z gcd_eq_0 thm
+R5750:5763 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R5766:5779 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R5703:5724 Stdlib.ZArith.BinInt Z divide_div_mul_exact thm
+R5835:5841 Stdlib.ZArith.BinInt Z gauss thm
+R5846:5846 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5847:5851 Stdlib.ZArith.BinInt Z gcd def
+R5863:5863 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5864:5868 Stdlib.ZArith.BinInt Z gcd def
+R5913:5922 Stdlib.ZArith.BinInt Z mul_comm thm
+R5957:5966 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5969:5981 Stdlib.ZArith.BinInt Z gcd_div_gcd thm
+R6001:6010 Stdlib.ZArith.BinInt Z gcd_eq_0 thm
+R6040:6052 Stdlib.ZArith.Zdiv Z cong_iff_ex thm
+R6055:6068 Stdlib.ZArith.BinInt Z divide_abs_l thm
+prf 6111:6135 Z combinecong_contradiction
+binder 6137:6138 <> m1:63
+binder 6140:6141 <> m2:64
+binder 6143:6144 <> r1:65
+binder 6146:6147 <> r2:66
+R6194:6197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6172:6175 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6156:6160 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6154:6155 Stdlib.ZArith.Zcong <> r1:65 var
+R6161:6165 Stdlib.ZArith.BinInt Z gcd def
+R6167:6168 Stdlib.ZArith.Zcong <> m1:63 var
+R6170:6171 Stdlib.ZArith.Zcong <> m2:64 var
+R6178:6182 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6176:6177 Stdlib.ZArith.Zcong <> r2:66 var
+R6183:6187 Stdlib.ZArith.BinInt Z gcd def
+R6189:6190 Stdlib.ZArith.Zcong <> m1:63 var
+R6192:6193 Stdlib.ZArith.Zcong <> m2:64 var
+R6221:6223 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6198:6208 Stdlib.ZArith.Zcong Z combinecong def
+R6210:6211 Stdlib.ZArith.Zcong <> m1:63 var
+R6213:6214 Stdlib.ZArith.Zcong <> m2:64 var
+R6216:6217 Stdlib.ZArith.Zcong <> r1:65 var
+R6219:6220 Stdlib.ZArith.Zcong <> r2:66 var
+R6241:6251 Stdlib.ZArith.Zcong Z combinecong def
+R6253:6257 Stdlib.ZArith.BinInt Z lcm def
+R6272:6279 Stdlib.ZArith.Zdivisibility Z extgcd def
+R6317:6332 Stdlib.ZArith.Zdivisibility Z extgcd_correct thm
+R6380:6387 Stdlib.ZArith.BinInt Z eq_dec def
+prf 6414:6438 Z combinecong_sound_coprime
+binder 6440:6441 <> m1:67
+binder 6443:6444 <> m2:68
+binder 6446:6447 <> r1:69
+binder 6449:6450 <> r2:70
+R6457:6465 Stdlib.ZArith.Zdivisibility Z coprime def
+R6467:6468 Stdlib.ZArith.Zcong <> m1:67 var
+R6470:6471 Stdlib.ZArith.Zcong <> m2:68 var
+binder 6453:6453 <> H:71
+R6482:6492 Stdlib.ZArith.Zcong Z combinecong def
+R6494:6495 Stdlib.ZArith.Zcong <> m1:67 var
+R6497:6498 Stdlib.ZArith.Zcong <> m2:68 var
+R6500:6501 Stdlib.ZArith.Zcong <> r1:69 var
+R6503:6504 Stdlib.ZArith.Zcong <> r2:70 var
+binder 6477:6477 <> x:72
+R6529:6532 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6517:6519 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6510:6514 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6509:6509 Stdlib.ZArith.Zcong <> x:72 var
+R6515:6516 Stdlib.ZArith.Zcong <> m1:67 var
+R6522:6526 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6520:6521 Stdlib.ZArith.Zcong <> r1:69 var
+R6527:6528 Stdlib.ZArith.Zcong <> m1:67 var
+R6541:6543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6534:6538 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6533:6533 Stdlib.ZArith.Zcong <> x:72 var
+R6539:6540 Stdlib.ZArith.Zcong <> m2:68 var
+R6546:6550 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6544:6545 Stdlib.ZArith.Zcong <> r2:70 var
+R6551:6552 Stdlib.ZArith.Zcong <> m2:68 var
+R6568:6584 Stdlib.ZArith.Zcong Z combinecong_sound thm
+R6600:6608 Stdlib.ZArith.BinInt Z mod_1_r thm
+prf 6632:6663 Z combinecong_complete_coprime_abs
+binder 6665:6665 <> a:73
+binder 6667:6668 <> m1:74
+binder 6670:6671 <> m2:75
+binder 6673:6674 <> r1:76
+binder 6676:6677 <> r2:77
+R6684:6692 Stdlib.ZArith.Zdivisibility Z coprime def
+R6694:6695 Stdlib.ZArith.Zcong <> m1:74 var
+R6697:6698 Stdlib.ZArith.Zcong <> m2:75 var
+binder 6680:6680 <> H:78
+R6717:6719 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6710:6714 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6709:6709 Stdlib.ZArith.Zcong <> a:73 var
+R6715:6716 Stdlib.ZArith.Zcong <> m1:74 var
+R6722:6726 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6720:6721 Stdlib.ZArith.Zcong <> r1:76 var
+R6727:6728 Stdlib.ZArith.Zcong <> m1:74 var
+binder 6704:6705 <> H1:79
+R6745:6747 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6738:6742 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6737:6737 Stdlib.ZArith.Zcong <> a:73 var
+R6743:6744 Stdlib.ZArith.Zcong <> m2:75 var
+R6750:6754 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6748:6749 Stdlib.ZArith.Zcong <> r2:77 var
+R6755:6756 Stdlib.ZArith.Zcong <> m2:75 var
+binder 6732:6733 <> H2:80
+R6784:6786 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6764:6768 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6763:6763 Stdlib.ZArith.Zcong <> a:73 var
+R6769:6773 Stdlib.ZArith.BinInt Z abs def
+R6778:6780 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6776:6777 Stdlib.ZArith.Zcong <> m1:74 var
+R6781:6782 Stdlib.ZArith.Zcong <> m2:75 var
+R6787:6797 Stdlib.ZArith.Zcong Z combinecong def
+R6799:6800 Stdlib.ZArith.Zcong <> m1:74 var
+R6802:6803 Stdlib.ZArith.Zcong <> m2:75 var
+R6805:6806 Stdlib.ZArith.Zcong <> r1:76 var
+R6808:6809 Stdlib.ZArith.Zcong <> r2:77 var
+R6832:6851 Stdlib.ZArith.Zcong Z combinecong_complete thm
+R6878:6885 Stdlib.ZArith.BinInt Z eq_dec def
+R6909:6916 Stdlib.ZArith.BinInt Z eq_dec def
+R6949:6957 Stdlib.ZArith.BinInt Z mul_0_r thm
+R6961:6969 Stdlib.ZArith.BinInt Z lcm_0_l thm
+R6973:6981 Stdlib.ZArith.BinInt Z lcm_0_r thm
+R7012:7026 Stdlib.ZArith.BinInt Z gcd_1_lcm_mul thm
+prf 7047:7081 Z combinecong_complete_coprime_nonneg
+binder 7083:7083 <> a:81
+binder 7085:7086 <> m1:82
+binder 7088:7089 <> m2:83
+binder 7091:7092 <> r1:84
+binder 7094:7095 <> r2:85
+R7102:7110 Stdlib.ZArith.Zdivisibility Z coprime def
+R7112:7113 Stdlib.ZArith.Zcong <> m1:82 var
+R7115:7116 Stdlib.ZArith.Zcong <> m2:83 var
+binder 7098:7098 <> H:86
+R7135:7137 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7128:7132 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7127:7127 Stdlib.ZArith.Zcong <> a:81 var
+R7133:7134 Stdlib.ZArith.Zcong <> m1:82 var
+R7140:7144 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7138:7139 Stdlib.ZArith.Zcong <> r1:84 var
+R7145:7146 Stdlib.ZArith.Zcong <> m1:82 var
+binder 7122:7123 <> H1:87
+R7163:7165 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7156:7160 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7155:7155 Stdlib.ZArith.Zcong <> a:81 var
+R7161:7162 Stdlib.ZArith.Zcong <> m2:83 var
+R7168:7172 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7166:7167 Stdlib.ZArith.Zcong <> r2:85 var
+R7173:7174 Stdlib.ZArith.Zcong <> m2:83 var
+binder 7150:7151 <> H2:88
+R7184:7187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7190:7190 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7188:7189 Stdlib.ZArith.Zcong <> m1:82 var
+R7191:7192 Stdlib.ZArith.Zcong <> m2:83 var
+binder 7178:7179 <> Hm:89
+R7214:7216 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7200:7205 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7213:7213 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7199:7199 Stdlib.ZArith.Zcong <> a:81 var
+R7208:7210 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7206:7207 Stdlib.ZArith.Zcong <> m1:82 var
+R7211:7212 Stdlib.ZArith.Zcong <> m2:83 var
+R7217:7227 Stdlib.ZArith.Zcong Z combinecong def
+R7229:7230 Stdlib.ZArith.Zcong <> m1:82 var
+R7232:7233 Stdlib.ZArith.Zcong <> m2:83 var
+R7235:7236 Stdlib.ZArith.Zcong <> r1:84 var
+R7238:7239 Stdlib.ZArith.Zcong <> r2:85 var
+R7260:7291 Stdlib.ZArith.Zcong Z combinecong_complete_coprime_abs thm
+R7303:7310 Stdlib.ZArith.BinInt Z abs_eq thm
+prf 7332:7373 Z combinecong_complete_coprime_nonneg_nonneg
+binder 7375:7375 <> a:90
+binder 7377:7378 <> m1:91
+binder 7380:7381 <> m2:92
+binder 7383:7384 <> r1:93
+binder 7386:7387 <> r2:94
+R7394:7402 Stdlib.ZArith.Zdivisibility Z coprime def
+R7404:7405 Stdlib.ZArith.Zcong <> m1:91 var
+R7407:7408 Stdlib.ZArith.Zcong <> m2:92 var
+binder 7390:7390 <> H:95
+R7427:7429 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7420:7424 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7419:7419 Stdlib.ZArith.Zcong <> a:90 var
+R7425:7426 Stdlib.ZArith.Zcong <> m1:91 var
+R7432:7436 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7430:7431 Stdlib.ZArith.Zcong <> r1:93 var
+R7437:7438 Stdlib.ZArith.Zcong <> m1:91 var
+binder 7414:7415 <> H1:96
+R7455:7457 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7448:7452 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7447:7447 Stdlib.ZArith.Zcong <> a:90 var
+R7453:7454 Stdlib.ZArith.Zcong <> m2:92 var
+R7460:7464 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7458:7459 Stdlib.ZArith.Zcong <> r2:94 var
+R7465:7466 Stdlib.ZArith.Zcong <> m2:92 var
+binder 7442:7443 <> H2:97
+R7477:7480 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7481:7482 Stdlib.ZArith.Zcong <> m1:91 var
+binder 7470:7472 <> Hm1:98
+R7493:7496 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7497:7498 Stdlib.ZArith.Zcong <> m2:92 var
+binder 7486:7488 <> Hm2:99
+R7520:7522 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7506:7511 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7519:7519 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7505:7505 Stdlib.ZArith.Zcong <> a:90 var
+R7514:7516 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7512:7513 Stdlib.ZArith.Zcong <> m1:91 var
+R7517:7518 Stdlib.ZArith.Zcong <> m2:92 var
+R7523:7533 Stdlib.ZArith.Zcong Z combinecong def
+R7535:7536 Stdlib.ZArith.Zcong <> m1:91 var
+R7538:7539 Stdlib.ZArith.Zcong <> m2:92 var
+R7541:7542 Stdlib.ZArith.Zcong <> r1:93 var
+R7544:7545 Stdlib.ZArith.Zcong <> r2:94 var
+R7561:7595 Stdlib.ZArith.Zcong Z combinecong_complete_coprime_nonneg thm
+R7609:7627 Stdlib.ZArith.BinInt Z mul_nonneg_nonneg thm
+prf 7642:7657 Z combinecong_comm
+binder 7659:7660 <> m1:100
+binder 7662:7663 <> m2:101
+binder 7665:7666 <> r1:102
+binder 7668:7669 <> r2:103
+R7698:7700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7675:7685 Stdlib.ZArith.Zcong Z combinecong def
+R7687:7688 Stdlib.ZArith.Zcong <> m1:100 var
+R7690:7691 Stdlib.ZArith.Zcong <> m2:101 var
+R7693:7694 Stdlib.ZArith.Zcong <> r1:102 var
+R7696:7697 Stdlib.ZArith.Zcong <> r2:103 var
+R7701:7711 Stdlib.ZArith.Zcong Z combinecong def
+R7713:7714 Stdlib.ZArith.Zcong <> m2:101 var
+R7716:7717 Stdlib.ZArith.Zcong <> m1:100 var
+R7719:7720 Stdlib.ZArith.Zcong <> r2:103 var
+R7722:7723 Stdlib.ZArith.Zcong <> r1:102 var
+R7741:7748 Stdlib.ZArith.BinInt Z eq_dec def
+R7753:7757 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7758:7762 Stdlib.ZArith.BinInt Z gcd def
+R7774:7778 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7779:7783 Stdlib.ZArith.BinInt Z gcd def
+R7814:7832 Stdlib.ZArith.Zcong Z mod_combinecong_lcm thm
+R7835:7844 Stdlib.ZArith.BinInt Z lcm_comm thm
+R7857:7876 Stdlib.ZArith.Zcong Z combinecong_complete thm
+R7885:7901 Stdlib.ZArith.Zcong Z combinecong_sound thm
+R7927:7951 Stdlib.ZArith.Zcong Z combinecong_contradiction thm
+R7964:7973 Stdlib.ZArith.BinInt Z gcd_comm thm
+prf 8004:8020 Z combinecong_mod_l
+binder 8022:8023 <> m1:104
+binder 8025:8026 <> m2:105
+binder 8028:8029 <> r1:106
+binder 8031:8032 <> r2:107
+R8070:8072 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8038:8048 Stdlib.ZArith.Zcong Z combinecong def
+R8050:8051 Stdlib.ZArith.Zcong <> m1:104 var
+R8053:8054 Stdlib.ZArith.Zcong <> m2:105 var
+R8059:8063 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8057:8058 Stdlib.ZArith.Zcong <> r1:106 var
+R8064:8065 Stdlib.ZArith.Zcong <> m1:104 var
+R8068:8069 Stdlib.ZArith.Zcong <> r2:107 var
+R8073:8083 Stdlib.ZArith.Zcong Z combinecong def
+R8085:8086 Stdlib.ZArith.Zcong <> m1:104 var
+R8088:8089 Stdlib.ZArith.Zcong <> m2:105 var
+R8091:8092 Stdlib.ZArith.Zcong <> r1:106 var
+R8094:8095 Stdlib.ZArith.Zcong <> r2:107 var
+R8113:8120 Stdlib.ZArith.BinInt Z eq_dec def
+R8125:8129 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8130:8134 Stdlib.ZArith.BinInt Z gcd def
+R8146:8150 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8151:8155 Stdlib.ZArith.BinInt Z gcd def
+R8196:8214 Stdlib.ZArith.Zcong Z mod_combinecong_lcm thm
+R8223:8242 Stdlib.ZArith.Zcong Z combinecong_complete thm
+R8260:8267 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+R8276:8292 Stdlib.ZArith.Zcong Z combinecong_sound thm
+R8315:8339 Stdlib.ZArith.Zcong Z combinecong_contradiction thm
+R8381:8394 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R8355:8370 Stdlib.ZArith.Zdiv Z mod_mod_divide thm
+prf 8425:8441 Z combinecong_mod_r
+binder 8443:8444 <> m1:108
+binder 8446:8447 <> m2:109
+binder 8449:8450 <> r1:110
+binder 8452:8453 <> r2:111
+R8491:8493 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8459:8469 Stdlib.ZArith.Zcong Z combinecong def
+R8471:8472 Stdlib.ZArith.Zcong <> m1:108 var
+R8474:8475 Stdlib.ZArith.Zcong <> m2:109 var
+R8477:8478 Stdlib.ZArith.Zcong <> r1:110 var
+R8483:8487 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8481:8482 Stdlib.ZArith.Zcong <> r2:111 var
+R8488:8489 Stdlib.ZArith.Zcong <> m2:109 var
+R8494:8504 Stdlib.ZArith.Zcong Z combinecong def
+R8506:8507 Stdlib.ZArith.Zcong <> m1:108 var
+R8509:8510 Stdlib.ZArith.Zcong <> m2:109 var
+R8512:8513 Stdlib.ZArith.Zcong <> r1:110 var
+R8515:8516 Stdlib.ZArith.Zcong <> r2:111 var
+R8534:8549 Stdlib.ZArith.Zcong Z combinecong_comm thm
+R8552:8568 Stdlib.ZArith.Zcong Z combinecong_mod_l thm
+R8577:8592 Stdlib.ZArith.Zcong Z combinecong_comm thm
+prf 8607:8625 Z combinecong_opp_opp
+R8642:8642 Corelib.Numbers.BinNums <> Z ind
+binder 8628:8629 <> m1:112
+binder 8631:8632 <> m2:113
+binder 8634:8635 <> r1:114
+binder 8637:8638 <> r2:115
+R8680:8682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8649:8659 Stdlib.ZArith.Zcong Z combinecong def
+R8661:8662 Stdlib.ZArith.Zcong <> m1:112 var
+R8664:8665 Stdlib.ZArith.Zcong <> m2:113 var
+R8668:8669 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8670:8671 Stdlib.ZArith.Zcong <> r1:114 var
+R8675:8676 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8677:8678 Stdlib.ZArith.Zcong <> r2:115 var
+R8708:8712 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8683:8684 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8685:8695 Stdlib.ZArith.Zcong Z combinecong def
+R8697:8698 Stdlib.ZArith.Zcong <> m1:112 var
+R8700:8701 Stdlib.ZArith.Zcong <> m2:113 var
+R8703:8704 Stdlib.ZArith.Zcong <> r1:114 var
+R8706:8707 Stdlib.ZArith.Zcong <> r2:115 var
+R8713:8717 Stdlib.ZArith.BinInt Z lcm def
+R8719:8720 Stdlib.ZArith.Zcong <> m1:112 var
+R8722:8723 Stdlib.ZArith.Zcong <> m2:113 var
+R8741:8748 Stdlib.ZArith.BinInt Z eq_dec def
+R8753:8757 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8758:8762 Stdlib.ZArith.BinInt Z gcd def
+R8774:8778 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R8779:8783 Stdlib.ZArith.BinInt Z gcd def
+R8823:8842 Stdlib.ZArith.Zcong Z combinecong_complete thm
+R8855:8863 Stdlib.ZArith.BinInt Z sub_0_l thm
+R8868:8885 Stdlib.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R8898:8914 Stdlib.ZArith.Zcong Z combinecong_sound thm
+R8960:8977 Stdlib.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R9004:9028 Stdlib.ZArith.Zcong Z combinecong_contradiction thm
+R9031:9038 Stdlib.ZArith.Zdiv <> Zmod_0_l thm
+R9079:9085 Corelib.Init.Logic <> f_equal thm
+binder 9092:9092 <> z:116
+R9100:9104 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R9097:9098 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R9099:9099 Stdlib.ZArith.Zcong <> z:116 var
+R9105:9109 Stdlib.ZArith.BinInt Z gcd def
+binder 9092:9092 <> z:117
+R9099:9099 Stdlib.ZArith.Zcong <> z:117 var
+R9138:9154 Stdlib.ZArith.Zdiv Z mod_opp_mod_opp thm
+R9182:9182 Stdlib.ZArith.Zcong Z <> mod

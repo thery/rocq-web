@@ -1,0 +1,116 @@
+DIGEST 86bdef4e228f4a9f3f385d03116a600e
+FStdlib.QArith.Qminmax
+R703:713 Stdlib.QArith.QArith_base <> <> lib
+R715:720 Stdlib.Structures.Orders <> <> lib
+R722:733 Stdlib.QArith.QOrderedType <> <> lib
+R735:747 Stdlib.Structures.GenericMinMax <> <> lib
+def 916:919 <> Qmax
+R924:927 Stdlib.Structures.GenericMinMax <> gmax def
+R929:936 Stdlib.QArith.QArith_base <> Qcompare def
+def 950:953 <> Qmin
+R958:961 Stdlib.Structures.GenericMinMax <> gmin def
+R963:970 Stdlib.QArith.QArith_base <> Qcompare def
+R995:1003 Stdlib.Structures.GenericMinMax HasMinMax <> modtype
+R1005:1011 Stdlib.QArith.QOrderedType Q_as_OT <> mod
+mod 981:990 <> QHasMinMax
+R1029:1041 Stdlib.Structures.GenericMinMax GenericMinMax <> mod
+R1043:1049 Stdlib.QArith.QOrderedType Q_as_OT <> mod
+mod 1022:1024 <> QHasMinMax.QMM
+def 1064:1066 QHasMinMax max
+R1071:1074 Stdlib.QArith.Qminmax <> Qmax def
+def 1089:1091 QHasMinMax min
+R1096:1099 Stdlib.QArith.Qminmax <> Qmin def
+def 1114:1118 QHasMinMax max_l
+R1123:1131 Stdlib.QArith.Qminmax QHasMinMax max_l thm
+def 1146:1150 QHasMinMax max_r
+R1155:1163 Stdlib.QArith.Qminmax QHasMinMax max_r thm
+def 1178:1182 QHasMinMax min_l
+R1187:1195 Stdlib.QArith.Qminmax QHasMinMax min_l thm
+def 1210:1214 QHasMinMax min_r
+R1219:1227 Stdlib.QArith.Qminmax QHasMinMax min_r thm
+R1234:1243 Stdlib.QArith.Qminmax QHasMinMax <> mod
+mod 1254:1254 <> Q
+R1333:1348 Stdlib.Structures.GenericMinMax MinMaxProperties <> mod
+R1350:1356 Stdlib.QArith.QOrderedType Q_as_OT <> mod
+R1358:1367 Stdlib.QArith.Qminmax QHasMinMax <> mod
+prf 1481:1496 Q plus_max_distr_l
+binder 1507:1507 <> n:1
+binder 1509:1509 <> m:2
+binder 1511:1511 <> p:3
+R1534:1537 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1514:1517 Stdlib.QArith.Qminmax <> Qmax def
+R1521:1523 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1520:1520 Stdlib.QArith.Qminmax <> p:3 var
+R1524:1524 Stdlib.QArith.Qminmax <> n:1 var
+R1529:1531 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1528:1528 Stdlib.QArith.Qminmax <> p:3 var
+R1532:1532 Stdlib.QArith.Qminmax <> m:2 var
+R1539:1541 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1538:1538 Stdlib.QArith.Qminmax <> p:3 var
+R1542:1545 Stdlib.QArith.Qminmax <> Qmax def
+R1547:1547 Stdlib.QArith.Qminmax <> n:1 var
+R1549:1549 Stdlib.QArith.Qminmax <> m:2 var
+R1574:1585 Stdlib.QArith.Qminmax Q max_monotone abbrev
+R1662:1676 Stdlib.QArith.QArith_base <> Qplus_le_compat thm
+prf 1700:1715 Q plus_max_distr_r
+binder 1726:1726 <> n:4
+binder 1728:1728 <> m:5
+binder 1730:1730 <> p:6
+R1753:1756 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1733:1736 Stdlib.QArith.Qminmax <> Qmax def
+R1740:1742 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1739:1739 Stdlib.QArith.Qminmax <> n:4 var
+R1743:1743 Stdlib.QArith.Qminmax <> p:6 var
+R1748:1750 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1747:1747 Stdlib.QArith.Qminmax <> m:5 var
+R1751:1751 Stdlib.QArith.Qminmax <> p:6 var
+R1765:1767 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1757:1760 Stdlib.QArith.Qminmax <> Qmax def
+R1762:1762 Stdlib.QArith.Qminmax <> n:4 var
+R1764:1764 Stdlib.QArith.Qminmax <> m:5 var
+R1768:1768 Stdlib.QArith.Qminmax <> p:6 var
+R1796:1805 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R1814:1823 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R1832:1841 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R1856:1871 Stdlib.QArith.Qminmax Q plus_max_distr_l thm
+prf 1886:1901 Q plus_min_distr_l
+binder 1912:1912 <> n:7
+binder 1914:1914 <> m:8
+binder 1916:1916 <> p:9
+R1939:1942 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1919:1922 Stdlib.QArith.Qminmax <> Qmin def
+R1926:1928 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1925:1925 Stdlib.QArith.Qminmax <> p:9 var
+R1929:1929 Stdlib.QArith.Qminmax <> n:7 var
+R1934:1936 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1933:1933 Stdlib.QArith.Qminmax <> p:9 var
+R1937:1937 Stdlib.QArith.Qminmax <> m:8 var
+R1944:1946 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1943:1943 Stdlib.QArith.Qminmax <> p:9 var
+R1947:1950 Stdlib.QArith.Qminmax <> Qmin def
+R1952:1952 Stdlib.QArith.Qminmax <> n:7 var
+R1954:1954 Stdlib.QArith.Qminmax <> m:8 var
+R1979:1990 Stdlib.QArith.Qminmax Q min_monotone abbrev
+R2067:2081 Stdlib.QArith.QArith_base <> Qplus_le_compat thm
+prf 2105:2120 Q plus_min_distr_r
+binder 2131:2131 <> n:10
+binder 2133:2133 <> m:11
+binder 2135:2135 <> p:12
+R2158:2161 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2138:2141 Stdlib.QArith.Qminmax <> Qmin def
+R2145:2147 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2144:2144 Stdlib.QArith.Qminmax <> n:10 var
+R2148:2148 Stdlib.QArith.Qminmax <> p:12 var
+R2153:2155 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2152:2152 Stdlib.QArith.Qminmax <> m:11 var
+R2156:2156 Stdlib.QArith.Qminmax <> p:12 var
+R2170:2172 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2162:2165 Stdlib.QArith.Qminmax <> Qmin def
+R2167:2167 Stdlib.QArith.Qminmax <> n:10 var
+R2169:2169 Stdlib.QArith.Qminmax <> m:11 var
+R2173:2173 Stdlib.QArith.Qminmax <> p:12 var
+R2201:2210 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R2219:2228 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R2237:2246 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R2261:2276 Stdlib.QArith.Qminmax Q plus_min_distr_l thm
+R2289:2289 Stdlib.QArith.Qminmax Q <> mod

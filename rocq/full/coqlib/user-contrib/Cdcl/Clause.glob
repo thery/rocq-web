@@ -1,0 +1,617 @@
+DIGEST a2fde704aac6f4afe42fc2f5511fd9bd
+FCdcl.Clause
+R81:84 Stdlib.Bool.Bool <> <> lib
+R86:93 Stdlib.micromega.ZifyBool <> <> lib
+R95:100 Stdlib.ZArith.ZArith <> <> lib
+R102:111 Stdlib.micromega.ZifyUint63 <> <> lib
+R113:118 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R120:122 Stdlib.micromega.Lia <> <> lib
+R124:127 Stdlib.Lists.List <> <> lib
+R145:152 Cdcl.Lib <> <> lib
+R154:164 Cdcl.Syntax <> <> lib
+R166:173 Cdcl.Lit <> <> lib
+sec 289:296 <> EvalList
+var  310:310 EvalList A
+var 331:334 EvalList eval
+R339:342 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R338:338 Cdcl.Clause <> EvalList.A var
+def 361:373 <> eval_and_list
+R381:384 Corelib.Init.Datatypes <> list ind
+R386:386 Cdcl.Clause <> EvalList.A var
+binder 377:377 <> l:4
+R402:402 Cdcl.Clause <> l:4 var
+R415:417 Corelib.Init.Datatypes <> nil constr
+R422:425 Corelib.Init.Logic <> True ind
+R434:437 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R438:440 Corelib.Init.Datatypes <> nil constr
+R445:448 Cdcl.Clause <> EvalList.eval var
+R460:462 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R477:480 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R470:473 Cdcl.Clause <> EvalList.eval var
+R481:493 Cdcl.Clause <> eval_and_list:5 def
+R495:495 Cdcl.Clause <> l:4 var
+def 518:531 <> eval_and_list'
+R539:542 Corelib.Init.Datatypes <> list ind
+R544:544 Cdcl.Clause <> EvalList.A var
+binder 535:535 <> l:7
+R560:560 Cdcl.Clause <> l:7 var
+R573:575 Corelib.Init.Datatypes <> nil constr
+R580:583 Corelib.Init.Logic <> True ind
+R593:595 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R610:613 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R603:606 Cdcl.Clause <> EvalList.eval var
+R614:627 Cdcl.Clause <> eval_and_list':8 def
+R629:629 Cdcl.Clause <> l:7 var
+prf 649:664 <> eval_and_list_eq
+binder 675:675 <> l:10
+R699:703 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R684:696 Cdcl.Clause <> eval_and_list def
+R698:698 Cdcl.Clause <> l:10 var
+R704:717 Cdcl.Clause <> eval_and_list' def
+R719:719 Cdcl.Clause <> l:10 var
+def 843:854 <> eval_or_list
+R862:865 Corelib.Init.Datatypes <> list ind
+R867:867 Cdcl.Clause <> EvalList.A var
+binder 858:858 <> l:11
+R883:883 Cdcl.Clause <> l:11 var
+R896:898 Corelib.Init.Datatypes <> nil constr
+R903:907 Corelib.Init.Logic <> False ind
+R916:919 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R920:922 Corelib.Init.Datatypes <> nil constr
+R927:930 Cdcl.Clause <> EvalList.eval var
+R942:944 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R959:962 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R952:955 Cdcl.Clause <> EvalList.eval var
+R963:974 Cdcl.Clause <> eval_or_list:12 def
+R977:977 Cdcl.Clause <> l:11 var
+def 1000:1012 <> eval_or_list'
+R1020:1023 Corelib.Init.Datatypes <> list ind
+R1025:1025 Cdcl.Clause <> EvalList.A var
+binder 1016:1016 <> l:14
+R1041:1041 Cdcl.Clause <> l:14 var
+R1054:1056 Corelib.Init.Datatypes <> nil constr
+R1061:1065 Corelib.Init.Logic <> False ind
+R1075:1077 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1092:1095 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1085:1088 Cdcl.Clause <> EvalList.eval var
+R1096:1108 Cdcl.Clause <> eval_or_list':15 def
+R1111:1111 Cdcl.Clause <> l:14 var
+prf 1132:1146 <> eval_or_list_eq
+binder 1157:1157 <> l:17
+R1180:1184 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1166:1177 Cdcl.Clause <> eval_or_list def
+R1179:1179 Cdcl.Clause <> l:17 var
+R1185:1197 Cdcl.Clause <> eval_or_list' def
+R1199:1199 Cdcl.Clause <> l:17 var
+def 1325:1336 <> eval_op_list
+R1341:1343 Cdcl.Syntax <> lop ind
+binder 1339:1339 <> o:18
+R1351:1354 Corelib.Init.Datatypes <> list ind
+R1356:1356 Cdcl.Clause <> EvalList.A var
+binder 1347:1347 <> l:19
+R1372:1372 Cdcl.Clause <> o:18 var
+R1385:1388 Cdcl.Syntax <> LAND constr
+R1393:1405 Cdcl.Clause <> eval_and_list def
+R1408:1408 Cdcl.Clause <> l:19 var
+R1416:1418 Cdcl.Syntax <> LOR constr
+R1424:1435 Cdcl.Clause <> eval_or_list def
+R1438:1438 Cdcl.Clause <> l:19 var
+def 1461:1474 <> eval_impl_list
+R1481:1484 Corelib.Init.Datatypes <> list ind
+R1486:1486 Cdcl.Clause <> EvalList.A var
+binder 1477:1477 <> l:21
+binder 1490:1490 <> r:22
+R1512:1512 Cdcl.Clause <> l:21 var
+R1525:1527 Corelib.Init.Datatypes <> nil constr
+R1532:1532 Cdcl.Clause <> r:22 var
+R1541:1542 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1554:1557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1548:1551 Cdcl.Clause <> EvalList.eval var
+R1558:1571 Cdcl.Clause <> eval_impl_list:23 def
+R1575:1575 Cdcl.Clause <> r:22 var
+R1573:1573 Cdcl.Clause <> l:21 var
+prf 1595:1611 <> eval_and_list_dec
+binder 1626:1626 <> l:25
+R1674:1683 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1635:1640 Corelib.Lists.ListDef <> Forall ind
+R1673:1673 Cdcl.Clause <> l:25 var
+binder 1647:1647 <> x:26
+R1659:1662 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1653:1656 Cdcl.Clause <> EvalList.eval var
+R1658:1658 Cdcl.Clause <> x:26 var
+R1663:1664 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1665:1668 Cdcl.Clause <> EvalList.eval var
+R1670:1670 Cdcl.Clause <> x:26 var
+R1700:1704 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1684:1696 Cdcl.Clause <> eval_and_list def
+R1699:1699 Cdcl.Clause <> l:25 var
+R1705:1706 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1707:1719 Cdcl.Clause <> eval_and_list def
+R1721:1721 Cdcl.Clause <> l:25 var
+prf 1845:1860 <> eval_or_list_dec
+binder 1875:1875 <> l:27
+R1923:1932 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1884:1889 Corelib.Lists.ListDef <> Forall ind
+R1922:1922 Cdcl.Clause <> l:27 var
+binder 1896:1896 <> x:28
+R1908:1911 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1902:1905 Cdcl.Clause <> EvalList.eval var
+R1907:1907 Cdcl.Clause <> x:28 var
+R1912:1913 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1914:1917 Cdcl.Clause <> EvalList.eval var
+R1919:1919 Cdcl.Clause <> x:28 var
+R1948:1952 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1933:1944 Cdcl.Clause <> eval_or_list def
+R1947:1947 Cdcl.Clause <> l:27 var
+R1953:1954 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1955:1966 Cdcl.Clause <> eval_or_list def
+R1968:1968 Cdcl.Clause <> l:27 var
+prf 2086:2101 <> eval_op_list_dec
+binder 2116:2116 <> o:29
+binder 2118:2118 <> l:30
+R2166:2175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2127:2132 Corelib.Lists.ListDef <> Forall ind
+R2165:2165 Cdcl.Clause <> l:30 var
+binder 2139:2139 <> x:31
+R2151:2154 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2145:2148 Cdcl.Clause <> EvalList.eval var
+R2150:2150 Cdcl.Clause <> x:31 var
+R2155:2156 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2157:2160 Cdcl.Clause <> EvalList.eval var
+R2162:2162 Cdcl.Clause <> x:31 var
+R2192:2196 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2176:2187 Cdcl.Clause <> eval_op_list def
+R2189:2189 Cdcl.Clause <> o:29 var
+R2191:2191 Cdcl.Clause <> l:30 var
+R2197:2198 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2199:2210 Cdcl.Clause <> eval_op_list def
+R2212:2212 Cdcl.Clause <> o:29 var
+R2214:2214 Cdcl.Clause <> l:30 var
+R2252:2268 Cdcl.Clause <> eval_and_list_dec thm
+R2281:2296 Cdcl.Clause <> eval_or_list_dec thm
+prf 2315:2332 <> eval_impl_list_dec
+binder 2347:2347 <> l:32
+binder 2349:2349 <> r:33
+R2397:2406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2358:2363 Corelib.Lists.ListDef <> Forall ind
+R2396:2396 Cdcl.Clause <> l:32 var
+binder 2370:2370 <> x:34
+R2382:2385 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2376:2379 Cdcl.Clause <> EvalList.eval var
+R2381:2381 Cdcl.Clause <> x:34 var
+R2386:2387 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2388:2391 Cdcl.Clause <> EvalList.eval var
+R2393:2393 Cdcl.Clause <> x:34 var
+R2415:2424 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2408:2411 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2407:2407 Cdcl.Clause <> r:33 var
+R2412:2413 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2414:2414 Cdcl.Clause <> r:33 var
+R2443:2447 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2425:2438 Cdcl.Clause <> eval_impl_list def
+R2440:2440 Cdcl.Clause <> l:32 var
+R2442:2442 Cdcl.Clause <> r:33 var
+R2448:2449 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2450:2463 Cdcl.Clause <> eval_impl_list def
+R2465:2465 Cdcl.Clause <> l:32 var
+R2467:2467 Cdcl.Clause <> r:33 var
+prf 2590:2610 <> eval_and_list'_Forall
+binder 2621:2621 <> l:35
+R2640:2644 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2624:2637 Cdcl.Clause <> eval_and_list' def
+R2639:2639 Cdcl.Clause <> l:35 var
+R2645:2650 Corelib.Lists.ListDef <> Forall ind
+R2657:2657 Cdcl.Clause <> l:35 var
+R2652:2655 Cdcl.Clause <> EvalList.eval var
+R2713:2722 Cdcl.Lib <> Forall_rew thm
+R2759:2768 Cdcl.Lib <> Forall_rew thm
+prf 2794:2813 <> eval_or_list'_Exists
+binder 2824:2824 <> l:36
+R2842:2846 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2827:2839 Cdcl.Clause <> eval_or_list' def
+R2841:2841 Cdcl.Clause <> l:36 var
+R2847:2852 Stdlib.Lists.List <> Exists ind
+R2859:2859 Cdcl.Clause <> l:36 var
+R2854:2857 Cdcl.Clause <> EvalList.eval var
+prf 3013:3030 <> eval_and_list_impl
+binder 3045:3045 <> l:37
+binder 3047:3048 <> l':38
+R3057:3057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3118:3128 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3065:3065 <> x:39
+R3074:3077 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3068:3069 Stdlib.Lists.List <> In def
+R3073:3073 Cdcl.Clause <> l:37 var
+R3071:3071 Cdcl.Clause <> x:39 var
+R3078:3084 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3086:3087 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3085:3085 <> y:40
+R3095:3099 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3117:3117 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3088:3089 Stdlib.Lists.List <> In def
+R3093:3094 Cdcl.Clause <> l':38 var
+R3091:3091 Cdcl.Clause <> y:40 var
+R3106:3110 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3100:3103 Cdcl.Clause <> EvalList.eval var
+R3105:3105 Cdcl.Clause <> x:39 var
+R3111:3114 Cdcl.Clause <> EvalList.eval var
+R3116:3116 Cdcl.Clause <> y:40 var
+R3146:3149 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3129:3141 Cdcl.Clause <> eval_and_list def
+R3144:3145 Cdcl.Clause <> l':38 var
+R3150:3162 Cdcl.Clause <> eval_and_list def
+R3165:3165 Cdcl.Clause <> l:37 var
+R3202:3217 Cdcl.Clause <> eval_and_list_eq thm
+R3334:3342 Corelib.Init.Logic <> or_introl constr
+R3344:3350 Corelib.Init.Logic <> eq_refl constr
+R3438:3450 Stdlib.Lists.List <> Forall_forall thm
+R3465:3485 Cdcl.Clause <> eval_and_list'_Forall thm
+prf 3543:3559 <> eval_or_list_impl
+binder 3574:3574 <> l:41
+binder 3576:3577 <> l':42
+R3586:3586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3647:3657 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3594:3594 <> x:43
+R3604:3607 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3597:3598 Stdlib.Lists.List <> In def
+R3602:3603 Cdcl.Clause <> l':42 var
+R3600:3600 Cdcl.Clause <> x:43 var
+R3608:3614 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3616:3617 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3615:3615 <> y:44
+R3624:3628 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3646:3646 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3618:3619 Stdlib.Lists.List <> In def
+R3623:3623 Cdcl.Clause <> l:41 var
+R3621:3621 Cdcl.Clause <> y:44 var
+R3635:3639 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3629:3632 Cdcl.Clause <> EvalList.eval var
+R3634:3634 Cdcl.Clause <> x:43 var
+R3640:3643 Cdcl.Clause <> EvalList.eval var
+R3645:3645 Cdcl.Clause <> y:44 var
+R3674:3677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3658:3669 Cdcl.Clause <> eval_or_list def
+R3672:3673 Cdcl.Clause <> l':42 var
+R3678:3689 Cdcl.Clause <> eval_or_list def
+R3692:3692 Cdcl.Clause <> l:41 var
+R3729:3743 Cdcl.Clause <> eval_or_list_eq thm
+R3862:3870 Corelib.Init.Logic <> or_introl constr
+R3872:3878 Corelib.Init.Logic <> eq_refl constr
+R3940:3959 Cdcl.Clause <> eval_or_list'_Exists thm
+R3976:3988 Stdlib.Lists.List <> Exists_exists thm
+prf 4058:4074 <> eval_and_list_app
+binder 4085:4086 <> l1:45
+binder 4088:4089 <> l2:46
+R4123:4129 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4168:4168 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4098:4111 Cdcl.Clause <> eval_and_list' def
+R4116:4119 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4114:4115 Cdcl.Clause <> l1:45 var
+R4120:4121 Cdcl.Clause <> l2:46 var
+R4147:4150 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4130:4143 Cdcl.Clause <> eval_and_list' def
+R4145:4146 Cdcl.Clause <> l1:45 var
+R4151:4164 Cdcl.Clause <> eval_and_list' def
+R4166:4167 Cdcl.Clause <> l2:46 var
+prf 4269:4284 <> eval_or_list_app
+binder 4295:4296 <> l1:47
+binder 4298:4299 <> l2:48
+R4332:4338 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4375:4375 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4308:4320 Cdcl.Clause <> eval_or_list' def
+R4325:4328 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4323:4324 Cdcl.Clause <> l1:47 var
+R4329:4330 Cdcl.Clause <> l2:48 var
+R4355:4358 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4339:4351 Cdcl.Clause <> eval_or_list' def
+R4353:4354 Cdcl.Clause <> l1:47 var
+R4359:4371 Cdcl.Clause <> eval_or_list' def
+R4373:4374 Cdcl.Clause <> l2:48 var
+prf 4476:4499 <> eval_and_list_rev_append
+binder 4510:4511 <> l1:49
+binder 4513:4514 <> l2:50
+R4556:4561 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4600:4600 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4523:4536 Cdcl.Clause <> eval_and_list' def
+R4539:4548 Stdlib.Lists.List <> rev_append def
+R4553:4554 Cdcl.Clause <> l2:50 var
+R4550:4551 Cdcl.Clause <> l1:49 var
+R4579:4582 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4562:4575 Cdcl.Clause <> eval_and_list' def
+R4577:4578 Cdcl.Clause <> l1:49 var
+R4583:4596 Cdcl.Clause <> eval_and_list' def
+R4598:4599 Cdcl.Clause <> l2:50 var
+prf 4721:4743 <> eval_or_list_rev_append
+binder 4754:4755 <> l1:51
+binder 4757:4758 <> l2:52
+R4799:4804 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4841:4841 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4767:4779 Cdcl.Clause <> eval_or_list' def
+R4782:4791 Stdlib.Lists.List <> rev_append def
+R4796:4797 Cdcl.Clause <> l2:52 var
+R4793:4794 Cdcl.Clause <> l1:51 var
+R4821:4824 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4805:4817 Cdcl.Clause <> eval_or_list' def
+R4819:4820 Cdcl.Clause <> l1:51 var
+R4825:4837 Cdcl.Clause <> eval_or_list' def
+R4839:4840 Cdcl.Clause <> l2:52 var
+def 4967:4974 <> eval_lop
+R4980:4982 Cdcl.Syntax <> lop ind
+binder 4977:4977 <> o:53
+R4998:4998 Cdcl.Clause <> o:53 var
+R5011:5014 Cdcl.Syntax <> LAND constr
+R5019:5021 Corelib.Init.Logic <> and ind
+R5029:5031 Cdcl.Syntax <> LOR constr
+R5037:5038 Corelib.Init.Logic <> or ind
+prf 5058:5073 <> eval_op_list_app
+binder 5084:5084 <> o:55
+binder 5086:5087 <> l1:56
+binder 5089:5090 <> l2:57
+R5122:5127 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5099:5110 Cdcl.Clause <> eval_op_list def
+R5112:5112 Cdcl.Clause <> o:55 var
+R5117:5118 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5115:5116 Cdcl.Clause <> l1:56 var
+R5119:5120 Cdcl.Clause <> l2:57 var
+R5128:5135 Cdcl.Clause <> eval_lop def
+R5137:5137 Cdcl.Clause <> o:55 var
+R5140:5151 Cdcl.Clause <> eval_op_list def
+R5153:5153 Cdcl.Clause <> o:55 var
+R5155:5156 Cdcl.Clause <> l1:56 var
+R5160:5171 Cdcl.Clause <> eval_op_list def
+R5173:5173 Cdcl.Clause <> o:55 var
+R5175:5176 Cdcl.Clause <> l2:57 var
+R5234:5249 Cdcl.Clause <> eval_and_list_eq thm
+R5266:5282 Cdcl.Clause <> eval_and_list_app thm
+R5313:5327 Cdcl.Clause <> eval_or_list_eq thm
+R5344:5359 Cdcl.Clause <> eval_or_list_app thm
+prf 5391:5413 <> eval_op_list_rev_append
+binder 5424:5424 <> o:58
+binder 5426:5427 <> l1:59
+binder 5429:5430 <> l2:60
+R5472:5477 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5439:5450 Cdcl.Clause <> eval_op_list def
+R5452:5452 Cdcl.Clause <> o:58 var
+R5455:5464 Stdlib.Lists.List <> rev_append def
+R5469:5470 Cdcl.Clause <> l2:60 var
+R5466:5467 Cdcl.Clause <> l1:59 var
+R5478:5485 Cdcl.Clause <> eval_lop def
+R5487:5487 Cdcl.Clause <> o:58 var
+R5490:5501 Cdcl.Clause <> eval_op_list def
+R5503:5503 Cdcl.Clause <> o:58 var
+R5505:5506 Cdcl.Clause <> l1:59 var
+R5510:5521 Cdcl.Clause <> eval_op_list def
+R5523:5523 Cdcl.Clause <> o:58 var
+R5525:5526 Cdcl.Clause <> l2:60 var
+R5584:5599 Cdcl.Clause <> eval_and_list_eq thm
+R5616:5639 Cdcl.Clause <> eval_and_list_rev_append thm
+R5670:5684 Cdcl.Clause <> eval_or_list_eq thm
+R5701:5723 Cdcl.Clause <> eval_or_list_rev_append thm
+prf 5755:5771 <> eval_op_list_cons
+binder 5782:5782 <> o:61
+binder 5784:5784 <> e:62
+binder 5786:5786 <> l:63
+R5816:5821 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5795:5806 Cdcl.Clause <> eval_op_list def
+R5808:5808 Cdcl.Clause <> o:61 var
+R5812:5813 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5811:5811 Cdcl.Clause <> e:62 var
+R5814:5814 Cdcl.Clause <> l:63 var
+R5822:5829 Cdcl.Clause <> eval_lop def
+R5831:5831 Cdcl.Clause <> o:61 var
+R5834:5837 Cdcl.Clause <> EvalList.eval var
+R5839:5839 Cdcl.Clause <> e:62 var
+R5843:5854 Cdcl.Clause <> eval_op_list def
+R5856:5856 Cdcl.Clause <> o:61 var
+R5858:5858 Cdcl.Clause <> l:63 var
+R5894:5905 Cdcl.Clause <> eval_op_list def
+R5931:5946 Cdcl.Clause <> eval_and_list_eq thm
+R5985:5999 Cdcl.Clause <> eval_or_list_eq thm
+prf 6039:6055 <> eval_impl_list_eq
+binder 6066:6066 <> l:64
+binder 6069:6069 <> r:65
+R6084:6084 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6105:6116 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6100:6103 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6085:6097 Cdcl.Clause <> eval_and_list def
+R6099:6099 Cdcl.Clause <> l:64 var
+R6104:6104 Cdcl.Clause <> r:65 var
+R6117:6130 Cdcl.Clause <> eval_impl_list def
+R6132:6132 Cdcl.Clause <> l:64 var
+R6134:6134 Cdcl.Clause <> r:65 var
+R6170:6185 Cdcl.Clause <> eval_and_list_eq thm
+prf 6254:6271 <> eval_impl_list_iff
+binder 6282:6282 <> l:66
+binder 6284:6284 <> r:67
+binder 6286:6287 <> l':68
+binder 6289:6290 <> r':69
+R6299:6299 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6336:6346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6315:6319 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6300:6312 Cdcl.Clause <> eval_and_list def
+R6314:6314 Cdcl.Clause <> l:66 var
+R6320:6332 Cdcl.Clause <> eval_and_list def
+R6334:6335 Cdcl.Clause <> l':68 var
+R6347:6347 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6357:6367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6349:6354 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6348:6348 Cdcl.Clause <> r:67 var
+R6355:6356 Cdcl.Clause <> r':69 var
+R6386:6390 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6368:6381 Cdcl.Clause <> eval_impl_list def
+R6383:6383 Cdcl.Clause <> l:66 var
+R6385:6385 Cdcl.Clause <> r:67 var
+R6391:6404 Cdcl.Clause <> eval_impl_list def
+R6406:6407 Cdcl.Clause <> l':68 var
+R6409:6410 Cdcl.Clause <> r':69 var
+R6451:6467 Cdcl.Clause <> eval_impl_list_eq thm
+R6483:6498 Cdcl.Clause <> eval_and_list_eq thm
+prf 6533:6549 <> eval_and_list_rev
+binder 6560:6560 <> l:70
+R6592:6596 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6569:6582 Cdcl.Clause <> eval_and_list' def
+R6586:6588 Stdlib.Lists.List <> rev def
+R6590:6590 Cdcl.Clause <> l:70 var
+R6597:6610 Cdcl.Clause <> eval_and_list' def
+R6613:6613 Cdcl.Clause <> l:70 var
+R6676:6692 Cdcl.Clause <> eval_and_list_app thm
+prf 6731:6746 <> eval_or_list_rev
+binder 6757:6757 <> l:71
+R6788:6792 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6766:6778 Cdcl.Clause <> eval_or_list' def
+R6782:6784 Stdlib.Lists.List <> rev def
+R6786:6786 Cdcl.Clause <> l:71 var
+R6793:6805 Cdcl.Clause <> eval_or_list' def
+R6808:6808 Cdcl.Clause <> l:71 var
+R6871:6886 Cdcl.Clause <> eval_or_list_app thm
+R6922:6929 Cdcl.Clause EvalList <> sec
+def 6944:6949 <> clause
+R6954:6957 Corelib.Init.Datatypes <> list ind
+R6959:6963 Cdcl.Lit <> t def
+def 6978:6979 <> wf
+R6986:6991 Cdcl.Clause <> clause def
+binder 6982:6982 <> l:72
+R6999:7005 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7011:7012 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7006:7007 <> l1:73
+binder 7009:7010 <> l2:74
+R7014:7014 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7013:7013 Cdcl.Clause <> l:72 var
+R7015:7015 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7031:7036 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7052:7052 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7016:7023 Stdlib.Lists.List <> map abbrev
+R7029:7030 Cdcl.Clause <> l1:73 var
+R7025:7027 Cdcl.Syntax <> NEG constr
+R7037:7044 Stdlib.Lists.List <> map abbrev
+R7050:7051 Cdcl.Clause <> l2:74 var
+R7046:7048 Cdcl.Syntax <> POS constr
+def 7065:7075 <> eval_clause
+R7092:7095 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7084:7091 Cdcl.Syntax <> HFormula def
+binder 7078:7080 <> env:75
+R7108:7113 Cdcl.Clause <> clause def
+binder 7103:7104 <> cl:76
+R7127:7128 Cdcl.Clause <> cl:76 var
+R7139:7141 Corelib.Init.Datatypes <> nil constr
+R7146:7150 Corelib.Init.Logic <> False ind
+R7157:7158 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7166:7173 Cdcl.Lit <> eval_lit def
+R7175:7177 Cdcl.Clause <> env:75 var
+R7182:7192 Cdcl.Clause <> eval_clause:77 def
+R7194:7196 Cdcl.Clause <> env:75 var
+def 7220:7231 <> beval_clause
+R7248:7251 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7240:7247 Cdcl.Syntax <> HFormula def
+R7252:7255 Corelib.Init.Datatypes <> bool ind
+binder 7234:7236 <> env:79
+R7264:7269 Cdcl.Clause <> clause def
+binder 7259:7260 <> cl:80
+R7283:7284 Cdcl.Clause <> cl:80 var
+R7295:7297 Corelib.Init.Datatypes <> nil constr
+R7302:7306 Corelib.Init.Datatypes <> false constr
+R7313:7314 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7337:7340 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7322:7330 Cdcl.Lit <> beval_lit def
+R7332:7334 Cdcl.Clause <> env:79 var
+R7341:7352 Cdcl.Clause <> beval_clause:81 def
+R7354:7356 Cdcl.Clause <> env:79 var
+def 7381:7383 <> cnf
+R7388:7391 Corelib.Init.Datatypes <> list ind
+R7393:7398 Cdcl.Clause <> clause def
+def 7413:7416 <> penv
+R7433:7436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7425:7432 Cdcl.Syntax <> HFormula def
+R7437:7440 Corelib.Init.Datatypes <> bool ind
+binder 7419:7421 <> env:83
+binder 7450:7450 <> x:84
+R7455:7461 Corelib.Init.Datatypes <> is_true def
+R7464:7466 Cdcl.Clause <> env:83 var
+R7468:7468 Cdcl.Clause <> x:84 var
+def 7484:7492 <> beval_cnf
+R7508:7511 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7500:7507 Cdcl.Syntax <> HFormula def
+R7512:7515 Corelib.Init.Datatypes <> bool ind
+binder 7495:7497 <> env:85
+R7522:7524 Cdcl.Clause <> cnf def
+binder 7519:7519 <> l:86
+R7532:7546 Stdlib.Lists.List <> fold_right def
+R7594:7594 Cdcl.Clause <> l:86 var
+R7589:7592 Corelib.Init.Datatypes <> true constr
+binder 7553:7553 <> e:87
+binder 7555:7557 <> acc:88
+R7580:7583 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7562:7573 Cdcl.Clause <> beval_clause def
+R7575:7577 Cdcl.Clause <> env:85 var
+R7579:7579 Cdcl.Clause <> e:87 var
+R7584:7586 Cdcl.Clause <> acc:88 var
+def 7609:7616 <> eval_cnf
+R7632:7635 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7624:7631 Cdcl.Syntax <> HFormula def
+binder 7619:7621 <> env:89
+R7646:7648 Cdcl.Clause <> cnf def
+binder 7643:7643 <> l:90
+R7656:7670 Stdlib.Lists.List <> fold_right def
+R7717:7717 Cdcl.Clause <> l:90 var
+R7712:7715 Corelib.Init.Logic <> True ind
+binder 7677:7677 <> e:91
+binder 7679:7681 <> acc:92
+R7703:7706 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7686:7696 Cdcl.Clause <> eval_clause def
+R7698:7700 Cdcl.Clause <> env:89 var
+R7702:7702 Cdcl.Clause <> e:91 var
+R7707:7709 Cdcl.Clause <> acc:92 var
+prf 7728:7743 <> beval_clause_app
+binder 7754:7756 <> env:93
+binder 7758:7759 <> l1:94
+binder 7761:7762 <> l2:95
+R7796:7799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7842:7842 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7769:7780 Cdcl.Clause <> beval_clause def
+R7782:7784 Cdcl.Clause <> env:93 var
+R7789:7792 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7787:7788 Cdcl.Clause <> l1:94 var
+R7793:7794 Cdcl.Clause <> l2:95 var
+R7819:7822 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7800:7811 Cdcl.Clause <> beval_clause def
+R7813:7815 Cdcl.Clause <> env:93 var
+R7817:7818 Cdcl.Clause <> l1:94 var
+R7823:7834 Cdcl.Clause <> beval_clause def
+R7836:7838 Cdcl.Clause <> env:93 var
+R7840:7841 Cdcl.Clause <> l2:95 var
+prf 7946:7958 <> beval_cnf_app
+binder 7969:7971 <> env:96
+binder 7973:7974 <> l1:97
+binder 7976:7977 <> l2:98
+R8008:8011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8048:8048 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7984:7992 Cdcl.Clause <> beval_cnf def
+R7994:7996 Cdcl.Clause <> env:96 var
+R8001:8004 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7999:8000 Cdcl.Clause <> l1:97 var
+R8005:8006 Cdcl.Clause <> l2:98 var
+R8028:8031 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8012:8020 Cdcl.Clause <> beval_cnf def
+R8022:8024 Cdcl.Clause <> env:96 var
+R8026:8027 Cdcl.Clause <> l1:97 var
+R8032:8040 Cdcl.Clause <> beval_cnf def
+R8042:8044 Cdcl.Clause <> env:96 var
+R8046:8047 Cdcl.Clause <> l2:98 var
+prf 8146:8157 <> eval_cnf_app
+binder 8168:8170 <> env:99
+binder 8172:8173 <> l1:100
+binder 8175:8176 <> l2:101
+R8206:8211 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8246:8246 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8183:8190 Cdcl.Clause <> eval_cnf def
+R8192:8194 Cdcl.Clause <> env:99 var
+R8199:8202 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8197:8198 Cdcl.Clause <> l1:100 var
+R8203:8204 Cdcl.Clause <> l2:101 var
+R8227:8230 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8212:8219 Cdcl.Clause <> eval_cnf def
+R8221:8223 Cdcl.Clause <> env:99 var
+R8225:8226 Cdcl.Clause <> l1:100 var
+R8231:8238 Cdcl.Clause <> eval_cnf def
+R8240:8242 Cdcl.Clause <> env:99 var
+R8244:8245 Cdcl.Clause <> l2:101 var

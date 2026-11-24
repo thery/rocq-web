@@ -1,0 +1,682 @@
+package "controller" (
+  directory = "controller"
+  description = ""
+  requires =
+  "coq-lsp.coq
+   coq-lsp.fleche
+   coq-lsp.lang
+   coq-lsp.layout-printer
+   coq-lsp.lsp
+   coq-lsp.petanque
+   coq-lsp.petanque.json
+   coq-lsp.request
+   dune-build-info
+   ppx_deriving_yojson.runtime
+   yojson"
+  archive(byte) = "controller.cma"
+  archive(native) = ""
+  plugin(byte) = "controller.cma"
+  plugin(native) = ""
+)
+package "coq" (
+  directory = "coq"
+  description = ""
+  requires =
+  "cmdliner
+   coq-lsp.lang
+   coq-lsp.serlib
+   memprof-limits
+   ppx_compare.runtime-lib
+   ppx_hash.runtime-lib
+   rocq-runtime.clib
+   rocq-runtime.config
+   rocq-runtime.engine
+   rocq-runtime.gramlib
+   rocq-runtime.interp
+   rocq-runtime.kernel
+   rocq-runtime.lib
+   rocq-runtime.library
+   rocq-runtime.parsing
+   rocq-runtime.pretyping
+   rocq-runtime.printing
+   rocq-runtime.proofs
+   rocq-runtime.vernac"
+  archive(byte) = "coq.cma"
+  archive(native) = ""
+  plugin(byte) = "coq.cma"
+  plugin(native) = ""
+)
+package "fleche" (
+  directory = "fleche"
+  description = ""
+  requires = "coq-lsp.coq coq-lsp.fleche.waterproof coq-lsp.lang unix yojson"
+  archive(byte) = "fleche.cma"
+  archive(native) = ""
+  plugin(byte) = "fleche.cma"
+  plugin(native) = ""
+  package "waterproof" (
+    directory = "waterproof"
+    description = ""
+    requires = "coq-lsp.lang"
+    archive(byte) = "fleche_waterproof.cma"
+    archive(native) = ""
+    plugin(byte) = "fleche_waterproof.cma"
+    plugin(native) = ""
+  )
+)
+package "lang" (
+  directory = "lang"
+  description = ""
+  requires = "uri"
+  archive(byte) = "lang.cma"
+  archive(native) = ""
+  plugin(byte) = "lang.cma"
+  plugin(native) = ""
+)
+package "layout-printer" (
+  directory = "layout-printer"
+  description = ""
+  requires =
+  "rocq-runtime.clib
+   rocq-runtime.engine
+   rocq-runtime.interp
+   rocq-runtime.kernel
+   rocq-runtime.lib
+   rocq-runtime.library
+   rocq-runtime.parsing
+   rocq-runtime.pretyping
+   rocq-runtime.printing
+   tyxml
+   tyxml.functor"
+  archive(byte) = "layout.cma"
+  archive(native) = ""
+  plugin(byte) = "layout.cma"
+  plugin(native) = ""
+)
+package "lsp" (
+  directory = "lsp"
+  description = ""
+  requires =
+  "coq-lsp.coq
+   coq-lsp.fleche
+   coq-lsp.lang
+   coq-lsp.serlib
+   ppx_deriving.runtime
+   ppx_deriving_yojson.runtime
+   threads
+   yojson"
+  archive(byte) = "fleche_lsp.cma"
+  archive(native) = ""
+  plugin(byte) = "fleche_lsp.cma"
+  plugin(native) = ""
+)
+package "petanque" (
+  directory = "petanque"
+  description = ""
+  requires = "coq-lsp.coq coq-lsp.fleche coq-lsp.lang coq-lsp.request"
+  archive(byte) = "petanque.cma"
+  archive(native) = ""
+  plugin(byte) = "petanque.cma"
+  plugin(native) = ""
+  package "json" (
+    directory = "json"
+    description = ""
+    requires =
+    "coq-lsp.coq
+     coq-lsp.fleche
+     coq-lsp.lang
+     coq-lsp.lsp
+     coq-lsp.petanque
+     coq-lsp.request
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     yojson"
+    archive(byte) = "petanque_json.cma"
+    archive(native) = ""
+    plugin(byte) = "petanque_json.cma"
+    plugin(native) = ""
+  )
+  package "json_shell" (
+    directory = "json_shell"
+    description = ""
+    requires =
+    "coq-lsp.petanque
+     coq-lsp.petanque.json
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     yojson"
+    archive(byte) = "petanque_shell.cma"
+    archive(native) = ""
+    plugin(byte) = "petanque_shell.cma"
+    plugin(native) = ""
+  )
+)
+package "plugin" (
+  directory = "plugin"
+  package "astdump" (
+    directory = "astdump"
+    description = ""
+    requires = "coq-lsp.fleche coq-lsp.lsp"
+    archive(byte) = "Astdump_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Astdump_plugin.cma"
+    plugin(native) = ""
+  )
+  package "baseline" (
+    directory = "baseline"
+    description = ""
+    requires =
+    "coq-lsp.fleche
+     coq-lsp.lang
+     coq-lsp.lsp
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     rocq-runtime.vernac
+     yojson"
+    archive(byte) = "baseline.cma"
+    archive(native) = ""
+    plugin(byte) = "baseline.cma"
+    plugin(native) = ""
+  )
+  package "count_genargs" (
+    directory = "count_genargs"
+    description = ""
+    requires = "coq-lsp.fleche coq-lsp.lsp"
+    archive(byte) = "Count_genargs_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Count_genargs_plugin.cma"
+    plugin(native) = ""
+  )
+  package "example" (
+    directory = "example"
+    description = ""
+    requires = "coq-lsp.fleche coq-lsp.lang"
+    archive(byte) = "Example_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Example_plugin.cma"
+    plugin(native) = ""
+  )
+  package "explain_errors" (
+    directory = "explain_errors"
+    description = ""
+    requires = "coq-lsp.coq coq-lsp.fleche coq-lsp.lang"
+    archive(byte) = "Explain_errors.cma"
+    archive(native) = ""
+    plugin(byte) = "Explain_errors.cma"
+    plugin(native) = ""
+  )
+  package "goaldump" (
+    directory = "goaldump"
+    description = ""
+    requires =
+    "coq-lsp.fleche
+     coq-lsp.lsp
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     yojson"
+    archive(byte) = "Goaldumpl_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Goaldumpl_plugin.cma"
+    plugin(native) = ""
+  )
+  package "metanejo" (
+    directory = "metanejo"
+    description = ""
+    requires =
+    "coq-lsp.fleche
+     coq-lsp.lsp
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     yojson"
+    archive(byte) = "Metanejo_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Metanejo_plugin.cma"
+    plugin(native) = ""
+  )
+  package "save_vo" (
+    directory = "save_vo"
+    description = ""
+    requires = "coq-lsp.coq coq-lsp.fleche"
+    archive(byte) = "Savevo_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Savevo_plugin.cma"
+    plugin(native) = ""
+  )
+  package "univdiff" (
+    directory = "univdiff"
+    description = ""
+    requires = "coq-lsp.coq coq-lsp.fleche coq-lsp.lang"
+    archive(byte) = "Unidiff_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "Unidiff_plugin.cma"
+    plugin(native) = ""
+  )
+)
+package "request" (
+  directory = "request"
+  description = ""
+  requires = "coq-lsp.coq coq-lsp.fleche coq-lsp.lang"
+  archive(byte) = "request.cma"
+  archive(native) = ""
+  plugin(byte) = "request.cma"
+  plugin(native) = ""
+)
+package "serlib" (
+  directory = "serlib"
+  description = "AST utility Library for Coq"
+  requires =
+  "ppx_compare.runtime-lib
+   ppx_deriving.runtime
+   ppx_deriving_yojson.runtime
+   ppx_hash.runtime-lib
+   ppx_sexp_conv.runtime-lib
+   rocq-runtime.clib
+   rocq-runtime.config
+   rocq-runtime.engine
+   rocq-runtime.gramlib
+   rocq-runtime.interp
+   rocq-runtime.kernel
+   rocq-runtime.lib
+   rocq-runtime.library
+   rocq-runtime.parsing
+   rocq-runtime.pretyping
+   rocq-runtime.printing
+   rocq-runtime.proofs
+   rocq-runtime.tactics
+   rocq-runtime.vernac
+   sexplib
+   sexplib0
+   yojson"
+  archive(byte) = "serlib.cma"
+  archive(native) = ""
+  plugin(byte) = "serlib.cma"
+  plugin(native) = ""
+  package "btauto" (
+    directory = "btauto"
+    description = "Serialization Library for Coq BTauto Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.btauto
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_btauto.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_btauto.cma"
+    plugin(native) = ""
+  )
+  package "cc" (
+    directory = "cc"
+    description = "Serialization Library for Coq Congruence Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.cc
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_cc.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_cc.cma"
+    plugin(native) = ""
+  )
+  package "cc_core" (
+    directory = "cc_core"
+    description = "Serialization Library for Coq Cc_core Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.cc_core
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_cc_core.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_cc_core.cma"
+    plugin(native) = ""
+  )
+  package "extraction" (
+    directory = "extraction"
+    description = "Serialization Library for Coq Fundind Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.extraction
+     rocq-runtime.pretyping
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_extraction.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_extraction.cma"
+    plugin(native) = ""
+  )
+  package "firstorder" (
+    directory = "firstorder"
+    description = "Serialization Library for Coq Firstorder Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.firstorder
+     sexplib
+     sexplib0"
+    archive(byte) = "serlib_firstorder.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_firstorder.cma"
+    plugin(native) = ""
+  )
+  package "firstorder_core" (
+    directory = "firstorder_core"
+    description = "Serialization Library for Coq Firstorder_core Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.firstorder_core
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_firstorder_core.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_firstorder_core.cma"
+    plugin(native) = ""
+  )
+  package "funind" (
+    directory = "funind"
+    description = "Serialization Library for Coq Fundind Plugin"
+    requires =
+    "coq-lsp.serlib
+     coq-lsp.serlib.ltac
+     ppx_compare.runtime-lib
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.engine
+     rocq-runtime.lib
+     rocq-runtime.plugins.funind
+     rocq-runtime.plugins.ltac
+     rocq-runtime.pretyping
+     rocq-runtime.proofs
+     rocq-runtime.vernac
+     sexplib
+     sexplib0"
+    archive(byte) = "serlib_funind.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_funind.cma"
+    plugin(native) = ""
+  )
+  package "ltac" (
+    directory = "ltac"
+    description = "Serialization Library for Coq [LTAC plugin]"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.clib
+     rocq-runtime.engine
+     rocq-runtime.interp
+     rocq-runtime.kernel
+     rocq-runtime.lib
+     rocq-runtime.library
+     rocq-runtime.parsing
+     rocq-runtime.plugins.ltac
+     rocq-runtime.pretyping
+     rocq-runtime.printing
+     rocq-runtime.proofs
+     rocq-runtime.tactics
+     rocq-runtime.vernac
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_ltac.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ltac.cma"
+    plugin(native) = ""
+  )
+  package "ltac2" (
+    directory = "ltac2"
+    description = "Serialization Library for Coq [LTAC2 plugin]"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.ltac2
+     rocq-runtime.pretyping
+     rocq-runtime.vernac
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_ltac2.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ltac2.cma"
+    plugin(native) = ""
+  )
+  package "ltac2_ltac1" (
+    directory = "ltac2_ltac1"
+    description = "Serialization Library for Coq Ltac2_ltac1 Plugin"
+    requires =
+    "coq-lsp.serlib
+     coq-lsp.serlib.ltac2
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.ltac2
+     rocq-runtime.plugins.ltac2_ltac1
+     rocq-runtime.pretyping
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_ltac2_ltac1.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ltac2_ltac1.cma"
+    plugin(native) = ""
+  )
+  package "micromega" (
+    directory = "micromega"
+    description = "Serialization Library for Coq Congruence Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.micromega
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_micromega.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_micromega.cma"
+    plugin(native) = ""
+  )
+  package "micromega_core" (
+    directory = "micromega_core"
+    description = "Serialization Library for Coq Micromega_core Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.micromega_core
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_micromega_core.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_micromega_core.cma"
+    plugin(native) = ""
+  )
+  package "nsatz_core" (
+    directory = "nsatz_core"
+    description = "Serialization Library for Coq Nsatz_core Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.nsatz_core
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_nsatz_core.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_nsatz_core.cma"
+    plugin(native) = ""
+  )
+  package "number_string_notation" (
+    directory = "number_string_notation"
+    description =
+    "Serialization Library for Coq Number and String Syntax Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.number_string_notation
+     rocq-runtime.pretyping
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_number_string_notation_plugin.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_number_string_notation_plugin.cma"
+    plugin(native) = ""
+  )
+  package "ring" (
+    directory = "ring"
+    description = "Serialization Library for Coq Setoid Newring Plugin"
+    requires =
+    "coq-lsp.serlib
+     coq-lsp.serlib.ltac
+     ppx_compare.runtime-lib
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.ring
+     rocq-runtime.pretyping
+     sexplib
+     sexplib0"
+    archive(byte) = "serlib_ring.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ring.cma"
+    plugin(native) = ""
+  )
+  package "ssreflect" (
+    directory = "ssreflect"
+    description = "Serialization Library for Coq [SSR plugin]"
+    requires =
+    "coq-lsp.serlib
+     coq-lsp.serlib.ltac
+     coq-lsp.serlib.ssrmatching
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.engine
+     rocq-runtime.plugins.ltac
+     rocq-runtime.plugins.ssreflect
+     rocq-runtime.plugins.ssrmatching
+     rocq-runtime.pretyping
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_ssr.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ssr.cma"
+    plugin(native) = ""
+  )
+  package "ssrmatching" (
+    directory = "ssrmatching"
+    description = "Serialization Library for Coq [SSR Matching plugin]"
+    requires =
+    "coq-lsp.serlib
+     coq-lsp.serlib.ltac
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.ssrmatching
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_ssrmatching.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_ssrmatching.cma"
+    plugin(native) = ""
+  )
+  package "tauto" (
+    directory = "tauto"
+    description = "Serialization Library for Coq Tauto Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.tauto
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_tauto.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_tauto.cma"
+    plugin(native) = ""
+  )
+  package "zify" (
+    directory = "zify"
+    description = "Serialization Library for Coq Congruence Plugin"
+    requires =
+    "coq-lsp.serlib
+     ppx_compare.runtime-lib
+     ppx_deriving.runtime
+     ppx_deriving_yojson.runtime
+     ppx_hash.runtime-lib
+     ppx_sexp_conv.runtime-lib
+     rocq-runtime.plugins.zify
+     sexplib
+     sexplib0
+     yojson"
+    archive(byte) = "serlib_zify.cma"
+    archive(native) = ""
+    plugin(byte) = "serlib_zify.cma"
+    plugin(native) = ""
+  )
+)

@@ -1,0 +1,278 @@
+DIGEST ff7640c950b4877feab70bbceb58ab59
+FStdlib.Numbers.HexadecimalZ
+R811:821 Stdlib.Init.Hexadecimal <> <> lib
+R823:838 Stdlib.Numbers.HexadecimalFacts <> <> lib
+R840:853 Stdlib.Numbers.HexadecimalPos <> <> lib
+R855:866 Stdlib.Numbers.HexadecimalN <> <> lib
+R868:873 Stdlib.NArith.BinNat <> <> lib
+R875:880 Stdlib.ZArith.BinInt <> <> lib
+R882:885 Stdlib.ZArith.Znat <> <> lib
+prf 895:899 <> of_to
+R904:904 Corelib.Numbers.BinNums <> Z ind
+binder 902:902 <> z:1
+R938:940 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R909:920 Stdlib.ZArith.BinInt Z of_hex_int def
+R923:934 Stdlib.ZArith.BinInt Z to_hex_int def
+R936:936 Stdlib.Numbers.HexadecimalZ <> z:1 var
+R941:941 Stdlib.Numbers.HexadecimalZ <> z:1 var
+R996:1008 Stdlib.ZArith.BinInt Z of_hex_uint def
+R1019:1047 Stdlib.Numbers.HexadecimalPos Unsigned of_to thm
+R1077:1089 Stdlib.ZArith.BinInt Z of_hex_uint def
+R1100:1128 Stdlib.Numbers.HexadecimalPos Unsigned of_to thm
+prf 1161:1165 <> to_of
+R1170:1172 Corelib.Init.Hexadecimal <> int abbrev
+binder 1168:1168 <> d:2
+R1206:1208 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1177:1188 Stdlib.ZArith.BinInt Z to_hex_int def
+R1191:1202 Stdlib.ZArith.BinInt Z of_hex_int def
+R1204:1204 Stdlib.Numbers.HexadecimalZ <> d:2 var
+R1209:1212 Corelib.Init.Hexadecimal <> norm def
+R1214:1214 Stdlib.Numbers.HexadecimalZ <> d:2 var
+R1252:1263 Stdlib.ZArith.BinInt Z to_hex_int def
+R1266:1278 Stdlib.ZArith.BinInt Z of_hex_uint def
+R1297:1323 Stdlib.Numbers.HexadecimalN Unsigned to_of thm
+R1336:1348 Stdlib.NArith.BinNat N of_hex_uint def
+R1369:1383 Stdlib.PArith.BinPos Pos of_hex_uint def
+R1403:1417 Stdlib.PArith.BinPos Pos of_hex_uint def
+R1464:1492 Stdlib.Numbers.HexadecimalPos Unsigned to_of thm
+R1554:1560 Stdlib.Numbers.HexadecimalFacts <> unorm_0 thm
+R1603:1631 Stdlib.Numbers.HexadecimalPos Unsigned to_of thm
+R1692:1696 Corelib.Init.Hexadecimal <> unorm def
+R1720:1725 Corelib.Init.Hexadecimal <> nzhead def
+R1758:1786 Stdlib.Numbers.HexadecimalPos Unsigned of_to thm
+prf 1846:1855 <> to_int_inj
+binder 1857:1857 <> n:3
+binder 1859:1860 <> n':4
+R1896:1899 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1878:1880 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1864:1875 Stdlib.ZArith.BinInt Z to_hex_int def
+R1877:1877 Stdlib.Numbers.HexadecimalZ <> n:3 var
+R1881:1892 Stdlib.ZArith.BinInt Z to_hex_int def
+R1894:1895 Stdlib.Numbers.HexadecimalZ <> n':4 var
+R1901:1903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1900:1900 Stdlib.Numbers.HexadecimalZ <> n:3 var
+R1904:1905 Stdlib.Numbers.HexadecimalZ <> n':4 var
+R1945:1949 Stdlib.Numbers.HexadecimalZ <> of_to thm
+R1959:1963 Stdlib.Numbers.HexadecimalZ <> of_to thm
+prf 1986:1996 <> to_int_surj
+binder 1998:1998 <> d:5
+R2002:2008 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2010:2011 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2009:2009 <> n:6
+R2026:2028 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2012:2023 Stdlib.ZArith.BinInt Z to_hex_int def
+R2025:2025 Stdlib.Numbers.HexadecimalZ <> n:6 var
+R2029:2032 Corelib.Init.Hexadecimal <> norm def
+R2034:2034 Stdlib.Numbers.HexadecimalZ <> d:5 var
+R2054:2065 Stdlib.ZArith.BinInt Z of_hex_int def
+R2077:2081 Stdlib.Numbers.HexadecimalZ <> to_of thm
+prf 2096:2106 <> of_int_norm
+binder 2108:2108 <> d:7
+R2133:2135 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2112:2123 Stdlib.ZArith.BinInt Z of_hex_int def
+R2126:2129 Corelib.Init.Hexadecimal <> norm def
+R2131:2131 Stdlib.Numbers.HexadecimalZ <> d:7 var
+R2136:2147 Stdlib.ZArith.BinInt Z of_hex_int def
+R2149:2149 Stdlib.Numbers.HexadecimalZ <> d:7 var
+R2168:2179 Stdlib.ZArith.BinInt Z of_hex_int def
+R2182:2194 Stdlib.ZArith.BinInt Z of_hex_uint def
+R2234:2269 Stdlib.Numbers.HexadecimalPos Unsigned of_uint_norm thm
+R2293:2298 Corelib.Init.Hexadecimal <> nzhead def
+R2373:2386 Stdlib.Numbers.HexadecimalFacts <> nzhead_nonzero thm
+R2431:2460 Stdlib.Numbers.HexadecimalPos Unsigned of_iff thm
+R2476:2480 Corelib.Init.Hexadecimal <> unorm def
+prf 2510:2515 <> of_inj
+binder 2517:2517 <> d:8
+binder 2519:2520 <> d':9
+R2558:2561 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2540:2542 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2526:2537 Stdlib.ZArith.BinInt Z of_hex_int def
+R2539:2539 Stdlib.Numbers.HexadecimalZ <> d:8 var
+R2543:2554 Stdlib.ZArith.BinInt Z of_hex_int def
+R2556:2557 Stdlib.Numbers.HexadecimalZ <> d':9 var
+R2568:2570 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2562:2565 Corelib.Init.Hexadecimal <> norm def
+R2567:2567 Stdlib.Numbers.HexadecimalZ <> d:8 var
+R2571:2574 Corelib.Init.Hexadecimal <> norm def
+R2576:2577 Stdlib.Numbers.HexadecimalZ <> d':9 var
+R2609:2613 Stdlib.Numbers.HexadecimalZ <> to_of thm
+prf 2641:2646 <> of_iff
+binder 2648:2648 <> d:10
+binder 2650:2651 <> d':11
+R2687:2691 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2669:2671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2655:2666 Stdlib.ZArith.BinInt Z of_hex_int def
+R2668:2668 Stdlib.Numbers.HexadecimalZ <> d:10 var
+R2672:2683 Stdlib.ZArith.BinInt Z of_hex_int def
+R2685:2686 Stdlib.Numbers.HexadecimalZ <> d':11 var
+R2698:2700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2692:2695 Corelib.Init.Hexadecimal <> norm def
+R2697:2697 Stdlib.Numbers.HexadecimalZ <> d:10 var
+R2701:2704 Corelib.Init.Hexadecimal <> norm def
+R2706:2707 Stdlib.Numbers.HexadecimalZ <> d':11 var
+R2736:2741 Stdlib.Numbers.HexadecimalZ <> of_inj thm
+R2769:2779 Stdlib.Numbers.HexadecimalZ <> of_int_norm thm
+R2795:2805 Stdlib.Numbers.HexadecimalZ <> of_int_norm thm
+prf 2843:2861 <> of_hex_uint_iter_D0
+binder 2863:2863 <> d:12
+binder 2865:2865 <> n:13
+R2912:2916 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2871:2883 Stdlib.ZArith.BinInt Z of_hex_uint def
+R2886:2888 Corelib.Init.Hexadecimal <> app def
+R2890:2890 Stdlib.Numbers.HexadecimalZ <> d:12 var
+R2893:2900 Stdlib.Arith.PeanoNat Nat iter def
+R2907:2909 Corelib.Init.Hexadecimal <> Nil constr
+R2904:2905 Corelib.Init.Hexadecimal <> D0 constr
+R2902:2902 Stdlib.Numbers.HexadecimalZ <> n:13 var
+R2917:2924 Stdlib.Arith.PeanoNat Nat iter def
+R2942:2954 Stdlib.ZArith.BinInt Z of_hex_uint def
+R2956:2956 Stdlib.Numbers.HexadecimalZ <> d:12 var
+R2929:2933 Stdlib.ZArith.BinInt Z mul def
+R2926:2926 Stdlib.Numbers.HexadecimalZ <> n:13 var
+R2980:2986 Stdlib.Numbers.HexadecimalFacts <> rev_rev thm
+R2989:2991 Corelib.Init.Hexadecimal <> app def
+R3003:3017 Stdlib.Numbers.HexadecimalFacts <> of_list_to_list thm
+R3020:3022 Corelib.Init.Hexadecimal <> rev def
+R3025:3027 Corelib.Init.Hexadecimal <> app def
+R3047:3054 Stdlib.Numbers.HexadecimalFacts <> rev_spec thm
+R3057:3064 Stdlib.Numbers.HexadecimalFacts <> app_spec thm
+R3067:3084 Stdlib.Lists.List <> rev_app_distr thm
+R3100:3107 Stdlib.Numbers.HexadecimalFacts <> rev_spec thm
+R3112:3119 Stdlib.Numbers.HexadecimalFacts <> app_spec thm
+R3122:3136 Stdlib.Numbers.HexadecimalFacts <> of_list_to_list thm
+R3148:3160 Stdlib.ZArith.BinInt Z of_hex_uint def
+R3171:3188 Stdlib.Numbers.HexadecimalPos Unsigned of_lu_rev thm
+R3200:3202 Corelib.Init.Hexadecimal <> app def
+R3213:3233 Stdlib.Numbers.HexadecimalPos Unsigned of_lu_revapp thm
+R3237:3243 Stdlib.Numbers.HexadecimalFacts <> rev_rev thm
+R3259:3276 Stdlib.Numbers.HexadecimalPos Unsigned of_lu_rev thm
+R3280:3286 Stdlib.Numbers.HexadecimalFacts <> rev_rev thm
+R3339:3341 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3304:3318 Stdlib.PArith.BinPos Pos of_hex_uint def
+R3321:3328 Stdlib.Arith.PeanoNat Nat iter def
+R3335:3337 Corelib.Init.Hexadecimal <> Nil constr
+R3332:3333 Corelib.Init.Hexadecimal <> D0 constr
+R3379:3397 Stdlib.Numbers.HexadecimalPos Unsigned nat_iter_S thm
+R3417:3425 Stdlib.NArith.BinNat N add_0_l thm
+R3473:3481 Stdlib.NArith.BinNat N mul_1_r thm
+R3497:3515 Stdlib.Numbers.HexadecimalPos Unsigned nat_iter_S thm
+R3533:3546 Stdlib.Numbers.HexadecimalPos Unsigned usize def
+R3557:3569 Stdlib.NArith.BinNat N pow_succ_r' thm
+R3583:3593 Stdlib.ZArith.Znat N2Z inj_mul thm
+R3597:3607 Stdlib.ZArith.BinInt Z mul_assoc thm
+R3612:3621 Stdlib.ZArith.BinInt Z mul_comm thm
+prf 3649:3666 <> of_hex_int_iter_D0
+binder 3668:3668 <> d:14
+binder 3670:3670 <> n:15
+R3720:3724 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3676:3687 Stdlib.ZArith.BinInt Z of_hex_int def
+R3690:3696 Corelib.Init.Hexadecimal <> app_int def
+R3698:3698 Stdlib.Numbers.HexadecimalZ <> d:14 var
+R3701:3708 Stdlib.Arith.PeanoNat Nat iter def
+R3715:3717 Corelib.Init.Hexadecimal <> Nil constr
+R3712:3713 Corelib.Init.Hexadecimal <> D0 constr
+R3710:3710 Stdlib.Numbers.HexadecimalZ <> n:15 var
+R3725:3732 Stdlib.Arith.PeanoNat Nat iter def
+R3750:3761 Stdlib.ZArith.BinInt Z of_hex_int def
+R3763:3763 Stdlib.Numbers.HexadecimalZ <> d:14 var
+R3737:3741 Stdlib.ZArith.BinInt Z mul def
+R3734:3734 Stdlib.Numbers.HexadecimalZ <> n:15 var
+R3825:3843 Stdlib.Numbers.HexadecimalZ <> of_hex_uint_iter_D0 thm
+R3858:3876 Stdlib.Numbers.HexadecimalZ <> of_hex_uint_iter_D0 thm
+R3919:3937 Stdlib.Numbers.HexadecimalPos Unsigned nat_iter_S thm
+R3948:3958 Stdlib.ZArith.BinInt Z mul_opp_r thm
+def 3987:3992 <> double
+binder 3994:3994 <> d:16
+R4007:4007 Stdlib.Numbers.HexadecimalZ <> d:16 var
+R4018:4020 Corelib.Init.Hexadecimal <> Pos constr
+R4027:4029 Corelib.Init.Hexadecimal <> Pos constr
+R4032:4046 Stdlib.Numbers.HexadecimalPos Unsigned double def
+R4055:4057 Corelib.Init.Hexadecimal <> Neg constr
+R4064:4066 Corelib.Init.Hexadecimal <> Neg constr
+R4069:4083 Stdlib.Numbers.HexadecimalPos Unsigned double def
+prf 4102:4112 <> double_norm
+binder 4114:4114 <> d:18
+R4133:4135 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4118:4123 Stdlib.Numbers.HexadecimalZ <> double def
+R4126:4129 Corelib.Init.Hexadecimal <> norm def
+R4131:4131 Stdlib.Numbers.HexadecimalZ <> d:18 var
+R4136:4139 Corelib.Init.Hexadecimal <> norm def
+R4142:4147 Stdlib.Numbers.HexadecimalZ <> double def
+R4149:4149 Stdlib.Numbers.HexadecimalZ <> d:18 var
+R4197:4217 Stdlib.Numbers.HexadecimalPos Unsigned double_unorm thm
+R4241:4262 Stdlib.Numbers.HexadecimalPos Unsigned double_nzhead thm
+R4275:4285 Corelib.Init.Hexadecimal <> uint_eq_dec scheme
+R4288:4293 Corelib.Init.Hexadecimal <> nzhead def
+R4298:4300 Corelib.Init.Hexadecimal <> Nil constr
+R4384:4387 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4358:4372 Stdlib.Numbers.HexadecimalPos Unsigned double def
+R4375:4380 Corelib.Init.Hexadecimal <> nzhead def
+R4388:4390 Corelib.Init.Hexadecimal <> Nil constr
+R4409:4423 Stdlib.Numbers.HexadecimalPos Unsigned double def
+R4455:4465 Stdlib.Numbers.HexadecimalFacts <> rev_nil_inv thm
+R4492:4502 Stdlib.Numbers.HexadecimalFacts <> rev_nil_inv thm
+R4515:4517 Corelib.Init.Hexadecimal <> rev def
+R4554:4568 Stdlib.Numbers.HexadecimalPos Unsigned double def
+R4603:4605 Corelib.Init.Hexadecimal <> Nil constr
+R4610:4612 Corelib.Init.Hexadecimal <> Pos constr
+R4614:4617 Corelib.Init.Hexadecimal <> zero abbrev
+R4669:4671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4672:4674 Corelib.Init.Hexadecimal <> Neg constr
+R4803:4808 Corelib.Init.Hexadecimal <> nzhead def
+prf 4823:4839 <> of_hex_int_double
+binder 4841:4841 <> d:21
+R4870:4872 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4847:4858 Stdlib.ZArith.BinInt Z of_hex_int def
+R4861:4866 Stdlib.Numbers.HexadecimalZ <> double def
+R4868:4868 Stdlib.Numbers.HexadecimalZ <> d:21 var
+R4873:4880 Stdlib.ZArith.BinInt Z double def
+R4883:4894 Stdlib.ZArith.BinInt Z of_hex_int def
+R4896:4896 Stdlib.Numbers.HexadecimalZ <> d:21 var
+R4939:4951 Stdlib.ZArith.BinInt Z of_hex_uint def
+R4966:4992 Stdlib.Numbers.HexadecimalPos Unsigned of_hex_uint_double thm
+R5000:5014 Stdlib.PArith.BinPos Pos of_hex_uint def
+prf 5029:5045 <> double_to_hex_int
+binder 5047:5047 <> n:22
+R5076:5078 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5053:5058 Stdlib.Numbers.HexadecimalZ <> double def
+R5061:5072 Stdlib.ZArith.BinInt Z to_hex_int def
+R5074:5074 Stdlib.Numbers.HexadecimalZ <> n:22 var
+R5079:5090 Stdlib.ZArith.BinInt Z to_hex_int def
+R5093:5100 Stdlib.ZArith.BinInt Z double def
+R5102:5102 Stdlib.Numbers.HexadecimalZ <> n:22 var
+R5128:5132 Stdlib.Numbers.HexadecimalZ <> of_to thm
+R5140:5156 Stdlib.Numbers.HexadecimalZ <> of_hex_int_double thm
+R5160:5164 Stdlib.Numbers.HexadecimalZ <> to_of thm
+R5167:5177 Stdlib.Numbers.HexadecimalZ <> double_norm thm
+prf 5192:5215 <> nztail_to_hex_uint_pow16
+binder 5217:5217 <> n:23
+R5296:5300 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5223:5240 Corelib.Init.Hexadecimal <> nztail def
+R5243:5257 Stdlib.PArith.BinPos Pos to_hex_uint def
+R5260:5267 Stdlib.Arith.PeanoNat Nat iter def
+R5272:5278 Stdlib.PArith.BinPos Pos mul def
+R5269:5269 Stdlib.Numbers.HexadecimalZ <> n:23 var
+R5301:5301 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5308:5309 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5311:5311 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5302:5303 Corelib.Init.Hexadecimal <> D1 constr
+R5305:5307 Corelib.Init.Hexadecimal <> Nil constr
+R5310:5310 Stdlib.Numbers.HexadecimalZ <> n:23 var
+R5366:5375 Stdlib.PArith.Pnat Nat2Pos id thm
+R5378:5378 Corelib.Init.Datatypes <> S constr
+R5413:5422 Stdlib.PArith.BinPos Pos of_nat def
+R5425:5425 Corelib.Init.Datatypes <> S constr
+R5463:5472 Stdlib.PArith.BinPos Pos to_nat def
+R5502:5520 Stdlib.Numbers.HexadecimalPos Unsigned nat_iter_S thm
+R5532:5546 Stdlib.PArith.BinPos Pos to_hex_uint def
+R5559:5580 Stdlib.PArith.BinPos Pos to_little_hex_uint def
+R5595:5608 Stdlib.Numbers.HexadecimalPos Unsigned to_lu def
+R5613:5615 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R5616:5620 Stdlib.NArith.BinNat N pos abbrev
+R5623:5630 Stdlib.Arith.PeanoNat Nat iter def
+R5635:5641 Stdlib.PArith.BinPos Pos mul def
+R5672:5695 Stdlib.Numbers.HexadecimalPos Unsigned to_lhex_tenfold thm
+R5719:5733 Stdlib.PArith.BinPos Pos to_hex_uint def
+R5745:5762 Corelib.Init.Hexadecimal <> nztail def
+R5774:5780 Stdlib.Numbers.HexadecimalFacts <> rev_rev thm
+R5807:5828 Stdlib.PArith.BinPos Pos to_little_hex_uint def

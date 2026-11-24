@@ -1,0 +1,711 @@
+% Coscoy's translation, in three stages (Y. Coscoy, thesis, Nice 2000):
+%
+%   1. annotation:   the proof term gets, at each node, the type it proves
+%                    (constrained) and the type it is used at (required),
+%                    chapter 3, Fig. 3.9;
+%   2. contraction:  nested applications and abstractions are merged when
+%                    no conversion would be hidden, section 2.3 and its
+%                    guarded form, section 3.4.2, Fig. 3.11;
+%      or selection: the type expressions the text keeps are chosen on
+%                    the term itself, section 4.3.1, Fig. 4.10 (the
+%                    guarded contraction, and the identifiers lose their
+%                    single annotation in an application);
+%      then, after the selection, if the switch "naming" is not "none",
+%      the subproofs (subproofs.elpi): which occurrences are proofs the
+%      text translates (4.3.2), and a name for each intermediate result
+%      (4.3.3, "let P1 : C = (h3 h4) in ...");
+%   3. writing:      the contracted term becomes sentences, section 2.3.3
+%                    (Fig. 2.10 for applications) and section 3.4.1 (a
+%                    conclusion says both types when they differ).
+%
+% Each stage is a separate predicate on a separate data type, so that each
+% can be read against its figure.  The stages are used when the switch
+% "translation" is "staged" (switches.elpi); the selection replaces the
+% contraction when the switch "selection" is "thesis".  The forms the thesis does
+% not treat in chapters 2-3 (let, match, fix, casts, and the
+% introduction, elimination and rewriting theorems of chapter 6) are
+% written by the direct writer; their subproofs come back here.
+
+% ------------------------------------------------------------------
+% The annotated term
+
+% An annotation: the types of a node.
+kind annot type.
+type single term -> annot.         % a single type
+type double term -> term -> annot. % the constrained type, the required type
+type merged annot.                 % no type: the node is merged into its parent,
+                                   % or (selection) it is an identifier
+                                   % whose type the reader knows
+% (naming of intermediate results, subproofs.elpi) the annotation of a
+% proof that the text names: the name of the intermediate result, and its
+% type expressions, let P1 : T = M (the conclusion of M gives the name)
+type named string -> annot -> annot.
+
+% A node of the annotated term.
+kind aterm type.
+% a variable or a constant (rules Var and Const)
+type aid   term -> annot -> aterm.
+% an application of a function to its arguments (rules App1 and App2);
+% before contraction there is one argument, after it several
+type aapp  aterm -> list aarg -> annot -> aterm.
+% an abstraction (rule Abs): its binder, whether it continues the series
+% of abstractions of its parent (after contraction), its body
+type alam  name -> term -> bool -> (term -> aterm) -> annot -> aterm.
+% a form left to the direct writer
+type aother term -> aterm.
+% a subproof whose text is already known (an open goal, a step closed by
+% a tactic): the subproof, its text
+type adone term -> pf -> aterm.
+% (naming of intermediate results, subproofs.elpi)
+% the definition of an intermediate result, let P : T = M in N: M, whose
+% annotation is (named P A), and N, the proof that uses P
+type alet aterm -> aterm -> aterm.
+% an intermediate result, used in an application: its name
+type aresult string -> aterm.
+% a form of the direct writer (aother) whose subproofs come back to the
+% stages: the Dewey path under which they number their results, the first
+% index, and the results in scope there
+type anested list int -> int -> list result -> aterm -> aterm.
+
+% An intermediate result in scope: its name and the type it proves.
+kind result type.
+type result string -> term -> result.
+
+% [annotation-of A Annot]: the annotation of the node A (a variable or
+% a constant, an application, an abstraction)
+pred annotation-of i:aterm, o:annot.
+annotation-of (aid _ Annot) Annot.
+annotation-of (aapp _ _ Annot) Annot.
+annotation-of (alam _ _ _ _ Annot) Annot.
+
+% [with-annotation A Annot A1]: the node A with the annotation Annot
+pred with-annotation i:aterm, i:annot, o:aterm.
+with-annotation (aid M _) Annot (aid M Annot).
+with-annotation (aapp F Args _) Annot (aapp F Args Annot).
+with-annotation (alam N T J Body _) Annot (alam N T J Body Annot).
+
+% defined in subproofs.elpi, used by the stages: the subproofs of the
+% selected term (switch naming)
+pred name-subproofs i:aterm, o:aterm.
+% [results-scope Path I Scope]: the subproofs of a form of the direct
+% writer number their results under the Dewey path Path from the index I,
+% knowing the results of Scope (set by the writer, anested; read in
+% subproofs.elpi)
+pred results-scope o:list int, o:int, o:list result.
+
+% An argument of an application.
+kind aarg type.
+type aproof aterm -> aarg.        % a proof (rule App1)
+type aelem  term -> annot -> aarg. % a term that is not a proof, and its type (App2)
+
+% ------------------------------------------------------------------
+% The switch "translation" (switches.elpi)
+
+staged-mode :- switch "translation" "staged".
+
+% [direct-only M]: M is being written by the direct writer, which must not
+% send it back to the stages
+pred direct-only o:term.
+
+is-direct-only M :- direct-only K, K == M, !.
+
+% [staged-text M Ctx Path P]: the text P of the proof M (declared in
+% the writer, which calls it)
+staged-text M Ctx Path P :-
+  required-type M Tr,
+  annotate M Tr A,
+  drop-annotations A C,
+  name-subproofs C N,
+  write N Ctx Path P.
+
+% stage 2: the selection of the thesis (switch "selection"), or else the
+% contraction (switch "contraction")
+pred drop-annotations i:aterm, o:aterm.
+drop-annotations A C :- switch "selection" "thesis", !, select A C.
+drop-annotations A C :- switch "contraction" Strategy, contract Strategy A C.
+
+% the type M is used at: the one required of it (type-expressions.elpi), or else
+% the one it proves
+pred required-type i:term, o:term.
+required-type M Tr :- required M Tr, !.
+required-type M Tr :- synth M Tr.
+
+% ------------------------------------------------------------------
+% Stage 1: annotation (thesis 3.3.4, Fig. 3.9: Γ; Tr ⊢ M ↪ ((M : Tc) : Tr))
+
+pred annotate i:term, i:term, o:aterm.
+
+% an open goal of a proof in progress, and a subproof closed by a tactic
+% (the writer), are kept with their text
+annotate M _ (adone M P) :- open-goal M P, !.
+annotate M _ (adone M P) :- not (is-root M), tactic-step M P, !.
+
+% (Var), (Const): the constrained type is the declared one
+annotate M Tr (aid M (double Tc Tr)) :-
+  is-sym M, !,
+  synth M Tc.
+
+% (Abs): Γ ⊢ Tr ▷whnf Πx:T0'.T1   (x:T0) + Γ; T1 ⊢ M ↪ N
+%        the constrained type is Πx:T0.T1, the body is required to be T1
+annotate (fun N T0 F) Tr (alam N T0 ff Body (double (prod N T0 T1) Tr)) :-
+  whnf Tr (prod _ _ T1), !,
+  coq.name->id N Id,
+  pi x\ (decl x N T0, ctx-name Id) => annotate (F x) (T1 x) (Body x).
+
+% (App1), (App2): the function M0 is required to be its type in weak head
+% normal form, Πx:T1.T2; the constrained type is T2{x/M1}.  The argument
+% M1 is a proof, required to be T1, if T1 is a proposition (App1); else it
+% is a term, not annotated further (App2).
+annotate (app L as M) Tr (aapp F [Arg] (double Tc Tr)) :-
+  not (has-own-writer M),
+  app-split L M0 M1,
+  synth M0 T0, whnf T0 (prod N T1 T2), !,
+  beta-ty (T2 M1) Tc,
+  beta-ty (prod N T1 T2) R0,
+  beta-ty T1 T1b,
+  annotate M0 R0 F,
+  annotate-argument M1 T1b Arg.
+
+% anything else is written by the direct writer
+annotate M _ (aother M).
+
+% [annotate-argument M T A]: the annotated argument M of expected type T: a
+% proof annotated for a proposition, an element otherwise
+pred annotate-argument i:term, i:term, o:aarg.
+annotate-argument M1 T1 (aproof A) :- is-prop T1, !, annotate M1 T1 A.
+annotate-argument M1 T1 (aelem M1 (single T1)).
+
+% The statement (top-run, document.elpi) stops at the first abstraction
+% whose annotation is double: that abstraction is then a step of the proof,
+% whose conclusion says the conversion (3.4.1).
+statement-stops-at Ty N A :- staged-mode, not (single-annotation Ty N A).
+
+% [single-annotation Tr N A]: the abstraction of N : A, required to prove
+% Tr, proves Tr as it is written: by (Abs), its constrained type
+% Pi N:A. T1, where Tr has the weak head normal form Pi _:_. T1, is Tr
+pred single-annotation i:term, i:name, i:term.
+single-annotation Tr N A :- whnf Tr (prod _ _ T1), same-ty (prod N A T1) Tr.
+
+% the applications that have their own writer in the direct writer
+% (rewriting, elimination and introduction theorems, recursive calls)
+pred has-own-writer i:term.
+has-own-writer (app [H | _]) :- rewrite-info H _, !.
+has-own-writer (app [H | _]) :- elim-info H _ _ _ _ _, !.
+has-own-writer (app [H | _]) :- intro-info H _ _, !.
+has-own-writer (app [H | _]) :- name H, rec-var H, !.
+
+% ------------------------------------------------------------------
+% Stage 2: contraction (thesis 2.3, and 3.4.2, Fig. 3.11)
+%
+% Strategy (the switch "contraction", switches.elpi):
+%   none     no contraction (only the redundant double annotations go);
+%   maximal  every contraction of section 2.3, the annotations not looked
+%            at;
+%   guarded  the contractions of Fig. 3.11, which drop an annotation only
+%            when it is single, so that no conversion step disappears.
+
+pred contract i:string, i:aterm, o:aterm.
+
+contract Strategy (aid M A) (aid M A1) :-
+  identifier-annotation Strategy A A1.
+
+contract Strategy (aapp F Args A) Result :-
+  contract Strategy F F1,
+  std.map Args (contract-argument Strategy) Args1,
+  redundant-annotation A A1,
+  merge-application Strategy F1 Args1 A1 Result.
+
+contract Strategy (alam N T Joined Body A) (alam N T Joined Body1 A1) :-
+  redundant-annotation A A1,
+  pi x\ decl x N T => contract-body Strategy (Body x) (Body1 x).
+
+contract _ Other Other.
+
+% [contract-argument Strategy A A1]: the argument A contracted: a proof by
+% contract, an element as it is
+pred contract-argument i:string, i:aarg, o:aarg.
+contract-argument Strategy (aproof A) (aproof A1) :- contract Strategy A A1.
+contract-argument _ (aelem M T) (aelem M T).
+
+% Redundant double annotation (Fig. 3.11): ((M : T) : Tr) → (M : Tr) when
+% Tr = T.
+pred redundant-annotation i:annot, o:annot.
+redundant-annotation (double Tc Tr) (single Tr) :- same-ty Tc Tr, !.
+redundant-annotation A A.
+
+% A variable or a constant: in the maximal strategy its annotations are
+% not looked at, and only the type it is used at is said.
+pred identifier-annotation i:string, i:annot, o:annot.
+identifier-annotation "maximal" (double _ Tr) (single Tr) :- !.
+identifier-annotation _ A A1 :- redundant-annotation A A1.
+
+% Contraction of the application (Fig. 3.11):
+%   (((M .. N2) : T) N1) → (M .. N2 N1)
+% guarded: only when the inner annotation T is single.
+pred merge-application i:string, i:aterm, i:list aarg, i:annot, o:aterm.
+merge-application Strategy (aapp M Args0 Inner) Args A (aapp M Args1 A) :-
+  merges Strategy Inner, !,
+  std.append Args0 Args Args1.
+merge-application _ F Args A (aapp F Args A).
+
+% Weak contraction of the abstraction (Fig. 3.11):
+%   λx1:T1.((λx2:T2.M) : T) → λx1:T1, x2:T2.M
+% the inner abstraction joins the series of its parent, and its
+% annotation goes; guarded: only when that annotation is single.
+pred contract-body i:string, i:aterm, o:aterm.
+contract-body Strategy (alam N T _ Body A) Result :-
+  redundant-annotation A A1,
+  merges Strategy A1, !,
+  contract Strategy (alam N T tt Body merged) Result.
+contract-body Strategy X Y :- contract Strategy X Y.
+
+% the strategy allows to drop the annotation A
+pred merges i:string, i:annot.
+merges "maximal" _.
+merges "guarded" (single _).
+
+% (The strong contraction of the abstraction, λx1:T1, x2:T1.M → λx1, x2 :
+% T1.M, only groups binders of the same type in one phrase: it is done
+% by the writer, see binder-phrases.)
+
+% ------------------------------------------------------------------
+% Stage 2, as a selection (thesis 4.3.1, Fig. 4.10)
+%
+% The selection decides, on the term, which type expressions the text
+% says: after it, the term has exactly the assertions of the text.  Its
+% five rewriting rules are applied as long as one applies (the system
+% terminates and is confluent, 4.3.1).  Only the first rule makes an
+% annotation single, and the four others rewrite only single annotations,
+% so that no conversion step disappears.
+
+pred select i:aterm, o:aterm.
+
+% Redundant type expressions:  ((M : Tc) : Tr) → (M : Tr)  if Tc = Tr
+% Successive abstractions:     λx1:T1.((λx2:T2.M) : T) → λx1:T1.λx2:T2.M
+% Successive applications:     (((M N1) : T) N2) → ((M N1) N2)
+% These three rules are the guarded contraction of Fig. 3.11
+% (redundant-annotation, contract-body, merge-application).  The two
+% others leave the type of an identifier out, and no rule makes a new
+% identifier, so they can come after.
+select A S :-
+  contract "guarded" A C,
+  identifiers-unannotated C S.
+
+% the two rules on identifiers, everywhere in the term
+pred identifiers-unannotated i:aterm, o:aterm.
+identifiers-unannotated (aapp F Args A) (aapp F1 Args1 A) :- !,
+  application-head F F1,
+  std.map Args application-argument Args1.
+identifiers-unannotated (alam N T Joined Body A) (alam N T Joined Body1 A) :- !,
+  pi x\ decl x N T => identifiers-unannotated (Body x) (Body1 x).
+identifiers-unannotated X X.
+
+% Head of application:  ((M : T) N) → (M N)  if M is an identifier
+% (its type is the statement of the hypothesis or of the theorem, already
+% said when it was introduced)
+pred application-head i:aterm, o:aterm.
+application-head (aid M (single _)) (aid M merged) :- !.
+application-head F F1 :- identifiers-unannotated F F1.
+
+% Argument of application:  (M (N : T)) → (M N)  if N is an identifier;
+% a term that is not a proof (App2) is an argument too
+pred application-argument i:aarg, o:aarg.
+application-argument (aproof (aid M (single _))) (aproof (aid M merged)) :- !.
+application-argument (aproof A) (aproof A1) :- identifiers-unannotated A A1.
+application-argument (aelem M (single _)) (aelem M merged) :- is-sym M, !.
+application-argument E E.
+
+% ------------------------------------------------------------------
+% Stage 3: writing (thesis 2.3.3 and 3.4.1)
+
+pred write i:aterm, i:ctx, i:list int, o:pf.
+
+write (adone _ P) _ _ P.
+
+write (aother M) Ctx Path P :-
+  direct-only M => tr-p M Ctx Path P.
+
+% (naming of intermediate results, subproofs.elpi) the definition of an
+% intermediate result, let P : T = M in N: the text of M, a step whose
+% conclusion gives the name, `T`{.claim} (P) (the thesis's "Preuve P :
+% montrons T. ... Fin de P.", Fig. 4.30), then the text of N
+write (alet M N) Ctx Path P :-
+  write M nostar Path PM, dashed PM Step,
+  write N Ctx Path PN,
+  lines-before [Step] PN P.
+
+% a form of the direct writer whose subproofs number their results under
+% the Dewey path D from the index I, knowing the results of Scope
+% (results-scope, subproofs.elpi)
+write (anested D I Scope M) Ctx Path P :-
+  (results-scope D I Scope :- !) => write M Ctx Path P.
+
+% a variable or a constant used alone: "By h we have T"
+write (aid M A) _ _ P :-
+  justification-of M J,
+  conclusion-parts A Concl,
+  sentence [wd "by", J, wd "have" | Concl] S,
+  conclusion-only S P.
+
+write (aapp F Args A) _ Path (prf Lines (some (it Sentence []))) :-
+  head-element F Path Head,
+  std.map Args (argument-element Path) Elements,
+  conclusion-parts A Concl,
+  application-text Head Elements Concl Lines Sentence.
+
+write (alam N T Joined Body A) Ctx Path P :-
+  induction-flags Flags,
+  (if characterising (series-type A Ty) (Ty = none)),
+  abstraction-series [] (alam N T Joined Body A) A Ty Flags Ctx Path P.
+
+% A conclusion says the constrained type, and the required one when they
+% differ (3.4.1: "Nous avons montré T, ce qui est équivalent à Tr"); the
+% required one is then the conclusion, the form the steps after it use,
+% and the constrained one is shown untagged (decision 3 of the proposal).
+pred conclusion-parts i:annot, o:list part.
+conclusion-parts (single T) [fml rclaim T].
+conclusion-parts (double Tc Tr) [untagged Tc, tx ",", wd "that-is", fml rclaim Tr1] :-
+  beta-ty Tr Tr1.
+conclusion-parts merged [].
+% (naming of intermediate results) the conclusion of a named result ends
+% with its name: `T`{.claim} (P1)
+conclusion-parts (named N A) Parts :-
+  conclusion-parts A Ps, std.append Ps [tx "(", nm N, tx ")"] Parts.
+
+% [lines-before Ls P P1]: the text P with the lines Ls above it
+pred lines-before i:list line, i:pf, o:pf.
+lines-before Ls (prfp P _) P1 :- !, lines-before Ls P P1.
+lines-before Ls (prf L C) (prf L1 C) :- std.append Ls L L1.
+
+% --- Applications (thesis 2.3.3, Fig. 2.10)
+%
+% An element of the application (the function or an argument): its name
+% when it is an identifier, and its own text.  An element is an
+% identifier when it is a variable or a constant whose annotation is
+% single after contraction (a double one is a conversion, which must be
+% said in its own sentence).  The name of a proof (a hypothesis, a lemma,
+% an intermediate result) is a justification of the step, *h*{.just}; the
+% name of a term that is no proof is plain text.
+kind app-element type.
+type app-element option part -> line -> app-element.
+% an identifier whose type the selection left out (Fig. 4.10): it has no
+% text of its own, only its name
+type named-only part -> app-element.
+% a term whose text would say nothing ("The element x belongs to A", x a
+% variable, whose type was said where it was introduced): no text, and
+% its name if it is an identifier
+type unwritten option part -> app-element.
+
+% [head-element F Path E]: the element of the head F of an application: its
+% justification only when it is merged, else its line and its name
+pred head-element i:aterm, i:list int, o:app-element.
+head-element (aid M merged) _ (named-only J) :- !, justification-of M J.
+head-element (aresult N) _ (named-only J) :- !, result-justification N J.
+head-element F Path (app-element Name Line) :-
+  identifier-name F Name,
+  write F nostar Path P, dashed P Line.
+
+% [argument-element Path A E]: the element of the argument A of an
+% application: a justification or a name only, its own line, nothing for a
+% variable, or a remark "The element M belongs to T"
+pred argument-element i:list int, i:aarg, o:app-element.
+argument-element _ (aproof (aid M merged)) (named-only J) :- !, justification-of M J.
+argument-element _ (aproof (aresult N)) (named-only J) :- !, result-justification N J.
+% (a term is named as formulas print it: le and BinInt.Z.le differ)
+argument-element _ (aelem M merged) (named-only (nm N)) :- !, ppf M N.
+argument-element Path (aproof A) (app-element Name Line) :-
+  identifier-name A Name,
+  write A nostar Path P, dashed P Line.
+argument-element _ (aelem M (single _)) (unwritten Name) :- name M, !,
+  term-name M Name.
+% a remark, untagged: a term is no formula that cyp could use
+argument-element _ (aelem M (single T)) (app-element Name (it S [])) :-
+  term-name M Name,
+  sentence [wd "the-element", untagged M, wd "belongs-to", untagged T] S.
+
+% [result-justification N J]: the intermediate result named N (thesis
+% 4.3.3), as a justification; a result inside another one, P1.1, has no
+% name that a reader can read (a name is an identifier), and is plain text
+pred result-justification i:string, o:part.
+result-justification N (jst N) :- prooftext.is-name N, !.
+result-justification N (nm N).
+
+% Only a contracted text names an element in the sentence of the
+% application (rules 1-3 of Fig. 2.10 are the contracted forms, 2.3.3); with
+% no contraction, every element has its own text (rule 4, Fig. 3.10).
+pred identifier-name i:aterm, o:option part.
+identifier-name (aid M (single _)) (some J) :- contracted-text, justification-of M J, !.
+identifier-name _ none.
+
+% [term-name M N]: the name of the term M in a contracted text, none otherwise
+pred term-name i:term, o:option part.
+term-name M (some (nm N)) :- contracted-text, head-name M N, !.
+term-name _ none.
+
+% [contracted-text]: the text is contracted (the selection of the thesis,
+% or a contraction strategy other than none)
+pred contracted-text.
+contracted-text :- switch "selection" "thesis", !.
+contracted-text :- switch "contraction" S, not (S = "none").
+
+% The four rules of Fig. 2.10, the first one that applies (2.3.3: "nous
+% choisissons d'utiliser la première de la liste qui s'applique").
+pred application-text i:app-element, i:list app-element, i:list part,
+  o:list line, o:string.
+
+% With the selection (Fig. 4.10), an argument may have no text of its own
+% (named-only): rules (2) and (4), where the arguments have their own
+% texts, then name it after "to" or "with" (Fig. 4.30: "Nous appliquons
+% h2 à h4 et P1").  Without the selection, every argument has a text there
+% and the rules are those of Fig. 2.10.
+
+% (1) all identifiers: "Applying M0 to M1, .. and Mn, we have T"
+application-text Head Args Concl [] S :-
+  element-name Head F,
+  all-names Args Names, !,
+  sentence {std.append [wd "applying", F, wd "to", enum Names, tx ",", wd "have"] Concl} S.
+
+% (2) the function is an identifier: the texts of the arguments, then
+%     "Applying M0, we have T"
+application-text Head Args Concl Lines S :-
+  element-name Head F, !,
+  texts-and-names Args Lines Names,
+  named-after [wd "to"] Names To,
+  sentence {std.append [wd "applying", F | To] [tx ",", wd "have" | Concl]} S.
+
+% (3) the arguments are identifiers: the text of the function, then
+%     "By application, with M1, .. and Mn, we have T"
+application-text (app-element none FLine) Args Concl [FLine] S :-
+  all-names Args Names, !,
+  sentence {std.append [wd "by-application", tx ",", wd "with", enum Names, tx ",", wd "have"] Concl} S.
+
+% (4) otherwise: the texts of the function and of the arguments, then
+%     "By application, we have T"
+application-text (app-element none FLine) Args Concl [FLine | Lines] S :-
+  texts-and-names Args Lines Names,
+  named-after [tx ",", wd "with"] Names With,
+  sentence {std.append [wd "by-application" | With] [tx ",", wd "have" | Concl]} S.
+
+% the name of an element that is an identifier
+pred element-name i:app-element, o:part.
+element-name (app-element (some N) _) N.
+element-name (named-only N) N.
+element-name (unwritten (some N)) N.
+
+% the names of the elements, when they are all identifiers
+pred all-names i:list app-element, o:list (list part).
+all-names [] [].
+all-names [E | Es] [[N] | Ns] :- element-name E N, all-names Es Ns.
+
+% the texts of the elements that have one, and the names of the others (an
+% unwritten element has neither)
+pred texts-and-names i:list app-element, o:list line, o:list (list part).
+texts-and-names [] [] [].
+texts-and-names [app-element _ L | Es] [L | Ls] Ns :- texts-and-names Es Ls Ns.
+texts-and-names [named-only N | Es] Ls [[N] | Ns] :- texts-and-names Es Ls Ns.
+texts-and-names [unwritten _ | Es] Ls Ns :- texts-and-names Es Ls Ns.
+
+% "Words N1, .. and Nn", nothing when there are no names
+pred named-after i:list part, i:list (list part), o:list part.
+named-after _ [] [] :- !.
+named-after Words Names Parts :- std.append Words [enum Names] Parts.
+
+% --- Abstractions (thesis 2.3.3, the example of Tauto, and 4.2.5)
+%
+% A series of abstractions (an abstraction and those joined to it by the
+% weak contraction) is one sentence that introduces all its binders, the
+% text of its body below it, and a conclusion with the annotation of the
+% series.
+
+% The type of the series, Ty, is known (some) only with the
+% characterisation of subproofs (switch naming, subproofs.elpi), which
+% says whether a binder of a proposition is a hypothesis (Fig. 4.13).
+
+pred abstraction-series i:list binder, i:aterm, i:annot, i:option term,
+  i:list bool, i:ctx, i:list int, o:pf.
+abstraction-series Acc (alam N T Joined Body _) A Ty Flags Ctx Path P :-
+  (Acc = [] ; Joined = tt), !,
+  next-flag Flags Flag Flags1,
+  binder-name N N1 Id,
+  ppf T FT,
+  series-binder-kind T Ty K,
+  binder-of K Flag Id FT B,
+  pi x\ sigma Ty1\ body-type Ty x Ty1,
+    ((decl x N1 T, ctx-name Id) =>
+      abstraction-series [B | Acc] (Body x) A Ty1 Flags1 Ctx Path P).
+abstraction-series Acc Body A _ _ Ctx Path (prf [it Head BodyLines] Concl) :-
+  std.rev Acc Binders,
+  ((cur-ih [] :- !) => write Body Ctx Path BodyText),
+  flatten BodyText BodyLines,
+  binder-phrases Binders Phrases,
+  sentence Phrases Head,
+  conclusion-parts A Parts,
+  concl Ctx [wd "proved" | Parts] Concl.
+
+% The type of a series of abstractions: the type its annotation gives
+pred series-type i:annot, o:option term.
+series-type (single T) (some T).
+series-type (double Tc _) (some Tc).
+series-type (named _ A) Ty :- series-type A Ty.
+series-type merged none.
+
+% [body-type Ty X Ty1]: the type of the body of an abstraction of type Ty,
+% its binder being X
+pred body-type i:option term, i:term, o:option term.
+body-type (some Ty) X (some (B X)) :- whnf Ty (prod _ _ B), !.
+body-type _ _ none.
+
+% the kind of the binder of an abstraction λx:T of type Ty
+pred series-binder-kind i:term, i:option term, o:bk.
+series-binder-kind T (some Ty) K :- whnf Ty (prod _ _ B), !, abstraction-binder-kind T B K.
+series-binder-kind T _ K :- binder-kind T K.
+
+% [next-flag Fs F Fs1]: the first induction flag F of Fs (ff when there is
+% none left) and the flags after it
+pred next-flag i:list bool, o:bool, o:list bool.
+next-flag [F | Fs] F Fs :- !.
+next-flag [] ff [].
+
+% [binder-of K Flag Id FT B]: the binder of kind K, name Id and formula FT:
+% an induction hypothesis for an Assume whose flag is tt
+pred binder-of i:bk, i:bool, i:string, i:string, o:binder.
+binder-of bk-assume tt Id FT (bih Id FT) :- !.
+binder-of K _ Id FT (b K Id FT).
+
+% The phrase that introduces the binders: one part per group of
+% consecutive binders of the same kind, separated by ";" (thesis:
+% "Considérons trois éléments x, y et z quelconques de E ; posons par
+% hypothèse ...").
+pred binder-phrases i:list binder, o:list part.
+binder-phrases Binders Phrases :-
+  binder-groups Binders Groups,
+  std.map Groups group-phrase Ps,
+  separated [tx ";"] Ps Phrases.
+
+% the binders, cut into groups of the same kind
+pred binder-groups i:list binder, o:list (list binder).
+binder-groups [] [].
+binder-groups [B | Bs] [[B | Same] | Groups] :-
+  binder-kind-of B K,
+  same-kind K Bs Same Rest,
+  binder-groups Rest Groups.
+
+% [same-kind K Bs Same Rest]: the binders Same of kind K at the head of Bs,
+% and the binders after them
+pred same-kind i:bk, i:list binder, o:list binder, o:list binder.
+same-kind K [B | Bs] [B | Same] Rest :- binder-kind-of B K, !, same-kind K Bs Same Rest.
+same-kind _ Bs [] Bs.
+
+% [binder-kind-of B K]: the kind K of the binder B (an Assume for an
+% induction hypothesis)
+pred binder-kind-of i:binder, o:bk.
+binder-kind-of (b K _ _) K.
+binder-kind-of (bih _ _) bk-assume.
+
+% [group-phrase Bs Ps]: the phrase of a group of binders of the same kind:
+% assume its hypotheses, choose its elements of a set, let its variables
+pred group-phrase i:list binder, o:list part.
+group-phrase [B | Bs] [wd "assume", enum Hs] :-
+  binder-kind-of B bk-assume, !,
+  std.map [B | Bs] hypothesis-parts Hs.
+group-phrase [b bk-set Id FT | Bs] [wd "choose" | Ps] :- !,
+  variable-parts [b bk-set Id FT | Bs] Ps.
+group-phrase Bs [wd "let" | Ps] :-
+  variable-parts Bs Ps.
+
+% a hypothesis: `A`{.hyp} (h), or an induction hypothesis
+pred hypothesis-parts i:binder, o:list part.
+hypothesis-parts (b _ Id FT) Ps :- prooftext.formula rhyp FT F, with-name F Id Ps.
+hypothesis-parts (bih Id FT) [wd "ih" | Ps] :- prooftext.formula rhyp FT F, with-name F Id Ps.
+
+% Variables, those of the same type together (strong contraction of the
+% abstraction, Fig. 3.11: λx1:T1, x2:T1.M → λx1, x2 : T1.M):
+% `x y z : E`{.var}
+pred variable-parts i:list binder, o:list part.
+variable-parts Bs [enum Fs] :-
+  type-runs Bs Runs,
+  std.map Runs run-formula Fs.
+
+% [type-runs Bs Runs]: the binders Bs cut into runs of consecutive binders
+% of the same type: their names and that type
+pred type-runs i:list binder, o:list (pair (list string) string).
+type-runs [] [].
+type-runs [b _ Id FT | Bs] [pr [Id | Ids] FT | Runs] :-
+  same-type FT Bs Ids Rest,
+  type-runs Rest Runs.
+
+% [run-formula Run Ps]: the declaration `x y : T`{.var} of a run of binders
+pred run-formula i:pair (list string) string, o:list part.
+run-formula (pr Ids FT) [tx F] :- declaration-formula Ids FT F.
+
+% ------------------------------------------------------------------
+% The annotated term, printed as the thesis prints it (Figs. 3.10, 4.23,
+% 4.24): (M : T) for a single annotation, ((M : Tc) : Tr) for a double
+% one, M alone when the annotation is left out; λx:T. M for an
+% abstraction, (M N1 .. Nn) for an application; let P : T = M in N for
+% an intermediate result (Fig. 4.27).  With [show-translatable], a proof
+% the text translates is marked M♡ (Fig. 4.12); the arguments that are
+% terms are not, nor the abstractions.  For the tests (selection.v, subproofs.v) and to read a
+% stage against its figure.
+
+pred show-translatable.
+
+% [aterm-string A S]: the annotated term A printed as the thesis prints it,
+% with its mark ♡ when asked (show-translatable)
+pred aterm-string i:aterm, o:string.
+aterm-string A S :- node-string A S0, translatable-mark A S0 S.
+
+% the mark ♡ after a translatable occurrence; an abstraction is not marked
+% (its body is, and the series would end in a row of marks)
+pred translatable-mark i:aterm, i:string, o:string.
+translatable-mark (alam _ _ _ _ _) S S :- !.
+translatable-mark _ S S1 :- show-translatable, !, S1 is S ^ "♡".
+translatable-mark _ S S.
+
+% [node-string A S]: the annotated term A printed, without its mark ♡
+pred node-string i:aterm, o:string.
+node-string (aid M A) S :- pp M S0, annotated S0 A S.
+node-string (aapp F Args A) S :-
+  aterm-string F SF,
+  std.map Args aarg-string SArgs,
+  std.string.concat " " [SF | SArgs] S0,
+  annotated {calc ("(" ^ S0 ^ ")")} A S.
+node-string (alam N T _ Body A) S :-
+  binder-name N N1 Id, pp T ST,
+  (pi x\ (decl x N1 T, ctx-name Id) => aterm-string (Body x) SB),
+  annotated {calc ("λ" ^ Id ^ ":" ^ ST ^ ". " ^ SB)} A S.
+node-string (aother M) S :- pp M S.
+node-string (adone _ _) "…".
+node-string (alet M N) S :-
+  definition-string M SM, aterm-string N SN,
+  S is "let " ^ SM ^ " in " ^ SN.
+node-string (aresult P) P.
+node-string (anested _ _ _ M) S :- node-string M S.
+
+% the definition of a named result, P : T = M: T is the type it is
+% required to prove; M keeps its constrained type when it differs
+pred definition-string i:aterm, o:string.
+definition-string M S :-
+  annotation-of M (named P A),
+  definition-annotation A T A1, with-annotation M A1 M1,
+  aterm-string M1 SM, pp T ST,
+  S is P ^ " : " ^ ST ^ " = " ^ SM.
+
+% [definition-annotation A T A1]: from the annotation A of a named result,
+% the type T it is required to prove and the annotation A1 left on its term
+pred definition-annotation i:annot, o:term, o:annot.
+definition-annotation (single T) T merged.
+definition-annotation (double Tc Tr) Tr (single Tc).
+
+% [aarg-string A S]: the annotated argument A printed
+pred aarg-string i:aarg, o:string.
+aarg-string (aproof A) S :- aterm-string A S.
+aarg-string (aelem M A) S :- pp M S0, annotated S0 A S.
+
+% [annotated S A R]: the printed term S with its annotation A: (S : T),
+% ((S : Tc) : Tr), or S alone when merged
+pred annotated i:string, i:annot, o:string.
+annotated S (single T) R :- pp T ST, R is "(" ^ S ^ " : " ^ ST ^ ")".
+annotated S (double Tc Tr) R :- pp Tc SC, pp Tr SR,
+  R is "((" ^ S ^ " : " ^ SC ^ ") : " ^ SR ^ ")".
+annotated S merged S.

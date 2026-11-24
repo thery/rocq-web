@@ -1,0 +1,159 @@
+DIGEST 2dcb750b4ebed347af190de2b9aae728
+FCdcl.ZArithDec
+R140:155 Cdcl.ReifClasses <> <> lib
+R173:176 Stdlib.Bool.Bool <> <> lib
+R178:183 Stdlib.ZArith.ZArith <> <> lib
+R185:187 Stdlib.micromega.Lia <> <> lib
+prf 217:222 <> dec_le
+binder 233:233 <> x:1
+binder 235:235 <> y:2
+R244:247 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R239:242 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R238:238 Cdcl.ZArithDec <> x:1 var
+R243:243 Cdcl.ZArithDec <> y:2 var
+R248:249 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R251:254 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R250:250 Cdcl.ZArithDec <> x:1 var
+R255:255 Cdcl.ZArithDec <> y:2 var
+prf 284:289 <> dec_lt
+binder 300:300 <> x:3
+binder 302:302 <> y:4
+R310:313 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R306:308 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R305:305 Cdcl.ZArithDec <> x:3 var
+R309:309 Cdcl.ZArithDec <> y:4 var
+R314:315 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R317:319 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R316:316 Cdcl.ZArithDec <> x:3 var
+R320:320 Cdcl.ZArithDec <> y:4 var
+prf 349:354 <> dec_ge
+binder 365:365 <> x:5
+binder 367:367 <> y:6
+R376:379 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R371:374 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R370:370 Cdcl.ZArithDec <> x:5 var
+R375:375 Cdcl.ZArithDec <> y:6 var
+R380:381 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R383:386 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R382:382 Cdcl.ZArithDec <> x:5 var
+R387:387 Cdcl.ZArithDec <> y:6 var
+prf 416:421 <> dec_gt
+binder 432:432 <> x:7
+binder 434:434 <> y:8
+R442:445 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R438:440 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R437:437 Cdcl.ZArithDec <> x:7 var
+R441:441 Cdcl.ZArithDec <> y:8 var
+R446:447 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R449:451 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R448:448 Cdcl.ZArithDec <> x:7 var
+R452:452 Cdcl.ZArithDec <> y:8 var
+prf 481:486 <> dec_eq
+R502:502 Corelib.Numbers.BinNums <> Z ind
+binder 498:498 <> x:9
+binder 500:500 <> y:10
+R511:514 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R507:509 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R506:506 Cdcl.ZArithDec <> x:9 var
+R510:510 Cdcl.ZArithDec <> y:10 var
+R515:516 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R518:520 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R517:517 Cdcl.ZArithDec <> x:9 var
+R521:521 Cdcl.ZArithDec <> y:10 var
+prf 550:556 <> decb_le
+R572:572 Corelib.Numbers.BinNums <> Z ind
+binder 568:568 <> x:11
+binder 570:570 <> y:12
+R582:586 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R577:580 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R576:576 Cdcl.ZArithDec <> x:11 var
+R581:581 Cdcl.ZArithDec <> y:12 var
+R587:593 Corelib.Init.Datatypes <> is_true def
+R596:600 Stdlib.ZArith.BinInt Z leb def
+R602:602 Cdcl.ZArithDec <> x:11 var
+R604:604 Cdcl.ZArithDec <> y:12 var
+R632:638 Corelib.Init.Datatypes <> is_true def
+R654:658 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+prf 692:698 <> decb_ge
+R714:714 Corelib.Numbers.BinNums <> Z ind
+binder 710:710 <> x:13
+binder 712:712 <> y:14
+R724:728 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R719:722 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R718:718 Cdcl.ZArithDec <> x:13 var
+R723:723 Cdcl.ZArithDec <> y:14 var
+R729:735 Corelib.Init.Datatypes <> is_true def
+R738:742 Stdlib.ZArith.BinInt Z geb def
+R744:744 Cdcl.ZArithDec <> x:13 var
+R746:746 Cdcl.ZArithDec <> y:14 var
+R774:780 Corelib.Init.Datatypes <> is_true def
+R796:800 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>=?'_x not
+inst 849:853 <> DecLe
+R857:861 Cdcl.ReifClasses <> DecP2 class
+R863:866 Stdlib.ZArith.BinInt Z le def
+R871:876 Cdcl.ZArithDec <> dec_le thm
+inst 898:902 <> DecLt
+R906:910 Cdcl.ReifClasses <> DecP2 class
+R912:915 Stdlib.ZArith.BinInt Z lt def
+R920:925 Cdcl.ZArithDec <> dec_lt thm
+inst 947:951 <> DecGt
+R955:959 Cdcl.ReifClasses <> DecP2 class
+R961:964 Stdlib.ZArith.BinInt Z gt def
+R969:974 Cdcl.ZArithDec <> dec_gt thm
+inst 996:1000 <> DecGe
+R1004:1008 Cdcl.ReifClasses <> DecP2 class
+R1010:1013 Stdlib.ZArith.BinInt Z ge def
+R1018:1023 Cdcl.ZArithDec <> dec_ge thm
+inst 1045:1049 <> DecEq
+R1053:1057 Cdcl.ReifClasses <> DecP2 class
+R1061:1062 Corelib.Init.Logic <> eq ind
+R1064:1064 Corelib.Numbers.BinNums <> Z ind
+R1070:1075 Cdcl.ZArithDec <> dec_eq thm
+inst 1202:1207 <> negeqZ
+R1211:1237 Cdcl.ReifClasses TheoryPropagation NegBinRel class
+R1241:1242 Corelib.Init.Logic <> eq ind
+R1244:1244 Corelib.Numbers.BinNums <> Z ind
+R1316:1334 Cdcl.ReifClasses TheoryPropagation neg_bin_rel_correct meth
+R1256:1273 Cdcl.ReifClasses TheoryPropagation neg_bin_rel_clause meth
+binder 1282:1282 <> x:15
+binder 1284:1284 <> y:16
+R1294:1297 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1290:1292 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1289:1289 Cdcl.ZArithDec <> x:15 var
+R1293:1293 Cdcl.ZArithDec <> y:16 var
+R1303:1306 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1299:1301 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1298:1298 Cdcl.ZArithDec <> x:15 var
+R1302:1302 Cdcl.ZArithDec <> y:16 var
+R1308:1310 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1307:1307 Cdcl.ZArithDec <> y:16 var
+R1311:1311 Cdcl.ZArithDec <> x:15 var
+R1339:1353 Stdlib.ZArith.BinInt Z lt_trichotomy thm
+inst 1370:1376 <> DecRLeb
+R1380:1393 Cdcl.ReifClasses Reflect RProp2 class
+R1395:1398 Stdlib.ZArith.BinInt Z le def
+R1403:1418 Cdcl.ReifClasses Reflect mkrProp2 constr
+R1424:1427 Stdlib.ZArith.BinInt Z le def
+R1429:1433 Stdlib.ZArith.BinInt Z leb def
+R1435:1441 Cdcl.ZArithDec <> decb_le thm
+inst 1453:1458 <> DecLeb
+R1462:1475 Cdcl.ReifClasses Reflect Rbool2 class
+R1477:1481 Stdlib.ZArith.BinInt Z leb def
+R1486:1501 Cdcl.ReifClasses Reflect mkrbool2 constr
+R1507:1511 Stdlib.ZArith.BinInt Z leb def
+R1513:1516 Stdlib.ZArith.BinInt Z le def
+R1519:1525 Cdcl.ZArithDec <> decb_le thm
+inst 1537:1543 <> DecRGeb
+R1547:1560 Cdcl.ReifClasses Reflect RProp2 class
+R1562:1565 Stdlib.ZArith.BinInt Z ge def
+R1570:1585 Cdcl.ReifClasses Reflect mkrProp2 constr
+R1591:1594 Stdlib.ZArith.BinInt Z ge def
+R1596:1600 Stdlib.ZArith.BinInt Z geb def
+R1602:1608 Cdcl.ZArithDec <> decb_ge thm
+inst 1620:1625 <> DecGeb
+R1629:1642 Cdcl.ReifClasses Reflect Rbool2 class
+R1644:1648 Stdlib.ZArith.BinInt Z geb def
+R1653:1668 Cdcl.ReifClasses Reflect mkrbool2 constr
+R1674:1678 Stdlib.ZArith.BinInt Z geb def
+R1680:1683 Stdlib.ZArith.BinInt Z ge def
+R1686:1692 Cdcl.ZArithDec <> decb_ge thm

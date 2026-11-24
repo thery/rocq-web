@@ -1,0 +1,1217 @@
+DIGEST 26b93b4e75868625ac6a869a35bfa67f
+FStdlib.micromega.OrderedRing
+R853:858 Stdlib.Setoids.Setoid <> <> lib
+R888:891 Stdlib.setoid_ring.Ring <> <> lib
+mod 999:1015 <> OrderedRingSyntax
+R1025:1034 Stdlib.setoid_ring.Ring_theory RingSyntax <> mod
+R1348:1364 Stdlib.micromega.OrderedRing OrderedRingSyntax <> mod
+sec 1376:1386 <> DEFINITIONS
+var 1399:1399 DEFINITIONS R
+var 1419:1420 DEFINITIONS rO
+var 1422:1423 DEFINITIONS rI
+var 1431:1435 DEFINITIONS rplus
+var 1437:1442 DEFINITIONS rtimes
+var 1444:1449 DEFINITIONS rminus
+var 1466:1469 DEFINITIONS ropp
+R1427:1427 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1453:1456 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1452:1452 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1458:1461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1457:1457 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1462:1462 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1474:1477 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1473:1473 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1478:1478 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+var 1491:1493 DEFINITIONS req
+var 1495:1497 DEFINITIONS rle
+var 1499:1501 DEFINITIONS rlt
+R1506:1509 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1505:1505 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1511:1514 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1510:1510 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1537:1538 Stdlib.micromega.OrderedRing <> DEFINITIONS.rO var
+not 1530:1530 DEFINITIONS :::'0'
+R1557:1558 Stdlib.micromega.OrderedRing <> DEFINITIONS.rI var
+not 1550:1550 DEFINITIONS :::'1'
+R1582:1586 Stdlib.micromega.OrderedRing <> DEFINITIONS.rplus var
+not 1570:1570 DEFINITIONS :::x_'+'_x
+R1616:1621 Stdlib.micromega.OrderedRing <> DEFINITIONS.rtimes var
+not 1603:1603 DEFINITIONS :::x_'*'_x
+R1651:1656 Stdlib.micromega.OrderedRing <> DEFINITIONS.rminus var
+not 1638:1638 DEFINITIONS :::x_'-'_x
+R1683:1686 Stdlib.micromega.OrderedRing <> DEFINITIONS.ropp var
+not 1673:1673 DEFINITIONS :::'-'_x
+R1714:1716 Stdlib.micromega.OrderedRing <> DEFINITIONS.req var
+not 1701:1701 DEFINITIONS :::x_'=='_x
+R1746:1747 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1748:1750 Stdlib.micromega.OrderedRing <> DEFINITIONS.req var
+not 1733:1733 DEFINITIONS :::x_'~='_x
+R1780:1782 Stdlib.micromega.OrderedRing <> DEFINITIONS.rle var
+not 1767:1767 DEFINITIONS :::x_'<='_x
+R1811:1813 Stdlib.micromega.OrderedRing <> DEFINITIONS.rlt var
+not 1799:1799 DEFINITIONS :::x_'<'_x
+rec 1829:1831 <> SOR
+proj 1861:1869 <> SORsetoid
+proj 1896:1905 <> SORplus_wd
+proj 1983:1993 <> SORtimes_wd
+proj 2071:2079 <> SORopp_wd
+proj 2124:2131 <> SORle_wd
+proj 2214:2221 <> SORlt_wd
+proj 2302:2306 <> SORrt
+proj 2360:2369 <> SORle_refl
+proj 2397:2410 <> SORle_antisymm
+proj 2460:2470 <> SORle_trans
+proj 2522:2533 <> SORlt_le_neq
+proj 2583:2598 <> SORlt_trichotomy
+proj 2647:2663 <> SORplus_le_mono_l
+proj 2713:2728 <> SORtimes_pos_pos
+proj 2779:2788 <> SORneq_0_1
+R1873:1885 Corelib.Setoids.Setoid <> Setoid_Theory def
+R1887:1887 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+R1889:1891 Stdlib.micromega.OrderedRing <> DEFINITIONS.req var
+binder 1916:1917 <> x1:23
+binder 1919:1920 <> x2:24
+R1931:1934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1925:1928 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R1923:1924 Stdlib.micromega.OrderedRing <> x1:23 var
+R1929:1930 Stdlib.micromega.OrderedRing <> x2:24 var
+binder 1942:1943 <> y1:25
+binder 1945:1946 <> y2:26
+R1957:1960 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1951:1954 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R1949:1950 Stdlib.micromega.OrderedRing <> y1:25 var
+R1955:1956 Stdlib.micromega.OrderedRing <> y2:26 var
+R1968:1971 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R1963:1965 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'+'_x not
+R1961:1962 Stdlib.micromega.OrderedRing <> x1:23 var
+R1966:1967 Stdlib.micromega.OrderedRing <> y1:25 var
+R1974:1976 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'+'_x not
+R1972:1973 Stdlib.micromega.OrderedRing <> x2:24 var
+R1977:1978 Stdlib.micromega.OrderedRing <> y2:26 var
+binder 2004:2005 <> x1:28
+binder 2007:2008 <> x2:29
+R2019:2022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2013:2016 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2011:2012 Stdlib.micromega.OrderedRing <> x1:28 var
+R2017:2018 Stdlib.micromega.OrderedRing <> x2:29 var
+binder 2030:2031 <> y1:30
+binder 2033:2034 <> y2:31
+R2045:2048 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2039:2042 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2037:2038 Stdlib.micromega.OrderedRing <> y1:30 var
+R2043:2044 Stdlib.micromega.OrderedRing <> y2:31 var
+R2056:2059 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2051:2053 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'*'_x not
+R2049:2050 Stdlib.micromega.OrderedRing <> x1:28 var
+R2054:2055 Stdlib.micromega.OrderedRing <> y1:30 var
+R2062:2064 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'*'_x not
+R2060:2061 Stdlib.micromega.OrderedRing <> x2:29 var
+R2065:2066 Stdlib.micromega.OrderedRing <> y2:31 var
+binder 2090:2091 <> x1:33
+binder 2093:2094 <> x2:34
+R2105:2109 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2099:2102 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2097:2098 Stdlib.micromega.OrderedRing <> x1:33 var
+R2103:2104 Stdlib.micromega.OrderedRing <> x2:34 var
+R2113:2116 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2110:2110 Stdlib.micromega.OrderedRing DEFINITIONS :::'-'_x not
+R2111:2112 Stdlib.micromega.OrderedRing <> x1:33 var
+R2117:2117 Stdlib.micromega.OrderedRing DEFINITIONS :::'-'_x not
+R2118:2119 Stdlib.micromega.OrderedRing <> x2:34 var
+binder 2142:2143 <> x1:36
+binder 2145:2146 <> x2:37
+R2157:2160 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2151:2154 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2149:2150 Stdlib.micromega.OrderedRing <> x1:36 var
+R2155:2156 Stdlib.micromega.OrderedRing <> x2:37 var
+binder 2168:2169 <> y1:38
+binder 2171:2172 <> y2:39
+R2183:2187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2209:2209 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2177:2180 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2175:2176 Stdlib.micromega.OrderedRing <> y1:38 var
+R2181:2182 Stdlib.micromega.OrderedRing <> y2:39 var
+R2196:2200 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2190:2193 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2188:2189 Stdlib.micromega.OrderedRing <> x1:36 var
+R2194:2195 Stdlib.micromega.OrderedRing <> y1:38 var
+R2203:2206 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2201:2202 Stdlib.micromega.OrderedRing <> x2:37 var
+R2207:2208 Stdlib.micromega.OrderedRing <> y2:39 var
+binder 2232:2233 <> x1:41
+binder 2235:2236 <> x2:42
+R2247:2250 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2241:2244 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2239:2240 Stdlib.micromega.OrderedRing <> x1:41 var
+R2245:2246 Stdlib.micromega.OrderedRing <> x2:42 var
+binder 2258:2259 <> y1:43
+binder 2261:2262 <> y2:44
+R2273:2277 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2297:2297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2267:2270 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2265:2266 Stdlib.micromega.OrderedRing <> y1:43 var
+R2271:2272 Stdlib.micromega.OrderedRing <> y2:44 var
+R2285:2289 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2280:2282 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2278:2279 Stdlib.micromega.OrderedRing <> x1:41 var
+R2283:2284 Stdlib.micromega.OrderedRing <> y1:43 var
+R2292:2294 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2290:2291 Stdlib.micromega.OrderedRing <> x2:42 var
+R2295:2296 Stdlib.micromega.OrderedRing <> y2:44 var
+R2310:2320 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R2353:2355 Stdlib.micromega.OrderedRing <> DEFINITIONS.req var
+R2348:2351 Stdlib.micromega.OrderedRing <> DEFINITIONS.ropp var
+R2341:2346 Stdlib.micromega.OrderedRing <> DEFINITIONS.rminus var
+R2334:2339 Stdlib.micromega.OrderedRing <> DEFINITIONS.rtimes var
+R2328:2332 Stdlib.micromega.OrderedRing <> DEFINITIONS.rplus var
+R2325:2326 Stdlib.micromega.OrderedRing <> DEFINITIONS.rI var
+R2322:2323 Stdlib.micromega.OrderedRing <> DEFINITIONS.rO var
+R2384:2384 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2380:2380 <> n:47
+R2388:2391 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2387:2387 Stdlib.micromega.OrderedRing <> n:47 var
+R2392:2392 Stdlib.micromega.OrderedRing <> n:47 var
+R2427:2427 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2421:2421 <> n:49
+binder 2423:2423 <> m:50
+R2436:2439 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2431:2434 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2430:2430 Stdlib.micromega.OrderedRing <> n:49 var
+R2435:2435 Stdlib.micromega.OrderedRing <> m:50 var
+R2446:2449 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2441:2444 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2440:2440 Stdlib.micromega.OrderedRing <> m:50 var
+R2445:2445 Stdlib.micromega.OrderedRing <> n:49 var
+R2451:2454 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2450:2450 Stdlib.micromega.OrderedRing <> n:49 var
+R2455:2455 Stdlib.micromega.OrderedRing <> m:50 var
+R2489:2489 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2481:2481 <> n:52
+binder 2483:2483 <> m:53
+binder 2485:2485 <> p:54
+R2498:2501 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2493:2496 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2492:2492 Stdlib.micromega.OrderedRing <> n:52 var
+R2497:2497 Stdlib.micromega.OrderedRing <> m:53 var
+R2508:2511 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2503:2506 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2502:2502 Stdlib.micromega.OrderedRing <> m:53 var
+R2507:2507 Stdlib.micromega.OrderedRing <> p:54 var
+R2513:2516 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2512:2512 Stdlib.micromega.OrderedRing <> n:52 var
+R2517:2517 Stdlib.micromega.OrderedRing <> p:54 var
+R2550:2550 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2544:2544 <> n:56
+binder 2546:2546 <> m:57
+R2558:2562 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2554:2556 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2553:2553 Stdlib.micromega.OrderedRing <> n:56 var
+R2557:2557 Stdlib.micromega.OrderedRing <> m:57 var
+R2569:2572 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2564:2567 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2563:2563 Stdlib.micromega.OrderedRing <> n:56 var
+R2568:2568 Stdlib.micromega.OrderedRing <> m:57 var
+R2574:2577 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'~='_x not
+R2573:2573 Stdlib.micromega.OrderedRing <> n:56 var
+R2578:2578 Stdlib.micromega.OrderedRing <> m:57 var
+R2615:2615 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2609:2609 <> n:59
+binder 2611:2611 <> m:60
+R2624:2627 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2620:2622 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2619:2619 Stdlib.micromega.OrderedRing <> n:59 var
+R2623:2623 Stdlib.micromega.OrderedRing <> m:60 var
+R2634:2637 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2629:2632 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'=='_x not
+R2628:2628 Stdlib.micromega.OrderedRing <> n:59 var
+R2633:2633 Stdlib.micromega.OrderedRing <> m:60 var
+R2639:2641 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2638:2638 Stdlib.micromega.OrderedRing <> m:60 var
+R2642:2642 Stdlib.micromega.OrderedRing <> n:59 var
+R2682:2682 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2674:2674 <> n:62
+binder 2676:2676 <> m:63
+binder 2678:2678 <> p:64
+R2691:2694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2686:2689 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2685:2685 Stdlib.micromega.OrderedRing <> n:62 var
+R2690:2690 Stdlib.micromega.OrderedRing <> m:63 var
+R2700:2703 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<='_x not
+R2696:2698 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'+'_x not
+R2695:2695 Stdlib.micromega.OrderedRing <> p:64 var
+R2699:2699 Stdlib.micromega.OrderedRing <> n:62 var
+R2705:2707 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'+'_x not
+R2704:2704 Stdlib.micromega.OrderedRing <> p:64 var
+R2708:2708 Stdlib.micromega.OrderedRing <> m:63 var
+R2745:2745 Stdlib.micromega.OrderedRing <> DEFINITIONS.R var
+binder 2739:2739 <> n:66
+binder 2741:2741 <> m:67
+R2753:2756 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2749:2751 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2752:2752 Stdlib.micromega.OrderedRing <> n:66 var
+R2762:2765 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2758:2760 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2761:2761 Stdlib.micromega.OrderedRing <> m:67 var
+R2767:2769 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'<'_x not
+R2771:2773 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'*'_x not
+R2770:2770 Stdlib.micromega.OrderedRing <> n:66 var
+R2774:2774 Stdlib.micromega.OrderedRing <> m:67 var
+R2793:2796 Stdlib.micromega.OrderedRing DEFINITIONS :::x_'~='_x not
+R2936:2946 Stdlib.micromega.OrderedRing DEFINITIONS <> sec
+sec 2958:2976 <> STRICT_ORDERED_RING
+var 2989:2989 STRICT_ORDERED_RING R
+var 3009:3010 STRICT_ORDERED_RING rO
+var 3012:3013 STRICT_ORDERED_RING rI
+var 3021:3025 STRICT_ORDERED_RING rplus
+var 3027:3032 STRICT_ORDERED_RING rtimes
+var 3034:3039 STRICT_ORDERED_RING rminus
+var 3056:3059 STRICT_ORDERED_RING ropp
+R3017:3017 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3043:3046 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3042:3042 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3048:3051 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3047:3047 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3052:3052 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3064:3067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3063:3063 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3068:3068 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+var 3081:3083 STRICT_ORDERED_RING req
+var 3085:3087 STRICT_ORDERED_RING rle
+var 3089:3091 STRICT_ORDERED_RING rlt
+R3096:3099 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3095:3095 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3101:3104 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3100:3100 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+var 3121:3123 STRICT_ORDERED_RING sor
+R3127:3129 Stdlib.micromega.OrderedRing <> SOR rec
+R3170:3172 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rlt var
+R3166:3168 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rle var
+R3162:3164 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3157:3160 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.ropp var
+R3150:3155 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rminus var
+R3143:3148 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rtimes var
+R3137:3141 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rplus var
+R3134:3135 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rI var
+R3131:3132 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rO var
+R3192:3193 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rO var
+not 3185:3185 STRICT_ORDERED_RING :::'0'
+R3212:3213 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rI var
+not 3205:3205 STRICT_ORDERED_RING :::'1'
+R3237:3241 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rplus var
+not 3225:3225 STRICT_ORDERED_RING :::x_'+'_x
+R3271:3276 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rtimes var
+not 3258:3258 STRICT_ORDERED_RING :::x_'*'_x
+R3306:3311 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rminus var
+not 3293:3293 STRICT_ORDERED_RING :::x_'-'_x
+R3338:3341 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.ropp var
+not 3328:3328 STRICT_ORDERED_RING :::'-'_x
+R3369:3371 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+not 3356:3356 STRICT_ORDERED_RING :::x_'=='_x
+R3401:3402 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3403:3405 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+not 3388:3388 STRICT_ORDERED_RING :::x_'~='_x
+R3435:3437 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rle var
+not 3422:3422 STRICT_ORDERED_RING :::x_'<='_x
+R3466:3468 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rlt var
+not 3454:3454 STRICT_ORDERED_RING :::x_'<'_x
+R3491:3491 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+R3493:3495 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3523:3543 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R3550:3558 Stdlib.micromega.OrderedRing <> SORsetoid proj
+R3560:3562 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R3589:3609 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R3616:3624 Stdlib.micromega.OrderedRing <> SORsetoid proj
+R3626:3628 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R3659:3680 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R3687:3695 Stdlib.micromega.OrderedRing <> SORsetoid proj
+R3697:3699 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R3757:3761 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3754:3756 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3765:3769 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3762:3764 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3770:3772 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3733:3737 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rplus var
+R3804:3813 Stdlib.micromega.OrderedRing <> SORplus_wd proj
+R3815:3817 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R3864:3868 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3861:3863 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3872:3876 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3869:3871 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3877:3879 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3839:3844 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rtimes var
+R3912:3922 Stdlib.micromega.OrderedRing <> SORtimes_wd proj
+R3924:3926 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R3971:3975 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3968:3970 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3976:3978 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R3948:3951 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.ropp var
+R4009:4017 Stdlib.micromega.OrderedRing <> SORopp_wd proj
+R4019:4021 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R4065:4069 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4062:4064 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4073:4077 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4070:4072 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4078:4080 Corelib.Init.Logic <> iff def
+R4043:4045 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rle var
+R4110:4117 Stdlib.micromega.OrderedRing <> SORle_wd proj
+R4119:4121 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R4165:4169 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4162:4164 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4173:4177 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4170:4172 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4178:4180 Corelib.Init.Logic <> iff def
+R4143:4145 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rlt var
+R4210:4217 Stdlib.micromega.OrderedRing <> SORlt_wd proj
+R4219:4221 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R4247:4251 Stdlib.micromega.OrderedRing <> SORrt proj
+R4253:4255 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R4298:4302 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4295:4297 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4306:4310 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4303:4305 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4311:4313 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.req var
+R4273:4278 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.rminus var
+R4375:4382 Stdlib.setoid_ring.Ring_theory <> Rsub_def proj
+R4385:4389 Stdlib.micromega.OrderedRing <> SORrt proj
+R4391:4393 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R4415:4422 Stdlib.setoid_ring.Ring_theory <> Rsub_def proj
+R4425:4429 Stdlib.micromega.OrderedRing <> SORrt proj
+R4431:4433 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 4487:4495 <> Rneq_symm
+R4512:4512 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4506:4506 <> n:92
+binder 4508:4508 <> m:93
+R4521:4524 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4516:4519 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R4515:4515 Stdlib.micromega.OrderedRing <> n:92 var
+R4520:4520 Stdlib.micromega.OrderedRing <> m:93 var
+R4526:4529 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R4525:4525 Stdlib.micromega.OrderedRing <> m:93 var
+R4530:4530 Stdlib.micromega.OrderedRing <> n:92 var
+prf 4645:4653 <> Rplus_0_l
+R4668:4668 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4664:4664 <> n:94
+R4676:4679 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R4672:4674 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R4675:4675 Stdlib.micromega.OrderedRing <> n:94 var
+R4680:4680 Stdlib.micromega.OrderedRing <> n:94 var
+prf 4717:4725 <> Rplus_0_r
+R4740:4740 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4736:4736 <> n:95
+R4748:4751 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R4744:4746 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R4743:4743 Stdlib.micromega.OrderedRing <> n:95 var
+R4752:4752 Stdlib.micromega.OrderedRing <> n:95 var
+prf 4789:4798 <> Rtimes_0_r
+R4813:4813 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4809:4809 <> n:96
+R4821:4824 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R4817:4819 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R4816:4816 Stdlib.micromega.OrderedRing <> n:96 var
+prf 4862:4871 <> Rplus_comm
+R4888:4888 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4882:4882 <> n:97
+binder 4884:4884 <> m:98
+R4896:4899 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R4892:4894 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R4891:4891 Stdlib.micromega.OrderedRing <> n:97 var
+R4895:4895 Stdlib.micromega.OrderedRing <> m:98 var
+R4901:4903 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R4900:4900 Stdlib.micromega.OrderedRing <> m:98 var
+R4904:4904 Stdlib.micromega.OrderedRing <> n:97 var
+prf 4942:4951 <> Rtimes_0_l
+R4966:4966 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 4962:4962 <> n:99
+R4974:4977 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R4970:4972 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R4973:4973 Stdlib.micromega.OrderedRing <> n:99 var
+prf 5015:5025 <> Rtimes_comm
+R5042:5042 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5036:5036 <> n:100
+binder 5038:5038 <> m:101
+R5050:5053 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5046:5048 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R5045:5045 Stdlib.micromega.OrderedRing <> n:100 var
+R5049:5049 Stdlib.micromega.OrderedRing <> m:101 var
+R5055:5057 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R5054:5054 Stdlib.micromega.OrderedRing <> m:101 var
+R5058:5058 Stdlib.micromega.OrderedRing <> n:100 var
+prf 5096:5106 <> Rminus_eq_0
+R5123:5123 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5117:5117 <> n:102
+binder 5119:5119 <> m:103
+R5136:5140 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5131:5134 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5127:5129 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R5126:5126 Stdlib.micromega.OrderedRing <> n:102 var
+R5130:5130 Stdlib.micromega.OrderedRing <> m:103 var
+R5142:5145 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5141:5141 Stdlib.micromega.OrderedRing <> n:102 var
+R5146:5146 Stdlib.micromega.OrderedRing <> m:103 var
+R5209:5209 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5215:5218 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5211:5213 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R5256:5264 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+prf 5300:5313 <> Rplus_cancel_l
+R5332:5332 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5324:5324 <> n:104
+binder 5326:5326 <> m:105
+binder 5328:5328 <> p:106
+R5349:5353 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5340:5343 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5336:5338 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5335:5335 Stdlib.micromega.OrderedRing <> p:106 var
+R5339:5339 Stdlib.micromega.OrderedRing <> n:104 var
+R5345:5347 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5344:5344 Stdlib.micromega.OrderedRing <> p:106 var
+R5348:5348 Stdlib.micromega.OrderedRing <> m:105 var
+R5355:5358 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5354:5354 Stdlib.micromega.OrderedRing <> n:104 var
+R5359:5359 Stdlib.micromega.OrderedRing <> m:105 var
+R5427:5430 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5436:5436 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5424:5425 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R5432:5434 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5476:5479 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5485:5485 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R5473:5474 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R5481:5483 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+prf 5560:5567 <> Rle_refl
+R5582:5582 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5578:5578 <> n:107
+R5586:5589 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5585:5585 Stdlib.micromega.OrderedRing <> n:107 var
+R5590:5590 Stdlib.micromega.OrderedRing <> n:107 var
+R5609:5618 Stdlib.micromega.OrderedRing <> SORle_refl proj
+R5620:5622 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 5640:5651 <> Rle_antisymm
+R5668:5668 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5662:5662 <> n:108
+binder 5664:5664 <> m:109
+R5677:5680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5672:5675 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5671:5671 Stdlib.micromega.OrderedRing <> n:108 var
+R5676:5676 Stdlib.micromega.OrderedRing <> m:109 var
+R5687:5690 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5682:5685 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5681:5681 Stdlib.micromega.OrderedRing <> m:109 var
+R5686:5686 Stdlib.micromega.OrderedRing <> n:108 var
+R5692:5695 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5691:5691 Stdlib.micromega.OrderedRing <> n:108 var
+R5696:5696 Stdlib.micromega.OrderedRing <> m:109 var
+R5715:5728 Stdlib.micromega.OrderedRing <> SORle_antisymm proj
+R5730:5732 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 5750:5758 <> Rle_trans
+R5777:5777 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5769:5769 <> n:110
+binder 5771:5771 <> m:111
+binder 5773:5773 <> p:112
+R5786:5789 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5781:5784 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5780:5780 Stdlib.micromega.OrderedRing <> n:110 var
+R5785:5785 Stdlib.micromega.OrderedRing <> m:111 var
+R5796:5799 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5791:5794 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5790:5790 Stdlib.micromega.OrderedRing <> m:111 var
+R5795:5795 Stdlib.micromega.OrderedRing <> p:112 var
+R5801:5804 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R5800:5800 Stdlib.micromega.OrderedRing <> n:110 var
+R5805:5805 Stdlib.micromega.OrderedRing <> p:112 var
+R5824:5834 Stdlib.micromega.OrderedRing <> SORle_trans proj
+R5836:5838 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 5856:5869 <> Rlt_trichotomy
+R5886:5886 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5880:5880 <> n:113
+binder 5882:5882 <> m:114
+R5895:5898 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5891:5893 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R5890:5890 Stdlib.micromega.OrderedRing <> n:113 var
+R5894:5894 Stdlib.micromega.OrderedRing <> m:114 var
+R5905:5908 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5900:5903 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R5899:5899 Stdlib.micromega.OrderedRing <> n:113 var
+R5904:5904 Stdlib.micromega.OrderedRing <> m:114 var
+R5910:5912 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R5909:5909 Stdlib.micromega.OrderedRing <> m:114 var
+R5913:5913 Stdlib.micromega.OrderedRing <> n:113 var
+R5932:5947 Stdlib.micromega.OrderedRing <> SORlt_trichotomy proj
+R5949:5951 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 5969:5978 <> Rlt_le_neq
+R5995:5995 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 5989:5989 <> n:115
+binder 5991:5991 <> m:116
+R6003:6007 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5999:6001 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R5998:5998 Stdlib.micromega.OrderedRing <> n:115 var
+R6002:6002 Stdlib.micromega.OrderedRing <> m:116 var
+R6014:6017 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6009:6012 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R6008:6008 Stdlib.micromega.OrderedRing <> n:115 var
+R6013:6013 Stdlib.micromega.OrderedRing <> m:116 var
+R6019:6022 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R6018:6018 Stdlib.micromega.OrderedRing <> n:115 var
+R6023:6023 Stdlib.micromega.OrderedRing <> m:116 var
+R6042:6053 Stdlib.micromega.OrderedRing <> SORlt_le_neq proj
+R6055:6057 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 6075:6082 <> Rneq_0_1
+R6087:6090 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R6110:6119 Stdlib.micromega.OrderedRing <> SORneq_0_1 proj
+R6121:6123 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 6141:6146 <> Req_em
+R6163:6163 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 6157:6157 <> n:117
+binder 6159:6159 <> m:118
+R6172:6175 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6167:6170 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R6166:6166 Stdlib.micromega.OrderedRing <> n:117 var
+R6171:6171 Stdlib.micromega.OrderedRing <> m:118 var
+R6177:6180 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R6176:6176 Stdlib.micromega.OrderedRing <> n:117 var
+R6181:6181 Stdlib.micromega.OrderedRing <> m:118 var
+R6213:6226 Stdlib.micromega.OrderedRing <> Rlt_trichotomy thm
+R6263:6272 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+R6332:6340 Stdlib.micromega.OrderedRing <> Rneq_symm thm
+prf 6373:6379 <> Req_dne
+R6396:6396 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 6390:6390 <> n:119
+binder 6392:6392 <> m:120
+R6409:6413 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6399:6400 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6401:6402 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6404:6407 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R6403:6403 Stdlib.micromega.OrderedRing <> n:119 var
+R6408:6408 Stdlib.micromega.OrderedRing <> m:120 var
+R6415:6418 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R6414:6414 Stdlib.micromega.OrderedRing <> n:119 var
+R6419:6419 Stdlib.micromega.OrderedRing <> m:120 var
+R6451:6456 Stdlib.micromega.OrderedRing <> Req_em thm
+prf 6553:6561 <> Rle_lt_eq
+R6578:6578 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 6572:6572 <> n:121
+binder 6574:6574 <> m:122
+R6587:6591 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6582:6585 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R6581:6581 Stdlib.micromega.OrderedRing <> n:121 var
+R6586:6586 Stdlib.micromega.OrderedRing <> m:122 var
+R6597:6600 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6593:6595 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R6592:6592 Stdlib.micromega.OrderedRing <> n:121 var
+R6596:6596 Stdlib.micromega.OrderedRing <> m:122 var
+R6602:6605 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'=='_x not
+R6601:6601 Stdlib.micromega.OrderedRing <> n:121 var
+R6606:6606 Stdlib.micromega.OrderedRing <> m:122 var
+R6636:6645 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+R6701:6706 Stdlib.micromega.OrderedRing <> Req_em thm
+R6796:6803 Stdlib.micromega.OrderedRing <> Rle_refl thm
+R6836:6844 Stdlib.micromega.OrderedRing <> Rle_lt_eq thm
+R6894:6902 Stdlib.micromega.OrderedRing <> Rle_lt_eq thm
+R6971:6979 Stdlib.micromega.OrderedRing <> Rle_lt_eq thm
+prf 7019:7027 <> Rlt_trans
+R7046:7046 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7038:7038 <> n:123
+binder 7040:7040 <> m:124
+binder 7042:7042 <> p:125
+R7054:7057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7050:7052 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7049:7049 Stdlib.micromega.OrderedRing <> n:123 var
+R7053:7053 Stdlib.micromega.OrderedRing <> m:124 var
+R7063:7066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7059:7061 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7058:7058 Stdlib.micromega.OrderedRing <> m:124 var
+R7062:7062 Stdlib.micromega.OrderedRing <> p:125 var
+R7068:7070 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7067:7067 Stdlib.micromega.OrderedRing <> n:123 var
+R7071:7071 Stdlib.micromega.OrderedRing <> p:125 var
+R7110:7119 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+R7165:7173 Stdlib.micromega.OrderedRing <> Rle_trans thm
+R7223:7234 Stdlib.micromega.OrderedRing <> Rle_antisymm thm
+prf 7272:7283 <> Rle_lt_trans
+R7302:7302 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7294:7294 <> n:126
+binder 7296:7296 <> m:127
+binder 7298:7298 <> p:128
+R7311:7314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7306:7309 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R7305:7305 Stdlib.micromega.OrderedRing <> n:126 var
+R7310:7310 Stdlib.micromega.OrderedRing <> m:127 var
+R7320:7323 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7316:7318 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7315:7315 Stdlib.micromega.OrderedRing <> m:127 var
+R7319:7319 Stdlib.micromega.OrderedRing <> p:128 var
+R7325:7327 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7324:7324 Stdlib.micromega.OrderedRing <> n:126 var
+R7328:7328 Stdlib.micromega.OrderedRing <> p:128 var
+R7383:7391 Stdlib.micromega.OrderedRing <> Rlt_trans thm
+prf 7436:7447 <> Rlt_le_trans
+R7466:7466 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7458:7458 <> n:129
+binder 7460:7460 <> m:130
+binder 7462:7462 <> p:131
+R7474:7477 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7470:7472 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7469:7469 Stdlib.micromega.OrderedRing <> n:129 var
+R7473:7473 Stdlib.micromega.OrderedRing <> m:130 var
+R7484:7487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7479:7482 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R7478:7478 Stdlib.micromega.OrderedRing <> m:130 var
+R7483:7483 Stdlib.micromega.OrderedRing <> p:131 var
+R7489:7491 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7488:7488 Stdlib.micromega.OrderedRing <> n:129 var
+R7492:7492 Stdlib.micromega.OrderedRing <> p:131 var
+R7547:7555 Stdlib.micromega.OrderedRing <> Rlt_trans thm
+prf 7603:7614 <> Rle_gt_cases
+R7631:7631 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7625:7625 <> n:132
+binder 7627:7627 <> m:133
+R7640:7643 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7635:7638 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R7634:7634 Stdlib.micromega.OrderedRing <> n:132 var
+R7639:7639 Stdlib.micromega.OrderedRing <> m:133 var
+R7645:7647 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7644:7644 Stdlib.micromega.OrderedRing <> m:133 var
+R7648:7648 Stdlib.micromega.OrderedRing <> n:132 var
+R7680:7693 Stdlib.micromega.OrderedRing <> Rlt_trichotomy thm
+prf 7788:7794 <> Rlt_neq
+R7811:7811 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7805:7805 <> n:134
+binder 7807:7807 <> m:135
+R7819:7822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7815:7817 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7814:7814 Stdlib.micromega.OrderedRing <> n:134 var
+R7818:7818 Stdlib.micromega.OrderedRing <> m:135 var
+R7824:7827 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R7823:7823 Stdlib.micromega.OrderedRing <> n:134 var
+R7828:7828 Stdlib.micromega.OrderedRing <> m:135 var
+R7858:7867 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+prf 7902:7908 <> Rle_ngt
+R7925:7925 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 7919:7919 <> n:136
+binder 7921:7921 <> m:137
+R7934:7938 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7929:7932 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R7928:7928 Stdlib.micromega.OrderedRing <> n:136 var
+R7933:7933 Stdlib.micromega.OrderedRing <> m:137 var
+R7939:7940 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7942:7944 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R7941:7941 Stdlib.micromega.OrderedRing <> m:137 var
+R7945:7945 Stdlib.micromega.OrderedRing <> n:136 var
+R8003:8005 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R8022:8033 Stdlib.micromega.OrderedRing <> Rle_lt_trans thm
+R8054:8060 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R8088:8099 Stdlib.micromega.OrderedRing <> Rle_gt_cases thm
+prf 8170:8176 <> Rlt_nge
+R8193:8193 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 8187:8187 <> n:138
+binder 8189:8189 <> m:139
+R8201:8205 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8197:8199 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R8196:8196 Stdlib.micromega.OrderedRing <> n:138 var
+R8200:8200 Stdlib.micromega.OrderedRing <> m:139 var
+R8206:8207 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8209:8212 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R8208:8208 Stdlib.micromega.OrderedRing <> m:139 var
+R8213:8213 Stdlib.micromega.OrderedRing <> n:138 var
+R8271:8273 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R8290:8301 Stdlib.micromega.OrderedRing <> Rlt_le_trans thm
+R8322:8328 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R8356:8367 Stdlib.micromega.OrderedRing <> Rle_gt_cases thm
+prf 8467:8481 <> Rplus_le_mono_l
+R8500:8500 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 8492:8492 <> n:140
+binder 8494:8494 <> m:141
+binder 8496:8496 <> p:142
+R8509:8513 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8504:8507 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R8503:8503 Stdlib.micromega.OrderedRing <> n:140 var
+R8508:8508 Stdlib.micromega.OrderedRing <> m:141 var
+R8519:8522 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R8515:8517 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8514:8514 Stdlib.micromega.OrderedRing <> p:142 var
+R8518:8518 Stdlib.micromega.OrderedRing <> n:140 var
+R8524:8526 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8523:8523 Stdlib.micromega.OrderedRing <> p:142 var
+R8527:8527 Stdlib.micromega.OrderedRing <> m:141 var
+R8567:8583 Stdlib.micromega.OrderedRing <> SORplus_le_mono_l proj
+R8585:8587 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R8610:8626 Stdlib.micromega.OrderedRing <> SORplus_le_mono_l proj
+R8628:8630 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+R8635:8637 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8643:8645 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8650:8651 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R8683:8686 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8692:8692 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8680:8681 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R8688:8690 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8737:8740 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8746:8746 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8734:8735 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R8742:8744 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+prf 8796:8810 <> Rplus_le_mono_r
+R8829:8829 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 8821:8821 <> n:143
+binder 8823:8823 <> m:144
+binder 8825:8825 <> p:145
+R8838:8842 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8833:8836 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R8832:8832 Stdlib.micromega.OrderedRing <> n:143 var
+R8837:8837 Stdlib.micromega.OrderedRing <> m:144 var
+R8848:8851 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R8844:8846 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8843:8843 Stdlib.micromega.OrderedRing <> n:143 var
+R8847:8847 Stdlib.micromega.OrderedRing <> p:145 var
+R8853:8855 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R8852:8852 Stdlib.micromega.OrderedRing <> m:144 var
+R8856:8856 Stdlib.micromega.OrderedRing <> p:145 var
+R8889:8898 Stdlib.micromega.OrderedRing <> Rplus_comm thm
+R8915:8924 Stdlib.micromega.OrderedRing <> Rplus_comm thm
+R8938:8952 Stdlib.micromega.OrderedRing <> Rplus_le_mono_l thm
+prf 8969:8983 <> Rplus_lt_mono_l
+R9002:9002 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 8994:8994 <> n:146
+binder 8996:8996 <> m:147
+binder 8998:8998 <> p:148
+R9010:9014 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9006:9008 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9005:9005 Stdlib.micromega.OrderedRing <> n:146 var
+R9009:9009 Stdlib.micromega.OrderedRing <> m:147 var
+R9020:9022 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9016:9018 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9015:9015 Stdlib.micromega.OrderedRing <> p:148 var
+R9019:9019 Stdlib.micromega.OrderedRing <> n:146 var
+R9024:9026 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9023:9023 Stdlib.micromega.OrderedRing <> p:148 var
+R9027:9027 Stdlib.micromega.OrderedRing <> m:147 var
+R9064:9073 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+R9084:9097 Stdlib.micromega.OrderedRing <> Rplus_cancel_l thm
+R9115:9129 Stdlib.micromega.OrderedRing <> Rplus_le_mono_l thm
+prf 9146:9160 <> Rplus_lt_mono_r
+R9179:9179 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 9171:9171 <> n:149
+binder 9173:9173 <> m:150
+binder 9175:9175 <> p:151
+R9187:9191 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9183:9185 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9182:9182 Stdlib.micromega.OrderedRing <> n:149 var
+R9186:9186 Stdlib.micromega.OrderedRing <> m:150 var
+R9197:9199 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9193:9195 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9192:9192 Stdlib.micromega.OrderedRing <> n:149 var
+R9196:9196 Stdlib.micromega.OrderedRing <> p:151 var
+R9201:9203 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9200:9200 Stdlib.micromega.OrderedRing <> m:150 var
+R9204:9204 Stdlib.micromega.OrderedRing <> p:151 var
+R9237:9246 Stdlib.micromega.OrderedRing <> Rplus_comm thm
+R9263:9272 Stdlib.micromega.OrderedRing <> Rplus_comm thm
+R9286:9300 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_l thm
+prf 9317:9329 <> Rplus_lt_mono
+R9350:9350 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 9340:9340 <> n:152
+binder 9342:9342 <> m:153
+binder 9344:9344 <> p:154
+binder 9346:9346 <> q:155
+R9358:9361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9354:9356 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9353:9353 Stdlib.micromega.OrderedRing <> n:152 var
+R9357:9357 Stdlib.micromega.OrderedRing <> m:153 var
+R9367:9370 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9363:9365 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9362:9362 Stdlib.micromega.OrderedRing <> p:154 var
+R9366:9366 Stdlib.micromega.OrderedRing <> q:155 var
+R9376:9378 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9372:9374 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9371:9371 Stdlib.micromega.OrderedRing <> n:152 var
+R9375:9375 Stdlib.micromega.OrderedRing <> p:154 var
+R9380:9382 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9379:9379 Stdlib.micromega.OrderedRing <> m:153 var
+R9383:9383 Stdlib.micromega.OrderedRing <> q:155 var
+R9438:9440 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9421:9429 Stdlib.micromega.OrderedRing <> Rlt_trans thm
+R9459:9473 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_r thm
+R9490:9504 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_l thm
+prf 9522:9534 <> Rplus_le_mono
+R9555:9555 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 9545:9545 <> n:156
+binder 9547:9547 <> m:157
+binder 9549:9549 <> p:158
+binder 9551:9551 <> q:159
+R9564:9567 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9559:9562 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R9558:9558 Stdlib.micromega.OrderedRing <> n:156 var
+R9563:9563 Stdlib.micromega.OrderedRing <> m:157 var
+R9574:9577 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9569:9572 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R9568:9568 Stdlib.micromega.OrderedRing <> p:158 var
+R9573:9573 Stdlib.micromega.OrderedRing <> q:159 var
+R9583:9586 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R9579:9581 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9578:9578 Stdlib.micromega.OrderedRing <> n:156 var
+R9582:9582 Stdlib.micromega.OrderedRing <> p:158 var
+R9588:9590 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9587:9587 Stdlib.micromega.OrderedRing <> m:157 var
+R9591:9591 Stdlib.micromega.OrderedRing <> q:159 var
+R9646:9648 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9629:9637 Stdlib.micromega.OrderedRing <> Rle_trans thm
+R9667:9681 Stdlib.micromega.OrderedRing <> Rplus_le_mono_r thm
+R9698:9712 Stdlib.micromega.OrderedRing <> Rplus_le_mono_l thm
+prf 9730:9745 <> Rplus_lt_le_mono
+R9766:9766 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 9756:9756 <> n:160
+binder 9758:9758 <> m:161
+binder 9760:9760 <> p:162
+binder 9762:9762 <> q:163
+R9774:9777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9770:9772 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9769:9769 Stdlib.micromega.OrderedRing <> n:160 var
+R9773:9773 Stdlib.micromega.OrderedRing <> m:161 var
+R9784:9787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9779:9782 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R9778:9778 Stdlib.micromega.OrderedRing <> p:162 var
+R9783:9783 Stdlib.micromega.OrderedRing <> q:163 var
+R9793:9795 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9789:9791 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9788:9788 Stdlib.micromega.OrderedRing <> n:160 var
+R9792:9792 Stdlib.micromega.OrderedRing <> p:162 var
+R9797:9799 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9796:9796 Stdlib.micromega.OrderedRing <> m:161 var
+R9800:9800 Stdlib.micromega.OrderedRing <> q:163 var
+R9858:9860 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R9838:9849 Stdlib.micromega.OrderedRing <> Rlt_le_trans thm
+R9879:9893 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_r thm
+R9910:9924 Stdlib.micromega.OrderedRing <> Rplus_le_mono_l thm
+prf 9942:9957 <> Rplus_le_lt_mono
+R9978:9978 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 9968:9968 <> n:164
+binder 9970:9970 <> m:165
+binder 9972:9972 <> p:166
+binder 9974:9974 <> q:167
+R9987:9990 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9982:9985 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R9981:9981 Stdlib.micromega.OrderedRing <> n:164 var
+R9986:9986 Stdlib.micromega.OrderedRing <> m:165 var
+R9996:9999 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9992:9994 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R9991:9991 Stdlib.micromega.OrderedRing <> p:166 var
+R9995:9995 Stdlib.micromega.OrderedRing <> q:167 var
+R10005:10007 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10001:10003 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10000:10000 Stdlib.micromega.OrderedRing <> n:164 var
+R10004:10004 Stdlib.micromega.OrderedRing <> p:166 var
+R10009:10011 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10008:10008 Stdlib.micromega.OrderedRing <> m:165 var
+R10012:10012 Stdlib.micromega.OrderedRing <> q:167 var
+R10070:10072 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10050:10061 Stdlib.micromega.OrderedRing <> Rle_lt_trans thm
+R10091:10105 Stdlib.micromega.OrderedRing <> Rplus_le_mono_r thm
+R10122:10136 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_l thm
+prf 10154:10166 <> Rplus_pos_pos
+R10183:10183 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 10177:10177 <> n:168
+binder 10179:10179 <> m:169
+R10191:10194 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10187:10189 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10190:10190 Stdlib.micromega.OrderedRing <> n:168 var
+R10200:10203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10196:10198 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10199:10199 Stdlib.micromega.OrderedRing <> m:169 var
+R10205:10207 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10209:10211 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10208:10208 Stdlib.micromega.OrderedRing <> n:168 var
+R10212:10212 Stdlib.micromega.OrderedRing <> m:169 var
+R10252:10260 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+R10276:10288 Stdlib.micromega.OrderedRing <> Rplus_lt_mono thm
+prf 10305:10320 <> Rplus_pos_nonneg
+R10337:10337 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 10331:10331 <> n:170
+binder 10333:10333 <> m:171
+R10345:10348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10341:10343 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10344:10344 Stdlib.micromega.OrderedRing <> n:170 var
+R10355:10358 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10350:10353 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10354:10354 Stdlib.micromega.OrderedRing <> m:171 var
+R10360:10362 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10364:10366 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10363:10363 Stdlib.micromega.OrderedRing <> n:170 var
+R10367:10367 Stdlib.micromega.OrderedRing <> m:171 var
+R10407:10415 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+R10431:10446 Stdlib.micromega.OrderedRing <> Rplus_lt_le_mono thm
+prf 10463:10478 <> Rplus_nonneg_pos
+R10495:10495 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 10489:10489 <> n:172
+binder 10491:10491 <> m:173
+R10504:10507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10499:10502 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10503:10503 Stdlib.micromega.OrderedRing <> n:172 var
+R10513:10516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10509:10511 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10512:10512 Stdlib.micromega.OrderedRing <> m:173 var
+R10518:10520 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R10522:10524 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10521:10521 Stdlib.micromega.OrderedRing <> n:172 var
+R10525:10525 Stdlib.micromega.OrderedRing <> m:173 var
+R10565:10573 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+R10589:10604 Stdlib.micromega.OrderedRing <> Rplus_le_lt_mono thm
+prf 10621:10639 <> Rplus_nonneg_nonneg
+R10656:10656 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 10650:10650 <> n:174
+binder 10652:10652 <> m:175
+R10665:10668 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10660:10663 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10664:10664 Stdlib.micromega.OrderedRing <> n:174 var
+R10675:10678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10670:10673 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10674:10674 Stdlib.micromega.OrderedRing <> m:175 var
+R10680:10683 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10685:10687 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10684:10684 Stdlib.micromega.OrderedRing <> n:174 var
+R10688:10688 Stdlib.micromega.OrderedRing <> m:175 var
+R10728:10736 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+R10752:10764 Stdlib.micromega.OrderedRing <> Rplus_le_mono thm
+prf 10781:10792 <> Rle_le_minus
+R10809:10809 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 10803:10803 <> n:176
+binder 10805:10805 <> m:177
+R10818:10822 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10813:10816 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10812:10812 Stdlib.micromega.OrderedRing <> n:176 var
+R10817:10817 Stdlib.micromega.OrderedRing <> m:177 var
+R10824:10827 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R10829:10831 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R10828:10828 Stdlib.micromega.OrderedRing <> m:177 var
+R10832:10832 Stdlib.micromega.OrderedRing <> n:176 var
+R10864:10878 Stdlib.micromega.OrderedRing <> Rplus_le_mono_r thm
+R10885:10886 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R10909:10911 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10912:10913 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R10954:10956 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R10957:10958 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R10969:10971 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+prf 10998:11009 <> Rlt_lt_minus
+R11026:11026 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 11020:11020 <> n:178
+binder 11022:11022 <> m:179
+R11034:11038 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11030:11032 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11029:11029 Stdlib.micromega.OrderedRing <> n:178 var
+R11033:11033 Stdlib.micromega.OrderedRing <> m:179 var
+R11040:11042 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11044:11046 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R11043:11043 Stdlib.micromega.OrderedRing <> m:179 var
+R11047:11047 Stdlib.micromega.OrderedRing <> n:178 var
+R11079:11093 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_r thm
+R11100:11101 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11124:11126 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11127:11128 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11169:11171 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11172:11173 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11184:11186 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+prf 11213:11224 <> Ropp_lt_mono
+R11241:11241 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 11235:11235 <> n:180
+binder 11237:11237 <> m:181
+R11249:11253 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11245:11247 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11244:11244 Stdlib.micromega.OrderedRing <> n:180 var
+R11248:11248 Stdlib.micromega.OrderedRing <> m:181 var
+R11257:11259 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11254:11255 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11256:11256 Stdlib.micromega.OrderedRing <> m:181 var
+R11260:11261 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11262:11262 Stdlib.micromega.OrderedRing <> n:180 var
+R11313:11327 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_l thm
+R11337:11339 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R11334:11335 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11375:11377 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11371:11373 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R11368:11369 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11387:11388 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11435:11437 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11431:11433 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'-'_x not
+R11428:11429 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11447:11448 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11479:11493 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_l thm
+R11496:11497 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11502:11503 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11509:11511 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11545:11547 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11541:11543 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11548:11549 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11601:11603 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11597:11599 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R11604:11605 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+prf 11644:11655 <> Ropp_pos_neg
+R11670:11670 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 11666:11666 <> n:182
+R11680:11684 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11674:11676 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11677:11678 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R11679:11679 Stdlib.micromega.OrderedRing <> n:182 var
+R11686:11688 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11685:11685 Stdlib.micromega.OrderedRing <> n:182 var
+R11717:11728 Stdlib.micromega.OrderedRing <> Ropp_lt_mono thm
+R11756:11757 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+prf 11814:11827 <> Rtimes_pos_pos
+R11844:11844 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 11838:11838 <> n:183
+binder 11840:11840 <> m:184
+R11852:11855 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11848:11850 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11851:11851 Stdlib.micromega.OrderedRing <> n:183 var
+R11861:11864 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11857:11859 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11860:11860 Stdlib.micromega.OrderedRing <> m:184 var
+R11866:11868 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R11870:11872 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R11869:11869 Stdlib.micromega.OrderedRing <> n:183 var
+R11873:11873 Stdlib.micromega.OrderedRing <> m:184 var
+R11892:11907 Stdlib.micromega.OrderedRing <> SORtimes_pos_pos proj
+R11909:11911 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.sor var
+prf 11929:11948 <> Rtimes_nonneg_nonneg
+R11965:11965 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 11959:11959 <> n:185
+binder 11961:11961 <> m:186
+R11974:11977 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11969:11972 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R11973:11973 Stdlib.micromega.OrderedRing <> n:185 var
+R11984:11987 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11979:11982 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R11983:11983 Stdlib.micromega.OrderedRing <> m:186 var
+R11989:11992 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R11994:11996 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R11993:11993 Stdlib.micromega.OrderedRing <> n:185 var
+R11997:11997 Stdlib.micromega.OrderedRing <> m:186 var
+R12074:12087 Stdlib.micromega.OrderedRing <> Rtimes_pos_pos thm
+R12117:12126 Stdlib.micromega.OrderedRing <> Rtimes_0_r thm
+R12164:12173 Stdlib.micromega.OrderedRing <> Rtimes_0_l thm
+prf 12200:12213 <> Rtimes_pos_neg
+R12230:12230 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 12224:12224 <> n:187
+binder 12226:12226 <> m:188
+R12238:12241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12234:12236 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12237:12237 Stdlib.micromega.OrderedRing <> n:187 var
+R12247:12250 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12243:12245 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12242:12242 Stdlib.micromega.OrderedRing <> m:188 var
+R12256:12258 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12252:12254 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12251:12251 Stdlib.micromega.OrderedRing <> n:187 var
+R12255:12255 Stdlib.micromega.OrderedRing <> m:188 var
+R12296:12307 Stdlib.micromega.OrderedRing <> Ropp_pos_neg thm
+R12326:12328 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R12334:12334 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R12330:12332 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12344:12347 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12351:12351 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12348:12349 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R12369:12382 Stdlib.micromega.OrderedRing <> Rtimes_pos_pos thm
+R12414:12425 Stdlib.micromega.OrderedRing <> Ropp_pos_neg thm
+prf 12442:12455 <> Rtimes_neg_neg
+R12472:12472 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 12466:12466 <> n:189
+binder 12468:12468 <> m:190
+R12480:12483 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12476:12478 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12475:12475 Stdlib.micromega.OrderedRing <> n:189 var
+R12489:12492 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12485:12487 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12484:12484 Stdlib.micromega.OrderedRing <> m:190 var
+R12494:12496 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R12498:12500 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12497:12497 Stdlib.micromega.OrderedRing <> n:189 var
+R12501:12501 Stdlib.micromega.OrderedRing <> m:190 var
+R12546:12548 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12558:12558 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12562:12566 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12570:12570 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12559:12560 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R12567:12568 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R12588:12601 Stdlib.micromega.OrderedRing <> Rtimes_pos_pos thm
+R12617:12628 Stdlib.micromega.OrderedRing <> Ropp_pos_neg thm
+prf 12645:12664 <> Rtimes_square_nonneg
+R12679:12679 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 12675:12675 <> n:191
+R12683:12686 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<='_x not
+R12688:12690 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12687:12687 Stdlib.micromega.OrderedRing <> n:191 var
+R12691:12691 Stdlib.micromega.OrderedRing <> n:191 var
+R12720:12733 Stdlib.micromega.OrderedRing <> Rlt_trichotomy thm
+R12779:12792 Stdlib.micromega.OrderedRing <> Rtimes_pos_pos thm
+R12811:12820 Stdlib.micromega.OrderedRing <> Rtimes_0_l thm
+R12854:12867 Stdlib.micromega.OrderedRing <> Rtimes_neg_neg thm
+prf 12884:12895 <> Rtimes_neq_0
+R12912:12912 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 12906:12906 <> n:192
+binder 12908:12908 <> m:193
+R12931:12934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12921:12924 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12916:12919 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R12915:12915 Stdlib.micromega.OrderedRing <> n:192 var
+R12926:12929 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R12925:12925 Stdlib.micromega.OrderedRing <> m:193 var
+R12940:12943 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'~='_x not
+R12936:12938 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R12935:12935 Stdlib.micromega.OrderedRing <> n:192 var
+R12939:12939 Stdlib.micromega.OrderedRing <> m:193 var
+R12984:12997 Stdlib.micromega.OrderedRing <> Rlt_trichotomy thm
+R13035:13048 Stdlib.micromega.OrderedRing <> Rlt_trichotomy thm
+R13130:13138 Stdlib.micromega.OrderedRing <> Rneq_symm thm
+R13147:13153 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R13166:13179 Stdlib.micromega.OrderedRing <> Rtimes_neg_neg thm
+R13190:13196 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R13207:13217 Stdlib.micromega.OrderedRing <> Rtimes_comm thm
+R13230:13243 Stdlib.micromega.OrderedRing <> Rtimes_pos_neg thm
+R13254:13260 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R13273:13286 Stdlib.micromega.OrderedRing <> Rtimes_pos_neg thm
+R13297:13305 Stdlib.micromega.OrderedRing <> Rneq_symm thm
+R13314:13320 Stdlib.micromega.OrderedRing <> Rlt_neq thm
+R13333:13346 Stdlib.micromega.OrderedRing <> Rtimes_pos_pos thm
+prf 13587:13598 <> Ropp_neg_pos
+R13613:13613 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 13609:13609 <> n:194
+R13623:13627 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R13619:13621 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R13616:13617 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R13618:13618 Stdlib.micromega.OrderedRing <> n:194 var
+R13629:13631 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R13632:13632 Stdlib.micromega.OrderedRing <> n:194 var
+R13674:13675 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R13676:13677 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R13698:13709 Stdlib.micromega.OrderedRing <> Ropp_pos_neg thm
+R13732:13733 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+R13734:13735 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::'-'_x not
+prf 13769:13775 <> Rlt_0_1
+R13780:13782 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R13802:13811 Stdlib.micromega.OrderedRing <> Rlt_le_neq thm
+R13847:13849 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'*'_x not
+R13868:13887 Stdlib.micromega.OrderedRing <> Rtimes_square_nonneg thm
+R13898:13905 Stdlib.micromega.OrderedRing <> Rneq_0_1 thm
+prf 13922:13931 <> Rlt_succ_r
+R13946:13946 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 13942:13942 <> n:195
+R13950:13952 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R13949:13949 Stdlib.micromega.OrderedRing <> n:195 var
+R13954:13956 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R13957:13957 Stdlib.micromega.OrderedRing <> n:195 var
+R13988:13996 Stdlib.micromega.OrderedRing <> Rplus_0_l thm
+R14019:14022 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R14028:14028 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R14024:14026 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R14038:14040 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R14062:14076 Stdlib.micromega.OrderedRing <> Rplus_lt_mono_r thm
+R14085:14091 Stdlib.micromega.OrderedRing <> Rlt_0_1 thm
+prf 14108:14118 <> Rlt_lt_succ
+R14135:14135 Stdlib.micromega.OrderedRing <> STRICT_ORDERED_RING.R var
+binder 14129:14129 <> n:196
+binder 14131:14131 <> m:197
+R14143:14146 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14139:14141 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R14138:14138 Stdlib.micromega.OrderedRing <> n:196 var
+R14142:14142 Stdlib.micromega.OrderedRing <> m:197 var
+R14148:14150 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'<'_x not
+R14147:14147 Stdlib.micromega.OrderedRing <> n:196 var
+R14152:14154 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING :::x_'+'_x not
+R14155:14155 Stdlib.micromega.OrderedRing <> m:197 var
+R14187:14195 Stdlib.micromega.OrderedRing <> Rlt_trans thm
+R14231:14240 Stdlib.micromega.OrderedRing <> Rlt_succ_r thm
+R14515:14533 Stdlib.micromega.OrderedRing STRICT_ORDERED_RING <> sec

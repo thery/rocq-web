@@ -1,0 +1,758 @@
+DIGEST 38943cdbfb1cf9a8c2a61c88312f7f14
+FStdlib.Numbers.NatInt.NZGcd
+R735:742 Stdlib.Numbers.NatInt.NZAxioms <> <> lib
+R744:753 Stdlib.Numbers.NatInt.NZMulOrder <> <> lib
+R857:859 Stdlib.Structures.Equalities Typ <> modtype
+modtype 841:843 <> Gcd
+R841:843 Stdlib.Numbers.NatInt.NZGcd A <> mod
+ax 881:883 Gcd gcd
+R888:891 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R887:887 Stdlib.Numbers.NatInt.NZGcd A t defax
+R893:896 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R892:892 Stdlib.Numbers.NatInt.NZGcd A t defax
+R897:897 Stdlib.Numbers.NatInt.NZGcd A t defax
+R904:906 Stdlib.Numbers.NatInt.NZGcd Gcd <> modtype
+R937:951 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> modtype
+R958:960 Stdlib.Numbers.NatInt.NZGcd Gcd <> modtype
+R962:962 Stdlib.Numbers.NatInt.NZGcd A <> mod
+modtype 922:930 <> NZGcdSpec
+R974:974 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R976:976 Stdlib.Numbers.NatInt.NZGcd B <> mod
+def 991:996 NZGcdSpec divide
+binder 998:998 <> n:3
+binder 1000:1000 <> m:4
+R1005:1011 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1013:1014 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1012:1012 <> p:5
+R1016:1019 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1015:1015 Stdlib.Numbers.NatInt.NZGcd <> m:4 var
+R1021:1021 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1020:1020 Stdlib.Numbers.NatInt.NZGcd <> p:5 var
+R1022:1022 Stdlib.Numbers.NatInt.NZGcd <> n:3 var
+R1060:1065 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec divide def
+not 1044:1044 NZGcdSpec :::'('_x_'|'_x_')'
+ax 1093:1104 NZGcdSpec gcd_divide_l
+binder 1115:1115 <> n:6
+binder 1117:1117 <> m:7
+R1120:1120 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1128:1130 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1132:1132 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1121:1123 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R1125:1125 Stdlib.Numbers.NatInt.NZGcd <> n:6 var
+R1127:1127 Stdlib.Numbers.NatInt.NZGcd <> m:7 var
+R1131:1131 Stdlib.Numbers.NatInt.NZGcd <> n:6 var
+ax 1142:1153 NZGcdSpec gcd_divide_r
+binder 1164:1164 <> n:10
+binder 1166:1166 <> m:11
+R1169:1169 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1177:1179 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1181:1181 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1170:1172 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R1174:1174 Stdlib.Numbers.NatInt.NZGcd <> n:10 var
+R1176:1176 Stdlib.Numbers.NatInt.NZGcd <> m:11 var
+R1180:1180 Stdlib.Numbers.NatInt.NZGcd <> m:11 var
+ax 1191:1202 NZGcdSpec gcd_greatest
+binder 1213:1213 <> n:14
+binder 1215:1215 <> m:15
+binder 1217:1217 <> p:16
+R1227:1230 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1220:1220 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1222:1224 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1226:1226 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1221:1221 Stdlib.Numbers.NatInt.NZGcd <> p:16 var
+R1225:1225 Stdlib.Numbers.NatInt.NZGcd <> n:14 var
+R1238:1241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1231:1231 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1233:1235 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1237:1237 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1232:1232 Stdlib.Numbers.NatInt.NZGcd <> p:16 var
+R1236:1236 Stdlib.Numbers.NatInt.NZGcd <> m:15 var
+R1242:1242 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1244:1246 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1254:1254 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec :::'('_x_'|'_x_')' not
+R1243:1243 Stdlib.Numbers.NatInt.NZGcd <> p:16 var
+R1247:1249 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R1251:1251 Stdlib.Numbers.NatInt.NZGcd <> n:14 var
+R1253:1253 Stdlib.Numbers.NatInt.NZGcd <> m:15 var
+ax 1264:1273 NZGcdSpec gcd_nonneg
+binder 1284:1284 <> n:19
+binder 1286:1286 <> m:20
+R1290:1293 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1294:1296 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R1298:1298 Stdlib.Numbers.NatInt.NZGcd <> n:19 var
+R1300:1300 Stdlib.Numbers.NatInt.NZGcd <> m:20 var
+R1307:1315 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec <> modtype
+R1349:1363 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> modtype
+R1368:1370 Stdlib.Numbers.NatInt.NZGcd Gcd <> modtype
+R1372:1372 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1377:1385 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec <> modtype
+R1387:1387 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1389:1389 Stdlib.Numbers.NatInt.NZGcd B <> mod
+modtype 1331:1344 <> DivideNotation
+R1401:1401 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1403:1403 Stdlib.Numbers.NatInt.NZGcd B <> mod
+R1405:1405 Stdlib.Numbers.NatInt.NZGcd C <> mod
+R1434:1439 Stdlib.Numbers.NatInt.NZGcd C divide def
+not 1418:1418 DivideNotation :::'('_x_'|'_x_')'
+R1464:1477 Stdlib.Numbers.NatInt.NZGcd DivideNotation <> modtype
+R1504:1517 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> modtype
+R1523:1525 Stdlib.Numbers.NatInt.NZGcd Gcd <> modtype
+R1527:1527 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1532:1540 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec <> modtype
+R1542:1542 Stdlib.Numbers.NatInt.NZGcd A <> mod
+modtype 1493:1497 <> NZGcd
+R1569:1582 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> modtype
+R1589:1591 Stdlib.Numbers.NatInt.NZGcd Gcd <> modtype
+R1593:1593 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1598:1606 Stdlib.Numbers.NatInt.NZGcd NZGcdSpec <> modtype
+R1608:1608 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1613:1626 Stdlib.Numbers.NatInt.NZGcd DivideNotation <> modtype
+R1628:1628 Stdlib.Numbers.NatInt.NZGcd A <> mod
+modtype 1557:1562 <> NZGcd'
+R1696:1710 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> modtype
+R1726:1731 Stdlib.Numbers.NatInt.NZGcd NZGcd' <> modtype
+R1733:1733 Stdlib.Numbers.NatInt.NZGcd A <> mod
+R1749:1762 Stdlib.Numbers.NatInt.NZMulOrder NZMulOrderProp <> modtype
+R1764:1764 Stdlib.Numbers.NatInt.NZGcd A <> mod
+mod 1673:1681 <> NZGcdProp
+inst 1827:1835 NZGcdProp divide_wd
+R1839:1844 Corelib.Classes.Morphisms <> Proper class
+R1862:1867 Stdlib.Numbers.NatInt.NZGcd B divide def
+R1849:1851 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1847:1848 Stdlib.Numbers.NatInt.NZGcd A eq defax
+R1854:1856 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1852:1853 Stdlib.Numbers.NatInt.NZGcd A eq defax
+R1857:1859 Corelib.Init.Logic <> iff def
+R1885:1890 Stdlib.Numbers.NatInt.NZGcd B divide def
+prf 1974:1983 NZGcdProp divide_1_l
+binder 1994:1994 <> n:23
+R1997:1997 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1999:2001 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2003:2003 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2002:2002 Stdlib.Numbers.NatInt.NZGcd <> n:23 var
+prf 2059:2068 NZGcdProp divide_0_r
+binder 2079:2079 <> n:24
+R2082:2082 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2084:2086 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2088:2088 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2083:2083 Stdlib.Numbers.NatInt.NZGcd <> n:24 var
+prf 2144:2153 NZGcdProp divide_0_l
+binder 2164:2164 <> n:25
+R2174:2177 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2167:2167 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2169:2171 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2173:2173 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2172:2172 Stdlib.Numbers.NatInt.NZGcd <> n:25 var
+R2179:2180 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2178:2178 Stdlib.Numbers.NatInt.NZGcd <> n:25 var
+prf 2245:2259 NZGcdProp eq_mul_1_nonneg
+binder 2270:2270 <> n:26
+binder 2272:2272 <> m:27
+R2280:2283 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2277:2278 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2279:2279 Stdlib.Numbers.NatInt.NZGcd <> n:26 var
+R2292:2295 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2287:2290 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2285:2285 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2284:2284 Stdlib.Numbers.NatInt.NZGcd <> n:26 var
+R2286:2286 Stdlib.Numbers.NatInt.NZGcd <> m:27 var
+R2300:2303 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2297:2298 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2296:2296 Stdlib.Numbers.NatInt.NZGcd <> n:26 var
+R2305:2306 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2304:2304 Stdlib.Numbers.NatInt.NZGcd <> m:27 var
+R2361:2371 Stdlib.Numbers.NatInt.NZGcd C lt_ge_cases thm
+R2407:2417 Stdlib.Numbers.NatInt.NZGcd C mul_pos_neg thm
+R2469:2477 Stdlib.Numbers.NatInt.NZGcd C le_succ_l thm
+R2497:2504 Stdlib.Numbers.NatInt.NZGcd A one_succ prfax
+R2554:2565 Stdlib.Numbers.NatInt.NZGcd C lt_1_mul_pos thm
+R2611:2617 Stdlib.Numbers.NatInt.NZGcd C mul_1_l thm
+R2658:2664 Stdlib.Numbers.NatInt.NZGcd C mul_0_r thm
+R2698:2704 Stdlib.Numbers.NatInt.NZGcd A mul_0_l prfax
+prf 2732:2747 NZGcdProp eq_mul_1_nonneg'
+binder 2758:2758 <> n:28
+binder 2760:2760 <> m:29
+R2768:2771 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2765:2766 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2767:2767 Stdlib.Numbers.NatInt.NZGcd <> m:29 var
+R2780:2783 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2775:2778 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2773:2773 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2772:2772 Stdlib.Numbers.NatInt.NZGcd <> n:28 var
+R2774:2774 Stdlib.Numbers.NatInt.NZGcd <> m:29 var
+R2788:2791 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2785:2786 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2784:2784 Stdlib.Numbers.NatInt.NZGcd <> n:28 var
+R2793:2794 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2792:2792 Stdlib.Numbers.NatInt.NZGcd <> m:29 var
+R2831:2838 Stdlib.Numbers.NatInt.NZGcd C mul_comm thm
+R2857:2864 Corelib.Init.Logic <> and_comm thm
+R2867:2881 Stdlib.Numbers.NatInt.NZGcd NZGcdProp eq_mul_1_nonneg thm
+prf 2896:2912 NZGcdProp divide_1_r_nonneg
+binder 2923:2923 <> n:30
+R2930:2933 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2927:2928 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2929:2929 Stdlib.Numbers.NatInt.NZGcd <> n:30 var
+R2941:2944 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2934:2934 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2936:2938 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2940:2940 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2935:2935 Stdlib.Numbers.NatInt.NZGcd <> n:30 var
+R2946:2947 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2945:2945 Stdlib.Numbers.NatInt.NZGcd <> n:30 var
+R3007:3022 Stdlib.Numbers.NatInt.NZGcd NZGcdProp eq_mul_1_nonneg' thm
+prf 3042:3052 NZGcdProp divide_refl
+binder 3063:3063 <> n:31
+R3066:3066 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3068:3070 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3072:3072 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3067:3067 Stdlib.Numbers.NatInt.NZGcd <> n:31 var
+R3071:3071 Stdlib.Numbers.NatInt.NZGcd <> n:31 var
+prf 3128:3139 NZGcdProp divide_trans
+binder 3150:3150 <> n:32
+binder 3152:3152 <> m:33
+binder 3154:3154 <> p:34
+R3164:3167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3157:3157 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3159:3161 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3163:3163 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3158:3158 Stdlib.Numbers.NatInt.NZGcd <> n:32 var
+R3162:3162 Stdlib.Numbers.NatInt.NZGcd <> m:33 var
+R3175:3178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3168:3168 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3170:3172 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3174:3174 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3169:3169 Stdlib.Numbers.NatInt.NZGcd <> m:33 var
+R3173:3173 Stdlib.Numbers.NatInt.NZGcd <> p:34 var
+R3179:3179 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3181:3183 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3185:3185 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3180:3180 Stdlib.Numbers.NatInt.NZGcd <> n:32 var
+R3184:3184 Stdlib.Numbers.NatInt.NZGcd <> p:34 var
+R3233:3233 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3259:3267 Stdlib.Numbers.NatInt.NZGcd C mul_assoc thm
+inst 3295:3310 NZGcdProp divide_reflexive
+R3314:3322 Corelib.Classes.RelationClasses <> Reflexive class
+R3324:3329 Stdlib.Numbers.NatInt.NZGcd B divide def
+R3338:3348 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+inst 3370:3386 NZGcdProp divide_transitive
+R3390:3399 Corelib.Classes.RelationClasses <> Transitive class
+R3401:3406 Stdlib.Numbers.NatInt.NZGcd B divide def
+R3415:3426 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_trans thm
+prf 3488:3508 NZGcdProp divide_antisym_nonneg
+binder 3519:3519 <> n:35
+binder 3521:3521 <> m:36
+R3529:3532 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3526:3527 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3528:3528 Stdlib.Numbers.NatInt.NZGcd <> n:35 var
+R3537:3540 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3534:3535 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3536:3536 Stdlib.Numbers.NatInt.NZGcd <> m:36 var
+R3548:3551 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3541:3541 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3543:3545 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3547:3547 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3542:3542 Stdlib.Numbers.NatInt.NZGcd <> n:35 var
+R3546:3546 Stdlib.Numbers.NatInt.NZGcd <> m:36 var
+R3559:3562 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3552:3552 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3554:3556 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3558:3558 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3553:3553 Stdlib.Numbers.NatInt.NZGcd <> m:36 var
+R3557:3557 Stdlib.Numbers.NatInt.NZGcd <> n:35 var
+R3564:3567 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3563:3563 Stdlib.Numbers.NatInt.NZGcd <> n:35 var
+R3568:3568 Stdlib.Numbers.NatInt.NZGcd <> m:36 var
+R3637:3647 Stdlib.Numbers.NatInt.NZGcd C lt_ge_cases thm
+R3685:3695 Stdlib.Numbers.NatInt.NZGcd C mul_neg_pos thm
+R3734:3742 Stdlib.Numbers.NatInt.NZGcd C mul_assoc thm
+R3778:3785 Stdlib.Numbers.NatInt.NZGcd C mul_id_l thm
+R3819:3834 Stdlib.Numbers.NatInt.NZGcd NZGcdProp eq_mul_1_nonneg' thm
+R3880:3886 Stdlib.Numbers.NatInt.NZGcd C mul_1_l thm
+R3913:3919 Stdlib.Numbers.NatInt.NZGcd C mul_0_r thm
+prf 3959:3975 NZGcdProp mul_divide_mono_l
+binder 3986:3986 <> n:37
+binder 3988:3988 <> m:38
+binder 3990:3990 <> p:39
+R4000:4003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3993:3993 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3995:3997 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3999:3999 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3994:3994 Stdlib.Numbers.NatInt.NZGcd <> n:37 var
+R3998:3998 Stdlib.Numbers.NatInt.NZGcd <> m:38 var
+R4004:4004 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4010:4012 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4018:4018 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4006:4008 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4005:4005 Stdlib.Numbers.NatInt.NZGcd <> p:39 var
+R4009:4009 Stdlib.Numbers.NatInt.NZGcd <> n:37 var
+R4014:4016 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4013:4013 Stdlib.Numbers.NatInt.NZGcd <> p:39 var
+R4017:4017 Stdlib.Numbers.NatInt.NZGcd <> m:38 var
+R4072:4083 Stdlib.Numbers.NatInt.NZGcd C mul_shuffle3 thm
+prf 4102:4118 NZGcdProp mul_divide_mono_r
+binder 4129:4129 <> n:40
+binder 4131:4131 <> m:41
+binder 4133:4133 <> p:42
+R4143:4146 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4136:4136 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4138:4140 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4142:4142 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4137:4137 Stdlib.Numbers.NatInt.NZGcd <> n:40 var
+R4141:4141 Stdlib.Numbers.NatInt.NZGcd <> m:41 var
+R4147:4147 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4153:4155 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4161:4161 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4149:4151 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4148:4148 Stdlib.Numbers.NatInt.NZGcd <> n:40 var
+R4152:4152 Stdlib.Numbers.NatInt.NZGcd <> p:42 var
+R4157:4159 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4156:4156 Stdlib.Numbers.NatInt.NZGcd <> m:41 var
+R4160:4160 Stdlib.Numbers.NatInt.NZGcd <> p:42 var
+R4215:4223 Stdlib.Numbers.NatInt.NZGcd C mul_assoc thm
+prf 4242:4260 NZGcdProp mul_divide_cancel_l
+binder 4271:4271 <> n:43
+binder 4273:4273 <> m:44
+binder 4275:4275 <> p:45
+R4284:4289 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4317:4317 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4279:4282 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4278:4278 Stdlib.Numbers.NatInt.NZGcd <> p:45 var
+R4305:4309 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4290:4290 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4296:4298 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4304:4304 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4292:4294 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4291:4291 Stdlib.Numbers.NatInt.NZGcd <> p:45 var
+R4295:4295 Stdlib.Numbers.NatInt.NZGcd <> n:43 var
+R4300:4302 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4299:4299 Stdlib.Numbers.NatInt.NZGcd <> p:45 var
+R4303:4303 Stdlib.Numbers.NatInt.NZGcd <> m:44 var
+R4310:4310 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4312:4314 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4316:4316 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4311:4311 Stdlib.Numbers.NatInt.NZGcd <> n:43 var
+R4315:4315 Stdlib.Numbers.NatInt.NZGcd <> m:44 var
+R4392:4403 Stdlib.Numbers.NatInt.NZGcd C mul_shuffle3 thm
+R4406:4417 Stdlib.Numbers.NatInt.NZGcd C mul_cancel_l thm
+R4435:4451 Stdlib.Numbers.NatInt.NZGcd NZGcdProp mul_divide_mono_l thm
+prf 4466:4484 NZGcdProp mul_divide_cancel_r
+binder 4495:4495 <> n:46
+binder 4497:4497 <> m:47
+binder 4499:4499 <> p:48
+R4508:4513 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4541:4541 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4503:4506 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4502:4502 Stdlib.Numbers.NatInt.NZGcd <> p:48 var
+R4529:4533 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4514:4514 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4520:4522 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4528:4528 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4516:4518 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4515:4515 Stdlib.Numbers.NatInt.NZGcd <> n:46 var
+R4519:4519 Stdlib.Numbers.NatInt.NZGcd <> p:48 var
+R4524:4526 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4523:4523 Stdlib.Numbers.NatInt.NZGcd <> m:47 var
+R4527:4527 Stdlib.Numbers.NatInt.NZGcd <> p:48 var
+R4534:4534 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4536:4538 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4540:4540 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4535:4535 Stdlib.Numbers.NatInt.NZGcd <> n:46 var
+R4539:4539 Stdlib.Numbers.NatInt.NZGcd <> m:47 var
+R4579:4586 Stdlib.Numbers.NatInt.NZGcd C mul_comm thm
+R4604:4622 Stdlib.Numbers.NatInt.NZGcd NZGcdProp mul_divide_cancel_l thm
+prf 4637:4648 NZGcdProp divide_add_r
+binder 4659:4659 <> n:49
+binder 4661:4661 <> m:50
+binder 4663:4663 <> p:51
+R4673:4676 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4666:4666 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4668:4670 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4672:4672 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4667:4667 Stdlib.Numbers.NatInt.NZGcd <> n:49 var
+R4671:4671 Stdlib.Numbers.NatInt.NZGcd <> m:50 var
+R4684:4687 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4677:4677 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4679:4681 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4683:4683 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4678:4678 Stdlib.Numbers.NatInt.NZGcd <> n:49 var
+R4682:4682 Stdlib.Numbers.NatInt.NZGcd <> p:51 var
+R4688:4688 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4690:4692 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4698:4698 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4689:4689 Stdlib.Numbers.NatInt.NZGcd <> n:49 var
+R4694:4696 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4693:4693 Stdlib.Numbers.NatInt.NZGcd <> m:50 var
+R4697:4697 Stdlib.Numbers.NatInt.NZGcd <> p:51 var
+R4746:4746 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4764:4778 Stdlib.Numbers.NatInt.NZGcd C mul_add_distr_r thm
+prf 4801:4812 NZGcdProp divide_mul_l
+binder 4823:4823 <> n:52
+binder 4825:4825 <> m:53
+binder 4827:4827 <> p:54
+R4837:4840 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4830:4830 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4832:4834 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4836:4836 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4831:4831 Stdlib.Numbers.NatInt.NZGcd <> n:52 var
+R4835:4835 Stdlib.Numbers.NatInt.NZGcd <> m:53 var
+R4841:4841 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4843:4845 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4851:4851 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4842:4842 Stdlib.Numbers.NatInt.NZGcd <> n:52 var
+R4847:4849 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4846:4846 Stdlib.Numbers.NatInt.NZGcd <> m:53 var
+R4850:4850 Stdlib.Numbers.NatInt.NZGcd <> p:54 var
+R4892:4892 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4909:4920 Stdlib.Numbers.NatInt.NZGcd C mul_shuffle0 thm
+prf 4939:4950 NZGcdProp divide_mul_r
+binder 4961:4961 <> n:55
+binder 4963:4963 <> m:56
+binder 4965:4965 <> p:57
+R4975:4978 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4968:4968 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4970:4972 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4974:4974 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4969:4969 Stdlib.Numbers.NatInt.NZGcd <> n:55 var
+R4973:4973 Stdlib.Numbers.NatInt.NZGcd <> p:57 var
+R4979:4979 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4981:4983 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4989:4989 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4980:4980 Stdlib.Numbers.NatInt.NZGcd <> n:55 var
+R4985:4987 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4984:4984 Stdlib.Numbers.NatInt.NZGcd <> m:56 var
+R4988:4988 Stdlib.Numbers.NatInt.NZGcd <> p:57 var
+R5022:5029 Stdlib.Numbers.NatInt.NZGcd C mul_comm thm
+R5038:5049 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_mul_l thm
+prf 5064:5078 NZGcdProp divide_factor_l
+binder 5089:5089 <> n:58
+binder 5091:5091 <> m:59
+R5094:5094 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5096:5098 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5104:5104 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5095:5095 Stdlib.Numbers.NatInt.NZGcd <> n:58 var
+R5100:5102 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5099:5099 Stdlib.Numbers.NatInt.NZGcd <> n:58 var
+R5103:5103 Stdlib.Numbers.NatInt.NZGcd <> m:59 var
+R5129:5140 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_mul_l thm
+R5143:5153 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+prf 5168:5182 NZGcdProp divide_factor_r
+binder 5193:5193 <> n:60
+binder 5195:5195 <> m:61
+R5198:5198 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5200:5202 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5208:5208 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5199:5199 Stdlib.Numbers.NatInt.NZGcd <> n:60 var
+R5204:5206 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5203:5203 Stdlib.Numbers.NatInt.NZGcd <> m:61 var
+R5207:5207 Stdlib.Numbers.NatInt.NZGcd <> n:60 var
+R5233:5244 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_mul_r thm
+R5247:5257 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+prf 5272:5284 NZGcdProp divide_pos_le
+binder 5295:5295 <> n:62
+binder 5297:5297 <> m:63
+R5305:5308 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5301:5303 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5304:5304 Stdlib.Numbers.NatInt.NZGcd <> m:63 var
+R5316:5319 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5309:5309 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5311:5313 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5315:5315 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5310:5310 Stdlib.Numbers.NatInt.NZGcd <> n:62 var
+R5314:5314 Stdlib.Numbers.NatInt.NZGcd <> m:63 var
+R5321:5324 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5320:5320 Stdlib.Numbers.NatInt.NZGcd <> n:62 var
+R5325:5325 Stdlib.Numbers.NatInt.NZGcd <> m:63 var
+R5369:5379 Stdlib.Numbers.NatInt.NZGcd C le_gt_cases thm
+R5435:5445 Stdlib.Numbers.NatInt.NZGcd C lt_ge_cases thm
+R5483:5493 Stdlib.Numbers.NatInt.NZGcd C mul_neg_pos thm
+R5552:5558 Stdlib.Numbers.NatInt.NZGcd C mul_1_l thm
+R5575:5591 Stdlib.Numbers.NatInt.NZGcd C mul_le_mono_pos_r thm
+R5622:5629 Stdlib.Numbers.NatInt.NZGcd A one_succ prfax
+R5632:5640 Stdlib.Numbers.NatInt.NZGcd C le_succ_l thm
+R5666:5672 Stdlib.Numbers.NatInt.NZGcd A mul_0_l prfax
+prf 5732:5741 NZGcdProp gcd_unique
+binder 5752:5752 <> n:64
+binder 5754:5754 <> m:65
+binder 5756:5756 <> p:66
+R5764:5767 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5761:5762 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5763:5763 Stdlib.Numbers.NatInt.NZGcd <> p:66 var
+R5773:5776 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5768:5768 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5770:5770 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5772:5772 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5769:5769 Stdlib.Numbers.NatInt.NZGcd <> p:66 var
+R5771:5771 Stdlib.Numbers.NatInt.NZGcd <> n:64 var
+R5782:5786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5777:5777 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5779:5779 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5781:5781 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5778:5778 Stdlib.Numbers.NatInt.NZGcd <> p:66 var
+R5780:5780 Stdlib.Numbers.NatInt.NZGcd <> m:65 var
+R5787:5787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5821:5826 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5795:5795 <> q:67
+R5803:5806 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5798:5798 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5800:5800 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5802:5802 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5799:5799 Stdlib.Numbers.NatInt.NZGcd <> q:67 var
+R5801:5801 Stdlib.Numbers.NatInt.NZGcd <> n:64 var
+R5812:5815 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5807:5807 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5809:5809 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5811:5811 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5808:5808 Stdlib.Numbers.NatInt.NZGcd <> q:67 var
+R5810:5810 Stdlib.Numbers.NatInt.NZGcd <> m:65 var
+R5816:5816 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5818:5818 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5820:5820 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5817:5817 Stdlib.Numbers.NatInt.NZGcd <> q:67 var
+R5819:5819 Stdlib.Numbers.NatInt.NZGcd <> p:66 var
+R5834:5837 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5827:5829 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R5831:5831 Stdlib.Numbers.NatInt.NZGcd <> n:64 var
+R5833:5833 Stdlib.Numbers.NatInt.NZGcd <> m:65 var
+R5838:5838 Stdlib.Numbers.NatInt.NZGcd <> p:66 var
+R5881:5901 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_antisym_nonneg thm
+R5921:5930 Stdlib.Numbers.NatInt.NZGcd B gcd_nonneg prfax
+R5953:5964 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_l prfax
+R5975:5986 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_r prfax
+R6002:6013 Stdlib.Numbers.NatInt.NZGcd B gcd_greatest prfax
+inst 6041:6046 NZGcdProp gcd_wd
+R6050:6055 Corelib.Classes.Morphisms <> Proper class
+R6072:6074 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6060:6062 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6058:6059 Stdlib.Numbers.NatInt.NZGcd A eq defax
+R6065:6067 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6063:6064 Stdlib.Numbers.NatInt.NZGcd A eq defax
+R6068:6069 Stdlib.Numbers.NatInt.NZGcd A eq defax
+R6116:6125 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique thm
+R6137:6146 Stdlib.Numbers.NatInt.NZGcd B gcd_nonneg prfax
+R6170:6181 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_l prfax
+R6205:6216 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_r prfax
+R6251:6262 Stdlib.Numbers.NatInt.NZGcd B gcd_greatest prfax
+prf 6277:6290 NZGcdProp gcd_divide_iff
+binder 6301:6301 <> n:68
+binder 6303:6303 <> m:69
+binder 6305:6305 <> p:70
+R6323:6327 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6310:6310 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6312:6314 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6322:6322 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6311:6311 Stdlib.Numbers.NatInt.NZGcd <> p:70 var
+R6315:6317 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6319:6319 Stdlib.Numbers.NatInt.NZGcd <> n:68 var
+R6321:6321 Stdlib.Numbers.NatInt.NZGcd <> m:69 var
+R6335:6338 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6328:6328 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6330:6332 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6334:6334 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6329:6329 Stdlib.Numbers.NatInt.NZGcd <> p:70 var
+R6333:6333 Stdlib.Numbers.NatInt.NZGcd <> n:68 var
+R6339:6339 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6341:6343 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6345:6345 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6340:6340 Stdlib.Numbers.NatInt.NZGcd <> p:70 var
+R6344:6344 Stdlib.Numbers.NatInt.NZGcd <> m:69 var
+R6422:6424 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6446:6457 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_l prfax
+R6495:6497 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6519:6530 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_r prfax
+R6562:6573 Stdlib.Numbers.NatInt.NZGcd B gcd_greatest prfax
+prf 6588:6601 NZGcdProp gcd_unique_alt
+binder 6612:6612 <> n:71
+binder 6614:6614 <> m:72
+binder 6616:6616 <> p:73
+R6623:6627 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6620:6621 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6622:6622 Stdlib.Numbers.NatInt.NZGcd <> p:73 var
+R6628:6628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6663:6668 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 6636:6636 <> q:74
+R6644:6648 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6639:6639 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6641:6641 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6643:6643 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6640:6640 Stdlib.Numbers.NatInt.NZGcd <> q:74 var
+R6642:6642 Stdlib.Numbers.NatInt.NZGcd <> p:73 var
+R6654:6657 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6649:6649 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6651:6651 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6653:6653 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6650:6650 Stdlib.Numbers.NatInt.NZGcd <> q:74 var
+R6652:6652 Stdlib.Numbers.NatInt.NZGcd <> n:71 var
+R6658:6658 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6660:6660 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6662:6662 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R6659:6659 Stdlib.Numbers.NatInt.NZGcd <> q:74 var
+R6661:6661 Stdlib.Numbers.NatInt.NZGcd <> m:72 var
+R6676:6679 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6669:6671 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6673:6673 Stdlib.Numbers.NatInt.NZGcd <> n:71 var
+R6675:6675 Stdlib.Numbers.NatInt.NZGcd <> m:72 var
+R6680:6680 Stdlib.Numbers.NatInt.NZGcd <> p:73 var
+R6717:6726 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique thm
+R6756:6766 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+R6787:6797 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+prf 6843:6850 NZGcdProp gcd_comm
+binder 6861:6861 <> n:75
+binder 6863:6863 <> m:76
+R6873:6876 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6866:6868 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6870:6870 Stdlib.Numbers.NatInt.NZGcd <> n:75 var
+R6872:6872 Stdlib.Numbers.NatInt.NZGcd <> m:76 var
+R6877:6879 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R6881:6881 Stdlib.Numbers.NatInt.NZGcd <> m:76 var
+R6883:6883 Stdlib.Numbers.NatInt.NZGcd <> n:75 var
+R6908:6921 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique_alt thm
+R6934:6943 Stdlib.Numbers.NatInt.NZGcd B gcd_nonneg prfax
+R6963:6970 Corelib.Init.Logic <> and_comm thm
+R6979:6992 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_divide_iff thm
+prf 7007:7015 NZGcdProp gcd_assoc
+binder 7026:7026 <> n:77
+binder 7028:7028 <> m:78
+binder 7030:7030 <> p:79
+R7048:7051 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7033:7035 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7037:7037 Stdlib.Numbers.NatInt.NZGcd <> n:77 var
+R7040:7042 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7044:7044 Stdlib.Numbers.NatInt.NZGcd <> m:78 var
+R7046:7046 Stdlib.Numbers.NatInt.NZGcd <> p:79 var
+R7052:7054 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7057:7059 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7061:7061 Stdlib.Numbers.NatInt.NZGcd <> n:77 var
+R7063:7063 Stdlib.Numbers.NatInt.NZGcd <> m:78 var
+R7066:7066 Stdlib.Numbers.NatInt.NZGcd <> p:79 var
+R7091:7104 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique_alt thm
+R7117:7126 Stdlib.Numbers.NatInt.NZGcd B gcd_nonneg prfax
+R7151:7164 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_divide_iff thm
+R7167:7175 Corelib.Init.Logic <> and_assoc thm
+prf 7190:7203 NZGcdProp gcd_0_l_nonneg
+binder 7214:7214 <> n:80
+R7221:7224 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7218:7219 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7220:7220 Stdlib.Numbers.NatInt.NZGcd <> n:80 var
+R7232:7235 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7225:7227 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7231:7231 Stdlib.Numbers.NatInt.NZGcd <> n:80 var
+R7236:7236 Stdlib.Numbers.NatInt.NZGcd <> n:80 var
+R7261:7270 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique thm
+R7291:7300 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_0_r thm
+R7312:7322 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+prf 7337:7350 NZGcdProp gcd_0_r_nonneg
+binder 7361:7361 <> n:81
+R7368:7371 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7365:7366 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7367:7367 Stdlib.Numbers.NatInt.NZGcd <> n:81 var
+R7379:7382 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7372:7374 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7376:7376 Stdlib.Numbers.NatInt.NZGcd <> n:81 var
+R7383:7383 Stdlib.Numbers.NatInt.NZGcd <> n:81 var
+R7414:7421 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_comm thm
+R7424:7437 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_0_l_nonneg thm
+prf 7452:7458 NZGcdProp gcd_1_l
+binder 7469:7469 <> n:82
+R7479:7482 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7472:7474 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7478:7478 Stdlib.Numbers.NatInt.NZGcd <> n:82 var
+R7508:7517 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique thm
+R7534:7543 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_1_l thm
+R7546:7551 Stdlib.Numbers.NatInt.NZGcd C le_0_1 thm
+prf 7566:7572 NZGcdProp gcd_1_r
+binder 7583:7583 <> n:83
+R7593:7596 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7586:7588 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7590:7590 Stdlib.Numbers.NatInt.NZGcd <> n:83 var
+R7628:7635 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_comm thm
+R7638:7644 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_1_l thm
+prf 7659:7673 NZGcdProp gcd_diag_nonneg
+binder 7684:7684 <> n:84
+R7691:7694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7688:7689 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7690:7690 Stdlib.Numbers.NatInt.NZGcd <> n:84 var
+R7702:7705 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7695:7697 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7699:7699 Stdlib.Numbers.NatInt.NZGcd <> n:84 var
+R7701:7701 Stdlib.Numbers.NatInt.NZGcd <> n:84 var
+R7706:7706 Stdlib.Numbers.NatInt.NZGcd <> n:84 var
+R7731:7740 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique thm
+R7757:7767 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_refl thm
+prf 7782:7791 NZGcdProp gcd_eq_0_l
+binder 7802:7802 <> n:85
+binder 7804:7804 <> m:86
+R7819:7822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7814:7817 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7807:7809 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7811:7811 Stdlib.Numbers.NatInt.NZGcd <> n:85 var
+R7813:7813 Stdlib.Numbers.NatInt.NZGcd <> m:86 var
+R7824:7827 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7823:7823 Stdlib.Numbers.NatInt.NZGcd <> n:85 var
+R7866:7877 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_l prfax
+R7902:7911 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_0_l thm
+prf 7926:7935 NZGcdProp gcd_eq_0_r
+binder 7946:7946 <> n:87
+binder 7948:7948 <> m:88
+R7963:7966 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7958:7961 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7951:7953 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R7955:7955 Stdlib.Numbers.NatInt.NZGcd <> n:87 var
+R7957:7957 Stdlib.Numbers.NatInt.NZGcd <> m:88 var
+R7968:7971 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7967:7967 Stdlib.Numbers.NatInt.NZGcd <> m:88 var
+R8003:8012 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_eq_0_l thm
+R8034:8041 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_comm thm
+prf 8056:8063 NZGcdProp gcd_eq_0
+binder 8074:8074 <> n:89
+binder 8076:8076 <> m:90
+R8091:8095 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8086:8089 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8079:8081 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R8083:8083 Stdlib.Numbers.NatInt.NZGcd <> n:89 var
+R8085:8085 Stdlib.Numbers.NatInt.NZGcd <> m:90 var
+R8102:8105 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8097:8100 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8096:8096 Stdlib.Numbers.NatInt.NZGcd <> n:89 var
+R8107:8110 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8106:8106 Stdlib.Numbers.NatInt.NZGcd <> m:90 var
+R8169:8178 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_eq_0_l thm
+R8204:8213 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_eq_0_r thm
+R8271:8284 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_0_r_nonneg thm
+prf 8299:8312 NZGcdProp gcd_mul_diag_l
+binder 8323:8323 <> n:91
+binder 8325:8325 <> m:92
+R8332:8335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8329:8330 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8331:8331 Stdlib.Numbers.NatInt.NZGcd <> n:91 var
+R8347:8350 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8336:8338 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R8340:8340 Stdlib.Numbers.NatInt.NZGcd <> n:91 var
+R8344:8344 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8343:8343 Stdlib.Numbers.NatInt.NZGcd <> n:91 var
+R8345:8345 Stdlib.Numbers.NatInt.NZGcd <> m:92 var
+R8351:8351 Stdlib.Numbers.NatInt.NZGcd <> n:91 var
+R8383:8396 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_unique_alt thm
+R8454:8465 Stdlib.Numbers.NatInt.NZGcd NZGcdProp divide_mul_l thm
+prf 8499:8512 NZGcdProp divide_gcd_iff
+binder 8523:8523 <> n:93
+binder 8525:8525 <> m:94
+R8532:8536 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8559:8559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8529:8530 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8531:8531 Stdlib.Numbers.NatInt.NZGcd <> n:93 var
+R8542:8546 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8537:8537 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8539:8539 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8541:8541 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8538:8538 Stdlib.Numbers.NatInt.NZGcd <> n:93 var
+R8540:8540 Stdlib.Numbers.NatInt.NZGcd <> m:94 var
+R8554:8557 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8547:8549 Stdlib.Numbers.NatInt.NZGcd B gcd defax
+R8551:8551 Stdlib.Numbers.NatInt.NZGcd <> n:93 var
+R8553:8553 Stdlib.Numbers.NatInt.NZGcd <> m:94 var
+R8558:8558 Stdlib.Numbers.NatInt.NZGcd <> n:93 var
+R8636:8643 Stdlib.Numbers.NatInt.NZGcd C mul_comm thm
+R8656:8669 Stdlib.Numbers.NatInt.NZGcd NZGcdProp gcd_mul_diag_l thm
+R8708:8719 Stdlib.Numbers.NatInt.NZGcd B gcd_divide_r prfax
+R8732:8740 Stdlib.Numbers.NatInt.NZGcd NZGcdProp <> mod

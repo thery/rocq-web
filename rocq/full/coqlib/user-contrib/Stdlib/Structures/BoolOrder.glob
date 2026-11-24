@@ -1,0 +1,197 @@
+DIGEST 54b9bafbfc7c6de6acb22853af42abbe
+FStdlib.Structures.BoolOrder
+R815:818 Stdlib.Bool.Bool <> <> lib
+R848:853 Stdlib.Structures.Orders <> <> lib
+R863:875 Stdlib.Bool.Bool BoolNotations <> mod
+prf 988:994 <> le_refl
+binder 1005:1005 <> b:1
+R1009:1012 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1008:1008 Stdlib.Structures.BoolOrder <> b:1 var
+R1013:1013 Stdlib.Structures.BoolOrder <> b:1 var
+prf 1047:1054 <> le_trans
+binder 1065:1066 <> b1:2
+binder 1068:1069 <> b2:3
+binder 1071:1072 <> b3:4
+R1085:1088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1079:1082 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1077:1078 Stdlib.Structures.BoolOrder <> b1:2 var
+R1083:1084 Stdlib.Structures.BoolOrder <> b2:3 var
+R1097:1100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1091:1094 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1089:1090 Stdlib.Structures.BoolOrder <> b2:3 var
+R1095:1096 Stdlib.Structures.BoolOrder <> b3:4 var
+R1103:1106 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1101:1102 Stdlib.Structures.BoolOrder <> b1:2 var
+R1107:1108 Stdlib.Structures.BoolOrder <> b3:4 var
+prf 1142:1148 <> le_true
+binder 1159:1159 <> b:5
+R1163:1166 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1162:1162 Stdlib.Structures.BoolOrder <> b:5 var
+R1167:1170 Corelib.Init.Datatypes <> true constr
+prf 1204:1211 <> false_le
+binder 1222:1222 <> b:6
+R1230:1233 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1225:1229 Corelib.Init.Datatypes <> false constr
+R1234:1234 Stdlib.Structures.BoolOrder <> b:6 var
+inst 1290:1298 <> le_compat
+R1302:1307 Corelib.Classes.Morphisms <> Proper class
+R1329:1335 Stdlib.Bool.Bool <> le def
+R1312:1316 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1310:1311 Corelib.Init.Logic <> eq ind
+R1319:1323 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1317:1318 Corelib.Init.Logic <> eq ind
+R1324:1326 Corelib.Init.Logic <> iff def
+prf 1396:1404 <> lt_irrefl
+binder 1415:1415 <> b:7
+R1418:1419 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1421:1423 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1420:1420 Stdlib.Structures.BoolOrder <> b:7 var
+R1424:1424 Stdlib.Structures.BoolOrder <> b:7 var
+prf 1464:1471 <> lt_trans
+binder 1482:1483 <> b1:8
+binder 1485:1486 <> b2:9
+binder 1488:1489 <> b3:10
+R1501:1504 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1496:1498 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1494:1495 Stdlib.Structures.BoolOrder <> b1:8 var
+R1499:1500 Stdlib.Structures.BoolOrder <> b2:9 var
+R1512:1515 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1507:1509 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1505:1506 Stdlib.Structures.BoolOrder <> b2:9 var
+R1510:1511 Stdlib.Structures.BoolOrder <> b3:10 var
+R1518:1520 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1516:1517 Stdlib.Structures.BoolOrder <> b1:8 var
+R1521:1522 Stdlib.Structures.BoolOrder <> b3:10 var
+inst 1575:1583 <> lt_compat
+R1587:1592 Corelib.Classes.Morphisms <> Proper class
+R1614:1620 Stdlib.Bool.Bool <> lt def
+R1597:1601 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1595:1596 Corelib.Init.Logic <> eq ind
+R1604:1608 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1602:1603 Corelib.Init.Logic <> eq ind
+R1609:1611 Corelib.Init.Logic <> iff def
+prf 1653:1665 <> lt_trichotomy
+binder 1676:1677 <> b1:11
+binder 1679:1680 <> b2:12
+R1708:1712 Corelib.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R1720:1721 Corelib.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R1683:1684 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1692:1698 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1706:1707 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1687:1689 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1685:1686 Stdlib.Structures.BoolOrder <> b1:11 var
+R1690:1691 Stdlib.Structures.BoolOrder <> b2:12 var
+R1701:1703 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1699:1700 Stdlib.Structures.BoolOrder <> b1:11 var
+R1704:1705 Stdlib.Structures.BoolOrder <> b2:12 var
+R1715:1717 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1713:1714 Stdlib.Structures.BoolOrder <> b2:12 var
+R1718:1719 Stdlib.Structures.BoolOrder <> b1:11 var
+prf 1761:1768 <> lt_total
+binder 1779:1780 <> b1:13
+binder 1782:1783 <> b2:14
+R1793:1796 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1788:1790 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1786:1787 Stdlib.Structures.BoolOrder <> b1:13 var
+R1791:1792 Stdlib.Structures.BoolOrder <> b2:14 var
+R1804:1807 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1799:1801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1797:1798 Stdlib.Structures.BoolOrder <> b1:13 var
+R1802:1803 Stdlib.Structures.BoolOrder <> b2:14 var
+R1810:1812 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1808:1809 Stdlib.Structures.BoolOrder <> b2:14 var
+R1813:1814 Stdlib.Structures.BoolOrder <> b1:13 var
+prf 1854:1863 <> lt_le_incl
+binder 1874:1875 <> b1:15
+binder 1877:1878 <> b2:16
+R1888:1891 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1883:1885 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1881:1882 Stdlib.Structures.BoolOrder <> b1:15 var
+R1886:1887 Stdlib.Structures.BoolOrder <> b2:16 var
+R1894:1897 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1892:1893 Stdlib.Structures.BoolOrder <> b1:15 var
+R1898:1899 Stdlib.Structures.BoolOrder <> b2:16 var
+prf 1939:1949 <> le_lteq_dec
+binder 1960:1961 <> b1:17
+binder 1963:1964 <> b2:18
+R1975:1978 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1969:1972 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R1967:1968 Stdlib.Structures.BoolOrder <> b1:17 var
+R1973:1974 Stdlib.Structures.BoolOrder <> b2:18 var
+R1979:1980 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1988:1994 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2002:2003 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1983:1985 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R1981:1982 Stdlib.Structures.BoolOrder <> b1:17 var
+R1986:1987 Stdlib.Structures.BoolOrder <> b2:18 var
+R1997:1999 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1995:1996 Stdlib.Structures.BoolOrder <> b1:17 var
+R2000:2001 Stdlib.Structures.BoolOrder <> b2:18 var
+prf 2043:2049 <> le_lteq
+binder 2060:2061 <> b1:19
+binder 2063:2064 <> b2:20
+R2075:2079 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2069:2072 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<='_x not
+R2067:2068 Stdlib.Structures.BoolOrder <> b1:19 var
+R2073:2074 Stdlib.Structures.BoolOrder <> b2:20 var
+R2087:2090 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2082:2084 Stdlib.Bool.Bool BoolNotations ::bool_scope:x_'<'_x not
+R2080:2081 Stdlib.Structures.BoolOrder <> b1:19 var
+R2085:2086 Stdlib.Structures.BoolOrder <> b2:20 var
+R2093:2095 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2091:2092 Stdlib.Structures.BoolOrder <> b1:19 var
+R2096:2097 Stdlib.Structures.BoolOrder <> b2:20 var
+inst 2205:2215 <> le_preorder
+R2219:2226 Corelib.Classes.RelationClasses <> PreOrder class
+R2228:2234 Stdlib.Bool.Bool <> le def
+R2269:2275 Stdlib.Structures.BoolOrder <> le_refl thm
+R2303:2310 Stdlib.Structures.BoolOrder <> le_trans thm
+inst 2338:2348 <> lt_strorder
+R2352:2362 Corelib.Classes.RelationClasses <> StrictOrder class
+R2364:2370 Stdlib.Bool.Bool <> lt def
+R2405:2413 Stdlib.Structures.BoolOrder <> lt_irrefl thm
+R2441:2448 Stdlib.Structures.BoolOrder <> lt_trans thm
+R2498:2519 Stdlib.Structures.Equalities UsualDecidableTypeFull <> modtype
+R2524:2538 Stdlib.Structures.Orders OrderedTypeFull <> modtype
+R2543:2552 Stdlib.Structures.Orders TotalOrder <> modtype
+mod 2487:2493 <> BoolOrd
+def 2568:2568 BoolOrd t
+R2573:2576 Corelib.Init.Datatypes <> bool ind
+def 2592:2593 BoolOrd eq
+R2599:2600 Corelib.Init.Logic <> eq ind
+R2602:2605 Corelib.Init.Datatypes <> bool ind
+def 2621:2628 BoolOrd eq_equiv
+R2634:2647 Corelib.Classes.RelationClasses <> eq_equivalence inst
+R2649:2652 Corelib.Init.Datatypes <> bool ind
+def 2668:2669 BoolOrd lt
+R2674:2680 Stdlib.Bool.Bool <> lt def
+def 2696:2706 BoolOrd lt_strorder
+R2711:2721 Stdlib.Structures.BoolOrder <> lt_strorder inst
+def 2737:2745 BoolOrd lt_compat
+R2750:2758 Stdlib.Structures.BoolOrder <> lt_compat inst
+def 2774:2775 BoolOrd le
+R2780:2786 Stdlib.Bool.Bool <> le def
+def 2802:2808 BoolOrd le_lteq
+R2813:2819 Stdlib.Structures.BoolOrder <> le_lteq thm
+def 2835:2842 BoolOrd lt_total
+R2847:2854 Stdlib.Structures.BoolOrder <> lt_total thm
+def 2870:2876 BoolOrd compare
+R2881:2892 Stdlib.Bool.Bool <> compare def
+def 2908:2919 BoolOrd compare_spec
+R2924:2935 Stdlib.Bool.Bool <> compare_spec thm
+def 2951:2956 BoolOrd eq_dec
+R2961:2968 Stdlib.Bool.Bool <> bool_dec thm
+def 2984:2990 BoolOrd eq_refl
+R2996:3007 Corelib.Classes.RelationClasses <> eq_Reflexive inst
+R3009:3012 Corelib.Init.Datatypes <> bool ind
+def 3028:3033 BoolOrd eq_sym
+R3039:3050 Corelib.Classes.RelationClasses <> eq_Symmetric inst
+R3052:3055 Corelib.Init.Datatypes <> bool ind
+def 3071:3078 BoolOrd eq_trans
+R3084:3096 Corelib.Classes.RelationClasses <> eq_Transitive inst
+R3098:3101 Corelib.Init.Datatypes <> bool ind
+def 3117:3119 BoolOrd eqb
+R3124:3126 Stdlib.Bool.Bool <> eqb def
+def 3142:3147 BoolOrd eqb_eq
+R3152:3163 Stdlib.Bool.Bool <> eqb_true_iff thm
+R3170:3176 Stdlib.Structures.BoolOrder BoolOrd <> mod

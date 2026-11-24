@@ -1,0 +1,1228 @@
+DIGEST 73d280a68c94c008c47c553528e30a9f
+FStdlib.Numbers.Integer.Abstract.ZLcm
+R703:709 Stdlib.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R711:719 Stdlib.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R721:727 Stdlib.Numbers.Integer.Abstract.ZSgnAbs <> <> lib
+R729:732 Stdlib.Numbers.Integer.Abstract.ZGcd <> <> lib
+R734:742 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> <> lib
+R744:752 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> <> lib
+R1165:1175 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> modtype
+R1191:1203 Stdlib.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> modtype
+R1205:1205 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1221:1231 Stdlib.Numbers.Integer.Abstract.ZSgnAbs ZSgnAbsProp <> modtype
+R1233:1233 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1235:1235 Stdlib.Numbers.Integer.Abstract.ZLcm B <> mod
+R1251:1258 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp <> modtype
+R1260:1260 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1262:1262 Stdlib.Numbers.Integer.Abstract.ZLcm B <> mod
+R1264:1264 Stdlib.Numbers.Integer.Abstract.ZLcm C <> mod
+R1280:1288 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp <> modtype
+R1290:1290 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1292:1292 Stdlib.Numbers.Integer.Abstract.ZLcm B <> mod
+R1294:1294 Stdlib.Numbers.Integer.Abstract.ZLcm C <> mod
+R1310:1317 Stdlib.Numbers.Integer.Abstract.ZGcd ZGcdProp <> modtype
+R1319:1319 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1321:1321 Stdlib.Numbers.Integer.Abstract.ZLcm B <> mod
+R1323:1323 Stdlib.Numbers.Integer.Abstract.ZLcm C <> mod
+modtype 1143:1150 <> ZLcmProp
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm A <> mod
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm B <> mod
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm C <> mod
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm D <> mod
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm E <> mod
+R1143:1150 Stdlib.Numbers.Integer.Abstract.ZLcm F <> mod
+prf 1404:1418 ZLcmProp quot_div_nonneg
+binder 1429:1429 <> a:1
+binder 1431:1431 <> b:2
+R1438:1441 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1435:1436 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1437:1437 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:1 var
+R1445:1448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1443:1443 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1444:1444 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:2 var
+R1453:1456 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1450:1451 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R1449:1449 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:1 var
+R1452:1452 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:2 var
+R1458:1458 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1457:1457 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:1 var
+R1459:1459 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:2 var
+R1513:1517 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R1491:1504 Stdlib.Numbers.Integer.Abstract.ZLcm D div_unique_pos thm
+R1535:1547 Stdlib.Numbers.Integer.Abstract.ZLcm A rem_bound_pos prfax
+R1559:1566 Stdlib.Numbers.Integer.Abstract.ZLcm A quot_rem prfax
+prf 1588:1601 ZLcmProp rem_mod_nonneg
+binder 1612:1612 <> a:3
+binder 1614:1614 <> b:4
+R1621:1624 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1618:1619 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1620:1620 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:3 var
+R1628:1631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1626:1626 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1627:1627 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:4 var
+R1639:1642 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1633:1637 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R1632:1632 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:3 var
+R1638:1638 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:4 var
+R1644:1648 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1643:1643 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:3 var
+R1649:1649 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:4 var
+R1703:1704 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R1681:1694 Stdlib.Numbers.Integer.Abstract.ZLcm D mod_unique_pos thm
+R1722:1734 Stdlib.Numbers.Integer.Abstract.ZLcm A rem_bound_pos prfax
+R1746:1753 Stdlib.Numbers.Integer.Abstract.ZLcm A quot_rem prfax
+prf 1847:1854 ZLcmProp quot_div
+binder 1865:1865 <> a:5
+binder 1867:1867 <> b:6
+R1874:1878 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1871:1872 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1870:1870 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:6 var
+R1883:1886 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1880:1881 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R1879:1879 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:5 var
+R1882:1882 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:6 var
+R1902:1903 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1917:1917 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1887:1887 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1893:1895 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1901:1901 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1888:1890 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R1892:1892 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:5 var
+R1896:1898 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R1900:1900 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:6 var
+R1909:1911 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1904:1906 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R1908:1908 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:5 var
+R1912:1914 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R1916:1916 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:6 var
+binder 1949:1949 <> a:7
+binder 1951:1951 <> b:8
+R1957:1960 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1955:1955 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1956:1956 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:8 var
+R1965:1968 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1962:1963 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R1961:1961 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:7 var
+R1964:1964 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:8 var
+R1984:1985 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1999:1999 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1969:1969 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1975:1977 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1983:1983 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1970:1972 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R1974:1974 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:7 var
+R1978:1980 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R1982:1982 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:8 var
+R1991:1993 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1986:1988 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R1990:1990 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:7 var
+R1994:1996 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R1998:1998 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:8 var
+binder 1949:1949 <> a:9
+binder 1951:1951 <> b:10
+R1956:1956 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:10 var
+R1961:1961 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:9 var
+R1964:1964 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:10 var
+R1974:1974 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:9 var
+R1982:1982 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:10 var
+R1990:1990 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:9 var
+R1998:1998 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:10 var
+R2032:2038 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn_pos prfax
+R2045:2050 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R2056:2062 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_r thm
+R2087:2099 Stdlib.Numbers.Integer.Abstract.ZLcm B lt_trichotomy thm
+R2136:2142 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn_pos prfax
+R2145:2150 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R2153:2159 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_l thm
+R2162:2176 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp quot_div_nonneg thm
+R2206:2210 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0 thm
+R2213:2217 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_0 thm
+R2220:2227 Stdlib.Numbers.Integer.Abstract.ZLcm E quot_0_l thm
+R2230:2236 Stdlib.Numbers.Integer.Abstract.ZLcm D div_0_l thm
+R2239:2245 Stdlib.Numbers.Integer.Abstract.ZLcm A mul_0_l prfax
+R2268:2274 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn_neg prfax
+R2277:2283 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_neq prfax
+R2286:2294 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R2297:2303 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_l thm
+R2306:2313 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_opp_r thm
+R2318:2327 Stdlib.Numbers.Integer.Abstract.ZLcm E quot_opp_l thm
+R2357:2371 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp quot_div_nonneg thm
+R2389:2405 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_nonneg_nonpos thm
+R2453:2465 Stdlib.Numbers.Integer.Abstract.ZLcm B neg_pos_cases thm
+R2529:2542 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_involutive thm
+R2561:2570 Stdlib.Numbers.Integer.Abstract.ZLcm E quot_opp_r thm
+R2589:2595 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_opp thm
+R2598:2604 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_opp thm
+R2607:2615 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_r thm
+R2618:2626 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R2629:2642 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_involutive thm
+R2678:2688 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_pos_neg thm
+R2702:2709 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_opp_l thm
+R2712:2716 Stdlib.Numbers.Integer.Abstract.ZLcm A opp_0 prfax
+prf 2738:2744 ZLcmProp rem_mod
+binder 2755:2755 <> a:11
+binder 2757:2757 <> b:12
+R2764:2768 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2761:2762 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2760:2760 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:12 var
+R2776:2779 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2770:2774 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2769:2769 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:11 var
+R2775:2775 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:12 var
+R2780:2780 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2786:2790 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2810:2810 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2781:2783 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R2785:2785 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:11 var
+R2791:2791 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2797:2803 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2809:2809 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2792:2794 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R2796:2796 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:11 var
+R2804:2806 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R2808:2808 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:12 var
+R2848:2856 Stdlib.Numbers.Integer.Abstract.ZLcm E rem_abs_r thm
+R2886:2890 Corelib.Init.Logic <> proj2 thm
+R2893:2899 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_pos thm
+R2920:2932 Stdlib.Numbers.Integer.Abstract.ZLcm B lt_trichotomy thm
+R2968:2973 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R2979:2985 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn_pos prfax
+R2988:2994 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_l thm
+R2997:3010 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp rem_mod_nonneg thm
+R3038:3042 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0 thm
+R3045:3049 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_0 thm
+R3052:3058 Stdlib.Numbers.Integer.Abstract.ZLcm D mod_0_l thm
+R3061:3067 Stdlib.Numbers.Integer.Abstract.ZLcm E rem_0_l thm
+R3070:3076 Stdlib.Numbers.Integer.Abstract.ZLcm A mul_0_l prfax
+R3097:3103 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn_neg prfax
+R3107:3113 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_neq prfax
+R3119:3127 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R3130:3136 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_l thm
+R3139:3146 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_opp_r thm
+R3151:3159 Stdlib.Numbers.Integer.Abstract.ZLcm A rem_opp_l prfax
+R3185:3198 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp rem_mod_nonneg thm
+R3216:3232 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_nonneg_nonpos thm
+prf 3365:3374 ZLcmProp mod_divide
+binder 3385:3385 <> a:13
+binder 3387:3387 <> b:14
+R3394:3398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3421:3421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3391:3392 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3390:3390 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:14 var
+R3411:3415 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3406:3409 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3400:3404 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3399:3399 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:13 var
+R3405:3405 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:14 var
+R3416:3416 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3418:3418 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3420:3420 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3417:3417 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:14 var
+R3419:3419 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:13 var
+R3478:3478 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3491:3498 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R3513:3519 Stdlib.Numbers.Integer.Abstract.ZLcm A div_mod prfax
+R3601:3607 Stdlib.Numbers.Integer.Abstract.ZLcm D mod_mul thm
+prf 3622:3631 ZLcmProp rem_divide
+binder 3642:3642 <> a:15
+binder 3644:3644 <> b:16
+R3651:3655 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3678:3678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3648:3649 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3647:3647 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:16 var
+R3668:3672 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3663:3666 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3657:3661 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R3656:3656 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:15 var
+R3662:3662 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:16 var
+R3673:3673 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3675:3675 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3677:3677 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R3674:3674 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:16 var
+R3676:3676 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:15 var
+R3735:3736 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3749:3756 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R3771:3778 Stdlib.Numbers.Integer.Abstract.ZLcm A quot_rem prfax
+R3860:3866 Stdlib.Numbers.Integer.Abstract.ZLcm E rem_mul thm
+prf 3881:3892 ZLcmProp rem_mod_eq_0
+binder 3903:3903 <> a:17
+binder 3905:3905 <> b:18
+R3912:3916 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3946:3946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3909:3910 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3908:3908 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:18 var
+R3929:3933 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3924:3927 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3918:3922 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R3917:3917 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:17 var
+R3923:3923 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:18 var
+R3941:3944 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3935:3939 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3934:3934 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:17 var
+R3940:3940 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:18 var
+R3984:3993 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R3996:4005 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp rem_divide thm
+prf 4071:4084 ZLcmProp quot_div_exact
+binder 4095:4095 <> a:19
+binder 4097:4097 <> b:20
+R4104:4107 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4101:4102 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4100:4100 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:20 var
+R4113:4116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4108:4108 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4110:4110 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4112:4112 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4109:4109 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:20 var
+R4111:4111 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:19 var
+R4121:4124 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4118:4119 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4117:4117 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:19 var
+R4120:4120 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:20 var
+R4126:4126 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4125:4125 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:19 var
+R4127:4127 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:20 var
+R4162:4173 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_cancel_l thm
+R4216:4225 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp rem_divide thm
+R4228:4237 Stdlib.Numbers.Integer.Abstract.ZLcm E quot_exact thm
+R4261:4270 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R4273:4281 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+prf 4334:4353 ZLcmProp divide_div_mul_exact
+binder 4364:4364 <> a:21
+binder 4366:4366 <> b:22
+binder 4368:4368 <> c:23
+R4375:4378 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4372:4373 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4371:4371 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:22 var
+R4384:4388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4379:4379 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4381:4381 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4383:4383 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4380:4380 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:22 var
+R4382:4382 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:21 var
+R4396:4399 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4389:4389 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4393:4394 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4391:4391 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4390:4390 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:23 var
+R4392:4392 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:21 var
+R4395:4395 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:22 var
+R4401:4402 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4406:4406 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4400:4400 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:23 var
+R4404:4404 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4403:4403 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:21 var
+R4405:4405 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:22 var
+R4443:4454 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_cancel_l thm
+R4482:4490 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_assoc thm
+R4493:4504 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_shuffle0 thm
+R4530:4539 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R4542:4550 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R4585:4592 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R4617:4625 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R4644:4653 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R4676:4687 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_mul_r thm
+prf 4702:4722 ZLcmProp divide_quot_mul_exact
+binder 4733:4733 <> a:24
+binder 4735:4735 <> b:25
+binder 4737:4737 <> c:26
+R4744:4747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4741:4742 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4740:4740 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:25 var
+R4753:4757 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4748:4748 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4750:4750 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4752:4752 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R4749:4749 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:25 var
+R4751:4751 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:24 var
+R4766:4769 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4758:4758 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4762:4764 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4760:4760 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4759:4759 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:26 var
+R4761:4761 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:24 var
+R4765:4765 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:25 var
+R4771:4772 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4777:4777 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4770:4770 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:26 var
+R4774:4775 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4773:4773 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:24 var
+R4776:4776 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:25 var
+R4818:4831 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp quot_div_exact thm
+R4852:4871 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div_mul_exact thm
+R4896:4907 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_mul_r thm
+prf 4975:4988 ZLcmProp gcd_div_factor
+binder 4999:4999 <> a:27
+binder 5001:5001 <> b:28
+binder 5003:5003 <> c:29
+R5009:5012 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5007:5007 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5008:5008 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5018:5021 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5013:5013 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5015:5015 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5017:5017 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5014:5014 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5016:5016 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:27 var
+R5027:5031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5022:5022 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5024:5024 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5026:5026 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5023:5023 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5025:5025 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:28 var
+R5047:5050 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5032:5034 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5038:5038 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5037:5037 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:27 var
+R5039:5039 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5044:5044 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5043:5043 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:28 var
+R5045:5045 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5051:5051 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5059:5060 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5052:5054 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5056:5056 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:27 var
+R5058:5058 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:28 var
+R5061:5061 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:29 var
+R5102:5113 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_cancel_l thm
+R5146:5157 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_greatest prfax
+R5180:5189 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R5192:5200 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R5246:5266 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_mul_mono_l_nonneg thm
+R5306:5314 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R5336:5345 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+prf 5380:5394 ZLcmProp gcd_quot_factor
+binder 5405:5405 <> a:30
+binder 5407:5407 <> b:31
+binder 5409:5409 <> c:32
+R5415:5418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5413:5413 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5414:5414 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5424:5427 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5419:5419 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5421:5421 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5423:5423 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5420:5420 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5422:5422 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:30 var
+R5433:5437 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5428:5428 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5430:5430 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5432:5432 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R5429:5429 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5431:5431 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:31 var
+R5455:5458 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5438:5440 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5444:5445 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5443:5443 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:30 var
+R5446:5446 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5451:5452 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5450:5450 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:31 var
+R5453:5453 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5459:5459 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5467:5469 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5460:5462 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5464:5464 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:30 var
+R5466:5466 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:31 var
+R5470:5470 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:32 var
+R5513:5526 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp quot_div_exact thm
+R5562:5575 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_factor thm
+R5591:5602 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_greatest prfax
+prf 5617:5627 ZLcmProp gcd_div_gcd
+binder 5638:5638 <> a:33
+binder 5640:5640 <> b:34
+binder 5642:5642 <> g:35
+R5649:5652 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5646:5647 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5645:5645 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:35 var
+R5665:5669 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5654:5657 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5653:5653 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:35 var
+R5658:5660 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5662:5662 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:33 var
+R5664:5664 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:34 var
+R5685:5688 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5670:5672 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5676:5676 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5675:5675 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:33 var
+R5677:5677 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:35 var
+R5682:5682 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5681:5681 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:34 var
+R5683:5683 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:35 var
+R5728:5741 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_factor thm
+R5766:5773 Stdlib.Numbers.Integer.Abstract.ZLcm D div_same thm
+R5791:5800 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_nonneg prfax
+R5836:5847 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_l prfax
+R5871:5882 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+prf 5897:5908 ZLcmProp gcd_quot_gcd
+binder 5919:5919 <> a:36
+binder 5921:5921 <> b:37
+binder 5923:5923 <> g:38
+R5930:5933 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5927:5928 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5926:5926 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:38 var
+R5946:5950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5935:5938 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5934:5934 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:38 var
+R5939:5941 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5943:5943 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:36 var
+R5945:5945 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:37 var
+R5968:5971 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5951:5953 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R5957:5958 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5956:5956 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:36 var
+R5959:5959 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:38 var
+R5964:5965 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5963:5963 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:37 var
+R5966:5966 Stdlib.Numbers.Integer.Abstract.ZLcm <> g:38 var
+R6012:6025 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp quot_div_exact thm
+R6050:6060 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_gcd thm
+R6084:6095 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+R6119:6130 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_l prfax
+prf 6208:6214 ZLcmProp gcd_mod
+binder 6225:6225 <> a:39
+binder 6227:6227 <> b:40
+R6234:6237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6231:6232 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6230:6230 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:40 var
+R6253:6256 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6238:6240 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R6244:6248 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6243:6243 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:39 var
+R6249:6249 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:40 var
+R6252:6252 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:40 var
+R6257:6259 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R6261:6261 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:40 var
+R6263:6263 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:39 var
+R6297:6302 Stdlib.Numbers.Integer.Abstract.ZLcm D mod_eq thm
+R6326:6334 Stdlib.Numbers.Integer.Abstract.ZLcm B add_opp_r thm
+R6337:6344 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R6350:6358 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R6371:6378 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_comm thm
+R6393:6411 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_add_mult_diag_r thm
+prf 6426:6432 ZLcmProp gcd_rem
+binder 6443:6443 <> a:41
+binder 6445:6445 <> b:42
+R6452:6455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6449:6450 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6448:6448 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:42 var
+R6471:6474 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6456:6458 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R6462:6466 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6461:6461 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:41 var
+R6467:6467 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:42 var
+R6470:6470 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:42 var
+R6475:6477 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R6479:6479 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:42 var
+R6481:6481 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:41 var
+R6515:6520 Stdlib.Numbers.Integer.Abstract.ZLcm E rem_eq thm
+R6544:6552 Stdlib.Numbers.Integer.Abstract.ZLcm B add_opp_r thm
+R6555:6562 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R6568:6576 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R6589:6596 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_comm thm
+R6611:6629 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_add_mult_diag_r thm
+def 6957:6959 ZLcmProp lcm
+binder 6961:6961 <> a:43
+binder 6963:6963 <> b:44
+R6968:6970 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R6974:6975 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6985:6985 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6973:6973 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:43 var
+R6977:6977 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R6976:6976 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:44 var
+R6978:6980 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R6982:6982 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:43 var
+R6984:6984 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:44 var
+inst 7009:7014 ZLcmProp lcm_wd
+R7018:7023 Corelib.Classes.Morphisms <> Proper class
+R7040:7042 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R7028:7030 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7026:7027 Stdlib.Numbers.Integer.Abstract.ZLcm A eq defax
+R7033:7035 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7031:7032 Stdlib.Numbers.Integer.Abstract.ZLcm A eq defax
+R7036:7037 Stdlib.Numbers.Integer.Abstract.ZLcm A eq defax
+R7059:7061 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+prf 7090:7099 ZLcmProp lcm_equiv1
+binder 7110:7110 <> a:45
+binder 7112:7112 <> b:46
+R7127:7132 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7122:7125 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7115:7117 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7119:7119 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:45 var
+R7121:7121 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:46 var
+R7150:7153 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7134:7137 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7149:7149 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7133:7133 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:45 var
+R7139:7141 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7138:7138 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:46 var
+R7142:7144 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7146:7146 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:45 var
+R7148:7148 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:46 var
+R7154:7154 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7158:7159 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7156:7156 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7155:7155 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:45 var
+R7157:7157 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:46 var
+R7160:7162 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7164:7164 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:45 var
+R7166:7166 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:46 var
+R7199:7218 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div_mul_exact thm
+R7237:7248 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+prf 7263:7272 ZLcmProp lcm_equiv2
+binder 7283:7283 <> a:47
+binder 7285:7285 <> b:48
+R7300:7305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7295:7298 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7288:7290 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7292:7292 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:47 var
+R7294:7294 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:48 var
+R7323:7326 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7306:7306 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7318:7321 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7308:7310 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7307:7307 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:47 var
+R7311:7313 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7315:7315 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:47 var
+R7317:7317 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:48 var
+R7322:7322 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:48 var
+R7327:7327 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7331:7332 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7329:7329 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7328:7328 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:47 var
+R7330:7330 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:48 var
+R7333:7335 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7337:7337 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:47 var
+R7339:7339 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:48 var
+R7375:7382 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R7399:7418 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div_mul_exact thm
+R7437:7448 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_l prfax
+prf 7463:7474 ZLcmProp gcd_div_swap
+binder 7485:7485 <> a:49
+binder 7487:7487 <> b:50
+R7508:7511 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7491:7491 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7503:7506 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7493:7495 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7492:7492 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:49 var
+R7496:7498 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7500:7500 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:49 var
+R7502:7502 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:50 var
+R7507:7507 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:50 var
+R7513:7516 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7528:7528 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7512:7512 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:49 var
+R7518:7520 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7517:7517 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:50 var
+R7521:7523 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7525:7525 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:49 var
+R7527:7527 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:50 var
+R7561:7572 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_decidable thm
+R7575:7577 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R7609:7616 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_eq_0 thm
+R7695:7704 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_equiv1 thm
+R7709:7718 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_equiv2 thm
+prf 7733:7744 ZLcmProp divide_lcm_l
+binder 7755:7755 <> a:51
+binder 7757:7757 <> b:52
+R7760:7760 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7762:7764 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7772:7772 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7761:7761 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:51 var
+R7765:7767 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R7769:7769 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:51 var
+R7771:7771 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:52 var
+R7790:7792 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R7813:7824 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_abs_r thm
+R7827:7841 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_factor_l thm
+prf 7856:7867 ZLcmProp divide_lcm_r
+binder 7878:7878 <> a:53
+binder 7880:7880 <> b:54
+R7883:7883 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7885:7887 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7895:7895 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7884:7884 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:54 var
+R7888:7890 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R7892:7892 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:53 var
+R7894:7894 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:54 var
+R7913:7915 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R7936:7947 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_abs_r thm
+R7961:7972 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_swap thm
+R7982:7996 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_factor_r thm
+prf 8011:8020 ZLcmProp divide_div
+binder 8031:8031 <> a:55
+binder 8033:8033 <> b:56
+binder 8035:8035 <> c:57
+R8042:8045 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8039:8040 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8038:8038 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:55 var
+R8051:8054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8046:8046 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8048:8048 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8050:8050 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8047:8047 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:55 var
+R8049:8049 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:56 var
+R8060:8063 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8055:8055 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8057:8057 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8059:8059 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8056:8056 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:56 var
+R8058:8058 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:57 var
+R8064:8064 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8068:8068 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8072:8072 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8066:8066 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R8065:8065 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:56 var
+R8067:8067 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:55 var
+R8070:8070 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R8069:8069 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:57 var
+R8071:8071 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:55 var
+R8138:8157 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div_mul_exact thm
+prf 8179:8187 ZLcmProp lcm_least
+binder 8198:8198 <> a:58
+binder 8200:8200 <> b:59
+binder 8202:8202 <> c:60
+R8213:8216 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8206:8206 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8208:8210 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8212:8212 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8207:8207 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:58 var
+R8211:8211 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:60 var
+R8224:8227 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8217:8217 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8219:8221 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8223:8223 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8218:8218 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:59 var
+R8222:8222 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:60 var
+R8228:8228 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8236:8238 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8240:8240 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8229:8231 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R8233:8233 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:58 var
+R8235:8235 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:59 var
+R8239:8239 Stdlib.Numbers.Integer.Abstract.ZLcm <> c:60 var
+R8278:8280 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R8289:8300 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_abs_l thm
+R8314:8325 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_decidable thm
+R8328:8330 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R8362:8369 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_eq_0 thm
+R8450:8461 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_l prfax
+R8486:8497 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+R8516:8518 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R8549:8558 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div thm
+R8596:8605 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div thm
+R8667:8674 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R8693:8697 Stdlib.Numbers.Integer.Abstract.ZLcm F gauss thm
+R8715:8725 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_gcd thm
+R8752:8759 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_comm thm
+R8817:8828 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_shuffle3 thm
+R8851:8855 Corelib.Init.Logic <> proj2 thm
+R8858:8866 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R8897:8908 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_shuffle3 thm
+R8912:8919 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R8958:8966 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R8989:8998 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R9021:9030 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+prf 9079:9088 ZLcmProp lcm_nonneg
+binder 9099:9099 <> a:61
+binder 9101:9101 <> b:62
+R9105:9108 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9109:9111 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9113:9113 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:61 var
+R9115:9115 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:62 var
+R9145:9147 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9156:9165 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_nonneg thm
+prf 9180:9187 ZLcmProp lcm_comm
+binder 9198:9198 <> a:63
+binder 9200:9200 <> b:64
+R9210:9213 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9203:9205 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9207:9207 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:63 var
+R9209:9209 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:64 var
+R9214:9216 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9218:9218 Stdlib.Numbers.Integer.Abstract.ZLcm <> b:64 var
+R9220:9220 Stdlib.Numbers.Integer.Abstract.ZLcm <> a:63 var
+R9250:9252 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9264:9271 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_comm thm
+R9278:9285 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R9307:9318 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp gcd_div_swap thm
+prf 9333:9346 ZLcmProp lcm_divide_iff
+binder 9357:9357 <> n:65
+binder 9359:9359 <> m:66
+binder 9361:9361 <> p:67
+R9379:9383 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9366:9366 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9374:9376 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9378:9378 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9367:9369 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9371:9371 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:65 var
+R9373:9373 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:66 var
+R9377:9377 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:67 var
+R9391:9394 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9384:9384 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9386:9388 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9390:9390 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9385:9385 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:65 var
+R9389:9389 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:67 var
+R9395:9395 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9397:9399 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9401:9401 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9396:9396 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:66 var
+R9400:9400 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:67 var
+R9461:9463 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9485:9496 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_l thm
+R9517:9519 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9541:9552 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_r thm
+R9584:9592 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_least thm
+prf 9607:9616 ZLcmProp lcm_unique
+binder 9627:9627 <> n:68
+binder 9629:9629 <> m:69
+binder 9631:9631 <> p:70
+R9639:9642 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9636:9637 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9638:9638 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:70 var
+R9648:9651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9643:9643 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9645:9645 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9647:9647 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9644:9644 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:68 var
+R9646:9646 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:70 var
+R9657:9661 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9652:9652 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9654:9654 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9656:9656 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9653:9653 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:69 var
+R9655:9655 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:70 var
+R9662:9662 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9696:9701 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 9670:9670 <> q:71
+R9678:9681 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9673:9673 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9675:9675 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9677:9677 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9674:9674 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:68 var
+R9676:9676 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:71 var
+R9687:9690 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9682:9682 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9684:9684 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9686:9686 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9683:9683 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:69 var
+R9685:9685 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:71 var
+R9691:9691 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9693:9693 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9695:9695 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9692:9692 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:70 var
+R9694:9694 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:71 var
+R9709:9712 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9702:9704 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9706:9706 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:68 var
+R9708:9708 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:69 var
+R9713:9713 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:70 var
+R9756:9776 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_antisym_nonneg thm
+R9797:9806 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_nonneg thm
+R9822:9830 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_least thm
+R9856:9867 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_l thm
+R9881:9892 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_r thm
+prf 9907:9920 ZLcmProp lcm_unique_alt
+binder 9931:9931 <> n:72
+binder 9933:9933 <> m:73
+binder 9935:9935 <> p:74
+R9942:9946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9939:9940 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9941:9941 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:74 var
+R9947:9947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9982:9987 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 9955:9955 <> q:75
+R9963:9967 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9958:9958 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9960:9960 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9962:9962 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9959:9959 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:74 var
+R9961:9961 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:75 var
+R9973:9976 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9968:9968 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9970:9970 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9972:9972 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9969:9969 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:72 var
+R9971:9971 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:75 var
+R9977:9977 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9979:9979 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9981:9981 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R9978:9978 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:73 var
+R9980:9980 Stdlib.Numbers.Integer.Abstract.ZLcm <> q:75 var
+R9995:9998 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9988:9990 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R9992:9992 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:72 var
+R9994:9994 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:73 var
+R9999:9999 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:74 var
+R10036:10045 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique thm
+R10069:10079 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_refl thm
+R10094:10104 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_refl thm
+prf 10150:10158 ZLcmProp lcm_assoc
+binder 10169:10169 <> n:76
+binder 10171:10171 <> m:77
+binder 10173:10173 <> p:78
+R10191:10194 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10176:10178 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10180:10180 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:76 var
+R10183:10185 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10187:10187 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:77 var
+R10189:10189 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:78 var
+R10195:10197 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10200:10202 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10204:10204 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:76 var
+R10206:10206 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:77 var
+R10209:10209 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:78 var
+R10234:10247 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique_alt thm
+R10260:10269 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_nonneg thm
+R10294:10307 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_divide_iff thm
+R10310:10318 Corelib.Init.Logic <> and_assoc thm
+prf 10333:10339 ZLcmProp lcm_0_l
+binder 10350:10350 <> n:79
+R10360:10363 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10353:10355 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10359:10359 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:79 var
+R10390:10399 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique thm
+R10432:10442 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_refl thm
+R10455:10464 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_0_r thm
+prf 10479:10485 ZLcmProp lcm_0_r
+binder 10496:10496 <> n:80
+R10506:10509 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10499:10501 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10503:10503 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:80 var
+R10541:10548 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+R10551:10557 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_0_l thm
+prf 10572:10585 ZLcmProp lcm_1_l_nonneg
+binder 10596:10596 <> n:81
+R10603:10606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10600:10601 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10602:10602 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:81 var
+R10614:10617 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10607:10609 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10613:10613 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:81 var
+R10618:10618 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:81 var
+R10643:10652 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique thm
+R10669:10678 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_1_l thm
+R10681:10686 Stdlib.Numbers.Integer.Abstract.ZLcm B le_0_1 thm
+R10689:10699 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_refl thm
+prf 10714:10727 ZLcmProp lcm_1_r_nonneg
+binder 10738:10738 <> n:82
+R10745:10748 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10742:10743 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10744:10744 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:82 var
+R10756:10759 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10749:10751 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10753:10753 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:82 var
+R10760:10760 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:82 var
+R10791:10798 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+R10801:10814 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_1_l_nonneg thm
+prf 10829:10843 ZLcmProp lcm_diag_nonneg
+binder 10854:10854 <> n:83
+R10861:10864 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10858:10859 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10860:10860 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:83 var
+R10872:10875 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10865:10867 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10869:10869 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:83 var
+R10871:10871 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:83 var
+R10876:10876 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:83 var
+R10901:10910 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique thm
+R10927:10937 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_refl thm
+prf 10952:10959 ZLcmProp lcm_eq_0
+binder 10970:10970 <> n:84
+binder 10972:10972 <> m:85
+R10987:10991 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10982:10985 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10975:10977 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R10979:10979 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:84 var
+R10981:10981 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:85 var
+R10998:11001 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R10993:10996 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10992:10992 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:84 var
+R11003:11006 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11002:11002 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:85 var
+R11056:11063 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_mul_0 thm
+R11075:11084 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_0_l thm
+R11108:11116 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_least thm
+R11130:11144 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_factor_l thm
+R11158:11172 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_factor_r thm
+R11224:11230 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_0_l thm
+R11244:11250 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_0_r thm
+prf 11265:11279 ZLcmProp divide_lcm_eq_r
+binder 11290:11290 <> n:86
+binder 11292:11292 <> m:87
+R11299:11302 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11296:11297 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11298:11298 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:87 var
+R11308:11311 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11303:11303 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11305:11305 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11307:11307 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11304:11304 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:86 var
+R11306:11306 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:87 var
+R11319:11322 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11312:11314 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11316:11316 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:86 var
+R11318:11318 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:87 var
+R11323:11323 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:87 var
+R11357:11370 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique_alt thm
+prf 11470:11483 ZLcmProp divide_lcm_iff
+binder 11494:11494 <> n:88
+binder 11496:11496 <> m:89
+R11503:11507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11530:11530 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11500:11501 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11502:11502 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:89 var
+R11513:11517 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11508:11508 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11510:11510 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11512:11512 Stdlib.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R11509:11509 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:88 var
+R11511:11511 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:89 var
+R11525:11528 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11518:11520 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11522:11522 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:88 var
+R11524:11524 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:89 var
+R11529:11529 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:89 var
+R11578:11592 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_eq_r thm
+R11631:11642 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_lcm_l thm
+prf 11657:11665 ZLcmProp lcm_opp_l
+binder 11676:11676 <> n:90
+binder 11678:11678 <> m:91
+R11691:11694 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11681:11683 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11686:11686 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R11687:11687 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:90 var
+R11690:11690 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:91 var
+R11695:11697 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11699:11699 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:90 var
+R11701:11701 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:91 var
+R11727:11740 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_unique_alt thm
+R11753:11762 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_nonneg thm
+R11783:11794 Stdlib.Numbers.Integer.Abstract.ZLcm F divide_opp_l thm
+R11803:11816 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_divide_iff thm
+prf 11831:11839 ZLcmProp lcm_opp_r
+binder 11850:11850 <> n:92
+binder 11852:11852 <> m:93
+R11865:11868 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11855:11857 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11859:11859 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:92 var
+R11862:11862 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R11863:11863 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:93 var
+R11869:11871 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11873:11873 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:92 var
+R11875:11875 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:93 var
+R11907:11914 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+R11917:11925 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_opp_l thm
+R11928:11935 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+prf 11950:11958 ZLcmProp lcm_abs_l
+binder 11969:11969 <> n:94
+binder 11971:11971 <> m:95
+R11987:11990 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11974:11976 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11979:11981 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R11983:11983 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:94 var
+R11986:11986 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:95 var
+R11991:11993 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R11995:11995 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:94 var
+R11997:11997 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:95 var
+R12031:12043 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_eq_or_opp thm
+R12089:12097 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_opp_l thm
+prf 12112:12120 ZLcmProp lcm_abs_r
+binder 12131:12131 <> n:96
+binder 12133:12133 <> m:97
+R12149:12152 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R12136:12138 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12140:12140 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:96 var
+R12143:12145 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R12147:12147 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:97 var
+R12153:12155 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12157:12157 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:96 var
+R12159:12159 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:97 var
+R12190:12197 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+R12200:12208 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_abs_l thm
+R12211:12218 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+prf 12233:12239 ZLcmProp lcm_1_l
+binder 12250:12250 <> n:98
+R12260:12263 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R12253:12255 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12259:12259 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:98 var
+R12264:12266 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R12268:12268 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:98 var
+R12298:12306 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_abs_r thm
+R12315:12328 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_1_l_nonneg thm
+R12331:12340 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_nonneg thm
+prf 12355:12361 ZLcmProp lcm_1_r
+binder 12372:12372 <> n:99
+R12382:12385 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R12375:12377 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12379:12379 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:99 var
+R12386:12388 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R12390:12390 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:99 var
+R12421:12428 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_comm thm
+R12431:12437 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_1_l thm
+prf 12452:12459 ZLcmProp lcm_diag
+binder 12470:12470 <> n:100
+R12480:12483 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R12473:12475 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12477:12477 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:100 var
+R12479:12479 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:100 var
+R12484:12486 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R12488:12488 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:100 var
+R12518:12526 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_abs_l thm
+R12532:12540 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_abs_r thm
+R12550:12564 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_diag_nonneg thm
+R12567:12576 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_nonneg thm
+prf 12591:12604 ZLcmProp lcm_mul_mono_l
+binder 12617:12617 <> n:101
+binder 12619:12619 <> m:102
+binder 12621:12621 <> p:103
+R12643:12646 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R12624:12626 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12630:12632 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12629:12629 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:103 var
+R12633:12633 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:101 var
+R12638:12640 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12637:12637 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:103 var
+R12641:12641 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:102 var
+R12652:12654 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12647:12649 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R12651:12651 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:103 var
+R12655:12657 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12659:12659 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:101 var
+R12661:12661 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:102 var
+R12697:12708 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_decidable thm
+R12738:12749 Stdlib.Numbers.Integer.Abstract.ZLcm B eq_decidable thm
+R12752:12754 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R12809:12815 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_0_l thm
+R12818:12822 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0 thm
+R12847:12854 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_eq_0 thm
+R12923:12929 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_0_l thm
+R12955:12957 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R12971:12984 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_mul_mono_l thm
+R12999:13005 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_mul thm
+R13008:13016 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_assoc thm
+R13043:13049 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_sgn thm
+R13071:13079 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_assoc thm
+R13093:13108 Stdlib.Numbers.Integer.Abstract.ZLcm D div_mul_cancel_l thm
+R13133:13152 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp divide_div_mul_exact thm
+R13179:13185 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_mul thm
+R13207:13213 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_abs thm
+R13216:13218 Stdlib.Numbers.Integer.Abstract.ZLcm A sgn defax
+R13225:13231 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_sgn thm
+R13253:13260 Stdlib.Numbers.Integer.Abstract.ZLcm C sgn_spec thm
+R13373:13381 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_l thm
+R13384:13392 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_opp_r thm
+R13395:13408 Stdlib.Numbers.Integer.Abstract.ZLcm B opp_involutive thm
+R13446:13457 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+R13490:13498 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0_iff thm
+prf 13513:13533 ZLcmProp lcm_mul_mono_l_nonneg
+binder 13545:13545 <> n:104
+binder 13547:13547 <> m:105
+binder 13549:13549 <> p:106
+R13556:13559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13553:13554 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13555:13555 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:106 var
+R13575:13578 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13560:13562 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13566:13566 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13565:13565 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:106 var
+R13567:13567 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:104 var
+R13572:13572 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13571:13571 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:106 var
+R13573:13573 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:105 var
+R13580:13582 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13579:13579 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:106 var
+R13583:13585 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13587:13587 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:104 var
+R13589:13589 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:105 var
+R13628:13633 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R13659:13672 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_mul_mono_l thm
+prf 13687:13700 ZLcmProp lcm_mul_mono_r
+binder 13712:13712 <> n:107
+binder 13714:13714 <> m:108
+binder 13716:13716 <> p:109
+R13738:13741 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13719:13721 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13725:13727 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13724:13724 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:107 var
+R13728:13728 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:109 var
+R13733:13735 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13732:13732 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:108 var
+R13736:13736 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:109 var
+R13749:13751 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13742:13744 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13746:13746 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:107 var
+R13748:13748 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:108 var
+R13752:13754 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R13756:13756 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:109 var
+R13795:13802 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+R13810:13823 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_mul_mono_l thm
+R13826:13833 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_comm thm
+prf 13848:13868 ZLcmProp lcm_mul_mono_r_nonneg
+binder 13880:13880 <> n:110
+binder 13882:13882 <> m:111
+binder 13884:13884 <> p:112
+R13891:13894 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13888:13889 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13890:13890 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:112 var
+R13910:13913 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13895:13897 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13901:13901 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13900:13900 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:110 var
+R13902:13902 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:112 var
+R13907:13907 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13906:13906 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:111 var
+R13908:13908 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:112 var
+R13921:13923 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13914:13916 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R13918:13918 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:110 var
+R13920:13920 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:111 var
+R13924:13924 Stdlib.Numbers.Integer.Abstract.ZLcm <> p:112 var
+R13963:13968 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R13994:14007 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm_mul_mono_r thm
+prf 14022:14034 ZLcmProp gcd_1_lcm_mul
+binder 14045:14045 <> n:113
+binder 14047:14047 <> m:114
+R14054:14057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14051:14052 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14050:14050 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:113 var
+R14062:14067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14105:14105 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14059:14060 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14058:14058 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:114 var
+R14080:14084 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14075:14078 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R14068:14070 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R14072:14072 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:113 var
+R14074:14074 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:114 var
+R14092:14095 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R14085:14087 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R14089:14089 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:113 var
+R14091:14091 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:114 var
+R14096:14098 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R14102:14102 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14101:14101 Stdlib.Numbers.Integer.Abstract.ZLcm <> n:113 var
+R14103:14103 Stdlib.Numbers.Integer.Abstract.ZLcm <> m:114 var
+R14161:14163 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R14189:14195 Stdlib.Numbers.Integer.Abstract.ZLcm D div_1_r thm
+R14208:14210 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp lcm def
+R14230:14236 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_mul thm
+R14250:14261 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_cancel_l thm
+R14283:14291 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0_iff thm
+R14312:14323 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_divide_r prfax
+R14354:14357 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14347:14349 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R14378:14385 Stdlib.Numbers.Integer.Abstract.ZLcm F gcd_eq_0 thm
+R14417:14426 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp mod_divide thm
+R14450:14458 Stdlib.Numbers.Integer.Abstract.ZLcm D div_exact thm
+R14498:14500 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14488:14490 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14491:14493 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd defax
+R14568:14574 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_1_l thm
+R14577:14579 Stdlib.Numbers.Integer.Abstract.ZLcm A abs defax
+R14583:14583 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14628:14634 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_mul thm
+R14651:14662 Stdlib.Numbers.Integer.Abstract.ZLcm B mul_cancel_r thm
+R14684:14692 Stdlib.Numbers.Integer.Abstract.ZLcm C abs_0_iff thm
+R14707:14712 Stdlib.Numbers.Integer.Abstract.ZLcm A abs_eq prfax
+R14737:14746 Stdlib.Numbers.Integer.Abstract.ZLcm A gcd_nonneg prfax
+R14759:14766 Stdlib.Numbers.Integer.Abstract.ZLcm ZLcmProp <> modtype

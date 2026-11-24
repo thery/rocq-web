@@ -1,0 +1,2572 @@
+DIGEST 57f0f1d45258aac5148496d831aa5275
+Fmathcomp.algebra.interval
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.eqtype <> <> lib
+R256:258 mathcomp.boot.seq <> <> lib
+R260:265 mathcomp.boot.choice <> <> lib
+R297:303 mathcomp.boot.fintype <> <> lib
+R305:311 mathcomp.boot.nmodule <> <> lib
+R313:317 mathcomp.order.order <> <> lib
+R4762:4774 mathcomp.order.order Order.TTheory <> mod
+ind 4786:4794 <> itv_bound
+constr 4817:4821 <> BSide
+constr 4837:4842 <> BInfty
+binder 4797:4797 <> T:1
+R4826:4829 Corelib.Init.Datatypes <> bool ind
+R4833:4833 mathcomp.algebra.interval <> T:1 var
+R4847:4850 Corelib.Init.Datatypes <> bool ind
+abbrev 4862:4866 <> BLeft
+R4872:4876 mathcomp.algebra.interval <> BSide constr
+R4878:4881 Corelib.Init.Datatypes <> true constr
+abbrev 4894:4899 <> BRight
+R4905:4909 mathcomp.algebra.interval <> BSide constr
+R4911:4915 Corelib.Init.Datatypes <> false constr
+R4940:4945 mathcomp.algebra.interval <> BInfty constr
+R4949:4952 Corelib.Init.Datatypes <> true constr
+not 4928:4928 <> ::order_scope:'-oo'
+R4991:4996 mathcomp.algebra.interval <> BInfty constr
+R5000:5004 Corelib.Init.Datatypes <> false constr
+not 4979:4979 <> ::order_scope:'+oo'
+ind 5030:5037 <> interval
+constr 5053:5060 <> Interval
+binder 5040:5040 <> T:4
+R5065:5073 mathcomp.algebra.interval <> itv_bound variant
+R5075:5075 mathcomp.algebra.interval <> T:4 var
+R5079:5087 mathcomp.algebra.interval <> itv_bound variant
+R5089:5089 mathcomp.algebra.interval <> T:4 var
+def 5102:5117 <> pair_of_interval
+binder 5119:5119 <> T:7
+R5126:5133 mathcomp.algebra.interval <> interval variant
+R5135:5135 mathcomp.algebra.interval <> T:7 var
+binder 5122:5122 <> I:8
+R5151:5153 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5140:5148 mathcomp.algebra.interval <> itv_bound variant
+R5150:5150 mathcomp.algebra.interval <> T:7 var
+R5154:5162 mathcomp.algebra.interval <> itv_bound variant
+R5164:5164 mathcomp.algebra.interval <> T:7 var
+R5194:5194 mathcomp.algebra.interval <> I:8 var
+R5176:5183 mathcomp.algebra.interval <> Interval constr
+R5199:5199 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5202:5203 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5206:5206 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5312:5319 mathcomp.algebra.interval <> Interval constr
+R5332:5337 mathcomp.algebra.interval <> BRight abbrev
+R5322:5326 mathcomp.algebra.interval <> BLeft abbrev
+not 5295:5295 <> ::order_scope:'`['_x_','_x_']'
+R5384:5391 mathcomp.algebra.interval <> Interval constr
+R5405:5410 mathcomp.algebra.interval <> BRight abbrev
+R5394:5399 mathcomp.algebra.interval <> BRight abbrev
+not 5367:5367 <> ::order_scope:'`]'_x_','_x_']'
+R5457:5464 mathcomp.algebra.interval <> Interval constr
+R5477:5481 mathcomp.algebra.interval <> BLeft abbrev
+R5467:5471 mathcomp.algebra.interval <> BLeft abbrev
+not 5440:5440 <> ::order_scope:'`['_x_','_x_'['
+R5528:5535 mathcomp.algebra.interval <> Interval constr
+R5549:5553 mathcomp.algebra.interval <> BLeft abbrev
+R5538:5543 mathcomp.algebra.interval <> BRight abbrev
+not 5511:5511 <> ::order_scope:'`]'_x_','_x_'['
+R5604:5611 mathcomp.algebra.interval <> Interval constr
+R5618:5623 mathcomp.algebra.interval <> BRight abbrev
+R5613:5615 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 5583:5583 <> ::order_scope:'`]'_'-oo'_','_x_']'
+R5674:5681 mathcomp.algebra.interval <> Interval constr
+R5688:5692 mathcomp.algebra.interval <> BLeft abbrev
+R5683:5685 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 5653:5653 <> ::order_scope:'`]'_'-oo'_','_x_'['
+R5743:5750 mathcomp.algebra.interval <> Interval constr
+R5762:5764 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R5753:5757 mathcomp.algebra.interval <> BLeft abbrev
+not 5722:5722 <> ::order_scope:'`['_x_','_'+oo'_'['
+R5812:5819 mathcomp.algebra.interval <> Interval constr
+R5832:5834 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R5822:5827 mathcomp.algebra.interval <> BRight abbrev
+not 5791:5791 <> ::order_scope:'`]'_x_','_'+oo'_'['
+R5884:5891 mathcomp.algebra.interval <> Interval constr
+R5897:5899 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R5893:5895 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 5861:5861 <> ::order_scope:'`]'_'-oo'_','_'+oo'_'['
+R5944:5951 mathcomp.algebra.interval <> Interval constr
+R5964:5969 mathcomp.algebra.interval <> BRight abbrev
+R5954:5958 mathcomp.algebra.interval <> BLeft abbrev
+not 5927:5927 <> ::ring_scope:'`['_x_','_x_']'
+R6015:6022 mathcomp.algebra.interval <> Interval constr
+R6036:6041 mathcomp.algebra.interval <> BRight abbrev
+R6025:6030 mathcomp.algebra.interval <> BRight abbrev
+not 5998:5998 <> ::ring_scope:'`]'_x_','_x_']'
+R6087:6094 mathcomp.algebra.interval <> Interval constr
+R6107:6111 mathcomp.algebra.interval <> BLeft abbrev
+R6097:6101 mathcomp.algebra.interval <> BLeft abbrev
+not 6070:6070 <> ::ring_scope:'`['_x_','_x_'['
+R6157:6164 mathcomp.algebra.interval <> Interval constr
+R6178:6182 mathcomp.algebra.interval <> BLeft abbrev
+R6167:6172 mathcomp.algebra.interval <> BRight abbrev
+not 6140:6140 <> ::ring_scope:'`]'_x_','_x_'['
+R6232:6239 mathcomp.algebra.interval <> Interval constr
+R6246:6251 mathcomp.algebra.interval <> BRight abbrev
+R6241:6243 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 6211:6211 <> ::ring_scope:'`]'_'-oo'_','_x_']'
+R6301:6308 mathcomp.algebra.interval <> Interval constr
+R6315:6319 mathcomp.algebra.interval <> BLeft abbrev
+R6310:6312 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 6280:6280 <> ::ring_scope:'`]'_'-oo'_','_x_'['
+R6369:6376 mathcomp.algebra.interval <> Interval constr
+R6388:6390 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R6379:6383 mathcomp.algebra.interval <> BLeft abbrev
+not 6348:6348 <> ::ring_scope:'`['_x_','_'+oo'_'['
+R6437:6444 mathcomp.algebra.interval <> Interval constr
+R6457:6459 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R6447:6452 mathcomp.algebra.interval <> BRight abbrev
+not 6416:6416 <> ::ring_scope:'`]'_x_','_'+oo'_'['
+R6508:6515 mathcomp.algebra.interval <> Interval constr
+R6521:6523 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R6517:6519 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+not 6485:6485 <> ::ring_scope:'`]'_'-oo'_','_'+oo'_'['
+prf 6546:6562 <> itv_bound_display
+R6572:6583 mathcomp.order.preorder Order disp_t rec
+binder 6565:6568 <> disp:10
+R6588:6599 mathcomp.order.preorder Order disp_t rec
+prf 6626:6641 <> interval_display
+R6651:6662 mathcomp.order.preorder Order disp_t rec
+binder 6644:6647 <> disp:11
+R6667:6678 mathcomp.order.preorder Order disp_t rec
+mod 6708:6718 <> IntervalCan
+sec 6729:6739 IntervalCan IntervalCan
+var 6752:6752 IntervalCan.IntervalCan T
+prf 6769:6781 IntervalCan itv_bound_can
+R6787:6792 Corelib.ssr.ssrfun <> cancel def
+binder 6911:6911 <> b:14
+R6934:6934 mathcomp.algebra.interval <> b:14 var
+R6941:6941 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6943:6944 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6951:6951 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6945:6948 Corelib.Init.Datatypes <> Some constr
+R6956:6960 mathcomp.algebra.interval <> BSide constr
+R6962:6962 mathcomp.algebra.interval <> b:14 var
+R6968:6968 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6970:6971 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6976:6976 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6972:6975 Corelib.Init.Datatypes <> None constr
+R6981:6986 mathcomp.algebra.interval <> BInfty constr
+R6990:6990 mathcomp.algebra.interval <> b:14 var
+R6803:6811 mathcomp.algebra.interval <> itv_bound variant
+R6813:6813 mathcomp.algebra.interval <> IntervalCan.IntervalCan.T var
+binder 6799:6799 <> b:16
+R6836:6836 mathcomp.algebra.interval <> b:16 var
+R6843:6847 mathcomp.algebra.interval <> BSide constr
+R6856:6856 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6858:6859 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6866:6866 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6857:6857 mathcomp.algebra.interval <> b:16 var
+R6860:6863 Corelib.Init.Datatypes <> Some constr
+R6870:6875 mathcomp.algebra.interval <> BInfty constr
+R6882:6882 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6884:6885 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6890:6890 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6883:6883 mathcomp.algebra.interval <> b:16 var
+R6886:6889 Corelib.Init.Datatypes <> None constr
+prf 7026:7037 IntervalCan interval_can
+R7044:7049 Corelib.ssr.ssrfun <> cancel def
+R7054:7061 mathcomp.algebra.interval <> interval variant
+R7063:7063 mathcomp.algebra.interval <> IntervalCan.IntervalCan.T var
+R7077:7084 mathcomp.algebra.interval <> Interval constr
+binder 7089:7090 <> b2:18
+binder 7086:7087 <> b1:19
+binder 7077:7090 <> pat:20
+R7096:7096 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7099:7100 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7103:7103 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7097:7098 mathcomp.algebra.interval <> b1:19 var
+R7101:7102 mathcomp.algebra.interval <> b2:18 var
+R7112:7112 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7115:7116 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7119:7119 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 7117:7118 <> b2:21
+binder 7113:7114 <> b1:22
+binder 7112:7119 <> pat:23
+R7124:7131 mathcomp.algebra.interval <> Interval constr
+R7136:7137 mathcomp.algebra.interval <> b2:21 var
+R7133:7134 mathcomp.algebra.interval <> b1:22 var
+R7167:7177 mathcomp.algebra.interval IntervalCan.IntervalCan <> sec
+R7226:7231 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R7238:7250 mathcomp.boot.eqtype Equality copy abbrev
+R7253:7261 mathcomp.algebra.interval <> itv_bound variant
+R7263:7263 mathcomp.algebra.interval <> T:24 var
+R7269:7276 mathcomp.boot.eqtype <> can_type def
+R7280:7292 mathcomp.algebra.interval IntervalCan itv_bound_can thm
+R7294:7294 mathcomp.algebra.interval <> T:24 var
+sec 7181:7297 IntervalCan.hb_instance_1 hb_instance_1
+var 7181:7297 IntervalCan.hb_instance_1 T
+def 7181:7297 IntervalCan HB_unnamed_factory_2
+def 7181:7297 IntervalCan eqtype_Equality__to__eqtype_hasDecEq
+def 7181:7297 IntervalCan HB_unnamed_mixin_4
+def 7181:7297 IntervalCan interval_itv_bound__canonical__eqtype_Equality
+R7181:7297 mathcomp.algebra.interval IntervalCan <> sec
+R7344:7349 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R7356:7368 mathcomp.boot.eqtype Equality copy abbrev
+R7371:7378 mathcomp.algebra.interval <> interval variant
+R7380:7380 mathcomp.algebra.interval <> T:25 var
+R7386:7393 mathcomp.boot.eqtype <> can_type def
+R7397:7408 mathcomp.algebra.interval IntervalCan interval_can thm
+R7410:7410 mathcomp.algebra.interval <> T:25 var
+sec 7299:7413 IntervalCan.hb_instance_5 hb_instance_5
+var 7299:7413 IntervalCan.hb_instance_5 T
+def 7299:7413 IntervalCan HB_unnamed_factory_6
+def 7299:7413 IntervalCan eqtype_Equality__to__eqtype_hasDecEq__8
+def 7299:7413 IntervalCan HB_unnamed_mixin_9
+def 7299:7413 IntervalCan interval_interval__canonical__eqtype_Equality
+R7299:7413 mathcomp.algebra.interval IntervalCan <> sec
+R7460:7469 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R7476:7486 mathcomp.boot.choice Choice copy abbrev
+R7489:7497 mathcomp.algebra.interval <> itv_bound variant
+R7499:7499 mathcomp.algebra.interval <> T:26 var
+R7505:7512 mathcomp.boot.eqtype <> can_type def
+R7516:7528 mathcomp.algebra.interval IntervalCan itv_bound_can thm
+R7530:7530 mathcomp.algebra.interval <> T:26 var
+sec 7415:7533 IntervalCan.hb_instance_10 hb_instance_10
+var 7415:7533 IntervalCan.hb_instance_10 T
+def 7415:7533 IntervalCan HB_unnamed_factory_11
+def 7415:7533 IntervalCan choice_Choice__to__choice_hasChoice
+def 7415:7533 IntervalCan choice_Choice__to__eqtype_hasDecEq
+def 7415:7533 IntervalCan HB_unnamed_mixin_14
+def 7415:7533 IntervalCan HB_unnamed_mixin_15
+def 7415:7533 IntervalCan interval_itv_bound__canonical__choice_Choice
+R7415:7533 mathcomp.algebra.interval IntervalCan <> sec
+R7580:7589 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R7596:7606 mathcomp.boot.choice Choice copy abbrev
+R7609:7616 mathcomp.algebra.interval <> interval variant
+R7618:7618 mathcomp.algebra.interval <> T:27 var
+R7624:7631 mathcomp.boot.eqtype <> can_type def
+R7635:7646 mathcomp.algebra.interval IntervalCan interval_can thm
+R7648:7648 mathcomp.algebra.interval <> T:27 var
+sec 7535:7651 IntervalCan.hb_instance_16 hb_instance_16
+var 7535:7651 IntervalCan.hb_instance_16 T
+def 7535:7651 IntervalCan HB_unnamed_factory_17
+def 7535:7651 IntervalCan choice_Choice__to__choice_hasChoice__19
+def 7535:7651 IntervalCan choice_Choice__to__eqtype_hasDecEq__21
+def 7535:7651 IntervalCan HB_unnamed_mixin_22
+def 7535:7651 IntervalCan HB_unnamed_mixin_23
+def 7535:7651 IntervalCan interval_interval__canonical__choice_Choice
+R7535:7651 mathcomp.algebra.interval IntervalCan <> sec
+R7698:7706 mathcomp.boot.choice Countable.Exports countType abbrev
+R7713:7726 mathcomp.boot.choice Countable copy abbrev
+R7729:7737 mathcomp.algebra.interval <> itv_bound variant
+R7739:7739 mathcomp.algebra.interval <> T:28 var
+R7745:7752 mathcomp.boot.eqtype <> can_type def
+R7756:7768 mathcomp.algebra.interval IntervalCan itv_bound_can thm
+R7770:7770 mathcomp.algebra.interval <> T:28 var
+sec 7653:7773 IntervalCan.hb_instance_24 hb_instance_24
+var 7653:7773 IntervalCan.hb_instance_24 T
+def 7653:7773 IntervalCan HB_unnamed_factory_25
+def 7653:7773 IntervalCan choice_Countable__to__choice_hasChoice
+def 7653:7773 IntervalCan choice_Countable__to__eqtype_hasDecEq
+def 7653:7773 IntervalCan choice_Countable__to__choice_Choice_isCountable
+def 7653:7773 IntervalCan HB_unnamed_mixin_29
+def 7653:7773 IntervalCan HB_unnamed_mixin_30
+def 7653:7773 IntervalCan HB_unnamed_mixin_31
+def 7653:7773 IntervalCan interval_itv_bound__canonical__choice_Countable
+R7653:7773 mathcomp.algebra.interval IntervalCan <> sec
+R7820:7828 mathcomp.boot.choice Countable.Exports countType abbrev
+R7835:7848 mathcomp.boot.choice Countable copy abbrev
+R7851:7858 mathcomp.algebra.interval <> interval variant
+R7860:7860 mathcomp.algebra.interval <> T:29 var
+R7866:7873 mathcomp.boot.eqtype <> can_type def
+R7877:7888 mathcomp.algebra.interval IntervalCan interval_can thm
+R7890:7890 mathcomp.algebra.interval <> T:29 var
+sec 7775:7893 IntervalCan.hb_instance_32 hb_instance_32
+var 7775:7893 IntervalCan.hb_instance_32 T
+def 7775:7893 IntervalCan HB_unnamed_factory_33
+def 7775:7893 IntervalCan choice_Countable__to__choice_hasChoice__35
+def 7775:7893 IntervalCan choice_Countable__to__eqtype_hasDecEq__37
+def 7775:7893 IntervalCan choice_Countable__to__choice_Choice_isCountable__39
+def 7775:7893 IntervalCan HB_unnamed_mixin_40
+def 7775:7893 IntervalCan HB_unnamed_mixin_41
+def 7775:7893 IntervalCan HB_unnamed_mixin_42
+def 7775:7893 IntervalCan interval_interval__canonical__choice_Countable
+R7775:7893 mathcomp.algebra.interval IntervalCan <> sec
+R7940:7946 mathcomp.boot.fintype Finite.Exports finType abbrev
+R7953:7963 mathcomp.boot.fintype Finite copy abbrev
+R7966:7974 mathcomp.algebra.interval <> itv_bound variant
+R7976:7976 mathcomp.algebra.interval <> T:30 var
+R7982:7989 mathcomp.boot.eqtype <> can_type def
+R7993:8005 mathcomp.algebra.interval IntervalCan itv_bound_can thm
+R8007:8007 mathcomp.algebra.interval <> T:30 var
+sec 7895:8010 IntervalCan.hb_instance_43 hb_instance_43
+var 7895:8010 IntervalCan.hb_instance_43 T
+def 7895:8010 IntervalCan HB_unnamed_factory_44
+def 7895:8010 IntervalCan fintype_Finite__to__choice_hasChoice
+def 7895:8010 IntervalCan fintype_Finite__to__choice_Choice_isCountable
+def 7895:8010 IntervalCan fintype_Finite__to__eqtype_hasDecEq
+def 7895:8010 IntervalCan fintype_Finite__to__fintype_isFinite
+def 7895:8010 IntervalCan HB_unnamed_mixin_49
+def 7895:8010 IntervalCan HB_unnamed_mixin_50
+def 7895:8010 IntervalCan HB_unnamed_mixin_51
+def 7895:8010 IntervalCan HB_unnamed_mixin_52
+def 7895:8010 IntervalCan interval_itv_bound__canonical__fintype_Finite
+R7895:8010 mathcomp.algebra.interval IntervalCan <> sec
+R8057:8063 mathcomp.boot.fintype Finite.Exports finType abbrev
+R8070:8080 mathcomp.boot.fintype Finite copy abbrev
+R8083:8090 mathcomp.algebra.interval <> interval variant
+R8092:8092 mathcomp.algebra.interval <> T:31 var
+R8098:8105 mathcomp.boot.eqtype <> can_type def
+R8109:8120 mathcomp.algebra.interval IntervalCan interval_can thm
+R8122:8122 mathcomp.algebra.interval <> T:31 var
+sec 8012:8125 IntervalCan.hb_instance_53 hb_instance_53
+var 8012:8125 IntervalCan.hb_instance_53 T
+def 8012:8125 IntervalCan HB_unnamed_factory_54
+def 8012:8125 IntervalCan fintype_Finite__to__choice_hasChoice__56
+def 8012:8125 IntervalCan fintype_Finite__to__choice_Choice_isCountable__58
+def 8012:8125 IntervalCan fintype_Finite__to__eqtype_hasDecEq__60
+def 8012:8125 IntervalCan fintype_Finite__to__fintype_isFinite__62
+def 8012:8125 IntervalCan HB_unnamed_mixin_63
+def 8012:8125 IntervalCan HB_unnamed_mixin_64
+def 8012:8125 IntervalCan HB_unnamed_mixin_65
+def 8012:8125 IntervalCan HB_unnamed_mixin_66
+def 8012:8125 IntervalCan interval_interval__canonical__fintype_Finite
+R8012:8125 mathcomp.algebra.interval IntervalCan <> sec
+mod 8135:8141 <> IntervalCan.Exports
+R8161:8167 mathcomp.algebra.interval IntervalCan.Exports <> mod
+R8175:8185 mathcomp.algebra.interval IntervalCan <> mod
+R8196:8214 mathcomp.algebra.interval IntervalCan.Exports <> mod
+sec 8226:8239 <> IntervalPOrder
+var 8253:8256 IntervalPOrder disp
+var 8275:8275 IntervalPOrder T
+R8260:8271 mathcomp.order.preorder Order disp_t rec
+R8279:8288 mathcomp.order.order Order.POrder.Exports porderType abbrev
+R8290:8293 mathcomp.algebra.interval <> disp:33 var
+R8321:8321 mathcomp.algebra.interval <> IntervalPOrder.T var
+R8335:8343 mathcomp.algebra.interval <> itv_bound variant
+R8345:8345 mathcomp.algebra.interval <> IntervalPOrder.T var
+R8353:8360 mathcomp.algebra.interval <> interval variant
+R8362:8362 mathcomp.algebra.interval <> IntervalPOrder.T var
+def 8378:8385 <> le_bound
+binder 8387:8388 <> b1:36
+binder 8390:8391 <> b2:37
+R8408:8409 mathcomp.algebra.interval <> b2:37 var
+R8404:8405 mathcomp.algebra.interval <> b1:36 var
+R8422:8424 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R8434:8436 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R8441:8444 Corelib.Init.Datatypes <> true constr
+R8452:8456 mathcomp.algebra.interval <> BSide constr
+R8465:8469 mathcomp.algebra.interval <> BSide constr
+R8482:8484 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R8487:8494 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R8497:8501 Corelib.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R8495:8496 mathcomp.algebra.interval <> b2:37 var
+R8502:8503 mathcomp.algebra.interval <> b1:36 var
+R8519:8523 Corelib.Init.Datatypes <> false constr
+def 8544:8551 <> lt_bound
+binder 8553:8554 <> b1:40
+binder 8556:8557 <> b2:41
+R8574:8575 mathcomp.algebra.interval <> b2:41 var
+R8570:8571 mathcomp.algebra.interval <> b1:40 var
+R8588:8590 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R8593:8595 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R8599:8601 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R8604:8608 mathcomp.algebra.interval <> BSide constr
+R8616:8620 mathcomp.algebra.interval <> BSide constr
+R8627:8629 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R8634:8637 Corelib.Init.Datatypes <> true constr
+R8645:8649 mathcomp.algebra.interval <> BSide constr
+R8658:8662 mathcomp.algebra.interval <> BSide constr
+R8675:8677 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R8680:8687 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R8690:8693 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8688:8689 mathcomp.algebra.interval <> b1:40 var
+R8694:8696 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R8697:8698 mathcomp.algebra.interval <> b2:41 var
+R8714:8718 Corelib.Init.Datatypes <> false constr
+prf 8734:8745 <> lt_bound_def
+binder 8747:8748 <> b1:44
+binder 8750:8751 <> b2:45
+R8769:8771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8755:8762 mathcomp.algebra.interval <> lt_bound def
+R8767:8768 mathcomp.algebra.interval <> b2:45 var
+R8764:8765 mathcomp.algebra.interval <> b1:44 var
+R8772:8772 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8781:8785 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8775:8778 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R8773:8774 mathcomp.algebra.interval <> b2:45 var
+R8779:8780 mathcomp.algebra.interval <> b1:44 var
+R8786:8793 mathcomp.algebra.interval <> le_bound def
+R8798:8799 mathcomp.algebra.interval <> b2:45 var
+R8795:8796 mathcomp.algebra.interval <> b1:44 var
+R8857:8862 mathcomp.order.order Order.POrderTheory lt_def thm
+prf 8877:8889 <> le_bound_refl
+R8893:8901 Corelib.ssr.ssrbool <> reflexive def
+R8903:8910 mathcomp.algebra.interval <> le_bound def
+prf 8955:8967 <> le_bound_anti
+R8971:8983 Corelib.ssr.ssrbool <> antisymmetric def
+R8985:8992 mathcomp.algebra.interval <> le_bound def
+R9041:9051 mathcomp.order.order Order.POrderTheory comparableP thm
+prf 9075:9088 <> le_bound_trans
+R9092:9101 Corelib.ssr.ssrbool <> transitive def
+R9103:9110 mathcomp.algebra.interval <> le_bound def
+R9181:9191 mathcomp.order.order Order.POrderTheory lteif_imply thm
+R9196:9206 mathcomp.order.order Order.POrderTheory lteif_trans thm
+R9257:9276 mathcomp.order.order Order.isPOrder Build abbrev
+R9279:9295 mathcomp.algebra.interval <> itv_bound_display thm
+R9297:9300 mathcomp.algebra.interval <> IntervalPOrder.disp var
+R9304:9312 mathcomp.algebra.interval <> itv_bound variant
+R9314:9314 mathcomp.algebra.interval <> IntervalPOrder.T var
+R9362:9375 mathcomp.algebra.interval <> le_bound_trans thm
+R9348:9360 mathcomp.algebra.interval <> le_bound_anti thm
+R9334:9346 mathcomp.algebra.interval <> le_bound_refl thm
+R9321:9332 mathcomp.algebra.interval <> lt_bound_def thm
+def 9227:9376 <> HB_unnamed_factory_67
+def 9227:9376 <> Order_isPOrder__to__Order_Preorder_isDuallyPOrder
+def 9227:9376 <> Order_isPOrder__to__Order_isDuallyPreorder
+def 9227:9376 <> HB_unnamed_mixin_70
+def 9227:9376 <> interval_itv_bound__canonical__Order_Preorder
+def 9227:9376 <> HB_unnamed_mixin_71
+def 9227:9376 <> interval_itv_bound__canonical__Order_POrder
+prf 9385:9394 <> bound_lexx
+binder 9396:9397 <> c1:46
+binder 9399:9400 <> c2:47
+binder 9402:9402 <> x:48
+R9406:9406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9431:9435 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9445:9445 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9417:9420 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R9407:9411 mathcomp.algebra.interval <> BSide constr
+R9416:9416 mathcomp.algebra.interval <> x:48 var
+R9413:9414 mathcomp.algebra.interval <> c1:46 var
+R9421:9425 mathcomp.algebra.interval <> BSide constr
+R9430:9430 mathcomp.algebra.interval <> x:48 var
+R9427:9428 mathcomp.algebra.interval <> c2:47 var
+R9438:9442 Corelib.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R9436:9437 mathcomp.algebra.interval <> c2:47 var
+R9443:9444 mathcomp.algebra.interval <> c1:46 var
+R9467:9470 mathcomp.order.preorder Order.PreOSyntax ::function_scope:'<=%O' not
+R9475:9481 mathcomp.order.order Order.POrderTheory lteifxx thm
+prf 9496:9505 <> bound_ltxx
+binder 9507:9508 <> c1:49
+binder 9510:9511 <> c2:50
+binder 9513:9513 <> x:51
+R9517:9517 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9541:9545 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9557:9557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9528:9530 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R9518:9522 mathcomp.algebra.interval <> BSide constr
+R9527:9527 mathcomp.algebra.interval <> x:51 var
+R9524:9525 mathcomp.algebra.interval <> c1:49 var
+R9531:9535 mathcomp.algebra.interval <> BSide constr
+R9540:9540 mathcomp.algebra.interval <> x:51 var
+R9537:9538 mathcomp.algebra.interval <> c2:50 var
+R9548:9551 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9546:9547 mathcomp.algebra.interval <> c1:49 var
+R9552:9554 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R9555:9556 mathcomp.algebra.interval <> c2:50 var
+R9579:9581 mathcomp.order.preorder Order.PreOSyntax ::function_scope:'<%O' not
+R9586:9592 mathcomp.order.order Order.POrderTheory lteifxx thm
+prf 9607:9615 <> ge_pinfty
+binder 9617:9617 <> b:52
+R9621:9621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9630:9634 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9643:9643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9625:9628 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R9622:9624 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R9629:9629 mathcomp.algebra.interval <> b:52 var
+R9636:9639 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9635:9635 mathcomp.algebra.interval <> b:52 var
+R9640:9642 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+prf 9687:9695 <> le_ninfty
+binder 9697:9697 <> b:53
+R9701:9701 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9710:9714 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9723:9723 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9703:9706 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R9702:9702 mathcomp.algebra.interval <> b:53 var
+R9707:9709 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R9716:9719 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9715:9715 mathcomp.algebra.interval <> b:53 var
+R9720:9722 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+prf 9768:9776 <> gt_pinfty
+binder 9778:9778 <> b:54
+R9782:9782 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9790:9793 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9786:9788 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R9783:9785 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R9789:9789 mathcomp.algebra.interval <> b:54 var
+R9794:9798 Corelib.Init.Datatypes <> false constr
+prf 9827:9835 <> lt_ninfty
+binder 9837:9837 <> b:55
+R9841:9841 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9849:9852 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9843:9845 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R9842:9842 mathcomp.algebra.interval <> b:55 var
+R9846:9848 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R9853:9857 Corelib.Init.Datatypes <> false constr
+prf 9901:9907 <> ltBSide
+binder 9909:9909 <> x:56
+binder 9911:9911 <> y:57
+R9921:9924 Corelib.Init.Datatypes <> bool ind
+binder 9914:9914 <> b:58
+binder 9916:9917 <> b':59
+R9931:9931 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9954:9958 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9982:9982 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9941:9943 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R9932:9936 mathcomp.algebra.interval <> BSide constr
+R9940:9940 mathcomp.algebra.interval <> x:56 var
+R9938:9938 mathcomp.algebra.interval <> b:58 var
+R9944:9948 mathcomp.algebra.interval <> BSide constr
+R9953:9953 mathcomp.algebra.interval <> y:57 var
+R9950:9951 mathcomp.algebra.interval <> b':59 var
+R9960:9962 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R9964:9971 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R9959:9959 mathcomp.algebra.interval <> x:56 var
+R9963:9963 mathcomp.algebra.interval <> y:57 var
+R9973:9976 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9972:9972 mathcomp.algebra.interval <> b:58 var
+R9977:9979 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R9980:9981 mathcomp.algebra.interval <> b':59 var
+prf 10011:10017 <> leBSide
+binder 10019:10019 <> x:60
+binder 10021:10021 <> y:61
+R10031:10034 Corelib.Init.Datatypes <> bool ind
+binder 10024:10024 <> b:62
+binder 10026:10027 <> b':63
+R10041:10041 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10065:10069 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10091:10091 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10051:10054 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10042:10046 mathcomp.algebra.interval <> BSide constr
+R10050:10050 mathcomp.algebra.interval <> x:60 var
+R10048:10048 mathcomp.algebra.interval <> b:62 var
+R10055:10059 mathcomp.algebra.interval <> BSide constr
+R10064:10064 mathcomp.algebra.interval <> y:61 var
+R10061:10062 mathcomp.algebra.interval <> b':63 var
+R10071:10073 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R10075:10082 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R10070:10070 mathcomp.algebra.interval <> x:60 var
+R10074:10074 mathcomp.algebra.interval <> y:61 var
+R10085:10089 Corelib.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R10083:10084 mathcomp.algebra.interval <> b':63 var
+R10090:10090 mathcomp.algebra.interval <> b:62 var
+def 10125:10132 <> lteBSide
+R10137:10137 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10145:10146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10154:10154 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10138:10144 mathcomp.algebra.interval <> ltBSide thm
+R10147:10153 mathcomp.algebra.interval <> leBSide thm
+prf 10164:10179 <> ltBRight_leBLeft
+binder 10181:10181 <> b:64
+binder 10183:10183 <> x:65
+R10187:10187 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10200:10204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10217:10217 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10189:10191 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10188:10188 mathcomp.algebra.interval <> b:64 var
+R10192:10197 mathcomp.algebra.interval <> BRight abbrev
+R10199:10199 mathcomp.algebra.interval <> x:65 var
+R10206:10209 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10205:10205 mathcomp.algebra.interval <> b:64 var
+R10210:10214 mathcomp.algebra.interval <> BLeft abbrev
+R10216:10216 mathcomp.algebra.interval <> x:65 var
+prf 10263:10278 <> leBRight_ltBLeft
+binder 10280:10280 <> b:66
+binder 10282:10282 <> x:67
+R10286:10286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10300:10304 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10316:10316 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10295:10298 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10287:10292 mathcomp.algebra.interval <> BRight abbrev
+R10294:10294 mathcomp.algebra.interval <> x:67 var
+R10299:10299 mathcomp.algebra.interval <> b:66 var
+R10312:10314 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10305:10309 mathcomp.algebra.interval <> BLeft abbrev
+R10311:10311 mathcomp.algebra.interval <> x:67 var
+R10315:10315 mathcomp.algebra.interval <> b:66 var
+var 10361:10369 IntervalPOrder BLeft_ltE
+binder 10371:10371 <> x:68
+binder 10373:10373 <> y:69
+R10380:10383 Corelib.Init.Datatypes <> bool ind
+binder 10376:10376 <> b:70
+R10388:10388 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10408:10412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10418:10418 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10398:10400 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10389:10393 mathcomp.algebra.interval <> BSide constr
+R10397:10397 mathcomp.algebra.interval <> x:68 var
+R10395:10395 mathcomp.algebra.interval <> b:70 var
+R10401:10405 mathcomp.algebra.interval <> BLeft abbrev
+R10407:10407 mathcomp.algebra.interval <> y:69 var
+R10414:10416 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10413:10413 mathcomp.algebra.interval <> x:68 var
+R10417:10417 mathcomp.algebra.interval <> y:69 var
+var 10449:10458 IntervalPOrder BRight_leE
+binder 10460:10460 <> x:71
+binder 10462:10462 <> y:72
+R10469:10472 Corelib.Init.Datatypes <> bool ind
+binder 10465:10465 <> b:73
+R10477:10477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10499:10503 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10510:10510 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10487:10490 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10478:10482 mathcomp.algebra.interval <> BSide constr
+R10486:10486 mathcomp.algebra.interval <> x:71 var
+R10484:10484 mathcomp.algebra.interval <> b:73 var
+R10491:10496 mathcomp.algebra.interval <> BRight abbrev
+R10498:10498 mathcomp.algebra.interval <> y:72 var
+R10505:10508 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10504:10504 mathcomp.algebra.interval <> x:71 var
+R10509:10509 mathcomp.algebra.interval <> y:72 var
+var 10541:10556 IntervalPOrder BRight_BLeft_leE
+binder 10558:10558 <> x:74
+binder 10560:10560 <> y:75
+R10564:10564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10584:10588 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10594:10594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10573:10576 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10565:10570 mathcomp.algebra.interval <> BRight abbrev
+R10572:10572 mathcomp.algebra.interval <> x:74 var
+R10577:10581 mathcomp.algebra.interval <> BLeft abbrev
+R10583:10583 mathcomp.algebra.interval <> y:75 var
+R10590:10592 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10589:10589 mathcomp.algebra.interval <> x:74 var
+R10593:10593 mathcomp.algebra.interval <> y:75 var
+var 10620:10635 IntervalPOrder BLeft_BRight_ltE
+binder 10637:10637 <> x:76
+binder 10639:10639 <> y:77
+R10643:10643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10662:10666 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10673:10673 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10651:10653 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10644:10648 mathcomp.algebra.interval <> BLeft abbrev
+R10650:10650 mathcomp.algebra.interval <> x:76 var
+R10654:10659 mathcomp.algebra.interval <> BRight abbrev
+R10661:10661 mathcomp.algebra.interval <> y:77 var
+R10668:10671 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10667:10667 mathcomp.algebra.interval <> x:76 var
+R10672:10672 mathcomp.algebra.interval <> y:77 var
+var 10699:10714 IntervalPOrder BRight_BSide_ltE
+binder 10716:10716 <> x:78
+binder 10718:10718 <> y:79
+R10725:10728 Corelib.Init.Datatypes <> bool ind
+binder 10721:10721 <> b:80
+R10733:10733 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10754:10758 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10764:10764 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10742:10744 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10734:10739 mathcomp.algebra.interval <> BRight abbrev
+R10741:10741 mathcomp.algebra.interval <> x:78 var
+R10745:10749 mathcomp.algebra.interval <> BSide constr
+R10753:10753 mathcomp.algebra.interval <> y:79 var
+R10751:10751 mathcomp.algebra.interval <> b:80 var
+R10760:10762 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10759:10759 mathcomp.algebra.interval <> x:78 var
+R10763:10763 mathcomp.algebra.interval <> y:79 var
+var 10795:10809 IntervalPOrder BLeft_BSide_leE
+binder 10811:10811 <> x:81
+binder 10813:10813 <> y:82
+R10820:10823 Corelib.Init.Datatypes <> bool ind
+binder 10816:10816 <> b:83
+R10828:10828 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10849:10853 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10860:10860 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10836:10839 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10829:10833 mathcomp.algebra.interval <> BLeft abbrev
+R10835:10835 mathcomp.algebra.interval <> x:81 var
+R10840:10844 mathcomp.algebra.interval <> BSide constr
+R10848:10848 mathcomp.algebra.interval <> y:82 var
+R10846:10846 mathcomp.algebra.interval <> b:83 var
+R10855:10858 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R10854:10854 mathcomp.algebra.interval <> x:81 var
+R10859:10859 mathcomp.algebra.interval <> y:82 var
+var 10891:10899 IntervalPOrder BSide_ltE
+binder 10901:10901 <> x:84
+binder 10903:10903 <> y:85
+R10910:10913 Corelib.Init.Datatypes <> bool ind
+binder 10906:10906 <> b:86
+R10918:10918 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10940:10944 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10950:10950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10928:10930 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10919:10923 mathcomp.algebra.interval <> BSide constr
+R10927:10927 mathcomp.algebra.interval <> x:84 var
+R10925:10925 mathcomp.algebra.interval <> b:86 var
+R10931:10935 mathcomp.algebra.interval <> BSide constr
+R10939:10939 mathcomp.algebra.interval <> y:85 var
+R10937:10937 mathcomp.algebra.interval <> b:86 var
+R10946:10948 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R10945:10945 mathcomp.algebra.interval <> x:84 var
+R10949:10949 mathcomp.algebra.interval <> y:85 var
+var 10981:10989 IntervalPOrder BSide_leE
+binder 10991:10991 <> x:87
+binder 10993:10993 <> y:88
+R11000:11003 Corelib.Init.Datatypes <> bool ind
+binder 10996:10996 <> b:89
+R11008:11008 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11031:11035 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11042:11042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11018:11021 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11009:11013 mathcomp.algebra.interval <> BSide constr
+R11017:11017 mathcomp.algebra.interval <> x:87 var
+R11015:11015 mathcomp.algebra.interval <> b:89 var
+R11022:11026 mathcomp.algebra.interval <> BSide constr
+R11030:11030 mathcomp.algebra.interval <> y:88 var
+R11028:11028 mathcomp.algebra.interval <> b:89 var
+R11037:11040 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11036:11036 mathcomp.algebra.interval <> x:87 var
+R11041:11041 mathcomp.algebra.interval <> y:88 var
+var 11073:11082 IntervalPOrder BInfty_leE
+binder 11084:11084 <> a:90
+R11089:11092 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11088:11088 mathcomp.algebra.interval <> a:90 var
+R11093:11098 mathcomp.algebra.interval <> BInfty constr
+R11102:11106 Corelib.Init.Datatypes <> false constr
+R11100:11100 mathcomp.algebra.interval <> IntervalPOrder.T var
+var 11150:11159 IntervalPOrder BInfty_geE
+binder 11161:11161 <> a:91
+R11178:11181 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11165:11170 mathcomp.algebra.interval <> BInfty constr
+R11174:11177 Corelib.Init.Datatypes <> true constr
+R11172:11172 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11182:11182 mathcomp.algebra.interval <> a:91 var
+var 11226:11238 IntervalPOrder BInfty_le_eqE
+binder 11240:11240 <> a:92
+R11244:11244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11264:11268 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11288:11288 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11259:11262 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11245:11250 mathcomp.algebra.interval <> BInfty constr
+R11254:11258 Corelib.Init.Datatypes <> false constr
+R11252:11252 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11263:11263 mathcomp.algebra.interval <> a:92 var
+R11270:11273 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11269:11269 mathcomp.algebra.interval <> a:92 var
+R11274:11279 mathcomp.algebra.interval <> BInfty constr
+R11283:11287 Corelib.Init.Datatypes <> false constr
+R11281:11281 mathcomp.algebra.interval <> IntervalPOrder.T var
+var 11332:11344 IntervalPOrder BInfty_ge_eqE
+binder 11346:11346 <> a:93
+R11350:11350 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11369:11373 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11392:11392 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11352:11355 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R11351:11351 mathcomp.algebra.interval <> a:93 var
+R11356:11361 mathcomp.algebra.interval <> BInfty constr
+R11365:11368 Corelib.Init.Datatypes <> true constr
+R11363:11363 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11375:11378 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R11374:11374 mathcomp.algebra.interval <> a:93 var
+R11379:11384 mathcomp.algebra.interval <> BInfty constr
+R11388:11391 Corelib.Init.Datatypes <> true constr
+R11386:11386 mathcomp.algebra.interval <> IntervalPOrder.T var
+var 11436:11445 IntervalPOrder BInfty_ltE
+binder 11447:11447 <> a:94
+R11451:11451 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11470:11474 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11494:11494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11453:11455 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R11452:11452 mathcomp.algebra.interval <> a:94 var
+R11456:11461 mathcomp.algebra.interval <> BInfty constr
+R11465:11469 Corelib.Init.Datatypes <> false constr
+R11463:11463 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11476:11479 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R11475:11475 mathcomp.algebra.interval <> a:94 var
+R11480:11485 mathcomp.algebra.interval <> BInfty constr
+R11489:11493 Corelib.Init.Datatypes <> false constr
+R11487:11487 mathcomp.algebra.interval <> IntervalPOrder.T var
+var 11538:11547 IntervalPOrder BInfty_gtE
+binder 11549:11549 <> a:95
+R11553:11553 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11571:11575 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11594:11594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11567:11569 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R11554:11559 mathcomp.algebra.interval <> BInfty constr
+R11563:11566 Corelib.Init.Datatypes <> true constr
+R11561:11561 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11570:11570 mathcomp.algebra.interval <> a:95 var
+R11577:11580 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R11576:11576 mathcomp.algebra.interval <> a:95 var
+R11581:11586 mathcomp.algebra.interval <> BInfty constr
+R11590:11593 Corelib.Init.Datatypes <> true constr
+R11588:11588 mathcomp.algebra.interval <> IntervalPOrder.T var
+var 11638:11647 IntervalPOrder BInfty_ltF
+binder 11649:11649 <> a:96
+R11653:11653 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11672:11675 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11668:11670 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R11654:11659 mathcomp.algebra.interval <> BInfty constr
+R11663:11667 Corelib.Init.Datatypes <> false constr
+R11661:11661 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11671:11671 mathcomp.algebra.interval <> a:96 var
+R11676:11680 Corelib.Init.Datatypes <> false constr
+var 11724:11733 IntervalPOrder BInfty_gtF
+binder 11735:11735 <> a:97
+R11739:11739 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11757:11760 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11741:11743 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R11740:11740 mathcomp.algebra.interval <> a:97 var
+R11744:11749 mathcomp.algebra.interval <> BInfty constr
+R11753:11756 Corelib.Init.Datatypes <> true constr
+R11751:11751 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11761:11765 Corelib.Init.Datatypes <> false constr
+var 11809:11825 IntervalPOrder BInfty_BInfty_ltE
+R11842:11844 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R11829:11834 mathcomp.algebra.interval <> BInfty constr
+R11838:11841 Corelib.Init.Datatypes <> true constr
+R11836:11836 mathcomp.algebra.interval <> IntervalPOrder.T var
+R11845:11850 mathcomp.algebra.interval <> BInfty constr
+R11854:11858 Corelib.Init.Datatypes <> false constr
+R11852:11852 mathcomp.algebra.interval <> IntervalPOrder.T var
+def 11892:11899 <> bnd_simp
+R11904:11904 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11914:11915 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11926:11929 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11946:11947 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11964:11967 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11984:11985 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12001:12002 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12012:12013 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12023:12026 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12037:12038 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12049:12050 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12068:12071 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12085:12086 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12100:12101 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12112:12113 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12124:12125 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12136:12137 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12148:12151 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12161:12162 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12172:12173 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12181:12181 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11905:11913 mathcomp.algebra.interval <> IntervalPOrder.BLeft_ltE var
+R11916:11925 mathcomp.algebra.interval <> IntervalPOrder.BRight_leE var
+R11930:11945 mathcomp.algebra.interval <> IntervalPOrder.BRight_BLeft_leE var
+R11948:11963 mathcomp.algebra.interval <> IntervalPOrder.BLeft_BRight_ltE var
+R11968:11983 mathcomp.algebra.interval <> IntervalPOrder.BRight_BSide_ltE var
+R11986:12000 mathcomp.algebra.interval <> IntervalPOrder.BLeft_BSide_leE var
+R12003:12011 mathcomp.algebra.interval <> IntervalPOrder.BSide_ltE var
+R12014:12022 mathcomp.algebra.interval <> IntervalPOrder.BSide_leE var
+R12027:12036 mathcomp.algebra.interval <> IntervalPOrder.BInfty_leE var
+R12039:12048 mathcomp.algebra.interval <> IntervalPOrder.BInfty_geE var
+R12051:12067 mathcomp.algebra.interval <> IntervalPOrder.BInfty_BInfty_ltE var
+R12072:12084 mathcomp.algebra.interval <> IntervalPOrder.BInfty_le_eqE var
+R12087:12099 mathcomp.algebra.interval <> IntervalPOrder.BInfty_ge_eqE var
+R12102:12111 mathcomp.algebra.interval <> IntervalPOrder.BInfty_ltE var
+R12114:12123 mathcomp.algebra.interval <> IntervalPOrder.BInfty_gtE var
+R12126:12135 mathcomp.algebra.interval <> IntervalPOrder.BInfty_ltF var
+R12138:12147 mathcomp.algebra.interval <> IntervalPOrder.BInfty_gtF var
+R12153:12156 mathcomp.order.order Order.POrderTheory lexx thm
+R12160:12160 mathcomp.algebra.interval <> IntervalPOrder.T var
+R12164:12167 mathcomp.order.order Order.POrderTheory ltxx thm
+R12171:12171 mathcomp.algebra.interval <> IntervalPOrder.T var
+R12175:12178 mathcomp.boot.eqtype <> eqxx abbrev
+R12180:12180 mathcomp.algebra.interval <> IntervalPOrder.T var
+prf 12191:12210 <> comparable_BSide_min
+binder 12212:12212 <> s:98
+R12221:12221 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 12215:12215 <> x:99
+binder 12217:12217 <> y:100
+R12237:12242 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12228:12232 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'>=<'_x not
+R12227:12227 mathcomp.algebra.interval <> x:99 var
+R12233:12233 mathcomp.algebra.interval <> y:100 var
+R12266:12268 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12243:12247 mathcomp.algebra.interval <> BSide constr
+R12252:12260 mathcomp.order.preorder Order min def
+R12264:12264 mathcomp.algebra.interval <> y:100 var
+R12262:12262 mathcomp.algebra.interval <> x:99 var
+R12249:12249 mathcomp.algebra.interval <> s:98 var
+R12269:12277 mathcomp.order.preorder Order min def
+R12292:12296 mathcomp.algebra.interval <> BSide constr
+R12300:12300 mathcomp.algebra.interval <> y:100 var
+R12298:12298 mathcomp.algebra.interval <> s:98 var
+R12280:12284 mathcomp.algebra.interval <> BSide constr
+R12288:12288 mathcomp.algebra.interval <> x:99 var
+R12286:12286 mathcomp.algebra.interval <> s:98 var
+R12323:12328 mathcomp.order.order Order.POrderTheory minEle thm
+R12330:12337 mathcomp.algebra.interval <> bnd_simp def
+R12343:12356 mathcomp.order.order Order.POrderTheory comparable_leP thm
+prf 12373:12392 <> comparable_BSide_max
+binder 12394:12394 <> s:101
+R12403:12403 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 12397:12397 <> x:102
+binder 12399:12399 <> y:103
+R12419:12424 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12410:12414 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'>=<'_x not
+R12409:12409 mathcomp.algebra.interval <> x:102 var
+R12415:12415 mathcomp.algebra.interval <> y:103 var
+R12448:12450 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12425:12429 mathcomp.algebra.interval <> BSide constr
+R12434:12442 mathcomp.order.preorder Order max def
+R12446:12446 mathcomp.algebra.interval <> y:103 var
+R12444:12444 mathcomp.algebra.interval <> x:102 var
+R12431:12431 mathcomp.algebra.interval <> s:101 var
+R12451:12459 mathcomp.order.preorder Order max def
+R12474:12478 mathcomp.algebra.interval <> BSide constr
+R12482:12482 mathcomp.algebra.interval <> y:103 var
+R12480:12480 mathcomp.algebra.interval <> s:101 var
+R12462:12466 mathcomp.algebra.interval <> BSide constr
+R12470:12470 mathcomp.algebra.interval <> x:102 var
+R12468:12468 mathcomp.algebra.interval <> s:101 var
+R12505:12510 mathcomp.order.order Order.POrderTheory maxEle thm
+R12512:12519 mathcomp.algebra.interval <> bnd_simp def
+R12525:12538 mathcomp.order.order Order.POrderTheory comparable_leP thm
+def 12560:12565 <> subitv
+binder 12567:12568 <> i1:104
+binder 12570:12571 <> i2:105
+R12603:12604 mathcomp.algebra.interval <> i1:104 var
+R12583:12590 mathcomp.algebra.interval <> Interval constr
+R12636:12637 mathcomp.algebra.interval <> i2:105 var
+R12616:12623 mathcomp.algebra.interval <> Interval constr
+R12642:12642 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12653:12658 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12669:12669 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12646:12649 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R12662:12665 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+prf 12679:12689 <> subitv_refl
+R12693:12701 Corelib.ssr.ssrbool <> reflexive def
+R12703:12708 mathcomp.algebra.interval <> subitv def
+R12745:12748 mathcomp.order.order Order.POrderTheory lexx thm
+prf 12763:12773 <> subitv_anti
+R12777:12789 Corelib.ssr.ssrbool <> antisymmetric def
+R12791:12796 mathcomp.algebra.interval <> subitv def
+R12836:12842 Corelib.ssr.ssrbool <> andbACA thm
+R12848:12851 Corelib.ssr.ssrbool <> andP thm
+R12856:12862 mathcomp.order.order Order.POrderTheory le_anti thm
+R12868:12874 mathcomp.order.order Order.POrderTheory le_anti thm
+prf 12892:12903 <> subitv_trans
+R12907:12916 Corelib.ssr.ssrbool <> transitive def
+R12918:12923 mathcomp.algebra.interval <> subitv def
+R12963:12966 Corelib.ssr.ssrbool <> andP thm
+R12977:12980 Corelib.ssr.ssrbool <> andP thm
+R13008:13015 mathcomp.order.order Order.POrderTheory le_trans thm
+R13026:13033 mathcomp.order.order Order.POrderTheory le_trans thm
+R13080:13099 mathcomp.order.order Order.isPOrder Build abbrev
+R13103:13118 mathcomp.algebra.interval <> interval_display thm
+R13120:13123 mathcomp.algebra.interval <> IntervalPOrder.disp var
+R13127:13134 mathcomp.algebra.interval <> interval variant
+R13136:13136 mathcomp.algebra.interval <> IntervalPOrder.T var
+R13184:13195 mathcomp.algebra.interval <> subitv_trans thm
+R13172:13182 mathcomp.algebra.interval <> subitv_anti thm
+R13160:13170 mathcomp.algebra.interval <> subitv_refl thm
+R13153:13157 Corelib.ssr.ssrfun <> erefl abbrev
+def 13050:13196 <> HB_unnamed_factory_72
+def 13050:13196 <> Order_isPOrder__to__Order_Preorder_isDuallyPOrder__74
+def 13050:13196 <> Order_isPOrder__to__Order_isDuallyPreorder__76
+def 13050:13196 <> HB_unnamed_mixin_77
+def 13050:13196 <> interval_interval__canonical__Order_Preorder
+def 13050:13196 <> HB_unnamed_mixin_78
+def 13050:13196 <> interval_interval__canonical__Order_POrder
+def 13210:13220 <> pred_of_itv
+binder 13222:13222 <> i:108
+R13226:13229 Corelib.ssr.ssrbool <> pred def
+R13231:13231 mathcomp.algebra.interval <> IntervalPOrder.T var
+R13236:13241 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R13243:13245 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R13258:13258 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 13242:13242 <> x:109
+R13253:13256 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13246:13247 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R13249:13250 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R13252:13252 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R13248:13248 mathcomp.algebra.interval <> x:109 var
+R13251:13251 mathcomp.algebra.interval <> x:109 var
+R13257:13257 mathcomp.algebra.interval <> i:108 var
+def 13282:13292 <> itvPredType
+R13297:13304 Corelib.ssr.ssrbool <> PredType constr
+R13306:13316 mathcomp.algebra.interval <> pred_of_itv def
+prf 13326:13332 <> subitvE
+binder 13334:13336 <> b1l:110
+binder 13338:13340 <> b1r:111
+binder 13342:13344 <> b2l:112
+binder 13346:13348 <> b2r:113
+R13354:13354 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13391:13394 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13371:13374 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13355:13362 mathcomp.algebra.interval <> Interval constr
+R13368:13370 mathcomp.algebra.interval <> b1r:111 var
+R13364:13366 mathcomp.algebra.interval <> b1l:110 var
+R13375:13382 mathcomp.algebra.interval <> Interval constr
+R13388:13390 mathcomp.algebra.interval <> b2r:113 var
+R13384:13386 mathcomp.algebra.interval <> b2l:112 var
+R13395:13395 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13406:13411 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13422:13422 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13399:13402 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13396:13398 mathcomp.algebra.interval <> b2l:112 var
+R13403:13405 mathcomp.algebra.interval <> b1l:110 var
+R13415:13418 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13412:13414 mathcomp.algebra.interval <> b1r:111 var
+R13419:13421 mathcomp.algebra.interval <> b2r:113 var
+prf 13451:13456 <> in_itv
+binder 13458:13458 <> x:114
+binder 13460:13460 <> i:115
+R13466:13466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13474:13479 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13468:13472 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13467:13467 mathcomp.algebra.interval <> x:114 var
+R13473:13473 mathcomp.algebra.interval <> i:115 var
+R13501:13501 mathcomp.algebra.interval <> i:115 var
+R13485:13492 mathcomp.algebra.interval <> Interval constr
+R13582:13587 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13527:13531 mathcomp.algebra.interval <> BSide constr
+R13543:13545 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R13547:13554 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R13546:13546 mathcomp.algebra.interval <> x:114 var
+R13563:13568 mathcomp.algebra.interval <> BInfty constr
+R13607:13611 mathcomp.algebra.interval <> BSide constr
+R13622:13624 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R13627:13634 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R13621:13621 mathcomp.algebra.interval <> x:114 var
+R13635:13637 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R13646:13651 mathcomp.algebra.interval <> BInfty constr
+R13658:13660 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+prf 13720:13730 <> itv_boundlr
+binder 13732:13733 <> bl:119
+binder 13735:13736 <> br:120
+binder 13738:13738 <> x:121
+R13744:13744 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13765:13768 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13746:13750 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13745:13745 mathcomp.algebra.interval <> x:121 var
+R13751:13758 mathcomp.algebra.interval <> Interval constr
+R13763:13764 mathcomp.algebra.interval <> br:120 var
+R13760:13761 mathcomp.algebra.interval <> bl:119 var
+R13769:13769 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13783:13788 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13803:13803 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13772:13775 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13770:13771 mathcomp.algebra.interval <> bl:119 var
+R13776:13780 mathcomp.algebra.interval <> BLeft abbrev
+R13782:13782 mathcomp.algebra.interval <> x:121 var
+R13797:13800 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13789:13794 mathcomp.algebra.interval <> BRight abbrev
+R13796:13796 mathcomp.algebra.interval <> x:121 var
+R13801:13802 mathcomp.algebra.interval <> br:120 var
+prf 13832:13841 <> itv_splitI
+binder 13843:13844 <> bl:122
+binder 13846:13847 <> br:123
+binder 13849:13849 <> x:124
+R13855:13855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13876:13879 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13857:13861 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13856:13856 mathcomp.algebra.interval <> x:124 var
+R13862:13869 mathcomp.algebra.interval <> Interval constr
+R13874:13875 mathcomp.algebra.interval <> br:123 var
+R13871:13872 mathcomp.algebra.interval <> bl:122 var
+R13880:13880 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13902:13907 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13929:13929 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13882:13886 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13881:13881 mathcomp.algebra.interval <> x:124 var
+R13887:13894 mathcomp.algebra.interval <> Interval constr
+R13899:13901 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R13896:13897 mathcomp.algebra.interval <> bl:122 var
+R13909:13913 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13908:13908 mathcomp.algebra.interval <> x:124 var
+R13914:13921 mathcomp.algebra.interval <> Interval constr
+R13927:13928 mathcomp.algebra.interval <> br:123 var
+R13923:13925 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R13951:13961 mathcomp.algebra.interval <> itv_boundlr thm
+R13963:13967 Corelib.ssr.ssrbool <> andbT thm
+prf 13982:13988 <> subitvP
+binder 13990:13991 <> i1:125
+binder 13993:13994 <> i2:126
+R14006:14009 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14000:14003 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R13998:13999 mathcomp.algebra.interval <> i1:125 var
+R14004:14005 mathcomp.algebra.interval <> i2:126 var
+R14010:14017 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14020:14023 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14026:14026 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14018:14019 mathcomp.algebra.interval <> i1:125 var
+R14024:14025 mathcomp.algebra.interval <> i2:126 var
+R14051:14058 mathcomp.order.order Order.POrderTheory le_trans thm
+prf 14231:14240 <> subset_itv
+R14253:14261 mathcomp.algebra.interval <> itv_bound variant
+R14263:14263 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 14243:14243 <> x:127
+binder 14245:14245 <> y:128
+binder 14247:14247 <> z:129
+binder 14249:14249 <> u:130
+R14274:14277 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14269:14272 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R14268:14268 mathcomp.algebra.interval <> x:127 var
+R14273:14273 mathcomp.algebra.interval <> y:128 var
+R14284:14289 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14279:14282 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R14278:14278 mathcomp.algebra.interval <> z:129 var
+R14283:14283 mathcomp.algebra.interval <> u:130 var
+R14290:14297 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14310:14313 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14326:14326 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14298:14305 mathcomp.algebra.interval <> Interval constr
+R14309:14309 mathcomp.algebra.interval <> z:129 var
+R14307:14307 mathcomp.algebra.interval <> y:128 var
+R14314:14321 mathcomp.algebra.interval <> Interval constr
+R14325:14325 mathcomp.algebra.interval <> u:130 var
+R14323:14323 mathcomp.algebra.interval <> x:127 var
+R14360:14366 mathcomp.algebra.interval <> subitvP thm
+R14377:14383 mathcomp.algebra.interval <> subitvE thm
+prf 14458:14473 <> subset_itv_bound
+R14486:14489 Corelib.Init.Datatypes <> bool ind
+binder 14476:14476 <> r:131
+binder 14478:14478 <> s:132
+binder 14480:14480 <> u:133
+binder 14482:14482 <> v:134
+binder 14492:14492 <> x:135
+binder 14494:14494 <> y:136
+R14504:14507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14499:14502 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R14498:14498 mathcomp.algebra.interval <> r:131 var
+R14503:14503 mathcomp.algebra.interval <> u:133 var
+R14514:14519 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14509:14512 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R14508:14508 mathcomp.algebra.interval <> v:134 var
+R14513:14513 mathcomp.algebra.interval <> s:132 var
+R14520:14527 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14560:14563 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14596:14596 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14528:14535 mathcomp.algebra.interval <> Interval constr
+R14550:14554 mathcomp.algebra.interval <> BSide constr
+R14558:14558 mathcomp.algebra.interval <> y:136 var
+R14556:14556 mathcomp.algebra.interval <> s:132 var
+R14538:14542 mathcomp.algebra.interval <> BSide constr
+R14546:14546 mathcomp.algebra.interval <> x:135 var
+R14544:14544 mathcomp.algebra.interval <> r:131 var
+R14564:14571 mathcomp.algebra.interval <> Interval constr
+R14586:14590 mathcomp.algebra.interval <> BSide constr
+R14594:14594 mathcomp.algebra.interval <> y:136 var
+R14592:14592 mathcomp.algebra.interval <> v:134 var
+R14574:14578 mathcomp.algebra.interval <> BSide constr
+R14582:14582 mathcomp.algebra.interval <> x:135 var
+R14580:14580 mathcomp.algebra.interval <> u:133 var
+R14649:14658 mathcomp.algebra.interval <> subset_itv thm
+R14669:14676 mathcomp.algebra.interval <> bnd_simp def
+prf 14691:14706 <> subset_itv_oo_cc
+binder 14708:14708 <> x:137
+binder 14710:14710 <> y:138
+R14714:14721 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14729:14732 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14740:14740 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14722:14723 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14725:14726 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14728:14728 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14724:14724 mathcomp.algebra.interval <> x:137 var
+R14727:14727 mathcomp.algebra.interval <> y:138 var
+R14733:14734 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R14736:14737 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R14739:14739 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R14735:14735 mathcomp.algebra.interval <> x:137 var
+R14738:14738 mathcomp.algebra.interval <> y:138 var
+R14760:14769 mathcomp.algebra.interval <> subset_itv thm
+R14780:14787 mathcomp.algebra.interval <> bnd_simp def
+prf 14802:14817 <> subset_itv_oo_oc
+binder 14819:14819 <> x:139
+binder 14821:14821 <> y:140
+R14825:14832 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14840:14843 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14851:14851 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14833:14834 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14836:14837 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14839:14839 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14835:14835 mathcomp.algebra.interval <> x:139 var
+R14838:14838 mathcomp.algebra.interval <> y:140 var
+R14844:14845 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R14847:14848 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R14850:14850 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R14846:14846 mathcomp.algebra.interval <> x:139 var
+R14849:14849 mathcomp.algebra.interval <> y:140 var
+R14871:14880 mathcomp.algebra.interval <> subset_itv thm
+R14891:14898 mathcomp.algebra.interval <> bnd_simp def
+prf 14913:14928 <> subset_itv_oo_co
+binder 14930:14930 <> x:141
+binder 14932:14932 <> y:142
+R14936:14943 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14951:14954 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14962:14962 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R14944:14945 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14947:14948 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14950:14950 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_'[' not
+R14946:14946 mathcomp.algebra.interval <> x:141 var
+R14949:14949 mathcomp.algebra.interval <> y:142 var
+R14955:14956 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R14958:14959 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R14961:14961 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R14957:14957 mathcomp.algebra.interval <> x:141 var
+R14960:14960 mathcomp.algebra.interval <> y:142 var
+R14982:14991 mathcomp.algebra.interval <> subset_itv thm
+R15002:15009 mathcomp.algebra.interval <> bnd_simp def
+prf 15024:15039 <> subset_itv_oc_cc
+binder 15041:15041 <> x:143
+binder 15043:15043 <> y:144
+R15047:15054 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15062:15065 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15073:15073 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15055:15056 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R15058:15059 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R15061:15061 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R15057:15057 mathcomp.algebra.interval <> x:143 var
+R15060:15060 mathcomp.algebra.interval <> y:144 var
+R15066:15067 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15069:15070 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15072:15072 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15068:15068 mathcomp.algebra.interval <> x:143 var
+R15071:15071 mathcomp.algebra.interval <> y:144 var
+R15093:15102 mathcomp.algebra.interval <> subset_itv thm
+R15113:15120 mathcomp.algebra.interval <> bnd_simp def
+prf 15135:15150 <> subset_itv_co_cc
+binder 15152:15152 <> x:145
+binder 15154:15154 <> y:146
+R15158:15165 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15173:15176 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15184:15184 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15166:15167 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R15169:15170 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R15172:15172 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R15168:15168 mathcomp.algebra.interval <> x:145 var
+R15171:15171 mathcomp.algebra.interval <> y:146 var
+R15177:15178 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15180:15181 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15183:15183 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15179:15179 mathcomp.algebra.interval <> x:145 var
+R15182:15182 mathcomp.algebra.interval <> y:146 var
+R15204:15213 mathcomp.algebra.interval <> subset_itv thm
+R15224:15231 mathcomp.algebra.interval <> bnd_simp def
+prf 15246:15250 <> itvxx
+binder 15252:15252 <> x:147
+R15263:15266 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R15256:15257 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15259:15260 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15262:15262 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15258:15258 mathcomp.algebra.interval <> x:147 var
+R15261:15261 mathcomp.algebra.interval <> x:147 var
+R15267:15271 mathcomp.boot.eqtype <> pred1 def
+R15273:15273 mathcomp.algebra.interval <> x:147 var
+R15304:15309 mathcomp.algebra.interval <> in_itv thm
+R15314:15318 mathcomp.order.order Order.POrderTheory eq_le thm
+R15320:15325 mathcomp.boot.eqtype <> eq_sym thm
+prf 15340:15345 <> itvxxP
+binder 15347:15347 <> y:148
+binder 15349:15349 <> x:149
+R15353:15359 Corelib.Init.Datatypes <> reflect ind
+R15371:15375 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15370:15370 mathcomp.algebra.interval <> y:148 var
+R15376:15377 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15379:15380 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15382:15382 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R15378:15378 mathcomp.algebra.interval <> x:149 var
+R15381:15381 mathcomp.algebra.interval <> x:149 var
+R15363:15365 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15362:15362 mathcomp.algebra.interval <> y:148 var
+R15366:15366 mathcomp.algebra.interval <> x:149 var
+R15404:15408 mathcomp.algebra.interval <> itvxx thm
+R15417:15419 mathcomp.boot.eqtype <> eqP def
+prf 15434:15441 <> subitvPl
+binder 15443:15445 <> b1l:150
+binder 15447:15449 <> b2l:151
+binder 15451:15452 <> br:152
+R15468:15471 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15461:15464 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R15458:15460 mathcomp.algebra.interval <> b2l:151 var
+R15465:15467 mathcomp.algebra.interval <> b1l:150 var
+R15472:15479 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15495:15498 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15514:15514 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15480:15487 mathcomp.algebra.interval <> Interval constr
+R15493:15494 mathcomp.algebra.interval <> br:152 var
+R15489:15491 mathcomp.algebra.interval <> b1l:150 var
+R15499:15506 mathcomp.algebra.interval <> Interval constr
+R15512:15513 mathcomp.algebra.interval <> br:152 var
+R15508:15510 mathcomp.algebra.interval <> b2l:151 var
+R15544:15550 mathcomp.algebra.interval <> subitvP thm
+R15561:15567 mathcomp.algebra.interval <> subitvE thm
+R15569:15572 mathcomp.order.order Order.POrderTheory lexx thm
+R15574:15578 Corelib.ssr.ssrbool <> andbT thm
+prf 15593:15600 <> subitvPr
+binder 15602:15603 <> bl:153
+binder 15605:15607 <> b1r:154
+binder 15609:15611 <> b2r:155
+R15627:15630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15620:15623 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R15617:15619 mathcomp.algebra.interval <> b1r:154 var
+R15624:15626 mathcomp.algebra.interval <> b2r:155 var
+R15631:15638 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15654:15657 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15673:15673 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R15639:15646 mathcomp.algebra.interval <> Interval constr
+R15651:15653 mathcomp.algebra.interval <> b1r:154 var
+R15648:15649 mathcomp.algebra.interval <> bl:153 var
+R15658:15665 mathcomp.algebra.interval <> Interval constr
+R15670:15672 mathcomp.algebra.interval <> b2r:155 var
+R15667:15668 mathcomp.algebra.interval <> bl:153 var
+R15703:15709 mathcomp.algebra.interval <> subitvP thm
+R15720:15726 mathcomp.algebra.interval <> subitvE thm
+R15728:15731 mathcomp.order.order Order.POrderTheory lexx thm
+prf 15746:15751 <> itv_xx
+binder 15753:15753 <> x:156
+binder 15755:15756 <> cl:157
+binder 15758:15759 <> cr:158
+binder 15761:15761 <> y:159
+R15767:15767 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15808:15811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15769:15773 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15768:15768 mathcomp.algebra.interval <> y:159 var
+R15774:15781 mathcomp.algebra.interval <> Interval constr
+R15797:15801 mathcomp.algebra.interval <> BSide constr
+R15806:15806 mathcomp.algebra.interval <> x:156 var
+R15803:15804 mathcomp.algebra.interval <> cr:158 var
+R15784:15788 mathcomp.algebra.interval <> BSide constr
+R15793:15793 mathcomp.algebra.interval <> x:156 var
+R15790:15791 mathcomp.algebra.interval <> cl:157 var
+R15823:15827 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15834:15834 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15814:15817 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15812:15813 mathcomp.algebra.interval <> cl:157 var
+R15818:15820 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R15821:15822 mathcomp.algebra.interval <> cr:158 var
+R15829:15832 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R15828:15828 mathcomp.algebra.interval <> y:159 var
+R15833:15833 mathcomp.algebra.interval <> x:156 var
+R15878:15880 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R15882:15891 mathcomp.order.order Order.POrderTheory lteif_anti thm
+R15896:15901 mathcomp.boot.eqtype <> eq_sym thm
+prf 15916:15928 <> boundl_in_itv
+binder 15930:15930 <> c:160
+binder 15932:15932 <> x:161
+binder 15934:15934 <> b:162
+R15940:15940 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15969:15972 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15942:15946 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15941:15941 mathcomp.algebra.interval <> x:161 var
+R15947:15954 mathcomp.algebra.interval <> Interval constr
+R15968:15968 mathcomp.algebra.interval <> b:162 var
+R15957:15961 mathcomp.algebra.interval <> BSide constr
+R15965:15965 mathcomp.algebra.interval <> x:161 var
+R15963:15963 mathcomp.algebra.interval <> c:160 var
+R15974:15978 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15992:15992 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15973:15973 mathcomp.algebra.interval <> c:160 var
+R15987:15990 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R15979:15984 mathcomp.algebra.interval <> BRight abbrev
+R15986:15986 mathcomp.algebra.interval <> x:161 var
+R15991:15991 mathcomp.algebra.interval <> b:162 var
+R16013:16023 mathcomp.algebra.interval <> itv_boundlr thm
+R16025:16034 mathcomp.algebra.interval <> bound_lexx thm
+prf 16049:16061 <> boundr_in_itv
+binder 16063:16063 <> c:163
+binder 16065:16065 <> x:164
+binder 16067:16067 <> b:165
+R16073:16073 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16102:16105 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16075:16079 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16074:16074 mathcomp.algebra.interval <> x:164 var
+R16080:16087 mathcomp.algebra.interval <> Interval constr
+R16092:16096 mathcomp.algebra.interval <> BSide constr
+R16100:16100 mathcomp.algebra.interval <> x:164 var
+R16098:16098 mathcomp.algebra.interval <> c:163 var
+R16089:16089 mathcomp.algebra.interval <> b:165 var
+R16110:16114 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R16127:16127 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R16106:16108 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R16109:16109 mathcomp.algebra.interval <> c:163 var
+R16116:16119 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R16115:16115 mathcomp.algebra.interval <> b:165 var
+R16120:16124 mathcomp.algebra.interval <> BLeft abbrev
+R16126:16126 mathcomp.algebra.interval <> x:164 var
+R16148:16158 mathcomp.algebra.interval <> itv_boundlr thm
+R16160:16169 mathcomp.algebra.interval <> bound_lexx thm
+R16171:16177 Corelib.ssr.ssrbool <> implybF thm
+R16179:16183 Corelib.ssr.ssrbool <> andbC thm
+def 16203:16214 <> bound_in_itv
+R16219:16219 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16233:16234 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16248:16248 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16220:16232 mathcomp.algebra.interval <> boundl_in_itv thm
+R16235:16247 mathcomp.algebra.interval <> boundr_in_itv thm
+prf 16258:16266 <> lt_in_itv
+binder 16268:16269 <> bl:166
+binder 16271:16272 <> br:167
+binder 16274:16274 <> x:168
+R16298:16301 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16279:16283 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16278:16278 mathcomp.algebra.interval <> x:168 var
+R16284:16291 mathcomp.algebra.interval <> Interval constr
+R16296:16297 mathcomp.algebra.interval <> br:167 var
+R16293:16294 mathcomp.algebra.interval <> bl:166 var
+R16304:16306 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R16302:16303 mathcomp.algebra.interval <> bl:166 var
+R16307:16308 mathcomp.algebra.interval <> br:167 var
+R16338:16348 mathcomp.order.order Order.POrderTheory le_lt_trans thm
+R16326:16329 Corelib.ssr.ssrbool <> andP thm
+prf 16363:16374 <> lteif_in_itv
+binder 16376:16377 <> cl:169
+binder 16379:16380 <> cr:170
+binder 16382:16383 <> yl:171
+binder 16385:16386 <> yr:172
+binder 16388:16388 <> x:173
+R16436:16439 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16395:16399 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16394:16394 mathcomp.algebra.interval <> x:173 var
+R16400:16407 mathcomp.algebra.interval <> Interval constr
+R16424:16428 mathcomp.algebra.interval <> BSide constr
+R16433:16434 mathcomp.algebra.interval <> yr:172 var
+R16430:16431 mathcomp.algebra.interval <> cr:170 var
+R16410:16414 mathcomp.algebra.interval <> BSide constr
+R16419:16420 mathcomp.algebra.interval <> yl:171 var
+R16416:16417 mathcomp.algebra.interval <> cl:169 var
+R16442:16444 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16447:16454 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16440:16441 mathcomp.algebra.interval <> yl:171 var
+R16445:16446 mathcomp.algebra.interval <> yr:172 var
+R16457:16460 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R16455:16456 mathcomp.algebra.interval <> cl:169 var
+R16461:16463 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R16464:16465 mathcomp.algebra.interval <> cr:170 var
+R16482:16490 mathcomp.algebra.interval <> lt_in_itv thm
+prf 16505:16510 <> itv_ge
+binder 16512:16513 <> b1:174
+binder 16515:16516 <> b2:175
+R16532:16535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16520:16523 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R16531:16531 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R16526:16528 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R16524:16525 mathcomp.algebra.interval <> b1:174 var
+R16529:16530 mathcomp.algebra.interval <> b2:175 var
+R16550:16553 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R16536:16543 mathcomp.algebra.interval <> Interval constr
+R16548:16549 mathcomp.algebra.interval <> b2:175 var
+R16545:16546 mathcomp.algebra.interval <> b1:174 var
+R16554:16558 Corelib.ssr.ssrbool <> pred0 def
+R16593:16600 Corelib.ssr.ssrbool <> contraNF thm
+R16616:16624 mathcomp.algebra.interval <> lt_in_itv thm
+def 16644:16656 <> itv_decompose
+binder 16658:16658 <> i:176
+binder 16660:16660 <> x:177
+R16695:16695 mathcomp.algebra.interval <> i:176 var
+R16679:16686 mathcomp.algebra.interval <> Interval constr
+R16792:16797 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16735:16739 mathcomp.algebra.interval <> BSide constr
+R16751:16753 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16755:16762 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16754:16754 mathcomp.algebra.interval <> x:177 var
+R16772:16777 mathcomp.algebra.interval <> BInfty constr
+R16830:16834 mathcomp.algebra.interval <> BSide constr
+R16845:16847 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16850:16857 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x_'?<='_'if'_x not
+R16844:16844 mathcomp.algebra.interval <> x:177 var
+R16858:16860 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R16870:16875 mathcomp.algebra.interval <> BInfty constr
+R16882:16884 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+prf 16908:16914 <> itv_dec
+binder 16925:16925 <> x:181
+binder 16927:16927 <> i:182
+R16930:16936 Corelib.Init.Datatypes <> reflect ind
+R16960:16964 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16959:16959 mathcomp.algebra.interval <> x:181 var
+R16965:16965 mathcomp.algebra.interval <> i:182 var
+R16939:16951 mathcomp.algebra.interval <> itv_decompose def
+R16955:16955 mathcomp.algebra.interval <> x:181 var
+R16953:16953 mathcomp.algebra.interval <> i:182 var
+R17016:17019 Corelib.ssr.ssrbool <> iffP thm
+R17021:17024 Corelib.ssr.ssrbool <> andP thm
+R17050:17056 mathcomp.algebra.interval <> itv_dec thm
+def 17143:17153 <> itv_rewrite
+binder 17155:17155 <> i:183
+binder 17157:17157 <> x:184
+R17192:17192 mathcomp.algebra.interval <> i:183 var
+R17176:17183 mathcomp.algebra.interval <> Interval constr
+R17688:17695 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17441:17448 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17224:17228 mathcomp.algebra.interval <> BLeft abbrev
+R17235:17235 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17242:17246 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17262:17262 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17237:17240 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17241:17241 mathcomp.algebra.interval <> x:184 var
+R17247:17247 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17253:17256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17249:17251 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17248:17248 mathcomp.algebra.interval <> x:184 var
+R17257:17261 Corelib.Init.Datatypes <> false constr
+R17273:17278 mathcomp.algebra.interval <> BRight abbrev
+R17324:17327 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17343:17343 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17303:17306 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17323:17323 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17285:17285 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17292:17296 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17302:17302 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17287:17290 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17291:17291 mathcomp.algebra.interval <> x:184 var
+R17298:17300 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17301:17301 mathcomp.algebra.interval <> x:184 var
+R17307:17307 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17314:17317 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17309:17312 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17308:17308 mathcomp.algebra.interval <> x:184 var
+R17318:17322 Corelib.Init.Datatypes <> false constr
+R17328:17328 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17334:17337 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17330:17332 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17329:17329 mathcomp.algebra.interval <> x:184 var
+R17338:17342 Corelib.Init.Datatypes <> false constr
+R17354:17356 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R17372:17372 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 17368:17368 <> x:187
+R17376:17379 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R17375:17375 mathcomp.algebra.interval <> x:187 var
+R17380:17380 mathcomp.algebra.interval <> x:187 var
+R17391:17393 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R17409:17412 Corelib.Init.Datatypes <> bool ind
+binder 17405:17405 <> b:188
+R17424:17426 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17415:17421 Corelib.ssr.ssreflect <> unkeyed abbrev
+R17423:17423 mathcomp.algebra.interval <> b:188 var
+R17427:17431 Corelib.Init.Datatypes <> false constr
+R17471:17476 mathcomp.algebra.interval <> BRight abbrev
+R17483:17483 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17490:17494 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17510:17510 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17485:17488 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17484:17484 mathcomp.algebra.interval <> x:184 var
+R17495:17495 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17501:17504 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17497:17499 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17500:17500 mathcomp.algebra.interval <> x:184 var
+R17505:17509 Corelib.Init.Datatypes <> false constr
+R17521:17525 mathcomp.algebra.interval <> BLeft abbrev
+R17571:17574 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17590:17590 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17550:17553 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17570:17570 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17532:17532 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17539:17543 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17549:17549 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17534:17537 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17533:17533 mathcomp.algebra.interval <> x:184 var
+R17545:17547 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17544:17544 mathcomp.algebra.interval <> x:184 var
+R17554:17554 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17561:17564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17556:17559 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17560:17560 mathcomp.algebra.interval <> x:184 var
+R17565:17569 Corelib.Init.Datatypes <> false constr
+R17575:17575 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17581:17584 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17577:17579 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17580:17580 mathcomp.algebra.interval <> x:184 var
+R17585:17589 Corelib.Init.Datatypes <> false constr
+R17601:17603 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R17619:17619 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 17615:17615 <> x:190
+R17623:17626 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R17622:17622 mathcomp.algebra.interval <> x:190 var
+R17627:17627 mathcomp.algebra.interval <> x:190 var
+R17638:17640 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R17656:17659 Corelib.Init.Datatypes <> bool ind
+binder 17652:17652 <> b:191
+R17671:17673 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17662:17668 Corelib.ssr.ssreflect <> unkeyed abbrev
+R17670:17670 mathcomp.algebra.interval <> b:191 var
+R17674:17678 Corelib.Init.Datatypes <> false constr
+R17721:17725 mathcomp.algebra.interval <> BLeft abbrev
+R17730:17735 mathcomp.algebra.interval <> BRight abbrev
+R17797:17800 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17814:17814 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17779:17782 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17796:17796 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17751:17751 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17758:17762 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17778:17778 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17753:17756 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17763:17763 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17769:17772 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17765:17767 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17773:17777 Corelib.Init.Datatypes <> false constr
+R17784:17788 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17789:17790 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17792:17793 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17795:17795 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17802:17806 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17807:17808 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17810:17811 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17813:17813 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17825:17829 mathcomp.algebra.interval <> BLeft abbrev
+R17834:17838 mathcomp.algebra.interval <> BLeft abbrev
+R17976:17979 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17993:17993 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17958:17961 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17975:17975 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17940:17943 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17957:17957 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17913:17925 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17939:17939 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17893:17896 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17912:17912 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17872:17875 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17892:17892 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17854:17854 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17861:17865 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17871:17871 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17856:17859 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17867:17869 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17876:17876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17883:17886 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17878:17881 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R17887:17891 Corelib.Init.Datatypes <> false constr
+R17897:17897 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17903:17906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17899:17901 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R17907:17911 Corelib.Init.Datatypes <> false constr
+R17927:17931 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17932:17933 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17935:17936 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17938:17938 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17945:17949 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17950:17951 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R17953:17954 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R17956:17956 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R17963:17967 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17968:17969 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17971:17972 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17974:17974 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R17981:17985 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17986:17987 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R17989:17990 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R17992:17992 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18004:18009 mathcomp.algebra.interval <> BRight abbrev
+R18014:18019 mathcomp.algebra.interval <> BRight abbrev
+R18157:18160 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18174:18174 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18139:18142 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18156:18156 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18121:18124 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18138:18138 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18094:18106 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18120:18120 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18074:18077 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18093:18093 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18053:18056 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18073:18073 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18035:18035 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18042:18046 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18052:18052 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18037:18040 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18048:18050 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R18057:18057 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18064:18067 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18059:18062 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18068:18072 Corelib.Init.Datatypes <> false constr
+R18078:18078 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18084:18087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18080:18082 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R18088:18092 Corelib.Init.Datatypes <> false constr
+R18108:18112 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18113:18114 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18116:18117 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18119:18119 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18126:18130 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18131:18132 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18134:18135 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18137:18137 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18144:18148 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18149:18150 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18152:18153 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18155:18155 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18162:18166 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18167:18168 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18170:18171 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18173:18173 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18185:18190 mathcomp.algebra.interval <> BRight abbrev
+R18195:18199 mathcomp.algebra.interval <> BLeft abbrev
+R18337:18340 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18354:18354 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18319:18322 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18336:18336 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18301:18304 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18318:18318 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18274:18286 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18300:18300 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18254:18257 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18273:18273 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18233:18236 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18253:18253 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18215:18215 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18222:18226 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18232:18232 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18217:18220 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18228:18230 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R18237:18237 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18244:18247 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18239:18242 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18248:18252 Corelib.Init.Datatypes <> false constr
+R18258:18258 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18264:18267 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18260:18262 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<'_x not
+R18268:18272 Corelib.Init.Datatypes <> false constr
+R18288:18292 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18293:18294 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18296:18297 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18299:18299 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18306:18310 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18311:18312 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18314:18315 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18317:18317 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_'[' not
+R18324:18328 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18329:18330 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18332:18333 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18335:18335 mathcomp.algebra.interval <> ::order_scope:'`['_x_','_x_']' not
+R18342:18346 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18347:18348 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18350:18351 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18353:18353 mathcomp.algebra.interval <> ::order_scope:'`]'_x_','_x_']' not
+R18384:18384 mathcomp.algebra.interval <> IntervalPOrder.T var
+binder 18380:18380 <> x:194
+R18388:18391 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18387:18387 mathcomp.algebra.interval <> x:194 var
+R18392:18392 mathcomp.algebra.interval <> x:194 var
+prf 18417:18420 <> itvP
+binder 18422:18422 <> x:195
+binder 18424:18424 <> i:196
+R18435:18438 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18429:18433 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18428:18428 mathcomp.algebra.interval <> x:195 var
+R18434:18434 mathcomp.algebra.interval <> i:196 var
+R18439:18449 mathcomp.algebra.interval <> itv_rewrite def
+R18453:18453 mathcomp.algebra.interval <> x:195 var
+R18451:18451 mathcomp.algebra.interval <> i:196 var
+R18521:18532 mathcomp.algebra.interval <> bound_in_itv def
+R18556:18561 Corelib.ssr.ssrbool <> negbTE thm
+R18572:18572 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18579:18580 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18587:18587 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18573:18578 mathcomp.order.order Order.POrderTheory le_gtF thm
+R18581:18586 mathcomp.order.order Order.POrderTheory lt_geF thm
+R18605:18607 mathcomp.order.order Order.POrderTheory ltW thm
+R18618:18628 mathcomp.order.order Order.POrderTheory lteif_trans thm
+R18652:18654 mathcomp.order.order Order.POrderTheory ltW thm
+R18494:18497 Corelib.ssr.ssrbool <> andP thm
+R18674:18677 mathcomp.algebra.interval <> itvP thm
+prf 18693:18703 <> itv_splitU1
+binder 18705:18705 <> b:197
+binder 18707:18707 <> x:198
+R18723:18728 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18712:18715 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18711:18711 mathcomp.algebra.interval <> b:197 var
+R18716:18720 mathcomp.algebra.interval <> BLeft abbrev
+R18722:18722 mathcomp.algebra.interval <> x:198 var
+R18750:18753 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R18729:18736 mathcomp.algebra.interval <> Interval constr
+R18741:18746 mathcomp.algebra.interval <> BRight abbrev
+R18748:18748 mathcomp.algebra.interval <> x:198 var
+R18738:18738 mathcomp.algebra.interval <> b:197 var
+R18754:18761 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R18763:18765 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R18786:18786 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R18762:18762 mathcomp.algebra.interval <> x:198 var
+R18766:18773 mathcomp.algebra.interval <> Interval constr
+R18778:18782 mathcomp.algebra.interval <> BLeft abbrev
+R18784:18784 mathcomp.algebra.interval <> x:198 var
+R18775:18775 mathcomp.algebra.interval <> b:197 var
+R18818:18820 mathcomp.boot.seq <> inE def
+R18825:18831 mathcomp.algebra.interval <> subitvE thm
+R18834:18841 mathcomp.algebra.interval <> bnd_simp def
+R18846:18854 mathcomp.order.order Order.POrderTheory lt_neqAle thm
+R18867:18872 mathcomp.boot.eqtype <> eqVneq thm
+R18900:18903 mathcomp.order.order Order.POrderTheory lexx thm
+prf 18921:18931 <> itv_split1U
+binder 18933:18933 <> b:199
+binder 18935:18935 <> x:200
+R18952:18957 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18947:18950 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R18939:18944 mathcomp.algebra.interval <> BRight abbrev
+R18946:18946 mathcomp.algebra.interval <> x:200 var
+R18951:18951 mathcomp.algebra.interval <> b:199 var
+R18978:18981 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R18958:18965 mathcomp.algebra.interval <> Interval constr
+R18977:18977 mathcomp.algebra.interval <> b:199 var
+R18968:18972 mathcomp.algebra.interval <> BLeft abbrev
+R18974:18974 mathcomp.algebra.interval <> x:200 var
+R18982:18989 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R18991:18993 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R19015:19015 mathcomp.boot.eqtype <> ::function_scope:'['_'predU1'_x_'&'_x_']' not
+R18990:18990 mathcomp.algebra.interval <> x:200 var
+R18994:19001 mathcomp.algebra.interval <> Interval constr
+R19014:19014 mathcomp.algebra.interval <> b:199 var
+R19004:19009 mathcomp.algebra.interval <> BRight abbrev
+R19011:19011 mathcomp.algebra.interval <> x:200 var
+R19047:19049 mathcomp.boot.seq <> inE def
+R19054:19060 mathcomp.algebra.interval <> subitvE thm
+R19063:19070 mathcomp.algebra.interval <> bnd_simp def
+R19075:19083 mathcomp.order.order Order.POrderTheory lt_neqAle thm
+R19096:19101 mathcomp.boot.eqtype <> eqVneq thm
+R19129:19132 mathcomp.order.order Order.POrderTheory lexx thm
+R19148:19161 mathcomp.algebra.interval IntervalPOrder <> sec
+sec 19173:19187 <> IntervalLattice
+var 19201:19204 IntervalLattice disp
+var 19223:19223 IntervalLattice T
+R19208:19219 mathcomp.order.preorder Order disp_t rec
+R19227:19237 mathcomp.order.order Order.Lattice.Exports latticeType abbrev
+R19239:19242 mathcomp.algebra.interval <> disp:202 var
+R19270:19270 mathcomp.algebra.interval <> IntervalLattice.T var
+R19284:19292 mathcomp.algebra.interval <> itv_bound variant
+R19294:19294 mathcomp.algebra.interval <> IntervalLattice.T var
+R19302:19309 mathcomp.algebra.interval <> interval variant
+R19311:19311 mathcomp.algebra.interval <> IntervalLattice.T var
+def 19327:19336 <> bound_meet
+binder 19338:19339 <> bl:205
+binder 19341:19342 <> br:206
+R19346:19354 mathcomp.algebra.interval <> itv_bound variant
+R19356:19356 mathcomp.algebra.interval <> IntervalLattice.T var
+R19373:19374 mathcomp.algebra.interval <> br:206 var
+R19369:19370 mathcomp.algebra.interval <> bl:205 var
+R19387:19389 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R19399:19401 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R19406:19408 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R19416:19418 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R19428:19430 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R19443:19447 mathcomp.algebra.interval <> BSide constr
+R19455:19459 mathcomp.algebra.interval <> BSide constr
+R19475:19479 mathcomp.algebra.interval <> BSide constr
+R19522:19526 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R19482:19482 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19497:19502 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19517:19517 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19483:19483 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19490:19494 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19485:19488 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R19503:19503 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19510:19514 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19505:19508 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+def 19549:19558 <> bound_join
+binder 19560:19561 <> bl:209
+binder 19563:19564 <> br:210
+R19568:19576 mathcomp.algebra.interval <> itv_bound variant
+R19578:19578 mathcomp.algebra.interval <> IntervalLattice.T var
+R19595:19596 mathcomp.algebra.interval <> br:210 var
+R19591:19592 mathcomp.algebra.interval <> bl:209 var
+R19609:19611 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R19621:19623 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R19636:19638 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R19648:19650 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R19655:19657 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R19665:19669 mathcomp.algebra.interval <> BSide constr
+R19677:19681 mathcomp.algebra.interval <> BSide constr
+R19697:19701 mathcomp.algebra.interval <> BSide constr
+R19750:19754 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R19704:19704 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19722:19727 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19745:19745 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19716:19719 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19705:19708 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R19715:19715 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R19710:19713 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R19739:19742 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19728:19731 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R19738:19738 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R19733:19736 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+prf 19772:19782 <> bound_meetC
+R19786:19796 Corelib.ssr.ssrfun <> commutative def
+R19798:19807 mathcomp.algebra.interval <> bound_meet def
+R19854:19858 mathcomp.order.order Order.MeetTheory meetC thm
+R19867:19871 mathcomp.algebra.interval <> BSide constr
+R19883:19894 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R19906:19909 Corelib.ssr.ssrbool <> orbF thm
+R19914:19917 Corelib.ssr.ssrbool <> orbC thm
+prf 19932:19942 <> bound_joinC
+R19946:19956 Corelib.ssr.ssrfun <> commutative def
+R19958:19967 mathcomp.algebra.interval <> bound_join def
+R20014:20018 mathcomp.order.order Order.JoinTheory joinC thm
+R20027:20031 mathcomp.algebra.interval <> BSide constr
+R20043:20054 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20066:20070 Corelib.ssr.ssrbool <> andbT thm
+R20075:20079 Corelib.ssr.ssrbool <> andbC thm
+prf 20094:20104 <> bound_meetA
+R20108:20118 Corelib.ssr.ssrfun <> associative def
+R20120:20129 mathcomp.algebra.interval <> bound_meet def
+R20185:20188 mathcomp.order.order Order.MeetTheory lexI thm
+R20190:20194 mathcomp.order.order Order.MeetTheory meetA thm
+R20203:20207 mathcomp.algebra.interval <> BSide constr
+R20220:20231 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20257:20268 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20296:20307 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20335:20346 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20369:20373 Corelib.ssr.ssrbool <> andbF thm
+R20376:20379 Corelib.ssr.ssrbool <> orbF thm
+R20382:20385 mathcomp.order.order Order.POrderTheory lexx thm
+R20388:20391 Corelib.ssr.ssrbool <> orbA thm
+R20404:20415 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+prf 20435:20445 <> bound_joinA
+R20449:20459 Corelib.ssr.ssrfun <> associative def
+R20461:20470 mathcomp.algebra.interval <> bound_join def
+R20526:20529 mathcomp.order.order Order.JoinTheory leUx thm
+R20531:20535 mathcomp.order.order Order.JoinTheory joinA thm
+R20544:20548 mathcomp.algebra.interval <> BSide constr
+R20561:20572 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20598:20609 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20637:20648 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20676:20687 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20710:20713 Corelib.ssr.ssrbool <> orbT thm
+R20716:20720 Corelib.ssr.ssrbool <> andbT thm
+R20723:20726 mathcomp.order.order Order.POrderTheory lexx thm
+R20729:20733 Corelib.ssr.ssrbool <> andbA thm
+R20746:20757 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+prf 20777:20788 <> bound_meetKU
+binder 20790:20791 <> b2:213
+binder 20793:20794 <> b1:214
+R20830:20832 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20798:20807 mathcomp.algebra.interval <> bound_join def
+R20813:20822 mathcomp.algebra.interval <> bound_meet def
+R20827:20828 mathcomp.algebra.interval <> b2:213 var
+R20824:20825 mathcomp.algebra.interval <> b1:214 var
+R20809:20810 mathcomp.algebra.interval <> b1:214 var
+R20833:20834 mathcomp.algebra.interval <> b1:214 var
+R20892:20897 mathcomp.order.order Order.LatticeTheory meetKU thm
+R20900:20905 mathcomp.order.order Order.JoinTheory joinxx thm
+R20908:20911 mathcomp.order.order Order.MeetTheory leIl thm
+R20914:20917 mathcomp.order.order Order.MeetTheory lexI thm
+R20920:20923 mathcomp.order.order Order.POrderTheory lexx thm
+R20926:20930 Corelib.ssr.ssrbool <> andbb thm
+R20943:20947 mathcomp.algebra.interval <> BSide constr
+R20959:20970 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R20982:20985 Corelib.ssr.ssrbool <> orbF thm
+R20991:20995 Corelib.ssr.ssrbool <> andbb thm
+R20998:21001 Corelib.ssr.ssrbool <> orbK thm
+prf 21016:21027 <> bound_joinKI
+binder 21029:21030 <> b2:215
+binder 21032:21033 <> b1:216
+R21069:21071 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21037:21046 mathcomp.algebra.interval <> bound_meet def
+R21052:21061 mathcomp.algebra.interval <> bound_join def
+R21066:21067 mathcomp.algebra.interval <> b2:215 var
+R21063:21064 mathcomp.algebra.interval <> b1:216 var
+R21048:21049 mathcomp.algebra.interval <> b1:216 var
+R21072:21073 mathcomp.algebra.interval <> b1:216 var
+R21131:21136 mathcomp.order.order Order.LatticeTheory joinKI thm
+R21139:21144 mathcomp.order.order Order.MeetTheory meetxx thm
+R21147:21150 mathcomp.order.order Order.JoinTheory leUl thm
+R21153:21156 mathcomp.order.order Order.JoinTheory leUx thm
+R21159:21162 mathcomp.order.order Order.POrderTheory lexx thm
+R21165:21168 Corelib.ssr.ssrbool <> orbb thm
+R21181:21185 mathcomp.algebra.interval <> BSide constr
+R21197:21208 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R21220:21223 Corelib.ssr.ssrbool <> orbF thm
+R21226:21229 Corelib.ssr.ssrbool <> orbb thm
+R21232:21236 Corelib.ssr.ssrbool <> andKb thm
+prf 21251:21263 <> bound_leEmeet
+binder 21265:21266 <> b1:217
+binder 21268:21269 <> b2:218
+R21273:21273 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21282:21286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21309:21309 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21276:21279 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R21274:21275 mathcomp.algebra.interval <> b1:217 var
+R21280:21281 mathcomp.algebra.interval <> b2:218 var
+R21303:21306 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21287:21296 mathcomp.algebra.interval <> bound_meet def
+R21301:21302 mathcomp.algebra.interval <> b2:218 var
+R21298:21299 mathcomp.algebra.interval <> b1:217 var
+R21307:21308 mathcomp.algebra.interval <> b1:217 var
+R21365:21368 mathcomp.boot.eqtype <> eqxx abbrev
+R21390:21392 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R21395:21398 mathcomp.order.preorder Order.PreOSyntax ::function_scope:'<=%O' not
+R21401:21405 mathcomp.boot.eqtype <> eq_op def
+R21408:21412 Corelib.ssr.ssrbool <> andbT thm
+R21415:21419 Corelib.ssr.ssrbool <> andbF thm
+R21422:21425 Corelib.ssr.ssrbool <> orbF thm
+R21430:21434 mathcomp.boot.eqtype <> eq_op def
+R21439:21443 mathcomp.boot.eqtype <> eq_op def
+R21456:21467 mathcomp.order.order Order.LatticeTheory lcomparableP thm
+R21486:21489 mathcomp.boot.eqtype <> eqxx abbrev
+R21514:21519 mathcomp.order.order Order.POrderTheory lt_eqF thm
+R21542:21545 Corelib.ssr.ssrfun <> esym def
+R21555:21562 Corelib.ssr.ssrbool <> contraNF thm
+R21603:21615 mathcomp.order.order Order.POrderTheory le_comparable thm
+R21581:21583 mathcomp.boot.eqtype <> eqP def
+R21585:21593 mathcomp.order.order Order.MeetTheory meet_idPl thm
+R21628:21633 mathcomp.order.order Order.POrderTheory lt_eqF thm
+R21656:21659 Corelib.ssr.ssrfun <> esym def
+R21669:21676 Corelib.ssr.ssrbool <> contraNF thm
+R21717:21729 mathcomp.order.order Order.POrderTheory le_comparable thm
+R21695:21697 mathcomp.boot.eqtype <> eqP def
+R21699:21707 mathcomp.order.order Order.MeetTheory meet_idPl thm
+R21768:21795 mathcomp.order.order Order.POrder_isLattice Build abbrev
+R21798:21814 mathcomp.algebra.interval <> itv_bound_display thm
+R21816:21819 mathcomp.algebra.interval <> IntervalLattice.disp var
+R21823:21831 mathcomp.algebra.interval <> itv_bound variant
+R21833:21833 mathcomp.algebra.interval <> IntervalLattice.T var
+R21918:21930 mathcomp.algebra.interval <> bound_leEmeet thm
+R21905:21916 mathcomp.algebra.interval <> bound_meetKU thm
+R21892:21903 mathcomp.algebra.interval <> bound_joinKI thm
+R21876:21886 mathcomp.algebra.interval <> bound_joinA thm
+R21864:21874 mathcomp.algebra.interval <> bound_meetA thm
+R21852:21862 mathcomp.algebra.interval <> bound_joinC thm
+R21840:21850 mathcomp.algebra.interval <> bound_meetC thm
+def 21738:21931 <> HB_unnamed_factory_79
+def 21738:21931 <> Order_POrder_isLattice__to__Order_POrder_isMeetSemilattice
+def 21738:21931 <> Order_POrder_isLattice__to__Order_POrder_isJoinSemilattice
+def 21738:21931 <> HB_unnamed_mixin_82
+def 21738:21931 <> interval_itv_bound__canonical__Order_MeetSemilattice
+def 21738:21931 <> HB_unnamed_mixin_83
+def 21738:21931 <> interval_itv_bound__canonical__Order_JoinSemilattice
+def 21738:21931 <> interval_itv_bound__canonical__Order_Lattice
+prf 21940:21949 <> bound_le0x
+binder 21951:21951 <> b:219
+R21958:21961 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R21955:21957 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R21962:21962 mathcomp.algebra.interval <> b:219 var
+prf 21991:22000 <> bound_lex1
+binder 22002:22002 <> b:220
+R22007:22010 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R22006:22006 mathcomp.algebra.interval <> b:220 var
+R22011:22013 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R22080:22100 mathcomp.order.preorder Order.hasBottom Build abbrev
+R22103:22119 mathcomp.algebra.interval <> itv_bound_display thm
+R22121:22124 mathcomp.algebra.interval <> IntervalLattice.disp var
+R22128:22136 mathcomp.algebra.interval <> itv_bound variant
+R22138:22138 mathcomp.algebra.interval <> IntervalLattice.T var
+R22141:22150 mathcomp.algebra.interval <> bound_le0x thm
+def 22050:22151 <> HB_unnamed_factory_84
+def 22050:22151 <> interval_itv_bound__canonical__Order_BPreorder
+def 22050:22151 <> interval_itv_bound__canonical__Order_BPOrder
+def 22050:22151 <> interval_itv_bound__canonical__Order_BMeetSemilattice
+def 22050:22151 <> interval_itv_bound__canonical__Order_BJoinSemilattice
+def 22050:22151 <> interval_itv_bound__canonical__Order_BLattice
+R22183:22200 mathcomp.order.preorder Order.hasTop Build abbrev
+R22203:22219 mathcomp.algebra.interval <> itv_bound_display thm
+R22221:22224 mathcomp.algebra.interval <> IntervalLattice.disp var
+R22228:22236 mathcomp.algebra.interval <> itv_bound variant
+R22238:22238 mathcomp.algebra.interval <> IntervalLattice.T var
+R22241:22250 mathcomp.algebra.interval <> bound_lex1 thm
+def 22153:22251 <> HB_unnamed_factory_86
+def 22153:22251 <> interval_itv_bound__canonical__Order_TPreorder
+def 22153:22251 <> interval_itv_bound__canonical__Order_TPOrder
+def 22153:22251 <> interval_itv_bound__canonical__Order_TMeetSemilattice
+def 22153:22251 <> interval_itv_bound__canonical__Order_TJoinSemilattice
+def 22153:22251 <> interval_itv_bound__canonical__Order_TLattice
+def 22153:22251 <> interval_itv_bound__canonical__Order_TBPreorder
+def 22153:22251 <> interval_itv_bound__canonical__Order_TBPOrder
+def 22153:22251 <> interval_itv_bound__canonical__Order_TBMeetSemilattice
+def 22153:22251 <> interval_itv_bound__canonical__Order_TBJoinSemilattice
+def 22153:22251 <> interval_itv_bound__canonical__Order_TBLattice
+def 22265:22272 <> itv_meet
+binder 22274:22275 <> i1:221
+binder 22277:22278 <> i2:222
+R22282:22289 mathcomp.algebra.interval <> interval variant
+R22291:22291 mathcomp.algebra.interval <> IntervalLattice.T var
+R22323:22324 mathcomp.algebra.interval <> i1:221 var
+R22303:22310 mathcomp.algebra.interval <> Interval constr
+R22356:22357 mathcomp.algebra.interval <> i2:222 var
+R22336:22343 mathcomp.algebra.interval <> Interval constr
+R22362:22369 mathcomp.algebra.interval <> Interval constr
+R22389:22393 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R22375:22379 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+def 22412:22419 <> itv_join
+binder 22421:22422 <> i1:225
+binder 22424:22425 <> i2:226
+R22429:22436 mathcomp.algebra.interval <> interval variant
+R22438:22438 mathcomp.algebra.interval <> IntervalLattice.T var
+R22470:22471 mathcomp.algebra.interval <> i1:225 var
+R22450:22457 mathcomp.algebra.interval <> Interval constr
+R22503:22504 mathcomp.algebra.interval <> i2:226 var
+R22483:22490 mathcomp.algebra.interval <> Interval constr
+R22509:22516 mathcomp.algebra.interval <> Interval constr
+R22536:22540 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R22522:22526 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+prf 22554:22562 <> itv_meetC
+R22566:22576 Corelib.ssr.ssrfun <> commutative def
+R22578:22585 mathcomp.algebra.interval <> itv_meet def
+R22628:22632 mathcomp.order.order Order.MeetTheory meetC thm
+R22634:22638 mathcomp.order.order Order.JoinTheory joinC thm
+prf 22653:22661 <> itv_joinC
+R22665:22675 Corelib.ssr.ssrfun <> commutative def
+R22677:22684 mathcomp.algebra.interval <> itv_join def
+R22727:22731 mathcomp.order.order Order.MeetTheory meetC thm
+R22733:22737 mathcomp.order.order Order.JoinTheory joinC thm
+prf 22752:22760 <> itv_meetA
+R22764:22774 Corelib.ssr.ssrfun <> associative def
+R22776:22783 mathcomp.algebra.interval <> itv_meet def
+R22831:22835 mathcomp.order.order Order.MeetTheory meetA thm
+R22837:22841 mathcomp.order.order Order.JoinTheory joinA thm
+prf 22856:22864 <> itv_joinA
+R22868:22878 Corelib.ssr.ssrfun <> associative def
+R22880:22887 mathcomp.algebra.interval <> itv_join def
+R22935:22939 mathcomp.order.order Order.MeetTheory meetA thm
+R22941:22945 mathcomp.order.order Order.JoinTheory joinA thm
+prf 22960:22969 <> itv_meetKU
+binder 22971:22972 <> i2:229
+binder 22974:22975 <> i1:230
+R23007:23009 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22979:22986 mathcomp.algebra.interval <> itv_join def
+R22992:22999 mathcomp.algebra.interval <> itv_meet def
+R23004:23005 mathcomp.algebra.interval <> i2:229 var
+R23001:23002 mathcomp.algebra.interval <> i1:230 var
+R22988:22989 mathcomp.algebra.interval <> i1:230 var
+R23010:23011 mathcomp.algebra.interval <> i1:230 var
+R23062:23067 mathcomp.order.order Order.LatticeTheory meetKU thm
+R23069:23074 mathcomp.order.order Order.LatticeTheory joinKI thm
+prf 23089:23098 <> itv_joinKI
+binder 23100:23101 <> i2:231
+binder 23103:23104 <> i1:232
+R23136:23138 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23108:23115 mathcomp.algebra.interval <> itv_meet def
+R23121:23128 mathcomp.algebra.interval <> itv_join def
+R23133:23134 mathcomp.algebra.interval <> i2:231 var
+R23130:23131 mathcomp.algebra.interval <> i1:232 var
+R23117:23118 mathcomp.algebra.interval <> i1:232 var
+R23139:23140 mathcomp.algebra.interval <> i1:232 var
+R23191:23196 mathcomp.order.order Order.LatticeTheory meetKU thm
+R23198:23203 mathcomp.order.order Order.LatticeTheory joinKI thm
+prf 23218:23228 <> itv_leEmeet
+binder 23230:23231 <> i1:233
+binder 23233:23234 <> i2:234
+R23238:23238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23247:23251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23272:23272 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23241:23244 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R23239:23240 mathcomp.algebra.interval <> i1:233 var
+R23245:23246 mathcomp.algebra.interval <> i2:234 var
+R23266:23269 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R23252:23259 mathcomp.algebra.interval <> itv_meet def
+R23264:23265 mathcomp.algebra.interval <> i2:234 var
+R23261:23262 mathcomp.algebra.interval <> i1:233 var
+R23270:23271 mathcomp.algebra.interval <> i1:233 var
+R23322:23326 mathcomp.boot.eqtype <> eq_op def
+R23330:23334 mathcomp.boot.eqtype <> eq_op def
+R23338:23345 mathcomp.order.order Order.MeetTheory eq_meetl thm
+R23347:23354 mathcomp.order.order Order.JoinTheory eq_joinl thm
+R23393:23420 mathcomp.order.order Order.POrder_isLattice Build abbrev
+R23423:23438 mathcomp.algebra.interval <> interval_display thm
+R23440:23443 mathcomp.algebra.interval <> IntervalLattice.disp var
+R23447:23454 mathcomp.algebra.interval <> interval variant
+R23456:23456 mathcomp.algebra.interval <> IntervalLattice.T var
+R23529:23539 mathcomp.algebra.interval <> itv_leEmeet thm
+R23518:23527 mathcomp.algebra.interval <> itv_meetKU thm
+R23507:23516 mathcomp.algebra.interval <> itv_joinKI thm
+R23493:23501 mathcomp.algebra.interval <> itv_joinA thm
+R23483:23491 mathcomp.algebra.interval <> itv_meetA thm
+R23473:23481 mathcomp.algebra.interval <> itv_joinC thm
+R23463:23471 mathcomp.algebra.interval <> itv_meetC thm
+def 23363:23540 <> HB_unnamed_factory_88
+def 23363:23540 <> Order_POrder_isLattice__to__Order_POrder_isMeetSemilattice__90
+def 23363:23540 <> Order_POrder_isLattice__to__Order_POrder_isJoinSemilattice__92
+def 23363:23540 <> HB_unnamed_mixin_93
+def 23363:23540 <> interval_interval__canonical__Order_MeetSemilattice
+def 23363:23540 <> HB_unnamed_mixin_94
+def 23363:23540 <> interval_interval__canonical__Order_JoinSemilattice
+def 23363:23540 <> interval_interval__canonical__Order_Lattice
+prf 23549:23556 <> itv_le0x
+binder 23558:23558 <> i:235
+R23578:23581 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R23562:23569 mathcomp.algebra.interval <> Interval constr
+R23575:23577 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R23571:23573 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R23582:23582 mathcomp.algebra.interval <> i:235 var
+prf 23627:23634 <> itv_lex1
+binder 23636:23636 <> i:236
+R23641:23644 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R23640:23640 mathcomp.algebra.interval <> i:236 var
+R23645:23655 mathcomp.algebra.interval <> ::order_scope:'`]'_'-oo'_','_'+oo'_'[' not
+R23725:23745 mathcomp.order.preorder Order.hasBottom Build abbrev
+R23748:23763 mathcomp.algebra.interval <> interval_display thm
+R23765:23768 mathcomp.algebra.interval <> IntervalLattice.disp var
+R23772:23779 mathcomp.algebra.interval <> interval variant
+R23781:23781 mathcomp.algebra.interval <> IntervalLattice.T var
+R23784:23791 mathcomp.algebra.interval <> itv_le0x thm
+def 23695:23792 <> HB_unnamed_factory_95
+def 23695:23792 <> interval_interval__canonical__Order_BPreorder
+def 23695:23792 <> interval_interval__canonical__Order_BPOrder
+def 23695:23792 <> interval_interval__canonical__Order_BMeetSemilattice
+def 23695:23792 <> interval_interval__canonical__Order_BJoinSemilattice
+def 23695:23792 <> interval_interval__canonical__Order_BLattice
+R23824:23841 mathcomp.order.preorder Order.hasTop Build abbrev
+R23844:23859 mathcomp.algebra.interval <> interval_display thm
+R23861:23864 mathcomp.algebra.interval <> IntervalLattice.disp var
+R23868:23875 mathcomp.algebra.interval <> interval variant
+R23877:23877 mathcomp.algebra.interval <> IntervalLattice.T var
+R23880:23887 mathcomp.algebra.interval <> itv_lex1 thm
+def 23794:23888 <> HB_unnamed_factory_97
+def 23794:23888 <> interval_interval__canonical__Order_TPreorder
+def 23794:23888 <> interval_interval__canonical__Order_TPOrder
+def 23794:23888 <> interval_interval__canonical__Order_TMeetSemilattice
+def 23794:23888 <> interval_interval__canonical__Order_TJoinSemilattice
+def 23794:23888 <> interval_interval__canonical__Order_TLattice
+def 23794:23888 <> interval_interval__canonical__Order_TBPreorder
+def 23794:23888 <> interval_interval__canonical__Order_TBPOrder
+def 23794:23888 <> interval_interval__canonical__Order_TBMeetSemilattice
+def 23794:23888 <> interval_interval__canonical__Order_TBJoinSemilattice
+def 23794:23888 <> interval_interval__canonical__Order_TBLattice
+prf 23897:23903 <> in_itvI
+binder 23905:23905 <> x:237
+binder 23907:23908 <> i1:238
+binder 23910:23911 <> i2:239
+R23915:23915 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23931:23934 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23917:23921 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R23916:23916 mathcomp.algebra.interval <> x:237 var
+R23924:23928 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R23922:23923 mathcomp.algebra.interval <> i1:238 var
+R23929:23930 mathcomp.algebra.interval <> i2:239 var
+R23935:23935 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23944:23949 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23958:23958 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23937:23941 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R23936:23936 mathcomp.algebra.interval <> x:237 var
+R23942:23943 mathcomp.algebra.interval <> i1:238 var
+R23951:23955 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R23950:23950 mathcomp.algebra.interval <> x:237 var
+R23956:23957 mathcomp.algebra.interval <> i2:239 var
+R23975:23978 mathcomp.order.order Order.MeetTheory lexI thm
+R23991:24005 mathcomp.algebra.interval IntervalLattice <> sec
+sec 24017:24029 <> IntervalTotal
+var 24043:24046 IntervalTotal disp
+var 24065:24065 IntervalTotal T
+R24050:24061 mathcomp.order.preorder Order disp_t rec
+R24069:24077 mathcomp.order.order Order.Total.Exports orderType abbrev
+R24079:24082 mathcomp.algebra.interval <> disp:241 var
+R24110:24118 mathcomp.algebra.interval <> itv_bound variant
+R24120:24120 mathcomp.algebra.interval <> IntervalTotal.T var
+R24132:24132 mathcomp.algebra.interval <> IntervalTotal.T var
+R24140:24147 mathcomp.algebra.interval <> interval variant
+R24149:24149 mathcomp.algebra.interval <> IntervalTotal.T var
+prf 24160:24168 <> BSide_min
+binder 24170:24170 <> s:244
+R24179:24179 mathcomp.algebra.interval <> IntervalTotal.T var
+binder 24173:24173 <> x:245
+binder 24175:24175 <> y:246
+R24209:24211 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24186:24190 mathcomp.algebra.interval <> BSide constr
+R24195:24203 mathcomp.order.preorder Order min def
+R24207:24207 mathcomp.algebra.interval <> y:246 var
+R24205:24205 mathcomp.algebra.interval <> x:245 var
+R24192:24192 mathcomp.algebra.interval <> s:244 var
+R24212:24220 mathcomp.order.preorder Order min def
+R24235:24239 mathcomp.algebra.interval <> BSide constr
+R24243:24243 mathcomp.algebra.interval <> y:246 var
+R24241:24241 mathcomp.algebra.interval <> s:244 var
+R24223:24227 mathcomp.algebra.interval <> BSide constr
+R24231:24231 mathcomp.algebra.interval <> x:245 var
+R24229:24229 mathcomp.algebra.interval <> s:244 var
+R24261:24280 mathcomp.algebra.interval <> comparable_BSide_min thm
+prf 24295:24303 <> BSide_max
+binder 24305:24305 <> s:247
+R24314:24314 mathcomp.algebra.interval <> IntervalTotal.T var
+binder 24308:24308 <> x:248
+binder 24310:24310 <> y:249
+R24344:24346 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24321:24325 mathcomp.algebra.interval <> BSide constr
+R24330:24338 mathcomp.order.preorder Order max def
+R24342:24342 mathcomp.algebra.interval <> y:249 var
+R24340:24340 mathcomp.algebra.interval <> x:248 var
+R24327:24327 mathcomp.algebra.interval <> s:247 var
+R24347:24355 mathcomp.order.preorder Order max def
+R24370:24374 mathcomp.algebra.interval <> BSide constr
+R24378:24378 mathcomp.algebra.interval <> y:249 var
+R24376:24376 mathcomp.algebra.interval <> s:247 var
+R24358:24362 mathcomp.algebra.interval <> BSide constr
+R24366:24366 mathcomp.algebra.interval <> x:248 var
+R24364:24364 mathcomp.algebra.interval <> s:247 var
+R24396:24415 mathcomp.algebra.interval <> comparable_BSide_max thm
+prf 24430:24444 <> itv_bound_total
+R24448:24452 Corelib.ssr.ssrbool <> total def
+R24462:24464 Corelib.ssr.ssrbool <> rel def
+R24467:24475 mathcomp.algebra.interval <> itv_bound variant
+R24477:24477 mathcomp.algebra.interval <> IntervalTotal.T var
+R24455:24458 mathcomp.order.preorder Order.PreOSyntax ::function_scope:'<=%O' not
+R24526:24529 mathcomp.order.preorder Order.PreOSyntax ::function_scope:'<=%O' not
+R24542:24546 mathcomp.order.order Order.TotalTheory ltgtP def
+R24585:24611 mathcomp.order.order Order.Lattice_isTotal Build abbrev
+R24618:24634 mathcomp.algebra.interval <> itv_bound_display thm
+R24636:24639 mathcomp.algebra.interval <> IntervalTotal.disp var
+R24643:24651 mathcomp.algebra.interval <> itv_bound variant
+R24653:24653 mathcomp.algebra.interval <> IntervalTotal.T var
+R24656:24670 mathcomp.algebra.interval <> itv_bound_total thm
+def 24555:24671 <> HB_unnamed_factory_99
+def 24555:24671 <> Order_Lattice_isTotal__to__Order_DistrLattice_isTotal
+def 24555:24671 <> Order_Lattice_isTotal__to__Order_Lattice_isDistributive
+def 24555:24671 <> HB_unnamed_mixin_102
+def 24555:24671 <> interval_itv_bound__canonical__Order_DistrLattice
+def 24555:24671 <> HB_unnamed_mixin_103
+def 24555:24671 <> interval_itv_bound__canonical__Order_Total
+def 24555:24671 <> interval_itv_bound__canonical__Order_TDistrLattice
+def 24555:24671 <> interval_itv_bound__canonical__Order_TTotal
+def 24555:24671 <> interval_itv_bound__canonical__Order_BDistrLattice
+def 24555:24671 <> interval_itv_bound__canonical__Order_TBDistrLattice
+def 24555:24671 <> interval_itv_bound__canonical__Order_BTotal
+def 24555:24671 <> interval_itv_bound__canonical__Order_TBTotal
+prf 24680:24689 <> itv_meetUl
+R24694:24710 Corelib.ssr.ssrfun <> left_distributive def
+R24713:24720 mathcomp.algebra.interval <> interval variant
+R24722:24722 mathcomp.algebra.interval <> IntervalTotal.T var
+R24727:24736 mathcomp.order.order Order meet def
+R24738:24747 mathcomp.order.order Order join def
+R24793:24802 mathcomp.order.order Order meet def
+R24805:24814 mathcomp.order.order Order join def
+R24820:24825 mathcomp.order.order Order.DistrLatticeTheory meetUl thm
+R24828:24833 mathcomp.order.order Order.DistrLatticeTheory joinIl thm
+R24872:24910 mathcomp.order.order Order.Lattice_Meet_isDistrLattice Build abbrev
+R24917:24932 mathcomp.algebra.interval <> interval_display thm
+R24934:24937 mathcomp.algebra.interval <> IntervalTotal.disp var
+R24941:24948 mathcomp.algebra.interval <> interval variant
+R24950:24950 mathcomp.algebra.interval <> IntervalTotal.T var
+R24953:24962 mathcomp.algebra.interval <> itv_meetUl thm
+def 24842:24963 <> HB_unnamed_factory_104
+def 24842:24963 <> Order_Lattice_Meet_isDistrLattice__to__Order_Lattice_isDistributive
+def 24842:24963 <> HB_unnamed_mixin_106
+def 24842:24963 <> interval_interval__canonical__Order_DistrLattice
+def 24842:24963 <> interval_interval__canonical__Order_TDistrLattice
+def 24842:24963 <> interval_interval__canonical__Order_BDistrLattice
+def 24842:24963 <> interval_interval__canonical__Order_TBDistrLattice
+prf 24972:24981 <> itv_splitU
+binder 24983:24983 <> c:250
+binder 24985:24985 <> a:251
+binder 24987:24987 <> b:252
+R25002:25007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24992:24995 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x_'<='_x not
+R24997:25000 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x_'<='_x not
+R24991:24991 mathcomp.algebra.interval <> a:251 var
+R24996:24996 mathcomp.algebra.interval <> c:250 var
+R25001:25001 mathcomp.algebra.interval <> b:252 var
+binder 25015:25015 <> y:253
+R25018:25018 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25037:25040 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25020:25024 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25019:25019 mathcomp.algebra.interval <> y:253 var
+R25025:25032 mathcomp.algebra.interval <> Interval constr
+R25036:25036 mathcomp.algebra.interval <> b:252 var
+R25034:25034 mathcomp.algebra.interval <> a:251 var
+R25041:25041 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R25060:25065 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R25084:25084 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R25043:25047 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25042:25042 mathcomp.algebra.interval <> y:253 var
+R25048:25055 mathcomp.algebra.interval <> Interval constr
+R25059:25059 mathcomp.algebra.interval <> c:250 var
+R25057:25057 mathcomp.algebra.interval <> a:251 var
+R25067:25071 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25066:25066 mathcomp.algebra.interval <> y:253 var
+R25072:25079 mathcomp.algebra.interval <> Interval constr
+R25083:25083 mathcomp.algebra.interval <> b:252 var
+R25081:25081 mathcomp.algebra.interval <> c:250 var
+R25099:25102 Corelib.ssr.ssrbool <> andP thm
+R25129:25139 mathcomp.algebra.interval <> itv_boundlr thm
+R25163:25163 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25177:25180 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25172:25175 mathcomp.order.preorder Order.PreOSyntax ::order_scope:x_'<='_x not
+R25164:25169 mathcomp.algebra.interval <> BRight abbrev
+R25143:25147 mathcomp.order.order Order.TotalTheory ltNge thm
+R25150:25154 mathcomp.algebra.interval <> BLeft abbrev
+R25192:25194 mathcomp.order.order Order.TotalTheory leP def
+R25200:25202 mathcomp.order.order Order.TotalTheory leP def
+R25208:25210 mathcomp.order.order Order.TotalTheory leP def
+R25255:25257 mathcomp.order.order Order.TotalTheory leP def
+R25265:25272 mathcomp.order.order Order.POrderTheory le_trans thm
+R25297:25299 mathcomp.order.order Order.TotalTheory leP def
+R25307:25314 mathcomp.order.order Order.POrderTheory le_trans thm
+prf 25340:25351 <> itv_splitUeq
+binder 25353:25353 <> x:254
+binder 25355:25355 <> a:255
+binder 25357:25357 <> b:256
+R25379:25384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25362:25366 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25361:25361 mathcomp.algebra.interval <> x:254 var
+R25367:25374 mathcomp.algebra.interval <> Interval constr
+R25378:25378 mathcomp.algebra.interval <> b:256 var
+R25376:25376 mathcomp.algebra.interval <> a:255 var
+binder 25392:25392 <> y:257
+R25395:25395 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25414:25421 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25397:25401 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25396:25396 mathcomp.algebra.interval <> y:257 var
+R25402:25409 mathcomp.algebra.interval <> Interval constr
+R25413:25413 mathcomp.algebra.interval <> b:256 var
+R25411:25411 mathcomp.algebra.interval <> a:255 var
+R25422:25425 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R25452:25453 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R25460:25462 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R25490:25490 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R25427:25431 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25426:25426 mathcomp.algebra.interval <> y:257 var
+R25432:25439 mathcomp.algebra.interval <> Interval constr
+R25444:25448 mathcomp.algebra.interval <> BLeft abbrev
+R25450:25450 mathcomp.algebra.interval <> x:254 var
+R25441:25441 mathcomp.algebra.interval <> a:255 var
+R25455:25458 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R25454:25454 mathcomp.algebra.interval <> y:257 var
+R25459:25459 mathcomp.algebra.interval <> x:254 var
+R25464:25468 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25463:25463 mathcomp.algebra.interval <> y:257 var
+R25469:25476 mathcomp.algebra.interval <> Interval constr
+R25489:25489 mathcomp.algebra.interval <> b:256 var
+R25479:25484 mathcomp.algebra.interval <> BRight abbrev
+R25486:25486 mathcomp.algebra.interval <> x:254 var
+R25532:25541 mathcomp.algebra.interval <> itv_splitU thm
+R25544:25548 mathcomp.algebra.interval <> BLeft abbrev
+R25559:25561 mathcomp.order.order Order.POrderTheory ltW thm
+R25505:25508 Corelib.ssr.ssrbool <> andP thm
+R25576:25578 Corelib.Init.Datatypes <> orb def
+R25591:25600 mathcomp.algebra.interval <> itv_splitU thm
+R25603:25608 mathcomp.algebra.interval <> BRight abbrev
+R25615:25624 mathcomp.algebra.interval <> bound_lexx thm
+R25629:25634 mathcomp.algebra.interval <> itv_xx thm
+prf 25649:25664 <> itv_total_meet3E
+binder 25666:25667 <> i1:258
+binder 25669:25670 <> i2:259
+binder 25672:25673 <> i3:260
+R25695:25699 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R25688:25692 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R25681:25685 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R25679:25680 mathcomp.algebra.interval <> i1:258 var
+R25686:25687 mathcomp.algebra.interval <> i2:259 var
+R25693:25694 mathcomp.algebra.interval <> i3:260 var
+R25700:25703 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R25713:25714 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R25724:25725 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R25735:25735 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R25706:25710 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R25704:25705 mathcomp.algebra.interval <> i1:258 var
+R25711:25712 mathcomp.algebra.interval <> i2:259 var
+R25717:25721 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R25715:25716 mathcomp.algebra.interval <> i1:258 var
+R25722:25723 mathcomp.algebra.interval <> i3:260 var
+R25728:25732 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`&`'_x not
+R25726:25727 mathcomp.algebra.interval <> i2:259 var
+R25733:25734 mathcomp.algebra.interval <> i3:260 var
+R25803:25805 mathcomp.boot.seq <> inE def
+R25808:25812 mathcomp.boot.eqtype <> eq_op def
+R25825:25827 mathcomp.order.order Order.TotalTheory leP def
+R25846:25848 mathcomp.order.order Order.TotalTheory leP def
+R25867:25869 mathcomp.order.order Order.TotalTheory leP def
+R25890:25892 mathcomp.order.order Order.TotalTheory leP def
+R25911:25913 mathcomp.order.order Order.TotalTheory leP def
+R25932:25934 mathcomp.order.order Order.TotalTheory leP def
+R25957:25960 mathcomp.boot.eqtype <> eqxx abbrev
+R25963:25966 Corelib.ssr.ssrbool <> orbT thm
+R26017:26019 mathcomp.order.order Order.TotalTheory leP def
+R26027:26034 mathcomp.order.order Order.POrderTheory le_trans thm
+R26059:26061 mathcomp.order.order Order.TotalTheory leP def
+R26069:26076 mathcomp.order.order Order.POrderTheory le_trans thm
+R26101:26103 mathcomp.order.order Order.TotalTheory leP def
+R26111:26118 mathcomp.order.order Order.POrderTheory le_trans thm
+R26143:26145 mathcomp.order.order Order.TotalTheory leP def
+R26153:26160 mathcomp.order.order Order.POrderTheory le_trans thm
+R26185:26187 mathcomp.order.order Order.TotalTheory leP def
+R26195:26202 mathcomp.order.order Order.POrderTheory le_trans thm
+R26227:26229 mathcomp.order.order Order.TotalTheory leP def
+R26237:26244 mathcomp.order.order Order.POrderTheory lt_trans thm
+R26269:26271 mathcomp.order.order Order.TotalTheory leP def
+R26279:26286 mathcomp.order.order Order.POrderTheory lt_trans thm
+R26311:26313 mathcomp.order.order Order.TotalTheory leP def
+R26321:26328 mathcomp.order.order Order.POrderTheory lt_trans thm
+R26353:26355 mathcomp.order.order Order.TotalTheory leP def
+R26363:26370 mathcomp.order.order Order.POrderTheory lt_trans thm
+R26395:26397 mathcomp.order.order Order.TotalTheory leP def
+R26405:26412 mathcomp.order.order Order.POrderTheory lt_trans thm
+prf 26438:26453 <> itv_total_join3E
+binder 26455:26456 <> i1:261
+binder 26458:26459 <> i2:262
+binder 26461:26462 <> i3:263
+R26484:26488 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R26477:26481 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R26470:26474 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R26468:26469 mathcomp.algebra.interval <> i1:261 var
+R26475:26476 mathcomp.algebra.interval <> i2:262 var
+R26482:26483 mathcomp.algebra.interval <> i3:263 var
+R26489:26492 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26502:26503 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26513:26514 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26524:26524 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26495:26499 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R26493:26494 mathcomp.algebra.interval <> i1:261 var
+R26500:26501 mathcomp.algebra.interval <> i2:262 var
+R26506:26510 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R26504:26505 mathcomp.algebra.interval <> i1:261 var
+R26511:26512 mathcomp.algebra.interval <> i3:263 var
+R26517:26521 mathcomp.order.order Order.LatticeSyntax ::order_scope:x_'`|`'_x not
+R26515:26516 mathcomp.algebra.interval <> i2:262 var
+R26522:26523 mathcomp.algebra.interval <> i3:263 var
+R26592:26594 mathcomp.boot.seq <> inE def
+R26597:26601 mathcomp.boot.eqtype <> eq_op def
+R26614:26616 mathcomp.order.order Order.TotalTheory leP def
+R26635:26637 mathcomp.order.order Order.TotalTheory leP def
+R26656:26658 mathcomp.order.order Order.TotalTheory leP def
+R26679:26681 mathcomp.order.order Order.TotalTheory leP def
+R26700:26702 mathcomp.order.order Order.TotalTheory leP def
+R26721:26723 mathcomp.order.order Order.TotalTheory leP def
+R26746:26749 mathcomp.boot.eqtype <> eqxx abbrev
+R26752:26755 Corelib.ssr.ssrbool <> orbT thm
+R26806:26808 mathcomp.order.order Order.TotalTheory leP def
+R26816:26823 mathcomp.order.order Order.POrderTheory le_trans thm
+R26848:26850 mathcomp.order.order Order.TotalTheory leP def
+R26858:26865 mathcomp.order.order Order.POrderTheory le_trans thm
+R26890:26892 mathcomp.order.order Order.TotalTheory leP def
+R26900:26907 mathcomp.order.order Order.POrderTheory le_trans thm
+R26932:26934 mathcomp.order.order Order.TotalTheory leP def
+R26942:26949 mathcomp.order.order Order.POrderTheory le_trans thm
+R26974:26976 mathcomp.order.order Order.TotalTheory leP def
+R26984:26991 mathcomp.order.order Order.POrderTheory le_trans thm
+R27016:27018 mathcomp.order.order Order.TotalTheory leP def
+R27026:27033 mathcomp.order.order Order.POrderTheory lt_trans thm
+R27058:27060 mathcomp.order.order Order.TotalTheory leP def
+R27068:27075 mathcomp.order.order Order.POrderTheory lt_trans thm
+R27100:27102 mathcomp.order.order Order.TotalTheory leP def
+R27110:27117 mathcomp.order.order Order.POrderTheory lt_trans thm
+R27142:27144 mathcomp.order.order Order.TotalTheory leP def
+R27152:27159 mathcomp.order.order Order.POrderTheory lt_trans thm
+R27184:27186 mathcomp.order.order Order.TotalTheory leP def
+R27194:27201 mathcomp.order.order Order.POrderTheory lt_trans thm
+prf 27227:27236 <> predC_itvl
+binder 27238:27238 <> a:264
+R27264:27267 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R27242:27248 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27263:27263 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27249:27256 mathcomp.algebra.interval <> Interval constr
+R27262:27262 mathcomp.algebra.interval <> a:264 var
+R27258:27260 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R27268:27275 mathcomp.algebra.interval <> Interval constr
+R27279:27281 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R27277:27277 mathcomp.algebra.interval <> a:264 var
+R27328:27330 mathcomp.boot.seq <> inE def
+R27333:27339 mathcomp.algebra.interval <> subitvE thm
+R27343:27350 mathcomp.algebra.interval <> bnd_simp def
+R27352:27356 Corelib.ssr.ssrbool <> andbT thm
+R27359:27366 mathcomp.algebra.interval <> lteBSide def
+R27370:27376 mathcomp.order.order Order.TotalTheory lteifNE thm
+R27378:27382 Corelib.ssr.ssrbool <> negbK thm
+prf 27397:27406 <> predC_itvr
+binder 27408:27408 <> a:265
+R27434:27437 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R27412:27418 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27433:27433 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27419:27426 mathcomp.algebra.interval <> Interval constr
+R27430:27432 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R27428:27428 mathcomp.algebra.interval <> a:265 var
+R27438:27445 mathcomp.algebra.interval <> Interval constr
+R27451:27451 mathcomp.algebra.interval <> a:265 var
+R27447:27449 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R27482:27484 mathcomp.boot.seq <> inE def
+R27489:27498 mathcomp.algebra.interval <> predC_itvl thm
+R27500:27504 Corelib.ssr.ssrbool <> negbK thm
+prf 27519:27527 <> predC_itv
+binder 27529:27529 <> i:266
+R27542:27545 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R27533:27539 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27541:27541 Corelib.ssr.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R27540:27540 mathcomp.algebra.interval <> i:266 var
+R27546:27552 Corelib.ssr.ssrbool <> ::function_scope:'['_'predU'_x_'&'_x_']' not
+R27569:27571 Corelib.ssr.ssrbool <> ::function_scope:'['_'predU'_x_'&'_x_']' not
+R27588:27588 Corelib.ssr.ssrbool <> ::function_scope:'['_'predU'_x_'&'_x_']' not
+R27553:27560 mathcomp.algebra.interval <> Interval constr
+R27567:27568 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R27566:27566 mathcomp.algebra.interval <> i:266 var
+R27562:27564 mathcomp.algebra.interval <> ::order_scope:'-oo' not
+R27572:27579 mathcomp.algebra.interval <> Interval constr
+R27585:27587 mathcomp.algebra.interval <> ::order_scope:'+oo' not
+R27582:27583 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R27581:27581 mathcomp.algebra.interval <> i:266 var
+R27635:27637 mathcomp.boot.seq <> inE def
+R27641:27650 mathcomp.algebra.interval <> itv_splitI thm
+R27652:27659 Corelib.ssr.ssrbool <> negb_and thm
+R27683:27685 mathcomp.boot.seq <> inE def
+R27690:27699 mathcomp.algebra.interval <> predC_itvl thm
+R27702:27711 mathcomp.algebra.interval <> predC_itvr thm
+R27724:27736 mathcomp.algebra.interval IntervalTotal <> sec

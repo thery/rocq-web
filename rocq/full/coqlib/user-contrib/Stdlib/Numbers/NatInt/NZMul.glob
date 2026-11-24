@@ -1,0 +1,220 @@
+DIGEST 52042e70104948cddd837fcc46987adc
+FStdlib.Numbers.NatInt.NZMul
+R1466:1473 Stdlib.Numbers.NatInt.NZAxioms <> <> lib
+R1475:1480 Stdlib.Numbers.NatInt.NZBase <> <> lib
+R1482:1486 Stdlib.Numbers.NatInt.NZAdd <> <> lib
+R1525:1539 Stdlib.Numbers.NatInt.NZAxioms NZBasicFunsSig' <> modtype
+R1558:1567 Stdlib.Numbers.NatInt.NZBase NZBaseProp <> modtype
+R1569:1570 Stdlib.Numbers.NatInt.NZMul NZ <> mod
+modtype 1502:1510 <> NZMulProp
+R1502:1510 Stdlib.Numbers.NatInt.NZMul NZ <> mod
+R1502:1510 Stdlib.Numbers.NatInt.NZMul NZBase <> mod
+R1582:1590 Stdlib.Numbers.NatInt.NZAdd NZAddProp <> modtype
+R1592:1593 Stdlib.Numbers.NatInt.NZMul NZ <> mod
+R1595:1600 Stdlib.Numbers.NatInt.NZMul NZBase <> mod
+prf 1612:1618 NZMulProp mul_0_r
+binder 1629:1629 <> n:1
+R1637:1640 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1633:1635 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1632:1632 Stdlib.Numbers.NatInt.NZMul <> n:1 var
+prf 1707:1716 NZMulProp mul_succ_r
+binder 1727:1727 <> n:2
+binder 1729:1729 <> m:3
+R1741:1744 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1733:1736 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1740:1740 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1732:1732 Stdlib.Numbers.NatInt.NZMul <> n:2 var
+R1737:1737 Stdlib.Numbers.NatInt.NZMul NZ S abbrev
+R1739:1739 Stdlib.Numbers.NatInt.NZMul <> m:3 var
+R1750:1752 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1746:1748 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1745:1745 Stdlib.Numbers.NatInt.NZMul <> n:2 var
+R1749:1749 Stdlib.Numbers.NatInt.NZMul <> m:3 var
+R1753:1753 Stdlib.Numbers.NatInt.NZMul <> n:2 var
+R1836:1846 Stdlib.Numbers.NatInt.NZMul NZBase succ_inj_wd thm
+R1852:1860 Stdlib.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1864:1871 Stdlib.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1879:1887 Stdlib.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1906:1917 Stdlib.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1949:1955 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_0_r thm
+R1957:1966 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_succ_r thm
+prf 1983:1990 NZMulProp mul_comm
+binder 2001:2001 <> n:4
+binder 2003:2003 <> m:5
+R2011:2014 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2007:2009 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2006:2006 Stdlib.Numbers.NatInt.NZMul <> n:4 var
+R2010:2010 Stdlib.Numbers.NatInt.NZMul <> m:5 var
+R2016:2018 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2015:2015 Stdlib.Numbers.NatInt.NZMul <> m:5 var
+R2019:2019 Stdlib.Numbers.NatInt.NZMul <> n:4 var
+R2104:2115 Stdlib.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 2132:2146 NZMulProp mul_add_distr_r
+binder 2157:2157 <> n:6
+binder 2159:2159 <> m:7
+binder 2161:2161 <> p:8
+R2175:2178 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2164:2164 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2170:2173 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2166:2168 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2165:2165 Stdlib.Numbers.NatInt.NZMul <> n:6 var
+R2169:2169 Stdlib.Numbers.NatInt.NZMul <> m:7 var
+R2174:2174 Stdlib.Numbers.NatInt.NZMul <> p:8 var
+R2184:2186 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2180:2182 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2179:2179 Stdlib.Numbers.NatInt.NZMul <> n:6 var
+R2183:2183 Stdlib.Numbers.NatInt.NZMul <> p:8 var
+R2188:2190 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2187:2187 Stdlib.Numbers.NatInt.NZMul <> m:7 var
+R2191:2191 Stdlib.Numbers.NatInt.NZMul <> p:8 var
+R2279:2287 Stdlib.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R2291:2298 Stdlib.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R2304:2304 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2310:2318 Stdlib.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R2337:2348 Stdlib.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 2365:2379 NZMulProp mul_add_distr_l
+binder 2390:2390 <> n:9
+binder 2392:2392 <> m:10
+binder 2394:2394 <> p:11
+R2408:2411 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2398:2401 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2407:2407 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2397:2397 Stdlib.Numbers.NatInt.NZMul <> n:9 var
+R2403:2405 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2402:2402 Stdlib.Numbers.NatInt.NZMul <> m:10 var
+R2406:2406 Stdlib.Numbers.NatInt.NZMul <> p:11 var
+R2417:2419 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2413:2415 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2412:2412 Stdlib.Numbers.NatInt.NZMul <> n:9 var
+R2416:2416 Stdlib.Numbers.NatInt.NZMul <> m:10 var
+R2421:2423 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2420:2420 Stdlib.Numbers.NatInt.NZMul <> n:9 var
+R2424:2424 Stdlib.Numbers.NatInt.NZMul <> p:11 var
+R2457:2464 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2470:2472 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2479:2486 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2495:2502 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2516:2530 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+prf 2547:2555 NZMulProp mul_assoc
+binder 2566:2566 <> n:12
+binder 2568:2568 <> m:13
+binder 2570:2570 <> p:14
+R2584:2587 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2574:2577 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2583:2583 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2573:2573 Stdlib.Numbers.NatInt.NZMul <> n:12 var
+R2579:2581 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2578:2578 Stdlib.Numbers.NatInt.NZMul <> m:13 var
+R2582:2582 Stdlib.Numbers.NatInt.NZMul <> p:14 var
+R2588:2588 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2594:2597 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2590:2592 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2589:2589 Stdlib.Numbers.NatInt.NZMul <> n:12 var
+R2593:2593 Stdlib.Numbers.NatInt.NZMul <> m:13 var
+R2598:2598 Stdlib.Numbers.NatInt.NZMul <> p:14 var
+R2681:2695 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+R2714:2725 Stdlib.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 2742:2748 NZMulProp mul_1_l
+binder 2759:2759 <> n:15
+R2767:2770 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2763:2765 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2766:2766 Stdlib.Numbers.NatInt.NZMul <> n:15 var
+R2771:2771 Stdlib.Numbers.NatInt.NZMul <> n:15 var
+prf 2818:2824 NZMulProp mul_1_r
+binder 2835:2835 <> n:16
+R2843:2846 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2839:2841 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2838:2838 Stdlib.Numbers.NatInt.NZMul <> n:16 var
+R2847:2847 Stdlib.Numbers.NatInt.NZMul <> n:16 var
+R2909:2915 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_1_l thm
+R2917:2923 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_1_r thm
+prf 2940:2951 NZMulProp mul_shuffle0
+binder 2962:2962 <> n:17
+binder 2964:2964 <> m:18
+binder 2966:2966 <> p:19
+R2974:2977 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2972:2972 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2970:2970 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2969:2969 Stdlib.Numbers.NatInt.NZMul <> n:17 var
+R2971:2971 Stdlib.Numbers.NatInt.NZMul <> m:18 var
+R2973:2973 Stdlib.Numbers.NatInt.NZMul <> p:19 var
+R2981:2981 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2979:2979 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2978:2978 Stdlib.Numbers.NatInt.NZMul <> n:17 var
+R2980:2980 Stdlib.Numbers.NatInt.NZMul <> p:19 var
+R2982:2982 Stdlib.Numbers.NatInt.NZMul <> m:18 var
+R3023:3031 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R3035:3042 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+prf 3062:3073 NZMulProp mul_shuffle1
+binder 3084:3084 <> n:20
+binder 3086:3086 <> m:21
+binder 3088:3088 <> p:22
+binder 3090:3090 <> q:23
+R3110:3113 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3093:3093 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3099:3103 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3109:3109 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3095:3097 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3094:3094 Stdlib.Numbers.NatInt.NZMul <> n:20 var
+R3098:3098 Stdlib.Numbers.NatInt.NZMul <> m:21 var
+R3105:3107 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3104:3104 Stdlib.Numbers.NatInt.NZMul <> p:22 var
+R3108:3108 Stdlib.Numbers.NatInt.NZMul <> q:23 var
+R3114:3114 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3120:3124 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3130:3130 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3116:3118 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3115:3115 Stdlib.Numbers.NatInt.NZMul <> n:20 var
+R3119:3119 Stdlib.Numbers.NatInt.NZMul <> p:22 var
+R3126:3128 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3125:3125 Stdlib.Numbers.NatInt.NZMul <> m:21 var
+R3129:3129 Stdlib.Numbers.NatInt.NZMul <> q:23 var
+R3170:3178 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R3182:3193 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_shuffle0 thm
+prf 3213:3224 NZMulProp mul_shuffle2
+binder 3235:3235 <> n:24
+binder 3237:3237 <> m:25
+binder 3239:3239 <> p:26
+binder 3241:3241 <> q:27
+R3261:3264 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3244:3244 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3250:3254 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3260:3260 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3246:3248 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3245:3245 Stdlib.Numbers.NatInt.NZMul <> n:24 var
+R3249:3249 Stdlib.Numbers.NatInt.NZMul <> m:25 var
+R3256:3258 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3255:3255 Stdlib.Numbers.NatInt.NZMul <> p:26 var
+R3259:3259 Stdlib.Numbers.NatInt.NZMul <> q:27 var
+R3265:3265 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3271:3275 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3281:3281 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3267:3269 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3266:3266 Stdlib.Numbers.NatInt.NZMul <> n:24 var
+R3270:3270 Stdlib.Numbers.NatInt.NZMul <> q:27 var
+R3277:3279 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3276:3276 Stdlib.Numbers.NatInt.NZMul <> m:25 var
+R3280:3280 Stdlib.Numbers.NatInt.NZMul <> p:26 var
+R3316:3323 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R3335:3346 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_shuffle1 thm
+prf 3363:3374 NZMulProp mul_shuffle3
+binder 3385:3385 <> n:28
+binder 3387:3387 <> m:29
+binder 3389:3389 <> p:30
+R3403:3406 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3393:3396 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3402:3402 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3392:3392 Stdlib.Numbers.NatInt.NZMul <> n:28 var
+R3398:3400 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3397:3397 Stdlib.Numbers.NatInt.NZMul <> m:29 var
+R3401:3401 Stdlib.Numbers.NatInt.NZMul <> p:30 var
+R3408:3411 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3417:3417 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3407:3407 Stdlib.Numbers.NatInt.NZMul <> m:29 var
+R3413:3415 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3412:3412 Stdlib.Numbers.NatInt.NZMul <> n:28 var
+R3416:3416 Stdlib.Numbers.NatInt.NZMul <> p:30 var
+R3453:3461 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R3465:3472 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R3478:3486 Stdlib.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R3499:3507 Stdlib.Numbers.NatInt.NZMul NZMulProp <> modtype

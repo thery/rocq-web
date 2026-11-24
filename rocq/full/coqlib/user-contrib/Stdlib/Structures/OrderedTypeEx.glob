@@ -1,0 +1,1091 @@
+DIGEST 2a06e81d123e704d95beb6744728cb01
+FStdlib.Structures.OrderedTypeEx
+R703:713 Stdlib.Structures.OrderedType <> <> lib
+R743:748 Stdlib.ZArith.BinInt <> <> lib
+R778:785 Stdlib.Arith.PeanoNat <> <> lib
+R787:795 Stdlib.Arith.Peano_dec <> <> lib
+R797:807 Stdlib.Arith.Compare_dec <> <> lib
+R837:841 Stdlib.Strings.Ascii <> <> lib
+R843:848 Stdlib.Strings.String <> <> lib
+R878:883 Stdlib.NArith.NArith <> <> lib
+R885:888 Stdlib.NArith.Ndec <> <> lib
+modtype 1049:1064 <> UsualOrderedType
+ax 1085:1085 UsualOrderedType t
+def 1107:1108 UsualOrderedType eq
+R1114:1115 Corelib.Init.Logic <> eq ind
+R1117:1117 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+ax 1138:1139 UsualOrderedType lt
+R1144:1147 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1143:1143 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+R1149:1152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1148:1148 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1171:1177 UsualOrderedType eq_refl
+R1183:1189 Corelib.Init.Logic <> eq_refl constr
+R1191:1191 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1206:1211 UsualOrderedType eq_sym
+R1217:1222 Corelib.Init.Logic <> eq_sym scheme
+R1224:1224 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1239:1246 UsualOrderedType eq_trans
+R1252:1259 Corelib.Init.Logic <> eq_trans thm
+R1261:1261 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+ax 1271:1278 UsualOrderedType lt_trans
+R1297:1297 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1289:1289 <> x:5
+binder 1291:1291 <> y:6
+binder 1293:1293 <> z:7
+R1306:1309 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1300:1301 Stdlib.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1303:1303 Stdlib.Structures.OrderedTypeEx <> x:5 var
+R1305:1305 Stdlib.Structures.OrderedTypeEx <> y:6 var
+R1316:1319 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1310:1311 Stdlib.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1313:1313 Stdlib.Structures.OrderedTypeEx <> y:6 var
+R1315:1315 Stdlib.Structures.OrderedTypeEx <> z:7 var
+R1320:1321 Stdlib.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1323:1323 Stdlib.Structures.OrderedTypeEx <> x:5 var
+R1325:1325 Stdlib.Structures.OrderedTypeEx <> z:7 var
+ax 1335:1343 UsualOrderedType lt_not_eq
+R1360:1360 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1354:1354 <> x:10
+binder 1356:1356 <> y:11
+R1369:1372 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1363:1364 Stdlib.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1366:1366 Stdlib.Structures.OrderedTypeEx <> x:10 var
+R1368:1368 Stdlib.Structures.OrderedTypeEx <> y:11 var
+R1373:1374 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1375:1376 Stdlib.Structures.OrderedTypeEx UsualOrderedType eq def
+R1378:1378 Stdlib.Structures.OrderedTypeEx <> x:10 var
+R1380:1380 Stdlib.Structures.OrderedTypeEx <> y:11 var
+ax 1394:1400 UsualOrderedType compare
+R1417:1417 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1411:1411 <> x:14
+binder 1413:1413 <> y:15
+R1420:1426 Stdlib.Structures.OrderedType <> Compare ind
+R1436:1436 Stdlib.Structures.OrderedTypeEx <> y:15 var
+R1434:1434 Stdlib.Structures.OrderedTypeEx <> x:14 var
+R1431:1432 Stdlib.Structures.OrderedTypeEx UsualOrderedType eq def
+R1428:1429 Stdlib.Structures.OrderedTypeEx UsualOrderedType lt defax
+ax 1450:1455 UsualOrderedType eq_dec
+R1472:1472 Stdlib.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1466:1466 <> x:18
+binder 1468:1468 <> y:19
+R1475:1476 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1483:1489 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1498:1499 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1477:1478 Stdlib.Structures.OrderedTypeEx UsualOrderedType eq def
+R1480:1480 Stdlib.Structures.OrderedTypeEx <> x:18 var
+R1482:1482 Stdlib.Structures.OrderedTypeEx <> y:19 var
+R1490:1491 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1492:1493 Stdlib.Structures.OrderedTypeEx UsualOrderedType eq def
+R1495:1495 Stdlib.Structures.OrderedTypeEx <> x:18 var
+R1497:1497 Stdlib.Structures.OrderedTypeEx <> y:19 var
+R1506:1521 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+R1609:1624 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+R1630:1640 Stdlib.Structures.OrderedType OrderedType <> modtype
+R1645:1645 Stdlib.Structures.OrderedTypeEx U <> mod
+mod 1596:1604 <> UOT_to_OT
+R1754:1769 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 1741:1749 <> Nat_as_OT
+def 1786:1786 Nat_as_OT t
+R1791:1793 Corelib.Init.Datatypes <> nat ind
+def 1810:1811 Nat_as_OT eq
+R1817:1818 Corelib.Init.Logic <> eq ind
+R1820:1822 Corelib.Init.Datatypes <> nat ind
+def 1838:1844 Nat_as_OT eq_refl
+R1850:1856 Corelib.Init.Logic <> eq_refl constr
+R1858:1858 Stdlib.Structures.OrderedTypeEx Nat_as_OT t def
+def 1874:1879 Nat_as_OT eq_sym
+R1885:1890 Corelib.Init.Logic <> eq_sym scheme
+R1892:1892 Stdlib.Structures.OrderedTypeEx Nat_as_OT t def
+def 1908:1915 Nat_as_OT eq_trans
+R1921:1928 Corelib.Init.Logic <> eq_trans thm
+R1930:1930 Stdlib.Structures.OrderedTypeEx Nat_as_OT t def
+def 1947:1948 Nat_as_OT lt
+R1953:1954 Corelib.Init.Peano <> lt def
+prf 1966:1973 Nat_as_OT lt_trans
+R1992:1992 Stdlib.Structures.OrderedTypeEx Nat_as_OT t def
+binder 1984:1984 <> x:22
+binder 1986:1986 <> y:23
+binder 1988:1988 <> z:24
+R2001:2004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1995:1996 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R1998:1998 Stdlib.Structures.OrderedTypeEx <> x:22 var
+R2000:2000 Stdlib.Structures.OrderedTypeEx <> y:23 var
+R2011:2014 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2005:2006 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2008:2008 Stdlib.Structures.OrderedTypeEx <> y:23 var
+R2010:2010 Stdlib.Structures.OrderedTypeEx <> z:24 var
+R2015:2016 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2018:2018 Stdlib.Structures.OrderedTypeEx <> x:22 var
+R2020:2020 Stdlib.Structures.OrderedTypeEx <> z:24 var
+R2039:2040 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2057:2068 Stdlib.Arith.PeanoNat Nat lt_trans thm
+prf 2098:2106 Nat_as_OT lt_not_eq
+R2123:2123 Stdlib.Structures.OrderedTypeEx Nat_as_OT t def
+binder 2117:2117 <> x:25
+binder 2119:2119 <> y:26
+R2132:2135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2126:2127 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2129:2129 Stdlib.Structures.OrderedTypeEx <> x:25 var
+R2131:2131 Stdlib.Structures.OrderedTypeEx <> y:26 var
+R2136:2137 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2138:2139 Stdlib.Structures.OrderedTypeEx Nat_as_OT eq def
+R2141:2141 Stdlib.Structures.OrderedTypeEx <> x:25 var
+R2143:2143 Stdlib.Structures.OrderedTypeEx <> y:26 var
+R2162:2163 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2166:2167 Stdlib.Structures.OrderedTypeEx Nat_as_OT eq def
+R2205:2217 Stdlib.Arith.PeanoNat Nat lt_irrefl thm
+def 2239:2245 Nat_as_OT compare
+binder 2247:2247 <> x:27
+binder 2249:2249 <> y:28
+R2253:2259 Stdlib.Structures.OrderedType <> Compare ind
+R2269:2269 Stdlib.Structures.OrderedTypeEx <> y:28 var
+R2267:2267 Stdlib.Structures.OrderedTypeEx <> x:27 var
+R2264:2265 Stdlib.Structures.OrderedTypeEx Nat_as_OT eq def
+R2261:2262 Stdlib.Structures.OrderedTypeEx Nat_as_OT lt def
+R2294:2304 Stdlib.Arith.PeanoNat Nat compare def
+R2331:2332 Stdlib.Structures.OrderedType <> EQ constr
+R2345:2358 Stdlib.Arith.Compare_dec <> nat_compare_eq thm
+R2373:2374 Stdlib.Structures.OrderedType <> LT constr
+R2387:2403 Stdlib.Arith.Compare_dec <> nat_compare_Lt_lt thm
+R2418:2419 Stdlib.Structures.OrderedType <> GT constr
+R2432:2448 Stdlib.Arith.Compare_dec <> nat_compare_Gt_gt thm
+def 2476:2481 Nat_as_OT eq_dec
+R2486:2495 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
+R2503:2511 Stdlib.Structures.OrderedTypeEx Nat_as_OT <> mod
+R2640:2655 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 2629:2635 <> Z_as_OT
+def 2672:2672 Z_as_OT t
+R2677:2677 Corelib.Numbers.BinNums <> Z ind
+def 2693:2694 Z_as_OT eq
+R2700:2701 Corelib.Init.Logic <> eq ind
+R2703:2703 Corelib.Numbers.BinNums <> Z ind
+def 2719:2725 Z_as_OT eq_refl
+R2731:2737 Corelib.Init.Logic <> eq_refl constr
+R2739:2739 Stdlib.Structures.OrderedTypeEx Z_as_OT t def
+def 2755:2760 Z_as_OT eq_sym
+R2766:2771 Corelib.Init.Logic <> eq_sym scheme
+R2773:2773 Stdlib.Structures.OrderedTypeEx Z_as_OT t def
+def 2789:2796 Z_as_OT eq_trans
+R2802:2809 Corelib.Init.Logic <> eq_trans thm
+R2811:2811 Stdlib.Structures.OrderedTypeEx Z_as_OT t def
+def 2828:2829 Z_as_OT lt
+R2836:2836 Corelib.Numbers.BinNums <> Z ind
+binder 2832:2832 <> x:29
+binder 2834:2834 <> y:30
+R2844:2844 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2843:2843 Stdlib.Structures.OrderedTypeEx <> x:29 var
+R2845:2845 Stdlib.Structures.OrderedTypeEx <> y:30 var
+prf 2858:2865 Z_as_OT lt_trans
+binder 2876:2876 <> x:31
+binder 2878:2878 <> y:32
+binder 2880:2880 <> z:33
+R2886:2889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2884:2884 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2883:2883 Stdlib.Structures.OrderedTypeEx <> x:31 var
+R2885:2885 Stdlib.Structures.OrderedTypeEx <> y:32 var
+R2893:2896 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2891:2891 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2890:2890 Stdlib.Structures.OrderedTypeEx <> y:32 var
+R2892:2892 Stdlib.Structures.OrderedTypeEx <> z:33 var
+R2898:2898 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2897:2897 Stdlib.Structures.OrderedTypeEx <> x:31 var
+R2899:2899 Stdlib.Structures.OrderedTypeEx <> z:33 var
+R2917:2926 Stdlib.ZArith.BinInt Z lt_trans thm
+prf 2943:2951 Z_as_OT lt_not_eq
+binder 2962:2962 <> x:34
+binder 2964:2964 <> y:35
+R2970:2973 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2968:2968 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2967:2967 Stdlib.Structures.OrderedTypeEx <> x:34 var
+R2969:2969 Stdlib.Structures.OrderedTypeEx <> y:35 var
+R2974:2975 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2977:2977 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2976:2976 Stdlib.Structures.OrderedTypeEx <> x:34 var
+R2978:2978 Stdlib.Structures.OrderedTypeEx <> y:35 var
+R3025:3035 Stdlib.ZArith.BinInt Z lt_irrefl thm
+def 3057:3063 Z_as_OT compare
+binder 3065:3065 <> x:36
+binder 3067:3067 <> y:37
+R3071:3077 Stdlib.Structures.OrderedType <> Compare ind
+R3087:3087 Stdlib.Structures.OrderedTypeEx <> y:37 var
+R3085:3085 Stdlib.Structures.OrderedTypeEx <> x:36 var
+R3082:3083 Stdlib.Structures.OrderedTypeEx Z_as_OT eq def
+R3079:3080 Stdlib.Structures.OrderedTypeEx Z_as_OT lt def
+R3113:3116 Stdlib.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3140:3141 Stdlib.Structures.OrderedType <> EQ constr
+R3154:3165 Stdlib.ZArith.BinInt Z compare_eq thm
+R3180:3181 Stdlib.Structures.OrderedType <> LT constr
+R3208:3209 Stdlib.Structures.OrderedType <> GT constr
+R3222:3228 Stdlib.ZArith.BinInt Z gt_lt thm
+def 3256:3261 Z_as_OT eq_dec
+R3266:3273 Stdlib.ZArith.BinInt Z eq_dec def
+R3281:3287 Stdlib.Structures.OrderedTypeEx Z_as_OT <> mod
+R3443:3458 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 3425:3438 <> Positive_as_OT
+def 3474:3474 Positive_as_OT t
+R3477:3484 Corelib.Numbers.BinNums <> positive ind
+def 3500:3501 Positive_as_OT eq
+R3505:3506 Corelib.Init.Logic <> eq ind
+R3508:3515 Corelib.Numbers.BinNums <> positive ind
+def 3531:3537 Positive_as_OT eq_refl
+R3543:3549 Corelib.Init.Logic <> eq_refl constr
+R3551:3551 Stdlib.Structures.OrderedTypeEx Positive_as_OT t def
+def 3567:3572 Positive_as_OT eq_sym
+R3578:3583 Corelib.Init.Logic <> eq_sym scheme
+R3585:3585 Stdlib.Structures.OrderedTypeEx Positive_as_OT t def
+def 3601:3608 Positive_as_OT eq_trans
+R3614:3621 Corelib.Init.Logic <> eq_trans thm
+R3623:3623 Stdlib.Structures.OrderedTypeEx Positive_as_OT t def
+def 3640:3641 Positive_as_OT lt
+R3646:3651 Stdlib.PArith.BinPos Pos lt def
+def 3668:3675 Positive_as_OT lt_trans
+R3680:3691 Stdlib.PArith.BinPos Pos lt_trans thm
+prf 3703:3711 Positive_as_OT lt_not_eq
+R3728:3728 Stdlib.Structures.OrderedTypeEx Positive_as_OT t def
+binder 3722:3722 <> x:38
+binder 3724:3724 <> y:39
+R3737:3740 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3731:3732 Stdlib.Structures.OrderedTypeEx Positive_as_OT lt def
+R3734:3734 Stdlib.Structures.OrderedTypeEx <> x:38 var
+R3736:3736 Stdlib.Structures.OrderedTypeEx <> y:39 var
+R3741:3742 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3743:3744 Stdlib.Structures.OrderedTypeEx Positive_as_OT eq def
+R3746:3746 Stdlib.Structures.OrderedTypeEx <> x:38 var
+R3748:3748 Stdlib.Structures.OrderedTypeEx <> y:39 var
+R3807:3819 Stdlib.PArith.BinPos Pos lt_irrefl thm
+def 3843:3849 Positive_as_OT compare
+binder 3851:3851 <> x:40
+binder 3853:3853 <> y:41
+R3857:3863 Stdlib.Structures.OrderedType <> Compare ind
+R3873:3873 Stdlib.Structures.OrderedTypeEx <> y:41 var
+R3871:3871 Stdlib.Structures.OrderedTypeEx <> x:40 var
+R3868:3869 Stdlib.Structures.OrderedTypeEx Positive_as_OT eq def
+R3865:3866 Stdlib.Structures.OrderedTypeEx Positive_as_OT lt def
+R3897:3900 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3925:3926 Stdlib.Structures.OrderedType <> EQ constr
+R3939:3952 Stdlib.PArith.BinPos Pos compare_eq thm
+R3965:3966 Stdlib.Structures.OrderedType <> LT constr
+R3991:3992 Stdlib.Structures.OrderedType <> GT constr
+R4005:4013 Stdlib.PArith.BinPos Pos gt_lt thm
+def 4041:4046 Positive_as_OT eq_dec
+R4051:4060 Stdlib.PArith.BinPos Pos eq_dec thm
+R4068:4081 Stdlib.Structures.OrderedTypeEx Positive_as_OT <> mod
+R4187:4202 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 4176:4182 <> N_as_OT
+def 4218:4218 N_as_OT t
+R4221:4221 Corelib.Numbers.BinNums <> N ind
+def 4237:4238 N_as_OT eq
+R4242:4243 Corelib.Init.Logic <> eq ind
+R4245:4245 Corelib.Numbers.BinNums <> N ind
+def 4261:4267 N_as_OT eq_refl
+R4273:4279 Corelib.Init.Logic <> eq_refl constr
+R4281:4281 Stdlib.Structures.OrderedTypeEx N_as_OT t def
+def 4297:4302 N_as_OT eq_sym
+R4308:4313 Corelib.Init.Logic <> eq_sym scheme
+R4315:4315 Stdlib.Structures.OrderedTypeEx N_as_OT t def
+def 4331:4338 N_as_OT eq_trans
+R4344:4351 Corelib.Init.Logic <> eq_trans thm
+R4353:4353 Stdlib.Structures.OrderedTypeEx N_as_OT t def
+def 4370:4371 N_as_OT lt
+R4376:4379 Stdlib.NArith.BinNat N lt def
+def 4395:4402 N_as_OT lt_trans
+R4407:4416 Stdlib.NArith.BinNat N lt_trans thm
+def 4432:4440 N_as_OT lt_not_eq
+R4445:4452 Stdlib.NArith.BinNat N lt_neq thm
+def 4469:4475 N_as_OT compare
+binder 4477:4477 <> x:42
+binder 4479:4479 <> y:43
+R4483:4489 Stdlib.Structures.OrderedType <> Compare ind
+R4499:4499 Stdlib.Structures.OrderedTypeEx <> y:43 var
+R4497:4497 Stdlib.Structures.OrderedTypeEx <> x:42 var
+R4494:4495 Stdlib.Structures.OrderedTypeEx N_as_OT eq def
+R4491:4492 Stdlib.Structures.OrderedTypeEx N_as_OT lt def
+R4523:4526 Stdlib.NArith.BinNat <> ::N_scope:x_'?='_x not
+R4550:4551 Stdlib.Structures.OrderedType <> EQ constr
+R4564:4575 Stdlib.NArith.BinNat N compare_eq thm
+R4588:4589 Stdlib.Structures.OrderedType <> LT constr
+R4614:4615 Stdlib.Structures.OrderedType <> GT constr
+R4628:4634 Stdlib.NArith.BinNat N gt_lt thm
+def 4662:4667 N_as_OT eq_dec
+R4672:4679 Stdlib.NArith.BinNat N eq_dec def
+R4687:4693 Stdlib.Structures.OrderedTypeEx N_as_OT <> mod
+R4854:4864 Stdlib.Structures.OrderedType OrderedType <> modtype
+R4870:4880 Stdlib.Structures.OrderedType OrderedType <> modtype
+mod 4832:4846 <> PairOrderedType
+R4896:4911 Stdlib.Structures.OrderedType OrderedTypeFacts <> mod
+R4913:4914 Stdlib.Structures.OrderedTypeEx O1 <> mod
+mod 4891:4893 <> PairOrderedType.MO1
+R4931:4946 Stdlib.Structures.OrderedType OrderedTypeFacts <> mod
+R4948:4949 Stdlib.Structures.OrderedTypeEx O2 <> mod
+mod 4926:4928 <> PairOrderedType.MO2
+def 4966:4966 PairOrderedType t
+R4971:4974 Corelib.Init.Datatypes <> prod ind
+R4981:4984 Stdlib.Structures.OrderedTypeEx O2 t defax
+R4976:4979 Stdlib.Structures.OrderedTypeEx O1 t defax
+def 5000:5001 PairOrderedType eq
+binder 5003:5003 <> x:44
+binder 5005:5005 <> y:45
+R5031:5034 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5010:5014 Stdlib.Structures.OrderedTypeEx O1 eq defax
+R5025:5027 Corelib.Init.Datatypes <> fst def
+R5029:5029 Stdlib.Structures.OrderedTypeEx <> y:45 var
+R5017:5019 Corelib.Init.Datatypes <> fst def
+R5021:5021 Stdlib.Structures.OrderedTypeEx <> x:44 var
+R5035:5039 Stdlib.Structures.OrderedTypeEx O2 eq defax
+R5050:5052 Corelib.Init.Datatypes <> snd def
+R5054:5054 Stdlib.Structures.OrderedTypeEx <> y:45 var
+R5042:5044 Corelib.Init.Datatypes <> snd def
+R5046:5046 Stdlib.Structures.OrderedTypeEx <> x:44 var
+def 5071:5072 PairOrderedType lt
+binder 5074:5074 <> x:46
+binder 5076:5076 <> y:47
+R5106:5114 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5161:5161 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5085:5089 Stdlib.Structures.OrderedTypeEx O1 lt defax
+R5100:5102 Corelib.Init.Datatypes <> fst def
+R5104:5104 Stdlib.Structures.OrderedTypeEx <> y:47 var
+R5092:5094 Corelib.Init.Datatypes <> fst def
+R5096:5096 Stdlib.Structures.OrderedTypeEx <> x:46 var
+R5136:5139 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5115:5119 Stdlib.Structures.OrderedTypeEx O1 eq defax
+R5130:5132 Corelib.Init.Datatypes <> fst def
+R5134:5134 Stdlib.Structures.OrderedTypeEx <> y:47 var
+R5122:5124 Corelib.Init.Datatypes <> fst def
+R5126:5126 Stdlib.Structures.OrderedTypeEx <> x:46 var
+R5140:5144 Stdlib.Structures.OrderedTypeEx O2 lt defax
+R5155:5157 Corelib.Init.Datatypes <> snd def
+R5159:5159 Stdlib.Structures.OrderedTypeEx <> y:47 var
+R5147:5149 Corelib.Init.Datatypes <> snd def
+R5151:5151 Stdlib.Structures.OrderedTypeEx <> x:46 var
+prf 5172:5178 PairOrderedType eq_refl
+R5193:5193 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 5189:5189 <> x:48
+R5196:5197 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5199:5199 Stdlib.Structures.OrderedTypeEx <> x:48 var
+R5201:5201 Stdlib.Structures.OrderedTypeEx <> x:48 var
+prf 5279:5284 PairOrderedType eq_sym
+R5301:5301 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 5295:5295 <> x:49
+binder 5297:5297 <> y:50
+R5310:5313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5304:5305 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5307:5307 Stdlib.Structures.OrderedTypeEx <> x:49 var
+R5309:5309 Stdlib.Structures.OrderedTypeEx <> y:50 var
+R5314:5315 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5317:5317 Stdlib.Structures.OrderedTypeEx <> y:50 var
+R5319:5319 Stdlib.Structures.OrderedTypeEx <> x:49 var
+R5362:5363 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+prf 5418:5425 PairOrderedType eq_trans
+R5444:5444 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 5436:5436 <> x:51
+binder 5438:5438 <> y:52
+binder 5440:5440 <> z:53
+R5453:5456 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5447:5448 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5450:5450 Stdlib.Structures.OrderedTypeEx <> x:51 var
+R5452:5452 Stdlib.Structures.OrderedTypeEx <> y:52 var
+R5463:5466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5457:5458 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5460:5460 Stdlib.Structures.OrderedTypeEx <> y:52 var
+R5462:5462 Stdlib.Structures.OrderedTypeEx <> z:53 var
+R5467:5468 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5470:5470 Stdlib.Structures.OrderedTypeEx <> x:51 var
+R5472:5472 Stdlib.Structures.OrderedTypeEx <> z:53 var
+R5523:5524 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+prf 5583:5590 PairOrderedType lt_trans
+R5609:5609 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 5601:5601 <> x:54
+binder 5603:5603 <> y:55
+binder 5605:5605 <> z:56
+R5618:5621 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5612:5613 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5615:5615 Stdlib.Structures.OrderedTypeEx <> x:54 var
+R5617:5617 Stdlib.Structures.OrderedTypeEx <> y:55 var
+R5628:5631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5622:5623 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5625:5625 Stdlib.Structures.OrderedTypeEx <> y:55 var
+R5627:5627 Stdlib.Structures.OrderedTypeEx <> z:56 var
+R5632:5633 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5635:5635 Stdlib.Structures.OrderedTypeEx <> x:54 var
+R5637:5637 Stdlib.Structures.OrderedTypeEx <> z:56 var
+R5688:5689 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5692:5693 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5764:5772 Stdlib.Structures.OrderedTypeEx PairOrderedType lt_eq thm
+R5798:5806 Stdlib.Structures.OrderedTypeEx PairOrderedType eq_lt thm
+prf 5872:5880 PairOrderedType lt_not_eq
+R5897:5897 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 5891:5891 <> x:57
+binder 5893:5893 <> y:58
+R5906:5909 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5900:5901 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5903:5903 Stdlib.Structures.OrderedTypeEx <> x:57 var
+R5905:5905 Stdlib.Structures.OrderedTypeEx <> y:58 var
+R5910:5911 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5912:5913 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5915:5915 Stdlib.Structures.OrderedTypeEx <> x:57 var
+R5917:5917 Stdlib.Structures.OrderedTypeEx <> y:58 var
+R5960:5961 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R5964:5965 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R5996:6007 Stdlib.Structures.OrderedTypeEx O1 lt_not_eq prfax
+R6027:6038 Stdlib.Structures.OrderedTypeEx O2 lt_not_eq prfax
+def 6067:6073 PairOrderedType compare
+R6090:6090 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 6084:6084 <> x:59
+binder 6086:6086 <> y:60
+R6093:6099 Stdlib.Structures.OrderedType <> Compare ind
+R6109:6109 Stdlib.Structures.OrderedTypeEx <> y:60 var
+R6107:6107 Stdlib.Structures.OrderedTypeEx <> x:59 var
+R6104:6105 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R6101:6102 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R6156:6165 Stdlib.Structures.OrderedTypeEx O1 compare defax
+R6184:6185 Stdlib.Structures.OrderedType <> LT constr
+R6195:6196 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R6218:6227 Stdlib.Structures.OrderedTypeEx O2 compare defax
+R6248:6249 Stdlib.Structures.OrderedType <> LT constr
+R6259:6260 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R6280:6281 Stdlib.Structures.OrderedType <> EQ constr
+R6291:6292 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R6312:6313 Stdlib.Structures.OrderedType <> GT constr
+R6323:6324 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+R6360:6361 Stdlib.Structures.OrderedType <> GT constr
+R6371:6372 Stdlib.Structures.OrderedTypeEx PairOrderedType lt def
+def 6404:6409 PairOrderedType eq_dec
+R6426:6426 Stdlib.Structures.OrderedTypeEx PairOrderedType t def
+binder 6420:6420 <> x:61
+binder 6422:6422 <> y:62
+R6429:6429 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6436:6440 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6449:6449 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6430:6431 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R6433:6433 Stdlib.Structures.OrderedTypeEx <> x:61 var
+R6435:6435 Stdlib.Structures.OrderedTypeEx <> y:62 var
+R6441:6442 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6443:6444 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R6446:6446 Stdlib.Structures.OrderedTypeEx <> x:61 var
+R6448:6448 Stdlib.Structures.OrderedTypeEx <> y:62 var
+R6475:6481 Stdlib.Structures.OrderedTypeEx PairOrderedType compare def
+R6544:6552 Stdlib.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6566:6567 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6568:6569 Stdlib.Structures.OrderedTypeEx PairOrderedType eq def
+R6588:6596 Stdlib.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6599:6604 Stdlib.Structures.OrderedTypeEx PairOrderedType eq_sym thm
+R6622:6636 Stdlib.Structures.OrderedTypeEx PairOrderedType <> mod
+R6974:6989 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 6947:6969 <> PositiveOrderedTypeBits
+def 7005:7005 PositiveOrderedTypeBits t
+R7008:7015 Corelib.Numbers.BinNums <> positive ind
+def 7031:7032 PositiveOrderedTypeBits eq
+R7036:7037 Corelib.Init.Logic <> eq ind
+R7039:7046 Corelib.Numbers.BinNums <> positive ind
+def 7062:7068 PositiveOrderedTypeBits eq_refl
+R7074:7080 Corelib.Init.Logic <> eq_refl constr
+R7082:7082 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 7098:7103 PositiveOrderedTypeBits eq_sym
+R7109:7114 Corelib.Init.Logic <> eq_sym scheme
+R7116:7116 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 7132:7139 PositiveOrderedTypeBits eq_trans
+R7145:7152 Corelib.Init.Logic <> eq_trans thm
+R7154:7154 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 7169:7175 PositiveOrderedTypeBits bits_lt
+R7182:7189 Corelib.Numbers.BinNums <> positive ind
+binder 7178:7178 <> p:63
+binder 7180:7180 <> q:64
+R7214:7214 Stdlib.Structures.OrderedTypeEx <> q:64 var
+R7211:7211 Stdlib.Structures.OrderedTypeEx <> p:63 var
+R7226:7227 Corelib.Numbers.BinNums <> xH constr
+R7230:7231 Corelib.Numbers.BinNums <> xI constr
+R7238:7241 Corelib.Init.Logic <> True ind
+R7248:7249 Corelib.Numbers.BinNums <> xH constr
+R7257:7261 Corelib.Init.Logic <> False ind
+R7268:7269 Corelib.Numbers.BinNums <> xO constr
+R7274:7275 Corelib.Numbers.BinNums <> xO constr
+R7282:7288 Stdlib.Structures.OrderedTypeEx <> bits_lt:65 def
+R7292:7292 Stdlib.Structures.OrderedTypeEx <> q:64 var
+R7290:7290 Stdlib.Structures.OrderedTypeEx <> p:63 var
+R7299:7300 Corelib.Numbers.BinNums <> xO constr
+R7310:7313 Corelib.Init.Logic <> True ind
+R7320:7321 Corelib.Numbers.BinNums <> xI constr
+R7326:7327 Corelib.Numbers.BinNums <> xI constr
+R7334:7340 Stdlib.Structures.OrderedTypeEx <> bits_lt:65 def
+R7344:7344 Stdlib.Structures.OrderedTypeEx <> q:64 var
+R7342:7342 Stdlib.Structures.OrderedTypeEx <> p:63 var
+R7351:7352 Corelib.Numbers.BinNums <> xI constr
+R7362:7366 Corelib.Init.Logic <> False ind
+def 7390:7391 PositiveOrderedTypeBits lt
+R7394:7400 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+prf 7412:7424 PositiveOrderedTypeBits bits_lt_trans
+R7447:7454 Corelib.Numbers.BinNums <> positive ind
+binder 7439:7439 <> x:68
+binder 7441:7441 <> y:69
+binder 7443:7443 <> z:70
+R7468:7471 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7457:7463 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7465:7465 Stdlib.Structures.OrderedTypeEx <> x:68 var
+R7467:7467 Stdlib.Structures.OrderedTypeEx <> y:69 var
+R7483:7486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7472:7478 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7480:7480 Stdlib.Structures.OrderedTypeEx <> y:69 var
+R7482:7482 Stdlib.Structures.OrderedTypeEx <> z:70 var
+R7487:7493 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7495:7495 Stdlib.Structures.OrderedTypeEx <> x:68 var
+R7497:7497 Stdlib.Structures.OrderedTypeEx <> z:70 var
+prf 7702:7709 PositiveOrderedTypeBits lt_trans
+R7728:7728 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 7720:7720 <> x:71
+binder 7722:7722 <> y:72
+binder 7724:7724 <> z:73
+R7737:7740 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7731:7732 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7734:7734 Stdlib.Structures.OrderedTypeEx <> x:71 var
+R7736:7736 Stdlib.Structures.OrderedTypeEx <> y:72 var
+R7747:7750 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7741:7742 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7744:7744 Stdlib.Structures.OrderedTypeEx <> y:72 var
+R7746:7746 Stdlib.Structures.OrderedTypeEx <> z:73 var
+R7751:7752 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7754:7754 Stdlib.Structures.OrderedTypeEx <> x:71 var
+R7756:7756 Stdlib.Structures.OrderedTypeEx <> z:73 var
+R7776:7788 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_trans thm
+prf 7807:7822 PositiveOrderedTypeBits bits_lt_antirefl
+R7837:7844 Corelib.Numbers.BinNums <> positive ind
+binder 7833:7833 <> x:74
+R7847:7848 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7849:7855 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7857:7857 Stdlib.Structures.OrderedTypeEx <> x:74 var
+R7859:7859 Stdlib.Structures.OrderedTypeEx <> x:74 var
+prf 7915:7923 PositiveOrderedTypeBits lt_not_eq
+R7940:7940 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 7934:7934 <> x:75
+binder 7936:7936 <> y:76
+R7949:7952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7943:7944 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7946:7946 Stdlib.Structures.OrderedTypeEx <> x:75 var
+R7948:7948 Stdlib.Structures.OrderedTypeEx <> y:76 var
+R7953:7954 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7955:7956 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits eq def
+R7958:7958 Stdlib.Structures.OrderedTypeEx <> x:75 var
+R7960:7960 Stdlib.Structures.OrderedTypeEx <> y:76 var
+R8032:8033 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R8050:8065 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_antirefl thm
+def 8094:8100 PositiveOrderedTypeBits compare
+R8117:8117 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 8111:8111 <> x:77
+binder 8113:8113 <> y:78
+R8120:8126 Stdlib.Structures.OrderedType <> Compare ind
+R8136:8136 Stdlib.Structures.OrderedTypeEx <> y:78 var
+R8134:8134 Stdlib.Structures.OrderedTypeEx <> x:77 var
+R8131:8132 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits eq def
+R8128:8129 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R8234:8235 Stdlib.Structures.OrderedType <> LT constr
+R8256:8257 Stdlib.Structures.OrderedType <> EQ constr
+R8294:8295 Stdlib.Structures.OrderedType <> GT constr
+R8328:8329 Stdlib.Structures.OrderedType <> GT constr
+R8369:8370 Stdlib.Structures.OrderedType <> GT constr
+R8410:8411 Stdlib.Structures.OrderedType <> LT constr
+R8486:8487 Stdlib.Structures.OrderedType <> LT constr
+R8508:8509 Stdlib.Structures.OrderedType <> EQ constr
+R8546:8547 Stdlib.Structures.OrderedType <> GT constr
+R8580:8581 Stdlib.Structures.OrderedType <> LT constr
+R8621:8622 Stdlib.Structures.OrderedType <> LT constr
+R8662:8663 Stdlib.Structures.OrderedType <> GT constr
+R8703:8704 Stdlib.Structures.OrderedType <> EQ constr
+prf 8734:8739 PositiveOrderedTypeBits eq_dec
+R8747:8754 Corelib.Numbers.BinNums <> positive ind
+binder 8742:8742 <> x:79
+binder 8744:8744 <> y:80
+R8758:8758 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8764:8768 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8775:8775 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8760:8762 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8759:8759 Stdlib.Structures.OrderedTypeEx <> x:79 var
+R8763:8763 Stdlib.Structures.OrderedTypeEx <> y:80 var
+R8770:8773 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8769:8769 Stdlib.Structures.OrderedTypeEx <> x:79 var
+R8774:8774 Stdlib.Structures.OrderedTypeEx <> y:80 var
+R8807:8810 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R8843:8856 Stdlib.PArith.BinPos Pos compare_eq thm
+R8899:8914 Stdlib.PArith.BinPos Pos compare_refl thm
+R8965:8980 Stdlib.PArith.BinPos Pos compare_refl thm
+R9003:9025 Stdlib.Structures.OrderedTypeEx PositiveOrderedTypeBits <> mod
+R9051:9066 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 9036:9046 <> Ascii_as_OT
+def 9082:9082 Ascii_as_OT t
+R9087:9091 Stdlib.Strings.Ascii <> ascii ind
+def 9108:9109 Ascii_as_OT eq
+R9115:9116 Corelib.Init.Logic <> eq ind
+R9118:9122 Stdlib.Strings.Ascii <> ascii ind
+def 9138:9144 Ascii_as_OT eq_refl
+R9150:9156 Corelib.Init.Logic <> eq_refl constr
+R9158:9158 Stdlib.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9174:9179 Ascii_as_OT eq_sym
+R9185:9190 Corelib.Init.Logic <> eq_sym scheme
+R9192:9192 Stdlib.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9208:9215 Ascii_as_OT eq_trans
+R9221:9228 Corelib.Init.Logic <> eq_trans thm
+R9230:9230 Stdlib.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9247:9249 Ascii_as_OT cmp
+R9258:9261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9253:9257 Stdlib.Strings.Ascii <> ascii ind
+R9267:9270 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9262:9266 Stdlib.Strings.Ascii <> ascii ind
+R9271:9280 Corelib.Init.Datatypes <> comparison ind
+R9285:9297 Stdlib.Strings.Ascii <> compare def
+prf 9309:9314 Ascii_as_OT cmp_eq
+R9323:9327 Stdlib.Strings.Ascii <> ascii ind
+binder 9317:9317 <> a:81
+binder 9319:9319 <> b:82
+R9347:9353 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9342:9344 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9335:9337 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9339:9339 Stdlib.Structures.OrderedTypeEx <> a:81 var
+R9341:9341 Stdlib.Structures.OrderedTypeEx <> b:82 var
+R9345:9346 Corelib.Init.Datatypes <> Eq constr
+R9355:9357 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9354:9354 Stdlib.Structures.OrderedTypeEx <> a:81 var
+R9358:9358 Stdlib.Structures.OrderedTypeEx <> b:82 var
+R9381:9383 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9386:9398 Stdlib.Strings.Ascii <> compare def
+R9413:9428 Stdlib.NArith.BinNat N compare_eq_iff thm
+R9494:9510 Stdlib.Strings.Ascii <> ascii_N_embedding thm
+R9531:9547 Stdlib.Strings.Ascii <> ascii_N_embedding thm
+prf 9588:9597 Ascii_as_OT cmp_lt_nat
+R9606:9610 Stdlib.Strings.Ascii <> ascii ind
+binder 9600:9600 <> a:83
+binder 9602:9602 <> b:84
+R9630:9636 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9625:9627 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9618:9620 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9622:9622 Stdlib.Structures.OrderedTypeEx <> a:83 var
+R9624:9624 Stdlib.Structures.OrderedTypeEx <> b:84 var
+R9628:9629 Corelib.Init.Datatypes <> Lt constr
+R9652:9654 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R9638:9649 Stdlib.Strings.Ascii <> nat_of_ascii def
+R9651:9651 Stdlib.Structures.OrderedTypeEx <> a:83 var
+R9655:9666 Stdlib.Strings.Ascii <> nat_of_ascii def
+R9668:9668 Stdlib.Structures.OrderedTypeEx <> b:84 var
+R9696:9698 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9708:9719 Stdlib.Strings.Ascii <> nat_of_ascii def
+R9722:9734 Stdlib.Strings.Ascii <> compare def
+R9749:9765 Stdlib.NArith.Nnat N2Nat inj_compare thm
+R9780:9797 Stdlib.Arith.PeanoNat Nat compare_lt_iff thm
+prf 9833:9843 Ascii_as_OT cmp_antisym
+R9852:9856 Stdlib.Strings.Ascii <> ascii ind
+binder 9846:9846 <> a:85
+binder 9848:9848 <> b:86
+R9871:9873 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9864:9866 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9868:9868 Stdlib.Structures.OrderedTypeEx <> a:85 var
+R9870:9870 Stdlib.Structures.OrderedTypeEx <> b:86 var
+R9874:9880 Corelib.Init.Datatypes <> CompOpp def
+R9883:9885 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9887:9887 Stdlib.Structures.OrderedTypeEx <> b:86 var
+R9889:9889 Stdlib.Structures.OrderedTypeEx <> a:85 var
+R9913:9915 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9928:9944 Stdlib.NArith.BinNat N compare_antisym thm
+def 9968:9969 Ascii_as_OT lt
+R9978:9982 Stdlib.Strings.Ascii <> ascii ind
+binder 9972:9972 <> x:87
+binder 9974:9974 <> y:88
+R10001:10003 Stdlib.NArith.BinNat <> ::N_scope:x_'<'_x not
+R9989:9998 Stdlib.Strings.Ascii <> N_of_ascii def
+R10000:10000 Stdlib.Structures.OrderedTypeEx <> x:87 var
+R10004:10013 Stdlib.Strings.Ascii <> N_of_ascii def
+R10015:10015 Stdlib.Structures.OrderedTypeEx <> y:88 var
+prf 10030:10037 Ascii_as_OT lt_trans
+R10048:10052 Stdlib.Strings.Ascii <> ascii ind
+binder 10040:10040 <> x:89
+binder 10042:10042 <> y:90
+binder 10044:10044 <> z:91
+R10066:10069 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10060:10061 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10063:10063 Stdlib.Structures.OrderedTypeEx <> x:89 var
+R10065:10065 Stdlib.Structures.OrderedTypeEx <> y:90 var
+R10076:10079 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10070:10071 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10073:10073 Stdlib.Structures.OrderedTypeEx <> y:90 var
+R10075:10075 Stdlib.Structures.OrderedTypeEx <> z:91 var
+R10080:10081 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10083:10083 Stdlib.Structures.OrderedTypeEx <> x:89 var
+R10085:10085 Stdlib.Structures.OrderedTypeEx <> z:91 var
+R10107:10116 Stdlib.NArith.BinNat N lt_trans thm
+prf 10135:10143 Ascii_as_OT lt_not_eq
+R10152:10156 Stdlib.Strings.Ascii <> ascii ind
+binder 10146:10146 <> x:92
+binder 10148:10148 <> y:93
+R10171:10174 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10165:10166 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10168:10168 Stdlib.Structures.OrderedTypeEx <> x:92 var
+R10170:10170 Stdlib.Structures.OrderedTypeEx <> y:93 var
+R10176:10179 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R10175:10175 Stdlib.Structures.OrderedTypeEx <> x:92 var
+R10180:10180 Stdlib.Structures.OrderedTypeEx <> y:93 var
+R10226:10236 Stdlib.NArith.BinNat N lt_irrefl thm
+prf 10269:10285 Ascii_as_OT compare_helper_eq
+R10294:10298 Stdlib.Strings.Ascii <> ascii ind
+binder 10288:10288 <> a:94
+binder 10290:10290 <> b:95
+R10313:10315 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10306:10308 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10310:10310 Stdlib.Structures.OrderedTypeEx <> a:94 var
+R10312:10312 Stdlib.Structures.OrderedTypeEx <> b:95 var
+R10316:10317 Corelib.Init.Datatypes <> Eq constr
+binder 10302:10302 <> E:96
+R10326:10328 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10325:10325 Stdlib.Structures.OrderedTypeEx <> a:94 var
+R10329:10329 Stdlib.Structures.OrderedTypeEx <> b:95 var
+R10355:10360 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+prf 10388:10404 Ascii_as_OT compare_helper_gt
+R10413:10417 Stdlib.Strings.Ascii <> ascii ind
+binder 10407:10407 <> a:97
+binder 10409:10409 <> b:98
+R10432:10434 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10425:10427 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10429:10429 Stdlib.Structures.OrderedTypeEx <> a:97 var
+R10431:10431 Stdlib.Structures.OrderedTypeEx <> b:98 var
+R10435:10436 Corelib.Init.Datatypes <> Gt constr
+binder 10421:10421 <> G:99
+R10444:10445 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10447:10447 Stdlib.Structures.OrderedTypeEx <> b:98 var
+R10449:10449 Stdlib.Structures.OrderedTypeEx <> a:97 var
+R10475:10490 Stdlib.NArith.BinNat N compare_gt_iff thm
+def 10514:10520 Ascii_as_OT compare
+R10529:10533 Stdlib.Strings.Ascii <> ascii ind
+binder 10523:10523 <> a:100
+binder 10525:10525 <> b:101
+R10538:10544 Stdlib.Structures.OrderedType <> Compare ind
+R10554:10554 Stdlib.Structures.OrderedTypeEx <> b:101 var
+R10552:10552 Stdlib.Structures.OrderedTypeEx <> a:100 var
+R10549:10550 Stdlib.Structures.OrderedTypeEx Ascii_as_OT eq def
+R10546:10547 Stdlib.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10569:10571 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10573:10573 Stdlib.Structures.OrderedTypeEx <> a:100 var
+R10575:10575 Stdlib.Structures.OrderedTypeEx <> b:101 var
+R10594:10597 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10590:10592 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10593:10593 Stdlib.Structures.OrderedTypeEx <> z:102 var
+R10611:10612 Corelib.Init.Datatypes <> Lt constr
+binder 10621:10621 <> E:103
+R10626:10627 Stdlib.Structures.OrderedType <> LT constr
+R10629:10629 Stdlib.Structures.OrderedTypeEx <> E:103 var
+R10637:10638 Corelib.Init.Datatypes <> Gt constr
+binder 10647:10647 <> E:104
+R10652:10653 Stdlib.Structures.OrderedType <> GT constr
+R10656:10672 Stdlib.Structures.OrderedTypeEx Ascii_as_OT compare_helper_gt thm
+R10674:10674 Stdlib.Structures.OrderedTypeEx <> E:104 var
+R10683:10684 Corelib.Init.Datatypes <> Eq constr
+binder 10693:10693 <> E:105
+R10698:10699 Stdlib.Structures.OrderedType <> EQ constr
+R10702:10718 Stdlib.Structures.OrderedTypeEx Ascii_as_OT compare_helper_eq thm
+R10720:10720 Stdlib.Structures.OrderedTypeEx <> E:105 var
+R10731:10743 Corelib.Init.Logic <> eq_refl constr
+def 10760:10765 Ascii_as_OT eq_dec
+R10774:10778 Stdlib.Strings.Ascii <> ascii ind
+binder 10768:10768 <> x:106
+binder 10770:10770 <> y:107
+R10782:10782 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10788:10793 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10803:10803 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10784:10786 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10783:10783 Stdlib.Structures.OrderedTypeEx <> x:106 var
+R10787:10787 Stdlib.Structures.OrderedTypeEx <> y:107 var
+R10794:10796 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10802:10802 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10798:10800 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10797:10797 Stdlib.Structures.OrderedTypeEx <> x:106 var
+R10801:10801 Stdlib.Structures.OrderedTypeEx <> y:107 var
+R10808:10816 Stdlib.Strings.Ascii <> ascii_dec def
+R10818:10818 Stdlib.Structures.OrderedTypeEx <> x:106 var
+R10820:10820 Stdlib.Structures.OrderedTypeEx <> y:107 var
+R10827:10837 Stdlib.Structures.OrderedTypeEx Ascii_as_OT <> mod
+R10941:10956 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+mod 10925:10936 <> String_as_OT
+def 10973:10973 String_as_OT t
+R10978:10983 Stdlib.Strings.String <> string ind
+def 11000:11001 String_as_OT eq
+R11007:11008 Corelib.Init.Logic <> eq ind
+R11010:11015 Stdlib.Strings.String <> string ind
+def 11031:11037 String_as_OT eq_refl
+R11043:11049 Corelib.Init.Logic <> eq_refl constr
+R11051:11051 Stdlib.Structures.OrderedTypeEx String_as_OT t def
+def 11067:11072 String_as_OT eq_sym
+R11078:11083 Corelib.Init.Logic <> eq_sym scheme
+R11085:11085 Stdlib.Structures.OrderedTypeEx String_as_OT t def
+def 11101:11108 String_as_OT eq_trans
+R11114:11121 Corelib.Init.Logic <> eq_trans thm
+R11123:11123 Stdlib.Structures.OrderedTypeEx String_as_OT t def
+ind 11139:11141 String_as_OT lts
+constr 11179:11187 String_as_OT lts_empty
+constr 11238:11245 String_as_OT lts_tail
+constr 11316:11323 String_as_OT lts_head
+R11151:11154 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11145:11150 Stdlib.Strings.String <> string ind
+R11161:11164 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11155:11160 Stdlib.Strings.String <> string ind
+binder 11198:11198 <> a:110
+binder 11200:11200 <> s:111
+R11203:11205 Stdlib.Structures.OrderedTypeEx <> lts:108 ind
+R11220:11225 Stdlib.Strings.String <> String constr
+R11227:11227 Stdlib.Structures.OrderedTypeEx <> a:110 var
+R11229:11229 Stdlib.Structures.OrderedTypeEx <> s:111 var
+R11207:11217 Stdlib.Strings.String <> EmptyString constr
+binder 11256:11256 <> a:112
+binder 11258:11259 <> s1:113
+binder 11261:11262 <> s2:114
+R11274:11277 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11265:11267 Stdlib.Structures.OrderedTypeEx <> lts:108 ind
+R11272:11273 Stdlib.Structures.OrderedTypeEx <> s2:114 var
+R11269:11270 Stdlib.Structures.OrderedTypeEx <> s1:113 var
+R11278:11280 Stdlib.Structures.OrderedTypeEx <> lts:108 ind
+R11297:11302 Stdlib.Strings.String <> String constr
+R11304:11304 Stdlib.Structures.OrderedTypeEx <> a:112 var
+R11306:11307 Stdlib.Structures.OrderedTypeEx <> s2:114 var
+R11283:11288 Stdlib.Strings.String <> String constr
+R11290:11290 Stdlib.Structures.OrderedTypeEx <> a:112 var
+R11292:11293 Stdlib.Structures.OrderedTypeEx <> s1:113 var
+R11341:11345 Stdlib.Strings.Ascii <> ascii ind
+binder 11335:11335 <> a:115
+binder 11337:11337 <> b:116
+binder 11348:11349 <> s1:117
+binder 11351:11352 <> s2:118
+R11399:11410 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11363:11364 Corelib.Init.Peano <> lt def
+R11367:11378 Stdlib.Strings.Ascii <> nat_of_ascii def
+R11380:11380 Stdlib.Structures.OrderedTypeEx <> a:115 var
+R11384:11395 Stdlib.Strings.Ascii <> nat_of_ascii def
+R11397:11397 Stdlib.Structures.OrderedTypeEx <> b:116 var
+R11411:11413 Stdlib.Structures.OrderedTypeEx <> lts:108 ind
+R11430:11435 Stdlib.Strings.String <> String constr
+R11437:11437 Stdlib.Structures.OrderedTypeEx <> b:116 var
+R11439:11440 Stdlib.Structures.OrderedTypeEx <> s2:118 var
+R11416:11421 Stdlib.Strings.String <> String constr
+R11423:11423 Stdlib.Structures.OrderedTypeEx <> a:115 var
+R11425:11426 Stdlib.Structures.OrderedTypeEx <> s1:117 var
+scheme 11139:11141 String_as_OT lts_ind
+scheme 11139:11141 String_as_OT lts_sind
+def 11458:11459 String_as_OT lt
+R11464:11466 Stdlib.Structures.OrderedTypeEx String_as_OT lts ind
+prf 11478:11497 String_as_OT nat_of_ascii_inverse
+binder 11499:11499 <> a:119
+binder 11501:11501 <> b:120
+R11536:11539 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11519:11521 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11505:11516 Stdlib.Strings.Ascii <> nat_of_ascii def
+R11518:11518 Stdlib.Structures.OrderedTypeEx <> a:119 var
+R11522:11533 Stdlib.Strings.Ascii <> nat_of_ascii def
+R11535:11535 Stdlib.Structures.OrderedTypeEx <> b:120 var
+R11541:11543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11540:11540 Stdlib.Structures.OrderedTypeEx <> a:119 var
+R11544:11544 Stdlib.Structures.OrderedTypeEx <> b:120 var
+R11585:11603 Stdlib.Strings.Ascii <> ascii_nat_embedding thm
+R11625:11643 Stdlib.Strings.Ascii <> ascii_nat_embedding thm
+R11659:11665 Corelib.Init.Logic <> f_equal thm
+prf 11690:11704 String_as_OT lts_tail_unique
+binder 11706:11706 <> a:121
+binder 11708:11709 <> s1:122
+binder 11711:11712 <> s2:123
+R11746:11753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11716:11717 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R11720:11725 Stdlib.Strings.String <> String constr
+R11727:11727 Stdlib.Structures.OrderedTypeEx <> a:121 var
+R11729:11730 Stdlib.Structures.OrderedTypeEx <> s1:122 var
+R11734:11739 Stdlib.Strings.String <> String constr
+R11741:11741 Stdlib.Structures.OrderedTypeEx <> a:121 var
+R11743:11744 Stdlib.Structures.OrderedTypeEx <> s2:123 var
+R11754:11755 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R11757:11758 Stdlib.Structures.OrderedTypeEx <> s1:122 var
+R11760:11761 Stdlib.Structures.OrderedTypeEx <> s2:123 var
+R11826:11837 Stdlib.Strings.Ascii <> nat_of_ascii def
+R11858:11870 Stdlib.Arith.PeanoNat Nat lt_irrefl thm
+prf 11909:11916 String_as_OT lt_trans
+R11935:11935 Stdlib.Structures.OrderedTypeEx String_as_OT t def
+binder 11927:11927 <> x:124
+binder 11929:11929 <> y:125
+binder 11931:11931 <> z:126
+R11944:11947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11938:11939 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R11941:11941 Stdlib.Structures.OrderedTypeEx <> x:124 var
+R11943:11943 Stdlib.Structures.OrderedTypeEx <> y:125 var
+R11954:11957 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11948:11949 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R11951:11951 Stdlib.Structures.OrderedTypeEx <> y:125 var
+R11953:11953 Stdlib.Structures.OrderedTypeEx <> z:126 var
+R11958:11959 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R11961:11961 Stdlib.Structures.OrderedTypeEx <> x:124 var
+R11963:11963 Stdlib.Structures.OrderedTypeEx <> z:126 var
+R12349:12360 Stdlib.Arith.PeanoNat Nat lt_trans thm
+prf 12392:12400 String_as_OT lt_not_eq
+R12417:12417 Stdlib.Structures.OrderedTypeEx String_as_OT t def
+binder 12411:12411 <> x:127
+binder 12413:12413 <> y:128
+R12426:12429 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12420:12421 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R12423:12423 Stdlib.Structures.OrderedTypeEx <> x:127 var
+R12425:12425 Stdlib.Structures.OrderedTypeEx <> y:128 var
+R12430:12431 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12432:12433 Stdlib.Structures.OrderedTypeEx String_as_OT eq def
+R12435:12435 Stdlib.Structures.OrderedTypeEx <> x:127 var
+R12437:12437 Stdlib.Structures.OrderedTypeEx <> y:128 var
+R12650:12651 Stdlib.Structures.OrderedTypeEx String_as_OT eq def
+R12709:12721 Stdlib.Arith.PeanoNat Nat lt_irrefl thm
+def 12757:12759 String_as_OT cmp
+R12769:12772 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12763:12768 Stdlib.Strings.String <> string ind
+R12779:12782 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12773:12778 Stdlib.Strings.String <> string ind
+R12783:12792 Corelib.Init.Datatypes <> comparison ind
+R12797:12810 Stdlib.Strings.String <> compare def
+prf 12822:12827 String_as_OT cmp_eq
+R12836:12841 Stdlib.Strings.String <> string ind
+binder 12830:12830 <> a:129
+binder 12832:12832 <> b:130
+R12861:12867 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12856:12858 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12849:12851 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R12853:12853 Stdlib.Structures.OrderedTypeEx <> a:129 var
+R12855:12855 Stdlib.Structures.OrderedTypeEx <> b:130 var
+R12859:12860 Corelib.Init.Datatypes <> Eq constr
+R12869:12871 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12868:12868 Stdlib.Structures.OrderedTypeEx <> a:129 var
+R12872:12872 Stdlib.Structures.OrderedTypeEx <> b:130 var
+R12951:12963 Stdlib.Strings.Ascii <> compare def
+R13062:13079 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13231:13248 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13307:13324 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+prf 13345:13355 String_as_OT cmp_antisym
+R13364:13369 Stdlib.Strings.String <> string ind
+binder 13358:13358 <> a:131
+binder 13360:13360 <> b:132
+R13384:13386 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13377:13379 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R13381:13381 Stdlib.Structures.OrderedTypeEx <> a:131 var
+R13383:13383 Stdlib.Structures.OrderedTypeEx <> b:132 var
+R13387:13393 Corelib.Init.Datatypes <> CompOpp def
+R13396:13398 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R13400:13400 Stdlib.Structures.OrderedTypeEx <> b:132 var
+R13402:13402 Stdlib.Structures.OrderedTypeEx <> a:131 var
+R13506:13518 Stdlib.Strings.Ascii <> compare def
+R13582:13604 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13630:13644 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+prf 13679:13684 String_as_OT cmp_lt
+R13693:13698 Stdlib.Strings.String <> string ind
+binder 13687:13687 <> a:133
+binder 13689:13689 <> b:134
+R13718:13724 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R13713:13715 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13706:13708 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R13710:13710 Stdlib.Structures.OrderedTypeEx <> a:133 var
+R13712:13712 Stdlib.Structures.OrderedTypeEx <> b:134 var
+R13716:13717 Corelib.Init.Datatypes <> Lt constr
+R13725:13726 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R13728:13728 Stdlib.Structures.OrderedTypeEx <> a:133 var
+R13730:13730 Stdlib.Structures.OrderedTypeEx <> b:134 var
+R13849:13857 Stdlib.Structures.OrderedTypeEx String_as_OT lts_empty constr
+R13876:13888 Stdlib.Strings.Ascii <> compare def
+R14007:14024 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14054:14074 Stdlib.Structures.OrderedTypeEx String_as_OT lts_tail constr
+R14143:14160 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14260:14272 Stdlib.Arith.PeanoNat Nat lt_irrefl thm
+R14275:14286 Stdlib.Strings.Ascii <> nat_of_ascii def
+R14329:14349 Stdlib.Structures.OrderedTypeEx String_as_OT lts_head constr
+R14368:14389 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14501:14503 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14484:14496 Stdlib.Strings.Ascii <> compare def
+R14504:14505 Corelib.Init.Datatypes <> Eq constr
+R14517:14534 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14614:14635 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14656:14670 Stdlib.Structures.OrderedTypeEx Ascii_as_OT cmp def
+prf 14748:14764 String_as_OT compare_helper_lt
+R14773:14778 Stdlib.Strings.String <> string ind
+binder 14767:14767 <> a:135
+binder 14769:14769 <> b:136
+R14793:14795 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14786:14788 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R14790:14790 Stdlib.Structures.OrderedTypeEx <> a:135 var
+R14792:14792 Stdlib.Structures.OrderedTypeEx <> b:136 var
+R14796:14797 Corelib.Init.Datatypes <> Lt constr
+binder 14782:14782 <> L:137
+R14805:14806 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R14808:14808 Stdlib.Structures.OrderedTypeEx <> a:135 var
+R14810:14810 Stdlib.Structures.OrderedTypeEx <> b:136 var
+R14836:14841 Stdlib.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+prf 14869:14885 String_as_OT compare_helper_gt
+R14894:14899 Stdlib.Strings.String <> string ind
+binder 14888:14888 <> a:138
+binder 14890:14890 <> b:139
+R14914:14916 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14907:14909 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R14911:14911 Stdlib.Structures.OrderedTypeEx <> a:138 var
+R14913:14913 Stdlib.Structures.OrderedTypeEx <> b:139 var
+R14917:14918 Corelib.Init.Datatypes <> Gt constr
+binder 14903:14903 <> G:140
+R14926:14927 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R14929:14929 Stdlib.Structures.OrderedTypeEx <> b:139 var
+R14931:14931 Stdlib.Structures.OrderedTypeEx <> a:138 var
+R14955:14965 Stdlib.Structures.OrderedTypeEx String_as_OT cmp_antisym thm
+R14985:14995 Corelib.Init.Datatypes <> CompOpp_iff thm
+R15017:15022 Stdlib.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+prf 15050:15066 String_as_OT compare_helper_eq
+R15075:15080 Stdlib.Strings.String <> string ind
+binder 15069:15069 <> a:141
+binder 15071:15071 <> b:142
+R15095:15097 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15088:15090 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R15092:15092 Stdlib.Structures.OrderedTypeEx <> a:141 var
+R15094:15094 Stdlib.Structures.OrderedTypeEx <> b:142 var
+R15098:15099 Corelib.Init.Datatypes <> Eq constr
+binder 15084:15084 <> E:143
+R15108:15110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15107:15107 Stdlib.Structures.OrderedTypeEx <> a:141 var
+R15111:15111 Stdlib.Structures.OrderedTypeEx <> b:142 var
+R15137:15142 Stdlib.Structures.OrderedTypeEx String_as_OT cmp_eq thm
+def 15166:15172 String_as_OT compare
+R15181:15186 Stdlib.Strings.String <> string ind
+binder 15175:15175 <> a:144
+binder 15177:15177 <> b:145
+R15191:15197 Stdlib.Structures.OrderedType <> Compare ind
+R15207:15207 Stdlib.Structures.OrderedTypeEx <> b:145 var
+R15205:15205 Stdlib.Structures.OrderedTypeEx <> a:144 var
+R15202:15203 Stdlib.Structures.OrderedTypeEx String_as_OT eq def
+R15199:15200 Stdlib.Structures.OrderedTypeEx String_as_OT lt def
+R15222:15224 Stdlib.Structures.OrderedTypeEx String_as_OT cmp def
+R15226:15226 Stdlib.Structures.OrderedTypeEx <> a:144 var
+R15228:15228 Stdlib.Structures.OrderedTypeEx <> b:145 var
+R15247:15250 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15243:15245 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15246:15246 Stdlib.Structures.OrderedTypeEx <> z:146 var
+R15264:15265 Corelib.Init.Datatypes <> Lt constr
+binder 15274:15274 <> E:147
+R15279:15280 Stdlib.Structures.OrderedType <> LT constr
+R15283:15299 Stdlib.Structures.OrderedTypeEx String_as_OT compare_helper_lt thm
+R15301:15301 Stdlib.Structures.OrderedTypeEx <> E:147 var
+R15310:15311 Corelib.Init.Datatypes <> Gt constr
+binder 15320:15320 <> E:148
+R15325:15326 Stdlib.Structures.OrderedType <> GT constr
+R15329:15345 Stdlib.Structures.OrderedTypeEx String_as_OT compare_helper_gt thm
+R15347:15347 Stdlib.Structures.OrderedTypeEx <> E:148 var
+R15356:15357 Corelib.Init.Datatypes <> Eq constr
+binder 15366:15366 <> E:149
+R15371:15372 Stdlib.Structures.OrderedType <> EQ constr
+R15375:15391 Stdlib.Structures.OrderedTypeEx String_as_OT compare_helper_eq thm
+R15393:15393 Stdlib.Structures.OrderedTypeEx <> E:149 var
+R15404:15416 Corelib.Init.Logic <> eq_refl constr
+def 15433:15438 String_as_OT eq_dec
+R15447:15452 Stdlib.Strings.String <> string ind
+binder 15441:15441 <> x:150
+binder 15443:15443 <> y:151
+R15456:15456 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15462:15467 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15477:15477 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15458:15460 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15457:15457 Stdlib.Structures.OrderedTypeEx <> x:150 var
+R15461:15461 Stdlib.Structures.OrderedTypeEx <> y:151 var
+R15468:15470 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15476:15476 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15472:15474 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15471:15471 Stdlib.Structures.OrderedTypeEx <> x:150 var
+R15475:15475 Stdlib.Structures.OrderedTypeEx <> y:151 var
+R15482:15491 Stdlib.Strings.String <> string_dec def
+R15493:15493 Stdlib.Structures.OrderedTypeEx <> x:150 var
+R15495:15495 Stdlib.Structures.OrderedTypeEx <> y:151 var
+R15502:15513 Stdlib.Structures.OrderedTypeEx String_as_OT <> mod

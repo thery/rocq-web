@@ -1,0 +1,1826 @@
+DIGEST 5dcde18245f6eb0b6534b75e95bb8aac
+Fmathcomp.boot.finfun
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.eqtype <> <> lib
+R256:261 mathcomp.boot.ssrnat <> <> lib
+R263:265 mathcomp.boot.seq <> <> lib
+R267:272 mathcomp.boot.choice <> <> lib
+R304:310 mathcomp.boot.fintype <> <> lib
+R312:316 mathcomp.boot.tuple <> <> lib
+sec 6449:6451 <> Def
+var 6466:6467 Def aT
+var 6481:6482 Def rT
+R6471:6477 mathcomp.boot.fintype Finite.Exports finType abbrev
+R6488:6491 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6486:6487 mathcomp.boot.finfun <> aT:2 var
+ind 6510:6518 <> finfun_on
+constr 6542:6551 <> finfun_nil
+constr 6599:6609 <> finfun_cons
+R6528:6531 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6522:6524 mathcomp.boot.seq <> seq abbrev
+R6526:6527 mathcomp.boot.finfun <> Def.aT var
+R6582:6590 mathcomp.boot.finfun <> finfun_on:5 ind
+R6592:6595 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+binder 6611:6611 <> x:7
+binder 6613:6613 <> s:8
+R6618:6619 mathcomp.boot.finfun <> Def.rT var
+R6621:6621 mathcomp.boot.finfun <> x:7 var
+R6625:6633 mathcomp.boot.finfun <> finfun_on:5 ind
+R6635:6635 mathcomp.boot.finfun <> s:8 var
+R6639:6647 mathcomp.boot.finfun <> finfun_on:5 ind
+R6651:6654 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R6650:6650 mathcomp.boot.finfun <> x:7 var
+R6655:6655 mathcomp.boot.finfun <> s:8 var
+scheme 6510:6518 <> finfun_on_rect
+scheme 6510:6518 <> finfun_on_ind
+scheme 6510:6518 <> finfun_on_rec
+scheme 6510:6518 <> finfun_on_sind
+def 6675:6684 <> finfun_rec
+binder 6698:6698 <> x:9
+R6701:6702 mathcomp.boot.finfun <> Def.rT var
+R6704:6704 mathcomp.boot.finfun <> x:9 var
+binder 6687:6687 <> g:10
+binder 6707:6707 <> s:11
+R6711:6719 mathcomp.boot.finfun <> finfun_on ind
+R6721:6721 mathcomp.boot.finfun <> s:11 var
+R6731:6731 mathcomp.boot.finfun <> s:11 var
+R6738:6741 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R6750:6760 mathcomp.boot.finfun <> finfun_cons constr
+R6770:6779 mathcomp.boot.finfun <> finfun_rec:12 def
+R6781:6781 mathcomp.boot.finfun <> g:10 var
+R6763:6763 mathcomp.boot.finfun <> g:10 var
+R6792:6801 mathcomp.boot.finfun <> finfun_nil constr
+def 6820:6833 <> fun_of_fin_rec
+binder 6835:6835 <> x:14
+binder 6837:6837 <> s:15
+R6846:6854 mathcomp.boot.finfun <> finfun_on ind
+R6856:6856 mathcomp.boot.finfun <> s:15 var
+binder 6840:6842 <> f_s:16
+R6868:6871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6862:6866 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R6861:6861 mathcomp.boot.finfun <> x:14 var
+R6867:6867 mathcomp.boot.finfun <> s:15 var
+R6872:6873 mathcomp.boot.finfun <> Def.rT var
+R6875:6875 mathcomp.boot.finfun <> x:14 var
+R6885:6887 mathcomp.boot.finfun <> f_s:16 var
+R6892:6902 mathcomp.boot.finfun <> finfun_cons constr
+R6930:6932 mathcomp.boot.eqtype <> eqP def
+R6952:6958 Corelib.Init.Datatypes <> reflect ind
+R6990:6993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6976:6980 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R6989:6989 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R6973:6975 mathcomp.boot.finfun <> Dxb:19 var
+R6982:6986 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R6981:6981 mathcomp.boot.finfun <> x:14 var
+R6994:6995 mathcomp.boot.finfun <> Def.rT var
+R6997:6997 mathcomp.boot.finfun <> x:14 var
+R6937:6944 Corelib.Init.Datatypes <> ReflectT constr
+R7010:7015 Corelib.ssr.ssrfun <> ::function_scope:'fun'_'=>'_x not
+R7016:7020 Corelib.ssr.ssrfun <> ecast abbrev
+binder 7022:7022 <> x:20
+binder 7022:7022 <> x:21
+R7032:7035 Corelib.ssr.ssrfun <> esym def
+R7025:7026 mathcomp.boot.finfun <> Def.rT var
+R7028:7028 mathcomp.boot.finfun <> x:20 var
+R7053:7066 mathcomp.boot.finfun <> fun_of_fin_rec:17 def
+binder 7084:7086 <> isF:22
+R7092:7101 Corelib.Init.Logic <> False_rect scheme
+R7111:7114 Corelib.ssr.ssrbool <> notF def
+R7116:7118 mathcomp.boot.finfun <> isF:22 var
+R7104:7105 mathcomp.boot.finfun <> Def.rT var
+R7107:7107 mathcomp.boot.finfun <> x:14 var
+ind 7131:7139 <> finfun_of
+constr 7190:7197 <> FinfunOf
+R7147:7151 Corelib.ssr.ssreflect <> phant variant
+binder 7161:7161 <> x:23
+R7164:7165 mathcomp.boot.finfun <> Def.rT var
+R7167:7167 mathcomp.boot.finfun <> x:23 var
+binder 7142:7143 <> ph:24
+R7173:7183 Corelib.ssr.ssrbool <> predArgType def
+R7202:7210 mathcomp.boot.finfun <> finfun_on ind
+R7213:7216 mathcomp.boot.fintype <> enum abbrev
+R7218:7219 mathcomp.boot.finfun <> Def.aT var
+def 7235:7244 <> dfinfun_of
+binder 7246:7247 <> ph:27
+R7252:7260 mathcomp.boot.finfun <> finfun_of variant
+R7262:7263 mathcomp.boot.finfun <> ph:27 var
+def 7278:7287 <> fun_of_fin
+binder 7289:7290 <> ph:28
+R7297:7305 mathcomp.boot.finfun <> finfun_of variant
+R7307:7308 mathcomp.boot.finfun <> ph:28 var
+binder 7293:7293 <> f:29
+binder 7311:7311 <> x:30
+R7340:7340 mathcomp.boot.finfun <> f:29 var
+R7323:7330 mathcomp.boot.finfun <> FinfunOf constr
+R7345:7358 mathcomp.boot.finfun <> fun_of_fin_rec def
+R7366:7373 mathcomp.boot.fintype <> mem_enum thm
+R7378:7378 mathcomp.boot.finfun <> x:30 var
+R7375:7376 mathcomp.boot.finfun <> Def.aT var
+R7387:7389 mathcomp.boot.finfun Def <> sec
+R7393:7436 mathcomp.boot.finfun <> fun_of_fin def
+R7513:7522 mathcomp.boot.finfun <> fun_of_fin def
+R7570:7578 mathcomp.boot.finfun <> finfun_of variant
+R7581:7585 Corelib.ssr.ssreflect <> Phant constr
+not 7550:7550 <> ::type_scope:'{'_'ffun'_x_'}'
+R7675:7684 mathcomp.boot.finfun <> dfinfun_of def
+R7687:7691 Corelib.ssr.ssreflect <> Phant constr
+not 7654:7654 <> ::type_scope:'{'_'dffun'_x_'}'
+def 7763:7778 <> exp_finIndexType
+binder 7780:7780 <> n:32
+R7784:7790 mathcomp.boot.fintype Finite.Exports finType abbrev
+R7795:7797 mathcomp.boot.fintype <> :::'''I_'_x not
+R7798:7798 mathcomp.boot.finfun <> n:32 var
+R7825:7833 mathcomp.boot.finfun <> finfun_of variant
+R7836:7851 mathcomp.boot.finfun <> exp_finIndexType def
+R7857:7862 Corelib.ssr.ssrfun <> ::function_scope:'fun'_'=>'_x not
+R7867:7871 Corelib.ssr.ssreflect <> Phant constr
+not 7810:7810 <> ::type_scope:x_'^'_x
+abbrev 7907:7911 <> finPi
+R7934:7944 mathcomp.boot.fintype Finite sort def
+binder 7930:7930 <> x:33
+R7953:7953 mathcomp.boot.finfun <> x:33 var
+binder 7999:8000 <> aT:34
+binder 8002:8003 <> rT:35
+binder 8005:8005 <> g:36
+R8012:8019 mathcomp.boot.finfun <> FinfunOf constr
+R8044:8053 mathcomp.boot.finfun <> finfun_rec def
+R8058:8061 mathcomp.boot.fintype <> enum abbrev
+R8063:8064 mathcomp.boot.finfun <> aT:34 var
+R8055:8055 mathcomp.boot.finfun <> g:36 var
+R8022:8026 Corelib.ssr.ssreflect <> Phant constr
+R8029:8033 mathcomp.boot.finfun <> finPi abbrev
+R8035:8036 mathcomp.boot.finfun <> aT:34 var
+R8038:8039 mathcomp.boot.finfun <> rT:35 var
+modtype 7973:8067 <> finfun_Locked
+ax 7973:8067 finfun_Locked body
+ax 7973:8067 finfun_Locked unlock
+mod 7973:8067 <> finfun
+def 7973:8067 finfun body
+def 7973:8067 finfun unlock
+abbrev 7973:8067 <> finfun
+def 7973:8067 <> finfun_unlock_subterm
+def 8079:8091 <> finfun_unlock
+R8096:8105 Corelib.ssr.ssreflect <> Unlockable constr
+R8107:8119 mathcomp.boot.finfun <> unlock prfax
+R8132:8137 mathcomp.boot.finfun <> body prfax
+R8189:8194 mathcomp.boot.finfun <> finfun abbrev
+binder 8201:8201 <> x:40
+not 8160:8160 <> ::function_scope:'['_'ffun'_x_':'_x_'=>'_x_']'
+R8279:8284 mathcomp.boot.finfun <> finfun abbrev
+R8289:8294 Corelib.ssr.ssrfun <> ::function_scope:'fun'_'=>'_x not
+binder 8303:8303 <> x:41
+not 8254:8254 <> ::function_scope:'['_'ffun'_x_'=>'_x_']'
+R8403:8408 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R8410:8413 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R8415:8415 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+not 8382:8382 <> ::function_scope:'['_'ffun'_'=>'_x_']'
+sec 9769:9782 <> DepPlainTheory
+var 9796:9797 DepPlainTheory aT
+var 9811:9812 DepPlainTheory rT
+R9801:9807 mathcomp.boot.fintype Finite.Exports finType abbrev
+R9818:9821 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9816:9817 mathcomp.boot.finfun <> aT:43 var
+abbrev 9838:9839 <> fT
+R9844:9849 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R9861:9861 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R9850:9854 mathcomp.boot.finfun <> finPi abbrev
+R9856:9857 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R9859:9860 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R9882:9883 mathcomp.boot.finfun <> fT abbrev
+prf 9892:9896 <> ffun0
+R9910:9912 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9905:9906 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9909:9909 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9907:9908 mathcomp.boot.finfun <> DepPlainTheory.aT var
+binder 9899:9901 <> aT0:46
+R9918:9919 mathcomp.boot.finfun <> fT abbrev
+R9938:9943 mathcomp.boot.finfun <> finfun abbrev
+R9957:9964 mathcomp.boot.fintype <> card0_eq thm
+prf 9985:9989 <> ffunE
+binder 9991:9991 <> g:47
+binder 9993:9993 <> x:48
+R10014:10016 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10009:10010 mathcomp.boot.finfun <> fT abbrev
+R9998:10003 mathcomp.boot.finfun <> finfun abbrev
+R10005:10005 mathcomp.boot.finfun <> g:47 var
+R10013:10013 mathcomp.boot.finfun <> x:48 var
+R10017:10017 mathcomp.boot.finfun <> g:47 var
+R10019:10019 mathcomp.boot.finfun <> x:48 var
+R10037:10042 Corelib.ssr.ssreflect <> unlock thm
+R10057:10060 mathcomp.boot.fintype <> enum abbrev
+R10062:10063 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R10091:10098 mathcomp.boot.fintype <> mem_enum thm
+R10076:10082 mathcomp.boot.seq <> mem_seq def
+R10143:10145 mathcomp.boot.eqtype <> eqP def
+prf 10195:10199 <> ffunP
+R10210:10211 mathcomp.boot.finfun <> fT abbrev
+binder 10202:10203 <> f1:49
+binder 10205:10206 <> f2:50
+R10216:10216 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10238:10243 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 10224:10224 <> x:51
+R10231:10233 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10227:10228 mathcomp.boot.finfun <> f1:49 var
+R10230:10230 mathcomp.boot.finfun <> x:51 var
+R10234:10235 mathcomp.boot.finfun <> f2:50 var
+R10237:10237 mathcomp.boot.finfun <> x:51 var
+R10246:10248 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10244:10245 mathcomp.boot.finfun <> f1:49 var
+R10249:10250 mathcomp.boot.finfun <> f2:50 var
+R10280:10280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10300:10304 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 10288:10288 <> x:54
+R10294:10296 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10291:10291 mathcomp.boot.finfun <> f:52 var
+R10293:10293 mathcomp.boot.finfun <> x:54 var
+R10297:10297 mathcomp.boot.finfun <> g:53 var
+R10299:10299 mathcomp.boot.finfun <> x:54 var
+R10306:10308 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10305:10305 mathcomp.boot.finfun <> f:52 var
+R10309:10314 mathcomp.boot.finfun <> finfun abbrev
+R10316:10316 mathcomp.boot.finfun <> g:53 var
+R10355:10358 Corelib.ssr.ssrfun <> esym def
+R10392:10397 Corelib.ssr.ssreflect <> unlock thm
+R10406:10413 mathcomp.boot.finfun <> FinfunOf constr
+R10435:10441 mathcomp.boot.seq <> mem_seq def
+R10453:10453 mathcomp.boot.finfun <> x:55 var
+R10444:10447 mathcomp.boot.fintype <> enum abbrev
+R10449:10450 mathcomp.boot.finfun <> DepPlainTheory.aT var
+binder 10429:10431 <> aTx:56
+R10460:10462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10459:10459 mathcomp.boot.finfun <> x:55 var
+R10463:10476 mathcomp.boot.finfun <> fun_of_fin_rec def
+R10480:10482 mathcomp.boot.finfun <> aTx:56 var
+R10506:10521 mathcomp.boot.eqtype <> bool_irrelevance thm
+R10524:10531 mathcomp.boot.fintype <> mem_enum thm
+R10551:10554 mathcomp.boot.fintype <> enum abbrev
+R10556:10557 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R10565:10573 mathcomp.boot.fintype <> enum_uniq thm
+R10575:10576 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R10600:10603 Corelib.ssr.ssrbool <> andP thm
+R10635:10638 mathcomp.boot.eqtype <> eqxx abbrev
+R10651:10653 mathcomp.boot.eqtype <> eqP def
+R10662:10670 mathcomp.boot.eqtype <> eq_axiomK thm
+R10724:10727 Corelib.ssr.ssrbool <> orbT thm
+R10742:10744 mathcomp.boot.eqtype <> eqP def
+R10747:10751 mathcomp.boot.eqtype <> memPn thm
+R10777:10792 mathcomp.boot.eqtype <> bool_irrelevance thm
+prf 10815:10819 <> ffunK
+R10824:10829 Corelib.ssr.ssrfun <> cancel def
+R10832:10836 mathcomp.boot.finfun <> finPi abbrev
+R10838:10839 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R10841:10842 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R10845:10846 mathcomp.boot.finfun <> fT abbrev
+R10848:10857 mathcomp.boot.finfun <> fun_of_fin def
+R10859:10864 mathcomp.boot.finfun <> finfun abbrev
+R10893:10897 mathcomp.boot.finfun <> ffunP thm
+R10912:10916 mathcomp.boot.finfun <> ffunE thm
+prf 10931:10938 <> eq_dffun
+binder 10956:10956 <> x:57
+R10959:10960 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R10962:10962 mathcomp.boot.finfun <> x:57 var
+binder 10941:10942 <> g1:58
+binder 10944:10945 <> g2:59
+R10970:10970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10992:10996 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 10978:10978 <> x:60
+R10985:10987 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10981:10982 mathcomp.boot.finfun <> g1:58 var
+R10984:10984 mathcomp.boot.finfun <> x:60 var
+R10988:10989 mathcomp.boot.finfun <> g2:59 var
+R10991:10991 mathcomp.boot.finfun <> x:60 var
+R11006:11008 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10997:11002 mathcomp.boot.finfun <> finfun abbrev
+R11004:11005 mathcomp.boot.finfun <> g1:58 var
+R11009:11014 mathcomp.boot.finfun <> finfun abbrev
+R11016:11017 mathcomp.boot.finfun <> g2:59 var
+R11049:11053 mathcomp.boot.finfun <> ffunP thm
+R11070:11074 mathcomp.boot.finfun <> ffunE thm
+def 11099:11107 <> total_fun
+binder 11109:11109 <> g:61
+binder 11111:11111 <> x:62
+R11116:11121 Corelib.ssr.ssrfun <> Tagged def
+R11133:11134 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R11136:11136 mathcomp.boot.finfun <> x:62 var
+R11127:11127 mathcomp.boot.finfun <> g:61 var
+R11129:11129 mathcomp.boot.finfun <> x:62 var
+R11123:11124 mathcomp.boot.finfun <> DepPlainTheory.rT var
+def 11152:11158 <> tfgraph
+binder 11160:11160 <> f:63
+R11165:11175 mathcomp.boot.tuple <> codom_tuple canonstruc
+R11178:11186 mathcomp.boot.finfun <> total_fun def
+R11188:11188 mathcomp.boot.finfun <> f:63 var
+prf 11199:11209 <> codom_tffun
+binder 11211:11211 <> f:64
+R11234:11236 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11215:11219 mathcomp.boot.fintype <> codom def
+R11222:11230 mathcomp.boot.finfun <> total_fun def
+R11232:11232 mathcomp.boot.finfun <> f:64 var
+R11237:11243 mathcomp.boot.finfun <> tfgraph def
+R11245:11245 mathcomp.boot.finfun <> f:64 var
+def 11285:11295 <> tfgraph_inv
+R11307:11329 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R11302:11303 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R11306:11306 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R11304:11305 mathcomp.boot.finfun <> DepPlainTheory.aT var
+R11315:11315 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R11317:11319 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R11322:11324 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R11329:11329 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R11320:11321 mathcomp.boot.finfun <> DepPlainTheory.aT var
+binder 11316:11316 <> x:65
+R11325:11326 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R11328:11328 mathcomp.boot.finfun <> x:65 var
+binder 11298:11298 <> G:66
+R11334:11339 Corelib.Init.Datatypes <> option ind
+R11341:11342 mathcomp.boot.finfun <> fT abbrev
+R11352:11357 mathcomp.boot.fintype <> eqfunP thm
+R11365:11372 Corelib.Init.Datatypes <> ReflectT constr
+R11395:11398 Corelib.Init.Datatypes <> Some constr
+R11400:11405 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R11407:11410 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R11465:11465 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 11406:11406 <> x:67
+R11411:11415 Corelib.ssr.ssrfun <> ecast abbrev
+binder 11417:11417 <> x:68
+binder 11417:11417 <> x:69
+R11431:11431 mathcomp.boot.finfun <> x:67 var
+R11435:11440 Corelib.ssr.ssrfun <> tagged def
+R11443:11446 mathcomp.boot.tuple <> tnth def
+R11451:11459 mathcomp.boot.fintype <> enum_rank def
+R11461:11461 mathcomp.boot.finfun <> x:67 var
+R11448:11448 mathcomp.boot.finfun <> G:66 var
+R11420:11421 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R11423:11423 mathcomp.boot.finfun <> x:68 var
+R11383:11386 Corelib.Init.Datatypes <> None constr
+prf 11481:11488 <> tfgraphK
+R11492:11498 Corelib.ssr.ssrfun <> pcancel def
+R11508:11518 mathcomp.boot.finfun <> tfgraph_inv def
+R11500:11506 mathcomp.boot.finfun <> tfgraph def
+R11579:11581 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11549:11552 mathcomp.boot.tuple <> tnth def
+R11567:11575 mathcomp.boot.fintype <> enum_rank def
+R11577:11577 mathcomp.boot.finfun <> x:70 var
+R11555:11561 mathcomp.boot.finfun <> tfgraph def
+R11582:11590 mathcomp.boot.finfun <> total_fun def
+R11594:11594 mathcomp.boot.finfun <> x:70 var
+R11610:11617 mathcomp.boot.tuple <> tnth_map thm
+R11621:11624 mathcomp.boot.tuple <> tnth def
+R11630:11641 mathcomp.boot.fintype <> enum_val_nth thm
+R11643:11652 mathcomp.boot.fintype <> enum_rankK thm
+R11664:11674 mathcomp.boot.finfun <> tfgraph_inv def
+R11683:11688 mathcomp.boot.fintype <> eqfunP thm
+R11737:11740 Corelib.Init.Datatypes <> Some constr
+R11752:11756 mathcomp.boot.finfun <> ffunP thm
+R11771:11775 mathcomp.boot.finfun <> ffunE thm
+R11820:11828 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 11843:11853 <> tfgraph_inj
+R11857:11865 Corelib.ssr.ssrfun <> injective def
+R11867:11873 mathcomp.boot.finfun <> tfgraph def
+R11890:11897 Corelib.ssr.ssrfun <> pcan_inj thm
+R11899:11906 mathcomp.boot.finfun <> tfgraphK thm
+def 11926:11935 <> family_mem
+binder 11937:11938 <> mF:71
+R11943:11948 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_':'_x_'|'_x_']' not
+R11950:11952 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_':'_x_'|'_x_']' not
+R11955:11957 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_':'_x_'|'_x_']' not
+R11989:11989 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_':'_x_'|'_x_']' not
+R11953:11954 mathcomp.boot.finfun <> fT abbrev
+binder 11949:11949 <> f:72
+R11958:11965 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+R11988:11988 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+binder 11966:11966 <> x:73
+R11967:11968 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R11969:11974 Corelib.ssr.ssrbool <> in_mem def
+R11983:11984 mathcomp.boot.finfun <> mF:71 var
+R11986:11986 mathcomp.boot.finfun <> x:73 var
+R11977:11977 mathcomp.boot.finfun <> f:72 var
+R11979:11979 mathcomp.boot.finfun <> x:73 var
+binder 11966:11966 <> x:74
+binder 11966:11966 <> x:75
+var 12004:12005 DepPlainTheory pT
+var 12037:12037 DepPlainTheory F
+binder 12016:12016 <> x:76
+R12019:12026 Corelib.ssr.ssrbool <> predType rec
+R12029:12030 mathcomp.boot.finfun <> DepPlainTheory.rT var
+R12032:12032 mathcomp.boot.finfun <> x:76 var
+binder 12048:12048 <> x:79
+R12051:12052 mathcomp.boot.finfun <> pT:78 var
+R12054:12054 mathcomp.boot.finfun <> x:79 var
+def 12134:12137 <> fmem
+binder 12139:12139 <> F:82
+binder 12141:12141 <> x:83
+R12146:12148 Corelib.ssr.ssrbool <> mem def
+R12157:12158 mathcomp.boot.finfun <> DepPlainTheory.pT var
+R12160:12160 mathcomp.boot.finfun <> x:83 var
+R12151:12151 mathcomp.boot.finfun <> F:82 var
+R12153:12153 mathcomp.boot.finfun <> x:83 var
+prf 12171:12177 <> familyP
+binder 12179:12179 <> f:84
+R12183:12189 Corelib.Init.Datatypes <> reflect ind
+R12217:12221 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R12216:12216 mathcomp.boot.finfun <> f:84 var
+R12222:12231 mathcomp.boot.finfun <> family_mem def
+R12234:12237 mathcomp.boot.finfun <> fmem def
+R12239:12239 mathcomp.boot.finfun <> DepPlainTheory.F var
+binder 12199:12199 <> x:85
+R12205:12209 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R12202:12202 mathcomp.boot.finfun <> f:84 var
+R12204:12204 mathcomp.boot.finfun <> x:85 var
+R12210:12210 mathcomp.boot.finfun <> DepPlainTheory.F var
+R12212:12212 mathcomp.boot.finfun <> x:85 var
+R12258:12264 mathcomp.boot.fintype <> forallP thm
+R12277:12290 mathcomp.boot.finfun DepPlainTheory <> sec
+R12304:12308 mathcomp.boot.finfun <> ffunK thm
+R12340:12344 mathcomp.boot.finfun <> ffun0 thm
+R12369:12376 mathcomp.boot.finfun <> eq_dffun thm
+R12412:12420 mathcomp.boot.finfun <> total_fun def
+R12445:12451 mathcomp.boot.finfun <> tfgraph def
+R12474:12481 mathcomp.boot.finfun <> tfgraphK thm
+R12513:12523 mathcomp.boot.finfun <> tfgraph_inj thm
+R12562:12565 mathcomp.boot.finfun <> fmem def
+R12595:12601 mathcomp.boot.finfun <> familyP thm
+abbrev 12628:12633 <> family
+R12641:12650 mathcomp.boot.finfun <> family_mem def
+R12653:12656 mathcomp.boot.finfun <> fmem def
+sec 12672:12690 <> InheritedStructures
+var 12703:12704 InheritedStructures aT
+R12708:12714 mathcomp.boot.fintype Finite.Exports finType abbrev
+abbrev 12726:12733 <> dffun_aT
+R12744:12750 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R12775:12775 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R12762:12763 mathcomp.boot.finfun <> InheritedStructures.aT var
+binder 12758:12758 <> x:88
+R12769:12769 mathcomp.boot.finfun <> x:88 var
+R12817:12829 mathcomp.boot.eqtype Equality copy abbrev
+R12832:12839 mathcomp.boot.finfun <> dffun_aT abbrev
+R12844:12849 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R12841:12842 mathcomp.boot.finfun <> rT:89 var
+R12855:12863 mathcomp.boot.eqtype <> pcan_type def
+R12865:12872 mathcomp.boot.finfun <> tfgraphK thm
+sec 12779:12874 InheritedStructures.hb_instance_1 hb_instance_1
+var 12779:12874 InheritedStructures.hb_instance_1 rT
+def 12779:12874 <> HB_unnamed_factory_2
+def 12779:12874 <> eqtype_Equality__to__eqtype_hasDecEq
+def 12779:12874 <> HB_unnamed_mixin_4
+def 12779:12874 <> finfun_dfinfun_of__canonical__eqtype_Equality
+R12779:12874 mathcomp.boot.finfun InheritedStructures <> sec
+R12914:12919 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R12927:12939 mathcomp.boot.eqtype Equality copy abbrev
+R12941:12946 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R12955:12955 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R12949:12952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12947:12948 mathcomp.boot.finfun <> InheritedStructures.aT var
+R12953:12954 mathcomp.boot.finfun <> rT:90 var
+R12957:12963 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R12976:12976 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R12974:12975 mathcomp.boot.finfun <> rT:90 var
+sec 12876:12977 InheritedStructures.hb_instance_5 hb_instance_5
+var 12876:12977 InheritedStructures.hb_instance_5 rT
+def 12876:12977 <> HB_unnamed_factory_6
+def 12876:12977 <> eqtype_Equality__to__eqtype_hasDecEq__8
+def 12876:12977 <> HB_unnamed_mixin_9
+def 12876:12977 <> finfun_finfun_of__canonical__eqtype_Equality
+R12876:12977 mathcomp.boot.finfun InheritedStructures <> sec
+R13018:13028 mathcomp.boot.choice Choice copy abbrev
+R13031:13038 mathcomp.boot.finfun <> dffun_aT abbrev
+R13043:13052 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R13040:13041 mathcomp.boot.finfun <> rT:91 var
+R13058:13066 mathcomp.boot.eqtype <> pcan_type def
+R13068:13075 mathcomp.boot.finfun <> tfgraphK thm
+sec 12980:13077 InheritedStructures.hb_instance_10 hb_instance_10
+var 12980:13077 InheritedStructures.hb_instance_10 rT
+def 12980:13077 <> HB_unnamed_factory_11
+def 12980:13077 <> choice_Choice__to__choice_hasChoice
+def 12980:13077 <> choice_Choice__to__eqtype_hasDecEq
+def 12980:13077 <> HB_unnamed_mixin_14
+def 12980:13077 <> HB_unnamed_mixin_15
+def 12980:13077 <> finfun_dfinfun_of__canonical__choice_Choice
+R12980:13077 mathcomp.boot.finfun InheritedStructures <> sec
+R13117:13126 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R13134:13144 mathcomp.boot.choice Choice copy abbrev
+R13146:13151 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13160:13160 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13154:13157 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13152:13153 mathcomp.boot.finfun <> InheritedStructures.aT var
+R13158:13159 mathcomp.boot.finfun <> rT:92 var
+R13162:13168 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13181:13181 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13179:13180 mathcomp.boot.finfun <> rT:92 var
+sec 13079:13182 InheritedStructures.hb_instance_16 hb_instance_16
+var 13079:13182 InheritedStructures.hb_instance_16 rT
+def 13079:13182 <> HB_unnamed_factory_17
+def 13079:13182 <> choice_Choice__to__choice_hasChoice__19
+def 13079:13182 <> choice_Choice__to__eqtype_hasDecEq__21
+def 13079:13182 <> HB_unnamed_mixin_22
+def 13079:13182 <> HB_unnamed_mixin_23
+def 13079:13182 <> finfun_finfun_of__canonical__choice_Choice
+R13079:13182 mathcomp.boot.finfun InheritedStructures <> sec
+R13223:13236 mathcomp.boot.choice Countable copy abbrev
+R13239:13246 mathcomp.boot.finfun <> dffun_aT abbrev
+R13251:13259 mathcomp.boot.choice Countable.Exports countType abbrev
+R13248:13249 mathcomp.boot.finfun <> rT:93 var
+R13265:13273 mathcomp.boot.eqtype <> pcan_type def
+R13275:13282 mathcomp.boot.finfun <> tfgraphK thm
+sec 13185:13284 InheritedStructures.hb_instance_24 hb_instance_24
+var 13185:13284 InheritedStructures.hb_instance_24 rT
+def 13185:13284 <> HB_unnamed_factory_25
+def 13185:13284 <> choice_Countable__to__choice_hasChoice
+def 13185:13284 <> choice_Countable__to__eqtype_hasDecEq
+def 13185:13284 <> choice_Countable__to__choice_Choice_isCountable
+def 13185:13284 <> HB_unnamed_mixin_29
+def 13185:13284 <> HB_unnamed_mixin_30
+def 13185:13284 <> HB_unnamed_mixin_31
+def 13185:13284 <> finfun_dfinfun_of__canonical__choice_Countable
+R13185:13284 mathcomp.boot.finfun InheritedStructures <> sec
+R13324:13332 mathcomp.boot.choice Countable.Exports countType abbrev
+R13340:13353 mathcomp.boot.choice Countable copy abbrev
+R13355:13360 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13369:13369 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13363:13366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13361:13362 mathcomp.boot.finfun <> InheritedStructures.aT var
+R13367:13368 mathcomp.boot.finfun <> rT:94 var
+R13371:13377 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13390:13390 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13388:13389 mathcomp.boot.finfun <> rT:94 var
+sec 13286:13391 InheritedStructures.hb_instance_32 hb_instance_32
+var 13286:13391 InheritedStructures.hb_instance_32 rT
+def 13286:13391 <> HB_unnamed_factory_33
+def 13286:13391 <> choice_Countable__to__choice_hasChoice__35
+def 13286:13391 <> choice_Countable__to__eqtype_hasDecEq__37
+def 13286:13391 <> choice_Countable__to__choice_Choice_isCountable__39
+def 13286:13391 <> HB_unnamed_mixin_40
+def 13286:13391 <> HB_unnamed_mixin_41
+def 13286:13391 <> HB_unnamed_mixin_42
+def 13286:13391 <> finfun_finfun_of__canonical__choice_Countable
+R13286:13391 mathcomp.boot.finfun InheritedStructures <> sec
+R13432:13442 mathcomp.boot.fintype Finite copy abbrev
+R13445:13452 mathcomp.boot.finfun <> dffun_aT abbrev
+R13457:13463 mathcomp.boot.fintype Finite.Exports finType abbrev
+R13454:13455 mathcomp.boot.finfun <> rT:95 var
+R13469:13477 mathcomp.boot.eqtype <> pcan_type def
+R13479:13486 mathcomp.boot.finfun <> tfgraphK thm
+sec 13394:13488 InheritedStructures.hb_instance_43 hb_instance_43
+var 13394:13488 InheritedStructures.hb_instance_43 rT
+def 13394:13488 <> HB_unnamed_factory_44
+def 13394:13488 <> fintype_Finite__to__choice_hasChoice
+def 13394:13488 <> fintype_Finite__to__choice_Choice_isCountable
+def 13394:13488 <> fintype_Finite__to__eqtype_hasDecEq
+def 13394:13488 <> fintype_Finite__to__fintype_isFinite
+def 13394:13488 <> HB_unnamed_mixin_49
+def 13394:13488 <> HB_unnamed_mixin_50
+def 13394:13488 <> HB_unnamed_mixin_51
+def 13394:13488 <> HB_unnamed_mixin_52
+def 13394:13488 <> finfun_dfinfun_of__canonical__fintype_Finite
+R13394:13488 mathcomp.boot.finfun InheritedStructures <> sec
+R13528:13534 mathcomp.boot.fintype Finite.Exports finType abbrev
+R13542:13552 mathcomp.boot.fintype Finite copy abbrev
+R13554:13559 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13568:13568 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R13562:13565 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13560:13561 mathcomp.boot.finfun <> InheritedStructures.aT var
+R13566:13567 mathcomp.boot.finfun <> rT:96 var
+R13570:13576 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13589:13589 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R13587:13588 mathcomp.boot.finfun <> rT:96 var
+sec 13490:13590 InheritedStructures.hb_instance_53 hb_instance_53
+var 13490:13590 InheritedStructures.hb_instance_53 rT
+def 13490:13590 <> HB_unnamed_factory_54
+def 13490:13590 <> fintype_Finite__to__choice_hasChoice__56
+def 13490:13590 <> fintype_Finite__to__choice_Choice_isCountable__58
+def 13490:13590 <> fintype_Finite__to__eqtype_hasDecEq__60
+def 13490:13590 <> fintype_Finite__to__fintype_isFinite__62
+def 13490:13590 <> HB_unnamed_mixin_63
+def 13490:13590 <> HB_unnamed_mixin_64
+def 13490:13590 <> HB_unnamed_mixin_65
+def 13490:13590 <> HB_unnamed_mixin_66
+def 13490:13590 <> finfun_finfun_of__canonical__fintype_Finite
+R13490:13590 mathcomp.boot.finfun InheritedStructures <> sec
+R13597:13615 mathcomp.boot.finfun InheritedStructures <> sec
+sec 13627:13637 <> FinFunTuple
+var  13650:13650 FinFunTuple T
+var  13661:13661 FinFunTuple n
+R13665:13667 Corelib.Init.Datatypes <> nat ind
+def 13683:13697 <> tuple_of_finfun
+R13705:13707 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R13708:13708 mathcomp.boot.finfun <> FinFunTuple.n var
+R13704:13704 mathcomp.boot.finfun <> FinFunTuple.T var
+binder 13700:13700 <> f:99
+R13714:13722 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13713:13713 mathcomp.boot.finfun <> FinFunTuple.n var
+R13722:13722 mathcomp.boot.finfun <> FinFunTuple.T var
+R13727:13733 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R13737:13739 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R13741:13743 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R13745:13745 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R13744:13744 mathcomp.boot.finfun <> FinFunTuple.n var
+binder 13740:13740 <> i:100
+R13734:13734 mathcomp.boot.finfun <> f:99 var
+R13736:13736 mathcomp.boot.finfun <> i:100 var
+def 13760:13774 <> finfun_of_tuple
+R13782:13790 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13781:13781 mathcomp.boot.finfun <> FinFunTuple.n var
+R13790:13790 mathcomp.boot.finfun <> FinFunTuple.T var
+binder 13777:13777 <> t:101
+R13797:13799 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R13800:13800 mathcomp.boot.finfun <> FinFunTuple.n var
+R13796:13796 mathcomp.boot.finfun <> FinFunTuple.T var
+R13806:13811 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R13813:13816 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R13825:13825 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 13812:13812 <> i:102
+R13817:13820 mathcomp.boot.tuple <> tnth def
+R13824:13824 mathcomp.boot.finfun <> i:102 var
+R13822:13822 mathcomp.boot.finfun <> t:101 var
+prf 13835:13850 <> finfun_of_tupleK
+R13854:13859 Corelib.ssr.ssrfun <> cancel def
+R13877:13891 mathcomp.boot.finfun <> tuple_of_finfun def
+R13861:13875 mathcomp.boot.finfun <> finfun_of_tuple def
+R13921:13932 mathcomp.boot.tuple <> eq_from_tnth thm
+R13948:13955 mathcomp.boot.tuple <> tnth_map thm
+R13957:13961 mathcomp.boot.finfun <> ffunE thm
+R13963:13976 mathcomp.boot.tuple <> tnth_ord_tuple thm
+prf 13991:14006 <> tuple_of_finfunK
+R14010:14015 Corelib.ssr.ssrfun <> cancel def
+R14033:14047 mathcomp.boot.finfun <> finfun_of_tuple def
+R14017:14031 mathcomp.boot.finfun <> tuple_of_finfun def
+R14076:14080 mathcomp.boot.finfun <> ffunP thm
+R14096:14100 mathcomp.boot.finfun <> ffunE thm
+R14102:14109 mathcomp.boot.tuple <> tnth_map thm
+R14111:14124 mathcomp.boot.tuple <> tnth_ord_tuple thm
+R14137:14147 mathcomp.boot.finfun FinFunTuple <> sec
+sec 14159:14167 <> FinFunCat
+var  14180:14180 FinFunCat T
+var  14191:14191 FinFunCat A
+var  14193:14193 FinFunCat B
+R14197:14203 mathcomp.boot.fintype Finite.Exports finType abbrev
+def 14219:14225 <> cat_fun
+R14233:14236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14232:14232 mathcomp.boot.finfun <> FinFunCat.A var
+R14237:14237 mathcomp.boot.finfun <> FinFunCat.T var
+binder 14228:14228 <> f:106
+R14246:14249 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14245:14245 mathcomp.boot.finfun <> FinFunCat.B var
+R14250:14250 mathcomp.boot.finfun <> FinFunCat.T var
+binder 14241:14241 <> g:107
+R14260:14263 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14256:14258 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
+R14255:14255 mathcomp.boot.finfun <> FinFunCat.A var
+R14259:14259 mathcomp.boot.finfun <> FinFunCat.B var
+R14264:14264 mathcomp.boot.finfun <> FinFunCat.T var
+binder 14275:14275 <> i:108
+R14286:14286 mathcomp.boot.finfun <> i:108 var
+R14293:14295 Corelib.Init.Datatypes <> inl constr
+R14302:14302 mathcomp.boot.finfun <> f:106 var
+R14308:14310 Corelib.Init.Datatypes <> inr constr
+R14317:14317 mathcomp.boot.finfun <> g:107 var
+prf 14333:14339 <> cat_inl
+binder 14341:14341 <> f:110
+binder 14343:14343 <> g:111
+binder 14345:14345 <> j:112
+R14368:14370 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14349:14355 mathcomp.boot.finfun <> cat_fun def
+R14362:14364 Corelib.Init.Datatypes <> inl constr
+R14366:14366 mathcomp.boot.finfun <> j:112 var
+R14359:14359 mathcomp.boot.finfun <> g:111 var
+R14357:14357 mathcomp.boot.finfun <> f:110 var
+R14371:14371 mathcomp.boot.finfun <> f:110 var
+R14373:14373 mathcomp.boot.finfun <> j:112 var
+prf 14402:14408 <> cat_inr
+binder 14410:14410 <> f:113
+binder 14412:14412 <> g:114
+binder 14414:14414 <> j:115
+R14437:14439 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14418:14424 mathcomp.boot.finfun <> cat_fun def
+R14431:14433 Corelib.Init.Datatypes <> inr constr
+R14435:14435 mathcomp.boot.finfun <> j:115 var
+R14428:14428 mathcomp.boot.finfun <> g:114 var
+R14426:14426 mathcomp.boot.finfun <> f:113 var
+R14440:14440 mathcomp.boot.finfun <> g:114 var
+R14442:14442 mathcomp.boot.finfun <> j:115 var
+R14469:14477 mathcomp.boot.finfun FinFunCat <> sec
+sec 14489:14497 <> OrdFunCat
+var  14509:14509 OrdFunCat T
+var  14520:14520 OrdFunCat m
+var  14522:14522 OrdFunCat n
+R14526:14528 Corelib.Init.Datatypes <> nat ind
+def 14544:14553 <> cat_ordfun
+R14561:14563 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R14564:14564 mathcomp.boot.finfun <> OrdFunCat.m var
+R14560:14560 mathcomp.boot.finfun <> OrdFunCat.T var
+binder 14556:14556 <> f:119
+R14573:14575 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R14576:14576 mathcomp.boot.finfun <> OrdFunCat.n var
+R14572:14572 mathcomp.boot.finfun <> OrdFunCat.T var
+binder 14568:14568 <> g:120
+R14582:14583 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R14589:14589 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R14585:14587 mathcomp.boot.ssrnat <> ::nat_scope:x_'+'_x not
+R14584:14584 mathcomp.boot.finfun <> OrdFunCat.m var
+R14588:14588 mathcomp.boot.finfun <> OrdFunCat.n var
+R14581:14581 mathcomp.boot.finfun <> OrdFunCat.T var
+R14596:14601 mathcomp.boot.finfun <> finfun abbrev
+R14615:14618 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R14604:14610 mathcomp.boot.finfun <> cat_fun def
+R14614:14614 mathcomp.boot.finfun <> g:120 var
+R14612:14612 mathcomp.boot.finfun <> f:119 var
+R14619:14623 mathcomp.boot.fintype <> split def
+prf 14634:14643 <> cat_lshift
+binder 14645:14645 <> f:121
+binder 14647:14647 <> g:122
+binder 14649:14649 <> j:123
+R14680:14682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14653:14662 mathcomp.boot.finfun <> cat_ordfun def
+R14669:14674 mathcomp.boot.fintype <> lshift def
+R14678:14678 mathcomp.boot.finfun <> j:123 var
+R14676:14676 mathcomp.boot.finfun <> OrdFunCat.n var
+R14666:14666 mathcomp.boot.finfun <> g:122 var
+R14664:14664 mathcomp.boot.finfun <> f:121 var
+R14683:14683 mathcomp.boot.finfun <> f:121 var
+R14685:14685 mathcomp.boot.finfun <> j:123 var
+R14706:14710 mathcomp.boot.finfun <> ffunE thm
+R14715:14722 mathcomp.boot.fintype <> unsplitK thm
+R14725:14727 Corelib.Init.Datatypes <> inl constr
+prf 14748:14757 <> cat_rshift
+binder 14759:14759 <> f:124
+binder 14761:14761 <> g:125
+binder 14763:14763 <> j:126
+R14794:14796 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14767:14776 mathcomp.boot.finfun <> cat_ordfun def
+R14783:14788 mathcomp.boot.fintype <> rshift def
+R14792:14792 mathcomp.boot.finfun <> j:126 var
+R14790:14790 mathcomp.boot.finfun <> OrdFunCat.m var
+R14780:14780 mathcomp.boot.finfun <> g:125 var
+R14778:14778 mathcomp.boot.finfun <> f:124 var
+R14797:14797 mathcomp.boot.finfun <> g:125 var
+R14799:14799 mathcomp.boot.finfun <> j:126 var
+R14820:14824 mathcomp.boot.finfun <> ffunE thm
+R14829:14836 mathcomp.boot.fintype <> unsplitK thm
+R14839:14841 Corelib.Init.Datatypes <> inr constr
+def 14867:14877 <> cat_lrshift
+R14882:14882 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14894:14895 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14907:14907 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14884:14893 mathcomp.boot.finfun <> cat_lshift thm
+R14897:14906 mathcomp.boot.finfun <> cat_rshift thm
+R14915:14923 mathcomp.boot.finfun OrdFunCat <> sec
+prf 14933:14943 <> cat_ordfunK
+binder 14946:14946 <> m:127
+binder 14948:14948 <> n:128
+R15011:15014 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R14955:14964 mathcomp.boot.finfun <> cat_ordfun def
+R14990:14995 mathcomp.boot.finfun <> finfun abbrev
+R14999:15004 mathcomp.boot.fintype <> rshift def
+R14967:14972 mathcomp.boot.finfun <> finfun abbrev
+R14976:14981 mathcomp.boot.fintype <> lshift def
+R14983:14983 mathcomp.boot.finfun <> m:127 var
+R14985:14985 mathcomp.boot.finfun <> n:128 var
+R15015:15016 Corelib.ssr.ssrfun <> id abbrev
+R15046:15055 mathcomp.boot.fintype <> split_ordP thm
+R15084:15094 mathcomp.boot.finfun <> cat_lrshift def
+R15097:15101 mathcomp.boot.finfun <> ffunE thm
+prf 15116:15130 <> cat_ordfun_comp
+binder 15133:15133 <> m:129
+binder 15135:15135 <> n:130
+binder 15137:15137 <> S:131
+binder 15139:15139 <> T:132
+R15148:15150 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R15151:15151 mathcomp.boot.finfun <> m:129 var
+R15147:15147 mathcomp.boot.finfun <> S:131 var
+binder 15143:15143 <> f:133
+R15160:15162 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R15163:15163 mathcomp.boot.finfun <> n:130 var
+R15159:15159 mathcomp.boot.finfun <> S:131 var
+binder 15155:15155 <> g:134
+R15172:15175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15171:15171 mathcomp.boot.finfun <> S:131 var
+R15176:15176 mathcomp.boot.finfun <> T:132 var
+binder 15167:15167 <> h:135
+R15229:15232 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R15183:15192 mathcomp.boot.finfun <> cat_ordfun def
+R15213:15218 mathcomp.boot.finfun <> finfun abbrev
+R15222:15225 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R15221:15221 mathcomp.boot.finfun <> h:135 var
+R15226:15226 mathcomp.boot.finfun <> g:134 var
+R15195:15200 mathcomp.boot.finfun <> finfun abbrev
+R15204:15207 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R15203:15203 mathcomp.boot.finfun <> h:135 var
+R15208:15208 mathcomp.boot.finfun <> f:133 var
+R15234:15237 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R15233:15233 mathcomp.boot.finfun <> h:135 var
+R15238:15247 mathcomp.boot.finfun <> cat_ordfun def
+R15251:15251 mathcomp.boot.finfun <> g:134 var
+R15249:15249 mathcomp.boot.finfun <> f:133 var
+R15281:15290 mathcomp.boot.fintype <> split_ordP thm
+R15319:15329 mathcomp.boot.finfun <> cat_lrshift def
+R15332:15336 mathcomp.boot.finfun <> ffunE thm
+sec 15353:15366 <> FunPlainTheory
+var 15381:15382 FunPlainTheory aT
+var 15396:15397 FunPlainTheory rT
+R15386:15392 mathcomp.boot.fintype Finite.Exports finType abbrev
+abbrev 15417:15418 <> fT
+R15423:15428 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R15437:15437 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R15431:15434 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15429:15430 mathcomp.boot.finfun <> FunPlainTheory.aT var
+R15435:15436 mathcomp.boot.finfun <> FunPlainTheory.rT var
+R15460:15461 mathcomp.boot.finfun <> fT abbrev
+R15469:15472 Corelib.ssr.ssrbool <> pred def
+R15474:15475 mathcomp.boot.finfun <> FunPlainTheory.rT var
+def 15491:15496 <> fgraph
+binder 15498:15498 <> f:140
+R15503:15513 mathcomp.boot.tuple <> codom_tuple canonstruc
+R15515:15515 mathcomp.boot.finfun <> f:140 var
+def 15530:15535 <> Finfun
+R15547:15556 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R15542:15543 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R15546:15546 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R15544:15545 mathcomp.boot.finfun <> FunPlainTheory.aT var
+R15555:15556 mathcomp.boot.finfun <> FunPlainTheory.rT var
+binder 15538:15538 <> G:141
+R15562:15567 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R15569:15572 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R15593:15593 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 15568:15568 <> x:142
+R15573:15576 mathcomp.boot.tuple <> tnth def
+R15581:15589 mathcomp.boot.fintype <> enum_rank def
+R15591:15591 mathcomp.boot.finfun <> x:142 var
+R15578:15578 mathcomp.boot.finfun <> G:141 var
+prf 15603:15613 <> tnth_fgraph
+binder 15615:15615 <> f:143
+binder 15617:15617 <> i:144
+R15638:15640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15621:15624 mathcomp.boot.tuple <> tnth def
+R15637:15637 mathcomp.boot.finfun <> i:144 var
+R15627:15632 mathcomp.boot.finfun <> fgraph def
+R15634:15634 mathcomp.boot.finfun <> f:143 var
+R15641:15641 mathcomp.boot.finfun <> f:143 var
+R15644:15651 mathcomp.boot.fintype <> enum_val def
+R15653:15653 mathcomp.boot.finfun <> i:144 var
+R15675:15682 mathcomp.boot.tuple <> tnth_map thm
+R15685:15688 mathcomp.boot.tuple <> tnth def
+R15691:15702 mathcomp.boot.fintype <> enum_val_nth thm
+prf 15717:15723 <> FinfunK
+R15727:15732 Corelib.ssr.ssrfun <> cancel def
+R15741:15746 mathcomp.boot.finfun <> fgraph def
+R15734:15739 mathcomp.boot.finfun <> Finfun def
+R15775:15786 mathcomp.boot.tuple <> eq_from_tnth thm
+R15801:15811 mathcomp.boot.finfun <> tnth_fgraph thm
+R15813:15817 mathcomp.boot.finfun <> ffunE thm
+R15819:15827 mathcomp.boot.fintype <> enum_valK thm
+prf 15842:15848 <> fgraphK
+R15852:15857 Corelib.ssr.ssrfun <> cancel def
+R15866:15871 mathcomp.boot.finfun <> Finfun def
+R15859:15864 mathcomp.boot.finfun <> fgraph def
+R15900:15904 mathcomp.boot.finfun <> ffunP thm
+R15919:15923 mathcomp.boot.finfun <> ffunE thm
+R15925:15935 mathcomp.boot.finfun <> tnth_fgraph thm
+R15937:15946 mathcomp.boot.fintype <> enum_rankK thm
+prf 15961:15972 <> fgraph_ffun0
+binder 15974:15976 <> aT0:145
+R15998:16000 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16004:16007 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16008:16010 mathcomp.boot.seq <> seq abbrev
+R16012:16013 mathcomp.boot.finfun <> FunPlainTheory.rT var
+R15980:15985 mathcomp.boot.finfun <> fgraph def
+R15988:15992 mathcomp.boot.finfun <> ffun0 thm
+R15994:15996 mathcomp.boot.finfun <> aT0:145 var
+R16001:16003 Corelib.Init.Datatypes <> nil constr
+R16032:16035 mathcomp.boot.seq <> nilP thm
+R16037:16039 mathcomp.boot.eqtype <> eqP def
+R16050:16059 mathcomp.boot.tuple <> size_tuple thm
+prf 16074:16083 <> codom_ffun
+binder 16085:16085 <> f:146
+R16096:16098 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16089:16093 mathcomp.boot.fintype <> codom def
+R16095:16095 mathcomp.boot.finfun <> f:146 var
+R16099:16104 mathcomp.boot.finfun <> fgraph def
+R16106:16106 mathcomp.boot.finfun <> f:146 var
+prf 16135:16148 <> tagged_tfgraph
+binder 16150:16150 <> f:147
+R16182:16184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16155:16157 mathcomp.boot.seq <> map def
+R16161:16162 mathcomp.boot.finfun <> FunPlainTheory.rT var
+R16164:16169 Corelib.ssr.ssrfun <> tagged def
+R16172:16178 mathcomp.boot.finfun <> tfgraph def
+R16180:16180 mathcomp.boot.finfun <> f:147 var
+R16185:16190 mathcomp.boot.finfun <> fgraph def
+R16192:16192 mathcomp.boot.finfun <> f:147 var
+R16214:16221 mathcomp.boot.seq <> map_comp thm
+prf 16236:16242 <> eq_ffun
+R16255:16258 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16253:16254 mathcomp.boot.finfun <> FunPlainTheory.aT var
+R16259:16260 mathcomp.boot.finfun <> FunPlainTheory.rT var
+binder 16245:16246 <> g1:148
+binder 16248:16249 <> g2:149
+R16273:16276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16267:16270 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R16265:16266 mathcomp.boot.finfun <> g1:148 var
+R16271:16272 mathcomp.boot.finfun <> g2:149 var
+R16286:16288 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16277:16282 mathcomp.boot.finfun <> finfun abbrev
+R16284:16285 mathcomp.boot.finfun <> g1:148 var
+R16289:16294 mathcomp.boot.finfun <> finfun abbrev
+R16296:16297 mathcomp.boot.finfun <> g2:149 var
+R16314:16321 mathcomp.boot.finfun <> eq_dffun thm
+prf 16336:16347 <> fgraph_codom
+binder 16349:16349 <> f:150
+R16361:16363 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16353:16358 mathcomp.boot.finfun <> fgraph def
+R16360:16360 mathcomp.boot.finfun <> f:150 var
+R16364:16374 mathcomp.boot.tuple <> codom_tuple canonstruc
+R16376:16376 mathcomp.boot.finfun <> f:150 var
+R16392:16395 Corelib.ssr.ssrfun <> esym def
+R16397:16403 mathcomp.boot.eqtype <> val_inj thm
+R16405:16414 mathcomp.boot.finfun <> codom_ffun thm
+def 16434:16444 <> ffun_on_mem
+R16452:16459 Corelib.ssr.ssrbool <> mem_pred variant
+R16461:16462 mathcomp.boot.finfun <> FunPlainTheory.rT var
+binder 16447:16448 <> mR:151
+R16468:16477 mathcomp.boot.finfun <> family_mem def
+R16488:16489 mathcomp.boot.finfun <> FunPlainTheory.aT var
+R16494:16495 mathcomp.boot.finfun <> mR:151 var
+prf 16506:16513 <> ffun_onP
+binder 16515:16515 <> R:152
+binder 16517:16517 <> f:153
+R16521:16527 Corelib.Init.Datatypes <> reflect ind
+R16553:16557 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16552:16552 mathcomp.boot.finfun <> f:153 var
+R16558:16568 mathcomp.boot.finfun <> ffun_on_mem def
+R16571:16573 Corelib.ssr.ssrbool <> mem def
+R16575:16575 mathcomp.boot.finfun <> R:152 var
+binder 16537:16537 <> x:154
+R16543:16547 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16540:16540 mathcomp.boot.finfun <> f:153 var
+R16542:16542 mathcomp.boot.finfun <> x:154 var
+R16548:16548 mathcomp.boot.finfun <> R:152 var
+R16594:16600 mathcomp.boot.fintype <> forallP thm
+R16613:16626 mathcomp.boot.finfun FunPlainTheory <> sec
+R16640:16645 mathcomp.boot.finfun <> Finfun def
+R16668:16673 mathcomp.boot.finfun <> fgraph def
+R16696:16702 mathcomp.boot.finfun <> FinfunK thm
+R16734:16740 mathcomp.boot.finfun <> fgraphK thm
+R16772:16778 mathcomp.boot.finfun <> eq_ffun thm
+R16814:16821 mathcomp.boot.finfun <> ffun_onP thm
+abbrev 16846:16852 <> ffun_on
+R16860:16870 mathcomp.boot.finfun <> ffun_on_mem def
+R16875:16877 Corelib.ssr.ssrbool <> mem def
+R16930:16939 Corelib.ssr.ssrbool <> simpl_pred def
+R16942:16950 mathcomp.boot.finfun <> finfun_of variant
+R16953:16957 Corelib.ssr.ssreflect <> Phant constr
+R16962:16965 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16966:16967 Corelib.ssr.ssrfun <> id abbrev
+R16918:16924 mathcomp.boot.finfun <> ffun_on abbrev
+not 16893:16893 <> :::'@'_'ffun_on'_x_x
+prf 17017:17030 <> nth_fgraph_ord
+binder 17032:17032 <> T:155
+binder 17034:17034 <> n:156
+R17042:17042 mathcomp.boot.finfun <> T:155 var
+binder 17037:17038 <> x0:157
+R17050:17052 mathcomp.boot.fintype <> :::'''I_'_x not
+R17053:17053 mathcomp.boot.finfun <> n:156 var
+binder 17046:17046 <> i:158
+binder 17056:17056 <> f:159
+R17079:17081 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17060:17062 mathcomp.boot.seq <> nth def
+R17078:17078 mathcomp.boot.finfun <> i:158 var
+R17068:17073 mathcomp.boot.finfun <> fgraph def
+R17075:17075 mathcomp.boot.finfun <> f:159 var
+R17064:17065 mathcomp.boot.finfun <> x0:157 var
+R17082:17082 mathcomp.boot.finfun <> f:159 var
+R17084:17084 mathcomp.boot.finfun <> i:158 var
+R17112:17114 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R17116:17125 mathcomp.boot.fintype <> enum_rankK thm
+R17128:17138 mathcomp.boot.finfun <> tnth_fgraph thm
+R17142:17149 mathcomp.boot.tuple <> tnth_nth thm
+R17155:17167 mathcomp.boot.fintype <> enum_rank_ord thm
+sec 17265:17271 <> Support
+var 17286:17287 Support aT
+var 17298:17299 Support rT
+R17303:17308 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+def 17324:17334 <> support_for
+binder 17336:17336 <> y:164
+R17345:17348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17343:17344 mathcomp.boot.finfun <> Support.aT var
+R17349:17350 mathcomp.boot.finfun <> Support.rT var
+binder 17339:17339 <> f:165
+R17356:17361 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R17363:17365 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R17374:17374 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 17362:17362 <> x:166
+R17369:17372 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R17366:17366 mathcomp.boot.finfun <> f:165 var
+R17368:17368 mathcomp.boot.finfun <> x:166 var
+R17373:17373 mathcomp.boot.finfun <> y:164 var
+prf 17384:17391 <> supportE
+binder 17393:17393 <> x:167
+binder 17395:17395 <> y:168
+binder 17397:17397 <> f:169
+R17401:17401 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17423:17427 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17436:17436 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17403:17407 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17402:17402 mathcomp.boot.finfun <> x:167 var
+R17408:17418 mathcomp.boot.finfun <> support_for def
+R17422:17422 mathcomp.boot.finfun <> f:169 var
+R17420:17420 mathcomp.boot.finfun <> y:168 var
+R17431:17434 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R17428:17428 mathcomp.boot.finfun <> f:169 var
+R17430:17430 mathcomp.boot.finfun <> x:167 var
+R17435:17435 mathcomp.boot.finfun <> y:168 var
+R17463:17469 mathcomp.boot.finfun Support <> sec
+R17500:17510 mathcomp.boot.finfun <> support_for def
+not 17482:17482 <> ::function_scope:x_'.-support'
+sec 17579:17586 <> EqTheory
+var 17601:17602 EqTheory aT
+var 17616:17617 EqTheory rT
+R17606:17612 mathcomp.boot.fintype Finite.Exports finType abbrev
+R17621:17626 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+abbrev 17639:17640 <> fT
+R17645:17650 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R17659:17659 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R17653:17656 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17651:17652 mathcomp.boot.finfun <> EqTheory.aT var
+R17657:17658 mathcomp.boot.finfun <> EqTheory.rT var
+R17682:17683 mathcomp.boot.finfun <> EqTheory.rT var
+R17691:17696 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17699:17699 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17697:17698 mathcomp.boot.finfun <> EqTheory.aT var
+R17707:17712 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17715:17715 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17713:17714 mathcomp.boot.finfun <> EqTheory.rT var
+R17723:17724 mathcomp.boot.finfun <> fT abbrev
+prf 17735:17742 <> supportP
+binder 17744:17744 <> y:174
+binder 17746:17746 <> D:175
+binder 17748:17748 <> g:176
+R17754:17760 Corelib.Init.Datatypes <> reflect ind
+R17809:17817 mathcomp.boot.fintype <> ::bool_scope:x_'\subset'_x not
+R17798:17808 mathcomp.boot.finfun <> ::function_scope:x_'.-support' not
+R17797:17797 mathcomp.boot.finfun <> y:174 var
+R17808:17808 mathcomp.boot.finfun <> g:176 var
+R17818:17818 mathcomp.boot.finfun <> D:175 var
+binder 17770:17770 <> x:177
+R17783:17786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17774:17781 Corelib.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R17773:17773 mathcomp.boot.finfun <> x:177 var
+R17782:17782 mathcomp.boot.finfun <> D:175 var
+R17790:17792 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17787:17787 mathcomp.boot.finfun <> g:176 var
+R17789:17789 mathcomp.boot.finfun <> x:177 var
+R17793:17793 mathcomp.boot.finfun <> y:174 var
+R17841:17844 Corelib.ssr.ssrbool <> iffP thm
+R17846:17852 mathcomp.boot.fintype <> subsetP thm
+R17872:17880 mathcomp.boot.eqtype <> contraNeq thm
+R17889:17895 Corelib.ssr.ssrbool <> contraR thm
+def 17926:17936 <> pfamily_mem
+binder 17938:17938 <> y:178
+binder 17940:17941 <> mD:179
+R17951:17954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17949:17950 mathcomp.boot.finfun <> EqTheory.aT var
+R17955:17962 Corelib.ssr.ssrbool <> mem_pred variant
+R17964:17965 mathcomp.boot.finfun <> EqTheory.rT var
+binder 17944:17945 <> mF:180
+R17973:17978 mathcomp.boot.finfun <> family abbrev
+R17989:17990 mathcomp.boot.finfun <> EqTheory.aT var
+binder 17985:17985 <> i:181
+R17995:17997 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18009:18014 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18035:18040 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17998:18003 Corelib.ssr.ssrbool <> in_mem def
+R18007:18008 mathcomp.boot.finfun <> mD:179 var
+R18005:18005 mathcomp.boot.finfun <> i:181 var
+R18015:18027 Corelib.ssr.ssrbool <> pred_of_simpl abbrev
+R18030:18031 mathcomp.boot.finfun <> mF:180 var
+R18033:18033 mathcomp.boot.finfun <> i:181 var
+R18041:18045 mathcomp.boot.eqtype <> pred1 def
+R18047:18047 mathcomp.boot.finfun <> y:178 var
+prf 18058:18065 <> pfamilyP
+R18073:18080 Corelib.ssr.ssrbool <> predType rec
+R18082:18083 mathcomp.boot.finfun <> EqTheory.rT var
+binder 18068:18069 <> pT:182
+binder 18086:18086 <> y:183
+binder 18088:18088 <> D:184
+R18097:18100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18095:18096 mathcomp.boot.finfun <> EqTheory.aT var
+R18101:18102 mathcomp.boot.finfun <> pT:182 var
+binder 18091:18091 <> F:185
+binder 18105:18105 <> f:186
+R18111:18117 Corelib.Init.Datatypes <> reflect ind
+R18189:18193 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18188:18188 mathcomp.boot.finfun <> f:186 var
+R18194:18204 mathcomp.boot.finfun <> pfamily_mem def
+R18217:18220 mathcomp.boot.finfun <> fmem def
+R18222:18222 mathcomp.boot.finfun <> F:185 var
+R18209:18211 Corelib.ssr.ssrbool <> mem def
+R18213:18213 mathcomp.boot.finfun <> D:184 var
+R18206:18206 mathcomp.boot.finfun <> y:183 var
+R18142:18145 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18132:18140 mathcomp.boot.fintype <> ::bool_scope:x_'\subset'_x not
+R18121:18131 mathcomp.boot.finfun <> ::function_scope:x_'.-support' not
+R18120:18120 mathcomp.boot.finfun <> y:183 var
+R18131:18131 mathcomp.boot.finfun <> f:186 var
+R18141:18141 mathcomp.boot.finfun <> D:184 var
+R18146:18149 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R18151:18152 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R18174:18174 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R18150:18150 mathcomp.boot.finfun <> D:184 var
+binder 18160:18160 <> x:187
+R18166:18170 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18163:18163 mathcomp.boot.finfun <> f:186 var
+R18165:18165 mathcomp.boot.finfun <> x:187 var
+R18171:18171 mathcomp.boot.finfun <> F:185 var
+R18173:18173 mathcomp.boot.finfun <> x:187 var
+R18242:18245 Corelib.ssr.ssrbool <> iffP thm
+R18247:18253 mathcomp.boot.finfun <> familyP thm
+R18274:18281 mathcomp.boot.finfun <> supportP thm
+R18368:18374 mathcomp.boot.fintype <> subsetP thm
+R18387:18389 Corelib.ssr.ssrbool <> ifP thm
+R18416:18419 Corelib.ssr.ssrbool <> negP thm
+R18433:18436 Corelib.ssr.ssrbool <> ifPn thm
+R18456:18458 mathcomp.boot.seq <> inE def
+R18463:18463 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18469:18470 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18477:18477 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 18497:18508 <> pffun_on_mem
+binder 18510:18510 <> y:188
+binder 18512:18513 <> mD:189
+binder 18515:18516 <> mR:190
+R18521:18531 mathcomp.boot.finfun <> pfamily_mem def
+R18548:18549 mathcomp.boot.finfun <> mR:190 var
+R18535:18536 mathcomp.boot.finfun <> mD:189 var
+R18533:18533 mathcomp.boot.finfun <> y:188 var
+prf 18560:18568 <> pffun_onP
+binder 18570:18570 <> y:191
+binder 18572:18572 <> D:192
+binder 18574:18574 <> R:193
+binder 18576:18576 <> f:194
+R18582:18588 Corelib.Init.Datatypes <> reflect ind
+R18654:18658 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18653:18653 mathcomp.boot.finfun <> f:194 var
+R18659:18670 mathcomp.boot.finfun <> pffun_on_mem def
+R18683:18685 Corelib.ssr.ssrbool <> mem def
+R18687:18687 mathcomp.boot.finfun <> R:193 var
+R18675:18677 Corelib.ssr.ssrbool <> mem def
+R18679:18679 mathcomp.boot.finfun <> D:192 var
+R18672:18672 mathcomp.boot.finfun <> y:191 var
+R18613:18616 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18603:18611 mathcomp.boot.fintype <> ::bool_scope:x_'\subset'_x not
+R18592:18602 mathcomp.boot.finfun <> ::function_scope:x_'.-support' not
+R18591:18591 mathcomp.boot.finfun <> y:191 var
+R18602:18602 mathcomp.boot.finfun <> f:194 var
+R18612:18612 mathcomp.boot.finfun <> D:192 var
+R18617:18624 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R18634:18637 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R18639:18639 Corelib.ssr.ssrbool <> ::type_scope:'{'_'subset'_x_'<='_x_'}' not
+R18625:18629 mathcomp.boot.fintype <> image abbrev
+R18631:18631 mathcomp.boot.finfun <> f:194 var
+R18633:18633 mathcomp.boot.finfun <> D:192 var
+R18638:18638 mathcomp.boot.finfun <> R:193 var
+R18707:18710 Corelib.ssr.ssrbool <> iffP thm
+R18713:18720 mathcomp.boot.finfun <> pfamilyP thm
+R18788:18793 mathcomp.boot.fintype <> imageP thm
+R18855:18860 mathcomp.boot.fintype <> imageP thm
+R18883:18890 mathcomp.boot.finfun EqTheory <> sec
+R18904:18911 mathcomp.boot.finfun <> supportP thm
+R18938:18945 mathcomp.boot.finfun <> pfamilyP thm
+R18977:18985 mathcomp.boot.finfun <> pffun_onP thm
+abbrev 19014:19020 <> pfamily
+R19032:19042 mathcomp.boot.finfun <> pfamily_mem def
+R19055:19058 mathcomp.boot.finfun <> fmem def
+R19047:19049 Corelib.ssr.ssrbool <> mem def
+abbrev 19074:19081 <> pffun_on
+R19093:19104 mathcomp.boot.finfun <> pffun_on_mem def
+R19117:19119 Corelib.ssr.ssrbool <> mem def
+R19109:19111 Corelib.ssr.ssrbool <> mem def
+sec 19216:19227 <> FinDepTheory
+var 19242:19243 FinDepTheory aT
+var 19257:19258 FinDepTheory rT
+R19247:19253 mathcomp.boot.fintype Finite.Exports finType abbrev
+R19264:19267 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19262:19263 mathcomp.boot.finfun <> aT:196 var
+R19268:19274 mathcomp.boot.fintype Finite.Exports finType abbrev
+abbrev 19287:19288 <> fT
+R19293:19299 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R19319:19319 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R19311:19312 mathcomp.boot.finfun <> FinDepTheory.aT var
+binder 19307:19307 <> x:199
+R19315:19316 mathcomp.boot.finfun <> FinDepTheory.rT var
+R19318:19318 mathcomp.boot.finfun <> x:199 var
+prf 19329:19339 <> card_family
+binder 19353:19353 <> x:200
+R19356:19359 Corelib.ssr.ssrbool <> pred def
+R19362:19363 mathcomp.boot.finfun <> FinDepTheory.rT var
+R19365:19365 mathcomp.boot.finfun <> x:200 var
+binder 19342:19342 <> F:201
+R19402:19404 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19373:19375 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19400:19401 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19387:19396 Corelib.ssr.ssrbool <> simpl_pred def
+R19398:19399 mathcomp.boot.finfun <> fT abbrev
+R19376:19381 mathcomp.boot.finfun <> family abbrev
+R19383:19383 mathcomp.boot.finfun <> F:201 var
+R19405:19409 mathcomp.boot.seq <> foldr def
+R19418:19422 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R19429:19431 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R19438:19438 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R19436:19437 mathcomp.boot.finfun <> FinDepTheory.aT var
+binder 19432:19432 <> x:202
+binder 19432:19437 <> x:203
+R19423:19424 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19428:19428 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19425:19425 mathcomp.boot.finfun <> F:201 var
+R19427:19427 mathcomp.boot.finfun <> x:202 var
+binder 19432:19432 <> x:204
+binder 19432:19437 <> x:205
+R19411:19414 mathcomp.boot.ssrnat <> muln def
+R19457:19465 mathcomp.boot.fintype <> image_mem def
+R19477:19480 mathcomp.boot.fintype <> enum abbrev
+R19482:19483 mathcomp.boot.finfun <> FinDepTheory.aT var
+R19498:19506 mathcomp.boot.fintype <> enum_uniq thm
+R19508:19509 mathcomp.boot.finfun <> FinDepTheory.aT var
+R19565:19572 mathcomp.boot.fintype <> mem_enum thm
+R19539:19542 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19530:19537 Corelib.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R19529:19529 mathcomp.boot.finfun <> x:206 var
+R19549:19551 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19543:19544 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19548:19548 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19547:19547 mathcomp.boot.finfun <> x:206 var
+R19611:19614 Corelib.ssr.ssrbool <> andP thm
+R19677:19683 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19686:19687 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19684:19685 <> y0:208
+R19691:19694 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R19690:19690 mathcomp.boot.finfun <> x:207 var
+R19695:19699 mathcomp.boot.eqtype <> pred1 def
+R19701:19702 mathcomp.boot.finfun <> y0:208 var
+R19651:19664 mathcomp.boot.fintype <> fin_all_exists thm
+R19736:19739 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R19730:19731 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19735:19735 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19715:19721 mathcomp.boot.fintype <> pred0Pn thm
+R19783:19786 Corelib.ssr.ssrfun <> fsym thm
+R19788:19799 mathcomp.boot.fintype <> subset_cardP thm
+R19811:19822 mathcomp.boot.fintype <> subset_pred1 thm
+R19827:19831 mathcomp.boot.fintype <> card1 thm
+R19849:19856 mathcomp.boot.fintype <> eq_card1 thm
+R19871:19872 mathcomp.boot.finfun <> fT abbrev
+R19859:19864 mathcomp.boot.finfun <> finfun abbrev
+R19891:19897 mathcomp.boot.finfun <> familyP thm
+R19899:19901 mathcomp.boot.eqtype <> eqP def
+R19934:19938 mathcomp.boot.finfun <> ffunP thm
+R19951:19952 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R19965:19965 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R19953:19953 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19957:19958 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19964:19964 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19959:19963 mathcomp.boot.finfun <> ffunE thm
+R19967:19969 mathcomp.boot.eqtype <> eqP def
+R19993:19997 mathcomp.boot.finfun <> ffunE thm
+R20003:20005 mathcomp.boot.seq <> inE def
+R20036:20040 mathcomp.boot.fintype <> pickP thm
+R20076:20083 mathcomp.boot.fintype <> eq_card0 thm
+R20101:20108 Corelib.ssr.ssrbool <> contraFF thm
+R20127:20133 mathcomp.boot.finfun <> familyP thm
+binder 20151:20151 <> x:209
+R20159:20161 mathcomp.boot.eqtype <> eqP def
+R20166:20173 Corelib.Init.Datatypes <> ReflectT constr
+R20183:20188 mathcomp.boot.eqtype <> xpred1 abbrev
+R20191:20195 Corelib.ssr.ssrfun <> ecast abbrev
+binder 20197:20197 <> x:210
+binder 20197:20197 <> x:211
+R20200:20201 mathcomp.boot.finfun <> FinDepTheory.rT var
+R20203:20203 mathcomp.boot.finfun <> x:210 var
+R20220:20220 mathcomp.boot.finfun <> x:209 var
+R20237:20238 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R20273:20273 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R20239:20245 mathcomp.boot.eqtype <> ::function_scope:'['_'predX'_x_'&'_x_']' not
+R20250:20252 mathcomp.boot.eqtype <> ::function_scope:'['_'predX'_x_'&'_x_']' not
+R20272:20272 mathcomp.boot.eqtype <> ::function_scope:'['_'predX'_x_'&'_x_']' not
+R20265:20268 Corelib.ssr.ssrbool <> pred def
+R20270:20271 mathcomp.boot.finfun <> fT abbrev
+R20253:20258 mathcomp.boot.finfun <> family abbrev
+R20299:20303 mathcomp.boot.fintype <> cardX thm
+R20358:20360 mathcomp.boot.eqtype <> eqP def
+R20402:20406 mathcomp.boot.fintype <> card1 thm
+R20372:20376 Corelib.ssr.ssrfun <> nesym def
+R20378:20380 mathcomp.boot.eqtype <> eqP def
+R20433:20439 Corelib.ssr.ssrbool <> negb_or thm
+R20457:20459 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R20460:20464 mathcomp.boot.seq <> foldr def
+R20480:20488 mathcomp.boot.seq <> eq_in_map thm
+R20522:20524 mathcomp.boot.eqtype <> eqP def
+binder 20568:20569 <> yf:212
+R20573:20574 mathcomp.boot.finfun <> fT abbrev
+binder 20568:20569 <> yf:213
+R20604:20606 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R20599:20600 mathcomp.boot.finfun <> FinDepTheory.rT var
+R20607:20608 mathcomp.boot.finfun <> fT abbrev
+R20594:20595 mathcomp.boot.finfun <> yf:213 var
+R20584:20584 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20586:20587 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20589:20589 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20615:20620 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R20622:20625 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R20681:20681 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 20621:20621 <> x:214
+R20629:20631 mathcomp.boot.eqtype <> eqP def
+R20636:20643 Corelib.Init.Datatypes <> ReflectT constr
+R20653:20657 Corelib.ssr.ssrfun <> ecast abbrev
+binder 20659:20659 <> x:215
+binder 20659:20659 <> x:216
+R20662:20663 mathcomp.boot.finfun <> FinDepTheory.rT var
+R20665:20665 mathcomp.boot.finfun <> x:215 var
+R20680:20680 mathcomp.boot.finfun <> x:214 var
+R20693:20698 Corelib.ssr.ssrfun <> cancel def
+R20709:20710 mathcomp.boot.finfun <> fT abbrev
+binder 20705:20705 <> f:217
+R20715:20715 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20720:20721 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20731:20731 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20716:20716 mathcomp.boot.finfun <> f:217 var
+R20724:20724 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20727:20728 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20730:20730 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20729:20729 mathcomp.boot.finfun <> f:217 var
+R20758:20762 mathcomp.boot.finfun <> ffunP thm
+R20778:20782 mathcomp.boot.finfun <> ffunE thm
+R20791:20793 mathcomp.boot.eqtype <> eqP def
+R20823:20832 mathcomp.boot.fintype <> card_image thm
+R20835:20841 Corelib.ssr.ssrfun <> can_inj thm
+R20856:20862 mathcomp.boot.fintype <> eq_card thm
+R20886:20891 mathcomp.boot.fintype <> imageP thm
+R20893:20896 Corelib.ssr.ssrbool <> andP thm
+R20906:20912 mathcomp.boot.finfun <> familyP thm
+R20938:20944 mathcomp.boot.finfun <> familyP thm
+R20973:20979 mathcomp.boot.finfun <> familyP thm
+R20994:20998 mathcomp.boot.finfun <> ffunE thm
+R21019:21021 mathcomp.boot.eqtype <> eqP def
+R21040:21043 mathcomp.boot.eqtype <> eqxx abbrev
+R21056:21056 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21058:21059 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21061:21061 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21076:21082 mathcomp.boot.finfun <> familyP thm
+R21110:21114 mathcomp.boot.finfun <> ffunE thm
+R21127:21129 mathcomp.boot.eqtype <> eqP def
+R21152:21152 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21154:21155 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21157:21157 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21180:21184 mathcomp.boot.finfun <> ffunE thm
+R21193:21195 mathcomp.boot.eqtype <> eqP def
+R21215:21223 mathcomp.boot.eqtype <> eq_axiomK thm
+R21235:21239 mathcomp.boot.finfun <> ffunP thm
+R21268:21272 mathcomp.boot.finfun <> ffunE thm
+R21285:21287 mathcomp.boot.eqtype <> eqP def
+R21299:21301 mathcomp.boot.eqtype <> eqP def
+prf 21316:21328 <> card_dep_ffun
+R21337:21339 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21332:21333 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21336:21336 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21334:21335 mathcomp.boot.finfun <> fT abbrev
+R21340:21344 mathcomp.boot.seq <> foldr def
+R21353:21357 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R21365:21367 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R21374:21374 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R21372:21373 mathcomp.boot.finfun <> FinDepTheory.aT var
+binder 21368:21368 <> x:218
+binder 21368:21373 <> x:219
+R21358:21359 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21364:21364 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21360:21361 mathcomp.boot.finfun <> FinDepTheory.rT var
+R21363:21363 mathcomp.boot.finfun <> x:218 var
+binder 21368:21368 <> x:220
+binder 21368:21373 <> x:221
+R21346:21349 mathcomp.boot.ssrnat <> muln def
+R21396:21406 mathcomp.boot.finfun <> card_family thm
+R21415:21418 Corelib.ssr.ssrfun <> esym def
+R21420:21426 mathcomp.boot.fintype <> eq_card thm
+R21439:21445 mathcomp.boot.finfun <> familyP thm
+R21458:21469 mathcomp.boot.finfun FinDepTheory <> sec
+sec 21481:21492 <> FinFunTheory
+var 21506:21507 FinFunTheory aT
+var 21509:21510 FinFunTheory rT
+R21514:21520 mathcomp.boot.fintype Finite.Exports finType abbrev
+abbrev 21532:21533 <> fT
+R21538:21543 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R21552:21552 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R21546:21549 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21544:21545 mathcomp.boot.finfun <> FinFunTheory.aT var
+R21550:21551 mathcomp.boot.finfun <> FinFunTheory.rT var
+R21575:21580 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R21583:21583 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R21581:21582 mathcomp.boot.finfun <> FinFunTheory.aT var
+R21591:21596 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R21599:21599 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R21597:21598 mathcomp.boot.finfun <> FinFunTheory.rT var
+R21609:21612 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21607:21608 mathcomp.boot.finfun <> FinFunTheory.aT var
+R21613:21616 Corelib.ssr.ssrbool <> pred def
+R21618:21619 mathcomp.boot.finfun <> FinFunTheory.rT var
+prf 21630:21641 <> card_pfamily
+binder 21643:21644 <> y0:226
+binder 21646:21646 <> D:227
+binder 21648:21648 <> F:228
+R21671:21673 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21654:21655 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21670:21670 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21656:21662 mathcomp.boot.finfun <> pfamily abbrev
+R21664:21665 mathcomp.boot.finfun <> y0:226 var
+R21667:21667 mathcomp.boot.finfun <> D:227 var
+R21669:21669 mathcomp.boot.finfun <> F:228 var
+R21674:21678 mathcomp.boot.seq <> foldr def
+R21687:21691 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_'in'_x_']' not
+R21698:21700 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_'in'_x_']' not
+R21702:21705 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_'in'_x_']' not
+R21707:21707 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_'in'_x_']' not
+binder 21701:21701 <> x:229
+binder 21701:21701 <> x:230
+R21692:21693 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21697:21697 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21694:21694 mathcomp.boot.finfun <> F:228 var
+R21696:21696 mathcomp.boot.finfun <> x:229 var
+R21706:21706 mathcomp.boot.finfun <> D:227 var
+R21680:21683 mathcomp.boot.ssrnat <> muln def
+R21725:21735 mathcomp.boot.finfun <> card_family thm
+R21740:21744 mathcomp.boot.fintype <> image abbrev
+R21753:21756 mathcomp.boot.fintype <> enum abbrev
+R21762:21766 mathcomp.boot.fintype <> enumT thm
+R21782:21785 mathcomp.boot.fintype <> enum abbrev
+R21787:21788 mathcomp.boot.finfun <> FinFunTheory.aT var
+R21838:21842 mathcomp.boot.fintype <> card1 thm
+R21844:21848 mathcomp.boot.ssrnat <> mul1n thm
+R21825:21827 Corelib.ssr.ssrbool <> ifP thm
+prf 21863:21875 <> card_pffun_on
+binder 21877:21878 <> y0:231
+binder 21880:21880 <> D:232
+binder 21882:21882 <> R:233
+R21904:21906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21886:21887 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21903:21903 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21888:21895 mathcomp.boot.finfun <> pffun_on abbrev
+R21897:21898 mathcomp.boot.finfun <> y0:231 var
+R21900:21900 mathcomp.boot.finfun <> D:232 var
+R21902:21902 mathcomp.boot.finfun <> R:233 var
+R21911:21913 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R21907:21908 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21910:21910 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21909:21909 mathcomp.boot.finfun <> R:233 var
+R21914:21915 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21917:21917 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R21916:21916 mathcomp.boot.finfun <> D:232 var
+R21936:21940 mathcomp.boot.fintype <> cardE thm
+R21945:21956 mathcomp.boot.finfun <> card_pfamily thm
+R21959:21967 mathcomp.boot.fintype <> image_mem def
+R21980:21983 mathcomp.boot.fintype <> enum abbrev
+R22011:22015 mathcomp.boot.ssrnat <> expnS thm
+prf 22030:22041 <> card_ffun_on
+binder 22043:22043 <> R:234
+R22063:22065 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22047:22048 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22062:22062 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22049:22057 mathcomp.boot.finfun <> :::'@'_'ffun_on'_x_x not
+R22060:22060 mathcomp.boot.finfun <> :::'@'_'ffun_on'_x_x not
+R22058:22059 mathcomp.boot.finfun <> FinFunTheory.aT var
+R22061:22061 mathcomp.boot.finfun <> R:234 var
+R22070:22072 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R22066:22067 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22069:22069 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22068:22068 mathcomp.boot.finfun <> R:234 var
+R22073:22074 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22077:22077 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22075:22076 mathcomp.boot.finfun <> FinFunTheory.aT var
+R22095:22105 mathcomp.boot.finfun <> card_family thm
+R22108:22116 mathcomp.boot.fintype <> image_mem def
+R22118:22122 mathcomp.boot.fintype <> cardT thm
+R22135:22138 mathcomp.boot.fintype <> enum abbrev
+R22140:22141 mathcomp.boot.finfun <> FinFunTheory.aT var
+R22167:22171 mathcomp.boot.ssrnat <> expnS thm
+prf 22186:22194 <> card_ffun
+R22203:22205 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22198:22199 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22202:22202 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22200:22201 mathcomp.boot.finfun <> fT abbrev
+R22211:22213 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R22206:22207 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22210:22210 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22208:22209 mathcomp.boot.finfun <> FinFunTheory.rT var
+R22214:22215 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22218:22218 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R22216:22217 mathcomp.boot.finfun <> FinFunTheory.aT var
+R22240:22251 mathcomp.boot.finfun <> card_ffun_on thm
+R22260:22263 Corelib.ssr.ssrfun <> esym def
+R22265:22271 mathcomp.boot.fintype <> eq_card thm
+R22284:22290 mathcomp.boot.fintype <> forallP thm
+R22303:22314 mathcomp.boot.finfun FinFunTheory <> sec
+sec 22326:22347 <> DependentFiniteProduct
+var 22362:22362 DependentFiniteProduct I
+var 22376:22377 DependentFiniteProduct T_
+R22366:22372 mathcomp.boot.fintype Finite.Exports finType abbrev
+R22382:22385 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22381:22381 mathcomp.boot.finfun <> I:236 var
+R22386:22392 mathcomp.boot.fintype Finite.Exports finType abbrev
+abbrev 22405:22414 <> fprod_type
+R22431:22431 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 22427:22427 <> i:239
+R22434:22435 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R22437:22437 mathcomp.boot.finfun <> i:239 var
+rec 22525:22529 <> fprod
+proj 22558:22566 <> fprod_fun
+proj 22603:22612 <> fprod_prop
+R22533:22543 Corelib.ssr.ssrbool <> predArgType def
+R22570:22575 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R22595:22595 mathcomp.boot.finfun <> ::type_scope:'{'_'ffun'_x_'}' not
+R22577:22580 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22576:22576 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+R22581:22581 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22583:22585 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22587:22589 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22594:22594 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22586:22586 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 22582:22582 <> i:241
+R22590:22591 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R22593:22593 mathcomp.boot.finfun <> i:241 var
+R22616:22623 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R22625:22627 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R22653:22653 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R22628:22628 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 22624:22624 <> i:243
+R22629:22630 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R22648:22651 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R22631:22633 Corelib.ssr.ssrfun <> tag def
+R22636:22644 mathcomp.boot.finfun <> fprod_fun:242 meth
+R22646:22646 mathcomp.boot.finfun <> i:243 var
+R22652:22652 mathcomp.boot.finfun <> i:243 var
+binder 22624:22624 <> i:244
+binder 22624:22624 <> i:245
+prf 22665:22677 <> tag_fprod_fun
+R22684:22688 mathcomp.boot.finfun <> fprod rec
+binder 22680:22680 <> f:247
+binder 22691:22691 <> i:248
+R22714:22716 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22695:22697 Corelib.ssr.ssrfun <> tag def
+R22700:22708 mathcomp.boot.finfun <> fprod_fun proj
+R22712:22712 mathcomp.boot.finfun <> i:248 var
+R22710:22710 mathcomp.boot.finfun <> f:247 var
+R22717:22717 mathcomp.boot.finfun <> i:248 var
+R22757:22766 mathcomp.boot.finfun <> fprod_prop proj
+R22736:22743 mathcomp.boot.fintype <> :::'''forall_'_x not
+R22744:22746 mathcomp.boot.eqtype <> eqP def
+def 22788:22799 <> fun_of_fprod
+R22806:22810 mathcomp.boot.finfun <> fprod rec
+binder 22802:22802 <> f:249
+R22815:22824 mathcomp.boot.finfun <> fprod_type abbrev
+binder 22835:22835 <> i:250
+R22840:22846 mathcomp.boot.eqtype <> etagged def
+R22849:22856 mathcomp.boot.fintype <> :::'''forall_'_x not
+R22860:22876 mathcomp.boot.fintype <> :::'''forall_'_x not
+R22857:22859 mathcomp.boot.eqtype <> eqP def
+R22862:22871 mathcomp.boot.finfun <> fprod_prop proj
+R22873:22873 mathcomp.boot.finfun <> f:249 var
+R22876:22876 mathcomp.boot.finfun <> i:250 var
+R22880:22921 mathcomp.boot.finfun <> fun_of_fprod def
+R22960:22970 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R22980:22980 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R22971:22979 mathcomp.boot.finfun <> fprod_fun proj
+def 22925:22981 <> HB_unnamed_factory_67
+def 22925:22981 <> HB_unnamed_mixin_69
+def 22925:22981 <> finfun_fprod__canonical__eqtype_SubType
+R23018:23028 mathcomp.boot.fintype <> ::form_scope:'['_'Finite'_'of'_x_'by'_'<:'_']' not
+R23034:23040 mathcomp.boot.fintype <> ::form_scope:'['_'Finite'_'of'_x_'by'_'<:'_']' not
+R23029:23033 mathcomp.boot.finfun <> fprod rec
+def 22983:23041 <> HB_unnamed_factory_70
+def 22983:23041 <> fintype_Finite__to__choice_hasChoice__72
+def 22983:23041 <> fintype_Finite__to__choice_Choice_isCountable__74
+def 22983:23041 <> fintype_Finite__to__eqtype_hasDecEq__76
+def 22983:23041 <> fintype_Finite__to__fintype_isFinite__78
+def 22983:23041 <> HB_unnamed_mixin_79
+def 22983:23041 <> finfun_fprod__canonical__eqtype_Equality
+def 22983:23041 <> HB_unnamed_mixin_80
+def 22983:23041 <> finfun_fprod__canonical__eqtype_SubEquality
+def 22983:23041 <> HB_unnamed_mixin_81
+def 22983:23041 <> finfun_fprod__canonical__choice_Choice
+def 22983:23041 <> finfun_fprod__canonical__choice_SubChoice
+def 22983:23041 <> HB_unnamed_mixin_82
+def 22983:23041 <> finfun_fprod__canonical__choice_Countable
+def 22983:23041 <> finfun_fprod__canonical__choice_SubCountable
+def 22983:23041 <> HB_unnamed_mixin_83
+def 22983:23041 <> finfun_fprod__canonical__fintype_Finite
+def 22983:23041 <> finfun_fprod__canonical__fintype_SubFinite
+prf 23050:23076 <> fprod_of_prod_type_subproof
+R23083:23092 mathcomp.boot.finfun <> fprod_type abbrev
+binder 23079:23079 <> f:251
+R23100:23107 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R23109:23111 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R23155:23155 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R23112:23112 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 23108:23108 <> i:252
+R23113:23114 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R23150:23153 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R23115:23117 Corelib.ssr.ssrfun <> tag def
+R23120:23125 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R23127:23130 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R23146:23148 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 23126:23126 <> i:253
+R23131:23136 Corelib.ssr.ssrfun <> Tagged def
+R23142:23142 mathcomp.boot.finfun <> f:251 var
+R23144:23144 mathcomp.boot.finfun <> i:253 var
+R23138:23139 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R23148:23148 mathcomp.boot.finfun <> i:252 var
+R23154:23154 mathcomp.boot.finfun <> i:252 var
+binder 23108:23108 <> i:254
+binder 23108:23108 <> i:255
+R23174:23181 mathcomp.boot.fintype <> :::'''forall_'_x not
+R23182:23184 mathcomp.boot.eqtype <> eqP def
+R23203:23207 mathcomp.boot.finfun <> ffunE thm
+def 23227:23238 <> fprod_of_fun
+R23245:23254 mathcomp.boot.finfun <> fprod_type abbrev
+binder 23241:23241 <> f:256
+R23259:23263 mathcomp.boot.finfun <> fprod rec
+R23270:23274 mathcomp.boot.finfun <> FProd constr
+R23277:23303 mathcomp.boot.finfun <> fprod_of_prod_type_subproof thm
+R23305:23305 mathcomp.boot.finfun <> f:256 var
+prf 23316:23321 <> fprodK
+R23325:23330 Corelib.ssr.ssrfun <> cancel def
+R23345:23356 mathcomp.boot.finfun <> fprod_of_fun def
+R23332:23343 mathcomp.boot.finfun <> fun_of_fprod def
+R23375:23386 mathcomp.boot.finfun <> fun_of_fprod def
+R23389:23400 mathcomp.boot.finfun <> fprod_of_fun def
+R23425:23431 mathcomp.boot.eqtype <> val_inj thm
+R23433:23437 mathcomp.boot.finfun <> ffunP thm
+R23457:23461 mathcomp.boot.finfun <> ffunE thm
+R23463:23470 mathcomp.boot.eqtype <> etaggedK thm
+prf 23485:23490 <> fprodE
+binder 23492:23492 <> g:257
+binder 23494:23494 <> i:258
+R23514:23516 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23498:23509 mathcomp.boot.finfun <> fprod_of_fun def
+R23513:23513 mathcomp.boot.finfun <> i:258 var
+R23511:23511 mathcomp.boot.finfun <> g:257 var
+R23517:23517 mathcomp.boot.finfun <> g:257 var
+R23519:23519 mathcomp.boot.finfun <> i:258 var
+R23538:23549 mathcomp.boot.finfun <> fprod_of_fun def
+R23552:23563 mathcomp.boot.finfun <> fun_of_fprod def
+R23578:23585 mathcomp.boot.fintype <> :::'''forall_'_x not
+R23589:23592 mathcomp.boot.fintype <> :::'''forall_'_x not
+R23586:23588 mathcomp.boot.eqtype <> eqP def
+R23604:23608 mathcomp.boot.finfun <> ffunE thm
+R23626:23634 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 23649:23654 <> fprodP
+R23665:23669 mathcomp.boot.finfun <> fprod rec
+binder 23657:23658 <> f1:259
+binder 23660:23661 <> f2:260
+R23674:23674 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R23696:23701 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 23682:23682 <> x:261
+R23689:23691 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23685:23686 mathcomp.boot.finfun <> f1:259 var
+R23688:23688 mathcomp.boot.finfun <> x:261 var
+R23692:23693 mathcomp.boot.finfun <> f2:260 var
+R23695:23695 mathcomp.boot.finfun <> x:261 var
+R23704:23706 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23702:23703 mathcomp.boot.finfun <> f1:259 var
+R23707:23708 mathcomp.boot.finfun <> f2:260 var
+R23754:23759 mathcomp.boot.finfun <> fprodK thm
+R23766:23771 mathcomp.boot.finfun <> fprodK thm
+R23783:23789 mathcomp.boot.eqtype <> val_inj thm
+R23791:23795 mathcomp.boot.finfun <> ffunP thm
+R23812:23816 mathcomp.boot.finfun <> ffunE thm
+def 23843:23856 <> dffun_of_fprod
+R23863:23867 mathcomp.boot.finfun <> fprod rec
+binder 23859:23859 <> f:262
+R23872:23878 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R23897:23897 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R23890:23890 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 23886:23886 <> i:263
+R23893:23894 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R23896:23896 mathcomp.boot.finfun <> i:263 var
+R23904:23909 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R23911:23914 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+R23918:23918 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_'=>'_x_']' not
+binder 23910:23910 <> x:264
+R23915:23915 mathcomp.boot.finfun <> f:262 var
+R23917:23917 mathcomp.boot.finfun <> x:264 var
+def 23933:23946 <> fprod_of_dffun
+R23953:23959 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R23978:23978 mathcomp.boot.finfun <> ::type_scope:'{'_'dffun'_x_'}' not
+R23971:23971 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 23967:23967 <> i:265
+R23974:23975 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R23977:23977 mathcomp.boot.finfun <> i:265 var
+binder 23949:23949 <> f:266
+R23983:23987 mathcomp.boot.finfun <> fprod rec
+R23994:24005 mathcomp.boot.finfun <> fprod_of_fun def
+R24007:24007 mathcomp.boot.finfun <> f:266 var
+prf 24017:24031 <> dffun_of_fprodK
+R24035:24040 Corelib.ssr.ssrfun <> cancel def
+R24057:24070 mathcomp.boot.finfun <> fprod_of_dffun def
+R24042:24055 mathcomp.boot.finfun <> dffun_of_fprod def
+R24099:24104 mathcomp.boot.finfun <> fprodP thm
+R24119:24124 mathcomp.boot.finfun <> fprodE thm
+R24126:24130 mathcomp.boot.finfun <> ffunE thm
+prf 24191:24205 <> fprod_of_dffunK
+R24209:24214 Corelib.ssr.ssrfun <> cancel def
+R24231:24244 mathcomp.boot.finfun <> dffun_of_fprod def
+R24216:24229 mathcomp.boot.finfun <> fprod_of_dffun def
+R24273:24277 mathcomp.boot.finfun <> ffunP thm
+R24294:24298 mathcomp.boot.finfun <> ffunE thm
+R24300:24305 mathcomp.boot.finfun <> fprodE thm
+prf 24366:24383 <> dffun_of_fprod_bij
+R24387:24395 Corelib.ssr.ssrfun <> bijective variant
+R24397:24410 mathcomp.boot.finfun <> dffun_of_fprod def
+R24430:24443 mathcomp.boot.finfun <> fprod_of_dffun def
+prf 24458:24475 <> fprod_of_dffun_bij
+R24479:24487 Corelib.ssr.ssrfun <> bijective variant
+R24489:24502 mathcomp.boot.finfun <> fprod_of_dffun def
+R24522:24535 mathcomp.boot.finfun <> dffun_of_fprod def
+def 24555:24575 <> to_family_tagged_with
+R24582:24586 mathcomp.boot.finfun <> fprod rec
+binder 24578:24578 <> f:267
+R24591:24591 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R24593:24596 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R24620:24620 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+binder 24592:24592 <> x:268
+binder 24592:24592 <> x:269
+binder 24592:24592 <> x:270
+R24597:24602 mathcomp.boot.finfun <> family abbrev
+R24605:24615 mathcomp.boot.eqtype <> tagged_with def
+R24617:24618 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+R24627:24631 Corelib.Init.Specif <> exist constr
+R24650:24659 mathcomp.boot.finfun <> fprod_prop proj
+R24661:24661 mathcomp.boot.finfun <> f:267 var
+R24636:24644 mathcomp.boot.finfun <> fprod_fun proj
+R24646:24646 mathcomp.boot.finfun <> f:267 var
+def 24677:24697 <> of_family_tagged_with
+R24704:24704 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R24706:24709 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R24733:24733 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+binder 24705:24705 <> x:271
+binder 24705:24705 <> x:272
+binder 24705:24705 <> x:273
+R24710:24715 mathcomp.boot.finfun <> family abbrev
+R24718:24728 mathcomp.boot.eqtype <> tagged_with def
+R24730:24731 mathcomp.boot.finfun <> DependentFiniteProduct.T_ var
+binder 24700:24700 <> f:274
+R24738:24742 mathcomp.boot.finfun <> fprod rec
+R24749:24753 mathcomp.boot.finfun <> FProd constr
+R24756:24759 mathcomp.boot.eqtype <> valP thm
+R24761:24761 mathcomp.boot.finfun <> f:274 var
+prf 24772:24793 <> to_family_tagged_withK
+R24799:24804 Corelib.ssr.ssrfun <> cancel def
+R24828:24848 mathcomp.boot.finfun <> of_family_tagged_with def
+R24806:24826 mathcomp.boot.finfun <> to_family_tagged_with def
+R24880:24886 mathcomp.boot.eqtype <> val_inj thm
+prf 24954:24975 <> of_family_tagged_withK
+R24981:24986 Corelib.ssr.ssrfun <> cancel def
+R25010:25030 mathcomp.boot.finfun <> to_family_tagged_with def
+R24988:25008 mathcomp.boot.finfun <> of_family_tagged_with def
+R25062:25068 mathcomp.boot.eqtype <> val_inj thm
+prf 25136:25160 <> to_family_tagged_with_bij
+R25164:25172 Corelib.ssr.ssrfun <> bijective variant
+R25174:25194 mathcomp.boot.finfun <> to_family_tagged_with def
+R25214:25234 mathcomp.boot.finfun <> of_family_tagged_with def
+prf 25249:25273 <> of_family_tagged_with_bij
+R25277:25285 Corelib.ssr.ssrfun <> bijective variant
+R25287:25307 mathcomp.boot.finfun <> of_family_tagged_with def
+R25327:25347 mathcomp.boot.finfun <> to_family_tagged_with def
+prf 25362:25369 <> etaggedE
+R25376:25380 mathcomp.boot.finfun <> fprod rec
+binder 25372:25372 <> a:275
+R25388:25388 mathcomp.boot.finfun <> DependentFiniteProduct.I var
+binder 25384:25384 <> i:276
+R25415:25417 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25396:25398 Corelib.ssr.ssrfun <> tag def
+R25401:25409 mathcomp.boot.finfun <> fprod_fun proj
+R25413:25413 mathcomp.boot.finfun <> i:276 var
+R25411:25411 mathcomp.boot.finfun <> a:275 var
+R25418:25418 mathcomp.boot.finfun <> i:276 var
+binder 25392:25392 <> e:277
+R25434:25436 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25425:25431 mathcomp.boot.eqtype <> etagged def
+R25433:25433 mathcomp.boot.finfun <> e:277 var
+R25437:25437 mathcomp.boot.finfun <> a:275 var
+R25439:25439 mathcomp.boot.finfun <> i:276 var
+R25483:25489 mathcomp.boot.eqtype <> etagged def
+R25499:25512 mathcomp.boot.eqtype <> eq_irrelevance thm
+R25525:25546 mathcomp.boot.finfun DependentFiniteProduct <> sec
+R25560:25580 mathcomp.boot.finfun <> to_family_tagged_with def
+R25600:25620 mathcomp.boot.finfun <> of_family_tagged_with def
+R25669:25680 mathcomp.boot.finfun <> fprod_of_fun def
+binder 25687:25687 <> i:278
+not 25640:25640 <> ::function_scope:'['_'fprod'_x_':'_x_'=>'_x_']'
+R25780:25791 mathcomp.boot.finfun <> fprod_of_fun def
+not 25753:25753 <> ::function_scope:'['_'fprod'_':'_x_'=>'_x_']'
+R25880:25886 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_x_':'_x_'=>'_x_']' not
+R25888:25890 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_x_':'_x_'=>'_x_']' not
+R25892:25895 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_x_':'_x_'=>'_x_']' not
+R25897:25897 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_x_':'_x_'=>'_x_']' not
+binder 25887:25887 <> i:279
+not 25856:25856 <> ::function_scope:'['_'fprod'_x_'=>'_x_']'
+R25992:26000 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_':'_x_'=>'_x_']' not
+R26002:26005 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_':'_x_'=>'_x_']' not
+R26007:26007 mathcomp.boot.finfun <> ::function_scope:'['_'fprod'_':'_x_'=>'_x_']' not
+not 25970:25970 <> ::function_scope:'['_'fprod'_'=>'_x_']'

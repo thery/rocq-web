@@ -1,0 +1,488 @@
+DIGEST 1e8659962a02acf596d774155fc6aa63
+FStdlib.NArith.BinNatDef
+R703:709 Stdlib.Numbers.BinNums <> <> lib
+R739:744 Stdlib.PArith.BinPos <> <> lib
+R774:787 Stdlib.BinNums.NatDef <> <> lib
+R846:847 Corelib.Numbers.BinNums <> N0 constr
+not 839:839 <> :::'0'
+R876:879 Corelib.Numbers.BinNums <> Npos constr
+not 868:868 <> :::'1'
+R911:914 Corelib.Numbers.BinNums <> Npos constr
+not 903:903 <> :::'2'
+mod 1134:1134 <> N
+R1146:1161 Corelib.BinNums.NatDef N <> mod
+def 1176:1176 N t
+R1181:1181 Corelib.Numbers.BinNums <> N ind
+abbrev 1257:1259 N pos
+R1264:1267 Corelib.Numbers.BinNums <> Npos constr
+def 1303:1306 N zero
+def 1325:1327 N one
+def 1346:1348 N two
+def 1389:1392 N succ
+binder 1394:1394 <> n:1
+R1407:1407 Stdlib.NArith.BinNatDef <> n:1 var
+R1429:1431 Stdlib.NArith.BinNatDef N pos abbrev
+R1438:1440 Stdlib.NArith.BinNatDef N pos abbrev
+R1443:1450 Corelib.BinNums.PosDef Pos succ def
+def 1497:1500 N pred
+binder 1502:1502 <> n:3
+R1515:1515 Stdlib.NArith.BinNatDef <> n:3 var
+R1537:1539 Stdlib.NArith.BinNatDef N pos abbrev
+R1546:1555 Corelib.BinNums.PosDef Pos pred_N def
+def 1598:1600 N add
+binder 1602:1602 <> n:5
+binder 1604:1604 <> m:6
+R1620:1620 Stdlib.NArith.BinNatDef <> m:6 var
+R1617:1617 Stdlib.NArith.BinNatDef <> n:5 var
+R1639:1639 Stdlib.NArith.BinNatDef <> m:6 var
+R1653:1653 Stdlib.NArith.BinNatDef <> n:5 var
+R1659:1661 Stdlib.NArith.BinNatDef N pos abbrev
+R1666:1668 Stdlib.NArith.BinNatDef N pos abbrev
+R1675:1677 Stdlib.NArith.BinNatDef N pos abbrev
+R1681:1683 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R1708:1710 Stdlib.NArith.BinNatDef N add def
+not 1701:1701 N ::N_scope:x_'+'_x
+R1737:1739 Stdlib.NArith.BinNatDef N sub def
+not 1730:1730 N ::N_scope:x_'-'_x
+def 1787:1789 N mul
+binder 1791:1791 <> n:9
+binder 1793:1793 <> m:10
+R1809:1809 Stdlib.NArith.BinNatDef <> m:10 var
+R1806:1806 Stdlib.NArith.BinNatDef <> n:9 var
+R1848:1850 Stdlib.NArith.BinNatDef N pos abbrev
+R1855:1857 Stdlib.NArith.BinNatDef N pos abbrev
+R1864:1866 Stdlib.NArith.BinNatDef N pos abbrev
+R1870:1872 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R1897:1899 Stdlib.NArith.BinNatDef N mul def
+not 1890:1890 N ::N_scope:x_'*'_x
+R1927:1933 Stdlib.NArith.BinNatDef N compare def
+not 1919:1919 N ::N_scope:x_'?='_x
+def 2030:2032 N eqb
+binder 2034:2034 <> n:13
+binder 2036:2036 <> m:14
+R2052:2052 Stdlib.NArith.BinNatDef <> m:14 var
+R2049:2049 Stdlib.NArith.BinNatDef <> n:13 var
+R2073:2076 Corelib.Init.Datatypes <> true constr
+R2084:2086 Stdlib.NArith.BinNatDef N pos abbrev
+R2091:2093 Stdlib.NArith.BinNatDef N pos abbrev
+R2100:2106 Corelib.BinNums.PosDef Pos eqb def
+R2126:2130 Corelib.Init.Datatypes <> false constr
+def 2151:2153 N ltb
+binder 2155:2155 <> x:17
+binder 2157:2157 <> y:18
+R2170:2173 Stdlib.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R2169:2169 Stdlib.NArith.BinNatDef <> x:17 var
+R2174:2174 Stdlib.NArith.BinNatDef <> y:18 var
+R2181:2182 Corelib.Init.Datatypes <> Lt constr
+R2187:2190 Corelib.Init.Datatypes <> true constr
+R2199:2203 Corelib.Init.Datatypes <> false constr
+R2225:2227 Stdlib.NArith.BinNatDef N eqb def
+not 2217:2217 N ::N_scope:x_'=?'_x
+R2287:2289 Stdlib.NArith.BinNatDef N leb def
+not 2278:2278 N ::N_scope:x_'<=?'_x
+R2348:2350 Stdlib.NArith.BinNatDef N ltb def
+not 2340:2340 N ::N_scope:x_'<?'_x
+def 2427:2429 N min
+binder 2431:2431 <> n:19
+binder 2433:2434 <> n':20
+R2446:2449 Stdlib.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R2445:2445 Stdlib.NArith.BinNatDef <> n:19 var
+R2450:2451 Stdlib.NArith.BinNatDef <> n':20 var
+R2461:2462 Corelib.Init.Datatypes <> Lt constr
+R2466:2467 Corelib.Init.Datatypes <> Eq constr
+R2472:2472 Stdlib.NArith.BinNatDef <> n:19 var
+R2477:2478 Corelib.Init.Datatypes <> Gt constr
+R2483:2484 Stdlib.NArith.BinNatDef <> n':20 var
+def 2504:2506 N max
+binder 2508:2508 <> n:21
+binder 2510:2511 <> n':22
+R2523:2526 Stdlib.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R2522:2522 Stdlib.NArith.BinNatDef <> n:21 var
+R2527:2528 Stdlib.NArith.BinNatDef <> n':22 var
+R2538:2539 Corelib.Init.Datatypes <> Lt constr
+R2543:2544 Corelib.Init.Datatypes <> Eq constr
+R2549:2550 Stdlib.NArith.BinNatDef <> n':22 var
+R2555:2556 Corelib.Init.Datatypes <> Gt constr
+R2561:2561 Stdlib.NArith.BinNatDef <> n:21 var
+def 2603:2606 N div2
+binder 2608:2608 <> n:23
+R2621:2621 Stdlib.NArith.BinNatDef <> n:23 var
+R2654:2656 Stdlib.NArith.BinNatDef N pos abbrev
+R2660:2661 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R2667:2669 Stdlib.NArith.BinNatDef N pos abbrev
+R2677:2679 Stdlib.NArith.BinNatDef N pos abbrev
+R2683:2684 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R2690:2692 Stdlib.NArith.BinNatDef N pos abbrev
+def 2730:2733 N even
+binder 2735:2735 <> n:25
+R2748:2748 Stdlib.NArith.BinNatDef <> n:25 var
+R2766:2769 Corelib.Init.Datatypes <> true constr
+R2777:2779 Stdlib.NArith.BinNatDef N pos abbrev
+R2782:2783 Corelib.Numbers.BinNums <> xO constr
+R2791:2794 Corelib.Init.Datatypes <> true constr
+R2807:2811 Corelib.Init.Datatypes <> false constr
+def 2832:2834 N odd
+binder 2836:2836 <> n:27
+R2841:2844 Corelib.Init.Datatypes <> negb def
+R2847:2850 Stdlib.NArith.BinNatDef N even def
+R2852:2852 Stdlib.NArith.BinNatDef <> n:27 var
+def 2882:2884 N pow
+binder 2886:2886 <> n:28
+binder 2888:2888 <> p:29
+R2904:2904 Stdlib.NArith.BinNatDef <> n:28 var
+R2901:2901 Stdlib.NArith.BinNatDef <> p:29 var
+R2949:2951 Stdlib.NArith.BinNatDef N pos abbrev
+R2956:2958 Stdlib.NArith.BinNatDef N pos abbrev
+R2965:2967 Stdlib.NArith.BinNatDef N pos abbrev
+R2971:2971 Stdlib.PArith.BinPos <> ::positive_scope:x_'^'_x not
+R2972:2972 Stdlib.NArith.BinNatDef <> p:29 var
+R2996:2998 Stdlib.NArith.BinNatDef N pow def
+not 2989:2989 N ::N_scope:x_'^'_x
+def 3038:3043 N square
+binder 3045:3045 <> n:32
+R3058:3058 Stdlib.NArith.BinNatDef <> n:32 var
+R3084:3086 Stdlib.NArith.BinNatDef N pos abbrev
+R3093:3095 Stdlib.NArith.BinNatDef N pos abbrev
+R3098:3107 Stdlib.PArith.BinPos Pos square def
+def 3156:3159 N log2
+binder 3161:3161 <> n:34
+R3173:3173 Stdlib.NArith.BinNatDef <> n:34 var
+R3209:3211 Stdlib.NArith.BinNatDef N pos abbrev
+R3215:3216 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3222:3224 Stdlib.NArith.BinNatDef N pos abbrev
+R3227:3234 Stdlib.PArith.BinPos Pos size def
+R3244:3246 Stdlib.NArith.BinNatDef N pos abbrev
+R3250:3251 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R3257:3259 Stdlib.NArith.BinNatDef N pos abbrev
+R3262:3269 Stdlib.PArith.BinPos Pos size def
+def 3377:3380 N size
+binder 3382:3382 <> n:36
+R3394:3394 Stdlib.NArith.BinNatDef <> n:36 var
+R3416:3418 Stdlib.NArith.BinNatDef N pos abbrev
+R3425:3427 Stdlib.NArith.BinNatDef N pos abbrev
+R3430:3437 Stdlib.PArith.BinPos Pos size def
+def 3460:3467 N size_nat
+binder 3469:3469 <> n:38
+R3481:3481 Stdlib.NArith.BinNatDef <> n:38 var
+R3497:3497 Corelib.Init.Datatypes <> O constr
+R3503:3505 Stdlib.NArith.BinNatDef N pos abbrev
+R3512:3523 Stdlib.PArith.BinPos Pos size_nat def
+def 3572:3579 N div_eucl
+R3586:3586 Corelib.Numbers.BinNums <> N ind
+binder 3582:3582 <> a:40
+binder 3584:3584 <> b:41
+R3592:3594 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3591:3591 Corelib.Numbers.BinNums <> N ind
+R3595:3595 Corelib.Numbers.BinNums <> N ind
+R3611:3611 Stdlib.NArith.BinNatDef <> b:41 var
+R3608:3608 Stdlib.NArith.BinNatDef <> a:40 var
+R3632:3632 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3634:3635 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3637:3637 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3653:3653 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3655:3656 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3658:3658 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3657:3657 Stdlib.NArith.BinNatDef <> a:40 var
+R3665:3667 Stdlib.NArith.BinNatDef N pos abbrev
+R3678:3689 Stdlib.NArith.BinNatDef N pos_div_eucl def
+R3694:3694 Stdlib.NArith.BinNatDef <> b:41 var
+def 3715:3717 N div
+binder 3719:3719 <> a:44
+binder 3721:3721 <> b:45
+R3726:3728 Corelib.Init.Datatypes <> fst def
+R3731:3738 Stdlib.NArith.BinNatDef N div_eucl def
+R3740:3740 Stdlib.NArith.BinNatDef <> a:44 var
+R3742:3742 Stdlib.NArith.BinNatDef <> b:45 var
+def 3757:3762 N modulo
+binder 3764:3764 <> a:46
+binder 3766:3766 <> b:47
+R3771:3773 Corelib.Init.Datatypes <> snd def
+R3776:3783 Stdlib.NArith.BinNatDef N div_eucl def
+R3785:3785 Stdlib.NArith.BinNatDef <> a:46 var
+R3787:3787 Stdlib.NArith.BinNatDef <> b:47 var
+R3805:3807 Stdlib.NArith.BinNatDef N div def
+not 3798:3798 N ::N_scope:x_'/'_x
+R3835:3840 Stdlib.NArith.BinNatDef N modulo def
+not 3826:3826 N ::N_scope:x_'mod'_x
+def 3929:3931 N gcd
+binder 3933:3933 <> a:48
+binder 3935:3935 <> b:49
+R3950:3950 Stdlib.NArith.BinNatDef <> b:49 var
+R3947:3947 Stdlib.NArith.BinNatDef <> a:48 var
+R3969:3969 Stdlib.NArith.BinNatDef <> b:49 var
+R3983:3983 Stdlib.NArith.BinNatDef <> a:48 var
+R3989:3991 Stdlib.NArith.BinNatDef N pos abbrev
+R3996:3998 Stdlib.NArith.BinNatDef N pos abbrev
+R4005:4007 Stdlib.NArith.BinNatDef N pos abbrev
+R4010:4016 Stdlib.PArith.BinPos Pos gcd def
+def 4129:4132 N ggcd
+binder 4134:4134 <> a:52
+binder 4136:4136 <> b:53
+R4151:4151 Stdlib.NArith.BinNatDef <> b:53 var
+R4148:4148 Stdlib.NArith.BinNatDef <> a:52 var
+R4170:4170 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4172:4172 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4178:4178 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4171:4171 Stdlib.NArith.BinNatDef <> b:53 var
+R4173:4173 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4175:4175 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4177:4177 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4192:4192 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4194:4194 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4200:4200 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4193:4193 Stdlib.NArith.BinNatDef <> a:52 var
+R4195:4195 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4197:4197 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4199:4199 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4206:4208 Stdlib.NArith.BinNatDef N pos abbrev
+R4213:4215 Stdlib.NArith.BinNatDef N pos abbrev
+R4247:4254 Stdlib.PArith.BinPos Pos ggcd def
+R4232:4232 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4234:4234 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4242:4242 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4235:4235 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4238:4238 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4241:4241 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4268:4268 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4274:4275 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4292:4292 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4269:4271 Stdlib.NArith.BinNatDef N pos abbrev
+R4276:4276 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4283:4284 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4291:4291 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4277:4279 Stdlib.NArith.BinNatDef N pos abbrev
+R4285:4287 Stdlib.NArith.BinNatDef N pos abbrev
+def 4332:4338 N sqrtrem
+binder 4340:4340 <> n:56
+R4352:4352 Stdlib.NArith.BinNatDef <> n:56 var
+R4368:4368 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4370:4371 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4373:4373 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4379:4381 Stdlib.NArith.BinNatDef N pos abbrev
+R4398:4408 Corelib.BinNums.PosDef Pos sqrtrem def
+R4424:4424 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4426:4427 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4435:4435 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4428:4432 Stdlib.PArith.BinPos <> IsPos abbrev
+R4440:4440 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4446:4447 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4453:4453 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4441:4443 Stdlib.NArith.BinNatDef N pos abbrev
+R4448:4450 Stdlib.NArith.BinNatDef N pos abbrev
+R4462:4462 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4464:4465 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4467:4467 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4472:4472 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4478:4479 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4481:4481 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4473:4475 Stdlib.NArith.BinNatDef N pos abbrev
+def 4509:4512 N sqrt
+binder 4514:4514 <> n:58
+R4526:4526 Stdlib.NArith.BinNatDef <> n:58 var
+R4548:4550 Stdlib.NArith.BinNatDef N pos abbrev
+R4557:4559 Stdlib.NArith.BinNatDef N pos abbrev
+R4562:4569 Corelib.BinNums.PosDef Pos sqrt def
+def 4607:4616 N shiftl_nat
+R4621:4621 Corelib.Numbers.BinNums <> N ind
+binder 4619:4619 <> a:60
+R4627:4634 Corelib.Init.Datatypes <> nat_rect scheme
+R4650:4655 Stdlib.NArith.BinNatDef N double def
+R4638:4638 Stdlib.NArith.BinNatDef <> a:60 var
+def 4670:4679 N shiftr_nat
+R4684:4684 Corelib.Numbers.BinNums <> N ind
+binder 4682:4682 <> a:61
+R4690:4697 Corelib.Init.Datatypes <> nat_rect scheme
+R4713:4716 Stdlib.NArith.BinNatDef N div2 def
+R4701:4701 Stdlib.NArith.BinNatDef <> a:61 var
+def 4732:4737 N shiftl
+binder 4739:4739 <> a:62
+binder 4741:4741 <> n:63
+R4754:4754 Stdlib.NArith.BinNatDef <> a:62 var
+R4780:4782 Stdlib.NArith.BinNatDef N pos abbrev
+R4789:4791 Stdlib.NArith.BinNatDef N pos abbrev
+R4794:4803 Stdlib.PArith.BinPos Pos shiftl def
+R4805:4805 Stdlib.NArith.BinNatDef <> a:62 var
+R4807:4807 Stdlib.NArith.BinNatDef <> n:63 var
+def 4829:4834 N shiftr
+binder 4836:4836 <> a:65
+binder 4838:4838 <> n:66
+R4851:4851 Stdlib.NArith.BinNatDef <> n:66 var
+R4869:4869 Stdlib.NArith.BinNatDef <> a:65 var
+R4877:4879 Stdlib.NArith.BinNatDef N pos abbrev
+R4886:4893 Corelib.BinNums.PosDef Pos iter def
+R4900:4900 Stdlib.NArith.BinNatDef <> a:65 var
+R4895:4898 Stdlib.NArith.BinNatDef N div2 def
+def 4979:4989 N testbit_nat
+R4994:4994 Corelib.Numbers.BinNums <> N ind
+binder 4992:4992 <> a:68
+R5008:5008 Stdlib.NArith.BinNatDef <> a:68 var
+R5035:5039 Corelib.Init.Datatypes <> false constr
+R5047:5049 Stdlib.NArith.BinNatDef N pos abbrev
+R5056:5070 Stdlib.PArith.BinPos Pos testbit_nat def
+def 5127:5133 N testbit
+binder 5135:5135 <> a:70
+binder 5137:5137 <> n:71
+R5150:5150 Stdlib.NArith.BinNatDef <> a:70 var
+R5168:5172 Corelib.Init.Datatypes <> false constr
+R5180:5182 Stdlib.NArith.BinNatDef N pos abbrev
+R5189:5199 Stdlib.PArith.BinPos Pos testbit def
+R5203:5203 Stdlib.NArith.BinNatDef <> n:71 var
+def 5272:5277 N to_nat
+R5282:5282 Corelib.Numbers.BinNums <> N ind
+binder 5280:5280 <> a:73
+R5296:5296 Stdlib.NArith.BinNatDef <> a:73 var
+R5314:5314 Corelib.Init.Datatypes <> O constr
+R5322:5324 Stdlib.NArith.BinNatDef N pos abbrev
+R5331:5340 Corelib.BinNums.PosDef Pos to_nat def
+def 5363:5368 N of_nat
+R5373:5375 Corelib.Init.Datatypes <> nat ind
+binder 5371:5371 <> n:75
+R5389:5389 Stdlib.NArith.BinNatDef <> n:75 var
+R5402:5402 Corelib.Init.Datatypes <> O constr
+R5415:5415 Corelib.Init.Datatypes <> S constr
+R5423:5425 Stdlib.NArith.BinNatDef N pos abbrev
+R5428:5442 Corelib.BinNums.PosDef Pos of_succ_nat def
+def 5499:5502 N iter
+R5507:5507 Corelib.Numbers.BinNums <> N ind
+binder 5505:5505 <> n:77
+binder 5511:5511 <> A:78
+R5518:5519 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5517:5517 Stdlib.NArith.BinNatDef <> A:78 var
+R5520:5520 Stdlib.NArith.BinNatDef <> A:78 var
+binder 5515:5515 <> f:79
+R5526:5526 Stdlib.NArith.BinNatDef <> A:78 var
+binder 5524:5524 <> x:80
+R5531:5531 Stdlib.NArith.BinNatDef <> A:78 var
+R5544:5544 Stdlib.NArith.BinNatDef <> n:77 var
+R5562:5562 Stdlib.NArith.BinNatDef <> x:80 var
+R5570:5572 Stdlib.NArith.BinNatDef N pos abbrev
+R5579:5586 Corelib.BinNums.PosDef Pos iter def
+R5590:5590 Stdlib.NArith.BinNatDef <> x:80 var
+R5588:5588 Stdlib.NArith.BinNatDef <> f:79 var
+def 5658:5664 N iter_op
+binder 5667:5667 <> A:82
+R5677:5680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5676:5676 Stdlib.NArith.BinNatDef <> A:82 var
+R5682:5685 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5681:5681 Stdlib.NArith.BinNatDef <> A:82 var
+R5686:5686 Stdlib.NArith.BinNatDef <> A:82 var
+binder 5671:5672 <> op:83
+R5696:5696 Stdlib.NArith.BinNatDef <> A:82 var
+binder 5690:5690 <> z:84
+binder 5692:5692 <> x:85
+R5704:5704 Corelib.Numbers.BinNums <> N ind
+binder 5700:5700 <> n:86
+R5718:5718 Stdlib.NArith.BinNatDef <> n:86 var
+R5725:5726 Corelib.Numbers.BinNums <> N0 constr
+R5731:5731 Stdlib.NArith.BinNatDef <> z:84 var
+R5735:5738 Corelib.Numbers.BinNums <> Npos constr
+R5745:5755 Corelib.BinNums.PosDef Pos iter_op def
+R5762:5762 Stdlib.NArith.BinNatDef <> x:85 var
+R5757:5758 Stdlib.NArith.BinNatDef <> op:83 var
+def 5851:5857 N of_uint
+R5862:5873 Corelib.Init.Decimal <> uint ind
+binder 5860:5860 <> d:88
+R5879:5889 Stdlib.PArith.BinPos Pos of_uint def
+R5891:5891 Stdlib.NArith.BinNatDef <> d:88 var
+def 5906:5916 N of_hex_uint
+R5921:5936 Corelib.Init.Hexadecimal <> uint ind
+binder 5919:5919 <> d:89
+R5942:5956 Stdlib.PArith.BinPos Pos of_hex_uint def
+R5958:5958 Stdlib.NArith.BinNatDef <> d:89 var
+def 5973:5983 N of_num_uint
+R5988:5998 Corelib.Init.Number <> uint variant
+binder 5986:5986 <> d:90
+R6012:6012 Stdlib.NArith.BinNatDef <> d:90 var
+R6023:6040 Corelib.Init.Number <> UIntDecimal constr
+R6047:6053 Stdlib.NArith.BinNatDef N of_uint def
+R6055:6055 Stdlib.NArith.BinNatDef <> d:90 var
+R6061:6082 Corelib.Init.Number <> UIntHexadecimal constr
+R6089:6099 Stdlib.NArith.BinNatDef N of_hex_uint def
+R6101:6101 Stdlib.NArith.BinNatDef <> d:90 var
+def 6122:6127 N of_int
+R6132:6142 Corelib.Init.Decimal <> int abbrev
+binder 6130:6130 <> d:92
+R6156:6167 Corelib.Init.Decimal <> norm def
+R6169:6169 Stdlib.NArith.BinNatDef <> d:92 var
+R6180:6190 Corelib.Init.Decimal <> Pos constr
+R6197:6200 Corelib.Init.Datatypes <> Some constr
+R6203:6213 Stdlib.PArith.BinPos Pos of_uint def
+R6215:6215 Stdlib.NArith.BinNatDef <> d:92 var
+R6222:6232 Corelib.Init.Decimal <> Neg constr
+R6239:6242 Corelib.Init.Datatypes <> None constr
+def 6263:6272 N of_hex_int
+R6277:6291 Corelib.Init.Hexadecimal <> int abbrev
+binder 6275:6275 <> d:93
+R6305:6320 Corelib.Init.Hexadecimal <> norm def
+R6322:6322 Stdlib.NArith.BinNatDef <> d:93 var
+R6333:6347 Corelib.Init.Hexadecimal <> Pos constr
+R6354:6357 Corelib.Init.Datatypes <> Some constr
+R6360:6374 Stdlib.PArith.BinPos Pos of_hex_uint def
+R6376:6376 Stdlib.NArith.BinNatDef <> d:93 var
+R6383:6397 Corelib.Init.Hexadecimal <> Neg constr
+R6404:6407 Corelib.Init.Datatypes <> None constr
+def 6428:6437 N of_num_int
+R6442:6451 Corelib.Init.Number <> int abbrev
+binder 6440:6440 <> d:94
+R6465:6465 Stdlib.NArith.BinNatDef <> d:94 var
+R6476:6492 Corelib.Init.Number <> IntDecimal constr
+R6499:6504 Stdlib.NArith.BinNatDef N of_int def
+R6506:6506 Stdlib.NArith.BinNatDef <> d:94 var
+R6512:6532 Corelib.Init.Number <> IntHexadecimal constr
+R6539:6548 Stdlib.NArith.BinNatDef N of_hex_int def
+R6550:6550 Stdlib.NArith.BinNatDef <> d:94 var
+def 6571:6577 N to_uint
+binder 6579:6579 <> n:96
+R6592:6592 Stdlib.NArith.BinNatDef <> n:96 var
+R6608:6619 Corelib.Init.Decimal <> zero abbrev
+R6625:6627 Stdlib.NArith.BinNatDef N pos abbrev
+R6634:6644 Stdlib.PArith.BinPos Pos to_uint def
+def 6667:6677 N to_hex_uint
+binder 6679:6679 <> n:98
+R6692:6692 Stdlib.NArith.BinNatDef <> n:98 var
+R6708:6723 Corelib.Init.Hexadecimal <> zero abbrev
+R6729:6731 Stdlib.NArith.BinNatDef N pos abbrev
+R6738:6752 Stdlib.PArith.BinPos Pos to_hex_uint def
+def 6775:6785 N to_num_uint
+binder 6787:6787 <> n:100
+R6792:6809 Corelib.Init.Number <> UIntDecimal constr
+R6812:6818 Stdlib.NArith.BinNatDef N to_uint def
+R6820:6820 Stdlib.NArith.BinNatDef <> n:100 var
+def 6836:6850 N to_num_hex_uint
+binder 6852:6852 <> n:101
+R6857:6878 Corelib.Init.Number <> UIntHexadecimal constr
+R6881:6891 Stdlib.NArith.BinNatDef N to_hex_uint def
+R6893:6893 Stdlib.NArith.BinNatDef <> n:101 var
+def 6909:6914 N to_int
+binder 6916:6916 <> n:102
+R6921:6931 Corelib.Init.Decimal <> Pos constr
+R6934:6940 Stdlib.NArith.BinNatDef N to_uint def
+R6942:6942 Stdlib.NArith.BinNatDef <> n:102 var
+def 6958:6967 N to_hex_int
+binder 6969:6969 <> n:103
+R6974:6988 Corelib.Init.Hexadecimal <> Pos constr
+R6991:7001 Stdlib.NArith.BinNatDef N to_hex_uint def
+R7003:7003 Stdlib.NArith.BinNatDef <> n:103 var
+def 7019:7028 N to_num_int
+binder 7030:7030 <> n:104
+R7035:7051 Corelib.Init.Number <> IntDecimal constr
+R7054:7059 Stdlib.NArith.BinNatDef N to_int def
+R7061:7061 Stdlib.NArith.BinNatDef <> n:104 var
+def 7077:7090 N to_num_hex_int
+binder 7092:7092 <> n:105
+R7097:7117 Corelib.Init.Number <> IntHexadecimal constr
+R7120:7129 Stdlib.NArith.BinNatDef N to_hex_int def
+R7131:7131 Stdlib.NArith.BinNatDef <> n:105 var
+R7152:7152 Corelib.Numbers.BinNums <> N ind
+R7154:7164 Stdlib.NArith.BinNatDef N of_num_uint def
+R7166:7180 Stdlib.NArith.BinNatDef N to_num_hex_uint def
+R7213:7213 Corelib.Numbers.BinNums <> N ind
+R7215:7225 Stdlib.NArith.BinNatDef N of_num_uint def
+R7227:7237 Stdlib.NArith.BinNatDef N to_num_uint def
+R7255:7255 Stdlib.NArith.BinNatDef N <> mod
+R7343:7343 Corelib.Numbers.BinNums <> N ind
+R7345:7357 Stdlib.NArith.BinNatDef <> of_num_uint def
+R7359:7375 Stdlib.NArith.BinNatDef <> to_num_hex_uint def
+R7408:7408 Corelib.Numbers.BinNums <> N ind
+R7410:7422 Stdlib.NArith.BinNatDef <> of_num_uint def
+R7424:7436 Stdlib.NArith.BinNatDef <> to_num_uint def

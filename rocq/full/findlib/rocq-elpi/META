@@ -1,0 +1,41 @@
+package "coercion" (
+  directory = "coercion"
+  description = ""
+  requires = "rocq-elpi.elpi rocq-runtime.plugins.ltac rocq-runtime.vernac"
+  archive(byte) = "elpi_coercion_plugin.cma"
+  archive(native) = "elpi_coercion_plugin.cmxa"
+  plugin(byte) = "elpi_coercion_plugin.cma"
+  plugin(native) = "elpi_coercion_plugin.cmxs"
+)
+package "cs" (
+  directory = "cs"
+  description = ""
+  requires = "rocq-elpi.elpi rocq-runtime.plugins.ltac rocq-runtime.vernac"
+  archive(byte) = "elpi_cs_plugin.cma"
+  archive(native) = "elpi_cs_plugin.cmxa"
+  plugin(byte) = "elpi_cs_plugin.cma"
+  plugin(native) = "elpi_cs_plugin.cmxs"
+)
+package "elpi" (
+  directory = "elpi"
+  description = "Elpi"
+  requires =
+  "elpi
+   elpi.dynload
+   ppx_deriving.runtime
+   rocq-runtime.plugins.ltac
+   rocq-runtime.vernac"
+  archive(byte) = "elpi_plugin.cma"
+  archive(native) = "elpi_plugin.cmxa"
+  plugin(byte) = "elpi_plugin.cma"
+  plugin(native) = "elpi_plugin.cmxs"
+)
+package "tc" (
+  directory = "tc"
+  description = ""
+  requires = "rocq-elpi.elpi rocq-runtime.plugins.ltac rocq-runtime.vernac"
+  archive(byte) = "elpi_tc_plugin.cma"
+  archive(native) = "elpi_tc_plugin.cmxa"
+  plugin(byte) = "elpi_tc_plugin.cma"
+  plugin(native) = "elpi_tc_plugin.cmxs"
+)

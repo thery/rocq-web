@@ -1,0 +1,85 @@
+DIGEST 734e843ddce7855f20a6eee889e384bb
+FStdlib.Numbers.Natural.Abstract.NAddOrder
+R853:858 Stdlib.Numbers.Natural.Abstract.NOrder <> <> lib
+R895:909 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> modtype
+mod 869:881 <> NAddOrderProp
+R921:930 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp <> mod
+R932:932 Stdlib.Numbers.Natural.Abstract.NAddOrder N <> mod
+prf 1004:1011 NAddOrderProp le_add_r
+binder 1022:1022 <> n:1
+binder 1024:1024 <> m:2
+R1028:1031 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1027:1027 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:1 var
+R1033:1035 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1032:1032 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:1 var
+R1036:1036 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:2 var
+R1078:1084 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1097:1106 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp eq_le_incl thm
+R1132:1141 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_succ_r thm
+R1154:1165 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_le_succ_r thm
+prf 1182:1189 NAddOrderProp le_add_l
+binder 1200:1200 <> n:3
+binder 1202:1202 <> m:4
+R1206:1209 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1205:1205 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:3 var
+R1211:1213 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1210:1210 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:4 var
+R1214:1214 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:3 var
+R1244:1251 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_comm thm
+R1260:1267 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_add_r thm
+prf 1284:1294 NAddOrderProp lt_lt_add_r
+binder 1305:1305 <> n:5
+binder 1307:1307 <> m:6
+binder 1309:1309 <> p:7
+R1317:1320 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1313:1315 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1312:1312 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:5 var
+R1316:1316 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:6 var
+R1322:1324 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1321:1321 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:5 var
+R1326:1328 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1325:1325 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:6 var
+R1329:1329 Stdlib.Numbers.Natural.Abstract.NAddOrder <> p:7 var
+R1367:1373 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1385:1398 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_lt_le_mono thm
+R1421:1426 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+prf 1444:1454 NAddOrderProp lt_lt_add_l
+binder 1465:1465 <> n:8
+binder 1467:1467 <> m:9
+binder 1469:1469 <> p:10
+R1477:1480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1473:1475 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1472:1472 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:8 var
+R1476:1476 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:9 var
+R1482:1484 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1481:1481 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:8 var
+R1486:1488 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1485:1485 Stdlib.Numbers.Natural.Abstract.NAddOrder <> p:10 var
+R1489:1489 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:9 var
+R1521:1528 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_comm thm
+R1537:1547 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp lt_lt_add_r thm
+prf 1564:1572 NAddOrderProp add_pos_l
+binder 1583:1583 <> n:11
+binder 1585:1585 <> m:12
+R1593:1596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1589:1591 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1592:1592 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:11 var
+R1598:1600 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1602:1604 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1601:1601 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:11 var
+R1605:1605 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:12 var
+R1631:1644 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_pos_nonneg thm
+R1673:1678 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+prf 1695:1703 NAddOrderProp add_pos_r
+binder 1714:1714 <> n:13
+binder 1716:1716 <> m:14
+R1724:1727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1720:1722 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1723:1723 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:14 var
+R1729:1731 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1733:1735 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1732:1732 Stdlib.Numbers.Natural.Abstract.NAddOrder <> n:13 var
+R1736:1736 Stdlib.Numbers.Natural.Abstract.NAddOrder <> m:14 var
+R1762:1775 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_nonneg_pos thm
+R1788:1793 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+R1822:1834 Stdlib.Numbers.Natural.Abstract.NAddOrder NAddOrderProp <> mod

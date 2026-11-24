@@ -1,0 +1,305 @@
+DIGEST c2478b3fa83c4fcd08a16a13679911b1
+FStdlib.ZArith.Zcomplements
+R703:712 Stdlib.setoid_ring.ZArithRing <> <> lib
+R742:747 Stdlib.ZArith.BinInt <> <> lib
+R777:780 Stdlib.ZArith.Znat <> <> lib
+R810:815 Stdlib.Arith.Wf_nat <> <> lib
+R838:841 Stdlib.ZArith.Zabs <> <> lib
+R843:846 Stdlib.ZArith.Wf_Z <> <> lib
+R869:873 Stdlib.ZArith.Zeven <> <> lib
+abbrev 1044:1062 <> two_or_two_plus_one
+R1067:1082 Stdlib.ZArith.Zeven <> Z_modulo_2 thm
+def 1366:1374 <> floor_pos
+R1379:1386 Corelib.Numbers.BinNums <> positive ind
+binder 1377:1377 <> a:1
+R1391:1398 Corelib.Numbers.BinNums <> positive ind
+R1411:1411 Stdlib.ZArith.Zcomplements <> a:1 var
+R1424:1425 Corelib.Numbers.BinNums <> xH constr
+R1447:1448 Corelib.Numbers.BinNums <> xO constr
+R1456:1457 Corelib.Numbers.BinNums <> xO constr
+R1460:1468 Stdlib.ZArith.Zcomplements <> floor_pos:2 def
+R1480:1481 Corelib.Numbers.BinNums <> xI constr
+R1489:1490 Corelib.Numbers.BinNums <> xO constr
+R1493:1501 Stdlib.ZArith.Zcomplements <> floor_pos:2 def
+def 1526:1530 <> floor
+R1535:1542 Corelib.Numbers.BinNums <> positive ind
+binder 1533:1533 <> a:4
+R1548:1551 Corelib.Numbers.BinNums <> Zpos constr
+R1554:1562 Stdlib.ZArith.Zcomplements <> floor_pos def
+R1564:1564 Stdlib.ZArith.Zcomplements <> a:4 var
+prf 1575:1583 <> floor_gt0
+R1596:1603 Corelib.Numbers.BinNums <> positive ind
+binder 1594:1594 <> p:5
+R1613:1615 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R1606:1610 Stdlib.ZArith.Zcomplements <> floor def
+R1612:1612 Stdlib.ZArith.Zcomplements <> p:5 var
+prf 1651:1658 <> floor_ok
+R1671:1678 Corelib.Numbers.BinNums <> positive ind
+binder 1669:1669 <> p:6
+R1688:1691 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1698:1700 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1681:1685 Stdlib.ZArith.Zcomplements <> floor def
+R1687:1687 Stdlib.ZArith.Zcomplements <> p:6 var
+R1692:1695 Corelib.Numbers.BinNums <> Zpos constr
+R1697:1697 Stdlib.ZArith.Zcomplements <> p:6 var
+R1702:1704 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1705:1709 Stdlib.ZArith.Zcomplements <> floor def
+R1711:1711 Stdlib.ZArith.Zcomplements <> p:6 var
+R1729:1733 Stdlib.ZArith.Zcomplements <> floor def
+R1811:1822 Stdlib.ZArith.BinInt Pos2Z inj_xI thm
+R1826:1837 Stdlib.ZArith.BinInt Pos2Z inj_xO thm
+R1840:1841 Corelib.Numbers.BinNums <> xO constr
+R1848:1859 Stdlib.ZArith.BinInt Pos2Z inj_xO thm
+R1901:1903 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1904:1908 Stdlib.ZArith.BinInt Z pos abbrev
+R1883:1892 Stdlib.ZArith.BinInt Z le_trans thm
+R1925:1940 Stdlib.ZArith.BinInt Z le_succ_diag_r thm
+R1975:1978 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1990:1990 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1986:1988 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1979:1983 Stdlib.ZArith.BinInt Z pos abbrev
+R1954:1966 Stdlib.ZArith.BinInt Z lt_le_trans thm
+R2009:2025 Stdlib.ZArith.BinInt Z mul_add_distr_l thm
+R2028:2036 Stdlib.ZArith.BinInt Z mul_1_r thm
+R2052:2066 Stdlib.ZArith.BinInt Z add_lt_mono_l thm
+R2095:2116 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+R2133:2140 Stdlib.ZArith.BinInt Z le_0_2 thm
+R2158:2166 Stdlib.ZArith.BinInt Z add_1_r thm
+R2175:2185 Stdlib.ZArith.BinInt Z le_succ_l thm
+R2209:2220 Stdlib.ZArith.BinInt Pos2Z inj_xO thm
+R2223:2224 Corelib.Numbers.BinNums <> xO constr
+R2232:2243 Stdlib.ZArith.BinInt Pos2Z inj_xO thm
+R2249:2260 Stdlib.ZArith.BinInt Pos2Z inj_xO thm
+R2312:2320 Stdlib.ZArith.BinInt Z le_refl thm
+R2323:2330 Stdlib.ZArith.BinInt Z lt_1_2 thm
+prf 2468:2479 <> Z_lt_abs_rec
+R2495:2498 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2494:2494 Corelib.Numbers.BinNums <> Z ind
+binder 2492:2492 <> P:7
+R2508:2508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2566:2574 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2518:2518 Corelib.Numbers.BinNums <> Z ind
+binder 2516:2516 <> n:8
+R2521:2521 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2558:2562 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2531:2531 Corelib.Numbers.BinNums <> Z ind
+binder 2529:2529 <> m:9
+R2551:2554 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2541:2543 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2534:2538 Stdlib.ZArith.BinInt Z abs def
+R2540:2540 Stdlib.ZArith.Zcomplements <> m:9 var
+R2544:2548 Stdlib.ZArith.BinInt Z abs def
+R2550:2550 Stdlib.ZArith.Zcomplements <> n:8 var
+R2555:2555 Stdlib.ZArith.Zcomplements <> P:7 var
+R2557:2557 Stdlib.ZArith.Zcomplements <> m:9 var
+R2563:2563 Stdlib.ZArith.Zcomplements <> P:7 var
+R2565:2565 Stdlib.ZArith.Zcomplements <> n:8 var
+R2584:2584 Corelib.Numbers.BinNums <> Z ind
+binder 2582:2582 <> n:10
+R2587:2587 Stdlib.ZArith.Zcomplements <> P:7 var
+R2589:2589 Stdlib.ZArith.Zcomplements <> n:10 var
+binder 2632:2632 <> z:11
+R2643:2646 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2638:2641 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2642:2642 Stdlib.ZArith.Zcomplements <> z:11 var
+R2650:2652 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2649:2649 Stdlib.ZArith.Zcomplements <> z:11 var
+R2656:2657 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2658:2658 Stdlib.ZArith.Zcomplements <> z:11 var
+binder 2632:2632 <> z:12
+R2642:2642 Stdlib.ZArith.Zcomplements <> z:12 var
+R2649:2649 Stdlib.ZArith.Zcomplements <> z:12 var
+R2658:2658 Stdlib.ZArith.Zcomplements <> z:12 var
+R2678:2682 Stdlib.ZArith.BinInt Z abs def
+R2706:2718 Stdlib.ZArith.Zabs <> Zabs_dec def
+R2756:2767 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R2781:2793 Stdlib.ZArith.Wf_Z <> Z_lt_rec thm
+R2810:2821 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R2878:2885 Stdlib.ZArith.BinInt Z abs_eq thm
+R2923:2927 Stdlib.ZArith.BinInt Z abs def
+R2945:2956 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R2973:2985 Stdlib.ZArith.Zabs <> Zabs_dec def
+R3025:3033 Stdlib.ZArith.BinInt Z abs_neq thm
+R3036:3051 Stdlib.ZArith.BinInt Z opp_involutive thm
+R3088:3092 Stdlib.ZArith.BinInt Z abs def
+R3110:3121 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R3140:3152 Stdlib.ZArith.Zabs <> Zabs_dec def
+R3192:3204 Stdlib.ZArith.BinInt Z opp_le_mono thm
+R3215:3230 Stdlib.ZArith.BinInt Z opp_involutive thm
+prf 3253:3270 <> Z_lt_abs_induction
+R3286:3289 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3285:3285 Corelib.Numbers.BinNums <> Z ind
+binder 3283:3283 <> P:13
+R3300:3300 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3358:3366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3310:3310 Corelib.Numbers.BinNums <> Z ind
+binder 3308:3308 <> n:14
+R3313:3313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3350:3354 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3323:3323 Corelib.Numbers.BinNums <> Z ind
+binder 3321:3321 <> m:15
+R3343:3346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3333:3335 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3326:3330 Stdlib.ZArith.BinInt Z abs def
+R3332:3332 Stdlib.ZArith.Zcomplements <> m:15 var
+R3336:3340 Stdlib.ZArith.BinInt Z abs def
+R3342:3342 Stdlib.ZArith.Zcomplements <> n:14 var
+R3347:3347 Stdlib.ZArith.Zcomplements <> P:13 var
+R3349:3349 Stdlib.ZArith.Zcomplements <> m:15 var
+R3355:3355 Stdlib.ZArith.Zcomplements <> P:13 var
+R3357:3357 Stdlib.ZArith.Zcomplements <> n:14 var
+R3376:3376 Corelib.Numbers.BinNums <> Z ind
+binder 3374:3374 <> n:16
+R3379:3379 Stdlib.ZArith.Zcomplements <> P:13 var
+R3381:3381 Stdlib.ZArith.Zcomplements <> n:16 var
+binder 3424:3424 <> z:17
+R3435:3438 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3430:3433 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3434:3434 Stdlib.ZArith.Zcomplements <> z:17 var
+R3442:3445 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3441:3441 Stdlib.ZArith.Zcomplements <> z:17 var
+R3449:3450 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3451:3451 Stdlib.ZArith.Zcomplements <> z:17 var
+binder 3424:3424 <> z:18
+R3434:3434 Stdlib.ZArith.Zcomplements <> z:18 var
+R3441:3441 Stdlib.ZArith.Zcomplements <> z:18 var
+R3451:3451 Stdlib.ZArith.Zcomplements <> z:18 var
+R3474:3478 Stdlib.ZArith.BinInt Z abs def
+R3507:3519 Stdlib.ZArith.Zabs <> Zabs_dec def
+R3557:3568 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R3581:3599 Stdlib.ZArith.Wf_Z <> Z_lt_induction thm
+R3616:3627 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R3684:3691 Stdlib.ZArith.BinInt Z abs_eq thm
+R3725:3729 Stdlib.ZArith.BinInt Z abs def
+R3755:3766 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R3779:3791 Stdlib.ZArith.Zabs <> Zabs_dec def
+R3815:3816 Corelib.Init.Logic <> eq ind
+R3840:3848 Stdlib.ZArith.BinInt Z abs_neq thm
+R3851:3866 Stdlib.ZArith.BinInt Z opp_involutive thm
+R3903:3907 Stdlib.ZArith.BinInt Z abs def
+R3925:3936 Stdlib.ZArith.BinInt Z abs_nonneg thm
+R3955:3967 Stdlib.ZArith.Zabs <> Zabs_dec def
+R4007:4019 Stdlib.ZArith.BinInt Z opp_le_mono thm
+R4030:4045 Stdlib.ZArith.BinInt Z opp_involutive thm
+prf 4115:4124 <> Zcase_sign
+R4140:4140 Corelib.Numbers.BinNums <> Z ind
+binder 4138:4138 <> n:19
+binder 4144:4144 <> P:20
+R4153:4153 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4164:4168 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4159:4162 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4155:4157 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4154:4154 Stdlib.ZArith.Zcomplements <> n:19 var
+R4163:4163 Stdlib.ZArith.Zcomplements <> P:20 var
+R4169:4169 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4180:4184 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4175:4178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4171:4173 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R4170:4170 Stdlib.ZArith.Zcomplements <> n:19 var
+R4179:4179 Stdlib.ZArith.Zcomplements <> P:20 var
+R4185:4185 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4196:4200 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4191:4194 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4187:4189 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4186:4186 Stdlib.ZArith.Zcomplements <> n:19 var
+R4195:4195 Stdlib.ZArith.Zcomplements <> P:20 var
+R4201:4201 Stdlib.ZArith.Zcomplements <> P:20 var
+prf 4310:4316 <> sqr_pos
+binder 4318:4318 <> n:21
+R4327:4330 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R4323:4325 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4322:4322 Stdlib.ZArith.Zcomplements <> n:21 var
+R4326:4326 Stdlib.ZArith.Zcomplements <> n:21 var
+R4364:4378 Stdlib.ZArith.BinInt Z square_nonneg thm
+R4532:4535 Stdlib.Lists.List <> <> lib
+def 4548:4558 <> Zlength_aux
+R4565:4565 Corelib.Numbers.BinNums <> Z ind
+binder 4561:4563 <> acc:22
+binder 4569:4569 <> A:23
+R4580:4583 Corelib.Init.Datatypes <> list ind
+R4585:4585 Stdlib.ZArith.Zcomplements <> A:23 var
+binder 4578:4578 <> l:24
+R4590:4590 Corelib.Numbers.BinNums <> Z ind
+R4603:4603 Stdlib.ZArith.Zcomplements <> l:24 var
+R4616:4618 Corelib.Init.Datatypes <> nil constr
+R4623:4625 Stdlib.ZArith.Zcomplements <> acc:22 var
+R4634:4637 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4643:4653 Stdlib.ZArith.Zcomplements <> Zlength_aux:25 def
+R4670:4670 Stdlib.ZArith.Zcomplements <> l:24 var
+R4668:4668 Stdlib.ZArith.Zcomplements <> A:23 var
+R4656:4661 Stdlib.ZArith.BinInt Z succ def
+R4663:4665 Stdlib.ZArith.Zcomplements <> acc:22 var
+def 4691:4697 <> Zlength
+R4702:4712 Stdlib.ZArith.Zcomplements <> Zlength_aux def
+R4727:4733 Stdlib.ZArith.Zcomplements <> Zlength def
+sec 4751:4768 <> Zlength_properties
+var 4783:4783 Zlength_properties A
+R4814:4817 Corelib.Init.Datatypes <> list ind
+R4819:4819 Stdlib.ZArith.Zcomplements <> Zlength_properties.A var
+prf 4831:4845 <> Zlength_correct
+binder 4847:4847 <> l:29
+R4860:4862 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4851:4857 Stdlib.ZArith.Zcomplements <> Zlength def
+R4859:4859 Stdlib.ZArith.Zcomplements <> l:29 var
+R4863:4870 Stdlib.ZArith.BinInt Z of_nat def
+R4873:4878 Corelib.Init.Datatypes <> length def
+R4880:4880 Stdlib.ZArith.Zcomplements <> l:29 var
+binder 4916:4916 <> l:30
+binder 4918:4920 <> acc:31
+R4942:4944 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4923:4933 Stdlib.ZArith.Zcomplements <> Zlength_aux def
+R4935:4937 Stdlib.ZArith.Zcomplements <> acc:31 var
+R4939:4939 Stdlib.ZArith.Zcomplements <> Zlength_properties.A var
+R4941:4941 Stdlib.ZArith.Zcomplements <> l:30 var
+R4948:4950 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4945:4947 Stdlib.ZArith.Zcomplements <> acc:31 var
+R4951:4958 Stdlib.ZArith.BinInt Z of_nat def
+R4961:4966 Corelib.Init.Datatypes <> length def
+R4968:4968 Stdlib.ZArith.Zcomplements <> l:30 var
+binder 4916:4916 <> l:32
+binder 4918:4920 <> acc:33
+R4935:4937 Stdlib.ZArith.Zcomplements <> acc:33 var
+R4941:4941 Stdlib.ZArith.Zcomplements <> l:32 var
+R4945:4947 Stdlib.ZArith.Zcomplements <> acc:33 var
+R4968:4968 Stdlib.ZArith.Zcomplements <> l:32 var
+R5044:5052 Stdlib.ZArith.BinInt Z add_0_r thm
+R5077:5082 Corelib.Init.Datatypes <> length def
+R5091:5101 Stdlib.ZArith.Zcomplements <> Zlength_aux def
+R5125:5143 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+R5146:5160 Stdlib.ZArith.BinInt Z add_succ_comm thm
+R5182:5188 Stdlib.ZArith.Zcomplements <> Zlength def
+prf 5222:5232 <> Zlength_nil
+R5254:5256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5236:5242 Stdlib.ZArith.Zcomplements <> Zlength def
+R5251:5253 Corelib.Init.Datatypes <> nil constr
+R5248:5248 Stdlib.ZArith.Zcomplements <> Zlength_properties.A var
+prf 5296:5307 <> Zlength_cons
+R5312:5312 Stdlib.ZArith.Zcomplements <> Zlength_properties.A var
+binder 5310:5310 <> x:34
+binder 5315:5315 <> l:35
+R5335:5337 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5319:5325 Stdlib.ZArith.Zcomplements <> Zlength def
+R5329:5332 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5328:5328 Stdlib.ZArith.Zcomplements <> x:34 var
+R5333:5333 Stdlib.ZArith.Zcomplements <> l:35 var
+R5338:5343 Stdlib.ZArith.BinInt Z succ def
+R5346:5352 Stdlib.ZArith.Zcomplements <> Zlength def
+R5354:5354 Stdlib.ZArith.Zcomplements <> l:35 var
+R5392:5406 Stdlib.ZArith.Zcomplements <> Zlength_correct thm
+R5412:5425 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+prf 5444:5458 <> Zlength_nil_inv
+binder 5460:5460 <> l:36
+R5477:5480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5473:5475 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5464:5470 Stdlib.ZArith.Zcomplements <> Zlength def
+R5472:5472 Stdlib.ZArith.Zcomplements <> l:36 var
+R5482:5484 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5481:5481 Stdlib.ZArith.Zcomplements <> l:36 var
+R5485:5487 Corelib.Init.Datatypes <> nil constr
+R5511:5525 Stdlib.ZArith.Zcomplements <> Zlength_correct thm
+R5579:5589 Stdlib.ZArith.Znat Nat2Z inj_0 thm
+R5592:5604 Stdlib.ZArith.Znat Nat2Z inj_iff thm
+R5619:5636 Stdlib.ZArith.Zcomplements Zlength_properties <> sec
+R5650:5664 Stdlib.ZArith.Zcomplements <> Zlength_correct thm
+R5683:5694 Stdlib.ZArith.Zcomplements <> Zlength_cons thm
+R5715:5729 Stdlib.ZArith.Zcomplements <> Zlength_nil_inv thm

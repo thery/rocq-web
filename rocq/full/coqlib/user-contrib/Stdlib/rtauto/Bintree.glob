@@ -1,0 +1,778 @@
+DIGEST 4ba6945f7f16250132fb81ce7560b651
+FStdlib.rtauto.Bintree
+R830:833 Stdlib.Lists.List <> <> lib
+R863:868 Stdlib.PArith.BinPos <> <> lib
+prf 946:953 <> Gt_Psucc
+binder 963:963 <> p:1
+binder 965:965 <> q:2
+R997:1000 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R975:975 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R991:994 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R977:980 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R976:976 Stdlib.rtauto.Bintree <> p:1 var
+R981:988 Stdlib.PArith.BinPos Pos succ def
+R990:990 Stdlib.rtauto.Bintree <> q:2 var
+R995:996 Corelib.Init.Datatypes <> Gt constr
+R1001:1001 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1008:1011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1003:1006 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R1002:1002 Stdlib.rtauto.Bintree <> p:1 var
+R1007:1007 Stdlib.rtauto.Bintree <> q:2 var
+R1012:1013 Corelib.Init.Datatypes <> Gt constr
+R1042:1062 Stdlib.PArith.BinPos Pos compare_succ_succ thm
+R1075:1083 Stdlib.PArith.BinPos Pos lt_gt thm
+R1086:1099 Stdlib.PArith.BinPos Pos lt_lt_succ thm
+R1102:1110 Stdlib.PArith.BinPos Pos gt_lt thm
+prf 1125:1132 <> Psucc_Gt
+binder 1143:1143 <> p:3
+R1153:1153 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1169:1172 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1164:1167 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R1154:1161 Stdlib.PArith.BinPos Pos succ def
+R1163:1163 Stdlib.rtauto.Bintree <> p:3 var
+R1168:1168 Stdlib.rtauto.Bintree <> p:3 var
+R1173:1174 Corelib.Init.Datatypes <> Gt constr
+R1198:1206 Stdlib.PArith.BinPos Pos lt_gt thm
+R1209:1226 Stdlib.PArith.BinPos Pos lt_succ_diag_r thm
+def 1244:1247 <> Lget
+binder 1250:1250 <> A:4
+R1260:1262 Corelib.Init.Datatypes <> nat ind
+binder 1258:1258 <> n:5
+R1268:1271 Corelib.Init.Datatypes <> list ind
+R1273:1273 Stdlib.rtauto.Bintree <> A:4 var
+binder 1266:1266 <> l:6
+R1287:1292 Corelib.Init.Datatypes <> option ind
+R1294:1294 Stdlib.rtauto.Bintree <> A:4 var
+R1305:1305 Stdlib.rtauto.Bintree <> l:6 var
+R1312:1314 Corelib.Init.Datatypes <> nil constr
+R1319:1322 Corelib.Init.Datatypes <> None constr
+R1327:1328 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1340:1340 Stdlib.rtauto.Bintree <> n:5 var
+R1347:1347 Corelib.Init.Datatypes <> O constr
+R1352:1355 Corelib.Init.Datatypes <> Some constr
+R1361:1361 Corelib.Init.Datatypes <> S constr
+R1368:1371 Stdlib.rtauto.Bintree <> Lget:7 def
+R1373:1373 Stdlib.rtauto.Bintree <> A:4 var
+R1400:1403 Stdlib.rtauto.Bintree <> Lget def
+prf 1421:1427 <> map_app
+binder 1439:1439 <> A:10
+binder 1441:1441 <> B:11
+R1452:1455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1451:1451 Stdlib.rtauto.Bintree <> A:10 var
+R1456:1456 Stdlib.rtauto.Bintree <> B:11 var
+binder 1449:1449 <> f:12
+binder 1459:1459 <> l:13
+binder 1461:1461 <> m:14
+R1484:1486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1464:1471 Stdlib.Lists.List <> map abbrev
+R1478:1481 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1477:1477 Stdlib.rtauto.Bintree <> l:13 var
+R1482:1482 Stdlib.rtauto.Bintree <> m:14 var
+R1474:1474 Stdlib.rtauto.Bintree <> f:12 var
+R1501:1504 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1487:1494 Stdlib.Lists.List <> map abbrev
+R1500:1500 Stdlib.rtauto.Bintree <> l:13 var
+R1497:1497 Stdlib.rtauto.Bintree <> f:12 var
+R1505:1512 Stdlib.Lists.List <> map abbrev
+R1518:1518 Stdlib.rtauto.Bintree <> m:14 var
+R1515:1515 Stdlib.rtauto.Bintree <> f:12 var
+R1583:1589 Corelib.Init.Logic <> f_equal thm
+prf 1614:1623 <> length_map
+binder 1635:1635 <> A:15
+binder 1637:1637 <> B:16
+R1648:1651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1647:1647 Stdlib.rtauto.Bintree <> A:15 var
+R1652:1652 Stdlib.rtauto.Bintree <> B:16 var
+binder 1645:1645 <> f:17
+binder 1655:1655 <> l:18
+R1680:1682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1658:1663 Corelib.Init.Datatypes <> length def
+R1666:1673 Stdlib.Lists.List <> map abbrev
+R1678:1678 Stdlib.rtauto.Bintree <> l:18 var
+R1676:1676 Stdlib.rtauto.Bintree <> f:17 var
+R1683:1688 Corelib.Init.Datatypes <> length def
+R1690:1690 Stdlib.rtauto.Bintree <> l:18 var
+R1743:1749 Corelib.Init.Logic <> f_equal thm
+prf 1774:1781 <> Lget_map
+binder 1793:1793 <> A:19
+binder 1795:1795 <> B:20
+R1806:1809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1805:1805 Stdlib.rtauto.Bintree <> A:19 var
+R1810:1810 Stdlib.rtauto.Bintree <> B:20 var
+binder 1803:1803 <> f:21
+binder 1813:1813 <> i:22
+binder 1815:1815 <> l:23
+R1840:1842 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1818:1821 Stdlib.rtauto.Bintree <> Lget def
+R1826:1833 Stdlib.Lists.List <> map abbrev
+R1838:1838 Stdlib.rtauto.Bintree <> l:23 var
+R1836:1836 Stdlib.rtauto.Bintree <> f:21 var
+R1823:1823 Stdlib.rtauto.Bintree <> i:22 var
+R1849:1852 Stdlib.rtauto.Bintree <> Lget def
+R1856:1856 Stdlib.rtauto.Bintree <> l:23 var
+R1854:1854 Stdlib.rtauto.Bintree <> i:22 var
+R1863:1866 Corelib.Init.Datatypes <> Some constr
+R1873:1876 Corelib.Init.Datatypes <> Some constr
+R1879:1879 Stdlib.rtauto.Bintree <> f:21 var
+R1886:1889 Corelib.Init.Datatypes <> None constr
+R1894:1897 Corelib.Init.Datatypes <> None constr
+prf 1974:1981 <> Lget_app
+binder 1993:1993 <> A:24
+R2003:2003 Stdlib.rtauto.Bintree <> A:24 var
+binder 2001:2001 <> a:25
+binder 2006:2006 <> l:26
+binder 2008:2008 <> i:27
+R2033:2035 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2011:2014 Stdlib.rtauto.Bintree <> Lget def
+R2020:2023 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2019:2019 Stdlib.rtauto.Bintree <> l:26 var
+R2025:2028 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2024:2024 Stdlib.rtauto.Bintree <> a:25 var
+R2029:2031 Corelib.Init.Datatypes <> nil constr
+R2016:2016 Stdlib.rtauto.Bintree <> i:27 var
+R2039:2045 Corelib.Init.Nat <> eqb def
+R2047:2047 Stdlib.rtauto.Bintree <> i:27 var
+R2050:2055 Corelib.Init.Datatypes <> length def
+R2057:2057 Stdlib.rtauto.Bintree <> l:26 var
+R2077:2080 Stdlib.rtauto.Bintree <> Lget def
+R2084:2084 Stdlib.rtauto.Bintree <> l:26 var
+R2082:2082 Stdlib.rtauto.Bintree <> i:27 var
+R2065:2068 Corelib.Init.Datatypes <> Some constr
+R2070:2070 Stdlib.rtauto.Bintree <> a:25 var
+R2112:2115 Stdlib.rtauto.Bintree <> Lget def
+R2123:2128 Corelib.Init.Datatypes <> length def
+prf 2228:2240 <> Lget_app_Some
+binder 2252:2252 <> A:28
+binder 2259:2259 <> l:29
+binder 2261:2265 <> delta:30
+binder 2267:2267 <> i:31
+R2273:2273 Stdlib.rtauto.Bintree <> A:28 var
+binder 2270:2270 <> a:32
+R2294:2297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2285:2287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2277:2280 Stdlib.rtauto.Bintree <> Lget def
+R2284:2284 Stdlib.rtauto.Bintree <> l:29 var
+R2282:2282 Stdlib.rtauto.Bintree <> i:31 var
+R2288:2291 Corelib.Init.Datatypes <> Some constr
+R2293:2293 Stdlib.rtauto.Bintree <> a:32 var
+R2317:2319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2298:2301 Stdlib.rtauto.Bintree <> Lget def
+R2307:2310 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2306:2306 Stdlib.rtauto.Bintree <> l:29 var
+R2311:2315 Stdlib.rtauto.Bintree <> delta:30 var
+R2303:2303 Stdlib.rtauto.Bintree <> i:31 var
+R2320:2323 Corelib.Init.Datatypes <> Some constr
+R2325:2325 Stdlib.rtauto.Bintree <> a:32 var
+ind 2401:2407 <> Poption
+constr 2424:2428 <> PSome
+constr 2447:2451 <> PNone
+binder 2410:2410 <> A:33
+R2433:2436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2432:2432 Stdlib.rtauto.Bintree <> A:33 var
+R2437:2443 Stdlib.rtauto.Bintree <> Poption:34 ind
+R2455:2461 Stdlib.rtauto.Bintree <> Poption:34 ind
+scheme 2401:2407 <> Poption_rect
+scheme 2401:2407 <> Poption_ind
+scheme 2401:2407 <> Poption_rec
+scheme 2401:2407 <> Poption_sind
+R2474:2480 Stdlib.rtauto.Bintree <> Poption ind
+ind 2512:2515 <> Tree
+constr 2534:2539 <> Tempty
+constr 2551:2557 <> Branch0
+constr 2585:2591 <> Branch1
+binder 2518:2518 <> A:36
+R2543:2546 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2565:2568 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2561:2564 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2573:2576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2569:2572 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2577:2580 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2596:2599 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2595:2595 Stdlib.rtauto.Bintree <> A:36 var
+R2604:2607 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2600:2603 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2612:2615 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2608:2611 Stdlib.rtauto.Bintree <> Tree:37 ind
+R2616:2619 Stdlib.rtauto.Bintree <> Tree:37 ind
+scheme 2512:2515 <> Tree_rect
+scheme 2512:2515 <> Tree_ind
+scheme 2512:2515 <> Tree_rec
+scheme 2512:2515 <> Tree_sind
+R2632:2635 Stdlib.rtauto.Bintree <> Tree ind
+sec 2665:2669 <> Store
+var 2682:2682 Store A
+abbrev 2700:2706 <> Poption
+R2712:2718 Stdlib.rtauto.Bintree <> Poption ind
+R2720:2720 Stdlib.rtauto.Bintree <> Store.A var
+abbrev 2733:2736 <> Tree
+R2742:2745 Stdlib.rtauto.Bintree <> Tree ind
+R2747:2747 Stdlib.rtauto.Bintree <> Store.A var
+def 2762:2765 <> Tget
+R2770:2777 Corelib.Numbers.BinNums <> positive ind
+binder 2768:2768 <> p:41
+R2783:2786 Stdlib.rtauto.Bintree <> Tree abbrev
+binder 2781:2781 <> T:42
+R2802:2808 Stdlib.rtauto.Bintree <> Poption abbrev
+R2821:2821 Stdlib.rtauto.Bintree <> T:42 var
+R2832:2837 Stdlib.rtauto.Bintree <> Tempty constr
+R2842:2846 Stdlib.rtauto.Bintree <> PNone constr
+R2852:2858 Stdlib.rtauto.Bintree <> Branch0 constr
+R2879:2879 Stdlib.rtauto.Bintree <> p:41 var
+R2892:2893 Corelib.Numbers.BinNums <> xI constr
+R2901:2904 Stdlib.rtauto.Bintree <> Tget:43 def
+R2918:2919 Corelib.Numbers.BinNums <> xO constr
+R2927:2930 Stdlib.rtauto.Bintree <> Tget:43 def
+R2944:2945 Corelib.Numbers.BinNums <> xH constr
+R2950:2954 Stdlib.rtauto.Bintree <> PNone constr
+R2968:2974 Stdlib.rtauto.Bintree <> Branch1 constr
+R2997:2997 Stdlib.rtauto.Bintree <> p:41 var
+R3010:3011 Corelib.Numbers.BinNums <> xI constr
+R3019:3022 Stdlib.rtauto.Bintree <> Tget:43 def
+R3036:3037 Corelib.Numbers.BinNums <> xO constr
+R3045:3048 Stdlib.rtauto.Bintree <> Tget:43 def
+R3062:3063 Corelib.Numbers.BinNums <> xH constr
+R3068:3072 Stdlib.rtauto.Bintree <> PSome constr
+def 3099:3102 <> Tadd
+R3107:3114 Corelib.Numbers.BinNums <> positive ind
+binder 3105:3105 <> p:47
+R3120:3120 Stdlib.rtauto.Bintree <> Store.A var
+binder 3118:3118 <> a:48
+R3126:3129 Stdlib.rtauto.Bintree <> Tree abbrev
+binder 3124:3124 <> T:49
+R3144:3147 Stdlib.rtauto.Bintree <> Tree abbrev
+R3159:3159 Stdlib.rtauto.Bintree <> T:49 var
+R3171:3176 Stdlib.rtauto.Bintree <> Tempty constr
+R3194:3194 Stdlib.rtauto.Bintree <> p:47 var
+R3210:3211 Corelib.Numbers.BinNums <> xI constr
+R3219:3225 Stdlib.rtauto.Bintree <> Branch0 constr
+R3235:3238 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3245:3250 Stdlib.rtauto.Bintree <> Tempty constr
+R3243:3243 Stdlib.rtauto.Bintree <> a:48 var
+R3227:3232 Stdlib.rtauto.Bintree <> Tempty constr
+R3262:3263 Corelib.Numbers.BinNums <> xO constr
+R3271:3277 Stdlib.rtauto.Bintree <> Branch0 constr
+R3298:3303 Stdlib.rtauto.Bintree <> Tempty constr
+R3280:3283 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3290:3295 Stdlib.rtauto.Bintree <> Tempty constr
+R3288:3288 Stdlib.rtauto.Bintree <> a:48 var
+R3314:3315 Corelib.Numbers.BinNums <> xH constr
+R3320:3326 Stdlib.rtauto.Bintree <> Branch1 constr
+R3337:3342 Stdlib.rtauto.Bintree <> Tempty constr
+R3330:3335 Stdlib.rtauto.Bintree <> Tempty constr
+R3328:3328 Stdlib.rtauto.Bintree <> a:48 var
+R3360:3366 Stdlib.rtauto.Bintree <> Branch0 constr
+R3390:3390 Stdlib.rtauto.Bintree <> p:47 var
+R3406:3407 Corelib.Numbers.BinNums <> xI constr
+R3415:3421 Stdlib.rtauto.Bintree <> Branch0 constr
+R3427:3430 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3435:3435 Stdlib.rtauto.Bintree <> a:48 var
+R3450:3451 Corelib.Numbers.BinNums <> xO constr
+R3459:3465 Stdlib.rtauto.Bintree <> Branch0 constr
+R3468:3471 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3476:3476 Stdlib.rtauto.Bintree <> a:48 var
+R3494:3495 Corelib.Numbers.BinNums <> xH constr
+R3500:3506 Stdlib.rtauto.Bintree <> Branch1 constr
+R3508:3508 Stdlib.rtauto.Bintree <> a:48 var
+R3532:3538 Stdlib.rtauto.Bintree <> Branch1 constr
+R3564:3564 Stdlib.rtauto.Bintree <> p:47 var
+R3580:3581 Corelib.Numbers.BinNums <> xI constr
+R3589:3595 Stdlib.rtauto.Bintree <> Branch1 constr
+R3603:3606 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3611:3611 Stdlib.rtauto.Bintree <> a:48 var
+R3626:3627 Corelib.Numbers.BinNums <> xO constr
+R3635:3641 Stdlib.rtauto.Bintree <> Branch1 constr
+R3646:3649 Stdlib.rtauto.Bintree <> Tadd:50 def
+R3654:3654 Stdlib.rtauto.Bintree <> a:48 var
+R3672:3673 Corelib.Numbers.BinNums <> xH constr
+R3678:3684 Stdlib.rtauto.Bintree <> Branch1 constr
+R3686:3686 Stdlib.rtauto.Bintree <> a:48 var
+def 3725:3733 <> mkBranch0
+R3742:3745 Stdlib.rtauto.Bintree <> Tree abbrev
+binder 3736:3737 <> T1:55
+binder 3739:3740 <> T2:56
+R3762:3763 Stdlib.rtauto.Bintree <> T2:56 var
+R3759:3760 Stdlib.rtauto.Bintree <> T1:55 var
+R3774:3779 Stdlib.rtauto.Bintree <> Tempty constr
+R3782:3787 Stdlib.rtauto.Bintree <> Tempty constr
+R3792:3797 Stdlib.rtauto.Bintree <> Tempty constr
+R3810:3816 Stdlib.rtauto.Bintree <> Branch0 constr
+R3821:3822 Stdlib.rtauto.Bintree <> T2:56 var
+R3818:3819 Stdlib.rtauto.Bintree <> T1:55 var
+def 3841:3847 <> Tremove
+R3852:3859 Corelib.Numbers.BinNums <> positive ind
+binder 3850:3850 <> p:59
+R3865:3868 Stdlib.rtauto.Bintree <> Tree abbrev
+binder 3863:3863 <> T:60
+R3883:3886 Stdlib.rtauto.Bintree <> Tree abbrev
+R3900:3900 Stdlib.rtauto.Bintree <> T:60 var
+R3915:3920 Stdlib.rtauto.Bintree <> Tempty constr
+R3925:3930 Stdlib.rtauto.Bintree <> Tempty constr
+R3940:3946 Stdlib.rtauto.Bintree <> Branch0 constr
+R3971:3971 Stdlib.rtauto.Bintree <> p:59 var
+R3988:3989 Corelib.Numbers.BinNums <> xI constr
+R3997:4005 Stdlib.rtauto.Bintree <> mkBranch0 def
+R4011:4017 Stdlib.rtauto.Bintree <> Tremove:61 def
+R4036:4037 Corelib.Numbers.BinNums <> xO constr
+R4045:4053 Stdlib.rtauto.Bintree <> mkBranch0 def
+R4056:4062 Stdlib.rtauto.Bintree <> Tremove:61 def
+R4084:4085 Corelib.Numbers.BinNums <> xH constr
+R4090:4090 Stdlib.rtauto.Bintree <> T:60 var
+R4112:4118 Stdlib.rtauto.Bintree <> Branch1 constr
+R4145:4145 Stdlib.rtauto.Bintree <> p:59 var
+R4162:4163 Corelib.Numbers.BinNums <> xI constr
+R4171:4177 Stdlib.rtauto.Bintree <> Branch1 constr
+R4185:4191 Stdlib.rtauto.Bintree <> Tremove:61 def
+R4210:4211 Corelib.Numbers.BinNums <> xO constr
+R4219:4225 Stdlib.rtauto.Bintree <> Branch1 constr
+R4230:4236 Stdlib.rtauto.Bintree <> Tremove:61 def
+R4258:4259 Corelib.Numbers.BinNums <> xH constr
+R4264:4272 Stdlib.rtauto.Bintree <> mkBranch0 def
+prf 4313:4323 <> Tget_Tempty
+R4338:4345 Corelib.Numbers.BinNums <> positive ind
+binder 4334:4334 <> p:65
+R4364:4366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4349:4352 Stdlib.rtauto.Bintree <> Tget def
+R4354:4354 Stdlib.rtauto.Bintree <> p:65 var
+R4357:4362 Stdlib.rtauto.Bintree <> Tempty constr
+R4367:4371 Stdlib.rtauto.Bintree <> PNone constr
+prf 4419:4427 <> Tget_Tadd
+binder 4437:4437 <> i:66
+binder 4439:4439 <> j:67
+binder 4441:4441 <> a:68
+binder 4443:4443 <> T:69
+R4472:4481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4453:4456 Stdlib.rtauto.Bintree <> Tget def
+R4458:4458 Stdlib.rtauto.Bintree <> i:66 var
+R4461:4464 Stdlib.rtauto.Bintree <> Tadd def
+R4466:4466 Stdlib.rtauto.Bintree <> j:67 var
+R4468:4468 Stdlib.rtauto.Bintree <> a:68 var
+R4470:4470 Stdlib.rtauto.Bintree <> T:69 var
+R4490:4493 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R4489:4489 Stdlib.rtauto.Bintree <> i:66 var
+R4494:4494 Stdlib.rtauto.Bintree <> j:67 var
+R4511:4512 Corelib.Init.Datatypes <> Eq constr
+R4517:4521 Stdlib.rtauto.Bintree <> PSome constr
+R4523:4523 Stdlib.rtauto.Bintree <> a:68 var
+R4534:4535 Corelib.Init.Datatypes <> Lt constr
+R4540:4543 Stdlib.rtauto.Bintree <> Tget def
+R4545:4545 Stdlib.rtauto.Bintree <> i:66 var
+R4547:4547 Stdlib.rtauto.Bintree <> T:69 var
+R4558:4559 Corelib.Init.Datatypes <> Gt constr
+R4564:4567 Stdlib.rtauto.Bintree <> Tget def
+R4569:4569 Stdlib.rtauto.Bintree <> i:66 var
+R4571:4571 Stdlib.rtauto.Bintree <> T:69 var
+R4614:4617 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R4641:4654 Stdlib.PArith.BinPos Pos compare_eq thm
+R4751:4761 Stdlib.PArith.BinPos Pos compare def
+R4937:4947 Stdlib.PArith.BinPos Pos compare def
+rec 5127:5131 <> Store
+proj 5153:5157 <> index
+proj 5168:5175 <> contents
+R5159:5166 Corelib.Numbers.BinNums <> positive ind
+R5177:5180 Stdlib.rtauto.Bintree <> Tree abbrev
+def 5196:5200 <> empty
+R5205:5211 Stdlib.rtauto.Bintree <> mkStore constr
+R5213:5214 Corelib.Numbers.BinNums <> xH constr
+R5216:5221 Stdlib.rtauto.Bintree <> Tempty constr
+def 5236:5239 <> push
+binder 5241:5241 <> a:73
+binder 5244:5244 <> S:74
+R5249:5255 Stdlib.rtauto.Bintree <> mkStore constr
+R5258:5265 Stdlib.PArith.BinPos Pos succ def
+R5268:5272 Stdlib.rtauto.Bintree <> index proj
+R5274:5274 Stdlib.rtauto.Bintree <> S:74 var
+R5279:5282 Stdlib.rtauto.Bintree <> Tadd def
+R5285:5289 Stdlib.rtauto.Bintree <> index proj
+R5291:5291 Stdlib.rtauto.Bintree <> S:74 var
+R5294:5294 Stdlib.rtauto.Bintree <> a:73 var
+R5297:5304 Stdlib.rtauto.Bintree <> contents proj
+R5306:5306 Stdlib.rtauto.Bintree <> S:74 var
+def 5323:5325 <> get
+binder 5327:5327 <> i:75
+binder 5329:5329 <> S:76
+R5334:5337 Stdlib.rtauto.Bintree <> Tget def
+R5339:5339 Stdlib.rtauto.Bintree <> i:75 var
+R5342:5349 Stdlib.rtauto.Bintree <> contents proj
+R5351:5351 Stdlib.rtauto.Bintree <> S:76 var
+prf 5362:5370 <> get_empty
+binder 5381:5381 <> i:77
+R5395:5397 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5384:5386 Stdlib.rtauto.Bintree <> get def
+R5388:5388 Stdlib.rtauto.Bintree <> i:77 var
+R5390:5394 Stdlib.rtauto.Bintree <> empty def
+R5398:5402 Stdlib.rtauto.Bintree <> PNone constr
+R5436:5440 Stdlib.rtauto.Bintree <> empty def
+R5442:5444 Stdlib.rtauto.Bintree <> get def
+ind 5482:5485 <> Full
+constr 5509:5515 <> F_empty
+constr 5534:5539 <> F_push
+R5494:5497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5489:5493 Stdlib.rtauto.Bintree <> Store rec
+R5519:5522 Stdlib.rtauto.Bintree <> Full:78 ind
+R5524:5528 Stdlib.rtauto.Bintree <> empty def
+binder 5550:5550 <> a:80
+binder 5552:5552 <> S:81
+R5561:5564 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5555:5558 Stdlib.rtauto.Bintree <> Full:78 ind
+R5560:5560 Stdlib.rtauto.Bintree <> S:81 var
+R5565:5568 Stdlib.rtauto.Bintree <> Full:78 ind
+R5571:5574 Stdlib.rtauto.Bintree <> push def
+R5576:5576 Stdlib.rtauto.Bintree <> a:80 var
+R5578:5578 Stdlib.rtauto.Bintree <> S:81 var
+scheme 5482:5485 <> Full_rect
+scheme 5482:5485 <> Full_ind
+scheme 5482:5485 <> Full_rec
+scheme 5482:5485 <> Full_sind
+prf 5591:5601 <> get_Full_Gt
+binder 5612:5612 <> S:82
+R5621:5631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5615:5618 Stdlib.rtauto.Bintree <> Full ind
+R5620:5620 Stdlib.rtauto.Bintree <> S:82 var
+binder 5639:5639 <> i:83
+R5661:5664 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5642:5642 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5655:5658 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5644:5647 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R5643:5643 Stdlib.rtauto.Bintree <> i:83 var
+R5648:5652 Stdlib.rtauto.Bintree <> index proj
+R5654:5654 Stdlib.rtauto.Bintree <> S:82 var
+R5659:5660 Corelib.Init.Datatypes <> Gt constr
+R5672:5674 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5667 Stdlib.rtauto.Bintree <> get def
+R5669:5669 Stdlib.rtauto.Bintree <> i:83 var
+R5671:5671 Stdlib.rtauto.Bintree <> S:82 var
+R5675:5679 Stdlib.rtauto.Bintree <> PNone constr
+R5722:5726 Stdlib.rtauto.Bintree <> empty def
+R5728:5732 Stdlib.rtauto.Bintree <> index proj
+R5734:5736 Stdlib.rtauto.Bintree <> get def
+R5738:5745 Stdlib.rtauto.Bintree <> contents proj
+R5760:5770 Stdlib.rtauto.Bintree <> Tget_Tempty thm
+R5782:5786 Stdlib.rtauto.Bintree <> index proj
+R5788:5790 Stdlib.rtauto.Bintree <> get def
+R5792:5795 Stdlib.rtauto.Bintree <> push def
+R5805:5812 Stdlib.rtauto.Bintree <> contents proj
+R5836:5844 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R5858:5865 Stdlib.rtauto.Bintree <> Gt_Psucc thm
+R5884:5886 Stdlib.rtauto.Bintree <> get def
+R5914:5921 Stdlib.rtauto.Bintree <> Gt_Psucc thm
+prf 5949:5959 <> get_Full_Eq
+binder 5970:5970 <> S:84
+R5979:5982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5973:5976 Stdlib.rtauto.Bintree <> Full ind
+R5978:5978 Stdlib.rtauto.Bintree <> S:84 var
+R5998:6000 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5983:5985 Stdlib.rtauto.Bintree <> get def
+R5988:5992 Stdlib.rtauto.Bintree <> index proj
+R5994:5994 Stdlib.rtauto.Bintree <> S:84 var
+R5997:5997 Stdlib.rtauto.Bintree <> S:84 var
+R6001:6005 Stdlib.rtauto.Bintree <> PNone constr
+R6061:6065 Stdlib.rtauto.Bintree <> empty def
+R6067:6071 Stdlib.rtauto.Bintree <> index proj
+R6073:6075 Stdlib.rtauto.Bintree <> get def
+R6077:6084 Stdlib.rtauto.Bintree <> contents proj
+R6099:6109 Stdlib.rtauto.Bintree <> Tget_Tempty thm
+R6121:6124 Stdlib.rtauto.Bintree <> push def
+R6126:6130 Stdlib.rtauto.Bintree <> index proj
+R6132:6134 Stdlib.rtauto.Bintree <> get def
+R6143:6150 Stdlib.rtauto.Bintree <> contents proj
+R6177:6185 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R6198:6205 Stdlib.rtauto.Bintree <> Psucc_Gt thm
+R6255:6256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6229:6231 Stdlib.rtauto.Bintree <> get def
+R6234:6241 Stdlib.PArith.BinPos Pos succ def
+R6244:6248 Stdlib.rtauto.Bintree <> index proj
+R6257:6261 Stdlib.rtauto.Bintree <> PNone constr
+R6273:6283 Stdlib.rtauto.Bintree <> get_Full_Gt thm
+R6300:6307 Stdlib.rtauto.Bintree <> Psucc_Gt thm
+prf 6324:6336 <> get_push_Full
+binder 6349:6349 <> i:85
+binder 6351:6351 <> a:86
+binder 6353:6353 <> S:87
+R6362:6367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6356:6359 Stdlib.rtauto.Bintree <> Full ind
+R6361:6361 Stdlib.rtauto.Bintree <> S:87 var
+R6384:6388 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6368:6370 Stdlib.rtauto.Bintree <> get def
+R6372:6372 Stdlib.rtauto.Bintree <> i:85 var
+R6375:6378 Stdlib.rtauto.Bintree <> push def
+R6380:6380 Stdlib.rtauto.Bintree <> a:86 var
+R6382:6382 Stdlib.rtauto.Bintree <> S:87 var
+R6397:6400 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6396:6396 Stdlib.rtauto.Bintree <> i:85 var
+R6401:6405 Stdlib.rtauto.Bintree <> index proj
+R6407:6407 Stdlib.rtauto.Bintree <> S:87 var
+R6419:6420 Corelib.Init.Datatypes <> Eq constr
+R6425:6429 Stdlib.rtauto.Bintree <> PSome constr
+R6431:6431 Stdlib.rtauto.Bintree <> a:86 var
+R6437:6438 Corelib.Init.Datatypes <> Lt constr
+R6443:6445 Stdlib.rtauto.Bintree <> get def
+R6447:6447 Stdlib.rtauto.Bintree <> i:85 var
+R6449:6449 Stdlib.rtauto.Bintree <> S:87 var
+R6455:6456 Corelib.Init.Datatypes <> Gt constr
+R6461:6465 Stdlib.rtauto.Bintree <> PNone constr
+R6505:6508 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6509:6513 Stdlib.rtauto.Bintree <> index proj
+R6538:6551 Stdlib.PArith.BinPos Pos compare_eq thm
+R6581:6583 Stdlib.rtauto.Bintree <> get def
+R6585:6588 Stdlib.rtauto.Bintree <> push def
+R6590:6594 Stdlib.rtauto.Bintree <> index proj
+R6603:6610 Stdlib.rtauto.Bintree <> contents proj
+R6620:6628 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R6641:6656 Stdlib.PArith.BinPos Pos compare_refl thm
+R6698:6700 Stdlib.rtauto.Bintree <> get def
+R6702:6705 Stdlib.rtauto.Bintree <> push def
+R6707:6711 Stdlib.rtauto.Bintree <> index proj
+R6720:6727 Stdlib.rtauto.Bintree <> contents proj
+R6737:6745 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R6757:6761 Stdlib.rtauto.Bintree <> index proj
+R6832:6834 Stdlib.rtauto.Bintree <> get def
+R6836:6839 Stdlib.rtauto.Bintree <> push def
+R6858:6866 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R6904:6904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6897:6899 Stdlib.rtauto.Bintree <> get def
+R6905:6909 Stdlib.rtauto.Bintree <> PNone constr
+R6921:6931 Stdlib.rtauto.Bintree <> get_Full_Gt thm
+prf 6951:6966 <> Full_push_compat
+binder 6977:6977 <> i:88
+binder 6979:6979 <> a:89
+binder 6981:6981 <> S:90
+R6990:6993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6984:6987 Stdlib.rtauto.Bintree <> Full ind
+R6989:6989 Stdlib.rtauto.Bintree <> S:90 var
+binder 7001:7001 <> x:91
+R7021:7025 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7011:7013 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7004:7006 Stdlib.rtauto.Bintree <> get def
+R7008:7008 Stdlib.rtauto.Bintree <> i:88 var
+R7010:7010 Stdlib.rtauto.Bintree <> S:90 var
+R7014:7018 Stdlib.rtauto.Bintree <> PSome constr
+R7020:7020 Stdlib.rtauto.Bintree <> x:91 var
+R7042:7044 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7026:7028 Stdlib.rtauto.Bintree <> get def
+R7030:7030 Stdlib.rtauto.Bintree <> i:88 var
+R7033:7036 Stdlib.rtauto.Bintree <> push def
+R7038:7038 Stdlib.rtauto.Bintree <> a:89 var
+R7040:7040 Stdlib.rtauto.Bintree <> S:90 var
+R7045:7049 Stdlib.rtauto.Bintree <> PSome constr
+R7051:7051 Stdlib.rtauto.Bintree <> x:91 var
+R7091:7094 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R7095:7099 Stdlib.rtauto.Bintree <> index proj
+R7127:7140 Stdlib.PArith.BinPos Pos compare_eq thm
+R7169:7179 Stdlib.rtauto.Bintree <> get_Full_Eq thm
+R7230:7242 Stdlib.rtauto.Bintree <> get_push_Full thm
+R7307:7317 Stdlib.rtauto.Bintree <> get_Full_Gt thm
+prf 7353:7372 <> Full_index_one_empty
+binder 7383:7383 <> S:92
+R7392:7395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7386:7389 Stdlib.rtauto.Bintree <> Full ind
+R7391:7391 Stdlib.rtauto.Bintree <> S:92 var
+R7407:7410 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7403:7405 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7396:7400 Stdlib.rtauto.Bintree <> index proj
+R7402:7402 Stdlib.rtauto.Bintree <> S:92 var
+R7412:7412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7411:7411 Stdlib.rtauto.Bintree <> S:92 var
+R7413:7417 Stdlib.rtauto.Bintree <> empty def
+R7489:7493 Stdlib.rtauto.Bintree <> index proj
+R7513:7526 Stdlib.PArith.BinPos Pos succ_not_1 thm
+R7529:7533 Stdlib.rtauto.Bintree <> index proj
+prf 7566:7579 <> push_not_empty
+binder 7589:7589 <> a:93
+binder 7591:7591 <> S:94
+R7594:7594 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7603:7607 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7595:7598 Stdlib.rtauto.Bintree <> push def
+R7600:7600 Stdlib.rtauto.Bintree <> a:93 var
+R7602:7602 Stdlib.rtauto.Bintree <> S:94 var
+R7608:7612 Stdlib.rtauto.Bintree <> empty def
+R7649:7652 Stdlib.rtauto.Bintree <> push def
+R7654:7658 Stdlib.rtauto.Bintree <> empty def
+R7673:7686 Stdlib.PArith.BinPos Pos succ_not_1 thm
+def 7717:7718 <> In
+R7723:7723 Stdlib.rtauto.Bintree <> Store.A var
+binder 7721:7721 <> x:95
+R7729:7733 Stdlib.rtauto.Bintree <> Store rec
+binder 7727:7727 <> S:96
+R7739:7742 Stdlib.rtauto.Bintree <> Full ind
+R7744:7744 Stdlib.rtauto.Bintree <> S:96 var
+binder 7737:7737 <> F:97
+R7773:7773 Stdlib.rtauto.Bintree <> F:97 var
+R7780:7786 Stdlib.rtauto.Bintree <> F_empty constr
+R7791:7795 Corelib.Init.Logic <> False ind
+R7799:7804 Stdlib.rtauto.Bintree <> F_push constr
+R7820:7823 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7818:7818 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7817:7817 Stdlib.rtauto.Bintree <> x:95 var
+R7824:7825 Stdlib.rtauto.Bintree <> In:98 def
+R7827:7827 Stdlib.rtauto.Bintree <> x:95 var
+prf 7847:7852 <> get_In
+R7866:7866 Stdlib.rtauto.Bintree <> Store.A var
+binder 7864:7864 <> x:100
+R7872:7876 Stdlib.rtauto.Bintree <> Store rec
+binder 7870:7870 <> S:101
+R7882:7885 Stdlib.rtauto.Bintree <> Full ind
+R7887:7887 Stdlib.rtauto.Bintree <> S:101 var
+binder 7880:7880 <> F:102
+binder 7890:7890 <> i:103
+R7911:7914 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7901:7903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7894:7896 Stdlib.rtauto.Bintree <> get def
+R7898:7898 Stdlib.rtauto.Bintree <> i:103 var
+R7900:7900 Stdlib.rtauto.Bintree <> S:101 var
+R7904:7908 Stdlib.rtauto.Bintree <> PSome constr
+R7910:7910 Stdlib.rtauto.Bintree <> x:100 var
+R7915:7916 Stdlib.rtauto.Bintree <> In def
+R7918:7918 Stdlib.rtauto.Bintree <> x:100 var
+R7920:7920 Stdlib.rtauto.Bintree <> S:101 var
+R7922:7922 Stdlib.rtauto.Bintree <> F:102 var
+R7963:7971 Stdlib.rtauto.Bintree <> get_empty thm
+R8004:8016 Stdlib.rtauto.Bintree <> get_push_Full thm
+R8039:8042 Stdlib.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R8043:8047 Stdlib.rtauto.Bintree <> index proj
+R8123:8127 Stdlib.rtauto.Bintree Store <> sec
+R8141:8145 Stdlib.rtauto.Bintree <> PNone constr
+R8162:8166 Stdlib.rtauto.Bintree <> PSome constr
+R8186:8191 Stdlib.rtauto.Bintree <> Tempty constr
+R8208:8214 Stdlib.rtauto.Bintree <> Branch0 constr
+R8235:8241 Stdlib.rtauto.Bintree <> Branch1 constr
+R8265:8268 Stdlib.rtauto.Bintree <> Tget def
+R8289:8292 Stdlib.rtauto.Bintree <> Tadd def
+R8316:8326 Stdlib.rtauto.Bintree <> Tget_Tempty thm
+R8345:8353 Stdlib.rtauto.Bintree <> Tget_Tadd thm
+R8379:8385 Stdlib.rtauto.Bintree <> mkStore constr
+R8417:8421 Stdlib.rtauto.Bintree <> index proj
+R8440:8447 Stdlib.rtauto.Bintree <> contents proj
+R8467:8471 Stdlib.rtauto.Bintree <> empty def
+R8488:8490 Stdlib.rtauto.Bintree <> get def
+R8511:8514 Stdlib.rtauto.Bintree <> push def
+R8536:8544 Stdlib.rtauto.Bintree <> get_empty thm
+R8563:8575 Stdlib.rtauto.Bintree <> get_push_Full thm
+R8601:8604 Stdlib.rtauto.Bintree <> Full ind
+R8623:8629 Stdlib.rtauto.Bintree <> F_empty constr
+R8646:8651 Stdlib.rtauto.Bintree <> F_push constr
+R8674:8675 Stdlib.rtauto.Bintree <> In def
+sec 8776:8778 <> Map
+var 8792:8792 Map A
+var 8794:8794 Map B
+var 8811:8811 Map f
+R8815:8818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8814:8814 Stdlib.rtauto.Bintree <> Map.A var
+R8819:8819 Stdlib.rtauto.Bintree <> Map.B var
+def 8832:8835 <> Tmap
+R8841:8844 Stdlib.rtauto.Bintree <> Tree ind
+R8846:8846 Stdlib.rtauto.Bintree <> Map.A var
+binder 8838:8838 <> T:110
+R8851:8854 Stdlib.rtauto.Bintree <> Tree ind
+R8856:8856 Stdlib.rtauto.Bintree <> Map.B var
+R8867:8867 Stdlib.rtauto.Bintree <> T:110 var
+R8874:8879 Stdlib.rtauto.Bintree <> Tempty constr
+R8884:8889 Stdlib.rtauto.Bintree <> Tempty constr
+R8893:8899 Stdlib.rtauto.Bintree <> Branch0 constr
+R8910:8916 Stdlib.rtauto.Bintree <> Branch0 constr
+R8929:8932 Stdlib.rtauto.Bintree <> Tmap:111 def
+R8919:8922 Stdlib.rtauto.Bintree <> Tmap:111 def
+R8940:8946 Stdlib.rtauto.Bintree <> Branch1 constr
+R8959:8965 Stdlib.rtauto.Bintree <> Branch1 constr
+R8984:8987 Stdlib.rtauto.Bintree <> Tmap:111 def
+R8974:8977 Stdlib.rtauto.Bintree <> Tmap:111 def
+R8968:8968 Stdlib.rtauto.Bintree <> Map.f var
+prf 9005:9013 <> Tget_Tmap
+binder 9023:9023 <> T:113
+binder 9025:9025 <> i:114
+R9043:9044 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9028:9031 Stdlib.rtauto.Bintree <> Tget def
+R9036:9039 Stdlib.rtauto.Bintree <> Tmap def
+R9041:9041 Stdlib.rtauto.Bintree <> T:113 var
+R9033:9033 Stdlib.rtauto.Bintree <> i:114 var
+R9051:9054 Stdlib.rtauto.Bintree <> Tget def
+R9058:9058 Stdlib.rtauto.Bintree <> T:113 var
+R9056:9056 Stdlib.rtauto.Bintree <> i:114 var
+R9065:9069 Stdlib.rtauto.Bintree <> PNone constr
+R9074:9078 Stdlib.rtauto.Bintree <> PNone constr
+R9082:9086 Stdlib.rtauto.Bintree <> PSome constr
+R9093:9097 Stdlib.rtauto.Bintree <> PSome constr
+R9100:9100 Stdlib.rtauto.Bintree <> Map.f var
+prf 9172:9180 <> Tmap_Tadd
+binder 9190:9190 <> i:115
+binder 9192:9192 <> a:116
+binder 9194:9194 <> T:117
+R9214:9216 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9197:9200 Stdlib.rtauto.Bintree <> Tmap def
+R9203:9206 Stdlib.rtauto.Bintree <> Tadd def
+R9212:9212 Stdlib.rtauto.Bintree <> T:117 var
+R9210:9210 Stdlib.rtauto.Bintree <> a:116 var
+R9208:9208 Stdlib.rtauto.Bintree <> i:115 var
+R9217:9220 Stdlib.rtauto.Bintree <> Tadd def
+R9231:9234 Stdlib.rtauto.Bintree <> Tmap def
+R9236:9236 Stdlib.rtauto.Bintree <> T:117 var
+R9225:9225 Stdlib.rtauto.Bintree <> Map.f var
+R9227:9227 Stdlib.rtauto.Bintree <> a:116 var
+R9222:9222 Stdlib.rtauto.Bintree <> i:115 var
+def 9348:9350 <> map
+R9355:9359 Stdlib.rtauto.Bintree <> Store rec
+R9361:9361 Stdlib.rtauto.Bintree <> Map.A var
+binder 9353:9353 <> S:118
+R9366:9370 Stdlib.rtauto.Bintree <> Store rec
+R9372:9372 Stdlib.rtauto.Bintree <> Map.B var
+R9377:9383 Stdlib.rtauto.Bintree <> mkStore constr
+R9396:9399 Stdlib.rtauto.Bintree <> Tmap def
+R9402:9409 Stdlib.rtauto.Bintree <> contents proj
+R9411:9411 Stdlib.rtauto.Bintree <> S:118 var
+R9386:9390 Stdlib.rtauto.Bintree <> index proj
+R9392:9392 Stdlib.rtauto.Bintree <> S:118 var
+prf 9423:9429 <> get_map
+binder 9439:9439 <> i:119
+binder 9441:9441 <> S:120
+R9457:9458 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9444:9446 Stdlib.rtauto.Bintree <> get def
+R9451:9453 Stdlib.rtauto.Bintree <> map def
+R9455:9455 Stdlib.rtauto.Bintree <> S:120 var
+R9448:9448 Stdlib.rtauto.Bintree <> i:119 var
+R9465:9467 Stdlib.rtauto.Bintree <> get def
+R9471:9471 Stdlib.rtauto.Bintree <> S:120 var
+R9469:9469 Stdlib.rtauto.Bintree <> i:119 var
+R9478:9482 Stdlib.rtauto.Bintree <> PNone constr
+R9487:9491 Stdlib.rtauto.Bintree <> PNone constr
+R9495:9499 Stdlib.rtauto.Bintree <> PSome constr
+R9506:9510 Stdlib.rtauto.Bintree <> PSome constr
+R9513:9513 Stdlib.rtauto.Bintree <> Map.f var
+R9548:9550 Stdlib.rtauto.Bintree <> get def
+R9552:9554 Stdlib.rtauto.Bintree <> map def
+R9556:9563 Stdlib.rtauto.Bintree <> contents proj
+R9565:9569 Stdlib.rtauto.Bintree <> index proj
+R9577:9585 Stdlib.rtauto.Bintree <> Tget_Tmap thm
+prf 9604:9611 <> map_push
+binder 9621:9621 <> a:121
+binder 9623:9623 <> S:122
+R9640:9642 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9626:9628 Stdlib.rtauto.Bintree <> map def
+R9631:9634 Stdlib.rtauto.Bintree <> push def
+R9638:9638 Stdlib.rtauto.Bintree <> S:122 var
+R9636:9636 Stdlib.rtauto.Bintree <> a:121 var
+R9643:9646 Stdlib.rtauto.Bintree <> push def
+R9655:9657 Stdlib.rtauto.Bintree <> map def
+R9659:9659 Stdlib.rtauto.Bintree <> S:122 var
+R9649:9649 Stdlib.rtauto.Bintree <> Map.f var
+R9651:9651 Stdlib.rtauto.Bintree <> a:121 var
+R9697:9700 Stdlib.rtauto.Bintree <> push def
+R9702:9704 Stdlib.rtauto.Bintree <> map def
+R9706:9713 Stdlib.rtauto.Bintree <> contents proj
+R9715:9719 Stdlib.rtauto.Bintree <> index proj
+R9737:9745 Stdlib.rtauto.Bintree <> Tmap_Tadd thm
+prf 9778:9785 <> Full_map
+binder 9796:9796 <> S:123
+R9805:9808 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9799:9802 Stdlib.rtauto.Bintree <> Full ind
+R9804:9804 Stdlib.rtauto.Bintree <> S:123 var
+R9809:9812 Stdlib.rtauto.Bintree <> Full ind
+R9815:9817 Stdlib.rtauto.Bintree <> map def
+R9819:9819 Stdlib.rtauto.Bintree <> S:123 var
+R9863:9869 Stdlib.rtauto.Bintree <> F_empty constr
+R9882:9889 Stdlib.rtauto.Bintree <> map_push thm
+R9931:9933 Stdlib.rtauto.Bintree Map <> sec
+R9947:9950 Stdlib.rtauto.Bintree <> Tmap def
+R9973:9975 Stdlib.rtauto.Bintree <> map def
+R9998:10005 Stdlib.rtauto.Bintree <> Full_map thm
+R10045:10048 Stdlib.rtauto.Bintree <> push def
+not 10030:10030 <> :::x_'\'_x
+R10191:10201 Stdlib.Arith.EqNat <> <> lib

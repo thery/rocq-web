@@ -1,0 +1,74 @@
+DIGEST 8cafc3261b79120af37bec314ed190bb
+FCdcl.Itauto
+R83:94 Cdcl.Formula <> <> lib
+R112:127 Cdcl.ReifClasses <> <> lib
+R129:142 Cdcl.ZArithDec <> <> lib
+R160:162 Stdlib.micromega.Lia <> <> lib
+R181:184 Stdlib.Lists.List <> <> lib
+R202:207 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R265:276 Cdcl.Formula <> <> lib
+R294:297 Stdlib.Bool.Bool <> <> lib
+prf 307:325 <> Is_true_iff_eq_true
+binder 336:336 <> b:1
+R348:352 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R339:345 Stdlib.Bool.Bool <> Is_true def
+R347:347 Cdcl.Itauto <> b:1 var
+R354:356 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R353:353 Cdcl.Itauto <> b:1 var
+R357:360 Corelib.Init.Datatypes <> true constr
+R397:411 Stdlib.Bool.Bool <> Is_true_eq_true thm
+R436:450 Stdlib.Bool.Bool <> Is_true_eq_left thm
+prf 477:484 <> xorb_def
+binder 495:495 <> x:2
+binder 497:497 <> y:3
+R512:514 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R504:507 Corelib.Init.Datatypes <> xorb def
+R511:511 Cdcl.Itauto <> y:3 var
+R509:509 Cdcl.Itauto <> x:2 var
+R515:515 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R522:526 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R517:520 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R516:516 Cdcl.Itauto <> x:2 var
+R521:521 Cdcl.Itauto <> y:3 var
+R527:530 Corelib.Init.Datatypes <> negb def
+R533:540 Stdlib.Bool.Bool <> eqb def
+R542:542 Cdcl.Itauto <> x:2 var
+R544:544 Cdcl.Itauto <> y:3 var
+R648:654 Stdlib.Bool.Bool <> Is_true def
+R720:726 Stdlib.Bool.Bool <> Is_true def
+R746:764 Cdcl.Itauto <> Is_true_iff_eq_true thm
+R677:695 Cdcl.Itauto <> Is_true_iff_eq_true thm
+R820:822 Corelib.Init.Logic <> not def
+R847:854 Cdcl.Itauto <> xorb_def thm
+R897:903 Corelib.Init.Datatypes <> is_true def
+R974:976 Corelib.Init.Logic <> not def
+R1327:1352 Cdcl.Formula <> hcons_tauto_prover_correct thm
+R1366:1382 Cdcl.KeyInt <> nat_of_int def
+R1798:1823 Cdcl.Formula <> hcons_tauto_prover_correct thm
+R1837:1853 Cdcl.KeyInt <> nat_of_int def
+R2208:2233 Cdcl.Formula <> hcons_tauto_prover_correct thm
+R2247:2263 Cdcl.KeyInt <> nat_of_int def
+R2704:2708 Corelib.Init.Datatypes <> false constr
+rec 2818:2826 <> TheorySig
+binder 2829:2831 <> Tid:4
+binder 2840:2840 <> T:5
+R2853:2853 Cdcl.Itauto <> T:5 var
+binder 2849:2850 <> Op:6
+rec 2871:2880 <> TheoryType
+binder 2883:2885 <> Tid:8
+binder 2894:2894 <> T:9
+mod 3052:3056 <> Redef
+R3260:3263 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3264:3268 Corelib.Init.Logic <> False ind
+R3274:3278 Corelib.Init.Logic <> False ind
+R3645:3649 Cdcl.Itauto Redef <> mod
+mod 3660:3664 <> Bench
+prf 3676:3681 Bench double
+binder 3693:3693 <> P:11
+R3703:3706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3702:3702 Cdcl.Itauto <> P:11 var
+R3708:3711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3707:3707 Cdcl.Itauto <> P:11 var
+R3712:3712 Cdcl.Itauto <> P:11 var
+R3807:3812 Cdcl.Itauto Bench double thm
+R3934:3938 Cdcl.Itauto Bench <> mod

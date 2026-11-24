@@ -1,0 +1,54 @@
+DIGEST 9160f8934fbfd3360da7a83218ef8f29
+FStdlib.Wellfounded.Transitive_Closure
+R732:751 Stdlib.Relations.Relation_Definitions <> <> lib
+R781:798 Stdlib.Relations.Relation_Operators <> <> lib
+sec 810:830 <> Wf_Transitive_Closure
+var 844:844 Wf_Transitive_Closure A
+var 865:865 Wf_Transitive_Closure R
+R869:876 Corelib.Relations.Relation_Definitions <> relation def
+R878:878 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+abbrev 893:902 <> trans_clos
+R908:917 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R921:921 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R919:919 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+prf 934:948 <> incl_clos_trans
+R952:960 Corelib.Relations.Relation_Definitions <> inclusion def
+R964:964 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R966:975 Stdlib.Wellfounded.Transitive_Closure <> trans_clos abbrev
+R962:962 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+prf 1028:1041 <> Acc_clos_trans
+R1054:1054 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+binder 1052:1052 <> x:5
+R1064:1067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1057:1059 Corelib.Init.Wf <> Acc ind
+R1063:1063 Stdlib.Wellfounded.Transitive_Closure <> x:5 var
+R1061:1061 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1068:1070 Corelib.Init.Wf <> Acc ind
+R1083:1083 Stdlib.Wellfounded.Transitive_Closure <> x:5 var
+R1072:1081 Stdlib.Wellfounded.Transitive_Closure <> trans_clos abbrev
+R1135:1143 Corelib.Init.Wf <> Acc_intro constr
+R1207:1213 Corelib.Init.Wf <> Acc_inv thm
+prf 1309:1321 <> Acc_inv_trans
+R1336:1336 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+binder 1332:1332 <> x:6
+binder 1334:1334 <> y:7
+R1353:1356 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1339:1348 Stdlib.Wellfounded.Transitive_Closure <> trans_clos abbrev
+R1350:1350 Stdlib.Wellfounded.Transitive_Closure <> y:7 var
+R1352:1352 Stdlib.Wellfounded.Transitive_Closure <> x:6 var
+R1364:1367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1357:1359 Corelib.Init.Wf <> Acc ind
+R1363:1363 Stdlib.Wellfounded.Transitive_Closure <> x:6 var
+R1361:1361 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1368:1370 Corelib.Init.Wf <> Acc ind
+R1374:1374 Stdlib.Wellfounded.Transitive_Closure <> y:7 var
+R1372:1372 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1447:1453 Corelib.Init.Wf <> Acc_inv thm
+prf 1493:1505 <> wf_clos_trans
+R1523:1526 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1509:1520 Corelib.Init.Wf <> well_founded def
+R1522:1522 Stdlib.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1527:1538 Corelib.Init.Wf <> well_founded def
+R1540:1549 Stdlib.Wellfounded.Transitive_Closure <> trans_clos abbrev
+R1572:1583 Corelib.Init.Wf <> well_founded def
+R1618:1638 Stdlib.Wellfounded.Transitive_Closure Wf_Transitive_Closure <> sec

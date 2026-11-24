@@ -1,0 +1,43 @@
+% cyp's messages in Italian (see messages_en.elpi)
+message "it" "proved" "cyp: %1 dimostrato, %2 passi".
+message "it" "proved-lemma" "cyp: %1 dimostrato".
+message "it" "not-proved" "cyp: %1 passi su %2 di %3 non dimostrati (%4), vedi %5".
+message "it" "conditions" "cyp: %1, %2 passi, %3 condizioni".
+message "it" "all-discharged" "cyp: %1, %2 passi, tutte le condizioni sono chiuse".
+message "it" "left" "cyp: %1, %2 passi, %3 condizione/i lasciata/e al blocco Proof: %4".
+message "it" "left-line" "  🔶 condizione %1: %2".
+message "it" "no-typecheck" "cyp: la dimostrazione non è ben tipata".
+message "it" "holes" "cyp: alcune condizioni non sono dimostrate".
+message "it" "errors" "cyp: %1, %2 nodo/i con un errore (❌ sopra): %3".
+message "it" "statement-not-read" "cyp: l'enunciato di %1 non si può leggere: %2".
+message "it" "statement-no-typecheck" "cyp: l'enunciato non è ben tipato".
+message "it" "md-not-proved" "non dimostrato: %1".
+message "it" "md-not-parsed" "non si analizza: %1".
+message "it" "md-todo" "condizione %1, da dimostrare nel blocco Proof: %2".
+message "it" "time" "cyp: tempo %1 %2 ms".
+message "it" "definition-not-parsed" "la definizione %1 non si analizza".
+message "it" "variables-not-parsed" "le variabili %1 non si analizzano: %2".
+message "it" "hypothesis-not-parsed" "l'ipotesi %1 non si analizza: %2".
+message "it" "conclusion-not-prop" "la conclusione %1 non è una proposizione".
+message "it" "fact-unknown" "il fatto %1 non è né un'ipotesi né una conclusione visibile qui".
+message "it" "name-unknown" "%1 non nomina niente di noto: né ipotesi, né nodo, né lemma, né parola di giustificazione dichiarata (dichiararla: CypJustification \"%1\" := tattica. o := rules.)".
+message "it" "at-line" "riga %1: %2".
+message "it" "no-conclusion" "un nodo senza conclusione: ha dei tag, ma nessun {.claim}".
+message "it" "two-conclusions" "un nodo con due conclusioni, %1 e %2".
+message "it" "statement-no-conclusion" "l'enunciato non ha conclusione, nessun {.claim}".
+message "it" "unknown-class" "una classe sconosciuta, {.%1}".
+message "it" "not-a-name" "una giustificazione è un nome, non *%1*{.just}".
+message "it" "out-of-scope" "%1 non è visibile qui".
+message "it" "name-twice" "il nome %1 è dato due volte nello stesso ambito".
+message "it" "unclosed-span" "una [ senza ]{.p} dopo: uno span non chiuso".
+message "it" "unopened-span" "una ]{.p} senza [ prima".
+message "it" "unclosed-div" "un ::: p senza ::: dopo: un div non chiuso".
+message "it" "unopened-div" "un ::: che non chiude nessun div".
+% gli obiettivi aperti di un testo ({.goal}) e i metodi fissi (*match*,
+% *induction*)
+message "it" "goal-line" "  🔶 obiettivo aperto %1 del testo: %2".
+message "it" "md-goal" "obiettivo aperto del testo, non tentato: condizione %1, da dimostrare nel blocco Proof: %2".
+message "it" "method-no-object" "*%1*{.just} non nomina niente da eliminare: nominare l'ipotesi o la variabile (*h*{.just}), o il suo tipo (*T*{.just})".
+message "it" "type-objects" "nessuna ipotesi o variabile unica di tipo %1 visibile qui da eliminare (%2 trovate): nominarla".
+message "it" "not-of-type" "%1 non è di tipo %2".
+message "it" "type-alone" "%1 è un tipo induttivo: giustifica un passo solo con *match*{.just} o *induction*{.just}".

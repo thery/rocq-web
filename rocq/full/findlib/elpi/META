@@ -1,0 +1,136 @@
+version = "v4.1.1"
+description = ""
+requires =
+"elpi.compiler
+ elpi.parser
+ elpi.runtime
+ elpi.util
+ ppx_deriving.runtime
+ re.str
+ stdlib-shims
+ unix"
+archive(byte) = "elpi.cma"
+archive(native) = "elpi.cmxa"
+plugin(byte) = "elpi.cma"
+plugin(native) = "elpi.cmxs"
+package "compiler" (
+  directory = "compiler"
+  version = "v4.1.1"
+  description = ""
+  requires =
+  "elpi.parser
+   elpi.runtime
+   elpi.util
+   ppx_deriving.runtime
+   re.str
+   stdlib-shims
+   unix"
+  archive(byte) = "elpi_compiler.cma"
+  archive(native) = "elpi_compiler.cmxa"
+  plugin(byte) = "elpi_compiler.cma"
+  plugin(native) = "elpi_compiler.cmxs"
+)
+package "dynload" (
+  directory = "dynload"
+  version = "v4.1.1"
+  description = ""
+  requires = "elpi findlib.dynload unix"
+  archive(byte) = "elpi_dynload.cma"
+  archive(native) = "elpi_dynload.cmxa"
+  plugin(byte) = "elpi_dynload.cma"
+  plugin(native) = "elpi_dynload.cmxs"
+)
+package "lexer_config" (
+  directory = "lexer_config"
+  version = "v4.1.1"
+  description = ""
+  requires = "elpi.util"
+  archive(byte) = "elpi_lexer_config.cma"
+  archive(native) = "elpi_lexer_config.cmxa"
+  plugin(byte) = "elpi_lexer_config.cma"
+  plugin(native) = "elpi_lexer_config.cmxs"
+)
+package "parser" (
+  directory = "parser"
+  version = "v4.1.1"
+  description = ""
+  requires =
+  "elpi.lexer_config
+   elpi.util
+   menhirLib
+   ppx_deriving.runtime
+   stdlib-shims
+   unix"
+  archive(byte) = "elpi_parser.cma"
+  archive(native) = "elpi_parser.cmxa"
+  plugin(byte) = "elpi_parser.cma"
+  plugin(native) = "elpi_parser.cmxs"
+)
+package "runtime" (
+  directory = "runtime"
+  version = "v4.1.1"
+  description = ""
+  requires =
+  "elpi.parser
+   elpi.trace.runtime
+   elpi.util
+   ppx_deriving.runtime
+   re.str
+   stdlib-shims
+   unix"
+  archive(byte) = "elpi_runtime.cma"
+  archive(native) = "elpi_runtime.cmxa"
+  plugin(byte) = "elpi_runtime.cma"
+  plugin(native) = "elpi_runtime.cmxs"
+)
+package "trace" (
+  directory = "trace"
+  package "atd" (
+    directory = "atd"
+    version = "v4.1.1"
+    description = ""
+    requires = "atdgen-runtime"
+    archive(byte) = "elpi_trace_atd.cma"
+    archive(native) = "elpi_trace_atd.cmxa"
+    plugin(byte) = "elpi_trace_atd.cma"
+    plugin(native) = "elpi_trace_atd.cmxs"
+  )
+  package "ppx" (
+    directory = "ppx"
+    version = "v4.1.1"
+    description = ""
+    requires(ppx_driver) = "ppxlib ppxlib.ast"
+    archive(ppx_driver,byte) = "trace_ppx.cma"
+    archive(ppx_driver,native) = "trace_ppx.cmxa"
+    plugin(ppx_driver,byte) = "trace_ppx.cma"
+    plugin(ppx_driver,native) = "trace_ppx.cmxs"
+    # This is what dune uses to find out the runtime dependencies of
+    # a preprocessor
+    ppx_runtime_deps = "elpi.trace.runtime"
+    # This line makes things transparent for people mixing preprocessors
+    # and normal dependencies
+    requires(-ppx_driver) = "elpi.trace.runtime"
+    ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+    library_kind = "ppx_rewriter"
+  )
+  package "runtime" (
+    directory = "runtime"
+    version = "v4.1.1"
+    description = ""
+    requires = "elpi.trace.atd re"
+    archive(byte) = "trace_ppx_runtime.cma"
+    archive(native) = "trace_ppx_runtime.cmxa"
+    plugin(byte) = "trace_ppx_runtime.cma"
+    plugin(native) = "trace_ppx_runtime.cmxs"
+  )
+)
+package "util" (
+  directory = "util"
+  version = "v4.1.1"
+  description = ""
+  requires = "ppx_deriving.runtime re.str unix"
+  archive(byte) = "elpi_util.cma"
+  archive(native) = "elpi_util.cmxa"
+  plugin(byte) = "elpi_util.cma"
+  plugin(native) = "elpi_util.cmxs"
+)

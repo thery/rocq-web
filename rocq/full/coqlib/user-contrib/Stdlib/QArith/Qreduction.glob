@@ -1,0 +1,285 @@
+DIGEST 5e132f72b44beca230f500ca0629113b
+FStdlib.QArith.Qreduction
+R757:767 Stdlib.QArith.QArith_base <> <> lib
+abbrev 780:782 <> Z2P
+R787:794 Stdlib.ZArith.BinInt Z to_pos def
+abbrev 821:831 <> Z2P_correct
+R836:843 Stdlib.ZArith.BinInt Z2Pos id thm
+R871:901 Corelib.Numbers.BinNums <> Zpos constr
+def 1006:1009 <> Qred
+R1014:1014 Stdlib.QArith.QArith_base <> Q rec
+binder 1012:1012 <> q:1
+R1037:1037 Stdlib.QArith.Qreduction <> q:1 var
+binder 1027:1028 <> q1:2
+binder 1030:1031 <> q2:3
+R1059:1061 Corelib.Init.Datatypes <> snd def
+R1064:1069 Stdlib.ZArith.BinInt Z ggcd def
+R1071:1072 Stdlib.QArith.Qreduction <> q1:2 var
+R1075:1078 Corelib.Numbers.BinNums <> Zpos constr
+R1080:1081 Stdlib.QArith.Qreduction <> q2:3 var
+binder 1049:1050 <> r1:4
+binder 1052:1053 <> r2:5
+R1092:1093 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R1105:1105 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R1090:1091 Stdlib.QArith.Qreduction <> r1:4 var
+R1094:1101 Stdlib.ZArith.BinInt Z to_pos def
+R1103:1104 Stdlib.QArith.Qreduction <> r2:5 var
+prf 1115:1126 <> Qred_correct
+binder 1137:1137 <> q:6
+R1140:1140 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1147:1151 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1141:1144 Stdlib.QArith.Qreduction <> Qred def
+R1146:1146 Stdlib.QArith.Qreduction <> q:6 var
+R1152:1152 Stdlib.QArith.Qreduction <> q:6 var
+R1171:1174 Stdlib.QArith.Qreduction <> Qred def
+R1177:1179 Stdlib.QArith.QArith_base <> Qeq def
+R1217:1226 Stdlib.ZArith.BinInt Z ggcd_gcd thm
+R1231:1234 Corelib.Numbers.BinNums <> Zpos constr
+R1241:1252 Stdlib.ZArith.BinInt Z gcd_nonneg thm
+R1257:1260 Corelib.Numbers.BinNums <> Zpos constr
+R1271:1293 Stdlib.ZArith.BinInt Z ggcd_correct_divisors thm
+R1298:1301 Corelib.Numbers.BinNums <> Zpos constr
+R1320:1325 Stdlib.ZArith.BinInt Z ggcd def
+R1330:1333 Corelib.Numbers.BinNums <> Zpos constr
+R1468:1471 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1518:1525 Stdlib.ZArith.BinInt Z2Pos id thm
+R1558:1575 Stdlib.ZArith.BinInt Z mul_pos_cancel_l thm
+R1605:1612 Stdlib.ZArith.BinInt Z le_neq thm
+prf 1654:1665 <> Qeq_Qred_iff
+binder 1667:1667 <> q:7
+binder 1669:1670 <> q':8
+R1691:1695 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1680:1683 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1674:1677 Stdlib.QArith.Qreduction <> Qred def
+R1679:1679 Stdlib.QArith.Qreduction <> q:7 var
+R1684:1687 Stdlib.QArith.Qreduction <> Qred def
+R1689:1690 Stdlib.QArith.Qreduction <> q':8 var
+R1697:1700 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1696:1696 Stdlib.QArith.Qreduction <> q:7 var
+R1701:1702 Stdlib.QArith.Qreduction <> q':8 var
+R1721:1732 Stdlib.QArith.Qreduction <> Qred_correct thm
+prf 1760:1767 <> gcd_Qred
+binder 1769:1769 <> q:9
+R1810:1812 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1773:1777 Stdlib.ZArith.BinInt Z gcd def
+R1780:1783 Stdlib.QArith.QArith_base <> Qnum proj
+R1786:1789 Stdlib.QArith.Qreduction <> Qred def
+R1791:1791 Stdlib.QArith.Qreduction <> q:9 var
+R1796:1799 Stdlib.QArith.QArith_base <> Qden proj
+R1802:1805 Stdlib.QArith.Qreduction <> Qred def
+R1807:1807 Stdlib.QArith.Qreduction <> q:9 var
+R1849:1852 Stdlib.QArith.Qreduction <> Qred def
+R1854:1857 Stdlib.QArith.QArith_base <> Qnum proj
+R1859:1862 Stdlib.QArith.QArith_base <> Qden proj
+R1879:1901 Stdlib.ZArith.BinInt Z ggcd_correct_divisors thm
+R1927:1936 Stdlib.ZArith.BinInt Z ggcd_gcd thm
+R1962:1967 Stdlib.ZArith.BinInt Z ggcd def
+R1993:1995 Corelib.Init.Datatypes <> fst def
+R1997:1999 Corelib.Init.Datatypes <> snd def
+R2056:2059 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2047:2051 Stdlib.ZArith.BinInt Z gcd def
+R2077:2086 Stdlib.ZArith.BinInt Z gcd_eq_0 thm
+R2130:2142 Stdlib.ZArith.BinInt Z gcd_div_gcd thm
+R2182:2191 Stdlib.ZArith.BinInt Z mul_comm thm
+R2194:2202 Stdlib.ZArith.BinInt Z div_mul thm
+R2233:2242 Stdlib.ZArith.BinInt Z mul_comm thm
+R2245:2253 Stdlib.ZArith.BinInt Z div_mul thm
+R2280:2287 Stdlib.ZArith.BinInt Z2Pos id thm
+R2308:2325 Stdlib.ZArith.BinInt Z mul_pos_cancel_l thm
+R2360:2371 Stdlib.ZArith.BinInt Pos2Z is_pos thm
+R2387:2398 Stdlib.ZArith.BinInt Z gcd_nonneg thm
+R2417:2425 Stdlib.ZArith.BinInt Z le_lteq def
+prf 2468:2480 <> Qred_complete
+binder 2491:2491 <> p:10
+binder 2493:2493 <> q:11
+R2501:2504 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2498:2499 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2497:2497 Stdlib.QArith.Qreduction <> p:10 var
+R2500:2500 Stdlib.QArith.Qreduction <> q:11 var
+R2511:2513 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2505:2508 Stdlib.QArith.Qreduction <> Qred def
+R2510:2510 Stdlib.QArith.Qreduction <> p:10 var
+R2514:2517 Stdlib.QArith.Qreduction <> Qred def
+R2519:2519 Stdlib.QArith.Qreduction <> q:11 var
+R2548:2559 Stdlib.QArith.Qreduction <> Qeq_Qred_iff thm
+R2588:2595 Stdlib.QArith.Qreduction <> gcd_Qred thm
+R2613:2620 Stdlib.QArith.Qreduction <> gcd_Qred thm
+R2638:2641 Stdlib.QArith.Qreduction <> Qred def
+R2666:2669 Stdlib.QArith.Qreduction <> Qred def
+R2693:2696 Stdlib.QArith.Qreduction <> Qred def
+R2698:2700 Stdlib.QArith.QArith_base <> Qeq def
+R2702:2705 Stdlib.QArith.QArith_base <> Qnum proj
+R2707:2710 Stdlib.QArith.QArith_base <> Qden proj
+R2748:2754 Stdlib.ZArith.BinInt Z gauss thm
+R2809:2818 Stdlib.ZArith.BinInt Z gcd_comm thm
+R2844:2850 Stdlib.ZArith.BinInt Z gauss thm
+R2905:2914 Stdlib.ZArith.BinInt Z gcd_comm thm
+R2940:2954 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+R2970:2992 Stdlib.ZArith.BinInt Z divide_antisym_nonneg thm
+R3106:3119 Stdlib.ZArith.BinInt Z mul_cancel_r thm
+prf 3168:3178 <> Qred_eq_iff
+binder 3180:3180 <> q:12
+binder 3182:3183 <> q':13
+R3203:3207 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3193:3195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3187:3190 Stdlib.QArith.Qreduction <> Qred def
+R3192:3192 Stdlib.QArith.Qreduction <> q:12 var
+R3196:3199 Stdlib.QArith.Qreduction <> Qred def
+R3201:3202 Stdlib.QArith.Qreduction <> q':13 var
+R3209:3212 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3208:3208 Stdlib.QArith.Qreduction <> q:12 var
+R3213:3214 Stdlib.QArith.Qreduction <> q':13 var
+R3257:3268 Stdlib.QArith.Qreduction <> Qred_correct thm
+R3278:3289 Stdlib.QArith.Qreduction <> Qred_correct thm
+R3323:3335 Stdlib.QArith.Qreduction <> Qred_complete thm
+R3381:3385 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3378:3380 Stdlib.QArith.QArith_base <> Qeq def
+R3386:3388 Stdlib.QArith.QArith_base <> Qeq def
+R3357:3360 Stdlib.QArith.Qreduction <> Qred def
+R3435:3446 Stdlib.QArith.Qreduction <> Qred_correct thm
+def 3466:3471 <> Qplus'
+R3480:3480 Stdlib.QArith.QArith_base <> Q rec
+binder 3474:3474 <> p:14
+binder 3476:3476 <> q:15
+R3486:3489 Stdlib.QArith.Qreduction <> Qred def
+R3492:3496 Stdlib.QArith.QArith_base <> Qplus def
+R3498:3498 Stdlib.QArith.Qreduction <> p:14 var
+R3500:3500 Stdlib.QArith.Qreduction <> q:15 var
+def 3515:3520 <> Qmult'
+R3529:3529 Stdlib.QArith.QArith_base <> Q rec
+binder 3523:3523 <> p:16
+binder 3525:3525 <> q:17
+R3535:3538 Stdlib.QArith.Qreduction <> Qred def
+R3541:3545 Stdlib.QArith.QArith_base <> Qmult def
+R3547:3547 Stdlib.QArith.Qreduction <> p:16 var
+R3549:3549 Stdlib.QArith.Qreduction <> q:17 var
+def 3564:3570 <> Qminus'
+binder 3572:3572 <> x:18
+binder 3574:3574 <> y:19
+R3579:3582 Stdlib.QArith.Qreduction <> Qred def
+R3585:3590 Stdlib.QArith.QArith_base <> Qminus def
+R3592:3592 Stdlib.QArith.Qreduction <> x:18 var
+R3594:3594 Stdlib.QArith.Qreduction <> y:19 var
+prf 3605:3618 <> Qplus'_correct
+R3635:3635 Stdlib.QArith.QArith_base <> Q rec
+binder 3629:3629 <> p:20
+binder 3631:3631 <> q:21
+R3638:3638 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3649:3652 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3662:3662 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3639:3644 Stdlib.QArith.Qreduction <> Qplus' def
+R3646:3646 Stdlib.QArith.Qreduction <> p:20 var
+R3648:3648 Stdlib.QArith.Qreduction <> q:21 var
+R3653:3657 Stdlib.QArith.QArith_base <> Qplus def
+R3659:3659 Stdlib.QArith.Qreduction <> p:20 var
+R3661:3661 Stdlib.QArith.Qreduction <> q:21 var
+R3689:3694 Stdlib.QArith.Qreduction <> Qplus' def
+R3703:3714 Stdlib.QArith.Qreduction <> Qred_correct thm
+prf 3735:3748 <> Qmult'_correct
+R3765:3765 Stdlib.QArith.QArith_base <> Q rec
+binder 3759:3759 <> p:22
+binder 3761:3761 <> q:23
+R3768:3768 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3779:3782 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3792:3792 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3769:3774 Stdlib.QArith.Qreduction <> Qmult' def
+R3776:3776 Stdlib.QArith.Qreduction <> p:22 var
+R3778:3778 Stdlib.QArith.Qreduction <> q:23 var
+R3783:3787 Stdlib.QArith.QArith_base <> Qmult def
+R3789:3789 Stdlib.QArith.Qreduction <> p:22 var
+R3791:3791 Stdlib.QArith.Qreduction <> q:23 var
+R3819:3824 Stdlib.QArith.Qreduction <> Qmult' def
+R3833:3844 Stdlib.QArith.Qreduction <> Qred_correct thm
+prf 3865:3879 <> Qminus'_correct
+R3896:3896 Stdlib.QArith.QArith_base <> Q rec
+binder 3890:3890 <> p:24
+binder 3892:3892 <> q:25
+R3899:3899 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3911:3914 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3925:3925 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3900:3906 Stdlib.QArith.Qreduction <> Qminus' def
+R3908:3908 Stdlib.QArith.Qreduction <> p:24 var
+R3910:3910 Stdlib.QArith.Qreduction <> q:25 var
+R3915:3920 Stdlib.QArith.QArith_base <> Qminus def
+R3922:3922 Stdlib.QArith.Qreduction <> p:24 var
+R3924:3924 Stdlib.QArith.Qreduction <> q:25 var
+R3952:3958 Stdlib.QArith.Qreduction <> Qminus' def
+R3967:3978 Stdlib.QArith.Qreduction <> Qred_correct thm
+R4032:4036 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4029:4031 Stdlib.QArith.QArith_base <> Qeq def
+R4040:4044 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4037:4039 Stdlib.QArith.QArith_base <> Qeq def
+R4045:4047 Stdlib.QArith.QArith_base <> Qeq def
+R4006:4011 Stdlib.QArith.Qreduction <> Qplus' def
+R4103:4108 Stdlib.QArith.Qreduction <> Qplus' def
+R4191:4195 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4188:4190 Stdlib.QArith.QArith_base <> Qeq def
+R4199:4203 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4196:4198 Stdlib.QArith.QArith_base <> Qeq def
+R4204:4206 Stdlib.QArith.QArith_base <> Qeq def
+R4165:4170 Stdlib.QArith.Qreduction <> Qmult' def
+R4262:4267 Stdlib.QArith.Qreduction <> Qmult' def
+R4351:4355 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4348:4350 Stdlib.QArith.QArith_base <> Qeq def
+R4359:4363 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4356:4358 Stdlib.QArith.QArith_base <> Qeq def
+R4364:4366 Stdlib.QArith.QArith_base <> Qeq def
+R4324:4330 Stdlib.QArith.Qreduction <> Qminus' def
+R4423:4429 Stdlib.QArith.Qreduction <> Qminus' def
+prf 4479:4486 <> Qred_opp
+binder 4496:4496 <> q:26
+R4508:4510 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4499:4502 Stdlib.QArith.Qreduction <> Qred def
+R4505:4505 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R4506:4506 Stdlib.QArith.Qreduction <> q:26 var
+R4511:4513 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R4520:4520 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R4514:4517 Stdlib.QArith.Qreduction <> Qred def
+R4519:4519 Stdlib.QArith.Qreduction <> q:26 var
+R4554:4557 Stdlib.QArith.Qreduction <> Qred def
+R4577:4586 Stdlib.ZArith.BinInt Z ggcd_opp thm
+R4594:4599 Stdlib.ZArith.BinInt Z ggcd def
+R4638:4641 Stdlib.QArith.QArith_base <> Qopp def
+prf 4664:4675 <> Qred_compare
+binder 4685:4685 <> x:27
+binder 4687:4687 <> y:28
+R4704:4706 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4692:4699 Stdlib.QArith.QArith_base <> Qcompare def
+R4701:4701 Stdlib.QArith.Qreduction <> x:27 var
+R4703:4703 Stdlib.QArith.Qreduction <> y:28 var
+R4707:4714 Stdlib.QArith.QArith_base <> Qcompare def
+R4717:4720 Stdlib.QArith.Qreduction <> Qred def
+R4722:4722 Stdlib.QArith.Qreduction <> x:27 var
+R4726:4729 Stdlib.QArith.Qreduction <> Qred def
+R4731:4731 Stdlib.QArith.Qreduction <> y:28 var
+R4762:4774 Stdlib.QArith.QArith_base <> Qcompare_comp inst
+R4783:4789 Stdlib.QArith.QArith_base <> Qeq_sym thm
+R4798:4809 Stdlib.QArith.Qreduction <> Qred_correct thm
+prf 4824:4830 <> Qred_le
+binder 4832:4832 <> q:29
+binder 4834:4835 <> q':30
+R4856:4860 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4845:4848 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R4839:4842 Stdlib.QArith.Qreduction <> Qred def
+R4844:4844 Stdlib.QArith.Qreduction <> q:29 var
+R4849:4852 Stdlib.QArith.Qreduction <> Qred def
+R4854:4855 Stdlib.QArith.Qreduction <> q':30 var
+R4862:4865 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R4861:4861 Stdlib.QArith.Qreduction <> q:29 var
+R4866:4867 Stdlib.QArith.Qreduction <> q':30 var
+R4892:4898 Stdlib.QArith.QArith_base <> Qle_alt thm
+R4904:4915 Stdlib.QArith.Qreduction <> Qred_compare thm
+prf 4930:4936 <> Qred_lt
+binder 4938:4938 <> q:31
+binder 4940:4941 <> q':32
+R4961:4965 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4951:4953 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R4945:4948 Stdlib.QArith.Qreduction <> Qred def
+R4950:4950 Stdlib.QArith.Qreduction <> q:31 var
+R4954:4957 Stdlib.QArith.Qreduction <> Qred def
+R4959:4960 Stdlib.QArith.Qreduction <> q':32 var
+R4967:4969 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R4966:4966 Stdlib.QArith.Qreduction <> q:31 var
+R4970:4971 Stdlib.QArith.Qreduction <> q':32 var
+R4996:5002 Stdlib.QArith.QArith_base <> Qlt_alt thm
+R5008:5019 Stdlib.QArith.Qreduction <> Qred_compare thm

@@ -1,0 +1,267 @@
+DIGEST 5824440b17730787a4f541cb0aaa9eac
+FStdlib.Strings.BinaryString
+R703:707 Stdlib.Strings.Ascii <> <> lib
+R709:714 Stdlib.Strings.String <> <> lib
+R744:752 Stdlib.NArith.BinNatDef <> <> lib
+R754:762 Stdlib.ZArith.BinIntDef <> <> lib
+R764:772 Stdlib.PArith.BinPosDef <> <> lib
+def 858:871 <> ascii_to_digit
+R879:883 Stdlib.Strings.Ascii <> ascii ind
+binder 874:875 <> ch:1
+R888:893 Corelib.Init.Datatypes <> option ind
+R895:895 Corelib.Numbers.BinNums <> N ind
+R906:914 Stdlib.Strings.Ascii <> ascii_dec def
+R916:917 Stdlib.Strings.BinaryString <> ch:1 var
+R949:957 Stdlib.Strings.Ascii <> ascii_dec def
+R959:960 Stdlib.Strings.BinaryString <> ch:1 var
+R989:992 Corelib.Init.Datatypes <> None constr
+R971:974 Corelib.Init.Datatypes <> Some constr
+R928:931 Corelib.Init.Datatypes <> Some constr
+def 1008:1018 <> pos_bin_app
+R1025:1032 Corelib.Numbers.BinNums <> positive ind
+binder 1021:1021 <> p:2
+binder 1023:1023 <> q:3
+R1037:1044 Corelib.Numbers.BinNums <> positive ind
+R1057:1057 Stdlib.Strings.BinaryString <> q:3 var
+R1069:1070 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1075:1075 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1091:1093 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1076:1086 Stdlib.Strings.BinaryString <> pos_bin_app:4 def
+R1090:1090 Stdlib.Strings.BinaryString <> q:3 var
+R1088:1088 Stdlib.Strings.BinaryString <> p:2 var
+R1100:1101 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1106:1106 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1122:1124 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1107:1117 Stdlib.Strings.BinaryString <> pos_bin_app:4 def
+R1121:1121 Stdlib.Strings.BinaryString <> q:3 var
+R1119:1119 Stdlib.Strings.BinaryString <> p:2 var
+R1136:1137 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1135:1135 Stdlib.Strings.BinaryString <> p:2 var
+mod 1154:1156 <> Raw
+def 1170:1175 Raw of_pos
+R1182:1189 Corelib.Numbers.BinNums <> positive ind
+binder 1178:1178 <> p:6
+R1200:1205 Stdlib.Strings.String <> string ind
+binder 1193:1196 <> rest:7
+R1210:1215 Stdlib.Strings.String <> string ind
+R1230:1230 Stdlib.Strings.BinaryString <> p:6 var
+R1251:1256 Stdlib.Strings.String <> String constr
+R1262:1265 Stdlib.Strings.BinaryString <> rest:7 var
+R1278:1279 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1284:1289 Stdlib.Strings.BinaryString <> of_pos:8 def
+R1295:1300 Stdlib.Strings.String <> String constr
+R1306:1309 Stdlib.Strings.BinaryString <> rest:7 var
+R1323:1324 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1329:1334 Stdlib.Strings.BinaryString <> of_pos:8 def
+R1340:1345 Stdlib.Strings.String <> String constr
+R1351:1354 Stdlib.Strings.BinaryString <> rest:7 var
+def 1381:1384 Raw to_N
+R1391:1396 Stdlib.Strings.String <> string ind
+binder 1387:1387 <> s:10
+R1407:1407 Corelib.Numbers.BinNums <> N ind
+binder 1400:1403 <> rest:11
+R1416:1416 Corelib.Numbers.BinNums <> N ind
+R1431:1431 Stdlib.Strings.BinaryString <> s:10 var
+R1453:1456 Stdlib.Strings.BinaryString <> rest:11 var
+R1467:1472 Stdlib.Strings.String <> String constr
+R1492:1495 Stdlib.Strings.BinaryString <> to_N:12 def
+R1534:1547 Stdlib.Strings.BinaryString <> ascii_to_digit def
+R1573:1576 Corelib.Init.Datatypes <> Some constr
+R1583:1587 Stdlib.NArith.BinNatDef N add def
+R1592:1599 Stdlib.NArith.BinNatDef N double def
+R1601:1604 Stdlib.Strings.BinaryString <> rest:11 var
+R1623:1626 Corelib.Init.Datatypes <> None constr
+R1631:1632 Corelib.Numbers.BinNums <> N0 constr
+def 1676:1686 Raw to_N_of_pos
+R1693:1700 Corelib.Numbers.BinNums <> positive ind
+binder 1689:1689 <> p:14
+R1711:1716 Stdlib.Strings.String <> string ind
+binder 1704:1707 <> rest:15
+R1727:1727 Corelib.Numbers.BinNums <> N ind
+binder 1720:1723 <> base:16
+R1772:1780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1747:1750 Stdlib.Strings.BinaryString Raw to_N def
+R1753:1758 Stdlib.Strings.BinaryString Raw of_pos def
+R1760:1760 Stdlib.Strings.BinaryString <> p:14 var
+R1762:1765 Stdlib.Strings.BinaryString <> rest:15 var
+R1768:1771 Stdlib.Strings.BinaryString <> base:16 var
+R1781:1784 Stdlib.Strings.BinaryString Raw to_N def
+R1786:1789 Stdlib.Strings.BinaryString <> rest:15 var
+R1797:1800 Stdlib.Strings.BinaryString <> base:16 var
+R1827:1828 Corelib.Numbers.BinNums <> N0 constr
+R1833:1837 Stdlib.NArith.BinNatDef N pos abbrev
+R1839:1839 Stdlib.Strings.BinaryString <> p:14 var
+R1861:1864 Corelib.Numbers.BinNums <> Npos constr
+R1871:1874 Corelib.Numbers.BinNums <> Npos constr
+R1877:1887 Stdlib.Strings.BinaryString <> pos_bin_app def
+R1891:1891 Stdlib.Strings.BinaryString <> p:14 var
+R2040:2042 Stdlib.Strings.BinaryString Raw <> mod
+def 2057:2062 <> of_pos
+R2069:2076 Corelib.Numbers.BinNums <> positive ind
+binder 2065:2065 <> p:19
+R2081:2086 Stdlib.Strings.String <> string ind
+R2093:2098 Stdlib.Strings.String <> String constr
+R2105:2110 Stdlib.Strings.String <> String constr
+R2117:2126 Stdlib.Strings.BinaryString <> of_pos def
+R2128:2128 Stdlib.Strings.BinaryString <> p:19 var
+def 2147:2150 <> of_N
+R2157:2157 Corelib.Numbers.BinNums <> N ind
+binder 2153:2153 <> n:20
+R2162:2167 Stdlib.Strings.String <> string ind
+R2180:2180 Stdlib.Strings.BinaryString <> n:20 var
+R2194:2195 Corelib.Numbers.BinNums <> N0 constr
+R2213:2216 Corelib.Numbers.BinNums <> Npos constr
+R2223:2228 Stdlib.Strings.BinaryString <> of_pos def
+def 2253:2256 <> of_Z
+R2263:2263 Corelib.Numbers.BinNums <> Z ind
+binder 2259:2259 <> z:22
+R2268:2273 Stdlib.Strings.String <> string ind
+R2286:2286 Stdlib.Strings.BinaryString <> z:22 var
+R2300:2303 Corelib.Numbers.BinNums <> Zneg constr
+R2310:2315 Stdlib.Strings.String <> String constr
+R2322:2327 Stdlib.Strings.BinaryString <> of_pos def
+R2339:2340 Corelib.Numbers.BinNums <> Z0 constr
+R2358:2361 Corelib.Numbers.BinNums <> Zpos constr
+R2368:2373 Stdlib.Strings.BinaryString <> of_pos def
+def 2398:2403 <> of_nat
+R2410:2412 Corelib.Init.Datatypes <> nat ind
+binder 2406:2406 <> n:24
+R2417:2422 Stdlib.Strings.String <> string ind
+R2429:2432 Stdlib.Strings.BinaryString <> of_N def
+R2435:2442 Stdlib.NArith.BinNatDef N of_nat def
+R2444:2444 Stdlib.Strings.BinaryString <> n:24 var
+def 2460:2463 <> to_N
+R2470:2475 Stdlib.Strings.String <> string ind
+binder 2466:2466 <> s:25
+R2480:2480 Corelib.Numbers.BinNums <> N ind
+R2493:2493 Stdlib.Strings.BinaryString <> s:25 var
+R2507:2512 Stdlib.Strings.String <> String constr
+R2518:2523 Stdlib.Strings.String <> String constr
+R2544:2552 Stdlib.Strings.Ascii <> ascii_dec def
+R2668:2669 Corelib.Numbers.BinNums <> N0 constr
+R2579:2587 Stdlib.Strings.Ascii <> ascii_dec def
+R2650:2651 Corelib.Numbers.BinNums <> N0 constr
+R2616:2623 Stdlib.Strings.BinaryString <> to_N def
+R2625:2625 Stdlib.Strings.BinaryString <> s:25 var
+R2627:2628 Corelib.Numbers.BinNums <> N0 constr
+R2683:2684 Corelib.Numbers.BinNums <> N0 constr
+def 2707:2712 <> to_pos
+R2719:2724 Stdlib.Strings.String <> string ind
+binder 2715:2715 <> s:27
+R2729:2736 Corelib.Numbers.BinNums <> positive ind
+R2749:2752 Stdlib.Strings.BinaryString <> to_N def
+R2754:2754 Stdlib.Strings.BinaryString <> s:27 var
+R2768:2769 Corelib.Numbers.BinNums <> N0 constr
+R2783:2786 Corelib.Numbers.BinNums <> Npos constr
+def 2816:2819 <> to_Z
+R2826:2831 Stdlib.Strings.String <> string ind
+binder 2822:2822 <> s:28
+R2836:2836 Corelib.Numbers.BinNums <> Z ind
+R2869:2869 Stdlib.Strings.BinaryString <> s:28 var
+R2903:2908 Stdlib.Strings.String <> String constr
+R2949:2957 Stdlib.Strings.Ascii <> ascii_dec def
+R3052:3052 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3058:3059 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3066:3066 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3053:3057 Corelib.Init.Datatypes <> false constr
+R3060:3063 Stdlib.Strings.BinaryString <> to_N def
+R3065:3065 Stdlib.Strings.BinaryString <> s:28 var
+R3001:3001 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3006:3007 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3015:3015 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3002:3005 Corelib.Init.Datatypes <> true constr
+R3008:3011 Stdlib.Strings.BinaryString <> to_N def
+R3095:3105 Stdlib.Strings.String <> EmptyString constr
+R3110:3110 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3116:3117 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3124:3124 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3111:3115 Corelib.Init.Datatypes <> false constr
+R3118:3121 Stdlib.Strings.BinaryString <> to_N def
+R3123:3123 Stdlib.Strings.BinaryString <> s:28 var
+R2848:2848 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2855:2856 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2858:2858 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3183:3184 Corelib.Numbers.BinNums <> N0 constr
+R3189:3190 Corelib.Numbers.BinNums <> Z0 constr
+R3199:3202 Corelib.Numbers.BinNums <> Npos constr
+R3236:3239 Corelib.Numbers.BinNums <> Zpos constr
+R3224:3227 Corelib.Numbers.BinNums <> Zneg constr
+def 3264:3269 <> to_nat
+R3276:3281 Stdlib.Strings.String <> string ind
+binder 3272:3272 <> s:31
+R3286:3288 Corelib.Init.Datatypes <> nat ind
+R3295:3302 Stdlib.NArith.BinNatDef N to_nat def
+R3305:3308 Stdlib.Strings.BinaryString <> to_N def
+R3310:3310 Stdlib.Strings.BinaryString <> s:31 var
+prf 3321:3329 <> to_N_of_N
+R3336:3336 Corelib.Numbers.BinNums <> N ind
+binder 3332:3332 <> n:32
+R3356:3362 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3343:3346 Stdlib.Strings.BinaryString <> to_N def
+R3349:3352 Stdlib.Strings.BinaryString <> of_N def
+R3354:3354 Stdlib.Strings.BinaryString <> n:32 var
+R3363:3363 Stdlib.Strings.BinaryString <> n:32 var
+R3409:3423 Stdlib.Strings.BinaryString <> to_N_of_pos def
+prf 3440:3448 <> Z_of_of_Z
+R3455:3455 Corelib.Numbers.BinNums <> Z ind
+binder 3451:3451 <> z:33
+R3475:3481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3462:3465 Stdlib.Strings.BinaryString <> to_Z def
+R3468:3471 Stdlib.Strings.BinaryString <> of_Z def
+R3473:3473 Stdlib.Strings.BinaryString <> z:33 var
+R3482:3482 Stdlib.Strings.BinaryString <> z:33 var
+R3499:3502 Stdlib.Strings.BinaryString <> of_Z def
+R3504:3507 Stdlib.Strings.BinaryString <> to_Z def
+R3571:3585 Stdlib.Strings.BinaryString <> to_N_of_pos def
+prf 3618:3630 <> to_nat_of_nat
+R3637:3639 Corelib.Init.Datatypes <> nat ind
+binder 3633:3633 <> n:34
+R3663:3669 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3646:3651 Stdlib.Strings.BinaryString <> to_nat def
+R3654:3659 Stdlib.Strings.BinaryString <> of_nat def
+R3661:3661 Stdlib.Strings.BinaryString <> n:34 var
+R3670:3670 Stdlib.Strings.BinaryString <> n:34 var
+R3687:3692 Stdlib.Strings.BinaryString <> to_nat def
+R3694:3699 Stdlib.Strings.BinaryString <> of_nat def
+R3715:3723 Stdlib.Strings.BinaryString <> to_N_of_N thm
+R3726:3738 Stdlib.NArith.Nnat Nat2N id thm
+prf 3766:3778 <> to_pos_of_pos
+R3785:3792 Corelib.Numbers.BinNums <> positive ind
+binder 3781:3781 <> p:35
+R3816:3822 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3799:3804 Stdlib.Strings.BinaryString <> to_pos def
+R3807:3812 Stdlib.Strings.BinaryString <> of_pos def
+R3814:3814 Stdlib.Strings.BinaryString <> p:35 var
+R3823:3823 Stdlib.Strings.BinaryString <> p:35 var
+R3840:3845 Stdlib.Strings.BinaryString <> of_pos def
+R3847:3852 Stdlib.Strings.BinaryString <> to_pos def
+R3854:3857 Stdlib.Strings.BinaryString <> to_N def
+R3878:3892 Stdlib.Strings.BinaryString <> to_N_of_pos def
+def 3927:3934 <> of_pos_1
+R3946:3948 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3938:3943 Stdlib.Strings.BinaryString <> of_pos def
+R3958:3964 Corelib.Init.Logic <> eq_refl constr
+def 3975:3982 <> of_pos_2
+R3994:3996 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3986:3991 Stdlib.Strings.BinaryString <> of_pos def
+R4007:4013 Corelib.Init.Logic <> eq_refl constr
+def 4024:4031 <> of_pos_3
+R4043:4045 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4035:4040 Stdlib.Strings.BinaryString <> of_pos def
+R4056:4062 Corelib.Init.Logic <> eq_refl constr
+def 4073:4078 <> of_N_0
+R4088:4090 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4082:4085 Stdlib.Strings.BinaryString <> of_N def
+R4100:4106 Corelib.Init.Logic <> eq_refl constr
+def 4117:4122 <> of_Z_0
+R4132:4134 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4126:4129 Stdlib.Strings.BinaryString <> of_Z def
+R4144:4150 Corelib.Init.Logic <> eq_refl constr
+def 4161:4167 <> of_Z_m1
+R4180:4182 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4171:4174 Stdlib.Strings.BinaryString <> of_Z def
+R4193:4199 Corelib.Init.Logic <> eq_refl constr
+def 4210:4217 <> of_nat_0
+R4229:4231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4221:4226 Stdlib.Strings.BinaryString <> of_nat def
+R4241:4247 Corelib.Init.Logic <> eq_refl constr

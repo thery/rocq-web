@@ -1,0 +1,468 @@
+DIGEST 0e66d98e455a89f29909bd95f3cd32a3
+FStdlib.ZArith.BinIntDef
+R731:737 Stdlib.Numbers.BinNums <> <> lib
+R767:772 Stdlib.PArith.BinPos <> <> lib
+R774:779 Stdlib.NArith.BinNat <> <> lib
+R809:822 Stdlib.BinNums.IntDef <> <> lib
+R881:882 Corelib.Numbers.BinNums <> Z0 constr
+not 874:874 <> :::'0'
+R911:914 Corelib.Numbers.BinNums <> Zpos constr
+not 903:903 <> :::'1'
+R946:949 Corelib.Numbers.BinNums <> Zpos constr
+not 938:938 <> :::'2'
+mod 1202:1202 <> Z
+R1214:1229 Corelib.BinNums.IntDef Z <> mod
+def 1244:1244 Z t
+R1249:1249 Corelib.Numbers.BinNums <> Z ind
+abbrev 1332:1334 Z pos
+R1339:1342 Corelib.Numbers.BinNums <> Zpos constr
+abbrev 1364:1366 Z neg
+R1371:1374 Corelib.Numbers.BinNums <> Zneg constr
+def 1410:1413 Z zero
+def 1432:1434 Z one
+def 1453:1455 Z two
+def 1496:1499 Z succ
+binder 1501:1501 <> x:1
+R1507:1509 Corelib.BinNums.IntDef Z ::Z_scope:x_'+'_x not
+R1506:1506 Stdlib.ZArith.BinIntDef <> x:1 var
+def 1548:1551 Z pred
+binder 1553:1553 <> x:2
+R1559:1561 Corelib.BinNums.IntDef Z ::Z_scope:x_'+'_x not
+R1558:1558 Stdlib.ZArith.BinIntDef <> x:2 var
+R1562:1564 Stdlib.ZArith.BinIntDef Z neg abbrev
+def 1599:1604 Z square
+binder 1606:1606 <> x:3
+R1619:1619 Stdlib.ZArith.BinIntDef <> x:3 var
+R1645:1647 Stdlib.ZArith.BinIntDef Z pos abbrev
+R1654:1656 Stdlib.ZArith.BinIntDef Z pos abbrev
+R1659:1668 Stdlib.PArith.BinPos Pos square def
+R1679:1681 Stdlib.ZArith.BinIntDef Z neg abbrev
+R1688:1690 Stdlib.ZArith.BinIntDef Z pos abbrev
+R1693:1702 Stdlib.PArith.BinPos Pos square def
+def 1751:1753 Z sgn
+binder 1755:1755 <> z:5
+R1768:1768 Stdlib.ZArith.BinIntDef <> z:5 var
+R1794:1796 Stdlib.ZArith.BinIntDef Z pos abbrev
+R1811:1813 Stdlib.ZArith.BinIntDef Z neg abbrev
+R1820:1822 Stdlib.ZArith.BinIntDef Z neg abbrev
+def 2049:2051 Z geb
+binder 2053:2053 <> x:7
+binder 2055:2055 <> y:8
+R2069:2072 Corelib.BinNums.IntDef Z ::Z_scope:x_'?='_x not
+R2068:2068 Stdlib.ZArith.BinIntDef <> x:7 var
+R2073:2073 Stdlib.ZArith.BinIntDef <> y:8 var
+R2086:2087 Corelib.Init.Datatypes <> Lt constr
+R2092:2096 Corelib.Init.Datatypes <> false constr
+R2109:2112 Corelib.Init.Datatypes <> true constr
+def 2133:2135 Z gtb
+binder 2137:2137 <> x:9
+binder 2139:2139 <> y:10
+R2153:2156 Corelib.BinNums.IntDef Z ::Z_scope:x_'?='_x not
+R2152:2152 Stdlib.ZArith.BinIntDef <> x:9 var
+R2157:2157 Stdlib.ZArith.BinIntDef <> y:10 var
+R2170:2171 Corelib.Init.Datatypes <> Gt constr
+R2176:2179 Corelib.Init.Datatypes <> true constr
+R2192:2196 Corelib.Init.Datatypes <> false constr
+R2220:2222 Stdlib.ZArith.BinIntDef Z eqb def
+not 2212:2212 Z ::Z_scope:x_'=?'_x
+R2282:2284 Stdlib.ZArith.BinIntDef Z leb def
+not 2273:2273 Z ::Z_scope:x_'<=?'_x
+R2343:2345 Stdlib.ZArith.BinIntDef Z ltb def
+not 2335:2335 Z ::Z_scope:x_'<?'_x
+R2405:2407 Stdlib.ZArith.BinIntDef Z geb def
+not 2396:2396 Z ::Z_scope:x_'>=?'_x
+R2466:2468 Stdlib.ZArith.BinIntDef Z gtb def
+not 2458:2458 Z ::Z_scope:x_'>?'_x
+def 2551:2553 Z abs
+binder 2555:2555 <> z:11
+R2568:2568 Stdlib.ZArith.BinIntDef <> z:11 var
+R2594:2596 Stdlib.ZArith.BinIntDef Z pos abbrev
+R2603:2605 Stdlib.ZArith.BinIntDef Z pos abbrev
+R2615:2617 Stdlib.ZArith.BinIntDef Z neg abbrev
+R2624:2626 Stdlib.ZArith.BinIntDef Z pos abbrev
+def 2717:2723 Z abs_nat
+R2728:2728 Corelib.Numbers.BinNums <> Z ind
+binder 2726:2726 <> z:13
+R2733:2735 Corelib.Init.Datatypes <> nat ind
+R2748:2748 Stdlib.ZArith.BinIntDef <> z:13 var
+R2778:2780 Stdlib.ZArith.BinIntDef Z pos abbrev
+R2787:2796 Stdlib.PArith.BinPos Pos to_nat def
+R2806:2808 Stdlib.ZArith.BinIntDef Z neg abbrev
+R2815:2824 Stdlib.PArith.BinPos Pos to_nat def
+def 2890:2894 Z abs_N
+R2899:2899 Corelib.Numbers.BinNums <> Z ind
+binder 2897:2897 <> z:15
+R2904:2904 Corelib.Numbers.BinNums <> N ind
+R2917:2917 Stdlib.ZArith.BinIntDef <> z:15 var
+R2945:2947 Stdlib.ZArith.BinIntDef Z pos abbrev
+R2954:2958 Stdlib.NArith.BinNat N pos abbrev
+R2968:2970 Stdlib.ZArith.BinIntDef Z neg abbrev
+R2977:2981 Stdlib.NArith.BinNat N pos abbrev
+def 3062:3065 Z to_N
+R3070:3070 Corelib.Numbers.BinNums <> Z ind
+binder 3068:3068 <> z:17
+R3075:3075 Corelib.Numbers.BinNums <> N ind
+R3088:3088 Stdlib.ZArith.BinIntDef <> z:17 var
+R3101:3103 Stdlib.ZArith.BinIntDef Z pos abbrev
+R3110:3114 Stdlib.NArith.BinNat N pos abbrev
+def 3222:3228 Z of_uint
+R3233:3244 Corelib.Init.Decimal <> uint ind
+binder 3231:3231 <> d:19
+R3250:3253 Stdlib.ZArith.BinIntDef Z of_N def
+R3256:3266 Stdlib.PArith.BinPos Pos of_uint def
+R3268:3268 Stdlib.ZArith.BinIntDef <> d:19 var
+def 3284:3294 Z of_hex_uint
+R3299:3314 Corelib.Init.Hexadecimal <> uint ind
+binder 3297:3297 <> d:20
+R3320:3323 Stdlib.ZArith.BinIntDef Z of_N def
+R3326:3340 Stdlib.PArith.BinPos Pos of_hex_uint def
+R3342:3342 Stdlib.ZArith.BinIntDef <> d:20 var
+def 3358:3368 Z of_num_uint
+R3373:3383 Corelib.Init.Number <> uint variant
+binder 3371:3371 <> d:21
+R3397:3397 Stdlib.ZArith.BinIntDef <> d:21 var
+R3408:3425 Corelib.Init.Number <> UIntDecimal constr
+R3432:3438 Stdlib.ZArith.BinIntDef Z of_uint def
+R3440:3440 Stdlib.ZArith.BinIntDef <> d:21 var
+R3446:3467 Corelib.Init.Number <> UIntHexadecimal constr
+R3474:3484 Stdlib.ZArith.BinIntDef Z of_hex_uint def
+R3486:3486 Stdlib.ZArith.BinIntDef <> d:21 var
+def 3507:3512 Z of_int
+R3517:3527 Corelib.Init.Decimal <> int abbrev
+binder 3515:3515 <> d:23
+R3541:3541 Stdlib.ZArith.BinIntDef <> d:23 var
+R3552:3562 Corelib.Init.Decimal <> Pos constr
+R3569:3575 Stdlib.ZArith.BinIntDef Z of_uint def
+R3577:3577 Stdlib.ZArith.BinIntDef <> d:23 var
+R3583:3593 Corelib.Init.Decimal <> Neg constr
+R3600:3602 Stdlib.ZArith.BinIntDef Z opp def
+R3605:3611 Stdlib.ZArith.BinIntDef Z of_uint def
+R3613:3613 Stdlib.ZArith.BinIntDef <> d:23 var
+def 3635:3644 Z of_hex_int
+R3649:3663 Corelib.Init.Hexadecimal <> int abbrev
+binder 3647:3647 <> d:25
+R3677:3677 Stdlib.ZArith.BinIntDef <> d:25 var
+R3688:3702 Corelib.Init.Hexadecimal <> Pos constr
+R3709:3719 Stdlib.ZArith.BinIntDef Z of_hex_uint def
+R3721:3721 Stdlib.ZArith.BinIntDef <> d:25 var
+R3727:3741 Corelib.Init.Hexadecimal <> Neg constr
+R3748:3750 Stdlib.ZArith.BinIntDef Z opp def
+R3753:3763 Stdlib.ZArith.BinIntDef Z of_hex_uint def
+R3765:3765 Stdlib.ZArith.BinIntDef <> d:25 var
+def 3787:3796 Z of_num_int
+R3801:3810 Corelib.Init.Number <> int abbrev
+binder 3799:3799 <> d:27
+R3824:3824 Stdlib.ZArith.BinIntDef <> d:27 var
+R3835:3851 Corelib.Init.Number <> IntDecimal constr
+R3858:3863 Stdlib.ZArith.BinIntDef Z of_int def
+R3865:3865 Stdlib.ZArith.BinIntDef <> d:27 var
+R3871:3891 Corelib.Init.Number <> IntHexadecimal constr
+R3898:3907 Stdlib.ZArith.BinIntDef Z of_hex_int def
+R3909:3909 Stdlib.ZArith.BinIntDef <> d:27 var
+def 3930:3935 Z to_int
+binder 3937:3937 <> n:29
+R3950:3950 Stdlib.ZArith.BinIntDef <> n:29 var
+R3966:3976 Corelib.Init.Decimal <> Pos constr
+R3978:3989 Corelib.Init.Decimal <> zero abbrev
+R3995:3997 Stdlib.ZArith.BinIntDef Z pos abbrev
+R4004:4014 Corelib.Init.Decimal <> Pos constr
+R4017:4027 Stdlib.PArith.BinPos Pos to_uint def
+R4036:4038 Stdlib.ZArith.BinIntDef Z neg abbrev
+R4045:4055 Corelib.Init.Decimal <> Neg constr
+R4058:4068 Stdlib.PArith.BinPos Pos to_uint def
+def 4092:4101 Z to_hex_int
+binder 4103:4103 <> n:31
+R4116:4116 Stdlib.ZArith.BinIntDef <> n:31 var
+R4132:4146 Corelib.Init.Hexadecimal <> Pos constr
+R4148:4163 Corelib.Init.Hexadecimal <> zero abbrev
+R4169:4171 Stdlib.ZArith.BinIntDef Z pos abbrev
+R4178:4192 Corelib.Init.Hexadecimal <> Pos constr
+R4195:4209 Stdlib.PArith.BinPos Pos to_hex_uint def
+R4218:4220 Stdlib.ZArith.BinIntDef Z neg abbrev
+R4227:4241 Corelib.Init.Hexadecimal <> Neg constr
+R4244:4258 Stdlib.PArith.BinPos Pos to_hex_uint def
+def 4282:4291 Z to_num_int
+binder 4293:4293 <> n:33
+R4298:4314 Corelib.Init.Number <> IntDecimal constr
+R4317:4322 Stdlib.ZArith.BinIntDef Z to_int def
+R4324:4324 Stdlib.ZArith.BinIntDef <> n:33 var
+def 4340:4353 Z to_num_hex_int
+binder 4355:4355 <> n:34
+R4360:4380 Corelib.Init.Number <> IntHexadecimal constr
+R4383:4392 Stdlib.ZArith.BinIntDef Z to_hex_int def
+R4394:4394 Stdlib.ZArith.BinIntDef <> n:34 var
+def 4515:4518 Z iter
+R4523:4523 Corelib.Numbers.BinNums <> Z ind
+binder 4521:4521 <> n:35
+binder 4527:4527 <> A:36
+R4534:4537 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4533:4533 Stdlib.ZArith.BinIntDef <> A:36 var
+R4538:4538 Stdlib.ZArith.BinIntDef <> A:36 var
+binder 4531:4531 <> f:37
+R4544:4544 Stdlib.ZArith.BinIntDef <> A:36 var
+binder 4542:4542 <> x:38
+R4558:4558 Stdlib.ZArith.BinIntDef <> n:35 var
+R4571:4573 Stdlib.ZArith.BinIntDef Z pos abbrev
+R4580:4587 Stdlib.PArith.BinPos Pos iter def
+R4591:4591 Stdlib.ZArith.BinIntDef <> x:38 var
+R4589:4589 Stdlib.ZArith.BinIntDef <> f:37 var
+R4606:4606 Stdlib.ZArith.BinIntDef <> x:38 var
+R4629:4631 Stdlib.ZArith.BinIntDef Z div def
+not 4622:4622 Z ::Z_scope:x_'/'_x
+R4659:4664 Stdlib.ZArith.BinIntDef Z modulo def
+not 4650:4650 Z ::Z_scope:x_'mod'_x
+def 4749:4751 Z odd
+binder 4753:4753 <> z:40
+R4766:4766 Stdlib.ZArith.BinIntDef <> z:40 var
+R4784:4788 Corelib.Init.Datatypes <> false constr
+R4796:4798 Stdlib.ZArith.BinIntDef Z pos abbrev
+R4801:4802 Corelib.Numbers.BinNums <> xO constr
+R4810:4814 Corelib.Init.Datatypes <> false constr
+R4822:4824 Stdlib.ZArith.BinIntDef Z neg abbrev
+R4827:4828 Corelib.Numbers.BinNums <> xO constr
+R4836:4840 Corelib.Init.Datatypes <> false constr
+R4853:4856 Corelib.Init.Datatypes <> true constr
+def 5089:5093 Z quot2
+R5098:5098 Corelib.Numbers.BinNums <> Z ind
+binder 5096:5096 <> z:42
+R5112:5112 Stdlib.ZArith.BinIntDef <> z:42 var
+R5138:5140 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5155:5157 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5164:5166 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5169:5176 Stdlib.PArith.BinPos Pos div2 def
+R5187:5189 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5204:5206 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5213:5215 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5218:5225 Stdlib.PArith.BinPos Pos div2 def
+def 5339:5342 Z log2
+binder 5344:5344 <> z:44
+R5357:5357 Stdlib.ZArith.BinIntDef <> z:44 var
+R5370:5372 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5376:5377 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5383:5385 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5388:5395 Stdlib.PArith.BinPos Pos size def
+R5406:5408 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5412:5413 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5419:5421 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5424:5431 Stdlib.PArith.BinPos Pos size def
+def 5492:5495 Z sqrt
+binder 5497:5497 <> n:46
+R5509:5509 Stdlib.ZArith.BinIntDef <> n:46 var
+R5520:5522 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5529:5531 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5534:5541 Stdlib.PArith.BinPos Pos sqrt def
+def 5611:5613 Z gcd
+binder 5615:5615 <> a:48
+binder 5617:5617 <> b:49
+R5632:5632 Stdlib.ZArith.BinIntDef <> b:49 var
+R5630:5630 Stdlib.ZArith.BinIntDef <> a:48 var
+R5653:5655 Stdlib.ZArith.BinIntDef Z abs def
+R5657:5657 Stdlib.ZArith.BinIntDef <> b:49 var
+R5673:5675 Stdlib.ZArith.BinIntDef Z abs def
+R5677:5677 Stdlib.ZArith.BinIntDef <> a:48 var
+R5685:5687 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5692:5694 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5701:5703 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5706:5712 Stdlib.PArith.BinPos Pos gcd def
+R5714:5714 Stdlib.ZArith.BinIntDef <> a:48 var
+R5716:5716 Stdlib.ZArith.BinIntDef <> b:49 var
+R5725:5727 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5732:5734 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5741:5743 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5746:5752 Stdlib.PArith.BinPos Pos gcd def
+R5754:5754 Stdlib.ZArith.BinIntDef <> a:48 var
+R5756:5756 Stdlib.ZArith.BinIntDef <> b:49 var
+R5765:5767 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5772:5774 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5781:5783 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5786:5792 Stdlib.PArith.BinPos Pos gcd def
+R5794:5794 Stdlib.ZArith.BinIntDef <> a:48 var
+R5796:5796 Stdlib.ZArith.BinIntDef <> b:49 var
+R5805:5807 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5812:5814 Stdlib.ZArith.BinIntDef Z neg abbrev
+R5821:5823 Stdlib.ZArith.BinIntDef Z pos abbrev
+R5826:5832 Stdlib.PArith.BinPos Pos gcd def
+R5834:5834 Stdlib.ZArith.BinIntDef <> a:48 var
+R5836:5836 Stdlib.ZArith.BinIntDef <> b:49 var
+def 5928:5931 Z ggcd
+binder 5933:5933 <> a:52
+binder 5935:5935 <> b:53
+R5940:5941 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5945:5945 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5939:5939 Corelib.Numbers.BinNums <> Z ind
+R5943:5943 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5942:5942 Corelib.Numbers.BinNums <> Z ind
+R5944:5944 Corelib.Numbers.BinNums <> Z ind
+R5960:5960 Stdlib.ZArith.BinIntDef <> b:53 var
+R5958:5958 Stdlib.ZArith.BinIntDef <> a:52 var
+R5981:5981 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5987:5987 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5998:5998 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5982:5984 Stdlib.ZArith.BinIntDef Z abs def
+R5986:5986 Stdlib.ZArith.BinIntDef <> b:53 var
+R5988:5988 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5990:5991 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5997:5997 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5992:5994 Stdlib.ZArith.BinIntDef Z sgn def
+R5996:5996 Stdlib.ZArith.BinIntDef <> b:53 var
+R6014:6014 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6020:6020 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6031:6031 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6015:6017 Stdlib.ZArith.BinIntDef Z abs def
+R6019:6019 Stdlib.ZArith.BinIntDef <> a:52 var
+R6021:6021 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6027:6028 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6030:6030 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6022:6024 Stdlib.ZArith.BinIntDef Z sgn def
+R6026:6026 Stdlib.ZArith.BinIntDef <> a:52 var
+R6039:6041 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6046:6048 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6082:6089 Stdlib.PArith.BinPos Pos ggcd def
+R6091:6091 Stdlib.ZArith.BinIntDef <> a:52 var
+R6093:6093 Stdlib.ZArith.BinIntDef <> b:53 var
+R6067:6067 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6069:6069 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6077:6077 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6070:6070 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6073:6073 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6076:6076 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6098:6098 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6104:6105 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6122:6122 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6099:6101 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6106:6106 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6113:6114 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6121:6121 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6107:6109 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6115:6117 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6130:6132 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6137:6139 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6173:6180 Stdlib.PArith.BinPos Pos ggcd def
+R6182:6182 Stdlib.ZArith.BinIntDef <> a:52 var
+R6184:6184 Stdlib.ZArith.BinIntDef <> b:53 var
+R6158:6158 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6160:6160 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6168:6168 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6161:6161 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6164:6164 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6167:6167 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6189:6189 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6195:6196 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6213:6213 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6190:6192 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6197:6197 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6204:6205 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6212:6212 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6198:6200 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6206:6208 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6221:6223 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6228:6230 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6264:6271 Stdlib.PArith.BinPos Pos ggcd def
+R6273:6273 Stdlib.ZArith.BinIntDef <> a:52 var
+R6275:6275 Stdlib.ZArith.BinIntDef <> b:53 var
+R6249:6249 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6251:6251 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6259:6259 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6252:6252 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6255:6255 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6258:6258 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6280:6280 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6286:6287 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6304:6304 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6281:6283 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6288:6288 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6295:6296 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6303:6303 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6289:6291 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6297:6299 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6312:6314 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6319:6321 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6355:6362 Stdlib.PArith.BinPos Pos ggcd def
+R6364:6364 Stdlib.ZArith.BinIntDef <> a:52 var
+R6366:6366 Stdlib.ZArith.BinIntDef <> b:53 var
+R6340:6340 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6342:6342 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6350:6350 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6343:6343 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6346:6346 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6349:6349 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6371:6371 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6377:6378 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6395:6395 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6372:6374 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6379:6379 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6386:6387 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6394:6394 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6380:6382 Stdlib.ZArith.BinIntDef Z neg abbrev
+R6388:6390 Stdlib.ZArith.BinIntDef Z neg abbrev
+def 6870:6876 Z testbit
+binder 6878:6878 <> a:56
+binder 6880:6880 <> n:57
+R6892:6892 Stdlib.ZArith.BinIntDef <> n:57 var
+R6909:6911 Stdlib.ZArith.BinIntDef Z odd def
+R6913:6913 Stdlib.ZArith.BinIntDef <> a:56 var
+R6920:6922 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6940:6940 Stdlib.ZArith.BinIntDef <> a:56 var
+R6961:6965 Corelib.Init.Datatypes <> false constr
+R6976:6978 Stdlib.ZArith.BinIntDef Z pos abbrev
+R6985:6995 Stdlib.PArith.BinPos Pos testbit def
+R6997:6997 Stdlib.ZArith.BinIntDef <> a:56 var
+R7000:7004 Stdlib.NArith.BinNat N pos abbrev
+R7018:7020 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7027:7030 Corelib.Init.Datatypes <> negb def
+R7033:7041 Stdlib.NArith.BinNat N testbit def
+R7044:7053 Stdlib.PArith.BinPos Pos pred_N def
+R7055:7055 Stdlib.ZArith.BinIntDef <> a:56 var
+R7059:7063 Stdlib.NArith.BinNat N pos abbrev
+R7083:7085 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7092:7096 Corelib.Init.Datatypes <> false constr
+def 7171:7175 Z ldiff
+binder 7177:7177 <> a:60
+binder 7179:7179 <> b:61
+R7194:7194 Stdlib.ZArith.BinIntDef <> b:61 var
+R7191:7191 Stdlib.ZArith.BinIntDef <> a:60 var
+R7229:7229 Stdlib.ZArith.BinIntDef <> a:60 var
+R7236:7238 Stdlib.ZArith.BinIntDef Z pos abbrev
+R7243:7245 Stdlib.ZArith.BinIntDef Z pos abbrev
+R7252:7255 Stdlib.ZArith.BinIntDef Z of_N def
+R7258:7266 Stdlib.PArith.BinPos Pos ldiff def
+R7268:7268 Stdlib.ZArith.BinIntDef <> a:60 var
+R7270:7270 Stdlib.ZArith.BinIntDef <> b:61 var
+R7278:7280 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7285:7287 Stdlib.ZArith.BinIntDef Z pos abbrev
+R7294:7296 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7299:7308 Stdlib.NArith.BinNat N succ_pos def
+R7311:7315 Stdlib.NArith.BinNat N lor def
+R7318:7327 Stdlib.PArith.BinPos Pos pred_N def
+R7329:7329 Stdlib.ZArith.BinIntDef <> a:60 var
+R7333:7337 Stdlib.NArith.BinNat N pos abbrev
+R7339:7339 Stdlib.ZArith.BinIntDef <> b:61 var
+R7349:7351 Stdlib.ZArith.BinIntDef Z pos abbrev
+R7356:7358 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7365:7368 Stdlib.ZArith.BinIntDef Z of_N def
+R7371:7376 Stdlib.NArith.BinNat N land def
+R7379:7383 Stdlib.NArith.BinNat N pos abbrev
+R7385:7385 Stdlib.ZArith.BinIntDef <> a:60 var
+R7389:7398 Stdlib.PArith.BinPos Pos pred_N def
+R7400:7400 Stdlib.ZArith.BinIntDef <> b:61 var
+R7409:7411 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7416:7418 Stdlib.ZArith.BinIntDef Z neg abbrev
+R7425:7428 Stdlib.ZArith.BinIntDef Z of_N def
+R7431:7437 Stdlib.NArith.BinNat N ldiff def
+R7440:7449 Stdlib.PArith.BinPos Pos pred_N def
+R7451:7451 Stdlib.ZArith.BinIntDef <> b:61 var
+R7455:7464 Stdlib.PArith.BinPos Pos pred_N def
+R7466:7466 Stdlib.ZArith.BinIntDef <> a:60 var
+R7493:7493 Corelib.Numbers.BinNums <> Z ind
+R7495:7504 Stdlib.ZArith.BinIntDef Z of_num_int def
+R7506:7519 Stdlib.ZArith.BinIntDef Z to_num_hex_int def
+R7552:7552 Corelib.Numbers.BinNums <> Z ind
+R7554:7563 Stdlib.ZArith.BinIntDef Z of_num_int def
+R7565:7574 Stdlib.ZArith.BinIntDef Z to_num_int def
+R7592:7592 Stdlib.ZArith.BinIntDef Z <> mod
+R7680:7680 Corelib.Numbers.BinNums <> Z ind
+R7682:7693 Stdlib.ZArith.BinIntDef <> of_num_int def
+R7695:7710 Stdlib.ZArith.BinIntDef <> to_num_hex_int def
+R7743:7743 Corelib.Numbers.BinNums <> Z ind
+R7745:7756 Stdlib.ZArith.BinIntDef <> of_num_int def
+R7758:7769 Stdlib.ZArith.BinIntDef <> to_num_int def

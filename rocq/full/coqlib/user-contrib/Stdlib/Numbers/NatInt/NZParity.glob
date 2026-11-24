@@ -1,0 +1,554 @@
+DIGEST a816b642e0dda0cbe22fa365b1a17178
+FStdlib.Numbers.NatInt.NZParity
+R703:706 Stdlib.Bool.Bool <> <> lib
+R708:715 Stdlib.Numbers.NatInt.NZAxioms <> <> lib
+R717:726 Stdlib.Numbers.NatInt.NZMulOrder <> <> lib
+R788:799 Stdlib.Numbers.NatInt.NZAxioms NZAxiomsSig' <> modtype
+modtype 767:774 <> NZParity
+R767:774 Stdlib.Numbers.NatInt.NZParity A <> mod
+ax 821:824 NZParity even
+ax 826:828 NZParity odd
+R833:836 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R832:832 Stdlib.Numbers.NatInt.NZParity A t defax
+R837:840 Corelib.Init.Datatypes <> bool ind
+def 855:858 NZParity Even
+binder 860:860 <> n:5
+R865:871 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R873:874 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 872:872 <> m:6
+R876:879 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R875:875 Stdlib.Numbers.NatInt.NZParity <> n:5 var
+R881:881 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R882:882 Stdlib.Numbers.NatInt.NZParity <> m:6 var
+def 897:899 NZParity Odd
+binder 901:901 <> n:7
+R906:912 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R914:915 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 913:913 <> m:8
+R917:920 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R916:916 Stdlib.Numbers.NatInt.NZParity <> n:7 var
+R924:924 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R922:922 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R923:923 Stdlib.Numbers.NatInt.NZParity <> m:8 var
+ax 935:943 NZParity even_spec
+binder 954:954 <> n:9
+R970:974 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R963:965 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R957:960 Stdlib.Numbers.NatInt.NZParity NZParity even defax
+R962:962 Stdlib.Numbers.NatInt.NZParity <> n:9 var
+R966:969 Corelib.Init.Datatypes <> true constr
+R975:978 Stdlib.Numbers.NatInt.NZParity NZParity Even def
+R980:980 Stdlib.Numbers.NatInt.NZParity <> n:9 var
+ax 990:997 NZParity odd_spec
+binder 1008:1008 <> n:12
+R1023:1027 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1016:1018 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1011:1013 Stdlib.Numbers.NatInt.NZParity NZParity odd defax
+R1015:1015 Stdlib.Numbers.NatInt.NZParity <> n:12 var
+R1019:1022 Corelib.Init.Datatypes <> true constr
+R1028:1030 Stdlib.Numbers.NatInt.NZParity NZParity Odd def
+R1032:1032 Stdlib.Numbers.NatInt.NZParity <> n:12 var
+R1039:1046 Stdlib.Numbers.NatInt.NZParity NZParity <> modtype
+R1088:1102 Stdlib.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> modtype
+R1118:1125 Stdlib.Numbers.NatInt.NZParity NZParity <> modtype
+R1127:1127 Stdlib.Numbers.NatInt.NZParity A <> mod
+R1143:1156 Stdlib.Numbers.NatInt.NZMulOrder NZMulOrderProp <> modtype
+R1158:1158 Stdlib.Numbers.NatInt.NZParity A <> mod
+modtype 1062:1073 <> NZParityProp
+R1062:1073 Stdlib.Numbers.NatInt.NZParity A <> mod
+R1062:1073 Stdlib.Numbers.NatInt.NZParity B <> mod
+R1062:1073 Stdlib.Numbers.NatInt.NZParity C <> mod
+inst 1200:1206 NZParityProp Even_wd
+R1210:1215 Corelib.Classes.Morphisms <> Proper class
+R1228:1231 Stdlib.Numbers.NatInt.NZParity B Even def
+R1220:1222 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1218:1219 Stdlib.Numbers.NatInt.NZParity A eq defax
+R1223:1225 Corelib.Init.Logic <> iff def
+R1248:1251 Stdlib.Numbers.NatInt.NZParity B Even def
+inst 1293:1298 NZParityProp Odd_wd
+R1302:1307 Corelib.Classes.Morphisms <> Proper class
+R1320:1322 Stdlib.Numbers.NatInt.NZParity B Odd def
+R1312:1314 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1310:1311 Stdlib.Numbers.NatInt.NZParity A eq defax
+R1315:1317 Corelib.Init.Logic <> iff def
+R1339:1341 Stdlib.Numbers.NatInt.NZParity B Odd def
+inst 1383:1389 NZParityProp even_wd
+R1393:1398 Corelib.Classes.Morphisms <> Proper class
+R1416:1419 Stdlib.Numbers.NatInt.NZParity B even defax
+R1403:1405 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1401:1402 Stdlib.Numbers.NatInt.NZParity A eq defax
+R1406:1413 Corelib.Init.Logic <> eq ind
+R1454:1467 Stdlib.Bool.Bool <> eq_iff_eq_true thm
+R1472:1480 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+inst 1521:1526 NZParityProp odd_wd
+R1530:1535 Corelib.Classes.Morphisms <> Proper class
+R1553:1555 Stdlib.Numbers.NatInt.NZParity B odd defax
+R1540:1542 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1538:1539 Stdlib.Numbers.NatInt.NZParity A eq defax
+R1543:1550 Corelib.Init.Logic <> eq ind
+R1590:1603 Stdlib.Bool.Bool <> eq_iff_eq_true thm
+R1608:1615 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+prf 1688:1698 NZParityProp Even_or_Odd
+binder 1709:1709 <> x:15
+R1718:1721 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1712:1715 Stdlib.Numbers.NatInt.NZParity B Even def
+R1717:1717 Stdlib.Numbers.NatInt.NZParity <> x:15 var
+R1722:1724 Stdlib.Numbers.NatInt.NZParity B Odd def
+R1726:1726 Stdlib.Numbers.NatInt.NZParity <> x:15 var
+R1900:1900 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R1961:1967 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1969:1970 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1968:1968 <> z:16
+R1972:1972 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1971:1971 Stdlib.Numbers.NatInt.NZParity <> z:16 var
+binder 1968:1968 <> z:17
+R1971:1971 Stdlib.Numbers.NatInt.NZParity <> z:17 var
+R1994:2004 Stdlib.Numbers.NatInt.NZParity C lt_ge_cases thm
+R2068:2076 Stdlib.Numbers.NatInt.NZParity C le_succ_l thm
+R2111:2117 Stdlib.Numbers.NatInt.NZParity C add_0_r thm
+R2138:2150 Stdlib.Numbers.NatInt.NZParity C add_le_mono_l thm
+R2200:2213 Stdlib.Numbers.NatInt.NZParity C lt_exists_pred thm
+R2271:2281 Stdlib.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2338:2348 Stdlib.Numbers.NatInt.NZParity C succ_inj_wd thm
+prf 2387:2398 NZParityProp double_below
+binder 2409:2409 <> n:18
+binder 2411:2411 <> m:19
+R2418:2421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2415:2416 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2414:2414 Stdlib.Numbers.NatInt.NZParity <> n:18 var
+R2417:2417 Stdlib.Numbers.NatInt.NZParity <> m:19 var
+R2425:2427 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2423:2423 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2424:2424 Stdlib.Numbers.NatInt.NZParity <> n:18 var
+R2431:2431 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2429:2429 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2430:2430 Stdlib.Numbers.NatInt.NZParity <> m:19 var
+R2467:2475 Stdlib.Numbers.NatInt.NZParity A lt_succ_r prfax
+R2488:2498 Stdlib.Numbers.NatInt.NZParity C add_le_mono thm
+prf 2513:2524 NZParityProp double_above
+binder 2535:2535 <> n:20
+binder 2537:2537 <> m:21
+R2543:2546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2541:2541 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2540:2540 Stdlib.Numbers.NatInt.NZParity <> n:20 var
+R2542:2542 Stdlib.Numbers.NatInt.NZParity <> m:21 var
+R2552:2554 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2550:2550 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2548:2548 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2549:2549 Stdlib.Numbers.NatInt.NZParity <> n:20 var
+R2556:2556 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2557:2557 Stdlib.Numbers.NatInt.NZParity <> m:21 var
+R2598:2606 Stdlib.Numbers.NatInt.NZParity C le_succ_l thm
+R2612:2621 Stdlib.Numbers.NatInt.NZParity A add_succ_l prfax
+R2627:2636 Stdlib.Numbers.NatInt.NZParity C add_succ_r thm
+R2646:2656 Stdlib.Numbers.NatInt.NZParity C add_le_mono thm
+R2669:2677 Stdlib.Numbers.NatInt.NZParity C le_succ_l thm
+prf 2692:2705 NZParityProp Even_Odd_False
+binder 2716:2716 <> x:22
+R2725:2728 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2719:2722 Stdlib.Numbers.NatInt.NZParity B Even def
+R2724:2724 Stdlib.Numbers.NatInt.NZParity <> x:22 var
+R2734:2737 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2729:2731 Stdlib.Numbers.NatInt.NZParity B Odd def
+R2733:2733 Stdlib.Numbers.NatInt.NZParity <> x:22 var
+R2738:2742 Corelib.Init.Logic <> False ind
+R2809:2819 Stdlib.Numbers.NatInt.NZParity C le_gt_cases thm
+R2852:2863 Stdlib.Numbers.NatInt.NZParity NZParityProp double_below thm
+R2895:2906 Stdlib.Numbers.NatInt.NZParity NZParityProp double_above thm
+prf 2936:2947 NZParityProp orb_even_odd
+binder 2958:2958 <> n:23
+R2981:2983 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2961:2963 Corelib.Init.Datatypes <> orb def
+R2975:2977 Stdlib.Numbers.NatInt.NZParity B odd defax
+R2979:2979 Stdlib.Numbers.NatInt.NZParity <> n:23 var
+R2966:2969 Stdlib.Numbers.NatInt.NZParity B even defax
+R2971:2971 Stdlib.Numbers.NatInt.NZParity <> n:23 var
+R2984:2987 Corelib.Init.Datatypes <> true constr
+R3019:3029 Stdlib.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3058:3066 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R3103:3110 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+R3133:3142 Stdlib.Bool.Bool <> orb_true_r thm
+prf 3157:3164 NZParityProp negb_odd
+binder 3175:3175 <> n:24
+R3190:3192 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3178:3181 Corelib.Init.Datatypes <> negb def
+R3184:3186 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3188:3188 Stdlib.Numbers.NatInt.NZParity <> n:24 var
+R3193:3196 Stdlib.Numbers.NatInt.NZParity B even defax
+R3198:3198 Stdlib.Numbers.NatInt.NZParity <> n:24 var
+R3232:3242 Stdlib.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3248:3261 Stdlib.Numbers.NatInt.NZParity NZParityProp Even_Odd_False thm
+R3279:3287 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R3293:3300 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+R3314:3316 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3323:3326 Stdlib.Numbers.NatInt.NZParity B even defax
+prf 3363:3371 NZParityProp negb_even
+binder 3382:3382 <> n:25
+R3398:3400 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3385:3388 Corelib.Init.Datatypes <> negb def
+R3391:3394 Stdlib.Numbers.NatInt.NZParity B even defax
+R3396:3396 Stdlib.Numbers.NatInt.NZParity <> n:25 var
+R3401:3403 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3405:3405 Stdlib.Numbers.NatInt.NZParity <> n:25 var
+R3435:3442 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3451:3465 Stdlib.Bool.Bool <> negb_involutive thm
+prf 3498:3503 NZParityProp even_0
+R3513:3515 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3507:3510 Stdlib.Numbers.NatInt.NZParity B even defax
+R3516:3519 Corelib.Init.Datatypes <> true constr
+R3538:3546 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+prf 3584:3588 NZParityProp odd_0
+R3597:3599 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3592:3594 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3600:3604 Corelib.Init.Datatypes <> false constr
+R3630:3638 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3641:3646 Stdlib.Numbers.NatInt.NZParity NZParityProp even_0 thm
+prf 3661:3665 NZParityProp odd_1
+R3674:3676 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3669:3671 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3677:3680 Corelib.Init.Datatypes <> true constr
+R3699:3706 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+prf 3745:3750 NZParityProp even_1
+R3760:3762 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3754:3757 Stdlib.Numbers.NatInt.NZParity B even defax
+R3763:3767 Corelib.Init.Datatypes <> false constr
+R3793:3800 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3803:3807 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_1 thm
+prf 3822:3827 NZParityProp even_2
+R3837:3839 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3831:3834 Stdlib.Numbers.NatInt.NZParity B even defax
+R3840:3843 Corelib.Init.Datatypes <> true constr
+R3862:3870 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+prf 3909:3913 NZParityProp odd_2
+R3922:3924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3917:3919 Stdlib.Numbers.NatInt.NZParity B odd defax
+R3925:3929 Corelib.Init.Datatypes <> false constr
+R3955:3963 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3966:3971 Stdlib.Numbers.NatInt.NZParity NZParityProp even_2 thm
+prf 4015:4022 NZParityProp Odd_succ
+binder 4033:4033 <> n:26
+R4045:4049 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4036:4038 Stdlib.Numbers.NatInt.NZParity B Odd def
+R4041:4041 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4043:4043 Stdlib.Numbers.NatInt.NZParity <> n:26 var
+R4050:4053 Stdlib.Numbers.NatInt.NZParity B Even def
+R4055:4055 Stdlib.Numbers.NatInt.NZParity <> n:26 var
+R4106:4113 Stdlib.Numbers.NatInt.NZParity C succ_inj thm
+R4128:4134 Stdlib.Numbers.NatInt.NZParity C add_1_r thm
+R4163:4169 Stdlib.Numbers.NatInt.NZParity C add_1_r thm
+prf 4197:4204 NZParityProp odd_succ
+binder 4215:4215 <> n:27
+R4227:4229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4218:4220 Stdlib.Numbers.NatInt.NZParity B odd defax
+R4223:4223 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4225:4225 Stdlib.Numbers.NatInt.NZParity <> n:27 var
+R4230:4233 Stdlib.Numbers.NatInt.NZParity B even defax
+R4235:4235 Stdlib.Numbers.NatInt.NZParity <> n:27 var
+R4260:4273 Stdlib.Bool.Bool <> eq_iff_eq_true thm
+R4284:4292 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R4295:4302 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+R4312:4319 Stdlib.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+prf 4334:4342 NZParityProp even_succ
+binder 4353:4353 <> n:28
+R4366:4368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4356:4359 Stdlib.Numbers.NatInt.NZParity B even defax
+R4362:4362 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4364:4364 Stdlib.Numbers.NatInt.NZParity <> n:28 var
+R4369:4371 Stdlib.Numbers.NatInt.NZParity B odd defax
+R4373:4373 Stdlib.Numbers.NatInt.NZParity <> n:28 var
+R4407:4414 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R4417:4424 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4427:4435 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+prf 4450:4458 NZParityProp Even_succ
+binder 4469:4469 <> n:29
+R4482:4486 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4472:4475 Stdlib.Numbers.NatInt.NZParity B Even def
+R4478:4478 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4480:4480 Stdlib.Numbers.NatInt.NZParity <> n:29 var
+R4487:4489 Stdlib.Numbers.NatInt.NZParity B Odd def
+R4491:4491 Stdlib.Numbers.NatInt.NZParity <> n:29 var
+R4525:4533 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R4536:4544 Stdlib.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4547:4554 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+prf 4611:4624 NZParityProp Even_succ_succ
+binder 4635:4635 <> n:30
+R4652:4656 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4638:4641 Stdlib.Numbers.NatInt.NZParity B Even def
+R4644:4644 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4647:4647 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4649:4649 Stdlib.Numbers.NatInt.NZParity <> n:30 var
+R4657:4660 Stdlib.Numbers.NatInt.NZParity B Even def
+R4662:4662 Stdlib.Numbers.NatInt.NZParity <> n:30 var
+R4693:4701 Stdlib.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4704:4711 Stdlib.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+prf 4726:4738 NZParityProp Odd_succ_succ
+binder 4749:4749 <> n:31
+R4765:4769 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4752:4754 Stdlib.Numbers.NatInt.NZParity B Odd def
+R4757:4757 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4760:4760 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4762:4762 Stdlib.Numbers.NatInt.NZParity <> n:31 var
+R4770:4772 Stdlib.Numbers.NatInt.NZParity B Odd def
+R4774:4774 Stdlib.Numbers.NatInt.NZParity <> n:31 var
+R4805:4812 Stdlib.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4815:4823 Stdlib.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+prf 4838:4851 NZParityProp even_succ_succ
+binder 4862:4862 <> n:32
+R4879:4881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4865:4868 Stdlib.Numbers.NatInt.NZParity B even defax
+R4871:4871 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4874:4874 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4876:4876 Stdlib.Numbers.NatInt.NZParity <> n:32 var
+R4882:4885 Stdlib.Numbers.NatInt.NZParity B even defax
+R4887:4887 Stdlib.Numbers.NatInt.NZParity <> n:32 var
+R4918:4926 Stdlib.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4929:4936 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+prf 4951:4963 NZParityProp odd_succ_succ
+binder 4974:4974 <> n:33
+R4990:4992 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4977:4979 Stdlib.Numbers.NatInt.NZParity B odd defax
+R4982:4982 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4985:4985 Stdlib.Numbers.NatInt.NZParity A S abbrev
+R4987:4987 Stdlib.Numbers.NatInt.NZParity <> n:33 var
+R4993:4995 Stdlib.Numbers.NatInt.NZParity B odd defax
+R4997:4997 Stdlib.Numbers.NatInt.NZParity <> n:33 var
+R5028:5035 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R5038:5046 Stdlib.Numbers.NatInt.NZParity NZParityProp even_succ thm
+prf 5089:5096 NZParityProp even_add
+binder 5107:5107 <> n:34
+binder 5109:5109 <> m:35
+R5122:5124 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5112:5115 Stdlib.Numbers.NatInt.NZParity B even defax
+R5119:5119 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5118:5118 Stdlib.Numbers.NatInt.NZParity <> n:34 var
+R5120:5120 Stdlib.Numbers.NatInt.NZParity <> m:35 var
+R5125:5132 Stdlib.Bool.Bool <> eqb def
+R5135:5138 Stdlib.Numbers.NatInt.NZParity B even defax
+R5140:5140 Stdlib.Numbers.NatInt.NZParity <> n:34 var
+R5144:5147 Stdlib.Numbers.NatInt.NZParity B even defax
+R5149:5149 Stdlib.Numbers.NatInt.NZParity <> m:35 var
+R5183:5186 Stdlib.Numbers.NatInt.NZParity B even defax
+R5201:5204 Stdlib.Numbers.NatInt.NZParity B even defax
+R5224:5236 Stdlib.Bool.Bool <> negb_true_iff thm
+R5240:5248 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5252:5259 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+R5263:5271 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R5313:5313 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5331:5345 Stdlib.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5369:5369 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5387:5401 Stdlib.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5412:5420 Stdlib.Numbers.NatInt.NZParity C add_assoc thm
+R5436:5436 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5454:5468 Stdlib.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5479:5490 Stdlib.Numbers.NatInt.NZParity C add_shuffle0 thm
+R5509:5509 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5506:5506 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5551:5562 Stdlib.Numbers.NatInt.NZParity C add_shuffle1 thm
+prf 5577:5583 NZParityProp odd_add
+binder 5594:5594 <> n:36
+binder 5596:5596 <> m:37
+R5608:5610 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5599:5601 Stdlib.Numbers.NatInt.NZParity B odd defax
+R5605:5605 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5604:5604 Stdlib.Numbers.NatInt.NZParity <> n:36 var
+R5606:5606 Stdlib.Numbers.NatInt.NZParity <> m:37 var
+R5611:5614 Corelib.Init.Datatypes <> xorb def
+R5625:5627 Stdlib.Numbers.NatInt.NZParity B odd defax
+R5629:5629 Stdlib.Numbers.NatInt.NZParity <> m:37 var
+R5617:5619 Stdlib.Numbers.NatInt.NZParity B odd defax
+R5621:5621 Stdlib.Numbers.NatInt.NZParity <> n:36 var
+R5665:5673 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5684:5691 Stdlib.Numbers.NatInt.NZParity NZParityProp even_add thm
+R5709:5712 Stdlib.Numbers.NatInt.NZParity B even defax
+R5719:5722 Stdlib.Numbers.NatInt.NZParity B even defax
+prf 5774:5781 NZParityProp even_mul
+binder 5792:5792 <> n:38
+binder 5794:5794 <> m:39
+R5811:5813 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5797:5800 Stdlib.Numbers.NatInt.NZParity B even defax
+R5803:5805 Stdlib.Numbers.NatInt.NZParity A mul defax
+R5807:5807 Stdlib.Numbers.NatInt.NZParity <> n:38 var
+R5809:5809 Stdlib.Numbers.NatInt.NZParity <> m:39 var
+R5820:5823 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R5814:5817 Stdlib.Numbers.NatInt.NZParity B even defax
+R5819:5819 Stdlib.Numbers.NatInt.NZParity <> n:38 var
+R5824:5827 Stdlib.Numbers.NatInt.NZParity B even defax
+R5829:5829 Stdlib.Numbers.NatInt.NZParity <> m:39 var
+R5862:5865 Stdlib.Numbers.NatInt.NZParity B even defax
+R5887:5895 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R5927:5927 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5948:5956 Stdlib.Numbers.NatInt.NZParity C mul_assoc thm
+R5971:5974 Stdlib.Numbers.NatInt.NZParity B even defax
+R5996:6004 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R6037:6037 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6060:6068 Stdlib.Numbers.NatInt.NZParity C mul_assoc thm
+R6072:6079 Stdlib.Numbers.NatInt.NZParity C mul_comm thm
+R6123:6135 Stdlib.Bool.Bool <> negb_true_iff thm
+R6139:6147 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6151:6158 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+R6209:6209 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6205:6206 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6202:6202 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6200:6200 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6236:6250 Stdlib.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6254:6268 Stdlib.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6272:6278 Stdlib.Numbers.NatInt.NZParity C mul_1_l thm
+R6282:6288 Stdlib.Numbers.NatInt.NZParity C mul_1_r thm
+R6308:6319 Stdlib.Numbers.NatInt.NZParity C add_shuffle1 thm
+R6322:6330 Stdlib.Numbers.NatInt.NZParity C add_assoc thm
+R6334:6342 Stdlib.Numbers.NatInt.NZParity C mul_assoc thm
+prf 6357:6363 NZParityProp odd_mul
+binder 6374:6374 <> n:40
+binder 6376:6376 <> m:41
+R6392:6394 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6379:6381 Stdlib.Numbers.NatInt.NZParity B odd defax
+R6384:6386 Stdlib.Numbers.NatInt.NZParity A mul defax
+R6388:6388 Stdlib.Numbers.NatInt.NZParity <> n:40 var
+R6390:6390 Stdlib.Numbers.NatInt.NZParity <> m:41 var
+R6400:6403 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6395:6397 Stdlib.Numbers.NatInt.NZParity B odd defax
+R6399:6399 Stdlib.Numbers.NatInt.NZParity <> n:40 var
+R6404:6406 Stdlib.Numbers.NatInt.NZParity B odd defax
+R6408:6408 Stdlib.Numbers.NatInt.NZParity <> m:41 var
+R6443:6451 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6462:6469 Stdlib.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R6487:6490 Stdlib.Numbers.NatInt.NZParity B even defax
+R6497:6500 Stdlib.Numbers.NatInt.NZParity B even defax
+prf 6571:6583 NZParityProp even_add_even
+binder 6594:6594 <> n:42
+binder 6596:6596 <> m:43
+R6605:6608 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6599:6602 Stdlib.Numbers.NatInt.NZParity B Even def
+R6604:6604 Stdlib.Numbers.NatInt.NZParity <> m:43 var
+R6619:6621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6609:6612 Stdlib.Numbers.NatInt.NZParity B even defax
+R6616:6616 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6615:6615 Stdlib.Numbers.NatInt.NZParity <> n:42 var
+R6617:6617 Stdlib.Numbers.NatInt.NZParity <> m:43 var
+R6622:6625 Stdlib.Numbers.NatInt.NZParity B even defax
+R6627:6627 Stdlib.Numbers.NatInt.NZParity <> n:42 var
+R6659:6667 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R6685:6692 Stdlib.Numbers.NatInt.NZParity NZParityProp even_add thm
+R6713:6716 Stdlib.Numbers.NatInt.NZParity B even defax
+prf 6734:6745 NZParityProp odd_add_even
+binder 6756:6756 <> n:44
+binder 6758:6758 <> m:45
+R6767:6770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6761:6764 Stdlib.Numbers.NatInt.NZParity B Even def
+R6766:6766 Stdlib.Numbers.NatInt.NZParity <> m:45 var
+R6780:6782 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6771:6773 Stdlib.Numbers.NatInt.NZParity B odd defax
+R6777:6777 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6776:6776 Stdlib.Numbers.NatInt.NZParity <> n:44 var
+R6778:6778 Stdlib.Numbers.NatInt.NZParity <> m:45 var
+R6783:6785 Stdlib.Numbers.NatInt.NZParity B odd defax
+R6787:6787 Stdlib.Numbers.NatInt.NZParity <> n:44 var
+R6819:6827 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R6845:6851 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_add thm
+R6858:6866 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6890:6892 Stdlib.Numbers.NatInt.NZParity B odd defax
+prf 6910:6926 NZParityProp even_add_mul_even
+binder 6937:6937 <> n:46
+binder 6939:6939 <> m:47
+binder 6941:6941 <> p:48
+R6950:6953 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6944:6947 Stdlib.Numbers.NatInt.NZParity B Even def
+R6949:6949 Stdlib.Numbers.NatInt.NZParity <> m:47 var
+R6966:6968 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6954:6957 Stdlib.Numbers.NatInt.NZParity B even defax
+R6961:6961 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6960:6960 Stdlib.Numbers.NatInt.NZParity <> n:46 var
+R6963:6963 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6962:6962 Stdlib.Numbers.NatInt.NZParity <> m:47 var
+R6964:6964 Stdlib.Numbers.NatInt.NZParity <> p:48 var
+R6969:6972 Stdlib.Numbers.NatInt.NZParity B even defax
+R6974:6974 Stdlib.Numbers.NatInt.NZParity <> n:46 var
+R7008:7016 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7032:7044 Stdlib.Numbers.NatInt.NZParity NZParityProp even_add_even thm
+R7053:7061 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7076:7083 Stdlib.Numbers.NatInt.NZParity NZParityProp even_mul thm
+prf 7102:7117 NZParityProp odd_add_mul_even
+binder 7128:7128 <> n:49
+binder 7130:7130 <> m:50
+binder 7132:7132 <> p:51
+R7141:7144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7135:7138 Stdlib.Numbers.NatInt.NZParity B Even def
+R7140:7140 Stdlib.Numbers.NatInt.NZParity <> m:50 var
+R7156:7158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7145:7147 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7151:7151 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7150:7150 Stdlib.Numbers.NatInt.NZParity <> n:49 var
+R7153:7153 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7152:7152 Stdlib.Numbers.NatInt.NZParity <> m:50 var
+R7154:7154 Stdlib.Numbers.NatInt.NZParity <> p:51 var
+R7159:7161 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7163:7163 Stdlib.Numbers.NatInt.NZParity <> n:49 var
+R7197:7205 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7221:7232 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_add_even thm
+R7241:7249 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7264:7271 Stdlib.Numbers.NatInt.NZParity NZParityProp even_mul thm
+prf 7290:7303 NZParityProp even_add_mul_2
+binder 7314:7314 <> n:52
+binder 7316:7316 <> m:53
+R7331:7333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7319:7322 Stdlib.Numbers.NatInt.NZParity B even defax
+R7326:7326 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7325:7325 Stdlib.Numbers.NatInt.NZParity <> n:52 var
+R7328:7328 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7329:7329 Stdlib.Numbers.NatInt.NZParity <> m:53 var
+R7334:7337 Stdlib.Numbers.NatInt.NZParity B even defax
+R7339:7339 Stdlib.Numbers.NatInt.NZParity <> n:52 var
+R7364:7380 Stdlib.Numbers.NatInt.NZParity NZParityProp even_add_mul_even thm
+R7389:7397 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7400:7405 Stdlib.Numbers.NatInt.NZParity NZParityProp even_2 thm
+prf 7420:7432 NZParityProp odd_add_mul_2
+binder 7443:7443 <> n:54
+binder 7445:7445 <> m:55
+R7459:7461 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7448:7450 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7454:7454 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7453:7453 Stdlib.Numbers.NatInt.NZParity <> n:54 var
+R7456:7456 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7457:7457 Stdlib.Numbers.NatInt.NZParity <> m:55 var
+R7462:7464 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7466:7466 Stdlib.Numbers.NatInt.NZParity <> n:54 var
+R7491:7506 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_add_mul_even thm
+R7515:7523 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+R7526:7531 Stdlib.Numbers.NatInt.NZParity NZParityProp even_2 thm
+prf 7588:7596 NZParityProp even_even
+binder 7607:7607 <> n:56
+R7622:7624 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7610:7613 Stdlib.Numbers.NatInt.NZParity B even defax
+R7617:7619 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7620:7620 Stdlib.Numbers.NatInt.NZParity <> n:56 var
+R7625:7628 Corelib.Init.Datatypes <> true constr
+R7654:7662 Stdlib.Numbers.NatInt.NZParity B even_spec prfax
+prf 7700:7707 NZParityProp odd_even
+binder 7718:7718 <> n:57
+R7732:7734 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7721:7723 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7727:7729 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7730:7730 Stdlib.Numbers.NatInt.NZParity <> n:57 var
+R7735:7739 Corelib.Init.Datatypes <> false constr
+R7770:7778 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R7782:7790 Stdlib.Numbers.NatInt.NZParity NZParityProp even_even thm
+prf 7818:7824 NZParityProp odd_odd
+binder 7835:7835 <> n:58
+R7853:7855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7838:7840 Stdlib.Numbers.NatInt.NZParity B odd defax
+R7848:7850 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7844:7846 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7847:7847 Stdlib.Numbers.NatInt.NZParity <> n:58 var
+R7856:7859 Corelib.Init.Datatypes <> true constr
+R7887:7894 Stdlib.Numbers.NatInt.NZParity B odd_spec prfax
+prf 7932:7939 NZParityProp even_odd
+binder 7950:7950 <> n:59
+R7969:7971 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7953:7956 Stdlib.Numbers.NatInt.NZParity B even defax
+R7964:7966 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7960:7962 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7963:7963 Stdlib.Numbers.NatInt.NZParity <> n:59 var
+R7972:7976 Corelib.Init.Datatypes <> false constr
+R8007:8014 Stdlib.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R8018:8024 Stdlib.Numbers.NatInt.NZParity NZParityProp odd_odd thm
+R8050:8061 Stdlib.Numbers.NatInt.NZParity NZParityProp <> modtype

@@ -1,0 +1,3551 @@
+DIGEST f60877620582ee2e90a9131e34e73502
+Fmathcomp.boot.eqtype
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+def 10689:10696 <> eq_axiom
+binder 10698:10698 <> T:1
+R10705:10707 Corelib.ssr.ssrbool <> rel def
+R10709:10709 mathcomp.boot.eqtype <> T:1 var
+binder 10701:10701 <> e:2
+binder 10722:10722 <> x:3
+binder 10724:10724 <> y:4
+R10727:10733 Corelib.Init.Datatypes <> reflect ind
+R10744:10744 mathcomp.boot.eqtype <> e:2 var
+R10746:10746 mathcomp.boot.eqtype <> x:3 var
+R10748:10748 mathcomp.boot.eqtype <> y:4 var
+R10737:10739 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10736:10736 mathcomp.boot.eqtype <> x:3 var
+R10740:10740 mathcomp.boot.eqtype <> y:4 var
+R10793:10795 Corelib.ssr.ssrbool <> rel def
+R10797:10797 mathcomp.boot.eqtype <> T:5 var
+R10806:10813 mathcomp.boot.eqtype <> eq_axiom def
+R10815:10819 mathcomp.boot.eqtype <> eq_op:6 var
+mod 10753:10822 <> hasDecEq
+sec 10753:10822 hasDecEq.hasDecEq hasDecEq
+var 10753:10822 hasDecEq.hasDecEq T
+rec 10753:10822 hasDecEq axioms_
+proj 10753:10822 hasDecEq eq_op
+proj 10753:10822 hasDecEq eqP
+R10753:10822 mathcomp.boot.eqtype hasDecEq <> sec
+def 10753:10822 hasDecEq phant_Build
+abbrev 10753:10822 hasDecEq Build
+def 10753:10822 hasDecEq phant_axioms
+abbrev 10753:10822 hasDecEq axioms
+def 10753:10822 hasDecEq identity_builder
+mod 10753:10822 <> hasDecEq.Exports
+abbrev 10753:10822 <> hasDecEq
+R10913:10914 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R10916:10919 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R10930:10931 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+binder 10915:10915 <> T:9
+R10920:10927 mathcomp.boot.eqtype <> hasDecEq abbrev
+R10929:10929 mathcomp.boot.eqtype <> T:9 var
+mod 10825:10932 <> Equality
+rec 10825:10932 Equality axioms_
+proj 10825:10932 Equality eqtype_hasDecEq_mixin
+rec 10825:10932 Equality type
+proj 10825:10932 Equality sort
+proj 10825:10932 Equality class
+def 10825:10932 Equality phant_clone
+abbrev 10825:10932 Equality clone
+def 10825:10932 Equality pack_
+mod 10825:10932 <> Equality.Exports
+abbrev 10825:10932 Equality.Exports eqType
+def 10825:10932 Equality phant_on_
+abbrev 10825:10932 Equality on_
+abbrev 10825:10932 Equality copy
+abbrev 10825:10932 Equality on
+def 10825:10932 <> eq_op
+def 10825:10932 <> eqP
+mod 10825:10932 <> EqualityElpiOperations
+abbrev 10825:10932 <> Equality
+mod 10825:10932 <> MathCompCompatEquality
+mod 10825:10932 <> MathCompCompatEquality.Equality
+abbrev 10825:10932 MathCompCompatEquality.Equality axiom
+abbrev 10825:10932 MathCompCompatEquality.Equality axioms
+abbrev 10825:10932 MathCompCompatEquality.Equality mixin_of
+abbrev 10825:10932 MathCompCompatEquality.Equality Mixin
+def 10825:10932 MathCompCompatEquality.Equality phant_mcpack
+abbrev 10825:10932 MathCompCompatEquality.Equality mcpack
+abbrev 10825:10932 MathCompCompatEquality.Equality class_of
+prf 11832:11834 <> eqE
+R11841:11846 mathcomp.boot.eqtype <> eqType abbrev
+binder 11837:11837 <> T:12
+binder 11849:11849 <> x:13
+R11860:11862 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11853:11857 mathcomp.boot.eqtype <> eq_op def
+R11859:11859 mathcomp.boot.eqtype <> x:13 var
+R11863:11876 mathcomp.boot.eqtype <> eq_op def
+R11897:11897 mathcomp.boot.eqtype <> x:13 var
+R11879:11892 mathcomp.boot.eqtype <> class def
+R11894:11894 mathcomp.boot.eqtype <> T:12 var
+R11930:11932 mathcomp.boot.eqtype <> eqP def
+R12029:12033 mathcomp.boot.eqtype <> eq_op def
+not 12016:12016 <> ::bool_scope:x_'=='_x
+R12100:12100 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12106:12111 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12117:12117 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+not 12082:12082 <> ::bool_scope:x_'=='_x_':>'_x
+R12156:12159 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R12166:12166 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R12161:12164 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+not 12143:12143 <> ::bool_scope:x_'!='_x
+R12229:12232 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R12244:12244 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R12234:12237 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x_':>'_x not
+R12239:12242 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x_':>'_x not
+not 12211:12211 <> ::bool_scope:x_'!='_x_':>'_x
+R12289:12295 Corelib.Init.Datatypes <> reflect ind
+R12307:12310 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12299:12301 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12283:12285 mathcomp.boot.eqtype <> eqP def
+not 12270:12270 <> ::eq_scope:x_'=P'_x
+R12394:12400 Corelib.Init.Datatypes <> reflect ind
+R12417:12420 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x_':>'_x not
+R12422:12425 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x_':>'_x not
+R12404:12406 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12408:12411 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12388:12390 mathcomp.boot.eqtype <> eqP def
+not 12370:12370 <> ::eq_scope:x_'=P'_x_':>'_x
+abbrev 12473:12478 <> eqbLHS
+R12483:12483 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+R12485:12489 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+R12496:12497 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+binder 12484:12484 <> X:14
+R12491:12494 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12490:12490 mathcomp.boot.eqtype <> X:14 var
+abbrev 12517:12522 <> eqbRHS
+R12527:12527 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+R12529:12533 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+R12540:12541 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax ::ssrpatternscope:'('_x_'in'_x_')' not
+binder 12528:12528 <> X:15
+R12535:12538 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12539:12539 mathcomp.boot.eqtype <> X:15 var
+prf 12559:12565 <> eq_refl
+R12572:12577 mathcomp.boot.eqtype <> eqType abbrev
+binder 12568:12568 <> T:16
+R12585:12585 mathcomp.boot.eqtype <> T:16 var
+binder 12581:12581 <> x:17
+R12591:12594 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12590:12590 mathcomp.boot.eqtype <> x:17 var
+R12595:12595 mathcomp.boot.eqtype <> x:17 var
+R12611:12613 mathcomp.boot.eqtype <> eqP def
+abbrev 12630:12633 <> eqxx
+R12638:12644 mathcomp.boot.eqtype <> eq_refl thm
+prf 12654:12659 <> eq_sym
+R12666:12671 mathcomp.boot.eqtype <> eqType abbrev
+binder 12662:12662 <> T:18
+R12681:12681 mathcomp.boot.eqtype <> T:18 var
+binder 12675:12675 <> x:19
+binder 12677:12677 <> y:20
+R12686:12686 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12693:12697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12704:12704 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12688:12691 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12687:12687 mathcomp.boot.eqtype <> x:19 var
+R12692:12692 mathcomp.boot.eqtype <> y:20 var
+R12699:12702 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12698:12698 mathcomp.boot.eqtype <> y:20 var
+R12703:12703 mathcomp.boot.eqtype <> x:19 var
+R12720:12722 mathcomp.boot.eqtype <> eqP def
+R12724:12726 mathcomp.boot.eqtype <> eqP def
+ind 12790:12799 <> eq_xor_neq
+constr 12853:12860 <> EqNotNeq
+constr 12902:12909 <> NeqNotEq
+R12806:12811 mathcomp.boot.eqtype <> eqType abbrev
+binder 12802:12802 <> T:21
+R12821:12821 mathcomp.boot.eqtype <> T:21 var
+binder 12815:12815 <> x:22
+binder 12817:12817 <> y:23
+R12830:12833 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12826:12829 Corelib.Init.Datatypes <> bool ind
+R12838:12841 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12834:12837 Corelib.Init.Datatypes <> bool ind
+R12866:12868 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12865:12865 mathcomp.boot.eqtype <> x:22 var
+R12869:12869 mathcomp.boot.eqtype <> y:23 var
+R12873:12882 mathcomp.boot.eqtype <> eq_xor_neq:24 ind
+R12893:12896 Corelib.Init.Datatypes <> true constr
+R12888:12891 Corelib.Init.Datatypes <> true constr
+R12886:12886 mathcomp.boot.eqtype <> y:23 var
+R12884:12884 mathcomp.boot.eqtype <> x:22 var
+R12915:12918 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R12914:12914 mathcomp.boot.eqtype <> x:22 var
+R12919:12919 mathcomp.boot.eqtype <> y:23 var
+R12923:12932 mathcomp.boot.eqtype <> eq_xor_neq:24 ind
+R12944:12948 Corelib.Init.Datatypes <> false constr
+R12938:12942 Corelib.Init.Datatypes <> false constr
+R12936:12936 mathcomp.boot.eqtype <> y:23 var
+R12934:12934 mathcomp.boot.eqtype <> x:22 var
+prf 12958:12963 <> eqVneq
+R12970:12975 mathcomp.boot.eqtype <> eqType abbrev
+binder 12966:12966 <> T:26
+R12985:12985 mathcomp.boot.eqtype <> T:26 var
+binder 12979:12979 <> x:27
+binder 12981:12981 <> y:28
+R12990:12999 mathcomp.boot.eqtype <> eq_xor_neq variant
+R13016:13019 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R13015:13015 mathcomp.boot.eqtype <> x:27 var
+R13020:13020 mathcomp.boot.eqtype <> y:28 var
+R13007:13010 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R13006:13006 mathcomp.boot.eqtype <> y:28 var
+R13011:13011 mathcomp.boot.eqtype <> x:27 var
+R13003:13003 mathcomp.boot.eqtype <> y:28 var
+R13001:13001 mathcomp.boot.eqtype <> x:27 var
+R13042:13047 mathcomp.boot.eqtype <> eq_sym thm
+R13057:13060 Corelib.ssr.ssrbool <> altP thm
+R13062:13064 mathcomp.boot.eqtype <> eqP def
+R13097:13102 mathcomp.boot.eqtype <> eqVneq thm
+sec 13131:13145 <> Contrapositives
+var 13160:13161 Contrapositives T1
+var 13163:13164 Contrapositives T2
+R13168:13173 mathcomp.boot.eqtype <> eqType abbrev
+R13197:13200 Corelib.ssr.ssrbool <> pred def
+R13202:13203 mathcomp.boot.eqtype <> Contrapositives.T1 var
+R13211:13214 Corelib.Init.Datatypes <> bool ind
+R13233:13234 mathcomp.boot.eqtype <> Contrapositives.T1 var
+R13242:13243 mathcomp.boot.eqtype <> Contrapositives.T2 var
+prf 13254:13262 <> contraTeq
+binder 13264:13264 <> b:33
+binder 13266:13266 <> x:34
+binder 13268:13268 <> y:35
+R13272:13272 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13287:13291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13279:13282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13274:13277 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13273:13273 mathcomp.boot.eqtype <> x:34 var
+R13278:13278 mathcomp.boot.eqtype <> y:35 var
+R13283:13285 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R13286:13286 mathcomp.boot.eqtype <> b:33 var
+R13293:13296 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13292:13292 mathcomp.boot.eqtype <> b:33 var
+R13298:13300 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13297:13297 mathcomp.boot.eqtype <> x:34 var
+R13301:13301 mathcomp.boot.eqtype <> y:35 var
+R13336:13338 mathcomp.boot.eqtype <> eqP def
+R13348:13355 Corelib.ssr.ssrbool <> contraTT def
+prf 13374:13382 <> contraNeq
+binder 13384:13384 <> b:36
+binder 13386:13386 <> x:37
+binder 13388:13388 <> y:38
+R13392:13392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13404:13408 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13399:13402 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13394:13397 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13393:13393 mathcomp.boot.eqtype <> x:37 var
+R13398:13398 mathcomp.boot.eqtype <> y:38 var
+R13403:13403 mathcomp.boot.eqtype <> b:36 var
+R13413:13416 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13409:13411 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R13412:13412 mathcomp.boot.eqtype <> b:36 var
+R13418:13420 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13417:13417 mathcomp.boot.eqtype <> x:37 var
+R13421:13421 mathcomp.boot.eqtype <> y:38 var
+R13456:13458 mathcomp.boot.eqtype <> eqP def
+R13468:13475 Corelib.ssr.ssrbool <> contraNT def
+prf 13494:13502 <> contraFeq
+binder 13504:13504 <> b:39
+binder 13506:13506 <> x:40
+binder 13508:13508 <> y:41
+R13512:13512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13524:13528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13519:13522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13514:13517 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13513:13513 mathcomp.boot.eqtype <> x:40 var
+R13518:13518 mathcomp.boot.eqtype <> y:41 var
+R13523:13523 mathcomp.boot.eqtype <> b:39 var
+R13538:13541 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13530:13532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13529:13529 mathcomp.boot.eqtype <> b:39 var
+R13533:13537 Corelib.Init.Datatypes <> false constr
+R13543:13545 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13542:13542 mathcomp.boot.eqtype <> x:40 var
+R13546:13546 mathcomp.boot.eqtype <> y:41 var
+R13585:13593 mathcomp.boot.eqtype <> contraNeq thm
+R13571:13575 Corelib.ssr.ssrbool <> negbT thm
+prf 13608:13616 <> contraPeq
+binder 13618:13618 <> P:42
+binder 13620:13620 <> x:43
+binder 13622:13622 <> y:44
+R13626:13626 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13640:13644 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13633:13636 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13628:13631 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13627:13627 mathcomp.boot.eqtype <> x:43 var
+R13632:13632 mathcomp.boot.eqtype <> y:44 var
+R13637:13638 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13639:13639 mathcomp.boot.eqtype <> P:42 var
+R13646:13649 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13645:13645 mathcomp.boot.eqtype <> P:42 var
+R13651:13653 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13650:13650 mathcomp.boot.eqtype <> x:43 var
+R13654:13654 mathcomp.boot.eqtype <> y:44 var
+R13689:13697 mathcomp.boot.eqtype <> contraTeq thm
+R13699:13701 Corelib.ssr.ssrbool <> isT def
+prf 13732:13744 <> contra_not_eq
+binder 13746:13746 <> P:45
+binder 13748:13748 <> x:46
+binder 13750:13750 <> y:47
+R13754:13754 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13766:13770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13761:13764 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13756:13759 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13755:13755 mathcomp.boot.eqtype <> x:46 var
+R13760:13760 mathcomp.boot.eqtype <> y:47 var
+R13765:13765 mathcomp.boot.eqtype <> P:45 var
+R13774:13777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13771:13772 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13773:13773 mathcomp.boot.eqtype <> P:45 var
+R13779:13781 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13778:13778 mathcomp.boot.eqtype <> x:46 var
+R13782:13782 mathcomp.boot.eqtype <> y:47 var
+R13814:13822 mathcomp.boot.eqtype <> contraPeq thm
+prf 13856:13869 <> contra_not_neq
+binder 13871:13871 <> P:48
+binder 13873:13873 <> x:49
+binder 13875:13875 <> y:50
+R13879:13879 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13890:13894 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13885:13888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13881:13883 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13880:13880 mathcomp.boot.eqtype <> x:49 var
+R13884:13884 mathcomp.boot.eqtype <> y:50 var
+R13889:13889 mathcomp.boot.eqtype <> P:48 var
+R13898:13901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13895:13896 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13897:13897 mathcomp.boot.eqtype <> P:48 var
+R13903:13906 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R13902:13902 mathcomp.boot.eqtype <> x:49 var
+R13907:13907 mathcomp.boot.eqtype <> y:50 var
+R13939:13949 Corelib.ssr.ssrbool <> contra_notN thm
+R13955:13957 mathcomp.boot.eqtype <> eqP def
+prf 13972:13981 <> contraTneq
+binder 13983:13983 <> b:51
+binder 13985:13985 <> x:52
+binder 13987:13987 <> y:53
+R13991:13991 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14005:14009 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13997:14000 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13993:13995 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13992:13992 mathcomp.boot.eqtype <> x:52 var
+R13996:13996 mathcomp.boot.eqtype <> y:53 var
+R14001:14003 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14004:14004 mathcomp.boot.eqtype <> b:51 var
+R14011:14014 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14010:14010 mathcomp.boot.eqtype <> b:51 var
+R14016:14019 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14015:14015 mathcomp.boot.eqtype <> x:52 var
+R14020:14020 mathcomp.boot.eqtype <> y:53 var
+R14052:14059 Corelib.ssr.ssrbool <> contraTN def
+R14065:14067 mathcomp.boot.eqtype <> eqP def
+prf 14082:14091 <> contraNneq
+binder 14093:14093 <> b:54
+binder 14095:14095 <> x:55
+binder 14097:14097 <> y:56
+R14101:14101 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14112:14116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14107:14110 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14103:14105 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14102:14102 mathcomp.boot.eqtype <> x:55 var
+R14106:14106 mathcomp.boot.eqtype <> y:56 var
+R14111:14111 mathcomp.boot.eqtype <> b:54 var
+R14121:14124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14117:14119 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14120:14120 mathcomp.boot.eqtype <> b:54 var
+R14126:14129 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14125:14125 mathcomp.boot.eqtype <> x:55 var
+R14130:14130 mathcomp.boot.eqtype <> y:56 var
+R14162:14169 Corelib.ssr.ssrbool <> contraNN def
+R14175:14177 mathcomp.boot.eqtype <> eqP def
+prf 14192:14201 <> contraFneq
+binder 14203:14203 <> b:57
+binder 14205:14205 <> x:58
+binder 14207:14207 <> y:59
+R14211:14211 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14222:14226 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14217:14220 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14213:14215 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14212:14212 mathcomp.boot.eqtype <> x:58 var
+R14216:14216 mathcomp.boot.eqtype <> y:59 var
+R14221:14221 mathcomp.boot.eqtype <> b:57 var
+R14236:14239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14228:14230 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14227:14227 mathcomp.boot.eqtype <> b:57 var
+R14231:14235 Corelib.Init.Datatypes <> false constr
+R14241:14244 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14240:14240 mathcomp.boot.eqtype <> x:58 var
+R14245:14245 mathcomp.boot.eqtype <> y:59 var
+R14284:14293 mathcomp.boot.eqtype <> contraNneq thm
+R14270:14274 Corelib.ssr.ssrbool <> negbT thm
+prf 14308:14317 <> contraPneq
+binder 14319:14319 <> P:60
+binder 14321:14321 <> x:61
+binder 14323:14323 <> y:62
+R14327:14327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14340:14344 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14333:14336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14329:14331 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14328:14328 mathcomp.boot.eqtype <> x:61 var
+R14332:14332 mathcomp.boot.eqtype <> y:62 var
+R14337:14338 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14339:14339 mathcomp.boot.eqtype <> P:60 var
+R14346:14349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14345:14345 mathcomp.boot.eqtype <> P:60 var
+R14351:14354 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14350:14350 mathcomp.boot.eqtype <> x:61 var
+R14355:14355 mathcomp.boot.eqtype <> y:62 var
+R14387:14394 Corelib.ssr.ssrbool <> contraPN thm
+R14400:14402 mathcomp.boot.eqtype <> eqP def
+prf 14417:14426 <> contra_eqN
+binder 14428:14428 <> b:63
+binder 14430:14430 <> x:64
+binder 14432:14432 <> y:65
+R14436:14436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14448:14452 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14438:14441 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14437:14437 mathcomp.boot.eqtype <> b:63 var
+R14443:14446 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14442:14442 mathcomp.boot.eqtype <> x:64 var
+R14447:14447 mathcomp.boot.eqtype <> y:65 var
+R14458:14461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14454:14456 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14453:14453 mathcomp.boot.eqtype <> x:64 var
+R14457:14457 mathcomp.boot.eqtype <> y:65 var
+R14462:14464 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14465:14465 mathcomp.boot.eqtype <> b:63 var
+R14502:14508 Corelib.ssr.ssrbool <> contraL thm
+R14490:14492 mathcomp.boot.eqtype <> eqP def
+prf 14523:14532 <> contra_eqF
+binder 14534:14534 <> b:66
+binder 14536:14536 <> x:67
+binder 14538:14538 <> y:68
+R14542:14542 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14554:14558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14544:14547 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14543:14543 mathcomp.boot.eqtype <> b:66 var
+R14549:14552 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14548:14548 mathcomp.boot.eqtype <> x:67 var
+R14553:14553 mathcomp.boot.eqtype <> y:68 var
+R14564:14567 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14560:14562 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14559:14559 mathcomp.boot.eqtype <> x:67 var
+R14563:14563 mathcomp.boot.eqtype <> y:68 var
+R14569:14571 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14568:14568 mathcomp.boot.eqtype <> b:66 var
+R14572:14576 Corelib.Init.Datatypes <> false constr
+R14613:14620 Corelib.ssr.ssrbool <> contraTF thm
+R14601:14603 mathcomp.boot.eqtype <> eqP def
+prf 14635:14644 <> contra_eqT
+binder 14646:14646 <> b:69
+binder 14648:14648 <> x:70
+binder 14650:14650 <> y:71
+R14654:14654 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14669:14673 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14659:14662 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14655:14657 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14658:14658 mathcomp.boot.eqtype <> b:69 var
+R14664:14667 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14663:14663 mathcomp.boot.eqtype <> x:70 var
+R14668:14668 mathcomp.boot.eqtype <> y:71 var
+R14679:14682 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14675:14677 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14674:14674 mathcomp.boot.eqtype <> x:70 var
+R14678:14678 mathcomp.boot.eqtype <> y:71 var
+R14683:14683 mathcomp.boot.eqtype <> b:69 var
+R14720:14727 Corelib.ssr.ssrbool <> contraLR thm
+R14708:14710 mathcomp.boot.eqtype <> eqP def
+prf 14742:14752 <> contra_neqN
+binder 14754:14754 <> b:72
+binder 14756:14756 <> x:73
+binder 14758:14758 <> y:74
+R14762:14762 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14773:14777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14764:14767 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14763:14763 mathcomp.boot.eqtype <> b:72 var
+R14769:14771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14768:14768 mathcomp.boot.eqtype <> x:73 var
+R14772:14772 mathcomp.boot.eqtype <> y:74 var
+R14784:14787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14779:14782 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14778:14778 mathcomp.boot.eqtype <> x:73 var
+R14783:14783 mathcomp.boot.eqtype <> y:74 var
+R14788:14790 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14791:14791 mathcomp.boot.eqtype <> b:72 var
+R14823:14830 Corelib.ssr.ssrbool <> contraNN def
+prf 14855:14865 <> contra_neqF
+binder 14867:14867 <> b:75
+binder 14869:14869 <> x:76
+binder 14871:14871 <> y:77
+R14875:14875 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14886:14890 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14877:14880 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14876:14876 mathcomp.boot.eqtype <> b:75 var
+R14882:14884 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14881:14881 mathcomp.boot.eqtype <> x:76 var
+R14885:14885 mathcomp.boot.eqtype <> y:77 var
+R14897:14900 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14892:14895 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R14891:14891 mathcomp.boot.eqtype <> x:76 var
+R14896:14896 mathcomp.boot.eqtype <> y:77 var
+R14902:14904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14901:14901 mathcomp.boot.eqtype <> b:75 var
+R14905:14909 Corelib.Init.Datatypes <> false constr
+R14941:14948 Corelib.ssr.ssrbool <> contraNF thm
+prf 14973:14983 <> contra_neqT
+binder 14985:14985 <> b:78
+binder 14987:14987 <> x:79
+binder 14989:14989 <> y:80
+R14993:14993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15007:15011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14998:15001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14994:14996 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14997:14997 mathcomp.boot.eqtype <> b:78 var
+R15003:15005 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15002:15002 mathcomp.boot.eqtype <> x:79 var
+R15006:15006 mathcomp.boot.eqtype <> y:80 var
+R15018:15021 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15013:15016 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15012:15012 mathcomp.boot.eqtype <> x:79 var
+R15017:15017 mathcomp.boot.eqtype <> y:80 var
+R15022:15022 mathcomp.boot.eqtype <> b:78 var
+R15054:15061 Corelib.ssr.ssrbool <> contraNT def
+prf 15086:15098 <> contra_eq_not
+binder 15100:15100 <> P:81
+binder 15102:15102 <> x:82
+binder 15104:15104 <> y:83
+R15108:15108 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15120:15124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15110:15113 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15109:15109 mathcomp.boot.eqtype <> P:81 var
+R15115:15118 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15114:15114 mathcomp.boot.eqtype <> x:82 var
+R15119:15119 mathcomp.boot.eqtype <> y:83 var
+R15130:15133 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15126:15128 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15125:15125 mathcomp.boot.eqtype <> x:82 var
+R15129:15129 mathcomp.boot.eqtype <> y:83 var
+R15134:15135 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15136:15136 mathcomp.boot.eqtype <> P:81 var
+R15173:15182 Corelib.ssr.ssrbool <> contraTnot thm
+R15161:15163 mathcomp.boot.eqtype <> eqP def
+prf 15197:15210 <> contra_neq_not
+binder 15212:15212 <> P:84
+binder 15214:15214 <> x:85
+binder 15216:15216 <> y:86
+R15220:15220 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15231:15235 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15222:15225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15221:15221 mathcomp.boot.eqtype <> P:84 var
+R15227:15229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15226:15226 mathcomp.boot.eqtype <> x:85 var
+R15230:15230 mathcomp.boot.eqtype <> y:86 var
+R15242:15245 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15237:15240 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15236:15236 mathcomp.boot.eqtype <> x:85 var
+R15241:15241 mathcomp.boot.eqtype <> y:86 var
+R15246:15247 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15248:15248 mathcomp.boot.eqtype <> P:84 var
+R15279:15288 Corelib.ssr.ssrbool <> contraNnot thm
+prf 15313:15321 <> contra_eq
+binder 15323:15324 <> z1:87
+binder 15326:15327 <> z2:88
+binder 15329:15330 <> x1:89
+binder 15332:15333 <> x2:90
+R15337:15337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15358:15362 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15346:15349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15340:15343 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15338:15339 mathcomp.boot.eqtype <> x1:89 var
+R15344:15345 mathcomp.boot.eqtype <> x2:90 var
+R15352:15355 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15350:15351 mathcomp.boot.eqtype <> z1:87 var
+R15356:15357 mathcomp.boot.eqtype <> z2:88 var
+R15370:15373 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15365:15367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15363:15364 mathcomp.boot.eqtype <> z1:87 var
+R15368:15369 mathcomp.boot.eqtype <> z2:88 var
+R15376:15378 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15374:15375 mathcomp.boot.eqtype <> x1:89 var
+R15379:15380 mathcomp.boot.eqtype <> x2:90 var
+R15417:15425 mathcomp.boot.eqtype <> contraTeq thm
+R15405:15407 mathcomp.boot.eqtype <> eqP def
+prf 15440:15449 <> contra_neq
+binder 15451:15452 <> z1:91
+binder 15454:15455 <> z2:92
+binder 15457:15458 <> x1:93
+binder 15460:15461 <> x2:94
+R15465:15465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15484:15488 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15473:15476 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15468:15470 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15466:15467 mathcomp.boot.eqtype <> x1:93 var
+R15471:15472 mathcomp.boot.eqtype <> x2:94 var
+R15479:15481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15477:15478 mathcomp.boot.eqtype <> z1:91 var
+R15482:15483 mathcomp.boot.eqtype <> z2:92 var
+R15497:15500 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15491:15494 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15489:15490 mathcomp.boot.eqtype <> z1:91 var
+R15495:15496 mathcomp.boot.eqtype <> z2:92 var
+R15503:15506 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15501:15502 mathcomp.boot.eqtype <> x1:93 var
+R15507:15508 mathcomp.boot.eqtype <> x2:94 var
+R15540:15549 mathcomp.boot.eqtype <> contraNneq thm
+prf 15574:15586 <> contra_neq_eq
+binder 15588:15589 <> z1:95
+binder 15591:15592 <> z2:96
+binder 15594:15595 <> x1:97
+binder 15597:15598 <> x2:98
+R15602:15602 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15622:15626 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15611:15614 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15605:15608 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15603:15604 mathcomp.boot.eqtype <> x1:97 var
+R15609:15610 mathcomp.boot.eqtype <> x2:98 var
+R15617:15619 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15615:15616 mathcomp.boot.eqtype <> z1:95 var
+R15620:15621 mathcomp.boot.eqtype <> z2:96 var
+R15635:15638 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15629:15632 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15627:15628 mathcomp.boot.eqtype <> z1:95 var
+R15633:15634 mathcomp.boot.eqtype <> z2:96 var
+R15641:15643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15639:15640 mathcomp.boot.eqtype <> x1:97 var
+R15644:15645 mathcomp.boot.eqtype <> x2:98 var
+R15677:15685 mathcomp.boot.eqtype <> contraNeq thm
+prf 15710:15722 <> contra_eq_neq
+binder 15724:15725 <> z1:99
+binder 15727:15728 <> z2:100
+binder 15730:15731 <> x1:101
+binder 15733:15734 <> x2:102
+R15738:15738 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15758:15762 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15746:15749 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15741:15743 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15739:15740 mathcomp.boot.eqtype <> z1:99 var
+R15744:15745 mathcomp.boot.eqtype <> z2:100 var
+R15752:15755 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15750:15751 mathcomp.boot.eqtype <> x1:101 var
+R15756:15757 mathcomp.boot.eqtype <> x2:102 var
+R15770:15773 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15765:15767 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15763:15764 mathcomp.boot.eqtype <> x1:101 var
+R15768:15769 mathcomp.boot.eqtype <> x2:102 var
+R15776:15779 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15774:15775 mathcomp.boot.eqtype <> z1:99 var
+R15780:15781 mathcomp.boot.eqtype <> z2:100 var
+R15813:15822 mathcomp.boot.eqtype <> contra_eqN thm
+R15828:15830 mathcomp.boot.eqtype <> eqP def
+prf 15850:15854 <> memPn
+binder 15856:15856 <> A:103
+binder 15858:15858 <> x:104
+R15862:15868 Corelib.Init.Datatypes <> reflect ind
+R15897:15904 Corelib.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R15896:15896 mathcomp.boot.eqtype <> x:104 var
+R15905:15905 mathcomp.boot.eqtype <> A:103 var
+R15870:15873 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15875:15876 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15893:15893 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15874:15874 mathcomp.boot.eqtype <> A:103 var
+binder 15884:15884 <> y:105
+R15888:15891 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15887:15887 mathcomp.boot.eqtype <> y:105 var
+R15892:15892 mathcomp.boot.eqtype <> x:104 var
+R15924:15927 Corelib.ssr.ssrbool <> iffP thm
+R15929:15931 Corelib.ssr.ssrbool <> idP thm
+R15972:15981 mathcomp.boot.eqtype <> contraTneq thm
+R15997:16003 Corelib.ssr.ssrbool <> contraL thm
+prf 16030:16035 <> memPnC
+binder 16037:16037 <> A:106
+binder 16039:16039 <> x:107
+R16043:16049 Corelib.Init.Datatypes <> reflect ind
+R16078:16085 Corelib.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R16077:16077 mathcomp.boot.eqtype <> x:107 var
+R16086:16086 mathcomp.boot.eqtype <> A:106 var
+R16051:16054 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R16056:16057 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R16074:16074 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R16055:16055 mathcomp.boot.eqtype <> A:106 var
+binder 16065:16065 <> y:108
+R16069:16072 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R16068:16068 mathcomp.boot.eqtype <> x:107 var
+R16073:16073 mathcomp.boot.eqtype <> y:108 var
+R16108:16111 Corelib.ssr.ssrbool <> iffP thm
+R16114:16118 mathcomp.boot.eqtype <> memPn thm
+R16149:16154 mathcomp.boot.eqtype <> eq_sym thm
+prf 16169:16174 <> ifN_eq
+binder 16176:16176 <> R:109
+binder 16178:16178 <> x:110
+binder 16180:16180 <> y:111
+binder 16182:16183 <> vT:112
+binder 16185:16186 <> vF:113
+R16196:16199 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16191:16194 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R16190:16190 mathcomp.boot.eqtype <> x:110 var
+R16195:16195 mathcomp.boot.eqtype <> y:111 var
+R16200:16200 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16226:16229 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16232:16235 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16236:16236 mathcomp.boot.eqtype <> R:109 var
+R16201:16203 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16210:16215 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16218:16223 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16205:16208 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R16204:16204 mathcomp.boot.eqtype <> x:110 var
+R16209:16209 mathcomp.boot.eqtype <> y:111 var
+R16216:16217 mathcomp.boot.eqtype <> vT:112 var
+R16224:16225 mathcomp.boot.eqtype <> vF:113 var
+R16230:16231 mathcomp.boot.eqtype <> vF:113 var
+R16253:16255 Corelib.ssr.ssrbool <> ifN thm
+prf 16270:16276 <> ifN_eqC
+binder 16278:16278 <> R:114
+binder 16280:16280 <> x:115
+binder 16282:16282 <> y:116
+binder 16284:16285 <> vT:117
+binder 16287:16288 <> vF:118
+R16298:16301 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16293:16296 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R16292:16292 mathcomp.boot.eqtype <> x:115 var
+R16297:16297 mathcomp.boot.eqtype <> y:116 var
+R16302:16302 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16328:16331 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16334:16337 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16338:16338 mathcomp.boot.eqtype <> R:114 var
+R16303:16305 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16312:16317 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16320:16325 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16307:16310 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R16306:16306 mathcomp.boot.eqtype <> y:116 var
+R16311:16311 mathcomp.boot.eqtype <> x:115 var
+R16318:16319 mathcomp.boot.eqtype <> vT:117 var
+R16326:16327 mathcomp.boot.eqtype <> vF:118 var
+R16332:16333 mathcomp.boot.eqtype <> vF:118 var
+R16359:16364 mathcomp.boot.eqtype <> eq_sym thm
+R16374:16376 Corelib.ssr.ssrbool <> ifN thm
+R16389:16403 mathcomp.boot.eqtype Contrapositives <> sec
+R16417:16421 mathcomp.boot.eqtype <> memPn thm
+R16443:16448 mathcomp.boot.eqtype <> memPnC thm
+prf 16469:16482 <> eq_irrelevance
+R16489:16494 mathcomp.boot.eqtype <> eqType abbrev
+binder 16485:16485 <> T:119
+binder 16497:16497 <> x:120
+binder 16499:16499 <> y:121
+R16519:16521 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16523:16526 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16527:16527 mathcomp.boot.eqtype <> T:119 var
+R16518:16518 mathcomp.boot.eqtype <> x:120 var
+R16522:16522 mathcomp.boot.eqtype <> y:121 var
+binder 16510:16511 <> e1:122
+binder 16513:16514 <> e2:123
+R16532:16534 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16530:16531 mathcomp.boot.eqtype <> e1:122 var
+R16535:16536 mathcomp.boot.eqtype <> e2:123 var
+binder 16556:16556 <> z:124
+binder 16558:16558 <> e:125
+R16567:16570 mathcomp.boot.eqtype <> ::eq_scope:x_'=P'_x not
+R16571:16571 mathcomp.boot.eqtype <> z:124 var
+R16576:16583 Corelib.Init.Datatypes <> ReflectT constr
+R16601:16601 mathcomp.boot.eqtype <> e:125 var
+R16679:16681 mathcomp.boot.eqtype <> eqP def
+R16610:16618 Corelib.ssr.ssrfun <> injective def
+R16700:16702 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+binder 16695:16695 <> e:126
+R16709:16714 Corelib.ssr.ssrfun <> etrans def
+R16717:16720 Corelib.ssr.ssrfun <> esym def
+R16722:16722 mathcomp.boot.eqtype <> e:126 var
+R16733:16739 Corelib.ssr.ssrfun <> can_inj thm
+R16760:16764 Corelib.ssr.ssrfun <> erefl abbrev
+prf 16826:16834 <> eq_axiomK
+R16841:16846 mathcomp.boot.eqtype <> eqType abbrev
+binder 16837:16837 <> T:127
+R16854:16854 mathcomp.boot.eqtype <> T:127 var
+binder 16850:16850 <> x:128
+R16859:16870 Corelib.ssr.ssrfun <> all_equal_to def
+R16873:16877 Corelib.ssr.ssrfun <> erefl abbrev
+R16879:16879 mathcomp.boot.eqtype <> x:128 var
+R16915:16928 mathcomp.boot.eqtype <> eq_irrelevance thm
+modtype 17089:17101 <> EqTypePredSig
+ax 17114:17117 EqTypePredSig sort
+R17127:17130 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17121:17126 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R17131:17141 Corelib.ssr.ssrbool <> predArgType def
+R17148:17160 mathcomp.boot.eqtype EqTypePredSig <> modtype
+R17194:17206 mathcomp.boot.eqtype EqTypePredSig <> modtype
+mod 17170:17183 <> MakeEqTypePred
+R17210:17253 mathcomp.boot.eqtype eqmod sort defax
+R17260:17273 mathcomp.boot.eqtype MakeEqTypePred <> mod
+R17304:17317 mathcomp.boot.eqtype MakeEqTypePred <> mod
+R17319:17333 mathcomp.boot.eqtype Equality <> mod
+mod 17290:17299 <> EqTypePred
+R17290:17299 mathcomp.boot.eqtype EqTypePred <> mod
+prf 17343:17350 <> unit_eqP
+R17354:17367 mathcomp.boot.eqtype <> axiom abbrev
+R17380:17383 Corelib.Init.Datatypes <> unit ind
+R17388:17391 Corelib.Init.Datatypes <> true constr
+R17456:17469 mathcomp.boot.eqtype <> Build abbrev
+R17471:17474 Corelib.Init.Datatypes <> unit ind
+R17476:17483 mathcomp.boot.eqtype <> unit_eqP thm
+def 17428:17484 <> HB_unnamed_factory_1
+def 17428:17484 <> Datatypes_unit__canonical__eqtype_Equality
+def 17598:17600 <> eqb
+binder 17602:17602 <> b:131
+R17607:17610 Corelib.ssr.ssrbool <> addb def
+R17613:17615 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R17616:17616 mathcomp.boot.eqtype <> b:131 var
+prf 17627:17630 <> eqbP
+R17634:17647 mathcomp.boot.eqtype <> axiom abbrev
+R17649:17651 mathcomp.boot.eqtype <> eqb def
+R17722:17735 mathcomp.boot.eqtype <> Build abbrev
+R17737:17740 Corelib.Init.Datatypes <> bool ind
+R17742:17745 mathcomp.boot.eqtype <> eqbP thm
+def 17694:17746 <> HB_unnamed_factory_3
+def 17694:17746 <> Datatypes_bool__canonical__eqtype_Equality
+prf 17755:17758 <> eqbE
+R17765:17767 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17762:17764 mathcomp.boot.eqtype <> eqb def
+R17768:17772 mathcomp.boot.eqtype <> eq_op def
+prf 17801:17816 <> bool_irrelevance
+R17823:17826 Corelib.Init.Datatypes <> bool ind
+binder 17819:17819 <> b:132
+R17838:17838 mathcomp.boot.eqtype <> b:132 var
+binder 17830:17831 <> p1:133
+binder 17833:17834 <> p2:134
+R17845:17847 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17843:17844 mathcomp.boot.eqtype <> p1:133 var
+R17848:17849 mathcomp.boot.eqtype <> p2:134 var
+R17866:17879 mathcomp.boot.eqtype <> eq_irrelevance thm
+prf 17894:17901 <> negb_add
+binder 17903:17904 <> b1:135
+binder 17906:17907 <> b2:136
+R17925:17928 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17937:17937 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17911:17914 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R17924:17924 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R17917:17921 Corelib.ssr.ssrbool <> ::bool_scope:x_'(+)'_x not
+R17915:17916 mathcomp.boot.eqtype <> b1:135 var
+R17922:17923 mathcomp.boot.eqtype <> b2:136 var
+R17931:17934 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R17929:17930 mathcomp.boot.eqtype <> b1:135 var
+R17935:17936 mathcomp.boot.eqtype <> b2:136 var
+R17959:17963 Corelib.ssr.ssrbool <> addNb thm
+prf 17978:17985 <> negb_eqb
+binder 17987:17988 <> b1:137
+binder 17990:17991 <> b2:138
+R17995:17995 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18004:18007 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17998:18001 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R17996:17997 mathcomp.boot.eqtype <> b1:137 var
+R18002:18003 mathcomp.boot.eqtype <> b2:138 var
+R18010:18014 Corelib.ssr.ssrbool <> ::bool_scope:x_'(+)'_x not
+R18008:18009 mathcomp.boot.eqtype <> b1:137 var
+R18015:18016 mathcomp.boot.eqtype <> b2:138 var
+R18038:18042 Corelib.ssr.ssrbool <> addNb thm
+R18044:18048 Corelib.ssr.ssrbool <> negbK thm
+prf 18063:18068 <> eqb_id
+binder 18070:18070 <> b:139
+R18074:18074 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18084:18087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18076:18079 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18075:18075 mathcomp.boot.eqtype <> b:139 var
+R18080:18083 Corelib.Init.Datatypes <> true constr
+R18088:18088 mathcomp.boot.eqtype <> b:139 var
+prf 18122:18129 <> eqbF_neg
+binder 18131:18131 <> b:140
+R18135:18135 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18146:18149 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18137:18140 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18136:18136 mathcomp.boot.eqtype <> b:140 var
+R18141:18145 Corelib.Init.Datatypes <> false constr
+R18150:18152 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R18153:18153 mathcomp.boot.eqtype <> b:140 var
+prf 18187:18195 <> eqb_negLR
+binder 18197:18198 <> b1:141
+binder 18200:18201 <> b2:142
+R18205:18205 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18217:18221 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18233:18233 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18211:18214 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18206:18208 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R18209:18210 mathcomp.boot.eqtype <> b1:141 var
+R18215:18216 mathcomp.boot.eqtype <> b2:142 var
+R18224:18227 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18222:18223 mathcomp.boot.eqtype <> b1:141 var
+R18228:18230 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R18231:18232 mathcomp.boot.eqtype <> b2:142 var
+abbrev 18321:18326 <> xpred1
+binder 18336:18337 <> a1:143
+binder 18339:18339 <> x:144
+R18345:18348 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18344:18344 mathcomp.boot.eqtype <> x:144 var
+R18349:18350 mathcomp.boot.eqtype <> a1:143 var
+abbrev 18363:18368 <> xpred2
+binder 18378:18379 <> a1:145
+binder 18381:18382 <> a2:146
+binder 18384:18384 <> x:147
+R18389:18389 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18397:18402 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18410:18410 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18391:18394 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18390:18390 mathcomp.boot.eqtype <> x:147 var
+R18395:18396 mathcomp.boot.eqtype <> a1:145 var
+R18404:18407 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18403:18403 mathcomp.boot.eqtype <> x:147 var
+R18408:18409 mathcomp.boot.eqtype <> a2:146 var
+abbrev 18423:18428 <> xpred3
+binder 18438:18439 <> a1:148
+binder 18441:18442 <> a2:149
+binder 18444:18445 <> a3:150
+binder 18447:18447 <> x:151
+R18452:18455 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18463:18464 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18472:18474 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18482:18482 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18457:18460 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18456:18456 mathcomp.boot.eqtype <> x:151 var
+R18461:18462 mathcomp.boot.eqtype <> a1:148 var
+R18466:18469 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18465:18465 mathcomp.boot.eqtype <> x:151 var
+R18470:18471 mathcomp.boot.eqtype <> a2:149 var
+R18476:18479 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18475:18475 mathcomp.boot.eqtype <> x:151 var
+R18480:18481 mathcomp.boot.eqtype <> a3:150 var
+abbrev 18495:18500 <> xpred4
+binder 18512:18513 <> a1:152
+binder 18515:18516 <> a2:153
+binder 18518:18519 <> a3:154
+binder 18521:18522 <> a4:155
+binder 18524:18524 <> x:156
+R18529:18532 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18540:18541 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18549:18550 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18558:18560 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18568:18568 Corelib.ssr.ssrbool <> ::bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R18534:18537 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18533:18533 mathcomp.boot.eqtype <> x:156 var
+R18538:18539 mathcomp.boot.eqtype <> a1:152 var
+R18543:18546 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18542:18542 mathcomp.boot.eqtype <> x:156 var
+R18547:18548 mathcomp.boot.eqtype <> a2:153 var
+R18552:18555 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18551:18551 mathcomp.boot.eqtype <> x:156 var
+R18556:18557 mathcomp.boot.eqtype <> a3:154 var
+R18562:18565 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18561:18561 mathcomp.boot.eqtype <> x:156 var
+R18566:18567 mathcomp.boot.eqtype <> a4:155 var
+abbrev 18581:18587 <> xpredU1
+binder 18597:18598 <> a1:157
+R18605:18608 Corelib.ssr.ssrbool <> pred def
+binder 18601:18601 <> p:158
+binder 18613:18613 <> x:159
+R18618:18618 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18626:18630 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18620:18623 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R18619:18619 mathcomp.boot.eqtype <> x:159 var
+R18624:18625 mathcomp.boot.eqtype <> a1:157 var
+R18631:18631 mathcomp.boot.eqtype <> p:158 var
+R18633:18633 mathcomp.boot.eqtype <> x:159 var
+abbrev 18646:18652 <> xpredC1
+binder 18662:18663 <> a1:160
+binder 18665:18665 <> x:161
+R18671:18674 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R18670:18670 mathcomp.boot.eqtype <> x:161 var
+R18675:18676 mathcomp.boot.eqtype <> a1:160 var
+abbrev 18689:18695 <> xpredD1
+R18710:18713 Corelib.ssr.ssrbool <> pred def
+binder 18706:18706 <> p:162
+binder 18718:18719 <> a1:163
+binder 18721:18721 <> x:164
+R18726:18726 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R18734:18738 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R18728:18731 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R18727:18727 mathcomp.boot.eqtype <> x:164 var
+R18732:18733 mathcomp.boot.eqtype <> a1:163 var
+R18739:18739 mathcomp.boot.eqtype <> p:162 var
+R18741:18741 mathcomp.boot.eqtype <> x:164 var
+sec 18754:18759 <> EqPred
+var 18772:18772 EqPred T
+R18776:18781 mathcomp.boot.eqtype <> eqType abbrev
+def 18796:18800 <> pred1
+R18808:18808 mathcomp.boot.eqtype <> EqPred.T var
+binder 18803:18804 <> a1:167
+R18814:18822 Corelib.ssr.ssrbool <> SimplPred def
+R18825:18830 mathcomp.boot.eqtype <> xpred1 abbrev
+R18832:18833 mathcomp.boot.eqtype <> a1:167 var
+def 18848:18852 <> pred2
+R18863:18863 mathcomp.boot.eqtype <> EqPred.T var
+binder 18855:18856 <> a1:168
+binder 18858:18859 <> a2:169
+R18869:18877 Corelib.ssr.ssrbool <> SimplPred def
+R18880:18885 mathcomp.boot.eqtype <> xpred2 abbrev
+R18887:18888 mathcomp.boot.eqtype <> a1:168 var
+R18890:18891 mathcomp.boot.eqtype <> a2:169 var
+def 18906:18910 <> pred3
+R18924:18924 mathcomp.boot.eqtype <> EqPred.T var
+binder 18913:18914 <> a1:170
+binder 18916:18917 <> a2:171
+binder 18919:18920 <> a3:172
+R18930:18938 Corelib.ssr.ssrbool <> SimplPred def
+R18941:18946 mathcomp.boot.eqtype <> xpred3 abbrev
+R18948:18949 mathcomp.boot.eqtype <> a1:170 var
+R18951:18952 mathcomp.boot.eqtype <> a2:171 var
+R18954:18955 mathcomp.boot.eqtype <> a3:172 var
+def 18970:18974 <> pred4
+R18991:18991 mathcomp.boot.eqtype <> EqPred.T var
+binder 18977:18978 <> a1:173
+binder 18980:18981 <> a2:174
+binder 18983:18984 <> a3:175
+binder 18986:18987 <> a4:176
+R18997:19005 Corelib.ssr.ssrbool <> SimplPred def
+R19008:19013 mathcomp.boot.eqtype <> xpred4 abbrev
+R19015:19016 mathcomp.boot.eqtype <> a1:173 var
+R19018:19019 mathcomp.boot.eqtype <> a2:174 var
+R19021:19022 mathcomp.boot.eqtype <> a3:175 var
+R19024:19025 mathcomp.boot.eqtype <> a4:176 var
+def 19040:19045 <> predU1
+R19053:19053 mathcomp.boot.eqtype <> EqPred.T var
+binder 19048:19049 <> a1:177
+binder 19056:19056 <> p:178
+R19061:19069 Corelib.ssr.ssrbool <> SimplPred def
+R19072:19078 mathcomp.boot.eqtype <> xpredU1 abbrev
+R19080:19081 mathcomp.boot.eqtype <> a1:177 var
+R19083:19083 mathcomp.boot.eqtype <> p:178 var
+def 19098:19103 <> predC1
+R19111:19111 mathcomp.boot.eqtype <> EqPred.T var
+binder 19106:19107 <> a1:179
+R19117:19125 Corelib.ssr.ssrbool <> SimplPred def
+R19128:19134 mathcomp.boot.eqtype <> xpredC1 abbrev
+R19136:19137 mathcomp.boot.eqtype <> a1:179 var
+def 19152:19157 <> predD1
+binder 19159:19159 <> p:180
+R19167:19167 mathcomp.boot.eqtype <> EqPred.T var
+binder 19162:19163 <> a1:181
+R19173:19181 Corelib.ssr.ssrbool <> SimplPred def
+R19184:19190 mathcomp.boot.eqtype <> xpredD1 abbrev
+R19192:19192 mathcomp.boot.eqtype <> p:180 var
+R19194:19195 mathcomp.boot.eqtype <> a1:181 var
+prf 19206:19211 <> pred1E
+R19220:19223 Corelib.ssr.ssrfun <> ::type_scope:x_'=2'_x not
+R19215:19219 mathcomp.boot.eqtype <> pred1 def
+R19224:19228 mathcomp.boot.eqtype <> eq_op def
+R19260:19265 mathcomp.boot.eqtype <> eq_sym thm
+var 19285:19286 EqPred T2
+var 19299:19299 EqPred x
+var 19301:19301 EqPred y
+var 19309:19309 EqPred z
+var 19311:19311 EqPred u
+var 19320:19320 EqPred b
+R19290:19295 mathcomp.boot.eqtype <> eqType abbrev
+R19305:19305 mathcomp.boot.eqtype <> EqPred.T var
+R19315:19316 mathcomp.boot.eqtype <> T2:183 var
+R19324:19327 Corelib.Init.Datatypes <> bool ind
+prf 19338:19344 <> predU1P
+R19348:19354 Corelib.Init.Datatypes <> reflect ind
+R19370:19370 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19377:19381 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19372:19375 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R19371:19371 mathcomp.boot.eqtype <> EqPred.x var
+R19376:19376 mathcomp.boot.eqtype <> EqPred.y var
+R19382:19382 mathcomp.boot.eqtype <> EqPred.b var
+R19362:19365 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19358:19360 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19357:19357 mathcomp.boot.eqtype <> EqPred.x var
+R19361:19361 mathcomp.boot.eqtype <> EqPred.y var
+R19366:19366 mathcomp.boot.eqtype <> EqPred.b var
+R19404:19407 Corelib.ssr.ssrbool <> iffP thm
+R19409:19411 Corelib.ssr.ssrbool <> orP thm
+R19428:19430 mathcomp.boot.eqtype <> eqP def
+prf 19464:19469 <> pred2P
+R19473:19479 Corelib.Init.Datatypes <> reflect ind
+R19499:19499 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19506:19511 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19518:19518 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19501:19504 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R19500:19500 mathcomp.boot.eqtype <> EqPred.x var
+R19505:19505 mathcomp.boot.eqtype <> EqPred.y var
+R19513:19516 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R19512:19512 mathcomp.boot.eqtype <> EqPred.z var
+R19517:19517 mathcomp.boot.eqtype <> EqPred.u var
+R19487:19490 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19483:19485 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19482:19482 mathcomp.boot.eqtype <> EqPred.x var
+R19486:19486 mathcomp.boot.eqtype <> EqPred.y var
+R19492:19494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19491:19491 mathcomp.boot.eqtype <> EqPred.z var
+R19495:19495 mathcomp.boot.eqtype <> EqPred.u var
+R19540:19543 Corelib.ssr.ssrbool <> iffP thm
+R19545:19547 Corelib.ssr.ssrbool <> orP thm
+R19563:19565 mathcomp.boot.eqtype <> eqP def
+prf 19597:19603 <> predD1P
+R19607:19613 Corelib.Init.Datatypes <> reflect ind
+R19630:19630 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19637:19641 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19632:19635 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R19631:19631 mathcomp.boot.eqtype <> EqPred.x var
+R19636:19636 mathcomp.boot.eqtype <> EqPred.y var
+R19642:19642 mathcomp.boot.eqtype <> EqPred.b var
+R19622:19625 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19617:19620 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R19616:19616 mathcomp.boot.eqtype <> EqPred.x var
+R19621:19621 mathcomp.boot.eqtype <> EqPred.y var
+R19626:19626 mathcomp.boot.eqtype <> EqPred.b var
+R19664:19667 Corelib.ssr.ssrbool <> iffP thm
+R19669:19672 Corelib.ssr.ssrbool <> andP thm
+R19687:19689 mathcomp.boot.eqtype <> eqP def
+prf 19704:19710 <> predU1l
+R19719:19722 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19715:19717 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19714:19714 mathcomp.boot.eqtype <> EqPred.x var
+R19718:19718 mathcomp.boot.eqtype <> EqPred.y var
+R19723:19723 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19730:19734 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19725:19728 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R19724:19724 mathcomp.boot.eqtype <> EqPred.x var
+R19729:19729 mathcomp.boot.eqtype <> EqPred.y var
+R19735:19735 mathcomp.boot.eqtype <> EqPred.b var
+R19764:19767 mathcomp.boot.eqtype <> eqxx abbrev
+prf 19782:19788 <> predU1r
+R19793:19796 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19792:19792 mathcomp.boot.eqtype <> EqPred.b var
+R19797:19797 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19804:19808 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R19799:19802 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R19798:19798 mathcomp.boot.eqtype <> EqPred.x var
+R19803:19803 mathcomp.boot.eqtype <> EqPred.y var
+R19809:19809 mathcomp.boot.eqtype <> EqPred.b var
+R19838:19841 Corelib.ssr.ssrbool <> orbT thm
+R19854:19859 mathcomp.boot.eqtype EqPred <> sec
+R19873:19879 mathcomp.boot.eqtype <> predU1P thm
+R19902:19907 mathcomp.boot.eqtype <> pred2P thm
+R19935:19941 mathcomp.boot.eqtype <> predD1P thm
+R20052:20057 mathcomp.boot.eqtype <> predU1 def
+R20061:20064 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+R20066:20066 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+not 20027:20027 <> ::function_scope:'['_'predU1'_x_'&'_x_']'
+R20156:20161 mathcomp.boot.eqtype <> predD1 def
+R20163:20166 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+R20168:20168 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+not 20131:20131 <> ::function_scope:'['_'predD1'_x_'&'_x_']'
+sec 20289:20293 <> EqFun
+sec 20305:20307 EqFun Exo
+var 20322:20323 EqFun.Exo aT
+var 20325:20326 EqFun.Exo rT
+var 20339:20339 EqFun.Exo D
+var 20353:20353 EqFun.Exo f
+var 20368:20368 EqFun.Exo g
+R20330:20335 mathcomp.boot.eqtype <> eqType abbrev
+R20343:20346 Corelib.ssr.ssrbool <> pred def
+R20348:20349 mathcomp.boot.eqtype <> aT:196 var
+R20359:20362 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20357:20358 mathcomp.boot.eqtype <> aT:196 var
+R20363:20364 mathcomp.boot.eqtype <> rT:197 var
+R20374:20377 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20372:20373 mathcomp.boot.eqtype <> rT:197 var
+R20378:20379 mathcomp.boot.eqtype <> aT:196 var
+prf 20390:20395 <> inj_eq
+R20410:20413 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20399:20407 Corelib.ssr.ssrfun <> injective def
+R20409:20409 mathcomp.boot.eqtype <> EqFun.Exo.f var
+binder 20421:20421 <> x:204
+binder 20423:20423 <> y:205
+R20426:20426 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20437:20441 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20448:20448 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20430:20433 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20427:20427 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20429:20429 mathcomp.boot.eqtype <> x:204 var
+R20434:20434 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20436:20436 mathcomp.boot.eqtype <> y:205 var
+R20443:20446 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20442:20442 mathcomp.boot.eqtype <> x:204 var
+R20447:20447 mathcomp.boot.eqtype <> y:205 var
+R20485:20487 mathcomp.boot.eqtype <> eqP def
+R20489:20491 mathcomp.boot.eqtype <> eqP def
+prf 20531:20536 <> can_eq
+R20550:20553 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20540:20545 Corelib.ssr.ssrfun <> cancel def
+R20549:20549 mathcomp.boot.eqtype <> EqFun.Exo.g var
+R20547:20547 mathcomp.boot.eqtype <> EqFun.Exo.f var
+binder 20561:20561 <> x:206
+binder 20563:20563 <> y:207
+R20566:20566 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20577:20581 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20588:20588 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20570:20573 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20567:20567 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20569:20569 mathcomp.boot.eqtype <> x:206 var
+R20574:20574 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20576:20576 mathcomp.boot.eqtype <> y:207 var
+R20583:20586 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20582:20582 mathcomp.boot.eqtype <> x:206 var
+R20587:20587 mathcomp.boot.eqtype <> y:207 var
+R20622:20627 mathcomp.boot.eqtype <> inj_eq thm
+R20606:20612 Corelib.ssr.ssrfun <> can_inj thm
+prf 20642:20647 <> bij_eq
+R20662:20665 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20651:20659 Corelib.ssr.ssrfun <> bijective variant
+R20661:20661 mathcomp.boot.eqtype <> EqFun.Exo.f var
+binder 20673:20673 <> x:208
+binder 20675:20675 <> y:209
+R20678:20678 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20689:20693 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20700:20700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20682:20685 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20679:20679 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20681:20681 mathcomp.boot.eqtype <> x:208 var
+R20686:20686 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20688:20688 mathcomp.boot.eqtype <> y:209 var
+R20695:20698 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20694:20694 mathcomp.boot.eqtype <> x:208 var
+R20699:20699 mathcomp.boot.eqtype <> y:209 var
+R20734:20739 mathcomp.boot.eqtype <> inj_eq thm
+R20718:20724 Corelib.ssr.ssrfun <> bij_inj thm
+prf 20754:20760 <> can2_eq
+R20774:20777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20764:20769 Corelib.ssr.ssrfun <> cancel def
+R20773:20773 mathcomp.boot.eqtype <> EqFun.Exo.g var
+R20771:20771 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20788:20791 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20778:20783 Corelib.ssr.ssrfun <> cancel def
+R20787:20787 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20785:20785 mathcomp.boot.eqtype <> EqFun.Exo.g var
+binder 20799:20799 <> x:210
+binder 20801:20801 <> y:211
+R20804:20804 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20813:20817 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20826:20826 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20808:20811 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20805:20805 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20807:20807 mathcomp.boot.eqtype <> x:210 var
+R20812:20812 mathcomp.boot.eqtype <> y:211 var
+R20819:20822 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20818:20818 mathcomp.boot.eqtype <> x:210 var
+R20823:20823 mathcomp.boot.eqtype <> EqFun.Exo.g var
+R20825:20825 mathcomp.boot.eqtype <> y:211 var
+R20872:20874 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R20887:20892 mathcomp.boot.eqtype <> can_eq thm
+prf 20907:20915 <> inj_in_eq
+R20942:20945 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20921:20924 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20926:20929 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20941:20941 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20925:20925 mathcomp.boot.eqtype <> EqFun.Exo.D var
+R20930:20938 Corelib.ssr.ssrfun <> injective def
+R20940:20940 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20946:20949 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20951:20954 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20990:20990 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20950:20950 mathcomp.boot.eqtype <> EqFun.Exo.D var
+binder 20962:20962 <> x:212
+binder 20964:20964 <> y:213
+R20967:20967 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20978:20982 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20989:20989 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20971:20974 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20968:20968 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20970:20970 mathcomp.boot.eqtype <> x:212 var
+R20975:20975 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R20977:20977 mathcomp.boot.eqtype <> y:213 var
+R20984:20987 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R20983:20983 mathcomp.boot.eqtype <> x:212 var
+R20988:20988 mathcomp.boot.eqtype <> y:213 var
+R21033:21035 mathcomp.boot.eqtype <> eqP def
+R21037:21039 mathcomp.boot.eqtype <> eqP def
+prf 21079:21087 <> can_in_eq
+R21111:21114 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21093:21096 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R21098:21099 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R21110:21110 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R21097:21097 mathcomp.boot.eqtype <> EqFun.Exo.D var
+R21100:21105 Corelib.ssr.ssrfun <> cancel def
+R21109:21109 mathcomp.boot.eqtype <> EqFun.Exo.g var
+R21107:21107 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R21115:21118 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R21120:21123 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R21159:21159 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R21119:21119 mathcomp.boot.eqtype <> EqFun.Exo.D var
+binder 21131:21131 <> x:214
+binder 21133:21133 <> y:215
+R21136:21136 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21147:21151 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21158:21158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21140:21143 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21137:21137 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R21139:21139 mathcomp.boot.eqtype <> x:214 var
+R21144:21144 mathcomp.boot.eqtype <> EqFun.Exo.f var
+R21146:21146 mathcomp.boot.eqtype <> y:215 var
+R21153:21156 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21152:21152 mathcomp.boot.eqtype <> x:214 var
+R21157:21157 mathcomp.boot.eqtype <> y:215 var
+R21196:21204 mathcomp.boot.eqtype <> inj_in_eq thm
+R21177:21186 Corelib.ssr.ssrbool <> can_in_inj thm
+R21217:21219 mathcomp.boot.eqtype EqFun.Exo <> sec
+sec 21231:21234 EqFun Endo
+var 21247:21247 EqFun.Endo T
+R21251:21256 mathcomp.boot.eqtype <> eqType abbrev
+def 21271:21274 <> frel
+binder 21276:21276 <> f:218
+R21281:21285 Corelib.ssr.ssrbool <> ::function_scope:'['_'rel'_x_x_':'_x_'|'_x_']' not
+R21287:21287 Corelib.ssr.ssrbool <> ::function_scope:'['_'rel'_x_x_':'_x_'|'_x_']' not
+R21289:21291 Corelib.ssr.ssrbool <> ::function_scope:'['_'rel'_x_x_':'_x_'|'_x_']' not
+R21293:21295 Corelib.ssr.ssrbool <> ::function_scope:'['_'rel'_x_x_':'_x_'|'_x_']' not
+R21304:21304 Corelib.ssr.ssrbool <> ::function_scope:'['_'rel'_x_x_':'_x_'|'_x_']' not
+R21292:21292 mathcomp.boot.eqtype <> EqFun.Endo.T var
+binder 21286:21286 <> x:219
+binder 21288:21288 <> y:220
+R21299:21302 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21296:21296 mathcomp.boot.eqtype <> f:218 var
+R21298:21298 mathcomp.boot.eqtype <> x:219 var
+R21303:21303 mathcomp.boot.eqtype <> y:220 var
+prf 21314:21319 <> inv_eq
+binder 21321:21321 <> f:221
+R21337:21340 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21325:21334 Corelib.ssr.ssrfun <> involutive def
+R21336:21336 mathcomp.boot.eqtype <> f:221 var
+R21354:21354 mathcomp.boot.eqtype <> EqFun.Endo.T var
+binder 21348:21348 <> x:222
+binder 21350:21350 <> y:223
+R21357:21357 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21366:21370 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21379:21379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21361:21364 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21358:21358 mathcomp.boot.eqtype <> f:221 var
+R21360:21360 mathcomp.boot.eqtype <> x:222 var
+R21365:21365 mathcomp.boot.eqtype <> y:223 var
+R21372:21375 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21371:21371 mathcomp.boot.eqtype <> x:222 var
+R21376:21376 mathcomp.boot.eqtype <> f:221 var
+R21378:21378 mathcomp.boot.eqtype <> y:223 var
+R21410:21416 mathcomp.boot.eqtype <> can2_eq thm
+prf 21431:21437 <> eq_frel
+binder 21439:21439 <> f:224
+binder 21441:21442 <> f':225
+R21453:21456 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21447:21450 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R21446:21446 mathcomp.boot.eqtype <> f:224 var
+R21451:21452 mathcomp.boot.eqtype <> f':225 var
+R21463:21466 Corelib.ssr.ssrfun <> ::type_scope:x_'=2'_x not
+R21457:21460 mathcomp.boot.eqtype <> frel def
+R21462:21462 mathcomp.boot.eqtype <> f:224 var
+R21467:21470 mathcomp.boot.eqtype <> frel def
+R21472:21473 mathcomp.boot.eqtype <> f':225 var
+R21530:21533 mathcomp.boot.eqtype EqFun.Endo <> sec
+var 21546:21547 EqFun aT
+def 21726:21734 <> invariant
+R21742:21747 mathcomp.boot.eqtype <> eqType abbrev
+binder 21737:21738 <> rT:228
+binder 21750:21750 <> f:229
+R21759:21762 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21757:21758 mathcomp.boot.eqtype <> EqFun.aT var
+R21763:21764 mathcomp.boot.eqtype <> rT:228 var
+binder 21753:21753 <> k:230
+R21772:21777 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R21779:21781 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R21796:21796 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 21778:21778 <> x:231
+R21789:21792 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R21782:21782 mathcomp.boot.eqtype <> k:230 var
+R21785:21785 mathcomp.boot.eqtype <> f:229 var
+R21787:21787 mathcomp.boot.eqtype <> x:231 var
+R21793:21793 mathcomp.boot.eqtype <> k:230 var
+R21795:21795 mathcomp.boot.eqtype <> x:231 var
+var 21811:21813 EqFun rT1
+var 21815:21817 EqFun rT2
+var 21830:21830 EqFun f
+var 21845:21845 EqFun h
+var 21862:21862 EqFun k
+R21821:21826 mathcomp.boot.eqtype <> eqType abbrev
+R21836:21839 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21834:21835 mathcomp.boot.eqtype <> EqFun.aT var
+R21840:21841 mathcomp.boot.eqtype <> EqFun.aT var
+R21852:21855 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21849:21851 mathcomp.boot.eqtype <> rT1:234 var
+R21856:21858 mathcomp.boot.eqtype <> rT2:235 var
+R21868:21871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21866:21867 mathcomp.boot.eqtype <> EqFun.aT var
+R21872:21874 mathcomp.boot.eqtype <> rT1:234 var
+prf 21885:21898 <> invariant_comp
+R21902:21908 Corelib.ssr.ssrbool <> subpred def
+R21927:21935 mathcomp.boot.eqtype <> invariant def
+R21941:21944 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R21940:21940 mathcomp.boot.eqtype <> EqFun.h var
+R21945:21945 mathcomp.boot.eqtype <> EqFun.k var
+R21937:21937 mathcomp.boot.eqtype <> EqFun.f var
+R21911:21919 mathcomp.boot.eqtype <> invariant def
+R21923:21923 mathcomp.boot.eqtype <> EqFun.k var
+R21921:21921 mathcomp.boot.eqtype <> EqFun.f var
+R21989:21991 mathcomp.boot.eqtype <> eqP def
+prf 22014:22026 <> invariant_inj
+R22041:22044 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22030:22038 Corelib.ssr.ssrfun <> injective def
+R22040:22040 mathcomp.boot.eqtype <> EqFun.h var
+R22065:22068 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R22045:22053 mathcomp.boot.eqtype <> invariant def
+R22059:22062 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R22058:22058 mathcomp.boot.eqtype <> EqFun.h var
+R22063:22063 mathcomp.boot.eqtype <> EqFun.k var
+R22055:22055 mathcomp.boot.eqtype <> EqFun.f var
+R22069:22077 mathcomp.boot.eqtype <> invariant def
+R22081:22081 mathcomp.boot.eqtype <> EqFun.k var
+R22079:22079 mathcomp.boot.eqtype <> EqFun.f var
+R22118:22123 mathcomp.boot.eqtype <> inj_eq thm
+R22143:22147 mathcomp.boot.eqtype EqFun <> sec
+abbrev 22261:22272 <> coerced_frel
+R22280:22291 Corelib.ssr.ssrbool <> rel_of_simpl coe
+R22294:22297 mathcomp.boot.eqtype <> frel def
+sec 22328:22334 <> FunWith
+var 22349:22350 FunWith aT
+var 22363:22364 FunWith rT
+R22354:22359 mathcomp.boot.eqtype <> eqType abbrev
+ind 22384:22392 <> fun_delta
+constr 22404:22411 <> FunDelta
+R22416:22417 mathcomp.boot.eqtype <> FunWith.aT var
+R22421:22422 mathcomp.boot.eqtype <> FunWith.rT var
+def 22437:22441 <> fwith
+binder 22443:22443 <> x:248
+binder 22445:22445 <> y:249
+R22454:22457 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22452:22453 mathcomp.boot.eqtype <> FunWith.aT var
+R22458:22459 mathcomp.boot.eqtype <> FunWith.rT var
+binder 22448:22448 <> f:250
+R22465:22469 Corelib.ssr.ssrfun <> ::function_scope:'['_'fun'_x_'=>'_x_']' not
+R22471:22474 Corelib.ssr.ssrfun <> ::function_scope:'['_'fun'_x_'=>'_x_']' not
+R22500:22500 Corelib.ssr.ssrfun <> ::function_scope:'['_'fun'_x_'=>'_x_']' not
+binder 22470:22470 <> z:251
+R22475:22477 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22484:22489 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22491:22496 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22479:22482 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R22478:22478 mathcomp.boot.eqtype <> z:251 var
+R22483:22483 mathcomp.boot.eqtype <> x:248 var
+R22490:22490 mathcomp.boot.eqtype <> y:249 var
+R22497:22497 mathcomp.boot.eqtype <> f:250 var
+R22499:22499 mathcomp.boot.eqtype <> z:251 var
+def 22515:22524 <> app_fdelta
+binder 22526:22527 <> df:252
+binder 22529:22529 <> f:253
+binder 22531:22531 <> z:254
+R22559:22560 mathcomp.boot.eqtype <> df:252 var
+R22543:22550 mathcomp.boot.eqtype <> FunDelta constr
+R22565:22567 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22574:22579 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22581:22586 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R22569:22572 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R22568:22568 mathcomp.boot.eqtype <> z:254 var
+R22587:22587 mathcomp.boot.eqtype <> f:253 var
+R22589:22589 mathcomp.boot.eqtype <> z:254 var
+R22597:22603 mathcomp.boot.eqtype FunWith <> sec
+R22655:22662 mathcomp.boot.eqtype <> FunDelta constr
+not 22641:22641 <> ::fun_delta_scope:x_'|->'_x
+R22818:22827 mathcomp.boot.eqtype <> app_fdelta def
+R22921:22933 Corelib.ssr.ssrfun <> SimplFunDelta def
+binder 22940:22940 <> z:256
+R22954:22963 mathcomp.boot.eqtype <> app_fdelta def
+R22982:22991 mathcomp.boot.eqtype <> app_fdelta def
+not 22872:22872 <> ::function_scope:'['_'fun'_x_':'_x_'=>'_x_'with'_x_','_'..'_','_x_']'
+R23124:23136 Corelib.ssr.ssrfun <> SimplFunDelta def
+binder 23143:23143 <> z:257
+R23153:23162 mathcomp.boot.eqtype <> app_fdelta def
+R23181:23190 mathcomp.boot.eqtype <> app_fdelta def
+not 23079:23079 <> ::function_scope:'['_'fun'_x_'=>'_x_'with'_x_','_'..'_','_x_']'
+R23407:23419 Corelib.ssr.ssrfun <> SimplFunDelta def
+R23436:23445 mathcomp.boot.eqtype <> app_fdelta def
+R23464:23473 mathcomp.boot.eqtype <> app_fdelta def
+not 23367:23367 <> ::function_scope:'['_'eta'_x_'with'_x_','_'..'_','_x_']'
+sec 23621:23628 <> DFunWith
+var 23642:23642 DFunWith I
+var 23655:23655 DFunWith T
+var 23671:23671 DFunWith f
+R23646:23651 mathcomp.boot.eqtype <> eqType abbrev
+R23660:23663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23659:23659 mathcomp.boot.eqtype <> I:259 var
+binder 23682:23682 <> i:262
+R23685:23685 mathcomp.boot.eqtype <> T:261 var
+R23687:23687 mathcomp.boot.eqtype <> i:262 var
+def 23703:23708 <> dfwith
+binder 23710:23710 <> i:265
+R23717:23717 mathcomp.boot.eqtype <> DFunWith.T var
+R23719:23719 mathcomp.boot.eqtype <> i:265 var
+binder 23713:23713 <> x:266
+R23727:23727 mathcomp.boot.eqtype <> DFunWith.I var
+binder 23723:23723 <> j:267
+R23732:23732 mathcomp.boot.eqtype <> DFunWith.T var
+R23734:23734 mathcomp.boot.eqtype <> j:267 var
+R23746:23749 mathcomp.boot.eqtype <> ::eq_scope:x_'=P'_x not
+R23745:23745 mathcomp.boot.eqtype <> i:265 var
+R23750:23750 mathcomp.boot.eqtype <> j:267 var
+R23756:23763 Corelib.Init.Datatypes <> ReflectT constr
+R23773:23777 Corelib.ssr.ssrfun <> ecast abbrev
+binder 23779:23779 <> j:268
+binder 23779:23779 <> j:269
+R23790:23790 mathcomp.boot.eqtype <> x:266 var
+R23782:23782 mathcomp.boot.eqtype <> DFunWith.T var
+R23784:23784 mathcomp.boot.eqtype <> j:268 var
+R23797:23797 mathcomp.boot.eqtype <> DFunWith.f var
+R23799:23799 mathcomp.boot.eqtype <> j:267 var
+prf 23809:23817 <> dfwith_in
+binder 23819:23819 <> i:270
+binder 23821:23821 <> x:271
+R23835:23837 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23825:23830 mathcomp.boot.eqtype <> dfwith def
+R23834:23834 mathcomp.boot.eqtype <> i:270 var
+R23832:23832 mathcomp.boot.eqtype <> x:271 var
+R23838:23838 mathcomp.boot.eqtype <> x:271 var
+R23860:23865 mathcomp.boot.eqtype <> dfwith def
+R23874:23876 mathcomp.boot.eqtype <> eqP def
+R23896:23904 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 23919:23928 <> dfwith_out
+binder 23930:23930 <> i:272
+R23937:23937 mathcomp.boot.eqtype <> DFunWith.T var
+R23939:23939 mathcomp.boot.eqtype <> i:272 var
+binder 23933:23933 <> x:273
+binder 23942:23942 <> j:274
+R23952:23955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23947:23950 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R23946:23946 mathcomp.boot.eqtype <> i:272 var
+R23951:23951 mathcomp.boot.eqtype <> j:274 var
+R23966:23968 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23956:23961 mathcomp.boot.eqtype <> dfwith def
+R23965:23965 mathcomp.boot.eqtype <> j:274 var
+R23963:23963 mathcomp.boot.eqtype <> x:273 var
+R23969:23969 mathcomp.boot.eqtype <> DFunWith.f var
+R23971:23971 mathcomp.boot.eqtype <> j:274 var
+R23993:23998 mathcomp.boot.eqtype <> dfwith def
+R24007:24009 mathcomp.boot.eqtype <> eqP def
+ind 24026:24036 <> dfwith_spec
+constr 24080:24089 <> DFunWithIn
+constr 24113:24123 <> DFunWithOut
+binder 24038:24038 <> i:275
+R24045:24045 mathcomp.boot.eqtype <> DFunWith.T var
+R24047:24047 mathcomp.boot.eqtype <> i:275 var
+binder 24041:24041 <> x:276
+binder 24059:24059 <> j:277
+R24065:24068 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24062:24062 mathcomp.boot.eqtype <> DFunWith.T var
+R24064:24064 mathcomp.boot.eqtype <> j:277 var
+R24093:24103 mathcomp.boot.eqtype <> dfwith_spec:278 ind
+R24107:24107 mathcomp.boot.eqtype <> x:276 var
+R24105:24105 mathcomp.boot.eqtype <> x:276 var
+binder 24125:24125 <> j:280
+R24135:24138 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24130:24133 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R24129:24129 mathcomp.boot.eqtype <> i:275 var
+R24134:24134 mathcomp.boot.eqtype <> j:280 var
+R24139:24149 mathcomp.boot.eqtype <> dfwith_spec:278 ind
+R24154:24154 mathcomp.boot.eqtype <> DFunWith.f var
+R24156:24156 mathcomp.boot.eqtype <> j:280 var
+R24151:24151 mathcomp.boot.eqtype <> x:276 var
+prf 24167:24173 <> dfwithP
+binder 24175:24175 <> i:281
+R24182:24182 mathcomp.boot.eqtype <> DFunWith.T var
+R24184:24184 mathcomp.boot.eqtype <> i:281 var
+binder 24178:24178 <> x:282
+R24192:24192 mathcomp.boot.eqtype <> DFunWith.I var
+binder 24188:24188 <> j:283
+R24197:24207 mathcomp.boot.eqtype <> dfwith_spec variant
+R24212:24217 mathcomp.boot.eqtype <> dfwith def
+R24221:24221 mathcomp.boot.eqtype <> j:283 var
+R24219:24219 mathcomp.boot.eqtype <> x:282 var
+R24209:24209 mathcomp.boot.eqtype <> x:282 var
+R24242:24247 mathcomp.boot.eqtype <> eqVneq thm
+R24279:24287 mathcomp.boot.eqtype <> dfwith_in thm
+R24297:24306 mathcomp.boot.eqtype <> dfwith_out thm
+R24335:24342 mathcomp.boot.eqtype DFunWith <> sec
+R24355:24360 mathcomp.boot.eqtype <> dfwith def
+sec 24463:24476 <> ComparableType
+var 24489:24489 ComparableType T
+def 24511:24520 <> comparable
+R24538:24538 mathcomp.boot.eqtype <> ComparableType.T var
+binder 24532:24532 <> x:286
+binder 24534:24534 <> y:287
+R24541:24549 Corelib.ssr.ssrbool <> decidable def
+R24553:24555 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24552:24552 mathcomp.boot.eqtype <> x:286 var
+R24556:24556 mathcomp.boot.eqtype <> y:287 var
+var 24572:24580 ComparableType compare_T
+R24584:24593 mathcomp.boot.eqtype <> comparable def
+def 24608:24615 <> compareb
+binder 24617:24617 <> x:290
+binder 24619:24619 <> y:291
+R24623:24626 Corelib.Init.Datatypes <> bool ind
+R24631:24639 mathcomp.boot.eqtype <> ComparableType.compare_T var
+R24643:24643 mathcomp.boot.eqtype <> y:291 var
+R24641:24641 mathcomp.boot.eqtype <> x:290 var
+prf 24653:24660 <> compareP
+R24664:24677 mathcomp.boot.eqtype <> axiom abbrev
+R24679:24686 mathcomp.boot.eqtype <> compareb def
+R24718:24725 Corelib.ssr.ssrbool <> sumboolP thm
+def 24745:24759 <> comparableMixin
+R24764:24777 mathcomp.boot.eqtype <> Build abbrev
+R24779:24779 mathcomp.boot.eqtype <> ComparableType.T var
+R24781:24788 mathcomp.boot.eqtype <> compareP thm
+R24796:24809 mathcomp.boot.eqtype ComparableType <> sec
+def 24824:24836 <> eq_comparable
+R24843:24848 mathcomp.boot.eqtype <> eqType abbrev
+binder 24839:24839 <> T:292
+R24853:24862 mathcomp.boot.eqtype <> comparable def
+R24864:24864 mathcomp.boot.eqtype <> T:292 var
+binder 24875:24875 <> x:293
+binder 24877:24877 <> y:294
+R24882:24885 Corelib.ssr.ssrbool <> decP def
+R24889:24892 mathcomp.boot.eqtype <> ::eq_scope:x_'=P'_x not
+R24888:24888 mathcomp.boot.eqtype <> x:293 var
+R24893:24893 mathcomp.boot.eqtype <> y:294 var
+R24954:24957 Corelib.ssr.ssrbool <> pred def
+R24959:24959 mathcomp.boot.eqtype <> T:295 var
+R25008:25011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25000:25007 mathcomp.boot.eqtype <> sub_sort:297 var
+R25012:25012 mathcomp.boot.eqtype <> T:295 var
+binder 25030:25030 <> x:299
+R25036:25039 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25033:25033 mathcomp.boot.eqtype <> P:296 var
+R25035:25035 mathcomp.boot.eqtype <> x:299 var
+R25040:25047 mathcomp.boot.eqtype <> sub_sort:297 var
+binder 25070:25070 <> K:301
+binder 25084:25084 <> x:302
+binder 25086:25087 <> Px:303
+R25090:25090 mathcomp.boot.eqtype <> K:301 var
+R25094:25096 mathcomp.boot.eqtype <> Sub:300 var
+R25098:25098 mathcomp.boot.eqtype <> x:302 var
+R25100:25101 mathcomp.boot.eqtype <> Px:303 var
+binder 25105:25105 <> u:304
+R25108:25108 mathcomp.boot.eqtype <> K:301 var
+R25110:25110 mathcomp.boot.eqtype <> u:304 var
+binder 25138:25138 <> x:306
+binder 25140:25141 <> Px:307
+R25166:25168 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25144:25153 mathcomp.boot.eqtype <> val_subdef:298 var
+R25157:25159 mathcomp.boot.eqtype <> Sub:300 var
+R25161:25161 mathcomp.boot.eqtype <> x:306 var
+R25163:25164 mathcomp.boot.eqtype <> Px:307 var
+R25169:25169 mathcomp.boot.eqtype <> x:306 var
+mod 24898:25172 <> isSub
+sec 24898:25172 isSub.isSub isSub
+var 24898:25172 isSub.isSub T
+var 24898:25172 isSub.isSub P
+var 24898:25172 isSub.isSub sub_sort
+rec 24898:25172 isSub axioms_
+proj 24898:25172 isSub val_subdef
+proj 24898:25172 isSub Sub
+proj 24898:25172 isSub Sub_rect
+proj 24898:25172 isSub SubK_subproof
+R24898:25172 mathcomp.boot.eqtype isSub <> sec
+def 24898:25172 isSub phant_Build
+abbrev 24898:25172 isSub Build
+def 24898:25172 isSub phant_axioms
+abbrev 24898:25172 isSub axioms
+def 24898:25172 isSub identity_builder
+mod 24898:25172 <> isSub.Exports
+abbrev 24898:25172 <> isSub
+R25248:25251 Corelib.ssr.ssrbool <> pred def
+R25253:25253 mathcomp.boot.eqtype <> T:312 var
+R25259:25260 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R25262:25265 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R25277:25278 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+binder 25261:25261 <> S:314
+R25266:25270 mathcomp.boot.eqtype <> isSub abbrev
+R25272:25272 mathcomp.boot.eqtype <> T:312 var
+R25274:25274 mathcomp.boot.eqtype <> P:313 var
+R25276:25276 mathcomp.boot.eqtype <> S:314 var
+mod 25175:25279 <> SubType
+rec 25175:25279 SubType axioms_
+proj 25175:25279 SubType eqtype_isSub_mixin
+rec 25175:25279 SubType type
+proj 25175:25279 SubType sort
+proj 25175:25279 SubType class
+def 25175:25279 SubType phant_clone
+abbrev 25175:25279 SubType clone
+def 25175:25279 SubType pack_
+mod 25175:25279 <> SubType.Exports
+abbrev 25175:25279 SubType.Exports subType
+def 25175:25279 SubType phant_on_
+abbrev 25175:25279 SubType on_
+abbrev 25175:25279 SubType copy
+abbrev 25175:25279 SubType on
+def 25175:25279 <> val_subdef
+def 25175:25279 <> Sub
+def 25175:25279 <> Sub_rect
+def 25175:25279 <> SubK_subproof
+mod 25175:25279 <> SubTypeElpiOperations
+abbrev 25175:25279 <> SubType
+abbrev 25291:25293 <> val
+R25299:25314 mathcomp.boot.eqtype <> val_subdef def
+R25317:25326 mathcomp.boot.eqtype <> on abbrev
+R25353:25368 mathcomp.boot.eqtype <> val_subdef def
+R25371:25380 mathcomp.boot.eqtype <> on abbrev
+not 25342:25342 <> :::'\val'
+R25422:25437 mathcomp.boot.eqtype <> val_subdef def
+not 25411:25411 <> :::'\val'
+R25530:25533 Corelib.ssr.ssrbool <> pred def
+R25535:25535 mathcomp.boot.eqtype <> T:316 var
+R25543:25544 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R25547:25550 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R25562:25564 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+R25577:25577 HB.structures <> ::HB_scope:'{'_x_'of'_x_'&'_'..'_'&'_x_'}' not
+binder 25545:25546 <> sT:318
+R25551:25558 mathcomp.boot.eqtype <> Equality abbrev
+R25560:25561 mathcomp.boot.eqtype <> sT:318 var
+R25565:25569 mathcomp.boot.eqtype <> isSub abbrev
+R25571:25571 mathcomp.boot.eqtype <> T:316 var
+R25573:25573 mathcomp.boot.eqtype <> P:317 var
+R25575:25576 mathcomp.boot.eqtype <> sT:318 var
+mod 25460:25578 <> SubEquality
+rec 25460:25578 SubEquality axioms_
+proj 25460:25578 SubEquality eqtype_hasDecEq_mixin
+proj 25460:25578 SubEquality eqtype_isSub_mixin
+rec 25460:25578 SubEquality type
+proj 25460:25578 SubEquality sort
+proj 25460:25578 SubEquality class
+def 25460:25578 SubEquality phant_clone
+abbrev 25460:25578 SubEquality clone
+def 25460:25578 SubEquality pack_
+mod 25460:25578 <> SubEquality.Exports
+abbrev 25460:25578 SubEquality.Exports subEqType
+def 25460:25578 SubEquality.Exports eqtype_SubEquality_class__to__eqtype_SubType_class
+def 25460:25578 SubEquality.Exports eqtype_SubEquality__to__eqtype_SubType
+def 25460:25578 SubEquality.Exports eqtype_SubEquality_class__to__eqtype_Equality_class
+def 25460:25578 SubEquality.Exports eqtype_SubEquality__to__eqtype_Equality
+def 25460:25578 SubEquality.Exports join_eqtype_SubEquality_between_eqtype_Equality_and_eqtype_SubType
+def 25460:25578 SubEquality phant_on_
+abbrev 25460:25578 SubEquality on_
+abbrev 25460:25578 SubEquality copy
+abbrev 25460:25578 SubEquality on
+mod 25460:25578 <> SubEqualityElpiOperations
+abbrev 25460:25578 <> SubEquality
+sec 25589:25595 <> SubType
+var 25610:25610 SubType T
+var 25621:25621 SubType P
+R25625:25628 Corelib.ssr.ssrbool <> pred def
+R25630:25630 mathcomp.boot.eqtype <> T:321 var
+prf 25803:25807 <> vrefl
+binder 25818:25818 <> x:324
+R25824:25827 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25821:25821 mathcomp.boot.eqtype <> SubType.P var
+R25823:25823 mathcomp.boot.eqtype <> x:324 var
+R25829:25831 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25828:25828 mathcomp.boot.eqtype <> x:324 var
+R25832:25832 mathcomp.boot.eqtype <> x:324 var
+def 25865:25874 <> vrefl_rect
+R25879:25883 mathcomp.boot.eqtype <> vrefl thm
+sec 25895:25900 SubType Theory
+var 25913:25914 SubType.Theory sT
+R25918:25924 mathcomp.boot.eqtype <> subType abbrev
+R25926:25926 mathcomp.boot.eqtype <> SubType.P var
+abbrev 25945:25947 <> val
+R25953:25968 mathcomp.boot.eqtype <> val_subdef def
+R25971:25980 mathcomp.boot.eqtype <> on abbrev
+R25982:25983 mathcomp.boot.eqtype <> SubType.Theory.sT var
+abbrev 26003:26005 <> Sub
+R26012:26014 mathcomp.boot.eqtype <> Sub def
+R26020:26021 mathcomp.boot.eqtype <> SubType.Theory.sT var
+prf 26032:26035 <> SubK
+binder 26037:26037 <> x:327
+binder 26039:26040 <> Px:328
+R26059:26061 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26044:26046 mathcomp.boot.eqtype <> val abbrev
+R26050:26052 mathcomp.boot.eqtype <> Sub abbrev
+R26054:26054 mathcomp.boot.eqtype <> x:327 var
+R26056:26057 mathcomp.boot.eqtype <> Px:328 var
+R26062:26062 mathcomp.boot.eqtype <> x:327 var
+R26079:26091 mathcomp.boot.eqtype <> SubK_subproof def
+ind 26108:26115 <> Sub_spec
+constr 26133:26139 <> subSpec
+R26121:26124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26119:26120 mathcomp.boot.eqtype <> SubType.Theory.sT var
+binder 26141:26141 <> x:331
+binder 26143:26144 <> Px:332
+R26148:26155 mathcomp.boot.eqtype <> Sub_spec:329 ind
+R26158:26160 mathcomp.boot.eqtype <> Sub abbrev
+R26164:26165 mathcomp.boot.eqtype <> Px:332 var
+R26162:26162 mathcomp.boot.eqtype <> x:331 var
+prf 26176:26179 <> SubP
+binder 26181:26181 <> u:333
+R26185:26192 mathcomp.boot.eqtype <> Sub_spec variant
+R26194:26194 mathcomp.boot.eqtype <> u:333 var
+R26214:26221 mathcomp.boot.eqtype <> Sub_rect def
+R26227:26228 mathcomp.boot.eqtype <> SubType.Theory.sT var
+def 26300:26304 <> insub
+binder 26306:26306 <> x:334
+R26314:26316 Corelib.ssr.ssrbool <> idP thm
+R26321:26328 Corelib.Init.Datatypes <> ReflectT constr
+R26338:26341 Corelib.Init.Datatypes <> Some constr
+R26344:26346 mathcomp.boot.eqtype <> Sub abbrev
+R26348:26348 mathcomp.boot.eqtype <> x:334 var
+R26359:26362 Corelib.Init.Datatypes <> None constr
+def 26377:26382 <> insubd
+binder 26384:26385 <> u0:335
+binder 26387:26387 <> x:336
+R26392:26396 Corelib.ssr.ssrfun <> odflt abbrev
+R26402:26406 mathcomp.boot.eqtype <> insub def
+R26408:26408 mathcomp.boot.eqtype <> x:336 var
+R26398:26399 mathcomp.boot.eqtype <> u0:335 var
+ind 26421:26430 <> insub_spec
+constr 26461:26469 <> InsubSome
+constr 26520:26528 <> InsubNone
+binder 26432:26432 <> x:337
+R26445:26448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26436:26441 Corelib.Init.Datatypes <> option ind
+R26443:26444 mathcomp.boot.eqtype <> SubType.Theory.sT var
+binder 26471:26471 <> u:340
+R26476:26476 mathcomp.boot.eqtype <> SubType.P var
+R26478:26478 mathcomp.boot.eqtype <> x:337 var
+R26487:26489 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26482:26484 mathcomp.boot.eqtype <> val abbrev
+R26486:26486 mathcomp.boot.eqtype <> u:340 var
+R26490:26490 mathcomp.boot.eqtype <> x:337 var
+R26494:26503 mathcomp.boot.eqtype <> insub_spec:338 ind
+R26508:26511 Corelib.Init.Datatypes <> Some constr
+R26513:26513 mathcomp.boot.eqtype <> u:340 var
+R26505:26505 mathcomp.boot.eqtype <> x:337 var
+R26535:26537 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R26538:26538 mathcomp.boot.eqtype <> SubType.P var
+R26540:26540 mathcomp.boot.eqtype <> x:337 var
+R26553:26562 mathcomp.boot.eqtype <> insub_spec:338 ind
+R26566:26569 Corelib.Init.Datatypes <> None constr
+R26564:26564 mathcomp.boot.eqtype <> x:337 var
+prf 26579:26584 <> insubP
+binder 26586:26586 <> x:341
+R26590:26599 mathcomp.boot.eqtype <> insub_spec variant
+R26604:26608 mathcomp.boot.eqtype <> insub def
+R26610:26610 mathcomp.boot.eqtype <> x:341 var
+R26601:26601 mathcomp.boot.eqtype <> x:341 var
+R26633:26637 mathcomp.boot.eqtype <> insub def
+R26653:26655 Corelib.ssr.ssrbool <> idP thm
+R26674:26677 mathcomp.boot.eqtype <> SubK thm
+R26694:26697 Corelib.ssr.ssrbool <> negP thm
+prf 26713:26718 <> insubT
+binder 26720:26720 <> x:342
+binder 26722:26723 <> Px:343
+R26734:26736 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26727:26731 mathcomp.boot.eqtype <> insub def
+R26733:26733 mathcomp.boot.eqtype <> x:342 var
+R26737:26740 Corelib.Init.Datatypes <> Some constr
+R26743:26745 mathcomp.boot.eqtype <> Sub abbrev
+R26749:26750 mathcomp.boot.eqtype <> Px:343 var
+R26747:26747 mathcomp.boot.eqtype <> x:342 var
+R26771:26776 mathcomp.boot.eqtype <> insubP thm
+R26820:26823 mathcomp.boot.eqtype <> SubK thm
+R26783:26786 mathcomp.boot.eqtype <> SubP thm
+R26802:26805 Corelib.ssr.ssrbool <> negP thm
+R26848:26863 mathcomp.boot.eqtype <> bool_irrelevance thm
+prf 26885:26890 <> insubF
+binder 26892:26892 <> x:344
+R26907:26910 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26899:26901 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26896:26896 mathcomp.boot.eqtype <> SubType.P var
+R26898:26898 mathcomp.boot.eqtype <> x:344 var
+R26902:26906 Corelib.Init.Datatypes <> false constr
+R26918:26920 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26911:26915 mathcomp.boot.eqtype <> insub def
+R26917:26917 mathcomp.boot.eqtype <> x:344 var
+R26921:26924 Corelib.Init.Datatypes <> None constr
+R26953:26958 mathcomp.boot.eqtype <> insubP thm
+R26942:26944 Corelib.ssr.ssrbool <> idP thm
+prf 26973:26978 <> insubN
+binder 26980:26980 <> x:345
+R26990:26993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26984:26986 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R26987:26987 mathcomp.boot.eqtype <> SubType.P var
+R26989:26989 mathcomp.boot.eqtype <> x:345 var
+R27001:27003 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26994:26998 mathcomp.boot.eqtype <> insub def
+R27000:27000 mathcomp.boot.eqtype <> x:345 var
+R27004:27007 Corelib.Init.Datatypes <> None constr
+R27025:27029 Corelib.ssr.ssrbool <> negPf thm
+R27031:27036 mathcomp.boot.eqtype <> insubF thm
+prf 27051:27062 <> isSome_insub
+R27066:27066 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R27087:27091 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R27081:27084 Corelib.ssr.ssrbool <> pred def
+R27086:27086 mathcomp.boot.eqtype <> SubType.T var
+R27067:27071 Corelib.ssr.ssrfun <> ::function_scope:'['_'eta'_x_']' not
+R27077:27077 Corelib.ssr.ssrfun <> ::function_scope:'['_'eta'_x_']' not
+R27072:27076 mathcomp.boot.eqtype <> insub def
+R27092:27092 mathcomp.boot.eqtype <> SubType.P var
+R27112:27115 Corelib.ssr.ssrfun <> fsym thm
+R27129:27134 mathcomp.boot.eqtype <> insubP thm
+R27143:27147 Corelib.ssr.ssrbool <> negPf thm
+prf 27162:27167 <> insubK
+R27171:27177 Corelib.ssr.ssrfun <> ocancel def
+R27185:27187 mathcomp.boot.eqtype <> val abbrev
+R27179:27183 mathcomp.boot.eqtype <> insub def
+R27216:27221 mathcomp.boot.eqtype <> insubP thm
+prf 27236:27239 <> valP
+binder 27241:27241 <> u:346
+R27245:27245 mathcomp.boot.eqtype <> SubType.P var
+R27248:27250 mathcomp.boot.eqtype <> val abbrev
+R27252:27252 mathcomp.boot.eqtype <> u:346 var
+R27296:27299 mathcomp.boot.eqtype <> SubK thm
+R27271:27274 mathcomp.boot.eqtype <> SubP thm
+prf 27314:27317 <> valK
+R27321:27327 Corelib.ssr.ssrfun <> pcancel def
+R27333:27337 mathcomp.boot.eqtype <> insub def
+R27329:27331 mathcomp.boot.eqtype <> val abbrev
+R27376:27379 mathcomp.boot.eqtype <> SubK thm
+R27389:27394 mathcomp.boot.eqtype <> insubT thm
+R27355:27358 mathcomp.boot.eqtype <> SubP thm
+prf 27409:27415 <> val_inj
+R27419:27427 Corelib.ssr.ssrfun <> injective def
+R27429:27431 mathcomp.boot.eqtype <> val abbrev
+R27448:27455 Corelib.ssr.ssrfun <> pcan_inj thm
+R27457:27460 mathcomp.boot.eqtype <> valK thm
+prf 27475:27479 <> valKd
+binder 27481:27482 <> u0:347
+R27486:27491 Corelib.ssr.ssrfun <> cancel def
+R27498:27503 mathcomp.boot.eqtype <> insubd def
+R27505:27506 mathcomp.boot.eqtype <> u0:347 var
+R27493:27495 mathcomp.boot.eqtype <> val abbrev
+R27539:27544 mathcomp.boot.eqtype <> insubd def
+R27546:27549 mathcomp.boot.eqtype <> valK thm
+prf 27564:27573 <> val_insubd
+binder 27575:27576 <> u0:348
+binder 27578:27578 <> x:349
+R27599:27601 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27582:27584 mathcomp.boot.eqtype <> val abbrev
+R27587:27592 mathcomp.boot.eqtype <> insubd def
+R27597:27597 mathcomp.boot.eqtype <> x:349 var
+R27594:27595 mathcomp.boot.eqtype <> u0:348 var
+R27602:27604 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R27608:27613 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R27615:27620 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R27605:27605 mathcomp.boot.eqtype <> SubType.P var
+R27607:27607 mathcomp.boot.eqtype <> x:349 var
+R27614:27614 mathcomp.boot.eqtype <> x:349 var
+R27621:27623 mathcomp.boot.eqtype <> val abbrev
+R27625:27626 mathcomp.boot.eqtype <> u0:348 var
+R27648:27653 mathcomp.boot.eqtype <> insubd def
+R27662:27667 mathcomp.boot.eqtype <> insubP thm
+R27681:27685 Corelib.ssr.ssrbool <> negPf thm
+prf 27703:27709 <> insubdK
+binder 27711:27712 <> u0:350
+R27716:27719 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R27721:27722 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R27745:27745 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R27720:27720 mathcomp.boot.eqtype <> SubType.P var
+R27723:27728 Corelib.ssr.ssrfun <> cancel def
+R27742:27744 mathcomp.boot.eqtype <> val abbrev
+R27731:27736 mathcomp.boot.eqtype <> insubd def
+R27738:27739 mathcomp.boot.eqtype <> u0:350 var
+R27779:27788 mathcomp.boot.eqtype <> val_insubd thm
+R27791:27791 mathcomp.boot.eqtype <> SubType.P var
+var 27809:27820 SubType.Theory insub_eq_aux
+binder 27822:27822 <> x:351
+binder 27824:27827 <> isPx:352
+R27841:27844 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27834:27836 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27831:27831 mathcomp.boot.eqtype <> SubType.P var
+R27833:27833 mathcomp.boot.eqtype <> x:351 var
+R27837:27840 mathcomp.boot.eqtype <> isPx:352 var
+R27845:27850 Corelib.Init.Datatypes <> option ind
+R27852:27853 mathcomp.boot.eqtype <> SubType.Theory.sT var
+R27860:27862 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x not
+R27867:27870 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x not
+R27872:27879 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x not
+R27890:27895 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x not
+R27921:27926 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x not
+binder 27871:27871 <> b:353
+R27863:27866 mathcomp.boot.eqtype <> isPx:352 var
+binder 27871:27871 <> b:354
+binder 27900:27901 <> Px:355
+R27906:27909 Corelib.Init.Datatypes <> Some constr
+R27912:27914 mathcomp.boot.eqtype <> Sub abbrev
+R27918:27919 mathcomp.boot.eqtype <> Px:355 var
+R27916:27916 mathcomp.boot.eqtype <> x:351 var
+R27927:27932 Corelib.ssr.ssrfun <> ::function_scope:'fun'_'=>'_x not
+R27933:27936 Corelib.Init.Datatypes <> None constr
+R27885:27888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27881:27883 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27884:27884 mathcomp.boot.eqtype <> b:353 var
+def 27950:27957 <> insub_eq
+binder 27959:27959 <> x:356
+R27964:27975 mathcomp.boot.eqtype <> SubType.Theory.insub_eq_aux var
+R27978:27982 Corelib.ssr.ssrfun <> erefl abbrev
+R27985:27985 mathcomp.boot.eqtype <> SubType.P var
+R27987:27987 mathcomp.boot.eqtype <> x:356 var
+prf 27999:28007 <> insub_eqE
+R28019:28022 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R28011:28018 mathcomp.boot.eqtype <> insub_eq def
+R28023:28027 mathcomp.boot.eqtype <> insub def
+R28046:28053 mathcomp.boot.eqtype <> insub_eq def
+R28070:28070 mathcomp.boot.eqtype <> SubType.P var
+R28087:28089 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R28104:28108 Corelib.ssr.ssrfun <> erefl abbrev
+R28145:28150 mathcomp.boot.eqtype <> insubT thm
+R28162:28167 mathcomp.boot.eqtype <> insubF thm
+R28181:28186 mathcomp.boot.eqtype SubType.Theory <> sec
+R28194:28200 mathcomp.boot.eqtype SubType <> sec
+R28255:28257 mathcomp.boot.eqtype <> Sub def
+R28293:28297 mathcomp.boot.eqtype <> vrefl thm
+R28321:28330 mathcomp.boot.eqtype <> vrefl_rect def
+R28354:28358 mathcomp.boot.eqtype <> insub def
+R28382:28387 mathcomp.boot.eqtype <> insubd def
+R28414:28419 mathcomp.boot.eqtype <> insubT thm
+R28445:28451 mathcomp.boot.eqtype <> val_inj thm
+R28497:28500 mathcomp.boot.eqtype <> valK thm
+R28533:28537 mathcomp.boot.eqtype <> valKd thm
+R28573:28578 mathcomp.boot.eqtype <> insubK thm
+R28602:28608 mathcomp.boot.eqtype <> insubdK thm
+abbrev 28646:28661 <> inlined_sub_rect
+binder 28673:28673 <> K:357
+binder 28675:28677 <> K_S:358
+binder 28679:28679 <> u:359
+R28715:28715 mathcomp.boot.eqtype <> u:359 var
+R28708:28708 mathcomp.boot.eqtype <> K:357 var
+R28710:28710 mathcomp.boot.eqtype <> u:360 var
+binder 28689:28689 <> x:361
+binder 28692:28693 <> Px:362
+R28720:28722 mathcomp.boot.eqtype <> K_S:358 var
+R28724:28724 mathcomp.boot.eqtype <> x:361 var
+R28726:28727 mathcomp.boot.eqtype <> Px:362 var
+abbrev 28747:28762 <> inlined_new_rect
+binder 28774:28774 <> K:363
+binder 28776:28778 <> K_S:364
+binder 28780:28780 <> u:365
+R28812:28812 mathcomp.boot.eqtype <> u:365 var
+R28805:28805 mathcomp.boot.eqtype <> K:363 var
+R28807:28807 mathcomp.boot.eqtype <> u:366 var
+binder 28790:28790 <> x:367
+R28817:28819 mathcomp.boot.eqtype <> K_S:364 var
+R28821:28821 mathcomp.boot.eqtype <> x:367 var
+R28939:28955 mathcomp.boot.eqtype <> phant_Build def
+R28967:28982 mathcomp.boot.eqtype <> inlined_sub_rect abbrev
+R28984:28993 mathcomp.boot.eqtype <> vrefl_rect def
+not 28910:28910 <> ::form_scope:'['_'isSub'_'for'_x_']'
+R29075:29091 mathcomp.boot.eqtype <> phant_Build def
+R29103:29118 mathcomp.boot.eqtype <> inlined_sub_rect abbrev
+R29120:29129 mathcomp.boot.eqtype <> vrefl_rect def
+not 29037:29037 <> ::form_scope:'['_'isSub'_'of'_x_'for'_x_']'
+R29210:29226 mathcomp.boot.eqtype <> phant_Build def
+R29242:29246 mathcomp.boot.eqtype <> vrefl thm
+not 29173:29173 <> ::form_scope:'['_'isSub'_'for'_x_'by'_x_']'
+R29345:29361 mathcomp.boot.eqtype <> phant_Build def
+not 29318:29318 <> ::form_scope:'['_'isSub'_'for'_x_']'
+def 29529:29536 <> NewMixin
+binder 29538:29538 <> T:368
+binder 29540:29540 <> U:369
+binder 29542:29542 <> v:370
+binder 29544:29544 <> c:371
+binder 29546:29549 <> Urec:372
+binder 29551:29552 <> sk:373
+binder 29569:29569 <> P:374
+binder 29571:29572 <> IH:375
+R29577:29580 mathcomp.boot.eqtype <> Urec:372 var
+R29582:29582 mathcomp.boot.eqtype <> P:374 var
+R29593:29593 mathcomp.boot.eqtype <> T:368 var
+binder 29589:29589 <> x:376
+R29609:29609 mathcomp.boot.eqtype <> P:374 var
+R29598:29599 mathcomp.boot.eqtype <> IH:375 var
+R29601:29601 mathcomp.boot.eqtype <> x:376 var
+R29603:29605 Corelib.ssr.ssrbool <> isT def
+binder 29563:29567 <> Urec':377
+R29620:29636 mathcomp.boot.eqtype <> phant_Build def
+R29642:29642 mathcomp.boot.eqtype <> U:369 var
+R29644:29644 mathcomp.boot.eqtype <> v:370 var
+binder 29651:29651 <> x:378
+R29658:29658 mathcomp.boot.eqtype <> c:371 var
+R29660:29660 mathcomp.boot.eqtype <> x:378 var
+R29663:29667 mathcomp.boot.eqtype <> Urec':377 var
+R29669:29670 mathcomp.boot.eqtype <> sk:373 var
+R29712:29719 mathcomp.boot.eqtype <> NewMixin def
+R29729:29744 mathcomp.boot.eqtype <> inlined_new_rect abbrev
+R29746:29755 mathcomp.boot.eqtype <> vrefl_rect def
+not 29683:29683 <> ::form_scope:'['_'isNew'_'for'_x_']'
+R29824:29831 mathcomp.boot.eqtype <> NewMixin def
+not 29797:29797 <> ::form_scope:'['_'isNew'_'for'_x_']'
+R29958:29965 mathcomp.boot.eqtype <> NewMixin def
+R29975:29990 mathcomp.boot.eqtype <> inlined_new_rect abbrev
+R29992:30001 mathcomp.boot.eqtype <> vrefl_rect def
+not 29920:29920 <> ::form_scope:'['_'isNew'_'of'_x_'for'_x_']'
+def 30045:30049 <> innew
+binder 30051:30051 <> T:379
+binder 30053:30054 <> nT:380
+binder 30056:30056 <> x:381
+R30062:30064 mathcomp.boot.eqtype <> Sub def
+R30066:30066 mathcomp.boot.eqtype <> T:379 var
+R30068:30072 Corelib.ssr.ssrbool <> predT def
+R30074:30075 mathcomp.boot.eqtype <> nT:380 var
+R30077:30077 mathcomp.boot.eqtype <> x:381 var
+R30080:30084 Corelib.ssr.ssrfun <> erefl abbrev
+R30086:30089 Corelib.Init.Datatypes <> true constr
+R30103:30107 mathcomp.boot.eqtype <> innew def
+prf 30124:30132 <> innew_val
+binder 30134:30134 <> T:382
+binder 30136:30137 <> nT:383
+R30141:30146 Corelib.ssr.ssrfun <> cancel def
+R30154:30158 mathcomp.boot.eqtype <> innew def
+R30160:30160 mathcomp.boot.eqtype <> T:382 var
+R30162:30163 mathcomp.boot.eqtype <> nT:383 var
+R30148:30150 mathcomp.boot.eqtype <> val abbrev
+R30194:30200 mathcomp.boot.eqtype <> val_inj thm
+R30210:30213 mathcomp.boot.eqtype <> SubK thm
+R30254:30257 Corelib.ssr.ssrbool <> pred def
+R30259:30259 mathcomp.boot.eqtype <> T:384 var
+R30265:30274 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'of'_x_'for'_x_']' not
+R30280:30284 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'of'_x_'for'_x_']' not
+R30289:30289 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'of'_x_'for'_x_']' not
+R30275:30277 Corelib.Init.Specif <> sig ind
+R30279:30279 mathcomp.boot.eqtype <> P:385 var
+R30285:30288 Corelib.ssr.ssrfun <> sval abbrev
+sec 30222:30290 hb_instance_5 hb_instance_5
+var 30222:30290 hb_instance_5 T
+var 30222:30290 hb_instance_5 P
+def 30222:30290 <> HB_unnamed_factory_6
+def 30222:30290 <> Specif_sig__canonical__eqtype_SubType
+R30222:30290 mathcomp.boot.eqtype <> <> sec
+R30380:30380 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R30382:30384 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R30392:30392 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 30381:30381 <> x:386
+R30386:30390 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+not 30362:30362 <> ::type_scope:'{'_x_'in'_x_'}'
+R30483:30483 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R30485:30487 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R30502:30502 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 30484:30484 <> x:387
+R30488:30488 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30496:30500 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30490:30494 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+not 30461:30461 <> ::type_scope:'{'_x_'in'_x_'|'_x_'}'
+R30646:30651 Corelib.Init.Datatypes <> option ind
+R30653:30653 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R30655:30657 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R30659:30661 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R30671:30671 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+binder 30654:30654 <> x:388
+R30662:30668 Corelib.Init.Datatypes <> is_true def
+not 30624:30624 <> ::type_scope:'{'_'?'_x_':'_x_'|'_x_'}'
+R30746:30748 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_':'_x_'|'_x_'}' not
+R30750:30752 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_':'_x_'|'_x_'}' not
+R30754:30756 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_':'_x_'|'_x_'}' not
+R30758:30758 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_':'_x_'|'_x_'}' not
+binder 30749:30749 <> x:389
+not 30729:30729 <> ::type_scope:'{'_'?'_x_'|'_x_'}'
+R30847:30849 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R30851:30853 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R30861:30861 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+binder 30850:30850 <> x:390
+R30855:30859 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+not 30827:30827 <> ::type_scope:'{'_'?'_x_'in'_x_'}'
+R30957:30959 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R30961:30963 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R30978:30978 mathcomp.boot.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+binder 30960:30960 <> x:391
+R30964:30964 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30972:30976 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30966:30970 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+not 30933:30933 <> ::type_scope:'{'_'?'_x_'in'_x_'|'_x_'}'
+def 31213:31218 <> insigd
+binder 31220:31220 <> T:392
+R31227:31234 Corelib.ssr.ssrbool <> mem_pred variant
+R31236:31236 mathcomp.boot.eqtype <> T:392 var
+binder 31223:31223 <> A:393
+binder 31239:31239 <> x:394
+R31247:31252 Corelib.ssr.ssrbool <> in_mem def
+R31256:31256 mathcomp.boot.eqtype <> A:393 var
+R31254:31254 mathcomp.boot.eqtype <> x:394 var
+binder 31242:31243 <> Ax:395
+R31264:31269 mathcomp.boot.eqtype <> insubd def
+R31272:31276 Corelib.Init.Specif <> exist constr
+R31288:31289 mathcomp.boot.eqtype <> Ax:395 var
+R31286:31286 mathcomp.boot.eqtype <> x:394 var
+R31278:31282 Corelib.ssr.ssrfun <> ::function_scope:'['_'eta'_x_']' not
+R31284:31284 Corelib.ssr.ssrfun <> ::function_scope:'['_'eta'_x_']' not
+R31283:31283 mathcomp.boot.eqtype <> A:393 var
+sec 31611:31622 <> TransferType
+var 31637:31637 TransferType T
+var 31639:31640 TransferType T'
+var 31651:31651 TransferType f
+R31656:31659 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31655:31655 mathcomp.boot.eqtype <> T:398 var
+R31660:31661 mathcomp.boot.eqtype <> T':399 var
+def 31677:31684 <> inj_type
+R31688:31696 Corelib.ssr.ssrfun <> injective def
+R31698:31698 mathcomp.boot.eqtype <> TransferType.f var
+R31710:31710 mathcomp.boot.eqtype <> TransferType.T var
+def 31724:31732 <> pcan_type
+binder 31734:31734 <> g:402
+R31738:31744 Corelib.ssr.ssrfun <> pcancel def
+R31748:31748 mathcomp.boot.eqtype <> g:402 var
+R31746:31746 mathcomp.boot.eqtype <> TransferType.f var
+R31760:31760 mathcomp.boot.eqtype <> TransferType.T var
+def 31774:31781 <> can_type
+binder 31783:31783 <> g:403
+R31787:31792 Corelib.ssr.ssrfun <> cancel def
+R31796:31796 mathcomp.boot.eqtype <> g:403 var
+R31794:31794 mathcomp.boot.eqtype <> TransferType.f var
+R31808:31808 mathcomp.boot.eqtype <> TransferType.T var
+R31816:31827 mathcomp.boot.eqtype TransferType <> sec
+sec 31839:31852 <> TransferEqType
+var 31867:31867 TransferEqType T
+var 31878:31879 TransferEqType eT
+var 31892:31892 TransferEqType f
+R31883:31888 mathcomp.boot.eqtype <> eqType abbrev
+R31897:31900 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31896:31896 mathcomp.boot.eqtype <> T:405 var
+R31901:31902 mathcomp.boot.eqtype <> eT:407 var
+prf 31913:31923 <> inj_eqAxiom
+R31938:31941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31927:31935 Corelib.ssr.ssrfun <> injective def
+R31937:31937 mathcomp.boot.eqtype <> TransferEqType.f var
+R31942:31955 mathcomp.boot.eqtype <> axiom abbrev
+binder 31962:31962 <> x:410
+binder 31964:31964 <> y:411
+R31972:31975 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R31969:31969 mathcomp.boot.eqtype <> TransferEqType.f var
+R31971:31971 mathcomp.boot.eqtype <> x:410 var
+R31976:31976 mathcomp.boot.eqtype <> TransferEqType.f var
+R31978:31978 mathcomp.boot.eqtype <> y:411 var
+R32018:32021 Corelib.ssr.ssrbool <> iffP thm
+R32023:32025 mathcomp.boot.eqtype <> eqP def
+R32095:32108 mathcomp.boot.eqtype <> Build abbrev
+R32111:32118 mathcomp.boot.eqtype <> inj_type def
+R32120:32124 mathcomp.boot.eqtype <> f_inj:412 var
+R32130:32140 mathcomp.boot.eqtype <> inj_eqAxiom thm
+R32142:32146 mathcomp.boot.eqtype <> f_inj:412 var
+sec 32061:32148 TransferEqType.hb_instance_8 hb_instance_8
+var 32061:32148 TransferEqType.hb_instance_8 f_inj
+def 32061:32148 <> HB_unnamed_factory_9
+def 32061:32148 <> eqtype_inj_type__canonical__eqtype_Equality
+R32061:32148 mathcomp.boot.eqtype TransferEqType <> sec
+R32184:32190 Corelib.ssr.ssrfun <> pcancel def
+R32194:32194 mathcomp.boot.eqtype <> g:413 var
+R32192:32192 mathcomp.boot.eqtype <> TransferEqType.f var
+R32200:32212 mathcomp.boot.eqtype <> copy abbrev
+R32215:32223 mathcomp.boot.eqtype <> pcan_type def
+R32225:32226 mathcomp.boot.eqtype <> fK:414 var
+R32232:32239 mathcomp.boot.eqtype <> inj_type def
+R32242:32249 Corelib.ssr.ssrfun <> pcan_inj thm
+R32251:32252 mathcomp.boot.eqtype <> fK:414 var
+sec 32151:32255 TransferEqType.hb_instance_11 hb_instance_11
+var 32151:32255 TransferEqType.hb_instance_11 g
+var 32151:32255 TransferEqType.hb_instance_11 fK
+def 32151:32255 <> HB_unnamed_factory_12
+def 32151:32255 <> eqtype_Equality__to__eqtype_hasDecEq
+def 32151:32255 <> HB_unnamed_mixin_14
+def 32151:32255 <> eqtype_pcan_type__canonical__eqtype_Equality
+R32151:32255 mathcomp.boot.eqtype TransferEqType <> sec
+R32291:32296 Corelib.ssr.ssrfun <> cancel def
+R32300:32300 mathcomp.boot.eqtype <> g:415 var
+R32298:32298 mathcomp.boot.eqtype <> TransferEqType.f var
+R32306:32318 mathcomp.boot.eqtype <> copy abbrev
+R32321:32328 mathcomp.boot.eqtype <> can_type def
+R32330:32331 mathcomp.boot.eqtype <> fK:416 var
+R32337:32344 mathcomp.boot.eqtype <> inj_type def
+R32347:32353 Corelib.ssr.ssrfun <> can_inj thm
+R32355:32356 mathcomp.boot.eqtype <> fK:416 var
+sec 32258:32359 TransferEqType.hb_instance_15 hb_instance_15
+var 32258:32359 TransferEqType.hb_instance_15 g
+var 32258:32359 TransferEqType.hb_instance_15 fK
+def 32258:32359 <> HB_unnamed_factory_16
+def 32258:32359 <> eqtype_Equality__to__eqtype_hasDecEq__18
+def 32258:32359 <> HB_unnamed_mixin_19
+def 32258:32359 <> eqtype_can_type__canonical__eqtype_Equality
+R32258:32359 mathcomp.boot.eqtype TransferEqType <> sec
+def 32373:32393 <> deprecated_InjEqMixin
+binder 32395:32399 <> f_inj:417
+R32404:32417 mathcomp.boot.eqtype <> Build abbrev
+R32419:32419 mathcomp.boot.eqtype <> TransferEqType.T var
+R32422:32432 mathcomp.boot.eqtype <> inj_eqAxiom thm
+R32434:32438 mathcomp.boot.eqtype <> f_inj:417 var
+def 32453:32474 <> deprecated_PcanEqMixin
+binder 32476:32476 <> g:418
+R32484:32490 Corelib.ssr.ssrfun <> pcancel def
+R32494:32494 mathcomp.boot.eqtype <> g:418 var
+R32492:32492 mathcomp.boot.eqtype <> TransferEqType.f var
+binder 32479:32480 <> fK:419
+R32502:32522 mathcomp.boot.eqtype <> deprecated_InjEqMixin def
+R32525:32532 Corelib.ssr.ssrfun <> pcan_inj thm
+R32534:32535 mathcomp.boot.eqtype <> fK:419 var
+def 32550:32570 <> deprecated_CanEqMixin
+binder 32572:32572 <> g:420
+R32580:32585 Corelib.ssr.ssrfun <> cancel def
+R32589:32589 mathcomp.boot.eqtype <> g:420 var
+R32587:32587 mathcomp.boot.eqtype <> TransferEqType.f var
+binder 32575:32576 <> fK:421
+R32597:32617 mathcomp.boot.eqtype <> deprecated_InjEqMixin def
+R32620:32626 Corelib.ssr.ssrfun <> can_inj thm
+R32628:32629 mathcomp.boot.eqtype <> fK:421 var
+R32638:32651 mathcomp.boot.eqtype TransferEqType <> sec
+def 32666:32673 <> sub_type
+binder 32675:32675 <> T:422
+R32682:32685 Corelib.ssr.ssrbool <> pred def
+R32687:32687 mathcomp.boot.eqtype <> T:422 var
+binder 32678:32678 <> P:423
+R32696:32702 mathcomp.boot.eqtype <> subType abbrev
+R32704:32704 mathcomp.boot.eqtype <> P:423 var
+binder 32691:32692 <> sT:424
+R32717:32718 mathcomp.boot.eqtype <> sT:424 var
+R32753:32756 Corelib.ssr.ssrbool <> pred def
+R32758:32758 mathcomp.boot.eqtype <> T:425 var
+R32767:32773 mathcomp.boot.eqtype <> subType abbrev
+R32775:32775 mathcomp.boot.eqtype <> P:426 var
+R32783:32792 mathcomp.boot.eqtype <> on abbrev
+R32795:32802 mathcomp.boot.eqtype <> sub_type def
+R32804:32805 mathcomp.boot.eqtype <> sT:427 var
+sec 32721:32807 hb_instance_20 hb_instance_20
+var 32721:32807 hb_instance_20 T
+var 32721:32807 hb_instance_20 P
+var 32721:32807 hb_instance_20 sT
+def 32721:32807 <> HB_unnamed_factory_21
+def 32721:32807 <> eqtype_SubType__to__eqtype_isSub
+def 32721:32807 <> HB_unnamed_mixin_23
+def 32721:32807 <> eqtype_sub_type__canonical__eqtype_SubType
+R32721:32807 mathcomp.boot.eqtype <> <> sec
+sec 32818:32826 <> SubEqType
+var 32841:32841 SubEqType T
+var 32854:32854 SubEqType P
+var 32867:32868 SubEqType sT
+R32845:32850 mathcomp.boot.eqtype <> eqType abbrev
+R32858:32861 Corelib.ssr.ssrbool <> pred def
+R32863:32863 mathcomp.boot.eqtype <> T:429 var
+R32872:32878 mathcomp.boot.eqtype <> subType abbrev
+R32880:32880 mathcomp.boot.eqtype <> P:431 var
+abbrev 32900:32904 <> ev_ax
+binder 32914:32914 <> T:434
+binder 32916:32916 <> v:435
+R32922:32935 mathcomp.boot.eqtype <> axiom abbrev
+R32937:32937 mathcomp.boot.eqtype <> T:434 var
+binder 32944:32944 <> x:436
+binder 32946:32946 <> y:437
+R32954:32957 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R32951:32951 mathcomp.boot.eqtype <> v:435 var
+R32953:32953 mathcomp.boot.eqtype <> x:436 var
+R32958:32958 mathcomp.boot.eqtype <> v:435 var
+R32960:32960 mathcomp.boot.eqtype <> y:437 var
+prf 32971:32977 <> val_eqP
+R32981:32985 mathcomp.boot.eqtype <> ev_ax abbrev
+R32987:32988 mathcomp.boot.eqtype <> SubEqType.sT var
+R32990:32992 mathcomp.boot.eqtype <> val abbrev
+R33009:33019 mathcomp.boot.eqtype <> inj_eqAxiom thm
+R33021:33027 mathcomp.boot.eqtype <> val_inj thm
+R33071:33083 mathcomp.boot.eqtype <> copy abbrev
+R33086:33093 mathcomp.boot.eqtype <> sub_type def
+R33095:33096 mathcomp.boot.eqtype <> SubEqType.sT var
+R33100:33108 mathcomp.boot.eqtype <> pcan_type def
+R33110:33113 mathcomp.boot.eqtype <> valK thm
+def 33036:33115 <> HB_unnamed_factory_24
+def 33036:33115 <> eqtype_Equality__to__eqtype_hasDecEq__26
+def 33036:33115 <> HB_unnamed_mixin_27
+def 33036:33115 <> eqtype_sub_type__canonical__eqtype_Equality
+def 33036:33115 <> HB_unnamed_mixin_28
+def 33036:33115 <> eqtype_sub_type__canonical__eqtype_SubEquality
+R33122:33130 mathcomp.boot.eqtype SubEqType <> sec
+prf 33140:33146 <> val_eqE
+R33153:33158 mathcomp.boot.eqtype <> eqType abbrev
+binder 33149:33149 <> T:438
+R33166:33169 Corelib.ssr.ssrbool <> pred def
+R33171:33171 mathcomp.boot.eqtype <> T:438 var
+binder 33162:33162 <> P:439
+R33180:33188 mathcomp.boot.eqtype <> subEqType abbrev
+R33190:33190 mathcomp.boot.eqtype <> P:439 var
+binder 33175:33176 <> sT:440
+R33203:33204 mathcomp.boot.eqtype <> sT:440 var
+binder 33197:33197 <> u:441
+binder 33199:33199 <> v:442
+R33209:33209 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33224:33228 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33235:33235 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33215:33218 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R33210:33212 mathcomp.boot.eqtype <> val abbrev
+R33214:33214 mathcomp.boot.eqtype <> u:441 var
+R33219:33221 mathcomp.boot.eqtype <> val abbrev
+R33223:33223 mathcomp.boot.eqtype <> v:442 var
+R33230:33233 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R33229:33229 mathcomp.boot.eqtype <> u:441 var
+R33234:33234 mathcomp.boot.eqtype <> v:442 var
+R33251:33257 mathcomp.boot.eqtype <> val_eqP thm
+R33259:33261 mathcomp.boot.eqtype <> eqP def
+R33280:33286 mathcomp.boot.eqtype <> val_eqP thm
+R33348:33360 mathcomp.boot.eqtype <> copy abbrev
+R33370:33377 mathcomp.boot.eqtype <> sub_type def
+not 33312:33312 <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']'
+R33478:33490 mathcomp.boot.eqtype <> copy abbrev
+R33492:33495 Corelib.ssr.ssrfun <> void abbrev
+R33498:33506 mathcomp.boot.eqtype <> pcan_type def
+R33509:33516 Corelib.ssr.ssrfun <> of_voidK thm
+R33518:33521 Corelib.Init.Datatypes <> unit ind
+def 33450:33524 <> HB_unnamed_factory_29
+def 33450:33524 <> eqtype_Equality__to__eqtype_hasDecEq__31
+def 33450:33524 <> HB_unnamed_mixin_32
+def 33450:33524 <> Datatypes_Empty_set__canonical__eqtype_Equality
+R33556:33561 mathcomp.boot.eqtype <> eqType abbrev
+R33569:33572 Corelib.ssr.ssrbool <> pred def
+R33574:33574 mathcomp.boot.eqtype <> T:443 var
+R33582:33594 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R33604:33610 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R33595:33595 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R33597:33599 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R33603:33603 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 33596:33596 <> x:445
+R33600:33600 mathcomp.boot.eqtype <> P:444 var
+R33602:33602 mathcomp.boot.eqtype <> x:445 var
+binder 33596:33596 <> x:446
+R33602:33602 mathcomp.boot.eqtype <> x:446 var
+sec 33526:33611 hb_instance_33 hb_instance_33
+var 33526:33611 hb_instance_33 T
+var 33526:33611 hb_instance_33 P
+def 33526:33611 <> HB_unnamed_factory_34
+def 33526:33611 <> eqtype_Equality__to__eqtype_hasDecEq__36
+def 33526:33611 <> HB_unnamed_mixin_37
+def 33526:33611 <> Specif_sig__canonical__eqtype_Equality
+def 33526:33611 <> Specif_sig__canonical__eqtype_SubEquality
+R33526:33611 mathcomp.boot.eqtype <> <> sec
+sec 33622:33631 <> ProdEqType
+var 33644:33645 ProdEqType T1
+var 33647:33648 ProdEqType T2
+R33652:33657 mathcomp.boot.eqtype <> eqType abbrev
+def 33672:33678 <> pair_eq
+R33682:33684 Corelib.ssr.ssrbool <> rel def
+R33689:33691 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R33687:33688 mathcomp.boot.eqtype <> ProdEqType.T1 var
+R33692:33693 mathcomp.boot.eqtype <> ProdEqType.T2 var
+binder 33703:33703 <> u:451
+binder 33705:33705 <> v:452
+R33710:33710 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33721:33726 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33737:33737 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33714:33717 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R33712:33713 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R33711:33711 mathcomp.boot.eqtype <> u:451 var
+R33719:33720 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R33718:33718 mathcomp.boot.eqtype <> v:452 var
+R33730:33733 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R33728:33729 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R33727:33727 mathcomp.boot.eqtype <> u:451 var
+R33735:33736 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R33734:33734 mathcomp.boot.eqtype <> v:452 var
+prf 33747:33754 <> pair_eqP
+R33758:33771 mathcomp.boot.eqtype <> axiom abbrev
+R33773:33779 mathcomp.boot.eqtype <> pair_eq def
+R33824:33827 Corelib.ssr.ssrbool <> iffP thm
+R33829:33832 Corelib.ssr.ssrbool <> andP thm
+R33869:33871 mathcomp.boot.eqtype <> eqP def
+R33910:33923 mathcomp.boot.eqtype <> Build abbrev
+R33928:33930 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R33926:33927 mathcomp.boot.eqtype <> ProdEqType.T1 var
+R33931:33932 mathcomp.boot.eqtype <> ProdEqType.T2 var
+R33940:33947 mathcomp.boot.eqtype <> pair_eqP thm
+def 33882:33948 <> HB_unnamed_factory_38
+def 33882:33948 <> Datatypes_prod__canonical__eqtype_Equality
+prf 33957:33964 <> pair_eqE
+R33975:33977 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R33983:33986 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R33987:33989 Corelib.ssr.ssrbool <> rel def
+R33968:33974 mathcomp.boot.eqtype <> pair_eq def
+R33978:33982 mathcomp.boot.eqtype <> eq_op def
+prf 34020:34028 <> xpair_eqE
+R34039:34040 mathcomp.boot.eqtype <> ProdEqType.T1 var
+binder 34031:34032 <> x1:453
+binder 34034:34035 <> y1:454
+R34052:34053 mathcomp.boot.eqtype <> ProdEqType.T2 var
+binder 34044:34045 <> x2:455
+binder 34047:34048 <> y2:456
+R34060:34060 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34081:34085 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34110:34110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34069:34072 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34061:34061 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34064:34065 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34068:34068 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34062:34063 mathcomp.boot.eqtype <> x1:453 var
+R34066:34067 mathcomp.boot.eqtype <> x2:455 var
+R34073:34073 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34076:34077 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34080:34080 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34074:34075 mathcomp.boot.eqtype <> y1:454 var
+R34078:34079 mathcomp.boot.eqtype <> y2:456 var
+R34086:34086 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34095:34100 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34109:34109 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34089:34092 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34087:34088 mathcomp.boot.eqtype <> x1:453 var
+R34093:34094 mathcomp.boot.eqtype <> y1:454 var
+R34103:34106 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34101:34102 mathcomp.boot.eqtype <> x2:455 var
+R34107:34108 mathcomp.boot.eqtype <> y2:456 var
+prf 34139:34146 <> pair_eq1
+R34157:34159 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34155:34156 mathcomp.boot.eqtype <> ProdEqType.T1 var
+R34160:34161 mathcomp.boot.eqtype <> ProdEqType.T2 var
+binder 34149:34149 <> u:457
+binder 34151:34151 <> v:458
+R34172:34175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34167:34170 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34166:34166 mathcomp.boot.eqtype <> u:457 var
+R34171:34171 mathcomp.boot.eqtype <> v:458 var
+R34179:34182 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34177:34178 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R34176:34176 mathcomp.boot.eqtype <> u:457 var
+R34184:34185 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R34183:34183 mathcomp.boot.eqtype <> v:458 var
+R34203:34206 Corelib.ssr.ssrbool <> andP thm
+prf 34221:34228 <> pair_eq2
+R34239:34241 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34237:34238 mathcomp.boot.eqtype <> ProdEqType.T1 var
+R34242:34243 mathcomp.boot.eqtype <> ProdEqType.T2 var
+binder 34231:34231 <> u:459
+binder 34233:34233 <> v:460
+R34254:34257 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34249:34252 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34248:34248 mathcomp.boot.eqtype <> u:459 var
+R34253:34253 mathcomp.boot.eqtype <> v:460 var
+R34261:34264 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R34259:34260 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R34258:34258 mathcomp.boot.eqtype <> u:459 var
+R34266:34267 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R34265:34265 mathcomp.boot.eqtype <> v:460 var
+R34285:34288 Corelib.ssr.ssrbool <> andP thm
+R34301:34310 mathcomp.boot.eqtype ProdEqType <> sec
+R34324:34330 mathcomp.boot.eqtype <> pair_eq def
+R34357:34364 mathcomp.boot.eqtype <> pair_eqP thm
+def 34387:34391 <> predX
+binder 34393:34394 <> T1:461
+binder 34396:34397 <> T2:462
+R34405:34408 Corelib.ssr.ssrbool <> pred def
+R34410:34411 mathcomp.boot.eqtype <> T1:461 var
+binder 34400:34401 <> p1:463
+R34420:34423 Corelib.ssr.ssrbool <> pred def
+R34425:34426 mathcomp.boot.eqtype <> T2:462 var
+binder 34415:34416 <> p2:464
+R34434:34439 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_'&'_x_']' not
+R34441:34443 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_'&'_x_']' not
+R34450:34452 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_'&'_x_']' not
+R34459:34459 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_'&'_x_']' not
+binder 34440:34440 <> z:465
+R34444:34445 mathcomp.boot.eqtype <> p1:463 var
+R34448:34449 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R34447:34447 mathcomp.boot.eqtype <> z:465 var
+R34453:34454 mathcomp.boot.eqtype <> p2:464 var
+R34457:34458 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R34456:34456 mathcomp.boot.eqtype <> z:465 var
+R34498:34502 mathcomp.boot.eqtype <> predX def
+R34512:34515 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+R34518:34518 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+R34504:34507 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+R34510:34510 Corelib.ssr.ssrbool <> ::function_scope:'['_'in'_x_']' not
+not 34472:34472 <> ::function_scope:'['_'predX'_x_'&'_x_']'
+sec 34584:34595 <> OptionEqType
+var 34608:34608 OptionEqType T
+R34612:34617 mathcomp.boot.eqtype <> eqType abbrev
+def 34632:34637 <> opt_eq
+R34646:34651 Corelib.Init.Datatypes <> option ind
+R34653:34653 mathcomp.boot.eqtype <> OptionEqType.T var
+binder 34640:34640 <> u:468
+binder 34642:34642 <> v:469
+R34658:34661 Corelib.Init.Datatypes <> bool ind
+R34668:34671 Corelib.ssr.ssrfun <> oapp abbrev
+R34714:34714 mathcomp.boot.eqtype <> u:468 var
+R34708:34710 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R34711:34711 mathcomp.boot.eqtype <> v:469 var
+binder 34678:34678 <> x:470
+R34683:34686 Corelib.ssr.ssrfun <> oapp abbrev
+R34704:34704 mathcomp.boot.eqtype <> v:469 var
+R34698:34702 Corelib.Init.Datatypes <> false constr
+R34689:34693 mathcomp.boot.eqtype <> eq_op def
+R34695:34695 mathcomp.boot.eqtype <> x:470 var
+prf 34724:34730 <> opt_eqP
+R34734:34747 mathcomp.boot.eqtype <> axiom abbrev
+R34749:34754 mathcomp.boot.eqtype <> opt_eq def
+R34811:34814 Corelib.ssr.ssrbool <> iffP thm
+R34816:34818 mathcomp.boot.eqtype <> eqP def
+R34869:34882 mathcomp.boot.eqtype <> Build abbrev
+R34885:34890 Corelib.Init.Datatypes <> option ind
+R34892:34892 mathcomp.boot.eqtype <> OptionEqType.T var
+R34895:34901 mathcomp.boot.eqtype <> opt_eqP thm
+def 34841:34902 <> HB_unnamed_factory_40
+def 34841:34902 <> Datatypes_option__canonical__eqtype_Equality
+R34909:34920 mathcomp.boot.eqtype OptionEqType <> sec
+R34934:34939 mathcomp.boot.eqtype <> opt_eq def
+sec 34961:34968 <> TaggedAs
+var 34983:34983 TaggedAs I
+var 34996:34997 TaggedAs T_
+R34987:34992 mathcomp.boot.eqtype <> eqType abbrev
+R35002:35005 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35001:35001 mathcomp.boot.eqtype <> I:472 var
+R35034:35034 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35036:35038 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35040:35042 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35047:35047 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35039:35039 mathcomp.boot.eqtype <> TaggedAs.I var
+binder 35035:35035 <> i:475
+R35043:35044 mathcomp.boot.eqtype <> TaggedAs.T_ var
+R35046:35046 mathcomp.boot.eqtype <> i:475 var
+def 35062:35070 <> tagged_as
+binder 35072:35072 <> u:476
+binder 35074:35074 <> v:477
+R35089:35092 mathcomp.boot.eqtype <> ::eq_scope:x_'=P'_x not
+R35084:35086 Corelib.ssr.ssrfun <> tag def
+R35088:35088 mathcomp.boot.eqtype <> u:476 var
+R35093:35095 Corelib.ssr.ssrfun <> tag def
+R35097:35097 mathcomp.boot.eqtype <> v:477 var
+R35102:35109 Corelib.Init.Datatypes <> ReflectT constr
+R35126:35134 Corelib.Init.Logic <> eq_rect_r def
+R35140:35145 Corelib.ssr.ssrfun <> tagged def
+R35147:35147 mathcomp.boot.eqtype <> v:477 var
+R35136:35137 mathcomp.boot.eqtype <> TaggedAs.T_ var
+R35163:35168 Corelib.ssr.ssrfun <> tagged def
+R35170:35170 mathcomp.boot.eqtype <> u:476 var
+prf 35180:35189 <> tagged_asE
+binder 35191:35191 <> u:478
+binder 35193:35193 <> x:479
+R35222:35224 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35197:35205 mathcomp.boot.eqtype <> tagged_as def
+R35210:35215 Corelib.ssr.ssrfun <> Tagged def
+R35220:35220 mathcomp.boot.eqtype <> x:479 var
+R35217:35218 mathcomp.boot.eqtype <> TaggedAs.T_ var
+R35207:35207 mathcomp.boot.eqtype <> u:478 var
+R35225:35225 mathcomp.boot.eqtype <> x:479 var
+R35247:35255 mathcomp.boot.eqtype <> tagged_as def
+R35267:35269 mathcomp.boot.eqtype <> eqP def
+R35299:35307 mathcomp.boot.eqtype <> eq_axiomK thm
+R35320:35327 mathcomp.boot.eqtype TaggedAs <> sec
+sec 35339:35346 <> EqTagged
+var 35361:35361 EqTagged I
+var 35374:35375 EqTagged T_
+R35365:35370 mathcomp.boot.eqtype <> eqType abbrev
+R35380:35383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35379:35379 mathcomp.boot.eqtype <> I:481 var
+abbrev 35406:35406 <> T
+R35411:35411 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35413:35415 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35417:35419 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35424:35424 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35416:35416 mathcomp.boot.eqtype <> EqTagged.I var
+binder 35412:35412 <> i:484
+R35420:35421 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35423:35423 mathcomp.boot.eqtype <> i:484 var
+def 35439:35445 <> etagged
+binder 35447:35447 <> i:485
+binder 35449:35449 <> u:486
+R35461:35463 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35456:35458 Corelib.ssr.ssrfun <> tag def
+R35460:35460 mathcomp.boot.eqtype <> u:486 var
+R35464:35464 mathcomp.boot.eqtype <> i:485 var
+binder 35452:35452 <> p:487
+R35470:35474 Corelib.ssr.ssrfun <> ecast abbrev
+binder 35476:35476 <> i:488
+binder 35476:35476 <> i:489
+R35485:35485 mathcomp.boot.eqtype <> p:487 var
+R35488:35493 Corelib.ssr.ssrfun <> tagged def
+R35495:35495 mathcomp.boot.eqtype <> u:486 var
+R35479:35480 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35482:35482 mathcomp.boot.eqtype <> i:488 var
+R35522:35522 mathcomp.boot.eqtype <> EqTagged.I var
+R35532:35532 mathcomp.boot.eqtype <> T abbrev
+prf 35543:35556 <> eq_from_Tagged
+binder 35558:35558 <> i:490
+R35567:35568 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35570:35570 mathcomp.boot.eqtype <> i:490 var
+binder 35561:35561 <> t:491
+binder 35563:35563 <> s:492
+R35600:35603 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35586:35588 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35575:35580 Corelib.ssr.ssrfun <> Tagged def
+R35585:35585 mathcomp.boot.eqtype <> t:491 var
+R35582:35583 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35589:35594 Corelib.ssr.ssrfun <> Tagged def
+R35599:35599 mathcomp.boot.eqtype <> s:492 var
+R35596:35597 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35605:35607 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35604:35604 mathcomp.boot.eqtype <> t:491 var
+R35608:35608 mathcomp.boot.eqtype <> s:492 var
+R35674:35683 mathcomp.boot.eqtype <> tagged_asE thm
+R35630:35635 Corelib.ssr.ssrfun <> congr1 def
+R35638:35646 mathcomp.boot.eqtype <> tagged_as def
+R35649:35654 Corelib.ssr.ssrfun <> Tagged def
+R35656:35657 mathcomp.boot.eqtype <> EqTagged.T_ var
+prf 35698:35705 <> etaggedK
+binder 35707:35707 <> i:493
+binder 35709:35709 <> u:494
+R35721:35723 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35716:35718 Corelib.ssr.ssrfun <> tag def
+R35720:35720 mathcomp.boot.eqtype <> u:494 var
+R35724:35724 mathcomp.boot.eqtype <> i:493 var
+binder 35712:35712 <> p:495
+R35750:35752 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35729:35734 Corelib.ssr.ssrfun <> Tagged def
+R35740:35746 mathcomp.boot.eqtype <> etagged def
+R35748:35748 mathcomp.boot.eqtype <> p:495 var
+R35736:35737 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35753:35753 mathcomp.boot.eqtype <> u:494 var
+R35786:35792 mathcomp.boot.ssrfun <> taggedK thm
+def 35812:35822 <> tagged_with
+binder 35824:35824 <> i:496
+R35828:35831 Corelib.ssr.ssrbool <> pred def
+R35833:35833 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35835:35837 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35839:35841 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35846:35846 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R35838:35838 mathcomp.boot.eqtype <> EqTagged.I var
+binder 35834:35834 <> i:497
+R35842:35843 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35845:35845 mathcomp.boot.eqtype <> i:497 var
+R35851:35856 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R35858:35860 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R35871:35871 Corelib.ssr.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 35857:35857 <> j:498
+R35866:35869 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R35861:35863 Corelib.ssr.ssrfun <> tag def
+R35865:35865 mathcomp.boot.eqtype <> j:498 var
+R35870:35870 mathcomp.boot.eqtype <> i:496 var
+def 35886:35895 <> untag_with
+binder 35897:35897 <> i:499
+R35904:35904 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R35906:35909 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R35923:35923 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+binder 35905:35905 <> x:500
+binder 35905:35905 <> x:501
+binder 35905:35905 <> x:502
+R35910:35920 mathcomp.boot.eqtype <> tagged_with def
+R35922:35922 mathcomp.boot.eqtype <> i:499 var
+binder 35900:35900 <> x:503
+R35928:35929 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35931:35931 mathcomp.boot.eqtype <> i:499 var
+R35938:35944 mathcomp.boot.eqtype <> etagged def
+R35947:35949 mathcomp.boot.eqtype <> eqP def
+R35952:35955 mathcomp.boot.eqtype <> valP thm
+R35957:35957 mathcomp.boot.eqtype <> x:503 var
+def 35973:35980 <> tag_with
+binder 35982:35982 <> i:504
+R35989:35990 mathcomp.boot.eqtype <> EqTagged.T_ var
+R35992:35992 mathcomp.boot.eqtype <> i:504 var
+binder 35985:35985 <> t:505
+R35997:35997 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R35999:36002 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+R36016:36016 mathcomp.boot.eqtype <> ::type_scope:'{'_x_'in'_x_'}' not
+binder 35998:35998 <> x:506
+binder 35998:35998 <> x:507
+binder 35998:35998 <> x:508
+R36003:36013 mathcomp.boot.eqtype <> tagged_with def
+R36015:36015 mathcomp.boot.eqtype <> i:504 var
+R36023:36027 Corelib.Init.Specif <> exist constr
+R36046:36052 mathcomp.boot.eqtype <> eq_refl thm
+R36054:36054 mathcomp.boot.eqtype <> i:504 var
+R36032:36037 Corelib.ssr.ssrfun <> Tagged def
+R36042:36042 mathcomp.boot.eqtype <> t:505 var
+R36039:36040 mathcomp.boot.eqtype <> EqTagged.T_ var
+prf 36065:36075 <> untag_withK
+binder 36077:36077 <> i:509
+R36081:36086 Corelib.ssr.ssrfun <> cancel def
+R36106:36113 mathcomp.boot.eqtype <> tag_with def
+R36115:36115 mathcomp.boot.eqtype <> i:509 var
+R36090:36099 mathcomp.boot.eqtype <> untag_with def
+R36101:36101 mathcomp.boot.eqtype <> i:509 var
+R36159:36165 mathcomp.boot.eqtype <> val_inj thm
+R36181:36188 mathcomp.boot.eqtype <> etaggedK thm
+prf 36245:36253 <> tag_withK
+binder 36255:36255 <> i:510
+R36259:36264 Corelib.ssr.ssrfun <> cancel def
+R36282:36291 mathcomp.boot.eqtype <> untag_with def
+R36293:36293 mathcomp.boot.eqtype <> i:510 var
+R36268:36275 mathcomp.boot.eqtype <> tag_with def
+R36277:36277 mathcomp.boot.eqtype <> i:510 var
+R36326:36335 mathcomp.boot.eqtype <> untag_with def
+R36339:36347 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 36402:36413 <> tag_with_bij
+binder 36415:36415 <> i:511
+R36419:36427 Corelib.ssr.ssrfun <> bijective variant
+R36431:36438 mathcomp.boot.eqtype <> tag_with def
+R36440:36440 mathcomp.boot.eqtype <> i:511 var
+R36463:36472 mathcomp.boot.eqtype <> untag_with def
+prf 36490:36503 <> untag_with_bij
+binder 36505:36505 <> i:512
+R36509:36517 Corelib.ssr.ssrfun <> bijective variant
+R36521:36530 mathcomp.boot.eqtype <> untag_with def
+R36532:36532 mathcomp.boot.eqtype <> i:512 var
+R36555:36562 mathcomp.boot.eqtype <> tag_with def
+def 36585:36589 <> untag
+binder 36592:36592 <> R:513
+R36609:36609 mathcomp.boot.eqtype <> R:513 var
+binder 36603:36605 <> idx:514
+R36617:36617 mathcomp.boot.eqtype <> EqTagged.I var
+binder 36613:36613 <> i:515
+R36629:36632 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36625:36626 mathcomp.boot.eqtype <> EqTagged.T_ var
+R36628:36628 mathcomp.boot.eqtype <> i:515 var
+R36633:36633 mathcomp.boot.eqtype <> R:513 var
+binder 36621:36621 <> F:516
+binder 36636:36636 <> u:517
+R36651:36654 mathcomp.boot.eqtype <> ::eq_scope:x_'=P'_x not
+R36646:36648 Corelib.ssr.ssrfun <> tag def
+R36650:36650 mathcomp.boot.eqtype <> u:517 var
+R36655:36655 mathcomp.boot.eqtype <> i:515 var
+R36660:36667 Corelib.Init.Datatypes <> ReflectT constr
+R36676:36676 mathcomp.boot.eqtype <> F:516 var
+R36679:36685 mathcomp.boot.eqtype <> etagged def
+R36695:36697 mathcomp.boot.eqtype <> idx:514 var
+prf 36707:36712 <> untagE
+binder 36716:36716 <> R:518
+R36733:36733 mathcomp.boot.eqtype <> R:518 var
+binder 36727:36729 <> idx:519
+R36741:36741 mathcomp.boot.eqtype <> EqTagged.I var
+binder 36737:36737 <> i:520
+R36753:36756 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36749:36750 mathcomp.boot.eqtype <> EqTagged.T_ var
+R36752:36752 mathcomp.boot.eqtype <> i:520 var
+R36757:36757 mathcomp.boot.eqtype <> R:518 var
+binder 36745:36745 <> F:521
+binder 36760:36760 <> u:522
+R36772:36774 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36767:36769 Corelib.ssr.ssrfun <> tag def
+R36771:36771 mathcomp.boot.eqtype <> u:522 var
+R36775:36775 mathcomp.boot.eqtype <> i:520 var
+binder 36763:36763 <> e:523
+R36795:36797 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36782:36786 mathcomp.boot.eqtype <> untag def
+R36794:36794 mathcomp.boot.eqtype <> u:522 var
+R36792:36792 mathcomp.boot.eqtype <> F:521 var
+R36788:36790 mathcomp.boot.eqtype <> idx:519 var
+R36798:36798 mathcomp.boot.eqtype <> F:521 var
+R36801:36807 mathcomp.boot.eqtype <> etagged def
+R36809:36809 mathcomp.boot.eqtype <> e:523 var
+R36832:36836 mathcomp.boot.eqtype <> untag def
+R36845:36847 mathcomp.boot.eqtype <> eqP def
+R36867:36880 mathcomp.boot.eqtype <> eq_irrelevance thm
+prf 36900:36909 <> untag_dflt
+binder 36912:36912 <> R:524
+R36929:36929 mathcomp.boot.eqtype <> R:524 var
+binder 36923:36925 <> idx:525
+R36937:36937 mathcomp.boot.eqtype <> EqTagged.I var
+binder 36933:36933 <> i:526
+R36949:36952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36945:36946 mathcomp.boot.eqtype <> EqTagged.T_ var
+R36948:36948 mathcomp.boot.eqtype <> i:526 var
+R36953:36953 mathcomp.boot.eqtype <> R:524 var
+binder 36941:36941 <> F:527
+binder 36956:36956 <> u:528
+R36970:36976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36965:36968 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R36960:36962 Corelib.ssr.ssrfun <> tag def
+R36964:36964 mathcomp.boot.eqtype <> u:528 var
+R36969:36969 mathcomp.boot.eqtype <> i:526 var
+R36990:36992 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36977:36981 mathcomp.boot.eqtype <> untag def
+R36989:36989 mathcomp.boot.eqtype <> u:528 var
+R36987:36987 mathcomp.boot.eqtype <> F:527 var
+R36983:36985 mathcomp.boot.eqtype <> idx:525 var
+R36993:36995 mathcomp.boot.eqtype <> idx:525 var
+R37017:37021 mathcomp.boot.eqtype <> untag def
+R37030:37032 mathcomp.boot.eqtype <> eqP def
+prf 37047:37055 <> untag_cst
+binder 37058:37058 <> R:529
+R37075:37075 mathcomp.boot.eqtype <> R:529 var
+binder 37069:37071 <> idx:530
+R37083:37083 mathcomp.boot.eqtype <> EqTagged.I var
+binder 37079:37079 <> i:531
+binder 37086:37086 <> u:532
+R37125:37127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37092:37096 mathcomp.boot.eqtype <> untag def
+R37124:37124 mathcomp.boot.eqtype <> u:532 var
+R37111:37112 mathcomp.boot.eqtype <> EqTagged.T_ var
+R37114:37114 mathcomp.boot.eqtype <> i:531 var
+R37119:37121 mathcomp.boot.eqtype <> idx:530 var
+R37098:37100 mathcomp.boot.eqtype <> idx:530 var
+R37128:37130 mathcomp.boot.eqtype <> idx:530 var
+R37152:37156 mathcomp.boot.eqtype <> untag def
+R37165:37167 mathcomp.boot.eqtype <> eqP def
+R37180:37187 mathcomp.boot.eqtype EqTagged <> sec
+R37201:37207 mathcomp.boot.eqtype <> etagged def
+R37231:37235 mathcomp.boot.eqtype <> untag def
+R37265:37275 mathcomp.boot.eqtype <> tagged_with def
+R37292:37299 mathcomp.boot.eqtype <> tag_with def
+R37319:37328 mathcomp.boot.eqtype <> untag_with def
+sec 37347:37355 <> TagEqType
+var 37370:37370 TagEqType I
+var 37383:37384 TagEqType T_
+R37374:37379 mathcomp.boot.eqtype <> eqType abbrev
+R37389:37392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37388:37388 mathcomp.boot.eqtype <> I:534 var
+R37393:37398 mathcomp.boot.eqtype <> eqType abbrev
+R37423:37423 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37425:37427 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37429:37431 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37436:37436 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37428:37428 mathcomp.boot.eqtype <> TagEqType.I var
+binder 37424:37424 <> i:537
+R37432:37433 mathcomp.boot.eqtype <> TagEqType.T_ var
+R37435:37435 mathcomp.boot.eqtype <> i:537 var
+def 37451:37456 <> tag_eq
+binder 37458:37458 <> u:538
+binder 37460:37460 <> v:539
+R37465:37465 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37480:37485 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37511:37511 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37471:37474 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R37466:37468 Corelib.ssr.ssrfun <> tag def
+R37470:37470 mathcomp.boot.eqtype <> u:538 var
+R37475:37477 Corelib.ssr.ssrfun <> tag def
+R37479:37479 mathcomp.boot.eqtype <> v:539 var
+R37494:37497 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R37486:37491 Corelib.ssr.ssrfun <> tagged def
+R37493:37493 mathcomp.boot.eqtype <> u:538 var
+R37498:37506 mathcomp.boot.eqtype <> tagged_as def
+R37510:37510 mathcomp.boot.eqtype <> v:539 var
+R37508:37508 mathcomp.boot.eqtype <> u:538 var
+prf 37521:37527 <> tag_eqP
+R37531:37544 mathcomp.boot.eqtype <> axiom abbrev
+R37546:37551 mathcomp.boot.eqtype <> tag_eq def
+R37570:37575 mathcomp.boot.eqtype <> tag_eq def
+R37603:37605 mathcomp.boot.eqtype <> eqP def
+R37654:37657 Corelib.ssr.ssrbool <> iffP thm
+R37659:37661 mathcomp.boot.eqtype <> eqP def
+R37684:37693 mathcomp.boot.eqtype <> tagged_asE thm
+R37730:37743 mathcomp.boot.eqtype <> Build abbrev
+R37745:37745 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37747:37749 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37751:37753 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37758:37758 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37750:37750 mathcomp.boot.eqtype <> TagEqType.I var
+binder 37746:37746 <> i:540
+R37754:37755 mathcomp.boot.eqtype <> TagEqType.T_ var
+R37757:37757 mathcomp.boot.eqtype <> i:540 var
+R37760:37766 mathcomp.boot.eqtype <> tag_eqP thm
+def 37702:37767 <> HB_unnamed_factory_42
+def 37702:37767 <> Specif_sigT__canonical__eqtype_Equality
+prf 37776:37782 <> tag_eqE
+R37792:37794 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37786:37791 mathcomp.boot.eqtype <> tag_eq def
+R37795:37799 mathcomp.boot.eqtype <> eq_op def
+prf 37828:37833 <> eq_tag
+binder 37835:37835 <> u:541
+binder 37837:37837 <> v:542
+R37847:37850 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37842:37845 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R37841:37841 mathcomp.boot.eqtype <> u:541 var
+R37846:37846 mathcomp.boot.eqtype <> v:542 var
+R37856:37858 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37851:37853 Corelib.ssr.ssrfun <> tag def
+R37855:37855 mathcomp.boot.eqtype <> u:541 var
+R37859:37861 Corelib.ssr.ssrfun <> tag def
+R37863:37863 mathcomp.boot.eqtype <> v:542 var
+R37881:37883 mathcomp.boot.eqtype <> eqP def
+prf 37900:37908 <> eq_Tagged
+binder 37910:37910 <> u:543
+binder 37912:37912 <> x:544
+R37915:37915 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37931:37935 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37949:37949 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37917:37920 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R37916:37916 mathcomp.boot.eqtype <> u:543 var
+R37921:37926 Corelib.ssr.ssrfun <> Tagged def
+R37930:37930 mathcomp.boot.eqtype <> x:544 var
+R37944:37947 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R37936:37941 Corelib.ssr.ssrfun <> tagged def
+R37943:37943 mathcomp.boot.eqtype <> u:543 var
+R37948:37948 mathcomp.boot.eqtype <> x:544 var
+R37971:37977 mathcomp.boot.eqtype <> tag_eqE thm
+R37980:37985 mathcomp.boot.eqtype <> tag_eq def
+R37987:37990 mathcomp.boot.eqtype <> eqxx abbrev
+R37992:38001 mathcomp.boot.eqtype <> tagged_asE thm
+R38014:38022 mathcomp.boot.eqtype TagEqType <> sec
+R38036:38041 mathcomp.boot.eqtype <> tag_eq def
+R38067:38073 mathcomp.boot.eqtype <> tag_eqP thm
+sec 38096:38104 <> SumEqType
+var 38118:38119 SumEqType T1
+var 38121:38122 SumEqType T2
+R38126:38131 mathcomp.boot.eqtype <> eqType abbrev
+R38157:38159 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
+R38155:38156 mathcomp.boot.eqtype <> SumEqType.T1 var
+R38160:38161 mathcomp.boot.eqtype <> SumEqType.T2 var
+def 38176:38181 <> sum_eq
+binder 38183:38183 <> u:549
+binder 38185:38185 <> v:550
+R38201:38201 mathcomp.boot.eqtype <> v:550 var
+R38198:38198 mathcomp.boot.eqtype <> u:549 var
+R38212:38214 Corelib.Init.Datatypes <> inl constr
+R38219:38221 Corelib.Init.Datatypes <> inl constr
+R38227:38229 Corelib.Init.Datatypes <> inr constr
+R38234:38236 Corelib.Init.Datatypes <> inr constr
+R38244:38247 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R38262:38266 Corelib.Init.Datatypes <> false constr
+prf 38282:38288 <> sum_eqP
+R38292:38305 mathcomp.boot.eqtype <> axiom abbrev
+R38307:38312 mathcomp.boot.eqtype <> sum_eq def
+R38360:38363 Corelib.ssr.ssrbool <> iffP thm
+R38365:38367 mathcomp.boot.eqtype <> eqP def
+R38419:38432 mathcomp.boot.eqtype <> Build abbrev
+R38437:38439 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
+R38435:38436 mathcomp.boot.eqtype <> SumEqType.T1 var
+R38440:38441 mathcomp.boot.eqtype <> SumEqType.T2 var
+R38449:38455 mathcomp.boot.eqtype <> sum_eqP thm
+def 38391:38456 <> HB_unnamed_factory_44
+def 38391:38456 <> Datatypes_sum__canonical__eqtype_Equality
+prf 38465:38471 <> sum_eqE
+R38481:38483 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38475:38480 mathcomp.boot.eqtype <> sum_eq def
+R38484:38488 mathcomp.boot.eqtype <> eq_op def
+R38515:38523 mathcomp.boot.eqtype SumEqType <> sec
+R38537:38542 mathcomp.boot.eqtype <> sum_eq def
+R38569:38575 mathcomp.boot.eqtype <> sum_eqP thm
+sec 38599:38612 <> MonoHomoTheory
+var 38627:38628 MonoHomoTheory aT
+var 38630:38631 MonoHomoTheory rT
+var 38644:38644 MonoHomoTheory f
+R38635:38640 mathcomp.boot.eqtype <> eqType abbrev
+R38650:38653 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38648:38649 mathcomp.boot.eqtype <> aT:555 var
+R38654:38655 mathcomp.boot.eqtype <> rT:556 var
+var 38670:38671 MonoHomoTheory aR
+var 38673:38675 MonoHomoTheory aR'
+var 38688:38689 MonoHomoTheory rR
+var 38691:38693 MonoHomoTheory rR'
+R38679:38681 Corelib.ssr.ssrbool <> rel def
+R38683:38684 mathcomp.boot.eqtype <> MonoHomoTheory.aT var
+R38697:38699 Corelib.ssr.ssrbool <> rel def
+R38701:38702 mathcomp.boot.eqtype <> MonoHomoTheory.rT var
+var 38718:38724 MonoHomoTheory aR_refl
+R38728:38736 Corelib.ssr.ssrbool <> reflexive def
+R38738:38739 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+var 38753:38759 MonoHomoTheory rR_refl
+R38763:38771 Corelib.ssr.ssrbool <> reflexive def
+R38773:38774 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+var 38788:38791 MonoHomoTheory aR'E
+binder 38802:38802 <> x:571
+binder 38804:38804 <> y:572
+R38814:38816 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38807:38809 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R38813:38813 mathcomp.boot.eqtype <> y:572 var
+R38811:38811 mathcomp.boot.eqtype <> x:571 var
+R38817:38817 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38824:38829 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38836:38836 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38819:38822 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R38818:38818 mathcomp.boot.eqtype <> x:571 var
+R38823:38823 mathcomp.boot.eqtype <> y:572 var
+R38830:38831 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R38835:38835 mathcomp.boot.eqtype <> y:572 var
+R38833:38833 mathcomp.boot.eqtype <> x:571 var
+var 38850:38853 MonoHomoTheory rR'E
+binder 38864:38864 <> x:575
+binder 38866:38866 <> y:576
+R38876:38878 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38869:38871 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R38875:38875 mathcomp.boot.eqtype <> y:576 var
+R38873:38873 mathcomp.boot.eqtype <> x:575 var
+R38879:38879 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38886:38891 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38898:38898 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38881:38884 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R38880:38880 mathcomp.boot.eqtype <> x:575 var
+R38885:38885 mathcomp.boot.eqtype <> y:576 var
+R38892:38893 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R38897:38897 mathcomp.boot.eqtype <> y:576 var
+R38895:38895 mathcomp.boot.eqtype <> x:575 var
+var 38906:38908 MonoHomoTheory aRE
+binder 38910:38910 <> x:579
+binder 38912:38912 <> y:580
+R38922:38924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38916:38917 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R38921:38921 mathcomp.boot.eqtype <> y:580 var
+R38919:38919 mathcomp.boot.eqtype <> x:579 var
+R38925:38925 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R38932:38937 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R38945:38945 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R38927:38930 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R38926:38926 mathcomp.boot.eqtype <> x:579 var
+R38931:38931 mathcomp.boot.eqtype <> y:580 var
+R38938:38940 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R38944:38944 mathcomp.boot.eqtype <> y:580 var
+R38942:38942 mathcomp.boot.eqtype <> x:579 var
+R38966:38969 mathcomp.boot.eqtype <> MonoHomoTheory.aR'E var
+R38978:38983 mathcomp.boot.eqtype <> eqVneq thm
+R39003:39009 mathcomp.boot.eqtype <> MonoHomoTheory.aR_refl var
+var 39021:39023 MonoHomoTheory rRE
+binder 39025:39025 <> x:581
+binder 39027:39027 <> y:582
+R39037:39039 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R39031:39032 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R39036:39036 mathcomp.boot.eqtype <> y:582 var
+R39034:39034 mathcomp.boot.eqtype <> x:581 var
+R39040:39040 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R39047:39052 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R39060:39060 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R39042:39045 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R39041:39041 mathcomp.boot.eqtype <> x:581 var
+R39046:39046 mathcomp.boot.eqtype <> y:582 var
+R39053:39055 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R39059:39059 mathcomp.boot.eqtype <> y:582 var
+R39057:39057 mathcomp.boot.eqtype <> x:581 var
+R39081:39084 mathcomp.boot.eqtype <> MonoHomoTheory.rR'E var
+R39093:39098 mathcomp.boot.eqtype <> eqVneq thm
+R39118:39124 mathcomp.boot.eqtype <> MonoHomoTheory.rR_refl var
+sec 39141:39145 MonoHomoTheory InDom
+var 39157:39157 MonoHomoTheory.InDom D
+R39161:39164 Corelib.ssr.ssrbool <> pred def
+R39166:39167 mathcomp.boot.eqtype <> MonoHomoTheory.aT var
+sec 39179:39190 MonoHomoTheory.InDom DifferentDom
+var 39202:39203 MonoHomoTheory.InDom.DifferentDom D'
+R39207:39210 Corelib.ssr.ssrbool <> pred def
+R39212:39213 mathcomp.boot.eqtype <> MonoHomoTheory.aT var
+prf 39223:39230 <> homoW_in
+R39283:39303 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39234:39237 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39239:39241 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39244:39245 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39282:39282 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39238:39238 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39242:39243 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.DifferentDom.D' var
+R39246:39251 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39253:39255 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39257:39257 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39259:39261 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39269:39273 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39281:39281 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39252:39252 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 39256:39256 <> x:587
+binder 39258:39258 <> y:588
+R39262:39264 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R39268:39268 mathcomp.boot.eqtype <> y:588 var
+R39266:39266 mathcomp.boot.eqtype <> x:587 var
+binder 39256:39256 <> x:589
+binder 39258:39258 <> y:590
+R39274:39276 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R39280:39280 mathcomp.boot.eqtype <> y:590 var
+R39278:39278 mathcomp.boot.eqtype <> x:589 var
+R39304:39307 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39309:39311 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39314:39315 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39350:39350 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39308:39308 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39312:39313 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.DifferentDom.D' var
+R39316:39321 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39323:39325 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39327:39327 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39329:39331 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39338:39342 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39349:39349 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39322:39322 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 39326:39326 <> x:591
+binder 39328:39328 <> y:592
+R39332:39333 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R39337:39337 mathcomp.boot.eqtype <> y:592 var
+R39335:39335 mathcomp.boot.eqtype <> x:591 var
+binder 39326:39326 <> x:593
+binder 39328:39328 <> y:594
+R39343:39344 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R39348:39348 mathcomp.boot.eqtype <> y:594 var
+R39346:39346 mathcomp.boot.eqtype <> x:593 var
+R39416:39418 mathcomp.boot.eqtype <> MonoHomoTheory.rRE var
+R39421:39424 mathcomp.boot.eqtype <> eqxx abbrev
+R39428:39431 Corelib.ssr.ssrbool <> orbC thm
+R39384:39385 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R39389:39389 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R39386:39388 mathcomp.boot.eqtype <> MonoHomoTheory.aRE var
+R39391:39393 Corelib.ssr.ssrbool <> orP thm
+R39396:39398 mathcomp.boot.eqtype <> eqP def
+prf 39452:39462 <> inj_homo_in
+R39490:39495 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39466:39469 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39471:39473 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39476:39477 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39489:39489 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39470:39470 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39474:39475 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.DifferentDom.D' var
+R39478:39486 Corelib.ssr.ssrfun <> injective def
+R39488:39488 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+R39543:39548 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39496:39499 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39501:39503 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39506:39507 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39542:39542 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39500:39500 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39504:39505 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.DifferentDom.D' var
+R39508:39513 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39515:39517 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39519:39519 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39521:39523 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39530:39534 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39541:39541 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39514:39514 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 39518:39518 <> x:595
+binder 39520:39520 <> y:596
+R39524:39525 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R39529:39529 mathcomp.boot.eqtype <> y:596 var
+R39527:39527 mathcomp.boot.eqtype <> x:595 var
+binder 39518:39518 <> x:597
+binder 39520:39520 <> y:598
+R39535:39536 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R39540:39540 mathcomp.boot.eqtype <> y:598 var
+R39538:39538 mathcomp.boot.eqtype <> x:597 var
+R39549:39552 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39554:39556 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39559:39560 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39597:39597 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_x_','_x_'}' not
+R39553:39553 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39557:39558 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.DifferentDom.D' var
+R39561:39566 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39568:39570 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39572:39572 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39574:39576 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39584:39588 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39596:39596 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39567:39567 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 39571:39571 <> x:599
+binder 39573:39573 <> y:600
+R39577:39579 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R39583:39583 mathcomp.boot.eqtype <> y:600 var
+R39581:39581 mathcomp.boot.eqtype <> x:599 var
+binder 39571:39571 <> x:601
+binder 39573:39573 <> y:602
+R39589:39591 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R39595:39595 mathcomp.boot.eqtype <> y:602 var
+R39593:39593 mathcomp.boot.eqtype <> x:601 var
+R39631:39632 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R39645:39645 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'!'_x_']' not
+R39633:39633 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39638:39639 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39644:39644 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39634:39637 mathcomp.boot.eqtype <> MonoHomoTheory.aR'E var
+R39640:39643 mathcomp.boot.eqtype <> MonoHomoTheory.rR'E var
+R39648:39651 Corelib.ssr.ssrbool <> andP thm
+R39680:39684 Corelib.ssr.ssrbool <> andbT thm
+R39696:39705 mathcomp.boot.eqtype <> contra_neq thm
+R39736:39747 mathcomp.boot.eqtype MonoHomoTheory.InDom.DifferentDom <> sec
+var 39762:39768 MonoHomoTheory.InDom aR_anti
+R39772:39784 Corelib.ssr.ssrbool <> antisymmetric def
+R39786:39787 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+var 39801:39807 MonoHomoTheory.InDom rR_anti
+R39811:39823 Corelib.ssr.ssrbool <> antisymmetric def
+R39825:39826 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+prf 39836:39846 <> mono_inj_in
+R39894:39914 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39850:39853 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39855:39858 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39893:39893 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39854:39854 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39859:39864 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39866:39868 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39870:39870 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39872:39874 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39881:39885 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39892:39892 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R39865:39865 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 39869:39869 <> x:607
+binder 39871:39871 <> y:608
+R39875:39876 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R39880:39880 mathcomp.boot.eqtype <> y:608 var
+R39878:39878 mathcomp.boot.eqtype <> x:607 var
+binder 39869:39869 <> x:609
+binder 39871:39871 <> y:610
+R39886:39887 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R39891:39891 mathcomp.boot.eqtype <> y:610 var
+R39889:39889 mathcomp.boot.eqtype <> x:609 var
+R39915:39918 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39920:39923 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39935:39935 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R39919:39919 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R39924:39932 Corelib.ssr.ssrfun <> injective def
+R39934:39934 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+R39976:39982 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.aR_anti var
+R40004:40010 mathcomp.boot.eqtype <> MonoHomoTheory.rR_refl var
+prf 40025:40036 <> anti_mono_in
+R40084:40108 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R40040:40043 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40045:40048 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40083:40083 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40044:40044 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R40049:40054 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40056:40058 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40060:40060 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40062:40064 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40071:40075 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40082:40082 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40055:40055 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40059:40059 <> x:611
+binder 40061:40061 <> y:612
+R40065:40066 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R40070:40070 mathcomp.boot.eqtype <> y:612 var
+R40068:40068 mathcomp.boot.eqtype <> x:611 var
+binder 40059:40059 <> x:613
+binder 40061:40061 <> y:614
+R40076:40077 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R40081:40081 mathcomp.boot.eqtype <> y:614 var
+R40079:40079 mathcomp.boot.eqtype <> x:613 var
+R40109:40112 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40114:40117 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40154:40154 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40113:40113 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R40118:40123 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40125:40127 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40129:40129 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40131:40133 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40141:40145 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40153:40153 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40124:40124 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40128:40128 <> x:615
+binder 40130:40130 <> y:616
+R40134:40136 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R40140:40140 mathcomp.boot.eqtype <> y:616 var
+R40138:40138 mathcomp.boot.eqtype <> x:615 var
+binder 40128:40128 <> x:617
+binder 40130:40130 <> y:618
+R40146:40148 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R40152:40152 mathcomp.boot.eqtype <> y:618 var
+R40150:40150 mathcomp.boot.eqtype <> x:617 var
+R40190:40193 mathcomp.boot.eqtype <> MonoHomoTheory.rR'E var
+R40195:40198 mathcomp.boot.eqtype <> MonoHomoTheory.aR'E var
+R40207:40215 mathcomp.boot.eqtype <> inj_in_eq thm
+R40221:40221 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R40234:40244 mathcomp.boot.eqtype <> mono_inj_in thm
+prf 40259:40276 <> total_homo_mono_in
+R40288:40295 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R40280:40284 Corelib.ssr.ssrbool <> total def
+R40286:40287 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R40342:40348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R40296:40299 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40301:40304 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40341:40341 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40300:40300 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R40305:40310 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40312:40314 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40316:40316 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40318:40320 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40328:40332 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40340:40340 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40311:40311 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40315:40315 <> x:619
+binder 40317:40317 <> y:620
+R40321:40323 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R40327:40327 mathcomp.boot.eqtype <> y:620 var
+R40325:40325 mathcomp.boot.eqtype <> x:619 var
+binder 40315:40315 <> x:621
+binder 40317:40317 <> y:622
+R40333:40335 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R40339:40339 mathcomp.boot.eqtype <> y:622 var
+R40337:40337 mathcomp.boot.eqtype <> x:621 var
+R40349:40352 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40354:40357 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40392:40392 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R40353:40353 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.D var
+R40358:40363 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40365:40367 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40369:40369 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40371:40373 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40380:40384 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40391:40391 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40364:40364 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40368:40368 <> x:623
+binder 40370:40370 <> y:624
+R40374:40375 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R40379:40379 mathcomp.boot.eqtype <> y:624 var
+R40377:40377 mathcomp.boot.eqtype <> x:623 var
+binder 40368:40368 <> x:625
+binder 40370:40370 <> y:626
+R40385:40386 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R40390:40390 mathcomp.boot.eqtype <> y:626 var
+R40388:40388 mathcomp.boot.eqtype <> x:625 var
+R40480:40483 mathcomp.boot.eqtype <> eqxx abbrev
+R40486:40492 mathcomp.boot.eqtype <> MonoHomoTheory.aR_refl var
+R40495:40501 mathcomp.boot.eqtype <> MonoHomoTheory.rR_refl var
+R40450:40455 mathcomp.boot.eqtype <> eqVneq thm
+R40553:40555 mathcomp.boot.eqtype <> MonoHomoTheory.rRE var
+R40561:40564 Corelib.ssr.ssrbool <> orbT thm
+R40568:40571 mathcomp.boot.eqtype <> MonoHomoTheory.aR'E var
+R40519:40523 Corelib.ssr.ssrbool <> boolP thm
+R40526:40527 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R40587:40589 Corelib.ssr.ssrbool <> orP thm
+R40622:40624 mathcomp.boot.eqtype <> MonoHomoTheory.aRE var
+R40626:40631 mathcomp.boot.eqtype <> eq_sym thm
+R40634:40638 Corelib.ssr.ssrbool <> negPf thm
+R40679:40682 mathcomp.boot.eqtype <> MonoHomoTheory.rR'E var
+R40715:40725 mathcomp.boot.eqtype <> contra_neqF thm
+R40688:40691 Corelib.ssr.ssrbool <> andP thm
+R40751:40757 mathcomp.boot.eqtype <> MonoHomoTheory.InDom.rR_anti var
+R40789:40793 mathcomp.boot.eqtype MonoHomoTheory.InDom <> sec
+var 40801:40801 MonoHomoTheory D
+R40807:40811 Corelib.ssr.ssrbool <> predT def
+R40813:40814 mathcomp.boot.eqtype <> MonoHomoTheory.aT var
+prf 40824:40828 <> homoW
+R40868:40888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R40832:40837 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40839:40841 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40843:40843 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40845:40847 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40855:40859 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40867:40867 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40838:40838 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40842:40842 <> x:627
+binder 40844:40844 <> y:628
+R40848:40850 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R40854:40854 mathcomp.boot.eqtype <> y:628 var
+R40852:40852 mathcomp.boot.eqtype <> x:627 var
+binder 40842:40842 <> x:629
+binder 40844:40844 <> y:630
+R40860:40862 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R40866:40866 mathcomp.boot.eqtype <> y:630 var
+R40864:40864 mathcomp.boot.eqtype <> x:629 var
+R40889:40894 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40896:40898 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40900:40900 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40902:40904 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40911:40915 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40922:40922 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R40895:40895 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 40899:40899 <> x:631
+binder 40901:40901 <> y:632
+R40905:40906 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R40910:40910 mathcomp.boot.eqtype <> y:632 var
+R40908:40908 mathcomp.boot.eqtype <> x:631 var
+binder 40899:40899 <> x:633
+binder 40901:40901 <> y:634
+R40916:40917 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R40921:40921 mathcomp.boot.eqtype <> y:634 var
+R40919:40919 mathcomp.boot.eqtype <> x:633 var
+R40959:40966 mathcomp.boot.eqtype <> homoW_in thm
+R40968:40968 mathcomp.boot.eqtype <> MonoHomoTheory.D var
+R40970:40970 mathcomp.boot.eqtype <> MonoHomoTheory.D var
+prf 41008:41015 <> inj_homo
+R41030:41035 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41019:41027 Corelib.ssr.ssrfun <> injective def
+R41029:41029 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+R41070:41075 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41036:41041 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41043:41045 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41047:41047 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41049:41051 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41058:41062 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41069:41069 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41042:41042 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41046:41046 <> x:635
+binder 41048:41048 <> y:636
+R41052:41053 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R41057:41057 mathcomp.boot.eqtype <> y:636 var
+R41055:41055 mathcomp.boot.eqtype <> x:635 var
+binder 41046:41046 <> x:637
+binder 41048:41048 <> y:638
+R41063:41064 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R41068:41068 mathcomp.boot.eqtype <> y:638 var
+R41066:41066 mathcomp.boot.eqtype <> x:637 var
+R41076:41081 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41083:41085 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41087:41087 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41089:41091 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41099:41103 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41111:41111 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41082:41082 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41086:41086 <> x:639
+binder 41088:41088 <> y:640
+R41092:41094 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R41098:41098 mathcomp.boot.eqtype <> y:640 var
+R41096:41096 mathcomp.boot.eqtype <> x:639 var
+binder 41086:41086 <> x:641
+binder 41088:41088 <> y:642
+R41104:41106 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R41110:41110 mathcomp.boot.eqtype <> y:642 var
+R41108:41108 mathcomp.boot.eqtype <> x:641 var
+R41151:41161 mathcomp.boot.eqtype <> inj_homo_in thm
+R41163:41163 mathcomp.boot.eqtype <> MonoHomoTheory.D var
+R41165:41165 mathcomp.boot.eqtype <> MonoHomoTheory.D var
+var 41219:41225 MonoHomoTheory aR_anti
+R41229:41241 Corelib.ssr.ssrbool <> antisymmetric def
+R41243:41244 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+var 41258:41264 MonoHomoTheory rR_anti
+R41268:41280 Corelib.ssr.ssrbool <> antisymmetric def
+R41282:41283 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+prf 41293:41300 <> mono_inj
+R41338:41341 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41304:41309 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41311:41313 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41315:41315 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41317:41319 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41326:41330 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41337:41337 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41310:41310 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41314:41314 <> x:647
+binder 41316:41316 <> y:648
+R41320:41321 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R41325:41325 mathcomp.boot.eqtype <> y:648 var
+R41323:41323 mathcomp.boot.eqtype <> x:647 var
+binder 41314:41314 <> x:649
+binder 41316:41316 <> y:650
+R41331:41332 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R41336:41336 mathcomp.boot.eqtype <> y:650 var
+R41334:41334 mathcomp.boot.eqtype <> x:649 var
+R41342:41350 Corelib.ssr.ssrfun <> injective def
+R41352:41352 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+R41390:41396 mathcomp.boot.eqtype <> MonoHomoTheory.aR_anti var
+R41416:41422 mathcomp.boot.eqtype <> MonoHomoTheory.rR_refl var
+prf 41437:41445 <> anti_mono
+R41483:41504 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41449:41454 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41456:41458 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41460:41460 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41462:41464 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41471:41475 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41482:41482 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41455:41455 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41459:41459 <> x:651
+binder 41461:41461 <> y:652
+R41465:41466 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R41470:41470 mathcomp.boot.eqtype <> y:652 var
+R41468:41468 mathcomp.boot.eqtype <> x:651 var
+binder 41459:41459 <> x:653
+binder 41461:41461 <> y:654
+R41476:41477 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R41481:41481 mathcomp.boot.eqtype <> y:654 var
+R41479:41479 mathcomp.boot.eqtype <> x:653 var
+R41505:41510 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41512:41514 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41516:41516 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41518:41520 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41528:41532 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41540:41540 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41511:41511 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41515:41515 <> x:655
+binder 41517:41517 <> y:656
+R41521:41523 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R41527:41527 mathcomp.boot.eqtype <> y:656 var
+R41525:41525 mathcomp.boot.eqtype <> x:655 var
+binder 41515:41515 <> x:657
+binder 41517:41517 <> y:658
+R41533:41535 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R41539:41539 mathcomp.boot.eqtype <> y:658 var
+R41537:41537 mathcomp.boot.eqtype <> x:657 var
+R41576:41579 mathcomp.boot.eqtype <> MonoHomoTheory.rR'E var
+R41581:41584 mathcomp.boot.eqtype <> MonoHomoTheory.aR'E var
+R41589:41594 mathcomp.boot.eqtype <> inj_eq thm
+R41607:41614 mathcomp.boot.eqtype <> mono_inj thm
+prf 41629:41643 <> total_homo_mono
+R41655:41662 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41647:41651 Corelib.ssr.ssrbool <> total def
+R41653:41654 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R41699:41705 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41663:41668 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41670:41672 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41674:41674 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41676:41678 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41686:41690 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41698:41698 Corelib.ssr.ssrfun <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41669:41669 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41673:41673 <> x:659
+binder 41675:41675 <> y:660
+R41679:41681 mathcomp.boot.eqtype <> MonoHomoTheory.aR' var
+R41685:41685 mathcomp.boot.eqtype <> y:660 var
+R41683:41683 mathcomp.boot.eqtype <> x:659 var
+binder 41673:41673 <> x:661
+binder 41675:41675 <> y:662
+R41691:41693 mathcomp.boot.eqtype <> MonoHomoTheory.rR' var
+R41697:41697 mathcomp.boot.eqtype <> y:662 var
+R41695:41695 mathcomp.boot.eqtype <> x:661 var
+R41706:41711 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41713:41715 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41717:41717 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41719:41721 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41728:41732 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41739:41739 Corelib.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R41712:41712 mathcomp.boot.eqtype <> MonoHomoTheory.f var
+binder 41716:41716 <> x:663
+binder 41718:41718 <> y:664
+R41722:41723 mathcomp.boot.eqtype <> MonoHomoTheory.aR var
+R41727:41727 mathcomp.boot.eqtype <> y:664 var
+R41725:41725 mathcomp.boot.eqtype <> x:663 var
+binder 41716:41716 <> x:665
+binder 41718:41718 <> y:666
+R41733:41734 mathcomp.boot.eqtype <> MonoHomoTheory.rR var
+R41738:41738 mathcomp.boot.eqtype <> y:666 var
+R41736:41736 mathcomp.boot.eqtype <> x:665 var
+R41759:41776 mathcomp.boot.eqtype <> total_homo_mono_in thm
+R41778:41778 mathcomp.boot.eqtype <> MonoHomoTheory.D var
+R41780:41786 mathcomp.boot.eqtype <> MonoHomoTheory.rR_anti var
+R41853:41866 mathcomp.boot.eqtype MonoHomoTheory <> sec

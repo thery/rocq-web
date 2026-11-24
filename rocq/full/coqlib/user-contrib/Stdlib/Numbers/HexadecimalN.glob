@@ -1,0 +1,195 @@
+DIGEST 9ec773c60295ab064c83e46b92d6973d
+FStdlib.Numbers.HexadecimalN
+R810:820 Stdlib.Init.Hexadecimal <> <> lib
+R822:837 Stdlib.Numbers.HexadecimalFacts <> <> lib
+R839:852 Stdlib.Numbers.HexadecimalPos <> <> lib
+R854:859 Stdlib.PArith.BinPos <> <> lib
+R861:866 Stdlib.NArith.BinNat <> <> lib
+mod 877:884 <> Unsigned
+prf 894:898 Unsigned of_to
+R903:903 Corelib.Numbers.BinNums <> N ind
+binder 901:901 <> n:1
+R939:941 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R908:920 Stdlib.NArith.BinNat N of_hex_uint def
+R923:935 Stdlib.NArith.BinNat N to_hex_uint def
+R937:937 Stdlib.Numbers.HexadecimalN <> n:1 var
+R942:942 Stdlib.Numbers.HexadecimalN <> n:1 var
+R993:1021 Stdlib.Numbers.HexadecimalPos Unsigned of_to thm
+prf 1036:1040 Unsigned to_of
+R1045:1048 Corelib.Init.Hexadecimal <> uint ind
+binder 1043:1043 <> d:2
+R1084:1086 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1053:1065 Stdlib.NArith.BinNat N to_hex_uint def
+R1068:1080 Stdlib.NArith.BinNat N of_hex_uint def
+R1082:1082 Stdlib.Numbers.HexadecimalN <> d:2 var
+R1087:1091 Corelib.Init.Hexadecimal <> unorm def
+R1093:1093 Stdlib.Numbers.HexadecimalN <> d:2 var
+R1112:1140 Stdlib.Numbers.HexadecimalPos Unsigned to_of thm
+prf 1158:1168 Unsigned to_uint_inj
+binder 1170:1170 <> n:3
+binder 1172:1173 <> n':4
+R1211:1214 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1192:1194 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1177:1189 Stdlib.NArith.BinNat N to_hex_uint def
+R1191:1191 Stdlib.Numbers.HexadecimalN <> n:3 var
+R1195:1207 Stdlib.NArith.BinNat N to_hex_uint def
+R1209:1210 Stdlib.Numbers.HexadecimalN <> n':4 var
+R1216:1218 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1215:1215 Stdlib.Numbers.HexadecimalN <> n:3 var
+R1219:1220 Stdlib.Numbers.HexadecimalN <> n':4 var
+R1258:1262 Stdlib.Numbers.HexadecimalN Unsigned of_to thm
+R1272:1276 Stdlib.Numbers.HexadecimalN Unsigned of_to thm
+prf 1298:1309 Unsigned to_uint_surj
+binder 1311:1311 <> d:5
+R1315:1321 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1323:1324 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1322:1322 <> p:6
+R1340:1342 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1325:1337 Stdlib.NArith.BinNat N to_hex_uint def
+R1339:1339 Stdlib.Numbers.HexadecimalN <> p:6 var
+R1343:1347 Corelib.Init.Hexadecimal <> unorm def
+R1349:1349 Stdlib.Numbers.HexadecimalN <> d:5 var
+R1369:1381 Stdlib.NArith.BinNat N of_hex_uint def
+R1393:1397 Stdlib.Numbers.HexadecimalN Unsigned to_of thm
+prf 1412:1423 Unsigned of_uint_norm
+binder 1425:1425 <> d:7
+R1452:1454 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1429:1441 Stdlib.NArith.BinNat N of_hex_uint def
+R1444:1448 Corelib.Init.Hexadecimal <> unorm def
+R1450:1450 Stdlib.Numbers.HexadecimalN <> d:7 var
+R1455:1467 Stdlib.NArith.BinNat N of_hex_uint def
+R1469:1469 Stdlib.Numbers.HexadecimalN <> d:7 var
+prf 1510:1515 Unsigned of_inj
+binder 1517:1517 <> d:8
+binder 1519:1520 <> d':9
+R1560:1563 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1541:1543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1526:1538 Stdlib.NArith.BinNat N of_hex_uint def
+R1540:1540 Stdlib.Numbers.HexadecimalN <> d:8 var
+R1544:1556 Stdlib.NArith.BinNat N of_hex_uint def
+R1558:1559 Stdlib.Numbers.HexadecimalN <> d':9 var
+R1571:1573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1564:1568 Corelib.Init.Hexadecimal <> unorm def
+R1570:1570 Stdlib.Numbers.HexadecimalN <> d:8 var
+R1574:1578 Corelib.Init.Hexadecimal <> unorm def
+R1580:1581 Stdlib.Numbers.HexadecimalN <> d':9 var
+R1613:1617 Stdlib.Numbers.HexadecimalN Unsigned to_of thm
+prf 1645:1650 Unsigned of_iff
+binder 1652:1652 <> d:10
+binder 1654:1655 <> d':11
+R1693:1697 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1674:1676 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1659:1671 Stdlib.NArith.BinNat N of_hex_uint def
+R1673:1673 Stdlib.Numbers.HexadecimalN <> d:10 var
+R1677:1689 Stdlib.NArith.BinNat N of_hex_uint def
+R1691:1692 Stdlib.Numbers.HexadecimalN <> d':11 var
+R1705:1707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1698:1702 Corelib.Init.Hexadecimal <> unorm def
+R1704:1704 Stdlib.Numbers.HexadecimalN <> d:10 var
+R1708:1712 Corelib.Init.Hexadecimal <> unorm def
+R1714:1715 Stdlib.Numbers.HexadecimalN <> d':11 var
+R1744:1749 Stdlib.Numbers.HexadecimalN Unsigned of_inj thm
+R1777:1788 Stdlib.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1804:1815 Stdlib.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1828:1835 Stdlib.Numbers.HexadecimalN Unsigned <> mod
+mod 1900:1905 <> Signed
+prf 1915:1919 Signed of_to
+R1924:1924 Corelib.Numbers.BinNums <> N ind
+binder 1922:1922 <> n:12
+R1958:1960 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1929:1940 Stdlib.NArith.BinNat N of_hex_int def
+R1943:1954 Stdlib.NArith.BinNat N to_hex_int def
+R1956:1956 Stdlib.Numbers.HexadecimalN <> n:12 var
+R1961:1964 Corelib.Init.Datatypes <> Some constr
+R1966:1966 Stdlib.Numbers.HexadecimalN <> n:12 var
+R1985:1996 Stdlib.NArith.BinNat N to_hex_int def
+R1999:2010 Stdlib.NArith.BinNat N of_hex_int def
+R2013:2016 Corelib.Init.Hexadecimal <> norm def
+R2038:2058 Stdlib.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R2067:2080 Stdlib.Numbers.HexadecimalN Unsigned of_to thm
+prf 2095:2099 Signed to_of
+R2104:2106 Corelib.Init.Hexadecimal <> int abbrev
+binder 2102:2102 <> d:13
+R2111:2111 Corelib.Numbers.BinNums <> N ind
+binder 2109:2109 <> n:14
+R2139:2142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2130:2132 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2116:2127 Stdlib.NArith.BinNat N of_hex_int def
+R2129:2129 Stdlib.Numbers.HexadecimalN <> d:13 var
+R2133:2136 Corelib.Init.Datatypes <> Some constr
+R2138:2138 Stdlib.Numbers.HexadecimalN <> n:14 var
+R2157:2159 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2143:2154 Stdlib.NArith.BinNat N to_hex_int def
+R2156:2156 Stdlib.Numbers.HexadecimalN <> n:14 var
+R2160:2163 Corelib.Init.Hexadecimal <> norm def
+R2165:2165 Stdlib.Numbers.HexadecimalN <> d:13 var
+R2184:2195 Stdlib.NArith.BinNat N of_hex_int def
+R2210:2213 Corelib.Init.Hexadecimal <> norm def
+R2250:2261 Stdlib.NArith.BinNat N to_hex_int def
+R2272:2285 Stdlib.Numbers.HexadecimalN Unsigned to_of thm
+R2354:2369 Stdlib.Numbers.HexadecimalFacts <> unorm_involutive thm
+R2386:2391 Corelib.Init.Hexadecimal <> nzhead def
+prf 2428:2437 Signed to_int_inj
+binder 2439:2439 <> n:15
+binder 2441:2442 <> n':16
+R2478:2481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2460:2462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2446:2457 Stdlib.NArith.BinNat N to_hex_int def
+R2459:2459 Stdlib.Numbers.HexadecimalN <> n:15 var
+R2463:2474 Stdlib.NArith.BinNat N to_hex_int def
+R2476:2477 Stdlib.Numbers.HexadecimalN <> n':16 var
+R2483:2485 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2482:2482 Stdlib.Numbers.HexadecimalN <> n:15 var
+R2486:2487 Stdlib.Numbers.HexadecimalN <> n':16 var
+R2529:2531 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2523:2526 Corelib.Init.Datatypes <> Some constr
+R2532:2535 Corelib.Init.Datatypes <> Some constr
+R2562:2566 Stdlib.Numbers.HexadecimalN Signed of_to thm
+R2576:2580 Stdlib.Numbers.HexadecimalN Signed of_to thm
+prf 2624:2638 Signed to_int_pos_surj
+binder 2640:2640 <> d:17
+R2644:2650 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2652:2653 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2651:2651 <> n:18
+R2668:2670 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2654:2665 Stdlib.NArith.BinNat N to_hex_int def
+R2667:2667 Stdlib.Numbers.HexadecimalN <> n:18 var
+R2671:2674 Corelib.Init.Hexadecimal <> norm def
+R2677:2679 Corelib.Init.Hexadecimal <> Pos constr
+R2681:2681 Stdlib.Numbers.HexadecimalN <> d:17 var
+R2702:2714 Stdlib.NArith.BinNat N of_hex_uint def
+R2727:2738 Stdlib.NArith.BinNat N to_hex_int def
+R2753:2766 Stdlib.Numbers.HexadecimalN Unsigned to_of thm
+prf 2781:2791 Signed of_int_norm
+binder 2793:2793 <> d:19
+R2818:2820 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2797:2808 Stdlib.NArith.BinNat N of_hex_int def
+R2811:2814 Corelib.Init.Hexadecimal <> norm def
+R2816:2816 Stdlib.Numbers.HexadecimalN <> d:19 var
+R2821:2832 Stdlib.NArith.BinNat N of_hex_int def
+R2834:2834 Stdlib.Numbers.HexadecimalN <> d:19 var
+R2853:2864 Stdlib.NArith.BinNat N of_hex_int def
+R2879:2893 Stdlib.Numbers.HexadecimalFacts <> norm_involutive thm
+prf 2908:2917 Signed of_inj_pos
+binder 2919:2919 <> d:20
+binder 2921:2922 <> d':21
+R2972:2975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2948:2950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2928:2939 Stdlib.NArith.BinNat N of_hex_int def
+R2942:2944 Corelib.Init.Hexadecimal <> Pos constr
+R2946:2946 Stdlib.Numbers.HexadecimalN <> d:20 var
+R2951:2962 Stdlib.NArith.BinNat N of_hex_int def
+R2965:2967 Corelib.Init.Hexadecimal <> Pos constr
+R2969:2970 Stdlib.Numbers.HexadecimalN <> d':21 var
+R2983:2985 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2976:2980 Corelib.Init.Hexadecimal <> unorm def
+R2982:2982 Stdlib.Numbers.HexadecimalN <> d:20 var
+R2986:2990 Corelib.Init.Hexadecimal <> unorm def
+R2992:2993 Stdlib.Numbers.HexadecimalN <> d':21 var
+R3012:3023 Stdlib.NArith.BinNat N of_hex_int def
+R3053:3067 Stdlib.Numbers.HexadecimalN Unsigned of_inj thm
+R3079:3093 Stdlib.PArith.BinPos Pos of_hex_uint def
+R3100:3112 Stdlib.NArith.BinNat N of_hex_uint def
+R3137:3157 Stdlib.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3163:3183 Stdlib.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3196:3201 Stdlib.Numbers.HexadecimalN Signed <> mod

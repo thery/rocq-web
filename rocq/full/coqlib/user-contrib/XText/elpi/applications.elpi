@@ -1,0 +1,253 @@
+% xtext: Applications: specialisations and modus ponens, and the contraction of
+% their steps.
+% (part of xtext's writer; the files are loaded in the order of ExtractText.v)
+
+
+% rewriting with an equality (eq_ind, eq_ind_r, ...)
+tr-app H Args Path P :-
+  rewrite-info H Dir, std.length Args L, L >= 6, !,
+  std.split-at 6 Args Cons Rest, Cons = [_, _, _, PX, _, E],
+  coq.mk-app H Cons T0, typ T0 Tau, head-name H RN,
+  tr-rewrite RN Dir Tau PX E Path P0,
+  apply-rest T0 P0 Rest Path P.
+% elimination theorems
+tr-app H Args Path P :-
+  elim-info H I Kind NC Ks Fls, std.length Args L, L >= NC, !,
+  std.split-at NC Args Cons Rest,
+  coq.mk-app H Cons T0, typ T0 Tau, ind-name I C, head-name H EN,
+  branch-infos Ks Fls Cis0,
+  % the name of the theorem, the justification of the elimination (cyp
+  % applies it, the cases being its subproofs); not for an elimination of
+  % the first kind on a type with indices (le_ind): the motive is then not
+  % found from the goal by unification, and cyp's default tactics close
+  % the step from the cases
+  gr-of H GRE, short-name GRE QE,
+  (if (Kind = 1, instance-arity I NS, NS > 1) (Justified = ff) (Justified = tt)),
+  % the standard scheme of the type (T_ind, T_rect, ...): cyp's fixed
+  % justifications *match* and *induction* stand for it (elim-parts)
+  short-name (indt I) QI,
+  (if (standard-scheme GRE I) (Std = tt) (Std = ff)),
+  ((elim-app EN QE :- Justified = tt, !) => (elim-standard EN :- Std = tt, !) =>
+   (elim-type-just QI :- !) =>
+  (if (Kind = 1)
+      (imp-args Ks Cons Imps, std.last Imps Maj, std.drop-last 1 Imps Ns,
+       std.drop-last 1 Cis0 Cis,
+       tr-elim1 C EN Tau Maj Ns Cis Path P0, T1 = T0, Rest1 = Rest)
+      (imp-args Ks Cons Ns, Cis = Cis0,
+       (if (instance-without-motive H I Cons Rest Spec Rest1)
+           % thesis 6.4.1: the instance is proved by cases on the object,
+           % the generalised statement (the motive) left out
+           (coq.mk-app T0 Spec T1, typ T1 Tau1, std.last Spec Obj,
+            tr-elim2 C EN Tau1 none (some Obj) Ns Cis Path P0)
+           (T1 = T0, Rest1 = Rest,
+            (if (Rest = [_|_]) (typ (app [H|Args]) TF, Fin = some TF) (Fin = none)),
+            tr-elim2 C EN Tau Fin none Ns Cis Path P0))))),
+  apply-rest T1 P0 Rest1 Path P.
+% introduction theorems
+tr-app H Args Path P :-
+  intro-info H I NC, std.length Args L, L >= NC, !,
+  std.split-at NC Args Cons Rest,
+  coq.mk-app H Cons T0, typ T0 Tau, ind-name I C, typ H TyH,
+  kinds TyH Cons Ks, imp-args Ks Cons Ns,
+  domains TyH Cons Es0, imp-args Ks Es0 Es,
+  gr-of H (indc KC), coq.env.indc KC NP _ _ _,
+  % the arguments that are not parameters nor premises are witnesses
+  std.drop NP Cons Ws0, std.drop NP Ks KWs,
+  witnesses KWs Ws0 Ws,
+  (if (Ws = []) (WP = [])
+      (std.map Ws (w\ p\ p = [untagged w]) FWs,
+       WP = [wd "witness", enum FWs])),
+  % the constructor is the justification of the step
+  short-name (indc KC) K, std.append [tx C, tx "(", jst K, tx ")"] WP CD,
+  tr-intro CD Tau Ns Es Path P0,
+  apply-rest T0 P0 Rest Path P.
+tr-app H [] _ P :- name H, rec-var H, !,
+  var-name H N, type-formula rclaim H F,
+  sentence [wd "ih", tx "(", wd "recursive-call", tx N, tx ")", wd "have", tx F] S,
+  conclusion-only S P.
+tr-app H [] _ P :- name H, !,
+  type-formula rclaim H F,
+  sentence [wd "by", {justification-of H}, wd "have", tx F] S, conclusion-only S P.
+tr-app H [] _ P :- gr-of H _, !,
+  type-formula rclaim H F,
+  sentence [wd "using", {justification-of H}, wd "get", tx F] S, conclusion-only S P.
+tr-app H Args Path P :-
+  (if (is-sym H) (tr-app H [] Path P0) (tr-p H nostar Path P0)),
+  apply-rest H P0 Args Path P.
+
+% iterated application: the arguments of T0 (whose text is P0) are
+% split into maximal runs of the same kind
+pred apply-rest i:term, i:pf, i:list term, i:list int, o:pf.
+apply-rest _ P0 [] _ P0 :- !.
+% Arguments that can be inferred (thesis 5.4, the extended App): a run
+% of specialisations followed by a run of premises is written as one
+% step when the specialised arguments, left as holes, are found again
+% by elaborating the application against its type.
+apply-rest T0 P00 Args Path P :-
+  typ T0 Ty0, kinds Ty0 Args Ks, run Ks Args ak-all Run Rest,
+  not (off "args"), Rest = [_|_], head-unfold T0 Ty0 P00 P0,
+  std.length Run NR, std.drop NR Ks Ks2, run Ks2 Rest ak-imp Run2 Rest2,
+  coq.mk-app T0 Run T1, coq.mk-app T1 Run2 T2,
+  inferable T0 Run Run2 T2, !,
+  typ T1 Ty1, domains Ty1 Run2 Es,
+  typ T2 Tau2,
+  % (P0 is the text of T0: its line claims the type of T0)
+  mp-step Run2 Es T0 P0 Tau2 Path P2,
+  apply-rest T2 P2 Rest2 Path P.
+apply-rest T0 P00 Args Path P :-
+  typ T0 Ty0, kinds Ty0 Args Ks, run Ks Args K Run Rest, head-unfold T0 Ty0 P00 P0,
+  coq.mk-app T0 Run T1, typ T1 Tau1,
+  domains Ty0 Run Es,
+  apply-run K Run Es T0 P0 Tau1 Path P1,
+  apply-rest T1 P1 Rest Path P.
+
+% a function whose type is a product only after unfolding: its
+% conclusion says the unfolded type ("that is")
+pred head-unfold i:term, i:term, i:pf, o:pf.
+head-unfold _ (prod _ _ _) P P :- !.
+head-unfold T0 Ty0 P0 P :- whnf Ty0 W, W = prod _ _ _, !,
+  beta-ty W W1, that-is T0 W1 P0 P.
+head-unfold _ _ P P.
+
+% the arguments Run of T0 can be left out of T0 Run Run2 (of type T2's)
+pred inferable i:term, i:list term, i:list term, i:term.
+inferable T0 Run Run2 T2 :-
+  std.map Run (_\ h\ true) Hs, coq.mk-app T0 Hs T0h, coq.mk-app T0h Run2 Sk,
+  typ T2 Ty, coq.elaborate-skeleton Sk Ty T3 ok, ground_term T3,
+  coq.unify-eq T3 T2 ok.
+
+% Implicit arguments in eliminations (thesis 6.4.1): a dependent
+% elimination H Cons applied to Spec, the indices and the object x0,
+% proves the instance (P x0) of the generalised statement P, its motive.
+% The motive is left out when it can be found again from the instance and
+% Spec alone (ElimOpen without the generalised predicate): the predicate
+% found by abstracting Spec in the instance, as Rocq's elim and pattern
+% do, must be the motive of the proof.
+% [instance-without-motive H I Cons Args Spec Rest]: Args is Spec, the
+% indices and the object of the elimination H Cons on I, then Rest, and
+% the motive of H Cons can be left out
+pred instance-without-motive i:term, i:inductive, i:list term, i:list term, o:list term, o:list term.
+instance-without-motive H I Cons Args Spec Rest :-
+  not (off "motive"),
+  instance-arity I NS, std.length Args NA, NA >= NS,
+  std.split-at NS Args Spec Rest,
+  typ {coq.mk-app H {std.append Cons Spec}} Instance,
+  std.map Spec typ Tys, abstract-terms Spec Tys Instance Found,
+  motive-position H M, std.nth M Cons Motive,
+  coq.unify-eq Found Motive ok.
+
+% [abstract-terms Ts Tys B F]: F = fun y1 : Ty1 .. yn : Tyn => B, where
+% each term Ti of Ts (of type Tyi) is replaced by yi, in B and in the
+% types after it
+pred abstract-terms i:list term, i:list term, i:term, o:term.
+abstract-terms [] [] B B.
+abstract-terms [T|Ts] [Ty|Tys] B (fun `y` Ty F) :-
+  pi y\ sigma Tys1 B1\ ((copy T y :- !) => (std.map Tys copy Tys1, copy B B1)),
+    abstract-terms Ts Tys1 B1 (F y).
+
+% [apply-run K Run Es T0 P0 Tau Path P]: the text P of an application step
+% of conclusion Tau: a particular case for a run of universal arguments
+% (ak-all), a modus ponens step (mp-step) for a run of proofs (ak-imp)
+pred apply-run i:ak, i:list term, i:list term, i:term, i:pf, i:term, i:list int, o:pf.
+apply-run ak-all _ _ T0 P0 Tau _ (prfp (prf L (some (it S []))) [Ty0]) :-
+  flatten P0 L, formula rclaim Tau F, sentence [wd "particular", tx F] S, typ T0 Ty0.
+apply-run ak-imp Run Es T0 P0 Tau Path P :- mp-step Run Es T0 P0 Tau Path P.
+
+% --- Contraction (thesis 3.4.2, "contraction gardée", Fig. 3.11-3.13).
+% A modus ponens step: premises N1 .. Nk and the function (text P0),
+% conclusion Tau.  A premise that is itself an application step, used
+% here only, can be contracted: its own premises take its place, and its
+% conclusion disappears.  Strategy (the switch
+% "contraction", switches.elpi): none; maximal (every such premise); guarded (a
+% premise is contracted only if Tau still follows from the premises, as
+% checked by one of the tactics of xtext-guard-tactic, and if its line
+% does not say "that is", i.e. no conversion step is hidden).
+kind cand type.
+type cand line -> list line -> list term -> term -> bool -> cand.
+% (its line, its premise lines, their types, its type, contractible)
+
+pred mp-step i:list term, i:list term, i:term, i:pf, i:term, i:list int, o:pf.
+mp-step Run Es T0 P0 Tau Path (prfp (prf L (some (it S []))) Tys) :-
+  premise-cands Run Es Path Cs0,
+  typ T0 Ty0, cand-of P0 Ty0 C0, std.append Cs0 [C0] Cs,
+  switch "contraction" Strat, contract-premises Strat Cs Tau L Tys By,
+  formula rclaim Tau F,
+  % the tactic that checked a guarded contraction justifies the step
+  (if (By = "") (J = []) (J = [wd "by", jst By])),
+  sentence {std.append J [wd "deduce", tx F]} S.
+
+% the candidates of the premises (with their expected types)
+pred premise-cands i:list term, i:list term, i:list int, o:list cand.
+premise-cands [] _ _ [].
+premise-cands [T|Ts] Es Path [C|Cs] :-
+  next-expected Es E Er,
+  tr-p T nostar Path P0, typ T Ty,
+  at-expected T E P0 P,
+  cand-of P Ty C, premise-cands Ts Er Path Cs.
+
+% [cand-of P Ty C]: the candidate of the premise of text P and type Ty: its
+% line, and, for a step with one line and premises, the lines and types
+% that may take its place (contractible)
+pred cand-of i:pf, i:term, o:cand.
+cand-of (prfp (prf L (some (it S Ch))) Tys) Ty (cand D Lift Tys Ty tt) :- !,
+  dashed (prf L (some (it S Ch))) D, std.append L Ch Lift.
+cand-of P Ty (cand D [] [] Ty ff) :- dashed P D.
+
+% [contract-premises Strat Cs Tau L Tys]: the lines L of the step and the types
+% Tys they prove, after contracting some of the candidates Cs
+% By: the justification of the step after a guarded contraction (the
+% tactic that closed the last accepted configuration), "" otherwise
+pred contract-premises i:string, i:list cand, i:term, o:list line, o:list term, o:string.
+contract-premises Strat Cs Tau L Tys By :-
+  std.map Cs (c\ b\ b = ff) Dec0,
+  decide Strat Cs Tau 0 Dec0 "" Dec By,
+  lines-of Cs Dec L Tys.
+
+% [decide Strat Cs Tau I D0 B0 D By]: the choices D (contract or not) for
+% the candidates Cs from the I-th on, each tried in turn by the strategy
+% Strat; By, the tactic of the last contraction accepted
+pred decide i:string, i:list cand, i:term, i:int, i:list bool, i:string, o:list bool, o:string.
+decide _ Cs _ I D B D B :- std.length Cs N, I >= N, !.
+decide Strat Cs Tau I D0 B0 D B :-
+  std.nth I Cs (cand _ _ _ _ Ok),
+  (if (Ok = tt, contract-ok Strat Cs Tau I D0 B1) (set-nth I D0 tt D1, B2 = B1) (D1 = D0, B2 = B0)),
+  I1 is I + 1, decide Strat Cs Tau I1 D1 B2 D B.
+
+% [contract-ok Strat Cs Tau I D0 By]: the I-th candidate may be contracted:
+% always (maximal), or when Tau still follows from the premises (guarded,
+% checked by the tactic By)
+pred contract-ok i:string, i:list cand, i:term, i:int, i:list bool, o:string.
+contract-ok "maximal" _ _ _ _ "" :- !.
+contract-ok "guarded" Cs Tau I D0 By :-
+  set-nth I D0 tt D1, lines-of Cs D1 _ Tys, guard Tys Tau By.
+
+% [set-nth I L B L1]: the list L with its I-th element (from 0) set to B
+pred set-nth i:int, i:list bool, i:bool, o:list bool.
+set-nth 0 [_|L] B [B|L] :- !.
+set-nth I [X|L] B [X|L1] :- I1 is I - 1, set-nth I1 L B L1.
+
+% [lines-of Cs Ds L Tys]: the lines L of the step and the types Tys they
+% prove: each contracted candidate gives its own premises, the others their
+% line
+pred lines-of i:list cand, i:list bool, o:list line, o:list term.
+lines-of [] _ [] [].
+lines-of [cand D Lift Ps Ty _|Cs] [B|Bs] L Tys :-
+  lines-of Cs Bs L1 Tys1,
+  (if (B = tt) (std.append Lift L1 L, std.append Ps Tys1 Tys)
+               (L = [D|L1], Tys = [Ty|Tys1])).
+
+% Tau follows from the premises Tys, by the tactic By
+pred guard i:list term, i:term, o:string.
+guard Tys Tau By :- arrows Tys Tau G, xtext-guard-tactic L By, try-tactic L G, !.
+
+% [arrows As T G]: the implication A1 -> ... -> An -> T
+pred arrows i:list term, i:term, o:term.
+arrows [] T T.
+arrows [A|As] T (prod `_` A (_\ R)) :- arrows As T R.
+
+% [witnesses Ks Ts Ws]: the arguments among Ts whose kind in Ks is
+% universal (ak-all), the witnesses of the step
+pred witnesses i:list ak, i:list term, o:list term.
+witnesses [ak-all|Ks] [W|Ws] [W|R] :- !, witnesses Ks Ws R.
+witnesses [_|Ks] [_|Ws] R :- !, witnesses Ks Ws R.
+witnesses _ _ [].

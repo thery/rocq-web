@@ -1,0 +1,871 @@
+DIGEST bdd4f0d41e462069de70ead23127859b
+FStdlib.Zmod.ZmodInv
+R27:32 Stdlib.ZArith.ZArith <> <> lib
+R34:43 Stdlib.ZArith.ZModOffset <> <> lib
+R45:49 Stdlib.ZArith.Zcong <> <> lib
+R51:53 Stdlib.micromega.Lia <> <> lib
+R55:66 Stdlib.setoid_ring.Field_theory <> <> lib
+R96:104 Stdlib.Bool.Bool <> <> lib
+R106:115 Stdlib.Lists.List <> <> lib
+R117:128 Stdlib.Lists.Finite <> <> lib
+R130:148 Stdlib.Sorting.Permutation <> <> lib
+R158:170 Stdlib.Lists.List ListNotations <> mod
+R201:212 Stdlib.Zmod.ZmodDef <> <> lib
+R214:226 Stdlib.Zmod.ZstarDef <> <> lib
+R228:240 Stdlib.Zmod.ZmodBase <> <> lib
+R242:255 Stdlib.Zmod.ZstarBase <> <> lib
+R296:334 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R346:395 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R425:429 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+mod 465:468 <> Zmod
+R478:491 Stdlib.Zmod.ZstarDef Zstar <> mod
+R493:507 Stdlib.Zmod.ZstarBase Zstar <> mod
+R509:520 Stdlib.Zmod.ZmodDef Zmod <> mod
+R522:534 Stdlib.Zmod.ZmodBase Zmod <> mod
+prf 544:552 Zmod mdiv_same
+binder 555:555 <> m:1
+R563:566 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R568:568 Stdlib.Zmod.ZmodInv <> m:1 var
+binder 559:559 <> a:2
+R581:583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R573:576 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R580:580 Stdlib.Zmod.ZmodInv <> a:2 var
+R578:578 Stdlib.Zmod.ZmodInv <> a:2 var
+R584:587 Stdlib.Zmod.ZmodDef Zmod of_Z def
+R589:589 Stdlib.Zmod.ZmodInv <> m:1 var
+R592:596 Stdlib.ZArith.BinInt Z gcd def
+R598:598 Stdlib.Zmod.ZmodInv <> a:2 var
+R600:600 Stdlib.Zmod.ZmodInv <> m:1 var
+R623:631 Stdlib.Zmod.ZmodBase Zmod mul_inv_l thm
+R640:647 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R658:665 Stdlib.Zmod.ZmodBase Zmod to_Z_mul abbrev
+R668:675 Stdlib.Zmod.ZmodBase Zmod to_Z_inv abbrev
+R682:690 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z abbrev
+R693:703 Stdlib.ZArith.Zcong Z invmod_ok thm
+prf 727:740 Zmod in_invertibles
+binder 743:743 <> m:3
+R751:754 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R756:756 Stdlib.Zmod.ZmodInv <> m:3 var
+binder 747:747 <> x:4
+R786:790 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R761:767 Stdlib.Lists.List <> In def
+R772:782 Stdlib.Zmod.ZmodDef Zmod invertibles def
+R784:784 Stdlib.Zmod.ZmodInv <> m:3 var
+R769:769 Stdlib.Zmod.ZmodInv <> x:4 var
+R791:799 Stdlib.ZArith.Zdivisibility Z coprime def
+R801:801 Stdlib.Zmod.ZmodInv <> x:4 var
+R803:803 Stdlib.Zmod.ZmodInv <> m:3 var
+R825:846 Stdlib.Zmod.ZstarBase Zstar to_Zmod_elements thm
+R849:858 Stdlib.Lists.List <> in_map_iff thm
+R901:921 Stdlib.Zmod.ZstarBase Zstar coprime_to_Zmod thm
+R947:967 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+R981:997 Stdlib.Zmod.ZstarBase Zstar in_elements thm
+prf 1014:1030 Zmod NoDup_invertibles
+binder 1032:1032 <> m:5
+R1036:1045 Stdlib.Lists.List <> NoDup ind
+R1048:1058 Stdlib.Zmod.ZmodDef Zmod invertibles def
+R1060:1060 Stdlib.Zmod.ZmodInv <> m:5 var
+R1083:1104 Stdlib.Zmod.ZstarBase Zstar to_Zmod_elements thm
+R1116:1134 Stdlib.Lists.Finite <> Injective_map_NoDup thm
+R1137:1156 Stdlib.Zmod.ZstarBase Zstar NoDup_elements thm
+R1166:1174 Stdlib.Lists.Finite <> Injective def
+R1189:1205 Stdlib.Zmod.ZstarBase Zstar to_Zmod_inj thm
+prf 1220:1236 Zmod mdiv_same_coprime
+binder 1239:1239 <> m:6
+R1247:1250 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R1252:1252 Stdlib.Zmod.ZmodInv <> m:6 var
+binder 1243:1243 <> a:7
+R1269:1271 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1260:1264 Stdlib.ZArith.BinInt Z gcd def
+R1266:1266 Stdlib.Zmod.ZmodInv <> a:7 var
+R1268:1268 Stdlib.Zmod.ZmodInv <> m:6 var
+binder 1256:1256 <> H:8
+R1285:1287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1277:1280 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R1284:1284 Stdlib.Zmod.ZmodInv <> a:7 var
+R1282:1282 Stdlib.Zmod.ZmodInv <> a:7 var
+R1288:1290 Stdlib.Zmod.ZmodDef Zmod one def
+R1308:1317 Stdlib.ZArith.BinInt Z eqb_spec thm
+R1344:1355 Stdlib.Zmod.ZmodBase Zmod unsigned_inj thm
+R1366:1378 Stdlib.Zmod.ZmodBase Zmod unsigned_mdiv thm
+R1389:1397 Stdlib.ZArith.BinInt Z gcd_0_r thm
+R1428:1431 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1423:1425 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1417:1420 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R1438:1440 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1432:1435 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R1485:1493 Stdlib.Zmod.ZmodInv Zmod mdiv_same thm
+prf 1520:1534 Zmod mdiv_same_prime
+binder 1537:1537 <> m:9
+R1545:1548 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R1550:1550 Stdlib.Zmod.ZmodInv <> m:9 var
+binder 1541:1541 <> x:10
+R1559:1565 Stdlib.ZArith.Zdivisibility Z prime class
+R1567:1567 Stdlib.Zmod.ZmodInv <> m:9 var
+binder 1554:1555 <> Hm:11
+R1576:1579 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1575:1575 Stdlib.Zmod.ZmodInv <> x:10 var
+R1580:1583 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 1571:1571 <> H:12
+R1596:1598 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1588:1591 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R1595:1595 Stdlib.Zmod.ZmodInv <> x:10 var
+R1593:1593 Stdlib.Zmod.ZmodInv <> x:10 var
+R1599:1601 Stdlib.Zmod.ZmodDef Zmod one def
+R1624:1635 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R1651:1667 Stdlib.Zmod.ZmodInv Zmod mdiv_same_coprime thm
+R1676:1682 Stdlib.Zmod.ZmodBase Zmod to_Z_nz abbrev
+R1701:1710 Stdlib.Zmod.ZmodBase Zmod to_Z_range abbrev
+R1725:1734 Stdlib.ZArith.BinInt Z gcd_comm thm
+R1743:1763 Stdlib.ZArith.Zdivisibility Z coprime_prime_small thm
+prf 1792:1813 Zmod mul_inv_same_l_coprime
+binder 1816:1816 <> m:13
+R1824:1827 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R1829:1829 Stdlib.Zmod.ZmodInv <> m:13 var
+binder 1820:1820 <> x:14
+R1846:1848 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1837:1841 Stdlib.ZArith.BinInt Z gcd def
+R1843:1843 Stdlib.Zmod.ZmodInv <> x:14 var
+R1845:1845 Stdlib.Zmod.ZmodInv <> m:13 var
+binder 1833:1833 <> H:15
+R1869:1871 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1856:1858 Stdlib.Zmod.ZmodDef Zmod mul def
+R1868:1868 Stdlib.Zmod.ZmodInv <> x:14 var
+R1861:1863 Stdlib.Zmod.ZmodDef Zmod inv def
+R1865:1865 Stdlib.Zmod.ZmodInv <> x:14 var
+R1872:1874 Stdlib.Zmod.ZmodDef Zmod one def
+R1897:1916 Stdlib.Zmod.ZstarBase Zstar mul_inv_same_l thm
+R1919:1931 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R1951:1957 Corelib.Init.Logic <> f_equal thm
+R1959:1971 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R1990:2006 Stdlib.Zmod.ZstarBase Zstar to_Zmod_mul thm
+R2009:2025 Stdlib.Zmod.ZstarBase Zstar to_Zmod_inv thm
+R2028:2048 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+R2051:2065 Stdlib.Zmod.ZstarBase Zstar to_Zmod_1 thm
+prf 2105:2126 Zmod mul_inv_same_r_coprime
+binder 2129:2129 <> m:16
+R2137:2140 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R2142:2142 Stdlib.Zmod.ZmodInv <> m:16 var
+binder 2133:2133 <> x:17
+R2159:2161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2150:2154 Stdlib.ZArith.BinInt Z gcd def
+R2156:2156 Stdlib.Zmod.ZmodInv <> x:17 var
+R2158:2158 Stdlib.Zmod.ZmodInv <> m:16 var
+binder 2146:2146 <> H:18
+R2182:2184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2169:2171 Stdlib.Zmod.ZmodDef Zmod mul def
+R2176:2178 Stdlib.Zmod.ZmodDef Zmod inv def
+R2180:2180 Stdlib.Zmod.ZmodInv <> x:17 var
+R2173:2173 Stdlib.Zmod.ZmodInv <> x:17 var
+R2185:2187 Stdlib.Zmod.ZmodDef Zmod one def
+R2205:2212 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+R2215:2236 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_coprime thm
+prf 2260:2279 Zmod mul_inv_same_l_prime
+binder 2282:2282 <> m:19
+R2290:2293 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R2295:2295 Stdlib.Zmod.ZmodInv <> m:19 var
+binder 2286:2286 <> x:20
+R2304:2310 Stdlib.ZArith.Zdivisibility Z prime class
+R2312:2312 Stdlib.Zmod.ZmodInv <> m:19 var
+binder 2299:2300 <> Hm:21
+R2321:2324 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2320:2320 Stdlib.Zmod.ZmodInv <> x:20 var
+R2325:2328 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 2316:2316 <> H:22
+R2348:2350 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2335:2337 Stdlib.Zmod.ZmodDef Zmod mul def
+R2347:2347 Stdlib.Zmod.ZmodInv <> x:20 var
+R2340:2342 Stdlib.Zmod.ZmodDef Zmod inv def
+R2344:2344 Stdlib.Zmod.ZmodInv <> x:20 var
+R2351:2353 Stdlib.Zmod.ZmodDef Zmod one def
+R2380:2388 Stdlib.Zmod.ZmodBase Zmod mul_inv_l thm
+R2392:2406 Stdlib.Zmod.ZmodInv Zmod mdiv_same_prime thm
+prf 2430:2449 Zmod mul_inv_same_r_prime
+binder 2452:2452 <> m:23
+R2460:2463 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R2465:2465 Stdlib.Zmod.ZmodInv <> m:23 var
+binder 2456:2456 <> x:24
+R2474:2480 Stdlib.ZArith.Zdivisibility Z prime class
+R2482:2482 Stdlib.Zmod.ZmodInv <> m:23 var
+binder 2469:2470 <> Hm:25
+R2491:2494 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2490:2490 Stdlib.Zmod.ZmodInv <> x:24 var
+R2495:2498 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 2486:2486 <> H:26
+R2518:2520 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2505:2507 Stdlib.Zmod.ZmodDef Zmod mul def
+R2512:2514 Stdlib.Zmod.ZmodDef Zmod inv def
+R2516:2516 Stdlib.Zmod.ZmodInv <> x:24 var
+R2509:2509 Stdlib.Zmod.ZmodInv <> x:24 var
+R2521:2523 Stdlib.Zmod.ZmodDef Zmod one def
+R2541:2548 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+R2551:2570 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_prime thm
+prf 2594:2605 Zmod field_theory
+binder 2607:2607 <> m:27
+R2615:2621 Stdlib.ZArith.Zdivisibility Z prime class
+R2623:2623 Stdlib.Zmod.ZmodInv <> m:27 var
+binder 2610:2611 <> Hm:28
+R2631:2642 Stdlib.setoid_ring.Field_theory <> field_theory rec
+R2645:2648 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R2650:2650 Stdlib.Zmod.ZmodInv <> m:27 var
+R2653:2656 Stdlib.Zmod.ZmodDef Zmod zero def
+R2658:2660 Stdlib.Zmod.ZmodDef Zmod one def
+R2662:2664 Stdlib.Zmod.ZmodDef Zmod add def
+R2666:2668 Stdlib.Zmod.ZmodDef Zmod mul def
+R2670:2672 Stdlib.Zmod.ZmodDef Zmod sub def
+R2674:2676 Stdlib.Zmod.ZmodDef Zmod opp def
+R2678:2681 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R2683:2685 Stdlib.Zmod.ZmodDef Zmod inv def
+R2687:2688 Corelib.Init.Logic <> eq ind
+R2718:2728 Stdlib.Zmod.ZmodBase Zmod ring_theory thm
+R2731:2742 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R2745:2753 Stdlib.Zmod.ZmodBase Zmod mul_inv_r thm
+R2756:2775 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_prime thm
+R2786:2797 Stdlib.Zmod.ZmodBase Zmod one_neq_zero thm
+R2811:2822 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+prf 2847:2858 Zmod inv_nz_prime
+binder 2861:2861 <> m:29
+R2869:2872 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R2874:2874 Stdlib.Zmod.ZmodInv <> m:29 var
+binder 2865:2865 <> x:30
+R2883:2889 Stdlib.ZArith.Zdivisibility Z prime class
+R2891:2891 Stdlib.Zmod.ZmodInv <> m:29 var
+binder 2878:2879 <> Hm:31
+R2901:2904 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2900:2900 Stdlib.Zmod.ZmodInv <> x:30 var
+R2905:2908 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 2895:2896 <> Hx:32
+R2918:2921 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2913:2915 Stdlib.Zmod.ZmodDef Zmod inv def
+R2917:2917 Stdlib.Zmod.ZmodInv <> x:30 var
+R2922:2925 Stdlib.Zmod.ZmodDef Zmod zero def
+R2948:2959 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R3003:3014 Stdlib.Zmod.ZmodBase Zmod one_neq_zero thm
+R3041:3060 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_prime thm
+R3088:3094 Stdlib.Zmod.ZmodBase Zmod mul_0_l thm
+prf 3120:3126 Zmod inv_inv
+binder 3129:3129 <> m:33
+R3137:3140 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R3142:3142 Stdlib.Zmod.ZmodInv <> m:33 var
+binder 3133:3133 <> x:34
+R3159:3161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3150:3154 Stdlib.ZArith.BinInt Z gcd def
+R3156:3156 Stdlib.Zmod.ZmodInv <> x:34 var
+R3158:3158 Stdlib.Zmod.ZmodInv <> m:33 var
+binder 3146:3146 <> H:35
+R3177:3179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3166:3168 Stdlib.Zmod.ZmodDef Zmod inv def
+R3171:3173 Stdlib.Zmod.ZmodDef Zmod inv def
+R3175:3175 Stdlib.Zmod.ZmodInv <> x:34 var
+R3180:3180 Stdlib.Zmod.ZmodInv <> x:34 var
+R3203:3215 Stdlib.Zmod.ZstarBase Zstar inv_inv thm
+R3218:3230 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R3250:3256 Corelib.Init.Logic <> f_equal thm
+R3258:3270 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R3290:3306 Stdlib.Zmod.ZstarBase Zstar to_Zmod_inv thm
+R3309:3329 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 3369:3381 Zmod inv_inv_prime
+binder 3384:3384 <> m:36
+R3392:3395 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R3397:3397 Stdlib.Zmod.ZmodInv <> m:36 var
+binder 3388:3388 <> x:37
+R3406:3412 Stdlib.ZArith.Zdivisibility Z prime class
+R3414:3414 Stdlib.Zmod.ZmodInv <> m:36 var
+binder 3401:3402 <> Hm:38
+R3429:3431 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3418:3420 Stdlib.Zmod.ZmodDef Zmod inv def
+R3423:3425 Stdlib.Zmod.ZmodDef Zmod inv def
+R3427:3427 Stdlib.Zmod.ZmodInv <> x:37 var
+R3432:3432 Stdlib.Zmod.ZmodInv <> x:37 var
+R3450:3457 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+R3461:3464 Stdlib.Zmod.ZmodDef Zmod zero def
+R3494:3501 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R3513:3520 Stdlib.Zmod.ZmodBase Zmod to_Z_inv abbrev
+R3523:3528 Stdlib.Zmod.ZmodBase Zmod to_Z_0 abbrev
+R3531:3542 Stdlib.ZArith.Zcong Z invmod_0_l thm
+R3569:3575 Stdlib.Zmod.ZmodBase Zmod to_Z_nz abbrev
+R3606:3615 Stdlib.Zmod.ZmodBase Zmod to_Z_range abbrev
+R3633:3644 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R3660:3666 Stdlib.Zmod.ZmodInv Zmod inv_inv thm
+R3677:3686 Stdlib.ZArith.BinInt Z gcd_comm thm
+R3695:3715 Stdlib.ZArith.Zdivisibility Z coprime_prime_small thm
+prf 3744:3748 Zmod inv_1
+binder 3750:3750 <> m:39
+R3764:3766 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3755:3757 Stdlib.Zmod.ZmodDef Zmod inv def
+R3759:3759 Stdlib.Zmod.ZmodInv <> m:39 var
+R3761:3763 Stdlib.Zmod.ZmodDef Zmod one def
+R3767:3769 Stdlib.Zmod.ZmodDef Zmod one def
+R3787:3794 Stdlib.ZArith.BinInt Z eq_dec def
+R3848:3854 Stdlib.Zmod.ZmodBase Zmod mul_1_l thm
+R3857:3865 Stdlib.Zmod.ZmodBase Zmod mul_inv_r thm
+R3868:3884 Stdlib.Zmod.ZmodInv Zmod mdiv_same_coprime thm
+R3904:3915 Stdlib.Zmod.ZmodBase Zmod gcd_1_m thm
+prf 3930:3936 Zmod div_1_r
+binder 3939:3939 <> m:40
+binder 3942:3942 <> x:41
+R3959:3961 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3947:3950 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R3952:3952 Stdlib.Zmod.ZmodInv <> m:40 var
+R3954:3954 Stdlib.Zmod.ZmodInv <> x:41 var
+R3956:3958 Stdlib.Zmod.ZmodDef Zmod one def
+R3962:3962 Stdlib.Zmod.ZmodInv <> x:41 var
+R3977:3980 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R3992:3996 Stdlib.Zmod.ZmodInv Zmod inv_1 thm
+R3999:4005 Stdlib.Zmod.ZmodBase Zmod mul_1_r thm
+prf 4029:4048 Zmod mul_cancel_l_coprime
+binder 4051:4051 <> m:42
+R4063:4066 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R4068:4068 Stdlib.Zmod.ZmodInv <> m:42 var
+binder 4055:4055 <> a:43
+binder 4057:4057 <> b:44
+binder 4059:4059 <> c:45
+R4088:4090 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4079:4083 Stdlib.ZArith.BinInt Z gcd def
+R4085:4085 Stdlib.Zmod.ZmodInv <> a:43 var
+R4087:4087 Stdlib.Zmod.ZmodInv <> m:42 var
+binder 4074:4075 <> Ha:46
+R4106:4108 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4099:4101 Stdlib.Zmod.ZmodDef Zmod mul def
+R4105:4105 Stdlib.Zmod.ZmodInv <> b:44 var
+R4103:4103 Stdlib.Zmod.ZmodInv <> a:43 var
+R4109:4111 Stdlib.Zmod.ZmodDef Zmod mul def
+R4115:4115 Stdlib.Zmod.ZmodInv <> c:45 var
+R4113:4113 Stdlib.Zmod.ZmodInv <> a:43 var
+binder 4095:4095 <> H:47
+R4121:4123 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4120:4120 Stdlib.Zmod.ZmodInv <> b:44 var
+R4124:4124 Stdlib.Zmod.ZmodInv <> c:45 var
+R4143:4149 Corelib.Init.Logic <> f_equal thm
+binder 4156:4156 <> x:48
+R4161:4163 Stdlib.Zmod.ZmodDef Zmod mul def
+R4173:4173 Stdlib.Zmod.ZmodInv <> x:48 var
+R4166:4168 Stdlib.Zmod.ZmodDef Zmod inv def
+binder 4156:4156 <> x:49
+R4173:4173 Stdlib.Zmod.ZmodInv <> x:49 var
+R4194:4202 Stdlib.Zmod.ZmodBase Zmod mul_assoc thm
+R4206:4227 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_coprime thm
+R4231:4237 Stdlib.Zmod.ZmodBase Zmod mul_1_l thm
+prf 4266:4285 Zmod mul_cancel_r_coprime
+binder 4288:4288 <> m:50
+R4300:4303 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R4305:4305 Stdlib.Zmod.ZmodInv <> m:50 var
+binder 4292:4292 <> a:51
+binder 4294:4294 <> b:52
+binder 4296:4296 <> c:53
+R4325:4327 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4316:4320 Stdlib.ZArith.BinInt Z gcd def
+R4322:4322 Stdlib.Zmod.ZmodInv <> a:51 var
+R4324:4324 Stdlib.Zmod.ZmodInv <> m:50 var
+binder 4311:4312 <> Ha:54
+R4343:4345 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4336:4338 Stdlib.Zmod.ZmodDef Zmod mul def
+R4342:4342 Stdlib.Zmod.ZmodInv <> a:51 var
+R4340:4340 Stdlib.Zmod.ZmodInv <> b:52 var
+R4346:4348 Stdlib.Zmod.ZmodDef Zmod mul def
+R4352:4352 Stdlib.Zmod.ZmodInv <> a:51 var
+R4350:4350 Stdlib.Zmod.ZmodInv <> c:53 var
+binder 4332:4332 <> H:55
+R4358:4360 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4357:4357 Stdlib.Zmod.ZmodInv <> b:52 var
+R4361:4361 Stdlib.Zmod.ZmodInv <> c:53 var
+R4381:4388 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+R4407:4426 Stdlib.Zmod.ZmodInv Zmod mul_cancel_l_coprime thm
+prf 4455:4472 Zmod mul_cancel_l_prime
+binder 4475:4475 <> m:56
+R4487:4490 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R4492:4492 Stdlib.Zmod.ZmodInv <> m:56 var
+binder 4479:4479 <> a:57
+binder 4481:4481 <> b:58
+binder 4483:4483 <> c:59
+R4501:4507 Stdlib.ZArith.Zdivisibility Z prime class
+R4509:4509 Stdlib.Zmod.ZmodInv <> m:56 var
+binder 4496:4497 <> Hm:60
+R4519:4522 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4518:4518 Stdlib.Zmod.ZmodInv <> a:57 var
+R4523:4526 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 4513:4514 <> Ha:61
+R4543:4545 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4536:4538 Stdlib.Zmod.ZmodDef Zmod mul def
+R4542:4542 Stdlib.Zmod.ZmodInv <> b:58 var
+R4540:4540 Stdlib.Zmod.ZmodInv <> a:57 var
+R4546:4548 Stdlib.Zmod.ZmodDef Zmod mul def
+R4552:4552 Stdlib.Zmod.ZmodInv <> c:59 var
+R4550:4550 Stdlib.Zmod.ZmodInv <> a:57 var
+binder 4532:4532 <> H:62
+R4558:4560 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4557:4557 Stdlib.Zmod.ZmodInv <> b:58 var
+R4561:4561 Stdlib.Zmod.ZmodInv <> c:59 var
+R4580:4586 Corelib.Init.Logic <> f_equal thm
+binder 4593:4593 <> x:63
+R4598:4600 Stdlib.Zmod.ZmodDef Zmod mul def
+R4610:4610 Stdlib.Zmod.ZmodInv <> x:63 var
+R4603:4605 Stdlib.Zmod.ZmodDef Zmod inv def
+binder 4593:4593 <> x:64
+R4610:4610 Stdlib.Zmod.ZmodInv <> x:64 var
+R4631:4639 Stdlib.Zmod.ZmodBase Zmod mul_assoc thm
+R4643:4662 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_l_prime thm
+R4666:4672 Stdlib.Zmod.ZmodBase Zmod mul_1_l thm
+prf 4701:4715 Zmod mul_0_iff_prime
+binder 4718:4718 <> p:65
+R4727:4733 Stdlib.ZArith.Zdivisibility Z prime class
+R4735:4735 Stdlib.Zmod.ZmodInv <> p:65 var
+binder 4722:4723 <> Hp:66
+R4745:4748 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R4750:4750 Stdlib.Zmod.ZmodInv <> p:65 var
+binder 4739:4739 <> a:67
+binder 4741:4741 <> b:68
+R4771:4775 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4764:4766 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4757:4759 Stdlib.Zmod.ZmodDef Zmod mul def
+R4763:4763 Stdlib.Zmod.ZmodInv <> b:68 var
+R4761:4761 Stdlib.Zmod.ZmodInv <> a:67 var
+R4767:4770 Stdlib.Zmod.ZmodDef Zmod zero def
+R4784:4787 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4777:4779 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4776:4776 Stdlib.Zmod.ZmodInv <> a:67 var
+R4780:4783 Stdlib.Zmod.ZmodDef Zmod zero def
+R4789:4791 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4788:4788 Stdlib.Zmod.ZmodInv <> b:68 var
+R4792:4795 Stdlib.Zmod.ZmodDef Zmod zero def
+R4813:4820 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+R4824:4827 Stdlib.Zmod.ZmodDef Zmod zero def
+R4838:4845 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+R4849:4852 Stdlib.Zmod.ZmodDef Zmod zero def
+R4911:4917 Stdlib.Zmod.ZmodBase Zmod mul_0_l thm
+R4921:4927 Stdlib.Zmod.ZmodBase Zmod mul_0_r thm
+R4958:4964 Corelib.Init.Logic <> f_equal thm
+R4967:4969 Stdlib.Zmod.ZmodDef Zmod mul def
+R4972:4974 Stdlib.Zmod.ZmodDef Zmod inv def
+R4996:5002 Stdlib.Zmod.ZmodBase Zmod mul_0_r thm
+R5021:5028 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+R5033:5041 Stdlib.Zmod.ZmodBase Zmod mul_assoc thm
+R5044:5063 Stdlib.Zmod.ZmodInv Zmod mul_inv_same_r_prime thm
+R5066:5072 Stdlib.Zmod.ZmodBase Zmod mul_1_r thm
+prf 5102:5119 Zmod pow_succ_r_coprime
+binder 5122:5122 <> m:69
+R5130:5133 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R5135:5135 Stdlib.Zmod.ZmodInv <> m:69 var
+binder 5126:5126 <> x:70
+binder 5138:5138 <> z:71
+R5154:5156 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5145:5149 Stdlib.ZArith.BinInt Z gcd def
+R5151:5151 Stdlib.Zmod.ZmodInv <> x:70 var
+R5153:5153 Stdlib.Zmod.ZmodInv <> m:69 var
+binder 5141:5141 <> H:72
+R5178:5180 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5162:5164 Stdlib.Zmod.ZmodDef Zmod pow def
+R5169:5174 Stdlib.ZArith.BinInt Z succ def
+R5176:5176 Stdlib.Zmod.ZmodInv <> z:71 var
+R5166:5166 Stdlib.Zmod.ZmodInv <> x:70 var
+R5181:5183 Stdlib.Zmod.ZmodDef Zmod mul def
+R5188:5190 Stdlib.Zmod.ZmodDef Zmod pow def
+R5194:5194 Stdlib.Zmod.ZmodInv <> z:71 var
+R5192:5192 Stdlib.Zmod.ZmodInv <> x:70 var
+R5185:5185 Stdlib.Zmod.ZmodInv <> x:70 var
+R5218:5224 Corelib.Init.Logic <> f_equal thm
+R5241:5256 Stdlib.Zmod.ZstarBase Zstar pow_succ_r thm
+R5259:5271 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R5226:5238 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R5295:5311 Stdlib.Zmod.ZstarBase Zstar to_Zmod_mul thm
+R5315:5331 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R5335:5355 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 5384:5401 Zmod pow_pred_r_coprime
+binder 5404:5404 <> m:73
+R5412:5415 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R5417:5417 Stdlib.Zmod.ZmodInv <> m:73 var
+binder 5408:5408 <> x:74
+binder 5420:5420 <> z:75
+R5436:5438 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5427:5431 Stdlib.ZArith.BinInt Z gcd def
+R5433:5433 Stdlib.Zmod.ZmodInv <> x:74 var
+R5435:5435 Stdlib.Zmod.ZmodInv <> m:73 var
+binder 5423:5423 <> H:76
+R5460:5462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5444:5446 Stdlib.Zmod.ZmodDef Zmod pow def
+R5451:5456 Stdlib.ZArith.BinInt Z pred def
+R5458:5458 Stdlib.Zmod.ZmodInv <> z:75 var
+R5448:5448 Stdlib.Zmod.ZmodInv <> x:74 var
+R5463:5466 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R5478:5478 Stdlib.Zmod.ZmodInv <> x:74 var
+R5469:5471 Stdlib.Zmod.ZmodDef Zmod pow def
+R5475:5475 Stdlib.Zmod.ZmodInv <> z:75 var
+R5473:5473 Stdlib.Zmod.ZmodInv <> x:74 var
+R5501:5507 Corelib.Init.Logic <> f_equal thm
+R5524:5539 Stdlib.Zmod.ZstarBase Zstar pow_pred_r thm
+R5542:5554 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R5509:5521 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R5578:5594 Stdlib.Zmod.ZstarBase Zstar to_Zmod_div thm
+R5598:5614 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R5618:5638 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 5667:5683 Zmod pow_add_r_coprime
+binder 5686:5686 <> m:77
+R5694:5697 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R5699:5699 Stdlib.Zmod.ZmodInv <> m:77 var
+binder 5690:5690 <> x:78
+binder 5702:5702 <> a:79
+binder 5704:5704 <> b:80
+R5720:5722 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5711:5715 Stdlib.ZArith.BinInt Z gcd def
+R5717:5717 Stdlib.Zmod.ZmodInv <> x:78 var
+R5719:5719 Stdlib.Zmod.ZmodInv <> m:77 var
+binder 5707:5707 <> H:81
+R5741:5743 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5728:5730 Stdlib.Zmod.ZmodDef Zmod pow def
+R5736:5738 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5735:5735 Stdlib.Zmod.ZmodInv <> a:79 var
+R5739:5739 Stdlib.Zmod.ZmodInv <> b:80 var
+R5732:5732 Stdlib.Zmod.ZmodInv <> x:78 var
+R5744:5746 Stdlib.Zmod.ZmodDef Zmod mul def
+R5759:5761 Stdlib.Zmod.ZmodDef Zmod pow def
+R5765:5765 Stdlib.Zmod.ZmodInv <> b:80 var
+R5763:5763 Stdlib.Zmod.ZmodInv <> x:78 var
+R5749:5751 Stdlib.Zmod.ZmodDef Zmod pow def
+R5755:5755 Stdlib.Zmod.ZmodInv <> a:79 var
+R5753:5753 Stdlib.Zmod.ZmodInv <> x:78 var
+R5789:5795 Corelib.Init.Logic <> f_equal thm
+R5812:5826 Stdlib.Zmod.ZstarBase Zstar pow_add_r thm
+R5829:5841 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R5797:5809 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R5867:5883 Stdlib.Zmod.ZstarBase Zstar to_Zmod_mul thm
+R5887:5903 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R5907:5927 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 5956:5972 Zmod pow_mul_r_coprime
+binder 5975:5975 <> m:82
+R5983:5986 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R5988:5988 Stdlib.Zmod.ZmodInv <> m:82 var
+binder 5979:5979 <> x:83
+binder 5991:5991 <> a:84
+binder 5993:5993 <> b:85
+R6009:6011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6000:6004 Stdlib.ZArith.BinInt Z gcd def
+R6006:6006 Stdlib.Zmod.ZmodInv <> x:83 var
+R6008:6008 Stdlib.Zmod.ZmodInv <> m:82 var
+binder 5996:5996 <> H:86
+R6030:6032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6017:6019 Stdlib.Zmod.ZmodDef Zmod pow def
+R6025:6027 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6024:6024 Stdlib.Zmod.ZmodInv <> a:84 var
+R6028:6028 Stdlib.Zmod.ZmodInv <> b:85 var
+R6021:6021 Stdlib.Zmod.ZmodInv <> x:83 var
+R6033:6035 Stdlib.Zmod.ZmodDef Zmod pow def
+R6047:6047 Stdlib.Zmod.ZmodInv <> b:85 var
+R6038:6040 Stdlib.Zmod.ZmodDef Zmod pow def
+R6044:6044 Stdlib.Zmod.ZmodInv <> a:84 var
+R6042:6042 Stdlib.Zmod.ZmodInv <> x:83 var
+R6070:6076 Corelib.Init.Logic <> f_equal thm
+R6093:6107 Stdlib.Zmod.ZstarBase Zstar pow_mul_r thm
+R6110:6122 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R6078:6090 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R6149:6165 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R6169:6189 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 6218:6234 Zmod pow_mul_l_coprime
+binder 6237:6237 <> m:87
+R6247:6250 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R6252:6252 Stdlib.Zmod.ZmodInv <> m:87 var
+binder 6241:6241 <> x:88
+binder 6243:6243 <> y:89
+binder 6255:6255 <> z:90
+R6272:6274 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6263:6267 Stdlib.ZArith.BinInt Z gcd def
+R6269:6269 Stdlib.Zmod.ZmodInv <> x:88 var
+R6271:6271 Stdlib.Zmod.ZmodInv <> m:87 var
+binder 6258:6259 <> Hx:91
+R6293:6295 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6284:6288 Stdlib.ZArith.BinInt Z gcd def
+R6290:6290 Stdlib.Zmod.ZmodInv <> y:89 var
+R6292:6292 Stdlib.Zmod.ZmodInv <> m:87 var
+binder 6279:6280 <> Hy:92
+R6318:6320 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6303:6305 Stdlib.Zmod.ZmodDef Zmod pow def
+R6317:6317 Stdlib.Zmod.ZmodInv <> z:90 var
+R6308:6310 Stdlib.Zmod.ZmodDef Zmod mul def
+R6314:6314 Stdlib.Zmod.ZmodInv <> y:89 var
+R6312:6312 Stdlib.Zmod.ZmodInv <> x:88 var
+R6321:6323 Stdlib.Zmod.ZmodDef Zmod mul def
+R6336:6338 Stdlib.Zmod.ZmodDef Zmod pow def
+R6342:6342 Stdlib.Zmod.ZmodInv <> z:90 var
+R6340:6340 Stdlib.Zmod.ZmodInv <> y:89 var
+R6326:6328 Stdlib.Zmod.ZmodDef Zmod pow def
+R6332:6332 Stdlib.Zmod.ZmodInv <> z:90 var
+R6330:6330 Stdlib.Zmod.ZmodInv <> x:88 var
+R6366:6372 Corelib.Init.Logic <> f_equal thm
+R6389:6403 Stdlib.Zmod.ZstarBase Zstar pow_mul_l thm
+R6424:6436 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R6406:6418 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R6374:6386 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R6461:6477 Stdlib.Zmod.ZstarBase Zstar to_Zmod_mul thm
+R6481:6497 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R6501:6517 Stdlib.Zmod.ZstarBase Zstar to_Zmod_mul thm
+R6521:6541 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+prf 6570:6576 Zmod pow_1_l
+binder 6579:6579 <> m:93
+binder 6582:6582 <> z:94
+R6598:6600 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6587:6589 Stdlib.Zmod.ZmodDef Zmod pow def
+R6591:6591 Stdlib.Zmod.ZmodInv <> m:93 var
+R6593:6595 Stdlib.Zmod.ZmodDef Zmod one def
+R6597:6597 Stdlib.Zmod.ZmodInv <> z:94 var
+R6601:6603 Stdlib.Zmod.ZmodDef Zmod one def
+R6627:6633 Corelib.Init.Logic <> f_equal thm
+R6650:6662 Stdlib.Zmod.ZstarBase Zstar pow_1_l thm
+R6635:6647 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R6691:6707 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R6711:6725 Stdlib.Zmod.ZstarBase Zstar to_Zmod_1 thm
+prf 6754:6769 Zmod pow_mul_r_nonneg
+binder 6772:6772 <> m:95
+R6780:6783 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R6785:6785 Stdlib.Zmod.ZmodInv <> m:95 var
+binder 6776:6776 <> x:96
+binder 6788:6788 <> a:97
+binder 6790:6790 <> b:98
+R6799:6802 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6803:6803 Stdlib.Zmod.ZmodInv <> a:97 var
+binder 6793:6794 <> Ha:99
+R6813:6816 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6817:6817 Stdlib.Zmod.ZmodInv <> b:98 var
+binder 6807:6808 <> Hb:100
+R6835:6837 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6824:6826 Stdlib.Zmod.ZmodDef Zmod pow def
+R6832:6832 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6831:6831 Stdlib.Zmod.ZmodInv <> a:97 var
+R6833:6833 Stdlib.Zmod.ZmodInv <> b:98 var
+R6828:6828 Stdlib.Zmod.ZmodInv <> x:96 var
+R6838:6840 Stdlib.Zmod.ZmodDef Zmod pow def
+R6852:6852 Stdlib.Zmod.ZmodInv <> b:98 var
+R6843:6845 Stdlib.Zmod.ZmodDef Zmod pow def
+R6849:6849 Stdlib.Zmod.ZmodInv <> a:97 var
+R6847:6847 Stdlib.Zmod.ZmodInv <> x:96 var
+R6920:6930 Stdlib.ZArith.Wf_Z <> natlike_ind thm
+R6960:6968 Stdlib.ZArith.BinInt Z mul_0_l thm
+R6972:6978 Stdlib.Zmod.ZmodBase Zmod pow_0_r thm
+R6981:6987 Stdlib.Zmod.ZmodInv Zmod pow_1_l thm
+R7032:7043 Stdlib.ZArith.BinInt Z mul_succ_l thm
+R7046:7055 Stdlib.ZArith.BinInt Z add_comm thm
+R7068:7084 Stdlib.Zmod.ZmodBase Zmod pow_succ_r_nonneg abbrev
+R7087:7102 Stdlib.Zmod.ZmodBase Zmod pow_add_r_nonneg thm
+R7109:7124 Stdlib.Zmod.ZmodBase Zmod pow_mul_l_nonneg thm
+prf 7150:7171 Zmod square_roots_opp_prime
+binder 7174:7174 <> p:101
+R7183:7189 Stdlib.ZArith.Zdivisibility Z prime class
+R7191:7191 Stdlib.Zmod.ZmodInv <> p:101 var
+binder 7178:7179 <> Hp:102
+R7201:7204 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R7206:7206 Stdlib.Zmod.ZmodInv <> p:101 var
+binder 7195:7195 <> x:103
+binder 7197:7197 <> y:104
+R7230:7235 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7254:7254 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7220:7222 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7213:7215 Stdlib.Zmod.ZmodDef Zmod pow def
+R7217:7217 Stdlib.Zmod.ZmodInv <> x:103 var
+R7223:7225 Stdlib.Zmod.ZmodDef Zmod pow def
+R7227:7227 Stdlib.Zmod.ZmodInv <> y:104 var
+R7241:7244 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7237:7239 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7236:7236 Stdlib.Zmod.ZmodInv <> x:103 var
+R7240:7240 Stdlib.Zmod.ZmodInv <> y:104 var
+R7246:7248 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7245:7245 Stdlib.Zmod.ZmodInv <> x:103 var
+R7249:7251 Stdlib.Zmod.ZmodDef Zmod opp def
+R7253:7253 Stdlib.Zmod.ZmodInv <> y:104 var
+R7275:7281 Stdlib.Zmod.ZmodBase Zmod pow_2_r thm
+R7312:7322 Stdlib.Zmod.ZmodBase Zmod mul_opp_opp thm
+R7356:7367 Stdlib.Zmod.ZmodBase Zmod sub_eq_0_iff thm
+R7370:7414 Stdlib.Zmod.ZmodBase Zmod square_roots_opp_prime_subproof thm
+R7427:7441 Stdlib.Zmod.ZmodInv Zmod mul_0_iff_prime thm
+R7445:7456 Stdlib.Zmod.ZmodBase Zmod sub_eq_0_iff thm
+prf 7489:7508 Zmod square_roots_1_prime
+binder 7511:7511 <> p:105
+R7520:7526 Stdlib.ZArith.Zdivisibility Z prime class
+R7528:7528 Stdlib.Zmod.ZmodInv <> p:105 var
+binder 7515:7516 <> Hp:106
+R7536:7539 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R7541:7541 Stdlib.Zmod.ZmodInv <> p:105 var
+binder 7532:7532 <> x:107
+R7561:7566 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7589:7589 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7555:7557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7548:7550 Stdlib.Zmod.ZmodDef Zmod pow def
+R7552:7552 Stdlib.Zmod.ZmodInv <> x:107 var
+R7558:7560 Stdlib.Zmod.ZmodDef Zmod one def
+R7574:7577 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7568:7570 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7567:7567 Stdlib.Zmod.ZmodInv <> x:107 var
+R7571:7573 Stdlib.Zmod.ZmodDef Zmod one def
+R7579:7581 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7578:7578 Stdlib.Zmod.ZmodInv <> x:107 var
+R7582:7584 Stdlib.Zmod.ZmodDef Zmod opp def
+R7586:7588 Stdlib.Zmod.ZmodDef Zmod one def
+R7612:7618 Stdlib.Zmod.ZmodBase Zmod mul_1_l thm
+R7620:7622 Stdlib.Zmod.ZmodDef Zmod one def
+R7641:7647 Stdlib.Zmod.ZmodBase Zmod pow_2_r thm
+R7660:7681 Stdlib.Zmod.ZmodInv Zmod square_roots_opp_prime thm
+prf 7713:7730 Zmod mul_cancel_r_prime
+binder 7733:7733 <> m:108
+R7745:7748 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R7750:7750 Stdlib.Zmod.ZmodInv <> m:108 var
+binder 7737:7737 <> a:109
+binder 7739:7739 <> b:110
+binder 7741:7741 <> c:111
+R7759:7765 Stdlib.ZArith.Zdivisibility Z prime class
+R7767:7767 Stdlib.Zmod.ZmodInv <> m:108 var
+binder 7754:7755 <> Hm:112
+R7777:7780 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7776:7776 Stdlib.Zmod.ZmodInv <> a:109 var
+R7781:7784 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 7771:7772 <> Ha:113
+R7801:7803 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7794:7796 Stdlib.Zmod.ZmodDef Zmod mul def
+R7800:7800 Stdlib.Zmod.ZmodInv <> a:109 var
+R7798:7798 Stdlib.Zmod.ZmodInv <> b:110 var
+R7804:7806 Stdlib.Zmod.ZmodDef Zmod mul def
+R7810:7810 Stdlib.Zmod.ZmodInv <> a:109 var
+R7808:7808 Stdlib.Zmod.ZmodInv <> c:111 var
+binder 7790:7790 <> H:114
+R7816:7818 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7815:7815 Stdlib.Zmod.ZmodInv <> b:110 var
+R7819:7819 Stdlib.Zmod.ZmodInv <> c:111 var
+R7839:7846 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+R7865:7882 Stdlib.Zmod.ZmodInv Zmod mul_cancel_l_prime thm
+prf 7913:7921 Zmod fermat_nz
+binder 7924:7924 <> m:115
+R7932:7935 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R7937:7937 Stdlib.Zmod.ZmodInv <> m:115 var
+binder 7928:7928 <> a:116
+R7947:7950 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7946:7946 Stdlib.Zmod.ZmodInv <> a:116 var
+R7951:7954 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 7941:7942 <> Ha:117
+R7962:7968 Stdlib.ZArith.Zdivisibility Z prime class
+R7970:7970 Stdlib.Zmod.ZmodInv <> m:115 var
+binder 7958:7958 <> H:118
+R7993:7995 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7977:7979 Stdlib.Zmod.ZmodDef Zmod pow def
+R7984:7989 Stdlib.ZArith.BinInt Z pred def
+R7991:7991 Stdlib.Zmod.ZmodInv <> m:115 var
+R7981:7981 Stdlib.Zmod.ZmodInv <> a:116 var
+R7996:7998 Stdlib.Zmod.ZmodDef Zmod one def
+R8021:8032 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R8051:8062 Stdlib.Zmod.ZmodBase Zmod to_Z_inj_iff abbrev
+R8065:8070 Stdlib.Zmod.ZmodBase Zmod to_Z_0 abbrev
+R8090:8099 Stdlib.Zmod.ZmodBase Zmod to_Z_range abbrev
+R8124:8135 Stdlib.Zmod.ZstarBase Zstar fermat thm
+R8138:8150 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R8163:8169 Corelib.Init.Logic <> f_equal thm
+R8171:8183 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R8197:8213 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R8216:8236 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+R8239:8253 Stdlib.Zmod.ZstarBase Zstar to_Zmod_1 thm
+R8288:8308 Stdlib.ZArith.Zdivisibility Z coprime_prime_small thm
+prf 8339:8344 Zmod fermat
+binder 8347:8347 <> m:119
+R8355:8358 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R8360:8360 Stdlib.Zmod.ZmodInv <> m:119 var
+binder 8351:8351 <> a:120
+R8368:8374 Stdlib.ZArith.Zdivisibility Z prime class
+R8376:8376 Stdlib.Zmod.ZmodInv <> m:119 var
+binder 8364:8364 <> H:121
+R8388:8390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8381:8383 Stdlib.Zmod.ZmodDef Zmod pow def
+R8387:8387 Stdlib.Zmod.ZmodInv <> m:119 var
+R8385:8385 Stdlib.Zmod.ZmodInv <> a:120 var
+R8391:8391 Stdlib.Zmod.ZmodInv <> a:120 var
+R8414:8425 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R8440:8447 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+R8451:8454 Stdlib.Zmod.ZmodDef Zmod zero def
+R8487:8493 Stdlib.Zmod.ZmodBase Zmod pow_0_l thm
+R8525:8527 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8528:8533 Stdlib.ZArith.BinInt Z succ def
+R8536:8541 Stdlib.ZArith.BinInt Z pred def
+R8588:8609 Stdlib.Zmod.ZmodBase Zmod pow_succ_nonneg_r thm
+R8612:8620 Stdlib.Zmod.ZmodInv Zmod fermat_nz thm
+R8623:8629 Stdlib.Zmod.ZmodBase Zmod mul_1_r thm
+prf 8662:8671 Zmod fermat_inv
+binder 8674:8674 <> m:122
+R8682:8685 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R8687:8687 Stdlib.Zmod.ZmodInv <> m:122 var
+binder 8678:8678 <> a:123
+R8697:8700 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8696:8696 Stdlib.Zmod.ZmodInv <> a:123 var
+R8701:8704 Stdlib.Zmod.ZmodDef Zmod zero def
+binder 8691:8692 <> Ha:124
+R8712:8718 Stdlib.ZArith.Zdivisibility Z prime class
+R8720:8720 Stdlib.Zmod.ZmodInv <> m:122 var
+binder 8708:8708 <> H:125
+R8738:8740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8727:8729 Stdlib.Zmod.ZmodDef Zmod pow def
+R8735:8735 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8734:8734 Stdlib.Zmod.ZmodInv <> m:122 var
+R8731:8731 Stdlib.Zmod.ZmodInv <> a:123 var
+R8741:8743 Stdlib.Zmod.ZmodDef Zmod inv def
+R8745:8745 Stdlib.Zmod.ZmodInv <> a:123 var
+R8768:8779 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R8799:8814 Stdlib.Zmod.ZstarBase Zstar fermat_inv thm
+R8817:8829 Stdlib.Zmod.ZstarDef Zstar of_Zmod def
+R8851:8857 Corelib.Init.Logic <> f_equal thm
+R8859:8871 Stdlib.Zmod.ZstarDef Zstar to_Zmod coe
+R8890:8906 Stdlib.Zmod.ZstarBase Zstar to_Zmod_pow thm
+R8909:8925 Stdlib.Zmod.ZstarBase Zstar to_Zmod_inv thm
+R8928:8948 Stdlib.Zmod.ZstarBase Zstar to_Zmod_of_Zmod thm
+R8978:8987 Stdlib.Zmod.ZmodBase Zmod to_Z_range abbrev
+R8998:9004 Stdlib.Zmod.ZmodBase Zmod to_Z_nz abbrev
+R9031:9051 Stdlib.ZArith.Zdivisibility Z coprime_prime_small thm
+R9077:9080 Stdlib.Zmod.ZmodInv Zmod <> mod
+mod 9091:9091 <> Z
+R9101:9110 Stdlib.ZArith.Znumtheory <> <> mod
+prf 9122:9130 Z fermat_nz
+R9139:9139 Corelib.Numbers.BinNums <> Z ind
+binder 9133:9133 <> m:126
+binder 9135:9135 <> a:127
+R9148:9154 Stdlib.ZArith.Zdivisibility Z prime class
+R9156:9156 Stdlib.Zmod.ZmodInv <> m:126 var
+binder 9143:9144 <> Hm:128
+R9172:9175 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9166:9170 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R9165:9165 Stdlib.Zmod.ZmodInv <> a:127 var
+R9171:9171 Stdlib.Zmod.ZmodInv <> m:126 var
+binder 9160:9161 <> Ha:129
+R9196:9198 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9190:9194 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R9184:9185 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9189:9189 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9183:9183 Stdlib.Zmod.ZmodInv <> a:127 var
+R9187:9187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9186:9186 Stdlib.Zmod.ZmodInv <> m:126 var
+R9195:9195 Stdlib.Zmod.ZmodInv <> m:126 var
+R9222:9233 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R9249:9260 Stdlib.Zmod.ZmodBase Zmod of_Z_nz thm
+R9275:9288 Stdlib.Zmod.ZmodInv Zmod fermat_nz thm
+R9291:9299 Stdlib.Zmod.ZmodDef Zmod of_Z def
+R9328:9334 Corelib.Init.Logic <> f_equal thm
+R9336:9344 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R9363:9384 Stdlib.Zmod.ZmodBase Zmod to_Z_pow_nonneg_r abbrev
+R9387:9400 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z abbrev
+R9403:9413 Stdlib.ZArith.Zdiv Z mod_pow_l thm
+R9416:9430 Stdlib.Zmod.ZmodBase Zmod to_Z_1_pos abbrev
+prf 9461:9466 Z fermat
+R9475:9475 Corelib.Numbers.BinNums <> Z ind
+binder 9469:9469 <> m:130
+binder 9471:9471 <> a:131
+R9484:9490 Stdlib.ZArith.Zdivisibility Z prime class
+R9492:9492 Stdlib.Zmod.ZmodInv <> m:130 var
+binder 9479:9480 <> Hm:132
+R9506:9508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9500:9504 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R9498:9498 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9497:9497 Stdlib.Zmod.ZmodInv <> a:131 var
+R9499:9499 Stdlib.Zmod.ZmodInv <> m:130 var
+R9505:9505 Stdlib.Zmod.ZmodInv <> m:130 var
+R9510:9514 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R9509:9509 Stdlib.Zmod.ZmodInv <> a:131 var
+R9515:9515 Stdlib.Zmod.ZmodInv <> m:130 var
+R9538:9549 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R9565:9575 Stdlib.Zmod.ZmodInv Zmod fermat thm
+R9578:9586 Stdlib.Zmod.ZmodDef Zmod of_Z def
+R9612:9618 Corelib.Init.Logic <> f_equal thm
+R9620:9628 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R9647:9668 Stdlib.Zmod.ZmodBase Zmod to_Z_pow_nonneg_r abbrev
+R9671:9684 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z abbrev
+R9687:9697 Stdlib.ZArith.Zdiv Z mod_pow_l thm
+R9719:9719 Stdlib.Zmod.ZmodInv Z <> mod

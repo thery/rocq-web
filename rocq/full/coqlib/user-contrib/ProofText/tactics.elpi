@@ -1,0 +1,41 @@
+% prooftext: the tactics a proof text may name, in a justification *X*{.just}
+% or in the by field of its header.  The reader runs the tactic of that
+% name (cyp: each is declared by CypJustification "Name" := cyp_Name. at the
+% end of cyp/vernac/Cyp.v, the Ltac it runs);
+% the writer writes only these names (xtext: the second argument of
+% xtext-tactic and xtext-guard-tactic, xtext/ExtractText.v, checked by
+% xtext/vocab_check.v).  A tool may run a tactic its own way (a time
+% limit, options): the name is what the text says.
+
+namespace prooftext {
+
+% [tactic Name]: Name is a tactic a proof text may name
+pred tactic o:string.
+tactic "lia".          tactic "nia".
+tactic "lra".          tactic "nra".
+tactic "ring".         tactic "field".
+tactic "tauto".        tactic "auto".
+tactic "easy".         tactic "reflexivity".
+tactic "assumption".   tactic "congruence".
+tactic "firstorder".
+
+% [method Name]: Name is one of the two fixed justifications of a proof
+% text, which state how a step eliminates the objects that its other
+% justifications name (cyp: check.elpi, cyp_match and cyp_induction of
+% Cyp.v; xtext writes them for its eliminations, inductive-text.elpi):
+%   *match*{.just}      a case analysis (no induction hypotheses);
+%   *induction*{.just}  an induction;
+% with the type of the object, if the text names it (*nat*{.just}).  They
+% are no tactics: the by field of a header does not name them.  match is
+% a keyword of Rocq, no name; induction may be the name of a lemma or of a
+% hypothesis (Rocq accepts it), but a justification *induction*{.just}
+% always means the method
+pred method o:string.
+method "match".
+method "induction".
+
+% [unknown-tactics Names Unknown]: the names of Names that are not tactics
+pred unknown-tactics i:list string, o:list string.
+unknown-tactics Names Unknown :- std.filter Names (n\ not (tactic n)) Unknown.
+
+}

@@ -1,0 +1,606 @@
+DIGEST 9f76d5d669785fc7aa426c42892e85ce
+FStdlib.Relations.Operators_Properties
+R1079:1098 Stdlib.Relations.Relation_Definitions <> <> lib
+R1128:1145 Stdlib.Relations.Relation_Operators <> <> lib
+sec 1157:1166 <> Properties
+R1182:1190 Stdlib.Relations.Relation_Operators <> clos_refl ind
+R1215:1229 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R1254:1271 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R1296:1313 Stdlib.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R1338:1356 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R1381:1402 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R1427:1448 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R1473:1482 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1507:1519 Stdlib.Relations.Relation_Operators <> clos_trans_1n ind
+R1544:1556 Stdlib.Relations.Relation_Operators <> clos_trans_n1 ind
+R1581:1589 Corelib.Relations.Relation_Definitions <> inclusion def
+R1614:1621 Corelib.Relations.Relation_Definitions <> preorder rec
+var 1642:1642 Properties A
+var 1663:1663 Properties R
+R1667:1674 Corelib.Relations.Relation_Definitions <> relation def
+R1676:1676 Stdlib.Relations.Operators_Properties <> Properties.A var
+sec 1690:1704 Properties Clos_Refl_Trans
+R1791:1805 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+not 1777:1777 Properties.Clos_Refl_Trans :::x_'*'
+prf 1942:1960 <> clos_rt_is_preorder
+R1964:1971 Corelib.Relations.Relation_Definitions <> preorder rec
+R1974:1974 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans :::x_'*' not
+R1973:1973 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2000:2013 Corelib.Relations.Relation_Definitions <> Build_preorder constr
+R2031:2037 Stdlib.Relations.Relation_Operators <> rt_refl constr
+R2041:2041 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2039:2039 Stdlib.Relations.Operators_Properties <> Properties.A var
+R2060:2067 Stdlib.Relations.Relation_Operators <> rt_trans constr
+R2071:2071 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2069:2069 Stdlib.Relations.Operators_Properties <> Properties.A var
+prf 2164:2181 <> clos_rt_idempotent
+R2185:2193 Corelib.Relations.Relation_Definitions <> inclusion def
+R2203:2203 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans :::x_'*' not
+R2202:2202 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2195:2195 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans :::x_'*' not
+R2198:2200 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans :::x_'*' not
+R2197:2197 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans :::x_'*' not
+R2196:2196 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2306:2313 Stdlib.Relations.Relation_Operators <> rt_trans constr
+R2355:2369 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Trans <> sec
+sec 2383:2401 Properties Clos_Refl_Sym_Trans
+prf 2522:2537 <> clos_rt_clos_rst
+R2547:2555 Corelib.Relations.Relation_Definitions <> inclusion def
+R2578:2596 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R2598:2598 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2558:2572 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R2574:2574 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2702:2710 Stdlib.Relations.Relation_Operators <> rst_trans constr
+prf 2842:2855 <> clos_r_clos_rt
+R2865:2873 Corelib.Relations.Relation_Definitions <> inclusion def
+R2890:2904 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R2906:2906 Stdlib.Relations.Operators_Properties <> Properties.R var
+R2876:2884 Stdlib.Relations.Relation_Operators <> clos_refl ind
+R2886:2886 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 3021:3034 <> clos_t_clos_rt
+R3044:3052 Corelib.Relations.Relation_Definitions <> inclusion def
+R3070:3084 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R3086:3086 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3055:3064 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R3066:3066 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 3215:3223 <> clos_rt_t
+binder 3234:3234 <> x:5
+binder 3236:3236 <> y:6
+binder 3238:3238 <> z:7
+R3268:3271 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3247:3261 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R3267:3267 Stdlib.Relations.Operators_Properties <> y:6 var
+R3265:3265 Stdlib.Relations.Operators_Properties <> x:5 var
+R3263:3263 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3288:3297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3272:3281 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R3287:3287 Stdlib.Relations.Operators_Properties <> z:7 var
+R3285:3285 Stdlib.Relations.Operators_Properties <> y:6 var
+R3283:3283 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3298:3307 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R3313:3313 Stdlib.Relations.Operators_Properties <> z:7 var
+R3311:3311 Stdlib.Relations.Operators_Properties <> x:5 var
+R3309:3309 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3408:3414 Stdlib.Relations.Relation_Operators <> t_trans constr
+prf 3547:3563 <> clos_rst_is_equiv
+R3567:3577 Corelib.Relations.Relation_Definitions <> equivalence rec
+R3582:3600 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3602:3602 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3579:3579 Stdlib.Relations.Operators_Properties <> Properties.A var
+R3629:3645 Corelib.Relations.Relation_Definitions <> Build_equivalence constr
+R3663:3670 Stdlib.Relations.Relation_Operators <> rst_refl constr
+R3674:3674 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3672:3672 Stdlib.Relations.Operators_Properties <> Properties.A var
+R3693:3701 Stdlib.Relations.Relation_Operators <> rst_trans constr
+R3705:3705 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3703:3703 Stdlib.Relations.Operators_Properties <> Properties.A var
+R3724:3730 Stdlib.Relations.Relation_Operators <> rst_sym constr
+R3734:3734 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3732:3732 Stdlib.Relations.Operators_Properties <> Properties.A var
+prf 3837:3855 <> clos_rst_idempotent
+R3865:3873 Corelib.Relations.Relation_Definitions <> inclusion def
+R3928:3946 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3948:3948 Stdlib.Relations.Operators_Properties <> Properties.R var
+R3876:3894 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3897:3915 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3917:3917 Stdlib.Relations.Operators_Properties <> Properties.R var
+R4061:4069 Stdlib.Relations.Relation_Operators <> rst_trans constr
+R4111:4129 Stdlib.Relations.Operators_Properties Properties.Clos_Refl_Sym_Trans <> sec
+sec 4143:4154 Properties Equivalences
+prf 4386:4399 <> clos_t1n_trans
+binder 4410:4410 <> x:8
+binder 4412:4412 <> y:9
+R4434:4437 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4415:4427 Stdlib.Relations.Relation_Operators <> clos_trans_1n ind
+R4433:4433 Stdlib.Relations.Operators_Properties <> y:9 var
+R4431:4431 Stdlib.Relations.Operators_Properties <> x:8 var
+R4429:4429 Stdlib.Relations.Operators_Properties <> Properties.R var
+R4438:4447 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R4453:4453 Stdlib.Relations.Operators_Properties <> y:9 var
+R4451:4451 Stdlib.Relations.Operators_Properties <> x:8 var
+R4449:4449 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 4602:4615 <> clos_trans_t1n
+binder 4626:4626 <> x:10
+binder 4628:4628 <> y:11
+R4647:4650 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4631:4640 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R4646:4646 Stdlib.Relations.Operators_Properties <> y:11 var
+R4644:4644 Stdlib.Relations.Operators_Properties <> x:10 var
+R4642:4642 Stdlib.Relations.Operators_Properties <> Properties.R var
+R4651:4663 Stdlib.Relations.Relation_Operators <> clos_trans_1n ind
+R4669:4669 Stdlib.Relations.Operators_Properties <> y:11 var
+R4667:4667 Stdlib.Relations.Operators_Properties <> x:10 var
+R4665:4665 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5014:5027 Stdlib.Relations.Operators_Properties <> clos_t1n_trans thm
+prf 5056:5073 <> clos_trans_t1n_iff
+binder 5084:5084 <> x:12
+binder 5086:5086 <> y:13
+R5113:5117 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5097:5106 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R5112:5112 Stdlib.Relations.Operators_Properties <> y:13 var
+R5110:5110 Stdlib.Relations.Operators_Properties <> x:12 var
+R5108:5108 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5118:5130 Stdlib.Relations.Relation_Operators <> clos_trans_1n ind
+R5136:5136 Stdlib.Relations.Operators_Properties <> y:13 var
+R5134:5134 Stdlib.Relations.Operators_Properties <> x:12 var
+R5132:5132 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5177:5190 Stdlib.Relations.Operators_Properties <> clos_trans_t1n thm
+R5207:5220 Stdlib.Relations.Operators_Properties <> clos_t1n_trans thm
+prf 5305:5318 <> clos_tn1_trans
+binder 5329:5329 <> x:14
+binder 5331:5331 <> y:15
+R5353:5356 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5334:5346 Stdlib.Relations.Relation_Operators <> clos_trans_n1 ind
+R5352:5352 Stdlib.Relations.Operators_Properties <> y:15 var
+R5350:5350 Stdlib.Relations.Operators_Properties <> x:14 var
+R5348:5348 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5357:5366 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R5372:5372 Stdlib.Relations.Operators_Properties <> y:15 var
+R5370:5370 Stdlib.Relations.Operators_Properties <> x:14 var
+R5368:5368 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 5525:5538 <> clos_trans_tn1
+binder 5550:5550 <> x:16
+binder 5552:5552 <> y:17
+R5571:5574 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5555:5564 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R5570:5570 Stdlib.Relations.Operators_Properties <> y:17 var
+R5568:5568 Stdlib.Relations.Operators_Properties <> x:16 var
+R5566:5566 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5575:5587 Stdlib.Relations.Relation_Operators <> clos_trans_n1 ind
+R5593:5593 Stdlib.Relations.Operators_Properties <> y:17 var
+R5591:5591 Stdlib.Relations.Operators_Properties <> x:16 var
+R5589:5589 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 5880:5897 <> clos_trans_tn1_iff
+binder 5908:5908 <> x:18
+binder 5910:5910 <> y:19
+R5937:5941 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5921:5930 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R5936:5936 Stdlib.Relations.Operators_Properties <> y:19 var
+R5934:5934 Stdlib.Relations.Operators_Properties <> x:18 var
+R5932:5932 Stdlib.Relations.Operators_Properties <> Properties.R var
+R5942:5954 Stdlib.Relations.Relation_Operators <> clos_trans_n1 ind
+R5960:5960 Stdlib.Relations.Operators_Properties <> y:19 var
+R5958:5958 Stdlib.Relations.Operators_Properties <> x:18 var
+R5956:5956 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6001:6014 Stdlib.Relations.Operators_Properties <> clos_trans_tn1 thm
+R6031:6044 Stdlib.Relations.Operators_Properties <> clos_tn1_trans thm
+prf 6176:6189 <> clos_rt1n_step
+binder 6200:6200 <> x:20
+binder 6202:6202 <> y:21
+R6210:6213 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6205:6205 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6207:6207 Stdlib.Relations.Operators_Properties <> x:20 var
+R6209:6209 Stdlib.Relations.Operators_Properties <> y:21 var
+R6214:6231 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R6237:6237 Stdlib.Relations.Operators_Properties <> y:21 var
+R6235:6235 Stdlib.Relations.Operators_Properties <> x:20 var
+R6233:6233 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 6329:6342 <> clos_rtn1_step
+binder 6353:6353 <> x:22
+binder 6355:6355 <> y:23
+R6363:6366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6358:6358 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6360:6360 Stdlib.Relations.Operators_Properties <> x:22 var
+R6362:6362 Stdlib.Relations.Operators_Properties <> y:23 var
+R6367:6384 Stdlib.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R6390:6390 Stdlib.Relations.Operators_Properties <> y:23 var
+R6388:6388 Stdlib.Relations.Operators_Properties <> x:22 var
+R6386:6386 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 6482:6493 <> clos_rt1n_rt
+binder 6504:6504 <> x:24
+binder 6506:6506 <> y:25
+R6541:6544 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6517:6534 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R6540:6540 Stdlib.Relations.Operators_Properties <> y:25 var
+R6538:6538 Stdlib.Relations.Operators_Properties <> x:24 var
+R6536:6536 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6545:6559 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R6565:6565 Stdlib.Relations.Operators_Properties <> y:25 var
+R6563:6563 Stdlib.Relations.Operators_Properties <> x:24 var
+R6561:6561 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 6718:6729 <> clos_rt_rt1n
+binder 6740:6740 <> x:26
+binder 6742:6742 <> y:27
+R6774:6777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6753:6767 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R6773:6773 Stdlib.Relations.Operators_Properties <> y:27 var
+R6771:6771 Stdlib.Relations.Operators_Properties <> x:26 var
+R6769:6769 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6778:6795 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R6801:6801 Stdlib.Relations.Operators_Properties <> y:27 var
+R6799:6799 Stdlib.Relations.Operators_Properties <> x:26 var
+R6797:6797 Stdlib.Relations.Operators_Properties <> Properties.R var
+R6905:6918 Stdlib.Relations.Operators_Properties <> clos_rt1n_step thm
+R7147:7158 Stdlib.Relations.Operators_Properties <> clos_rt1n_rt thm
+prf 7187:7202 <> clos_rt_rt1n_iff
+binder 7213:7213 <> x:28
+binder 7215:7215 <> y:29
+R7245:7249 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7224:7238 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R7244:7244 Stdlib.Relations.Operators_Properties <> y:29 var
+R7242:7242 Stdlib.Relations.Operators_Properties <> x:28 var
+R7240:7240 Stdlib.Relations.Operators_Properties <> Properties.R var
+R7250:7267 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R7273:7273 Stdlib.Relations.Operators_Properties <> y:29 var
+R7271:7271 Stdlib.Relations.Operators_Properties <> x:28 var
+R7269:7269 Stdlib.Relations.Operators_Properties <> Properties.R var
+R7314:7325 Stdlib.Relations.Operators_Properties <> clos_rt_rt1n thm
+R7342:7353 Stdlib.Relations.Operators_Properties <> clos_rt1n_rt thm
+prf 7486:7497 <> clos_rtn1_rt
+binder 7508:7508 <> x:30
+binder 7510:7510 <> y:31
+R7545:7548 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7521:7538 Stdlib.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R7544:7544 Stdlib.Relations.Operators_Properties <> y:31 var
+R7542:7542 Stdlib.Relations.Operators_Properties <> x:30 var
+R7540:7540 Stdlib.Relations.Operators_Properties <> Properties.R var
+R7549:7563 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R7569:7569 Stdlib.Relations.Operators_Properties <> y:31 var
+R7567:7567 Stdlib.Relations.Operators_Properties <> x:30 var
+R7565:7565 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 7726:7737 <> clos_rt_rtn1
+binder 7749:7749 <> x:32
+binder 7751:7751 <> y:33
+R7783:7786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7762:7776 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R7782:7782 Stdlib.Relations.Operators_Properties <> y:33 var
+R7780:7780 Stdlib.Relations.Operators_Properties <> x:32 var
+R7778:7778 Stdlib.Relations.Operators_Properties <> Properties.R var
+R7787:7804 Stdlib.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R7810:7810 Stdlib.Relations.Operators_Properties <> y:33 var
+R7808:7808 Stdlib.Relations.Operators_Properties <> x:32 var
+R7806:7806 Stdlib.Relations.Operators_Properties <> Properties.R var
+R7885:7898 Stdlib.Relations.Operators_Properties <> clos_rtn1_step thm
+prf 8020:8035 <> clos_rt_rtn1_iff
+binder 8046:8046 <> x:34
+binder 8048:8048 <> y:35
+R8080:8084 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8059:8073 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R8079:8079 Stdlib.Relations.Operators_Properties <> y:35 var
+R8077:8077 Stdlib.Relations.Operators_Properties <> x:34 var
+R8075:8075 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8085:8102 Stdlib.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R8108:8108 Stdlib.Relations.Operators_Properties <> y:35 var
+R8106:8106 Stdlib.Relations.Operators_Properties <> x:34 var
+R8104:8104 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8149:8160 Stdlib.Relations.Operators_Properties <> clos_rt_rtn1 thm
+R8177:8188 Stdlib.Relations.Operators_Properties <> clos_rtn1_rt thm
+prf 8261:8284 <> clos_refl_trans_ind_left
+R8304:8304 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8302:8302 <> x:36
+R8311:8314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8310:8310 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8308:8308 <> P:37
+R8325:8336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8322:8322 Stdlib.Relations.Operators_Properties <> P:37 var
+R8324:8324 Stdlib.Relations.Operators_Properties <> x:36 var
+R8337:8337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8396:8408 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8349:8349 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8345:8345 <> y:38
+binder 8347:8347 <> z:39
+R8373:8376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8352:8366 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R8372:8372 Stdlib.Relations.Operators_Properties <> y:38 var
+R8370:8370 Stdlib.Relations.Operators_Properties <> x:36 var
+R8368:8368 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8380:8383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8377:8377 Stdlib.Relations.Operators_Properties <> P:37 var
+R8379:8379 Stdlib.Relations.Operators_Properties <> y:38 var
+R8389:8392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8384:8384 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8386:8386 Stdlib.Relations.Operators_Properties <> y:38 var
+R8388:8388 Stdlib.Relations.Operators_Properties <> z:39 var
+R8393:8393 Stdlib.Relations.Operators_Properties <> P:37 var
+R8395:8395 Stdlib.Relations.Operators_Properties <> z:39 var
+R8418:8418 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8416:8416 <> z:40
+R8442:8445 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8421:8435 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R8441:8441 Stdlib.Relations.Operators_Properties <> z:40 var
+R8439:8439 Stdlib.Relations.Operators_Properties <> x:36 var
+R8437:8437 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8446:8446 Stdlib.Relations.Operators_Properties <> P:37 var
+R8448:8448 Stdlib.Relations.Operators_Properties <> z:40 var
+R8778:8785 Stdlib.Relations.Relation_Operators <> rt_trans constr
+prf 8882:8895 <> rt1n_ind_right
+R8912:8915 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8911:8911 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8907:8907 <> P:41
+R8925:8925 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 8923:8923 <> z:42
+R8938:8947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8935:8935 Stdlib.Relations.Operators_Properties <> P:41 var
+R8937:8937 Stdlib.Relations.Operators_Properties <> z:42 var
+R8948:8948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9008:9018 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 8956:8956 <> x:43
+binder 8958:8958 <> y:44
+R8966:8969 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8961:8961 Stdlib.Relations.Operators_Properties <> Properties.R var
+R8963:8963 Stdlib.Relations.Operators_Properties <> x:43 var
+R8965:8965 Stdlib.Relations.Operators_Properties <> y:44 var
+R8994:8997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8970:8987 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R8993:8993 Stdlib.Relations.Operators_Properties <> z:42 var
+R8991:8991 Stdlib.Relations.Operators_Properties <> y:44 var
+R8989:8989 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9001:9004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8998:8998 Stdlib.Relations.Operators_Properties <> P:41 var
+R9000:9000 Stdlib.Relations.Operators_Properties <> y:44 var
+R9005:9005 Stdlib.Relations.Operators_Properties <> P:41 var
+R9007:9007 Stdlib.Relations.Operators_Properties <> x:43 var
+binder 9026:9026 <> x:45
+R9053:9056 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9029:9046 Stdlib.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R9052:9052 Stdlib.Relations.Operators_Properties <> z:42 var
+R9050:9050 Stdlib.Relations.Operators_Properties <> x:45 var
+R9048:9048 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9057:9057 Stdlib.Relations.Operators_Properties <> P:41 var
+R9059:9059 Stdlib.Relations.Operators_Properties <> x:45 var
+prf 9178:9202 <> clos_refl_trans_ind_right
+R9219:9222 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9218:9218 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 9214:9214 <> P:46
+R9232:9232 Stdlib.Relations.Operators_Properties <> Properties.A var
+binder 9230:9230 <> z:47
+R9245:9254 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9242:9242 Stdlib.Relations.Operators_Properties <> P:46 var
+R9244:9244 Stdlib.Relations.Operators_Properties <> z:47 var
+R9255:9255 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9312:9322 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 9263:9263 <> x:48
+binder 9265:9265 <> y:49
+R9273:9276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9268:9268 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9270:9270 Stdlib.Relations.Operators_Properties <> x:48 var
+R9272:9272 Stdlib.Relations.Operators_Properties <> y:49 var
+R9280:9283 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9277:9277 Stdlib.Relations.Operators_Properties <> P:46 var
+R9279:9279 Stdlib.Relations.Operators_Properties <> y:49 var
+R9305:9308 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9284:9298 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R9304:9304 Stdlib.Relations.Operators_Properties <> z:47 var
+R9302:9302 Stdlib.Relations.Operators_Properties <> y:49 var
+R9300:9300 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9309:9309 Stdlib.Relations.Operators_Properties <> P:46 var
+R9311:9311 Stdlib.Relations.Operators_Properties <> x:48 var
+binder 9330:9330 <> x:50
+R9354:9357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9333:9347 Stdlib.Relations.Relation_Operators <> clos_refl_trans ind
+R9353:9353 Stdlib.Relations.Operators_Properties <> z:47 var
+R9351:9351 Stdlib.Relations.Operators_Properties <> x:50 var
+R9349:9349 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9358:9358 Stdlib.Relations.Operators_Properties <> P:46 var
+R9360:9360 Stdlib.Relations.Operators_Properties <> x:50 var
+R9416:9431 Stdlib.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+R9462:9475 Stdlib.Relations.Operators_Properties <> rt1n_ind_right thm
+R9544:9559 Stdlib.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+prf 9731:9744 <> clos_rst1n_rst
+binder 9756:9756 <> x:51
+binder 9758:9758 <> y:52
+R9795:9798 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9767:9788 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9794:9794 Stdlib.Relations.Operators_Properties <> y:52 var
+R9792:9792 Stdlib.Relations.Operators_Properties <> x:51 var
+R9790:9790 Stdlib.Relations.Operators_Properties <> Properties.R var
+R9799:9817 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R9823:9823 Stdlib.Relations.Operators_Properties <> y:52 var
+R9821:9821 Stdlib.Relations.Operators_Properties <> x:51 var
+R9819:9819 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 10016:10031 <> clos_rst1n_trans
+binder 10042:10042 <> x:53
+binder 10044:10044 <> y:54
+binder 10046:10046 <> z:55
+R10077:10088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10049:10070 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10076:10076 Stdlib.Relations.Operators_Properties <> y:54 var
+R10074:10074 Stdlib.Relations.Operators_Properties <> x:53 var
+R10072:10072 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10117:10120 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10089:10110 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10116:10116 Stdlib.Relations.Operators_Properties <> z:55 var
+R10114:10114 Stdlib.Relations.Operators_Properties <> y:54 var
+R10112:10112 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10121:10142 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10148:10148 Stdlib.Relations.Operators_Properties <> z:55 var
+R10146:10146 Stdlib.Relations.Operators_Properties <> x:53 var
+R10144:10144 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 10265:10278 <> clos_rst1n_sym
+binder 10289:10289 <> x:56
+binder 10291:10291 <> y:57
+R10322:10331 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10294:10315 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10321:10321 Stdlib.Relations.Operators_Properties <> y:57 var
+R10319:10319 Stdlib.Relations.Operators_Properties <> x:56 var
+R10317:10317 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10332:10353 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10359:10359 Stdlib.Relations.Operators_Properties <> x:56 var
+R10357:10357 Stdlib.Relations.Operators_Properties <> y:57 var
+R10355:10355 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10462:10477 Stdlib.Relations.Operators_Properties <> clos_rst1n_trans thm
+prf 10570:10583 <> clos_rst_rst1n
+binder 10595:10595 <> x:58
+binder 10597:10597 <> y:59
+R10631:10634 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10606:10624 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R10630:10630 Stdlib.Relations.Operators_Properties <> y:59 var
+R10628:10628 Stdlib.Relations.Operators_Properties <> x:58 var
+R10626:10626 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10635:10656 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10662:10662 Stdlib.Relations.Operators_Properties <> y:59 var
+R10660:10660 Stdlib.Relations.Operators_Properties <> x:58 var
+R10658:10658 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10805:10818 Stdlib.Relations.Operators_Properties <> clos_rst1n_sym thm
+R10842:10857 Stdlib.Relations.Operators_Properties <> clos_rst1n_trans thm
+prf 10887:10904 <> clos_rst_rst1n_iff
+binder 10915:10915 <> x:60
+binder 10917:10917 <> y:61
+R10951:10955 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10926:10944 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R10950:10950 Stdlib.Relations.Operators_Properties <> y:61 var
+R10948:10948 Stdlib.Relations.Operators_Properties <> x:60 var
+R10946:10946 Stdlib.Relations.Operators_Properties <> Properties.R var
+R10956:10977 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R10983:10983 Stdlib.Relations.Operators_Properties <> y:61 var
+R10981:10981 Stdlib.Relations.Operators_Properties <> x:60 var
+R10979:10979 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11024:11037 Stdlib.Relations.Operators_Properties <> clos_rst_rst1n thm
+R11054:11067 Stdlib.Relations.Operators_Properties <> clos_rst1n_rst thm
+prf 11220:11233 <> clos_rstn1_rst
+binder 11244:11244 <> x:62
+binder 11246:11246 <> y:63
+R11283:11286 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11255:11276 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11282:11282 Stdlib.Relations.Operators_Properties <> y:63 var
+R11280:11280 Stdlib.Relations.Operators_Properties <> x:62 var
+R11278:11278 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11287:11305 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R11311:11311 Stdlib.Relations.Operators_Properties <> y:63 var
+R11309:11309 Stdlib.Relations.Operators_Properties <> x:62 var
+R11307:11307 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 11502:11517 <> clos_rstn1_trans
+binder 11528:11528 <> x:64
+binder 11530:11530 <> y:65
+binder 11532:11532 <> z:66
+R11563:11572 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11535:11556 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11562:11562 Stdlib.Relations.Operators_Properties <> y:65 var
+R11560:11560 Stdlib.Relations.Operators_Properties <> x:64 var
+R11558:11558 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11601:11604 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11573:11594 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11600:11600 Stdlib.Relations.Operators_Properties <> z:66 var
+R11598:11598 Stdlib.Relations.Operators_Properties <> y:65 var
+R11596:11596 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11605:11626 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11632:11632 Stdlib.Relations.Operators_Properties <> z:66 var
+R11630:11630 Stdlib.Relations.Operators_Properties <> x:64 var
+R11628:11628 Stdlib.Relations.Operators_Properties <> Properties.R var
+prf 11767:11780 <> clos_rstn1_sym
+binder 11791:11791 <> x:67
+binder 11793:11793 <> y:68
+R11824:11833 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11796:11817 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11823:11823 Stdlib.Relations.Operators_Properties <> y:68 var
+R11821:11821 Stdlib.Relations.Operators_Properties <> x:67 var
+R11819:11819 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11834:11855 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11861:11861 Stdlib.Relations.Operators_Properties <> x:67 var
+R11859:11859 Stdlib.Relations.Operators_Properties <> y:68 var
+R11857:11857 Stdlib.Relations.Operators_Properties <> Properties.R var
+R11961:11976 Stdlib.Relations.Operators_Properties <> clos_rstn1_trans thm
+prf 12068:12081 <> clos_rst_rstn1
+binder 12092:12092 <> x:69
+binder 12094:12094 <> y:70
+R12128:12131 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12103:12121 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R12127:12127 Stdlib.Relations.Operators_Properties <> y:70 var
+R12125:12125 Stdlib.Relations.Operators_Properties <> x:69 var
+R12123:12123 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12132:12153 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R12159:12159 Stdlib.Relations.Operators_Properties <> y:70 var
+R12157:12157 Stdlib.Relations.Operators_Properties <> x:69 var
+R12155:12155 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12300:12313 Stdlib.Relations.Operators_Properties <> clos_rstn1_sym thm
+R12337:12352 Stdlib.Relations.Operators_Properties <> clos_rstn1_trans thm
+prf 12382:12399 <> clos_rst_rstn1_iff
+binder 12410:12410 <> x:71
+binder 12412:12412 <> y:72
+R12446:12450 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12421:12439 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R12445:12445 Stdlib.Relations.Operators_Properties <> y:72 var
+R12443:12443 Stdlib.Relations.Operators_Properties <> x:71 var
+R12441:12441 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12451:12472 Stdlib.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R12478:12478 Stdlib.Relations.Operators_Properties <> y:72 var
+R12476:12476 Stdlib.Relations.Operators_Properties <> x:71 var
+R12474:12474 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12519:12532 Stdlib.Relations.Operators_Properties <> clos_rst_rstn1 thm
+R12549:12562 Stdlib.Relations.Operators_Properties <> clos_rstn1_rst thm
+R12581:12592 Stdlib.Relations.Operators_Properties Properties.Equivalences <> sec
+prf 12604:12628 <> clos_trans_transp_permute
+binder 12639:12639 <> x:73
+binder 12641:12641 <> y:74
+R12675:12679 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12648:12653 Stdlib.Relations.Relation_Operators <> transp def
+R12672:12672 Stdlib.Relations.Operators_Properties <> x:73 var
+R12674:12674 Stdlib.Relations.Operators_Properties <> y:74 var
+R12658:12667 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R12669:12669 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12680:12689 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R12706:12706 Stdlib.Relations.Operators_Properties <> y:74 var
+R12704:12704 Stdlib.Relations.Operators_Properties <> x:73 var
+R12692:12697 Stdlib.Relations.Relation_Operators <> transp def
+R12701:12701 Stdlib.Relations.Operators_Properties <> Properties.R var
+R12783:12789 Stdlib.Relations.Relation_Operators <> t_trans constr
+R12753:12758 Stdlib.Relations.Relation_Operators <> t_step constr
+R12817:12826 Stdlib.Relations.Operators_Properties Properties <> sec
+abbrev 12876:12884 <> trans_tn1
+R12889:12902 Stdlib.Relations.Operators_Properties <> clos_trans_tn1 thm
+abbrev 12929:12937 <> tn1_trans
+R12942:12955 Stdlib.Relations.Operators_Properties <> clos_tn1_trans thm
+abbrev 12982:12996 <> tn1_trans_equiv
+R13001:13018 Stdlib.Relations.Operators_Properties <> clos_trans_tn1_iff thm
+abbrev 13046:13054 <> trans_t1n
+R13059:13072 Stdlib.Relations.Operators_Properties <> clos_trans_t1n thm
+abbrev 13099:13107 <> t1n_trans
+R13112:13125 Stdlib.Relations.Operators_Properties <> clos_t1n_trans thm
+abbrev 13152:13166 <> t1n_trans_equiv
+R13171:13188 Stdlib.Relations.Operators_Properties <> clos_trans_t1n_iff thm
+abbrev 13216:13221 <> R_rtn1
+R13226:13239 Stdlib.Relations.Operators_Properties <> clos_rtn1_step thm
+abbrev 13266:13275 <> trans_rt1n
+R13280:13291 Stdlib.Relations.Operators_Properties <> clos_rt_rt1n thm
+abbrev 13318:13327 <> rt1n_trans
+R13332:13343 Stdlib.Relations.Operators_Properties <> clos_rt1n_rt thm
+abbrev 13370:13385 <> rt1n_trans_equiv
+R13390:13405 Stdlib.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+abbrev 13433:13438 <> R_rt1n
+R13443:13456 Stdlib.Relations.Operators_Properties <> clos_rt1n_step thm
+abbrev 13483:13492 <> trans_rtn1
+R13497:13508 Stdlib.Relations.Operators_Properties <> clos_rt_rtn1 thm
+abbrev 13535:13544 <> rtn1_trans
+R13549:13560 Stdlib.Relations.Operators_Properties <> clos_rtn1_rt thm
+abbrev 13587:13602 <> rtn1_trans_equiv
+R13607:13622 Stdlib.Relations.Operators_Properties <> clos_rt_rtn1_iff thm
+abbrev 13650:13658 <> rts1n_rts
+R13663:13676 Stdlib.Relations.Operators_Properties <> clos_rst1n_rst thm
+abbrev 13703:13714 <> rts_1n_trans
+R13719:13734 Stdlib.Relations.Operators_Properties <> clos_rst1n_trans thm
+abbrev 13761:13769 <> rts1n_sym
+R13774:13787 Stdlib.Relations.Operators_Properties <> clos_rst1n_sym thm
+abbrev 13814:13822 <> rts_rts1n
+R13827:13840 Stdlib.Relations.Operators_Properties <> clos_rst_rst1n thm
+abbrev 13867:13881 <> rts_rts1n_equiv
+R13886:13903 Stdlib.Relations.Operators_Properties <> clos_rst_rst1n_iff thm
+abbrev 13931:13939 <> rtsn1_rts
+R13944:13957 Stdlib.Relations.Operators_Properties <> clos_rstn1_rst thm
+abbrev 13984:13994 <> rtsn1_trans
+R13999:14014 Stdlib.Relations.Operators_Properties <> clos_rstn1_trans thm
+abbrev 14041:14049 <> rtsn1_sym
+R14054:14067 Stdlib.Relations.Operators_Properties <> clos_rstn1_sym thm
+abbrev 14094:14102 <> rts_rtsn1
+R14107:14120 Stdlib.Relations.Operators_Properties <> clos_rst_rstn1 thm
+abbrev 14147:14161 <> rts_rtsn1_equiv
+R14166:14183 Stdlib.Relations.Operators_Properties <> clos_rst_rstn1_iff thm

@@ -1,0 +1,656 @@
+DIGEST 518c95d7eea246d478520bbe169d7254
+FStdlib.nsatz.NsatzTactic
+R929:932 Stdlib.Lists.List <> <> lib
+R934:944 Stdlib.Lists.ListTactics <> <> lib
+R974:979 Stdlib.PArith.BinPos <> <> lib
+R981:986 Stdlib.NArith.BinNat <> <> lib
+R988:993 Stdlib.ZArith.BinInt <> <> lib
+R995:998 Stdlib.NArith.Nnat <> <> lib
+R1028:1031 Stdlib.Bool.Bool <> <> lib
+R1061:1075 Stdlib.setoid_ring.Integral_domain <> <> lib
+sec 1189:1194 <> nsatz1
+var  1207:1207 nsatz1 R
+var  1216:1218 nsatz1 Rid
+R1220:1234 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R1236:1236 Stdlib.nsatz.NsatzTactic <> R:1 var
+prf 1247:1254 <> psos_r1b
+R1268:1268 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+binder 1264:1264 <> x:13
+binder 1266:1266 <> y:14
+R1281:1284 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1276:1279 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1272:1274 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1271:1271 Stdlib.nsatz.NsatzTactic <> x:13 var
+R1275:1275 Stdlib.nsatz.NsatzTactic <> y:14 var
+R1286:1289 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1285:1285 Stdlib.nsatz.NsatzTactic <> x:13 var
+R1290:1290 Stdlib.nsatz.NsatzTactic <> y:14 var
+R1337:1337 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1343:1346 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1339:1341 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+prf 1425:1431 <> psos_r1
+binder 1441:1441 <> x:15
+binder 1443:1443 <> y:16
+R1452:1455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1447:1450 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1446:1446 Stdlib.nsatz.NsatzTactic <> x:15 var
+R1451:1451 Stdlib.nsatz.NsatzTactic <> y:16 var
+R1461:1464 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1457:1459 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1456:1456 Stdlib.nsatz.NsatzTactic <> x:15 var
+R1460:1460 Stdlib.nsatz.NsatzTactic <> y:16 var
+prf 1540:1550 <> nsatzR_diff
+R1564:1564 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+binder 1560:1560 <> x:17
+binder 1562:1562 <> y:18
+R1579:1582 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1567:1569 Corelib.Init.Logic <> not def
+R1573:1576 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1572:1572 Stdlib.nsatz.NsatzTactic <> x:17 var
+R1577:1577 Stdlib.nsatz.NsatzTactic <> y:18 var
+R1583:1585 Corelib.Init.Logic <> not def
+R1593:1596 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1589:1591 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1588:1588 Stdlib.nsatz.NsatzTactic <> x:17 var
+R1592:1592 Stdlib.nsatz.NsatzTactic <> y:18 var
+R1662:1662 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1668:1671 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1664:1666 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1808:1819 Stdlib.setoid_ring.Ring_polynom <> <> mod
+R1829:1839 Stdlib.setoid_ring.InitialRing <> <> mod
+def 1854:1857 <> PolZ
+R1862:1864 Stdlib.setoid_ring.Ring_polynom <> Pol ind
+R1866:1866 Corelib.Numbers.BinNums <> Z ind
+def 1880:1882 <> PEZ
+R1887:1891 Stdlib.setoid_ring.Ring_polynom <> PExpr ind
+R1893:1893 Corelib.Numbers.BinNums <> Z ind
+def 1908:1910 <> P0Z
+R1914:1917 Stdlib.nsatz.NsatzTactic <> PolZ def
+R1922:1923 Stdlib.setoid_ring.Ring_polynom <> P0 def
+R1929:1929 Corelib.Numbers.BinNums <> Z ind
+def 1949:1955 <> PolZadd
+R1963:1966 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1959:1962 Stdlib.nsatz.NsatzTactic <> PolZ def
+R1971:1974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1967:1970 Stdlib.nsatz.NsatzTactic <> PolZ def
+R1975:1978 Stdlib.nsatz.NsatzTactic <> PolZ def
+R1986:1989 Stdlib.setoid_ring.Ring_polynom <> Padd def
+R1992:1992 Corelib.Numbers.BinNums <> Z ind
+R1998:2002 Stdlib.ZArith.BinInt Z add def
+R2004:2008 Stdlib.ZArith.BinInt Z eqb def
+def 2023:2029 <> PolZmul
+R2037:2040 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2033:2036 Stdlib.nsatz.NsatzTactic <> PolZ def
+R2045:2048 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2041:2044 Stdlib.nsatz.NsatzTactic <> PolZ def
+R2049:2052 Stdlib.nsatz.NsatzTactic <> PolZ def
+R2060:2063 Stdlib.setoid_ring.Ring_polynom <> Pmul def
+R2066:2066 Corelib.Numbers.BinNums <> Z ind
+R2076:2080 Stdlib.ZArith.BinInt Z add def
+R2082:2086 Stdlib.ZArith.BinInt Z mul def
+R2088:2092 Stdlib.ZArith.BinInt Z eqb def
+def 2107:2112 <> PolZeq
+R2118:2120 Stdlib.setoid_ring.Ring_polynom <> Peq def
+R2122:2122 Corelib.Numbers.BinNums <> Z ind
+R2124:2128 Stdlib.ZArith.BinInt Z eqb def
+def 2143:2146 <> norm
+R2154:2161 Stdlib.setoid_ring.Ring_polynom <> norm_aux def
+R2163:2163 Corelib.Numbers.BinNums <> Z ind
+R2173:2177 Stdlib.ZArith.BinInt Z add def
+R2179:2183 Stdlib.ZArith.BinInt Z mul def
+R2185:2189 Stdlib.ZArith.BinInt Z sub def
+R2191:2195 Stdlib.ZArith.BinInt Z opp def
+R2197:2201 Stdlib.ZArith.BinInt Z eqb def
+def 2214:2219 <> mult_l
+R2227:2230 Corelib.Init.Datatypes <> list ind
+R2232:2234 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 2222:2223 <> la:19
+R2242:2245 Corelib.Init.Datatypes <> list ind
+R2247:2250 Stdlib.nsatz.NsatzTactic <> PolZ def
+binder 2238:2239 <> lp:20
+R2255:2258 Stdlib.nsatz.NsatzTactic <> PolZ def
+R2274:2275 Stdlib.nsatz.NsatzTactic <> lp:20 var
+R2270:2271 Stdlib.nsatz.NsatzTactic <> la:19 var
+R2286:2287 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2293:2294 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2301:2307 Stdlib.nsatz.NsatzTactic <> PolZadd def
+R2310:2316 Stdlib.nsatz.NsatzTactic <> PolZmul def
+R2319:2322 Stdlib.nsatz.NsatzTactic <> norm def
+R2331:2336 Stdlib.nsatz.NsatzTactic <> mult_l:21 def
+R2341:2342 Stdlib.nsatz.NsatzTactic <> lp:20 var
+R2338:2339 Stdlib.nsatz.NsatzTactic <> la:19 var
+R2356:2358 Stdlib.nsatz.NsatzTactic <> P0Z def
+def 2376:2387 <> compute_list
+R2395:2398 Corelib.Init.Datatypes <> list ind
+R2401:2404 Corelib.Init.Datatypes <> list ind
+R2406:2408 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 2390:2392 <> lla:24
+R2416:2419 Corelib.Init.Datatypes <> list ind
+R2421:2424 Stdlib.nsatz.NsatzTactic <> PolZ def
+binder 2413:2414 <> lp:25
+R2437:2439 Stdlib.nsatz.NsatzTactic <> lla:24 var
+R2449:2456 Stdlib.Lists.List <> nil abbrev
+R2461:2462 Stdlib.nsatz.NsatzTactic <> lp:25 var
+R2469:2470 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2478:2489 Stdlib.nsatz.NsatzTactic <> compute_list:26 def
+R2496:2496 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2509:2511 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2497:2502 Stdlib.nsatz.NsatzTactic <> mult_l def
+R2507:2508 Stdlib.nsatz.NsatzTactic <> lp:25 var
+R2512:2513 Stdlib.nsatz.NsatzTactic <> lp:25 var
+R2491:2493 Stdlib.nsatz.NsatzTactic <> lla:24 var
+def 2534:2538 <> check
+R2545:2548 Corelib.Init.Datatypes <> list ind
+R2550:2552 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 2541:2543 <> lpe:28
+R2559:2561 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 2556:2557 <> qe:29
+R2588:2590 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2573:2576 Corelib.Init.Datatypes <> list ind
+R2579:2582 Corelib.Init.Datatypes <> list ind
+R2584:2586 Stdlib.nsatz.NsatzTactic <> PEZ def
+R2591:2594 Corelib.Init.Datatypes <> list ind
+R2596:2598 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 2565:2570 <> certif:30
+R2622:2627 Stdlib.nsatz.NsatzTactic <> certif:30 var
+binder 2610:2612 <> lla:31
+binder 2615:2616 <> lq:32
+R2643:2650 Stdlib.Lists.List <> map abbrev
+R2657:2659 Stdlib.nsatz.NsatzTactic <> lpe:28 var
+R2652:2655 Stdlib.nsatz.NsatzTactic <> norm def
+binder 2637:2638 <> lp:33
+R2665:2670 Stdlib.nsatz.NsatzTactic <> PolZeq def
+R2673:2676 Stdlib.nsatz.NsatzTactic <> norm def
+R2678:2679 Stdlib.nsatz.NsatzTactic <> qe:29 var
+R2683:2688 Stdlib.nsatz.NsatzTactic <> mult_l def
+R2690:2691 Stdlib.nsatz.NsatzTactic <> lq:32 var
+R2694:2705 Stdlib.nsatz.NsatzTactic <> compute_list def
+R2707:2709 Stdlib.nsatz.NsatzTactic <> lla:31 var
+R2711:2712 Stdlib.nsatz.NsatzTactic <> lp:33 var
+def 2747:2750 <> PhiR
+R2760:2763 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2754:2757 Corelib.Init.Datatypes <> list ind
+R2759:2759 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R2768:2771 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2764:2767 Stdlib.nsatz.NsatzTactic <> PolZ def
+R2772:2772 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R2780:2783 Stdlib.setoid_ring.Ring_polynom <> Pphi def
+R2804:2823 Stdlib.setoid_ring.InitialRing <> gen_phiZ def
+R2845:2847 Stdlib.nsatz.NsatzTactic <> nsatz1.opp var
+R2841:2843 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R2837:2839 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+R2831:2835 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R2825:2829 Stdlib.nsatz.NsatzTactic <> nsatz1.ring0 var
+R2795:2797 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R2791:2793 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+R2785:2789 Stdlib.nsatz.NsatzTactic <> nsatz1.ring0 var
+def 2864:2870 <> PEevalR
+R2880:2883 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2874:2877 Corelib.Init.Datatypes <> list ind
+R2879:2879 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R2887:2890 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2884:2886 Stdlib.nsatz.NsatzTactic <> PEZ def
+R2891:2891 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R2899:2904 Stdlib.setoid_ring.Ring_polynom <> PEeval def
+R2991:2993 Stdlib.setoid_ring.Integral_domain <> pow def
+R2982:2989 Stdlib.NArith.BinNat N to_nat def
+R2939:2946 Stdlib.setoid_ring.InitialRing <> gen_phiZ def
+R2968:2970 Stdlib.nsatz.NsatzTactic <> nsatz1.opp var
+R2964:2966 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R2960:2962 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+R2954:2958 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R2948:2952 Stdlib.nsatz.NsatzTactic <> nsatz1.ring0 var
+R2930:2932 Stdlib.nsatz.NsatzTactic <> nsatz1.opp var
+R2926:2928 Stdlib.nsatz.NsatzTactic <> nsatz1.sub var
+R2922:2924 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R2918:2920 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+R2912:2916 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R2906:2910 Stdlib.nsatz.NsatzTactic <> nsatz1.ring0 var
+prf 3003:3013 <> P0Z_correct
+binder 3024:3024 <> l:34
+R3037:3039 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3027:3030 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3032:3032 Stdlib.nsatz.NsatzTactic <> l:34 var
+R3034:3036 Stdlib.nsatz.NsatzTactic <> P0Z def
+prf 3071:3074 <> Rext
+R3077:3087 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R3101:3104 Stdlib.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3097:3099 Stdlib.nsatz.NsatzTactic <> nsatz1.opp var
+R3093:3095 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R3089:3091 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+prf 3153:3156 <> Rset
+R3160:3172 Corelib.Setoids.Setoid <> Setoid_Theory def
+R3174:3174 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R3176:3179 Stdlib.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3195:3205 Stdlib.setoid_ring.Ncring <> ring_setoid meth
+def 3225:3231 <> Rtheory
+R3233:3243 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R3273:3276 Stdlib.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3269:3271 Stdlib.nsatz.NsatzTactic <> nsatz1.opp var
+R3265:3267 Stdlib.nsatz.NsatzTactic <> nsatz1.sub var
+R3261:3263 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R3257:3259 Stdlib.nsatz.NsatzTactic <> nsatz1.add var
+R3251:3255 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R3245:3249 Stdlib.nsatz.NsatzTactic <> nsatz1.ring0 var
+R3292:3296 Stdlib.setoid_ring.Ring_theory <> mk_rt constr
+R3307:3318 Stdlib.setoid_ring.Ncring <> ring_add_0_l meth
+R3329:3341 Stdlib.setoid_ring.Ncring <> ring_add_comm meth
+R3352:3365 Stdlib.setoid_ring.Ncring <> ring_add_assoc meth
+R3376:3387 Stdlib.setoid_ring.Ncring <> ring_mul_1_l meth
+R3398:3411 Stdlib.setoid_ring.Cring <> cring_mul_comm def
+R3422:3435 Stdlib.setoid_ring.Ncring <> ring_mul_assoc meth
+R3446:3457 Stdlib.setoid_ring.Ncring <> ring_distr_l meth
+R3468:3479 Stdlib.setoid_ring.Ncring <> ring_sub_def meth
+R3490:3501 Stdlib.setoid_ring.Ncring <> ring_opp_def meth
+prf 3520:3534 <> PolZadd_correct
+binder 3545:3546 <> P':35
+binder 3548:3548 <> P:36
+binder 3550:3550 <> l:37
+R3576:3580 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3605:3605 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3555:3558 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3560:3560 Stdlib.nsatz.NsatzTactic <> l:37 var
+R3563:3569 Stdlib.nsatz.NsatzTactic <> PolZadd def
+R3571:3571 Stdlib.nsatz.NsatzTactic <> P:36 var
+R3573:3574 Stdlib.nsatz.NsatzTactic <> P':35 var
+R3581:3581 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3590:3594 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3604:3604 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3582:3585 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3587:3587 Stdlib.nsatz.NsatzTactic <> l:37 var
+R3589:3589 Stdlib.nsatz.NsatzTactic <> P:36 var
+R3595:3598 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3600:3600 Stdlib.nsatz.NsatzTactic <> l:37 var
+R3602:3603 Stdlib.nsatz.NsatzTactic <> P':35 var
+R3622:3628 Stdlib.nsatz.NsatzTactic <> PolZadd def
+R3631:3634 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3661:3667 Stdlib.setoid_ring.Ring_polynom <> Padd_ok thm
+R3720:3733 Stdlib.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R3745:3751 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R3740:3743 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3735:3738 Stdlib.nsatz.NsatzTactic <> Rset thm
+R3680:3687 Stdlib.setoid_ring.Ring_theory <> Rth_ARth thm
+R3699:3705 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R3694:3697 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3689:3692 Stdlib.nsatz.NsatzTactic <> Rset thm
+R3674:3677 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3669:3672 Stdlib.nsatz.NsatzTactic <> Rset thm
+prf 3774:3788 <> PolZmul_correct
+binder 3799:3799 <> P:38
+binder 3801:3802 <> P':39
+binder 3804:3804 <> l:40
+R3830:3834 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3859:3859 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3809:3812 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3814:3814 Stdlib.nsatz.NsatzTactic <> l:40 var
+R3817:3823 Stdlib.nsatz.NsatzTactic <> PolZmul def
+R3825:3825 Stdlib.nsatz.NsatzTactic <> P:38 var
+R3827:3828 Stdlib.nsatz.NsatzTactic <> P':39 var
+R3835:3835 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3844:3848 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3858:3858 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3836:3839 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3841:3841 Stdlib.nsatz.NsatzTactic <> l:40 var
+R3843:3843 Stdlib.nsatz.NsatzTactic <> P:38 var
+R3849:3852 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3854:3854 Stdlib.nsatz.NsatzTactic <> l:40 var
+R3856:3857 Stdlib.nsatz.NsatzTactic <> P':39 var
+R3876:3882 Stdlib.nsatz.NsatzTactic <> PolZmul def
+R3885:3888 Stdlib.nsatz.NsatzTactic <> PhiR def
+R3908:3914 Stdlib.setoid_ring.Ring_polynom <> Pmul_ok thm
+R3967:3980 Stdlib.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R3992:3998 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R3987:3990 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3982:3985 Stdlib.nsatz.NsatzTactic <> Rset thm
+R3927:3934 Stdlib.setoid_ring.Ring_theory <> Rth_ARth thm
+R3946:3952 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R3941:3944 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3936:3939 Stdlib.nsatz.NsatzTactic <> Rset thm
+R3921:3924 Stdlib.nsatz.NsatzTactic <> Rext thm
+R3916:3919 Stdlib.nsatz.NsatzTactic <> Rset thm
+prf 4021:4034 <> R_power_theory
+R4043:4066 Stdlib.setoid_ring.Ring_theory <> power_theory rec
+R4092:4094 Stdlib.setoid_ring.Integral_domain <> pow def
+R4083:4090 Stdlib.NArith.BinNat N to_nat def
+R4078:4081 Stdlib.setoid_ring.Algebra_syntax <> :::'_==_' not
+R4074:4076 Stdlib.nsatz.NsatzTactic <> nsatz1.mul var
+R4068:4072 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R4110:4129 Stdlib.setoid_ring.Ring_theory <> mkpow_th constr
+R4139:4141 Stdlib.setoid_ring.Integral_domain <> pow def
+R4160:4172 Stdlib.NArith.Nnat N2Nat id thm
+prf 4200:4211 <> norm_correct
+R4229:4232 Corelib.Init.Datatypes <> list ind
+R4234:4234 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+binder 4225:4225 <> l:41
+R4243:4245 Stdlib.nsatz.NsatzTactic <> PEZ def
+binder 4238:4239 <> pe:42
+R4261:4264 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4249:4255 Stdlib.nsatz.NsatzTactic <> PEevalR def
+R4257:4257 Stdlib.nsatz.NsatzTactic <> l:41 var
+R4259:4260 Stdlib.nsatz.NsatzTactic <> pe:42 var
+R4265:4268 Stdlib.nsatz.NsatzTactic <> PhiR def
+R4270:4270 Stdlib.nsatz.NsatzTactic <> l:41 var
+R4273:4276 Stdlib.nsatz.NsatzTactic <> norm def
+R4278:4279 Stdlib.nsatz.NsatzTactic <> pe:42 var
+R4305:4317 Stdlib.setoid_ring.Ring_polynom <> norm_aux_spec thm
+R4404:4417 Stdlib.nsatz.NsatzTactic <> R_power_theory thm
+R4370:4383 Stdlib.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4395:4401 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R4390:4393 Stdlib.nsatz.NsatzTactic <> Rext thm
+R4385:4388 Stdlib.nsatz.NsatzTactic <> Rset thm
+R4330:4337 Stdlib.setoid_ring.Ring_theory <> Rth_ARth thm
+R4349:4355 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R4344:4347 Stdlib.nsatz.NsatzTactic <> Rext thm
+R4339:4342 Stdlib.nsatz.NsatzTactic <> Rset thm
+R4324:4327 Stdlib.nsatz.NsatzTactic <> Rext thm
+R4319:4322 Stdlib.nsatz.NsatzTactic <> Rset thm
+prf 4433:4446 <> PolZeq_correct
+binder 4457:4457 <> P:43
+binder 4459:4460 <> P':44
+binder 4462:4462 <> l:45
+R4485:4490 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4478:4480 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4467:4472 Stdlib.nsatz.NsatzTactic <> PolZeq def
+R4474:4474 Stdlib.nsatz.NsatzTactic <> P:43 var
+R4476:4477 Stdlib.nsatz.NsatzTactic <> P':44 var
+R4481:4484 Corelib.Init.Datatypes <> true constr
+R4499:4502 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4491:4494 Stdlib.nsatz.NsatzTactic <> PhiR def
+R4496:4496 Stdlib.nsatz.NsatzTactic <> l:45 var
+R4498:4498 Stdlib.nsatz.NsatzTactic <> P:43 var
+R4503:4506 Stdlib.nsatz.NsatzTactic <> PhiR def
+R4508:4508 Stdlib.nsatz.NsatzTactic <> l:45 var
+R4510:4511 Stdlib.nsatz.NsatzTactic <> P':44 var
+R4539:4544 Stdlib.setoid_ring.Ring_polynom <> Peq_ok thm
+R4557:4570 Stdlib.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4582:4588 Stdlib.nsatz.NsatzTactic <> Rtheory def
+R4577:4580 Stdlib.nsatz.NsatzTactic <> Rext thm
+R4572:4575 Stdlib.nsatz.NsatzTactic <> Rset thm
+R4551:4554 Stdlib.nsatz.NsatzTactic <> Rext thm
+R4546:4549 Stdlib.nsatz.NsatzTactic <> Rset thm
+def 4616:4620 <> Cond0
+binder 4623:4623 <> A:46
+R4640:4641 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4639:4639 Stdlib.nsatz.NsatzTactic <> A:46 var
+R4642:4642 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+binder 4632:4637 <> Interp:47
+R4648:4651 Corelib.Init.Datatypes <> list ind
+R4653:4653 Stdlib.nsatz.NsatzTactic <> A:46 var
+binder 4646:4646 <> l:48
+R4674:4674 Stdlib.nsatz.NsatzTactic <> l:48 var
+R4685:4692 Stdlib.Lists.List <> nil abbrev
+R4697:4700 Corelib.Init.Logic <> True ind
+R4707:4708 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4727:4730 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4722:4725 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4714:4719 Stdlib.nsatz.NsatzTactic <> Interp:47 var
+R4731:4735 Stdlib.nsatz.NsatzTactic <> Cond0:49 def
+R4746:4746 Stdlib.nsatz.NsatzTactic <> l:48 var
+R4739:4744 Stdlib.nsatz.NsatzTactic <> Interp:47 var
+R4737:4737 Stdlib.nsatz.NsatzTactic <> A:46 var
+prf 4762:4775 <> mult_l_correct
+binder 4786:4786 <> l:51
+binder 4788:4789 <> la:52
+binder 4791:4792 <> lp:53
+R4819:4824 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4797:4801 Stdlib.nsatz.NsatzTactic <> Cond0 def
+R4803:4806 Stdlib.nsatz.NsatzTactic <> PolZ def
+R4809:4812 Stdlib.nsatz.NsatzTactic <> PhiR def
+R4814:4814 Stdlib.nsatz.NsatzTactic <> l:51 var
+R4817:4818 Stdlib.nsatz.NsatzTactic <> lp:53 var
+R4846:4849 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4825:4828 Stdlib.nsatz.NsatzTactic <> PhiR def
+R4830:4830 Stdlib.nsatz.NsatzTactic <> l:51 var
+R4833:4838 Stdlib.nsatz.NsatzTactic <> mult_l def
+R4840:4841 Stdlib.nsatz.NsatzTactic <> la:52 var
+R4843:4844 Stdlib.nsatz.NsatzTactic <> lp:53 var
+R4989:5003 Stdlib.nsatz.NsatzTactic <> PolZadd_correct thm
+R5027:5041 Stdlib.nsatz.NsatzTactic <> PolZmul_correct thm
+prf 5127:5146 <> compute_list_correct
+binder 5157:5157 <> l:54
+binder 5159:5161 <> lla:55
+binder 5163:5164 <> lp:56
+R5191:5196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5169:5173 Stdlib.nsatz.NsatzTactic <> Cond0 def
+R5175:5178 Stdlib.nsatz.NsatzTactic <> PolZ def
+R5181:5184 Stdlib.nsatz.NsatzTactic <> PhiR def
+R5186:5186 Stdlib.nsatz.NsatzTactic <> l:54 var
+R5189:5190 Stdlib.nsatz.NsatzTactic <> lp:56 var
+R5197:5201 Stdlib.nsatz.NsatzTactic <> Cond0 def
+R5203:5206 Stdlib.nsatz.NsatzTactic <> PolZ def
+R5209:5212 Stdlib.nsatz.NsatzTactic <> PhiR def
+R5214:5214 Stdlib.nsatz.NsatzTactic <> l:54 var
+R5218:5229 Stdlib.nsatz.NsatzTactic <> compute_list def
+R5231:5233 Stdlib.nsatz.NsatzTactic <> lla:55 var
+R5235:5236 Stdlib.nsatz.NsatzTactic <> lp:56 var
+R5325:5338 Stdlib.nsatz.NsatzTactic <> mult_l_correct thm
+prf 5361:5373 <> check_correct
+binder 5386:5386 <> l:57
+binder 5388:5390 <> lpe:58
+binder 5392:5393 <> qe:59
+binder 5395:5400 <> certif:60
+R5433:5440 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5426:5428 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5407:5411 Stdlib.nsatz.NsatzTactic <> check def
+R5413:5415 Stdlib.nsatz.NsatzTactic <> lpe:58 var
+R5417:5418 Stdlib.nsatz.NsatzTactic <> qe:59 var
+R5420:5425 Stdlib.nsatz.NsatzTactic <> certif:60 var
+R5429:5432 Corelib.Init.Datatypes <> true constr
+R5466:5473 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5441:5445 Stdlib.nsatz.NsatzTactic <> Cond0 def
+R5447:5449 Stdlib.nsatz.NsatzTactic <> PEZ def
+R5452:5458 Stdlib.nsatz.NsatzTactic <> PEevalR def
+R5460:5460 Stdlib.nsatz.NsatzTactic <> l:57 var
+R5463:5465 Stdlib.nsatz.NsatzTactic <> lpe:58 var
+R5486:5489 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R5474:5480 Stdlib.nsatz.NsatzTactic <> PEevalR def
+R5482:5482 Stdlib.nsatz.NsatzTactic <> l:57 var
+R5484:5485 Stdlib.nsatz.NsatzTactic <> qe:59 var
+R5508:5512 Stdlib.nsatz.NsatzTactic <> check def
+R5554:5567 Stdlib.nsatz.NsatzTactic <> PolZeq_correct thm
+R5597:5608 Stdlib.nsatz.NsatzTactic <> norm_correct thm
+R5622:5635 Stdlib.nsatz.NsatzTactic <> mult_l_correct thm
+R5645:5664 Stdlib.nsatz.NsatzTactic <> compute_list_correct thm
+R5754:5765 Stdlib.nsatz.NsatzTactic <> norm_correct thm
+def 5801:5802 <> R2
+R5807:5809 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+def 5823:5825 <> IPR
+binder 5827:5827 <> p:61
+R5841:5841 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R5854:5854 Stdlib.nsatz.NsatzTactic <> p:61 var
+R5865:5866 Corelib.Numbers.BinNums <> xH constr
+R5871:5875 Stdlib.nsatz.NsatzTactic <> nsatz1.ring1 var
+R5881:5882 Corelib.Numbers.BinNums <> xO constr
+R5884:5885 Corelib.Numbers.BinNums <> xH constr
+R5891:5891 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5898:5899 Corelib.Numbers.BinNums <> xO constr
+R5909:5910 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5917:5917 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5907:5908 Stdlib.nsatz.NsatzTactic <> R2 def
+R5911:5913 Stdlib.nsatz.NsatzTactic <> IPR:62 def
+R5923:5924 Corelib.Numbers.BinNums <> xI constr
+R5926:5927 Corelib.Numbers.BinNums <> xH constr
+R5933:5934 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5938:5938 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5936:5936 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5944:5945 Corelib.Numbers.BinNums <> xI constr
+R5954:5955 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5967:5967 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5958:5959 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5966:5966 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5956:5957 Stdlib.nsatz.NsatzTactic <> R2 def
+R5960:5962 Stdlib.nsatz.NsatzTactic <> IPR:62 def
+def 5988:5991 <> IZR1
+binder 5993:5993 <> z:64
+R6006:6006 Stdlib.nsatz.NsatzTactic <> z:64 var
+R6013:6014 Corelib.Numbers.BinNums <> Z0 constr
+R6036:6039 Corelib.Numbers.BinNums <> Zpos constr
+R6046:6048 Stdlib.nsatz.NsatzTactic <> IPR def
+R6067:6070 Corelib.Numbers.BinNums <> Zneg constr
+R6077:6078 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6084:6084 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6079:6081 Stdlib.nsatz.NsatzTactic <> IPR def
+def 6103:6112 <> interpret3
+binder 6114:6114 <> t:66
+binder 6116:6117 <> fv:67
+R6131:6131 Stdlib.nsatz.NsatzTactic <> nsatz1.R var
+R6144:6144 Stdlib.nsatz.NsatzTactic <> t:66 var
+R6156:6160 Stdlib.setoid_ring.Ring_polynom <> PEadd constr
+R6190:6199 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6204:6205 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6183:6184 <> v1:70
+R6228:6237 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6242:6243 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6221:6222 <> v2:71
+R6251:6253 Stdlib.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R6249:6250 Stdlib.nsatz.NsatzTactic <> v1:70 var
+R6254:6255 Stdlib.nsatz.NsatzTactic <> v2:71 var
+R6263:6267 Stdlib.setoid_ring.Ring_polynom <> PEmul constr
+R6297:6306 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6311:6312 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6290:6291 <> v1:72
+R6335:6344 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6349:6350 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6328:6329 <> v2:73
+R6358:6360 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6356:6357 Stdlib.nsatz.NsatzTactic <> v1:72 var
+R6361:6362 Stdlib.nsatz.NsatzTactic <> v2:73 var
+R6370:6374 Stdlib.setoid_ring.Ring_polynom <> PEsub constr
+R6404:6413 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6418:6419 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6397:6398 <> v1:74
+R6442:6451 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6456:6457 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6435:6436 <> v2:75
+R6465:6467 Stdlib.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R6463:6464 Stdlib.nsatz.NsatzTactic <> v1:74 var
+R6468:6469 Stdlib.nsatz.NsatzTactic <> v2:75 var
+R6477:6481 Stdlib.setoid_ring.Ring_polynom <> PEopp constr
+R6508:6517 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6522:6523 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6501:6502 <> v1:76
+R6529:6529 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6530:6531 Stdlib.nsatz.NsatzTactic <> v1:76 var
+R6539:6543 Stdlib.setoid_ring.Ring_polynom <> PEpow constr
+R6573:6582 Stdlib.nsatz.NsatzTactic <> interpret3:68 def
+R6587:6588 Stdlib.nsatz.NsatzTactic <> fv:67 var
+binder 6566:6567 <> v1:77
+R6593:6595 Stdlib.setoid_ring.Integral_domain <> pow def
+R6597:6598 Stdlib.nsatz.NsatzTactic <> v1:77 var
+R6601:6608 Stdlib.NArith.BinNat N to_nat def
+R6619:6621 Stdlib.setoid_ring.Ring_polynom <> PEc constr
+R6631:6634 Stdlib.nsatz.NsatzTactic <> IZR1 def
+R6644:6646 Stdlib.setoid_ring.Ring_polynom <> PEO constr
+R6657:6659 Stdlib.setoid_ring.Ring_polynom <> PEI constr
+R6671:6673 Stdlib.setoid_ring.Ring_polynom <> PEX constr
+R6683:6690 Stdlib.Lists.List <> nth abbrev
+R6714:6715 Stdlib.nsatz.NsatzTactic <> fv:67 var
+R6693:6696 Corelib.Init.Peano <> pred abbrev
+R6699:6708 Stdlib.PArith.BinPos Pos to_nat def
+R6732:6737 Stdlib.nsatz.NsatzTactic nsatz1 <> sec
+R6849:6855 Stdlib.nsatz.NsatzTactic <> psos_r1 thm
+R7011:7013 Corelib.Init.Datatypes <> nil constr
+R7042:7045 Corelib.Init.Datatypes <> cons constr
+R7182:7184 Corelib.Init.Datatypes <> nil constr
+R7218:7221 Corelib.Init.Datatypes <> cons constr
+R7266:7269 Corelib.Init.Datatypes <> cons constr
+R7204:7207 Corelib.Init.Datatypes <> cons constr
+R7319:7321 Corelib.Init.Datatypes <> nil constr
+R7342:7345 Corelib.Init.Datatypes <> cons constr
+R7504:7507 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7496:7498 Stdlib.setoid_ring.Ring_polynom <> PEc constr
+R7518:7521 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7508:7510 Stdlib.setoid_ring.Ring_polynom <> PEc constr
+R7532:7535 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7522:7526 Stdlib.setoid_ring.Ring_polynom <> PEpow constr
+R7666:7669 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7662:7664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7633:7633 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7654:7656 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7636:7637 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7648:7649 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7638:7642 Stdlib.setoid_ring.Ring_polynom <> PEpow constr
+R8092:8097 Stdlib.NArith.BinNat N pred def
+R7974:7978 Stdlib.NArith.BinNat N sub def
+R7992:7997 Stdlib.NArith.BinNat N pred def
+R8190:8193 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8236:8239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8229:8232 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8281:8282 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8285:8286 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8211:8212 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8215:8216 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8217:8219 Corelib.Init.Datatypes <> nil constr
+R8348:8350 Corelib.Init.Datatypes <> nil constr
+R8368:8369 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8411:8412 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8535:8544 Stdlib.nsatz.NsatzTactic <> interpret3 def
+R8671:8671 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8687:8691 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8672:8681 Stdlib.nsatz.NsatzTactic <> interpret3 def
+R8739:8742 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8717:8717 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8733:8737 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8718:8727 Stdlib.nsatz.NsatzTactic <> interpret3 def
+R8788:8789 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8706:8707 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8708:8710 Corelib.Init.Datatypes <> nil constr
+R9315:9329 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R9390:9404 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R9465:9479 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R9541:9555 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R9620:9634 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R9697:9704 Stdlib.ZArith.BinInt Z of_nat def
+R9707:9717 Stdlib.Lists.List <> length abbrev
+R10573:10573 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10577:10578 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10582:10582 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10779:10786 Stdlib.Lists.List <> rev def
+R10884:10885 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11295:11299 Stdlib.setoid_ring.Ring_polynom <> PEmul constr
+R11304:11308 Stdlib.setoid_ring.Ring_polynom <> PEpow constr
+R11387:11389 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11366:11370 Stdlib.nsatz.NsatzTactic <> check def
+R11379:11379 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11383:11383 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11386:11386 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11390:11393 Corelib.Init.Datatypes <> true constr
+R11525:11532 Stdlib.setoid_ring.Algebra_syntax <> equality def
+R11551:11560 Stdlib.nsatz.NsatzTactic <> interpret3 def
+R11632:11644 Stdlib.nsatz.NsatzTactic <> check_correct thm
+R11679:11679 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11683:11683 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11686:11686 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11864:11864 Corelib.Init.Logic <> I constr
+R11929:11948 Stdlib.setoid_ring.Integral_domain <> Rintegral_domain_pow thm
+R11976:11985 Stdlib.nsatz.NsatzTactic <> interpret3 def
+R12005:12012 Stdlib.NArith.BinNat N to_nat def
+R12068:12091 Stdlib.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R12143:12172 Stdlib.setoid_ring.Integral_domain <> integral_domain_minus_one_zero thm
+R12238:12261 Stdlib.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R12385:12386 Stdlib.nsatz.NsatzTactic <> R2 def
+R12389:12396 Stdlib.setoid_ring.Algebra_syntax <> equality def
+R12399:12409 Stdlib.setoid_ring.Ncring <> eq_notation inst
+R12412:12419 Stdlib.setoid_ring.Algebra_syntax <> addition def
+R12422:12433 Stdlib.setoid_ring.Ncring <> add_notation inst
+R12457:12459 Stdlib.setoid_ring.Algebra_syntax <> one def
+R12462:12473 Stdlib.setoid_ring.Ncring <> one_notation inst
+R12476:12489 Stdlib.setoid_ring.Algebra_syntax <> multiplication def
+R12492:12503 Stdlib.setoid_ring.Ncring <> mul_notation inst
+R12506:12509 Stdlib.setoid_ring.Algebra_syntax <> zero def
+R12512:12524 Stdlib.setoid_ring.Ncring <> zero_notation inst
+R12309:12338 Stdlib.setoid_ring.Integral_domain <> integral_domain_minus_one_zero thm
+R9834:9836 Corelib.Init.Datatypes <> nil constr
+R9903:9905 Corelib.Init.Datatypes <> nil constr
+R10127:10127 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10131:10132 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10136:10136 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12857:12871 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R13083:13097 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R13156:13170 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R13209:13216 Stdlib.nsatz.NsatzTactic <> psos_r1b thm
+R13304:13306 Corelib.Init.Datatypes <> nil constr
+R13313:13315 Corelib.Init.Datatypes <> nil constr
+R13612:13626 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R13685:13699 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R13738:13745 Stdlib.nsatz.NsatzTactic <> psos_r1b thm

@@ -1,0 +1,108 @@
+DIGEST f22495891d941286248d8decccff4782
+FStdlib.funind.Recdef
+R703:708 Stdlib.funind.FunInd <> <> lib
+R738:745 Stdlib.Arith.PeanoNat <> <> lib
+R768:778 Stdlib.Arith.Compare_dec <> <> lib
+R801:806 Stdlib.Arith.Wf_nat <> <> lib
+sec 818:821 <> Iter
+var 833:833 Iter A
+def 853:856 <> iter
+R863:865 Corelib.Init.Datatypes <> nat ind
+binder 859:859 <> n:3
+R870:870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R877:881 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R872:875 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R871:871 Stdlib.funind.Recdef <> Iter.A var
+R876:876 Stdlib.funind.Recdef <> Iter.A var
+R883:886 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R882:882 Stdlib.funind.Recdef <> Iter.A var
+R887:887 Stdlib.funind.Recdef <> Iter.A var
+R905:908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R904:904 Stdlib.funind.Recdef <> Iter.A var
+R909:909 Stdlib.funind.Recdef <> Iter.A var
+binder 899:900 <> fl:5
+R919:919 Stdlib.funind.Recdef <> Iter.A var
+binder 913:915 <> def:6
+R933:933 Stdlib.funind.Recdef <> n:3 var
+R944:944 Corelib.Init.Datatypes <> O constr
+R949:951 Stdlib.funind.Recdef <> def:6 var
+R957:957 Corelib.Init.Datatypes <> S constr
+R964:965 Stdlib.funind.Recdef <> fl:5 var
+R968:971 Stdlib.funind.Recdef <> iter:4 def
+R978:980 Stdlib.funind.Recdef <> def:6 var
+R975:976 Stdlib.funind.Recdef <> fl:5 var
+R994:997 Stdlib.funind.Recdef Iter <> sec
+prf 1009:1016 <> le_lt_SS
+binder 1018:1018 <> x:8
+binder 1020:1020 <> y:9
+R1030:1033 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1025:1028 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1024:1024 Stdlib.funind.Recdef <> x:8 var
+R1029:1029 Stdlib.funind.Recdef <> y:9 var
+R1035:1037 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1034:1034 Stdlib.funind.Recdef <> x:8 var
+R1038:1038 Corelib.Init.Datatypes <> S constr
+R1041:1041 Corelib.Init.Datatypes <> S constr
+R1043:1043 Stdlib.funind.Recdef <> y:9 var
+R1073:1085 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R1088:1103 Stdlib.Arith.PeanoNat Nat le_le_succ_r thm
+prf 1120:1127 <> Splus_lt
+binder 1129:1129 <> x:10
+binder 1131:1131 <> y:11
+R1136:1138 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1135:1135 Stdlib.funind.Recdef <> y:11 var
+R1139:1139 Corelib.Init.Datatypes <> S constr
+R1143:1145 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1142:1142 Stdlib.funind.Recdef <> x:10 var
+R1146:1146 Stdlib.funind.Recdef <> y:11 var
+R1164:1176 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R1185:1196 Stdlib.Arith.PeanoNat Nat le_add_l thm
+prf 1213:1221 <> SSplus_lt
+binder 1223:1223 <> x:12
+binder 1225:1225 <> y:13
+R1230:1232 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1229:1229 Stdlib.funind.Recdef <> x:12 var
+R1233:1233 Corelib.Init.Datatypes <> S constr
+R1236:1236 Corelib.Init.Datatypes <> S constr
+R1240:1242 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1239:1239 Stdlib.funind.Recdef <> x:12 var
+R1243:1243 Stdlib.funind.Recdef <> y:13 var
+R1262:1269 Stdlib.funind.Recdef <> le_lt_SS thm
+R1272:1283 Stdlib.Arith.PeanoNat Nat le_add_r thm
+ind 1302:1309 <> max_type
+constr 1332:1334 <> cmt
+R1316:1318 Corelib.Init.Datatypes <> nat ind
+binder 1312:1312 <> m:14
+binder 1314:1314 <> n:15
+binder 1345:1345 <> v:18
+R1354:1357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1349:1352 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1348:1348 Stdlib.funind.Recdef <> m:14 var
+R1353:1353 Stdlib.funind.Recdef <> v:18 var
+R1364:1367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1359:1362 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1358:1358 Stdlib.funind.Recdef <> n:15 var
+R1363:1363 Stdlib.funind.Recdef <> v:18 var
+R1368:1375 Stdlib.funind.Recdef <> max_type:16 ind
+R1379:1379 Stdlib.funind.Recdef <> n:15 var
+R1377:1377 Stdlib.funind.Recdef <> m:14 var
+scheme 1302:1309 <> max_type_rect
+scheme 1302:1309 <> max_type_ind
+scheme 1302:1309 <> max_type_rec
+scheme 1302:1309 <> max_type_sind
+def 1394:1396 <> max
+binder 1398:1398 <> m:19
+binder 1400:1400 <> n:20
+R1404:1411 Stdlib.funind.Recdef <> max_type ind
+R1413:1413 Stdlib.funind.Recdef <> m:19 var
+R1415:1415 Stdlib.funind.Recdef <> n:20 var
+R1436:1456 Stdlib.Arith.Compare_dec <> le_gt_dec def
+R1503:1506 Corelib.Init.Peano <> le_n constr
+R1530:1533 Corelib.Init.Peano <> le_n constr
+R1543:1556 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+def 1590:1617 <> Acc_intro_generator_function
+binder 1626:1626 <> A:21
+binder 1628:1628 <> R:22
+R1634:1652 Corelib.Init.Wf <> Acc_intro_generator def
+R1654:1654 Stdlib.funind.Recdef <> A:21 var
+R1656:1656 Stdlib.funind.Recdef <> R:22 var

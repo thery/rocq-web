@@ -1,0 +1,142 @@
+DIGEST 139e630a4e0d786c9eb3ce2b367a45dd
+FStdlib.micromega.ZifyComparison
+R703:706 Stdlib.Bool.Bool <> <> lib
+R708:713 Stdlib.ZArith.BinInt <> <> lib
+R743:746 Stdlib.micromega.Zify <> <> lib
+R748:758 Stdlib.micromega.ZifyClasses <> <> lib
+R788:790 Stdlib.micromega.Lia <> <> lib
+def 900:914 <> Z_of_comparison
+R921:930 Corelib.Init.Datatypes <> comparison ind
+binder 917:917 <> c:1
+R935:935 Corelib.Numbers.BinNums <> Z ind
+R948:948 Stdlib.micromega.ZifyComparison <> c:1 var
+R959:960 Corelib.Init.Datatypes <> Lt constr
+R972:973 Corelib.Init.Datatypes <> Eq constr
+R984:985 Corelib.Init.Datatypes <> Gt constr
+prf 1006:1026 <> Z_of_comparison_bound
+binder 1037:1037 <> x:3
+R1044:1047 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1065:1068 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1048:1062 Stdlib.micromega.ZifyComparison <> Z_of_comparison def
+R1064:1064 Stdlib.micromega.ZifyComparison <> x:3 var
+inst 1157:1172 <> Inj_comparison_Z
+R1176:1181 Stdlib.micromega.ZifyClasses <> InjTyp class
+R1183:1192 Corelib.Init.Datatypes <> comparison ind
+R1194:1194 Corelib.Numbers.BinNums <> Z ind
+R1261:1264 Stdlib.micromega.ZifyClasses <> cstr meth
+R1228:1231 Stdlib.micromega.ZifyClasses <> pred meth
+R1203:1205 Stdlib.micromega.ZifyClasses <> inj meth
+R1210:1224 Stdlib.micromega.ZifyComparison <> Z_of_comparison def
+binder 1240:1240 <> x:4
+R1247:1250 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1252:1255 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1251:1251 Stdlib.micromega.ZifyComparison <> x:4 var
+R1269:1289 Stdlib.micromega.ZifyComparison <> Z_of_comparison_bound thm
+def 1339:1347 <> ZcompareZ
+R1356:1356 Corelib.Numbers.BinNums <> Z ind
+binder 1350:1350 <> x:5
+binder 1352:1352 <> y:6
+R1364:1378 Stdlib.micromega.ZifyComparison <> Z_of_comparison def
+R1381:1389 Stdlib.ZArith.BinInt Z compare def
+R1391:1391 Stdlib.micromega.ZifyComparison <> x:5 var
+R1393:1393 Stdlib.micromega.ZifyComparison <> y:6 var
+inst 1425:1438 <> BinOp_Zcompare
+R1442:1446 Stdlib.micromega.ZifyClasses <> BinOp class
+R1448:1456 Stdlib.ZArith.BinInt Z compare def
+R1465:1468 Stdlib.micromega.ZifyClasses <> TBOp meth
+R1473:1481 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+inst 1537:1552 <> Op_eq_comparison
+R1556:1561 Stdlib.micromega.ZifyClasses <> BinRel class
+R1565:1566 Corelib.Init.Logic <> eq ind
+R1568:1577 Corelib.Init.Datatypes <> comparison ind
+R1600:1604 Stdlib.micromega.ZifyClasses <> TRInj meth
+R1586:1587 Stdlib.micromega.ZifyClasses <> TR meth
+R1593:1594 Corelib.Init.Logic <> eq ind
+R1596:1596 Corelib.Numbers.BinNums <> Z ind
+inst 1716:1720 <> Op_Eq
+R1724:1728 Stdlib.micromega.ZifyClasses <> CstOp class
+R1730:1731 Corelib.Init.Datatypes <> Eq constr
+R1752:1758 Stdlib.micromega.ZifyClasses <> TCstInj meth
+R1740:1743 Stdlib.micromega.ZifyClasses <> TCst meth
+R1763:1769 Corelib.Init.Logic <> eq_refl constr
+inst 1816:1820 <> Op_Lt
+R1824:1828 Stdlib.micromega.ZifyClasses <> CstOp class
+R1830:1831 Corelib.Init.Datatypes <> Lt constr
+R1853:1859 Stdlib.micromega.ZifyClasses <> TCstInj meth
+R1840:1843 Stdlib.micromega.ZifyClasses <> TCst meth
+R1864:1870 Corelib.Init.Logic <> eq_refl constr
+inst 1917:1921 <> Op_Gt
+R1925:1929 Stdlib.micromega.ZifyClasses <> CstOp class
+R1931:1932 Corelib.Init.Datatypes <> Gt constr
+R1953:1959 Stdlib.micromega.ZifyClasses <> TCstInj meth
+R1941:1944 Stdlib.micromega.ZifyClasses <> TCst meth
+R1964:1970 Corelib.Init.Logic <> eq_refl constr
+prf 2005:2017 <> Zcompare_spec
+binder 2028:2028 <> x:7
+binder 2030:2030 <> y:8
+R2037:2037 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2064:2076 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2043:2046 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2039:2041 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2038:2038 Stdlib.micromega.ZifyComparison <> x:7 var
+R2042:2042 Stdlib.micromega.ZifyComparison <> y:8 var
+R2060:2062 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2047:2055 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+R2057:2057 Stdlib.micromega.ZifyComparison <> x:7 var
+R2059:2059 Stdlib.micromega.ZifyComparison <> y:8 var
+R2077:2077 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2104:2117 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2146:2146 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2083:2086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2079:2081 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R2078:2078 Stdlib.micromega.ZifyComparison <> x:7 var
+R2082:2082 Stdlib.micromega.ZifyComparison <> y:8 var
+R2100:2102 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2087:2095 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+R2097:2097 Stdlib.micromega.ZifyComparison <> x:7 var
+R2099:2099 Stdlib.micromega.ZifyComparison <> y:8 var
+R2123:2127 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2119:2121 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2118:2118 Stdlib.micromega.ZifyComparison <> x:7 var
+R2122:2122 Stdlib.micromega.ZifyComparison <> y:8 var
+R2141:2143 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2128:2136 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+R2138:2138 Stdlib.micromega.ZifyComparison <> x:7 var
+R2140:2140 Stdlib.micromega.ZifyComparison <> y:8 var
+R2165:2173 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+R2199:2202 Stdlib.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R2232:2247 Stdlib.ZArith.BinInt Z compare_eq_iff thm
+R2276:2291 Stdlib.ZArith.BinInt Z compare_lt_iff thm
+R2320:2335 Stdlib.ZArith.BinInt Z compare_gt_iff thm
+inst 2377:2388 <> ZcompareSpec
+R2392:2400 Stdlib.micromega.ZifyClasses <> BinOpSpec class
+R2402:2410 Stdlib.micromega.ZifyComparison <> ZcompareZ def
+R2420:2424 Stdlib.micromega.ZifyClasses <> BPred meth
+R2625:2629 Stdlib.micromega.ZifyClasses <> BSpec meth
+binder 2433:2433 <> x:9
+binder 2435:2435 <> y:10
+binder 2437:2437 <> r:11
+R2442:2442 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2457:2515 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2448:2451 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2444:2446 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2443:2443 Stdlib.micromega.ZifyComparison <> x:9 var
+R2447:2447 Stdlib.micromega.ZifyComparison <> y:10 var
+R2453:2455 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2452:2452 Stdlib.micromega.ZifyComparison <> r:11 var
+R2516:2516 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2531:2590 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2607:2607 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2522:2525 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2518:2520 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R2517:2517 Stdlib.micromega.ZifyComparison <> x:9 var
+R2521:2521 Stdlib.micromega.ZifyComparison <> y:10 var
+R2527:2529 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2526:2526 Stdlib.micromega.ZifyComparison <> r:11 var
+R2596:2600 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2592:2594 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2591:2591 Stdlib.micromega.ZifyComparison <> x:9 var
+R2595:2595 Stdlib.micromega.ZifyComparison <> y:10 var
+R2602:2604 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2601:2601 Stdlib.micromega.ZifyComparison <> r:11 var
+R2634:2646 Stdlib.micromega.ZifyComparison <> Zcompare_spec thm

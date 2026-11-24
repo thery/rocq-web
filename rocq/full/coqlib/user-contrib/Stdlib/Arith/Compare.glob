@@ -1,0 +1,133 @@
+DIGEST b38f906a161918568523d722abe38fc7
+FStdlib.Arith.Compare
+abbrev 756:765 <> not_eq_sym
+R770:779 Corelib.Init.Logic <> not_eq_sym thm
+R823:825 Corelib.Init.Datatypes <> nat ind
+R856:863 Stdlib.Arith.PeanoNat <> <> lib
+R865:875 Stdlib.Arith.Compare_dec <> <> lib
+def 890:899 <> le_or_le_S
+R904:914 Stdlib.Arith.Compare_dec <> le_le_S_dec def
+def 929:936 <> Pcompare
+R941:952 Stdlib.Arith.Compare_dec <> gt_eq_gt_dec def
+prf 962:967 <> le_dec
+binder 978:978 <> n:1
+binder 980:980 <> m:2
+R983:983 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R990:994 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1001:1001 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R985:988 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R984:984 Stdlib.Arith.Compare <> n:1 var
+R989:989 Stdlib.Arith.Compare <> m:2 var
+R996:999 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R995:995 Stdlib.Arith.Compare <> m:2 var
+R1000:1000 Stdlib.Arith.Compare <> n:1 var
+R1019:1027 Stdlib.Arith.Compare_dec <> le_ge_dec def
+def 1047:1054 <> lt_or_eq
+binder 1056:1056 <> n:3
+binder 1058:1058 <> m:4
+R1063:1063 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1069:1073 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1079:1079 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1065:1067 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R1064:1064 Stdlib.Arith.Compare <> m:4 var
+R1068:1068 Stdlib.Arith.Compare <> n:3 var
+R1075:1077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1074:1074 Stdlib.Arith.Compare <> n:3 var
+R1078:1078 Stdlib.Arith.Compare <> m:4 var
+prf 1089:1097 <> le_decide
+binder 1108:1108 <> n:5
+binder 1110:1110 <> m:6
+R1119:1122 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1114:1117 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1113:1113 Stdlib.Arith.Compare <> n:5 var
+R1118:1118 Stdlib.Arith.Compare <> m:6 var
+R1123:1130 Stdlib.Arith.Compare <> lt_or_eq def
+R1132:1132 Stdlib.Arith.Compare <> n:5 var
+R1134:1134 Stdlib.Arith.Compare <> m:6 var
+R1152:1163 Stdlib.Arith.Compare_dec <> le_lt_eq_dec def
+prf 1178:1187 <> le_le_S_eq
+binder 1198:1198 <> n:7
+binder 1200:1200 <> m:8
+R1209:1212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1204:1207 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1203:1203 Stdlib.Arith.Compare <> n:7 var
+R1208:1208 Stdlib.Arith.Compare <> m:8 var
+R1221:1224 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1216:1219 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1213:1213 Corelib.Init.Datatypes <> S constr
+R1215:1215 Stdlib.Arith.Compare <> n:7 var
+R1220:1220 Stdlib.Arith.Compare <> m:8 var
+R1226:1228 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1225:1225 Stdlib.Arith.Compare <> n:7 var
+R1229:1229 Stdlib.Arith.Compare <> m:8 var
+binder 1252:1252 <> n:9
+binder 1254:1254 <> m:10
+binder 1256:1258 <> Hle:11
+R1263:1267 Corelib.Init.Logic <> proj1 thm
+R1291:1293 Stdlib.Arith.Compare <> Hle:11 var
+R1270:1284 Stdlib.Arith.PeanoNat Nat lt_eq_cases thm
+R1286:1286 Stdlib.Arith.Compare <> n:9 var
+R1288:1288 Stdlib.Arith.Compare <> m:10 var
+binder 1252:1252 <> n:12
+binder 1254:1254 <> m:13
+binder 1256:1258 <> Hle:14
+R1291:1293 Stdlib.Arith.Compare <> Hle:14 var
+R1286:1286 Stdlib.Arith.Compare <> n:12 var
+R1288:1288 Stdlib.Arith.Compare <> m:13 var
+prf 1368:1379 <> discrete_nat
+binder 1392:1392 <> n:15
+binder 1394:1394 <> m:16
+R1402:1405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1398:1400 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1397:1397 Stdlib.Arith.Compare <> n:15 var
+R1401:1401 Stdlib.Arith.Compare <> m:16 var
+R1413:1417 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1451:1451 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1409:1411 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1406:1406 Corelib.Init.Datatypes <> S constr
+R1408:1408 Stdlib.Arith.Compare <> n:15 var
+R1412:1412 Stdlib.Arith.Compare <> m:16 var
+R1418:1424 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1432:1433 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1429:1431 Corelib.Init.Datatypes <> nat ind
+binder 1425:1425 <> r:17
+R1435:1437 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1434:1434 Stdlib.Arith.Compare <> m:16 var
+R1438:1438 Corelib.Init.Datatypes <> S constr
+R1441:1441 Corelib.Init.Datatypes <> S constr
+R1445:1447 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1444:1444 Stdlib.Arith.Compare <> n:15 var
+R1448:1448 Stdlib.Arith.Compare <> r:17 var
+R1487:1491 Corelib.Init.Logic <> proj1 thm
+R1494:1506 Stdlib.Arith.PeanoNat Nat le_succ_l thm
+R1541:1545 Corelib.Init.Logic <> proj1 thm
+R1548:1562 Stdlib.Arith.PeanoNat Nat lt_eq_cases thm
+R1565:1565 Corelib.Init.Datatypes <> S constr
+R1620:1622 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1623:1623 Corelib.Init.Datatypes <> S constr
+R1626:1626 Corelib.Init.Datatypes <> S constr
+R1651:1662 Stdlib.Arith.PeanoNat Nat add_comm thm
+R1668:1670 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1671:1671 Corelib.Init.Datatypes <> S constr
+R1674:1674 Corelib.Init.Datatypes <> S constr
+R1693:1701 Corelib.Init.Peano <> plus_n_Sm thm
+R1705:1707 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1708:1708 Corelib.Init.Datatypes <> S constr
+R1711:1711 Corelib.Init.Datatypes <> S constr
+R1732:1740 Corelib.Init.Peano <> plus_n_Sm thm
+R1744:1746 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1747:1747 Corelib.Init.Datatypes <> S constr
+R1750:1750 Corelib.Init.Datatypes <> S constr
+R1757:1757 Corelib.Init.Datatypes <> S constr
+R1775:1786 Stdlib.Arith.PeanoNat Nat add_comm thm
+R1790:1792 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1793:1793 Corelib.Init.Datatypes <> S constr
+R1796:1796 Corelib.Init.Datatypes <> S constr
+R1803:1803 Corelib.Init.Datatypes <> S constr
+R1806:1806 Corelib.Init.Datatypes <> S constr
+R1824:1840 Stdlib.Arith.PeanoNat Nat add_sub_assoc thm
+R1871:1882 Stdlib.Arith.PeanoNat Nat add_comm thm
+R1898:1914 Stdlib.Arith.PeanoNat Nat add_sub_assoc thm
+R1946:1957 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R1978:1988 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R2024:2029 Stdlib.Arith.Wf_nat <> <> lib

@@ -1,0 +1,333 @@
+DIGEST b92e0103e3fea9bc78208278c9751165
+FStdlib.Numbers.Natural.Abstract.NMaxMin
+R703:709 Stdlib.Numbers.Natural.Abstract.NAxioms <> <> lib
+R711:714 Stdlib.Numbers.Natural.Abstract.NSub <> <> lib
+R716:728 Stdlib.Structures.GenericMinMax <> <> lib
+R840:854 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> modtype
+modtype 816:826 <> NMaxMinProp
+R816:826 Stdlib.Numbers.Natural.Abstract.NMaxMin N <> mod
+R866:873 Stdlib.Numbers.Natural.Abstract.NSub NSubProp <> modtype
+R875:875 Stdlib.Numbers.Natural.Abstract.NMaxMin N <> mod
+prf 898:904 NMaxMinProp max_0_l
+binder 915:915 <> n:1
+R925:928 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R918:920 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R924:924 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:1 var
+R929:929 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:1 var
+R954:958 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R967:972 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 987:993 NMaxMinProp max_0_r
+binder 1004:1004 <> n:2
+R1014:1017 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1007:1009 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1011:1011 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:2 var
+R1018:1018 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:2 var
+R1043:1047 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1056:1061 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1076:1082 NMaxMinProp min_0_l
+binder 1093:1093 <> n:3
+R1103:1106 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1096:1098 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R1102:1102 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:3 var
+R1132:1136 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1145:1150 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1165:1171 NMaxMinProp min_0_r
+binder 1182:1182 <> n:4
+R1192:1195 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1185:1187 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R1189:1189 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:4 var
+R1221:1225 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1234:1239 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1362:1375 NMaxMinProp succ_max_distr
+binder 1377:1377 <> n:5
+binder 1379:1379 <> m:6
+R1394:1397 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1383:1383 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1386:1388 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1390:1390 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:5 var
+R1392:1392 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:6 var
+R1398:1400 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1403:1403 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1405:1405 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:5 var
+R1409:1409 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1411:1411 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:6 var
+R1433:1443 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1464:1468 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1482:1486 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1506:1517 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+prf 1532:1545 NMaxMinProp succ_min_distr
+binder 1547:1547 <> n:7
+binder 1549:1549 <> m:8
+R1564:1567 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1553:1553 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1556:1558 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R1560:1560 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:7 var
+R1562:1562 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:8 var
+R1568:1570 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R1573:1573 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1575:1575 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:7 var
+R1579:1579 Stdlib.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1581:1581 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:8 var
+R1603:1613 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1634:1638 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1652:1656 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1676:1687 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+prf 1714:1728 NMaxMinProp add_max_distr_l
+binder 1730:1730 <> n:9
+binder 1732:1732 <> m:10
+binder 1734:1734 <> p:11
+R1757:1760 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1738:1740 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1744:1746 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1743:1743 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1747:1747 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:9 var
+R1752:1754 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1751:1751 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1755:1755 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:10 var
+R1762:1764 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1761:1761 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1765:1767 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1769:1769 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:9 var
+R1771:1771 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:10 var
+R1792:1802 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1823:1827 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1841:1845 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1865:1877 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+prf 1892:1906 NMaxMinProp add_max_distr_r
+binder 1908:1908 <> n:12
+binder 1910:1910 <> m:13
+binder 1912:1912 <> p:14
+R1935:1938 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1916:1918 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1922:1924 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1921:1921 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:12 var
+R1925:1925 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1930:1932 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1929:1929 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:13 var
+R1933:1933 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1946:1948 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1939:1941 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R1943:1943 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:12 var
+R1945:1945 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:13 var
+R1949:1949 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1970:1980 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2001:2005 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2019:2023 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2043:2055 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+prf 2070:2084 NMaxMinProp add_min_distr_l
+binder 2086:2086 <> n:15
+binder 2088:2088 <> m:16
+binder 2090:2090 <> p:17
+R2113:2116 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2094:2096 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2100:2102 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2099:2099 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2103:2103 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:15 var
+R2108:2110 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2107:2107 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2111:2111 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:16 var
+R2118:2120 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2117:2117 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2121:2123 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2125:2125 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:15 var
+R2127:2127 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:16 var
+R2148:2158 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2179:2183 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2197:2201 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2221:2233 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+prf 2248:2262 NMaxMinProp add_min_distr_r
+binder 2264:2264 <> n:18
+binder 2266:2266 <> m:19
+binder 2268:2268 <> p:20
+R2291:2294 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2272:2274 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2278:2280 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2277:2277 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:18 var
+R2281:2281 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2286:2288 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2285:2285 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:19 var
+R2289:2289 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2302:2304 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2295:2297 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2299:2299 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:18 var
+R2301:2301 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:19 var
+R2305:2305 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2326:2336 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2357:2361 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2375:2379 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2399:2411 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+prf 2438:2452 NMaxMinProp mul_max_distr_l
+binder 2454:2454 <> n:21
+binder 2456:2456 <> m:22
+binder 2458:2458 <> p:23
+R2481:2484 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2462:2464 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R2468:2470 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2467:2467 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2471:2471 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:21 var
+R2476:2478 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2475:2475 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2479:2479 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:22 var
+R2486:2488 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2485:2485 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2489:2491 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R2493:2493 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:21 var
+R2495:2495 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:22 var
+R2516:2526 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2547:2551 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2565:2569 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2594:2606 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+prf 2621:2635 NMaxMinProp mul_max_distr_r
+binder 2637:2637 <> n:24
+binder 2639:2639 <> m:25
+binder 2641:2641 <> p:26
+R2664:2667 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2645:2647 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R2651:2653 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2650:2650 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:24 var
+R2654:2654 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2659:2661 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2658:2658 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:25 var
+R2662:2662 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2675:2677 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2668:2670 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R2672:2672 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:24 var
+R2674:2674 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:25 var
+R2678:2678 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2699:2709 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2730:2734 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2748:2752 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2777:2789 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+prf 2804:2818 NMaxMinProp mul_min_distr_l
+binder 2820:2820 <> n:27
+binder 2822:2822 <> m:28
+binder 2824:2824 <> p:29
+R2847:2850 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2828:2830 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2834:2836 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2833:2833 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2837:2837 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:27 var
+R2842:2844 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2841:2841 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2845:2845 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:28 var
+R2852:2854 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2851:2851 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2855:2857 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R2859:2859 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:27 var
+R2861:2861 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:28 var
+R2882:2892 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2913:2917 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2931:2935 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2960:2972 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+prf 2987:3001 NMaxMinProp mul_min_distr_r
+binder 3003:3003 <> n:30
+binder 3005:3005 <> m:31
+binder 3007:3007 <> p:32
+R3030:3033 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3011:3013 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3017:3019 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3016:3016 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:30 var
+R3020:3020 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3025:3027 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3024:3024 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:31 var
+R3028:3028 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3041:3043 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3034:3036 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3038:3038 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:30 var
+R3040:3040 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:31 var
+R3044:3044 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3065:3075 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3096:3100 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3114:3118 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3143:3155 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+prf 3182:3196 NMaxMinProp sub_max_distr_l
+binder 3198:3198 <> n:33
+binder 3200:3200 <> m:34
+binder 3202:3202 <> p:35
+R3225:3228 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3206:3208 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R3212:3214 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3211:3211 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3215:3215 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:33 var
+R3220:3222 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3219:3219 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3223:3223 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:34 var
+R3230:3232 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3229:3229 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3233:3235 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3237:3237 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:33 var
+R3239:3239 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:34 var
+R3260:3270 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3289:3293 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3313:3317 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3330:3342 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3356:3360 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3380:3384 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3397:3409 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+prf 3424:3438 NMaxMinProp sub_max_distr_r
+binder 3440:3440 <> n:36
+binder 3442:3442 <> m:37
+binder 3444:3444 <> p:38
+R3467:3470 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3448:3450 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R3454:3456 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3453:3453 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:36 var
+R3457:3457 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3462:3464 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3461:3461 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:37 var
+R3465:3465 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3478:3480 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3471:3473 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R3475:3475 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:36 var
+R3477:3477 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:37 var
+R3481:3481 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3502:3512 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3533:3537 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3551:3555 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3580:3592 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+prf 3607:3621 NMaxMinProp sub_min_distr_l
+binder 3623:3623 <> n:39
+binder 3625:3625 <> m:40
+binder 3627:3627 <> p:41
+R3650:3653 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3631:3633 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3637:3639 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3636:3636 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3640:3640 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:39 var
+R3645:3647 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3644:3644 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3648:3648 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:40 var
+R3655:3657 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3654:3654 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3658:3660 Stdlib.Numbers.Natural.Abstract.NMaxMin N max defax
+R3662:3662 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:39 var
+R3664:3664 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:40 var
+R3685:3695 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3714:3718 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3738:3742 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3755:3767 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3781:3785 Stdlib.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3805:3809 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3822:3834 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+prf 3849:3863 NMaxMinProp sub_min_distr_r
+binder 3865:3865 <> n:42
+binder 3867:3867 <> m:43
+binder 3869:3869 <> p:44
+R3892:3895 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3873:3875 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3879:3881 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3878:3878 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:42 var
+R3882:3882 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3887:3889 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3886:3886 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:43 var
+R3890:3890 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3903:3905 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3896:3898 Stdlib.Numbers.Natural.Abstract.NMaxMin N min defax
+R3900:3900 Stdlib.Numbers.Natural.Abstract.NMaxMin <> n:42 var
+R3902:3902 Stdlib.Numbers.Natural.Abstract.NMaxMin <> m:43 var
+R3906:3906 Stdlib.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3927:3937 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3958:3962 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3976:3980 Stdlib.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R4005:4017 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R4030:4040 Stdlib.Numbers.Natural.Abstract.NMaxMin NMaxMinProp <> modtype

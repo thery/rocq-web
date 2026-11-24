@@ -1,0 +1,134 @@
+DIGEST 470f068438f7d7b2d77c5310248942c3
+FStdlib.Reals.ROrderedType
+R703:707 Stdlib.Reals.Rbase <> <> lib
+R709:718 Stdlib.Structures.Equalities <> <> lib
+R720:725 Stdlib.Structures.Orders <> <> lib
+R727:735 Stdlib.Structures.OrdersTac <> <> lib
+prf 826:832 <> Req_dec
+R849:849 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 843:844 <> r1:1
+binder 846:847 <> r2:2
+R852:852 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R860:864 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R873:873 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R855:857 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R853:854 Stdlib.Reals.ROrderedType <> r1:1 var
+R858:859 Stdlib.Reals.ROrderedType <> r2:2 var
+R867:870 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R865:866 Stdlib.Reals.ROrderedType <> r1:1 var
+R871:872 Stdlib.Reals.ROrderedType <> r2:2 var
+R905:917 Stdlib.Reals.Rdefinitions <> total_order_T thm
+R926:947 Stdlib.Reals.RIneq <> Rlt_dichotomy_converse thm
+def 988:991 <> Reqb
+binder 993:994 <> r1:3
+binder 996:997 <> r2:4
+R1005:1011 Stdlib.Reals.ROrderedType <> Req_dec thm
+R1013:1014 Stdlib.Reals.ROrderedType <> r1:3 var
+R1016:1017 Stdlib.Reals.ROrderedType <> r2:4 var
+R1034:1038 Corelib.Init.Datatypes <> false constr
+R1024:1027 Corelib.Init.Datatypes <> true constr
+prf 1047:1053 <> Reqb_eq
+binder 1064:1065 <> r1:5
+binder 1067:1068 <> r2:6
+R1088:1092 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1081:1083 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1071:1074 Stdlib.Reals.ROrderedType <> Reqb def
+R1076:1077 Stdlib.Reals.ROrderedType <> r1:5 var
+R1079:1080 Stdlib.Reals.ROrderedType <> r2:6 var
+R1084:1087 Corelib.Init.Datatypes <> true constr
+R1095:1095 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1093:1094 Stdlib.Reals.ROrderedType <> r1:5 var
+R1096:1097 Stdlib.Reals.ROrderedType <> r2:6 var
+R1123:1126 Stdlib.Reals.ROrderedType <> Reqb def
+R1138:1144 Stdlib.Reals.ROrderedType <> Req_dec thm
+R1249:1259 Stdlib.Structures.Equalities UsualBoolEq <> modtype
+mod 1237:1244 <> R_as_UBE
+def 1274:1274 R_as_UBE t
+R1279:1279 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 1294:1295 R_as_UBE eq
+R1301:1302 Corelib.Init.Logic <> eq ind
+R1304:1304 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 1319:1321 R_as_UBE eqb
+R1326:1329 Stdlib.Reals.ROrderedType <> Reqb def
+def 1344:1349 R_as_UBE eqb_eq
+R1354:1360 Stdlib.Reals.ROrderedType <> Reqb_eq thm
+R1367:1374 Stdlib.Reals.ROrderedType R_as_UBE <> mod
+R1396:1417 Stdlib.Structures.Equalities UsualDecidableTypeFull <> modtype
+R1422:1430 Stdlib.Structures.Equalities Make_UDTF <> mod
+R1432:1439 Stdlib.Reals.ROrderedType R_as_UBE <> mod
+mod 1385:1391 <> R_as_DT
+def 1735:1742 <> Rcompare
+binder 1744:1744 <> x:7
+binder 1746:1746 <> y:8
+R1758:1770 Stdlib.Reals.Rdefinitions <> total_order_T thm
+R1772:1772 Stdlib.Reals.ROrderedType <> x:7 var
+R1774:1774 Stdlib.Reals.ROrderedType <> y:8 var
+R1785:1790 Corelib.Init.Specif <> inleft constr
+R1793:1796 Corelib.Init.Specif <> left constr
+R1804:1805 Corelib.Init.Datatypes <> Lt constr
+R1811:1816 Corelib.Init.Specif <> inleft constr
+R1819:1823 Corelib.Init.Specif <> right constr
+R1831:1832 Corelib.Init.Datatypes <> Eq constr
+R1838:1844 Corelib.Init.Specif <> inright constr
+R1851:1852 Corelib.Init.Datatypes <> Gt constr
+prf 1867:1879 <> Rcompare_spec
+binder 1890:1890 <> x:9
+binder 1892:1892 <> y:10
+R1895:1905 Corelib.Init.Datatypes <> CompareSpec ind
+R1926:1933 Stdlib.Reals.ROrderedType <> Rcompare def
+R1935:1935 Stdlib.Reals.ROrderedType <> x:9 var
+R1937:1937 Stdlib.Reals.ROrderedType <> y:10 var
+R1921:1921 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1920:1920 Stdlib.Reals.ROrderedType <> y:10 var
+R1922:1922 Stdlib.Reals.ROrderedType <> x:9 var
+R1915:1915 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1914:1914 Stdlib.Reals.ROrderedType <> x:9 var
+R1916:1916 Stdlib.Reals.ROrderedType <> y:10 var
+R1909:1909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1908:1908 Stdlib.Reals.ROrderedType <> x:9 var
+R1910:1910 Stdlib.Reals.ROrderedType <> y:10 var
+R1964:1971 Stdlib.Reals.ROrderedType <> Rcompare def
+R1984:1996 Stdlib.Reals.Rdefinitions <> total_order_T thm
+R2042:2056 Stdlib.Structures.Orders OrderedTypeFull <> modtype
+mod 2031:2037 <> R_as_OT
+R2068:2074 Stdlib.Reals.ROrderedType R_as_DT <> mod
+def 2089:2090 R_as_OT lt
+R2095:2097 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rlt defax
+def 2112:2113 R_as_OT le
+R2118:2120 Stdlib.Reals.Rdefinitions <> Rle def
+def 2135:2141 R_as_OT compare
+R2146:2153 Stdlib.Reals.ROrderedType <> Rcompare def
+inst 2177:2187 R_as_OT lt_strorder
+R2191:2201 Corelib.Classes.RelationClasses <> StrictOrder class
+R2203:2205 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rlt defax
+R2231:2240 Stdlib.Reals.RIneq <> Rlt_irrefl thm
+R2250:2258 Stdlib.Reals.Raxioms <> Rlt_trans thm
+inst 2289:2297 R_as_OT lt_compat
+R2301:2306 Corelib.Classes.Morphisms <> Proper class
+R2336:2338 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rlt defax
+R2317:2319 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2309:2316 Corelib.Init.Logic <> eq ind
+R2328:2330 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2320:2327 Corelib.Init.Logic <> eq ind
+R2331:2333 Corelib.Init.Logic <> iff def
+prf 2395:2401 R_as_OT le_lteq
+binder 2412:2412 <> x:11
+binder 2414:2414 <> y:12
+R2423:2427 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2418:2421 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2417:2417 Stdlib.Reals.ROrderedType <> x:11 var
+R2422:2422 Stdlib.Reals.ROrderedType <> y:12 var
+R2433:2436 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2429:2431 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2428:2428 Stdlib.Reals.ROrderedType <> x:11 var
+R2432:2432 Stdlib.Reals.ROrderedType <> y:12 var
+R2438:2440 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2437:2437 Stdlib.Reals.ROrderedType <> x:11 var
+R2441:2441 Stdlib.Reals.ROrderedType <> y:12 var
+R2459:2461 Stdlib.Reals.Rdefinitions <> Rle def
+def 2495:2506 R_as_OT compare_spec
+R2511:2523 Stdlib.Reals.ROrderedType <> Rcompare_spec thm
+R2531:2537 Stdlib.Reals.ROrderedType R_as_OT <> mod
+R2730:2744 Stdlib.Structures.OrdersTac OTF_to_OrderTac <> mod
+R2746:2752 Stdlib.Reals.ROrderedType R_as_OT <> mod
+mod 2720:2725 <> ROrder

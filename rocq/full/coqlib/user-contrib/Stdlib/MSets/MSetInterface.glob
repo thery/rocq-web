@@ -1,0 +1,2648 @@
+DIGEST 1f3a0170e3693f5466b2696cdad0e5af
+FStdlib.MSets.MSetInterface
+R1641:1644 Stdlib.Bool.Bool <> <> lib
+R1646:1655 Stdlib.Sorting.SetoidList <> <> lib
+R1657:1671 Stdlib.Classes.RelationClasses <> <> lib
+R1673:1681 Stdlib.Classes.Morphisms <> <> lib
+R1684:1696 Stdlib.Classes.RelationPairs <> <> lib
+R1698:1707 Stdlib.Structures.Equalities <> <> lib
+R1709:1714 Stdlib.Structures.Orders <> <> lib
+R1716:1726 Stdlib.Structures.OrdersFacts <> <> lib
+modtype 1789:1794 <> TypElt
+ax 1809:1809 TypElt t
+ax 1811:1813 TypElt elt
+R1827:1832 Stdlib.MSets.MSetInterface TypElt <> modtype
+R1866:1871 Stdlib.MSets.MSetInterface TypElt <> modtype
+modtype 1848:1854 <> HasWOps
+R1848:1854 Stdlib.MSets.MSetInterface T <> mod
+ax 1888:1892 HasWOps empty
+R1896:1896 Stdlib.MSets.MSetInterface T t defax
+ax 1936:1943 HasWOps is_empty
+R1948:1951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1947:1947 Stdlib.MSets.MSetInterface T t defax
+R1952:1955 Corelib.Init.Datatypes <> bool ind
+ax 2016:2018 HasWOps mem
+R2025:2028 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2022:2024 Stdlib.MSets.MSetInterface T elt defax
+R2030:2033 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2029:2029 Stdlib.MSets.MSetInterface T t defax
+R2034:2037 Corelib.Init.Datatypes <> bool ind
+ax 2114:2116 HasWOps add
+R2123:2126 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2120:2122 Stdlib.MSets.MSetInterface T elt defax
+R2128:2131 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2127:2127 Stdlib.MSets.MSetInterface T t defax
+R2132:2132 Stdlib.MSets.MSetInterface T t defax
+ax 2279:2287 HasWOps singleton
+R2294:2297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2291:2293 Stdlib.MSets.MSetInterface T elt defax
+R2298:2298 Stdlib.MSets.MSetInterface T t defax
+ax 2386:2391 HasWOps remove
+R2398:2401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2395:2397 Stdlib.MSets.MSetInterface T elt defax
+R2403:2406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2402:2402 Stdlib.MSets.MSetInterface T t defax
+R2407:2407 Stdlib.MSets.MSetInterface T t defax
+ax 2555:2559 HasWOps union
+R2564:2567 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2563:2563 Stdlib.MSets.MSetInterface T t defax
+R2569:2572 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2568:2568 Stdlib.MSets.MSetInterface T t defax
+R2573:2573 Stdlib.MSets.MSetInterface T t defax
+ax 2609:2613 HasWOps inter
+R2618:2621 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2617:2617 Stdlib.MSets.MSetInterface T t defax
+R2623:2626 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2622:2622 Stdlib.MSets.MSetInterface T t defax
+R2627:2627 Stdlib.MSets.MSetInterface T t defax
+ax 2670:2673 HasWOps diff
+R2678:2681 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2677:2677 Stdlib.MSets.MSetInterface T t defax
+R2683:2686 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2682:2682 Stdlib.MSets.MSetInterface T t defax
+R2687:2687 Stdlib.MSets.MSetInterface T t defax
+ax 2728:2732 HasWOps equal
+R2737:2740 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2736:2736 Stdlib.MSets.MSetInterface T t defax
+R2742:2745 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2741:2741 Stdlib.MSets.MSetInterface T t defax
+R2746:2749 Corelib.Init.Datatypes <> bool ind
+ax 2871:2876 HasWOps subset
+R2881:2884 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2880:2880 Stdlib.MSets.MSetInterface T t defax
+R2886:2889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2885:2885 Stdlib.MSets.MSetInterface T t defax
+R2890:2893 Corelib.Init.Datatypes <> bool ind
+ax 2991:2994 HasWOps fold
+binder 3005:3005 <> A:27
+R3015:3015 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3029:3033 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3019:3022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3016:3018 Stdlib.MSets.MSetInterface T elt defax
+R3024:3027 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3023:3023 Stdlib.MSets.MSetInterface <> A:27 var
+R3028:3028 Stdlib.MSets.MSetInterface <> A:27 var
+R3035:3038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3034:3034 Stdlib.MSets.MSetInterface T t defax
+R3040:3043 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3039:3039 Stdlib.MSets.MSetInterface <> A:27 var
+R3044:3044 Stdlib.MSets.MSetInterface <> A:27 var
+ax 3245:3251 HasWOps for_all
+R3255:3255 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3267:3271 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3259:3262 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3256:3258 Stdlib.MSets.MSetInterface T elt defax
+R3263:3266 Corelib.Init.Datatypes <> bool ind
+R3273:3276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3272:3272 Stdlib.MSets.MSetInterface T t defax
+R3277:3280 Corelib.Init.Datatypes <> bool ind
+ax 3382:3388 HasWOps exists_
+R3392:3392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3404:3408 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3396:3399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3393:3395 Stdlib.MSets.MSetInterface T elt defax
+R3400:3403 Corelib.Init.Datatypes <> bool ind
+R3410:3413 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3409:3409 Stdlib.MSets.MSetInterface T t defax
+R3414:3417 Corelib.Init.Datatypes <> bool ind
+ax 3528:3533 HasWOps filter
+R3537:3537 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3549:3553 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3541:3544 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3538:3540 Stdlib.MSets.MSetInterface T elt defax
+R3545:3548 Corelib.Init.Datatypes <> bool ind
+R3555:3558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3554:3554 Stdlib.MSets.MSetInterface T t defax
+R3559:3559 Stdlib.MSets.MSetInterface T t defax
+ax 3666:3674 HasWOps partition
+R3678:3678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3690:3694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3682:3685 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3679:3681 Stdlib.MSets.MSetInterface T elt defax
+R3686:3689 Corelib.Init.Datatypes <> bool ind
+R3696:3699 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3695:3695 Stdlib.MSets.MSetInterface T t defax
+R3701:3703 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3700:3700 Stdlib.MSets.MSetInterface T t defax
+R3704:3704 Stdlib.MSets.MSetInterface T t defax
+ax 3939:3946 HasWOps cardinal
+R3951:3954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3950:3950 Stdlib.MSets.MSetInterface T t defax
+R3955:3957 Corelib.Init.Datatypes <> nat ind
+ax 4022:4029 HasWOps elements
+R4034:4037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4033:4033 Stdlib.MSets.MSetInterface T t defax
+R4038:4041 Corelib.Init.Datatypes <> list ind
+R4043:4045 Stdlib.MSets.MSetInterface T elt defax
+ax 4134:4139 HasWOps choose
+R4144:4147 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4143:4143 Stdlib.MSets.MSetInterface T t defax
+R4148:4153 Corelib.Init.Datatypes <> option ind
+R4155:4157 Stdlib.MSets.MSetInterface T elt defax
+R4330:4336 Stdlib.MSets.MSetInterface HasWOps <> modtype
+R4362:4374 Stdlib.Structures.Equalities DecidableType <> modtype
+modtype 4352:4355 <> WOps
+def 4391:4393 WOps elt
+R4398:4400 Stdlib.MSets.MSetInterface E t defax
+ax 4415:4415 WOps t
+R4468:4474 Stdlib.MSets.MSetInterface HasWOps <> modtype
+R4481:4484 Stdlib.MSets.MSetInterface WOps <> modtype
+R4650:4662 Stdlib.Structures.Equalities DecidableType <> modtype
+modtype 4637:4643 <> WSetsOn
+R4721:4724 Stdlib.MSets.MSetInterface WOps <> modtype
+R4726:4726 Stdlib.MSets.MSetInterface E <> mod
+ax 4770:4771 WSetsOn In
+R4778:4781 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4775:4777 Stdlib.MSets.MSetInterface WSetsOn elt def
+R4783:4786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4782:4782 Stdlib.MSets.MSetInterface WSetsOn t defax
+inst 4822:4830 WSetsOn In_compat
+R4834:4839 Corelib.Classes.Morphisms <> Proper class
+R4859:4860 Stdlib.MSets.MSetInterface WSetsOn In defax
+R4846:4848 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4842:4845 Stdlib.MSets.MSetInterface E eq defax
+R4851:4853 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4849:4850 Corelib.Init.Logic <> eq ind
+R4854:4856 Corelib.Init.Logic <> iff def
+def 4877:4881 WSetsOn Equal
+binder 4883:4883 <> s:48
+binder 4885:4886 <> s':49
+R4902:4904 Stdlib.MSets.MSetInterface WSetsOn elt def
+binder 4898:4898 <> a:50
+R4913:4917 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4907:4908 Stdlib.MSets.MSetInterface WSetsOn In defax
+R4912:4912 Stdlib.MSets.MSetInterface <> s:48 var
+R4910:4910 Stdlib.MSets.MSetInterface <> a:50 var
+R4918:4919 Stdlib.MSets.MSetInterface WSetsOn In defax
+R4923:4924 Stdlib.MSets.MSetInterface <> s':49 var
+R4921:4921 Stdlib.MSets.MSetInterface <> a:50 var
+def 4940:4945 WSetsOn Subset
+binder 4947:4947 <> s:51
+binder 4949:4950 <> s':52
+R4966:4968 Stdlib.MSets.MSetInterface WSetsOn elt def
+binder 4962:4962 <> a:53
+R4977:4980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4971:4972 Stdlib.MSets.MSetInterface WSetsOn In defax
+R4976:4976 Stdlib.MSets.MSetInterface <> s:51 var
+R4974:4974 Stdlib.MSets.MSetInterface <> a:53 var
+R4981:4982 Stdlib.MSets.MSetInterface WSetsOn In defax
+R4986:4987 Stdlib.MSets.MSetInterface <> s':52 var
+R4984:4984 Stdlib.MSets.MSetInterface <> a:53 var
+def 5003:5007 WSetsOn Empty
+binder 5009:5009 <> s:54
+R5025:5027 Stdlib.MSets.MSetInterface WSetsOn elt def
+binder 5021:5021 <> a:55
+R5030:5031 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5032:5033 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5037:5037 Stdlib.MSets.MSetInterface <> s:54 var
+R5035:5035 Stdlib.MSets.MSetInterface <> a:55 var
+def 5053:5059 WSetsOn For_all
+R5069:5072 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5066:5068 Stdlib.MSets.MSetInterface WSetsOn elt def
+binder 5062:5062 <> P:56
+binder 5079:5079 <> s:57
+binder 5091:5091 <> x:58
+R5100:5103 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5094:5095 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5099:5099 Stdlib.MSets.MSetInterface <> s:57 var
+R5097:5097 Stdlib.MSets.MSetInterface <> x:58 var
+R5104:5104 Stdlib.MSets.MSetInterface <> P:56 var
+R5106:5106 Stdlib.MSets.MSetInterface <> x:58 var
+def 5122:5127 WSetsOn Exists
+R5137:5140 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5134:5136 Stdlib.MSets.MSetInterface WSetsOn elt def
+binder 5130:5130 <> P:59
+binder 5147:5147 <> s:60
+R5152:5158 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5160:5161 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5159:5159 <> x:61
+R5168:5171 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5162:5163 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5167:5167 Stdlib.MSets.MSetInterface <> s:60 var
+R5165:5165 Stdlib.MSets.MSetInterface <> x:61 var
+R5172:5172 Stdlib.MSets.MSetInterface <> P:59 var
+R5174:5174 Stdlib.MSets.MSetInterface <> x:61 var
+R5205:5209 Stdlib.MSets.MSetInterface WSetsOn Equal def
+not 5189:5189 WSetsOn :::x_'[=]'_x
+R5277:5282 Stdlib.MSets.MSetInterface WSetsOn Subset def
+not 5260:5260 WSetsOn :::x_'[<=]'_x
+def 5336:5337 WSetsOn eq
+R5342:5345 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5341:5341 Stdlib.MSets.MSetInterface WSetsOn t defax
+R5347:5350 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5346:5346 Stdlib.MSets.MSetInterface WSetsOn t defax
+R5359:5363 Stdlib.MSets.MSetInterface WSetsOn Equal def
+R5376:5379 Stdlib.Structures.Equalities IsEq <> modtype
+R5452:5459 Stdlib.Structures.Equalities HasEqDec <> modtype
+sec 5515:5518 WSetsOn Spec
+var 5532:5532 WSetsOn.Spec s
+var 5534:5535 WSetsOn.Spec s'
+R5538:5538 Stdlib.MSets.MSetInterface WSetsOn t defax
+var 5552:5552 WSetsOn.Spec x
+var 5554:5554 WSetsOn.Spec y
+R5558:5560 Stdlib.MSets.MSetInterface WSetsOn elt def
+var 5574:5574 WSetsOn.Spec f
+R5581:5584 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5578:5580 Stdlib.MSets.MSetInterface WSetsOn elt def
+R5585:5588 Corelib.Init.Datatypes <> bool ind
+abbrev 5602:5608 WSetsOn compatb
+R5614:5619 Corelib.Classes.Morphisms <> Proper class
+R5626:5628 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5622:5625 Stdlib.MSets.MSetInterface E eq defax
+R5629:5636 Corelib.Init.Logic <> eq ind
+var 5669:5676 WSetsOn.Spec mem_spec
+R5694:5698 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5687:5689 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5680:5682 Stdlib.MSets.MSetInterface WSetsOn mem defax
+R5686:5686 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5684:5684 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5690:5693 Corelib.Init.Datatypes <> true constr
+R5699:5700 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5704:5704 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5702:5702 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 5719:5728 WSetsOn.Spec equal_spec
+R5749:5753 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5742:5744 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5732:5736 Stdlib.MSets.MSetInterface WSetsOn equal defax
+R5740:5741 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R5738:5738 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5745:5748 Corelib.Init.Datatypes <> true constr
+R5755:5757 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5754:5754 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5758:5759 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+var 5774:5784 WSetsOn.Spec subset_spec
+R5806:5810 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5799:5801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5788:5793 Stdlib.MSets.MSetInterface WSetsOn subset defax
+R5797:5798 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R5795:5795 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5802:5805 Corelib.Init.Datatypes <> true constr
+R5812:5815 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R5811:5811 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5816:5817 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+var 5832:5841 WSetsOn.Spec empty_spec
+R5845:5849 Stdlib.MSets.MSetInterface WSetsOn Empty def
+R5851:5855 Stdlib.MSets.MSetInterface WSetsOn empty defax
+var 5870:5882 WSetsOn.Spec is_empty_spec
+R5903:5907 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5896:5898 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5886:5893 Stdlib.MSets.MSetInterface WSetsOn is_empty defax
+R5895:5895 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5899:5902 Corelib.Init.Datatypes <> true constr
+R5908:5912 Stdlib.MSets.MSetInterface WSetsOn Empty def
+R5914:5914 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+var 5929:5936 WSetsOn.Spec add_spec
+R5954:5958 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5940:5941 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5946:5948 Stdlib.MSets.MSetInterface WSetsOn add defax
+R5952:5952 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5950:5950 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5943:5943 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+R5967:5970 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5959:5962 Stdlib.MSets.MSetInterface E eq defax
+R5966:5966 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5964:5964 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+R5971:5972 Stdlib.MSets.MSetInterface WSetsOn In defax
+R5976:5976 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5974:5974 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+var 5991:6001 WSetsOn.Spec remove_spec
+R6022:6026 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6005:6006 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6011:6016 Stdlib.MSets.MSetInterface WSetsOn remove defax
+R6020:6020 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6018:6018 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6008:6008 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6033:6036 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6027:6028 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6032:6032 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6030:6030 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6037:6037 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6038:6041 Stdlib.MSets.MSetInterface E eq defax
+R6045:6045 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6043:6043 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+var 6060:6073 WSetsOn.Spec singleton_spec
+R6095:6099 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6077:6078 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6083:6091 Stdlib.MSets.MSetInterface WSetsOn singleton defax
+R6093:6093 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6080:6080 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6100:6103 Stdlib.MSets.MSetInterface E eq defax
+R6107:6107 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6105:6105 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.y var
+var 6122:6131 WSetsOn.Spec union_spec
+R6152:6156 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6135:6136 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6141:6145 Stdlib.MSets.MSetInterface WSetsOn union defax
+R6149:6150 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6147:6147 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6138:6138 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6163:6166 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6157:6158 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6162:6162 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6160:6160 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6167:6168 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6172:6173 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6170:6170 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 6188:6197 WSetsOn.Spec inter_spec
+R6218:6222 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6201:6202 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6207:6211 Stdlib.MSets.MSetInterface WSetsOn inter defax
+R6215:6216 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6213:6213 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6204:6204 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6229:6232 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6223:6224 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6228:6228 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6226:6226 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6233:6234 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6238:6239 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6236:6236 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 6254:6262 WSetsOn.Spec diff_spec
+R6282:6286 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6266:6267 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6272:6275 Stdlib.MSets.MSetInterface WSetsOn diff defax
+R6279:6280 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6277:6277 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6269:6269 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6293:6296 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6287:6288 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6292:6292 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6290:6290 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6297:6297 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6298:6299 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6303:6304 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6301:6301 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 6319:6327 WSetsOn.Spec fold_spec
+binder 6339:6339 <> A:94
+R6354:6354 Stdlib.MSets.MSetInterface <> A:94 var
+binder 6350:6350 <> i:95
+R6365:6368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6362:6364 Stdlib.MSets.MSetInterface WSetsOn elt def
+R6370:6373 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6369:6369 Stdlib.MSets.MSetInterface <> A:94 var
+R6374:6374 Stdlib.MSets.MSetInterface <> A:94 var
+binder 6358:6358 <> f:96
+R6392:6394 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6382:6385 Stdlib.MSets.MSetInterface WSetsOn fold defax
+R6391:6391 Stdlib.MSets.MSetInterface <> i:95 var
+R6389:6389 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6387:6387 Stdlib.MSets.MSetInterface <> f:96 var
+R6395:6403 Stdlib.Lists.List <> fold_left def
+R6427:6427 Stdlib.MSets.MSetInterface <> i:95 var
+R6415:6422 Stdlib.MSets.MSetInterface WSetsOn elements defax
+R6424:6424 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6406:6409 Corelib.Program.Basics <> flip def
+R6411:6411 Stdlib.MSets.MSetInterface <> f:96 var
+var 6442:6454 WSetsOn.Spec cardinal_spec
+R6468:6470 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6458:6465 Stdlib.MSets.MSetInterface WSetsOn cardinal defax
+R6467:6467 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6471:6476 Corelib.Init.Datatypes <> length def
+R6479:6486 Stdlib.MSets.MSetInterface WSetsOn elements defax
+R6488:6488 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+var 6504:6514 WSetsOn.Spec filter_spec
+R6527:6535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6578:6578 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6518:6524 Stdlib.MSets.MSetInterface WSetsOn compatb abbrev
+R6526:6526 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6553:6557 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6536:6537 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6542:6547 Stdlib.MSets.MSetInterface WSetsOn filter defax
+R6551:6551 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6549:6549 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6539:6539 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6564:6567 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6558:6559 Stdlib.MSets.MSetInterface WSetsOn In defax
+R6563:6563 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6561:6561 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6571:6573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6568:6568 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6570:6570 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6574:6577 Corelib.Init.Datatypes <> true constr
+var 6593:6604 WSetsOn.Spec for_all_spec
+R6617:6625 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6680:6680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6608:6614 Stdlib.MSets.MSetInterface WSetsOn compatb abbrev
+R6616:6616 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6644:6648 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6637:6639 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6626:6632 Stdlib.MSets.MSetInterface WSetsOn for_all defax
+R6636:6636 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6634:6634 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6640:6643 Corelib.Init.Datatypes <> true constr
+R6649:6655 Stdlib.MSets.MSetInterface WSetsOn For_all def
+R6679:6679 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+binder 6662:6662 <> x:103
+R6670:6672 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6667:6667 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6669:6669 Stdlib.MSets.MSetInterface <> x:103 var
+R6673:6676 Corelib.Init.Datatypes <> true constr
+var 6695:6705 WSetsOn.Spec exists_spec
+R6718:6726 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6780:6780 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6709:6715 Stdlib.MSets.MSetInterface WSetsOn compatb abbrev
+R6717:6717 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6745:6749 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6738:6740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6727:6733 Stdlib.MSets.MSetInterface WSetsOn exists_ defax
+R6737:6737 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6735:6735 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6741:6744 Corelib.Init.Datatypes <> true constr
+R6750:6755 Stdlib.MSets.MSetInterface WSetsOn Exists def
+R6779:6779 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+binder 6762:6762 <> x:106
+R6770:6772 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6767:6767 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6769:6769 Stdlib.MSets.MSetInterface <> x:106 var
+R6773:6776 Corelib.Init.Datatypes <> true constr
+var 6795:6809 WSetsOn.Spec partition_spec1
+R6822:6829 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6813:6819 Stdlib.MSets.MSetInterface WSetsOn compatb abbrev
+R6821:6821 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6849:6853 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6830:6832 Corelib.Init.Datatypes <> fst def
+R6835:6843 Stdlib.MSets.MSetInterface WSetsOn partition defax
+R6847:6847 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6845:6845 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6854:6859 Stdlib.MSets.MSetInterface WSetsOn filter defax
+R6863:6863 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6861:6861 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+var 6878:6892 WSetsOn.Spec partition_spec2
+R6905:6912 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6896:6902 Stdlib.MSets.MSetInterface WSetsOn compatb abbrev
+R6904:6904 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6932:6936 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6913:6915 Corelib.Init.Datatypes <> snd def
+R6918:6926 Stdlib.MSets.MSetInterface WSetsOn partition defax
+R6930:6930 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6928:6928 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6937:6942 Stdlib.MSets.MSetInterface WSetsOn filter defax
+R6966:6966 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+binder 6949:6949 <> x:111
+R6954:6957 Corelib.Init.Datatypes <> negb def
+R6960:6960 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6962:6962 Stdlib.MSets.MSetInterface <> x:111 var
+var 6981:6994 WSetsOn.Spec elements_spec1
+R7021:7025 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6998:7000 Stdlib.Sorting.SetoidList <> InA ind
+R7010:7017 Stdlib.MSets.MSetInterface WSetsOn elements defax
+R7019:7019 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7007:7007 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R7002:7005 Stdlib.MSets.MSetInterface E eq defax
+R7026:7027 Stdlib.MSets.MSetInterface WSetsOn In defax
+R7031:7031 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7029:7029 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 7146:7160 WSetsOn.Spec elements_spec2w
+R7164:7169 Stdlib.Sorting.SetoidList <> NoDupA ind
+R7177:7184 Stdlib.MSets.MSetInterface WSetsOn elements defax
+R7186:7186 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7171:7174 Stdlib.MSets.MSetInterface E eq defax
+var 7202:7213 WSetsOn.Spec choose_spec1
+R7234:7237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7225:7227 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7217:7222 Stdlib.MSets.MSetInterface WSetsOn choose defax
+R7224:7224 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7228:7231 Corelib.Init.Datatypes <> Some constr
+R7233:7233 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+R7238:7239 Stdlib.MSets.MSetInterface WSetsOn In defax
+R7243:7243 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7241:7241 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.x var
+var 7258:7269 WSetsOn.Spec choose_spec2
+R7288:7291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7281:7283 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7273:7278 Stdlib.MSets.MSetInterface WSetsOn choose defax
+R7280:7280 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7284:7287 Corelib.Init.Datatypes <> None constr
+R7292:7296 Stdlib.MSets.MSetInterface WSetsOn Empty def
+R7298:7298 Stdlib.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7308:7311 Stdlib.MSets.MSetInterface WSetsOn.Spec <> sec
+R7319:7325 Stdlib.MSets.MSetInterface WSetsOn <> modtype
+modtype 7517:7521 <> WSets
+R7545:7557 Stdlib.Structures.Equalities DecidableType <> modtype
+mod 7541:7541 <> WSets.E
+R7570:7576 Stdlib.MSets.MSetInterface WSetsOn <> modtype
+R7578:7578 Stdlib.MSets.MSetInterface WSets.E <> mod
+R7585:7589 Stdlib.MSets.MSetInterface WSets <> modtype
+R7819:7824 Stdlib.MSets.MSetInterface TypElt <> modtype
+modtype 7799:7807 <> HasOrdOps
+R7799:7807 Stdlib.MSets.MSetInterface T <> mod
+ax 7841:7847 HasOrdOps compare
+R7852:7855 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7851:7851 Stdlib.MSets.MSetInterface T t defax
+R7857:7860 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7856:7856 Stdlib.MSets.MSetInterface T t defax
+R7861:7870 Corelib.Init.Datatypes <> comparison ind
+ax 7987:7993 HasOrdOps min_elt
+R7998:8001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7997:7997 Stdlib.MSets.MSetInterface T t defax
+R8002:8007 Corelib.Init.Datatypes <> option ind
+R8009:8011 Stdlib.MSets.MSetInterface T elt defax
+ax 8160:8166 HasOrdOps max_elt
+R8171:8174 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8170:8170 Stdlib.MSets.MSetInterface T t defax
+R8175:8180 Corelib.Init.Datatypes <> option ind
+R8182:8184 Stdlib.MSets.MSetInterface T elt defax
+R8272:8280 Stdlib.MSets.MSetInterface HasOrdOps <> modtype
+R8305:8315 Stdlib.Structures.Orders OrderedType <> modtype
+R8321:8324 Stdlib.MSets.MSetInterface WOps <> modtype
+R8326:8326 Stdlib.MSets.MSetInterface E <> mod
+R8331:8339 Stdlib.MSets.MSetInterface HasOrdOps <> modtype
+modtype 8296:8298 <> Ops
+R8368:8378 Stdlib.Structures.Orders OrderedType <> modtype
+modtype 8356:8361 <> SetsOn
+R8392:8398 Stdlib.MSets.MSetInterface WSetsOn <> modtype
+R8400:8400 Stdlib.MSets.MSetInterface E <> mod
+R8405:8413 Stdlib.MSets.MSetInterface HasOrdOps <> modtype
+R8418:8422 Stdlib.Structures.Orders HasLt <> modtype
+R8427:8436 Stdlib.Structures.Orders IsStrOrder <> modtype
+sec 8450:8453 SetsOn Spec
+var 8467:8467 SetsOn.Spec s
+var 8469:8470 SetsOn.Spec s'
+R8473:8473 Stdlib.MSets.MSetInterface SetsOn t defax
+var 8487:8487 SetsOn.Spec x
+var 8489:8489 SetsOn.Spec y
+R8493:8495 Stdlib.MSets.MSetInterface SetsOn elt def
+var 8511:8522 SetsOn.Spec compare_spec
+R8526:8533 Corelib.Init.Datatypes <> CompSpec def
+R8547:8553 Stdlib.MSets.MSetInterface SetsOn compare defax
+R8557:8558 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s' var
+R8555:8555 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8543:8544 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s' var
+R8541:8541 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8538:8539 Stdlib.MSets.MSetInterface SetsOn lt defax
+R8535:8536 Stdlib.MSets.MSetInterface SetsOn eq def
+var 8623:8636 SetsOn.Spec elements_spec2
+R8640:8643 Stdlib.Sorting.Sorted <> sort abbrev
+R8651:8658 Stdlib.MSets.MSetInterface SetsOn elements defax
+R8660:8660 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8645:8648 Stdlib.MSets.MSetInterface E lt defax
+var 8886:8898 SetsOn.Spec min_elt_spec1
+R8920:8923 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8911:8913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8902:8908 Stdlib.MSets.MSetInterface SetsOn min_elt defax
+R8910:8910 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8914:8917 Corelib.Init.Datatypes <> Some constr
+R8919:8919 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R8924:8925 Stdlib.MSets.MSetInterface SetsOn In defax
+R8929:8929 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8927:8927 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+var 8944:8956 SetsOn.Spec min_elt_spec2
+R8978:8981 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8969:8971 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8960:8966 Stdlib.MSets.MSetInterface SetsOn min_elt defax
+R8968:8968 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8972:8975 Corelib.Init.Datatypes <> Some constr
+R8977:8977 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R8988:8991 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8982:8983 Stdlib.MSets.MSetInterface SetsOn In defax
+R8987:8987 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R8985:8985 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+R8992:8993 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8994:8997 Stdlib.MSets.MSetInterface E lt defax
+R9001:9001 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R8999:8999 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+var 9016:9028 SetsOn.Spec min_elt_spec3
+R9048:9051 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9041:9043 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9032:9038 Stdlib.MSets.MSetInterface SetsOn min_elt defax
+R9040:9040 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9044:9047 Corelib.Init.Datatypes <> None constr
+R9052:9056 Stdlib.MSets.MSetInterface SetsOn Empty def
+R9058:9058 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+var 9074:9086 SetsOn.Spec max_elt_spec1
+R9108:9111 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9099:9101 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9090:9096 Stdlib.MSets.MSetInterface SetsOn max_elt defax
+R9098:9098 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9102:9105 Corelib.Init.Datatypes <> Some constr
+R9107:9107 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R9112:9113 Stdlib.MSets.MSetInterface SetsOn In defax
+R9117:9117 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9115:9115 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+var 9132:9144 SetsOn.Spec max_elt_spec2
+R9166:9169 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9157:9159 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9148:9154 Stdlib.MSets.MSetInterface SetsOn max_elt defax
+R9156:9156 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9160:9163 Corelib.Init.Datatypes <> Some constr
+R9165:9165 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R9176:9179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9170:9171 Stdlib.MSets.MSetInterface SetsOn In defax
+R9175:9175 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9173:9173 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+R9180:9181 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9182:9185 Stdlib.MSets.MSetInterface E lt defax
+R9189:9189 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+R9187:9187 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+var 9204:9216 SetsOn.Spec max_elt_spec3
+R9236:9239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9229:9231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9220:9226 Stdlib.MSets.MSetInterface SetsOn max_elt defax
+R9228:9228 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9232:9235 Corelib.Init.Datatypes <> None constr
+R9240:9244 Stdlib.MSets.MSetInterface SetsOn Empty def
+R9246:9246 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+var 9308:9319 SetsOn.Spec choose_spec3
+R9340:9343 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9331:9333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9323:9328 Stdlib.MSets.MSetInterface SetsOn choose defax
+R9330:9330 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9334:9337 Corelib.Init.Datatypes <> Some constr
+R9339:9339 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R9362:9369 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9353:9355 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9344:9349 Stdlib.MSets.MSetInterface SetsOn choose defax
+R9351:9352 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s' var
+R9356:9359 Corelib.Init.Datatypes <> Some constr
+R9361:9361 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+R9380:9383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9370:9374 Stdlib.MSets.MSetInterface SetsOn Equal def
+R9378:9379 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s' var
+R9376:9376 Stdlib.MSets.MSetInterface <> SetsOn.Spec.s var
+R9384:9387 Stdlib.MSets.MSetInterface E eq defax
+R9391:9391 Stdlib.MSets.MSetInterface <> SetsOn.Spec.y var
+R9389:9389 Stdlib.MSets.MSetInterface <> SetsOn.Spec.x var
+R9401:9404 Stdlib.MSets.MSetInterface SetsOn.Spec <> sec
+R9412:9417 Stdlib.MSets.MSetInterface SetsOn <> modtype
+modtype 9624:9627 <> Sets
+R9651:9661 Stdlib.Structures.Orders OrderedType <> modtype
+mod 9647:9647 <> Sets.E
+R9674:9679 Stdlib.MSets.MSetInterface SetsOn <> modtype
+R9681:9681 Stdlib.MSets.MSetInterface Sets.E <> mod
+R9688:9691 Stdlib.MSets.MSetInterface Sets <> modtype
+R9712:9715 Stdlib.MSets.MSetInterface Sets <> modtype
+modtype 9707:9707 <> S
+R11930:11942 Stdlib.Structures.Equalities DecidableType <> modtype
+modtype 11916:11923 <> WRawSets
+R12001:12004 Stdlib.MSets.MSetInterface WOps <> modtype
+R12006:12006 Stdlib.MSets.MSetInterface E <> mod
+ax 12069:12072 WRawSets IsOk
+R12077:12080 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12076:12076 Stdlib.MSets.MSetInterface WRawSets t defax
+ind 12095:12096 WRawSets Ok
+constr 12114:12115 WRawSets ok
+rec 12095:12096 WRawSets Ok
+proj 12114:12115 WRawSets ok
+R12101:12101 Stdlib.MSets.MSetInterface WRawSets t defax
+binder 12099:12099 <> s:156
+R12119:12122 Stdlib.MSets.MSetInterface WRawSets IsOk defax
+R12124:12124 Stdlib.MSets.MSetInterface <> s:156 var
+ax 12379:12382 WRawSets isok
+R12387:12390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12386:12386 Stdlib.MSets.MSetInterface WRawSets t defax
+R12391:12394 Corelib.Init.Datatypes <> bool ind
+inst 12571:12577 WRawSets isok_Ok
+binder 12579:12579 <> s:161
+R12589:12591 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12583:12586 Stdlib.MSets.MSetInterface WRawSets isok defax
+R12588:12588 Stdlib.MSets.MSetInterface <> s:161 var
+R12592:12595 Corelib.Init.Datatypes <> true constr
+binder 12583:12595 <> H:162
+R12600:12601 Stdlib.MSets.MSetInterface WRawSets Ok class
+R12603:12603 Stdlib.MSets.MSetInterface <> s:161 var
+ax 12652:12653 WRawSets In
+R12660:12663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12657:12659 Stdlib.MSets.MSetInterface WRawSets elt def
+R12665:12668 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12664:12664 Stdlib.MSets.MSetInterface WRawSets t defax
+inst 12704:12712 WRawSets In_compat
+R12716:12721 Corelib.Classes.Morphisms <> Proper class
+R12741:12742 Stdlib.MSets.MSetInterface WRawSets In defax
+R12728:12730 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12724:12727 Stdlib.MSets.MSetInterface E eq defax
+R12733:12735 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12731:12732 Corelib.Init.Logic <> eq ind
+R12736:12738 Corelib.Init.Logic <> iff def
+def 12759:12763 WRawSets Equal
+binder 12765:12765 <> s:165
+binder 12767:12768 <> s':166
+R12784:12786 Stdlib.MSets.MSetInterface WRawSets elt def
+binder 12780:12780 <> a:167
+R12795:12799 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12789:12790 Stdlib.MSets.MSetInterface WRawSets In defax
+R12794:12794 Stdlib.MSets.MSetInterface <> s:165 var
+R12792:12792 Stdlib.MSets.MSetInterface <> a:167 var
+R12800:12801 Stdlib.MSets.MSetInterface WRawSets In defax
+R12805:12806 Stdlib.MSets.MSetInterface <> s':166 var
+R12803:12803 Stdlib.MSets.MSetInterface <> a:167 var
+def 12822:12827 WRawSets Subset
+binder 12829:12829 <> s:168
+binder 12831:12832 <> s':169
+R12848:12850 Stdlib.MSets.MSetInterface WRawSets elt def
+binder 12844:12844 <> a:170
+R12859:12862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12853:12854 Stdlib.MSets.MSetInterface WRawSets In defax
+R12858:12858 Stdlib.MSets.MSetInterface <> s:168 var
+R12856:12856 Stdlib.MSets.MSetInterface <> a:170 var
+R12863:12864 Stdlib.MSets.MSetInterface WRawSets In defax
+R12868:12869 Stdlib.MSets.MSetInterface <> s':169 var
+R12866:12866 Stdlib.MSets.MSetInterface <> a:170 var
+def 12885:12889 WRawSets Empty
+binder 12891:12891 <> s:171
+R12907:12909 Stdlib.MSets.MSetInterface WRawSets elt def
+binder 12903:12903 <> a:172
+R12912:12913 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12914:12915 Stdlib.MSets.MSetInterface WRawSets In defax
+R12919:12919 Stdlib.MSets.MSetInterface <> s:171 var
+R12917:12917 Stdlib.MSets.MSetInterface <> a:172 var
+def 12935:12941 WRawSets For_all
+R12951:12954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12948:12950 Stdlib.MSets.MSetInterface WRawSets elt def
+binder 12944:12944 <> P:173
+binder 12961:12961 <> s:174
+binder 12973:12973 <> x:175
+R12982:12985 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12976:12977 Stdlib.MSets.MSetInterface WRawSets In defax
+R12981:12981 Stdlib.MSets.MSetInterface <> s:174 var
+R12979:12979 Stdlib.MSets.MSetInterface <> x:175 var
+R12986:12986 Stdlib.MSets.MSetInterface <> P:173 var
+R12988:12988 Stdlib.MSets.MSetInterface <> x:175 var
+def 13004:13009 WRawSets Exists
+R13019:13022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13016:13018 Stdlib.MSets.MSetInterface WRawSets elt def
+binder 13012:13012 <> P:176
+binder 13029:13029 <> s:177
+R13034:13040 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13042:13043 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13041:13041 <> x:178
+R13050:13053 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13044:13045 Stdlib.MSets.MSetInterface WRawSets In defax
+R13049:13049 Stdlib.MSets.MSetInterface <> s:177 var
+R13047:13047 Stdlib.MSets.MSetInterface <> x:178 var
+R13054:13054 Stdlib.MSets.MSetInterface <> P:176 var
+R13056:13056 Stdlib.MSets.MSetInterface <> x:178 var
+R13087:13091 Stdlib.MSets.MSetInterface WRawSets Equal def
+not 13071:13071 WRawSets :::x_'[=]'_x
+R13159:13164 Stdlib.MSets.MSetInterface WRawSets Subset def
+not 13142:13142 WRawSets :::x_'[<=]'_x
+def 13218:13219 WRawSets eq
+R13224:13227 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13223:13223 Stdlib.MSets.MSetInterface WRawSets t defax
+R13229:13232 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13228:13228 Stdlib.MSets.MSetInterface WRawSets t defax
+R13241:13245 Stdlib.MSets.MSetInterface WRawSets Equal def
+inst 13277:13284 WRawSets eq_equiv
+R13288:13298 Corelib.Classes.RelationClasses <> Equivalence class
+R13300:13301 Stdlib.MSets.MSetInterface WRawSets eq def
+inst 13413:13420 WRawSets empty_ok
+R13424:13425 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13427:13431 Stdlib.MSets.MSetInterface WRawSets empty defax
+inst 13463:13468 WRawSets add_ok
+binder 13470:13470 <> s:179
+binder 13472:13472 <> x:180
+R13476:13477 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13479:13479 Stdlib.MSets.MSetInterface <> s:179 var
+binder 13476:13479 <> H:181
+R13484:13485 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13488:13490 Stdlib.MSets.MSetInterface WRawSets add defax
+R13494:13494 Stdlib.MSets.MSetInterface <> s:179 var
+R13492:13492 Stdlib.MSets.MSetInterface <> x:180 var
+inst 13527:13535 WRawSets remove_ok
+binder 13537:13537 <> s:182
+binder 13539:13539 <> x:183
+R13543:13544 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13546:13546 Stdlib.MSets.MSetInterface <> s:182 var
+binder 13543:13546 <> H:184
+R13551:13552 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13555:13560 Stdlib.MSets.MSetInterface WRawSets remove defax
+R13564:13564 Stdlib.MSets.MSetInterface <> s:182 var
+R13562:13562 Stdlib.MSets.MSetInterface <> x:183 var
+inst 13597:13608 WRawSets singleton_ok
+binder 13610:13610 <> x:185
+R13614:13615 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13618:13626 Stdlib.MSets.MSetInterface WRawSets singleton defax
+R13628:13628 Stdlib.MSets.MSetInterface <> x:185 var
+inst 13661:13668 WRawSets union_ok
+binder 13670:13670 <> s:186
+binder 13672:13673 <> s':187
+R13677:13678 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13680:13680 Stdlib.MSets.MSetInterface <> s:186 var
+binder 13677:13680 <> H:188
+R13683:13684 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13686:13687 Stdlib.MSets.MSetInterface <> s':187 var
+binder 13683:13687 <> H0:189
+R13692:13693 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13696:13700 Stdlib.MSets.MSetInterface WRawSets union defax
+R13704:13705 Stdlib.MSets.MSetInterface <> s':187 var
+R13702:13702 Stdlib.MSets.MSetInterface <> s:186 var
+inst 13738:13745 WRawSets inter_ok
+binder 13747:13747 <> s:190
+binder 13749:13750 <> s':191
+R13754:13755 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13757:13757 Stdlib.MSets.MSetInterface <> s:190 var
+binder 13754:13757 <> H:192
+R13760:13761 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13763:13764 Stdlib.MSets.MSetInterface <> s':191 var
+binder 13760:13764 <> H0:193
+R13769:13770 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13773:13777 Stdlib.MSets.MSetInterface WRawSets inter defax
+R13781:13782 Stdlib.MSets.MSetInterface <> s':191 var
+R13779:13779 Stdlib.MSets.MSetInterface <> s:190 var
+inst 13815:13821 WRawSets diff_ok
+binder 13823:13823 <> s:194
+binder 13825:13826 <> s':195
+R13830:13831 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13833:13833 Stdlib.MSets.MSetInterface <> s:194 var
+binder 13830:13833 <> H:196
+R13836:13837 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13839:13840 Stdlib.MSets.MSetInterface <> s':195 var
+binder 13836:13840 <> H0:197
+R13845:13846 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13849:13852 Stdlib.MSets.MSetInterface WRawSets diff defax
+R13856:13857 Stdlib.MSets.MSetInterface <> s':195 var
+R13854:13854 Stdlib.MSets.MSetInterface <> s:194 var
+inst 13890:13898 WRawSets filter_ok
+binder 13900:13900 <> s:198
+binder 13902:13902 <> f:199
+R13906:13907 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13909:13909 Stdlib.MSets.MSetInterface <> s:198 var
+binder 13906:13909 <> H:200
+R13914:13915 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13918:13923 Stdlib.MSets.MSetInterface WRawSets filter defax
+R13927:13927 Stdlib.MSets.MSetInterface <> s:198 var
+R13925:13925 Stdlib.MSets.MSetInterface <> f:199 var
+inst 13960:13972 WRawSets partition_ok1
+binder 13974:13974 <> s:201
+binder 13976:13976 <> f:202
+R13980:13981 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13983:13983 Stdlib.MSets.MSetInterface <> s:201 var
+binder 13980:13983 <> H:203
+R13988:13989 Stdlib.MSets.MSetInterface WRawSets Ok class
+R13992:13994 Corelib.Init.Datatypes <> fst def
+R13997:14005 Stdlib.MSets.MSetInterface WRawSets partition defax
+R14009:14009 Stdlib.MSets.MSetInterface <> s:201 var
+R14007:14007 Stdlib.MSets.MSetInterface <> f:202 var
+inst 14043:14055 WRawSets partition_ok2
+binder 14057:14057 <> s:204
+binder 14059:14059 <> f:205
+R14063:14064 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14066:14066 Stdlib.MSets.MSetInterface <> s:204 var
+binder 14063:14066 <> H:206
+R14071:14072 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14075:14077 Corelib.Init.Datatypes <> snd def
+R14080:14088 Stdlib.MSets.MSetInterface WRawSets partition defax
+R14092:14092 Stdlib.MSets.MSetInterface <> s:204 var
+R14090:14090 Stdlib.MSets.MSetInterface <> f:205 var
+sec 14179:14182 WRawSets Spec
+var 14196:14196 WRawSets.Spec s
+var 14198:14199 WRawSets.Spec s'
+R14202:14202 Stdlib.MSets.MSetInterface WRawSets t defax
+var 14216:14216 WRawSets.Spec x
+var 14218:14218 WRawSets.Spec y
+R14222:14224 Stdlib.MSets.MSetInterface WRawSets elt def
+var 14238:14238 WRawSets.Spec f
+R14245:14248 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14242:14244 Stdlib.MSets.MSetInterface WRawSets elt def
+R14249:14252 Corelib.Init.Datatypes <> bool ind
+abbrev 14266:14272 WRawSets compatb
+R14278:14283 Corelib.Classes.Morphisms <> Proper class
+R14290:14292 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14286:14289 Stdlib.MSets.MSetInterface E eq defax
+R14293:14300 Corelib.Init.Logic <> eq ind
+var 14333:14340 WRawSets.Spec mem_spec
+R14353:14354 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14356:14356 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14353:14356 <> H:217
+R14374:14378 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14367:14369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14360:14362 Stdlib.MSets.MSetInterface WRawSets mem defax
+R14366:14366 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14364:14364 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14370:14373 Corelib.Init.Datatypes <> true constr
+R14379:14380 Stdlib.MSets.MSetInterface WRawSets In defax
+R14384:14384 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14382:14382 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 14399:14408 WRawSets.Spec equal_spec
+R14421:14422 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14424:14424 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14421:14424 <> H:220
+R14427:14428 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14430:14431 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+binder 14427:14431 <> H0:221
+R14456:14460 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14449:14451 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14439:14443 Stdlib.MSets.MSetInterface WRawSets equal defax
+R14447:14448 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14445:14445 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14452:14455 Corelib.Init.Datatypes <> true constr
+R14462:14464 Stdlib.MSets.MSetInterface WRawSets :::x_'[=]'_x not
+R14461:14461 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14465:14466 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+var 14481:14491 WRawSets.Spec subset_spec
+R14504:14505 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14507:14507 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14504:14507 <> H:224
+R14510:14511 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14513:14514 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+binder 14510:14514 <> H0:225
+R14540:14544 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14533:14535 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14522:14527 Stdlib.MSets.MSetInterface WRawSets subset defax
+R14531:14532 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14529:14529 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14536:14539 Corelib.Init.Datatypes <> true constr
+R14546:14549 Stdlib.MSets.MSetInterface WRawSets :::x_'[<=]'_x not
+R14545:14545 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14550:14551 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+var 14566:14575 WRawSets.Spec empty_spec
+R14579:14583 Stdlib.MSets.MSetInterface WRawSets Empty def
+R14585:14589 Stdlib.MSets.MSetInterface WRawSets empty defax
+var 14604:14616 WRawSets.Spec is_empty_spec
+R14637:14641 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14630:14632 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14620:14627 Stdlib.MSets.MSetInterface WRawSets is_empty defax
+R14629:14629 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14633:14636 Corelib.Init.Datatypes <> true constr
+R14642:14646 Stdlib.MSets.MSetInterface WRawSets Empty def
+R14648:14648 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+var 14663:14670 WRawSets.Spec add_spec
+R14683:14684 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14686:14686 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14683:14686 <> H:232
+R14708:14712 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14694:14695 Stdlib.MSets.MSetInterface WRawSets In defax
+R14700:14702 Stdlib.MSets.MSetInterface WRawSets add defax
+R14706:14706 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14704:14704 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14697:14697 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+R14721:14724 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R14713:14716 Stdlib.MSets.MSetInterface E eq defax
+R14720:14720 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14718:14718 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+R14725:14726 Stdlib.MSets.MSetInterface WRawSets In defax
+R14730:14730 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14728:14728 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+var 14745:14755 WRawSets.Spec remove_spec
+R14768:14769 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14771:14771 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14768:14771 <> H:235
+R14796:14800 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14779:14780 Stdlib.MSets.MSetInterface WRawSets In defax
+R14785:14790 Stdlib.MSets.MSetInterface WRawSets remove defax
+R14794:14794 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14792:14792 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14782:14782 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+R14807:14810 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14801:14802 Stdlib.MSets.MSetInterface WRawSets In defax
+R14806:14806 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14804:14804 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+R14811:14811 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14812:14815 Stdlib.MSets.MSetInterface E eq defax
+R14819:14819 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14817:14817 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+var 14834:14847 WRawSets.Spec singleton_spec
+R14869:14873 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14851:14852 Stdlib.MSets.MSetInterface WRawSets In defax
+R14857:14865 Stdlib.MSets.MSetInterface WRawSets singleton defax
+R14867:14867 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14854:14854 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+R14874:14877 Stdlib.MSets.MSetInterface E eq defax
+R14881:14881 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14879:14879 Stdlib.MSets.MSetInterface <> WRawSets.Spec.y var
+var 14896:14905 WRawSets.Spec union_spec
+R14918:14919 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14921:14921 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 14918:14921 <> H:240
+R14924:14925 Stdlib.MSets.MSetInterface WRawSets Ok class
+R14927:14928 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+binder 14924:14928 <> H0:241
+R14953:14957 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14936:14937 Stdlib.MSets.MSetInterface WRawSets In defax
+R14942:14946 Stdlib.MSets.MSetInterface WRawSets union defax
+R14950:14951 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14948:14948 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14939:14939 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14964:14967 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R14958:14959 Stdlib.MSets.MSetInterface WRawSets In defax
+R14963:14963 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R14961:14961 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R14968:14969 Stdlib.MSets.MSetInterface WRawSets In defax
+R14973:14974 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14971:14971 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 14989:14998 WRawSets.Spec inter_spec
+R15011:15012 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15014:15014 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15011:15014 <> H:244
+R15017:15018 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15020:15021 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+binder 15017:15021 <> H0:245
+R15046:15050 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15029:15030 Stdlib.MSets.MSetInterface WRawSets In defax
+R15035:15039 Stdlib.MSets.MSetInterface WRawSets inter defax
+R15043:15044 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R15041:15041 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15032:15032 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15057:15060 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15051:15052 Stdlib.MSets.MSetInterface WRawSets In defax
+R15056:15056 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15054:15054 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15061:15062 Stdlib.MSets.MSetInterface WRawSets In defax
+R15066:15067 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R15064:15064 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 15082:15090 WRawSets.Spec diff_spec
+R15103:15104 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15106:15106 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15103:15106 <> H:248
+R15109:15110 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15112:15113 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+binder 15109:15113 <> H0:249
+R15137:15141 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15121:15122 Stdlib.MSets.MSetInterface WRawSets In defax
+R15127:15130 Stdlib.MSets.MSetInterface WRawSets diff defax
+R15134:15135 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R15132:15132 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15124:15124 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15148:15151 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15142:15143 Stdlib.MSets.MSetInterface WRawSets In defax
+R15147:15147 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15145:15145 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15152:15152 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15153:15154 Stdlib.MSets.MSetInterface WRawSets In defax
+R15158:15159 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s' var
+R15156:15156 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 15174:15182 WRawSets.Spec fold_spec
+binder 15194:15194 <> A:252
+R15209:15209 Stdlib.MSets.MSetInterface <> A:252 var
+binder 15205:15205 <> i:253
+R15220:15223 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15217:15219 Stdlib.MSets.MSetInterface WRawSets elt def
+R15225:15228 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15224:15224 Stdlib.MSets.MSetInterface <> A:252 var
+R15229:15229 Stdlib.MSets.MSetInterface <> A:252 var
+binder 15213:15213 <> f:254
+R15247:15249 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15237:15240 Stdlib.MSets.MSetInterface WRawSets fold defax
+R15246:15246 Stdlib.MSets.MSetInterface <> i:253 var
+R15244:15244 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15242:15242 Stdlib.MSets.MSetInterface <> f:254 var
+R15250:15258 Stdlib.Lists.List <> fold_left def
+R15282:15282 Stdlib.MSets.MSetInterface <> i:253 var
+R15270:15277 Stdlib.MSets.MSetInterface WRawSets elements defax
+R15279:15279 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15261:15264 Corelib.Program.Basics <> flip def
+R15266:15266 Stdlib.MSets.MSetInterface <> f:254 var
+var 15297:15309 WRawSets.Spec cardinal_spec
+R15322:15323 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15325:15325 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15322:15325 <> H:257
+R15343:15345 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15333:15340 Stdlib.MSets.MSetInterface WRawSets cardinal defax
+R15342:15342 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15346:15351 Corelib.Init.Datatypes <> length def
+R15354:15361 Stdlib.MSets.MSetInterface WRawSets elements defax
+R15363:15363 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+var 15379:15389 WRawSets.Spec filter_spec
+R15402:15410 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15453:15453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15393:15399 Stdlib.MSets.MSetInterface WRawSets compatb abbrev
+R15401:15401 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15428:15432 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15411:15412 Stdlib.MSets.MSetInterface WRawSets In defax
+R15417:15422 Stdlib.MSets.MSetInterface WRawSets filter defax
+R15426:15426 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15424:15424 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15414:15414 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15439:15442 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15433:15434 Stdlib.MSets.MSetInterface WRawSets In defax
+R15438:15438 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15436:15436 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15446:15448 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15443:15443 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15445:15445 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15449:15452 Corelib.Init.Datatypes <> true constr
+var 15468:15479 WRawSets.Spec for_all_spec
+R15492:15500 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15555:15555 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15483:15489 Stdlib.MSets.MSetInterface WRawSets compatb abbrev
+R15491:15491 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15519:15523 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15512:15514 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15501:15507 Stdlib.MSets.MSetInterface WRawSets for_all defax
+R15511:15511 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15509:15509 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15515:15518 Corelib.Init.Datatypes <> true constr
+R15524:15530 Stdlib.MSets.MSetInterface WRawSets For_all def
+R15554:15554 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15537:15537 <> x:262
+R15545:15547 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15542:15542 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15544:15544 Stdlib.MSets.MSetInterface <> x:262 var
+R15548:15551 Corelib.Init.Datatypes <> true constr
+var 15570:15580 WRawSets.Spec exists_spec
+R15593:15601 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15655:15655 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15584:15590 Stdlib.MSets.MSetInterface WRawSets compatb abbrev
+R15592:15592 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15620:15624 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15613:15615 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15602:15608 Stdlib.MSets.MSetInterface WRawSets exists_ defax
+R15612:15612 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15610:15610 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15616:15619 Corelib.Init.Datatypes <> true constr
+R15625:15630 Stdlib.MSets.MSetInterface WRawSets Exists def
+R15654:15654 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15637:15637 <> x:265
+R15645:15647 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15642:15642 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15644:15644 Stdlib.MSets.MSetInterface <> x:265 var
+R15648:15651 Corelib.Init.Datatypes <> true constr
+var 15670:15684 WRawSets.Spec partition_spec1
+R15697:15704 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15688:15694 Stdlib.MSets.MSetInterface WRawSets compatb abbrev
+R15696:15696 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15724:15728 Stdlib.MSets.MSetInterface WRawSets :::x_'[=]'_x not
+R15705:15707 Corelib.Init.Datatypes <> fst def
+R15710:15718 Stdlib.MSets.MSetInterface WRawSets partition defax
+R15722:15722 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15720:15720 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15729:15734 Stdlib.MSets.MSetInterface WRawSets filter defax
+R15738:15738 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15736:15736 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+var 15753:15767 WRawSets.Spec partition_spec2
+R15780:15787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15771:15777 Stdlib.MSets.MSetInterface WRawSets compatb abbrev
+R15779:15779 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15807:15811 Stdlib.MSets.MSetInterface WRawSets :::x_'[=]'_x not
+R15788:15790 Corelib.Init.Datatypes <> snd def
+R15793:15801 Stdlib.MSets.MSetInterface WRawSets partition defax
+R15805:15805 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15803:15803 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15812:15817 Stdlib.MSets.MSetInterface WRawSets filter defax
+R15841:15841 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15824:15824 <> x:270
+R15829:15832 Corelib.Init.Datatypes <> negb def
+R15835:15835 Stdlib.MSets.MSetInterface <> WRawSets.Spec.f var
+R15837:15837 Stdlib.MSets.MSetInterface <> x:270 var
+var 15856:15869 WRawSets.Spec elements_spec1
+R15896:15900 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15873:15875 Stdlib.Sorting.SetoidList <> InA ind
+R15885:15892 Stdlib.MSets.MSetInterface WRawSets elements defax
+R15894:15894 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15882:15882 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R15877:15880 Stdlib.MSets.MSetInterface E eq defax
+R15901:15902 Stdlib.MSets.MSetInterface WRawSets In defax
+R15906:15906 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15904:15904 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 15921:15935 WRawSets.Spec elements_spec2w
+R15948:15949 Stdlib.MSets.MSetInterface WRawSets Ok class
+R15951:15951 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+binder 15948:15951 <> H:275
+R15955:15960 Stdlib.Sorting.SetoidList <> NoDupA ind
+R15968:15975 Stdlib.MSets.MSetInterface WRawSets elements defax
+R15977:15977 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R15962:15965 Stdlib.MSets.MSetInterface E eq defax
+var 15993:16004 WRawSets.Spec choose_spec1
+R16025:16028 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16016:16018 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16008:16013 Stdlib.MSets.MSetInterface WRawSets choose defax
+R16015:16015 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R16019:16022 Corelib.Init.Datatypes <> Some constr
+R16024:16024 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+R16029:16030 Stdlib.MSets.MSetInterface WRawSets In defax
+R16034:16034 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R16032:16032 Stdlib.MSets.MSetInterface <> WRawSets.Spec.x var
+var 16049:16060 WRawSets.Spec choose_spec2
+R16079:16082 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16072:16074 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16064:16069 Stdlib.MSets.MSetInterface WRawSets choose defax
+R16071:16071 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R16075:16078 Corelib.Init.Datatypes <> None constr
+R16083:16087 Stdlib.MSets.MSetInterface WRawSets Empty def
+R16089:16089 Stdlib.MSets.MSetInterface <> WRawSets.Spec.s var
+R16099:16102 Stdlib.MSets.MSetInterface WRawSets.Spec <> sec
+R16110:16117 Stdlib.MSets.MSetInterface WRawSets <> modtype
+R16189:16201 Stdlib.Structures.Equalities DecidableType <> modtype
+R16206:16213 Stdlib.MSets.MSetInterface WRawSets <> modtype
+R16215:16215 Stdlib.MSets.MSetInterface E <> mod
+R16221:16227 Stdlib.MSets.MSetInterface WSetsOn <> modtype
+R16229:16229 Stdlib.MSets.MSetInterface E <> mod
+mod 16174:16184 <> WRaw2SetsOn
+def 16345:16347 WRaw2SetsOn elt
+R16352:16354 Stdlib.MSets.MSetInterface E t defax
+rec 16366:16367 WRaw2SetsOn t_
+proj 16377:16380 WRaw2SetsOn this
+proj 16390:16394 WRaw2SetsOn is_ok
+R16385:16387 Stdlib.MSets.MSetInterface M t defax
+R16398:16401 Stdlib.MSets.MSetInterface M Ok class
+R16403:16406 Stdlib.MSets.MSetInterface <> this:283 meth
+def 16422:16422 WRaw2SetsOn t
+R16427:16428 Stdlib.MSets.MSetInterface WRaw2SetsOn t_ rec
+R16442:16444 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+def 16527:16528 WRaw2SetsOn In
+R16535:16537 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16531:16531 <> x:285
+R16544:16544 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16540:16540 <> s:286
+R16550:16553 Stdlib.MSets.MSetInterface M In defax
+R16558:16561 Stdlib.MSets.MSetInterface WRaw2SetsOn this proj
+R16563:16563 Stdlib.MSets.MSetInterface <> s:286 var
+R16555:16555 Stdlib.MSets.MSetInterface <> x:285 var
+def 16579:16583 WRaw2SetsOn Equal
+R16593:16593 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16586:16586 <> s:287
+binder 16588:16589 <> s':288
+R16610:16612 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16606:16606 <> a:289
+R16621:16625 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R16615:16616 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16620:16620 Stdlib.MSets.MSetInterface <> s:287 var
+R16618:16618 Stdlib.MSets.MSetInterface <> a:289 var
+R16626:16627 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16631:16632 Stdlib.MSets.MSetInterface <> s':288 var
+R16629:16629 Stdlib.MSets.MSetInterface <> a:289 var
+def 16647:16652 WRaw2SetsOn Subset
+R16662:16662 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16655:16655 <> s:290
+binder 16657:16658 <> s':291
+R16679:16681 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16675:16675 <> a:292
+R16690:16693 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16684:16685 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16689:16689 Stdlib.MSets.MSetInterface <> s:290 var
+R16687:16687 Stdlib.MSets.MSetInterface <> a:292 var
+R16694:16695 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16699:16700 Stdlib.MSets.MSetInterface <> s':291 var
+R16697:16697 Stdlib.MSets.MSetInterface <> a:292 var
+def 16715:16719 WRaw2SetsOn Empty
+R16726:16726 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16722:16722 <> s:293
+R16743:16745 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16739:16739 <> a:294
+R16748:16749 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16750:16751 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16755:16755 Stdlib.MSets.MSetInterface <> s:293 var
+R16753:16753 Stdlib.MSets.MSetInterface <> a:294 var
+def 16770:16776 WRaw2SetsOn For_all
+R16786:16789 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16783:16785 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16779:16779 <> P:295
+R16800:16800 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16796:16796 <> s:296
+binder 16813:16813 <> x:297
+R16822:16825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16816:16817 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16821:16821 Stdlib.MSets.MSetInterface <> s:296 var
+R16819:16819 Stdlib.MSets.MSetInterface <> x:297 var
+R16826:16826 Stdlib.MSets.MSetInterface <> P:295 var
+R16828:16828 Stdlib.MSets.MSetInterface <> x:297 var
+def 16843:16848 WRaw2SetsOn Exists
+R16858:16861 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16855:16857 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16851:16851 <> P:298
+R16872:16872 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16868:16868 <> s:299
+R16878:16884 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16886:16887 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16885:16885 <> x:300
+R16894:16897 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16888:16889 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R16893:16893 Stdlib.MSets.MSetInterface <> s:299 var
+R16891:16891 Stdlib.MSets.MSetInterface <> x:300 var
+R16898:16898 Stdlib.MSets.MSetInterface <> P:298 var
+R16900:16900 Stdlib.MSets.MSetInterface <> x:300 var
+def 16916:16918 WRaw2SetsOn mem
+R16925:16927 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16921:16921 <> x:301
+R16934:16934 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16930:16930 <> s:302
+R16940:16944 Stdlib.MSets.MSetInterface M mem defax
+R16948:16948 Stdlib.MSets.MSetInterface <> s:302 var
+R16946:16946 Stdlib.MSets.MSetInterface <> x:301 var
+def 16963:16965 WRaw2SetsOn add
+R16972:16974 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 16968:16968 <> x:303
+R16981:16981 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 16977:16977 <> s:304
+R16986:16986 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R16991:16993 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R16996:17000 Stdlib.MSets.MSetInterface M add defax
+R17004:17004 Stdlib.MSets.MSetInterface <> s:304 var
+R17002:17002 Stdlib.MSets.MSetInterface <> x:303 var
+def 17020:17025 WRaw2SetsOn remove
+R17032:17034 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 17028:17028 <> x:305
+R17041:17041 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17037:17037 <> s:306
+R17046:17046 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17051:17053 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17056:17063 Stdlib.MSets.MSetInterface M remove defax
+R17067:17067 Stdlib.MSets.MSetInterface <> s:306 var
+R17065:17065 Stdlib.MSets.MSetInterface <> x:305 var
+def 17083:17091 WRaw2SetsOn singleton
+R17098:17100 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+binder 17094:17094 <> x:307
+R17105:17105 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17110:17112 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17115:17125 Stdlib.MSets.MSetInterface M singleton defax
+R17127:17127 Stdlib.MSets.MSetInterface <> x:307 var
+def 17143:17147 WRaw2SetsOn union
+R17157:17157 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17150:17150 <> s:308
+binder 17152:17153 <> s':309
+R17162:17162 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17167:17169 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17172:17178 Stdlib.MSets.MSetInterface M union defax
+R17182:17183 Stdlib.MSets.MSetInterface <> s':309 var
+R17180:17180 Stdlib.MSets.MSetInterface <> s:308 var
+def 17199:17203 WRaw2SetsOn inter
+R17213:17213 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17206:17206 <> s:310
+binder 17208:17209 <> s':311
+R17218:17218 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17223:17225 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17228:17234 Stdlib.MSets.MSetInterface M inter defax
+R17238:17239 Stdlib.MSets.MSetInterface <> s':311 var
+R17236:17236 Stdlib.MSets.MSetInterface <> s:310 var
+def 17255:17258 WRaw2SetsOn diff
+R17268:17268 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17261:17261 <> s:312
+binder 17263:17264 <> s':313
+R17273:17273 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17278:17280 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17283:17288 Stdlib.MSets.MSetInterface M diff defax
+R17292:17293 Stdlib.MSets.MSetInterface <> s':313 var
+R17290:17290 Stdlib.MSets.MSetInterface <> s:312 var
+def 17309:17313 WRaw2SetsOn equal
+R17323:17323 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17316:17316 <> s:314
+binder 17318:17319 <> s':315
+R17329:17335 Stdlib.MSets.MSetInterface M equal defax
+R17339:17340 Stdlib.MSets.MSetInterface <> s':315 var
+R17337:17337 Stdlib.MSets.MSetInterface <> s:314 var
+def 17355:17360 WRaw2SetsOn subset
+R17370:17370 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17363:17363 <> s:316
+binder 17365:17366 <> s':317
+R17376:17383 Stdlib.MSets.MSetInterface M subset defax
+R17387:17388 Stdlib.MSets.MSetInterface <> s':317 var
+R17385:17385 Stdlib.MSets.MSetInterface <> s:316 var
+def 17403:17407 WRaw2SetsOn empty
+R17411:17411 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17416:17418 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17420:17426 Stdlib.MSets.MSetInterface M empty defax
+def 17441:17448 WRaw2SetsOn is_empty
+R17455:17455 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17451:17451 <> s:318
+R17461:17470 Stdlib.MSets.MSetInterface M is_empty defax
+R17472:17472 Stdlib.MSets.MSetInterface <> s:318 var
+def 17487:17494 WRaw2SetsOn elements
+R17501:17501 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17497:17497 <> s:319
+R17506:17509 Corelib.Init.Datatypes <> list ind
+R17511:17513 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17518:17527 Stdlib.MSets.MSetInterface M elements defax
+R17529:17529 Stdlib.MSets.MSetInterface <> s:319 var
+def 17544:17549 WRaw2SetsOn choose
+R17556:17556 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17552:17552 <> s:320
+R17561:17566 Corelib.Init.Datatypes <> option ind
+R17568:17570 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17575:17582 Stdlib.MSets.MSetInterface M choose defax
+R17584:17584 Stdlib.MSets.MSetInterface <> s:320 var
+def 17599:17602 WRaw2SetsOn fold
+binder 17605:17605 <> A:321
+R17622:17625 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17619:17621 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17627:17630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17626:17626 Stdlib.MSets.MSetInterface <> A:321 var
+R17631:17631 Stdlib.MSets.MSetInterface <> A:321 var
+binder 17615:17615 <> f:322
+R17638:17638 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17634:17634 <> s:323
+R17644:17647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17643:17643 Stdlib.MSets.MSetInterface <> A:321 var
+R17648:17648 Stdlib.MSets.MSetInterface <> A:321 var
+R17653:17658 Stdlib.MSets.MSetInterface M fold defax
+R17662:17662 Stdlib.MSets.MSetInterface <> s:323 var
+R17660:17660 Stdlib.MSets.MSetInterface <> f:322 var
+def 17677:17684 WRaw2SetsOn cardinal
+R17691:17691 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17687:17687 <> s:324
+R17697:17706 Stdlib.MSets.MSetInterface M cardinal defax
+R17708:17708 Stdlib.MSets.MSetInterface <> s:324 var
+def 17723:17728 WRaw2SetsOn filter
+R17738:17741 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17735:17737 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17742:17745 Corelib.Init.Datatypes <> bool ind
+binder 17731:17731 <> f:325
+R17752:17752 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17748:17748 <> s:326
+R17757:17757 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17762:17764 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17767:17774 Stdlib.MSets.MSetInterface M filter defax
+R17778:17778 Stdlib.MSets.MSetInterface <> s:326 var
+R17776:17776 Stdlib.MSets.MSetInterface <> f:325 var
+def 17794:17800 WRaw2SetsOn for_all
+R17810:17813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17807:17809 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17814:17817 Corelib.Init.Datatypes <> bool ind
+binder 17803:17803 <> f:327
+R17824:17824 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17820:17820 <> s:328
+R17830:17838 Stdlib.MSets.MSetInterface M for_all defax
+R17842:17842 Stdlib.MSets.MSetInterface <> s:328 var
+R17840:17840 Stdlib.MSets.MSetInterface <> f:327 var
+def 17857:17863 WRaw2SetsOn exists_
+R17873:17876 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17870:17872 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17877:17880 Corelib.Init.Datatypes <> bool ind
+binder 17866:17866 <> f:329
+R17887:17887 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17883:17883 <> s:330
+R17893:17901 Stdlib.MSets.MSetInterface M exists_ defax
+R17905:17905 Stdlib.MSets.MSetInterface <> s:330 var
+R17903:17903 Stdlib.MSets.MSetInterface <> f:329 var
+def 17920:17928 WRaw2SetsOn partition
+R17938:17941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17935:17937 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R17942:17945 Corelib.Init.Datatypes <> bool ind
+binder 17931:17931 <> f:331
+R17952:17952 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 17948:17948 <> s:332
+R17958:17960 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17957:17957 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17961:17961 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R17978:17988 Stdlib.MSets.MSetInterface M partition defax
+R17992:17992 Stdlib.MSets.MSetInterface <> s:332 var
+R17990:17990 Stdlib.MSets.MSetInterface <> f:331 var
+binder 17973:17973 <> p:333
+R17997:17997 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18009:18010 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18022:18022 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17998:18000 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R18003:18005 Corelib.Init.Datatypes <> fst def
+R18007:18007 Stdlib.MSets.MSetInterface <> p:333 var
+R18011:18013 Stdlib.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R18016:18018 Corelib.Init.Datatypes <> snd def
+R18020:18020 Stdlib.MSets.MSetInterface <> p:333 var
+inst 18046:18054 WRaw2SetsOn In_compat
+R18058:18063 Corelib.Classes.Morphisms <> Proper class
+R18083:18084 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R18070:18072 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18066:18069 Stdlib.MSets.MSetInterface E eq defax
+R18075:18077 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18073:18074 Corelib.Init.Logic <> eq ind
+R18078:18080 Corelib.Init.Logic <> iff def
+R18121:18131 Stdlib.MSets.MSetInterface M In_compat prfax
+def 18164:18165 WRaw2SetsOn eq
+R18170:18173 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18169:18169 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R18175:18178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18174:18174 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+R18187:18191 Stdlib.MSets.MSetInterface WRaw2SetsOn Equal def
+inst 18215:18222 WRaw2SetsOn eq_equiv
+R18226:18236 Corelib.Classes.RelationClasses <> Equivalence class
+R18238:18239 Stdlib.MSets.MSetInterface WRaw2SetsOn eq def
+def 18280:18285 WRaw2SetsOn eq_dec
+R18302:18302 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+binder 18297:18297 <> s:334
+binder 18299:18300 <> s':335
+R18306:18307 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18315:18319 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18328:18329 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18308:18309 Stdlib.MSets.MSetInterface WRaw2SetsOn eq def
+R18313:18314 Stdlib.MSets.MSetInterface <> s':335 var
+R18311:18311 Stdlib.MSets.MSetInterface <> s:334 var
+R18320:18320 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18321:18322 Stdlib.MSets.MSetInterface WRaw2SetsOn eq def
+R18326:18327 Stdlib.MSets.MSetInterface <> s':335 var
+R18324:18324 Stdlib.MSets.MSetInterface <> s:334 var
+R18376:18376 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18389:18391 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18405:18405 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18377:18383 Stdlib.MSets.MSetInterface M Equal def
+R18392:18392 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18393:18399 Stdlib.MSets.MSetInterface M Equal def
+R18421:18427 Stdlib.MSets.MSetInterface M equal defax
+R18470:18481 Stdlib.MSets.MSetInterface M equal_spec defax
+sec 18517:18520 WRaw2SetsOn Spec
+var 18534:18534 WRaw2SetsOn.Spec s
+var 18536:18537 WRaw2SetsOn.Spec s'
+R18541:18541 Stdlib.MSets.MSetInterface WRaw2SetsOn t def
+var 18555:18555 WRaw2SetsOn.Spec x
+var 18557:18557 WRaw2SetsOn.Spec y
+R18561:18563 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+var 18577:18577 WRaw2SetsOn.Spec f
+R18584:18587 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18581:18583 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R18588:18591 Corelib.Init.Datatypes <> bool ind
+abbrev 18605:18611 WRaw2SetsOn compatb
+R18617:18622 Corelib.Classes.Morphisms <> Proper class
+R18629:18631 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18625:18628 Stdlib.MSets.MSetInterface E eq defax
+R18632:18639 Corelib.Init.Logic <> eq ind
+prf 18668:18675 WRaw2SetsOn mem_spec
+R18693:18697 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R18686:18688 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18679:18681 Stdlib.MSets.MSetInterface WRaw2SetsOn mem def
+R18685:18685 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18683:18683 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18689:18692 Corelib.Init.Datatypes <> true constr
+R18698:18699 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R18703:18703 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18701:18701 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18723:18732 Stdlib.MSets.MSetInterface M mem_spec defax
+prf 18755:18764 WRaw2SetsOn equal_spec
+R18785:18789 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R18778:18780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18768:18772 Stdlib.MSets.MSetInterface WRaw2SetsOn equal def
+R18776:18777 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18774:18774 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18781:18784 Corelib.Init.Datatypes <> true constr
+R18790:18794 Stdlib.MSets.MSetInterface WRaw2SetsOn Equal def
+R18798:18799 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18796:18796 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18819:18830 Stdlib.MSets.MSetInterface M equal_spec defax
+prf 18855:18865 WRaw2SetsOn subset_spec
+R18887:18891 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R18880:18882 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18869:18874 Stdlib.MSets.MSetInterface WRaw2SetsOn subset def
+R18878:18879 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18876:18876 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18883:18886 Corelib.Init.Datatypes <> true constr
+R18892:18897 Stdlib.MSets.MSetInterface WRaw2SetsOn Subset def
+R18901:18902 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18899:18899 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18922:18934 Stdlib.MSets.MSetInterface M subset_spec defax
+prf 18959:18968 WRaw2SetsOn empty_spec
+R18972:18976 Stdlib.MSets.MSetInterface WRaw2SetsOn Empty def
+R18978:18982 Stdlib.MSets.MSetInterface WRaw2SetsOn empty def
+R19000:19011 Stdlib.MSets.MSetInterface M empty_spec defax
+prf 19027:19039 WRaw2SetsOn is_empty_spec
+R19060:19064 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19053:19055 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19043:19050 Stdlib.MSets.MSetInterface WRaw2SetsOn is_empty def
+R19052:19052 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19056:19059 Corelib.Init.Datatypes <> true constr
+R19065:19069 Stdlib.MSets.MSetInterface WRaw2SetsOn Empty def
+R19071:19071 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19091:19105 Stdlib.MSets.MSetInterface M is_empty_spec defax
+prf 19124:19131 WRaw2SetsOn add_spec
+R19149:19153 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19135:19136 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19141:19143 Stdlib.MSets.MSetInterface WRaw2SetsOn add def
+R19147:19147 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19145:19145 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19138:19138 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19162:19165 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19154:19157 Stdlib.MSets.MSetInterface E eq defax
+R19161:19161 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19159:19159 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19166:19167 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19171:19171 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19169:19169 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19191:19200 Stdlib.MSets.MSetInterface M add_spec defax
+prf 19225:19235 WRaw2SetsOn remove_spec
+R19256:19260 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19239:19240 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19245:19250 Stdlib.MSets.MSetInterface WRaw2SetsOn remove def
+R19254:19254 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19252:19252 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19242:19242 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19267:19270 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19261:19262 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19266:19266 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19264:19264 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19271:19271 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R19272:19275 Stdlib.MSets.MSetInterface E eq defax
+R19279:19279 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19277:19277 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19299:19311 Stdlib.MSets.MSetInterface M remove_spec defax
+prf 19336:19349 WRaw2SetsOn singleton_spec
+R19371:19375 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19353:19354 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19359:19367 Stdlib.MSets.MSetInterface WRaw2SetsOn singleton def
+R19369:19369 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19356:19356 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19376:19379 Stdlib.MSets.MSetInterface E eq defax
+R19383:19383 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19381:19381 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19403:19418 Stdlib.MSets.MSetInterface M singleton_spec defax
+prf 19439:19448 WRaw2SetsOn union_spec
+R19469:19473 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19452:19453 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19458:19462 Stdlib.MSets.MSetInterface WRaw2SetsOn union def
+R19466:19467 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19464:19464 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19455:19455 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19480:19483 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19474:19475 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19479:19479 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19477:19477 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19484:19485 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19489:19490 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19487:19487 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19510:19521 Stdlib.MSets.MSetInterface M union_spec defax
+prf 19548:19557 WRaw2SetsOn inter_spec
+R19578:19582 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19561:19562 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19567:19571 Stdlib.MSets.MSetInterface WRaw2SetsOn inter def
+R19575:19576 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19573:19573 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19564:19564 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19589:19592 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19583:19584 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19588:19588 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19586:19586 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19593:19594 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19598:19599 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19596:19596 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19619:19630 Stdlib.MSets.MSetInterface M inter_spec defax
+prf 19657:19665 WRaw2SetsOn diff_spec
+R19685:19689 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19669:19670 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19675:19678 Stdlib.MSets.MSetInterface WRaw2SetsOn diff def
+R19682:19683 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19680:19680 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19672:19672 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19696:19699 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19690:19691 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19695:19695 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19693:19693 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19700:19700 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R19701:19702 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R19706:19707 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19704:19704 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19727:19737 Stdlib.MSets.MSetInterface M diff_spec defax
+prf 19764:19772 WRaw2SetsOn fold_spec
+binder 19784:19784 <> A:346
+R19799:19799 Stdlib.MSets.MSetInterface <> A:346 var
+binder 19795:19795 <> i:347
+R19810:19813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19807:19809 Stdlib.MSets.MSetInterface WRaw2SetsOn elt def
+R19815:19818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19814:19814 Stdlib.MSets.MSetInterface <> A:346 var
+R19819:19819 Stdlib.MSets.MSetInterface <> A:346 var
+binder 19803:19803 <> f:348
+R19839:19841 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19829:19832 Stdlib.MSets.MSetInterface WRaw2SetsOn fold def
+R19838:19838 Stdlib.MSets.MSetInterface <> i:347 var
+R19836:19836 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19834:19834 Stdlib.MSets.MSetInterface <> f:348 var
+R19842:19850 Stdlib.Lists.List <> fold_left def
+R19884:19884 Stdlib.MSets.MSetInterface <> i:347 var
+R19872:19879 Stdlib.MSets.MSetInterface WRaw2SetsOn elements def
+R19881:19881 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+binder 19857:19857 <> a:349
+binder 19859:19859 <> e:350
+R19864:19864 Stdlib.MSets.MSetInterface <> f:348 var
+R19868:19868 Stdlib.MSets.MSetInterface <> a:349 var
+R19866:19866 Stdlib.MSets.MSetInterface <> e:350 var
+R19904:19914 Stdlib.MSets.MSetInterface M fold_spec defax
+prf 19933:19945 WRaw2SetsOn cardinal_spec
+R19959:19961 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19949:19956 Stdlib.MSets.MSetInterface WRaw2SetsOn cardinal def
+R19958:19958 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19962:19967 Corelib.Init.Datatypes <> length def
+R19970:19977 Stdlib.MSets.MSetInterface WRaw2SetsOn elements def
+R19979:19979 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20000:20014 Stdlib.MSets.MSetInterface M cardinal_spec defax
+R20016:20016 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+prf 20035:20045 WRaw2SetsOn filter_spec
+R20058:20066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20109:20109 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20049:20055 Stdlib.MSets.MSetInterface WRaw2SetsOn compatb abbrev
+R20057:20057 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20084:20088 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20067:20068 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R20073:20078 Stdlib.MSets.MSetInterface WRaw2SetsOn filter def
+R20082:20082 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20080:20080 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20070:20070 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20095:20098 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20089:20090 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R20094:20094 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20092:20092 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20102:20104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20099:20099 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20101:20101 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20105:20108 Corelib.Init.Datatypes <> true constr
+R20129:20141 Stdlib.MSets.MSetInterface M filter_spec defax
+prf 20164:20175 WRaw2SetsOn for_all_spec
+R20188:20196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20251:20251 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20179:20185 Stdlib.MSets.MSetInterface WRaw2SetsOn compatb abbrev
+R20187:20187 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20215:20219 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20208:20210 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20197:20203 Stdlib.MSets.MSetInterface WRaw2SetsOn for_all def
+R20207:20207 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20205:20205 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20211:20214 Corelib.Init.Datatypes <> true constr
+R20220:20226 Stdlib.MSets.MSetInterface WRaw2SetsOn For_all def
+R20250:20250 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+binder 20233:20233 <> x:351
+R20241:20243 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20238:20238 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20240:20240 Stdlib.MSets.MSetInterface <> x:351 var
+R20244:20247 Corelib.Init.Datatypes <> true constr
+R20271:20284 Stdlib.MSets.MSetInterface M for_all_spec defax
+prf 20305:20315 WRaw2SetsOn exists_spec
+R20328:20336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20390:20390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20319:20325 Stdlib.MSets.MSetInterface WRaw2SetsOn compatb abbrev
+R20327:20327 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20355:20359 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20348:20350 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20337:20343 Stdlib.MSets.MSetInterface WRaw2SetsOn exists_ def
+R20347:20347 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20345:20345 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20351:20354 Corelib.Init.Datatypes <> true constr
+R20360:20365 Stdlib.MSets.MSetInterface WRaw2SetsOn Exists def
+R20389:20389 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+binder 20372:20372 <> x:352
+R20380:20382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20377:20377 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20379:20379 Stdlib.MSets.MSetInterface <> x:352 var
+R20383:20386 Corelib.Init.Datatypes <> true constr
+R20410:20422 Stdlib.MSets.MSetInterface M exists_spec defax
+prf 20443:20457 WRaw2SetsOn partition_spec1
+R20470:20473 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20461:20467 Stdlib.MSets.MSetInterface WRaw2SetsOn compatb abbrev
+R20469:20469 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20474:20478 Stdlib.MSets.MSetInterface WRaw2SetsOn Equal def
+R20503:20508 Stdlib.MSets.MSetInterface WRaw2SetsOn filter def
+R20512:20512 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20510:20510 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20481:20483 Corelib.Init.Datatypes <> fst def
+R20486:20494 Stdlib.MSets.MSetInterface WRaw2SetsOn partition def
+R20498:20498 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20496:20496 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20533:20549 Stdlib.MSets.MSetInterface M partition_spec1 defax
+prf 20570:20584 WRaw2SetsOn partition_spec2
+R20597:20606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20588:20594 Stdlib.MSets.MSetInterface WRaw2SetsOn compatb abbrev
+R20596:20596 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20607:20611 Stdlib.MSets.MSetInterface WRaw2SetsOn Equal def
+R20636:20641 Stdlib.MSets.MSetInterface WRaw2SetsOn filter def
+R20665:20665 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+binder 20648:20648 <> x:353
+R20653:20656 Corelib.Init.Datatypes <> negb def
+R20659:20659 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20661:20661 Stdlib.MSets.MSetInterface <> x:353 var
+R20614:20616 Corelib.Init.Datatypes <> snd def
+R20619:20627 Stdlib.MSets.MSetInterface WRaw2SetsOn partition def
+R20631:20631 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20629:20629 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20686:20702 Stdlib.MSets.MSetInterface M partition_spec2 defax
+prf 20723:20736 WRaw2SetsOn elements_spec1
+R20763:20767 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20740:20742 Stdlib.Sorting.SetoidList <> InA ind
+R20752:20759 Stdlib.MSets.MSetInterface WRaw2SetsOn elements def
+R20761:20761 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20749:20749 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20744:20747 Stdlib.MSets.MSetInterface E eq defax
+R20768:20769 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R20773:20773 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20771:20771 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20793:20808 Stdlib.MSets.MSetInterface M elements_spec1 defax
+prf 20829:20843 WRaw2SetsOn elements_spec2w
+R20847:20852 Stdlib.Sorting.SetoidList <> NoDupA ind
+R20860:20867 Stdlib.MSets.MSetInterface WRaw2SetsOn elements def
+R20869:20869 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20854:20857 Stdlib.MSets.MSetInterface E eq defax
+R20890:20906 Stdlib.MSets.MSetInterface M elements_spec2w defax
+prf 20927:20938 WRaw2SetsOn choose_spec1
+R20959:20962 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20950:20952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20942:20947 Stdlib.MSets.MSetInterface WRaw2SetsOn choose def
+R20949:20949 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20953:20956 Corelib.Init.Datatypes <> Some constr
+R20958:20958 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20963:20964 Stdlib.MSets.MSetInterface WRaw2SetsOn In def
+R20968:20968 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20966:20966 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20988:21001 Stdlib.MSets.MSetInterface M choose_spec1 defax
+prf 21022:21033 WRaw2SetsOn choose_spec2
+R21052:21055 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21045:21047 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21037:21042 Stdlib.MSets.MSetInterface WRaw2SetsOn choose def
+R21044:21044 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R21048:21051 Corelib.Init.Datatypes <> None constr
+R21056:21060 Stdlib.MSets.MSetInterface WRaw2SetsOn Empty def
+R21062:21062 Stdlib.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R21082:21095 Stdlib.MSets.MSetInterface M choose_spec2 defax
+R21112:21115 Stdlib.MSets.MSetInterface WRaw2SetsOn.Spec <> sec
+R21123:21133 Stdlib.MSets.MSetInterface WRaw2SetsOn <> mod
+R21157:21169 Stdlib.Structures.Equalities DecidableType <> modtype
+R21174:21181 Stdlib.MSets.MSetInterface WRawSets <> modtype
+R21183:21183 Stdlib.MSets.MSetInterface D <> mod
+R21189:21193 Stdlib.MSets.MSetInterface WSets <> modtype
+R21212:21212 Stdlib.MSets.MSetInterface D <> mod
+mod 21144:21152 <> WRaw2Sets
+R21229:21229 Stdlib.MSets.MSetInterface D <> mod
+mod 21224:21224 <> WRaw2Sets.E
+R21242:21252 Stdlib.MSets.MSetInterface WRaw2SetsOn <> mod
+R21254:21254 Stdlib.MSets.MSetInterface D <> mod
+R21256:21256 Stdlib.MSets.MSetInterface M <> mod
+R21263:21271 Stdlib.MSets.MSetInterface WRaw2Sets <> mod
+R21339:21349 Stdlib.Structures.Orders OrderedType <> modtype
+modtype 21326:21332 <> RawSets
+R21363:21370 Stdlib.MSets.MSetInterface WRawSets <> modtype
+R21372:21372 Stdlib.MSets.MSetInterface E <> mod
+R21377:21385 Stdlib.MSets.MSetInterface HasOrdOps <> modtype
+R21390:21394 Stdlib.Structures.Orders HasLt <> modtype
+R21399:21408 Stdlib.Structures.Orders IsStrOrder <> modtype
+sec 21422:21425 RawSets Spec
+var 21439:21439 RawSets.Spec s
+var 21441:21442 RawSets.Spec s'
+R21445:21445 Stdlib.MSets.MSetInterface RawSets t defax
+var 21459:21459 RawSets.Spec x
+var 21461:21461 RawSets.Spec y
+R21465:21467 Stdlib.MSets.MSetInterface RawSets elt def
+var 21519:21530 RawSets.Spec compare_spec
+R21543:21544 Stdlib.MSets.MSetInterface RawSets Ok class
+R21546:21546 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+binder 21543:21546 <> H:362
+R21549:21550 Stdlib.MSets.MSetInterface RawSets Ok class
+R21552:21553 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+binder 21549:21553 <> H0:363
+R21557:21564 Corelib.Init.Datatypes <> CompSpec def
+R21578:21584 Stdlib.MSets.MSetInterface RawSets compare defax
+R21588:21589 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+R21586:21586 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21574:21575 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+R21572:21572 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21569:21570 Stdlib.MSets.MSetInterface RawSets lt defax
+R21566:21567 Stdlib.MSets.MSetInterface RawSets eq def
+var 21654:21667 RawSets.Spec elements_spec2
+R21680:21681 Stdlib.MSets.MSetInterface RawSets Ok class
+R21683:21683 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+binder 21680:21683 <> H:366
+R21687:21690 Stdlib.Sorting.Sorted <> sort abbrev
+R21698:21705 Stdlib.MSets.MSetInterface RawSets elements defax
+R21707:21707 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21692:21695 Stdlib.MSets.MSetInterface E lt defax
+var 21760:21772 RawSets.Spec min_elt_spec1
+R21794:21797 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21785:21787 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21776:21782 Stdlib.MSets.MSetInterface RawSets min_elt defax
+R21784:21784 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21788:21791 Corelib.Init.Datatypes <> Some constr
+R21793:21793 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R21798:21799 Stdlib.MSets.MSetInterface RawSets In defax
+R21803:21803 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21801:21801 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+var 21818:21830 RawSets.Spec min_elt_spec2
+R21843:21844 Stdlib.MSets.MSetInterface RawSets Ok class
+R21846:21846 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+binder 21843:21846 <> H:371
+R21868:21871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21859:21861 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21850:21856 Stdlib.MSets.MSetInterface RawSets min_elt defax
+R21858:21858 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21862:21865 Corelib.Init.Datatypes <> Some constr
+R21867:21867 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R21878:21881 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21872:21873 Stdlib.MSets.MSetInterface RawSets In defax
+R21877:21877 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21875:21875 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+R21882:21883 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21884:21887 Stdlib.MSets.MSetInterface E lt defax
+R21891:21891 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R21889:21889 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+var 21906:21918 RawSets.Spec min_elt_spec3
+R21938:21941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21931:21933 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21922:21928 Stdlib.MSets.MSetInterface RawSets min_elt defax
+R21930:21930 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R21934:21937 Corelib.Init.Datatypes <> None constr
+R21942:21946 Stdlib.MSets.MSetInterface RawSets Empty def
+R21948:21948 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+var 22000:22012 RawSets.Spec max_elt_spec1
+R22034:22037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22025:22027 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22016:22022 Stdlib.MSets.MSetInterface RawSets max_elt defax
+R22024:22024 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22028:22031 Corelib.Init.Datatypes <> Some constr
+R22033:22033 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R22038:22039 Stdlib.MSets.MSetInterface RawSets In defax
+R22043:22043 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22041:22041 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+var 22058:22070 RawSets.Spec max_elt_spec2
+R22083:22084 Stdlib.MSets.MSetInterface RawSets Ok class
+R22086:22086 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+binder 22083:22086 <> H:378
+R22108:22111 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22099:22101 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22090:22096 Stdlib.MSets.MSetInterface RawSets max_elt defax
+R22098:22098 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22102:22105 Corelib.Init.Datatypes <> Some constr
+R22107:22107 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R22118:22121 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22112:22113 Stdlib.MSets.MSetInterface RawSets In defax
+R22117:22117 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22115:22115 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+R22122:22123 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R22124:22127 Stdlib.MSets.MSetInterface E lt defax
+R22131:22131 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+R22129:22129 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+var 22146:22158 RawSets.Spec max_elt_spec3
+R22178:22181 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22171:22173 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22162:22168 Stdlib.MSets.MSetInterface RawSets max_elt defax
+R22170:22170 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22174:22177 Corelib.Init.Datatypes <> None constr
+R22182:22186 Stdlib.MSets.MSetInterface RawSets Empty def
+R22188:22188 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+var 22250:22261 RawSets.Spec choose_spec3
+R22274:22275 Stdlib.MSets.MSetInterface RawSets Ok class
+R22277:22277 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+binder 22274:22277 <> H:383
+R22280:22281 Stdlib.MSets.MSetInterface RawSets Ok class
+R22283:22284 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+binder 22280:22284 <> H0:384
+R22309:22312 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22300:22302 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22292:22297 Stdlib.MSets.MSetInterface RawSets choose defax
+R22299:22299 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22303:22306 Corelib.Init.Datatypes <> Some constr
+R22308:22308 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R22331:22334 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22322:22324 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22313:22318 Stdlib.MSets.MSetInterface RawSets choose defax
+R22320:22321 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+R22325:22328 Corelib.Init.Datatypes <> Some constr
+R22330:22330 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+R22345:22348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22335:22339 Stdlib.MSets.MSetInterface RawSets Equal def
+R22343:22344 Stdlib.MSets.MSetInterface <> RawSets.Spec.s' var
+R22341:22341 Stdlib.MSets.MSetInterface <> RawSets.Spec.s var
+R22349:22352 Stdlib.MSets.MSetInterface E eq defax
+R22356:22356 Stdlib.MSets.MSetInterface <> RawSets.Spec.y var
+R22354:22354 Stdlib.MSets.MSetInterface <> RawSets.Spec.x var
+R22366:22369 Stdlib.MSets.MSetInterface RawSets.Spec <> sec
+R22377:22383 Stdlib.MSets.MSetInterface RawSets <> modtype
+R22439:22449 Stdlib.Structures.Orders OrderedType <> modtype
+R22454:22460 Stdlib.MSets.MSetInterface RawSets <> modtype
+R22462:22462 Stdlib.MSets.MSetInterface O <> mod
+R22468:22473 Stdlib.MSets.MSetInterface SetsOn <> modtype
+R22475:22475 Stdlib.MSets.MSetInterface O <> mod
+mod 22425:22434 <> Raw2SetsOn
+R22488:22498 Stdlib.MSets.MSetInterface WRaw2SetsOn <> mod
+R22500:22500 Stdlib.MSets.MSetInterface O <> mod
+R22502:22502 Stdlib.MSets.MSetInterface M <> mod
+def 22519:22525 Raw2SetsOn compare
+R22533:22533 Stdlib.MSets.MSetInterface Raw2SetsOn t def
+binder 22528:22528 <> s:387
+binder 22530:22531 <> s':388
+R22539:22547 Stdlib.MSets.MSetInterface M compare defax
+R22551:22552 Stdlib.MSets.MSetInterface <> s':388 var
+R22549:22549 Stdlib.MSets.MSetInterface <> s:387 var
+def 22568:22574 Raw2SetsOn min_elt
+R22579:22579 Stdlib.MSets.MSetInterface Raw2SetsOn t def
+binder 22577:22577 <> s:389
+R22584:22589 Corelib.Init.Datatypes <> option ind
+R22591:22593 Stdlib.MSets.MSetInterface Raw2SetsOn elt def
+R22598:22606 Stdlib.MSets.MSetInterface M min_elt defax
+R22608:22608 Stdlib.MSets.MSetInterface <> s:389 var
+def 22624:22630 Raw2SetsOn max_elt
+R22635:22635 Stdlib.MSets.MSetInterface Raw2SetsOn t def
+binder 22633:22633 <> s:390
+R22640:22645 Corelib.Init.Datatypes <> option ind
+R22647:22649 Stdlib.MSets.MSetInterface Raw2SetsOn elt def
+R22654:22662 Stdlib.MSets.MSetInterface M max_elt defax
+R22664:22664 Stdlib.MSets.MSetInterface <> s:390 var
+def 22680:22681 Raw2SetsOn lt
+R22689:22689 Stdlib.MSets.MSetInterface Raw2SetsOn t def
+binder 22684:22684 <> s:391
+binder 22686:22687 <> s':392
+R22695:22698 Stdlib.MSets.MSetInterface M lt defax
+R22702:22703 Stdlib.MSets.MSetInterface <> s':392 var
+R22700:22700 Stdlib.MSets.MSetInterface <> s:391 var
+inst 22759:22769 Raw2SetsOn lt_strorder
+R22773:22783 Corelib.Classes.RelationClasses <> StrictOrder class
+R22785:22786 Stdlib.MSets.MSetInterface Raw2SetsOn lt def
+R22819:22820 Stdlib.MSets.MSetInterface Raw2SetsOn lt def
+R22839:22848 Corelib.Classes.RelationClasses <> complement def
+R22871:22883 Corelib.Classes.RelationClasses <> irreflexivity def
+inst 22952:22960 Raw2SetsOn lt_compat
+R22964:22969 Corelib.Classes.Morphisms <> Proper class
+R22987:22988 Stdlib.MSets.MSetInterface Raw2SetsOn lt def
+R22974:22976 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22972:22973 Stdlib.MSets.MSetInterface Raw2SetsOn eq def
+R22979:22981 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22977:22978 Stdlib.MSets.MSetInterface Raw2SetsOn eq def
+R22982:22984 Corelib.Init.Logic <> iff def
+R23021:23022 Stdlib.MSets.MSetInterface Raw2SetsOn eq def
+R23025:23026 Stdlib.MSets.MSetInterface Raw2SetsOn lt def
+R23097:23100 Stdlib.MSets.MSetInterface M eq def
+R23125:23128 Stdlib.MSets.MSetInterface M eq def
+sec 23191:23194 Raw2SetsOn Spec
+var 23208:23208 Raw2SetsOn.Spec s
+var 23210:23211 Raw2SetsOn.Spec s'
+var 23213:23215 Raw2SetsOn.Spec s''
+R23219:23219 Stdlib.MSets.MSetInterface Raw2SetsOn t def
+var 23233:23233 Raw2SetsOn.Spec x
+var 23235:23235 Raw2SetsOn.Spec y
+R23239:23241 Stdlib.MSets.MSetInterface Raw2SetsOn elt def
+prf 23253:23264 Raw2SetsOn compare_spec
+R23268:23275 Corelib.Init.Datatypes <> CompSpec def
+R23289:23295 Stdlib.MSets.MSetInterface Raw2SetsOn compare def
+R23299:23300 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23297:23297 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23285:23286 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23283:23283 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23280:23281 Stdlib.MSets.MSetInterface Raw2SetsOn lt def
+R23277:23278 Stdlib.MSets.MSetInterface Raw2SetsOn eq def
+R23320:23326 Stdlib.MSets.MSetInterface Raw2SetsOn compare def
+R23340:23353 Stdlib.MSets.MSetInterface M compare_spec defax
+R23355:23355 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23357:23358 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+prf 23434:23447 Raw2SetsOn elements_spec2
+R23451:23454 Stdlib.Sorting.Sorted <> sort abbrev
+R23462:23469 Stdlib.MSets.MSetInterface Raw2SetsOn elements def
+R23471:23471 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23456:23459 Stdlib.MSets.MSetInterface O lt defax
+R23492:23507 Stdlib.MSets.MSetInterface M elements_spec2 defax
+prf 23565:23577 Raw2SetsOn min_elt_spec1
+R23599:23602 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23590:23592 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23581:23587 Stdlib.MSets.MSetInterface Raw2SetsOn min_elt def
+R23589:23589 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23593:23596 Corelib.Init.Datatypes <> Some constr
+R23598:23598 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23603:23604 Stdlib.MSets.MSetInterface Raw2SetsOn In def
+R23608:23608 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23606:23606 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23628:23642 Stdlib.MSets.MSetInterface M min_elt_spec1 defax
+prf 23663:23675 Raw2SetsOn min_elt_spec2
+R23697:23700 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23688:23690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23679:23685 Stdlib.MSets.MSetInterface Raw2SetsOn min_elt def
+R23687:23687 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23691:23694 Corelib.Init.Datatypes <> Some constr
+R23696:23696 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23707:23710 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23701:23702 Stdlib.MSets.MSetInterface Raw2SetsOn In def
+R23706:23706 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23704:23704 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23711:23712 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R23713:23716 Stdlib.MSets.MSetInterface O lt defax
+R23720:23720 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23718:23718 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23740:23754 Stdlib.MSets.MSetInterface M min_elt_spec2 defax
+prf 23779:23791 Raw2SetsOn min_elt_spec3
+R23811:23814 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23804:23806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23795:23801 Stdlib.MSets.MSetInterface Raw2SetsOn min_elt def
+R23803:23803 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23807:23810 Corelib.Init.Datatypes <> None constr
+R23815:23819 Stdlib.MSets.MSetInterface Raw2SetsOn Empty def
+R23821:23821 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23841:23855 Stdlib.MSets.MSetInterface M min_elt_spec3 defax
+prf 23911:23923 Raw2SetsOn max_elt_spec1
+R23945:23948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23936:23938 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23927:23933 Stdlib.MSets.MSetInterface Raw2SetsOn max_elt def
+R23935:23935 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23939:23942 Corelib.Init.Datatypes <> Some constr
+R23944:23944 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23949:23950 Stdlib.MSets.MSetInterface Raw2SetsOn In def
+R23954:23954 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23952:23952 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23974:23988 Stdlib.MSets.MSetInterface M max_elt_spec1 defax
+prf 24009:24021 Raw2SetsOn max_elt_spec2
+R24043:24046 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24034:24036 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24025:24031 Stdlib.MSets.MSetInterface Raw2SetsOn max_elt def
+R24033:24033 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24037:24040 Corelib.Init.Datatypes <> Some constr
+R24042:24042 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24053:24056 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24047:24048 Stdlib.MSets.MSetInterface Raw2SetsOn In def
+R24052:24052 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24050:24050 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24057:24058 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24059:24062 Stdlib.MSets.MSetInterface O lt defax
+R24066:24066 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24064:24064 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24086:24100 Stdlib.MSets.MSetInterface M max_elt_spec2 defax
+prf 24125:24137 Raw2SetsOn max_elt_spec3
+R24157:24160 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24150:24152 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24141:24147 Stdlib.MSets.MSetInterface Raw2SetsOn max_elt def
+R24149:24149 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24153:24156 Corelib.Init.Datatypes <> None constr
+R24161:24165 Stdlib.MSets.MSetInterface Raw2SetsOn Empty def
+R24167:24167 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24187:24201 Stdlib.MSets.MSetInterface M max_elt_spec3 defax
+prf 24267:24278 Raw2SetsOn choose_spec3
+R24303:24306 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24294:24296 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24286:24291 Stdlib.MSets.MSetInterface Raw2SetsOn choose def
+R24293:24293 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24297:24300 Corelib.Init.Datatypes <> Some constr
+R24302:24302 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24325:24328 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24316:24318 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24307:24312 Stdlib.MSets.MSetInterface Raw2SetsOn choose def
+R24314:24315 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R24319:24322 Corelib.Init.Datatypes <> Some constr
+R24324:24324 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24339:24342 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24329:24333 Stdlib.MSets.MSetInterface Raw2SetsOn Equal def
+R24337:24338 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R24335:24335 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24343:24346 Stdlib.MSets.MSetInterface O eq defax
+R24350:24350 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24348:24348 Stdlib.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24370:24383 Stdlib.MSets.MSetInterface M choose_spec3 defax
+R24411:24414 Stdlib.MSets.MSetInterface Raw2SetsOn.Spec <> sec
+R24422:24431 Stdlib.MSets.MSetInterface Raw2SetsOn <> mod
+R24454:24464 Stdlib.Structures.Orders OrderedType <> modtype
+R24469:24475 Stdlib.MSets.MSetInterface RawSets <> modtype
+R24477:24477 Stdlib.MSets.MSetInterface O <> mod
+R24483:24486 Stdlib.MSets.MSetInterface Sets <> modtype
+R24505:24505 Stdlib.MSets.MSetInterface O <> mod
+mod 24442:24449 <> Raw2Sets
+R24522:24522 Stdlib.MSets.MSetInterface O <> mod
+mod 24517:24517 <> Raw2Sets.E
+R24535:24544 Stdlib.MSets.MSetInterface Raw2SetsOn <> mod
+R24546:24546 Stdlib.MSets.MSetInterface O <> mod
+R24548:24548 Stdlib.MSets.MSetInterface M <> mod
+R24555:24562 Stdlib.MSets.MSetInterface Raw2Sets <> mod
+R24898:24908 Stdlib.Structures.Orders OrderedType <> modtype
+modtype 24892:24893 <> IN
+ax 24930:24930 IN t
+ax 24958:24959 IN In
+R24966:24969 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24963:24965 Stdlib.MSets.MSetInterface O t defax
+R24971:24974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24970:24970 Stdlib.MSets.MSetInterface IN t defax
+inst 25009:25017 IN In_compat
+R25021:25026 Corelib.Classes.Morphisms <> Proper class
+R25046:25047 Stdlib.MSets.MSetInterface IN In defax
+R25033:25035 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25029:25032 Stdlib.MSets.MSetInterface O eq defax
+R25038:25040 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25036:25037 Corelib.Init.Logic <> eq ind
+R25041:25043 Corelib.Init.Logic <> iff def
+def 25062:25066 IN Equal
+binder 25068:25068 <> s:407
+binder 25070:25071 <> s':408
+binder 25083:25083 <> x:409
+R25092:25096 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R25086:25087 Stdlib.MSets.MSetInterface IN In defax
+R25091:25091 Stdlib.MSets.MSetInterface <> s:407 var
+R25089:25089 Stdlib.MSets.MSetInterface <> x:409 var
+R25097:25098 Stdlib.MSets.MSetInterface IN In defax
+R25102:25103 Stdlib.MSets.MSetInterface <> s':408 var
+R25100:25100 Stdlib.MSets.MSetInterface <> x:409 var
+def 25118:25122 IN Empty
+binder 25124:25124 <> s:410
+binder 25136:25136 <> x:411
+R25139:25139 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R25140:25141 Stdlib.MSets.MSetInterface IN In defax
+R25145:25145 Stdlib.MSets.MSetInterface <> s:410 var
+R25143:25143 Stdlib.MSets.MSetInterface <> x:411 var
+R25152:25153 Stdlib.MSets.MSetInterface IN <> modtype
+R25183:25193 Stdlib.Structures.Orders OrderedType <> modtype
+R25205:25206 Stdlib.MSets.MSetInterface IN <> modtype
+R25208:25208 Stdlib.MSets.MSetInterface O <> mod
+mod 25164:25178 <> MakeSetOrdering
+R25233:25248 Stdlib.Structures.OrdersFacts OrderedTypeFacts <> mod
+R25250:25250 Stdlib.MSets.MSetInterface O <> mod
+mod 25227:25228 <> MakeSetOrdering.MO
+R25227:25228 Stdlib.MSets.MSetInterface MakeSetOrdering.MO <> mod
+def 25266:25267 MakeSetOrdering eq
+R25272:25275 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25271:25271 Stdlib.MSets.MSetInterface M t defax
+R25277:25280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25276:25276 Stdlib.MSets.MSetInterface M t defax
+R25289:25293 Stdlib.MSets.MSetInterface M Equal def
+inst 25317:25324 MakeSetOrdering eq_equiv
+R25328:25338 Corelib.Classes.RelationClasses <> Equivalence class
+R25340:25341 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R25392:25397 Corelib.Classes.Morphisms <> Proper class
+R25417:25418 Stdlib.MSets.MSetInterface M In defax
+R25404:25406 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25400:25403 Stdlib.MSets.MSetInterface O eq defax
+R25409:25411 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25407:25408 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R25412:25414 Corelib.Init.Logic <> iff def
+def 25495:25499 MakeSetOrdering Below
+binder 25501:25501 <> x:412
+binder 25503:25503 <> s:413
+binder 25515:25515 <> y:414
+R25524:25527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25518:25519 Stdlib.MSets.MSetInterface M In defax
+R25523:25523 Stdlib.MSets.MSetInterface <> s:413 var
+R25521:25521 Stdlib.MSets.MSetInterface <> y:414 var
+R25528:25531 Stdlib.MSets.MSetInterface O lt defax
+R25535:25535 Stdlib.MSets.MSetInterface <> x:412 var
+R25533:25533 Stdlib.MSets.MSetInterface <> y:414 var
+def 25550:25554 MakeSetOrdering Above
+binder 25556:25556 <> x:415
+binder 25558:25558 <> s:416
+binder 25570:25570 <> y:417
+R25579:25582 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25573:25574 Stdlib.MSets.MSetInterface M In defax
+R25578:25578 Stdlib.MSets.MSetInterface <> s:416 var
+R25576:25576 Stdlib.MSets.MSetInterface <> y:417 var
+R25583:25586 Stdlib.MSets.MSetInterface O lt defax
+R25590:25590 Stdlib.MSets.MSetInterface <> y:417 var
+R25588:25588 Stdlib.MSets.MSetInterface <> x:415 var
+def 25606:25616 MakeSetOrdering EquivBefore
+binder 25618:25618 <> x:418
+binder 25620:25620 <> s:419
+binder 25622:25623 <> s':420
+binder 25638:25638 <> y:421
+R25649:25653 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25672:25672 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25641:25644 Stdlib.MSets.MSetInterface O lt defax
+R25648:25648 Stdlib.MSets.MSetInterface <> x:418 var
+R25646:25646 Stdlib.MSets.MSetInterface <> y:421 var
+R25660:25664 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R25654:25655 Stdlib.MSets.MSetInterface M In defax
+R25659:25659 Stdlib.MSets.MSetInterface <> s:419 var
+R25657:25657 Stdlib.MSets.MSetInterface <> y:421 var
+R25665:25666 Stdlib.MSets.MSetInterface M In defax
+R25670:25671 Stdlib.MSets.MSetInterface <> s':420 var
+R25668:25668 Stdlib.MSets.MSetInterface <> y:421 var
+def 25688:25699 MakeSetOrdering EmptyBetween
+binder 25701:25701 <> x:422
+binder 25703:25703 <> y:423
+binder 25705:25705 <> s:424
+binder 25720:25720 <> z:425
+R25729:25732 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25723:25724 Stdlib.MSets.MSetInterface M In defax
+R25728:25728 Stdlib.MSets.MSetInterface <> s:424 var
+R25726:25726 Stdlib.MSets.MSetInterface <> z:425 var
+R25741:25744 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25733:25736 Stdlib.MSets.MSetInterface O lt defax
+R25740:25740 Stdlib.MSets.MSetInterface <> y:423 var
+R25738:25738 Stdlib.MSets.MSetInterface <> z:425 var
+R25745:25748 Stdlib.MSets.MSetInterface O lt defax
+R25752:25752 Stdlib.MSets.MSetInterface <> x:422 var
+R25750:25750 Stdlib.MSets.MSetInterface <> z:425 var
+def 25768:25769 MakeSetOrdering lt
+binder 25771:25771 <> s:426
+binder 25773:25774 <> s':427
+R25779:25785 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25787:25788 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25786:25786 <> x:428
+R25807:25814 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25910:25910 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25789:25799 Stdlib.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R25805:25806 Stdlib.MSets.MSetInterface <> s':427 var
+R25803:25803 Stdlib.MSets.MSetInterface <> s:426 var
+R25801:25801 Stdlib.MSets.MSetInterface <> x:428 var
+R25815:25815 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R25836:25845 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R25909:25909 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R25823:25826 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25816:25817 Stdlib.MSets.MSetInterface M In defax
+R25821:25822 Stdlib.MSets.MSetInterface <> s':427 var
+R25819:25819 Stdlib.MSets.MSetInterface <> x:428 var
+R25827:25831 Stdlib.MSets.MSetInterface MakeSetOrdering Below def
+R25835:25835 Stdlib.MSets.MSetInterface <> s:426 var
+R25833:25833 Stdlib.MSets.MSetInterface <> x:428 var
+R25852:25856 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25846:25847 Stdlib.MSets.MSetInterface M In defax
+R25851:25851 Stdlib.MSets.MSetInterface <> s:426 var
+R25849:25849 Stdlib.MSets.MSetInterface <> x:428 var
+R25857:25863 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25865:25866 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25864:25864 <> y:429
+R25874:25877 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25867:25868 Stdlib.MSets.MSetInterface M In defax
+R25872:25873 Stdlib.MSets.MSetInterface <> s':427 var
+R25870:25870 Stdlib.MSets.MSetInterface <> y:429 var
+R25886:25889 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25878:25881 Stdlib.MSets.MSetInterface O lt defax
+R25885:25885 Stdlib.MSets.MSetInterface <> y:429 var
+R25883:25883 Stdlib.MSets.MSetInterface <> x:428 var
+R25890:25901 Stdlib.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+R25907:25908 Stdlib.MSets.MSetInterface <> s':427 var
+R25905:25905 Stdlib.MSets.MSetInterface <> y:429 var
+R25903:25903 Stdlib.MSets.MSetInterface <> x:428 var
+R25936:25941 Corelib.Classes.Morphisms <> Proper class
+R25966:25976 Stdlib.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R25948:25950 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25944:25947 Stdlib.MSets.MSetInterface O eq defax
+R25953:25955 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25951:25952 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R25958:25960 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25956:25957 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R25961:25963 Corelib.Init.Logic <> iff def
+R25996:26006 Stdlib.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R26142:26147 Corelib.Classes.Morphisms <> Proper class
+R26167:26171 Stdlib.MSets.MSetInterface MakeSetOrdering Below def
+R26154:26156 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26150:26153 Stdlib.MSets.MSetInterface O eq defax
+R26159:26161 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26157:26158 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R26162:26164 Corelib.Init.Logic <> iff def
+R26191:26195 Stdlib.MSets.MSetInterface MakeSetOrdering Below def
+R26302:26307 Corelib.Classes.Morphisms <> Proper class
+R26327:26331 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R26314:26316 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26310:26313 Stdlib.MSets.MSetInterface O eq defax
+R26319:26321 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26317:26318 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R26322:26324 Corelib.Init.Logic <> iff def
+R26351:26355 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R26462:26467 Corelib.Classes.Morphisms <> Proper class
+R26494:26505 Stdlib.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+R26474:26476 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26470:26473 Stdlib.MSets.MSetInterface O eq defax
+R26481:26483 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26477:26480 Stdlib.MSets.MSetInterface O eq defax
+R26486:26488 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26484:26485 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R26489:26491 Corelib.Init.Logic <> iff def
+R26525:26536 Stdlib.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+inst 26668:26676 MakeSetOrdering lt_compat
+R26680:26685 Corelib.Classes.Morphisms <> Proper class
+R26703:26704 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R26690:26692 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26688:26689 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R26695:26697 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R26693:26694 Stdlib.MSets.MSetInterface MakeSetOrdering eq def
+R26698:26700 Corelib.Init.Logic <> iff def
+R26724:26725 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+inst 26834:26844 MakeSetOrdering lt_strorder
+R26848:26858 Corelib.Classes.RelationClasses <> StrictOrder class
+R26860:26861 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R27201:27204 Stdlib.MSets.MSetInterface O lt defax
+R29510:29513 Stdlib.MSets.MSetInterface O lt defax
+prf 29728:29737 MakeSetOrdering lt_empty_r
+binder 29748:29748 <> s:430
+binder 29750:29751 <> s':431
+R29762:29765 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29754:29758 Stdlib.MSets.MSetInterface M Empty def
+R29760:29761 Stdlib.MSets.MSetInterface <> s':431 var
+R29766:29767 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R29768:29769 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R29773:29774 Stdlib.MSets.MSetInterface <> s':431 var
+R29771:29771 Stdlib.MSets.MSetInterface <> s:430 var
+def 29901:29903 MakeSetOrdering Add
+binder 29905:29905 <> x:432
+binder 29907:29907 <> s:433
+binder 29909:29910 <> s':434
+binder 29922:29922 <> y:435
+R29932:29936 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R29925:29926 Stdlib.MSets.MSetInterface M In defax
+R29930:29931 Stdlib.MSets.MSetInterface <> s':434 var
+R29928:29928 Stdlib.MSets.MSetInterface <> y:435 var
+R29945:29948 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R29937:29940 Stdlib.MSets.MSetInterface O eq defax
+R29944:29944 Stdlib.MSets.MSetInterface <> y:435 var
+R29942:29942 Stdlib.MSets.MSetInterface <> x:432 var
+R29949:29950 Stdlib.MSets.MSetInterface M In defax
+R29954:29954 Stdlib.MSets.MSetInterface <> s:433 var
+R29952:29952 Stdlib.MSets.MSetInterface <> y:435 var
+prf 29965:29974 MakeSetOrdering lt_empty_l
+binder 29985:29985 <> x:436
+binder 29987:29988 <> s1:437
+binder 29990:29991 <> s2:438
+binder 29993:29995 <> s2':439
+R30008:30011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30000:30004 Stdlib.MSets.MSetInterface M Empty def
+R30006:30007 Stdlib.MSets.MSetInterface <> s1:437 var
+R30022:30025 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30012:30016 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R30020:30021 Stdlib.MSets.MSetInterface <> s2:438 var
+R30018:30018 Stdlib.MSets.MSetInterface <> x:436 var
+R30038:30041 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30026:30028 Stdlib.MSets.MSetInterface MakeSetOrdering Add def
+R30035:30037 Stdlib.MSets.MSetInterface <> s2':439 var
+R30032:30033 Stdlib.MSets.MSetInterface <> s2:438 var
+R30030:30030 Stdlib.MSets.MSetInterface <> x:436 var
+R30042:30043 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R30048:30050 Stdlib.MSets.MSetInterface <> s2':439 var
+R30045:30046 Stdlib.MSets.MSetInterface <> s1:437 var
+prf 30370:30378 MakeSetOrdering lt_add_lt
+binder 30389:30390 <> x1:440
+binder 30392:30393 <> x2:441
+binder 30395:30396 <> s1:442
+binder 30398:30400 <> s1':443
+binder 30402:30403 <> s2:444
+binder 30405:30407 <> s2':445
+R30424:30427 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30413:30417 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R30422:30423 Stdlib.MSets.MSetInterface <> s1:442 var
+R30419:30420 Stdlib.MSets.MSetInterface <> x1:440 var
+R30439:30442 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30428:30432 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R30437:30438 Stdlib.MSets.MSetInterface <> s2:444 var
+R30434:30435 Stdlib.MSets.MSetInterface <> x2:441 var
+R30456:30459 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30443:30445 Stdlib.MSets.MSetInterface MakeSetOrdering Add def
+R30453:30455 Stdlib.MSets.MSetInterface <> s1':443 var
+R30450:30451 Stdlib.MSets.MSetInterface <> s1:442 var
+R30447:30448 Stdlib.MSets.MSetInterface <> x1:440 var
+R30473:30479 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30460:30462 Stdlib.MSets.MSetInterface MakeSetOrdering Add def
+R30470:30472 Stdlib.MSets.MSetInterface <> s2':445 var
+R30467:30468 Stdlib.MSets.MSetInterface <> s2:444 var
+R30464:30465 Stdlib.MSets.MSetInterface <> x2:441 var
+R30490:30493 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30480:30483 Stdlib.MSets.MSetInterface O lt defax
+R30488:30489 Stdlib.MSets.MSetInterface <> x2:441 var
+R30485:30486 Stdlib.MSets.MSetInterface <> x1:440 var
+R30494:30495 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R30501:30503 Stdlib.MSets.MSetInterface <> s2':445 var
+R30497:30499 Stdlib.MSets.MSetInterface <> s1':443 var
+prf 30977:30985 MakeSetOrdering lt_add_eq
+binder 30996:30997 <> x1:446
+binder 30999:31000 <> x2:447
+binder 31002:31003 <> s1:448
+binder 31005:31007 <> s1':449
+binder 31009:31010 <> s2:450
+binder 31012:31014 <> s2':451
+R31031:31034 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31020:31024 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R31029:31030 Stdlib.MSets.MSetInterface <> s1:448 var
+R31026:31027 Stdlib.MSets.MSetInterface <> x1:446 var
+R31046:31049 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31035:31039 Stdlib.MSets.MSetInterface MakeSetOrdering Above def
+R31044:31045 Stdlib.MSets.MSetInterface <> s2:450 var
+R31041:31042 Stdlib.MSets.MSetInterface <> x2:447 var
+R31063:31066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31050:31052 Stdlib.MSets.MSetInterface MakeSetOrdering Add def
+R31060:31062 Stdlib.MSets.MSetInterface <> s1':449 var
+R31057:31058 Stdlib.MSets.MSetInterface <> s1:448 var
+R31054:31055 Stdlib.MSets.MSetInterface <> x1:446 var
+R31080:31086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31067:31069 Stdlib.MSets.MSetInterface MakeSetOrdering Add def
+R31077:31079 Stdlib.MSets.MSetInterface <> s2':451 var
+R31074:31075 Stdlib.MSets.MSetInterface <> s2:450 var
+R31071:31072 Stdlib.MSets.MSetInterface <> x2:447 var
+R31097:31100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31087:31090 Stdlib.MSets.MSetInterface O eq defax
+R31095:31096 Stdlib.MSets.MSetInterface <> x2:447 var
+R31092:31093 Stdlib.MSets.MSetInterface <> x1:446 var
+R31109:31112 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31101:31102 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R31107:31108 Stdlib.MSets.MSetInterface <> s2:450 var
+R31104:31105 Stdlib.MSets.MSetInterface <> s1:448 var
+R31113:31114 Stdlib.MSets.MSetInterface MakeSetOrdering lt def
+R31120:31122 Stdlib.MSets.MSetInterface <> s2':451 var
+R31116:31118 Stdlib.MSets.MSetInterface <> s1':449 var
+R31209:31212 Stdlib.MSets.MSetInterface O lt defax
+R31923:31937 Stdlib.MSets.MSetInterface MakeSetOrdering <> mod
+R31969:31979 Stdlib.Structures.Orders OrderedType <> modtype
+mod 31949:31964 <> MakeListOrdering
+R31995:32010 Stdlib.Structures.OrdersFacts OrderedTypeFacts <> mod
+R32012:32012 Stdlib.MSets.MSetInterface O <> mod
+mod 31991:31992 <> MakeListOrdering.MO
+abbrev 32035:32035 MakeListOrdering t
+R32041:32044 Corelib.Init.Datatypes <> list ind
+R32046:32048 Stdlib.MSets.MSetInterface O t defax
+abbrev 32071:32072 MakeListOrdering In
+R32078:32080 Stdlib.Sorting.SetoidList <> InA ind
+R32082:32085 Stdlib.MSets.MSetInterface O eq defax
+def 32102:32103 MakeListOrdering eq
+binder 32105:32105 <> s:452
+binder 32107:32108 <> s':453
+binder 32120:32120 <> x:454
+R32129:32133 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32123:32124 Stdlib.MSets.MSetInterface MakeListOrdering In abbrev
+R32128:32128 Stdlib.MSets.MSetInterface <> s:452 var
+R32126:32126 Stdlib.MSets.MSetInterface <> x:454 var
+R32134:32135 Stdlib.MSets.MSetInterface MakeListOrdering In abbrev
+R32139:32140 Stdlib.MSets.MSetInterface <> s':453 var
+R32137:32137 Stdlib.MSets.MSetInterface <> x:454 var
+inst 32164:32171 MakeListOrdering eq_equiv
+R32175:32185 Corelib.Classes.RelationClasses <> Equivalence class
+R32187:32188 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+ind 32208:32214 MakeListOrdering lt_list
+constr 32242:32247 MakeListOrdering lt_nil
+constr 32290:32299 MakeListOrdering lt_cons_lt
+constr 32373:32382 MakeListOrdering lt_cons_eq
+R32219:32222 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32218:32218 Stdlib.MSets.MSetInterface MakeListOrdering t abbrev
+R32224:32227 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32223:32223 Stdlib.MSets.MSetInterface MakeListOrdering t abbrev
+binder 32258:32258 <> x:457
+binder 32260:32260 <> s:458
+R32263:32269 Stdlib.MSets.MSetInterface <> lt_list:455 ind
+R32277:32280 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32276:32276 Stdlib.MSets.MSetInterface <> x:457 var
+R32281:32281 Stdlib.MSets.MSetInterface <> s:458 var
+R32271:32273 Corelib.Init.Datatypes <> nil constr
+binder 32310:32310 <> x:459
+binder 32312:32312 <> y:460
+binder 32314:32314 <> s:461
+binder 32316:32317 <> s':462
+R32336:32339 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32328:32331 Stdlib.MSets.MSetInterface O lt defax
+R32335:32335 Stdlib.MSets.MSetInterface <> y:460 var
+R32333:32333 Stdlib.MSets.MSetInterface <> x:459 var
+R32340:32346 Stdlib.MSets.MSetInterface <> lt_list:455 ind
+R32359:32362 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32358:32358 Stdlib.MSets.MSetInterface <> y:460 var
+R32363:32364 Stdlib.MSets.MSetInterface <> s':462 var
+R32350:32353 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32349:32349 Stdlib.MSets.MSetInterface <> x:459 var
+R32354:32354 Stdlib.MSets.MSetInterface <> s:461 var
+binder 32393:32393 <> x:463
+binder 32395:32395 <> y:464
+binder 32397:32397 <> s:465
+binder 32399:32400 <> s':466
+R32419:32422 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32411:32414 Stdlib.MSets.MSetInterface O eq defax
+R32418:32418 Stdlib.MSets.MSetInterface <> y:464 var
+R32416:32416 Stdlib.MSets.MSetInterface <> x:463 var
+R32435:32438 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32423:32429 Stdlib.MSets.MSetInterface <> lt_list:455 ind
+R32433:32434 Stdlib.MSets.MSetInterface <> s':466 var
+R32431:32431 Stdlib.MSets.MSetInterface <> s:465 var
+R32439:32445 Stdlib.MSets.MSetInterface <> lt_list:455 ind
+R32458:32461 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32457:32457 Stdlib.MSets.MSetInterface <> y:464 var
+R32462:32463 Stdlib.MSets.MSetInterface <> s':466 var
+R32449:32452 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32448:32448 Stdlib.MSets.MSetInterface <> x:463 var
+R32453:32453 Stdlib.MSets.MSetInterface <> s:465 var
+scheme 32208:32214 MakeListOrdering lt_list_ind
+scheme 32208:32214 MakeListOrdering lt_list_sind
+R32497:32503 Stdlib.MSets.MSetInterface <> lt_list ind
+def 32526:32527 MakeListOrdering lt
+R32532:32538 Stdlib.MSets.MSetInterface MakeListOrdering lt_list ind
+R32565:32566 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+inst 32598:32608 MakeListOrdering lt_strorder
+R32612:32622 Corelib.Classes.RelationClasses <> StrictOrder class
+R32624:32625 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+binder 32683:32683 <> s:467
+binder 32685:32686 <> s':468
+R32693:32696 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32690:32690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32689:32689 Stdlib.MSets.MSetInterface <> s:467 var
+R32691:32692 Stdlib.MSets.MSetInterface <> s':468 var
+R32697:32697 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R32698:32699 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+R32703:32704 Stdlib.MSets.MSetInterface <> s':468 var
+R32701:32701 Stdlib.MSets.MSetInterface <> s:467 var
+binder 32683:32683 <> s:469
+binder 32685:32686 <> s':470
+R32689:32689 Stdlib.MSets.MSetInterface <> s:469 var
+R32691:32692 Stdlib.MSets.MSetInterface <> s':470 var
+R32703:32704 Stdlib.MSets.MSetInterface <> s':470 var
+R32701:32701 Stdlib.MSets.MSetInterface <> s:469 var
+R32795:32817 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R32897:32903 Corelib.Init.Logic <> eq_refl constr
+R33385:33386 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+inst 33427:33436 MakeListOrdering lt_compat'
+R33442:33447 Corelib.Classes.Morphisms <> Proper class
+R33485:33486 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+R33462:33464 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R33450:33456 Stdlib.Sorting.SetoidList <> eqlistA ind
+R33458:33461 Stdlib.MSets.MSetInterface O eq defax
+R33477:33479 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R33465:33471 Stdlib.Sorting.SetoidList <> eqlistA ind
+R33473:33476 Stdlib.MSets.MSetInterface O eq defax
+R33480:33482 Corelib.Init.Logic <> iff def
+R33504:33524 Corelib.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R33747:33748 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+prf 33776:33782 MakeListOrdering eq_cons
+binder 33795:33796 <> l1:471
+binder 33798:33799 <> l2:472
+binder 33801:33801 <> x:473
+binder 33803:33803 <> y:474
+R33816:33819 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33808:33811 Stdlib.MSets.MSetInterface O eq defax
+R33815:33815 Stdlib.MSets.MSetInterface <> y:474 var
+R33813:33813 Stdlib.MSets.MSetInterface <> x:473 var
+R33828:33831 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33820:33821 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+R33826:33827 Stdlib.MSets.MSetInterface <> l2:472 var
+R33823:33824 Stdlib.MSets.MSetInterface <> l1:471 var
+R33832:33833 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+R33847:33850 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33846:33846 Stdlib.MSets.MSetInterface <> y:474 var
+R33851:33852 Stdlib.MSets.MSetInterface <> l2:472 var
+R33837:33840 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33836:33836 Stdlib.MSets.MSetInterface <> x:473 var
+R33841:33842 Stdlib.MSets.MSetInterface <> l1:471 var
+R33873:33874 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+prf 34091:34103 MakeListOrdering cons_CompSpec
+binder 34114:34114 <> c:475
+binder 34116:34117 <> x1:476
+binder 34119:34120 <> x2:477
+binder 34122:34123 <> l1:478
+binder 34125:34126 <> l2:479
+R34139:34144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34129:34132 Stdlib.MSets.MSetInterface O eq defax
+R34137:34138 Stdlib.MSets.MSetInterface <> x2:477 var
+R34134:34135 Stdlib.MSets.MSetInterface <> x1:476 var
+R34167:34170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34145:34152 Corelib.Init.Datatypes <> CompSpec def
+R34166:34166 Stdlib.MSets.MSetInterface <> c:475 var
+R34163:34164 Stdlib.MSets.MSetInterface <> l2:479 var
+R34160:34161 Stdlib.MSets.MSetInterface <> l1:478 var
+R34157:34158 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+R34154:34155 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+R34171:34178 Corelib.Init.Datatypes <> CompSpec def
+R34204:34204 Stdlib.MSets.MSetInterface <> c:475 var
+R34198:34199 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34196:34197 Stdlib.MSets.MSetInterface <> x2:477 var
+R34200:34201 Stdlib.MSets.MSetInterface <> l2:479 var
+R34189:34190 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34187:34188 Stdlib.MSets.MSetInterface <> x1:476 var
+R34191:34192 Stdlib.MSets.MSetInterface <> l1:478 var
+R34183:34184 Stdlib.MSets.MSetInterface MakeListOrdering lt def
+R34180:34181 Stdlib.MSets.MSetInterface MakeListOrdering eq def
+R34334:34349 Stdlib.MSets.MSetInterface MakeListOrdering <> mod

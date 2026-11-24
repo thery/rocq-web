@@ -1,0 +1,1318 @@
+DIGEST 0201c52b9450df2a03645fa70477d71e
+FStdlib.Numbers.NatInt.NZOrder
+R1736:1743 Stdlib.Numbers.NatInt.NZAxioms <> <> lib
+R1745:1750 Stdlib.Numbers.NatInt.NZBase <> <> lib
+R1786:1794 Stdlib.Logic.Decidable <> <> lib
+R1835:1843 Stdlib.Structures.OrdersTac <> <> lib
+R1885:1893 Stdlib.Numbers.NatInt.NZAxioms NZOrdSig' <> modtype
+R1912:1921 Stdlib.Numbers.NatInt.NZBase NZBaseProp <> modtype
+R1923:1924 Stdlib.Numbers.NatInt.NZOrder NZ <> mod
+modtype 1859:1869 <> NZOrderProp
+R1859:1869 Stdlib.Numbers.NatInt.NZOrder NZ <> mod
+R1859:1869 Stdlib.Numbers.NatInt.NZOrder NZBase <> mod
+inst 2075:2079 NZOrderProp le_wd
+R2083:2088 Corelib.Classes.Morphisms <> Proper class
+R2106:2107 Stdlib.Numbers.NatInt.NZOrder NZ le defax
+R2093:2095 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2091:2092 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R2098:2100 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2096:2097 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R2101:2103 Corelib.Init.Logic <> iff def
+R2157:2165 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R2208:2218 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+prf 2258:2267 NZOrderProp lt_le_incl
+binder 2278:2278 <> n:1
+binder 2280:2280 <> m:2
+R2288:2291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2284:2286 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2283:2283 Stdlib.Numbers.NatInt.NZOrder <> n:1 var
+R2287:2287 Stdlib.Numbers.NatInt.NZOrder <> m:2 var
+R2293:2296 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2292:2292 Stdlib.Numbers.NatInt.NZOrder <> n:1 var
+R2297:2297 Stdlib.Numbers.NatInt.NZOrder <> m:2 var
+R2321:2331 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+prf 2358:2364 NZOrderProp le_refl
+binder 2375:2375 <> n:3
+R2379:2382 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2378:2378 Stdlib.Numbers.NatInt.NZOrder <> n:3 var
+R2383:2383 Stdlib.Numbers.NatInt.NZOrder <> n:3 var
+R2406:2416 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+prf 2444:2457 NZOrderProp lt_succ_diag_r
+binder 2468:2468 <> n:4
+R2472:2474 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2471:2471 Stdlib.Numbers.NatInt.NZOrder <> n:4 var
+R2475:2475 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2477:2477 Stdlib.Numbers.NatInt.NZOrder <> n:4 var
+R2504:2512 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R2521:2527 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_refl thm
+prf 2544:2557 NZOrderProp le_succ_diag_r
+binder 2568:2568 <> n:5
+R2572:2575 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2571:2571 Stdlib.Numbers.NatInt.NZOrder <> n:5 var
+R2576:2576 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2578:2578 Stdlib.Numbers.NatInt.NZOrder <> n:5 var
+R2601:2610 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R2619:2632 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_diag_r thm
+prf 2649:2663 NZOrderProp neq_succ_diag_l
+binder 2674:2674 <> n:6
+R2680:2683 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2677:2677 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2679:2679 Stdlib.Numbers.NatInt.NZOrder <> n:6 var
+R2684:2684 Stdlib.Numbers.NatInt.NZOrder <> n:6 var
+R2713:2721 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R2752:2765 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_diag_r thm
+prf 2782:2796 NZOrderProp neq_succ_diag_r
+binder 2807:2807 <> n:7
+R2811:2814 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2810:2810 Stdlib.Numbers.NatInt.NZOrder <> n:7 var
+R2815:2815 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2817:2817 Stdlib.Numbers.NatInt.NZOrder <> n:7 var
+R2842:2848 Stdlib.Numbers.NatInt.NZOrder NZBase neq_sym thm
+R2851:2865 Stdlib.Numbers.NatInt.NZOrder NZOrderProp neq_succ_diag_l thm
+prf 2882:2896 NZOrderProp nlt_succ_diag_l
+binder 2907:2907 <> n:8
+R2910:2911 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2915:2917 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2912:2912 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2914:2914 Stdlib.Numbers.NatInt.NZOrder <> n:8 var
+R2918:2918 Stdlib.Numbers.NatInt.NZOrder <> n:8 var
+R2947:2955 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R2958:2958 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R2973:2981 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R2994:3003 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+prf 3020:3034 NZOrderProp nle_succ_diag_l
+binder 3045:3045 <> n:9
+R3048:3049 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3053:3056 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3050:3050 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R3052:3052 Stdlib.Numbers.NatInt.NZOrder <> n:9 var
+R3057:3057 Stdlib.Numbers.NatInt.NZOrder <> n:9 var
+R3104:3118 Stdlib.Numbers.NatInt.NZOrder NZOrderProp nlt_succ_diag_l thm
+R3135:3149 Stdlib.Numbers.NatInt.NZOrder NZOrderProp neq_succ_diag_l thm
+prf 3166:3174 NZOrderProp le_succ_l
+binder 3185:3185 <> n:10
+binder 3187:3187 <> m:11
+R3198:3202 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3193:3196 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3190:3190 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R3192:3192 Stdlib.Numbers.NatInt.NZOrder <> n:10 var
+R3197:3197 Stdlib.Numbers.NatInt.NZOrder <> m:11 var
+R3204:3206 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3203:3203 Stdlib.Numbers.NatInt.NZOrder <> n:10 var
+R3207:3207 Stdlib.Numbers.NatInt.NZOrder <> m:11 var
+R3275:3289 Stdlib.Numbers.NatInt.NZOrder NZOrderProp nle_succ_diag_l thm
+R3306:3314 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R3339:3349 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R3352:3352 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R3358:3358 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R3366:3374 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R3378:3388 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R3396:3406 Stdlib.Numbers.NatInt.NZOrder NZBase succ_inj_wd thm
+R3419:3429 Corelib.Init.Logic <> or_cancel_r thm
+R3498:3512 Stdlib.Numbers.NatInt.NZOrder NZOrderProp nle_succ_diag_l thm
+R3564:3572 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+prf 3608:3618 NZOrderProp le_gt_cases
+binder 3629:3629 <> n:12
+binder 3631:3631 <> m:13
+R3640:3643 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3635:3638 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3634:3634 Stdlib.Numbers.NatInt.NZOrder <> n:12 var
+R3639:3639 Stdlib.Numbers.NatInt.NZOrder <> m:13 var
+R3645:3647 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R3648:3648 Stdlib.Numbers.NatInt.NZOrder <> m:13 var
+R3644:3644 Stdlib.Numbers.NatInt.NZOrder <> n:12 var
+R3698:3704 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_refl thm
+R3726:3734 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R3737:3745 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R3749:3759 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+prf 3807:3819 NZOrderProp lt_trichotomy
+binder 3830:3830 <> n:14
+binder 3832:3832 <> m:15
+R3841:3844 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3837:3839 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3836:3836 Stdlib.Numbers.NatInt.NZOrder <> n:14 var
+R3840:3840 Stdlib.Numbers.NatInt.NZOrder <> m:15 var
+R3851:3854 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3846:3849 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3845:3845 Stdlib.Numbers.NatInt.NZOrder <> n:14 var
+R3850:3850 Stdlib.Numbers.NatInt.NZOrder <> m:15 var
+R3856:3858 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3855:3855 Stdlib.Numbers.NatInt.NZOrder <> m:15 var
+R3859:3859 Stdlib.Numbers.NatInt.NZOrder <> n:14 var
+R3893:3903 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_gt_cases thm
+R3919:3929 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+abbrev 3954:3967 NZOrderProp lt_eq_gt_cases
+R3972:3984 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+prf 4051:4058 NZOrderProp lt_asymm
+binder 4069:4069 <> n:16
+binder 4071:4071 <> m:17
+R4079:4082 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4075:4077 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4074:4074 Stdlib.Numbers.NatInt.NZOrder <> n:16 var
+R4078:4078 Stdlib.Numbers.NatInt.NZOrder <> m:17 var
+R4083:4084 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4086:4088 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4085:4085 Stdlib.Numbers.NatInt.NZOrder <> m:17 var
+R4089:4089 Stdlib.Numbers.NatInt.NZOrder <> n:16 var
+R4149:4157 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R4204:4212 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R4260:4268 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R4281:4290 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R4330:4344 Stdlib.Numbers.NatInt.NZOrder NZOrderProp nlt_succ_diag_l thm
+R4357:4365 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R4415:4423 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R4436:4445 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R4488:4502 Stdlib.Numbers.NatInt.NZOrder NZOrderProp nlt_succ_diag_l thm
+abbrev 4520:4525 NZOrderProp lt_ngt
+R4530:4537 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_asymm thm
+prf 4564:4571 NZOrderProp lt_trans
+binder 4582:4582 <> n:18
+binder 4584:4584 <> m:19
+binder 4586:4586 <> p:20
+R4594:4597 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4590:4592 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4589:4589 Stdlib.Numbers.NatInt.NZOrder <> n:18 var
+R4593:4593 Stdlib.Numbers.NatInt.NZOrder <> m:19 var
+R4603:4606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4599:4601 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4598:4598 Stdlib.Numbers.NatInt.NZOrder <> m:19 var
+R4602:4602 Stdlib.Numbers.NatInt.NZOrder <> p:20 var
+R4608:4610 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4607:4607 Stdlib.Numbers.NatInt.NZOrder <> n:18 var
+R4611:4611 Stdlib.Numbers.NatInt.NZOrder <> p:20 var
+R4675:4683 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R4707:4715 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R4753:4762 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R4828:4831 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4856:4865 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R4942:4949 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_asymm thm
+prf 4977:4984 NZOrderProp le_trans
+binder 4995:4995 <> n:21
+binder 4997:4997 <> m:22
+binder 4999:4999 <> p:23
+R5008:5011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5003:5006 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5002:5002 Stdlib.Numbers.NatInt.NZOrder <> n:21 var
+R5007:5007 Stdlib.Numbers.NatInt.NZOrder <> m:22 var
+R5018:5021 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5013:5016 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5012:5012 Stdlib.Numbers.NatInt.NZOrder <> m:22 var
+R5017:5017 Stdlib.Numbers.NatInt.NZOrder <> p:23 var
+R5023:5026 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5022:5022 Stdlib.Numbers.NatInt.NZOrder <> n:21 var
+R5027:5027 Stdlib.Numbers.NatInt.NZOrder <> p:23 var
+R5061:5071 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R5149:5156 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trans thm
+inst 5254:5264 NZOrderProp lt_strorder
+R5268:5278 Corelib.Classes.RelationClasses <> StrictOrder class
+R5280:5281 Stdlib.Numbers.NatInt.NZOrder NZ lt defax
+R5306:5314 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+R5325:5332 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trans thm
+inst 5360:5370 NZOrderProp le_preorder
+R5374:5381 Corelib.Classes.RelationClasses <> PreOrder class
+R5383:5384 Stdlib.Numbers.NatInt.NZOrder NZ le defax
+R5409:5415 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_refl thm
+R5426:5433 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_trans thm
+inst 5461:5475 NZOrderProp le_partialorder
+R5479:5490 Corelib.Classes.RelationClasses <> PartialOrder class
+R5494:5495 Stdlib.Numbers.NatInt.NZOrder NZ le defax
+R5573:5583 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R5623:5631 Stdlib.Numbers.NatInt.NZOrder NZ lt_irrefl prfax
+def 5720:5728 NZOrderProp lt_compat
+R5733:5737 Stdlib.Numbers.NatInt.NZOrder NZ lt_wd prfax
+def 5751:5758 NZOrderProp lt_total
+R5763:5775 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+def 5789:5795 NZOrderProp le_lteq
+R5800:5810 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+mod 5821:5836 <> NZOrderProp.Private_OrderTac
+mod 5846:5852 <> NZOrderProp.Private_OrderTac.IsTotal
+def 5867:5874 NZOrderProp.Private_OrderTac.IsTotal eq_equiv
+R5879:5886 Stdlib.Numbers.NatInt.NZOrder NZ eq_equiv prfax
+def 5901:5911 NZOrderProp.Private_OrderTac.IsTotal lt_strorder
+R5916:5926 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_strorder inst
+def 5941:5949 NZOrderProp.Private_OrderTac.IsTotal lt_compat
+R5954:5962 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_compat def
+def 5977:5984 NZOrderProp.Private_OrderTac.IsTotal lt_total
+R5989:5996 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_total def
+def 6011:6017 NZOrderProp.Private_OrderTac.IsTotal le_lteq
+R6022:6028 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_lteq def
+R6035:6041 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Private_OrderTac.IsTotal <> mod
+R6059:6070 Stdlib.Structures.OrdersTac MakeOrderTac <> mod
+R6072:6073 Stdlib.Numbers.NatInt.NZOrder NZ <> mod
+R6075:6081 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Private_OrderTac.IsTotal <> mod
+mod 6051:6053 <> NZOrderProp.Private_OrderTac.Tac
+R6088:6103 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Private_OrderTac <> mod
+prf 6205:6210 NZOrderProp lt_neq
+binder 6221:6221 <> n:24
+binder 6223:6223 <> m:25
+R6231:6234 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6227:6229 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6226:6226 Stdlib.Numbers.NatInt.NZOrder <> n:24 var
+R6230:6230 Stdlib.Numbers.NatInt.NZOrder <> m:25 var
+R6236:6239 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6235:6235 Stdlib.Numbers.NatInt.NZOrder <> n:24 var
+R6240:6240 Stdlib.Numbers.NatInt.NZOrder <> m:25 var
+prf 6271:6276 NZOrderProp le_neq
+binder 6287:6287 <> n:26
+binder 6289:6289 <> m:27
+R6297:6301 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6293:6295 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6292:6292 Stdlib.Numbers.NatInt.NZOrder <> n:26 var
+R6296:6296 Stdlib.Numbers.NatInt.NZOrder <> m:27 var
+R6308:6311 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6303:6306 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6302:6302 Stdlib.Numbers.NatInt.NZOrder <> n:26 var
+R6307:6307 Stdlib.Numbers.NatInt.NZOrder <> m:27 var
+R6313:6316 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6312:6312 Stdlib.Numbers.NatInt.NZOrder <> n:26 var
+R6317:6317 Stdlib.Numbers.NatInt.NZOrder <> m:27 var
+prf 6358:6367 NZOrderProp eq_le_incl
+binder 6378:6378 <> n:28
+binder 6380:6380 <> m:29
+R6389:6392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6384:6387 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6383:6383 Stdlib.Numbers.NatInt.NZOrder <> n:28 var
+R6388:6388 Stdlib.Numbers.NatInt.NZOrder <> m:29 var
+R6394:6397 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6393:6393 Stdlib.Numbers.NatInt.NZOrder <> n:28 var
+R6398:6398 Stdlib.Numbers.NatInt.NZOrder <> m:29 var
+prf 6427:6434 NZOrderProp lt_stepl
+binder 6445:6445 <> x:30
+binder 6447:6447 <> y:31
+binder 6449:6449 <> z:32
+R6457:6460 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6453:6455 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6452:6452 Stdlib.Numbers.NatInt.NZOrder <> x:30 var
+R6456:6456 Stdlib.Numbers.NatInt.NZOrder <> y:31 var
+R6467:6470 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6462:6465 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6461:6461 Stdlib.Numbers.NatInt.NZOrder <> x:30 var
+R6466:6466 Stdlib.Numbers.NatInt.NZOrder <> z:32 var
+R6472:6474 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6471:6471 Stdlib.Numbers.NatInt.NZOrder <> z:32 var
+R6475:6475 Stdlib.Numbers.NatInt.NZOrder <> y:31 var
+prf 6504:6511 NZOrderProp lt_stepr
+binder 6522:6522 <> x:33
+binder 6524:6524 <> y:34
+binder 6526:6526 <> z:35
+R6534:6537 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6530:6532 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6529:6529 Stdlib.Numbers.NatInt.NZOrder <> x:33 var
+R6533:6533 Stdlib.Numbers.NatInt.NZOrder <> y:34 var
+R6544:6547 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6539:6542 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6538:6538 Stdlib.Numbers.NatInt.NZOrder <> y:34 var
+R6543:6543 Stdlib.Numbers.NatInt.NZOrder <> z:35 var
+R6549:6551 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6548:6548 Stdlib.Numbers.NatInt.NZOrder <> x:33 var
+R6552:6552 Stdlib.Numbers.NatInt.NZOrder <> z:35 var
+prf 6581:6588 NZOrderProp le_stepl
+binder 6599:6599 <> x:36
+binder 6601:6601 <> y:37
+binder 6603:6603 <> z:38
+R6612:6615 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6607:6610 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6606:6606 Stdlib.Numbers.NatInt.NZOrder <> x:36 var
+R6611:6611 Stdlib.Numbers.NatInt.NZOrder <> y:37 var
+R6622:6625 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6617:6620 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6616:6616 Stdlib.Numbers.NatInt.NZOrder <> x:36 var
+R6621:6621 Stdlib.Numbers.NatInt.NZOrder <> z:38 var
+R6627:6630 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6626:6626 Stdlib.Numbers.NatInt.NZOrder <> z:38 var
+R6631:6631 Stdlib.Numbers.NatInt.NZOrder <> y:37 var
+prf 6660:6667 NZOrderProp le_stepr
+binder 6678:6678 <> x:39
+binder 6680:6680 <> y:40
+binder 6682:6682 <> z:41
+R6691:6694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6686:6689 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6685:6685 Stdlib.Numbers.NatInt.NZOrder <> x:39 var
+R6690:6690 Stdlib.Numbers.NatInt.NZOrder <> y:40 var
+R6701:6704 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6696:6699 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6695:6695 Stdlib.Numbers.NatInt.NZOrder <> y:40 var
+R6700:6700 Stdlib.Numbers.NatInt.NZOrder <> z:41 var
+R6706:6709 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6705:6705 Stdlib.Numbers.NatInt.NZOrder <> x:39 var
+R6710:6710 Stdlib.Numbers.NatInt.NZOrder <> z:41 var
+R6752:6759 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_stepl thm
+R6781:6788 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_stepr thm
+R6810:6817 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_stepl thm
+R6839:6846 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_stepr thm
+prf 6858:6868 NZOrderProp le_lt_trans
+binder 6879:6879 <> n:42
+binder 6881:6881 <> m:43
+binder 6883:6883 <> p:44
+R6892:6895 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6887:6890 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6886:6886 Stdlib.Numbers.NatInt.NZOrder <> n:42 var
+R6891:6891 Stdlib.Numbers.NatInt.NZOrder <> m:43 var
+R6901:6904 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6897:6899 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6896:6896 Stdlib.Numbers.NatInt.NZOrder <> m:43 var
+R6900:6900 Stdlib.Numbers.NatInt.NZOrder <> p:44 var
+R6906:6908 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6905:6905 Stdlib.Numbers.NatInt.NZOrder <> n:42 var
+R6909:6909 Stdlib.Numbers.NatInt.NZOrder <> p:44 var
+prf 6940:6950 NZOrderProp lt_le_trans
+binder 6961:6961 <> n:45
+binder 6963:6963 <> m:46
+binder 6965:6965 <> p:47
+R6973:6976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6969:6971 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6968:6968 Stdlib.Numbers.NatInt.NZOrder <> n:45 var
+R6972:6972 Stdlib.Numbers.NatInt.NZOrder <> m:46 var
+R6983:6986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6978:6981 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6977:6977 Stdlib.Numbers.NatInt.NZOrder <> m:46 var
+R6982:6982 Stdlib.Numbers.NatInt.NZOrder <> p:47 var
+R6988:6990 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6987:6987 Stdlib.Numbers.NatInt.NZOrder <> n:45 var
+R6991:6991 Stdlib.Numbers.NatInt.NZOrder <> p:47 var
+prf 7022:7032 NZOrderProp le_antisymm
+binder 7043:7043 <> n:48
+binder 7045:7045 <> m:49
+R7054:7057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7049:7052 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7048:7048 Stdlib.Numbers.NatInt.NZOrder <> n:48 var
+R7053:7053 Stdlib.Numbers.NatInt.NZOrder <> m:49 var
+R7064:7067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7059:7062 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7058:7058 Stdlib.Numbers.NatInt.NZOrder <> m:49 var
+R7063:7063 Stdlib.Numbers.NatInt.NZOrder <> n:48 var
+R7069:7072 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7068:7068 Stdlib.Numbers.NatInt.NZOrder <> n:48 var
+R7073:7073 Stdlib.Numbers.NatInt.NZOrder <> m:49 var
+prf 7176:7184 NZOrderProp le_succ_r
+binder 7195:7195 <> n:50
+binder 7197:7197 <> m:51
+R7208:7212 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7201:7204 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7200:7200 Stdlib.Numbers.NatInt.NZOrder <> n:50 var
+R7205:7205 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7207:7207 Stdlib.Numbers.NatInt.NZOrder <> m:51 var
+R7219:7222 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7214:7217 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7213:7213 Stdlib.Numbers.NatInt.NZOrder <> n:50 var
+R7218:7218 Stdlib.Numbers.NatInt.NZOrder <> m:51 var
+R7224:7227 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7223:7223 Stdlib.Numbers.NatInt.NZOrder <> n:50 var
+R7228:7228 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7230:7230 Stdlib.Numbers.NatInt.NZOrder <> m:51 var
+R7260:7270 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R7285:7293 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+prf 7310:7318 NZOrderProp lt_succ_l
+binder 7329:7329 <> n:52
+binder 7331:7331 <> m:53
+R7341:7344 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7337:7339 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7334:7334 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7336:7336 Stdlib.Numbers.NatInt.NZOrder <> n:52 var
+R7340:7340 Stdlib.Numbers.NatInt.NZOrder <> m:53 var
+R7346:7348 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7345:7345 Stdlib.Numbers.NatInt.NZOrder <> n:52 var
+R7349:7349 Stdlib.Numbers.NatInt.NZOrder <> m:53 var
+R7379:7387 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+prf 7411:7422 NZOrderProp le_le_succ_r
+binder 7433:7433 <> n:54
+binder 7435:7435 <> m:55
+R7444:7447 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7439:7442 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7438:7438 Stdlib.Numbers.NatInt.NZOrder <> n:54 var
+R7443:7443 Stdlib.Numbers.NatInt.NZOrder <> m:55 var
+R7449:7452 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7448:7448 Stdlib.Numbers.NatInt.NZOrder <> n:54 var
+R7453:7453 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7455:7455 Stdlib.Numbers.NatInt.NZOrder <> m:55 var
+R7486:7494 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+prf 7524:7535 NZOrderProp lt_lt_succ_r
+binder 7546:7546 <> n:56
+binder 7548:7548 <> m:57
+R7556:7559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7552:7554 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7551:7551 Stdlib.Numbers.NatInt.NZOrder <> n:56 var
+R7555:7555 Stdlib.Numbers.NatInt.NZOrder <> m:57 var
+R7561:7563 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7560:7560 Stdlib.Numbers.NatInt.NZOrder <> n:56 var
+R7564:7564 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7566:7566 Stdlib.Numbers.NatInt.NZOrder <> m:57 var
+R7592:7600 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+prf 7624:7635 NZOrderProp succ_lt_mono
+binder 7646:7646 <> n:58
+binder 7648:7648 <> m:59
+R7656:7660 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7652:7654 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7651:7651 Stdlib.Numbers.NatInt.NZOrder <> n:58 var
+R7655:7655 Stdlib.Numbers.NatInt.NZOrder <> m:59 var
+R7664:7666 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7661:7661 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7663:7663 Stdlib.Numbers.NatInt.NZOrder <> n:58 var
+R7667:7667 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7669:7669 Stdlib.Numbers.NatInt.NZOrder <> m:59 var
+R7702:7710 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R7729:7737 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+prf 7754:7765 NZOrderProp succ_le_mono
+binder 7776:7776 <> n:60
+binder 7778:7778 <> m:61
+R7787:7791 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7782:7785 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7781:7781 Stdlib.Numbers.NatInt.NZOrder <> n:60 var
+R7786:7786 Stdlib.Numbers.NatInt.NZOrder <> m:61 var
+R7795:7798 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7792:7792 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7794:7794 Stdlib.Numbers.NatInt.NZOrder <> n:60 var
+R7799:7799 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R7801:7801 Stdlib.Numbers.NatInt.NZOrder <> m:61 var
+R7837:7847 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R7853:7864 Stdlib.Numbers.NatInt.NZOrder NZOrderProp succ_lt_mono thm
+R7867:7877 Stdlib.Numbers.NatInt.NZOrder NZBase succ_inj_wd thm
+prf 7894:7899 NZOrderProp lt_0_1
+R7904:7906 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7925:7932 Stdlib.Numbers.NatInt.NZOrder NZ one_succ prfax
+R7941:7954 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_diag_r thm
+prf 7971:7976 NZOrderProp le_0_1
+R7981:7984 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8001:8010 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R8013:8018 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_0_1 thm
+prf 8035:8040 NZOrderProp lt_1_2
+R8045:8047 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8066:8073 Stdlib.Numbers.NatInt.NZOrder NZ two_succ prfax
+R8082:8095 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_diag_r thm
+prf 8112:8117 NZOrderProp lt_0_2
+R8122:8124 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8161:8166 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_0_1 thm
+R8177:8182 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_1_2 thm
+prf 8199:8204 NZOrderProp le_0_2
+R8209:8212 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8229:8238 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R8241:8246 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_0_2 thm
+R8344:8349 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_0_1 thm
+R8351:8356 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_1_2 thm
+prf 8375:8380 NZOrderProp lt_1_l
+binder 8391:8391 <> n:62
+binder 8393:8393 <> m:63
+R8401:8404 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8397:8399 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8400:8400 Stdlib.Numbers.NatInt.NZOrder <> n:62 var
+R8410:8413 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8406:8408 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8405:8405 Stdlib.Numbers.NatInt.NZOrder <> n:62 var
+R8409:8409 Stdlib.Numbers.NatInt.NZOrder <> m:63 var
+R8415:8417 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8418:8418 Stdlib.Numbers.NatInt.NZOrder <> m:63 var
+R8457:8465 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R8471:8478 Stdlib.Numbers.NatInt.NZOrder NZ one_succ prfax
+prf 8714:8724 NZOrderProp lt_ge_cases
+binder 8735:8735 <> n:64
+binder 8737:8737 <> m:65
+R8745:8748 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8741:8743 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8740:8740 Stdlib.Numbers.NatInt.NZOrder <> n:64 var
+R8744:8744 Stdlib.Numbers.NatInt.NZOrder <> m:65 var
+R8750:8753 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R8754:8754 Stdlib.Numbers.NatInt.NZOrder <> m:65 var
+R8749:8749 Stdlib.Numbers.NatInt.NZOrder <> n:64 var
+R8786:8796 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_gt_cases thm
+prf 8835:8845 NZOrderProp le_ge_cases
+binder 8856:8856 <> n:66
+binder 8858:8858 <> m:67
+R8867:8870 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8862:8865 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8861:8861 Stdlib.Numbers.NatInt.NZOrder <> n:66 var
+R8866:8866 Stdlib.Numbers.NatInt.NZOrder <> m:67 var
+R8872:8875 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R8876:8876 Stdlib.Numbers.NatInt.NZOrder <> m:67 var
+R8871:8871 Stdlib.Numbers.NatInt.NZOrder <> n:66 var
+R8908:8918 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_gt_cases thm
+prf 8957:8967 NZOrderProp lt_gt_cases
+binder 8978:8978 <> n:68
+binder 8980:8980 <> m:69
+R8989:8993 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8984:8987 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8983:8983 Stdlib.Numbers.NatInt.NZOrder <> n:68 var
+R8988:8988 Stdlib.Numbers.NatInt.NZOrder <> m:69 var
+R8999:9002 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8995:8997 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8994:8994 Stdlib.Numbers.NatInt.NZOrder <> n:68 var
+R8998:8998 Stdlib.Numbers.NatInt.NZOrder <> m:69 var
+R9004:9006 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R9007:9007 Stdlib.Numbers.NatInt.NZOrder <> m:69 var
+R9003:9003 Stdlib.Numbers.NatInt.NZOrder <> n:68 var
+R9039:9051 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+prf 9414:9425 NZOrderProp eq_decidable
+binder 9436:9436 <> n:70
+binder 9438:9438 <> m:71
+R9441:9449 Stdlib.Logic.Decidable <> decidable def
+R9453:9456 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9452:9452 Stdlib.Numbers.NatInt.NZOrder <> n:70 var
+R9457:9457 Stdlib.Numbers.NatInt.NZOrder <> m:71 var
+R9490:9502 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+prf 9624:9629 NZOrderProp eq_dne
+binder 9640:9640 <> n:72
+binder 9642:9642 <> m:73
+R9655:9659 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9645:9646 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9647:9648 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9650:9653 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9649:9649 Stdlib.Numbers.NatInt.NZOrder <> n:72 var
+R9654:9654 Stdlib.Numbers.NatInt.NZOrder <> m:73 var
+R9661:9664 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9660:9660 Stdlib.Numbers.NatInt.NZOrder <> n:72 var
+R9665:9665 Stdlib.Numbers.NatInt.NZOrder <> m:73 var
+R9715:9726 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_decidable thm
+prf 9821:9826 NZOrderProp le_ngt
+binder 9837:9837 <> n:74
+binder 9839:9839 <> m:75
+R9848:9852 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9843:9846 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9842:9842 Stdlib.Numbers.NatInt.NZOrder <> n:74 var
+R9847:9847 Stdlib.Numbers.NatInt.NZOrder <> m:75 var
+R9853:9854 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9856:9858 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R9859:9859 Stdlib.Numbers.NatInt.NZOrder <> m:75 var
+R9855:9855 Stdlib.Numbers.NatInt.NZOrder <> n:74 var
+prf 9929:9934 NZOrderProp nlt_ge
+binder 9945:9945 <> n:76
+binder 9947:9947 <> m:77
+R9957:9961 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9950:9951 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9953:9955 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R9952:9952 Stdlib.Numbers.NatInt.NZOrder <> n:76 var
+R9956:9956 Stdlib.Numbers.NatInt.NZOrder <> m:77 var
+R9963:9966 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R9967:9967 Stdlib.Numbers.NatInt.NZOrder <> m:77 var
+R9962:9962 Stdlib.Numbers.NatInt.NZOrder <> n:76 var
+prf 10008:10019 NZOrderProp lt_decidable
+binder 10030:10030 <> n:78
+binder 10032:10032 <> m:79
+R10035:10043 Stdlib.Logic.Decidable <> decidable def
+R10047:10049 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10046:10046 Stdlib.Numbers.NatInt.NZOrder <> n:78 var
+R10050:10050 Stdlib.Numbers.NatInt.NZOrder <> m:79 var
+R10083:10093 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_gt_cases thm
+prf 10136:10141 NZOrderProp lt_dne
+binder 10152:10152 <> n:80
+binder 10154:10154 <> m:81
+R10166:10170 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10157:10158 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10159:10160 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10162:10164 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10161:10161 Stdlib.Numbers.NatInt.NZOrder <> n:80 var
+R10165:10165 Stdlib.Numbers.NatInt.NZOrder <> m:81 var
+R10172:10174 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10171:10171 Stdlib.Numbers.NatInt.NZOrder <> n:80 var
+R10175:10175 Stdlib.Numbers.NatInt.NZOrder <> m:81 var
+R10225:10236 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_decidable thm
+prf 10330:10335 NZOrderProp nle_gt
+binder 10346:10346 <> n:82
+binder 10348:10348 <> m:83
+R10359:10363 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10351:10352 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10354:10357 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10353:10353 Stdlib.Numbers.NatInt.NZOrder <> n:82 var
+R10358:10358 Stdlib.Numbers.NatInt.NZOrder <> m:83 var
+R10365:10367 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R10368:10368 Stdlib.Numbers.NatInt.NZOrder <> m:83 var
+R10364:10364 Stdlib.Numbers.NatInt.NZOrder <> n:82 var
+prf 10438:10443 NZOrderProp lt_nge
+binder 10454:10454 <> n:84
+binder 10456:10456 <> m:85
+R10464:10468 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10460:10462 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10459:10459 Stdlib.Numbers.NatInt.NZOrder <> n:84 var
+R10463:10463 Stdlib.Numbers.NatInt.NZOrder <> m:85 var
+R10469:10470 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10472:10475 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R10476:10476 Stdlib.Numbers.NatInt.NZOrder <> m:85 var
+R10471:10471 Stdlib.Numbers.NatInt.NZOrder <> n:84 var
+prf 10517:10528 NZOrderProp le_decidable
+binder 10539:10539 <> n:86
+binder 10541:10541 <> m:87
+R10544:10552 Stdlib.Logic.Decidable <> decidable def
+R10556:10559 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10555:10555 Stdlib.Numbers.NatInt.NZOrder <> n:86 var
+R10560:10560 Stdlib.Numbers.NatInt.NZOrder <> m:87 var
+R10593:10603 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_gt_cases thm
+prf 10646:10651 NZOrderProp le_dne
+binder 10662:10662 <> n:88
+binder 10664:10664 <> m:89
+R10677:10681 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10667:10668 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10669:10670 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10672:10675 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10671:10671 Stdlib.Numbers.NatInt.NZOrder <> n:88 var
+R10676:10676 Stdlib.Numbers.NatInt.NZOrder <> m:89 var
+R10683:10686 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10682:10682 Stdlib.Numbers.NatInt.NZOrder <> n:88 var
+R10687:10687 Stdlib.Numbers.NatInt.NZOrder <> m:89 var
+R10737:10748 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_decidable thm
+prf 10842:10851 NZOrderProp nlt_succ_r
+binder 10862:10862 <> n:90
+binder 10864:10864 <> m:91
+R10876:10880 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10867:10868 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10870:10872 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10869:10869 Stdlib.Numbers.NatInt.NZOrder <> m:91 var
+R10873:10873 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R10875:10875 Stdlib.Numbers.NatInt.NZOrder <> n:90 var
+R10882:10884 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10881:10881 Stdlib.Numbers.NatInt.NZOrder <> n:90 var
+R10885:10885 Stdlib.Numbers.NatInt.NZOrder <> m:91 var
+R10915:10923 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+prf 11322:11335 NZOrderProp lt_exists_pred
+binder 11348:11348 <> z:92
+binder 11350:11350 <> n:93
+R11358:11361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11354:11356 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11353:11353 Stdlib.Numbers.NatInt.NZOrder <> z:92 var
+R11357:11357 Stdlib.Numbers.NatInt.NZOrder <> n:93 var
+R11362:11368 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11370:11371 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11369:11369 <> k:94
+R11380:11383 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11373:11376 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11372:11372 Stdlib.Numbers.NatInt.NZOrder <> n:93 var
+R11377:11377 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R11379:11379 Stdlib.Numbers.NatInt.NZOrder <> k:94 var
+R11385:11388 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11384:11384 Stdlib.Numbers.NatInt.NZOrder <> z:92 var
+R11389:11389 Stdlib.Numbers.NatInt.NZOrder <> k:94 var
+R11423:11429 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11431:11432 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11430:11430 <> m:95
+R11434:11437 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11438:11438 Stdlib.Numbers.NatInt.NZOrder <> m:95 var
+binder 11430:11430 <> m:96
+R11438:11438 Stdlib.Numbers.NatInt.NZOrder <> m:96 var
+R11557:11565 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_r thm
+R11657:11665 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R11724:11735 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_le_succ_r thm
+prf 11750:11761 NZOrderProp lt_succ_pred
+binder 11772:11772 <> z:97
+binder 11774:11774 <> n:98
+R11782:11785 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11778:11780 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11777:11777 Stdlib.Numbers.NatInt.NZOrder <> z:97 var
+R11781:11781 Stdlib.Numbers.NatInt.NZOrder <> n:98 var
+R11793:11796 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11786:11786 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R11789:11789 Stdlib.Numbers.NatInt.NZOrder NZ P abbrev
+R11791:11791 Stdlib.Numbers.NatInt.NZOrder <> n:98 var
+R11797:11797 Stdlib.Numbers.NatInt.NZOrder <> n:98 var
+R11833:11846 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_exists_pred thm
+R11899:11907 Stdlib.Numbers.NatInt.NZOrder NZ pred_succ prfax
+sec 11968:11969 NZOrderProp WF
+var 11982:11982 NZOrderProp.WF z
+R11986:11986 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+var 11994:11996 NZOrderProp.WF Rlt
+R12005:12005 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 11999:11999 <> n:101
+binder 12001:12001 <> m:102
+R12012:12015 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R12017:12019 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R12011:12011 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.z var
+R12016:12016 Stdlib.Numbers.NatInt.NZOrder <> n:101 var
+R12020:12020 Stdlib.Numbers.NatInt.NZOrder <> m:102 var
+var 12027:12029 NZOrderProp.WF Rgt
+R12038:12038 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 12032:12032 <> n:103
+binder 12034:12034 <> m:104
+R12045:12047 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R12049:12052 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R12044:12044 Stdlib.Numbers.NatInt.NZOrder <> m:104 var
+R12048:12048 Stdlib.Numbers.NatInt.NZOrder <> n:103 var
+R12053:12053 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.z var
+inst 12066:12071 NZOrderProp Rlt_wd
+R12075:12080 Corelib.Classes.Morphisms <> Proper class
+R12102:12104 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.Rlt var
+R12085:12089 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12083:12084 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R12092:12096 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12090:12091 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R12097:12099 Corelib.Init.Logic <> iff def
+R12147:12149 Stdlib.Numbers.NatInt.NZOrder <> Rlt vardef
+inst 12187:12192 NZOrderProp Rgt_wd
+R12196:12201 Corelib.Classes.Morphisms <> Proper class
+R12223:12225 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.Rgt var
+R12206:12210 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12204:12205 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R12213:12217 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12211:12212 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R12218:12220 Corelib.Init.Logic <> iff def
+R12268:12270 Stdlib.Numbers.NatInt.NZOrder <> Rgt vardef
+prf 12307:12311 NZOrderProp lt_wf
+R12315:12326 Corelib.Init.Wf <> well_founded def
+R12328:12330 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.Rlt var
+R12381:12397 Stdlib.Numbers.NatInt.NZOrder NZBase central_induction thm
+R12403:12403 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.z var
+R12508:12518 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R12498:12506 Stdlib.Numbers.NatInt.NZOrder NZ lt_succ_r prfax
+R12586:12597 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_lt_succ_r thm
+prf 12629:12633 NZOrderProp gt_wf
+R12637:12648 Corelib.Init.Wf <> well_founded def
+R12650:12652 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.Rgt var
+R12703:12719 Stdlib.Numbers.NatInt.NZOrder NZBase central_induction thm
+R12725:12725 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.WF.z var
+R12811:12819 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_l thm
+R12875:12885 Stdlib.Numbers.NatInt.NZOrder NZ lt_eq_cases prfax
+R12865:12873 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R12944:12945 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.WF <> sec
+sec 13053:13061 NZOrderProp Induction
+var 13074:13074 NZOrderProp.Induction A
+R13079:13082 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13078:13078 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+var 13100:13103 NZOrderProp.Induction A_wd
+R13107:13112 Corelib.Classes.Morphisms <> Proper class
+R13125:13125 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13117:13119 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13115:13116 Stdlib.Numbers.NatInt.NZOrder NZ eq defax
+R13120:13122 Corelib.Init.Logic <> iff def
+sec 13137:13142 NZOrderProp.Induction Center
+var 13155:13155 NZOrderProp.Induction.Center z
+R13159:13159 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+sec 13207:13220 NZOrderProp.Induction.Center RightInduction
+var 13228:13229 NZOrderProp.Induction.Center.RightInduction A'
+R13236:13236 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 13232:13232 <> n:111
+binder 13249:13249 <> m:112
+R13258:13261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13253:13256 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13252:13252 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13257:13257 Stdlib.Numbers.NatInt.NZOrder <> m:112 var
+R13267:13270 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13263:13265 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13262:13262 Stdlib.Numbers.NatInt.NZOrder <> m:112 var
+R13266:13266 Stdlib.Numbers.NatInt.NZOrder <> n:111 var
+R13271:13271 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13273:13273 Stdlib.Numbers.NatInt.NZOrder <> m:112 var
+var 13280:13289 NZOrderProp.Induction.Center.RightInduction right_step
+binder 13303:13303 <> n:113
+R13312:13315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13307:13310 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13306:13306 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13311:13311 Stdlib.Numbers.NatInt.NZOrder <> n:113 var
+R13319:13322 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13316:13316 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13318:13318 Stdlib.Numbers.NatInt.NZOrder <> n:113 var
+R13323:13323 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13326:13326 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R13328:13328 Stdlib.Numbers.NatInt.NZOrder <> n:113 var
+var 13336:13346 NZOrderProp.Induction.Center.RightInduction right_step'
+binder 13359:13359 <> n:114
+R13368:13371 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13363:13366 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13362:13362 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13367:13367 Stdlib.Numbers.NatInt.NZOrder <> n:114 var
+R13376:13379 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13372:13373 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.A' var
+R13375:13375 Stdlib.Numbers.NatInt.NZOrder <> n:114 var
+R13380:13380 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13382:13382 Stdlib.Numbers.NatInt.NZOrder <> n:114 var
+var 13389:13400 NZOrderProp.Induction.Center.RightInduction right_step''
+binder 13412:13412 <> n:115
+R13419:13423 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R13415:13416 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.A' var
+R13418:13418 Stdlib.Numbers.NatInt.NZOrder <> n:115 var
+R13424:13425 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.A' var
+R13428:13428 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R13430:13430 Stdlib.Numbers.NatInt.NZOrder <> n:115 var
+prf 13443:13464 NZOrderProp strong_right_induction
+R13478:13481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13467:13477 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.right_step' var
+binder 13489:13489 <> n:116
+R13498:13501 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13493:13496 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13492:13492 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13497:13497 Stdlib.Numbers.NatInt.NZOrder <> n:116 var
+R13502:13502 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13504:13504 Stdlib.Numbers.NatInt.NZOrder <> n:116 var
+R13536:13557 Corelib.Init.Wf <> well_founded_induction thm
+R13560:13564 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_wf thm
+R13566:13566 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+prf 13671:13685 NZOrderProp right_induction
+R13692:13695 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13689:13689 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13691:13691 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13706:13709 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13696:13705 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.right_step var
+binder 13717:13717 <> n:117
+R13726:13729 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13721:13724 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13720:13720 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R13725:13725 Stdlib.Numbers.NatInt.NZOrder <> n:117 var
+R13730:13730 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R13732:13732 Stdlib.Numbers.NatInt.NZOrder <> n:117 var
+R13762:13783 Stdlib.Numbers.NatInt.NZOrder NZOrderProp strong_right_induction thm
+R13822:13835 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_exists_pred thm
+R13944:13957 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_succ_diag_r thm
+prf 14001:14016 NZOrderProp right_induction'
+R14022:14022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14046:14050 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14030:14030 <> n:118
+R14039:14042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14034:14037 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14033:14033 Stdlib.Numbers.NatInt.NZOrder <> n:118 var
+R14038:14038 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14043:14043 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14045:14045 Stdlib.Numbers.NatInt.NZOrder <> n:118 var
+R14061:14064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14051:14060 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.right_step var
+binder 14072:14072 <> n:119
+R14075:14075 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14077:14077 Stdlib.Numbers.NatInt.NZOrder <> n:119 var
+R14111:14123 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+R14127:14127 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14169:14178 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R14202:14211 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R14222:14236 Stdlib.Numbers.NatInt.NZOrder NZOrderProp right_induction thm
+R14262:14271 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R14304:14313 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+prf 14330:14352 NZOrderProp strong_right_induction'
+R14358:14358 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14382:14386 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14366:14366 <> n:120
+R14375:14378 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14370:14373 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14369:14369 Stdlib.Numbers.NatInt.NZOrder <> n:120 var
+R14374:14374 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14379:14379 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14381:14381 Stdlib.Numbers.NatInt.NZOrder <> n:120 var
+R14398:14401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14387:14397 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.RightInduction.right_step' var
+binder 14409:14409 <> n:121
+R14412:14412 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14414:14414 Stdlib.Numbers.NatInt.NZOrder <> n:121 var
+R14448:14460 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+R14464:14464 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14506:14515 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R14539:14548 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R14559:14580 Stdlib.Numbers.NatInt.NZOrder NZOrderProp strong_right_induction thm
+R14611:14620 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R14633:14646 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Induction.Center.RightInduction <> sec
+sec 14658:14670 NZOrderProp.Induction.Center LeftInduction
+var 14678:14679 NZOrderProp.Induction.Center.LeftInduction A'
+R14686:14686 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 14682:14682 <> n:122
+binder 14699:14699 <> m:123
+R14708:14711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14703:14706 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14702:14702 Stdlib.Numbers.NatInt.NZOrder <> m:123 var
+R14707:14707 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14718:14721 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14713:14716 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14712:14712 Stdlib.Numbers.NatInt.NZOrder <> n:122 var
+R14717:14717 Stdlib.Numbers.NatInt.NZOrder <> m:123 var
+R14722:14722 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14724:14724 Stdlib.Numbers.NatInt.NZOrder <> m:123 var
+var 14731:14739 NZOrderProp.Induction.Center.LeftInduction left_step
+binder 14753:14753 <> n:124
+R14761:14764 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14757:14759 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14756:14756 Stdlib.Numbers.NatInt.NZOrder <> n:124 var
+R14760:14760 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14772:14775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14765:14765 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14768:14768 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R14770:14770 Stdlib.Numbers.NatInt.NZOrder <> n:124 var
+R14776:14776 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14778:14778 Stdlib.Numbers.NatInt.NZOrder <> n:124 var
+var 14785:14794 NZOrderProp.Induction.Center.LeftInduction left_step'
+binder 14807:14807 <> n:125
+R14816:14819 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14811:14814 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14810:14810 Stdlib.Numbers.NatInt.NZOrder <> n:125 var
+R14815:14815 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14828:14831 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14820:14821 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.A' var
+R14824:14824 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R14826:14826 Stdlib.Numbers.NatInt.NZOrder <> n:125 var
+R14832:14832 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14834:14834 Stdlib.Numbers.NatInt.NZOrder <> n:125 var
+var 14841:14851 NZOrderProp.Induction.Center.LeftInduction left_step''
+binder 14863:14863 <> n:126
+R14870:14874 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14866:14867 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.A' var
+R14869:14869 Stdlib.Numbers.NatInt.NZOrder <> n:126 var
+R14875:14876 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.A' var
+R14879:14879 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R14881:14881 Stdlib.Numbers.NatInt.NZOrder <> n:126 var
+prf 14894:14914 NZOrderProp strong_left_induction
+R14927:14930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14917:14926 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.left_step' var
+binder 14938:14938 <> n:127
+R14947:14950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14942:14945 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14941:14941 Stdlib.Numbers.NatInt.NZOrder <> n:127 var
+R14946:14946 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R14951:14951 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R14953:14953 Stdlib.Numbers.NatInt.NZOrder <> n:127 var
+R14985:15006 Corelib.Init.Wf <> well_founded_induction thm
+R15009:15013 Stdlib.Numbers.NatInt.NZOrder NZOrderProp gt_wf thm
+R15015:15015 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15079:15087 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+prf 15131:15144 NZOrderProp left_induction
+R15151:15154 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15148:15148 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15150:15150 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15164:15167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15155:15163 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.left_step var
+binder 15175:15175 <> n:128
+R15184:15187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15179:15182 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15178:15178 Stdlib.Numbers.NatInt.NZOrder <> n:128 var
+R15183:15183 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15188:15188 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15190:15190 Stdlib.Numbers.NatInt.NZOrder <> n:128 var
+R15220:15240 Stdlib.Numbers.NatInt.NZOrder NZOrderProp strong_left_induction thm
+R15313:15321 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R15335:15344 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+prf 15386:15400 NZOrderProp left_induction'
+R15406:15406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15430:15434 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 15414:15414 <> n:129
+R15423:15426 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15418:15421 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15417:15417 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15422:15422 Stdlib.Numbers.NatInt.NZOrder <> n:129 var
+R15427:15427 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15429:15429 Stdlib.Numbers.NatInt.NZOrder <> n:129 var
+R15444:15447 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15435:15443 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.left_step var
+binder 15455:15455 <> n:130
+R15458:15458 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15460:15460 Stdlib.Numbers.NatInt.NZOrder <> n:130 var
+R15494:15506 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+R15510:15510 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15539:15552 Stdlib.Numbers.NatInt.NZOrder NZOrderProp left_induction thm
+R15578:15587 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R15620:15629 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R15664:15673 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R15697:15706 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+prf 15723:15744 NZOrderProp strong_left_induction'
+R15750:15750 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15774:15778 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 15758:15758 <> n:131
+R15767:15770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15762:15765 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15761:15761 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15766:15766 Stdlib.Numbers.NatInt.NZOrder <> n:131 var
+R15771:15771 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15773:15773 Stdlib.Numbers.NatInt.NZOrder <> n:131 var
+R15789:15792 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15779:15788 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.LeftInduction.left_step' var
+binder 15800:15800 <> n:132
+R15803:15803 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R15805:15805 Stdlib.Numbers.NatInt.NZOrder <> n:132 var
+R15839:15851 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+R15855:15855 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R15884:15904 Stdlib.Numbers.NatInt.NZOrder NZOrderProp strong_left_induction thm
+R15932:15941 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R15976:15985 Stdlib.Numbers.NatInt.NZOrder NZOrderProp eq_le_incl thm
+R16009:16018 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R16031:16043 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Induction.Center.LeftInduction <> sec
+prf 16055:16069 NZOrderProp order_induction
+R16078:16083 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16075:16075 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16077:16077 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16084:16084 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16119:16125 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16092:16092 <> n:133
+R16101:16104 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16096:16099 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16095:16095 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16100:16100 Stdlib.Numbers.NatInt.NZOrder <> n:133 var
+R16108:16111 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16105:16105 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16107:16107 Stdlib.Numbers.NatInt.NZOrder <> n:133 var
+R16112:16112 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16115:16115 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16117:16117 Stdlib.Numbers.NatInt.NZOrder <> n:133 var
+R16126:16126 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16161:16169 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16134:16134 <> n:134
+R16142:16146 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16138:16140 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R16137:16137 Stdlib.Numbers.NatInt.NZOrder <> n:134 var
+R16141:16141 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16154:16157 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16147:16147 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16150:16150 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16152:16152 Stdlib.Numbers.NatInt.NZOrder <> n:134 var
+R16158:16158 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16160:16160 Stdlib.Numbers.NatInt.NZOrder <> n:134 var
+binder 16177:16177 <> n:135
+R16180:16180 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16182:16182 Stdlib.Numbers.NatInt.NZOrder <> n:135 var
+R16221:16233 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_trichotomy thm
+R16237:16237 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16270:16283 Stdlib.Numbers.NatInt.NZOrder NZOrderProp left_induction thm
+R16297:16306 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+R16339:16353 Stdlib.Numbers.NatInt.NZOrder NZOrderProp right_induction thm
+R16367:16376 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_le_incl thm
+prf 16394:16409 NZOrderProp order_induction'
+R16418:16423 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16415:16415 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16417:16417 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16424:16424 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16459:16465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16432:16432 <> n:136
+R16441:16444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16436:16439 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16435:16435 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16440:16440 Stdlib.Numbers.NatInt.NZOrder <> n:136 var
+R16448:16451 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16445:16445 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16447:16447 Stdlib.Numbers.NatInt.NZOrder <> n:136 var
+R16452:16452 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16455:16455 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16457:16457 Stdlib.Numbers.NatInt.NZOrder <> n:136 var
+R16466:16466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16501:16509 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16474:16474 <> n:137
+R16483:16486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16478:16481 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16477:16477 Stdlib.Numbers.NatInt.NZOrder <> n:137 var
+R16482:16482 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.Center.z var
+R16490:16493 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16487:16487 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16489:16489 Stdlib.Numbers.NatInt.NZOrder <> n:137 var
+R16494:16494 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16497:16497 Stdlib.Numbers.NatInt.NZOrder NZ P abbrev
+R16499:16499 Stdlib.Numbers.NatInt.NZOrder <> n:137 var
+binder 16517:16517 <> n:138
+R16520:16520 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16522:16522 Stdlib.Numbers.NatInt.NZOrder <> n:138 var
+R16557:16571 Stdlib.Numbers.NatInt.NZOrder NZOrderProp order_induction thm
+R16634:16642 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R16658:16666 Stdlib.Numbers.NatInt.NZOrder NZ pred_succ prfax
+R16685:16690 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Induction.Center <> sec
+prf 16702:16718 NZOrderProp order_induction_0
+R16727:16732 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16724:16724 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16733:16733 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16768:16774 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16741:16741 <> n:139
+R16750:16753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16745:16748 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16749:16749 Stdlib.Numbers.NatInt.NZOrder <> n:139 var
+R16757:16760 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16754:16754 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16756:16756 Stdlib.Numbers.NatInt.NZOrder <> n:139 var
+R16761:16761 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16764:16764 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16766:16766 Stdlib.Numbers.NatInt.NZOrder <> n:139 var
+R16775:16775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16810:16818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16783:16783 <> n:140
+R16791:16795 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16787:16789 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R16786:16786 Stdlib.Numbers.NatInt.NZOrder <> n:140 var
+R16803:16806 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16796:16796 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16799:16799 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16801:16801 Stdlib.Numbers.NatInt.NZOrder <> n:140 var
+R16807:16807 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16809:16809 Stdlib.Numbers.NatInt.NZOrder <> n:140 var
+binder 16826:16826 <> n:141
+R16829:16829 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16831:16831 Stdlib.Numbers.NatInt.NZOrder <> n:141 var
+R16848:16862 Stdlib.Numbers.NatInt.NZOrder NZOrderProp order_induction thm
+prf 16882:16899 NZOrderProp order_induction'_0
+R16908:16913 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16905:16905 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16914:16914 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16949:16955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16922:16922 <> n:142
+R16931:16934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16926:16929 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16930:16930 Stdlib.Numbers.NatInt.NZOrder <> n:142 var
+R16938:16941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16935:16935 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16937:16937 Stdlib.Numbers.NatInt.NZOrder <> n:142 var
+R16942:16942 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16945:16945 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R16947:16947 Stdlib.Numbers.NatInt.NZOrder <> n:142 var
+R16956:16956 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16991:16999 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16964:16964 <> n:143
+R16973:16976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16968:16971 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16967:16967 Stdlib.Numbers.NatInt.NZOrder <> n:143 var
+R16980:16983 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16977:16977 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16979:16979 Stdlib.Numbers.NatInt.NZOrder <> n:143 var
+R16984:16984 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R16987:16987 Stdlib.Numbers.NatInt.NZOrder NZ P abbrev
+R16989:16989 Stdlib.Numbers.NatInt.NZOrder <> n:143 var
+binder 17007:17007 <> n:144
+R17010:17010 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17012:17012 Stdlib.Numbers.NatInt.NZOrder <> n:144 var
+R17029:17044 Stdlib.Numbers.NatInt.NZOrder NZOrderProp order_induction' thm
+prf 17102:17107 NZOrderProp lt_ind
+R17123:17123 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 17119:17119 <> n:145
+R17136:17141 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17129:17129 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17132:17132 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R17134:17134 Stdlib.Numbers.NatInt.NZOrder <> n:145 var
+R17142:17142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17176:17183 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 17150:17150 <> m:146
+R17158:17161 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17154:17156 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R17153:17153 Stdlib.Numbers.NatInt.NZOrder <> n:145 var
+R17157:17157 Stdlib.Numbers.NatInt.NZOrder <> m:146 var
+R17165:17168 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17162:17162 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17164:17164 Stdlib.Numbers.NatInt.NZOrder <> m:146 var
+R17169:17169 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17172:17172 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R17174:17174 Stdlib.Numbers.NatInt.NZOrder <> m:146 var
+binder 17191:17191 <> m:147
+R17199:17202 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17195:17197 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R17194:17194 Stdlib.Numbers.NatInt.NZOrder <> n:145 var
+R17198:17198 Stdlib.Numbers.NatInt.NZOrder <> m:147 var
+R17203:17203 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17205:17205 Stdlib.Numbers.NatInt.NZOrder <> m:147 var
+R17264:17264 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R17242:17256 Stdlib.Numbers.NatInt.NZOrder NZOrderProp right_induction thm
+R17296:17304 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+R17352:17360 Stdlib.Numbers.NatInt.NZOrder NZOrderProp le_succ_l thm
+prf 17416:17421 NZOrderProp le_ind
+R17437:17437 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 17433:17433 <> n:148
+R17446:17451 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17443:17443 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17445:17445 Stdlib.Numbers.NatInt.NZOrder <> n:148 var
+R17452:17452 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17487:17494 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 17460:17460 <> m:149
+R17469:17472 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17464:17467 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R17463:17463 Stdlib.Numbers.NatInt.NZOrder <> n:148 var
+R17468:17468 Stdlib.Numbers.NatInt.NZOrder <> m:149 var
+R17476:17479 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17473:17473 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17475:17475 Stdlib.Numbers.NatInt.NZOrder <> m:149 var
+R17480:17480 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17483:17483 Stdlib.Numbers.NatInt.NZOrder NZ S abbrev
+R17485:17485 Stdlib.Numbers.NatInt.NZOrder <> m:149 var
+binder 17502:17502 <> m:150
+R17511:17514 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17506:17509 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R17505:17505 Stdlib.Numbers.NatInt.NZOrder <> n:148 var
+R17510:17510 Stdlib.Numbers.NatInt.NZOrder <> m:150 var
+R17515:17515 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.Induction.A var
+R17517:17517 Stdlib.Numbers.NatInt.NZOrder <> m:150 var
+R17558:17572 Stdlib.Numbers.NatInt.NZOrder NZOrderProp right_induction thm
+R17592:17600 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.Induction <> sec
+R17679:17695 Stdlib.Numbers.NatInt.NZOrder NZOrderProp order_induction_0 thm
+R17785:17799 Stdlib.Numbers.NatInt.NZOrder NZOrderProp order_induction thm
+sec 17874:17889 NZOrderProp MeasureInduction
+var 17902:17902 NZOrderProp.MeasureInduction X
+var 17921:17921 NZOrderProp.MeasureInduction f
+R17926:17929 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17925:17925 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.X var
+R17930:17930 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+prf 17942:17964 NZOrderProp measure_right_induction
+R17981:17984 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17980:17980 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.X var
+binder 17976:17976 <> A:155
+R17996:17996 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 17992:17992 <> z:156
+R18002:18002 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18065:18071 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18010:18010 <> x:157
+R18021:18024 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18014:18017 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18013:18013 Stdlib.Numbers.NatInt.NZOrder <> z:156 var
+R18018:18018 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18020:18020 Stdlib.Numbers.NatInt.NZOrder <> x:157 var
+R18025:18025 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18057:18061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18033:18033 <> y:158
+R18050:18053 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18037:18040 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R18044:18046 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R18036:18036 Stdlib.Numbers.NatInt.NZOrder <> z:156 var
+R18041:18041 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18043:18043 Stdlib.Numbers.NatInt.NZOrder <> y:158 var
+R18047:18047 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18049:18049 Stdlib.Numbers.NatInt.NZOrder <> x:157 var
+R18054:18054 Stdlib.Numbers.NatInt.NZOrder <> A:155 var
+R18056:18056 Stdlib.Numbers.NatInt.NZOrder <> y:158 var
+R18062:18062 Stdlib.Numbers.NatInt.NZOrder <> A:155 var
+R18064:18064 Stdlib.Numbers.NatInt.NZOrder <> x:157 var
+binder 18079:18079 <> x:159
+R18090:18093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18083:18086 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18082:18082 Stdlib.Numbers.NatInt.NZOrder <> z:156 var
+R18087:18087 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18089:18089 Stdlib.Numbers.NatInt.NZOrder <> x:159 var
+R18094:18094 Stdlib.Numbers.NatInt.NZOrder <> A:155 var
+R18096:18096 Stdlib.Numbers.NatInt.NZOrder <> x:159 var
+binder 18149:18149 <> y:160
+R18161:18164 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18155:18157 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18152:18152 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18154:18154 Stdlib.Numbers.NatInt.NZOrder <> y:160 var
+R18158:18158 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18167:18167 Stdlib.Numbers.NatInt.NZOrder <> y:160 var
+binder 18149:18149 <> y:161
+R18154:18154 Stdlib.Numbers.NatInt.NZOrder <> y:161 var
+R18167:18167 Stdlib.Numbers.NatInt.NZOrder <> y:161 var
+R18199:18203 Stdlib.Numbers.NatInt.NZOrder NZOrderProp lt_wf thm
+R18208:18208 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+prf 18325:18346 NZOrderProp measure_left_induction
+R18363:18366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18362:18362 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.X var
+binder 18358:18358 <> A:162
+R18378:18378 Stdlib.Numbers.NatInt.NZOrder NZ t defax
+binder 18374:18374 <> z:163
+R18384:18384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18447:18453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18392:18392 <> x:164
+R18403:18406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18398:18401 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18395:18395 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18397:18397 Stdlib.Numbers.NatInt.NZOrder <> x:164 var
+R18402:18402 Stdlib.Numbers.NatInt.NZOrder <> z:163 var
+R18407:18407 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18439:18443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18415:18415 <> y:165
+R18432:18435 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18421:18423 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R18427:18430 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R18418:18418 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18420:18420 Stdlib.Numbers.NatInt.NZOrder <> x:164 var
+R18424:18424 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18426:18426 Stdlib.Numbers.NatInt.NZOrder <> y:165 var
+R18431:18431 Stdlib.Numbers.NatInt.NZOrder <> z:163 var
+R18436:18436 Stdlib.Numbers.NatInt.NZOrder <> A:162 var
+R18438:18438 Stdlib.Numbers.NatInt.NZOrder <> y:165 var
+R18444:18444 Stdlib.Numbers.NatInt.NZOrder <> A:162 var
+R18446:18446 Stdlib.Numbers.NatInt.NZOrder <> x:164 var
+binder 18461:18461 <> x:166
+R18472:18475 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18467:18470 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18464:18464 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18466:18466 Stdlib.Numbers.NatInt.NZOrder <> x:166 var
+R18471:18471 Stdlib.Numbers.NatInt.NZOrder <> z:163 var
+R18476:18476 Stdlib.Numbers.NatInt.NZOrder <> A:162 var
+R18478:18478 Stdlib.Numbers.NatInt.NZOrder <> x:166 var
+binder 18531:18531 <> y:167
+R18543:18546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18537:18539 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18534:18534 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18536:18536 Stdlib.Numbers.NatInt.NZOrder <> y:167 var
+R18540:18540 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18549:18549 Stdlib.Numbers.NatInt.NZOrder <> y:167 var
+binder 18531:18531 <> y:168
+R18536:18536 Stdlib.Numbers.NatInt.NZOrder <> y:168 var
+R18549:18549 Stdlib.Numbers.NatInt.NZOrder <> y:168 var
+R18581:18585 Stdlib.Numbers.NatInt.NZOrder NZOrderProp gt_wf thm
+R18590:18590 Stdlib.Numbers.NatInt.NZOrder <> NZOrderProp.MeasureInduction.f var
+R18705:18720 Stdlib.Numbers.NatInt.NZOrder NZOrderProp.MeasureInduction <> sec
+R18728:18738 Stdlib.Numbers.NatInt.NZOrder NZOrderProp <> modtype

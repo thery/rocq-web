@@ -1,0 +1,147 @@
+DIGEST 4d32e5fb6de9ec21f69354db29862a10
+FStdlib.Array.PArray
+R27:32 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R62:70 Stdlib.Array.PrimArray <> <> lib
+R72:82 Stdlib.Array.ArrayAxioms <> <> lib
+abbrev 163:167 <> array
+R172:186 Corelib.Array.PrimArray <> array prim
+abbrev 213:216 <> make
+R221:234 Corelib.Array.PrimArray <> make prim
+abbrev 261:263 <> get
+R268:280 Corelib.Array.PrimArray <> get prim
+abbrev 307:313 <> default
+R318:334 Corelib.Array.PrimArray <> default prim
+abbrev 361:363 <> set
+R368:380 Corelib.Array.PrimArray <> set prim
+abbrev 407:412 <> length
+R417:432 Corelib.Array.PrimArray <> length prim
+abbrev 459:462 <> copy
+R467:480 Corelib.Array.PrimArray <> copy prim
+abbrev 508:517 <> max_length
+R522:541 Corelib.Array.PrimArray <> max_length prim
+abbrev 569:585 <> get_out_of_bounds
+R590:618 Corelib.Array.ArrayAxioms <> get_out_of_bounds prfax
+abbrev 645:656 <> get_set_same
+R661:684 Corelib.Array.ArrayAxioms <> get_set_same prfax
+abbrev 711:723 <> get_set_other
+R728:752 Corelib.Array.ArrayAxioms <> get_set_other prfax
+abbrev 779:789 <> default_set
+R794:816 Corelib.Array.ArrayAxioms <> default_set prfax
+abbrev 843:850 <> get_make
+R855:874 Corelib.Array.ArrayAxioms <> get_make prfax
+abbrev 901:910 <> leb_length
+R915:936 Corelib.Array.ArrayAxioms <> leb_length prfax
+abbrev 963:973 <> length_make
+R978:1000 Corelib.Array.ArrayAxioms <> length_make prfax
+abbrev 1027:1036 <> length_set
+R1041:1062 Corelib.Array.ArrayAxioms <> length_set prfax
+abbrev 1089:1096 <> get_copy
+R1101:1120 Corelib.Array.ArrayAxioms <> get_copy prfax
+abbrev 1147:1157 <> length_copy
+R1162:1184 Corelib.Array.ArrayAxioms <> length_copy prfax
+abbrev 1211:1219 <> array_ext
+R1224:1244 Corelib.Array.ArrayAxioms <> array_ext prfax
+prf 1283:1294 <> default_copy
+binder 1296:1296 <> A:1
+R1301:1305 Stdlib.Array.PArray <> array abbrev
+R1307:1307 Stdlib.Array.PArray <> A:1 var
+binder 1299:1299 <> t:2
+R1328:1330 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1312:1318 Stdlib.Array.PArray <> default abbrev
+R1321:1324 Stdlib.Array.PArray <> copy abbrev
+R1326:1326 Stdlib.Array.PArray <> t:2 var
+R1331:1337 Stdlib.Array.PArray <> default abbrev
+R1339:1339 Stdlib.Array.PArray <> t:2 var
+R1368:1368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1389:1392 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1377:1380 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R1369:1374 Stdlib.Array.PArray <> length abbrev
+R1381:1386 Stdlib.Array.PArray <> length abbrev
+R1393:1397 Corelib.Init.Datatypes <> false constr
+R1417:1427 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltbP thm
+R1430:1435 Stdlib.Array.PArray <> length abbrev
+R1441:1446 Stdlib.Array.PArray <> length abbrev
+R1490:1507 Stdlib.ZArith.BinInt Z lt_irrefl thm
+R1549:1556 Stdlib.Array.PArray <> get_copy abbrev
+R1563:1568 Stdlib.Array.PArray <> length abbrev
+R1586:1602 Stdlib.Array.PArray <> get_out_of_bounds abbrev
+R1643:1653 Stdlib.Array.PArray <> length_copy abbrev
+prf 1680:1691 <> default_make
+binder 1693:1693 <> A:3
+R1700:1700 Stdlib.Array.PArray <> A:3 var
+binder 1696:1696 <> a:4
+binder 1703:1706 <> size:5
+R1731:1733 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1710:1716 Stdlib.Array.PArray <> default abbrev
+R1719:1722 Stdlib.Array.PArray <> make abbrev
+R1729:1729 Stdlib.Array.PArray <> a:4 var
+R1724:1727 Stdlib.Array.PArray <> size:5 var
+R1734:1734 Stdlib.Array.PArray <> a:4 var
+R1763:1763 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1808:1811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1784:1787 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R1764:1769 Stdlib.Array.PArray <> length abbrev
+R1772:1775 Stdlib.Array.PArray <> make abbrev
+R1788:1793 Stdlib.Array.PArray <> length abbrev
+R1796:1799 Stdlib.Array.PArray <> make abbrev
+R1812:1816 Corelib.Init.Datatypes <> false constr
+R1836:1846 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltbP thm
+R1849:1854 Stdlib.Array.PArray <> length abbrev
+R1857:1860 Stdlib.Array.PArray <> make abbrev
+R1872:1877 Stdlib.Array.PArray <> length abbrev
+R1880:1883 Stdlib.Array.PArray <> make abbrev
+R1933:1950 Stdlib.ZArith.BinInt Z lt_irrefl thm
+R1992:1999 Stdlib.Array.PArray <> get_make abbrev
+R2011:2016 Stdlib.Array.PArray <> length abbrev
+R2019:2022 Stdlib.Array.PArray <> make abbrev
+R2046:2062 Stdlib.Array.PArray <> get_out_of_bounds abbrev
+prf 2101:2120 <> get_set_same_default
+binder 2122:2122 <> A:6
+R2129:2133 Stdlib.Array.PArray <> array abbrev
+R2135:2135 Stdlib.Array.PArray <> A:6 var
+binder 2125:2125 <> t:7
+R2143:2145 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 2139:2139 <> i:8
+R2174:2176 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2170:2171 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_']' not
+R2173:2173 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_']' not
+R2153:2154 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_'<-'_x_']' not
+R2156:2159 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_'<-'_x_']' not
+R2169:2169 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_'<-'_x_']' not
+R2152:2152 Stdlib.Array.PArray <> t:7 var
+R2155:2155 Stdlib.Array.PArray <> i:8 var
+R2160:2166 Stdlib.Array.PArray <> default abbrev
+R2168:2168 Stdlib.Array.PArray <> t:7 var
+R2172:2172 Stdlib.Array.PArray <> i:8 var
+R2177:2183 Stdlib.Array.PArray <> default abbrev
+R2185:2185 Stdlib.Array.PArray <> t:7 var
+R2206:2209 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R2210:2215 Stdlib.Array.PArray <> length abbrev
+R2240:2251 Stdlib.Array.PArray <> get_set_same abbrev
+R2274:2290 Stdlib.Array.PArray <> get_out_of_bounds abbrev
+R2293:2303 Stdlib.Array.PArray <> default_set abbrev
+R2326:2335 Stdlib.Array.PArray <> length_set abbrev
+prf 2359:2376 <> get_not_default_lt
+binder 2378:2378 <> A:9
+R2383:2387 Stdlib.Array.PArray <> array abbrev
+R2389:2389 Stdlib.Array.PArray <> A:9 var
+binder 2381:2381 <> t:10
+binder 2392:2392 <> x:11
+R2415:2418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2402:2405 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2398:2399 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_']' not
+R2401:2401 Corelib.Array.PrimArray PArrayNotations :::x_'.['_x_']' not
+R2397:2397 Stdlib.Array.PArray <> t:10 var
+R2400:2400 Stdlib.Array.PArray <> x:11 var
+R2406:2412 Stdlib.Array.PArray <> default abbrev
+R2414:2414 Stdlib.Array.PArray <> t:10 var
+R2419:2419 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2433:2436 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2421:2424 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R2420:2420 Stdlib.Array.PArray <> x:11 var
+R2425:2430 Stdlib.Array.PArray <> length abbrev
+R2432:2432 Stdlib.Array.PArray <> t:10 var
+R2437:2440 Corelib.Init.Datatypes <> true constr
+R2473:2476 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R2477:2482 Stdlib.Array.PArray <> length abbrev
+R2532:2548 Stdlib.Array.PArray <> get_out_of_bounds abbrev

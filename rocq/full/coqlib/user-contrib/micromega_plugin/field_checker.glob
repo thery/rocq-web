@@ -1,0 +1,954 @@
+DIGEST 562afccf16de5b5b3242ea980a296005
+Fmicromega_plugin.field_checker
+R713:718 micromega_plugin.PosDef <> <> lib
+R758:763 micromega_plugin.NatDef <> <> lib
+R794:799 Corelib.BinNums.IntDef <> <> lib
+R839:850 micromega_plugin.ring_checker <> <> lib
+ind 1035:1039 <> FExpr
+constr 1057:1059 <> FEO
+constr 1071:1073 <> FEI
+constr 1085:1087 <> FEc
+constr 1104:1106 <> FEX
+constr 1130:1134 <> FEadd
+constr 1164:1168 <> FEsub
+constr 1198:1202 <> FEmul
+constr 1232:1236 <> FEopp
+constr 1257:1261 <> FEinv
+constr 1282:1286 <> FEdiv
+constr 1316:1320 <> FEpow
+binder 1042:1042 <> C:1
+R1063:1067 micromega_plugin.field_checker <> FExpr:2 ind
+R1077:1081 micromega_plugin.field_checker <> FExpr:2 ind
+R1092:1095 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1091:1091 micromega_plugin.field_checker <> C:1 var
+R1096:1100 micromega_plugin.field_checker <> FExpr:2 ind
+R1118:1121 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1110:1117 Corelib.Numbers.BinNums <> positive ind
+R1122:1126 micromega_plugin.field_checker <> FExpr:2 ind
+R1143:1146 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1138:1142 micromega_plugin.field_checker <> FExpr:2 ind
+R1152:1155 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1147:1151 micromega_plugin.field_checker <> FExpr:2 ind
+R1156:1160 micromega_plugin.field_checker <> FExpr:2 ind
+R1177:1180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1172:1176 micromega_plugin.field_checker <> FExpr:2 ind
+R1186:1189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1181:1185 micromega_plugin.field_checker <> FExpr:2 ind
+R1190:1194 micromega_plugin.field_checker <> FExpr:2 ind
+R1211:1214 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1206:1210 micromega_plugin.field_checker <> FExpr:2 ind
+R1220:1223 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1215:1219 micromega_plugin.field_checker <> FExpr:2 ind
+R1224:1228 micromega_plugin.field_checker <> FExpr:2 ind
+R1245:1248 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1240:1244 micromega_plugin.field_checker <> FExpr:2 ind
+R1249:1253 micromega_plugin.field_checker <> FExpr:2 ind
+R1270:1273 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1265:1269 micromega_plugin.field_checker <> FExpr:2 ind
+R1274:1278 micromega_plugin.field_checker <> FExpr:2 ind
+R1295:1298 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1290:1294 micromega_plugin.field_checker <> FExpr:2 ind
+R1304:1307 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1299:1303 micromega_plugin.field_checker <> FExpr:2 ind
+R1308:1312 micromega_plugin.field_checker <> FExpr:2 ind
+R1329:1332 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1324:1328 micromega_plugin.field_checker <> FExpr:2 ind
+R1334:1337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1333:1333 Corelib.Numbers.BinNums <> N ind
+R1338:1342 micromega_plugin.field_checker <> FExpr:2 ind
+scheme 1035:1039 <> FExpr_rect
+scheme 1035:1039 <> FExpr_ind
+scheme 1035:1039 <> FExpr_rec
+scheme 1035:1039 <> FExpr_sind
+R1355:1359 micromega_plugin.field_checker <> FExpr ind
+sec 1389:1400 <> FieldChecker
+var 1414:1414 FieldChecker C
+var 1425:1426 FieldChecker cO
+var 1428:1429 FieldChecker cI
+var 1437:1440 FieldChecker cadd
+var 1442:1445 FieldChecker cmul
+var 1447:1450 FieldChecker csub
+var 1468:1471 FieldChecker copp
+R1433:1433 micromega_plugin.field_checker <> C:5 var
+R1455:1458 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1454:1454 micromega_plugin.field_checker <> C:5 var
+R1460:1463 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1459:1459 micromega_plugin.field_checker <> C:5 var
+R1464:1464 micromega_plugin.field_checker <> C:5 var
+R1476:1479 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1475:1475 micromega_plugin.field_checker <> C:5 var
+R1480:1480 micromega_plugin.field_checker <> C:5 var
+var 1495:1501 FieldChecker pow_pos
+R1506:1509 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1505:1505 micromega_plugin.field_checker <> FieldChecker.C var
+R1518:1521 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1510:1517 Corelib.Numbers.BinNums <> positive ind
+R1522:1522 micromega_plugin.field_checker <> FieldChecker.C var
+var 1537:1540 FieldChecker ceqb
+var 1561:1564 FieldChecker cdiv
+R1545:1548 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1544:1544 micromega_plugin.field_checker <> FieldChecker.C var
+R1550:1553 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1549:1549 micromega_plugin.field_checker <> FieldChecker.C var
+R1554:1557 Corelib.Init.Datatypes <> bool ind
+R1569:1572 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1568:1568 micromega_plugin.field_checker <> FieldChecker.C var
+R1574:1577 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1573:1573 micromega_plugin.field_checker <> FieldChecker.C var
+R1579:1581 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1578:1578 micromega_plugin.field_checker <> FieldChecker.C var
+R1582:1582 micromega_plugin.field_checker <> FieldChecker.C var
+def 1759:1764 <> NPEadd
+binder 1766:1767 <> e1:24
+binder 1769:1770 <> e2:25
+R1787:1788 micromega_plugin.field_checker <> e2:25 var
+R1783:1784 micromega_plugin.field_checker <> e1:24 var
+R1799:1801 micromega_plugin.ring_checker <> PEc constr
+R1807:1809 micromega_plugin.ring_checker <> PEc constr
+R1817:1819 micromega_plugin.ring_checker <> PEc constr
+R1822:1825 micromega_plugin.field_checker <> FieldChecker.cadd var
+R1838:1840 micromega_plugin.ring_checker <> PEc constr
+R1853:1856 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R1860:1861 micromega_plugin.field_checker <> FieldChecker.cO var
+R1876:1880 micromega_plugin.ring_checker <> PEadd constr
+R1885:1886 micromega_plugin.field_checker <> e2:25 var
+R1882:1883 micromega_plugin.field_checker <> e1:24 var
+R1868:1869 micromega_plugin.field_checker <> e2:25 var
+R1896:1898 micromega_plugin.ring_checker <> PEc constr
+R1908:1911 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R1915:1916 micromega_plugin.field_checker <> FieldChecker.cO var
+R1931:1935 micromega_plugin.ring_checker <> PEadd constr
+R1940:1941 micromega_plugin.field_checker <> e2:25 var
+R1937:1938 micromega_plugin.field_checker <> e1:24 var
+R1923:1924 micromega_plugin.field_checker <> e1:24 var
+R1955:1959 micromega_plugin.ring_checker <> PEadd constr
+R1964:1965 micromega_plugin.field_checker <> e2:25 var
+R1961:1962 micromega_plugin.field_checker <> e1:24 var
+def 2058:2063 <> NPEsub
+binder 2065:2066 <> e1:28
+binder 2068:2069 <> e2:29
+R2086:2087 micromega_plugin.field_checker <> e2:29 var
+R2082:2083 micromega_plugin.field_checker <> e1:28 var
+R2098:2100 micromega_plugin.ring_checker <> PEc constr
+R2106:2108 micromega_plugin.ring_checker <> PEc constr
+R2116:2118 micromega_plugin.ring_checker <> PEc constr
+R2121:2124 micromega_plugin.field_checker <> FieldChecker.csub var
+R2137:2139 micromega_plugin.ring_checker <> PEc constr
+R2152:2155 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R2159:2160 micromega_plugin.field_checker <> FieldChecker.cO var
+R2181:2185 micromega_plugin.ring_checker <> PEsub constr
+R2190:2191 micromega_plugin.field_checker <> e2:29 var
+R2187:2188 micromega_plugin.field_checker <> e1:28 var
+R2167:2171 micromega_plugin.ring_checker <> PEopp constr
+R2173:2174 micromega_plugin.field_checker <> e2:29 var
+R2201:2203 micromega_plugin.ring_checker <> PEc constr
+R2213:2216 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R2220:2221 micromega_plugin.field_checker <> FieldChecker.cO var
+R2236:2240 micromega_plugin.ring_checker <> PEsub constr
+R2245:2246 micromega_plugin.field_checker <> e2:29 var
+R2242:2243 micromega_plugin.field_checker <> e1:28 var
+R2228:2229 micromega_plugin.field_checker <> e1:28 var
+R2260:2264 micromega_plugin.ring_checker <> PEsub constr
+R2269:2270 micromega_plugin.field_checker <> e2:29 var
+R2266:2267 micromega_plugin.field_checker <> e1:28 var
+def 2351:2356 <> NPEopp
+binder 2358:2358 <> e:32
+R2369:2369 micromega_plugin.field_checker <> e:32 var
+R2376:2378 micromega_plugin.ring_checker <> PEc constr
+R2385:2387 micromega_plugin.ring_checker <> PEc constr
+R2390:2393 micromega_plugin.field_checker <> FieldChecker.copp var
+R2405:2409 micromega_plugin.ring_checker <> PEopp constr
+R2411:2411 micromega_plugin.field_checker <> e:32 var
+def 2496:2501 <> NPEpow
+binder 2503:2503 <> x:34
+binder 2505:2505 <> n:35
+R2518:2518 micromega_plugin.field_checker <> n:35 var
+R2529:2530 Corelib.Numbers.BinNums <> N0 constr
+R2535:2537 micromega_plugin.ring_checker <> PEc constr
+R2539:2540 micromega_plugin.field_checker <> FieldChecker.cI var
+R2546:2549 Corelib.Numbers.BinNums <> Npos constr
+R2565:2571 Corelib.BinNums.PosDef Pos eqb def
+R2575:2576 Corelib.Numbers.BinNums <> xH constr
+R2604:2604 micromega_plugin.field_checker <> x:34 var
+R2621:2623 micromega_plugin.ring_checker <> PEc constr
+R2645:2648 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R2652:2653 micromega_plugin.field_checker <> FieldChecker.cI var
+R2675:2678 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R2682:2683 micromega_plugin.field_checker <> FieldChecker.cO var
+R2714:2716 micromega_plugin.ring_checker <> PEc constr
+R2719:2725 micromega_plugin.field_checker <> FieldChecker.pow_pos var
+R2690:2692 micromega_plugin.ring_checker <> PEc constr
+R2694:2695 micromega_plugin.field_checker <> FieldChecker.cO var
+R2660:2662 micromega_plugin.ring_checker <> PEc constr
+R2664:2665 micromega_plugin.field_checker <> FieldChecker.cI var
+R2747:2751 micromega_plugin.ring_checker <> PEpow constr
+R2755:2755 micromega_plugin.field_checker <> n:35 var
+R2753:2753 micromega_plugin.field_checker <> x:34 var
+R2583:2583 micromega_plugin.field_checker <> x:34 var
+def 2858:2863 <> NPEmul
+R2872:2876 micromega_plugin.ring_checker <> PExpr ind
+R2878:2878 micromega_plugin.field_checker <> FieldChecker.C var
+binder 2866:2866 <> x:38
+binder 2868:2868 <> y:39
+R2894:2898 micromega_plugin.ring_checker <> PExpr ind
+R2900:2900 micromega_plugin.field_checker <> FieldChecker.C var
+R2916:2916 micromega_plugin.field_checker <> y:39 var
+R2913:2913 micromega_plugin.field_checker <> x:38 var
+R2927:2929 micromega_plugin.ring_checker <> PEc constr
+R2935:2937 micromega_plugin.ring_checker <> PEc constr
+R2945:2947 micromega_plugin.ring_checker <> PEc constr
+R2950:2953 micromega_plugin.field_checker <> FieldChecker.cmul var
+R2966:2968 micromega_plugin.ring_checker <> PEc constr
+R2981:2984 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R2988:2989 micromega_plugin.field_checker <> FieldChecker.cI var
+R3006:3009 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R3013:3014 micromega_plugin.field_checker <> FieldChecker.cO var
+R3030:3034 micromega_plugin.ring_checker <> PEmul constr
+R3038:3038 micromega_plugin.field_checker <> y:39 var
+R3036:3036 micromega_plugin.field_checker <> x:38 var
+R3021:3023 micromega_plugin.ring_checker <> PEO constr
+R2996:2996 micromega_plugin.field_checker <> y:39 var
+R3047:3049 micromega_plugin.ring_checker <> PEc constr
+R3059:3062 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R3066:3067 micromega_plugin.field_checker <> FieldChecker.cI var
+R3084:3087 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R3091:3092 micromega_plugin.field_checker <> FieldChecker.cO var
+R3108:3112 micromega_plugin.ring_checker <> PEmul constr
+R3116:3116 micromega_plugin.field_checker <> y:39 var
+R3114:3114 micromega_plugin.field_checker <> x:38 var
+R3099:3101 micromega_plugin.ring_checker <> PEO constr
+R3074:3074 micromega_plugin.field_checker <> x:38 var
+R3122:3126 micromega_plugin.ring_checker <> PEpow constr
+R3135:3139 micromega_plugin.ring_checker <> PEpow constr
+R3159:3163 micromega_plugin.NatDef N eqb def
+R3206:3210 micromega_plugin.ring_checker <> PEmul constr
+R3214:3214 micromega_plugin.field_checker <> y:39 var
+R3212:3212 micromega_plugin.field_checker <> x:38 var
+R3176:3181 micromega_plugin.field_checker <> NPEpow def
+R3184:3189 micromega_plugin.field_checker <> NPEmul:40 def
+R3228:3232 micromega_plugin.ring_checker <> PEmul constr
+R3236:3236 micromega_plugin.field_checker <> y:39 var
+R3234:3234 micromega_plugin.field_checker <> x:38 var
+def 3314:3321 <> PExpr_eq
+R3331:3335 micromega_plugin.ring_checker <> PExpr ind
+R3337:3337 micromega_plugin.field_checker <> FieldChecker.C var
+binder 3324:3324 <> e:43
+binder 3326:3327 <> e':44
+R3353:3356 Corelib.Init.Datatypes <> bool ind
+R3372:3373 micromega_plugin.field_checker <> e':44 var
+R3369:3369 micromega_plugin.field_checker <> e:43 var
+R3384:3386 micromega_plugin.ring_checker <> PEO constr
+R3389:3391 micromega_plugin.ring_checker <> PEO constr
+R3395:3397 micromega_plugin.ring_checker <> PEI constr
+R3400:3402 micromega_plugin.ring_checker <> PEI constr
+R3407:3410 Corelib.Init.Datatypes <> true constr
+R3416:3418 micromega_plugin.ring_checker <> PEc constr
+R3423:3425 micromega_plugin.ring_checker <> PEc constr
+R3433:3436 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R3447:3449 micromega_plugin.ring_checker <> PEX constr
+R3456:3458 micromega_plugin.ring_checker <> PEX constr
+R3468:3474 Corelib.BinNums.PosDef Pos eqb def
+R3485:3489 micromega_plugin.ring_checker <> PEadd constr
+R3498:3502 micromega_plugin.ring_checker <> PEadd constr
+R3515:3518 Corelib.Init.Datatypes <> andb def
+R3539:3546 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3521:3528 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3560:3564 micromega_plugin.ring_checker <> PEsub constr
+R3573:3577 micromega_plugin.ring_checker <> PEsub constr
+R3590:3593 Corelib.Init.Datatypes <> andb def
+R3614:3621 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3596:3603 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3635:3639 micromega_plugin.ring_checker <> PEmul constr
+R3648:3652 micromega_plugin.ring_checker <> PEmul constr
+R3665:3668 Corelib.Init.Datatypes <> andb def
+R3689:3696 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3671:3678 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3710:3714 micromega_plugin.ring_checker <> PEopp constr
+R3719:3723 micromega_plugin.ring_checker <> PEopp constr
+R3731:3738 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3742:3743 micromega_plugin.field_checker <> e':44 var
+R3740:3740 micromega_plugin.field_checker <> e:43 var
+R3749:3753 micromega_plugin.ring_checker <> PEpow constr
+R3760:3764 micromega_plugin.ring_checker <> PEpow constr
+R3775:3778 Corelib.Init.Datatypes <> andb def
+R3794:3801 micromega_plugin.field_checker <> PExpr_eq:45 def
+R3805:3806 micromega_plugin.field_checker <> e':44 var
+R3803:3803 micromega_plugin.field_checker <> e:43 var
+R3781:3785 micromega_plugin.NatDef N eqb def
+R3821:3825 Corelib.Init.Datatypes <> false constr
+def 4043:4054 <> default_isIn
+binder 4056:4057 <> e1:48
+binder 4059:4060 <> p1:49
+binder 4062:4063 <> e2:50
+binder 4065:4066 <> p2:51
+R4076:4083 micromega_plugin.field_checker <> PExpr_eq def
+R4088:4089 micromega_plugin.field_checker <> e2:50 var
+R4085:4086 micromega_plugin.field_checker <> e1:48 var
+R4256:4259 Corelib.Init.Datatypes <> None constr
+R4106:4114 Corelib.BinNums.IntDef Z pos_sub def
+R4116:4117 micromega_plugin.field_checker <> p1:49 var
+R4119:4120 micromega_plugin.field_checker <> p2:51 var
+R4133:4136 Corelib.Numbers.BinNums <> Zpos constr
+R4143:4146 Corelib.Init.Datatypes <> Some constr
+R4148:4148 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4155:4156 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4163:4163 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4149:4152 Corelib.Numbers.BinNums <> Npos constr
+R4157:4159 micromega_plugin.ring_checker <> PEc constr
+R4161:4162 micromega_plugin.field_checker <> FieldChecker.cI var
+R4171:4172 Corelib.Numbers.BinNums <> Z0 constr
+R4177:4180 Corelib.Init.Datatypes <> Some constr
+R4182:4182 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4185:4186 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4193:4193 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4183:4184 Corelib.Numbers.BinNums <> N0 constr
+R4187:4189 micromega_plugin.ring_checker <> PEc constr
+R4191:4192 micromega_plugin.field_checker <> FieldChecker.cI var
+R4201:4204 Corelib.Numbers.BinNums <> Zneg constr
+R4211:4214 Corelib.Init.Datatypes <> Some constr
+R4216:4216 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4219:4220 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4239:4239 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4217:4218 Corelib.Numbers.BinNums <> N0 constr
+R4221:4226 micromega_plugin.field_checker <> NPEpow def
+R4232:4235 Corelib.Numbers.BinNums <> Npos constr
+R4228:4229 micromega_plugin.field_checker <> e2:50 var
+def 4461:4464 <> isIn
+binder 4466:4467 <> e1:52
+binder 4469:4470 <> p1:53
+binder 4472:4473 <> e2:54
+binder 4475:4476 <> p2:55
+R4491:4496 Corelib.Init.Datatypes <> option ind
+R4500:4502 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4499:4499 Corelib.Numbers.BinNums <> N ind
+R4503:4507 micromega_plugin.ring_checker <> PExpr ind
+R4509:4509 micromega_plugin.field_checker <> FieldChecker.C var
+R4523:4524 micromega_plugin.field_checker <> e2:54 var
+R4535:4539 micromega_plugin.ring_checker <> PEmul constr
+R4562:4565 micromega_plugin.field_checker <> isIn:56 def
+R4576:4577 micromega_plugin.field_checker <> p2:55 var
+R4570:4571 micromega_plugin.field_checker <> p1:53 var
+R4567:4568 micromega_plugin.field_checker <> e1:52 var
+R4592:4595 Corelib.Init.Datatypes <> Some constr
+R4597:4597 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4600:4601 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4604:4604 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4598:4599 Corelib.Numbers.BinNums <> N0 constr
+R4609:4612 Corelib.Init.Datatypes <> Some constr
+R4614:4614 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4617:4618 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4650:4650 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4615:4616 Corelib.Numbers.BinNums <> N0 constr
+R4619:4624 micromega_plugin.field_checker <> NPEmul def
+R4630:4635 micromega_plugin.field_checker <> NPEpow def
+R4641:4644 Corelib.Numbers.BinNums <> Npos constr
+R4646:4647 micromega_plugin.field_checker <> p2:55 var
+R4660:4663 Corelib.Init.Datatypes <> Some constr
+R4665:4665 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4672:4673 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4676:4676 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4666:4669 Corelib.Numbers.BinNums <> Npos constr
+R4697:4700 micromega_plugin.field_checker <> isIn:56 def
+R4710:4711 micromega_plugin.field_checker <> p2:55 var
+R4702:4703 micromega_plugin.field_checker <> e1:52 var
+R4730:4733 Corelib.Init.Datatypes <> Some constr
+R4735:4735 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4737:4738 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4741:4741 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4746:4749 Corelib.Init.Datatypes <> Some constr
+R4751:4751 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4753:4754 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4767:4767 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4755:4760 micromega_plugin.field_checker <> NPEmul def
+R4781:4784 Corelib.Init.Datatypes <> None constr
+R4789:4792 Corelib.Init.Datatypes <> Some constr
+R4794:4794 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4801:4802 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4834:4834 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4795:4798 Corelib.Numbers.BinNums <> Npos constr
+R4803:4808 micromega_plugin.field_checker <> NPEmul def
+R4814:4819 micromega_plugin.field_checker <> NPEpow def
+R4825:4828 Corelib.Numbers.BinNums <> Npos constr
+R4830:4831 micromega_plugin.field_checker <> p2:55 var
+R4858:4861 Corelib.Init.Datatypes <> None constr
+R4882:4885 micromega_plugin.field_checker <> isIn:56 def
+R4896:4897 micromega_plugin.field_checker <> p2:55 var
+R4890:4891 micromega_plugin.field_checker <> p1:53 var
+R4887:4888 micromega_plugin.field_checker <> e1:52 var
+R4916:4919 Corelib.Init.Datatypes <> Some constr
+R4921:4921 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4923:4924 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4927:4927 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4932:4935 Corelib.Init.Datatypes <> Some constr
+R4937:4937 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4939:4940 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4972:4972 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4941:4946 micromega_plugin.field_checker <> NPEmul def
+R4949:4954 micromega_plugin.field_checker <> NPEpow def
+R4960:4963 Corelib.Numbers.BinNums <> Npos constr
+R4965:4966 micromega_plugin.field_checker <> p2:55 var
+R4986:4989 Corelib.Init.Datatypes <> None constr
+R4994:4997 Corelib.Init.Datatypes <> None constr
+R5027:5031 micromega_plugin.ring_checker <> PEpow constr
+R5036:5037 Corelib.Numbers.BinNums <> N0 constr
+R5042:5045 Corelib.Init.Datatypes <> None constr
+R5051:5055 micromega_plugin.ring_checker <> PEpow constr
+R5061:5064 Corelib.Numbers.BinNums <> Npos constr
+R5073:5076 micromega_plugin.field_checker <> isIn:56 def
+R5088:5094 Corelib.BinNums.PosDef Pos mul def
+R5099:5100 micromega_plugin.field_checker <> p2:55 var
+R5081:5082 micromega_plugin.field_checker <> p1:53 var
+R5078:5079 micromega_plugin.field_checker <> e1:52 var
+R5112:5123 micromega_plugin.field_checker <> default_isIn def
+R5134:5135 micromega_plugin.field_checker <> p2:55 var
+R5131:5132 micromega_plugin.field_checker <> e2:54 var
+R5128:5129 micromega_plugin.field_checker <> p1:53 var
+R5125:5126 micromega_plugin.field_checker <> e1:52 var
+rec 5152:5157 <> rsplit
+proj 5183:5193 <> rsplit_left
+proj 5208:5220 <> rsplit_common
+proj 5235:5246 <> rsplit_right
+R5197:5201 micromega_plugin.ring_checker <> PExpr ind
+R5203:5203 micromega_plugin.field_checker <> FieldChecker.C var
+R5224:5228 micromega_plugin.ring_checker <> PExpr ind
+R5230:5230 micromega_plugin.field_checker <> FieldChecker.C var
+R5250:5254 micromega_plugin.ring_checker <> PExpr ind
+R5256:5256 micromega_plugin.field_checker <> FieldChecker.C var
+def 5554:5562 <> split_aux
+binder 5564:5565 <> e1:62
+binder 5567:5567 <> p:63
+binder 5569:5570 <> e2:64
+R5586:5591 micromega_plugin.field_checker <> rsplit rec
+R5604:5605 micromega_plugin.field_checker <> e1:62 var
+R5616:5620 micromega_plugin.ring_checker <> PEmul constr
+R5647:5655 micromega_plugin.field_checker <> split_aux:65 def
+R5662:5663 micromega_plugin.field_checker <> e2:64 var
+R5660:5660 micromega_plugin.field_checker <> p:63 var
+binder 5641:5642 <> r1:67
+R5684:5692 micromega_plugin.field_checker <> split_aux:65 def
+R5700:5711 micromega_plugin.field_checker <> rsplit_right proj
+R5713:5714 micromega_plugin.field_checker <> r1:67 var
+R5697:5697 micromega_plugin.field_checker <> p:63 var
+binder 5678:5679 <> r2:68
+R5726:5734 micromega_plugin.field_checker <> mk_rsplit constr
+R5843:5854 micromega_plugin.field_checker <> rsplit_right proj
+R5856:5857 micromega_plugin.field_checker <> r2:68 var
+R5788:5793 micromega_plugin.field_checker <> NPEmul def
+R5815:5827 micromega_plugin.field_checker <> rsplit_common proj
+R5829:5830 micromega_plugin.field_checker <> r2:68 var
+R5796:5808 micromega_plugin.field_checker <> rsplit_common proj
+R5810:5811 micromega_plugin.field_checker <> r1:67 var
+R5737:5742 micromega_plugin.field_checker <> NPEmul def
+R5762:5772 micromega_plugin.field_checker <> rsplit_left proj
+R5774:5775 micromega_plugin.field_checker <> r2:68 var
+R5745:5755 micromega_plugin.field_checker <> rsplit_left proj
+R5757:5758 micromega_plugin.field_checker <> r1:67 var
+R5864:5868 micromega_plugin.ring_checker <> PEpow constr
+R5873:5874 Corelib.Numbers.BinNums <> N0 constr
+R5879:5887 micromega_plugin.field_checker <> mk_rsplit constr
+R5907:5908 micromega_plugin.field_checker <> e2:64 var
+R5899:5901 micromega_plugin.ring_checker <> PEc constr
+R5903:5904 micromega_plugin.field_checker <> FieldChecker.cI var
+R5890:5892 micromega_plugin.ring_checker <> PEc constr
+R5894:5895 micromega_plugin.field_checker <> FieldChecker.cI var
+R5914:5918 micromega_plugin.ring_checker <> PEpow constr
+R5924:5927 Corelib.Numbers.BinNums <> Npos constr
+R5936:5944 micromega_plugin.field_checker <> split_aux:65 def
+R5964:5965 micromega_plugin.field_checker <> e2:64 var
+R5950:5956 Corelib.BinNums.PosDef Pos mul def
+R5961:5961 micromega_plugin.field_checker <> p:63 var
+R5988:5991 micromega_plugin.field_checker <> isIn def
+R6001:6002 Corelib.Numbers.BinNums <> xH constr
+R5998:5999 micromega_plugin.field_checker <> e2:64 var
+R5996:5996 micromega_plugin.field_checker <> p:63 var
+R5993:5994 micromega_plugin.field_checker <> e1:62 var
+R6017:6020 Corelib.Init.Datatypes <> Some constr
+R6022:6022 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6025:6025 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6028:6028 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6023:6024 Corelib.Numbers.BinNums <> N0 constr
+R6033:6041 micromega_plugin.field_checker <> mk_rsplit constr
+R6053:6058 micromega_plugin.field_checker <> NPEpow def
+R6064:6067 Corelib.Numbers.BinNums <> Npos constr
+R6069:6069 micromega_plugin.field_checker <> p:63 var
+R6060:6061 micromega_plugin.field_checker <> e1:62 var
+R6044:6046 micromega_plugin.ring_checker <> PEc constr
+R6048:6049 micromega_plugin.field_checker <> FieldChecker.cI var
+R6084:6087 Corelib.Init.Datatypes <> Some constr
+R6089:6089 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6096:6097 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6100:6100 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6090:6093 Corelib.Numbers.BinNums <> Npos constr
+R6115:6123 micromega_plugin.field_checker <> mk_rsplit constr
+R6147:6152 micromega_plugin.field_checker <> NPEpow def
+R6158:6161 Corelib.Numbers.BinNums <> Npos constr
+R6164:6170 Corelib.BinNums.PosDef Pos sub def
+R6172:6172 micromega_plugin.field_checker <> p:63 var
+R6154:6155 micromega_plugin.field_checker <> e1:62 var
+R6126:6131 micromega_plugin.field_checker <> NPEpow def
+R6137:6140 Corelib.Numbers.BinNums <> Npos constr
+R6133:6134 micromega_plugin.field_checker <> e1:62 var
+R6190:6193 Corelib.Init.Datatypes <> None constr
+R6198:6206 micromega_plugin.field_checker <> mk_rsplit constr
+R6238:6239 micromega_plugin.field_checker <> e2:64 var
+R6230:6232 micromega_plugin.ring_checker <> PEc constr
+R6234:6235 micromega_plugin.field_checker <> FieldChecker.cI var
+R6209:6214 micromega_plugin.field_checker <> NPEpow def
+R6220:6223 Corelib.Numbers.BinNums <> Npos constr
+R6225:6225 micromega_plugin.field_checker <> p:63 var
+R6216:6217 micromega_plugin.field_checker <> e1:62 var
+def 6713:6717 <> split
+binder 6719:6720 <> e1:69
+binder 6722:6723 <> e2:70
+R6728:6736 micromega_plugin.field_checker <> split_aux def
+R6744:6745 micromega_plugin.field_checker <> e2:70 var
+R6741:6742 Corelib.Numbers.BinNums <> xH constr
+R6738:6739 micromega_plugin.field_checker <> e1:69 var
+rec 6756:6761 <> linear
+proj 6787:6789 <> num
+proj 6804:6808 <> denum
+proj 6823:6831 <> condition
+R6793:6797 micromega_plugin.ring_checker <> PExpr ind
+R6799:6799 micromega_plugin.field_checker <> FieldChecker.C var
+R6812:6816 micromega_plugin.ring_checker <> PExpr ind
+R6818:6818 micromega_plugin.field_checker <> FieldChecker.C var
+R6835:6838 Corelib.Init.Datatypes <> list ind
+R6841:6845 micromega_plugin.ring_checker <> PExpr ind
+R6847:6847 micromega_plugin.field_checker <> FieldChecker.C var
+def 7107:7111 <> Fnorm
+R7118:7122 micromega_plugin.field_checker <> FExpr ind
+R7124:7124 micromega_plugin.field_checker <> FieldChecker.C var
+binder 7114:7114 <> e:75
+R7129:7134 micromega_plugin.field_checker <> linear rec
+R7147:7147 micromega_plugin.field_checker <> e:75 var
+R7158:7160 micromega_plugin.field_checker <> FEO constr
+R7165:7173 micromega_plugin.field_checker <> mk_linear constr
+R7193:7195 Corelib.Init.Datatypes <> nil constr
+R7185:7187 micromega_plugin.ring_checker <> PEc constr
+R7189:7190 micromega_plugin.field_checker <> FieldChecker.cI var
+R7176:7178 micromega_plugin.ring_checker <> PEc constr
+R7180:7181 micromega_plugin.field_checker <> FieldChecker.cO var
+R7201:7203 micromega_plugin.field_checker <> FEI constr
+R7208:7216 micromega_plugin.field_checker <> mk_linear constr
+R7236:7238 Corelib.Init.Datatypes <> nil constr
+R7228:7230 micromega_plugin.ring_checker <> PEc constr
+R7232:7233 micromega_plugin.field_checker <> FieldChecker.cI var
+R7219:7221 micromega_plugin.ring_checker <> PEc constr
+R7223:7224 micromega_plugin.field_checker <> FieldChecker.cI var
+R7244:7246 micromega_plugin.field_checker <> FEc constr
+R7253:7261 micromega_plugin.field_checker <> mk_linear constr
+R7280:7282 Corelib.Init.Datatypes <> nil constr
+R7272:7274 micromega_plugin.ring_checker <> PEc constr
+R7276:7277 micromega_plugin.field_checker <> FieldChecker.cI var
+R7264:7266 micromega_plugin.ring_checker <> PEc constr
+R7288:7290 micromega_plugin.field_checker <> FEX constr
+R7297:7305 micromega_plugin.field_checker <> mk_linear constr
+R7326:7328 Corelib.Init.Datatypes <> nil constr
+R7318:7320 micromega_plugin.ring_checker <> PEc constr
+R7322:7323 micromega_plugin.field_checker <> FieldChecker.cI var
+R7308:7310 micromega_plugin.ring_checker <> PEX constr
+R7312:7312 micromega_plugin.field_checker <> FieldChecker.C var
+R7334:7338 micromega_plugin.field_checker <> FEadd constr
+R7364:7368 micromega_plugin.field_checker <> Fnorm:76 def
+binder 7359:7359 <> x:78
+R7391:7395 micromega_plugin.field_checker <> Fnorm:76 def
+binder 7386:7386 <> y:79
+R7418:7422 micromega_plugin.field_checker <> split def
+R7435:7439 micromega_plugin.field_checker <> denum proj
+R7441:7441 micromega_plugin.field_checker <> y:79 var
+R7425:7429 micromega_plugin.field_checker <> denum proj
+R7431:7431 micromega_plugin.field_checker <> x:78 var
+binder 7413:7413 <> s:80
+R7453:7461 micromega_plugin.field_checker <> mk_linear constr
+R7655:7658 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7644:7652 micromega_plugin.field_checker <> condition proj
+R7654:7654 micromega_plugin.field_checker <> x:78 var
+R7659:7667 micromega_plugin.field_checker <> condition proj
+R7669:7669 micromega_plugin.field_checker <> y:79 var
+R7567:7572 micromega_plugin.field_checker <> NPEmul def
+R7591:7596 micromega_plugin.field_checker <> NPEmul def
+R7616:7628 micromega_plugin.field_checker <> rsplit_common proj
+R7630:7630 micromega_plugin.field_checker <> s:80 var
+R7599:7610 micromega_plugin.field_checker <> rsplit_right proj
+R7612:7612 micromega_plugin.field_checker <> s:80 var
+R7575:7585 micromega_plugin.field_checker <> rsplit_left proj
+R7587:7587 micromega_plugin.field_checker <> s:80 var
+R7472:7477 micromega_plugin.field_checker <> NPEadd def
+R7525:7530 micromega_plugin.field_checker <> NPEmul def
+R7541:7551 micromega_plugin.field_checker <> rsplit_left proj
+R7553:7553 micromega_plugin.field_checker <> s:80 var
+R7533:7535 micromega_plugin.field_checker <> num proj
+R7537:7537 micromega_plugin.field_checker <> y:79 var
+R7480:7485 micromega_plugin.field_checker <> NPEmul def
+R7496:7507 micromega_plugin.field_checker <> rsplit_right proj
+R7509:7509 micromega_plugin.field_checker <> s:80 var
+R7488:7490 micromega_plugin.field_checker <> num proj
+R7492:7492 micromega_plugin.field_checker <> x:78 var
+R7676:7680 micromega_plugin.field_checker <> FEsub constr
+R7706:7710 micromega_plugin.field_checker <> Fnorm:76 def
+binder 7701:7701 <> x:81
+R7733:7737 micromega_plugin.field_checker <> Fnorm:76 def
+binder 7728:7728 <> y:82
+R7760:7764 micromega_plugin.field_checker <> split def
+R7777:7781 micromega_plugin.field_checker <> denum proj
+R7783:7783 micromega_plugin.field_checker <> y:82 var
+R7767:7771 micromega_plugin.field_checker <> denum proj
+R7773:7773 micromega_plugin.field_checker <> x:81 var
+binder 7755:7755 <> s:83
+R7795:7803 micromega_plugin.field_checker <> mk_linear constr
+R7997:8000 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7986:7994 micromega_plugin.field_checker <> condition proj
+R7996:7996 micromega_plugin.field_checker <> x:81 var
+R8001:8009 micromega_plugin.field_checker <> condition proj
+R8011:8011 micromega_plugin.field_checker <> y:82 var
+R7909:7914 micromega_plugin.field_checker <> NPEmul def
+R7933:7938 micromega_plugin.field_checker <> NPEmul def
+R7958:7970 micromega_plugin.field_checker <> rsplit_common proj
+R7972:7972 micromega_plugin.field_checker <> s:83 var
+R7941:7952 micromega_plugin.field_checker <> rsplit_right proj
+R7954:7954 micromega_plugin.field_checker <> s:83 var
+R7917:7927 micromega_plugin.field_checker <> rsplit_left proj
+R7929:7929 micromega_plugin.field_checker <> s:83 var
+R7814:7819 micromega_plugin.field_checker <> NPEsub def
+R7867:7872 micromega_plugin.field_checker <> NPEmul def
+R7883:7893 micromega_plugin.field_checker <> rsplit_left proj
+R7895:7895 micromega_plugin.field_checker <> s:83 var
+R7875:7877 micromega_plugin.field_checker <> num proj
+R7879:7879 micromega_plugin.field_checker <> y:82 var
+R7822:7827 micromega_plugin.field_checker <> NPEmul def
+R7838:7849 micromega_plugin.field_checker <> rsplit_right proj
+R7851:7851 micromega_plugin.field_checker <> s:83 var
+R7830:7832 micromega_plugin.field_checker <> num proj
+R7834:7834 micromega_plugin.field_checker <> x:81 var
+R8018:8022 micromega_plugin.field_checker <> FEmul constr
+R8048:8052 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8043:8043 <> x:84
+R8075:8079 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8070:8070 <> y:85
+R8103:8107 micromega_plugin.field_checker <> split def
+R8118:8122 micromega_plugin.field_checker <> denum proj
+R8124:8124 micromega_plugin.field_checker <> y:85 var
+R8110:8112 micromega_plugin.field_checker <> num proj
+R8114:8114 micromega_plugin.field_checker <> x:84 var
+binder 8097:8098 <> s1:86
+R8146:8150 micromega_plugin.field_checker <> split def
+R8161:8165 micromega_plugin.field_checker <> denum proj
+R8167:8167 micromega_plugin.field_checker <> x:84 var
+R8153:8155 micromega_plugin.field_checker <> num proj
+R8157:8157 micromega_plugin.field_checker <> y:85 var
+binder 8140:8141 <> s2:87
+R8179:8187 micromega_plugin.field_checker <> mk_linear constr
+R8305:8308 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8294:8302 micromega_plugin.field_checker <> condition proj
+R8304:8304 micromega_plugin.field_checker <> x:84 var
+R8309:8317 micromega_plugin.field_checker <> condition proj
+R8319:8319 micromega_plugin.field_checker <> y:85 var
+R8241:8246 micromega_plugin.field_checker <> NPEmul def
+R8267:8278 micromega_plugin.field_checker <> rsplit_right proj
+R8280:8281 micromega_plugin.field_checker <> s1:86 var
+R8249:8260 micromega_plugin.field_checker <> rsplit_right proj
+R8262:8263 micromega_plugin.field_checker <> s2:87 var
+R8190:8195 micromega_plugin.field_checker <> NPEmul def
+R8215:8225 micromega_plugin.field_checker <> rsplit_left proj
+R8227:8228 micromega_plugin.field_checker <> s2:87 var
+R8198:8208 micromega_plugin.field_checker <> rsplit_left proj
+R8210:8211 micromega_plugin.field_checker <> s1:86 var
+R8326:8330 micromega_plugin.field_checker <> FEopp constr
+R8353:8357 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8348:8348 <> x:88
+R8371:8379 micromega_plugin.field_checker <> mk_linear constr
+R8409:8417 micromega_plugin.field_checker <> condition proj
+R8419:8419 micromega_plugin.field_checker <> x:88 var
+R8399:8403 micromega_plugin.field_checker <> denum proj
+R8405:8405 micromega_plugin.field_checker <> x:88 var
+R8382:8387 micromega_plugin.field_checker <> NPEopp def
+R8390:8392 micromega_plugin.field_checker <> num proj
+R8394:8394 micromega_plugin.field_checker <> x:88 var
+R8426:8430 micromega_plugin.field_checker <> FEinv constr
+R8453:8457 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8448:8448 <> x:89
+R8471:8479 micromega_plugin.field_checker <> mk_linear constr
+R8505:8508 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8500:8502 micromega_plugin.field_checker <> num proj
+R8504:8504 micromega_plugin.field_checker <> x:89 var
+R8509:8517 micromega_plugin.field_checker <> condition proj
+R8519:8519 micromega_plugin.field_checker <> x:89 var
+R8492:8494 micromega_plugin.field_checker <> num proj
+R8496:8496 micromega_plugin.field_checker <> x:89 var
+R8482:8486 micromega_plugin.field_checker <> denum proj
+R8488:8488 micromega_plugin.field_checker <> x:89 var
+R8526:8530 micromega_plugin.field_checker <> FEdiv constr
+R8556:8560 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8551:8551 <> x:90
+R8583:8587 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8578:8578 <> y:91
+R8611:8615 micromega_plugin.field_checker <> split def
+R8626:8628 micromega_plugin.field_checker <> num proj
+R8630:8630 micromega_plugin.field_checker <> y:91 var
+R8618:8620 micromega_plugin.field_checker <> num proj
+R8622:8622 micromega_plugin.field_checker <> x:90 var
+binder 8605:8606 <> s1:92
+R8652:8656 micromega_plugin.field_checker <> split def
+R8669:8673 micromega_plugin.field_checker <> denum proj
+R8675:8675 micromega_plugin.field_checker <> y:91 var
+R8659:8663 micromega_plugin.field_checker <> denum proj
+R8665:8665 micromega_plugin.field_checker <> x:90 var
+binder 8646:8647 <> s2:93
+R8687:8695 micromega_plugin.field_checker <> mk_linear constr
+R8807:8810 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8802:8804 micromega_plugin.field_checker <> num proj
+R8806:8806 micromega_plugin.field_checker <> y:91 var
+R8822:8825 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8811:8819 micromega_plugin.field_checker <> condition proj
+R8821:8821 micromega_plugin.field_checker <> x:90 var
+R8826:8834 micromega_plugin.field_checker <> condition proj
+R8836:8836 micromega_plugin.field_checker <> y:91 var
+R8750:8755 micromega_plugin.field_checker <> NPEmul def
+R8775:8786 micromega_plugin.field_checker <> rsplit_right proj
+R8788:8789 micromega_plugin.field_checker <> s1:92 var
+R8758:8768 micromega_plugin.field_checker <> rsplit_left proj
+R8770:8771 micromega_plugin.field_checker <> s2:93 var
+R8698:8703 micromega_plugin.field_checker <> NPEmul def
+R8723:8734 micromega_plugin.field_checker <> rsplit_right proj
+R8736:8737 micromega_plugin.field_checker <> s2:93 var
+R8706:8716 micromega_plugin.field_checker <> rsplit_left proj
+R8718:8719 micromega_plugin.field_checker <> s1:92 var
+R8843:8847 micromega_plugin.field_checker <> FEpow constr
+R8872:8876 micromega_plugin.field_checker <> Fnorm:76 def
+binder 8867:8867 <> x:94
+R8890:8898 micromega_plugin.field_checker <> mk_linear constr
+R8941:8949 micromega_plugin.field_checker <> condition proj
+R8951:8951 micromega_plugin.field_checker <> x:94 var
+R8920:8925 micromega_plugin.field_checker <> NPEpow def
+R8928:8932 micromega_plugin.field_checker <> denum proj
+R8934:8934 micromega_plugin.field_checker <> x:94 var
+R8901:8906 micromega_plugin.field_checker <> NPEpow def
+R8909:8911 micromega_plugin.field_checker <> num proj
+R8913:8913 micromega_plugin.field_checker <> x:94 var
+abbrev 8980:8993 <> mk_monpol_list
+R8999:9012 micromega_plugin.ring_checker <> mk_monpol_list def
+R9047:9050 micromega_plugin.field_checker <> FieldChecker.cdiv var
+R9042:9045 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R9037:9040 micromega_plugin.field_checker <> FieldChecker.copp var
+R9032:9035 micromega_plugin.field_checker <> FieldChecker.csub var
+R9027:9030 micromega_plugin.field_checker <> FieldChecker.cmul var
+R9022:9025 micromega_plugin.field_checker <> FieldChecker.cadd var
+R9019:9020 micromega_plugin.field_checker <> FieldChecker.cI var
+R9016:9017 micromega_plugin.field_checker <> FieldChecker.cO var
+abbrev 9072:9083 <> Pol_of_PExpr
+R9089:9100 micromega_plugin.ring_checker <> Pol_of_PExpr def
+R9128:9131 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R9123:9126 micromega_plugin.field_checker <> FieldChecker.copp var
+R9118:9121 micromega_plugin.field_checker <> FieldChecker.csub var
+R9113:9116 micromega_plugin.field_checker <> FieldChecker.cmul var
+R9108:9111 micromega_plugin.field_checker <> FieldChecker.cadd var
+R9105:9106 micromega_plugin.field_checker <> FieldChecker.cI var
+R9102:9103 micromega_plugin.field_checker <> FieldChecker.cO var
+abbrev 9153:9162 <> norm_subst
+R9168:9177 micromega_plugin.ring_checker <> norm_subst def
+R9212:9215 micromega_plugin.field_checker <> FieldChecker.cdiv var
+R9207:9210 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R9202:9205 micromega_plugin.field_checker <> FieldChecker.copp var
+R9197:9200 micromega_plugin.field_checker <> FieldChecker.csub var
+R9192:9195 micromega_plugin.field_checker <> FieldChecker.cmul var
+R9187:9190 micromega_plugin.field_checker <> FieldChecker.cadd var
+R9184:9185 micromega_plugin.field_checker <> FieldChecker.cI var
+R9181:9182 micromega_plugin.field_checker <> FieldChecker.cO var
+def 9711:9723 <> field_checker
+binder 9725:9733 <> cond_norm:95
+binder 9735:9735 <> n:96
+binder 9737:9739 <> lpe:97
+binder 9741:9743 <> fe1:98
+binder 9745:9747 <> fe2:99
+R9751:9756 Corelib.Init.Datatypes <> option ind
+R9759:9762 Corelib.Init.Datatypes <> list ind
+R9765:9769 micromega_plugin.ring_checker <> PExpr ind
+R9771:9771 micromega_plugin.field_checker <> FieldChecker.C var
+R9791:9804 micromega_plugin.field_checker <> mk_monpol_list abbrev
+R9806:9808 micromega_plugin.field_checker <> lpe:97 var
+binder 9784:9786 <> lmp:100
+R9826:9830 micromega_plugin.field_checker <> Fnorm def
+R9832:9834 micromega_plugin.field_checker <> fe1:98 var
+binder 9819:9821 <> ne1:101
+R9852:9856 micromega_plugin.field_checker <> Fnorm def
+R9858:9860 micromega_plugin.field_checker <> fe2:99 var
+binder 9845:9847 <> ne2:102
+R9882:9884 micromega_plugin.ring_checker <> Peq def
+R9953:9962 micromega_plugin.field_checker <> norm_subst abbrev
+R9971:9975 micromega_plugin.ring_checker <> PEmul constr
+R9988:9992 micromega_plugin.field_checker <> denum proj
+R9994:9996 micromega_plugin.field_checker <> ne1:101 var
+R9978:9980 micromega_plugin.field_checker <> num proj
+R9982:9984 micromega_plugin.field_checker <> ne2:102 var
+R9966:9968 micromega_plugin.field_checker <> lmp:100 var
+R9964:9964 micromega_plugin.field_checker <> n:96 var
+R9898:9907 micromega_plugin.field_checker <> norm_subst abbrev
+R9916:9920 micromega_plugin.ring_checker <> PEmul constr
+R9933:9937 micromega_plugin.field_checker <> denum proj
+R9939:9941 micromega_plugin.field_checker <> ne2:102 var
+R9923:9925 micromega_plugin.field_checker <> num proj
+R9927:9929 micromega_plugin.field_checker <> ne1:101 var
+R9911:9913 micromega_plugin.field_checker <> lmp:100 var
+R9909:9909 micromega_plugin.field_checker <> n:96 var
+R9886:9889 micromega_plugin.field_checker <> FieldChecker.ceqb var
+binder 9871:9873 <> res:103
+R10009:10011 micromega_plugin.field_checker <> res:103 var
+R10078:10081 Corelib.Init.Datatypes <> None constr
+R10018:10021 Corelib.Init.Datatypes <> Some constr
+R10024:10032 micromega_plugin.field_checker <> cond_norm:95 var
+R10035:10037 Corelib.Init.Datatypes <> app def
+R10056:10064 micromega_plugin.field_checker <> condition proj
+R10066:10068 micromega_plugin.field_checker <> ne2:102 var
+R10040:10048 micromega_plugin.field_checker <> condition proj
+R10050:10052 micromega_plugin.field_checker <> ne1:101 var
+def 10327:10332 <> Fcons0
+R10339:10343 micromega_plugin.ring_checker <> PExpr ind
+R10345:10345 micromega_plugin.field_checker <> FieldChecker.C var
+binder 10335:10335 <> e:104
+R10353:10356 Corelib.Init.Datatypes <> list ind
+R10359:10363 micromega_plugin.ring_checker <> PExpr ind
+R10365:10365 micromega_plugin.field_checker <> FieldChecker.C var
+binder 10349:10349 <> l:105
+R10391:10391 micromega_plugin.field_checker <> l:105 var
+R10402:10404 Corelib.Init.Datatypes <> nil constr
+R10409:10412 Corelib.Init.Datatypes <> cons constr
+R10416:10418 Corelib.Init.Datatypes <> nil constr
+R10414:10414 micromega_plugin.field_checker <> e:104 var
+R10424:10427 Corelib.Init.Datatypes <> cons constr
+R10446:10448 micromega_plugin.ring_checker <> Peq def
+R10473:10484 micromega_plugin.field_checker <> Pol_of_PExpr abbrev
+R10456:10467 micromega_plugin.field_checker <> Pol_of_PExpr abbrev
+R10469:10469 micromega_plugin.field_checker <> e:104 var
+R10450:10453 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R10507:10510 Corelib.Init.Datatypes <> cons constr
+R10515:10520 micromega_plugin.field_checker <> Fcons0:106 def
+R10522:10522 micromega_plugin.field_checker <> e:104 var
+R10494:10494 micromega_plugin.field_checker <> l:105 var
+def 10654:10660 <> Fcons00
+R10667:10671 micromega_plugin.ring_checker <> PExpr ind
+R10673:10673 micromega_plugin.field_checker <> FieldChecker.C var
+binder 10663:10663 <> e:108
+R10681:10684 Corelib.Init.Datatypes <> list ind
+R10687:10691 micromega_plugin.ring_checker <> PExpr ind
+R10693:10693 micromega_plugin.field_checker <> FieldChecker.C var
+binder 10677:10677 <> l:109
+R10719:10719 micromega_plugin.field_checker <> e:108 var
+R10730:10734 micromega_plugin.ring_checker <> PEmul constr
+R10745:10751 micromega_plugin.field_checker <> Fcons00:110 def
+R10757:10763 micromega_plugin.field_checker <> Fcons00:110 def
+R10768:10768 micromega_plugin.field_checker <> l:109 var
+R10775:10779 micromega_plugin.ring_checker <> PEpow constr
+R10789:10795 micromega_plugin.field_checker <> Fcons00:110 def
+R10800:10800 micromega_plugin.field_checker <> l:109 var
+R10811:10816 micromega_plugin.field_checker <> Fcons0 def
+R10820:10820 micromega_plugin.field_checker <> l:109 var
+R10818:10818 micromega_plugin.field_checker <> e:108 var
+def 10918:10929 <> absurd_PCond
+R10934:10937 Corelib.Init.Datatypes <> cons constr
+R10948:10950 Corelib.Init.Datatypes <> nil constr
+R10940:10942 micromega_plugin.ring_checker <> PEc constr
+R10944:10945 micromega_plugin.field_checker <> FieldChecker.cO var
+def 11041:11046 <> Fcons1
+R11053:11057 micromega_plugin.ring_checker <> PExpr ind
+R11059:11059 micromega_plugin.field_checker <> FieldChecker.C var
+binder 11049:11049 <> e:112
+R11067:11070 Corelib.Init.Datatypes <> list ind
+R11073:11077 micromega_plugin.ring_checker <> PExpr ind
+R11079:11079 micromega_plugin.field_checker <> FieldChecker.C var
+binder 11063:11063 <> l:113
+R11105:11105 micromega_plugin.field_checker <> e:112 var
+R11116:11120 micromega_plugin.ring_checker <> PEmul constr
+R11131:11136 micromega_plugin.field_checker <> Fcons1:114 def
+R11142:11147 micromega_plugin.field_checker <> Fcons1:114 def
+R11152:11152 micromega_plugin.field_checker <> l:113 var
+R11159:11163 micromega_plugin.ring_checker <> PEpow constr
+R11172:11177 micromega_plugin.field_checker <> Fcons1:114 def
+R11181:11181 micromega_plugin.field_checker <> l:113 var
+R11179:11179 micromega_plugin.field_checker <> e:112 var
+R11187:11191 micromega_plugin.ring_checker <> PEopp constr
+R11201:11204 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R11216:11217 micromega_plugin.field_checker <> FieldChecker.cO var
+R11207:11210 micromega_plugin.field_checker <> FieldChecker.copp var
+R11212:11213 micromega_plugin.field_checker <> FieldChecker.cI var
+R11242:11247 micromega_plugin.field_checker <> Fcons1:114 def
+R11251:11251 micromega_plugin.field_checker <> l:113 var
+R11249:11249 micromega_plugin.field_checker <> e:112 var
+R11224:11235 micromega_plugin.field_checker <> absurd_PCond def
+R11257:11259 micromega_plugin.ring_checker <> PEc constr
+R11269:11272 micromega_plugin.field_checker <> FieldChecker.ceqb var
+R11276:11277 micromega_plugin.field_checker <> FieldChecker.cO var
+R11302:11302 micromega_plugin.field_checker <> l:113 var
+R11284:11295 micromega_plugin.field_checker <> absurd_PCond def
+R11313:11318 micromega_plugin.field_checker <> Fcons0 def
+R11322:11322 micromega_plugin.field_checker <> l:113 var
+R11320:11320 micromega_plugin.field_checker <> e:112 var
+def 11409:11414 <> PEsimp
+R11421:11425 micromega_plugin.ring_checker <> PExpr ind
+R11427:11427 micromega_plugin.field_checker <> FieldChecker.C var
+binder 11417:11417 <> e:116
+R11432:11436 micromega_plugin.ring_checker <> PExpr ind
+R11438:11438 micromega_plugin.field_checker <> FieldChecker.C var
+R11451:11451 micromega_plugin.field_checker <> e:116 var
+R11462:11466 micromega_plugin.ring_checker <> PEadd constr
+R11477:11482 micromega_plugin.field_checker <> NPEadd def
+R11497:11502 micromega_plugin.field_checker <> PEsimp:117 def
+R11485:11490 micromega_plugin.field_checker <> PEsimp:117 def
+R11512:11516 micromega_plugin.ring_checker <> PEmul constr
+R11527:11532 micromega_plugin.field_checker <> NPEmul def
+R11547:11552 micromega_plugin.field_checker <> PEsimp:117 def
+R11535:11540 micromega_plugin.field_checker <> PEsimp:117 def
+R11562:11566 micromega_plugin.ring_checker <> PEsub constr
+R11577:11582 micromega_plugin.field_checker <> NPEsub def
+R11597:11602 micromega_plugin.field_checker <> PEsimp:117 def
+R11585:11590 micromega_plugin.field_checker <> PEsimp:117 def
+R11612:11616 micromega_plugin.ring_checker <> PEopp constr
+R11624:11629 micromega_plugin.field_checker <> NPEopp def
+R11632:11637 micromega_plugin.field_checker <> PEsimp:117 def
+R11647:11651 micromega_plugin.ring_checker <> PEpow constr
+R11662:11667 micromega_plugin.field_checker <> NPEpow def
+R11670:11675 micromega_plugin.field_checker <> PEsimp:117 def
+R11693:11693 micromega_plugin.field_checker <> e:116 var
+def 11793:11798 <> Fcons2
+binder 11800:11800 <> e:119
+binder 11802:11802 <> l:120
+R11807:11812 micromega_plugin.field_checker <> Fcons1 def
+R11825:11825 micromega_plugin.field_checker <> l:120 var
+R11815:11820 micromega_plugin.field_checker <> PEsimp def
+R11822:11822 micromega_plugin.field_checker <> e:119 var
+sec 11837:11840 FieldChecker Fapp
+var 11852:11856 FieldChecker.Fapp Fcons
+R11867:11870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11860:11864 micromega_plugin.ring_checker <> PExpr ind
+R11866:11866 micromega_plugin.field_checker <> FieldChecker.C var
+R11885:11888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11871:11874 Corelib.Init.Datatypes <> list ind
+R11877:11881 micromega_plugin.ring_checker <> PExpr ind
+R11883:11883 micromega_plugin.field_checker <> FieldChecker.C var
+R11889:11892 Corelib.Init.Datatypes <> list ind
+R11895:11899 micromega_plugin.ring_checker <> PExpr ind
+R11901:11901 micromega_plugin.field_checker <> FieldChecker.C var
+def 12073:12076 <> Fapp
+R12085:12088 Corelib.Init.Datatypes <> list ind
+R12091:12095 micromega_plugin.ring_checker <> PExpr ind
+R12097:12097 micromega_plugin.field_checker <> FieldChecker.C var
+binder 12079:12079 <> l:123
+binder 12081:12081 <> m:124
+R12114:12117 Corelib.Init.Datatypes <> list ind
+R12120:12124 micromega_plugin.ring_checker <> PExpr ind
+R12126:12126 micromega_plugin.field_checker <> FieldChecker.C var
+R12140:12140 micromega_plugin.field_checker <> l:123 var
+R12147:12149 Corelib.Init.Datatypes <> nil constr
+R12154:12154 micromega_plugin.field_checker <> m:124 var
+R12158:12161 Corelib.Init.Datatypes <> cons constr
+R12171:12175 micromega_plugin.field_checker <> FieldChecker.Fapp.Fcons var
+R12180:12183 micromega_plugin.field_checker <> Fapp:125 def
+R12188:12188 micromega_plugin.field_checker <> m:124 var
+R12200:12203 micromega_plugin.field_checker FieldChecker.Fapp <> sec
+def 12365:12373 <> cond_norm
+binder 12375:12379 <> Fcons:127
+binder 12381:12381 <> l:128
+R12386:12389 micromega_plugin.field_checker <> Fapp def
+R12399:12401 Corelib.Init.Datatypes <> nil constr
+R12397:12397 micromega_plugin.field_checker <> l:128 var
+R12391:12395 micromega_plugin.field_checker <> Fcons:127 var
+R12409:12420 micromega_plugin.field_checker FieldChecker <> sec

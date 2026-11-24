@@ -1,0 +1,164 @@
+DIGEST f6313770e020f2d5f823bbc0928a8b4c
+FStdlib.Sets.Relations_1_facts
+R1850:1860 Stdlib.Sets.Relations_1 <> <> lib
+def 1933:1942 <> Complement
+binder 1945:1945 <> U:1
+R1956:1963 Stdlib.Sets.Relations_1 <> Relation def
+R1965:1965 Stdlib.Sets.Relations_1_facts <> U:1 var
+binder 1954:1954 <> R:2
+R1970:1977 Stdlib.Sets.Relations_1 <> Relation def
+R1979:1979 Stdlib.Sets.Relations_1_facts <> U:1 var
+R1994:1994 Stdlib.Sets.Relations_1_facts <> U:1 var
+binder 1990:1990 <> x:3
+binder 1992:1992 <> y:4
+R1999:2000 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2001:2001 Stdlib.Sets.Relations_1_facts <> R:2 var
+R2003:2003 Stdlib.Sets.Relations_1_facts <> x:3 var
+R2005:2005 Stdlib.Sets.Relations_1_facts <> y:4 var
+prf 2017:2032 <> Rsym_imp_notRsym
+binder 2045:2045 <> U:5
+R2056:2063 Stdlib.Sets.Relations_1 <> Relation def
+R2065:2065 Stdlib.Sets.Relations_1_facts <> U:5 var
+binder 2054:2054 <> R:6
+R2085:2088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2072:2080 Stdlib.Sets.Relations_1 <> Symmetric def
+R2084:2084 Stdlib.Sets.Relations_1_facts <> R:6 var
+R2082:2082 Stdlib.Sets.Relations_1_facts <> U:5 var
+R2089:2097 Stdlib.Sets.Relations_1 <> Symmetric def
+R2102:2111 Stdlib.Sets.Relations_1_facts <> Complement def
+R2113:2113 Stdlib.Sets.Relations_1_facts <> U:5 var
+R2115:2115 Stdlib.Sets.Relations_1_facts <> R:6 var
+R2099:2099 Stdlib.Sets.Relations_1_facts <> U:5 var
+R2133:2141 Stdlib.Sets.Relations_1 <> Symmetric def
+R2144:2153 Stdlib.Sets.Relations_1_facts <> Complement def
+prf 2236:2254 <> Equiv_from_preorder
+binder 2267:2267 <> U:7
+R2278:2285 Stdlib.Sets.Relations_1 <> Relation def
+R2287:2287 Stdlib.Sets.Relations_1_facts <> U:7 var
+binder 2276:2276 <> R:8
+R2306:2309 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2294:2301 Stdlib.Sets.Relations_1 <> Preorder ind
+R2305:2305 Stdlib.Sets.Relations_1_facts <> R:8 var
+R2303:2303 Stdlib.Sets.Relations_1_facts <> U:7 var
+R2310:2320 Stdlib.Sets.Relations_1 <> Equivalence ind
+R2333:2333 Stdlib.Sets.Relations_1_facts <> U:7 var
+binder 2329:2329 <> x:9
+binder 2331:2331 <> y:10
+R2343:2346 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2338:2338 Stdlib.Sets.Relations_1_facts <> R:8 var
+R2340:2340 Stdlib.Sets.Relations_1_facts <> x:9 var
+R2342:2342 Stdlib.Sets.Relations_1_facts <> y:10 var
+R2347:2347 Stdlib.Sets.Relations_1_facts <> R:8 var
+R2349:2349 Stdlib.Sets.Relations_1_facts <> y:10 var
+R2351:2351 Stdlib.Sets.Relations_1_facts <> x:9 var
+R2322:2322 Stdlib.Sets.Relations_1_facts <> U:7 var
+R2408:2432 Stdlib.Sets.Relations_1 <> Definition_of_equivalence constr
+prf 2776:2791 <> Equiv_from_order
+binder 2804:2804 <> U:11
+R2815:2822 Stdlib.Sets.Relations_1 <> Relation def
+R2824:2824 Stdlib.Sets.Relations_1_facts <> U:11 var
+binder 2813:2813 <> R:12
+R2840:2843 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2831:2835 Stdlib.Sets.Relations_1 <> Order ind
+R2839:2839 Stdlib.Sets.Relations_1_facts <> R:12 var
+R2837:2837 Stdlib.Sets.Relations_1_facts <> U:11 var
+R2844:2854 Stdlib.Sets.Relations_1 <> Equivalence ind
+R2867:2867 Stdlib.Sets.Relations_1_facts <> U:11 var
+binder 2863:2863 <> x:13
+binder 2865:2865 <> y:14
+R2877:2880 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2872:2872 Stdlib.Sets.Relations_1_facts <> R:12 var
+R2874:2874 Stdlib.Sets.Relations_1_facts <> x:13 var
+R2876:2876 Stdlib.Sets.Relations_1_facts <> y:14 var
+R2881:2881 Stdlib.Sets.Relations_1_facts <> R:12 var
+R2883:2883 Stdlib.Sets.Relations_1_facts <> y:14 var
+R2885:2885 Stdlib.Sets.Relations_1_facts <> x:13 var
+R2856:2856 Stdlib.Sets.Relations_1_facts <> U:11 var
+prf 3001:3020 <> contains_is_preorder
+binder 3032:3032 <> U:15
+R3040:3047 Stdlib.Sets.Relations_1 <> Preorder ind
+R3063:3070 Stdlib.Sets.Relations_1 <> contains def
+R3072:3072 Stdlib.Sets.Relations_1_facts <> U:15 var
+R3050:3057 Stdlib.Sets.Relations_1 <> Relation def
+R3059:3059 Stdlib.Sets.Relations_1_facts <> U:15 var
+prf 3168:3195 <> same_relation_is_equivalence
+binder 3207:3207 <> U:16
+R3215:3225 Stdlib.Sets.Relations_1 <> Equivalence ind
+R3241:3253 Stdlib.Sets.Relations_1 <> same_relation def
+R3255:3255 Stdlib.Sets.Relations_1_facts <> U:16 var
+R3228:3235 Stdlib.Sets.Relations_1 <> Relation def
+R3237:3237 Stdlib.Sets.Relations_1_facts <> U:16 var
+R3273:3285 Stdlib.Sets.Relations_1 <> same_relation def
+prf 3386:3413 <> cong_reflexive_same_relation
+binder 3426:3426 <> U:17
+R3440:3447 Stdlib.Sets.Relations_1 <> Relation def
+R3449:3449 Stdlib.Sets.Relations_1_facts <> U:17 var
+binder 3435:3435 <> R:18
+binder 3437:3438 <> R':19
+R3476:3479 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3456:3468 Stdlib.Sets.Relations_1 <> same_relation def
+R3472:3472 Stdlib.Sets.Relations_1_facts <> R:18 var
+R3474:3475 Stdlib.Sets.Relations_1_facts <> R':19 var
+R3470:3470 Stdlib.Sets.Relations_1_facts <> U:17 var
+R3493:3496 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3480:3488 Stdlib.Sets.Relations_1 <> Reflexive def
+R3492:3492 Stdlib.Sets.Relations_1_facts <> R:18 var
+R3490:3490 Stdlib.Sets.Relations_1_facts <> U:17 var
+R3497:3505 Stdlib.Sets.Relations_1 <> Reflexive def
+R3509:3510 Stdlib.Sets.Relations_1_facts <> R':19 var
+R3507:3507 Stdlib.Sets.Relations_1_facts <> U:17 var
+R3527:3539 Stdlib.Sets.Relations_1 <> same_relation def
+prf 3567:3594 <> cong_symmetric_same_relation
+binder 3607:3607 <> U:20
+R3621:3628 Stdlib.Sets.Relations_1 <> Relation def
+R3630:3630 Stdlib.Sets.Relations_1_facts <> U:20 var
+binder 3616:3616 <> R:21
+binder 3618:3619 <> R':22
+R3657:3660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3637:3649 Stdlib.Sets.Relations_1 <> same_relation def
+R3653:3653 Stdlib.Sets.Relations_1_facts <> R:21 var
+R3655:3656 Stdlib.Sets.Relations_1_facts <> R':22 var
+R3651:3651 Stdlib.Sets.Relations_1_facts <> U:20 var
+R3674:3677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3661:3669 Stdlib.Sets.Relations_1 <> Symmetric def
+R3673:3673 Stdlib.Sets.Relations_1_facts <> R:21 var
+R3671:3671 Stdlib.Sets.Relations_1_facts <> U:20 var
+R3678:3686 Stdlib.Sets.Relations_1 <> Symmetric def
+R3690:3691 Stdlib.Sets.Relations_1_facts <> R':22 var
+R3688:3688 Stdlib.Sets.Relations_1_facts <> U:20 var
+prf 3814:3845 <> cong_antisymmetric_same_relation
+binder 3858:3858 <> U:23
+R3872:3879 Stdlib.Sets.Relations_1 <> Relation def
+R3881:3881 Stdlib.Sets.Relations_1_facts <> U:23 var
+binder 3867:3867 <> R:24
+binder 3869:3870 <> R':25
+R3908:3911 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3888:3900 Stdlib.Sets.Relations_1 <> same_relation def
+R3904:3904 Stdlib.Sets.Relations_1_facts <> R:24 var
+R3906:3907 Stdlib.Sets.Relations_1_facts <> R':25 var
+R3902:3902 Stdlib.Sets.Relations_1_facts <> U:23 var
+R3929:3932 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3912:3924 Stdlib.Sets.Relations_1 <> Antisymmetric def
+R3928:3928 Stdlib.Sets.Relations_1_facts <> R:24 var
+R3926:3926 Stdlib.Sets.Relations_1_facts <> U:23 var
+R3933:3945 Stdlib.Sets.Relations_1 <> Antisymmetric def
+R3949:3950 Stdlib.Sets.Relations_1_facts <> R':25 var
+R3947:3947 Stdlib.Sets.Relations_1_facts <> U:23 var
+prf 4076:4104 <> cong_transitive_same_relation
+binder 4117:4117 <> U:26
+R4131:4138 Stdlib.Sets.Relations_1 <> Relation def
+R4140:4140 Stdlib.Sets.Relations_1_facts <> U:26 var
+binder 4126:4126 <> R:27
+binder 4128:4129 <> R':28
+R4167:4170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4147:4159 Stdlib.Sets.Relations_1 <> same_relation def
+R4163:4163 Stdlib.Sets.Relations_1_facts <> R:27 var
+R4165:4166 Stdlib.Sets.Relations_1_facts <> R':28 var
+R4161:4161 Stdlib.Sets.Relations_1_facts <> U:26 var
+R4185:4188 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4171:4180 Stdlib.Sets.Relations_1 <> Transitive def
+R4184:4184 Stdlib.Sets.Relations_1_facts <> R:27 var
+R4182:4182 Stdlib.Sets.Relations_1_facts <> U:26 var
+R4189:4198 Stdlib.Sets.Relations_1 <> Transitive def
+R4202:4203 Stdlib.Sets.Relations_1_facts <> R':28 var
+R4200:4200 Stdlib.Sets.Relations_1_facts <> U:26 var

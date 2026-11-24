@@ -1,0 +1,53 @@
+DIGEST 71dbbec49226aaf889bdd7c5384db620
+FStdlib.Arith.Zerob
+R703:712 Stdlib.Arith.Arith_base <> <> lib
+R742:745 Stdlib.Bool.Bool <> <> lib
+def 792:796 <> zerob
+R801:803 Corelib.Init.Datatypes <> nat ind
+binder 799:799 <> n:1
+R808:811 Corelib.Init.Datatypes <> bool ind
+R824:824 Stdlib.Arith.Zerob <> n:1 var
+R837:837 Corelib.Init.Datatypes <> O constr
+R842:845 Corelib.Init.Datatypes <> true constr
+R853:853 Corelib.Init.Datatypes <> S constr
+R860:864 Corelib.Init.Datatypes <> false constr
+prf 880:895 <> zerob_true_intro
+R902:904 Corelib.Init.Datatypes <> nat ind
+binder 898:898 <> n:3
+R914:917 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R910:912 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R909:909 Stdlib.Arith.Zerob <> n:3 var
+R925:927 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R918:922 Stdlib.Arith.Zerob <> zerob def
+R924:924 Stdlib.Arith.Zerob <> n:3 var
+R928:931 Corelib.Init.Datatypes <> true constr
+prf 1051:1065 <> zerob_true_elim
+R1072:1074 Corelib.Init.Datatypes <> nat ind
+binder 1068:1068 <> n:4
+R1093:1096 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1086:1088 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1079:1083 Stdlib.Arith.Zerob <> zerob def
+R1085:1085 Stdlib.Arith.Zerob <> n:4 var
+R1089:1092 Corelib.Init.Datatypes <> true constr
+R1098:1100 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1097:1097 Stdlib.Arith.Zerob <> n:4 var
+prf 1174:1190 <> zerob_false_intro
+R1197:1199 Corelib.Init.Datatypes <> nat ind
+binder 1193:1193 <> n:5
+R1210:1213 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1205:1208 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1204:1204 Stdlib.Arith.Zerob <> n:5 var
+R1221:1223 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1214:1218 Stdlib.Arith.Zerob <> zerob def
+R1220:1220 Stdlib.Arith.Zerob <> n:5 var
+R1224:1228 Corelib.Init.Datatypes <> false constr
+prf 1364:1379 <> zerob_false_elim
+R1386:1388 Corelib.Init.Datatypes <> nat ind
+binder 1382:1382 <> n:6
+R1408:1411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1400:1402 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1393:1397 Stdlib.Arith.Zerob <> zerob def
+R1399:1399 Stdlib.Arith.Zerob <> n:6 var
+R1403:1407 Corelib.Init.Datatypes <> false constr
+R1413:1416 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1412:1412 Stdlib.Arith.Zerob <> n:6 var

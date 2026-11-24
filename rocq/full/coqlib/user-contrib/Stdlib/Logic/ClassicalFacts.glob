@@ -1,0 +1,1495 @@
+DIGEST 191d0454daea2d05ed8d2efc11b4a34a
+FStdlib.Logic.ClassicalFacts
+def 2120:2134 <> prop_degeneracy
+binder 2146:2146 <> A:1
+R2162:2165 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2155:2157 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2154:2154 Stdlib.Logic.ClassicalFacts <> A:1 var
+R2158:2161 Corelib.Init.Logic <> True ind
+R2167:2169 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2166:2166 Stdlib.Logic.ClassicalFacts <> A:1 var
+R2170:2174 Corelib.Init.Logic <> False ind
+def 2261:2279 <> prop_extensionality
+binder 2291:2291 <> A:2
+binder 2293:2293 <> B:3
+R2301:2301 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2309:2313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2303:2307 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2302:2302 Stdlib.Logic.ClassicalFacts <> A:2 var
+R2308:2308 Stdlib.Logic.ClassicalFacts <> B:3 var
+R2315:2317 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2314:2314 Stdlib.Logic.ClassicalFacts <> A:2 var
+R2318:2318 Stdlib.Logic.ClassicalFacts <> B:3 var
+def 2436:2450 <> excluded_middle
+binder 2462:2462 <> A:4
+R2471:2474 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2470:2470 Stdlib.Logic.ClassicalFacts <> A:4 var
+R2475:2476 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2477:2477 Stdlib.Logic.ClassicalFacts <> A:4 var
+prf 2566:2579 <> prop_degen_ext
+R2598:2601 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2583:2597 Stdlib.Logic.ClassicalFacts <> prop_degeneracy def
+R2602:2620 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+binder 2759:2759 <> H:5
+R2764:2764 Stdlib.Logic.ClassicalFacts <> H:5 var
+binder 2759:2759 <> H:6
+R2764:2764 Stdlib.Logic.ClassicalFacts <> H:6 var
+R2803:2803 Corelib.Init.Logic <> I constr
+binder 2849:2849 <> H:7
+R2854:2854 Stdlib.Logic.ClassicalFacts <> H:7 var
+binder 2849:2849 <> H:8
+R2854:2854 Stdlib.Logic.ClassicalFacts <> H:8 var
+R2893:2893 Corelib.Init.Logic <> I constr
+prf 2934:2946 <> prop_degen_em
+R2965:2968 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2950:2964 Stdlib.Logic.ClassicalFacts <> prop_degeneracy def
+R2969:2983 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R3053:3053 Corelib.Init.Logic <> I constr
+binder 3090:3090 <> x:9
+R3095:3095 Stdlib.Logic.ClassicalFacts <> x:9 var
+binder 3090:3090 <> x:10
+R3095:3095 Stdlib.Logic.ClassicalFacts <> x:10 var
+prf 3111:3127 <> prop_ext_em_degen
+R3152:3155 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3133:3151 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R3171:3174 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3156:3170 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R3175:3189 Stdlib.Logic.ClassicalFacts <> prop_degeneracy def
+R3260:3263 Corelib.Init.Logic <> True ind
+R3298:3298 Corelib.Init.Logic <> I constr
+R3349:3353 Corelib.Init.Logic <> False ind
+R3382:3390 Corelib.Init.Logic <> False_ind scheme
+R3534:3556 Stdlib.Logic.PropExtensionalityFacts <> <> lib
+def 3571:3598 <> provable_prop_extensionality
+binder 3610:3610 <> A:11
+R3619:3622 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3618:3618 Stdlib.Logic.ClassicalFacts <> A:11 var
+R3624:3626 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3623:3623 Stdlib.Logic.ClassicalFacts <> A:11 var
+R3627:3630 Corelib.Init.Logic <> True ind
+prf 3640:3656 <> provable_prop_ext
+R3681:3684 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3662:3680 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R3685:3712 Stdlib.Logic.ClassicalFacts <> provable_prop_extensionality def
+R3730:3752 Stdlib.Logic.PropExtensionalityFacts <> PropExt_imp_ProvPropExt thm
+abbrev 4398:4406 <> inhabited
+prf 4438:4458 <> prop_ext_A_eq_A_imp_A
+R4483:4486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4464:4482 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+binder 4494:4494 <> A:12
+R4513:4516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4502:4510 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R4512:4512 Stdlib.Logic.ClassicalFacts <> A:12 var
+R4517:4517 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4524:4527 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4519:4522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4518:4518 Stdlib.Logic.ClassicalFacts <> A:12 var
+R4523:4523 Stdlib.Logic.ClassicalFacts <> A:12 var
+R4528:4528 Stdlib.Logic.ClassicalFacts <> A:12 var
+R4571:4574 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+rec 4649:4655 <> retract
+proj 4681:4682 <> f1
+proj 4694:4695 <> f2
+proj 4707:4713 <> f1_o_f2
+binder 4658:4658 <> A:13
+binder 4660:4660 <> B:14
+R4687:4690 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4686:4686 Stdlib.Logic.ClassicalFacts <> A:13 var
+R4691:4691 Stdlib.Logic.ClassicalFacts <> B:14 var
+R4700:4703 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4699:4699 Stdlib.Logic.ClassicalFacts <> B:14 var
+R4704:4704 Stdlib.Logic.ClassicalFacts <> A:13 var
+R4726:4726 Stdlib.Logic.ClassicalFacts <> B:14 var
+binder 4724:4724 <> x:18
+R4738:4740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4729:4730 Stdlib.Logic.ClassicalFacts <> f1:16 meth
+R4733:4734 Stdlib.Logic.ClassicalFacts <> f2:17 meth
+R4736:4736 Stdlib.Logic.ClassicalFacts <> x:18 var
+R4741:4741 Stdlib.Logic.ClassicalFacts <> x:18 var
+prf 4752:4777 <> prop_ext_retract_A_A_imp_A
+R4802:4805 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4783:4801 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+binder 4813:4813 <> A:20
+R4832:4835 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4821:4829 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R4831:4831 Stdlib.Logic.ClassicalFacts <> A:20 var
+R4836:4842 Stdlib.Logic.ClassicalFacts <> retract rec
+R4844:4844 Stdlib.Logic.ClassicalFacts <> A:20 var
+R4848:4851 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4847:4847 Stdlib.Logic.ClassicalFacts <> A:20 var
+R4852:4852 Stdlib.Logic.ClassicalFacts <> A:20 var
+R4892:4912 Stdlib.Logic.ClassicalFacts <> prop_ext_A_eq_A_imp_A thm
+binder 4938:4938 <> x:21
+R4945:4945 Stdlib.Logic.ClassicalFacts <> x:21 var
+binder 4953:4953 <> x:22
+R4960:4960 Stdlib.Logic.ClassicalFacts <> x:22 var
+binder 4938:4938 <> x:23
+R4945:4945 Stdlib.Logic.ClassicalFacts <> x:23 var
+binder 4953:4953 <> x:24
+R4960:4960 Stdlib.Logic.ClassicalFacts <> x:24 var
+rec 4992:5003 <> has_fixpoint
+proj 5027:5027 <> F
+proj 5046:5048 <> Fix
+binder 5006:5006 <> A:25
+R5031:5031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5038:5042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5033:5036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5032:5032 Stdlib.Logic.ClassicalFacts <> A:25 var
+R5037:5037 Stdlib.Logic.ClassicalFacts <> A:25 var
+R5043:5043 Stdlib.Logic.ClassicalFacts <> A:25 var
+R5062:5065 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5061:5061 Stdlib.Logic.ClassicalFacts <> A:25 var
+R5066:5066 Stdlib.Logic.ClassicalFacts <> A:25 var
+binder 5059:5059 <> f:28
+R5072:5074 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5069:5069 Stdlib.Logic.ClassicalFacts <> F:27 meth
+R5071:5071 Stdlib.Logic.ClassicalFacts <> f:28 var
+R5075:5075 Stdlib.Logic.ClassicalFacts <> f:28 var
+R5078:5078 Stdlib.Logic.ClassicalFacts <> F:27 meth
+R5080:5080 Stdlib.Logic.ClassicalFacts <> f:28 var
+prf 5092:5108 <> ext_prop_fixpoint
+R5133:5136 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5114:5132 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+binder 5144:5144 <> A:30
+R5163:5166 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5152:5160 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R5162:5162 Stdlib.Logic.ClassicalFacts <> A:30 var
+R5167:5178 Stdlib.Logic.ClassicalFacts <> has_fixpoint rec
+R5180:5180 Stdlib.Logic.ClassicalFacts <> A:30 var
+R5216:5241 Stdlib.Logic.ClassicalFacts <> prop_ext_retract_A_A_imp_A thm
+binder 5289:5289 <> f:31
+binder 5299:5299 <> x:32
+R5306:5306 Stdlib.Logic.ClassicalFacts <> f:31 var
+R5312:5312 Stdlib.Logic.ClassicalFacts <> x:32 var
+R5314:5314 Stdlib.Logic.ClassicalFacts <> x:32 var
+binder 5327:5327 <> x:33
+R5332:5332 Stdlib.Logic.ClassicalFacts <> f:31 var
+R5338:5338 Stdlib.Logic.ClassicalFacts <> x:33 var
+R5340:5340 Stdlib.Logic.ClassicalFacts <> x:33 var
+binder 5289:5289 <> f:34
+binder 5299:5299 <> x:35
+R5306:5306 Stdlib.Logic.ClassicalFacts <> f:34 var
+R5312:5312 Stdlib.Logic.ClassicalFacts <> x:35 var
+R5314:5314 Stdlib.Logic.ClassicalFacts <> x:35 var
+binder 5327:5327 <> x:36
+R5332:5332 Stdlib.Logic.ClassicalFacts <> f:34 var
+R5338:5338 Stdlib.Logic.ClassicalFacts <> x:36 var
+R5340:5340 Stdlib.Logic.ClassicalFacts <> x:36 var
+binder 5381:5381 <> x:37
+R5394:5394 Stdlib.Logic.ClassicalFacts <> x:37 var
+R5396:5396 Stdlib.Logic.ClassicalFacts <> x:37 var
+binder 5381:5381 <> x:38
+R5394:5394 Stdlib.Logic.ClassicalFacts <> x:38 var
+R5396:5396 Stdlib.Logic.ClassicalFacts <> x:38 var
+binder 5432:5432 <> x:39
+R5445:5445 Stdlib.Logic.ClassicalFacts <> x:39 var
+R5447:5447 Stdlib.Logic.ClassicalFacts <> x:39 var
+binder 5432:5432 <> x:40
+R5445:5445 Stdlib.Logic.ClassicalFacts <> x:40 var
+R5447:5447 Stdlib.Logic.ClassicalFacts <> x:40 var
+binder 5432:5432 <> x:41
+R5445:5445 Stdlib.Logic.ClassicalFacts <> x:41 var
+R5447:5447 Stdlib.Logic.ClassicalFacts <> x:41 var
+def 5848:5864 <> proof_irrelevance
+binder 5877:5877 <> A:42
+R5892:5892 Stdlib.Logic.ClassicalFacts <> A:42 var
+binder 5886:5887 <> a1:43
+binder 5889:5890 <> a2:44
+R5898:5900 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5896:5897 Stdlib.Logic.ClassicalFacts <> a1:43 var
+R5901:5902 Stdlib.Logic.ClassicalFacts <> a2:44 var
+sec 6321:6341 <> Proof_irrelevance_gen
+var 6356:6359 Proof_irrelevance_gen bool
+var 6380:6383 Proof_irrelevance_gen true
+R6387:6390 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+var 6404:6408 Proof_irrelevance_gen false
+R6412:6415 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+var 6431:6439 Proof_irrelevance_gen bool_elim
+binder 6450:6450 <> C:51
+R6459:6462 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6458:6458 Stdlib.Logic.ClassicalFacts <> C:51 var
+R6464:6467 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6463:6463 Stdlib.Logic.ClassicalFacts <> C:51 var
+R6472:6475 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6468:6471 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6476:6476 Stdlib.Logic.ClassicalFacts <> C:51 var
+var 6496:6509 Proof_irrelevance_gen bool_elim_redl
+binder 6521:6521 <> C:54
+R6536:6536 Stdlib.Logic.ClassicalFacts <> C:54 var
+binder 6530:6531 <> c1:55
+binder 6533:6534 <> c2:56
+R6542:6544 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6540:6541 Stdlib.Logic.ClassicalFacts <> c1:55 var
+R6545:6553 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6555:6555 Stdlib.Logic.ClassicalFacts <> C:54 var
+R6557:6558 Stdlib.Logic.ClassicalFacts <> c1:55 var
+R6560:6561 Stdlib.Logic.ClassicalFacts <> c2:56 var
+R6563:6566 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+var 6586:6599 Proof_irrelevance_gen bool_elim_redr
+binder 6611:6611 <> C:59
+R6626:6626 Stdlib.Logic.ClassicalFacts <> C:59 var
+binder 6620:6621 <> c1:60
+binder 6623:6624 <> c2:61
+R6632:6634 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6630:6631 Stdlib.Logic.ClassicalFacts <> c2:61 var
+R6635:6643 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6645:6645 Stdlib.Logic.ClassicalFacts <> C:59 var
+R6647:6648 Stdlib.Logic.ClassicalFacts <> c1:60 var
+R6650:6651 Stdlib.Logic.ClassicalFacts <> c2:61 var
+R6653:6657 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+var 6666:6683 Proof_irrelevance_gen bool_dep_induction
+R6703:6706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6699:6702 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6697:6697 <> P:64
+R6719:6722 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6713:6713 Stdlib.Logic.ClassicalFacts <> P:64 var
+R6715:6718 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6730:6733 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6723:6723 Stdlib.Logic.ClassicalFacts <> P:64 var
+R6725:6729 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6743:6746 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6741:6741 <> b:65
+R6749:6749 Stdlib.Logic.ClassicalFacts <> P:64 var
+R6751:6751 Stdlib.Logic.ClassicalFacts <> b:65 var
+prf 6763:6765 <> aux
+R6788:6791 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6769:6787 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R6810:6813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6792:6809 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_dep_induction var
+R6818:6820 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6814:6817 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6821:6825 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6867:6883 Stdlib.Logic.ClassicalFacts <> ext_prop_fixpoint thm
+R6889:6892 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6894:6897 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6938:6941 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6936:6936 <> b:66
+R6946:6954 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6956:6959 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6961:6965 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6967:6970 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6972:6972 Stdlib.Logic.ClassicalFacts <> b:66 var
+binder 6936:6936 <> b:67
+R6972:6972 Stdlib.Logic.ClassicalFacts <> b:67 var
+R6992:6998 Corelib.Init.Logic <> eq_refl constr
+R7095:7108 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7110:7113 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7115:7119 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7121:7124 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7146:7148 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7142:7145 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7153:7156 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7200:7213 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7215:7218 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7220:7224 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7226:7229 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7256:7258 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7251:7255 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7259:7263 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+prf 7327:7354 <> ext_prop_dep_proof_irrel_gen
+R7381:7384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7362:7380 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R7403:7406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7385:7402 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_dep_induction var
+R7407:7423 Stdlib.Logic.ClassicalFacts <> proof_irrelevance def
+R7483:7486 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 7481:7481 <> b:68
+R7491:7499 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R7509:7509 Stdlib.Logic.ClassicalFacts <> b:68 var
+binder 7481:7481 <> b:69
+R7509:7509 Stdlib.Logic.ClassicalFacts <> b:69 var
+R7526:7539 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7569:7571 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7565:7568 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7590:7603 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7633:7635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7629:7632 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7638:7642 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7659:7661 Stdlib.Logic.ClassicalFacts <> aux thm
+R7702:7722 Stdlib.Logic.ClassicalFacts Proof_irrelevance_gen <> sec
+sec 7902:7930 <> Proof_irrelevance_Prop_Ext_CC
+def 7947:7951 <> BoolP
+binder 7963:7963 <> C:70
+R7972:7975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7971:7971 Stdlib.Logic.ClassicalFacts <> C:70 var
+R7977:7980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7976:7976 Stdlib.Logic.ClassicalFacts <> C:70 var
+R7981:7981 Stdlib.Logic.ClassicalFacts <> C:70 var
+def 7997:8001 <> TrueP
+R8005:8009 Stdlib.Logic.ClassicalFacts <> BoolP def
+binder 8018:8018 <> C:71
+binder 8020:8021 <> c1:72
+binder 8023:8024 <> c2:73
+R8029:8030 Stdlib.Logic.ClassicalFacts <> c1:72 var
+def 8046:8051 <> FalseP
+R8055:8059 Stdlib.Logic.ClassicalFacts <> BoolP def
+binder 8068:8068 <> C:74
+binder 8070:8071 <> c1:75
+binder 8073:8074 <> c2:76
+R8079:8080 Stdlib.Logic.ClassicalFacts <> c2:76 var
+def 8096:8105 <> BoolP_elim
+binder 8107:8107 <> C:77
+binder 8109:8110 <> c1:78
+binder 8112:8113 <> c2:79
+R8118:8122 Stdlib.Logic.ClassicalFacts <> BoolP def
+binder 8116:8116 <> b:80
+R8128:8128 Stdlib.Logic.ClassicalFacts <> b:80 var
+R8130:8130 Stdlib.Logic.ClassicalFacts <> C:77 var
+R8132:8133 Stdlib.Logic.ClassicalFacts <> c1:78 var
+R8135:8136 Stdlib.Logic.ClassicalFacts <> c2:79 var
+def 8152:8166 <> BoolP_elim_redl
+binder 8169:8169 <> C:81
+R8184:8184 Stdlib.Logic.ClassicalFacts <> C:81 var
+binder 8178:8179 <> c1:82
+binder 8181:8182 <> c2:83
+R8195:8197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8193:8194 Stdlib.Logic.ClassicalFacts <> c1:82 var
+R8198:8207 Stdlib.Logic.ClassicalFacts <> BoolP_elim def
+R8209:8209 Stdlib.Logic.ClassicalFacts <> C:81 var
+R8211:8212 Stdlib.Logic.ClassicalFacts <> c1:82 var
+R8214:8215 Stdlib.Logic.ClassicalFacts <> c2:83 var
+R8217:8221 Stdlib.Logic.ClassicalFacts <> TrueP def
+R8226:8232 Corelib.Init.Logic <> eq_refl constr
+R8234:8235 Stdlib.Logic.ClassicalFacts <> c1:82 var
+def 8251:8265 <> BoolP_elim_redr
+binder 8268:8268 <> C:84
+R8283:8283 Stdlib.Logic.ClassicalFacts <> C:84 var
+binder 8277:8278 <> c1:85
+binder 8280:8281 <> c2:86
+R8294:8296 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8292:8293 Stdlib.Logic.ClassicalFacts <> c2:86 var
+R8297:8306 Stdlib.Logic.ClassicalFacts <> BoolP_elim def
+R8308:8308 Stdlib.Logic.ClassicalFacts <> C:84 var
+R8310:8311 Stdlib.Logic.ClassicalFacts <> c1:85 var
+R8313:8314 Stdlib.Logic.ClassicalFacts <> c2:86 var
+R8316:8321 Stdlib.Logic.ClassicalFacts <> FalseP def
+R8326:8332 Corelib.Init.Logic <> eq_refl constr
+R8334:8335 Stdlib.Logic.ClassicalFacts <> c2:86 var
+def 8352:8370 <> BoolP_dep_induction
+R8393:8396 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8388:8392 Stdlib.Logic.ClassicalFacts <> BoolP def
+binder 8386:8386 <> P:87
+R8410:8413 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8403:8403 Stdlib.Logic.ClassicalFacts <> P:87 var
+R8405:8409 Stdlib.Logic.ClassicalFacts <> TrueP def
+R8422:8425 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8414:8414 Stdlib.Logic.ClassicalFacts <> P:87 var
+R8416:8421 Stdlib.Logic.ClassicalFacts <> FalseP def
+R8435:8439 Stdlib.Logic.ClassicalFacts <> BoolP def
+binder 8433:8433 <> b:88
+R8442:8442 Stdlib.Logic.ClassicalFacts <> P:87 var
+R8444:8444 Stdlib.Logic.ClassicalFacts <> b:88 var
+prf 8456:8482 <> ext_prop_dep_proof_irrel_cc
+R8509:8512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8490:8508 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R8532:8535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8513:8531 Stdlib.Logic.ClassicalFacts <> BoolP_dep_induction def
+R8536:8552 Stdlib.Logic.ClassicalFacts <> proof_irrelevance def
+R8575:8602 Stdlib.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R8656:8670 Stdlib.Logic.ClassicalFacts <> BoolP_elim_redr def
+R8634:8648 Stdlib.Logic.ClassicalFacts <> BoolP_elim_redl def
+R8623:8632 Stdlib.Logic.ClassicalFacts <> BoolP_elim def
+R8616:8621 Stdlib.Logic.ClassicalFacts <> FalseP def
+R8610:8614 Stdlib.Logic.ClassicalFacts <> TrueP def
+R8604:8608 Stdlib.Logic.ClassicalFacts <> BoolP def
+R8686:8714 Stdlib.Logic.ClassicalFacts Proof_irrelevance_Prop_Ext_CC <> sec
+sec 9215:9235 <> Proof_irrelevance_CIC
+ind 9251:9255 <> boolP
+constr 9273:9277 <> trueP
+constr 9293:9298 <> falseP
+R9281:9285 Stdlib.Logic.ClassicalFacts <> boolP:89 ind
+R9302:9306 Stdlib.Logic.ClassicalFacts <> boolP:89 ind
+scheme 9251:9255 <> boolP_ind
+scheme 9251:9255 <> boolP_sind
+def 9322:9336 <> boolP_elim_redl
+binder 9339:9339 <> C:91
+R9354:9354 Stdlib.Logic.ClassicalFacts <> C:91 var
+binder 9348:9349 <> c1:92
+binder 9351:9352 <> c2:93
+R9365:9367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9363:9364 Stdlib.Logic.ClassicalFacts <> c1:92 var
+R9368:9376 Stdlib.Logic.ClassicalFacts <> boolP_ind scheme
+R9378:9378 Stdlib.Logic.ClassicalFacts <> C:91 var
+R9380:9381 Stdlib.Logic.ClassicalFacts <> c1:92 var
+R9383:9384 Stdlib.Logic.ClassicalFacts <> c2:93 var
+R9386:9390 Stdlib.Logic.ClassicalFacts <> trueP constr
+R9395:9401 Corelib.Init.Logic <> eq_refl constr
+R9403:9404 Stdlib.Logic.ClassicalFacts <> c1:92 var
+def 9420:9434 <> boolP_elim_redr
+binder 9437:9437 <> C:94
+R9452:9452 Stdlib.Logic.ClassicalFacts <> C:94 var
+binder 9446:9447 <> c1:95
+binder 9449:9450 <> c2:96
+R9463:9465 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9461:9462 Stdlib.Logic.ClassicalFacts <> c2:96 var
+R9466:9474 Stdlib.Logic.ClassicalFacts <> boolP_ind scheme
+R9476:9476 Stdlib.Logic.ClassicalFacts <> C:94 var
+R9478:9479 Stdlib.Logic.ClassicalFacts <> c1:95 var
+R9481:9482 Stdlib.Logic.ClassicalFacts <> c2:96 var
+R9484:9489 Stdlib.Logic.ClassicalFacts <> falseP constr
+R9494:9500 Corelib.Init.Logic <> eq_refl constr
+R9502:9503 Stdlib.Logic.ClassicalFacts <> c2:96 var
+def 9515:9524 <> boolP_indd
+R9543:9547 Stdlib.Logic.ClassicalFacts <> boolP ind
+prf 9569:9596 <> ext_prop_dep_proof_irrel_cic
+R9619:9622 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9600:9618 Stdlib.Logic.ClassicalFacts <> prop_extensionality def
+R9623:9639 Stdlib.Logic.ClassicalFacts <> proof_irrelevance def
+binder 9666:9667 <> pe:97
+R9678:9705 Stdlib.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R9774:9775 Stdlib.Logic.ClassicalFacts <> pe:97 var
+R9777:9786 Stdlib.Logic.ClassicalFacts <> boolP_indd def
+R9758:9772 Stdlib.Logic.ClassicalFacts <> boolP_elim_redr def
+R9736:9750 Stdlib.Logic.ClassicalFacts <> boolP_elim_redl def
+R9726:9734 Stdlib.Logic.ClassicalFacts <> boolP_ind scheme
+R9719:9724 Stdlib.Logic.ClassicalFacts <> falseP constr
+R9713:9717 Stdlib.Logic.ClassicalFacts <> trueP constr
+R9707:9711 Stdlib.Logic.ClassicalFacts <> boolP ind
+binder 9666:9667 <> pe:98
+R9774:9775 Stdlib.Logic.ClassicalFacts <> pe:98 var
+R9802:9822 Stdlib.Logic.ClassicalFacts Proof_irrelevance_CIC <> sec
+R11213:11219 Stdlib.Logic.Hurkens <> <> lib
+sec 11231:11253 <> Proof_irrelevance_EM_CC
+var 11268:11269 Proof_irrelevance_EM_CC or
+R11277:11280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11285:11288 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+var 11306:11314 Proof_irrelevance_EM_CC or_introl
+binder 11325:11325 <> A:101
+binder 11327:11327 <> B:102
+R11336:11339 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11335:11335 Stdlib.Logic.ClassicalFacts <> A:101 var
+R11340:11341 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11343:11343 Stdlib.Logic.ClassicalFacts <> A:101 var
+R11345:11345 Stdlib.Logic.ClassicalFacts <> B:102 var
+var 11359:11367 Proof_irrelevance_EM_CC or_intror
+binder 11378:11378 <> A:105
+binder 11380:11380 <> B:106
+R11389:11392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11388:11388 Stdlib.Logic.ClassicalFacts <> B:106 var
+R11393:11394 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11396:11396 Stdlib.Logic.ClassicalFacts <> A:105 var
+R11398:11398 Stdlib.Logic.ClassicalFacts <> B:106 var
+var 11414:11420 Proof_irrelevance_EM_CC or_elim
+binder 11431:11431 <> A:109
+binder 11433:11433 <> B:110
+binder 11435:11435 <> C:111
+R11443:11443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11450:11454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11445:11448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11444:11444 Stdlib.Logic.ClassicalFacts <> A:109 var
+R11449:11449 Stdlib.Logic.ClassicalFacts <> C:111 var
+R11455:11455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11462:11466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11457:11460 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11456:11456 Stdlib.Logic.ClassicalFacts <> B:110 var
+R11461:11461 Stdlib.Logic.ClassicalFacts <> C:111 var
+R11473:11476 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11467:11468 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11470:11470 Stdlib.Logic.ClassicalFacts <> A:109 var
+R11472:11472 Stdlib.Logic.ClassicalFacts <> B:110 var
+R11477:11477 Stdlib.Logic.ClassicalFacts <> C:111 var
+var 11497:11508 Proof_irrelevance_EM_CC or_elim_redl
+binder 11524:11524 <> A:114
+binder 11526:11526 <> B:115
+binder 11528:11528 <> C:116
+R11540:11543 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11539:11539 Stdlib.Logic.ClassicalFacts <> A:114 var
+R11544:11544 Stdlib.Logic.ClassicalFacts <> C:116 var
+binder 11537:11537 <> f:117
+R11551:11554 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11550:11550 Stdlib.Logic.ClassicalFacts <> B:115 var
+R11555:11555 Stdlib.Logic.ClassicalFacts <> C:116 var
+binder 11548:11548 <> g:118
+R11561:11561 Stdlib.Logic.ClassicalFacts <> A:114 var
+binder 11559:11559 <> a:119
+R11574:11576 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11571:11571 Stdlib.Logic.ClassicalFacts <> f:117 var
+R11573:11573 Stdlib.Logic.ClassicalFacts <> a:119 var
+R11577:11583 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R11585:11585 Stdlib.Logic.ClassicalFacts <> A:114 var
+R11587:11587 Stdlib.Logic.ClassicalFacts <> B:115 var
+R11589:11589 Stdlib.Logic.ClassicalFacts <> C:116 var
+R11591:11591 Stdlib.Logic.ClassicalFacts <> f:117 var
+R11593:11593 Stdlib.Logic.ClassicalFacts <> g:118 var
+R11596:11604 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_introl var
+R11606:11606 Stdlib.Logic.ClassicalFacts <> A:114 var
+R11608:11608 Stdlib.Logic.ClassicalFacts <> B:115 var
+R11610:11610 Stdlib.Logic.ClassicalFacts <> a:119 var
+var 11631:11642 Proof_irrelevance_EM_CC or_elim_redr
+binder 11658:11658 <> A:122
+binder 11660:11660 <> B:123
+binder 11662:11662 <> C:124
+R11674:11677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11673:11673 Stdlib.Logic.ClassicalFacts <> A:122 var
+R11678:11678 Stdlib.Logic.ClassicalFacts <> C:124 var
+binder 11671:11671 <> f:125
+R11685:11688 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11684:11684 Stdlib.Logic.ClassicalFacts <> B:123 var
+R11689:11689 Stdlib.Logic.ClassicalFacts <> C:124 var
+binder 11682:11682 <> g:126
+R11695:11695 Stdlib.Logic.ClassicalFacts <> B:123 var
+binder 11693:11693 <> b:127
+R11708:11710 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11705:11705 Stdlib.Logic.ClassicalFacts <> g:126 var
+R11707:11707 Stdlib.Logic.ClassicalFacts <> b:127 var
+R11711:11717 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R11719:11719 Stdlib.Logic.ClassicalFacts <> A:122 var
+R11721:11721 Stdlib.Logic.ClassicalFacts <> B:123 var
+R11723:11723 Stdlib.Logic.ClassicalFacts <> C:124 var
+R11725:11725 Stdlib.Logic.ClassicalFacts <> f:125 var
+R11727:11727 Stdlib.Logic.ClassicalFacts <> g:126 var
+R11730:11738 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_intror var
+R11740:11740 Stdlib.Logic.ClassicalFacts <> A:122 var
+R11742:11742 Stdlib.Logic.ClassicalFacts <> B:123 var
+R11744:11744 Stdlib.Logic.ClassicalFacts <> b:127 var
+var 11765:11775 Proof_irrelevance_EM_CC or_dep_elim
+binder 11791:11791 <> A:130
+binder 11793:11793 <> B:131
+R11810:11813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11804:11805 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11807:11807 Stdlib.Logic.ClassicalFacts <> A:130 var
+R11809:11809 Stdlib.Logic.ClassicalFacts <> B:131 var
+binder 11802:11802 <> P:132
+R11827:11827 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11859:11869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11837:11837 Stdlib.Logic.ClassicalFacts <> A:130 var
+binder 11835:11835 <> a:133
+R11840:11840 Stdlib.Logic.ClassicalFacts <> P:132 var
+R11843:11851 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_introl var
+R11853:11853 Stdlib.Logic.ClassicalFacts <> A:130 var
+R11855:11855 Stdlib.Logic.ClassicalFacts <> B:131 var
+R11857:11857 Stdlib.Logic.ClassicalFacts <> a:133 var
+R11870:11870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11902:11906 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11880:11880 Stdlib.Logic.ClassicalFacts <> B:131 var
+binder 11878:11878 <> b:134
+R11883:11883 Stdlib.Logic.ClassicalFacts <> P:132 var
+R11886:11894 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_intror var
+R11896:11896 Stdlib.Logic.ClassicalFacts <> A:130 var
+R11898:11898 Stdlib.Logic.ClassicalFacts <> B:131 var
+R11900:11900 Stdlib.Logic.ClassicalFacts <> b:134 var
+R11916:11917 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11919:11919 Stdlib.Logic.ClassicalFacts <> A:130 var
+R11921:11921 Stdlib.Logic.ClassicalFacts <> B:131 var
+binder 11914:11914 <> b:135
+R11924:11924 Stdlib.Logic.ClassicalFacts <> P:132 var
+R11926:11926 Stdlib.Logic.ClassicalFacts <> b:135 var
+var 11943:11944 Proof_irrelevance_EM_CC em
+binder 11955:11955 <> A:138
+R11963:11964 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11966:11966 Stdlib.Logic.ClassicalFacts <> A:138 var
+R11969:11970 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R11971:11971 Stdlib.Logic.ClassicalFacts <> A:138 var
+var 11986:11986 Proof_irrelevance_EM_CC B
+var 12008:12009 Proof_irrelevance_EM_CC b1
+var 12011:12012 Proof_irrelevance_EM_CC b2
+R12016:12016 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+var 12079:12081 Proof_irrelevance_EM_CC p2b
+binder 12083:12083 <> A:147
+R12088:12094 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R12096:12096 Stdlib.Logic.ClassicalFacts <> A:147 var
+R12099:12100 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12101:12101 Stdlib.Logic.ClassicalFacts <> A:147 var
+R12104:12104 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12116:12117 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12130:12131 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12135:12136 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12138:12138 Stdlib.Logic.ClassicalFacts <> A:147 var
+var 12148:12150 Proof_irrelevance_EM_CC b2p
+binder 12152:12152 <> b:148
+R12159:12161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12157:12158 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12162:12162 Stdlib.Logic.ClassicalFacts <> b:148 var
+prf 12174:12177 <> p2p1
+binder 12188:12188 <> A:149
+R12197:12200 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12196:12196 Stdlib.Logic.ClassicalFacts <> A:149 var
+R12201:12203 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12206:12208 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12210:12210 Stdlib.Logic.ClassicalFacts <> A:149 var
+R12234:12236 Stdlib.Logic.ClassicalFacts <> p2b vardef
+R12277:12278 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12254:12264 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12297:12299 Stdlib.Logic.ClassicalFacts <> b2p vardef
+R12323:12334 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redl var
+R12339:12340 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12344:12344 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12356:12357 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12370:12371 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+prf 12414:12417 <> p2p2
+R12429:12432 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12423:12426 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R12421:12422 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12427:12428 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+binder 12440:12440 <> A:150
+R12459:12462 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12448:12450 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12453:12455 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12457:12457 Stdlib.Logic.ClassicalFacts <> A:150 var
+R12463:12463 Stdlib.Logic.ClassicalFacts <> A:150 var
+R12510:12512 Stdlib.Logic.ClassicalFacts <> p2b vardef
+R12553:12554 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12530:12540 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12573:12575 Stdlib.Logic.ClassicalFacts <> b2p vardef
+R12651:12662 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redr var
+R12667:12668 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12672:12672 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12684:12685 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12698:12699 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+prf 12817:12836 <> proof_irrelevance_cc
+R12842:12844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12840:12841 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12845:12846 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12870:12876 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R12889:12890 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12895:12897 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12893:12894 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12898:12899 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12942:12984 Stdlib.Logic.Hurkens NoRetractFromSmallPropositionToProp paradox thm
+R13005:13008 Stdlib.Logic.ClassicalFacts <> p2p1 thm
+R12997:13000 Stdlib.Logic.ClassicalFacts <> p2p2 thm
+R12992:12994 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12988:12990 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12986:12986 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R13024:13046 Stdlib.Logic.ClassicalFacts Proof_irrelevance_EM_CC <> sec
+sec 13415:13438 <> Proof_irrelevance_WEM_CC
+var 13453:13454 Proof_irrelevance_WEM_CC or
+R13462:13465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13470:13473 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+var 13491:13499 Proof_irrelevance_WEM_CC or_introl
+binder 13510:13510 <> A:153
+binder 13512:13512 <> B:154
+R13521:13524 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13520:13520 Stdlib.Logic.ClassicalFacts <> A:153 var
+R13525:13526 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13528:13528 Stdlib.Logic.ClassicalFacts <> A:153 var
+R13530:13530 Stdlib.Logic.ClassicalFacts <> B:154 var
+var 13544:13552 Proof_irrelevance_WEM_CC or_intror
+binder 13563:13563 <> A:157
+binder 13565:13565 <> B:158
+R13574:13577 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13573:13573 Stdlib.Logic.ClassicalFacts <> B:158 var
+R13578:13579 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13581:13581 Stdlib.Logic.ClassicalFacts <> A:157 var
+R13583:13583 Stdlib.Logic.ClassicalFacts <> B:158 var
+var 13599:13605 Proof_irrelevance_WEM_CC or_elim
+binder 13616:13616 <> A:161
+binder 13618:13618 <> B:162
+binder 13620:13620 <> C:163
+R13628:13628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13635:13639 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13630:13633 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13629:13629 Stdlib.Logic.ClassicalFacts <> A:161 var
+R13634:13634 Stdlib.Logic.ClassicalFacts <> C:163 var
+R13640:13640 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13647:13651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13642:13645 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13641:13641 Stdlib.Logic.ClassicalFacts <> B:162 var
+R13646:13646 Stdlib.Logic.ClassicalFacts <> C:163 var
+R13658:13661 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13652:13653 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13655:13655 Stdlib.Logic.ClassicalFacts <> A:161 var
+R13657:13657 Stdlib.Logic.ClassicalFacts <> B:162 var
+R13662:13662 Stdlib.Logic.ClassicalFacts <> C:163 var
+var 13682:13693 Proof_irrelevance_WEM_CC or_elim_redl
+binder 13709:13709 <> A:166
+binder 13711:13711 <> B:167
+binder 13713:13713 <> C:168
+R13725:13728 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13724:13724 Stdlib.Logic.ClassicalFacts <> A:166 var
+R13729:13729 Stdlib.Logic.ClassicalFacts <> C:168 var
+binder 13722:13722 <> f:169
+R13736:13739 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13735:13735 Stdlib.Logic.ClassicalFacts <> B:167 var
+R13740:13740 Stdlib.Logic.ClassicalFacts <> C:168 var
+binder 13733:13733 <> g:170
+R13746:13746 Stdlib.Logic.ClassicalFacts <> A:166 var
+binder 13744:13744 <> a:171
+R13759:13761 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13756:13756 Stdlib.Logic.ClassicalFacts <> f:169 var
+R13758:13758 Stdlib.Logic.ClassicalFacts <> a:171 var
+R13762:13768 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R13770:13770 Stdlib.Logic.ClassicalFacts <> A:166 var
+R13772:13772 Stdlib.Logic.ClassicalFacts <> B:167 var
+R13774:13774 Stdlib.Logic.ClassicalFacts <> C:168 var
+R13776:13776 Stdlib.Logic.ClassicalFacts <> f:169 var
+R13778:13778 Stdlib.Logic.ClassicalFacts <> g:170 var
+R13781:13789 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_introl var
+R13791:13791 Stdlib.Logic.ClassicalFacts <> A:166 var
+R13793:13793 Stdlib.Logic.ClassicalFacts <> B:167 var
+R13795:13795 Stdlib.Logic.ClassicalFacts <> a:171 var
+var 13816:13827 Proof_irrelevance_WEM_CC or_elim_redr
+binder 13843:13843 <> A:174
+binder 13845:13845 <> B:175
+binder 13847:13847 <> C:176
+R13859:13862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13858:13858 Stdlib.Logic.ClassicalFacts <> A:174 var
+R13863:13863 Stdlib.Logic.ClassicalFacts <> C:176 var
+binder 13856:13856 <> f:177
+R13870:13873 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13869:13869 Stdlib.Logic.ClassicalFacts <> B:175 var
+R13874:13874 Stdlib.Logic.ClassicalFacts <> C:176 var
+binder 13867:13867 <> g:178
+R13880:13880 Stdlib.Logic.ClassicalFacts <> B:175 var
+binder 13878:13878 <> b:179
+R13893:13895 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13890:13890 Stdlib.Logic.ClassicalFacts <> g:178 var
+R13892:13892 Stdlib.Logic.ClassicalFacts <> b:179 var
+R13896:13902 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R13904:13904 Stdlib.Logic.ClassicalFacts <> A:174 var
+R13906:13906 Stdlib.Logic.ClassicalFacts <> B:175 var
+R13908:13908 Stdlib.Logic.ClassicalFacts <> C:176 var
+R13910:13910 Stdlib.Logic.ClassicalFacts <> f:177 var
+R13912:13912 Stdlib.Logic.ClassicalFacts <> g:178 var
+R13915:13923 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_intror var
+R13925:13925 Stdlib.Logic.ClassicalFacts <> A:174 var
+R13927:13927 Stdlib.Logic.ClassicalFacts <> B:175 var
+R13929:13929 Stdlib.Logic.ClassicalFacts <> b:179 var
+var 13950:13960 Proof_irrelevance_WEM_CC or_dep_elim
+binder 13976:13976 <> A:182
+binder 13978:13978 <> B:183
+R13995:13998 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13989:13990 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13992:13992 Stdlib.Logic.ClassicalFacts <> A:182 var
+R13994:13994 Stdlib.Logic.ClassicalFacts <> B:183 var
+binder 13987:13987 <> P:184
+R14012:14012 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14044:14054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14022:14022 Stdlib.Logic.ClassicalFacts <> A:182 var
+binder 14020:14020 <> a:185
+R14025:14025 Stdlib.Logic.ClassicalFacts <> P:184 var
+R14028:14036 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_introl var
+R14038:14038 Stdlib.Logic.ClassicalFacts <> A:182 var
+R14040:14040 Stdlib.Logic.ClassicalFacts <> B:183 var
+R14042:14042 Stdlib.Logic.ClassicalFacts <> a:185 var
+R14055:14055 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14087:14091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14065:14065 Stdlib.Logic.ClassicalFacts <> B:183 var
+binder 14063:14063 <> b:186
+R14068:14068 Stdlib.Logic.ClassicalFacts <> P:184 var
+R14071:14079 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_intror var
+R14081:14081 Stdlib.Logic.ClassicalFacts <> A:182 var
+R14083:14083 Stdlib.Logic.ClassicalFacts <> B:183 var
+R14085:14085 Stdlib.Logic.ClassicalFacts <> b:186 var
+R14101:14102 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R14104:14104 Stdlib.Logic.ClassicalFacts <> A:182 var
+R14106:14106 Stdlib.Logic.ClassicalFacts <> B:183 var
+binder 14099:14099 <> b:187
+R14109:14109 Stdlib.Logic.ClassicalFacts <> P:184 var
+R14111:14111 Stdlib.Logic.ClassicalFacts <> b:187 var
+var 14128:14130 Proof_irrelevance_WEM_CC wem
+binder 14141:14141 <> A:190
+R14149:14150 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R14153:14153 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14154:14154 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14155:14155 Stdlib.Logic.ClassicalFacts <> A:190 var
+R14159:14160 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14161:14161 Stdlib.Logic.ClassicalFacts <> A:190 var
+abbrev 14186:14190 <> NProp
+R14195:14223 Stdlib.Logic.Hurkens NoRetractToNegativeProp NProp def
+abbrev 14246:14247 <> El
+R14252:14277 Stdlib.Logic.Hurkens NoRetractToNegativeProp El def
+var 14292:14292 Proof_irrelevance_WEM_CC B
+var 14314:14315 Proof_irrelevance_WEM_CC b1
+var 14317:14318 Proof_irrelevance_WEM_CC b2
+R14322:14322 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+var 14385:14387 Proof_irrelevance_WEM_CC p2b
+R14392:14396 Stdlib.Logic.ClassicalFacts <> NProp abbrev
+binder 14390:14390 <> A:199
+R14402:14408 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R14411:14411 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14412:14412 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14413:14414 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14416:14416 Stdlib.Logic.ClassicalFacts <> A:199 var
+R14420:14420 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14421:14422 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14424:14424 Stdlib.Logic.ClassicalFacts <> A:199 var
+R14427:14427 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+R14439:14440 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14453:14454 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R14458:14460 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14463:14464 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14466:14466 Stdlib.Logic.ClassicalFacts <> A:199 var
+var 14477:14479 Proof_irrelevance_WEM_CC b2p
+binder 14481:14481 <> b:200
+R14485:14489 Stdlib.Logic.ClassicalFacts <> NProp abbrev
+R14494:14498 Corelib.Init.Specif <> exist constr
+binder 14536:14536 <> h:201
+binder 14538:14538 <> x:202
+R14543:14543 Stdlib.Logic.ClassicalFacts <> h:201 var
+binder 14550:14550 <> k:203
+R14555:14555 Stdlib.Logic.ClassicalFacts <> k:203 var
+R14557:14557 Stdlib.Logic.ClassicalFacts <> x:202 var
+R14519:14519 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14520:14521 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14528:14528 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14524:14526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14522:14523 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14527:14527 Stdlib.Logic.ClassicalFacts <> b:200 var
+binder 14505:14505 <> P:204
+R14511:14514 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14508:14508 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14509:14509 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14510:14510 Stdlib.Logic.ClassicalFacts <> P:204 var
+R14515:14515 Stdlib.Logic.ClassicalFacts <> P:204 var
+prf 14571:14575 <> wp2p1
+R14588:14592 Stdlib.Logic.ClassicalFacts <> NProp abbrev
+binder 14586:14586 <> A:205
+R14599:14602 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14595:14596 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14598:14598 Stdlib.Logic.ClassicalFacts <> A:205 var
+R14603:14604 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14607:14609 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R14612:14614 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R14616:14616 Stdlib.Logic.ClassicalFacts <> A:205 var
+R14651:14653 Stdlib.Logic.ClassicalFacts <> p2b vardef
+R14690:14692 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14695:14696 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14666:14676 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R14740:14751 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redl var
+prf 14827:14831 <> wp2p2
+R14843:14846 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14837:14840 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14835:14836 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14841:14842 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R14856:14860 Stdlib.Logic.ClassicalFacts <> NProp abbrev
+binder 14854:14854 <> A:206
+R14879:14882 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14863:14864 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14867:14869 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R14872:14874 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R14876:14876 Stdlib.Logic.ClassicalFacts <> A:206 var
+R14883:14884 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14886:14886 Stdlib.Logic.ClassicalFacts <> A:206 var
+R14943:14945 Stdlib.Logic.ClassicalFacts <> p2b vardef
+R14982:14984 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14987:14988 Stdlib.Logic.ClassicalFacts <> El abbrev
+R14958:14968 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R15103:15114 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redr var
+prf 15256:15276 <> wproof_irrelevance_cc
+R15280:15280 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15281:15282 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15290:15290 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15285:15287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15283:15284 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R15288:15289 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R15348:15352 Corelib.Init.Specif <> exist constr
+R15372:15372 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+binder 15359:15359 <> P:207
+R15365:15368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15362:15362 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15363:15363 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15364:15364 Stdlib.Logic.ClassicalFacts <> P:207 var
+R15369:15369 Stdlib.Logic.ClassicalFacts <> P:207 var
+binder 15342:15343 <> NB:208
+binder 15359:15359 <> P:209
+R15364:15364 Stdlib.Logic.ClassicalFacts <> P:209 var
+R15369:15369 Stdlib.Logic.ClassicalFacts <> P:209 var
+binder 15342:15343 <> NB:210
+R15406:15407 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R15429:15459 Stdlib.Logic.Hurkens NoRetractToNegativeProp paradox thm
+R15482:15486 Stdlib.Logic.ClassicalFacts <> wp2p1 thm
+R15473:15477 Stdlib.Logic.ClassicalFacts <> wp2p2 thm
+R15468:15470 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R15464:15466 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R15532:15536 Corelib.Init.Specif <> exist constr
+R15554:15558 Corelib.Init.Logic <> False ind
+binder 15543:15543 <> P:211
+R15549:15550 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15546:15546 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15547:15547 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15548:15548 Stdlib.Logic.ClassicalFacts <> P:211 var
+R15551:15551 Stdlib.Logic.ClassicalFacts <> P:211 var
+binder 15527:15527 <> F:212
+binder 15543:15543 <> P:213
+R15548:15548 Stdlib.Logic.ClassicalFacts <> P:213 var
+R15551:15551 Stdlib.Logic.ClassicalFacts <> P:213 var
+binder 15527:15527 <> F:214
+R15619:15642 Stdlib.Logic.ClassicalFacts Proof_irrelevance_WEM_CC <> sec
+sec 15968:15988 <> Proof_irrelevance_CCI
+var 16005:16006 Proof_irrelevance_CCI em
+binder 16017:16017 <> A:215
+R16026:16029 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16025:16025 Stdlib.Logic.ClassicalFacts <> A:215 var
+R16030:16031 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16032:16032 Stdlib.Logic.ClassicalFacts <> A:215 var
+def 16049:16060 <> or_elim_redl
+binder 16063:16063 <> A:218
+binder 16065:16065 <> B:219
+binder 16067:16067 <> C:220
+R16079:16082 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16078:16078 Stdlib.Logic.ClassicalFacts <> A:218 var
+R16083:16083 Stdlib.Logic.ClassicalFacts <> C:220 var
+binder 16076:16076 <> f:221
+R16090:16093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16089:16089 Stdlib.Logic.ClassicalFacts <> B:219 var
+R16094:16094 Stdlib.Logic.ClassicalFacts <> C:220 var
+binder 16087:16087 <> g:222
+R16104:16104 Stdlib.Logic.ClassicalFacts <> A:218 var
+binder 16102:16102 <> a:223
+R16112:16114 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16109:16109 Stdlib.Logic.ClassicalFacts <> f:221 var
+R16111:16111 Stdlib.Logic.ClassicalFacts <> a:223 var
+R16115:16120 Corelib.Init.Logic <> or_ind scheme
+R16127:16135 Corelib.Init.Logic <> or_introl constr
+R16139:16139 Stdlib.Logic.ClassicalFacts <> a:223 var
+R16137:16137 Stdlib.Logic.ClassicalFacts <> B:219 var
+R16124:16124 Stdlib.Logic.ClassicalFacts <> g:222 var
+R16122:16122 Stdlib.Logic.ClassicalFacts <> f:221 var
+R16145:16151 Corelib.Init.Logic <> eq_refl constr
+R16154:16154 Stdlib.Logic.ClassicalFacts <> f:221 var
+R16156:16156 Stdlib.Logic.ClassicalFacts <> a:223 var
+def 16173:16184 <> or_elim_redr
+binder 16187:16187 <> A:224
+binder 16189:16189 <> B:225
+binder 16191:16191 <> C:226
+R16203:16206 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16202:16202 Stdlib.Logic.ClassicalFacts <> A:224 var
+R16207:16207 Stdlib.Logic.ClassicalFacts <> C:226 var
+binder 16200:16200 <> f:227
+R16214:16217 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16213:16213 Stdlib.Logic.ClassicalFacts <> B:225 var
+R16218:16218 Stdlib.Logic.ClassicalFacts <> C:226 var
+binder 16211:16211 <> g:228
+R16228:16228 Stdlib.Logic.ClassicalFacts <> B:225 var
+binder 16226:16226 <> b:229
+R16236:16238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16233:16233 Stdlib.Logic.ClassicalFacts <> g:228 var
+R16235:16235 Stdlib.Logic.ClassicalFacts <> b:229 var
+R16239:16244 Corelib.Init.Logic <> or_ind scheme
+R16251:16259 Corelib.Init.Logic <> or_intror constr
+R16263:16263 Stdlib.Logic.ClassicalFacts <> b:229 var
+R16261:16261 Stdlib.Logic.ClassicalFacts <> A:224 var
+R16248:16248 Stdlib.Logic.ClassicalFacts <> g:228 var
+R16246:16246 Stdlib.Logic.ClassicalFacts <> f:227 var
+R16269:16275 Corelib.Init.Logic <> eq_refl constr
+R16278:16278 Stdlib.Logic.ClassicalFacts <> g:228 var
+R16280:16280 Stdlib.Logic.ClassicalFacts <> b:229 var
+def 16293:16299 <> or_indd
+R16318:16319 Corelib.Init.Logic <> or ind
+prf 16343:16363 <> proof_irrelevance_cci
+binder 16375:16375 <> B:230
+R16390:16390 Stdlib.Logic.ClassicalFacts <> B:230 var
+binder 16384:16385 <> b1:231
+binder 16387:16388 <> b2:232
+R16396:16398 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16394:16395 Stdlib.Logic.ClassicalFacts <> b1:231 var
+R16399:16400 Stdlib.Logic.ClassicalFacts <> b2:232 var
+R16423:16442 Stdlib.Logic.ClassicalFacts <> proof_irrelevance_cc thm
+R16514:16515 Stdlib.Logic.ClassicalFacts <> Proof_irrelevance_CCI.em var
+R16506:16512 Stdlib.Logic.ClassicalFacts <> or_indd def
+R16493:16504 Stdlib.Logic.ClassicalFacts <> or_elim_redr def
+R16474:16485 Stdlib.Logic.ClassicalFacts <> or_elim_redl def
+R16467:16472 Corelib.Init.Logic <> or_ind scheme
+R16457:16465 Corelib.Init.Logic <> or_intror constr
+R16447:16455 Corelib.Init.Logic <> or_introl constr
+R16444:16445 Corelib.Init.Logic <> or ind
+R16531:16551 Stdlib.Logic.ClassicalFacts Proof_irrelevance_CCI <> sec
+sec 16665:16690 <> Weak_proof_irrelevance_CCI
+var 16707:16709 Weak_proof_irrelevance_CCI wem
+binder 16720:16720 <> A:233
+R16731:16734 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16728:16728 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16729:16729 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16730:16730 Stdlib.Logic.ClassicalFacts <> A:233 var
+R16735:16736 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16737:16737 Stdlib.Logic.ClassicalFacts <> A:233 var
+prf 16751:16775 <> wem_proof_irrelevance_cci
+binder 16787:16787 <> B:236
+R16802:16802 Stdlib.Logic.ClassicalFacts <> B:236 var
+binder 16796:16797 <> b1:237
+binder 16799:16800 <> b2:238
+R16806:16806 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16807:16807 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16810:16812 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16808:16809 Stdlib.Logic.ClassicalFacts <> b1:237 var
+R16813:16814 Stdlib.Logic.ClassicalFacts <> b2:238 var
+R16837:16857 Stdlib.Logic.ClassicalFacts <> wproof_irrelevance_cc thm
+R16929:16931 Stdlib.Logic.ClassicalFacts <> Weak_proof_irrelevance_CCI.wem var
+R16921:16927 Stdlib.Logic.ClassicalFacts <> or_indd def
+R16908:16919 Stdlib.Logic.ClassicalFacts <> or_elim_redr def
+R16889:16900 Stdlib.Logic.ClassicalFacts <> or_elim_redl def
+R16882:16887 Corelib.Init.Logic <> or_ind scheme
+R16872:16880 Corelib.Init.Logic <> or_intror constr
+R16862:16870 Corelib.Init.Logic <> or_introl constr
+R16859:16860 Corelib.Init.Logic <> or ind
+R16947:16972 Stdlib.Logic.ClassicalFacts Weak_proof_irrelevance_CCI <> sec
+def 18062:18081 <> weak_excluded_middle
+binder 18095:18095 <> A:239
+R18106:18109 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18103:18103 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18104:18104 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18105:18105 Stdlib.Logic.ClassicalFacts <> A:239 var
+R18110:18110 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18111:18111 Stdlib.Logic.ClassicalFacts <> A:239 var
+def 18314:18345 <> weak_generalized_excluded_middle
+binder 18359:18359 <> A:240
+binder 18361:18361 <> B:241
+R18369:18369 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18383:18388 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18395:18395 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18370:18370 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18377:18381 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18372:18375 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18371:18371 Stdlib.Logic.ClassicalFacts <> A:240 var
+R18376:18376 Stdlib.Logic.ClassicalFacts <> B:241 var
+R18382:18382 Stdlib.Logic.ClassicalFacts <> B:241 var
+R18390:18393 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18389:18389 Stdlib.Logic.ClassicalFacts <> A:240 var
+R18394:18394 Stdlib.Logic.ClassicalFacts <> B:241 var
+def 18444:18466 <> classical_de_morgan_law
+binder 18480:18480 <> A:242
+binder 18482:18482 <> B:243
+R18499:18502 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18490:18491 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18498:18498 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18493:18496 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18492:18492 Stdlib.Logic.ClassicalFacts <> A:242 var
+R18497:18497 Stdlib.Logic.ClassicalFacts <> B:243 var
+R18505:18508 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18503:18503 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18504:18504 Stdlib.Logic.ClassicalFacts <> A:242 var
+R18509:18509 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18510:18510 Stdlib.Logic.ClassicalFacts <> B:243 var
+def 18925:18936 <> GodelDummett
+binder 18948:18948 <> A:244
+binder 18950:18950 <> B:245
+R18958:18958 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18965:18970 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18977:18977 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18960:18963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18959:18959 Stdlib.Logic.ClassicalFacts <> A:244 var
+R18964:18964 Stdlib.Logic.ClassicalFacts <> B:245 var
+R18972:18975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18971:18971 Stdlib.Logic.ClassicalFacts <> B:245 var
+R18976:18976 Stdlib.Logic.ClassicalFacts <> A:244 var
+prf 18987:19015 <> excluded_middle_Godel_Dummett
+R19034:19037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19019:19033 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R19038:19049 Stdlib.Logic.ClassicalFacts <> GodelDummett def
+def 19306:19350 <> RightDistributivityImplicationOverDisjunction
+binder 19364:19364 <> A:246
+binder 19366:19366 <> B:247
+binder 19368:19368 <> C:248
+R19376:19376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19386:19390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19378:19381 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19377:19377 Stdlib.Logic.ClassicalFacts <> C:248 var
+R19383:19384 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19382:19382 Stdlib.Logic.ClassicalFacts <> A:246 var
+R19385:19385 Stdlib.Logic.ClassicalFacts <> B:247 var
+R19391:19391 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19396:19401 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19406:19406 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19393:19394 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19392:19392 Stdlib.Logic.ClassicalFacts <> C:248 var
+R19395:19395 Stdlib.Logic.ClassicalFacts <> A:246 var
+R19403:19404 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19402:19402 Stdlib.Logic.ClassicalFacts <> C:248 var
+R19405:19405 Stdlib.Logic.ClassicalFacts <> B:247 var
+prf 19416:19473 <> Godel_Dummett_iff_right_distr_implication_over_disjunction
+R19491:19495 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R19479:19490 Stdlib.Logic.ClassicalFacts <> GodelDummett def
+R19496:19540 Stdlib.Logic.ClassicalFacts <> RightDistributivityImplicationOverDisjunction def
+R19773:19774 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+prf 20010:20043 <> Godel_Dummett_weak_excluded_middle
+R20061:20064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20049:20060 Stdlib.Logic.ClassicalFacts <> GodelDummett def
+R20065:20084 Stdlib.Logic.ClassicalFacts <> weak_excluded_middle def
+R20123:20123 Corelib.Init.Logic <> ::type_scope:'~'_x not
+prf 20338:20385 <> weak_excluded_middle_iff_classical_de_morgan_law
+R20411:20415 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20391:20410 Stdlib.Logic.ClassicalFacts <> weak_excluded_middle def
+R20416:20438 Stdlib.Logic.ClassicalFacts <> classical_de_morgan_law def
+R20544:20544 Corelib.Init.Logic <> ::type_scope:'~'_x not
+def 22394:22422 <> IndependenceOfGeneralPremises
+binder 22424:22424 <> A:249
+R22442:22445 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22441:22441 Stdlib.Logic.ClassicalFacts <> A:249 var
+binder 22439:22439 <> P:250
+binder 22453:22453 <> Q:251
+R22477:22480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22466:22474 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R22476:22476 Stdlib.Logic.ClassicalFacts <> A:249 var
+R22481:22481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22500:22504 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22483:22486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22482:22482 Stdlib.Logic.ClassicalFacts <> Q:251 var
+R22487:22493 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22495:22496 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22494:22494 <> x:252
+R22497:22497 Stdlib.Logic.ClassicalFacts <> P:250 var
+R22499:22499 Stdlib.Logic.ClassicalFacts <> x:252 var
+R22505:22511 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22513:22514 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22512:22512 <> x:253
+R22516:22519 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22515:22515 Stdlib.Logic.ClassicalFacts <> Q:251 var
+R22520:22520 Stdlib.Logic.ClassicalFacts <> P:250 var
+R22522:22522 Stdlib.Logic.ClassicalFacts <> x:253 var
+prf 22534:22603 <> independence_general_premises_right_distr_implication_over_disjunction
+R22643:22646 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22609:22637 Stdlib.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R22639:22642 Corelib.Init.Datatypes <> bool ind
+R22647:22691 Stdlib.Logic.ClassicalFacts <> RightDistributivityImplicationOverDisjunction def
+binder 22747:22747 <> b:254
+R22755:22755 Stdlib.Logic.ClassicalFacts <> b:254 var
+R22774:22777 Corelib.Init.Datatypes <> true constr
+binder 22747:22747 <> b:255
+R22755:22755 Stdlib.Logic.ClassicalFacts <> b:255 var
+R22834:22837 Corelib.Init.Datatypes <> true constr
+R22846:22850 Corelib.Init.Datatypes <> false constr
+prf 22923:22965 <> independence_general_premises_Godel_Dummett
+R23005:23008 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22971:22999 Stdlib.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R23001:23004 Corelib.Init.Datatypes <> bool ind
+R23009:23020 Stdlib.Logic.ClassicalFacts <> GodelDummett def
+R23041:23098 Stdlib.Logic.ClassicalFacts <> Godel_Dummett_iff_right_distr_implication_over_disjunction thm
+R23114:23183 Stdlib.Logic.ClassicalFacts <> independence_general_premises_right_distr_implication_over_disjunction thm
+def 23569:23582 <> DrinkerParadox
+binder 23584:23584 <> A:256
+R23602:23605 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23601:23601 Stdlib.Logic.ClassicalFacts <> A:256 var
+binder 23599:23599 <> P:257
+R23628:23631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23617:23625 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R23627:23627 Stdlib.Logic.ClassicalFacts <> A:256 var
+R23632:23638 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23640:23641 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23639:23639 <> x:258
+R23645:23648 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23642:23642 Stdlib.Logic.ClassicalFacts <> P:257 var
+R23644:23644 Stdlib.Logic.ClassicalFacts <> x:258 var
+binder 23656:23656 <> y:259
+R23659:23659 Stdlib.Logic.ClassicalFacts <> P:257 var
+R23661:23661 Stdlib.Logic.ClassicalFacts <> y:259 var
+def 23676:23693 <> DualDrinkerParadox
+binder 23695:23695 <> A:260
+R23713:23716 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23712:23712 Stdlib.Logic.ClassicalFacts <> A:260 var
+binder 23710:23710 <> P:261
+R23739:23742 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23728:23736 Stdlib.Logic.ClassicalFacts <> inhabited abbrev
+R23738:23738 Stdlib.Logic.ClassicalFacts <> A:260 var
+R23743:23749 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23751:23752 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23750:23750 <> x:262
+R23753:23753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23767:23771 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23754:23760 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23762:23763 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23761:23761 <> x:263
+R23764:23764 Stdlib.Logic.ClassicalFacts <> P:261 var
+R23766:23766 Stdlib.Logic.ClassicalFacts <> x:263 var
+R23772:23772 Stdlib.Logic.ClassicalFacts <> P:261 var
+R23774:23774 Stdlib.Logic.ClassicalFacts <> x:262 var
+prf 23869:23910 <> independence_general_premises_dual_drinker
+binder 23912:23912 <> A:264
+R23949:23953 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R23918:23946 Stdlib.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R23948:23948 Stdlib.Logic.ClassicalFacts <> A:264 var
+R23954:23971 Stdlib.Logic.ClassicalFacts <> DualDrinkerParadox def
+R23973:23973 Stdlib.Logic.ClassicalFacts <> A:264 var
+R24029:24035 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24037:24038 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24036:24036 <> x:265
+R24041:24041 Stdlib.Logic.ClassicalFacts <> x:265 var
+binder 24036:24036 <> x:266
+R24041:24041 Stdlib.Logic.ClassicalFacts <> x:266 var
+def 24441:24467 <> generalized_excluded_middle
+binder 24481:24481 <> A:267
+binder 24483:24483 <> B:268
+R24492:24496 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R24503:24503 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R24491:24491 Stdlib.Logic.ClassicalFacts <> A:267 var
+R24498:24501 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24497:24497 Stdlib.Logic.ClassicalFacts <> A:267 var
+R24502:24502 Stdlib.Logic.ClassicalFacts <> B:268 var
+prf 24513:24543 <> excluded_middle_drinker_paradox
+binder 24545:24545 <> A:269
+R24578:24581 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24551:24577 Stdlib.Logic.ClassicalFacts <> generalized_excluded_middle def
+R24582:24595 Stdlib.Logic.ClassicalFacts <> DrinkerParadox def
+R24597:24597 Stdlib.Logic.ClassicalFacts <> A:269 var
+R24643:24649 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24651:24652 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24650:24650 <> x:270
+R24656:24660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24674:24674 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24655:24655 Stdlib.Logic.ClassicalFacts <> x:270 var
+binder 24668:24668 <> y:271
+R24673:24673 Stdlib.Logic.ClassicalFacts <> y:271 var
+binder 24685:24685 <> y:272
+R24690:24690 Stdlib.Logic.ClassicalFacts <> y:272 var
+binder 24650:24650 <> x:273
+R24655:24655 Stdlib.Logic.ClassicalFacts <> x:273 var
+binder 24668:24668 <> y:274
+R24673:24673 Stdlib.Logic.ClassicalFacts <> y:274 var
+binder 24685:24685 <> y:275
+R24690:24690 Stdlib.Logic.ClassicalFacts <> y:275 var
+binder 24792:24792 <> y:276
+R24797:24797 Stdlib.Logic.ClassicalFacts <> y:276 var
+binder 24792:24792 <> y:277
+R24797:24797 Stdlib.Logic.ClassicalFacts <> y:277 var
+prf 24877:24912 <> excluded_middle_dual_drinker_paradox
+binder 24914:24914 <> A:278
+R24947:24950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24920:24946 Stdlib.Logic.ClassicalFacts <> generalized_excluded_middle def
+R24951:24968 Stdlib.Logic.ClassicalFacts <> DualDrinkerParadox def
+R24970:24970 Stdlib.Logic.ClassicalFacts <> A:278 var
+R25016:25022 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25024:25025 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25023:25023 <> x:279
+R25028:25028 Stdlib.Logic.ClassicalFacts <> x:279 var
+binder 25023:25023 <> x:280
+R25028:25028 Stdlib.Logic.ClassicalFacts <> x:280 var
+R25323:25328 Corelib.Init.Specif <> projT1 def
+not 25312:25312 <> :::x_'.1'
+R25407:25412 Corelib.Init.Specif <> existT constr
+not 25391:25391 <> :::'('_x_';'_x_')'
+def 25482:25521 <> RelativizedIndependenceOfGeneralPremises
+binder 25523:25523 <> A:281
+R25531:25534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25530:25530 Stdlib.Logic.ClassicalFacts <> A:281 var
+binder 25526:25526 <> P:282
+R25546:25574 Stdlib.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R25576:25576 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R25578:25578 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R25580:25582 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R25586:25586 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R25579:25579 Stdlib.Logic.ClassicalFacts <> A:281 var
+binder 25577:25577 <> a:283
+R25583:25583 Stdlib.Logic.ClassicalFacts <> P:282 var
+R25585:25585 Stdlib.Logic.ClassicalFacts <> a:283 var
+prf 25598:25654 <> relativized_independence_general_premises_excluded_middle
+R25660:25660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25718:25722 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 25668:25668 <> P:284
+R25671:25710 Stdlib.Logic.ClassicalFacts <> RelativizedIndependenceOfGeneralPremises def
+R25712:25715 Corelib.Init.Datatypes <> bool ind
+R25717:25717 Stdlib.Logic.ClassicalFacts <> P:284 var
+R25723:25737 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+binder 25786:25786 <> b:285
+R25799:25802 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R25792:25794 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25791:25791 Stdlib.Logic.ClassicalFacts <> b:285 var
+R25795:25798 Corelib.Init.Datatypes <> true constr
+binder 25811:25811 <> b:286
+R25819:25821 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25817:25818 Stdlib.Logic.ClassicalFacts <> :::x_'.1' not
+R25816:25816 Stdlib.Logic.ClassicalFacts <> b:286 var
+R25822:25826 Corelib.Init.Datatypes <> false constr
+binder 25786:25786 <> b:287
+R25791:25791 Stdlib.Logic.ClassicalFacts <> b:287 var
+binder 25811:25811 <> b:288
+R25816:25816 Stdlib.Logic.ClassicalFacts <> b:288 var
+R25864:25867 Corelib.Init.Datatypes <> true constr
+R25910:25910 Stdlib.Logic.ClassicalFacts <> :::'('_x_';'_x_')' not
+R25916:25917 Stdlib.Logic.ClassicalFacts <> :::'('_x_';'_x_')' not
+R25930:25930 Stdlib.Logic.ClassicalFacts <> :::'('_x_';'_x_')' not
+R25911:25915 Corelib.Init.Datatypes <> false constr
+R25918:25926 Corelib.Init.Logic <> or_intror constr
+def 26136:26164 <> RelativizedDualDrinkerParadox
+binder 26166:26166 <> A:289
+R26174:26177 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26173:26173 Stdlib.Logic.ClassicalFacts <> A:289 var
+binder 26169:26169 <> P:290
+R26189:26206 Stdlib.Logic.ClassicalFacts <> DualDrinkerParadox def
+R26208:26208 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26210:26212 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26214:26216 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26220:26220 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26213:26213 Stdlib.Logic.ClassicalFacts <> A:289 var
+binder 26209:26209 <> a:291
+R26217:26217 Stdlib.Logic.ClassicalFacts <> P:290 var
+R26219:26219 Stdlib.Logic.ClassicalFacts <> a:291 var
+prf 26232:26279 <> relativized_dual_drinker_paradox_excluded_middle
+R26285:26285 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26332:26336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 26293:26293 <> P:292
+R26296:26324 Stdlib.Logic.ClassicalFacts <> RelativizedDualDrinkerParadox def
+R26326:26329 Corelib.Init.Datatypes <> bool ind
+R26331:26331 Stdlib.Logic.ClassicalFacts <> P:292 var
+R26337:26351 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R26381:26437 Stdlib.Logic.ClassicalFacts <> relativized_independence_general_premises_excluded_middle thm
+R26457:26498 Stdlib.Logic.ClassicalFacts <> independence_general_premises_dual_drinker thm
+R26642:26649 Stdlib.Arith.PeanoNat <> <> lib
+def 26664:26670 <> Minimal
+R26678:26681 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26675:26677 Corelib.Init.Datatypes <> nat ind
+binder 26673:26673 <> P:293
+R26691:26693 Corelib.Init.Datatypes <> nat ind
+binder 26689:26689 <> n:294
+R26711:26714 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R26708:26708 Stdlib.Logic.ClassicalFacts <> P:293 var
+R26710:26710 Stdlib.Logic.ClassicalFacts <> n:294 var
+binder 26722:26722 <> k:295
+R26728:26731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26725:26725 Stdlib.Logic.ClassicalFacts <> P:293 var
+R26727:26727 Stdlib.Logic.ClassicalFacts <> k:295 var
+R26733:26734 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26732:26732 Stdlib.Logic.ClassicalFacts <> n:294 var
+R26735:26735 Stdlib.Logic.ClassicalFacts <> k:295 var
+def 26750:26770 <> Minimization_Property
+R26780:26783 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26777:26779 Corelib.Init.Datatypes <> nat ind
+binder 26773:26773 <> P:296
+binder 26809:26809 <> n:297
+R26815:26818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26812:26812 Stdlib.Logic.ClassicalFacts <> P:296 var
+R26814:26814 Stdlib.Logic.ClassicalFacts <> n:297 var
+R26819:26825 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26827:26828 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 26826:26826 <> m:298
+R26829:26835 Stdlib.Logic.ClassicalFacts <> Minimal def
+R26837:26837 Stdlib.Logic.ClassicalFacts <> P:296 var
+R26839:26839 Stdlib.Logic.ClassicalFacts <> m:298 var
+sec 26851:26899 <> Unrestricted_minimization_entails_excluded_middle
+var 26916:26940 Unrestricted_minimization_entails_excluded_middle unrestricted_minimization
+binder 26950:26950 <> P:299
+R26953:26973 Stdlib.Logic.ClassicalFacts <> Minimization_Property def
+R26975:26975 Stdlib.Logic.ClassicalFacts <> P:299 var
+prf 26989:27037 <> unrestricted_minimization_entails_excluded_middle
+binder 27048:27048 <> A:302
+R27052:27053 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27051:27051 Stdlib.Logic.ClassicalFacts <> A:302 var
+R27054:27054 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R27055:27055 Stdlib.Logic.ClassicalFacts <> A:302 var
+R27102:27104 Corelib.Init.Datatypes <> nat ind
+binder 27100:27100 <> n:303
+R27115:27118 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27112:27113 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27110:27110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27109:27109 Stdlib.Logic.ClassicalFacts <> n:303 var
+R27120:27120 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27119:27119 Stdlib.Logic.ClassicalFacts <> n:303 var
+binder 27100:27100 <> n:304
+R27109:27109 Stdlib.Logic.ClassicalFacts <> n:304 var
+R27119:27119 Stdlib.Logic.ClassicalFacts <> n:304 var
+R27192:27196 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R27302:27326 Stdlib.Logic.ClassicalFacts <> Unrestricted_minimization_entails_excluded_middle.unrestricted_minimization var
+R27422:27444 Stdlib.Arith.PeanoNat Nat nle_succ_0 thm
+R27516:27564 Stdlib.Logic.ClassicalFacts Unrestricted_minimization_entails_excluded_middle <> sec
+R27595:27600 Stdlib.Arith.Wf_nat <> <> lib
+sec 27612:27660 <> Excluded_middle_entails_unrestricted_minimization
+var 27677:27678 Excluded_middle_entails_unrestricted_minimization em
+binder 27689:27689 <> A:305
+R27693:27694 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27692:27692 Stdlib.Logic.ClassicalFacts <> A:305 var
+R27695:27695 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R27696:27696 Stdlib.Logic.ClassicalFacts <> A:305 var
+prf 27710:27758 <> excluded_middle_entails_unrestricted_minimization
+binder 27773:27773 <> P:308
+R27776:27796 Stdlib.Logic.ClassicalFacts <> Minimization_Property def
+R27798:27798 Stdlib.Logic.ClassicalFacts <> P:308 var
+binder 27855:27855 <> n:309
+R27861:27864 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27860:27860 Stdlib.Logic.ClassicalFacts <> n:309 var
+R27865:27866 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R27869:27869 Stdlib.Logic.ClassicalFacts <> n:309 var
+R27886:27887 Stdlib.Logic.ClassicalFacts <> Excluded_middle_entails_unrestricted_minimization.em var
+binder 27855:27855 <> n:310
+R27860:27860 Stdlib.Logic.ClassicalFacts <> n:310 var
+R27869:27869 Stdlib.Logic.ClassicalFacts <> n:310 var
+R27907:27913 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27915:27916 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 27914:27914 <> n:311
+R27919:27919 Stdlib.Logic.ClassicalFacts <> n:311 var
+binder 27914:27914 <> n:312
+R27919:27919 Stdlib.Logic.ClassicalFacts <> n:312 var
+R27963:28005 Stdlib.Arith.Wf_nat <> dec_inh_nat_subset_has_unique_least_element thm
+R28076:28124 Stdlib.Logic.ClassicalFacts Excluded_middle_entails_unrestricted_minimization <> sec
+sec 28250:28312 <> Example_of_undecidable_predicate_with_the_minimization_property
+var 28327:28327 Example_of_undecidable_predicate_with_the_minimization_property s
+R28334:28337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28331:28333 Corelib.Init.Datatypes <> nat ind
+R28338:28341 Corelib.Init.Datatypes <> bool ind
+var 28351:28351 Example_of_undecidable_predicate_with_the_minimization_property P
+binder 28353:28353 <> n:315
+R28358:28364 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28366:28367 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 28365:28365 <> k:316
+R28372:28375 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28369:28370 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R28368:28368 Stdlib.Logic.ClassicalFacts <> n:315 var
+R28371:28371 Stdlib.Logic.ClassicalFacts <> k:316 var
+R28379:28381 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28376:28376 Stdlib.Logic.ClassicalFacts <> Example_of_undecidable_predicate_with_the_minimization_property.s var
+R28378:28378 Stdlib.Logic.ClassicalFacts <> k:316 var
+R28382:28385 Corelib.Init.Datatypes <> true constr
+def 28399:28450 <> undecidable_predicate_with_the_minimization_property
+R28458:28478 Stdlib.Logic.ClassicalFacts <> Minimization_Property def
+R28480:28480 Stdlib.Logic.ClassicalFacts <> Example_of_undecidable_predicate_with_the_minimization_property.P var
+R28503:28523 Stdlib.Logic.ClassicalFacts <> Minimization_Property def
+R28577:28577 Stdlib.Logic.ClassicalFacts <> P vardef
+R28680:28698 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R28744:28762 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R28777:28839 Stdlib.Logic.ClassicalFacts Example_of_undecidable_predicate_with_the_minimization_property <> sec
+R29104:29118 Stdlib.Classes.RelationClasses <> <> lib
+abbrev 29140:29171 <> representative_boolean_partition
+R29192:29193 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29188:29191 Corelib.Init.Datatypes <> bool ind
+R29198:29199 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29194:29197 Corelib.Init.Datatypes <> bool ind
+binder 29186:29186 <> R:317
+R29223:29226 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29210:29220 Corelib.Classes.RelationClasses <> Equivalence class
+R29222:29222 Stdlib.Logic.ClassicalFacts <> R:317 var
+R29227:29233 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29235:29236 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 29234:29234 <> f:318
+binder 29244:29244 <> x:319
+R29256:29259 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29247:29247 Stdlib.Logic.ClassicalFacts <> R:317 var
+R29252:29252 Stdlib.Logic.ClassicalFacts <> f:318 var
+R29254:29254 Stdlib.Logic.ClassicalFacts <> x:319 var
+R29249:29249 Stdlib.Logic.ClassicalFacts <> x:319 var
+binder 29267:29267 <> y:320
+R29275:29278 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29270:29270 Stdlib.Logic.ClassicalFacts <> R:317 var
+R29274:29274 Stdlib.Logic.ClassicalFacts <> y:320 var
+R29272:29272 Stdlib.Logic.ClassicalFacts <> x:319 var
+R29282:29284 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29279:29279 Stdlib.Logic.ClassicalFacts <> f:318 var
+R29281:29281 Stdlib.Logic.ClassicalFacts <> x:319 var
+R29285:29285 Stdlib.Logic.ClassicalFacts <> f:318 var
+R29287:29287 Stdlib.Logic.ClassicalFacts <> y:320 var
+prf 29300:29351 <> representative_boolean_partition_imp_excluded_middle
+R29389:29392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29357:29388 Stdlib.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R29393:29407 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R29462:29465 Corelib.Init.Datatypes <> bool ind
+binder 29454:29455 <> b1:321
+binder 29457:29458 <> b2:322
+R29478:29481 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R29473:29475 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29471:29472 Stdlib.Logic.ClassicalFacts <> b1:321 var
+R29476:29477 Stdlib.Logic.ClassicalFacts <> b2:322 var
+binder 29454:29455 <> b1:323
+binder 29457:29458 <> b2:324
+R29471:29472 Stdlib.Logic.ClassicalFacts <> b1:323 var
+R29476:29477 Stdlib.Logic.ClassicalFacts <> b2:324 var
+R29496:29506 Corelib.Classes.RelationClasses <> Equivalence class
+R29709:29721 Stdlib.Bool.Bool <> bool_dec thm
+R29726:29729 Corelib.Init.Datatypes <> true constr
+R29735:29739 Corelib.Init.Datatypes <> false constr
+R29786:29790 Corelib.Init.Datatypes <> false constr
+R29841:29844 Corelib.Init.Datatypes <> true constr
+R29932:29935 Corelib.Init.Datatypes <> true constr
+prf 29988:30039 <> excluded_middle_imp_representative_boolean_partition
+R30060:30063 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30045:30059 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R30064:30095 Stdlib.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R30140:30143 Corelib.Init.Datatypes <> true constr
+R30145:30149 Corelib.Init.Datatypes <> false constr
+R30175:30178 Corelib.Init.Datatypes <> true constr
+binder 30225:30225 <> b:325
+R30230:30230 Stdlib.Logic.ClassicalFacts <> b:325 var
+binder 30225:30225 <> b:326
+R30230:30230 Stdlib.Logic.ClassicalFacts <> b:326 var
+prf 30347:30398 <> excluded_middle_iff_representative_boolean_partition
+R30419:30423 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30404:30418 Stdlib.Logic.ClassicalFacts <> excluded_middle def
+R30424:30455 Stdlib.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R30485:30536 Stdlib.Logic.ClassicalFacts <> excluded_middle_imp_representative_boolean_partition thm
+R30559:30610 Stdlib.Logic.ClassicalFacts <> representative_boolean_partition_imp_excluded_middle thm

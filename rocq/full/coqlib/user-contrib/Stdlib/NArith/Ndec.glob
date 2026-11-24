@@ -1,0 +1,899 @@
+DIGEST df76460a8537044b83d8b6c12d8dffb9
+FStdlib.NArith.Ndec
+R703:706 Stdlib.Bool.Bool <> <> lib
+R736:742 Stdlib.Init.Sumbool <> <> lib
+R772:781 Stdlib.Arith.Arith_base <> <> lib
+R811:816 Stdlib.PArith.BinPos <> <> lib
+R846:851 Stdlib.NArith.BinNat <> <> lib
+R881:884 Stdlib.PArith.Pnat <> <> lib
+R914:917 Stdlib.NArith.Nnat <> <> lib
+abbrev 1069:1080 <> Peqb_correct
+R1085:1096 Stdlib.PArith.BinPos Pos eqb_refl thm
+abbrev 1123:1134 <> Neqb_correct
+R1139:1148 Stdlib.NArith.BinNat N eqb_refl thm
+abbrev 1175:1183 <> Neqb_comm
+R1188:1196 Stdlib.NArith.BinNat N eqb_sym thm
+prf 1221:1233 <> Peqb_complete
+binder 1235:1235 <> p:1
+binder 1237:1238 <> p':2
+R1261:1264 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1254:1256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1242:1248 Stdlib.PArith.BinPos Pos eqb def
+R1250:1250 Stdlib.NArith.Ndec <> p:1 var
+R1252:1253 Stdlib.NArith.Ndec <> p':2 var
+R1257:1260 Corelib.Init.Datatypes <> true constr
+R1266:1268 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1265:1265 Stdlib.NArith.Ndec <> p:1 var
+R1269:1270 Stdlib.NArith.Ndec <> p':2 var
+R1290:1299 Stdlib.PArith.BinPos Pos eqb_eq thm
+prf 1314:1326 <> Peqb_Pcompare
+binder 1328:1328 <> p:3
+binder 1330:1331 <> p':4
+R1354:1357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1347:1349 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1335:1341 Stdlib.PArith.BinPos Pos eqb def
+R1343:1343 Stdlib.NArith.Ndec <> p:3 var
+R1345:1346 Stdlib.NArith.Ndec <> p':4 var
+R1350:1353 Corelib.Init.Datatypes <> true constr
+R1374:1376 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1358:1368 Stdlib.PArith.BinPos Pos compare def
+R1370:1370 Stdlib.NArith.Ndec <> p:3 var
+R1372:1373 Stdlib.NArith.Ndec <> p':4 var
+R1377:1378 Corelib.Init.Datatypes <> Eq constr
+R1400:1417 Stdlib.PArith.BinPos Pos compare_eq_iff thm
+R1423:1432 Stdlib.PArith.BinPos Pos eqb_eq thm
+prf 1447:1459 <> Pcompare_Peqb
+binder 1461:1461 <> p:5
+binder 1463:1464 <> p':6
+R1489:1492 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1484:1486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1468:1478 Stdlib.PArith.BinPos Pos compare def
+R1480:1480 Stdlib.NArith.Ndec <> p:5 var
+R1482:1483 Stdlib.NArith.Ndec <> p':6 var
+R1487:1488 Corelib.Init.Datatypes <> Eq constr
+R1505:1507 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1493:1499 Stdlib.PArith.BinPos Pos eqb def
+R1501:1501 Stdlib.NArith.Ndec <> p:5 var
+R1503:1504 Stdlib.NArith.Ndec <> p':6 var
+R1508:1511 Corelib.Init.Datatypes <> true constr
+R1533:1542 Stdlib.PArith.BinPos Pos eqb_eq thm
+R1548:1565 Stdlib.PArith.BinPos Pos compare_eq_iff thm
+prf 1580:1592 <> Neqb_Ncompare
+binder 1594:1594 <> n:7
+binder 1596:1597 <> n':8
+R1618:1621 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1611:1613 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1601:1605 Stdlib.NArith.BinNat N eqb def
+R1607:1607 Stdlib.NArith.Ndec <> n:7 var
+R1609:1610 Stdlib.NArith.Ndec <> n':8 var
+R1614:1617 Corelib.Init.Datatypes <> true constr
+R1636:1638 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1622:1630 Stdlib.NArith.BinNat N compare def
+R1632:1632 Stdlib.NArith.Ndec <> n:7 var
+R1634:1635 Stdlib.NArith.Ndec <> n':8 var
+R1639:1640 Corelib.Init.Datatypes <> Eq constr
+R1662:1677 Stdlib.NArith.BinNat N compare_eq_iff thm
+R1683:1690 Stdlib.NArith.BinNat N eqb_eq thm
+prf 1705:1717 <> Ncompare_Neqb
+binder 1719:1719 <> n:9
+binder 1721:1722 <> n':10
+R1745:1748 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1740:1742 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1726:1734 Stdlib.NArith.BinNat N compare def
+R1736:1736 Stdlib.NArith.Ndec <> n:9 var
+R1738:1739 Stdlib.NArith.Ndec <> n':10 var
+R1743:1744 Corelib.Init.Datatypes <> Eq constr
+R1759:1761 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1749:1753 Stdlib.NArith.BinNat N eqb def
+R1755:1755 Stdlib.NArith.Ndec <> n:9 var
+R1757:1758 Stdlib.NArith.Ndec <> n':10 var
+R1762:1765 Corelib.Init.Datatypes <> true constr
+R1787:1794 Stdlib.NArith.BinNat N eqb_eq thm
+R1800:1815 Stdlib.NArith.BinNat N compare_eq_iff thm
+prf 1830:1842 <> Neqb_complete
+binder 1844:1844 <> n:11
+binder 1846:1847 <> n':12
+R1868:1871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1861:1863 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1851:1855 Stdlib.NArith.BinNat N eqb def
+R1857:1857 Stdlib.NArith.Ndec <> n:11 var
+R1859:1860 Stdlib.NArith.Ndec <> n':12 var
+R1864:1867 Corelib.Init.Datatypes <> true constr
+R1873:1875 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1872:1872 Stdlib.NArith.Ndec <> n:11 var
+R1876:1877 Stdlib.NArith.Ndec <> n':12 var
+R1897:1904 Stdlib.NArith.BinNat N eqb_eq thm
+prf 1919:1930 <> Nxor_eq_true
+binder 1932:1932 <> n:13
+binder 1934:1935 <> n':14
+R1954:1957 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1950:1952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1939:1944 Stdlib.NArith.BinNat N lxor def
+R1946:1946 Stdlib.NArith.Ndec <> n:13 var
+R1948:1949 Stdlib.NArith.Ndec <> n':14 var
+R1968:1970 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1958:1962 Stdlib.NArith.BinNat N eqb def
+R1964:1964 Stdlib.NArith.Ndec <> n:13 var
+R1966:1967 Stdlib.NArith.Ndec <> n':14 var
+R1971:1974 Corelib.Init.Datatypes <> true constr
+R2001:2009 Stdlib.NArith.BinNat N lxor_eq thm
+R2030:2039 Stdlib.NArith.BinNat N eqb_refl thm
+R2075:2092 Stdlib.Bool.Bool <> not_true_iff_false thm
+R2109:2116 Stdlib.NArith.BinNat N eqb_eq thm
+prf 2131:2143 <> Nxor_eq_false
+binder 2145:2145 <> n:15
+binder 2147:2148 <> n':16
+binder 2150:2150 <> p:17
+R2177:2180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2167:2169 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2156:2161 Stdlib.NArith.BinNat N lxor def
+R2163:2163 Stdlib.NArith.Ndec <> n:15 var
+R2165:2166 Stdlib.NArith.Ndec <> n':16 var
+R2170:2174 Stdlib.NArith.BinNat N pos abbrev
+R2176:2176 Stdlib.NArith.Ndec <> p:17 var
+R2191:2193 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2181:2185 Stdlib.NArith.BinNat N eqb def
+R2187:2187 Stdlib.NArith.Ndec <> n:15 var
+R2189:2190 Stdlib.NArith.Ndec <> n':16 var
+R2194:2198 Corelib.Init.Datatypes <> false constr
+R2252:2267 Stdlib.NArith.BinNat N lxor_nilpotent thm
+prf 2287:2301 <> Nodd_not_double
+binder 2303:2303 <> a:18
+R2323:2326 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2316:2318 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2309:2313 Stdlib.NArith.BinNat N odd def
+R2315:2315 Stdlib.NArith.Ndec <> a:18 var
+R2319:2322 Corelib.Init.Datatypes <> true constr
+binder 2334:2335 <> a0:19
+R2359:2361 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2338:2342 Stdlib.NArith.BinNat N eqb def
+R2345:2352 Stdlib.NArith.BinNat N double def
+R2354:2355 Stdlib.NArith.Ndec <> a0:19 var
+R2358:2358 Stdlib.NArith.Ndec <> a:18 var
+R2362:2366 Corelib.Init.Datatypes <> false constr
+R2409:2421 Stdlib.NArith.BinNat N double_spec thm
+R2448:2456 Stdlib.NArith.BinNat N odd_mul thm
+R2459:2465 Stdlib.NArith.BinNat N odd_2 thm
+prf 2499:2518 <> Nnot_div2_not_double
+binder 2520:2520 <> a:20
+binder 2522:2523 <> a0:21
+R2556:2559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2548:2550 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2529:2533 Stdlib.NArith.BinNat N eqb def
+R2536:2541 Stdlib.NArith.BinNat N div2 def
+R2543:2543 Stdlib.NArith.Ndec <> a:20 var
+R2546:2547 Stdlib.NArith.Ndec <> a0:21 var
+R2551:2555 Corelib.Init.Datatypes <> false constr
+R2581:2583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2560:2564 Stdlib.NArith.BinNat N eqb def
+R2566:2566 Stdlib.NArith.Ndec <> a:20 var
+R2569:2576 Stdlib.NArith.BinNat N double def
+R2578:2579 Stdlib.NArith.Ndec <> a0:21 var
+R2584:2588 Corelib.Init.Datatypes <> false constr
+R2645:2657 Stdlib.NArith.BinNat N div2_double thm
+prf 2672:2696 <> Neven_not_double_plus_one
+binder 2698:2698 <> a:22
+R2719:2722 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2712:2714 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2704:2709 Stdlib.NArith.BinNat N even def
+R2711:2711 Stdlib.NArith.Ndec <> a:22 var
+R2715:2718 Corelib.Init.Datatypes <> true constr
+binder 2730:2731 <> a0:23
+R2760:2762 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2734:2738 Stdlib.NArith.BinNat N eqb def
+R2741:2753 Stdlib.NArith.BinNat N succ_double def
+R2755:2756 Stdlib.NArith.Ndec <> a0:23 var
+R2759:2759 Stdlib.NArith.Ndec <> a:22 var
+R2763:2767 Corelib.Init.Datatypes <> false constr
+R2810:2827 Stdlib.NArith.BinNat N succ_double_spec thm
+R2854:2863 Stdlib.NArith.BinNat N add_comm thm
+R2866:2881 Stdlib.NArith.BinNat N even_add_mul_2 thm
+prf 2915:2943 <> Nnot_div2_not_double_plus_one
+binder 2945:2945 <> a:24
+binder 2947:2948 <> a0:25
+R2981:2984 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2973:2975 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2954:2958 Stdlib.NArith.BinNat N eqb def
+R2961:2966 Stdlib.NArith.BinNat N div2 def
+R2968:2968 Stdlib.NArith.Ndec <> a:24 var
+R2971:2972 Stdlib.NArith.Ndec <> a0:25 var
+R2976:2980 Corelib.Init.Datatypes <> false constr
+R3011:3013 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2985:2989 Stdlib.NArith.BinNat N eqb def
+R2992:3004 Stdlib.NArith.BinNat N succ_double def
+R3006:3007 Stdlib.NArith.Ndec <> a0:25 var
+R3010:3010 Stdlib.NArith.Ndec <> a:24 var
+R3014:3018 Corelib.Init.Datatypes <> false constr
+R3075:3092 Stdlib.NArith.BinNat N div2_succ_double thm
+prf 3107:3115 <> Nbit0_neq
+binder 3117:3117 <> a:26
+binder 3119:3120 <> a':27
+R3141:3144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3133:3135 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3126:3130 Stdlib.NArith.BinNat N odd def
+R3132:3132 Stdlib.NArith.Ndec <> a:26 var
+R3136:3140 Corelib.Init.Datatypes <> false constr
+R3160:3163 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3153:3155 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3145:3149 Stdlib.NArith.BinNat N odd def
+R3151:3152 Stdlib.NArith.Ndec <> a':27 var
+R3156:3159 Corelib.Init.Datatypes <> true constr
+R3174:3176 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3164:3168 Stdlib.NArith.BinNat N eqb def
+R3170:3170 Stdlib.NArith.Ndec <> a:26 var
+R3172:3173 Stdlib.NArith.Ndec <> a':27 var
+R3177:3181 Corelib.Init.Datatypes <> false constr
+prf 3236:3243 <> Ndiv2_eq
+binder 3245:3245 <> a:28
+binder 3247:3248 <> a':29
+R3271:3274 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3264:3266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3254:3258 Stdlib.NArith.BinNat N eqb def
+R3260:3260 Stdlib.NArith.Ndec <> a:28 var
+R3262:3263 Stdlib.NArith.Ndec <> a':29 var
+R3267:3270 Corelib.Init.Datatypes <> true constr
+R3303:3305 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3275:3279 Stdlib.NArith.BinNat N eqb def
+R3282:3287 Stdlib.NArith.BinNat N div2 def
+R3289:3289 Stdlib.NArith.Ndec <> a:28 var
+R3293:3298 Stdlib.NArith.BinNat N div2 def
+R3300:3301 Stdlib.NArith.Ndec <> a':29 var
+R3306:3309 Corelib.Init.Datatypes <> true constr
+prf 3360:3368 <> Ndiv2_neq
+binder 3370:3370 <> a:30
+binder 3372:3373 <> a':31
+R3415:3418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3407:3409 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3379:3383 Stdlib.NArith.BinNat N eqb def
+R3386:3391 Stdlib.NArith.BinNat N div2 def
+R3393:3393 Stdlib.NArith.Ndec <> a:30 var
+R3397:3402 Stdlib.NArith.BinNat N div2 def
+R3404:3405 Stdlib.NArith.Ndec <> a':31 var
+R3410:3414 Corelib.Init.Datatypes <> false constr
+R3429:3431 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3419:3423 Stdlib.NArith.BinNat N eqb def
+R3425:3425 Stdlib.NArith.Ndec <> a:30 var
+R3427:3428 Stdlib.NArith.Ndec <> a':31 var
+R3432:3436 Corelib.Init.Datatypes <> false constr
+prf 3503:3514 <> Ndiv2_bit_eq
+binder 3516:3516 <> a:32
+binder 3518:3519 <> a':33
+R3543:3546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3532:3534 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3525:3529 Stdlib.NArith.BinNat N odd def
+R3531:3531 Stdlib.NArith.Ndec <> a:32 var
+R3535:3539 Stdlib.NArith.BinNat N odd def
+R3541:3542 Stdlib.NArith.Ndec <> a':33 var
+R3567:3570 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3555:3557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3547:3552 Stdlib.NArith.BinNat N div2 def
+R3554:3554 Stdlib.NArith.Ndec <> a:32 var
+R3558:3563 Stdlib.NArith.BinNat N div2 def
+R3565:3566 Stdlib.NArith.Ndec <> a':33 var
+R3572:3574 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3571:3571 Stdlib.NArith.Ndec <> a:32 var
+R3575:3576 Stdlib.NArith.Ndec <> a':33 var
+R3614:3623 Stdlib.NArith.BinNat N div2_odd thm
+R3630:3639 Stdlib.NArith.BinNat N div2_odd thm
+prf 3665:3677 <> Ndiv2_bit_neq
+binder 3679:3679 <> a:34
+binder 3681:3682 <> a':35
+R3706:3712 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3698:3700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3688:3692 Stdlib.NArith.BinNat N eqb def
+R3694:3694 Stdlib.NArith.Ndec <> a:34 var
+R3696:3697 Stdlib.NArith.Ndec <> a':35 var
+R3701:3705 Corelib.Init.Datatypes <> false constr
+R3731:3734 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3720:3722 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3713:3717 Stdlib.NArith.BinNat N odd def
+R3719:3719 Stdlib.NArith.Ndec <> a:34 var
+R3723:3727 Stdlib.NArith.BinNat N odd def
+R3729:3730 Stdlib.NArith.Ndec <> a':35 var
+R3763:3765 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3735:3739 Stdlib.NArith.BinNat N eqb def
+R3742:3747 Stdlib.NArith.BinNat N div2 def
+R3749:3749 Stdlib.NArith.Ndec <> a:34 var
+R3753:3758 Stdlib.NArith.BinNat N div2 def
+R3760:3761 Stdlib.NArith.Ndec <> a':35 var
+R3766:3770 Corelib.Init.Datatypes <> false constr
+R3827:3838 Stdlib.NArith.Ndec <> Ndiv2_bit_eq thm
+prf 3853:3861 <> Nneq_elim
+binder 3863:3863 <> a:36
+binder 3865:3866 <> a':37
+R3891:3897 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3883:3885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3873:3877 Stdlib.NArith.BinNat N eqb def
+R3879:3879 Stdlib.NArith.Ndec <> a:36 var
+R3881:3882 Stdlib.NArith.Ndec <> a':37 var
+R3886:3890 Corelib.Init.Datatypes <> false constr
+R3923:3929 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3905:3907 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3898:3902 Stdlib.NArith.BinNat N odd def
+R3904:3904 Stdlib.NArith.Ndec <> a:36 var
+R3908:3911 Corelib.Init.Datatypes <> negb def
+R3914:3918 Stdlib.NArith.BinNat N odd def
+R3920:3921 Stdlib.NArith.Ndec <> a':37 var
+R3958:3960 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3930:3934 Stdlib.NArith.BinNat N eqb def
+R3937:3942 Stdlib.NArith.BinNat N div2 def
+R3944:3944 Stdlib.NArith.Ndec <> a:36 var
+R3948:3953 Stdlib.NArith.BinNat N div2 def
+R3955:3956 Stdlib.NArith.Ndec <> a':37 var
+R3961:3965 Corelib.Init.Datatypes <> false constr
+R4013:4016 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4002:4004 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3995:3999 Stdlib.NArith.BinNat N odd def
+R4005:4009 Stdlib.NArith.BinNat N odd def
+R4024:4026 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4017:4021 Stdlib.NArith.BinNat N odd def
+R4027:4030 Corelib.Init.Datatypes <> negb def
+R4033:4037 Stdlib.NArith.BinNat N odd def
+R4068:4080 Stdlib.NArith.Ndec <> Ndiv2_bit_neq thm
+R4127:4131 Stdlib.NArith.BinNat N odd def
+R4138:4142 Stdlib.NArith.BinNat N odd def
+prf 4167:4191 <> Ndouble_or_double_plus_un
+binder 4193:4193 <> a:38
+R4226:4228 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
+R4200:4200 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4203:4205 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4207:4209 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4225:4225 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4206:4206 Corelib.Numbers.BinNums <> N ind
+binder 4201:4202 <> a0:39
+R4211:4213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4210:4210 Stdlib.NArith.Ndec <> a:38 var
+R4214:4221 Stdlib.NArith.BinNat N double def
+R4223:4224 Stdlib.NArith.Ndec <> a0:39 var
+R4229:4229 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4232:4234 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4236:4238 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4259:4259 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4235:4235 Corelib.Numbers.BinNums <> N ind
+binder 4230:4231 <> a1:40
+R4240:4242 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4239:4239 Stdlib.NArith.Ndec <> a:38 var
+R4243:4255 Stdlib.NArith.BinNat N succ_double def
+R4257:4258 Stdlib.NArith.Ndec <> a1:40 var
+R4277:4291 Corelib.Init.Sumbool <> sumbool_of_bool def
+R4294:4298 Stdlib.NArith.BinNat N odd def
+R4341:4346 Stdlib.NArith.BinNat N div2 def
+R4373:4390 Stdlib.NArith.BinNat N succ_double_spec thm
+R4394:4406 Stdlib.NArith.BinNat N double_spec thm
+R4409:4418 Stdlib.NArith.BinNat N div2_odd thm
+R4425:4433 Stdlib.NArith.BinNat N add_0_r thm
+def 4539:4542 <> Nleb
+R4549:4549 Corelib.Numbers.BinNums <> N ind
+binder 4545:4545 <> a:41
+binder 4547:4547 <> b:42
+R4555:4557 Stdlib.Arith.Compare_dec <> leb abbrev
+R4560:4567 Stdlib.NArith.BinNat N to_nat def
+R4569:4569 Stdlib.NArith.Ndec <> a:41 var
+R4573:4580 Stdlib.NArith.BinNat N to_nat def
+R4582:4582 Stdlib.NArith.Ndec <> b:42 var
+prf 4593:4600 <> Nleb_alt
+binder 4602:4602 <> a:43
+binder 4604:4604 <> b:44
+R4616:4618 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4608:4611 Stdlib.NArith.Ndec <> Nleb def
+R4613:4613 Stdlib.NArith.Ndec <> a:43 var
+R4615:4615 Stdlib.NArith.Ndec <> b:44 var
+R4619:4623 Stdlib.NArith.BinNat N leb def
+R4625:4625 Stdlib.NArith.Ndec <> a:43 var
+R4627:4627 Stdlib.NArith.Ndec <> b:44 var
+R4645:4648 Stdlib.NArith.Ndec <> Nleb def
+R4664:4677 Stdlib.Bool.Bool <> eq_iff_eq_true thm
+R4680:4687 Stdlib.NArith.BinNat N leb_le thm
+R4690:4700 Stdlib.Arith.Compare_dec <> leb_compare thm
+R4706:4722 Stdlib.NArith.Nnat N2Nat inj_compare thm
+prf 4737:4744 <> Nleb_Nle
+binder 4746:4746 <> a:45
+binder 4748:4748 <> b:46
+R4767:4771 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4760:4762 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4752:4755 Stdlib.NArith.Ndec <> Nleb def
+R4757:4757 Stdlib.NArith.Ndec <> a:45 var
+R4759:4759 Stdlib.NArith.Ndec <> b:46 var
+R4763:4766 Corelib.Init.Datatypes <> true constr
+R4773:4776 Stdlib.NArith.BinNat <> ::N_scope:x_'<='_x not
+R4772:4772 Stdlib.NArith.Ndec <> a:45 var
+R4777:4777 Stdlib.NArith.Ndec <> b:46 var
+R4799:4806 Stdlib.NArith.Ndec <> Nleb_alt thm
+R4809:4816 Stdlib.NArith.BinNat N leb_le thm
+prf 4831:4839 <> Nleb_refl
+binder 4841:4841 <> a:47
+R4853:4855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4845:4848 Stdlib.NArith.Ndec <> Nleb def
+R4850:4850 Stdlib.NArith.Ndec <> a:47 var
+R4852:4852 Stdlib.NArith.Ndec <> a:47 var
+R4856:4859 Corelib.Init.Datatypes <> true constr
+R4877:4884 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R4893:4901 Stdlib.NArith.BinNat N le_refl thm
+prf 4916:4927 <> Nleb_antisym
+binder 4929:4929 <> a:48
+binder 4931:4931 <> b:49
+R4950:4953 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4943:4945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4935:4938 Stdlib.NArith.Ndec <> Nleb def
+R4940:4940 Stdlib.NArith.Ndec <> a:48 var
+R4942:4942 Stdlib.NArith.Ndec <> b:49 var
+R4946:4949 Corelib.Init.Datatypes <> true constr
+R4969:4972 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4962:4964 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4954:4957 Stdlib.NArith.Ndec <> Nleb def
+R4959:4959 Stdlib.NArith.Ndec <> b:49 var
+R4961:4961 Stdlib.NArith.Ndec <> a:48 var
+R4965:4968 Corelib.Init.Datatypes <> true constr
+R4974:4976 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4973:4973 Stdlib.NArith.Ndec <> a:48 var
+R4977:4977 Stdlib.NArith.Ndec <> b:49 var
+R4996:5003 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R5012:5024 Stdlib.NArith.BinNat N le_antisymm thm
+prf 5039:5048 <> Nleb_trans
+binder 5050:5050 <> a:50
+binder 5052:5052 <> b:51
+binder 5054:5054 <> c:52
+R5073:5076 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5066:5068 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5058:5061 Stdlib.NArith.Ndec <> Nleb def
+R5063:5063 Stdlib.NArith.Ndec <> a:50 var
+R5065:5065 Stdlib.NArith.Ndec <> b:51 var
+R5069:5072 Corelib.Init.Datatypes <> true constr
+R5092:5095 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5085:5087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5077:5080 Stdlib.NArith.Ndec <> Nleb def
+R5082:5082 Stdlib.NArith.Ndec <> b:51 var
+R5084:5084 Stdlib.NArith.Ndec <> c:52 var
+R5088:5091 Corelib.Init.Datatypes <> true constr
+R5104:5106 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5096:5099 Stdlib.NArith.Ndec <> Nleb def
+R5101:5101 Stdlib.NArith.Ndec <> a:50 var
+R5103:5103 Stdlib.NArith.Ndec <> c:52 var
+R5107:5110 Corelib.Init.Datatypes <> true constr
+R5129:5136 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R5145:5154 Stdlib.NArith.BinNat N le_trans thm
+prf 5169:5182 <> Nleb_ltb_trans
+binder 5184:5184 <> a:53
+binder 5186:5186 <> b:54
+binder 5188:5188 <> c:55
+R5209:5212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5202:5204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5194:5197 Stdlib.NArith.Ndec <> Nleb def
+R5199:5199 Stdlib.NArith.Ndec <> a:53 var
+R5201:5201 Stdlib.NArith.Ndec <> b:54 var
+R5205:5208 Corelib.Init.Datatypes <> true constr
+R5229:5232 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5221:5223 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5213:5216 Stdlib.NArith.Ndec <> Nleb def
+R5218:5218 Stdlib.NArith.Ndec <> c:55 var
+R5220:5220 Stdlib.NArith.Ndec <> b:54 var
+R5224:5228 Corelib.Init.Datatypes <> false constr
+R5241:5243 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5233:5236 Stdlib.NArith.Ndec <> Nleb def
+R5238:5238 Stdlib.NArith.Ndec <> c:55 var
+R5240:5240 Stdlib.NArith.Ndec <> a:53 var
+R5244:5248 Corelib.Init.Datatypes <> false constr
+R5267:5270 Stdlib.NArith.Ndec <> Nleb def
+R5287:5302 Stdlib.Arith.Compare_dec <> leb_correct_conv thm
+R5340:5347 Stdlib.NArith.BinNat N to_nat def
+R5313:5327 Stdlib.Arith.PeanoNat Nat le_lt_trans thm
+R5363:5374 Stdlib.Arith.Compare_dec <> leb_complete thm
+R5399:5415 Stdlib.Arith.Compare_dec <> leb_complete_conv thm
+prf 5442:5455 <> Nltb_leb_trans
+binder 5457:5457 <> a:56
+binder 5459:5459 <> b:57
+binder 5461:5461 <> c:58
+R5483:5486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5475:5477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5467:5470 Stdlib.NArith.Ndec <> Nleb def
+R5472:5472 Stdlib.NArith.Ndec <> b:57 var
+R5474:5474 Stdlib.NArith.Ndec <> a:56 var
+R5478:5482 Corelib.Init.Datatypes <> false constr
+R5502:5505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5495:5497 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5487:5490 Stdlib.NArith.Ndec <> Nleb def
+R5492:5492 Stdlib.NArith.Ndec <> b:57 var
+R5494:5494 Stdlib.NArith.Ndec <> c:58 var
+R5498:5501 Corelib.Init.Datatypes <> true constr
+R5514:5516 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5506:5509 Stdlib.NArith.Ndec <> Nleb def
+R5511:5511 Stdlib.NArith.Ndec <> c:58 var
+R5513:5513 Stdlib.NArith.Ndec <> a:56 var
+R5517:5521 Corelib.Init.Datatypes <> false constr
+R5540:5543 Stdlib.NArith.Ndec <> Nleb def
+R5560:5575 Stdlib.Arith.Compare_dec <> leb_correct_conv thm
+R5613:5620 Stdlib.NArith.BinNat N to_nat def
+R5586:5600 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R5636:5652 Stdlib.Arith.Compare_dec <> leb_complete_conv thm
+R5677:5688 Stdlib.Arith.Compare_dec <> leb_complete thm
+prf 5715:5724 <> Nltb_trans
+binder 5726:5726 <> a:59
+binder 5728:5728 <> b:60
+binder 5730:5730 <> c:61
+R5752:5755 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5744:5746 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5736:5739 Stdlib.NArith.Ndec <> Nleb def
+R5741:5741 Stdlib.NArith.Ndec <> b:60 var
+R5743:5743 Stdlib.NArith.Ndec <> a:59 var
+R5747:5751 Corelib.Init.Datatypes <> false constr
+R5772:5775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5764:5766 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5756:5759 Stdlib.NArith.Ndec <> Nleb def
+R5761:5761 Stdlib.NArith.Ndec <> c:61 var
+R5763:5763 Stdlib.NArith.Ndec <> b:60 var
+R5767:5771 Corelib.Init.Datatypes <> false constr
+R5784:5786 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5776:5779 Stdlib.NArith.Ndec <> Nleb def
+R5781:5781 Stdlib.NArith.Ndec <> c:61 var
+R5783:5783 Stdlib.NArith.Ndec <> a:59 var
+R5787:5791 Corelib.Init.Datatypes <> false constr
+R5810:5813 Stdlib.NArith.Ndec <> Nleb def
+R5830:5845 Stdlib.Arith.Compare_dec <> leb_correct_conv thm
+R5880:5887 Stdlib.NArith.BinNat N to_nat def
+R5856:5867 Stdlib.Arith.PeanoNat Nat lt_trans thm
+R5903:5919 Stdlib.Arith.Compare_dec <> leb_complete_conv thm
+R5944:5960 Stdlib.Arith.Compare_dec <> leb_complete_conv thm
+prf 5987:5999 <> Nltb_leb_weak
+binder 6001:6001 <> a:62
+binder 6003:6003 <> b:63
+R6023:6026 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6015:6017 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6007:6010 Stdlib.NArith.Ndec <> Nleb def
+R6012:6012 Stdlib.NArith.Ndec <> b:63 var
+R6014:6014 Stdlib.NArith.Ndec <> a:62 var
+R6018:6022 Corelib.Init.Datatypes <> false constr
+R6035:6037 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6027:6030 Stdlib.NArith.Ndec <> Nleb def
+R6032:6032 Stdlib.NArith.Ndec <> a:62 var
+R6034:6034 Stdlib.NArith.Ndec <> b:63 var
+R6038:6041 Corelib.Init.Datatypes <> true constr
+R6060:6063 Stdlib.NArith.Ndec <> Nleb def
+R6080:6090 Stdlib.Arith.Compare_dec <> leb_correct thm
+R6099:6112 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R6123:6139 Stdlib.Arith.Compare_dec <> leb_complete_conv thm
+prf 6166:6181 <> Nleb_double_mono
+binder 6183:6183 <> a:64
+binder 6185:6185 <> b:65
+R6206:6209 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6199:6201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6191:6194 Stdlib.NArith.Ndec <> Nleb def
+R6196:6196 Stdlib.NArith.Ndec <> a:64 var
+R6198:6198 Stdlib.NArith.Ndec <> b:65 var
+R6202:6205 Corelib.Init.Datatypes <> true constr
+R6240:6242 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6210:6213 Stdlib.NArith.Ndec <> Nleb def
+R6216:6223 Stdlib.NArith.BinNat N double def
+R6225:6225 Stdlib.NArith.Ndec <> a:64 var
+R6229:6236 Stdlib.NArith.BinNat N double def
+R6238:6238 Stdlib.NArith.Ndec <> b:65 var
+R6243:6246 Corelib.Init.Datatypes <> true constr
+R6265:6268 Stdlib.NArith.Ndec <> Nleb def
+R6288:6303 Stdlib.NArith.Nnat N2Nat inj_double thm
+R6312:6322 Stdlib.Arith.Compare_dec <> leb_correct thm
+R6333:6349 Stdlib.Arith.PeanoNat Nat mul_le_mono_l thm
+R6362:6373 Stdlib.Arith.Compare_dec <> leb_complete thm
+prf 6388:6412 <> Nleb_double_plus_one_mono
+binder 6414:6414 <> a:66
+binder 6416:6416 <> b:67
+R6437:6443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6430:6432 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6422:6425 Stdlib.NArith.Ndec <> Nleb def
+R6427:6427 Stdlib.NArith.Ndec <> a:66 var
+R6429:6429 Stdlib.NArith.Ndec <> b:67 var
+R6433:6436 Corelib.Init.Datatypes <> true constr
+R6484:6486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6444:6447 Stdlib.NArith.Ndec <> Nleb def
+R6450:6462 Stdlib.NArith.BinNat N succ_double def
+R6464:6464 Stdlib.NArith.Ndec <> a:66 var
+R6468:6480 Stdlib.NArith.BinNat N succ_double def
+R6482:6482 Stdlib.NArith.Ndec <> b:67 var
+R6487:6490 Corelib.Init.Datatypes <> true constr
+R6509:6512 Stdlib.NArith.Ndec <> Nleb def
+R6532:6552 Stdlib.NArith.Nnat N2Nat inj_succ_double thm
+R6561:6571 Stdlib.Arith.Compare_dec <> leb_correct thm
+R6582:6587 Corelib.Init.Peano <> le_n_S thm
+R6590:6606 Stdlib.Arith.PeanoNat Nat mul_le_mono_l thm
+R6619:6630 Stdlib.Arith.Compare_dec <> leb_complete thm
+prf 6645:6665 <> Nleb_double_mono_conv
+binder 6667:6667 <> a:68
+binder 6669:6669 <> b:69
+R6712:6715 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6705:6707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6675:6678 Stdlib.NArith.Ndec <> Nleb def
+R6681:6688 Stdlib.NArith.BinNat N double def
+R6690:6690 Stdlib.NArith.Ndec <> a:68 var
+R6694:6701 Stdlib.NArith.BinNat N double def
+R6703:6703 Stdlib.NArith.Ndec <> b:69 var
+R6708:6711 Corelib.Init.Datatypes <> true constr
+R6724:6726 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6716:6719 Stdlib.NArith.Ndec <> Nleb def
+R6721:6721 Stdlib.NArith.Ndec <> a:68 var
+R6723:6723 Stdlib.NArith.Ndec <> b:69 var
+R6727:6730 Corelib.Init.Datatypes <> true constr
+R6749:6752 Stdlib.NArith.Ndec <> Nleb def
+R6764:6779 Stdlib.NArith.Nnat N2Nat inj_double thm
+R6795:6805 Stdlib.Arith.Compare_dec <> leb_correct thm
+R6820:6840 Stdlib.Arith.PeanoNat Nat mul_le_mono_pos_l thm
+R6843:6850 Stdlib.NArith.BinNat N to_nat def
+R6856:6863 Stdlib.NArith.BinNat N to_nat def
+R6890:6901 Stdlib.Arith.Compare_dec <> leb_complete thm
+prf 6916:6945 <> Nleb_double_plus_one_mono_conv
+binder 6947:6947 <> a:70
+binder 6949:6949 <> b:71
+R7002:7008 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6995:6997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6955:6958 Stdlib.NArith.Ndec <> Nleb def
+R6961:6973 Stdlib.NArith.BinNat N succ_double def
+R6975:6975 Stdlib.NArith.Ndec <> a:70 var
+R6979:6991 Stdlib.NArith.BinNat N succ_double def
+R6993:6993 Stdlib.NArith.Ndec <> b:71 var
+R6998:7001 Corelib.Init.Datatypes <> true constr
+R7017:7019 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7009:7012 Stdlib.NArith.Ndec <> Nleb def
+R7014:7014 Stdlib.NArith.Ndec <> a:70 var
+R7016:7016 Stdlib.NArith.Ndec <> b:71 var
+R7020:7023 Corelib.Init.Datatypes <> true constr
+R7042:7045 Stdlib.NArith.Ndec <> Nleb def
+R7057:7077 Stdlib.NArith.Nnat N2Nat inj_succ_double thm
+R7093:7103 Stdlib.Arith.Compare_dec <> leb_correct thm
+R7118:7138 Stdlib.Arith.PeanoNat Nat mul_le_mono_pos_l thm
+R7141:7148 Stdlib.NArith.BinNat N to_nat def
+R7154:7161 Stdlib.NArith.BinNat N to_nat def
+R7188:7199 Stdlib.Arith.Compare_dec <> leb_complete thm
+prf 7214:7229 <> Nltb_double_mono
+binder 7231:7231 <> a:72
+binder 7233:7233 <> b:73
+R7256:7259 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7248:7250 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7240:7243 Stdlib.NArith.Ndec <> Nleb def
+R7245:7245 Stdlib.NArith.Ndec <> a:72 var
+R7247:7247 Stdlib.NArith.Ndec <> b:73 var
+R7251:7255 Corelib.Init.Datatypes <> false constr
+R7290:7292 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7260:7263 Stdlib.NArith.Ndec <> Nleb def
+R7266:7273 Stdlib.NArith.BinNat N double def
+R7275:7275 Stdlib.NArith.Ndec <> a:72 var
+R7279:7286 Stdlib.NArith.BinNat N double def
+R7288:7288 Stdlib.NArith.Ndec <> b:73 var
+R7293:7297 Corelib.Init.Datatypes <> false constr
+R7323:7337 Corelib.Init.Sumbool <> sumbool_of_bool def
+R7340:7343 Stdlib.NArith.Ndec <> Nleb def
+R7346:7353 Stdlib.NArith.BinNat N double def
+R7359:7366 Stdlib.NArith.BinNat N double def
+R7401:7421 Stdlib.NArith.Ndec <> Nleb_double_mono_conv thm
+prf 7478:7502 <> Nltb_double_plus_one_mono
+binder 7504:7504 <> a:74
+binder 7506:7506 <> b:75
+R7528:7534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7520:7522 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7512:7515 Stdlib.NArith.Ndec <> Nleb def
+R7517:7517 Stdlib.NArith.Ndec <> a:74 var
+R7519:7519 Stdlib.NArith.Ndec <> b:75 var
+R7523:7527 Corelib.Init.Datatypes <> false constr
+R7575:7577 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7535:7538 Stdlib.NArith.Ndec <> Nleb def
+R7541:7553 Stdlib.NArith.BinNat N succ_double def
+R7555:7555 Stdlib.NArith.Ndec <> a:74 var
+R7559:7571 Stdlib.NArith.BinNat N succ_double def
+R7573:7573 Stdlib.NArith.Ndec <> b:75 var
+R7578:7582 Corelib.Init.Datatypes <> false constr
+R7608:7622 Corelib.Init.Sumbool <> sumbool_of_bool def
+R7625:7628 Stdlib.NArith.Ndec <> Nleb def
+R7631:7643 Stdlib.NArith.BinNat N succ_double def
+R7649:7661 Stdlib.NArith.BinNat N succ_double def
+R7696:7725 Stdlib.NArith.Ndec <> Nleb_double_plus_one_mono_conv thm
+prf 7782:7802 <> Nltb_double_mono_conv
+binder 7804:7804 <> a:76
+binder 7806:7806 <> b:77
+R7850:7853 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7842:7844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7812:7815 Stdlib.NArith.Ndec <> Nleb def
+R7818:7825 Stdlib.NArith.BinNat N double def
+R7827:7827 Stdlib.NArith.Ndec <> a:76 var
+R7831:7838 Stdlib.NArith.BinNat N double def
+R7840:7840 Stdlib.NArith.Ndec <> b:77 var
+R7845:7849 Corelib.Init.Datatypes <> false constr
+R7862:7864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7854:7857 Stdlib.NArith.Ndec <> Nleb def
+R7859:7859 Stdlib.NArith.Ndec <> a:76 var
+R7861:7861 Stdlib.NArith.Ndec <> b:77 var
+R7865:7869 Corelib.Init.Datatypes <> false constr
+R7895:7909 Corelib.Init.Sumbool <> sumbool_of_bool def
+R7912:7915 Stdlib.NArith.Ndec <> Nleb def
+R7951:7966 Stdlib.NArith.Ndec <> Nleb_double_mono thm
+prf 8023:8052 <> Nltb_double_plus_one_mono_conv
+binder 8054:8054 <> a:78
+binder 8056:8056 <> b:79
+R8110:8116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8102:8104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8062:8065 Stdlib.NArith.Ndec <> Nleb def
+R8068:8080 Stdlib.NArith.BinNat N succ_double def
+R8082:8082 Stdlib.NArith.Ndec <> a:78 var
+R8086:8098 Stdlib.NArith.BinNat N succ_double def
+R8100:8100 Stdlib.NArith.Ndec <> b:79 var
+R8105:8109 Corelib.Init.Datatypes <> false constr
+R8125:8127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8117:8120 Stdlib.NArith.Ndec <> Nleb def
+R8122:8122 Stdlib.NArith.Ndec <> a:78 var
+R8124:8124 Stdlib.NArith.Ndec <> b:79 var
+R8128:8132 Corelib.Init.Datatypes <> false constr
+R8158:8172 Corelib.Init.Sumbool <> sumbool_of_bool def
+R8175:8178 Stdlib.NArith.Ndec <> Nleb def
+R8214:8238 Stdlib.NArith.Ndec <> Nleb_double_plus_one_mono thm
+prf 8434:8446 <> Nltb_Ncompare
+binder 8448:8448 <> a:80
+binder 8450:8450 <> b:81
+R8470:8474 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8462:8464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8454:8457 Stdlib.NArith.Ndec <> Nleb def
+R8459:8459 Stdlib.NArith.Ndec <> a:80 var
+R8461:8461 Stdlib.NArith.Ndec <> b:81 var
+R8465:8469 Corelib.Init.Datatypes <> false constr
+R8488:8490 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8475:8483 Stdlib.NArith.BinNat N compare def
+R8485:8485 Stdlib.NArith.Ndec <> a:80 var
+R8487:8487 Stdlib.NArith.Ndec <> b:81 var
+R8491:8492 Corelib.Init.Datatypes <> Gt constr
+R8516:8532 Stdlib.NArith.BinNat N compare_nle_iff thm
+R8538:8545 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R8548:8565 Stdlib.Bool.Bool <> not_true_iff_false thm
+prf 8580:8595 <> Ncompare_Gt_Nltb
+binder 8597:8597 <> a:82
+binder 8599:8599 <> b:83
+R8621:8624 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8616:8618 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8603:8611 Stdlib.NArith.BinNat N compare def
+R8613:8613 Stdlib.NArith.Ndec <> a:82 var
+R8615:8615 Stdlib.NArith.Ndec <> b:83 var
+R8619:8620 Corelib.Init.Datatypes <> Gt constr
+R8633:8635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8625:8628 Stdlib.NArith.Ndec <> Nleb def
+R8630:8630 Stdlib.NArith.Ndec <> a:82 var
+R8632:8632 Stdlib.NArith.Ndec <> b:83 var
+R8636:8640 Corelib.Init.Datatypes <> false constr
+R8659:8671 Stdlib.NArith.Ndec <> Nltb_Ncompare thm
+prf 8692:8707 <> Ncompare_Lt_Nltb
+binder 8709:8709 <> a:84
+binder 8711:8711 <> b:85
+R8733:8736 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8728:8730 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8715:8723 Stdlib.NArith.BinNat N compare def
+R8725:8725 Stdlib.NArith.Ndec <> a:84 var
+R8727:8727 Stdlib.NArith.Ndec <> b:85 var
+R8731:8732 Corelib.Init.Datatypes <> Lt constr
+R8745:8747 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8737:8740 Stdlib.NArith.Ndec <> Nleb def
+R8742:8742 Stdlib.NArith.Ndec <> b:85 var
+R8744:8744 Stdlib.NArith.Ndec <> a:84 var
+R8748:8752 Corelib.Init.Datatypes <> false constr
+R8781:8793 Stdlib.NArith.Ndec <> Nltb_Ncompare thm
+R8796:8812 Stdlib.NArith.BinNat N compare_antisym thm
+abbrev 8872:8882 <> Nmin_choice
+R8887:8895 Stdlib.NArith.BinNat N min_dec thm
+prf 8920:8928 <> Nmin_le_1
+binder 8930:8930 <> a:86
+binder 8932:8932 <> b:87
+R8954:8956 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8936:8939 Stdlib.NArith.Ndec <> Nleb def
+R8942:8946 Stdlib.NArith.BinNat N min def
+R8948:8948 Stdlib.NArith.Ndec <> a:86 var
+R8950:8950 Stdlib.NArith.Ndec <> b:87 var
+R8953:8953 Stdlib.NArith.Ndec <> a:86 var
+R8957:8960 Corelib.Init.Datatypes <> true constr
+R8978:8985 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R8994:9003 Stdlib.NArith.BinNat N le_min_l thm
+prf 9018:9026 <> Nmin_le_2
+binder 9028:9028 <> a:88
+binder 9030:9030 <> b:89
+R9052:9054 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9034:9037 Stdlib.NArith.Ndec <> Nleb def
+R9040:9044 Stdlib.NArith.BinNat N min def
+R9046:9046 Stdlib.NArith.Ndec <> a:88 var
+R9048:9048 Stdlib.NArith.Ndec <> b:89 var
+R9051:9051 Stdlib.NArith.Ndec <> b:89 var
+R9055:9058 Corelib.Init.Datatypes <> true constr
+R9076:9083 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9092:9101 Stdlib.NArith.BinNat N le_min_r thm
+prf 9116:9124 <> Nmin_le_3
+binder 9126:9126 <> a:90
+binder 9128:9128 <> b:91
+binder 9130:9130 <> c:92
+R9159:9162 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9152:9154 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9134:9137 Stdlib.NArith.Ndec <> Nleb def
+R9139:9139 Stdlib.NArith.Ndec <> a:90 var
+R9142:9146 Stdlib.NArith.BinNat N min def
+R9148:9148 Stdlib.NArith.Ndec <> b:91 var
+R9150:9150 Stdlib.NArith.Ndec <> c:92 var
+R9155:9158 Corelib.Init.Datatypes <> true constr
+R9171:9173 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9163:9166 Stdlib.NArith.Ndec <> Nleb def
+R9168:9168 Stdlib.NArith.Ndec <> a:90 var
+R9170:9170 Stdlib.NArith.Ndec <> b:91 var
+R9174:9177 Corelib.Init.Datatypes <> true constr
+R9196:9203 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9212:9222 Stdlib.NArith.BinNat N min_glb_l thm
+prf 9237:9245 <> Nmin_le_4
+binder 9247:9247 <> a:93
+binder 9249:9249 <> b:94
+binder 9251:9251 <> c:95
+R9280:9283 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9273:9275 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9255:9258 Stdlib.NArith.Ndec <> Nleb def
+R9260:9260 Stdlib.NArith.Ndec <> a:93 var
+R9263:9267 Stdlib.NArith.BinNat N min def
+R9269:9269 Stdlib.NArith.Ndec <> b:94 var
+R9271:9271 Stdlib.NArith.Ndec <> c:95 var
+R9276:9279 Corelib.Init.Datatypes <> true constr
+R9292:9294 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9284:9287 Stdlib.NArith.Ndec <> Nleb def
+R9289:9289 Stdlib.NArith.Ndec <> a:93 var
+R9291:9291 Stdlib.NArith.Ndec <> c:95 var
+R9295:9298 Corelib.Init.Datatypes <> true constr
+R9317:9324 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9333:9343 Stdlib.NArith.BinNat N min_glb_r thm
+prf 9358:9366 <> Nmin_le_5
+binder 9368:9368 <> a:96
+binder 9370:9370 <> b:97
+binder 9372:9372 <> c:98
+R9394:9397 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9387:9389 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9379:9382 Stdlib.NArith.Ndec <> Nleb def
+R9384:9384 Stdlib.NArith.Ndec <> a:96 var
+R9386:9386 Stdlib.NArith.Ndec <> b:97 var
+R9390:9393 Corelib.Init.Datatypes <> true constr
+R9413:9416 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9406:9408 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9398:9401 Stdlib.NArith.Ndec <> Nleb def
+R9403:9403 Stdlib.NArith.Ndec <> a:96 var
+R9405:9405 Stdlib.NArith.Ndec <> c:98 var
+R9409:9412 Corelib.Init.Datatypes <> true constr
+R9435:9437 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9417:9420 Stdlib.NArith.Ndec <> Nleb def
+R9422:9422 Stdlib.NArith.Ndec <> a:96 var
+R9425:9429 Stdlib.NArith.BinNat N min def
+R9431:9431 Stdlib.NArith.Ndec <> b:97 var
+R9433:9433 Stdlib.NArith.Ndec <> c:98 var
+R9438:9441 Corelib.Init.Datatypes <> true constr
+R9460:9467 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9476:9484 Stdlib.NArith.BinNat N min_glb thm
+prf 9499:9507 <> Nmin_lt_3
+binder 9509:9509 <> a:99
+binder 9511:9511 <> b:100
+binder 9513:9513 <> c:101
+R9543:9546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9535:9537 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9517:9520 Stdlib.NArith.Ndec <> Nleb def
+R9523:9527 Stdlib.NArith.BinNat N min def
+R9529:9529 Stdlib.NArith.Ndec <> b:100 var
+R9531:9531 Stdlib.NArith.Ndec <> c:101 var
+R9534:9534 Stdlib.NArith.Ndec <> a:99 var
+R9538:9542 Corelib.Init.Datatypes <> false constr
+R9555:9557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9547:9550 Stdlib.NArith.Ndec <> Nleb def
+R9552:9552 Stdlib.NArith.Ndec <> b:100 var
+R9554:9554 Stdlib.NArith.Ndec <> a:99 var
+R9558:9562 Corelib.Init.Datatypes <> false constr
+R9586:9603 Stdlib.Bool.Bool <> not_true_iff_false thm
+R9607:9614 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9627:9638 Stdlib.NArith.BinNat N min_le_iff thm
+prf 9659:9667 <> Nmin_lt_4
+binder 9669:9669 <> a:102
+binder 9671:9671 <> b:103
+binder 9673:9673 <> c:104
+R9703:9706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9695:9697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9677:9680 Stdlib.NArith.Ndec <> Nleb def
+R9683:9687 Stdlib.NArith.BinNat N min def
+R9689:9689 Stdlib.NArith.Ndec <> b:103 var
+R9691:9691 Stdlib.NArith.Ndec <> c:104 var
+R9694:9694 Stdlib.NArith.Ndec <> a:102 var
+R9698:9702 Corelib.Init.Datatypes <> false constr
+R9715:9717 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9707:9710 Stdlib.NArith.Ndec <> Nleb def
+R9712:9712 Stdlib.NArith.Ndec <> c:104 var
+R9714:9714 Stdlib.NArith.Ndec <> a:102 var
+R9718:9722 Corelib.Init.Datatypes <> false constr
+R9746:9763 Stdlib.Bool.Bool <> not_true_iff_false thm
+R9767:9774 Stdlib.NArith.Ndec <> Nleb_Nle thm
+R9787:9798 Stdlib.NArith.BinNat N min_le_iff thm

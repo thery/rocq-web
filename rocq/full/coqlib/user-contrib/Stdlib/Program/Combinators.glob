@@ -1,0 +1,99 @@
+DIGEST ee7db150e2059eafad5b9409f35f64aa
+FStdlib.Program.Combinators
+R904:909 Stdlib.Program.Basics <> <> lib
+R939:962 Stdlib.Logic.FunctionalExtensionality <> <> lib
+prf 1068:1082 <> compose_id_left
+binder 1093:1093 <> A:1
+binder 1095:1095 <> B:2
+R1103:1106 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1102:1102 Stdlib.Program.Combinators <> A:1 var
+R1107:1107 Stdlib.Program.Combinators <> B:2 var
+binder 1098:1098 <> f:3
+R1119:1121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1113:1117 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1111:1112 Corelib.Init.Datatypes <> id def
+R1118:1118 Stdlib.Program.Combinators <> f:3 var
+R1122:1122 Stdlib.Program.Combinators <> f:3 var
+prf 1169:1184 <> compose_id_right
+binder 1195:1195 <> A:4
+binder 1197:1197 <> B:5
+R1205:1208 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1204:1204 Stdlib.Program.Combinators <> A:4 var
+R1209:1209 Stdlib.Program.Combinators <> B:5 var
+binder 1200:1200 <> f:6
+R1221:1223 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1214:1218 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1213:1213 Stdlib.Program.Combinators <> f:6 var
+R1219:1220 Corelib.Init.Datatypes <> id def
+R1224:1224 Stdlib.Program.Combinators <> f:6 var
+prf 1271:1283 <> compose_assoc
+binder 1294:1294 <> A:7
+binder 1296:1296 <> B:8
+binder 1298:1298 <> C:9
+binder 1300:1300 <> D:10
+R1308:1311 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1307:1307 Stdlib.Program.Combinators <> A:7 var
+R1312:1312 Stdlib.Program.Combinators <> B:8 var
+binder 1303:1303 <> f:11
+R1321:1324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1320:1320 Stdlib.Program.Combinators <> B:8 var
+R1325:1325 Stdlib.Program.Combinators <> C:9 var
+binder 1316:1316 <> g:12
+R1334:1337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1333:1333 Stdlib.Program.Combinators <> C:9 var
+R1338:1338 Stdlib.Program.Combinators <> D:10 var
+binder 1329:1329 <> h:13
+R1357:1359 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1351:1355 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1345:1349 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1344:1344 Stdlib.Program.Combinators <> h:13 var
+R1350:1350 Stdlib.Program.Combinators <> g:12 var
+R1356:1356 Stdlib.Program.Combinators <> f:11 var
+R1361:1366 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1374:1374 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1360:1360 Stdlib.Program.Combinators <> h:13 var
+R1368:1372 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1367:1367 Stdlib.Program.Combinators <> g:12 var
+R1373:1373 Stdlib.Program.Combinators <> f:11 var
+R1439:1453 Stdlib.Program.Combinators <> compose_id_left thm
+R1456:1471 Stdlib.Program.Combinators <> compose_id_right thm
+R1508:1520 Stdlib.Program.Combinators <> compose_assoc thm
+prf 1567:1575 <> flip_flip
+binder 1586:1586 <> A:14
+binder 1588:1588 <> B:15
+binder 1590:1590 <> C:16
+R1613:1615 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1604:1608 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1594:1597 Corelib.Program.Basics <> flip def
+R1599:1599 Stdlib.Program.Combinators <> A:14 var
+R1601:1601 Stdlib.Program.Combinators <> B:15 var
+R1603:1603 Stdlib.Program.Combinators <> C:16 var
+R1609:1612 Corelib.Program.Basics <> flip def
+R1616:1617 Corelib.Init.Datatypes <> id def
+prf 1720:1732 <> curry_uncurry
+binder 1743:1743 <> A:17
+binder 1745:1745 <> B:18
+binder 1747:1747 <> C:19
+R1774:1776 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1762:1766 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1751:1755 Corelib.Init.Datatypes <> curry def
+R1757:1757 Stdlib.Program.Combinators <> A:17 var
+R1759:1759 Stdlib.Program.Combinators <> B:18 var
+R1761:1761 Stdlib.Program.Combinators <> C:19 var
+R1767:1773 Corelib.Init.Datatypes <> uncurry def
+R1777:1778 Corelib.Init.Datatypes <> id def
+prf 1825:1837 <> uncurry_curry
+binder 1848:1848 <> A:20
+binder 1850:1850 <> B:21
+binder 1852:1852 <> C:22
+R1879:1881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1869:1873 Corelib.Program.Basics <> ::program_scope:x_'∘'_x not
+R1856:1862 Corelib.Init.Datatypes <> uncurry def
+R1864:1864 Stdlib.Program.Combinators <> A:20 var
+R1866:1866 Stdlib.Program.Combinators <> B:21 var
+R1868:1868 Stdlib.Program.Combinators <> C:22 var
+R1874:1878 Corelib.Init.Datatypes <> curry def
+R1882:1883 Corelib.Init.Datatypes <> id def
+R1920:1924 Corelib.Init.Datatypes <> curry def
+R1927:1933 Corelib.Init.Datatypes <> uncurry def
+R1936:1942 Corelib.Program.Basics <> compose def

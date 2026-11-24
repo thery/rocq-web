@@ -1,0 +1,114 @@
+DIGEST c21b781cb643725b18caf79854bade95
+FStdlib.Wellfounded.Union
+R732:749 Stdlib.Relations.Relation_Operators <> <> lib
+R779:798 Stdlib.Relations.Relation_Definitions <> <> lib
+R828:845 Stdlib.Wellfounded.Transitive_Closure <> <> lib
+sec 857:863 <> WfUnion
+var 877:877 WfUnion A
+var 899:900 WfUnion R1
+var 902:903 WfUnion R2
+R907:914 Corelib.Relations.Relation_Definitions <> relation def
+R916:916 Stdlib.Wellfounded.Union <> WfUnion.A var
+abbrev 931:935 <> Union
+R941:945 Stdlib.Relations.Relation_Operators <> union def
+R952:953 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R949:950 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R947:947 Stdlib.Wellfounded.Union <> WfUnion.A var
+prf 967:978 <> strip_commut
+R1000:1007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R986:991 Corelib.Relations.Relation_Definitions <> commut def
+R995:996 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R998:999 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R993:993 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1019:1019 Stdlib.Wellfounded.Union <> WfUnion.A var
+binder 1015:1015 <> x:7
+binder 1017:1017 <> y:8
+R1047:1056 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1028:1037 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1044:1044 Stdlib.Wellfounded.Union <> y:8 var
+R1046:1046 Stdlib.Wellfounded.Union <> x:7 var
+R1041:1042 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1039:1039 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1066:1066 Stdlib.Wellfounded.Union <> WfUnion.A var
+binder 1064:1064 <> z:9
+R1075:1079 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1069:1070 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R1072:1072 Stdlib.Wellfounded.Union <> z:9 var
+R1074:1074 Stdlib.Wellfounded.Union <> y:8 var
+R1080:1087 Corelib.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1090:1092 Corelib.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1094:1095 Corelib.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1103:1105 Corelib.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1093:1093 Stdlib.Wellfounded.Union <> WfUnion.A var
+binder 1088:1089 <> y':10
+R1096:1097 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R1099:1100 Stdlib.Wellfounded.Union <> y':10 var
+R1102:1102 Stdlib.Wellfounded.Union <> x:7 var
+binder 1088:1089 <> y':11
+R1106:1115 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1122:1122 Stdlib.Wellfounded.Union <> z:9 var
+R1124:1125 Stdlib.Wellfounded.Union <> y':11 var
+R1119:1120 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1117:1117 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1425:1431 Stdlib.Relations.Relation_Operators <> t_trans constr
+prf 1475:1483 <> Acc_union
+R1505:1512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1491:1496 Corelib.Relations.Relation_Definitions <> commut def
+R1500:1501 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1503:1504 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R1498:1498 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1513:1513 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1546:1550 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1523:1523 Stdlib.Wellfounded.Union <> WfUnion.A var
+binder 1521:1521 <> x:12
+R1534:1537 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1526:1528 Corelib.Init.Wf <> Acc ind
+R1533:1533 Stdlib.Wellfounded.Union <> x:12 var
+R1530:1531 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R1538:1540 Corelib.Init.Wf <> Acc ind
+R1545:1545 Stdlib.Wellfounded.Union <> x:12 var
+R1542:1543 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1560:1560 Stdlib.Wellfounded.Union <> WfUnion.A var
+binder 1558:1558 <> a:13
+R1571:1574 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1563:1565 Corelib.Init.Wf <> Acc ind
+R1570:1570 Stdlib.Wellfounded.Union <> a:13 var
+R1567:1568 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R1575:1577 Corelib.Init.Wf <> Acc ind
+R1585:1585 Stdlib.Wellfounded.Union <> a:13 var
+R1579:1583 Stdlib.Wellfounded.Union <> Union abbrev
+R1637:1645 Corelib.Init.Wf <> Acc_intro constr
+R1702:1711 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1715:1716 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1713:1713 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1749:1751 Corelib.Init.Wf <> Acc ind
+R1754:1763 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1767:1768 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R1765:1765 Stdlib.Wellfounded.Union <> WfUnion.A var
+R1820:1828 Corelib.Init.Wf <> Acc_intro constr
+R1910:1916 Stdlib.Relations.Relation_Operators <> t_trans constr
+R1957:1968 Stdlib.Wellfounded.Union <> strip_commut thm
+R2022:2034 Stdlib.Wellfounded.Transitive_Closure <> Acc_inv_trans thm
+R2076:2080 Stdlib.Relations.Relation_Operators <> union def
+R2139:2145 Stdlib.Relations.Relation_Operators <> t_trans constr
+R2186:2199 Stdlib.Wellfounded.Transitive_Closure <> Acc_clos_trans thm
+R2201:2201 Stdlib.Wellfounded.Union <> WfUnion.A var
+R2217:2223 Corelib.Init.Wf <> Acc_inv thm
+R2277:2285 Corelib.Init.Wf <> Acc_intro constr
+prf 2323:2330 <> wf_union
+R2352:2355 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2338:2343 Corelib.Relations.Relation_Definitions <> commut def
+R2347:2348 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R2350:2351 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R2345:2345 Stdlib.Wellfounded.Union <> WfUnion.A var
+R2371:2374 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2356:2367 Corelib.Init.Wf <> well_founded def
+R2369:2370 Stdlib.Wellfounded.Union <> WfUnion.R1 var
+R2390:2393 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2375:2386 Corelib.Init.Wf <> well_founded def
+R2388:2389 Stdlib.Wellfounded.Union <> WfUnion.R2 var
+R2394:2405 Corelib.Init.Wf <> well_founded def
+R2407:2411 Stdlib.Wellfounded.Union <> Union abbrev
+R2434:2445 Corelib.Init.Wf <> well_founded def
+R2470:2478 Stdlib.Wellfounded.Union <> Acc_union thm
+R2509:2515 Stdlib.Wellfounded.Union WfUnion <> sec

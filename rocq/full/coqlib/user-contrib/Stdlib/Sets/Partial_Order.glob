@@ -1,0 +1,137 @@
+DIGEST ae50c36fb009f86aca05b933113a4436
+FStdlib.Sets.Partial_Order
+R1850:1858 Stdlib.Sets.Ensembles <> <> lib
+R1888:1898 Stdlib.Sets.Relations_1 <> <> lib
+sec 1910:1923 <> Partial_orders
+var 1937:1937 Partial_orders U
+def 1961:1967 <> Carrier
+R1972:1979 Stdlib.Sets.Ensembles <> Ensemble def
+R1981:1981 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+def 1998:2000 <> Rel
+R2005:2012 Stdlib.Sets.Relations_1 <> Relation def
+R2014:2014 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+rec 2027:2028 <> PO
+proj 2063:2072 <> Carrier_of
+proj 2094:2099 <> Rel_of
+proj 2121:2128 <> PO_cond1
+proj 2162:2169 <> PO_cond2
+R2076:2083 Stdlib.Sets.Ensembles <> Ensemble def
+R2085:2085 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+R2103:2110 Stdlib.Sets.Relations_1 <> Relation def
+R2112:2112 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+R2132:2140 Stdlib.Sets.Ensembles <> Inhabited ind
+R2144:2153 Stdlib.Sets.Partial_Order <> Carrier_of:4 meth
+R2142:2142 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+R2173:2177 Stdlib.Sets.Relations_1 <> Order ind
+R2181:2186 Stdlib.Sets.Partial_Order <> Rel_of:5 meth
+R2179:2179 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+var 2202:2202 Partial_orders p
+R2206:2207 Stdlib.Sets.Partial_Order <> PO rec
+def 2224:2236 <> Strict_Rel_of
+R2240:2242 Stdlib.Sets.Partial_Order <> Rel def
+R2255:2255 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+binder 2251:2251 <> x:10
+binder 2253:2253 <> y:11
+R2272:2275 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2260:2265 Stdlib.Sets.Partial_Order <> Rel_of proj
+R2267:2267 Stdlib.Sets.Partial_Order <> Partial_orders.p var
+R2269:2269 Stdlib.Sets.Partial_Order <> x:10 var
+R2271:2271 Stdlib.Sets.Partial_Order <> y:11 var
+R2277:2280 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2276:2276 Stdlib.Sets.Partial_Order <> x:10 var
+R2281:2281 Stdlib.Sets.Partial_Order <> y:11 var
+ind 2297:2302 <> covers
+constr 2326:2345 <> Definition_of_covers
+R2309:2309 Stdlib.Sets.Partial_Order <> Partial_orders.U var
+binder 2305:2305 <> y:12
+binder 2307:2307 <> x:13
+R2370:2377 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2353:2365 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2367:2367 Stdlib.Sets.Partial_Order <> x:13 var
+R2369:2369 Stdlib.Sets.Partial_Order <> y:12 var
+R2434:2441 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2378:2380 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2433:2433 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2381:2387 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2393:2394 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2388:2388 <> z:16
+R2412:2415 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2395:2407 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2409:2409 Stdlib.Sets.Partial_Order <> x:13 var
+R2411:2411 Stdlib.Sets.Partial_Order <> z:16 var
+R2416:2428 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2430:2430 Stdlib.Sets.Partial_Order <> z:16 var
+R2432:2432 Stdlib.Sets.Partial_Order <> y:12 var
+R2442:2447 Stdlib.Sets.Partial_Order <> covers:14 ind
+R2451:2451 Stdlib.Sets.Partial_Order <> x:13 var
+R2449:2449 Stdlib.Sets.Partial_Order <> y:12 var
+scheme 2297:2302 <> covers_rect
+scheme 2297:2302 <> covers_ind
+scheme 2297:2302 <> covers_rec
+scheme 2297:2302 <> covers_sind
+R2459:2472 Stdlib.Sets.Partial_Order Partial_orders <> sec
+R2498:2507 Stdlib.Sets.Partial_Order <> Carrier_of proj
+R2509:2514 Stdlib.Sets.Partial_Order <> Rel_of proj
+R2516:2528 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+sec 2598:2616 <> Partial_order_facts
+var 2630:2630 Partial_order_facts U
+var 2651:2651 Partial_order_facts D
+R2655:2656 Stdlib.Sets.Partial_Order <> PO rec
+R2658:2658 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+prf 2670:2699 <> Strict_Rel_Transitive_with_Rel
+R2720:2720 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+binder 2714:2714 <> x:21
+binder 2716:2716 <> y:22
+binder 2718:2718 <> z:23
+R2750:2753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2729:2741 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2747:2747 Stdlib.Sets.Partial_Order <> x:21 var
+R2749:2749 Stdlib.Sets.Partial_Order <> y:22 var
+R2745:2745 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R2743:2743 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R2769:2772 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2755:2760 Stdlib.Sets.Partial_Order <> Rel_of proj
+R2762:2762 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R2764:2764 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R2766:2766 Stdlib.Sets.Partial_Order <> y:22 var
+R2768:2768 Stdlib.Sets.Partial_Order <> z:23 var
+R2773:2785 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2791:2791 Stdlib.Sets.Partial_Order <> x:21 var
+R2793:2793 Stdlib.Sets.Partial_Order <> z:23 var
+R2789:2789 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R2787:2787 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R2816:2828 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R2854:2854 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+prf 3121:3155 <> Strict_Rel_Transitive_with_Rel_left
+R3176:3176 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+binder 3170:3170 <> x:24
+binder 3172:3172 <> y:25
+binder 3174:3174 <> z:26
+R3200:3203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3186:3191 Stdlib.Sets.Partial_Order <> Rel_of proj
+R3193:3193 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R3195:3195 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R3197:3197 Stdlib.Sets.Partial_Order <> x:24 var
+R3199:3199 Stdlib.Sets.Partial_Order <> y:25 var
+R3225:3228 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3204:3216 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3222:3222 Stdlib.Sets.Partial_Order <> y:25 var
+R3224:3224 Stdlib.Sets.Partial_Order <> z:26 var
+R3220:3220 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R3218:3218 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R3229:3241 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3247:3247 Stdlib.Sets.Partial_Order <> x:24 var
+R3249:3249 Stdlib.Sets.Partial_Order <> z:26 var
+R3245:3245 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R3243:3243 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R3272:3284 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3310:3310 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+prf 3579:3599 <> Strict_Rel_Transitive
+R3603:3612 Stdlib.Sets.Relations_1 <> Transitive def
+R3617:3629 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3633:3633 Stdlib.Sets.Partial_Order <> Partial_order_facts.D var
+R3631:3631 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R3614:3614 Stdlib.Sets.Partial_Order <> Partial_order_facts.U var
+R3690:3719 Stdlib.Sets.Partial_Order <> Strict_Rel_Transitive_with_Rel thm
+R3763:3775 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3813:3831 Stdlib.Sets.Partial_Order Partial_order_facts <> sec

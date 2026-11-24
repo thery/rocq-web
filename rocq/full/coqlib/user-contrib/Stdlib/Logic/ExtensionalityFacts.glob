@@ -1,0 +1,212 @@
+DIGEST acdd7938540259246d4e74e67e6e6e62
+FStdlib.Logic.ExtensionalityFacts
+def 1349:1358 <> is_inverse
+binder 1360:1360 <> A:1
+binder 1362:1362 <> B:2
+binder 1364:1364 <> f:3
+binder 1366:1366 <> g:4
+R1371:1371 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1395:1400 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1424:1424 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1381:1381 Stdlib.Logic.ExtensionalityFacts <> A:1 var
+binder 1379:1379 <> a:5
+R1391:1393 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1384:1384 Stdlib.Logic.ExtensionalityFacts <> g:4 var
+R1387:1387 Stdlib.Logic.ExtensionalityFacts <> f:3 var
+R1389:1389 Stdlib.Logic.ExtensionalityFacts <> a:5 var
+R1394:1394 Stdlib.Logic.ExtensionalityFacts <> a:5 var
+R1410:1410 Stdlib.Logic.ExtensionalityFacts <> B:2 var
+binder 1408:1408 <> b:6
+R1420:1422 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1413:1413 Stdlib.Logic.ExtensionalityFacts <> f:3 var
+R1416:1416 Stdlib.Logic.ExtensionalityFacts <> g:4 var
+R1418:1418 Stdlib.Logic.ExtensionalityFacts <> b:6 var
+R1423:1423 Stdlib.Logic.ExtensionalityFacts <> b:6 var
+rec 1524:1528 <> Delta
+proj 1537:1539 <> pi1
+proj 1544:1546 <> pi2
+proj 1551:1552 <> eq
+binder 1530:1530 <> A:7
+R1541:1541 Stdlib.Logic.ExtensionalityFacts <> A:7 var
+R1548:1548 Stdlib.Logic.ExtensionalityFacts <> A:7 var
+R1557:1557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1554:1556 Stdlib.Logic.ExtensionalityFacts <> pi1:9 meth
+R1558:1560 Stdlib.Logic.ExtensionalityFacts <> pi2:10 meth
+def 1577:1581 <> delta
+binder 1584:1584 <> A:12
+R1590:1590 Stdlib.Logic.ExtensionalityFacts <> A:12 var
+binder 1588:1588 <> a:13
+R1599:1601 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R1609:1611 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+R1619:1620 Stdlib.Logic.ExtensionalityFacts <> eq proj
+R1606:1606 Stdlib.Logic.ExtensionalityFacts <> a:13 var
+R1616:1616 Stdlib.Logic.ExtensionalityFacts <> a:13 var
+R1625:1631 Corelib.Init.Logic <> eq_refl constr
+R1633:1633 Stdlib.Logic.ExtensionalityFacts <> a:13 var
+R1650:1652 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R1671:1673 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+prf 1689:1716 <> diagonal_projs_same_behavior
+binder 1727:1727 <> A:14
+R1732:1736 Stdlib.Logic.ExtensionalityFacts <> Delta rec
+R1738:1738 Stdlib.Logic.ExtensionalityFacts <> A:14 var
+binder 1730:1730 <> x:15
+R1747:1749 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1742:1744 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R1746:1746 Stdlib.Logic.ExtensionalityFacts <> x:15 var
+R1750:1752 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+R1754:1754 Stdlib.Logic.ExtensionalityFacts <> x:15 var
+prf 1817:1833 <> diagonal_inverse1
+binder 1844:1844 <> A:16
+R1847:1856 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R1871:1873 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R1865:1869 Stdlib.Logic.ExtensionalityFacts <> delta def
+R1862:1862 Stdlib.Logic.ExtensionalityFacts <> A:16 var
+prf 1955:1971 <> diagonal_inverse2
+binder 1982:1982 <> A:17
+R1985:1994 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R2009:2011 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+R2003:2007 Stdlib.Logic.ExtensionalityFacts <> delta def
+R2000:2000 Stdlib.Logic.ExtensionalityFacts <> A:17 var
+abbrev 2139:2162 <> FunctionalExtensionality
+binder 2177:2177 <> A:18
+binder 2179:2179 <> B:19
+R2189:2192 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2188:2188 Stdlib.Logic.ExtensionalityFacts <> A:18 var
+R2193:2193 Stdlib.Logic.ExtensionalityFacts <> B:19 var
+binder 2182:2182 <> f:20
+binder 2184:2184 <> g:21
+R2197:2197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2217:2221 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 2205:2205 <> x:22
+R2211:2213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2208:2208 Stdlib.Logic.ExtensionalityFacts <> f:20 var
+R2210:2210 Stdlib.Logic.ExtensionalityFacts <> x:22 var
+R2214:2214 Stdlib.Logic.ExtensionalityFacts <> g:21 var
+R2216:2216 Stdlib.Logic.ExtensionalityFacts <> x:22 var
+R2223:2225 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2222:2222 Stdlib.Logic.ExtensionalityFacts <> f:20 var
+R2226:2226 Stdlib.Logic.ExtensionalityFacts <> g:21 var
+abbrev 2295:2306 <> EqDeltaProjs
+binder 2319:2319 <> A:23
+R2325:2327 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2331:2335 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2348:2348 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2343:2346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2336:2340 Stdlib.Logic.ExtensionalityFacts <> Delta rec
+R2342:2342 Stdlib.Logic.ExtensionalityFacts <> A:23 var
+R2347:2347 Stdlib.Logic.ExtensionalityFacts <> A:23 var
+R2322:2324 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R2328:2330 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+abbrev 2408:2420 <> UniqueInverse
+binder 2433:2433 <> A:24
+binder 2435:2435 <> B:25
+R2441:2442 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2440:2440 Stdlib.Logic.ExtensionalityFacts <> A:24 var
+R2443:2443 Stdlib.Logic.ExtensionalityFacts <> B:25 var
+binder 2438:2438 <> f:26
+binder 2446:2447 <> g1:27
+binder 2449:2450 <> g2:28
+R2468:2471 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2453:2462 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R2466:2467 Stdlib.Logic.ExtensionalityFacts <> g1:27 var
+R2464:2464 Stdlib.Logic.ExtensionalityFacts <> f:26 var
+R2487:2490 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2472:2481 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R2485:2486 Stdlib.Logic.ExtensionalityFacts <> g2:28 var
+R2483:2483 Stdlib.Logic.ExtensionalityFacts <> f:26 var
+R2493:2495 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2491:2492 Stdlib.Logic.ExtensionalityFacts <> g1:27 var
+R2496:2497 Stdlib.Logic.ExtensionalityFacts <> g2:28 var
+def 2558:2563 <> action
+binder 2565:2565 <> A:29
+binder 2567:2567 <> B:30
+binder 2569:2569 <> C:31
+R2575:2576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2574:2574 Stdlib.Logic.ExtensionalityFacts <> A:29 var
+R2577:2577 Stdlib.Logic.ExtensionalityFacts <> B:30 var
+binder 2572:2572 <> f:32
+R2591:2592 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2590:2590 Stdlib.Logic.ExtensionalityFacts <> B:30 var
+R2593:2593 Stdlib.Logic.ExtensionalityFacts <> C:31 var
+binder 2588:2588 <> h:33
+binder 2602:2602 <> x:34
+R2607:2607 Stdlib.Logic.ExtensionalityFacts <> h:33 var
+R2610:2610 Stdlib.Logic.ExtensionalityFacts <> f:32 var
+R2612:2612 Stdlib.Logic.ExtensionalityFacts <> x:34 var
+abbrev 2636:2659 <> BijectivityBijectiveComp
+binder 2672:2672 <> A:35
+binder 2674:2674 <> B:36
+binder 2676:2676 <> C:37
+R2682:2683 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2681:2681 Stdlib.Logic.ExtensionalityFacts <> A:35 var
+R2684:2684 Stdlib.Logic.ExtensionalityFacts <> B:36 var
+binder 2679:2679 <> f:38
+binder 2687:2687 <> g:39
+R2706:2709 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2692:2701 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R2705:2705 Stdlib.Logic.ExtensionalityFacts <> g:39 var
+R2703:2703 Stdlib.Logic.ExtensionalityFacts <> f:38 var
+R2710:2719 Stdlib.Logic.ExtensionalityFacts <> is_inverse def
+R2743:2748 Stdlib.Logic.ExtensionalityFacts <> action def
+R2750:2750 Stdlib.Logic.ExtensionalityFacts <> g:39 var
+R2732:2737 Stdlib.Logic.ExtensionalityFacts <> action def
+R2739:2739 Stdlib.Logic.ExtensionalityFacts <> f:38 var
+R2726:2727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2725:2725 Stdlib.Logic.ExtensionalityFacts <> B:36 var
+R2728:2728 Stdlib.Logic.ExtensionalityFacts <> C:37 var
+prf 2915:2939 <> FunctExt_iff_EqDeltaProjs
+R2967:2971 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2943:2966 Stdlib.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R2972:2983 Stdlib.Logic.ExtensionalityFacts <> EqDeltaProjs abbrev
+R3037:3064 Stdlib.Logic.ExtensionalityFacts <> diagonal_projs_same_behavior thm
+binder 3109:3109 <> x:40
+R3114:3116 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R3120:3122 Stdlib.Logic.ExtensionalityFacts <> pi1 proj
+R3130:3132 Stdlib.Logic.ExtensionalityFacts <> pi2 proj
+R3140:3141 Stdlib.Logic.ExtensionalityFacts <> eq proj
+R3127:3127 Stdlib.Logic.ExtensionalityFacts <> x:40 var
+R3137:3137 Stdlib.Logic.ExtensionalityFacts <> x:40 var
+R3146:3146 Stdlib.Logic.ExtensionalityFacts <> x:40 var
+binder 3109:3109 <> x:41
+R3127:3127 Stdlib.Logic.ExtensionalityFacts <> x:41 var
+R3137:3137 Stdlib.Logic.ExtensionalityFacts <> x:41 var
+R3146:3146 Stdlib.Logic.ExtensionalityFacts <> x:41 var
+prf 3340:3359 <> FunctExt_UniqInverse
+R3387:3390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3363:3386 Stdlib.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R3391:3403 Stdlib.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+prf 3504:3527 <> UniqInverse_EqDeltaProjs
+R3544:3547 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3531:3543 Stdlib.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+R3548:3559 Stdlib.Logic.ExtensionalityFacts <> EqDeltaProjs abbrev
+R3610:3614 Stdlib.Logic.ExtensionalityFacts <> delta def
+R3624:3640 Stdlib.Logic.ExtensionalityFacts <> diagonal_inverse1 thm
+R3650:3666 Stdlib.Logic.ExtensionalityFacts <> diagonal_inverse2 thm
+prf 3684:3707 <> FunctExt_iff_UniqInverse
+R3735:3739 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3711:3734 Stdlib.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R3740:3752 Stdlib.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+R3781:3800 Stdlib.Logic.ExtensionalityFacts <> FunctExt_UniqInverse thm
+R3820:3844 Stdlib.Logic.ExtensionalityFacts <> FunctExt_iff_EqDeltaProjs thm
+R3847:3870 Stdlib.Logic.ExtensionalityFacts <> UniqInverse_EqDeltaProjs thm
+prf 4044:4059 <> FunctExt_BijComp
+R4087:4090 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4063:4086 Stdlib.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R4091:4114 Stdlib.Logic.ExtensionalityFacts <> BijectivityBijectiveComp abbrev
+R4167:4172 Stdlib.Logic.ExtensionalityFacts <> action def
+prf 4313:4328 <> BijComp_FunctExt
+R4356:4359 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4332:4355 Stdlib.Logic.ExtensionalityFacts <> BijectivityBijectiveComp abbrev
+R4360:4383 Stdlib.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R4419:4442 Stdlib.Logic.ExtensionalityFacts <> FunctExt_iff_UniqInverse thm
+R4607:4612 Stdlib.Logic.ExtensionalityFacts <> action def
+binder 4622:4622 <> x:42
+R4627:4627 Stdlib.Logic.ExtensionalityFacts <> x:42 var
+binder 4622:4622 <> x:43
+R4627:4627 Stdlib.Logic.ExtensionalityFacts <> x:43 var
+binder 4656:4656 <> x:44
+R4661:4661 Stdlib.Logic.ExtensionalityFacts <> x:44 var
+binder 4656:4656 <> x:45
+R4661:4661 Stdlib.Logic.ExtensionalityFacts <> x:45 var
+binder 4656:4656 <> x:46
+R4661:4661 Stdlib.Logic.ExtensionalityFacts <> x:46 var

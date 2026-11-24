@@ -1,0 +1,17 @@
+% cyp's messages, in the language of the proof: the tables are in
+% messages_xx.elpi ([message Lang Key Template], %1, %2, ... the arguments);
+% a message missing there is the English one, or the English message of an
+% error of the tree (prooftext's error-template)
+
+pred message o:string, o:string, o:string.
+
+% [msg Key Args S]: the message Key with its arguments
+pred msg i:string, i:list string, o:string.
+msg K As S :-
+  (current-lang L, ! ; L = "en"),
+  (message L K T, ! ; message "en" K T, ! ; prooftext.error-template K T, ! ; T = K),
+  prooftext.fill-template 1 As T S.
+
+% [say Key Args]: the message Key printed, in the language of the proof
+pred say i:string, i:list string.
+say K As :- msg K As S, coq.say S.

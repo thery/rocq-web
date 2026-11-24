@@ -1,0 +1,1165 @@
+DIGEST 5c38c24db1c2124f73b81c8d5c5b601d
+FStdlib.ZArith.ZModOffset
+R15:20 Stdlib.ZArith.BinInt <> <> lib
+R22:25 Stdlib.ZArith.Zdiv <> <> lib
+R27:36 Stdlib.ZArith.Zdiv_facts <> <> lib
+R38:45 Stdlib.omega.PreOmega <> <> lib
+R47:49 Stdlib.micromega.Lia <> <> lib
+R51:54 Stdlib.ZArith.Wf_Z <> <> lib
+R56:65 Stdlib.ZArith.ZArith_dec <> <> lib
+mod 105:105 <> Z
+def 120:126 Z omodulo
+binder 128:128 <> d:1
+binder 130:130 <> a:2
+binder 132:132 <> b:3
+R155:157 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R137:144 Stdlib.ZArith.BinInt Z modulo def
+R148:150 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R147:147 Stdlib.ZArith.ZModOffset <> a:2 var
+R151:151 Stdlib.ZArith.ZModOffset <> d:1 var
+R154:154 Stdlib.ZArith.ZModOffset <> b:3 var
+R158:158 Stdlib.ZArith.ZModOffset <> d:1 var
+prf 168:176 Z omodulo_0
+binder 178:178 <> a:4
+binder 180:180 <> b:5
+R199:201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R184:192 Stdlib.ZArith.ZModOffset Z omodulo def
+R196:196 Stdlib.ZArith.ZModOffset <> a:4 var
+R198:198 Stdlib.ZArith.ZModOffset <> b:5 var
+R202:209 Stdlib.ZArith.BinInt Z modulo def
+R211:211 Stdlib.ZArith.ZModOffset <> a:4 var
+R213:213 Stdlib.ZArith.ZModOffset <> b:5 var
+R228:236 Stdlib.ZArith.ZModOffset Z omodulo def
+R248:256 Stdlib.ZArith.BinInt Z sub_0_r thm
+R259:267 Stdlib.ZArith.BinInt Z add_0_r thm
+prf 291:298 Z div_omod
+binder 300:300 <> d:6
+binder 302:302 <> a:7
+binder 304:304 <> b:8
+R314:317 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R309:312 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R308:308 Stdlib.ZArith.ZModOffset <> b:8 var
+R319:321 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R318:318 Stdlib.ZArith.ZModOffset <> a:7 var
+R335:337 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R323:326 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R334:334 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R322:322 Stdlib.ZArith.ZModOffset <> b:8 var
+R327:327 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R331:332 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R329:329 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R328:328 Stdlib.ZArith.ZModOffset <> a:7 var
+R330:330 Stdlib.ZArith.ZModOffset <> d:6 var
+R333:333 Stdlib.ZArith.ZModOffset <> b:8 var
+R338:344 Stdlib.ZArith.ZModOffset Z omodulo def
+R346:346 Stdlib.ZArith.ZModOffset <> d:6 var
+R348:348 Stdlib.ZArith.ZModOffset <> a:7 var
+R350:350 Stdlib.ZArith.ZModOffset <> b:8 var
+R365:371 Stdlib.ZArith.ZModOffset Z omodulo def
+R386:394 Stdlib.ZArith.BinInt Z div_mod thm
+R398:398 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 422:435 Z omod_pos_bound
+binder 437:437 <> d:9
+binder 439:439 <> a:10
+binder 441:441 <> b:11
+R450:453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R446:448 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R449:449 Stdlib.ZArith.ZModOffset <> b:11 var
+R455:458 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R474:476 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R454:454 Stdlib.ZArith.ZModOffset <> d:9 var
+R459:467 Stdlib.ZArith.ZModOffset Z omodulo def
+R469:469 Stdlib.ZArith.ZModOffset <> d:9 var
+R471:471 Stdlib.ZArith.ZModOffset <> a:10 var
+R473:473 Stdlib.ZArith.ZModOffset <> b:11 var
+R478:478 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R477:477 Stdlib.ZArith.ZModOffset <> d:9 var
+R479:479 Stdlib.ZArith.ZModOffset <> b:11 var
+R494:502 Stdlib.ZArith.ZModOffset Z omodulo def
+prf 558:571 Z omod_neg_bound
+binder 573:573 <> d:12
+binder 575:575 <> a:13
+binder 577:577 <> b:14
+R586:589 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R582:584 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R581:581 Stdlib.ZArith.ZModOffset <> b:14 var
+R593:595 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R611:614 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R591:591 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R590:590 Stdlib.ZArith.ZModOffset <> d:12 var
+R592:592 Stdlib.ZArith.ZModOffset <> b:14 var
+R596:604 Stdlib.ZArith.ZModOffset Z omodulo def
+R606:606 Stdlib.ZArith.ZModOffset <> d:12 var
+R608:608 Stdlib.ZArith.ZModOffset <> a:13 var
+R610:610 Stdlib.ZArith.ZModOffset <> b:14 var
+R615:615 Stdlib.ZArith.ZModOffset <> d:12 var
+R630:638 Stdlib.ZArith.ZModOffset Z omodulo def
+def 699:711 Z omod_bound_or
+binder 713:713 <> d:15
+binder 715:715 <> a:16
+binder 717:717 <> b:17
+R725:728 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R724:724 Stdlib.ZArith.ZModOffset <> b:17 var
+binder 720:720 <> H:18
+R735:738 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R752:756 Stdlib.ZArith.ZArith_dec <> Z_dec thm
+R758:758 Stdlib.ZArith.ZModOffset <> b:17 var
+R771:776 Corelib.Init.Specif <> inleft constr
+R779:782 Corelib.Init.Specif <> left constr
+R792:800 Corelib.Init.Logic <> or_introl constr
+R803:816 Stdlib.ZArith.ZModOffset Z omod_neg_bound thm
+R818:818 Stdlib.ZArith.ZModOffset <> d:15 var
+R820:820 Stdlib.ZArith.ZModOffset <> a:16 var
+R822:822 Stdlib.ZArith.ZModOffset <> b:17 var
+R833:838 Corelib.Init.Specif <> inleft constr
+R841:845 Corelib.Init.Specif <> right constr
+R855:863 Corelib.Init.Logic <> or_intror constr
+R866:879 Stdlib.ZArith.ZModOffset Z omod_pos_bound thm
+R881:881 Stdlib.ZArith.ZModOffset <> d:15 var
+R883:883 Stdlib.ZArith.ZModOffset <> a:16 var
+R885:885 Stdlib.ZArith.ZModOffset <> b:17 var
+R903:909 Corelib.Init.Specif <> inright constr
+prf 944:957 Z omod_small_iff
+binder 959:959 <> d:19
+binder 961:961 <> a:20
+binder 963:963 <> b:21
+R969:969 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1007:1012 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R982:985 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R971:974 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R976:978 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R970:970 Stdlib.ZArith.ZModOffset <> d:19 var
+R975:975 Stdlib.ZArith.ZModOffset <> a:20 var
+R980:980 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R979:979 Stdlib.ZArith.ZModOffset <> d:19 var
+R981:981 Stdlib.ZArith.ZModOffset <> b:21 var
+R991:994 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R987:989 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R986:986 Stdlib.ZArith.ZModOffset <> b:21 var
+R998:1000 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R1002:1005 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R996:996 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R995:995 Stdlib.ZArith.ZModOffset <> d:19 var
+R997:997 Stdlib.ZArith.ZModOffset <> b:21 var
+R1001:1001 Stdlib.ZArith.ZModOffset <> a:20 var
+R1006:1006 Stdlib.ZArith.ZModOffset <> d:19 var
+R1028:1030 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1013:1021 Stdlib.ZArith.ZModOffset Z omodulo def
+R1023:1023 Stdlib.ZArith.ZModOffset <> d:19 var
+R1025:1025 Stdlib.ZArith.ZModOffset <> a:20 var
+R1027:1027 Stdlib.ZArith.ZModOffset <> b:21 var
+R1031:1031 Stdlib.ZArith.ZModOffset <> a:20 var
+R1048:1056 Stdlib.ZArith.ZModOffset Z omodulo def
+R1066:1073 Stdlib.ZArith.BinInt Z eq_dec def
+R1101:1109 Stdlib.ZArith.BinInt Z mod_0_r thm
+R1127:1141 Stdlib.ZArith.BinInt Z mod_small_iff thm
+R1145:1145 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 1169:1178 Z omod_small
+binder 1180:1180 <> d:22
+binder 1182:1182 <> a:23
+binder 1184:1184 <> b:24
+R1200:1203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1189:1192 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1194:1196 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1188:1188 Stdlib.ZArith.ZModOffset <> d:22 var
+R1193:1193 Stdlib.ZArith.ZModOffset <> a:23 var
+R1198:1198 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1197:1197 Stdlib.ZArith.ZModOffset <> d:22 var
+R1199:1199 Stdlib.ZArith.ZModOffset <> b:24 var
+R1219:1221 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1204:1212 Stdlib.ZArith.ZModOffset Z omodulo def
+R1214:1214 Stdlib.ZArith.ZModOffset <> d:22 var
+R1216:1216 Stdlib.ZArith.ZModOffset <> a:23 var
+R1218:1218 Stdlib.ZArith.ZModOffset <> b:24 var
+R1222:1222 Stdlib.ZArith.ZModOffset <> a:23 var
+R1246:1259 Stdlib.ZArith.ZModOffset Z omod_small_iff thm
+prf 1282:1295 Z omod_small_neg
+binder 1297:1297 <> d:25
+binder 1299:1299 <> a:26
+binder 1301:1301 <> b:27
+R1317:1320 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1308:1310 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R1312:1315 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R1306:1306 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1305:1305 Stdlib.ZArith.ZModOffset <> d:25 var
+R1307:1307 Stdlib.ZArith.ZModOffset <> b:27 var
+R1311:1311 Stdlib.ZArith.ZModOffset <> a:26 var
+R1316:1316 Stdlib.ZArith.ZModOffset <> d:25 var
+R1336:1338 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1321:1329 Stdlib.ZArith.ZModOffset Z omodulo def
+R1331:1331 Stdlib.ZArith.ZModOffset <> d:25 var
+R1333:1333 Stdlib.ZArith.ZModOffset <> a:26 var
+R1335:1335 Stdlib.ZArith.ZModOffset <> b:27 var
+R1339:1339 Stdlib.ZArith.ZModOffset <> a:26 var
+R1363:1376 Stdlib.ZArith.ZModOffset Z omod_small_iff thm
+prf 1399:1406 Z omod_0_r
+binder 1408:1408 <> d:28
+binder 1410:1410 <> a:29
+R1429:1431 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1414:1422 Stdlib.ZArith.ZModOffset Z omodulo def
+R1424:1424 Stdlib.ZArith.ZModOffset <> d:28 var
+R1426:1426 Stdlib.ZArith.ZModOffset <> a:29 var
+R1432:1432 Stdlib.ZArith.ZModOffset <> a:29 var
+R1456:1469 Stdlib.ZArith.ZModOffset Z omod_small_iff thm
+R1510:1518 Stdlib.ZArith.ZModOffset Z omodulo def
+R1540:1556 Stdlib.ZArith.Zdiv <> Zplus_mod_idemp_l thm
+R1560:1576 Stdlib.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R1580:1597 Stdlib.ZArith.Zdiv <> Zminus_mod_idemp_l thm
+R1601:1618 Stdlib.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R1622:1634 Stdlib.ZArith.BinInt Z add_simpl_r thm
+R1638:1645 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+prf 1699:1707 Z omod_omod
+binder 1709:1709 <> d:30
+binder 1711:1711 <> a:31
+binder 1713:1713 <> b:32
+R1748:1750 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1717:1725 Stdlib.ZArith.ZModOffset Z omodulo def
+R1727:1727 Stdlib.ZArith.ZModOffset <> d:30 var
+R1730:1738 Stdlib.ZArith.ZModOffset Z omodulo def
+R1740:1740 Stdlib.ZArith.ZModOffset <> d:30 var
+R1742:1742 Stdlib.ZArith.ZModOffset <> a:31 var
+R1744:1744 Stdlib.ZArith.ZModOffset <> b:32 var
+R1747:1747 Stdlib.ZArith.ZModOffset <> b:32 var
+R1751:1759 Stdlib.ZArith.ZModOffset Z omodulo def
+R1761:1761 Stdlib.ZArith.ZModOffset <> d:30 var
+R1763:1763 Stdlib.ZArith.ZModOffset <> a:31 var
+R1765:1765 Stdlib.ZArith.ZModOffset <> b:32 var
+prf 1790:1797 Z omod_mod
+binder 1799:1799 <> d:33
+binder 1801:1801 <> a:34
+binder 1803:1803 <> b:35
+R1835:1837 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1807:1815 Stdlib.ZArith.ZModOffset Z omodulo def
+R1817:1817 Stdlib.ZArith.ZModOffset <> d:33 var
+R1820:1827 Stdlib.ZArith.BinInt Z modulo def
+R1829:1829 Stdlib.ZArith.ZModOffset <> a:34 var
+R1831:1831 Stdlib.ZArith.ZModOffset <> b:35 var
+R1834:1834 Stdlib.ZArith.ZModOffset <> b:35 var
+R1838:1846 Stdlib.ZArith.ZModOffset Z omodulo def
+R1848:1848 Stdlib.ZArith.ZModOffset <> d:33 var
+R1850:1850 Stdlib.ZArith.ZModOffset <> a:34 var
+R1852:1852 Stdlib.ZArith.ZModOffset <> b:35 var
+prf 1877:1884 Z mod_omod
+binder 1886:1886 <> d:36
+binder 1888:1888 <> a:37
+binder 1890:1890 <> b:38
+R1922:1924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1894:1901 Stdlib.ZArith.BinInt Z modulo def
+R1904:1912 Stdlib.ZArith.ZModOffset Z omodulo def
+R1914:1914 Stdlib.ZArith.ZModOffset <> d:36 var
+R1916:1916 Stdlib.ZArith.ZModOffset <> a:37 var
+R1918:1918 Stdlib.ZArith.ZModOffset <> b:38 var
+R1921:1921 Stdlib.ZArith.ZModOffset <> b:38 var
+R1925:1932 Stdlib.ZArith.BinInt Z modulo def
+R1934:1934 Stdlib.ZArith.ZModOffset <> a:37 var
+R1936:1936 Stdlib.ZArith.ZModOffset <> b:38 var
+prf 1961:1972 Z omod_inj_mod
+binder 1974:1974 <> d:39
+binder 1976:1976 <> x:40
+binder 1978:1978 <> y:41
+binder 1980:1980 <> m:42
+R2001:2004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1991:1993 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1985:1989 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1984:1984 Stdlib.ZArith.ZModOffset <> x:40 var
+R1990:1990 Stdlib.ZArith.ZModOffset <> m:42 var
+R1995:1999 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1994:1994 Stdlib.ZArith.ZModOffset <> y:41 var
+R2000:2000 Stdlib.ZArith.ZModOffset <> m:42 var
+R2020:2022 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2005:2013 Stdlib.ZArith.ZModOffset Z omodulo def
+R2015:2015 Stdlib.ZArith.ZModOffset <> d:39 var
+R2017:2017 Stdlib.ZArith.ZModOffset <> x:40 var
+R2019:2019 Stdlib.ZArith.ZModOffset <> m:42 var
+R2023:2031 Stdlib.ZArith.ZModOffset Z omodulo def
+R2033:2033 Stdlib.ZArith.ZModOffset <> d:39 var
+R2035:2035 Stdlib.ZArith.ZModOffset <> y:41 var
+R2037:2037 Stdlib.ZArith.ZModOffset <> m:42 var
+R2058:2065 Stdlib.ZArith.ZModOffset Z omod_mod thm
+R2076:2083 Stdlib.ZArith.ZModOffset Z omod_mod thm
+prf 2115:2126 Z mod_inj_omod
+binder 2128:2128 <> d:43
+binder 2130:2130 <> x:44
+binder 2132:2132 <> y:45
+binder 2134:2134 <> m:46
+R2171:2174 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2153:2155 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2138:2146 Stdlib.ZArith.ZModOffset Z omodulo def
+R2148:2148 Stdlib.ZArith.ZModOffset <> d:43 var
+R2150:2150 Stdlib.ZArith.ZModOffset <> x:44 var
+R2152:2152 Stdlib.ZArith.ZModOffset <> m:46 var
+R2156:2164 Stdlib.ZArith.ZModOffset Z omodulo def
+R2166:2166 Stdlib.ZArith.ZModOffset <> d:43 var
+R2168:2168 Stdlib.ZArith.ZModOffset <> y:45 var
+R2170:2170 Stdlib.ZArith.ZModOffset <> m:46 var
+R2182:2184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2176:2180 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2175:2175 Stdlib.ZArith.ZModOffset <> x:44 var
+R2181:2181 Stdlib.ZArith.ZModOffset <> m:46 var
+R2186:2190 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2185:2185 Stdlib.ZArith.ZModOffset <> y:45 var
+R2191:2191 Stdlib.ZArith.ZModOffset <> m:46 var
+R2212:2219 Stdlib.ZArith.ZModOffset Z mod_omod thm
+R2230:2237 Stdlib.ZArith.ZModOffset Z mod_omod thm
+prf 2269:2282 Z omod_idemp_add
+binder 2284:2284 <> d:47
+binder 2286:2286 <> x:48
+binder 2288:2288 <> y:49
+binder 2290:2290 <> m:50
+R2345:2347 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2296:2304 Stdlib.ZArith.ZModOffset Z omodulo def
+R2306:2306 Stdlib.ZArith.ZModOffset <> d:47 var
+R2324:2326 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2309:2317 Stdlib.ZArith.ZModOffset Z omodulo def
+R2319:2319 Stdlib.ZArith.ZModOffset <> d:47 var
+R2321:2321 Stdlib.ZArith.ZModOffset <> x:48 var
+R2323:2323 Stdlib.ZArith.ZModOffset <> m:50 var
+R2327:2335 Stdlib.ZArith.ZModOffset Z omodulo def
+R2337:2337 Stdlib.ZArith.ZModOffset <> d:47 var
+R2339:2339 Stdlib.ZArith.ZModOffset <> y:49 var
+R2341:2341 Stdlib.ZArith.ZModOffset <> m:50 var
+R2344:2344 Stdlib.ZArith.ZModOffset <> m:50 var
+R2348:2356 Stdlib.ZArith.ZModOffset Z omodulo def
+R2358:2358 Stdlib.ZArith.ZModOffset <> d:47 var
+R2362:2364 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2361:2361 Stdlib.ZArith.ZModOffset <> x:48 var
+R2365:2365 Stdlib.ZArith.ZModOffset <> y:49 var
+R2368:2368 Stdlib.ZArith.ZModOffset <> m:50 var
+R2384:2395 Stdlib.ZArith.ZModOffset Z omod_inj_mod thm
+R2406:2414 Stdlib.ZArith.Zdiv <> Zplus_mod thm
+R2418:2425 Stdlib.ZArith.ZModOffset Z mod_omod thm
+R2430:2438 Stdlib.ZArith.Zdiv <> Zplus_mod thm
+prf 2462:2475 Z omod_idemp_sub
+binder 2477:2477 <> d:51
+binder 2479:2479 <> x:52
+binder 2481:2481 <> y:53
+binder 2483:2483 <> m:54
+R2538:2540 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2489:2497 Stdlib.ZArith.ZModOffset Z omodulo def
+R2499:2499 Stdlib.ZArith.ZModOffset <> d:51 var
+R2517:2519 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2502:2510 Stdlib.ZArith.ZModOffset Z omodulo def
+R2512:2512 Stdlib.ZArith.ZModOffset <> d:51 var
+R2514:2514 Stdlib.ZArith.ZModOffset <> x:52 var
+R2516:2516 Stdlib.ZArith.ZModOffset <> m:54 var
+R2520:2528 Stdlib.ZArith.ZModOffset Z omodulo def
+R2530:2530 Stdlib.ZArith.ZModOffset <> d:51 var
+R2532:2532 Stdlib.ZArith.ZModOffset <> y:53 var
+R2534:2534 Stdlib.ZArith.ZModOffset <> m:54 var
+R2537:2537 Stdlib.ZArith.ZModOffset <> m:54 var
+R2541:2549 Stdlib.ZArith.ZModOffset Z omodulo def
+R2551:2551 Stdlib.ZArith.ZModOffset <> d:51 var
+R2555:2557 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2554:2554 Stdlib.ZArith.ZModOffset <> x:52 var
+R2558:2558 Stdlib.ZArith.ZModOffset <> y:53 var
+R2561:2561 Stdlib.ZArith.ZModOffset <> m:54 var
+R2577:2588 Stdlib.ZArith.ZModOffset Z omod_inj_mod thm
+R2599:2608 Stdlib.ZArith.Zdiv <> Zminus_mod thm
+R2612:2619 Stdlib.ZArith.ZModOffset Z mod_omod thm
+R2624:2633 Stdlib.ZArith.Zdiv <> Zminus_mod thm
+prf 2657:2670 Z omod_idemp_mul
+binder 2672:2672 <> d:55
+binder 2674:2674 <> x:56
+binder 2676:2676 <> y:57
+binder 2678:2678 <> m:58
+R2733:2735 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2684:2692 Stdlib.ZArith.ZModOffset Z omodulo def
+R2694:2694 Stdlib.ZArith.ZModOffset <> d:55 var
+R2712:2714 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2697:2705 Stdlib.ZArith.ZModOffset Z omodulo def
+R2707:2707 Stdlib.ZArith.ZModOffset <> d:55 var
+R2709:2709 Stdlib.ZArith.ZModOffset <> x:56 var
+R2711:2711 Stdlib.ZArith.ZModOffset <> m:58 var
+R2715:2723 Stdlib.ZArith.ZModOffset Z omodulo def
+R2725:2725 Stdlib.ZArith.ZModOffset <> d:55 var
+R2727:2727 Stdlib.ZArith.ZModOffset <> y:57 var
+R2729:2729 Stdlib.ZArith.ZModOffset <> m:58 var
+R2732:2732 Stdlib.ZArith.ZModOffset <> m:58 var
+R2736:2744 Stdlib.ZArith.ZModOffset Z omodulo def
+R2746:2746 Stdlib.ZArith.ZModOffset <> d:55 var
+R2750:2752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2749:2749 Stdlib.ZArith.ZModOffset <> x:56 var
+R2753:2753 Stdlib.ZArith.ZModOffset <> y:57 var
+R2756:2756 Stdlib.ZArith.ZModOffset <> m:58 var
+R2772:2783 Stdlib.ZArith.ZModOffset Z omod_inj_mod thm
+R2794:2802 Stdlib.ZArith.Zdiv <> Zmult_mod thm
+R2806:2813 Stdlib.ZArith.ZModOffset Z mod_omod thm
+R2818:2826 Stdlib.ZArith.Zdiv <> Zmult_mod thm
+prf 2850:2863 Z omod_diveq_iff
+binder 2865:2865 <> c:59
+binder 2867:2867 <> a:60
+binder 2869:2869 <> b:61
+binder 2871:2871 <> d:62
+R2877:2877 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2935:2942 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2883:2886 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2879:2881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2878:2878 Stdlib.ZArith.ZModOffset <> b:61 var
+R2909:2912 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2890:2893 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2899:2901 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2888:2888 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2887:2887 Stdlib.ZArith.ZModOffset <> c:59 var
+R2889:2889 Stdlib.ZArith.ZModOffset <> b:61 var
+R2895:2897 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2894:2894 Stdlib.ZArith.ZModOffset <> a:60 var
+R2898:2898 Stdlib.ZArith.ZModOffset <> d:62 var
+R2905:2907 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2903:2903 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2902:2902 Stdlib.ZArith.ZModOffset <> c:59 var
+R2904:2904 Stdlib.ZArith.ZModOffset <> b:61 var
+R2908:2908 Stdlib.ZArith.ZModOffset <> b:61 var
+R2920:2922 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R2928:2931 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R2916:2918 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2914:2914 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2913:2913 Stdlib.ZArith.ZModOffset <> c:59 var
+R2915:2915 Stdlib.ZArith.ZModOffset <> b:61 var
+R2919:2919 Stdlib.ZArith.ZModOffset <> b:61 var
+R2924:2926 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2923:2923 Stdlib.ZArith.ZModOffset <> a:60 var
+R2927:2927 Stdlib.ZArith.ZModOffset <> d:62 var
+R2933:2933 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2932:2932 Stdlib.ZArith.ZModOffset <> c:59 var
+R2934:2934 Stdlib.ZArith.ZModOffset <> b:61 var
+R2958:2960 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2943:2951 Stdlib.ZArith.ZModOffset Z omodulo def
+R2953:2953 Stdlib.ZArith.ZModOffset <> d:62 var
+R2955:2955 Stdlib.ZArith.ZModOffset <> a:60 var
+R2957:2957 Stdlib.ZArith.ZModOffset <> b:61 var
+R2962:2962 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2961:2961 Stdlib.ZArith.ZModOffset <> a:60 var
+R2964:2964 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2963:2963 Stdlib.ZArith.ZModOffset <> b:61 var
+R2965:2965 Stdlib.ZArith.ZModOffset <> c:59 var
+R2980:2986 Stdlib.ZArith.ZModOffset Z omodulo def
+R2998:3012 Stdlib.ZArith.Zdiv_facts Z mod_diveq_iff thm
+def 3037:3046 Z omod_diveq
+binder 3048:3048 <> c:63
+binder 3050:3050 <> a:64
+binder 3052:3052 <> b:65
+binder 3054:3054 <> d:66
+R3059:3063 Corelib.Init.Logic <> proj1 thm
+R3066:3079 Stdlib.ZArith.ZModOffset Z omod_diveq_iff thm
+R3081:3081 Stdlib.ZArith.ZModOffset <> c:63 var
+R3083:3083 Stdlib.ZArith.ZModOffset <> a:64 var
+R3085:3085 Stdlib.ZArith.ZModOffset <> b:65 var
+R3087:3087 Stdlib.ZArith.ZModOffset <> d:66 var
+def 3103:3109 Z smodulo
+binder 3111:3111 <> a:67
+binder 3113:3113 <> b:68
+R3118:3126 Stdlib.ZArith.ZModOffset Z omodulo def
+R3129:3130 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3131:3136 Stdlib.ZArith.BinInt Z quot def
+R3138:3138 Stdlib.ZArith.ZModOffset <> b:68 var
+R3143:3143 Stdlib.ZArith.ZModOffset <> a:67 var
+R3145:3145 Stdlib.ZArith.ZModOffset <> b:68 var
+prf 3155:3162 Z div_smod
+binder 3164:3164 <> a:69
+binder 3166:3166 <> b:70
+R3176:3179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3171:3174 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3170:3170 Stdlib.ZArith.ZModOffset <> b:70 var
+R3181:3183 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3180:3180 Stdlib.ZArith.ZModOffset <> a:69 var
+R3206:3208 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3185:3188 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3205:3205 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3184:3184 Stdlib.ZArith.ZModOffset <> b:70 var
+R3189:3189 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3202:3203 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3191:3191 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3190:3190 Stdlib.ZArith.ZModOffset <> a:69 var
+R3192:3197 Stdlib.ZArith.BinInt Z quot def
+R3199:3199 Stdlib.ZArith.ZModOffset <> b:70 var
+R3204:3204 Stdlib.ZArith.ZModOffset <> b:70 var
+R3209:3217 Stdlib.ZArith.ZModOffset Z smodulo def
+R3219:3219 Stdlib.ZArith.ZModOffset <> a:69 var
+R3221:3221 Stdlib.ZArith.ZModOffset <> b:70 var
+R3238:3246 Stdlib.ZArith.ZModOffset Z smodulo def
+R3261:3270 Stdlib.ZArith.ZModOffset Z div_omod thm
+R3273:3274 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3275:3280 Stdlib.ZArith.BinInt Z quot def
+R3305:3315 Stdlib.ZArith.BinInt Z sub_opp_r thm
+R3321:3324 Stdlib.ZArith.BinInt <> ::Z_scope:x_'÷'_x not
+prf 3347:3353 Z smod_eq
+binder 3355:3355 <> a:71
+binder 3357:3357 <> b:72
+R3367:3370 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3362:3365 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3361:3361 Stdlib.ZArith.ZModOffset <> b:72 var
+R3382:3384 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3371:3377 Stdlib.ZArith.ZModOffset Z smodulo def
+R3379:3379 Stdlib.ZArith.ZModOffset <> a:71 var
+R3381:3381 Stdlib.ZArith.ZModOffset <> b:72 var
+R3386:3388 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3385:3385 Stdlib.ZArith.ZModOffset <> a:71 var
+R3390:3393 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3414:3414 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3389:3389 Stdlib.ZArith.ZModOffset <> b:72 var
+R3394:3394 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3409:3412 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3396:3398 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3395:3395 Stdlib.ZArith.ZModOffset <> a:71 var
+R3399:3404 Stdlib.ZArith.BinInt Z quot def
+R3406:3406 Stdlib.ZArith.ZModOffset <> b:72 var
+R3413:3413 Stdlib.ZArith.ZModOffset <> b:72 var
+R3445:3452 Stdlib.ZArith.ZModOffset Z div_smod thm
+prf 3478:3491 Z smod_pos_bound
+binder 3493:3493 <> a:73
+binder 3495:3495 <> b:74
+R3503:3506 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3499:3501 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3502:3502 Stdlib.ZArith.ZModOffset <> b:74 var
+R3509:3512 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3528:3530 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3507:3507 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3508:3508 Stdlib.ZArith.ZModOffset <> b:74 var
+R3514:3514 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3515:3523 Stdlib.ZArith.ZModOffset Z smodulo def
+R3525:3525 Stdlib.ZArith.ZModOffset <> a:73 var
+R3527:3527 Stdlib.ZArith.ZModOffset <> b:74 var
+R3531:3531 Stdlib.ZArith.ZModOffset <> b:74 var
+R3546:3554 Stdlib.ZArith.ZModOffset Z omodulo def
+R3556:3564 Stdlib.ZArith.ZModOffset Z smodulo def
+prf 3620:3633 Z smod_neg_bound
+binder 3635:3635 <> a:75
+binder 3637:3637 <> b:76
+R3645:3648 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3641:3643 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3640:3640 Stdlib.ZArith.ZModOffset <> b:76 var
+R3650:3652 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R3668:3671 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R3649:3649 Stdlib.ZArith.ZModOffset <> b:76 var
+R3654:3654 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3655:3663 Stdlib.ZArith.ZModOffset Z smodulo def
+R3665:3665 Stdlib.ZArith.ZModOffset <> a:75 var
+R3667:3667 Stdlib.ZArith.ZModOffset <> b:76 var
+R3672:3672 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3673:3673 Stdlib.ZArith.ZModOffset <> b:76 var
+R3688:3696 Stdlib.ZArith.ZModOffset Z smodulo def
+R3698:3706 Stdlib.ZArith.ZModOffset Z omodulo def
+def 3767:3779 Z smod_bound_or
+binder 3781:3781 <> a:77
+binder 3783:3783 <> b:78
+R3791:3794 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3790:3790 Stdlib.ZArith.ZModOffset <> b:78 var
+binder 3786:3786 <> H:79
+R3801:3804 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3818:3822 Stdlib.ZArith.ZArith_dec <> Z_dec thm
+R3824:3824 Stdlib.ZArith.ZModOffset <> b:78 var
+R3837:3842 Corelib.Init.Specif <> inleft constr
+R3845:3848 Corelib.Init.Specif <> left constr
+R3858:3866 Corelib.Init.Logic <> or_introl constr
+R3869:3882 Stdlib.ZArith.ZModOffset Z smod_neg_bound thm
+R3884:3884 Stdlib.ZArith.ZModOffset <> a:77 var
+R3886:3886 Stdlib.ZArith.ZModOffset <> b:78 var
+R3897:3902 Corelib.Init.Specif <> inleft constr
+R3905:3909 Corelib.Init.Specif <> right constr
+R3919:3927 Corelib.Init.Logic <> or_intror constr
+R3930:3943 Stdlib.ZArith.ZModOffset Z smod_pos_bound thm
+R3945:3945 Stdlib.ZArith.ZModOffset <> a:77 var
+R3947:3947 Stdlib.ZArith.ZModOffset <> b:78 var
+R3965:3971 Corelib.Init.Specif <> inright constr
+prf 4006:4014 Z smod_smod
+binder 4016:4016 <> a:80
+binder 4018:4018 <> b:81
+R4049:4051 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4022:4030 Stdlib.ZArith.ZModOffset Z smodulo def
+R4033:4041 Stdlib.ZArith.ZModOffset Z smodulo def
+R4043:4043 Stdlib.ZArith.ZModOffset <> a:80 var
+R4045:4045 Stdlib.ZArith.ZModOffset <> b:81 var
+R4048:4048 Stdlib.ZArith.ZModOffset <> b:81 var
+R4052:4060 Stdlib.ZArith.ZModOffset Z smodulo def
+R4062:4062 Stdlib.ZArith.ZModOffset <> a:80 var
+R4064:4064 Stdlib.ZArith.ZModOffset <> b:81 var
+R4080:4088 Stdlib.ZArith.ZModOffset Z omod_omod thm
+prf 4103:4110 Z smod_mod
+binder 4112:4112 <> a:82
+binder 4114:4114 <> b:83
+R4144:4146 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4118:4126 Stdlib.ZArith.ZModOffset Z smodulo def
+R4129:4136 Stdlib.ZArith.BinInt Z modulo def
+R4138:4138 Stdlib.ZArith.ZModOffset <> a:82 var
+R4140:4140 Stdlib.ZArith.ZModOffset <> b:83 var
+R4143:4143 Stdlib.ZArith.ZModOffset <> b:83 var
+R4147:4155 Stdlib.ZArith.ZModOffset Z smodulo def
+R4157:4157 Stdlib.ZArith.ZModOffset <> a:82 var
+R4159:4159 Stdlib.ZArith.ZModOffset <> b:83 var
+R4175:4182 Stdlib.ZArith.ZModOffset Z omod_mod thm
+prf 4196:4203 Z mod_smod
+binder 4205:4205 <> a:84
+binder 4207:4207 <> b:85
+R4237:4239 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4211:4218 Stdlib.ZArith.BinInt Z modulo def
+R4221:4229 Stdlib.ZArith.ZModOffset Z smodulo def
+R4231:4231 Stdlib.ZArith.ZModOffset <> a:84 var
+R4233:4233 Stdlib.ZArith.ZModOffset <> b:85 var
+R4236:4236 Stdlib.ZArith.ZModOffset <> b:85 var
+R4240:4247 Stdlib.ZArith.BinInt Z modulo def
+R4249:4249 Stdlib.ZArith.ZModOffset <> a:84 var
+R4251:4251 Stdlib.ZArith.ZModOffset <> b:85 var
+R4267:4274 Stdlib.ZArith.ZModOffset Z mod_omod thm
+prf 4289:4300 Z smod_inj_mod
+binder 4302:4302 <> x:86
+binder 4304:4304 <> y:87
+binder 4306:4306 <> m:88
+R4327:4330 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4317:4319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4311:4315 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4310:4310 Stdlib.ZArith.ZModOffset <> x:86 var
+R4316:4316 Stdlib.ZArith.ZModOffset <> m:88 var
+R4321:4325 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4320:4320 Stdlib.ZArith.ZModOffset <> y:87 var
+R4326:4326 Stdlib.ZArith.ZModOffset <> m:88 var
+R4344:4346 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4331:4339 Stdlib.ZArith.ZModOffset Z smodulo def
+R4341:4341 Stdlib.ZArith.ZModOffset <> x:86 var
+R4343:4343 Stdlib.ZArith.ZModOffset <> m:88 var
+R4347:4355 Stdlib.ZArith.ZModOffset Z smodulo def
+R4357:4357 Stdlib.ZArith.ZModOffset <> y:87 var
+R4359:4359 Stdlib.ZArith.ZModOffset <> m:88 var
+R4375:4386 Stdlib.ZArith.ZModOffset Z omod_inj_mod thm
+prf 4401:4412 Z mod_inj_smod
+binder 4414:4414 <> x:89
+binder 4416:4416 <> y:90
+binder 4418:4418 <> m:91
+R4451:4454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4435:4437 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4422:4430 Stdlib.ZArith.ZModOffset Z smodulo def
+R4432:4432 Stdlib.ZArith.ZModOffset <> x:89 var
+R4434:4434 Stdlib.ZArith.ZModOffset <> m:91 var
+R4438:4446 Stdlib.ZArith.ZModOffset Z smodulo def
+R4448:4448 Stdlib.ZArith.ZModOffset <> y:90 var
+R4450:4450 Stdlib.ZArith.ZModOffset <> m:91 var
+R4462:4464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4456:4460 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4455:4455 Stdlib.ZArith.ZModOffset <> x:89 var
+R4461:4461 Stdlib.ZArith.ZModOffset <> m:91 var
+R4466:4470 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4465:4465 Stdlib.ZArith.ZModOffset <> y:90 var
+R4471:4471 Stdlib.ZArith.ZModOffset <> m:91 var
+R4487:4498 Stdlib.ZArith.ZModOffset Z mod_inj_omod thm
+prf 4513:4526 Z smod_idemp_add
+binder 4528:4528 <> x:92
+binder 4530:4530 <> y:93
+binder 4532:4532 <> m:94
+R4581:4583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4538:4546 Stdlib.ZArith.ZModOffset Z smodulo def
+R4562:4564 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4549:4557 Stdlib.ZArith.ZModOffset Z smodulo def
+R4559:4559 Stdlib.ZArith.ZModOffset <> x:92 var
+R4561:4561 Stdlib.ZArith.ZModOffset <> m:94 var
+R4565:4573 Stdlib.ZArith.ZModOffset Z smodulo def
+R4575:4575 Stdlib.ZArith.ZModOffset <> y:93 var
+R4577:4577 Stdlib.ZArith.ZModOffset <> m:94 var
+R4580:4580 Stdlib.ZArith.ZModOffset <> m:94 var
+R4584:4592 Stdlib.ZArith.ZModOffset Z smodulo def
+R4596:4598 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4595:4595 Stdlib.ZArith.ZModOffset <> x:92 var
+R4599:4599 Stdlib.ZArith.ZModOffset <> y:93 var
+R4602:4602 Stdlib.ZArith.ZModOffset <> m:94 var
+R4618:4631 Stdlib.ZArith.ZModOffset Z omod_idemp_add thm
+prf 4646:4659 Z smod_idemp_sub
+binder 4661:4661 <> x:95
+binder 4663:4663 <> y:96
+binder 4665:4665 <> m:97
+R4714:4716 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4671:4679 Stdlib.ZArith.ZModOffset Z smodulo def
+R4695:4697 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4682:4690 Stdlib.ZArith.ZModOffset Z smodulo def
+R4692:4692 Stdlib.ZArith.ZModOffset <> x:95 var
+R4694:4694 Stdlib.ZArith.ZModOffset <> m:97 var
+R4698:4706 Stdlib.ZArith.ZModOffset Z smodulo def
+R4708:4708 Stdlib.ZArith.ZModOffset <> y:96 var
+R4710:4710 Stdlib.ZArith.ZModOffset <> m:97 var
+R4713:4713 Stdlib.ZArith.ZModOffset <> m:97 var
+R4717:4725 Stdlib.ZArith.ZModOffset Z smodulo def
+R4729:4731 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4728:4728 Stdlib.ZArith.ZModOffset <> x:95 var
+R4732:4732 Stdlib.ZArith.ZModOffset <> y:96 var
+R4735:4735 Stdlib.ZArith.ZModOffset <> m:97 var
+R4751:4764 Stdlib.ZArith.ZModOffset Z omod_idemp_sub thm
+prf 4779:4792 Z smod_idemp_mul
+binder 4794:4794 <> x:98
+binder 4796:4796 <> y:99
+binder 4798:4798 <> m:100
+R4847:4849 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4804:4812 Stdlib.ZArith.ZModOffset Z smodulo def
+R4828:4830 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4815:4823 Stdlib.ZArith.ZModOffset Z smodulo def
+R4825:4825 Stdlib.ZArith.ZModOffset <> x:98 var
+R4827:4827 Stdlib.ZArith.ZModOffset <> m:100 var
+R4831:4839 Stdlib.ZArith.ZModOffset Z smodulo def
+R4841:4841 Stdlib.ZArith.ZModOffset <> y:99 var
+R4843:4843 Stdlib.ZArith.ZModOffset <> m:100 var
+R4846:4846 Stdlib.ZArith.ZModOffset <> m:100 var
+R4850:4858 Stdlib.ZArith.ZModOffset Z smodulo def
+R4862:4864 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4861:4861 Stdlib.ZArith.ZModOffset <> x:98 var
+R4865:4865 Stdlib.ZArith.ZModOffset <> y:99 var
+R4868:4868 Stdlib.ZArith.ZModOffset <> m:100 var
+R4884:4897 Stdlib.ZArith.ZModOffset Z omod_idemp_mul thm
+prf 4912:4925 Z smod_small_iff
+binder 4927:4927 <> a:101
+binder 4929:4929 <> b:102
+R4937:4938 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4939:4944 Stdlib.ZArith.BinInt Z quot def
+R4946:4946 Stdlib.ZArith.ZModOffset <> b:102 var
+binder 4932:4932 <> d:103
+R4955:4955 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5021:5028 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4982:4985 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4959:4962 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4978:4980 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4956:4957 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4958:4958 Stdlib.ZArith.ZModOffset <> b:102 var
+R4966:4968 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4964:4964 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4965:4965 Stdlib.ZArith.ZModOffset <> a:101 var
+R4969:4973 Stdlib.ZArith.BinInt Z rem def
+R4975:4975 Stdlib.ZArith.ZModOffset <> b:102 var
+R4981:4981 Stdlib.ZArith.ZModOffset <> b:102 var
+R4991:4994 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4987:4989 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4986:4986 Stdlib.ZArith.ZModOffset <> b:102 var
+R4996:4998 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5014:5017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R4995:4995 Stdlib.ZArith.ZModOffset <> b:102 var
+R5002:5004 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5000:5000 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5001:5001 Stdlib.ZArith.ZModOffset <> a:101 var
+R5005:5009 Stdlib.ZArith.BinInt Z rem def
+R5011:5011 Stdlib.ZArith.ZModOffset <> b:102 var
+R5018:5019 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5020:5020 Stdlib.ZArith.ZModOffset <> b:102 var
+R5040:5042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5029:5035 Stdlib.ZArith.ZModOffset Z smodulo def
+R5037:5037 Stdlib.ZArith.ZModOffset <> a:101 var
+R5039:5039 Stdlib.ZArith.ZModOffset <> b:102 var
+R5043:5043 Stdlib.ZArith.ZModOffset <> a:101 var
+R5066:5075 Stdlib.ZArith.BinInt Z quot_rem thm
+R5100:5106 Stdlib.ZArith.ZModOffset Z smodulo def
+R5121:5134 Stdlib.ZArith.ZModOffset Z omod_small_iff thm
+R5137:5138 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5139:5144 Stdlib.ZArith.BinInt Z quot def
+prf 5173:5191 Z smod_even_small_iff
+binder 5193:5193 <> a:104
+binder 5195:5195 <> b:105
+R5211:5213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5202:5206 Stdlib.ZArith.BinInt Z rem def
+R5208:5208 Stdlib.ZArith.ZModOffset <> b:105 var
+binder 5198:5198 <> H:106
+R5221:5221 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5261:5266 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5235:5238 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5224:5227 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5231:5233 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5222:5222 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5223:5223 Stdlib.ZArith.ZModOffset <> b:105 var
+R5229:5229 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5230:5230 Stdlib.ZArith.ZModOffset <> a:104 var
+R5234:5234 Stdlib.ZArith.ZModOffset <> b:105 var
+R5244:5247 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5240:5242 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5239:5239 Stdlib.ZArith.ZModOffset <> b:105 var
+R5249:5251 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5255:5258 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5248:5248 Stdlib.ZArith.ZModOffset <> b:105 var
+R5253:5253 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5254:5254 Stdlib.ZArith.ZModOffset <> a:104 var
+R5259:5259 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5260:5260 Stdlib.ZArith.ZModOffset <> b:105 var
+R5280:5282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5267:5275 Stdlib.ZArith.ZModOffset Z smodulo def
+R5277:5277 Stdlib.ZArith.ZModOffset <> a:104 var
+R5279:5279 Stdlib.ZArith.ZModOffset <> b:105 var
+R5283:5283 Stdlib.ZArith.ZModOffset <> a:104 var
+R5303:5316 Stdlib.ZArith.ZModOffset Z smod_small_iff thm
+prf 5339:5348 Z smod_small
+binder 5350:5350 <> a:107
+binder 5352:5352 <> b:108
+R5381:5384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5358:5361 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5377:5379 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5356:5356 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5357:5357 Stdlib.ZArith.ZModOffset <> b:108 var
+R5365:5367 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5363:5363 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5364:5364 Stdlib.ZArith.ZModOffset <> a:107 var
+R5368:5372 Stdlib.ZArith.BinInt Z rem def
+R5374:5374 Stdlib.ZArith.ZModOffset <> b:108 var
+R5380:5380 Stdlib.ZArith.ZModOffset <> b:108 var
+R5398:5400 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5385:5393 Stdlib.ZArith.ZModOffset Z smodulo def
+R5395:5395 Stdlib.ZArith.ZModOffset <> a:107 var
+R5397:5397 Stdlib.ZArith.ZModOffset <> b:108 var
+R5401:5401 Stdlib.ZArith.ZModOffset <> a:107 var
+R5425:5438 Stdlib.ZArith.ZModOffset Z smod_small_iff thm
+prf 5461:5475 Z smod_even_small
+binder 5477:5477 <> a:109
+binder 5479:5479 <> b:110
+R5496:5499 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5492:5494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5483:5487 Stdlib.ZArith.BinInt Z rem def
+R5489:5489 Stdlib.ZArith.ZModOffset <> b:110 var
+R5513:5516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5502:5505 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5509:5511 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5500:5500 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5501:5501 Stdlib.ZArith.ZModOffset <> b:110 var
+R5507:5507 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5508:5508 Stdlib.ZArith.ZModOffset <> a:109 var
+R5512:5512 Stdlib.ZArith.ZModOffset <> b:110 var
+R5530:5532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5517:5525 Stdlib.ZArith.ZModOffset Z smodulo def
+R5527:5527 Stdlib.ZArith.ZModOffset <> a:109 var
+R5529:5529 Stdlib.ZArith.ZModOffset <> b:110 var
+R5533:5533 Stdlib.ZArith.ZModOffset <> a:109 var
+R5557:5575 Stdlib.ZArith.ZModOffset Z smod_even_small_iff thm
+prf 5598:5612 Z smod_pow2_small
+binder 5614:5614 <> a:111
+binder 5616:5616 <> w:112
+R5624:5626 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5627:5627 Stdlib.ZArith.ZModOffset <> w:112 var
+binder 5619:5619 <> H:113
+R5656:5659 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5639:5642 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5648:5650 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5632:5633 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5635:5637 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5638:5638 Stdlib.ZArith.ZModOffset <> w:112 var
+R5644:5646 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5647:5647 Stdlib.ZArith.ZModOffset <> a:111 var
+R5652:5654 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5655:5655 Stdlib.ZArith.ZModOffset <> w:112 var
+R5677:5679 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5660:5668 Stdlib.ZArith.ZModOffset Z smodulo def
+R5670:5670 Stdlib.ZArith.ZModOffset <> a:111 var
+R5674:5674 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5675:5675 Stdlib.ZArith.ZModOffset <> w:112 var
+R5680:5680 Stdlib.ZArith.ZModOffset <> a:111 var
+R5706:5722 Stdlib.ZArith.ZModOffset Z smod_even_small thm
+R5747:5757 Stdlib.ZArith.BinInt Z succ_pred thm
+R5763:5774 Stdlib.ZArith.BinInt Z pow_succ_r thm
+prf 5829:5842 Z smod_small_neg
+binder 5844:5844 <> a:114
+binder 5846:5846 <> b:115
+R5876:5879 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5851:5853 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5869:5872 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5850:5850 Stdlib.ZArith.ZModOffset <> b:115 var
+R5857:5859 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5855:5855 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5856:5856 Stdlib.ZArith.ZModOffset <> a:114 var
+R5860:5864 Stdlib.ZArith.BinInt Z rem def
+R5866:5866 Stdlib.ZArith.ZModOffset <> b:115 var
+R5873:5874 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5875:5875 Stdlib.ZArith.ZModOffset <> b:115 var
+R5893:5895 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5880:5888 Stdlib.ZArith.ZModOffset Z smodulo def
+R5890:5890 Stdlib.ZArith.ZModOffset <> a:114 var
+R5892:5892 Stdlib.ZArith.ZModOffset <> b:115 var
+R5896:5896 Stdlib.ZArith.ZModOffset <> a:114 var
+R5920:5933 Stdlib.ZArith.ZModOffset Z smod_small_iff thm
+prf 5956:5974 Z smod_even_small_neg
+binder 5976:5976 <> a:116
+binder 5978:5978 <> b:117
+R5995:5998 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5991:5993 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5982:5986 Stdlib.ZArith.BinInt Z rem def
+R5988:5988 Stdlib.ZArith.ZModOffset <> b:117 var
+R6013:6016 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6000:6002 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R6006:6009 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R5999:5999 Stdlib.ZArith.ZModOffset <> b:117 var
+R6004:6004 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6005:6005 Stdlib.ZArith.ZModOffset <> a:116 var
+R6010:6011 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6012:6012 Stdlib.ZArith.ZModOffset <> b:117 var
+R6030:6032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6017:6025 Stdlib.ZArith.ZModOffset Z smodulo def
+R6027:6027 Stdlib.ZArith.ZModOffset <> a:116 var
+R6029:6029 Stdlib.ZArith.ZModOffset <> b:117 var
+R6033:6033 Stdlib.ZArith.ZModOffset <> a:116 var
+R6057:6075 Stdlib.ZArith.ZModOffset Z smod_even_small_iff thm
+prf 6098:6105 Z smod_0_r
+binder 6107:6107 <> a:118
+R6124:6126 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6111:6119 Stdlib.ZArith.ZModOffset Z smodulo def
+R6121:6121 Stdlib.ZArith.ZModOffset <> a:118 var
+R6127:6127 Stdlib.ZArith.ZModOffset <> a:118 var
+R6143:6152 Stdlib.ZArith.ZModOffset Z omod_0_r thm
+prf 6167:6174 Z smod_0_l
+binder 6176:6176 <> m:119
+R6193:6195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6180:6188 Stdlib.ZArith.ZModOffset Z smodulo def
+R6192:6192 Stdlib.ZArith.ZModOffset <> m:119 var
+R6212:6225 Stdlib.ZArith.ZModOffset Z smod_small_iff thm
+prf 6280:6293 Z smod_diveq_iff
+binder 6295:6295 <> c:120
+binder 6297:6297 <> a:121
+binder 6299:6299 <> b:122
+R6305:6305 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6383:6390 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6311:6314 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6307:6309 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6306:6306 Stdlib.ZArith.ZModOffset <> b:122 var
+R6346:6349 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6318:6321 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6336:6338 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6316:6316 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6315:6315 Stdlib.ZArith.ZModOffset <> c:120 var
+R6317:6317 Stdlib.ZArith.ZModOffset <> b:122 var
+R6323:6325 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6322:6322 Stdlib.ZArith.ZModOffset <> a:121 var
+R6326:6331 Stdlib.ZArith.BinInt Z quot def
+R6333:6333 Stdlib.ZArith.ZModOffset <> b:122 var
+R6342:6344 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6340:6340 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6339:6339 Stdlib.ZArith.ZModOffset <> c:120 var
+R6341:6341 Stdlib.ZArith.ZModOffset <> b:122 var
+R6345:6345 Stdlib.ZArith.ZModOffset <> b:122 var
+R6357:6359 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R6374:6377 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R6353:6355 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6351:6351 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6350:6350 Stdlib.ZArith.ZModOffset <> c:120 var
+R6352:6352 Stdlib.ZArith.ZModOffset <> b:122 var
+R6356:6356 Stdlib.ZArith.ZModOffset <> b:122 var
+R6361:6363 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6360:6360 Stdlib.ZArith.ZModOffset <> a:121 var
+R6364:6369 Stdlib.ZArith.BinInt Z quot def
+R6371:6371 Stdlib.ZArith.ZModOffset <> b:122 var
+R6379:6381 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6378:6378 Stdlib.ZArith.ZModOffset <> c:120 var
+R6382:6382 Stdlib.ZArith.ZModOffset <> b:122 var
+R6404:6406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6391:6399 Stdlib.ZArith.ZModOffset Z smodulo def
+R6401:6401 Stdlib.ZArith.ZModOffset <> a:121 var
+R6403:6403 Stdlib.ZArith.ZModOffset <> b:122 var
+R6408:6408 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6407:6407 Stdlib.ZArith.ZModOffset <> a:121 var
+R6410:6410 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6409:6409 Stdlib.ZArith.ZModOffset <> b:122 var
+R6411:6411 Stdlib.ZArith.ZModOffset <> c:120 var
+R6426:6432 Stdlib.ZArith.ZModOffset Z smodulo def
+R6446:6459 Stdlib.ZArith.ZModOffset Z omod_diveq_iff thm
+def 6484:6493 Z smod_diveq
+binder 6495:6495 <> c:123
+binder 6497:6497 <> a:124
+binder 6499:6499 <> b:125
+R6504:6508 Corelib.Init.Logic <> proj1 thm
+R6511:6524 Stdlib.ZArith.ZModOffset Z smod_diveq_iff thm
+R6526:6526 Stdlib.ZArith.ZModOffset <> c:123 var
+R6528:6528 Stdlib.ZArith.ZModOffset <> a:124 var
+R6530:6530 Stdlib.ZArith.ZModOffset <> b:125 var
+prf 6541:6559 Z smod_diveq_even_iff
+binder 6561:6561 <> c:126
+binder 6563:6563 <> a:127
+binder 6565:6565 <> b:128
+R6584:6589 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6580:6582 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6571:6575 Stdlib.ZArith.BinInt Z rem def
+R6577:6577 Stdlib.ZArith.ZModOffset <> b:128 var
+R6590:6590 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6658:6665 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6596:6599 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6592:6594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6591:6591 Stdlib.ZArith.ZModOffset <> b:128 var
+R6628:6631 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6605:6608 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6614:6616 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6603:6603 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6601:6601 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6602:6602 Stdlib.ZArith.ZModOffset <> c:126 var
+R6604:6604 Stdlib.ZArith.ZModOffset <> b:128 var
+R6612:6612 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6610:6610 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6611:6611 Stdlib.ZArith.ZModOffset <> a:127 var
+R6613:6613 Stdlib.ZArith.ZModOffset <> b:128 var
+R6622:6624 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6620:6620 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6618:6618 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6619:6619 Stdlib.ZArith.ZModOffset <> c:126 var
+R6621:6621 Stdlib.ZArith.ZModOffset <> b:128 var
+R6626:6626 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6627:6627 Stdlib.ZArith.ZModOffset <> b:128 var
+R6641:6643 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R6649:6652 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R6637:6637 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6635:6635 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6633:6633 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6634:6634 Stdlib.ZArith.ZModOffset <> c:126 var
+R6636:6636 Stdlib.ZArith.ZModOffset <> b:128 var
+R6639:6639 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6640:6640 Stdlib.ZArith.ZModOffset <> b:128 var
+R6647:6647 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6645:6645 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6646:6646 Stdlib.ZArith.ZModOffset <> a:127 var
+R6648:6648 Stdlib.ZArith.ZModOffset <> b:128 var
+R6656:6656 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6654:6654 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6655:6655 Stdlib.ZArith.ZModOffset <> c:126 var
+R6657:6657 Stdlib.ZArith.ZModOffset <> b:128 var
+R6679:6681 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6666:6674 Stdlib.ZArith.ZModOffset Z smodulo def
+R6676:6676 Stdlib.ZArith.ZModOffset <> a:127 var
+R6678:6678 Stdlib.ZArith.ZModOffset <> b:128 var
+R6683:6683 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6682:6682 Stdlib.ZArith.ZModOffset <> a:127 var
+R6685:6685 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6684:6684 Stdlib.ZArith.ZModOffset <> b:128 var
+R6686:6686 Stdlib.ZArith.ZModOffset <> c:126 var
+R6701:6707 Stdlib.ZArith.ZModOffset Z smodulo def
+R6721:6734 Stdlib.ZArith.ZModOffset Z omod_diveq_iff thm
+def 6794:6808 Z smod_diveq_even
+binder 6810:6810 <> c:129
+binder 6812:6812 <> a:130
+binder 6814:6814 <> b:131
+binder 6816:6816 <> H:132
+R6821:6825 Corelib.Init.Logic <> proj1 thm
+R6828:6846 Stdlib.ZArith.ZModOffset Z smod_diveq_even_iff thm
+R6848:6848 Stdlib.ZArith.ZModOffset <> c:129 var
+R6850:6850 Stdlib.ZArith.ZModOffset <> a:130 var
+R6852:6852 Stdlib.ZArith.ZModOffset <> b:131 var
+R6854:6854 Stdlib.ZArith.ZModOffset <> H:132 var
+prf 6865:6880 Z smod_smod_divide
+binder 6882:6882 <> a:133
+binder 6884:6884 <> b:134
+binder 6886:6886 <> c:135
+R6897:6900 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6890:6890 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R6892:6894 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R6896:6896 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R6891:6891 Stdlib.ZArith.ZModOffset <> c:135 var
+R6895:6895 Stdlib.ZArith.ZModOffset <> b:134 var
+R6928:6930 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6901:6909 Stdlib.ZArith.ZModOffset Z smodulo def
+R6912:6920 Stdlib.ZArith.ZModOffset Z smodulo def
+R6922:6922 Stdlib.ZArith.ZModOffset <> a:133 var
+R6924:6924 Stdlib.ZArith.ZModOffset <> b:134 var
+R6927:6927 Stdlib.ZArith.ZModOffset <> c:135 var
+R6931:6939 Stdlib.ZArith.ZModOffset Z smodulo def
+R6941:6941 Stdlib.ZArith.ZModOffset <> a:133 var
+R6943:6943 Stdlib.ZArith.ZModOffset <> c:135 var
+R6977:6988 Stdlib.ZArith.ZModOffset Z smod_inj_mod thm
+R7003:7012 Stdlib.ZArith.BinInt Z eqb_spec thm
+R7016:7016 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7043:7052 Stdlib.ZArith.ZModOffset Z smod_0_r thm
+R7076:7082 Stdlib.ZArith.ZModOffset Z smod_eq thm
+R7106:7116 Stdlib.ZArith.BinInt Z add_opp_r thm
+R7121:7131 Stdlib.ZArith.BinInt Z mul_assoc thm
+R7134:7143 Stdlib.ZArith.BinInt Z mul_comm thm
+R7158:7168 Stdlib.ZArith.BinInt Z mul_assoc thm
+R7171:7180 Stdlib.ZArith.BinInt Z mul_comm thm
+R7185:7195 Stdlib.ZArith.BinInt Z mul_opp_l thm
+R7198:7206 Stdlib.ZArith.BinInt Z mod_add thm
+prf 7226:7240 Z smod_complement
+binder 7242:7242 <> a:136
+binder 7244:7244 <> b:137
+binder 7246:7246 <> h:138
+R7254:7256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7253:7253 Stdlib.ZArith.ZModOffset <> b:137 var
+R7258:7258 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7259:7259 Stdlib.ZArith.ZModOffset <> h:138 var
+binder 7249:7249 <> H:139
+R7283:7285 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7279:7281 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7266:7274 Stdlib.ZArith.ZModOffset Z smodulo def
+R7276:7276 Stdlib.ZArith.ZModOffset <> a:136 var
+R7278:7278 Stdlib.ZArith.ZModOffset <> b:137 var
+R7282:7282 Stdlib.ZArith.ZModOffset <> h:138 var
+R7286:7288 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7305:7305 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7301:7303 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7289:7296 Stdlib.ZArith.BinInt Z modulo def
+R7298:7298 Stdlib.ZArith.ZModOffset <> a:136 var
+R7300:7300 Stdlib.ZArith.ZModOffset <> b:137 var
+R7304:7304 Stdlib.ZArith.ZModOffset <> h:138 var
+R7327:7336 Stdlib.ZArith.BinInt Z eqb_spec thm
+R7361:7369 Stdlib.ZArith.BinInt Z div_0_r thm
+R7393:7400 Stdlib.ZArith.ZModOffset Z smod_mod thm
+R7417:7430 Stdlib.ZArith.BinInt Z mod_bound_or thm
+R7451:7455 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7495:7504 Stdlib.ZArith.ZModOffset Z div_smod thm
+R7542:7547 Stdlib.ZArith.BinInt Z quot def
+R7637:7637 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7668:7672 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7645:7648 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7641:7643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7639:7639 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7656:7659 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7652:7654 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7650:7650 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7663:7665 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7661:7661 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7673:7673 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7700:7709 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7782:7782 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7685:7688 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7681:7683 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7674:7674 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7678:7679 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7676:7676 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7696:7698 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7689:7689 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7693:7694 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7691:7691 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7731:7734 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7727:7729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7723:7725 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7710:7718 Stdlib.ZArith.ZModOffset Z smodulo def
+R7756:7759 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7752:7754 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7748:7750 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7735:7743 Stdlib.ZArith.ZModOffset Z smodulo def
+R7777:7779 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7773:7775 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7760:7768 Stdlib.ZArith.ZModOffset Z smodulo def
+prf 8003:8016 Z smod_idemp_opp
+binder 8018:8018 <> x:140
+binder 8020:8020 <> m:141
+R8055:8057 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8026:8034 Stdlib.ZArith.ZModOffset Z smodulo def
+R8037:8038 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8039:8047 Stdlib.ZArith.ZModOffset Z smodulo def
+R8049:8049 Stdlib.ZArith.ZModOffset <> x:140 var
+R8051:8051 Stdlib.ZArith.ZModOffset <> m:141 var
+R8054:8054 Stdlib.ZArith.ZModOffset <> m:141 var
+R8058:8066 Stdlib.ZArith.ZModOffset Z smodulo def
+R8069:8070 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8071:8071 Stdlib.ZArith.ZModOffset <> x:140 var
+R8074:8074 Stdlib.ZArith.ZModOffset <> m:141 var
+R8097:8105 Stdlib.ZArith.BinInt Z sub_0_l thm
+R8113:8126 Stdlib.ZArith.ZModOffset Z smod_idemp_sub thm
+R8129:8136 Stdlib.ZArith.ZModOffset Z smod_0_l thm
+R8150:8158 Stdlib.ZArith.BinInt Z sub_0_l thm
+R8176:8182 Stdlib.ZArith.ZModOffset Z smodulo def
+prf 8212:8221 Z smod_pow_l
+binder 8223:8223 <> a:142
+binder 8225:8225 <> b:143
+binder 8227:8227 <> c:144
+R8264:8266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8231:8239 Stdlib.ZArith.ZModOffset Z smodulo def
+R8242:8242 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8256:8259 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8243:8251 Stdlib.ZArith.ZModOffset Z smodulo def
+R8253:8253 Stdlib.ZArith.ZModOffset <> a:142 var
+R8255:8255 Stdlib.ZArith.ZModOffset <> c:144 var
+R8260:8260 Stdlib.ZArith.ZModOffset <> b:143 var
+R8263:8263 Stdlib.ZArith.ZModOffset <> c:144 var
+R8267:8275 Stdlib.ZArith.ZModOffset Z smodulo def
+R8279:8281 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8278:8278 Stdlib.ZArith.ZModOffset <> a:142 var
+R8282:8282 Stdlib.ZArith.ZModOffset <> b:143 var
+R8285:8285 Stdlib.ZArith.ZModOffset <> c:144 var
+R8307:8316 Stdlib.ZArith.BinInt Z leb_spec thm
+R8346:8356 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R8390:8400 Stdlib.ZArith.Wf_Z <> natlike_ind thm
+R8457:8468 Stdlib.ZArith.BinInt Z pow_succ_r thm
+R8504:8519 Stdlib.ZArith.ZModOffset Z smod_idemp_mul thm
+R8544:8559 Stdlib.ZArith.ZModOffset Z smod_idemp_mul thm
+R8584:8599 Stdlib.ZArith.ZModOffset Z smod_idemp_mul thm
+R8648:8658 Stdlib.ZArith.ZModOffset Z smod_smod thm
+R8680:8680 Stdlib.ZArith.ZModOffset Z <> mod

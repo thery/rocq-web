@@ -1,0 +1,257 @@
+DIGEST 46d51094f0c582837f404f560dfa00b7
+FCdcl.Syntax
+R81:84 Stdlib.Bool.Bool <> <> lib
+R86:91 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+mod 102:106 <> HCons
+sec 264:264 HCons S
+var 280:280 HCons.S A
+rec 301:301 HCons t
+proj 334:335 HCons id
+proj 354:359 HCons is_dec
+proj 378:380 HCons elt
+R339:341 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+R362:365 Corelib.Init.Datatypes <> bool ind
+R383:383 Cdcl.Syntax <> HCons.S.A var
+prf 408:414 HCons dest_eq
+binder 425:425 <> f:7
+R464:466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R436:437 Cdcl.Syntax HCons mk constr
+R440:441 Cdcl.Syntax HCons id proj
+R443:443 Cdcl.Syntax <> f:7 var
+R447:452 Cdcl.Syntax HCons is_dec proj
+R454:454 Cdcl.Syntax <> f:7 var
+R458:460 Cdcl.Syntax HCons elt proj
+R462:462 Cdcl.Syntax <> f:7 var
+R467:467 Cdcl.Syntax <> f:7 var
+def 538:542 HCons eq_hc
+R553:553 Cdcl.Syntax HCons t rec
+binder 545:546 <> f1:8
+binder 548:549 <> f2:9
+R582:585 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R565:568 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'=?'_x not
+R560:561 Cdcl.Syntax HCons id proj
+R563:564 Cdcl.Syntax <> f1:8 var
+R569:570 Cdcl.Syntax HCons id proj
+R572:573 Cdcl.Syntax <> f2:9 var
+R586:593 Stdlib.Bool.Bool <> eqb def
+R596:601 Cdcl.Syntax HCons is_dec proj
+R603:604 Cdcl.Syntax <> f1:8 var
+R608:613 Cdcl.Syntax HCons is_dec proj
+R615:616 Cdcl.Syntax <> f2:9 var
+R628:628 Cdcl.Syntax HCons.S <> sec
+def 645:647 HCons map
+binder 650:650 <> A:10
+binder 652:652 <> B:11
+R660:663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R659:659 Cdcl.Syntax <> A:10 var
+R664:664 Cdcl.Syntax <> B:11 var
+binder 656:656 <> f:12
+R671:671 Cdcl.Syntax HCons t rec
+R673:673 Cdcl.Syntax <> A:10 var
+binder 668:668 <> e:13
+R678:678 Cdcl.Syntax HCons t rec
+R680:680 Cdcl.Syntax <> B:11 var
+R689:690 Cdcl.Syntax HCons mk constr
+R695:696 Cdcl.Syntax HCons id proj
+R700:700 Cdcl.Syntax <> e:13 var
+R704:709 Cdcl.Syntax HCons is_dec proj
+R713:713 Cdcl.Syntax <> e:13 var
+R717:717 Cdcl.Syntax <> f:12 var
+R720:722 Cdcl.Syntax HCons elt proj
+R726:726 Cdcl.Syntax <> e:13 var
+R736:740 Cdcl.Syntax HCons <> mod
+R753:760 Cdcl.Syntax <> mk constr
+R791:799 Cdcl.Syntax <> elt proj
+R817:824 Cdcl.Syntax <> id proj
+R842:853 Cdcl.Syntax <> is_dec proj
+R871:881 Cdcl.Syntax <> eq_hc def
+ind 1047:1048 <> op
+constr 1055:1057 <> NOT
+constr 1061:1063 <> AND
+constr 1067:1068 <> OR
+constr 1072:1075 <> IMPL
+constr 1079:1081 <> IFF
+R1090:1092 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 1084:1085 <> i1:16
+binder 1087:1088 <> i2:17
+scheme 1047:1048 <> op_rect
+scheme 1047:1048 <> op_ind
+scheme 1047:1048 <> op_rec
+scheme 1047:1048 <> op_sind
+ind 1107:1111 <> bprop
+constr 1116:1118 <> EQB
+R1127:1129 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 1121:1122 <> i1:20
+binder 1124:1125 <> i2:21
+scheme 1107:1111 <> bprop_rect
+scheme 1107:1111 <> bprop_ind
+scheme 1107:1111 <> bprop_rec
+scheme 1107:1111 <> bprop_sind
+ind 1144:1146 <> ite
+constr 1151:1153 <> ITE
+R1162:1164 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 1156:1157 <> i1:24
+binder 1159:1160 <> i2:25
+scheme 1144:1146 <> ite_rect
+scheme 1144:1146 <> ite_ind
+scheme 1144:1146 <> ite_rec
+scheme 1144:1146 <> ite_sind
+ind 1179:1182 <> kind
+constr 1195:1200 <> IsProp
+constr 1203:1208 <> IsBool
+scheme 1179:1182 <> kind_rect
+scheme 1179:1182 <> kind_ind
+scheme 1179:1182 <> kind_rec
+scheme 1179:1182 <> kind_sind
+ind 1222:1226 <> BForm
+constr 1249:1251 <> BTT
+constr 1285:1287 <> BFF
+constr 1321:1323 <> BAT
+constr 1364:1366 <> BOP
+constr 1476:1479 <> BITE
+constr 1613:1617 <> BPROP
+R1235:1238 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1231:1234 Cdcl.Syntax <> kind ind
+R1268:1271 Cdcl.Syntax <> kind ind
+binder 1265:1265 <> k:30
+R1275:1279 Cdcl.Syntax <> BForm:28 ind
+R1281:1281 Cdcl.Syntax <> k:30 var
+R1304:1307 Cdcl.Syntax <> kind ind
+binder 1301:1301 <> k:31
+R1311:1315 Cdcl.Syntax <> BForm:28 ind
+R1317:1317 Cdcl.Syntax <> k:31 var
+R1340:1343 Cdcl.Syntax <> kind ind
+binder 1337:1337 <> k:32
+R1350:1353 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1347:1349 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+R1354:1358 Cdcl.Syntax <> BForm:28 ind
+R1360:1360 Cdcl.Syntax <> k:32 var
+R1383:1386 Cdcl.Syntax <> kind ind
+binder 1380:1380 <> k:33
+R1392:1395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1390:1391 Cdcl.Syntax <> op ind
+R1413:1444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1396:1402 Cdcl.Syntax <> t rec
+R1405:1409 Cdcl.Syntax <> BForm:28 ind
+R1411:1411 Cdcl.Syntax <> k:33 var
+R1462:1465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1445:1451 Cdcl.Syntax <> t rec
+R1454:1458 Cdcl.Syntax <> BForm:28 ind
+R1460:1460 Cdcl.Syntax <> k:33 var
+R1466:1470 Cdcl.Syntax <> BForm:28 ind
+R1472:1472 Cdcl.Syntax <> k:33 var
+R1494:1497 Cdcl.Syntax <> kind ind
+binder 1492:1492 <> k:34
+R1504:1507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1501:1503 Cdcl.Syntax <> ite ind
+R1530:1533 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1508:1514 Cdcl.Syntax <> t rec
+R1517:1521 Cdcl.Syntax <> BForm:28 ind
+R1523:1528 Cdcl.Syntax <> IsBool constr
+R1551:1581 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1534:1540 Cdcl.Syntax <> t rec
+R1543:1547 Cdcl.Syntax <> BForm:28 ind
+R1549:1549 Cdcl.Syntax <> k:34 var
+R1599:1602 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1582:1588 Cdcl.Syntax <> t rec
+R1591:1595 Cdcl.Syntax <> BForm:28 ind
+R1597:1597 Cdcl.Syntax <> k:34 var
+R1603:1607 Cdcl.Syntax <> BForm:28 ind
+R1609:1609 Cdcl.Syntax <> k:34 var
+R1628:1631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1623:1627 Cdcl.Syntax <> bprop ind
+R1654:1657 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1632:1638 Cdcl.Syntax <> t rec
+R1641:1645 Cdcl.Syntax <> BForm:28 ind
+R1647:1652 Cdcl.Syntax <> IsBool constr
+R1680:1683 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1658:1664 Cdcl.Syntax <> t rec
+R1667:1671 Cdcl.Syntax <> BForm:28 ind
+R1673:1678 Cdcl.Syntax <> IsBool constr
+R1684:1688 Cdcl.Syntax <> BForm:28 ind
+R1690:1695 Cdcl.Syntax <> IsProp constr
+scheme 1222:1226 <> BForm_rect
+scheme 1222:1226 <> BForm_ind
+scheme 1222:1226 <> BForm_rec
+scheme 1222:1226 <> BForm_sind
+ind 1809:1811 <> lop
+constr 1816:1819 <> LAND
+constr 1823:1825 <> LOR
+scheme 1809:1811 <> lop_rect
+scheme 1809:1811 <> lop_ind
+scheme 1809:1811 <> lop_rec
+scheme 1809:1811 <> lop_sind
+ind 1839:1843 <> LForm
+constr 1857:1859 <> LAT
+constr 1878:1880 <> LOP
+constr 1923:1927 <> LIMPL
+R1866:1869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1863:1865 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+R1870:1874 Cdcl.Syntax <> LForm:37 ind
+R1887:1890 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1884:1886 Cdcl.Syntax <> lop ind
+R1911:1914 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1891:1894 Corelib.Init.Datatypes <> list ind
+R1897:1903 Cdcl.Syntax <> t rec
+R1905:1909 Cdcl.Syntax <> LForm:37 ind
+R1915:1919 Cdcl.Syntax <> LForm:37 ind
+R1951:1955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1931:1934 Corelib.Init.Datatypes <> list ind
+R1937:1943 Cdcl.Syntax <> t rec
+R1945:1949 Cdcl.Syntax <> LForm:37 ind
+R1956:1956 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1970:1975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1957:1963 Cdcl.Syntax <> t rec
+R1965:1969 Cdcl.Syntax <> LForm:37 ind
+R1976:1980 Cdcl.Syntax <> LForm:37 ind
+scheme 1839:1843 <> LForm_rect
+scheme 1839:1843 <> LForm_ind
+scheme 1839:1843 <> LForm_rec
+scheme 1839:1843 <> LForm_sind
+def 1995:2002 <> HFormula
+R2014:2020 Cdcl.Syntax <> t rec
+R2022:2026 Cdcl.Syntax <> LForm ind
+ind 2137:2143 <> literal
+constr 2157:2159 <> POS
+constr 2176:2178 <> NEG
+R2164:2171 Cdcl.Syntax <> HFormula def
+binder 2162:2162 <> f:41
+R2183:2190 Cdcl.Syntax <> HFormula def
+binder 2181:2181 <> f:42
+scheme 2137:2143 <> literal_rect
+scheme 2137:2143 <> literal_ind
+scheme 2137:2143 <> literal_rec
+scheme 2137:2143 <> literal_sind
+def 2206:2212 <> lop_eqb
+R2221:2223 Cdcl.Syntax <> lop ind
+binder 2215:2215 <> o:43
+binder 2217:2218 <> o':44
+R2228:2231 Corelib.Init.Datatypes <> bool ind
+R2248:2249 Cdcl.Syntax <> o':44 var
+R2244:2244 Cdcl.Syntax <> o:43 var
+R2260:2263 Cdcl.Syntax <> LAND constr
+R2267:2270 Cdcl.Syntax <> LAND constr
+R2275:2278 Corelib.Init.Datatypes <> true constr
+R2284:2286 Cdcl.Syntax <> LOR constr
+R2291:2293 Cdcl.Syntax <> LOR constr
+R2299:2302 Corelib.Init.Datatypes <> true constr
+R2317:2321 Corelib.Init.Datatypes <> false constr
+prf 2337:2348 <> lop_eqb_true
+binder 2359:2359 <> o:47
+binder 2361:2362 <> o':48
+R2388:2391 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2381:2383 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2369:2375 Cdcl.Syntax <> lop_eqb def
+R2377:2377 Cdcl.Syntax <> o:47 var
+R2379:2380 Cdcl.Syntax <> o':48 var
+R2384:2387 Corelib.Init.Datatypes <> true constr
+R2393:2395 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2392:2392 Cdcl.Syntax <> o:47 var
+R2396:2397 Cdcl.Syntax <> o':48 var
+prf 2467:2478 <> lop_eqb_refl
+binder 2489:2489 <> l:49
+R2507:2509 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2496:2502 Cdcl.Syntax <> lop_eqb def
+R2504:2504 Cdcl.Syntax <> l:49 var
+R2506:2506 Cdcl.Syntax <> l:49 var
+R2510:2513 Corelib.Init.Datatypes <> true constr

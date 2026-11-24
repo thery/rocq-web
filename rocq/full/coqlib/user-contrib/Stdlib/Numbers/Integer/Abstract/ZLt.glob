@@ -1,0 +1,263 @@
+DIGEST c982dde5f734f4352faecb8f0e59abb1
+FStdlib.Numbers.Integer.Abstract.ZLt
+R853:856 Stdlib.Numbers.Integer.Abstract.ZMul <> <> lib
+R890:904 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> modtype
+mod 867:876 <> ZOrderProp
+R916:923 Stdlib.Numbers.Integer.Abstract.ZMul ZMulProp <> mod
+R925:925 Stdlib.Numbers.Integer.Abstract.ZLt Z <> mod
+prf 986:998 ZOrderProp neg_pos_cases
+binder 1009:1009 <> n:1
+R1018:1022 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1013:1016 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1012:1012 Stdlib.Numbers.Integer.Abstract.ZLt <> n:1 var
+R1028:1031 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1024:1026 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1023:1023 Stdlib.Numbers.Integer.Abstract.ZLt <> n:1 var
+R1033:1035 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R1032:1032 Stdlib.Numbers.Integer.Abstract.ZLt <> n:1 var
+R1059:1069 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_gt_cases thm
+prf 1086:1101 ZOrderProp nonpos_pos_cases
+binder 1112:1112 <> n:2
+R1121:1124 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1116:1119 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1115:1115 Stdlib.Numbers.Integer.Abstract.ZLt <> n:2 var
+R1126:1128 Stdlib.Structures.Orders LtNotation :::x_'>'_x not
+R1125:1125 Stdlib.Numbers.Integer.Abstract.ZLt <> n:2 var
+R1152:1162 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp le_gt_cases thm
+prf 1179:1194 ZOrderProp neg_nonneg_cases
+binder 1205:1205 <> n:3
+R1213:1216 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1209:1211 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1208:1208 Stdlib.Numbers.Integer.Abstract.ZLt <> n:3 var
+R1218:1221 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R1217:1217 Stdlib.Numbers.Integer.Abstract.ZLt <> n:3 var
+R1245:1255 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_ge_cases thm
+prf 1272:1290 ZOrderProp nonpos_nonneg_cases
+binder 1301:1301 <> n:4
+R1310:1313 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1305:1308 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1304:1304 Stdlib.Numbers.Integer.Abstract.ZLt <> n:4 var
+R1315:1318 Stdlib.Structures.Orders LeNotation :::x_'>='_x not
+R1314:1314 Stdlib.Numbers.Integer.Abstract.ZLt <> n:4 var
+R1342:1352 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp le_ge_cases thm
+R1409:1425 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp order_induction_0 thm
+prf 1526:1534 ZOrderProp lt_pred_l
+binder 1545:1545 <> n:5
+R1551:1553 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1548:1548 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R1550:1550 Stdlib.Numbers.Integer.Abstract.ZLt <> n:5 var
+R1554:1554 Stdlib.Numbers.Integer.Abstract.ZLt <> n:5 var
+R1585:1593 Stdlib.Numbers.Integer.Abstract.ZLt Z succ_pred prfax
+R1610:1623 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_succ_diag_r thm
+prf 1640:1648 ZOrderProp le_pred_l
+binder 1659:1659 <> n:6
+R1665:1668 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1662:1662 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R1664:1664 Stdlib.Numbers.Integer.Abstract.ZLt <> n:6 var
+R1669:1669 Stdlib.Numbers.Integer.Abstract.ZLt <> n:6 var
+R1692:1701 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_incl thm
+R1710:1718 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_l thm
+prf 1735:1744 ZOrderProp lt_le_pred
+binder 1755:1755 <> n:7
+binder 1757:1757 <> m:8
+R1765:1769 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1761:1763 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1760:1760 Stdlib.Numbers.Integer.Abstract.ZLt <> n:7 var
+R1764:1764 Stdlib.Numbers.Integer.Abstract.ZLt <> m:8 var
+R1771:1774 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1770:1770 Stdlib.Numbers.Integer.Abstract.ZLt <> n:7 var
+R1775:1775 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R1777:1777 Stdlib.Numbers.Integer.Abstract.ZLt <> m:8 var
+R1811:1819 Stdlib.Numbers.Integer.Abstract.ZLt Z succ_pred prfax
+R1833:1841 Stdlib.Numbers.Integer.Abstract.ZLt Z pred_succ prfax
+R1850:1858 Stdlib.Numbers.Integer.Abstract.ZLt Z lt_succ_r prfax
+prf 1875:1884 ZOrderProp nle_pred_r
+binder 1895:1895 <> n:9
+R1898:1899 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1901:1904 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1900:1900 Stdlib.Numbers.Integer.Abstract.ZLt <> n:9 var
+R1905:1905 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R1907:1907 Stdlib.Numbers.Integer.Abstract.ZLt <> n:9 var
+R1935:1944 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_pred thm
+R1953:1961 Stdlib.Numbers.Integer.Abstract.ZLt Z lt_irrefl prfax
+prf 1978:1987 ZOrderProp lt_pred_le
+binder 1998:1998 <> n:10
+binder 2000:2000 <> m:11
+R2010:2014 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2006:2008 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2003:2003 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2005:2005 Stdlib.Numbers.Integer.Abstract.ZLt <> n:10 var
+R2009:2009 Stdlib.Numbers.Integer.Abstract.ZLt <> m:11 var
+R2016:2019 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2015:2015 Stdlib.Numbers.Integer.Abstract.ZLt <> n:10 var
+R2020:2020 Stdlib.Numbers.Integer.Abstract.ZLt <> m:11 var
+R2054:2062 Stdlib.Numbers.Integer.Abstract.ZLt Z succ_pred prfax
+R2089:2097 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp le_succ_l thm
+prf 2114:2123 ZOrderProp lt_lt_pred
+binder 2134:2134 <> n:12
+binder 2136:2136 <> m:13
+R2144:2147 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2140:2142 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2139:2139 Stdlib.Numbers.Integer.Abstract.ZLt <> n:12 var
+R2143:2143 Stdlib.Numbers.Integer.Abstract.ZLt <> m:13 var
+R2151:2153 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2148:2148 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2150:2150 Stdlib.Numbers.Integer.Abstract.ZLt <> n:12 var
+R2154:2154 Stdlib.Numbers.Integer.Abstract.ZLt <> m:13 var
+R2178:2187 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_le thm
+R2200:2209 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_incl thm
+prf 2226:2235 ZOrderProp le_le_pred
+binder 2246:2246 <> n:14
+binder 2248:2248 <> m:15
+R2257:2260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2252:2255 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2251:2251 Stdlib.Numbers.Integer.Abstract.ZLt <> n:14 var
+R2256:2256 Stdlib.Numbers.Integer.Abstract.ZLt <> m:15 var
+R2264:2267 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2261:2261 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2263:2263 Stdlib.Numbers.Integer.Abstract.ZLt <> n:14 var
+R2268:2268 Stdlib.Numbers.Integer.Abstract.ZLt <> m:15 var
+R2292:2301 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_incl thm
+R2314:2323 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_le thm
+prf 2340:2349 ZOrderProp lt_pred_lt
+binder 2360:2360 <> n:16
+binder 2362:2362 <> m:17
+R2372:2375 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2366:2368 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2365:2365 Stdlib.Numbers.Integer.Abstract.ZLt <> n:16 var
+R2369:2369 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2371:2371 Stdlib.Numbers.Integer.Abstract.ZLt <> m:17 var
+R2377:2379 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2376:2376 Stdlib.Numbers.Integer.Abstract.ZLt <> n:16 var
+R2380:2380 Stdlib.Numbers.Integer.Abstract.ZLt <> m:17 var
+R2425:2425 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2410:2417 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_trans thm
+R2451:2459 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_l thm
+prf 2477:2486 ZOrderProp le_pred_lt
+binder 2497:2497 <> n:18
+binder 2499:2499 <> m:19
+R2510:2513 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2503:2506 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2502:2502 Stdlib.Numbers.Integer.Abstract.ZLt <> n:18 var
+R2507:2507 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2509:2509 Stdlib.Numbers.Integer.Abstract.ZLt <> m:19 var
+R2515:2518 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2514:2514 Stdlib.Numbers.Integer.Abstract.ZLt <> n:18 var
+R2519:2519 Stdlib.Numbers.Integer.Abstract.ZLt <> m:19 var
+R2543:2552 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_incl thm
+R2565:2574 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_pred thm
+prf 2591:2602 ZOrderProp pred_lt_mono
+binder 2613:2613 <> n:20
+binder 2615:2615 <> m:21
+R2623:2627 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2619:2621 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2618:2618 Stdlib.Numbers.Integer.Abstract.ZLt <> n:20 var
+R2622:2622 Stdlib.Numbers.Integer.Abstract.ZLt <> m:21 var
+R2631:2633 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2628:2628 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2630:2630 Stdlib.Numbers.Integer.Abstract.ZLt <> n:20 var
+R2634:2634 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2636:2636 Stdlib.Numbers.Integer.Abstract.ZLt <> m:21 var
+R2662:2671 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_pred thm
+R2690:2699 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_le thm
+prf 2716:2727 ZOrderProp pred_le_mono
+binder 2738:2738 <> n:22
+binder 2740:2740 <> m:23
+R2749:2753 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2744:2747 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2743:2743 Stdlib.Numbers.Integer.Abstract.ZLt <> n:22 var
+R2748:2748 Stdlib.Numbers.Integer.Abstract.ZLt <> m:23 var
+R2757:2760 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2754:2754 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2756:2756 Stdlib.Numbers.Integer.Abstract.ZLt <> n:22 var
+R2761:2761 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2763:2763 Stdlib.Numbers.Integer.Abstract.ZLt <> m:23 var
+R2792:2801 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_le thm
+R2816:2825 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_pred thm
+prf 2842:2856 ZOrderProp lt_succ_lt_pred
+binder 2867:2867 <> n:24
+binder 2869:2869 <> m:25
+R2879:2883 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2875:2877 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2872:2872 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R2874:2874 Stdlib.Numbers.Integer.Abstract.ZLt <> n:24 var
+R2878:2878 Stdlib.Numbers.Integer.Abstract.ZLt <> m:25 var
+R2885:2887 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2884:2884 Stdlib.Numbers.Integer.Abstract.ZLt <> n:24 var
+R2888:2888 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R2890:2890 Stdlib.Numbers.Integer.Abstract.ZLt <> m:25 var
+R2925:2936 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp pred_lt_mono thm
+R2939:2939 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R2948:2956 Stdlib.Numbers.Integer.Abstract.ZLt Z pred_succ prfax
+prf 2973:2987 ZOrderProp le_succ_le_pred
+binder 2998:2998 <> n:26
+binder 3000:3000 <> m:27
+R3011:3015 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3006:3009 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3003:3003 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R3005:3005 Stdlib.Numbers.Integer.Abstract.ZLt <> n:26 var
+R3010:3010 Stdlib.Numbers.Integer.Abstract.ZLt <> m:27 var
+R3017:3020 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3016:3016 Stdlib.Numbers.Integer.Abstract.ZLt <> n:26 var
+R3021:3021 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R3023:3023 Stdlib.Numbers.Integer.Abstract.ZLt <> m:27 var
+R3058:3069 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp pred_le_mono thm
+R3072:3072 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R3081:3089 Stdlib.Numbers.Integer.Abstract.ZLt Z pred_succ prfax
+prf 3106:3120 ZOrderProp lt_pred_lt_succ
+binder 3131:3131 <> n:28
+binder 3133:3133 <> m:29
+R3143:3147 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3139:3141 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3136:3136 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R3138:3138 Stdlib.Numbers.Integer.Abstract.ZLt <> n:28 var
+R3142:3142 Stdlib.Numbers.Integer.Abstract.ZLt <> m:29 var
+R3149:3151 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3148:3148 Stdlib.Numbers.Integer.Abstract.ZLt <> n:28 var
+R3152:3152 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R3154:3154 Stdlib.Numbers.Integer.Abstract.ZLt <> m:29 var
+R3180:3189 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_le thm
+R3208:3216 Stdlib.Numbers.Integer.Abstract.ZLt Z lt_succ_r prfax
+prf 3233:3247 ZOrderProp le_pred_lt_succ
+binder 3258:3258 <> n:30
+binder 3260:3260 <> m:31
+R3271:3275 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3266:3269 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3263:3263 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R3265:3265 Stdlib.Numbers.Integer.Abstract.ZLt <> n:30 var
+R3270:3270 Stdlib.Numbers.Integer.Abstract.ZLt <> m:31 var
+R3277:3280 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3276:3276 Stdlib.Numbers.Integer.Abstract.ZLt <> n:30 var
+R3281:3281 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R3283:3283 Stdlib.Numbers.Integer.Abstract.ZLt <> m:31 var
+R3318:3329 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp pred_le_mono thm
+R3334:3334 Stdlib.Numbers.Integer.Abstract.ZLt Z S abbrev
+R3341:3349 Stdlib.Numbers.Integer.Abstract.ZLt Z pred_succ prfax
+prf 3366:3375 ZOrderProp neq_pred_l
+binder 3386:3386 <> n:32
+R3392:3395 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3389:3389 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R3391:3391 Stdlib.Numbers.Integer.Abstract.ZLt <> n:32 var
+R3396:3396 Stdlib.Numbers.Integer.Abstract.ZLt <> n:32 var
+R3419:3424 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_neq thm
+R3433:3441 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_pred_l thm
+prf 3458:3464 ZOrderProp lt_m1_r
+binder 3475:3475 <> n:33
+binder 3477:3477 <> m:34
+R3485:3488 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3481:3483 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3480:3480 Stdlib.Numbers.Integer.Abstract.ZLt <> n:33 var
+R3484:3484 Stdlib.Numbers.Integer.Abstract.ZLt <> m:34 var
+R3494:3497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3490:3492 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3489:3489 Stdlib.Numbers.Integer.Abstract.ZLt <> m:34 var
+R3499:3501 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3498:3498 Stdlib.Numbers.Integer.Abstract.ZLt <> n:33 var
+R3537:3546 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_pred thm
+R3571:3571 Stdlib.Numbers.Integer.Abstract.ZLt Z P abbrev
+R3605:3615 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp lt_le_trans thm
+R3633:3640 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp eq_opp_r thm
+R3655:3662 Stdlib.Numbers.Integer.Abstract.ZLt Z one_succ prfax
+R3665:3672 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp opp_pred thm
+R3675:3679 Stdlib.Numbers.Integer.Abstract.ZLt Z opp_0 prfax
+R3692:3701 Stdlib.Numbers.Integer.Abstract.ZLt ZOrderProp <> mod

@@ -1,0 +1,3371 @@
+DIGEST 18ec8b05328bb638ea4bd8557facd3cc
+FStdlib.QArith.QArith_base
+R703:708 Stdlib.ZArith.BinInt <> <> lib
+R738:747 Stdlib.setoid_ring.ZArithRing <> <> lib
+R777:789 Stdlib.ZArith.BinInt <> <> lib
+R819:827 Stdlib.Classes.Morphisms <> <> lib
+R829:834 Stdlib.Setoids.Setoid <> <> lib
+R836:839 Stdlib.Bool.Bool <> <> lib
+R863:877 Stdlib.ZArith.Zcompare <> <> lib
+R900:909 Stdlib.ZArith.ZArith_dec <> <> lib
+rec 1028:1028 <> Q
+proj 1046:1049 <> Qnum
+proj 1056:1059 <> Qden
+R1053:1053 Corelib.Numbers.BinNums <> Z ind
+R1063:1070 Corelib.Numbers.BinNums <> positive ind
+R1228:1232 Stdlib.QArith.QArith_base <> Qmake constr
+R1359:1371 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R1445:1449 Stdlib.QArith.QArith_base <> Qmake constr
+not 1433:1433 <> ::Q_scope:x_'#'_x
+def 1511:1518 <> inject_Z
+R1525:1525 Corelib.Numbers.BinNums <> Z ind
+binder 1521:1521 <> x:4
+R1531:1535 Stdlib.QArith.QArith_base <> Qmake constr
+R1537:1537 Stdlib.QArith.QArith_base <> x:4 var
+R1552:1559 Stdlib.QArith.QArith_base <> inject_Z def
+abbrev 1577:1580 <> QDen
+R1588:1591 Corelib.Numbers.BinNums <> Zpos constr
+R1594:1597 Stdlib.QArith.QArith_base <> Qden proj
+def 1616:1618 <> Qeq
+R1627:1627 Stdlib.QArith.QArith_base <> Q rec
+binder 1621:1621 <> p:5
+binder 1623:1623 <> q:6
+R1652:1654 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1640:1642 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1634:1637 Stdlib.QArith.QArith_base <> Qnum proj
+R1639:1639 Stdlib.QArith.QArith_base <> p:5 var
+R1643:1646 Stdlib.QArith.QArith_base <> QDen abbrev
+R1648:1648 Stdlib.QArith.QArith_base <> q:6 var
+R1662:1664 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1656:1659 Stdlib.QArith.QArith_base <> Qnum proj
+R1661:1661 Stdlib.QArith.QArith_base <> q:6 var
+R1665:1668 Stdlib.QArith.QArith_base <> QDen abbrev
+R1670:1670 Stdlib.QArith.QArith_base <> p:5 var
+def 1687:1689 <> Qle
+R1698:1698 Stdlib.QArith.QArith_base <> Q rec
+binder 1692:1692 <> x:7
+binder 1694:1694 <> y:8
+R1720:1723 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1711:1713 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1705:1708 Stdlib.QArith.QArith_base <> Qnum proj
+R1710:1710 Stdlib.QArith.QArith_base <> x:7 var
+R1714:1717 Stdlib.QArith.QArith_base <> QDen abbrev
+R1719:1719 Stdlib.QArith.QArith_base <> y:8 var
+R1730:1732 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1724:1727 Stdlib.QArith.QArith_base <> Qnum proj
+R1729:1729 Stdlib.QArith.QArith_base <> y:8 var
+R1733:1736 Stdlib.QArith.QArith_base <> QDen abbrev
+R1738:1738 Stdlib.QArith.QArith_base <> x:7 var
+def 1755:1757 <> Qlt
+R1766:1766 Stdlib.QArith.QArith_base <> Q rec
+binder 1760:1760 <> x:9
+binder 1762:1762 <> y:10
+R1788:1790 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1779:1781 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1773:1776 Stdlib.QArith.QArith_base <> Qnum proj
+R1778:1778 Stdlib.QArith.QArith_base <> x:9 var
+R1782:1785 Stdlib.QArith.QArith_base <> QDen abbrev
+R1787:1787 Stdlib.QArith.QArith_base <> y:10 var
+R1797:1799 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1791:1794 Stdlib.QArith.QArith_base <> Qnum proj
+R1796:1796 Stdlib.QArith.QArith_base <> y:10 var
+R1800:1803 Stdlib.QArith.QArith_base <> QDen abbrev
+R1805:1805 Stdlib.QArith.QArith_base <> x:9 var
+abbrev 1820:1822 <> Qgt
+R1832:1834 Stdlib.QArith.QArith_base <> Qlt def
+abbrev 1866:1868 <> Qge
+R1878:1880 Stdlib.QArith.QArith_base <> Qle def
+R1918:1920 Stdlib.QArith.QArith_base <> Qeq def
+not 1910:1910 <> ::Q_scope:x_'=='_x
+R1978:1980 Stdlib.QArith.QArith_base <> Qlt def
+not 1971:1971 <> ::Q_scope:x_'<'_x
+R2007:2009 Stdlib.QArith.QArith_base <> Qle def
+not 1999:1999 <> ::Q_scope:x_'<='_x
+R2043:2045 Stdlib.QArith.QArith_base <> Qlt def
+not 2031:2031 <> ::Q_scope:x_'>'_x
+R2099:2101 Stdlib.QArith.QArith_base <> Qle def
+not 2086:2086 <> ::Q_scope:x_'>='_x
+R2164:2165 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2161:2162 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2167:2168 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+not 2142:2142 <> ::Q_scope:x_'<='_x_'<='_x
+R2213:2214 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2210:2211 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2216:2216 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+not 2192:2192 <> ::Q_scope:x_'<='_x_'<'_x
+R2260:2261 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2258:2258 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R2263:2264 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+not 2240:2240 <> ::Q_scope:x_'<'_x_'<='_x
+R2307:2308 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2305:2305 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R2310:2310 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+not 2288:2288 <> ::Q_scope:x_'<'_x_'<'_x
+prf 2546:2556 <> Qden_cancel
+R2574:2574 Corelib.Numbers.BinNums <> Z ind
+binder 2568:2568 <> a:11
+binder 2570:2570 <> b:12
+R2582:2589 Corelib.Numbers.BinNums <> positive ind
+binder 2578:2578 <> p:13
+R2607:2610 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2595:2595 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2599:2602 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2606:2606 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2597:2597 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R2596:2596 Stdlib.QArith.QArith_base <> a:11 var
+R2598:2598 Stdlib.QArith.QArith_base <> p:13 var
+R2604:2604 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R2603:2603 Stdlib.QArith.QArith_base <> b:12 var
+R2605:2605 Stdlib.QArith.QArith_base <> p:13 var
+R2612:2612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2611:2611 Stdlib.QArith.QArith_base <> a:11 var
+R2613:2613 Stdlib.QArith.QArith_base <> b:12 var
+R2648:2650 Stdlib.QArith.QArith_base <> Qeq def
+R2661:2674 Stdlib.ZArith.BinInt Z mul_cancel_r thm
+R2677:2686 Corelib.Init.Logic <> not_eq_sym thm
+R2689:2696 Stdlib.ZArith.BinInt Z lt_neq thm
+R2699:2710 Stdlib.ZArith.BinInt Pos2Z is_pos thm
+prf 2725:2735 <> Qnum_cancel
+R2753:2760 Corelib.Numbers.BinNums <> positive ind
+binder 2747:2747 <> a:14
+binder 2749:2749 <> b:15
+R2768:2768 Corelib.Numbers.BinNums <> Z ind
+binder 2764:2764 <> z:16
+R2780:2783 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2775:2776 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2774:2774 Stdlib.QArith.QArith_base <> z:16 var
+R2796:2799 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2784:2784 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2788:2791 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2795:2795 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2786:2786 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R2785:2785 Stdlib.QArith.QArith_base <> z:16 var
+R2787:2787 Stdlib.QArith.QArith_base <> a:14 var
+R2793:2793 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R2792:2792 Stdlib.QArith.QArith_base <> z:16 var
+R2794:2794 Stdlib.QArith.QArith_base <> b:15 var
+R2801:2801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2800:2800 Stdlib.QArith.QArith_base <> a:14 var
+R2802:2802 Stdlib.QArith.QArith_base <> b:15 var
+R2845:2847 Stdlib.QArith.QArith_base <> Qeq def
+R2860:2871 Stdlib.ZArith.BinInt Z eq_sym_iff thm
+R2877:2889 Stdlib.ZArith.BinInt Pos2Z inj_iff thm
+R2901:2911 Stdlib.ZArith.BinInt Z mul_reg_l thm
+prf 2980:2997 <> inject_Z_injective
+R3005:3005 Corelib.Numbers.BinNums <> Z ind
+binder 3000:3000 <> a:17
+binder 3002:3002 <> b:18
+R3033:3037 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3019:3022 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3009:3016 Stdlib.QArith.QArith_base <> inject_Z def
+R3018:3018 Stdlib.QArith.QArith_base <> a:17 var
+R3023:3030 Stdlib.QArith.QArith_base <> inject_Z def
+R3032:3032 Stdlib.QArith.QArith_base <> b:18 var
+R3039:3041 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3038:3038 Stdlib.QArith.QArith_base <> a:17 var
+R3042:3042 Stdlib.QArith.QArith_base <> b:18 var
+R3060:3062 Stdlib.QArith.QArith_base <> Qeq def
+R3081:3089 Stdlib.ZArith.BinInt Z mul_1_r thm
+def 3194:3201 <> Qcompare
+R3210:3210 Stdlib.QArith.QArith_base <> Q rec
+binder 3204:3204 <> p:19
+binder 3206:3206 <> q:20
+R3232:3235 Stdlib.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3223:3225 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3217:3220 Stdlib.QArith.QArith_base <> Qnum proj
+R3222:3222 Stdlib.QArith.QArith_base <> p:19 var
+R3226:3229 Stdlib.QArith.QArith_base <> QDen abbrev
+R3231:3231 Stdlib.QArith.QArith_base <> q:20 var
+R3242:3244 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3236:3239 Stdlib.QArith.QArith_base <> Qnum proj
+R3241:3241 Stdlib.QArith.QArith_base <> q:20 var
+R3245:3248 Stdlib.QArith.QArith_base <> QDen abbrev
+R3250:3250 Stdlib.QArith.QArith_base <> p:19 var
+R3278:3285 Stdlib.QArith.QArith_base <> Qcompare def
+not 3265:3265 <> ::Q_scope:x_'?='_x
+prf 3310:3316 <> Qeq_alt
+binder 3318:3318 <> p:21
+binder 3320:3320 <> q:22
+R3324:3324 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3331:3336 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3326:3329 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3325:3325 Stdlib.QArith.QArith_base <> p:21 var
+R3330:3330 Stdlib.QArith.QArith_base <> q:22 var
+R3337:3337 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3344:3347 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3339:3342 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3338:3338 Stdlib.QArith.QArith_base <> p:21 var
+R3343:3343 Stdlib.QArith.QArith_base <> q:22 var
+R3348:3349 Corelib.Init.Datatypes <> Eq constr
+R3375:3390 Stdlib.ZArith.BinInt Z compare_eq_iff thm
+prf 3405:3411 <> Qlt_alt
+binder 3413:3413 <> p:23
+binder 3415:3415 <> q:24
+R3419:3419 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3423:3429 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3441:3441 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3421:3421 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R3420:3420 Stdlib.QArith.QArith_base <> p:23 var
+R3422:3422 Stdlib.QArith.QArith_base <> q:24 var
+R3430:3430 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3435:3438 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3432:3433 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3431:3431 Stdlib.QArith.QArith_base <> p:23 var
+R3434:3434 Stdlib.QArith.QArith_base <> q:24 var
+R3439:3440 Corelib.Init.Datatypes <> Lt constr
+prf 3476:3482 <> Qgt_alt
+binder 3484:3484 <> p:25
+binder 3486:3486 <> q:26
+R3490:3490 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3494:3500 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3512:3512 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3492:3492 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R3493:3493 Stdlib.QArith.QArith_base <> q:26 var
+R3491:3491 Stdlib.QArith.QArith_base <> p:25 var
+R3501:3501 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3506:3509 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3503:3504 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3502:3502 Stdlib.QArith.QArith_base <> p:25 var
+R3505:3505 Stdlib.QArith.QArith_base <> q:26 var
+R3510:3511 Corelib.Init.Datatypes <> Gt constr
+R3538:3548 Stdlib.ZArith.BinInt Z gt_lt_iff thm
+prf 3563:3569 <> Qle_alt
+binder 3571:3571 <> p:27
+binder 3573:3573 <> q:28
+R3577:3577 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3582:3588 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3601:3601 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3579:3580 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R3578:3578 Stdlib.QArith.QArith_base <> p:27 var
+R3581:3581 Stdlib.QArith.QArith_base <> q:28 var
+R3589:3589 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3594:3598 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3591:3592 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3590:3590 Stdlib.QArith.QArith_base <> p:27 var
+R3593:3593 Stdlib.QArith.QArith_base <> q:28 var
+R3599:3600 Corelib.Init.Datatypes <> Gt constr
+prf 3636:3642 <> Qge_alt
+binder 3644:3644 <> p:29
+binder 3646:3646 <> q:30
+R3650:3650 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3655:3661 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3674:3674 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3652:3653 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>='_x not
+R3654:3654 Stdlib.QArith.QArith_base <> q:30 var
+R3651:3651 Stdlib.QArith.QArith_base <> p:29 var
+R3662:3662 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3667:3671 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3664:3665 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3663:3663 Stdlib.QArith.QArith_base <> p:29 var
+R3666:3666 Stdlib.QArith.QArith_base <> q:30 var
+R3672:3673 Corelib.Init.Datatypes <> Lt constr
+R3700:3710 Stdlib.ZArith.BinInt Z ge_le_iff thm
+R3741:3743 Stdlib.QArith.QArith_base <> Qeq def
+R3745:3747 Stdlib.QArith.QArith_base <> Qlt def
+R3749:3751 Stdlib.QArith.QArith_base <> Qle def
+R3791:3794 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+prf 3839:3854 <> Qcompare_antisym
+binder 3856:3856 <> x:31
+binder 3858:3858 <> y:32
+R3878:3881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3888:3888 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3862:3868 Corelib.Init.Datatypes <> CompOpp def
+R3872:3875 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3871:3871 Stdlib.QArith.QArith_base <> x:31 var
+R3876:3876 Stdlib.QArith.QArith_base <> y:32 var
+R3883:3886 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3882:3882 Stdlib.QArith.QArith_base <> y:32 var
+R3887:3887 Stdlib.QArith.QArith_base <> x:31 var
+R3915:3931 Stdlib.ZArith.BinInt Z compare_antisym thm
+prf 3946:3958 <> Qcompare_spec
+binder 3960:3960 <> x:33
+binder 3962:3962 <> y:34
+R3966:3976 Corelib.Init.Datatypes <> CompareSpec ind
+R3999:4002 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+R3998:3998 Stdlib.QArith.QArith_base <> x:33 var
+R4003:4003 Stdlib.QArith.QArith_base <> y:34 var
+R3993:3993 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R3992:3992 Stdlib.QArith.QArith_base <> y:34 var
+R3994:3994 Stdlib.QArith.QArith_base <> x:33 var
+R3987:3987 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R3986:3986 Stdlib.QArith.QArith_base <> x:33 var
+R3988:3988 Stdlib.QArith.QArith_base <> y:34 var
+R3980:3981 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3979:3979 Stdlib.QArith.QArith_base <> x:33 var
+R3982:3982 Stdlib.QArith.QArith_base <> y:34 var
+R4022:4024 Stdlib.QArith.QArith_base <> Qeq def
+R4027:4029 Stdlib.QArith.QArith_base <> Qlt def
+R4032:4039 Stdlib.QArith.QArith_base <> Qcompare def
+R4047:4060 Stdlib.ZArith.BinInt Z compare_spec thm
+prf 4128:4135 <> Qeq_refl
+binder 4137:4137 <> x:35
+R4142:4145 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4141:4141 Stdlib.QArith.QArith_base <> x:35 var
+R4146:4146 Stdlib.QArith.QArith_base <> x:35 var
+prf 4189:4195 <> Qeq_sym
+binder 4197:4197 <> x:36
+binder 4199:4199 <> y:37
+R4209:4212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4204:4207 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4203:4203 Stdlib.QArith.QArith_base <> x:36 var
+R4208:4208 Stdlib.QArith.QArith_base <> y:37 var
+R4214:4217 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4213:4213 Stdlib.QArith.QArith_base <> y:37 var
+R4218:4218 Stdlib.QArith.QArith_base <> x:36 var
+prf 4261:4269 <> Qeq_trans
+binder 4271:4271 <> x:38
+binder 4273:4273 <> y:39
+binder 4275:4275 <> z:40
+R4285:4288 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4280:4283 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4279:4279 Stdlib.QArith.QArith_base <> x:38 var
+R4284:4284 Stdlib.QArith.QArith_base <> y:39 var
+R4295:4298 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4290:4293 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4289:4289 Stdlib.QArith.QArith_base <> y:39 var
+R4294:4294 Stdlib.QArith.QArith_base <> z:40 var
+R4300:4303 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4299:4299 Stdlib.QArith.QArith_base <> x:38 var
+R4304:4304 Stdlib.QArith.QArith_base <> z:40 var
+R4321:4323 Stdlib.QArith.QArith_base <> Qeq def
+R4364:4367 Stdlib.QArith.QArith_base <> QDen abbrev
+R4346:4356 Stdlib.ZArith.BinInt Z mul_reg_r thm
+R4406:4419 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R4426:4439 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R4446:4459 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+inst 4630:4637 <> Q_Setoid
+R4641:4651 Corelib.Classes.RelationClasses <> Equivalence class
+R4653:4655 Stdlib.QArith.QArith_base <> Qeq def
+prf 4759:4765 <> Qeq_dec
+binder 4767:4767 <> x:41
+binder 4769:4769 <> y:42
+R4773:4773 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4778:4782 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4789:4789 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4775:4776 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4774:4774 Stdlib.QArith.QArith_base <> x:41 var
+R4777:4777 Stdlib.QArith.QArith_base <> y:42 var
+R4783:4784 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4786:4787 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4785:4785 Stdlib.QArith.QArith_base <> x:41 var
+R4788:4788 Stdlib.QArith.QArith_base <> y:42 var
+R4806:4813 Stdlib.ZArith.BinInt Z eq_dec def
+def 4837:4844 <> Qeq_bool
+binder 4846:4846 <> x:43
+binder 4848:4848 <> y:44
+R4856:4860 Stdlib.ZArith.BinInt Z eqb def
+R4869:4871 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4863:4866 Stdlib.QArith.QArith_base <> Qnum proj
+R4868:4868 Stdlib.QArith.QArith_base <> x:43 var
+R4872:4875 Stdlib.QArith.QArith_base <> QDen abbrev
+R4877:4877 Stdlib.QArith.QArith_base <> y:44 var
+R4887:4889 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4881:4884 Stdlib.QArith.QArith_base <> Qnum proj
+R4886:4886 Stdlib.QArith.QArith_base <> y:44 var
+R4890:4893 Stdlib.QArith.QArith_base <> QDen abbrev
+R4895:4895 Stdlib.QArith.QArith_base <> x:43 var
+def 4914:4921 <> Qle_bool
+binder 4923:4923 <> x:45
+binder 4925:4925 <> y:46
+R4933:4937 Stdlib.ZArith.BinInt Z leb def
+R4946:4948 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4940:4943 Stdlib.QArith.QArith_base <> Qnum proj
+R4945:4945 Stdlib.QArith.QArith_base <> x:45 var
+R4949:4952 Stdlib.QArith.QArith_base <> QDen abbrev
+R4954:4954 Stdlib.QArith.QArith_base <> y:46 var
+R4964:4966 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4958:4961 Stdlib.QArith.QArith_base <> Qnum proj
+R4963:4963 Stdlib.QArith.QArith_base <> y:46 var
+R4967:4970 Stdlib.QArith.QArith_base <> QDen abbrev
+R4972:4972 Stdlib.QArith.QArith_base <> x:45 var
+prf 4986:4997 <> Qeq_bool_iff
+binder 4999:4999 <> x:47
+binder 5001:5001 <> y:48
+R5024:5028 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5017:5019 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5005:5012 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5014:5014 Stdlib.QArith.QArith_base <> x:47 var
+R5016:5016 Stdlib.QArith.QArith_base <> y:48 var
+R5020:5023 Corelib.Init.Datatypes <> true constr
+R5030:5033 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5029:5029 Stdlib.QArith.QArith_base <> x:47 var
+R5034:5034 Stdlib.QArith.QArith_base <> y:48 var
+R5050:5057 Stdlib.ZArith.BinInt Z eqb_eq thm
+prf 5072:5082 <> Qeq_bool_eq
+binder 5084:5084 <> x:49
+binder 5086:5086 <> y:50
+R5109:5112 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5102:5104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5090:5097 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5099:5099 Stdlib.QArith.QArith_base <> x:49 var
+R5101:5101 Stdlib.QArith.QArith_base <> y:50 var
+R5105:5108 Corelib.Init.Datatypes <> true constr
+R5114:5117 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5113:5113 Stdlib.QArith.QArith_base <> x:49 var
+R5118:5118 Stdlib.QArith.QArith_base <> y:50 var
+R5136:5147 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5162:5172 <> Qeq_eq_bool
+binder 5174:5174 <> x:51
+binder 5176:5176 <> y:52
+R5186:5189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5181:5184 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5180:5180 Stdlib.QArith.QArith_base <> x:51 var
+R5185:5185 Stdlib.QArith.QArith_base <> y:52 var
+R5202:5204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5190:5197 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5199:5199 Stdlib.QArith.QArith_base <> x:51 var
+R5201:5201 Stdlib.QArith.QArith_base <> y:52 var
+R5205:5208 Corelib.Init.Datatypes <> true constr
+R5226:5237 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5252:5263 <> Qeq_bool_neq
+binder 5265:5265 <> x:53
+binder 5267:5267 <> y:54
+R5291:5294 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5283:5285 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5271:5278 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5280:5280 Stdlib.QArith.QArith_base <> x:53 var
+R5282:5282 Stdlib.QArith.QArith_base <> y:54 var
+R5286:5290 Corelib.Init.Datatypes <> false constr
+R5295:5296 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5298:5301 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5297:5297 Stdlib.QArith.QArith_base <> x:53 var
+R5302:5302 Stdlib.QArith.QArith_base <> y:54 var
+R5325:5336 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5366:5377 <> Qle_bool_iff
+binder 5379:5379 <> x:55
+binder 5381:5381 <> y:56
+R5404:5408 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5397:5399 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5385:5392 Stdlib.QArith.QArith_base <> Qle_bool def
+R5394:5394 Stdlib.QArith.QArith_base <> x:55 var
+R5396:5396 Stdlib.QArith.QArith_base <> y:56 var
+R5400:5403 Corelib.Init.Datatypes <> true constr
+R5410:5413 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5409:5409 Stdlib.QArith.QArith_base <> x:55 var
+R5414:5414 Stdlib.QArith.QArith_base <> y:56 var
+R5430:5437 Stdlib.ZArith.BinInt Z leb_le thm
+prf 5452:5466 <> Qle_bool_imp_le
+binder 5468:5468 <> x:57
+binder 5470:5470 <> y:58
+R5493:5496 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5486:5488 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5474:5481 Stdlib.QArith.QArith_base <> Qle_bool def
+R5483:5483 Stdlib.QArith.QArith_base <> x:57 var
+R5485:5485 Stdlib.QArith.QArith_base <> y:58 var
+R5489:5492 Corelib.Init.Datatypes <> true constr
+R5498:5501 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5497:5497 Stdlib.QArith.QArith_base <> x:57 var
+R5502:5502 Stdlib.QArith.QArith_base <> y:58 var
+R5520:5531 Stdlib.QArith.QArith_base <> Qle_bool_iff thm
+prf 5548:5558 <> Qnot_eq_sym
+binder 5560:5560 <> x:59
+binder 5562:5562 <> y:60
+R5573:5576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5566:5566 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5568:5571 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5567:5567 Stdlib.QArith.QArith_base <> x:59 var
+R5572:5572 Stdlib.QArith.QArith_base <> y:60 var
+R5577:5577 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5579:5582 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5578:5578 Stdlib.QArith.QArith_base <> y:60 var
+R5583:5583 Stdlib.QArith.QArith_base <> x:59 var
+prf 5624:5636 <> Qeq_bool_comm
+binder 5638:5638 <> x:61
+binder 5640:5640 <> y:62
+R5655:5657 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5643:5650 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5652:5652 Stdlib.QArith.QArith_base <> x:61 var
+R5654:5654 Stdlib.QArith.QArith_base <> y:62 var
+R5658:5665 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5667:5667 Stdlib.QArith.QArith_base <> y:62 var
+R5669:5669 Stdlib.QArith.QArith_base <> x:61 var
+R5686:5699 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R5711:5722 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5751:5763 <> Qeq_bool_refl
+binder 5765:5765 <> x:63
+R5780:5782 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5768:5775 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5777:5777 Stdlib.QArith.QArith_base <> x:63 var
+R5779:5779 Stdlib.QArith.QArith_base <> x:63 var
+R5783:5786 Corelib.Init.Datatypes <> true constr
+R5806:5817 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5849:5860 <> Qeq_bool_sym
+binder 5862:5862 <> x:64
+binder 5864:5864 <> y:65
+R5886:5889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5879:5881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5867:5874 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5876:5876 Stdlib.QArith.QArith_base <> x:64 var
+R5878:5878 Stdlib.QArith.QArith_base <> y:65 var
+R5882:5885 Corelib.Init.Datatypes <> true constr
+R5902:5904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5890:5897 Stdlib.QArith.QArith_base <> Qeq_bool def
+R5899:5899 Stdlib.QArith.QArith_base <> y:65 var
+R5901:5901 Stdlib.QArith.QArith_base <> x:64 var
+R5905:5908 Corelib.Init.Datatypes <> true constr
+R5929:5940 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5969:5982 <> Qeq_bool_trans
+binder 5984:5984 <> x:66
+binder 5986:5986 <> y:67
+binder 5988:5988 <> z:68
+R6010:6013 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6003:6005 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5991:5998 Stdlib.QArith.QArith_base <> Qeq_bool def
+R6000:6000 Stdlib.QArith.QArith_base <> x:66 var
+R6002:6002 Stdlib.QArith.QArith_base <> y:67 var
+R6006:6009 Corelib.Init.Datatypes <> true constr
+R6033:6036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6026:6028 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6014:6021 Stdlib.QArith.QArith_base <> Qeq_bool def
+R6023:6023 Stdlib.QArith.QArith_base <> y:67 var
+R6025:6025 Stdlib.QArith.QArith_base <> z:68 var
+R6029:6032 Corelib.Init.Datatypes <> true constr
+R6049:6051 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6037:6044 Stdlib.QArith.QArith_base <> Qeq_bool def
+R6046:6046 Stdlib.QArith.QArith_base <> x:66 var
+R6048:6048 Stdlib.QArith.QArith_base <> z:68 var
+R6052:6055 Corelib.Init.Datatypes <> true constr
+R6076:6087 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+R6096:6104 Stdlib.QArith.QArith_base <> Qeq_trans thm
+def 6311:6315 <> Qplus
+R6324:6324 Stdlib.QArith.QArith_base <> Q rec
+binder 6318:6318 <> x:69
+binder 6320:6320 <> y:70
+R6332:6332 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6366:6370 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6386:6386 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6348:6350 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6339:6341 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6333:6336 Stdlib.QArith.QArith_base <> Qnum proj
+R6338:6338 Stdlib.QArith.QArith_base <> x:69 var
+R6342:6345 Stdlib.QArith.QArith_base <> QDen abbrev
+R6347:6347 Stdlib.QArith.QArith_base <> y:70 var
+R6357:6359 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6351:6354 Stdlib.QArith.QArith_base <> Qnum proj
+R6356:6356 Stdlib.QArith.QArith_base <> y:70 var
+R6360:6363 Stdlib.QArith.QArith_base <> QDen abbrev
+R6365:6365 Stdlib.QArith.QArith_base <> x:69 var
+R6377:6379 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R6371:6374 Stdlib.QArith.QArith_base <> Qden proj
+R6376:6376 Stdlib.QArith.QArith_base <> x:69 var
+R6380:6383 Stdlib.QArith.QArith_base <> Qden proj
+R6385:6385 Stdlib.QArith.QArith_base <> y:70 var
+def 6401:6405 <> Qmult
+R6414:6414 Stdlib.QArith.QArith_base <> Q rec
+binder 6408:6408 <> x:71
+binder 6410:6410 <> y:72
+R6420:6420 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6436:6440 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6456:6456 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6427:6429 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6421:6424 Stdlib.QArith.QArith_base <> Qnum proj
+R6426:6426 Stdlib.QArith.QArith_base <> x:71 var
+R6430:6433 Stdlib.QArith.QArith_base <> Qnum proj
+R6435:6435 Stdlib.QArith.QArith_base <> y:72 var
+R6447:6449 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R6441:6444 Stdlib.QArith.QArith_base <> Qden proj
+R6446:6446 Stdlib.QArith.QArith_base <> x:71 var
+R6450:6453 Stdlib.QArith.QArith_base <> Qden proj
+R6455:6455 Stdlib.QArith.QArith_base <> y:72 var
+def 6471:6474 <> Qopp
+R6481:6481 Stdlib.QArith.QArith_base <> Q rec
+binder 6477:6477 <> x:73
+R6487:6487 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6496:6500 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6507:6507 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6488:6489 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6490:6493 Stdlib.QArith.QArith_base <> Qnum proj
+R6495:6495 Stdlib.QArith.QArith_base <> x:73 var
+R6501:6504 Stdlib.QArith.QArith_base <> Qden proj
+R6506:6506 Stdlib.QArith.QArith_base <> x:73 var
+def 6522:6527 <> Qminus
+R6536:6536 Stdlib.QArith.QArith_base <> Q rec
+binder 6530:6530 <> x:74
+binder 6532:6532 <> y:75
+R6542:6546 Stdlib.QArith.QArith_base <> Qplus def
+R6548:6548 Stdlib.QArith.QArith_base <> x:74 var
+R6551:6554 Stdlib.QArith.QArith_base <> Qopp def
+R6556:6556 Stdlib.QArith.QArith_base <> y:75 var
+def 6572:6575 <> Qinv
+R6582:6582 Stdlib.QArith.QArith_base <> Q rec
+binder 6578:6578 <> x:76
+R6596:6599 Stdlib.QArith.QArith_base <> Qnum proj
+R6601:6601 Stdlib.QArith.QArith_base <> x:76 var
+R6612:6613 Corelib.Numbers.BinNums <> Z0 constr
+R6619:6619 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6626:6629 Corelib.Numbers.BinNums <> Zpos constr
+R6636:6636 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6643:6644 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6637:6640 Stdlib.QArith.QArith_base <> QDen abbrev
+R6642:6642 Stdlib.QArith.QArith_base <> x:76 var
+R6651:6654 Corelib.Numbers.BinNums <> Zneg constr
+R6661:6661 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6675:6676 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6662:6665 Corelib.Numbers.BinNums <> Zneg constr
+R6668:6671 Stdlib.QArith.QArith_base <> Qden proj
+R6673:6673 Stdlib.QArith.QArith_base <> x:76 var
+def 6698:6701 <> Qdiv
+R6710:6710 Stdlib.QArith.QArith_base <> Q rec
+binder 6704:6704 <> x:77
+binder 6706:6706 <> y:78
+R6716:6720 Stdlib.QArith.QArith_base <> Qmult def
+R6722:6722 Stdlib.QArith.QArith_base <> x:77 var
+R6725:6728 Stdlib.QArith.QArith_base <> Qinv def
+R6730:6730 Stdlib.QArith.QArith_base <> y:78 var
+R6748:6752 Stdlib.QArith.QArith_base <> Qplus def
+not 6741:6741 <> ::Q_scope:x_'+'_x
+R6784:6787 Stdlib.QArith.QArith_base <> Qopp def
+not 6774:6774 <> ::Q_scope:'-'_x
+R6816:6821 Stdlib.QArith.QArith_base <> Qminus def
+not 6809:6809 <> ::Q_scope:x_'-'_x
+R6847:6851 Stdlib.QArith.QArith_base <> Qmult def
+not 6840:6840 <> ::Q_scope:x_'*'_x
+R6883:6886 Stdlib.QArith.QArith_base <> Qinv def
+not 6873:6873 <> ::Q_scope:'/'_x
+R6915:6918 Stdlib.QArith.QArith_base <> Qdiv def
+not 6908:6908 <> ::Q_scope:x_'/'_x
+ind 7109:7110 <> IZ
+constr 7119:7127 <> IZpow_pos
+constr 7155:7157 <> IZ0
+constr 7168:7172 <> IZpos
+constr 7195:7199 <> IZneg
+R7132:7135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7131:7131 Corelib.Numbers.BinNums <> Z ind
+R7144:7147 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7136:7143 Corelib.Numbers.BinNums <> positive ind
+R7148:7149 Stdlib.QArith.QArith_base <> IZ:79 ind
+R7161:7162 Stdlib.QArith.QArith_base <> IZ:79 ind
+R7184:7187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7176:7183 Corelib.Numbers.BinNums <> positive ind
+R7188:7189 Stdlib.QArith.QArith_base <> IZ:79 ind
+R7211:7214 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7203:7210 Corelib.Numbers.BinNums <> positive ind
+R7215:7216 Stdlib.QArith.QArith_base <> IZ:79 ind
+scheme 7109:7110 <> IZ_rect
+scheme 7109:7110 <> IZ_ind
+scheme 7109:7110 <> IZ_rec
+scheme 7109:7110 <> IZ_sind
+ind 7230:7231 <> IQ
+constr 7240:7245 <> IQmake
+constr 7274:7279 <> IQmult
+constr 7302:7306 <> IQdiv
+R7251:7254 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7249:7250 Stdlib.QArith.QArith_base <> IZ ind
+R7263:7266 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7255:7262 Corelib.Numbers.BinNums <> positive ind
+R7267:7268 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7285:7288 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7283:7284 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7291:7294 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7289:7290 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7295:7296 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7312:7315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7310:7311 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7318:7321 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7316:7317 Stdlib.QArith.QArith_base <> IQ:81 ind
+R7322:7323 Stdlib.QArith.QArith_base <> IQ:81 ind
+scheme 7230:7231 <> IQ_rect
+scheme 7230:7231 <> IQ_ind
+scheme 7230:7231 <> IQ_rec
+scheme 7230:7231 <> IQ_sind
+def 7338:7344 <> IZ_of_Z
+binder 7346:7346 <> z:83
+R7359:7359 Stdlib.QArith.QArith_base <> z:83 var
+R7370:7371 Corelib.Numbers.BinNums <> Z0 constr
+R7376:7378 Stdlib.QArith.QArith_base <> IZ0 constr
+R7384:7387 Corelib.Numbers.BinNums <> Zpos constr
+R7394:7398 Stdlib.QArith.QArith_base <> IZpos constr
+R7406:7409 Corelib.Numbers.BinNums <> Zneg constr
+R7416:7420 Stdlib.QArith.QArith_base <> IZneg constr
+def 7443:7449 <> IZ_to_Z
+binder 7451:7451 <> z:85
+R7464:7464 Stdlib.QArith.QArith_base <> z:85 var
+R7475:7477 Stdlib.QArith.QArith_base <> IZ0 constr
+R7482:7485 Corelib.Init.Datatypes <> Some constr
+R7487:7488 Corelib.Numbers.BinNums <> Z0 constr
+R7494:7498 Stdlib.QArith.QArith_base <> IZpos constr
+R7505:7508 Corelib.Init.Datatypes <> Some constr
+R7511:7514 Corelib.Numbers.BinNums <> Zpos constr
+R7523:7527 Stdlib.QArith.QArith_base <> IZneg constr
+R7534:7537 Corelib.Init.Datatypes <> Some constr
+R7540:7543 Corelib.Numbers.BinNums <> Zneg constr
+R7552:7560 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R7569:7572 Corelib.Init.Datatypes <> None constr
+def 7593:7602 <> of_decimal
+R7607:7621 Corelib.Init.Decimal <> decimal variant
+binder 7605:7605 <> d:87
+R7626:7627 Stdlib.QArith.QArith_base <> IQ ind
+R7662:7662 Stdlib.QArith.QArith_base <> d:87 var
+R7675:7689 Corelib.Init.Decimal <> Decimal constr
+R7698:7698 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7700:7701 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7703:7704 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7728:7728 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7705:7715 Corelib.Init.Decimal <> Pos constr
+R7717:7727 Corelib.Init.Decimal <> Nil constr
+R7736:7753 Corelib.Init.Decimal <> DecimalExp constr
+R7764:7764 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7766:7767 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7769:7770 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7772:7772 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7639:7639 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7641:7642 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7644:7645 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7647:7647 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7798:7805 Stdlib.ZArith.BinInt Z of_int def
+R7808:7822 Corelib.Init.Decimal <> app_int def
+binder 7791:7793 <> num:89
+R7845:7852 Corelib.Init.Nat <> iter def
+R7877:7883 Stdlib.PArith.BinPos Pos mul def
+R7855:7871 Corelib.Init.Decimal <> nb_digits def
+binder 7838:7840 <> den:90
+R7914:7919 Stdlib.QArith.QArith_base <> IQmake constr
+R7922:7928 Stdlib.QArith.QArith_base <> IZ_of_Z def
+R7930:7932 Stdlib.QArith.QArith_base <> num:89 var
+R7935:7937 Stdlib.QArith.QArith_base <> den:90 var
+binder 7909:7909 <> q:91
+R7953:7960 Stdlib.ZArith.BinInt Z of_int def
+binder 7948:7948 <> e:92
+R7975:7975 Stdlib.QArith.QArith_base <> e:92 var
+R7986:7987 Corelib.Numbers.BinNums <> Z0 constr
+R7992:7992 Stdlib.QArith.QArith_base <> q:91 var
+R7998:8001 Corelib.Numbers.BinNums <> Zpos constr
+R8008:8013 Stdlib.QArith.QArith_base <> IQmult constr
+R8015:8015 Stdlib.QArith.QArith_base <> q:91 var
+R8018:8023 Stdlib.QArith.QArith_base <> IQmake constr
+R8026:8034 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R8039:8039 Stdlib.QArith.QArith_base <> e:92 var
+R8049:8052 Corelib.Numbers.BinNums <> Zneg constr
+R8059:8063 Stdlib.QArith.QArith_base <> IQdiv constr
+R8065:8065 Stdlib.QArith.QArith_base <> q:91 var
+R8068:8073 Stdlib.QArith.QArith_base <> IQmake constr
+R8076:8084 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R8089:8089 Stdlib.QArith.QArith_base <> e:92 var
+def 8114:8130 <> IQmake_to_decimal
+binder 8132:8134 <> num:94
+binder 8136:8138 <> den:95
+R8156:8163 Stdlib.ZArith.BinInt Z to_int def
+R8165:8167 Stdlib.QArith.QArith_base <> num:94 var
+binder 8149:8151 <> num:96
+R8194:8207 Corelib.Init.Decimal <> nztail def
+R8210:8220 Stdlib.PArith.BinPos Pos to_uint def
+R8222:8224 Stdlib.QArith.QArith_base <> den:95 var
+binder 8179:8181 <> den:97
+binder 8184:8188 <> e_den:98
+R8238:8240 Stdlib.QArith.QArith_base <> den:97 var
+R8251:8260 Corelib.Init.Decimal <> D1 constr
+R8262:8272 Corelib.Init.Decimal <> Nil constr
+R8287:8291 Stdlib.QArith.QArith_base <> e_den:98 var
+R8304:8304 Corelib.Init.Datatypes <> O constr
+R8309:8312 Corelib.Init.Datatypes <> Some constr
+R8315:8329 Corelib.Init.Decimal <> Decimal constr
+R8331:8333 Stdlib.QArith.QArith_base <> num:96 var
+R8335:8345 Corelib.Init.Decimal <> Nil constr
+R8376:8386 Corelib.Init.Decimal <> abs def
+R8388:8390 Stdlib.QArith.QArith_base <> num:96 var
+binder 8370:8371 <> ai:101
+R8411:8427 Corelib.Init.Decimal <> nb_digits def
+R8429:8430 Stdlib.QArith.QArith_base <> ai:101 var
+binder 8405:8406 <> ni:102
+R8444:8450 Corelib.Init.Nat <> ltb def
+R8455:8456 Stdlib.QArith.QArith_base <> ni:102 var
+R8636:8638 Stdlib.QArith.QArith_base <> num:96 var
+R8657:8667 Corelib.Init.Decimal <> Pos constr
+R8674:8684 Corelib.Init.Decimal <> Pos constr
+R8687:8698 Corelib.Init.Decimal <> zero abbrev
+R8713:8723 Corelib.Init.Decimal <> Neg constr
+R8730:8740 Corelib.Init.Decimal <> Neg constr
+R8743:8754 Corelib.Init.Decimal <> zero abbrev
+binder 8625:8625 <> z:104
+R8772:8775 Corelib.Init.Datatypes <> Some constr
+R8778:8792 Corelib.Init.Decimal <> Decimal constr
+R8794:8794 Stdlib.QArith.QArith_base <> z:104 var
+R8797:8804 Corelib.Init.Nat <> iter def
+R8833:8834 Stdlib.QArith.QArith_base <> ai:101 var
+R8822:8831 Corelib.Init.Decimal <> D0 constr
+R8807:8813 Corelib.Init.Nat <> sub def
+R8818:8819 Stdlib.QArith.QArith_base <> ni:102 var
+R8480:8499 Corelib.Init.Decimal <> del_tail_int def
+R8504:8506 Stdlib.QArith.QArith_base <> num:96 var
+binder 8475:8475 <> i:105
+R8528:8543 Corelib.Init.Decimal <> del_head def
+R8546:8552 Corelib.Init.Nat <> sub def
+R8554:8555 Stdlib.QArith.QArith_base <> ni:102 var
+R8561:8562 Stdlib.QArith.QArith_base <> ai:101 var
+binder 8523:8523 <> f:106
+R8575:8578 Corelib.Init.Datatypes <> Some constr
+R8581:8595 Corelib.Init.Decimal <> Decimal constr
+R8597:8597 Stdlib.QArith.QArith_base <> i:105 var
+R8599:8599 Stdlib.QArith.QArith_base <> f:106 var
+R8855:8858 Corelib.Init.Datatypes <> None constr
+def 8879:8896 <> IQmake_to_decimal'
+binder 8898:8900 <> num:107
+binder 8902:8904 <> den:108
+R8917:8923 Stdlib.QArith.QArith_base <> IZ_to_Z def
+R8925:8927 Stdlib.QArith.QArith_base <> num:107 var
+R8938:8941 Corelib.Init.Datatypes <> None constr
+R8946:8949 Corelib.Init.Datatypes <> None constr
+R8955:8958 Corelib.Init.Datatypes <> Some constr
+R8967:8983 Stdlib.QArith.QArith_base <> IQmake_to_decimal def
+R8985:8987 Stdlib.QArith.QArith_base <> num:107 var
+R8989:8991 Stdlib.QArith.QArith_base <> den:108 var
+def 9012:9021 <> to_decimal
+R9028:9029 Stdlib.QArith.QArith_base <> IQ ind
+binder 9024:9024 <> n:109
+R9034:9039 Corelib.Init.Datatypes <> option ind
+R9041:9055 Corelib.Init.Decimal <> decimal variant
+R9068:9068 Stdlib.QArith.QArith_base <> n:109 var
+R9079:9084 Stdlib.QArith.QArith_base <> IQmake constr
+R9097:9114 Stdlib.QArith.QArith_base <> IQmake_to_decimal' def
+R9128:9133 Stdlib.QArith.QArith_base <> IQmult constr
+R9153:9158 Stdlib.QArith.QArith_base <> IQmake constr
+R9161:9169 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R9136:9141 Stdlib.QArith.QArith_base <> IQmake constr
+R9193:9210 Stdlib.QArith.QArith_base <> IQmake_to_decimal' def
+R9231:9234 Corelib.Init.Datatypes <> Some constr
+R9237:9251 Corelib.Init.Decimal <> Decimal constr
+R9267:9270 Corelib.Init.Datatypes <> Some constr
+R9273:9290 Corelib.Init.Decimal <> DecimalExp constr
+R9297:9306 Stdlib.PArith.BinPos Pos to_int def
+R9323:9326 Corelib.Init.Datatypes <> None constr
+R9340:9344 Stdlib.QArith.QArith_base <> IQdiv constr
+R9364:9369 Stdlib.QArith.QArith_base <> IQmake constr
+R9372:9380 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R9347:9352 Stdlib.QArith.QArith_base <> IQmake constr
+R9404:9421 Stdlib.QArith.QArith_base <> IQmake_to_decimal' def
+R9442:9445 Corelib.Init.Datatypes <> Some constr
+R9448:9462 Corelib.Init.Decimal <> Decimal constr
+R9478:9481 Corelib.Init.Datatypes <> Some constr
+R9484:9501 Corelib.Init.Decimal <> DecimalExp constr
+R9508:9518 Corelib.Init.Decimal <> Neg constr
+R9521:9531 Stdlib.PArith.BinPos Pos to_uint def
+R9549:9552 Corelib.Init.Datatypes <> None constr
+R9571:9574 Corelib.Init.Datatypes <> None constr
+def 9595:9608 <> of_hexadecimal
+R9613:9635 Corelib.Init.Hexadecimal <> hexadecimal variant
+binder 9611:9611 <> d:111
+R9640:9641 Stdlib.QArith.QArith_base <> IQ ind
+R9676:9676 Stdlib.QArith.QArith_base <> d:111 var
+R9689:9711 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R9720:9720 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9722:9723 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9725:9726 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9750:9750 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9727:9737 Corelib.Init.Decimal <> Pos constr
+R9739:9749 Corelib.Init.Decimal <> Nil constr
+R9758:9783 Corelib.Init.Hexadecimal <> HexadecimalExp constr
+R9794:9794 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9796:9797 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9799:9800 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9802:9802 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9653:9653 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9655:9656 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9658:9659 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9661:9661 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9828:9839 Stdlib.ZArith.BinInt Z of_hex_int def
+R9842:9860 Corelib.Init.Hexadecimal <> app_int def
+binder 9821:9823 <> num:113
+R9883:9890 Corelib.Init.Nat <> iter def
+R9919:9925 Stdlib.PArith.BinPos Pos mul def
+R9893:9913 Corelib.Init.Hexadecimal <> nb_digits def
+binder 9876:9878 <> den:114
+R9956:9961 Stdlib.QArith.QArith_base <> IQmake constr
+R9964:9970 Stdlib.QArith.QArith_base <> IZ_of_Z def
+R9972:9974 Stdlib.QArith.QArith_base <> num:113 var
+R9977:9979 Stdlib.QArith.QArith_base <> den:114 var
+binder 9951:9951 <> q:115
+R9995:10002 Stdlib.ZArith.BinInt Z of_int def
+binder 9990:9990 <> e:116
+R10017:10017 Stdlib.QArith.QArith_base <> e:116 var
+R10028:10029 Corelib.Numbers.BinNums <> Z0 constr
+R10034:10034 Stdlib.QArith.QArith_base <> q:115 var
+R10040:10043 Corelib.Numbers.BinNums <> Zpos constr
+R10050:10055 Stdlib.QArith.QArith_base <> IQmult constr
+R10057:10057 Stdlib.QArith.QArith_base <> q:115 var
+R10060:10065 Stdlib.QArith.QArith_base <> IQmake constr
+R10068:10076 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R10080:10080 Stdlib.QArith.QArith_base <> e:116 var
+R10090:10093 Corelib.Numbers.BinNums <> Zneg constr
+R10100:10104 Stdlib.QArith.QArith_base <> IQdiv constr
+R10106:10106 Stdlib.QArith.QArith_base <> q:115 var
+R10109:10114 Stdlib.QArith.QArith_base <> IQmake constr
+R10117:10125 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R10129:10129 Stdlib.QArith.QArith_base <> e:116 var
+def 10154:10174 <> IQmake_to_hexadecimal
+binder 10176:10178 <> num:118
+binder 10180:10182 <> den:119
+R10200:10211 Stdlib.ZArith.BinInt Z to_hex_int def
+R10213:10215 Stdlib.QArith.QArith_base <> num:118 var
+binder 10193:10195 <> num:120
+R10242:10259 Corelib.Init.Hexadecimal <> nztail def
+R10262:10276 Stdlib.PArith.BinPos Pos to_hex_uint def
+R10278:10280 Stdlib.QArith.QArith_base <> den:119 var
+binder 10227:10229 <> den:121
+binder 10232:10236 <> e_den:122
+R10294:10296 Stdlib.QArith.QArith_base <> den:121 var
+R10307:10320 Corelib.Init.Hexadecimal <> D1 constr
+R10322:10336 Corelib.Init.Hexadecimal <> Nil constr
+R10351:10355 Stdlib.QArith.QArith_base <> e_den:122 var
+R10368:10368 Corelib.Init.Datatypes <> O constr
+R10373:10376 Corelib.Init.Datatypes <> Some constr
+R10379:10401 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R10403:10405 Stdlib.QArith.QArith_base <> num:120 var
+R10407:10421 Corelib.Init.Hexadecimal <> Nil constr
+R10452:10466 Corelib.Init.Hexadecimal <> abs def
+R10468:10470 Stdlib.QArith.QArith_base <> num:120 var
+binder 10446:10447 <> ai:125
+R10491:10511 Corelib.Init.Hexadecimal <> nb_digits def
+R10513:10514 Stdlib.QArith.QArith_base <> ai:125 var
+binder 10485:10486 <> ni:126
+R10528:10534 Corelib.Init.Nat <> ltb def
+R10539:10540 Stdlib.QArith.QArith_base <> ni:126 var
+R10736:10738 Stdlib.QArith.QArith_base <> num:120 var
+R10757:10771 Corelib.Init.Hexadecimal <> Pos constr
+R10778:10792 Corelib.Init.Hexadecimal <> Pos constr
+R10795:10810 Corelib.Init.Hexadecimal <> zero abbrev
+R10825:10839 Corelib.Init.Hexadecimal <> Neg constr
+R10846:10860 Corelib.Init.Hexadecimal <> Neg constr
+R10863:10878 Corelib.Init.Hexadecimal <> zero abbrev
+binder 10725:10725 <> z:128
+R10896:10899 Corelib.Init.Datatypes <> Some constr
+R10902:10924 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R10926:10926 Stdlib.QArith.QArith_base <> z:128 var
+R10929:10936 Corelib.Init.Nat <> iter def
+R10969:10970 Stdlib.QArith.QArith_base <> ai:125 var
+R10954:10967 Corelib.Init.Hexadecimal <> D0 constr
+R10939:10945 Corelib.Init.Nat <> sub def
+R10950:10951 Stdlib.QArith.QArith_base <> ni:126 var
+R10564:10587 Corelib.Init.Hexadecimal <> del_tail_int def
+R10592:10594 Stdlib.QArith.QArith_base <> num:120 var
+binder 10559:10559 <> i:129
+R10616:10635 Corelib.Init.Hexadecimal <> del_head def
+R10638:10644 Corelib.Init.Nat <> sub def
+R10646:10647 Stdlib.QArith.QArith_base <> ni:126 var
+R10653:10654 Stdlib.QArith.QArith_base <> ai:125 var
+binder 10611:10611 <> f:130
+R10667:10670 Corelib.Init.Datatypes <> Some constr
+R10673:10695 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R10697:10697 Stdlib.QArith.QArith_base <> i:129 var
+R10699:10699 Stdlib.QArith.QArith_base <> f:130 var
+R10991:10994 Corelib.Init.Datatypes <> None constr
+def 11015:11036 <> IQmake_to_hexadecimal'
+binder 11038:11040 <> num:131
+binder 11042:11044 <> den:132
+R11057:11063 Stdlib.QArith.QArith_base <> IZ_to_Z def
+R11065:11067 Stdlib.QArith.QArith_base <> num:131 var
+R11078:11081 Corelib.Init.Datatypes <> None constr
+R11086:11089 Corelib.Init.Datatypes <> None constr
+R11095:11098 Corelib.Init.Datatypes <> Some constr
+R11107:11127 Stdlib.QArith.QArith_base <> IQmake_to_hexadecimal def
+R11129:11131 Stdlib.QArith.QArith_base <> num:131 var
+R11133:11135 Stdlib.QArith.QArith_base <> den:132 var
+def 11156:11169 <> to_hexadecimal
+R11176:11177 Stdlib.QArith.QArith_base <> IQ ind
+binder 11172:11172 <> n:133
+R11182:11187 Corelib.Init.Datatypes <> option ind
+R11189:11211 Corelib.Init.Hexadecimal <> hexadecimal variant
+R11224:11224 Stdlib.QArith.QArith_base <> n:133 var
+R11235:11240 Stdlib.QArith.QArith_base <> IQmake constr
+R11253:11274 Stdlib.QArith.QArith_base <> IQmake_to_hexadecimal' def
+R11288:11293 Stdlib.QArith.QArith_base <> IQmult constr
+R11313:11318 Stdlib.QArith.QArith_base <> IQmake constr
+R11321:11329 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R11296:11301 Stdlib.QArith.QArith_base <> IQmake constr
+R11352:11373 Stdlib.QArith.QArith_base <> IQmake_to_hexadecimal' def
+R11394:11397 Corelib.Init.Datatypes <> Some constr
+R11400:11422 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R11438:11441 Corelib.Init.Datatypes <> Some constr
+R11444:11469 Corelib.Init.Hexadecimal <> HexadecimalExp constr
+R11476:11485 Stdlib.PArith.BinPos Pos to_int def
+R11502:11505 Corelib.Init.Datatypes <> None constr
+R11519:11523 Stdlib.QArith.QArith_base <> IQdiv constr
+R11543:11548 Stdlib.QArith.QArith_base <> IQmake constr
+R11551:11559 Stdlib.QArith.QArith_base <> IZpow_pos constr
+R11526:11531 Stdlib.QArith.QArith_base <> IQmake constr
+R11582:11603 Stdlib.QArith.QArith_base <> IQmake_to_hexadecimal' def
+R11624:11627 Corelib.Init.Datatypes <> Some constr
+R11630:11652 Corelib.Init.Hexadecimal <> Hexadecimal constr
+R11668:11671 Corelib.Init.Datatypes <> Some constr
+R11674:11699 Corelib.Init.Hexadecimal <> HexadecimalExp constr
+R11706:11716 Corelib.Init.Decimal <> Neg constr
+R11719:11729 Stdlib.PArith.BinPos Pos to_uint def
+R11747:11750 Corelib.Init.Datatypes <> None constr
+R11769:11772 Corelib.Init.Datatypes <> None constr
+def 11793:11801 <> of_number
+R11808:11820 Corelib.Init.Number <> number variant
+binder 11804:11804 <> n:135
+R11825:11826 Stdlib.QArith.QArith_base <> IQ ind
+R11839:11839 Stdlib.QArith.QArith_base <> n:135 var
+R11850:11863 Corelib.Init.Number <> Decimal constr
+R11870:11879 Stdlib.QArith.QArith_base <> of_decimal def
+R11887:11904 Corelib.Init.Number <> Hexadecimal constr
+R11911:11924 Stdlib.QArith.QArith_base <> of_hexadecimal def
+def 11947:11955 <> to_number
+R11960:11961 Stdlib.QArith.QArith_base <> IQ ind
+binder 11958:11958 <> q:137
+R11966:11971 Corelib.Init.Datatypes <> option ind
+R11973:11985 Corelib.Init.Number <> number variant
+R11998:12007 Stdlib.QArith.QArith_base <> to_decimal def
+R12009:12009 Stdlib.QArith.QArith_base <> q:137 var
+R12020:12023 Corelib.Init.Datatypes <> None constr
+R12028:12031 Corelib.Init.Datatypes <> None constr
+R12037:12040 Corelib.Init.Datatypes <> Some constr
+R12047:12050 Corelib.Init.Datatypes <> Some constr
+R12053:12066 Corelib.Init.Number <> Decimal constr
+R12068:12068 Stdlib.QArith.QArith_base <> q:137 var
+def 12090:12102 <> to_hex_number
+binder 12104:12104 <> q:138
+R12117:12130 Stdlib.QArith.QArith_base <> to_hexadecimal def
+R12132:12132 Stdlib.QArith.QArith_base <> q:138 var
+R12143:12146 Corelib.Init.Datatypes <> None constr
+R12151:12154 Corelib.Init.Datatypes <> None constr
+R12160:12163 Corelib.Init.Datatypes <> Some constr
+R12170:12173 Corelib.Init.Datatypes <> Some constr
+R12176:12193 Corelib.Init.Number <> Hexadecimal constr
+R12195:12195 Stdlib.QArith.QArith_base <> q:138 var
+R12253:12254 Stdlib.QArith.QArith_base <> IQ ind
+R12224:12232 Stdlib.QArith.QArith_base <> of_number def
+R12234:12246 Stdlib.QArith.QArith_base <> to_hex_number def
+R12454:12455 Stdlib.QArith.QArith_base <> IQ ind
+R12429:12437 Stdlib.QArith.QArith_base <> of_number def
+R12439:12447 Stdlib.QArith.QArith_base <> to_number def
+prf 12650:12659 <> Qmake_Qdiv
+binder 12661:12661 <> a:139
+binder 12663:12663 <> b:140
+R12670:12671 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R12668:12668 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R12667:12667 Stdlib.QArith.QArith_base <> a:139 var
+R12669:12669 Stdlib.QArith.QArith_base <> b:140 var
+R12682:12682 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R12672:12679 Stdlib.QArith.QArith_base <> inject_Z def
+R12681:12681 Stdlib.QArith.QArith_base <> a:139 var
+R12683:12690 Stdlib.QArith.QArith_base <> inject_Z def
+R12693:12696 Corelib.Numbers.BinNums <> Zpos constr
+R12698:12698 Stdlib.QArith.QArith_base <> b:140 var
+R12716:12718 Stdlib.QArith.QArith_base <> Qeq def
+inst 12798:12807 <> Qplus_comp
+R12811:12816 Corelib.Classes.Morphisms <> Proper class
+R12836:12840 Stdlib.QArith.QArith_base <> Qplus def
+R12822:12824 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12819:12821 Stdlib.QArith.QArith_base <> Qeq def
+R12828:12830 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12825:12827 Stdlib.QArith.QArith_base <> Qeq def
+R12831:12833 Stdlib.QArith.QArith_base <> Qeq def
+R12859:12861 Stdlib.QArith.QArith_base <> Qeq def
+R12864:12868 Stdlib.QArith.QArith_base <> Qplus def
+R13015:13017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13005:13007 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13008:13011 Corelib.Numbers.BinNums <> Zpos constr
+R13018:13021 Corelib.Numbers.BinNums <> Zpos constr
+R13045:13047 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13035:13037 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13038:13041 Corelib.Numbers.BinNums <> Zpos constr
+R13048:13051 Corelib.Numbers.BinNums <> Zpos constr
+R13112:13114 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13102:13104 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13092:13094 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13095:13098 Corelib.Numbers.BinNums <> Zpos constr
+R13105:13108 Corelib.Numbers.BinNums <> Zpos constr
+R13115:13118 Corelib.Numbers.BinNums <> Zpos constr
+R13152:13154 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13142:13144 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13132:13134 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13135:13138 Corelib.Numbers.BinNums <> Zpos constr
+R13145:13148 Corelib.Numbers.BinNums <> Zpos constr
+R13155:13158 Corelib.Numbers.BinNums <> Zpos constr
+inst 13243:13251 <> Qopp_comp
+R13255:13260 Corelib.Classes.Morphisms <> Proper class
+R13274:13277 Stdlib.QArith.QArith_base <> Qopp def
+R13266:13268 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13263:13265 Stdlib.QArith.QArith_base <> Qeq def
+R13269:13271 Stdlib.QArith.QArith_base <> Qeq def
+R13296:13298 Stdlib.QArith.QArith_base <> Qeq def
+R13301:13304 Stdlib.QArith.QArith_base <> Qopp def
+R13378:13380 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13370:13371 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R13372:13375 Stdlib.QArith.QArith_base <> Qnum proj
+R13381:13384 Corelib.Numbers.BinNums <> Zpos constr
+R13387:13390 Stdlib.QArith.QArith_base <> Qden proj
+R13402:13404 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R13427:13427 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R13411:13413 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13405:13408 Stdlib.QArith.QArith_base <> Qnum proj
+R13414:13417 Corelib.Numbers.BinNums <> Zpos constr
+R13420:13423 Stdlib.QArith.QArith_base <> Qden proj
+inst 13507:13517 <> Qminus_comp
+R13521:13526 Corelib.Classes.Morphisms <> Proper class
+R13546:13551 Stdlib.QArith.QArith_base <> Qminus def
+R13532:13534 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13529:13531 Stdlib.QArith.QArith_base <> Qeq def
+R13538:13540 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13535:13537 Stdlib.QArith.QArith_base <> Qeq def
+R13541:13543 Stdlib.QArith.QArith_base <> Qeq def
+R13596:13601 Stdlib.QArith.QArith_base <> Qminus def
+inst 13663:13672 <> Qmult_comp
+R13676:13681 Corelib.Classes.Morphisms <> Proper class
+R13701:13705 Stdlib.QArith.QArith_base <> Qmult def
+R13687:13689 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13684:13686 Stdlib.QArith.QArith_base <> Qeq def
+R13693:13695 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13690:13692 Stdlib.QArith.QArith_base <> Qeq def
+R13696:13698 Stdlib.QArith.QArith_base <> Qeq def
+R13724:13726 Stdlib.QArith.QArith_base <> Qeq def
+R13876:13878 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13871:13873 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13879:13882 Corelib.Numbers.BinNums <> Zpos constr
+R13906:13908 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13896:13898 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13899:13902 Corelib.Numbers.BinNums <> Zpos constr
+R13966:13968 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13956:13958 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13951:13953 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13959:13962 Corelib.Numbers.BinNums <> Zpos constr
+R13969:13972 Corelib.Numbers.BinNums <> Zpos constr
+R14001:14003 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13996:13998 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13986:13988 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13989:13992 Corelib.Numbers.BinNums <> Zpos constr
+R14004:14007 Corelib.Numbers.BinNums <> Zpos constr
+inst 14092:14100 <> Qinv_comp
+R14104:14109 Corelib.Classes.Morphisms <> Proper class
+R14123:14126 Stdlib.QArith.QArith_base <> Qinv def
+R14115:14117 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14112:14114 Stdlib.QArith.QArith_base <> Qeq def
+R14118:14120 Stdlib.QArith.QArith_base <> Qeq def
+R14145:14147 Stdlib.QArith.QArith_base <> Qeq def
+R14150:14153 Stdlib.QArith.QArith_base <> Qinv def
+R14265:14274 Stdlib.ZArith.BinInt Z mul_eq_0 abbrev
+R14370:14381 Stdlib.PArith.BinPos Pos mul_comm thm
+R14391:14402 Stdlib.PArith.BinPos Pos mul_comm thm
+R14468:14479 Stdlib.PArith.BinPos Pos mul_comm thm
+R14489:14500 Stdlib.PArith.BinPos Pos mul_comm thm
+inst 14551:14559 <> Qdiv_comp
+R14563:14568 Corelib.Classes.Morphisms <> Proper class
+R14588:14591 Stdlib.QArith.QArith_base <> Qdiv def
+R14574:14576 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14571:14573 Stdlib.QArith.QArith_base <> Qeq def
+R14580:14582 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14577:14579 Stdlib.QArith.QArith_base <> Qeq def
+R14583:14585 Stdlib.QArith.QArith_base <> Qeq def
+R14634:14637 Stdlib.QArith.QArith_base <> Qdiv def
+inst 14701:14713 <> Qcompare_comp
+R14717:14722 Corelib.Classes.Morphisms <> Proper class
+R14741:14748 Stdlib.QArith.QArith_base <> Qcompare def
+R14728:14730 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14725:14727 Stdlib.QArith.QArith_base <> Qeq def
+R14734:14736 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14731:14733 Stdlib.QArith.QArith_base <> Qeq def
+R14737:14738 Corelib.Init.Logic <> eq ind
+R14767:14769 Stdlib.QArith.QArith_base <> Qeq def
+R14772:14779 Stdlib.QArith.QArith_base <> Qcompare def
+R14877:14905 Stdlib.ZArith.Zcompare <> Zcompare_mult_compat thm
+R14910:14910 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R14918:14918 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14919:14922 Corelib.Numbers.BinNums <> Zpos constr
+R14944:14972 Stdlib.ZArith.Zcompare <> Zcompare_mult_compat thm
+R14977:14977 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R14985:14985 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14986:14989 Corelib.Numbers.BinNums <> Zpos constr
+R15007:15010 Corelib.Numbers.BinNums <> Zpos constr
+R15015:15015 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R15034:15036 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15027:15030 Corelib.Numbers.BinNums <> Zpos constr
+R15037:15040 Corelib.Numbers.BinNums <> Zpos constr
+R15057:15060 Corelib.Numbers.BinNums <> Zpos constr
+R15065:15065 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R15084:15086 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15077:15080 Corelib.Numbers.BinNums <> Zpos constr
+R15087:15090 Corelib.Numbers.BinNums <> Zpos constr
+R15125:15128 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15139:15139 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15115:15117 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15108:15111 Corelib.Numbers.BinNums <> Zpos constr
+R15118:15121 Corelib.Numbers.BinNums <> Zpos constr
+R15131:15131 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15132:15135 Corelib.Numbers.BinNums <> Zpos constr
+R15168:15168 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15148:15148 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15159:15160 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15151:15151 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15152:15155 Corelib.Numbers.BinNums <> Zpos constr
+R15161:15164 Corelib.Numbers.BinNums <> Zpos constr
+R15169:15172 Corelib.Numbers.BinNums <> Zpos constr
+R15228:15231 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15242:15242 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15218:15220 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15211:15214 Corelib.Numbers.BinNums <> Zpos constr
+R15221:15224 Corelib.Numbers.BinNums <> Zpos constr
+R15234:15234 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15235:15238 Corelib.Numbers.BinNums <> Zpos constr
+R15271:15271 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15251:15251 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15262:15263 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15254:15254 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15255:15258 Corelib.Numbers.BinNums <> Zpos constr
+R15264:15267 Corelib.Numbers.BinNums <> Zpos constr
+R15272:15275 Corelib.Numbers.BinNums <> Zpos constr
+inst 15369:15376 <> Qle_comp
+R15380:15385 Corelib.Classes.Morphisms <> Proper class
+R15405:15407 Stdlib.QArith.QArith_base <> Qle def
+R15391:15393 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15388:15390 Stdlib.QArith.QArith_base <> Qeq def
+R15397:15399 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15394:15396 Stdlib.QArith.QArith_base <> Qeq def
+R15400:15402 Corelib.Init.Logic <> iff def
+R15450:15456 Stdlib.QArith.QArith_base <> Qle_alt thm
+inst 15504:15513 <> Qlt_compat
+R15517:15522 Corelib.Classes.Morphisms <> Proper class
+R15542:15544 Stdlib.QArith.QArith_base <> Qlt def
+R15528:15530 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15525:15527 Stdlib.QArith.QArith_base <> Qeq def
+R15534:15536 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15531:15533 Stdlib.QArith.QArith_base <> Qeq def
+R15537:15539 Corelib.Init.Logic <> iff def
+R15587:15593 Stdlib.QArith.QArith_base <> Qlt_alt thm
+inst 15641:15649 <> Qeqb_comp
+R15653:15658 Corelib.Classes.Morphisms <> Proper class
+R15677:15684 Stdlib.QArith.QArith_base <> Qeq_bool def
+R15664:15666 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15661:15663 Stdlib.QArith.QArith_base <> Qeq def
+R15670:15672 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15667:15669 Stdlib.QArith.QArith_base <> Qeq def
+R15673:15674 Corelib.Init.Logic <> eq ind
+R15722:15735 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R15749:15760 Stdlib.QArith.QArith_base <> Qeq_bool_iff thm
+inst 15820:15828 <> Qleb_comp
+R15832:15837 Corelib.Classes.Morphisms <> Proper class
+R15856:15863 Stdlib.QArith.QArith_base <> Qle_bool def
+R15843:15845 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15840:15842 Stdlib.QArith.QArith_base <> Qeq def
+R15849:15851 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15846:15848 Stdlib.QArith.QArith_base <> Qeq def
+R15852:15853 Corelib.Init.Logic <> eq ind
+R15901:15914 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R15928:15939 Stdlib.QArith.QArith_base <> Qle_bool_iff thm
+prf 16017:16027 <> Q_apart_0_1
+R16031:16032 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16034:16037 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16057:16059 Stdlib.QArith.QArith_base <> Qeq def
+prf 16158:16168 <> Qplus_assoc
+binder 16179:16179 <> x:141
+binder 16181:16181 <> y:142
+binder 16183:16183 <> z:143
+R16193:16194 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16187:16188 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16192:16192 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16186:16186 Stdlib.QArith.QArith_base <> x:141 var
+R16190:16190 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16189:16189 Stdlib.QArith.QArith_base <> y:142 var
+R16191:16191 Stdlib.QArith.QArith_base <> z:143 var
+R16195:16195 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16199:16200 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16197:16197 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16196:16196 Stdlib.QArith.QArith_base <> x:141 var
+R16198:16198 Stdlib.QArith.QArith_base <> y:142 var
+R16201:16201 Stdlib.QArith.QArith_base <> z:143 var
+R16257:16259 Stdlib.QArith.QArith_base <> Qeq def
+R16262:16266 Stdlib.QArith.QArith_base <> Qplus def
+prf 16353:16361 <> Qplus_0_l
+binder 16372:16372 <> x:144
+R16378:16381 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16376:16376 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16377:16377 Stdlib.QArith.QArith_base <> x:144 var
+R16382:16382 Stdlib.QArith.QArith_base <> x:144 var
+R16418:16420 Stdlib.QArith.QArith_base <> Qeq def
+R16423:16427 Stdlib.QArith.QArith_base <> Qplus def
+prf 16455:16463 <> Qplus_0_r
+binder 16474:16474 <> x:145
+R16480:16483 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16478:16478 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16477:16477 Stdlib.QArith.QArith_base <> x:145 var
+R16484:16484 Stdlib.QArith.QArith_base <> x:145 var
+R16520:16522 Stdlib.QArith.QArith_base <> Qeq def
+R16525:16529 Stdlib.QArith.QArith_base <> Qplus def
+R16549:16560 Stdlib.PArith.BinPos Pos mul_comm thm
+prf 16625:16634 <> Qplus_comm
+binder 16645:16645 <> x:146
+binder 16647:16647 <> y:147
+R16653:16656 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16651:16651 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16650:16650 Stdlib.QArith.QArith_base <> x:146 var
+R16652:16652 Stdlib.QArith.QArith_base <> y:147 var
+R16658:16658 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16657:16657 Stdlib.QArith.QArith_base <> y:147 var
+R16659:16659 Stdlib.QArith.QArith_base <> x:146 var
+R16695:16697 Stdlib.QArith.QArith_base <> Qeq def
+R16700:16704 Stdlib.QArith.QArith_base <> Qplus def
+R16732:16743 Stdlib.PArith.BinPos Pos mul_comm thm
+prf 16796:16810 <> Qopp_involutive
+binder 16821:16821 <> q:148
+R16828:16831 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16824:16825 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R16826:16826 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R16827:16827 Stdlib.QArith.QArith_base <> q:148 var
+R16832:16832 Stdlib.QArith.QArith_base <> q:148 var
+prf 16884:16894 <> Qplus_opp_r
+binder 16905:16905 <> q:149
+R16914:16917 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R16909:16910 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16913:16913 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16908:16908 Stdlib.QArith.QArith_base <> q:149 var
+R16911:16911 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R16912:16912 Stdlib.QArith.QArith_base <> q:149 var
+prf 17031:17041 <> Qplus_inj_r
+R17051:17051 Stdlib.QArith.QArith_base <> Q rec
+binder 17044:17044 <> x:150
+binder 17046:17046 <> y:151
+binder 17048:17048 <> z:152
+R17071:17075 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R17062:17065 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17058:17060 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R17057:17057 Stdlib.QArith.QArith_base <> x:150 var
+R17061:17061 Stdlib.QArith.QArith_base <> z:152 var
+R17067:17069 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R17066:17066 Stdlib.QArith.QArith_base <> y:151 var
+R17070:17070 Stdlib.QArith.QArith_base <> z:152 var
+R17077:17080 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17076:17076 Stdlib.QArith.QArith_base <> x:150 var
+R17081:17081 Stdlib.QArith.QArith_base <> y:151 var
+R17123:17131 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R17141:17149 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R17170:17180 Stdlib.QArith.QArith_base <> Qplus_opp_r thm
+R17208:17218 Stdlib.QArith.QArith_base <> Qplus_assoc thm
+prf 17287:17297 <> Qplus_inj_l
+R17307:17307 Stdlib.QArith.QArith_base <> Q rec
+binder 17300:17300 <> x:153
+binder 17302:17302 <> y:154
+binder 17304:17304 <> z:155
+R17327:17331 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R17318:17321 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17314:17316 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R17313:17313 Stdlib.QArith.QArith_base <> z:155 var
+R17317:17317 Stdlib.QArith.QArith_base <> x:153 var
+R17323:17325 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R17322:17322 Stdlib.QArith.QArith_base <> z:155 var
+R17326:17326 Stdlib.QArith.QArith_base <> y:154 var
+R17333:17336 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17332:17332 Stdlib.QArith.QArith_base <> x:153 var
+R17337:17337 Stdlib.QArith.QArith_base <> y:154 var
+R17357:17366 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R17375:17384 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R17399:17409 Stdlib.QArith.QArith_base <> Qplus_inj_r thm
+prf 17498:17508 <> Qmult_assoc
+binder 17519:17519 <> n:156
+binder 17521:17521 <> m:157
+binder 17523:17523 <> p:158
+R17533:17534 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17527:17528 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17532:17532 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17526:17526 Stdlib.QArith.QArith_base <> n:156 var
+R17530:17530 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17529:17529 Stdlib.QArith.QArith_base <> m:157 var
+R17531:17531 Stdlib.QArith.QArith_base <> p:158 var
+R17535:17535 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17539:17540 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17537:17537 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17536:17536 Stdlib.QArith.QArith_base <> n:156 var
+R17538:17538 Stdlib.QArith.QArith_base <> m:157 var
+R17541:17541 Stdlib.QArith.QArith_base <> p:158 var
+R17581:17593 Stdlib.PArith.BinPos Pos mul_assoc thm
+prf 17646:17654 <> Qmult_0_l
+binder 17665:17665 <> x:159
+R17672:17675 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17670:17670 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17671:17671 Stdlib.QArith.QArith_base <> x:159 var
+prf 17730:17738 <> Qmult_0_r
+binder 17749:17749 <> x:160
+R17756:17759 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17754:17754 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17753:17753 Stdlib.QArith.QArith_base <> x:160 var
+prf 17863:17871 <> Qmult_1_l
+binder 17882:17882 <> n:161
+R17888:17891 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17886:17886 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17887:17887 Stdlib.QArith.QArith_base <> n:161 var
+R17892:17892 Stdlib.QArith.QArith_base <> n:161 var
+R17935:17938 Stdlib.QArith.QArith_base <> Qnum proj
+prf 17964:17972 <> Qmult_1_r
+binder 17983:17983 <> n:162
+R17989:17990 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R17987:17987 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R17986:17986 Stdlib.QArith.QArith_base <> n:162 var
+R17991:17991 Stdlib.QArith.QArith_base <> n:162 var
+R18035:18043 Stdlib.ZArith.BinInt Z mul_1_r thm
+R18046:18049 Stdlib.QArith.QArith_base <> Qnum proj
+R18066:18077 Stdlib.PArith.BinPos Pos mul_comm thm
+prf 18150:18159 <> Qmult_comm
+binder 18170:18170 <> x:163
+binder 18172:18172 <> y:164
+R18178:18179 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18176:18176 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18175:18175 Stdlib.QArith.QArith_base <> x:163 var
+R18177:18177 Stdlib.QArith.QArith_base <> y:164 var
+R18181:18181 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18180:18180 Stdlib.QArith.QArith_base <> y:164 var
+R18182:18182 Stdlib.QArith.QArith_base <> x:163 var
+R18222:18233 Stdlib.PArith.BinPos Pos mul_comm thm
+prf 18291:18308 <> Qmult_plus_distr_r
+binder 18319:18319 <> x:165
+binder 18321:18321 <> y:166
+binder 18323:18323 <> z:167
+R18333:18334 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18327:18328 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18332:18332 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18326:18326 Stdlib.QArith.QArith_base <> x:165 var
+R18330:18330 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18329:18329 Stdlib.QArith.QArith_base <> y:166 var
+R18331:18331 Stdlib.QArith.QArith_base <> z:167 var
+R18335:18335 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18339:18341 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18345:18345 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18337:18337 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18336:18336 Stdlib.QArith.QArith_base <> x:165 var
+R18338:18338 Stdlib.QArith.QArith_base <> y:166 var
+R18343:18343 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18342:18342 Stdlib.QArith.QArith_base <> x:165 var
+R18344:18344 Stdlib.QArith.QArith_base <> z:167 var
+R18401:18403 Stdlib.QArith.QArith_base <> Qeq def
+R18406:18410 Stdlib.QArith.QArith_base <> Qmult def
+R18413:18417 Stdlib.QArith.QArith_base <> Qplus def
+prf 18459:18476 <> Qmult_plus_distr_l
+binder 18487:18487 <> x:168
+binder 18489:18489 <> y:169
+binder 18491:18491 <> z:170
+R18501:18502 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18494:18494 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18498:18499 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18496:18496 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18495:18495 Stdlib.QArith.QArith_base <> x:168 var
+R18497:18497 Stdlib.QArith.QArith_base <> y:169 var
+R18500:18500 Stdlib.QArith.QArith_base <> z:170 var
+R18503:18503 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18507:18509 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18513:18513 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R18505:18505 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18504:18504 Stdlib.QArith.QArith_base <> x:168 var
+R18506:18506 Stdlib.QArith.QArith_base <> z:170 var
+R18511:18511 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18510:18510 Stdlib.QArith.QArith_base <> y:169 var
+R18512:18512 Stdlib.QArith.QArith_base <> z:170 var
+R18569:18571 Stdlib.QArith.QArith_base <> Qeq def
+R18574:18578 Stdlib.QArith.QArith_base <> Qmult def
+R18581:18585 Stdlib.QArith.QArith_base <> Qplus def
+prf 18647:18660 <> Qmult_integral
+binder 18671:18671 <> x:171
+binder 18673:18673 <> y:172
+R18682:18685 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18679:18680 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18677:18677 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18676:18676 Stdlib.QArith.QArith_base <> x:171 var
+R18678:18678 Stdlib.QArith.QArith_base <> y:172 var
+R18690:18693 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18687:18688 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18686:18686 Stdlib.QArith.QArith_base <> x:171 var
+R18695:18696 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18694:18694 Stdlib.QArith.QArith_base <> y:172 var
+R18742:18744 Stdlib.QArith.QArith_base <> Qeq def
+R18747:18751 Stdlib.QArith.QArith_base <> Qmult def
+R18778:18787 Stdlib.ZArith.BinInt Z mul_eq_0 abbrev
+R18791:18799 Stdlib.ZArith.BinInt Z mul_1_r thm
+prf 18816:18831 <> Qmult_integral_l
+binder 18842:18842 <> x:173
+binder 18844:18844 <> y:174
+R18855:18858 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18847:18848 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18850:18853 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18849:18849 Stdlib.QArith.QArith_base <> x:173 var
+R18867:18870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18862:18865 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18860:18860 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R18859:18859 Stdlib.QArith.QArith_base <> x:173 var
+R18861:18861 Stdlib.QArith.QArith_base <> y:174 var
+R18872:18875 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R18871:18871 Stdlib.QArith.QArith_base <> y:174 var
+R18923:18925 Stdlib.QArith.QArith_base <> Qeq def
+R18928:18932 Stdlib.QArith.QArith_base <> Qmult def
+R18953:18961 Stdlib.ZArith.BinInt Z mul_1_r thm
+R18964:18973 Stdlib.ZArith.BinInt Z mul_eq_0 abbrev
+prf 19043:19055 <> inject_Z_plus
+R19063:19063 Corelib.Numbers.BinNums <> Z ind
+binder 19058:19058 <> x:175
+binder 19060:19060 <> y:176
+R19083:19085 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19067:19074 Stdlib.QArith.QArith_base <> inject_Z def
+R19078:19080 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19077:19077 Stdlib.QArith.QArith_base <> x:175 var
+R19081:19081 Stdlib.QArith.QArith_base <> y:176 var
+R19096:19098 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R19086:19093 Stdlib.QArith.QArith_base <> inject_Z def
+R19095:19095 Stdlib.QArith.QArith_base <> x:175 var
+R19099:19106 Stdlib.QArith.QArith_base <> inject_Z def
+R19108:19108 Stdlib.QArith.QArith_base <> y:176 var
+R19126:19130 Stdlib.QArith.QArith_base <> Qplus def
+R19133:19140 Stdlib.QArith.QArith_base <> inject_Z def
+prf 19177:19189 <> inject_Z_mult
+R19197:19197 Corelib.Numbers.BinNums <> Z ind
+binder 19192:19192 <> x:177
+binder 19194:19194 <> y:178
+R19217:19219 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19201:19208 Stdlib.QArith.QArith_base <> inject_Z def
+R19212:19214 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R19211:19211 Stdlib.QArith.QArith_base <> x:177 var
+R19215:19215 Stdlib.QArith.QArith_base <> y:178 var
+R19230:19232 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R19220:19227 Stdlib.QArith.QArith_base <> inject_Z def
+R19229:19229 Stdlib.QArith.QArith_base <> x:177 var
+R19233:19240 Stdlib.QArith.QArith_base <> inject_Z def
+R19242:19242 Stdlib.QArith.QArith_base <> y:178 var
+prf 19277:19288 <> inject_Z_opp
+R19294:19294 Corelib.Numbers.BinNums <> Z ind
+binder 19291:19291 <> x:179
+R19312:19314 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19298:19305 Stdlib.QArith.QArith_base <> inject_Z def
+R19308:19309 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R19310:19310 Stdlib.QArith.QArith_base <> x:179 var
+R19315:19316 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R19317:19324 Stdlib.QArith.QArith_base <> inject_Z def
+R19326:19326 Stdlib.QArith.QArith_base <> x:179 var
+prf 19394:19408 <> Qinv_involutive
+binder 19419:19419 <> q:180
+R19422:19422 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19428:19432 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19423:19424 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19425:19426 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19427:19427 Stdlib.QArith.QArith_base <> q:180 var
+R19433:19433 Stdlib.QArith.QArith_base <> q:180 var
+prf 19501:19511 <> Qmult_inv_r
+binder 19522:19522 <> x:181
+R19533:19536 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19525:19526 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R19528:19531 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19527:19527 Stdlib.QArith.QArith_base <> x:181 var
+R19543:19546 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19538:19539 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R19542:19542 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R19537:19537 Stdlib.QArith.QArith_base <> x:181 var
+R19540:19540 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19541:19541 Stdlib.QArith.QArith_base <> x:181 var
+R19583:19585 Stdlib.QArith.QArith_base <> Qeq def
+R19588:19591 Stdlib.QArith.QArith_base <> Qdiv def
+R19594:19598 Stdlib.QArith.QArith_base <> Qmult def
+prf 19684:19698 <> Qinv_mult_distr
+binder 19709:19709 <> p:182
+binder 19711:19711 <> q:183
+R19723:19726 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19714:19716 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19722:19722 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19718:19720 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R19717:19717 Stdlib.QArith.QArith_base <> p:182 var
+R19721:19721 Stdlib.QArith.QArith_base <> q:183 var
+R19729:19731 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R19727:19727 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19728:19728 Stdlib.QArith.QArith_base <> p:182 var
+R19732:19732 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19733:19733 Stdlib.QArith.QArith_base <> q:183 var
+R19776:19778 Stdlib.QArith.QArith_base <> Qeq def
+R19781:19784 Stdlib.QArith.QArith_base <> Qinv def
+R19787:19791 Stdlib.QArith.QArith_base <> Qmult def
+prf 19871:19878 <> Qinv_pos
+R19895:19902 Corelib.Numbers.BinNums <> positive ind
+binder 19889:19889 <> a:184
+binder 19891:19891 <> b:185
+R19923:19926 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R19908:19910 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19922:19922 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R19918:19920 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R19911:19915 Stdlib.ZArith.BinInt Z pos abbrev
+R19917:19917 Stdlib.QArith.QArith_base <> b:185 var
+R19921:19921 Stdlib.QArith.QArith_base <> a:184 var
+R19934:19936 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R19927:19931 Stdlib.ZArith.BinInt Z pos abbrev
+R19933:19933 Stdlib.QArith.QArith_base <> a:184 var
+R19937:19937 Stdlib.QArith.QArith_base <> b:185 var
+prf 19988:19995 <> Qinv_neg
+R20012:20019 Corelib.Numbers.BinNums <> positive ind
+binder 20006:20006 <> a:186
+binder 20008:20008 <> b:187
+R20040:20043 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20025:20027 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R20039:20039 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R20035:20037 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20028:20032 Stdlib.ZArith.BinInt Z neg abbrev
+R20034:20034 Stdlib.QArith.QArith_base <> b:187 var
+R20038:20038 Stdlib.QArith.QArith_base <> a:186 var
+R20051:20053 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20044:20048 Stdlib.ZArith.BinInt Z neg abbrev
+R20050:20050 Stdlib.QArith.QArith_base <> a:186 var
+R20054:20054 Stdlib.QArith.QArith_base <> b:187 var
+prf 20107:20117 <> Qdiv_mult_l
+binder 20128:20128 <> x:188
+binder 20130:20130 <> y:189
+R20141:20144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20133:20134 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R20136:20139 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20135:20135 Stdlib.QArith.QArith_base <> y:189 var
+R20152:20155 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20145:20145 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R20149:20150 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R20147:20147 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R20146:20146 Stdlib.QArith.QArith_base <> x:188 var
+R20148:20148 Stdlib.QArith.QArith_base <> y:189 var
+R20151:20151 Stdlib.QArith.QArith_base <> y:189 var
+R20156:20156 Stdlib.QArith.QArith_base <> x:188 var
+R20189:20192 Stdlib.QArith.QArith_base <> Qdiv def
+R20209:20219 Stdlib.QArith.QArith_base <> Qmult_assoc thm
+R20226:20229 Stdlib.QArith.QArith_base <> Qinv def
+R20247:20257 Stdlib.QArith.QArith_base <> Qmult_inv_r thm
+R20273:20281 Stdlib.QArith.QArith_base <> Qmult_1_r thm
+prf 20298:20308 <> Qmult_div_r
+binder 20319:20319 <> x:190
+binder 20321:20321 <> y:191
+R20332:20335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20324:20325 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R20327:20330 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20326:20326 Stdlib.QArith.QArith_base <> y:191 var
+R20343:20346 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20337:20338 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R20342:20342 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R20336:20336 Stdlib.QArith.QArith_base <> y:191 var
+R20340:20340 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R20339:20339 Stdlib.QArith.QArith_base <> x:190 var
+R20341:20341 Stdlib.QArith.QArith_base <> y:191 var
+R20347:20347 Stdlib.QArith.QArith_base <> x:190 var
+R20380:20383 Stdlib.QArith.QArith_base <> Qdiv def
+R20397:20407 Stdlib.QArith.QArith_base <> Qmult_assoc thm
+R20414:20417 Stdlib.QArith.QArith_base <> Qinv def
+R20435:20444 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R20460:20463 Stdlib.QArith.QArith_base <> Qdiv def
+R20466:20470 Stdlib.QArith.QArith_base <> Qmult def
+R20489:20499 Stdlib.QArith.QArith_base <> Qdiv_mult_l thm
+prf 20520:20534 <> Qinv_plus_distr
+binder 20545:20545 <> a:192
+binder 20547:20547 <> b:193
+binder 20549:20549 <> c:194
+R20570:20573 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20553:20553 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R20559:20563 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R20569:20569 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R20555:20557 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20554:20554 Stdlib.QArith.QArith_base <> a:192 var
+R20558:20558 Stdlib.QArith.QArith_base <> c:194 var
+R20565:20567 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20564:20564 Stdlib.QArith.QArith_base <> b:193 var
+R20568:20568 Stdlib.QArith.QArith_base <> c:194 var
+R20574:20574 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20578:20581 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20576:20576 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20575:20575 Stdlib.QArith.QArith_base <> a:192 var
+R20577:20577 Stdlib.QArith.QArith_base <> b:193 var
+R20582:20582 Stdlib.QArith.QArith_base <> c:194 var
+R20612:20614 Stdlib.QArith.QArith_base <> Qeq def
+R20632:20644 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 20665:20680 <> Qinv_minus_distr
+binder 20691:20691 <> a:195
+binder 20693:20693 <> b:196
+binder 20695:20695 <> c:197
+R20717:20720 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20698:20698 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R20704:20707 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R20700:20702 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20699:20699 Stdlib.QArith.QArith_base <> a:195 var
+R20703:20703 Stdlib.QArith.QArith_base <> c:197 var
+R20708:20710 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R20716:20716 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R20712:20714 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20711:20711 Stdlib.QArith.QArith_base <> b:196 var
+R20715:20715 Stdlib.QArith.QArith_base <> c:197 var
+R20721:20721 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20725:20728 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R20723:20723 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20722:20722 Stdlib.QArith.QArith_base <> a:195 var
+R20724:20724 Stdlib.QArith.QArith_base <> b:196 var
+R20729:20729 Stdlib.QArith.QArith_base <> c:197 var
+R20756:20758 Stdlib.QArith.QArith_base <> Qeq def
+R20776:20788 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 20874:20884 <> Qmult_inj_r
+R20894:20894 Stdlib.QArith.QArith_base <> Q rec
+binder 20887:20887 <> x:198
+binder 20889:20889 <> y:199
+binder 20891:20891 <> z:200
+R20906:20910 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20936:20936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20898:20899 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R20901:20904 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20900:20900 Stdlib.QArith.QArith_base <> z:200 var
+R20925:20929 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R20916:20919 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20912:20914 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R20911:20911 Stdlib.QArith.QArith_base <> x:198 var
+R20915:20915 Stdlib.QArith.QArith_base <> z:200 var
+R20921:20923 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R20920:20920 Stdlib.QArith.QArith_base <> y:199 var
+R20924:20924 Stdlib.QArith.QArith_base <> z:200 var
+R20931:20934 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R20930:20930 Stdlib.QArith.QArith_base <> x:198 var
+R20935:20935 Stdlib.QArith.QArith_base <> y:199 var
+R20993:21001 Stdlib.QArith.QArith_base <> Qmult_1_r thm
+R21011:21019 Stdlib.QArith.QArith_base <> Qmult_1_r thm
+R21040:21050 Stdlib.QArith.QArith_base <> Qmult_inv_r thm
+R21078:21088 Stdlib.QArith.QArith_base <> Qmult_assoc thm
+prf 21157:21167 <> Qmult_inj_l
+R21177:21177 Stdlib.QArith.QArith_base <> Q rec
+binder 21170:21170 <> x:201
+binder 21172:21172 <> y:202
+binder 21174:21174 <> z:203
+R21189:21193 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21219:21219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21181:21182 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21184:21187 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21183:21183 Stdlib.QArith.QArith_base <> z:203 var
+R21208:21212 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R21199:21202 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21195:21197 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R21194:21194 Stdlib.QArith.QArith_base <> z:203 var
+R21198:21198 Stdlib.QArith.QArith_base <> x:201 var
+R21204:21206 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R21203:21203 Stdlib.QArith.QArith_base <> z:203 var
+R21207:21207 Stdlib.QArith.QArith_base <> y:202 var
+R21214:21217 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21213:21213 Stdlib.QArith.QArith_base <> x:201 var
+R21218:21218 Stdlib.QArith.QArith_base <> y:202 var
+R21239:21248 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R21257:21266 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R21281:21291 Stdlib.QArith.QArith_base <> Qmult_inj_r thm
+prf 21432:21440 <> Qreduce_l
+R21456:21456 Corelib.Numbers.BinNums <> Z ind
+binder 21452:21452 <> a:204
+R21466:21473 Corelib.Numbers.BinNums <> positive ind
+binder 21460:21460 <> b:205
+binder 21462:21462 <> z:206
+R21495:21498 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21489:21491 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21479:21479 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R21486:21487 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R21480:21483 Corelib.Numbers.BinNums <> Zpos constr
+R21485:21485 Stdlib.QArith.QArith_base <> z:206 var
+R21488:21488 Stdlib.QArith.QArith_base <> a:204 var
+R21493:21493 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R21492:21492 Stdlib.QArith.QArith_base <> z:206 var
+R21494:21494 Stdlib.QArith.QArith_base <> b:205 var
+R21500:21500 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21499:21499 Stdlib.QArith.QArith_base <> a:204 var
+R21501:21501 Stdlib.QArith.QArith_base <> b:205 var
+R21536:21538 Stdlib.QArith.QArith_base <> Qeq def
+R21541:21544 Stdlib.QArith.QArith_base <> Qnum proj
+R21547:21550 Stdlib.QArith.QArith_base <> Qden proj
+R21563:21575 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 21598:21606 <> Qreduce_r
+R21622:21622 Corelib.Numbers.BinNums <> Z ind
+binder 21618:21618 <> a:207
+R21632:21639 Corelib.Numbers.BinNums <> positive ind
+binder 21626:21626 <> b:208
+binder 21628:21628 <> z:209
+R21661:21664 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21655:21657 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21646:21647 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R21654:21654 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R21645:21645 Stdlib.QArith.QArith_base <> a:207 var
+R21648:21651 Corelib.Numbers.BinNums <> Zpos constr
+R21653:21653 Stdlib.QArith.QArith_base <> z:209 var
+R21659:21659 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R21658:21658 Stdlib.QArith.QArith_base <> b:208 var
+R21660:21660 Stdlib.QArith.QArith_base <> z:209 var
+R21666:21666 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21665:21665 Stdlib.QArith.QArith_base <> a:207 var
+R21667:21667 Stdlib.QArith.QArith_base <> b:208 var
+R21702:21704 Stdlib.QArith.QArith_base <> Qeq def
+R21707:21710 Stdlib.QArith.QArith_base <> Qnum proj
+R21713:21716 Stdlib.QArith.QArith_base <> Qden proj
+R21729:21741 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 21764:21776 <> Qreduce_num_l
+R21794:21801 Corelib.Numbers.BinNums <> positive ind
+binder 21788:21788 <> a:210
+binder 21790:21790 <> b:211
+R21822:21826 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21832:21832 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21814:21816 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21807:21811 Stdlib.ZArith.BinInt Z pos abbrev
+R21813:21813 Stdlib.QArith.QArith_base <> a:210 var
+R21818:21820 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R21817:21817 Stdlib.QArith.QArith_base <> a:210 var
+R21821:21821 Stdlib.QArith.QArith_base <> b:211 var
+R21828:21830 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21831:21831 Stdlib.QArith.QArith_base <> b:211 var
+R21865:21867 Stdlib.QArith.QArith_base <> Qeq def
+R21870:21873 Stdlib.QArith.QArith_base <> Qnum proj
+R21876:21879 Stdlib.QArith.QArith_base <> Qden proj
+R21892:21904 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 21927:21939 <> Qreduce_num_r
+R21957:21964 Corelib.Numbers.BinNums <> positive ind
+binder 21951:21951 <> a:212
+binder 21953:21953 <> b:213
+R21985:21989 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21995:21995 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R21977:21979 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21970:21974 Stdlib.ZArith.BinInt Z pos abbrev
+R21976:21976 Stdlib.QArith.QArith_base <> b:213 var
+R21981:21983 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R21980:21980 Stdlib.QArith.QArith_base <> a:212 var
+R21984:21984 Stdlib.QArith.QArith_base <> b:213 var
+R21991:21993 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R21994:21994 Stdlib.QArith.QArith_base <> a:212 var
+R22028:22030 Stdlib.QArith.QArith_base <> Qeq def
+R22033:22036 Stdlib.QArith.QArith_base <> Qnum proj
+R22039:22042 Stdlib.QArith.QArith_base <> Qden proj
+R22055:22067 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 22090:22102 <> Qreduce_den_l
+R22118:22125 Corelib.Numbers.BinNums <> positive ind
+binder 22114:22114 <> a:214
+R22133:22133 Corelib.Numbers.BinNums <> Z ind
+binder 22129:22129 <> b:215
+R22154:22158 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22164:22164 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22150:22152 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22146:22148 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22139:22143 Stdlib.ZArith.BinInt Z pos abbrev
+R22145:22145 Stdlib.QArith.QArith_base <> a:214 var
+R22149:22149 Stdlib.QArith.QArith_base <> b:215 var
+R22153:22153 Stdlib.QArith.QArith_base <> a:214 var
+R22160:22162 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22159:22159 Stdlib.QArith.QArith_base <> b:215 var
+R22197:22199 Stdlib.QArith.QArith_base <> Qeq def
+R22202:22205 Stdlib.QArith.QArith_base <> Qnum proj
+R22208:22211 Stdlib.QArith.QArith_base <> Qden proj
+prf 22234:22246 <> Qreduce_den_r
+R22262:22262 Corelib.Numbers.BinNums <> Z ind
+binder 22258:22258 <> a:216
+R22270:22277 Corelib.Numbers.BinNums <> positive ind
+binder 22266:22266 <> b:217
+R22298:22302 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22308:22308 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22294:22296 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22284:22286 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22283:22283 Stdlib.QArith.QArith_base <> a:216 var
+R22287:22291 Stdlib.ZArith.BinInt Z pos abbrev
+R22293:22293 Stdlib.QArith.QArith_base <> b:217 var
+R22297:22297 Stdlib.QArith.QArith_base <> b:217 var
+R22304:22306 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22303:22303 Stdlib.QArith.QArith_base <> a:216 var
+R22341:22343 Stdlib.QArith.QArith_base <> Qeq def
+R22346:22349 Stdlib.QArith.QArith_base <> Qnum proj
+R22352:22355 Stdlib.QArith.QArith_base <> Qden proj
+prf 22378:22399 <> Qreduce_den_inject_Z_l
+R22415:22422 Corelib.Numbers.BinNums <> positive ind
+binder 22411:22411 <> a:218
+R22430:22430 Corelib.Numbers.BinNums <> Z ind
+binder 22426:22426 <> b:219
+R22452:22455 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22448:22450 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22444:22446 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22437:22441 Stdlib.ZArith.BinInt Z pos abbrev
+R22443:22443 Stdlib.QArith.QArith_base <> a:218 var
+R22447:22447 Stdlib.QArith.QArith_base <> b:219 var
+R22451:22451 Stdlib.QArith.QArith_base <> a:218 var
+R22456:22463 Stdlib.QArith.QArith_base <> inject_Z def
+R22465:22465 Stdlib.QArith.QArith_base <> b:219 var
+R22501:22503 Stdlib.QArith.QArith_base <> Qeq def
+R22506:22509 Stdlib.QArith.QArith_base <> Qnum proj
+R22512:22515 Stdlib.QArith.QArith_base <> Qden proj
+R22518:22525 Stdlib.QArith.QArith_base <> inject_Z def
+prf 22548:22569 <> Qreduce_den_inject_Z_r
+R22585:22585 Corelib.Numbers.BinNums <> Z ind
+binder 22581:22581 <> a:220
+R22593:22600 Corelib.Numbers.BinNums <> positive ind
+binder 22589:22589 <> b:221
+R22621:22624 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22617:22619 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22607:22609 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22606:22606 Stdlib.QArith.QArith_base <> a:220 var
+R22610:22614 Stdlib.ZArith.BinInt Z pos abbrev
+R22616:22616 Stdlib.QArith.QArith_base <> b:221 var
+R22620:22620 Stdlib.QArith.QArith_base <> b:221 var
+R22625:22632 Stdlib.QArith.QArith_base <> inject_Z def
+R22634:22634 Stdlib.QArith.QArith_base <> a:220 var
+R22667:22669 Stdlib.QArith.QArith_base <> Qeq def
+R22672:22675 Stdlib.QArith.QArith_base <> Qnum proj
+R22678:22681 Stdlib.QArith.QArith_base <> Qden proj
+R22684:22691 Stdlib.QArith.QArith_base <> inject_Z def
+prf 22714:22725 <> Qreduce_zero
+R22740:22747 Corelib.Numbers.BinNums <> positive ind
+binder 22736:22736 <> d:222
+R22757:22760 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R22755:22755 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22756:22756 Stdlib.QArith.QArith_base <> d:222 var
+R22795:22797 Stdlib.QArith.QArith_base <> Qeq def
+R22800:22803 Stdlib.QArith.QArith_base <> Qnum proj
+R22806:22809 Stdlib.QArith.QArith_base <> Qden proj
+prf 23016:23031 <> Qmult_inject_Z_l
+R23047:23047 Corelib.Numbers.BinNums <> Z ind
+binder 23043:23043 <> a:223
+R23055:23062 Corelib.Numbers.BinNums <> positive ind
+binder 23051:23051 <> b:224
+R23070:23070 Corelib.Numbers.BinNums <> Z ind
+binder 23066:23066 <> z:225
+R23096:23099 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23076:23076 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23087:23091 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23095:23095 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23077:23084 Stdlib.QArith.QArith_base <> inject_Z def
+R23086:23086 Stdlib.QArith.QArith_base <> z:225 var
+R23093:23093 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23092:23092 Stdlib.QArith.QArith_base <> a:223 var
+R23094:23094 Stdlib.QArith.QArith_base <> b:224 var
+R23103:23103 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23101:23101 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23100:23100 Stdlib.QArith.QArith_base <> z:225 var
+R23102:23102 Stdlib.QArith.QArith_base <> a:223 var
+R23104:23104 Stdlib.QArith.QArith_base <> b:224 var
+R23139:23141 Stdlib.QArith.QArith_base <> Qeq def
+prf 23167:23182 <> Qmult_inject_Z_r
+R23198:23198 Corelib.Numbers.BinNums <> Z ind
+binder 23194:23194 <> a:226
+R23206:23213 Corelib.Numbers.BinNums <> positive ind
+binder 23202:23202 <> b:227
+R23221:23221 Corelib.Numbers.BinNums <> Z ind
+binder 23217:23217 <> z:228
+R23245:23248 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23227:23227 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23231:23234 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23229:23229 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23228:23228 Stdlib.QArith.QArith_base <> a:226 var
+R23230:23230 Stdlib.QArith.QArith_base <> b:227 var
+R23235:23242 Stdlib.QArith.QArith_base <> inject_Z def
+R23244:23244 Stdlib.QArith.QArith_base <> z:228 var
+R23252:23252 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23250:23250 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23249:23249 Stdlib.QArith.QArith_base <> a:226 var
+R23251:23251 Stdlib.QArith.QArith_base <> z:228 var
+R23253:23253 Stdlib.QArith.QArith_base <> b:227 var
+R23288:23290 Stdlib.QArith.QArith_base <> Qeq def
+R23308:23320 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 23343:23354 <> Qmult_frac_l
+R23368:23368 Corelib.Numbers.BinNums <> Z ind
+binder 23366:23366 <> a:229
+R23376:23383 Corelib.Numbers.BinNums <> positive ind
+binder 23372:23372 <> b:230
+binder 23374:23374 <> c:231
+R23387:23387 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23399:23403 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23389:23392 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23398:23398 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23388:23388 Stdlib.QArith.QArith_base <> a:229 var
+R23394:23396 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R23393:23393 Stdlib.QArith.QArith_base <> b:230 var
+R23397:23397 Stdlib.QArith.QArith_base <> c:231 var
+R23404:23404 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23408:23412 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23416:23416 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23406:23406 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23407:23407 Stdlib.QArith.QArith_base <> b:230 var
+R23414:23414 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23413:23413 Stdlib.QArith.QArith_base <> a:229 var
+R23415:23415 Stdlib.QArith.QArith_base <> c:231 var
+R23451:23453 Stdlib.QArith.QArith_base <> Qeq def
+R23456:23459 Stdlib.QArith.QArith_base <> Qnum proj
+R23462:23465 Stdlib.QArith.QArith_base <> Qden proj
+prf 23512:23523 <> Qmult_frac_r
+R23537:23537 Corelib.Numbers.BinNums <> Z ind
+binder 23535:23535 <> a:232
+R23545:23552 Corelib.Numbers.BinNums <> positive ind
+binder 23541:23541 <> b:233
+binder 23543:23543 <> c:234
+R23556:23556 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23568:23572 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23558:23561 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23567:23567 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23557:23557 Stdlib.QArith.QArith_base <> a:232 var
+R23563:23565 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R23562:23562 Stdlib.QArith.QArith_base <> b:233 var
+R23566:23566 Stdlib.QArith.QArith_base <> c:234 var
+R23573:23573 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23577:23581 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23585:23585 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R23575:23575 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23574:23574 Stdlib.QArith.QArith_base <> a:232 var
+R23576:23576 Stdlib.QArith.QArith_base <> b:233 var
+R23583:23583 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R23584:23584 Stdlib.QArith.QArith_base <> c:234 var
+R23620:23622 Stdlib.QArith.QArith_base <> Qeq def
+R23625:23628 Stdlib.QArith.QArith_base <> Qnum proj
+R23631:23634 Stdlib.QArith.QArith_base <> Qden proj
+R23652:23664 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+prf 23725:23732 <> Qle_refl
+binder 23734:23734 <> x:235
+R23739:23740 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23738:23738 Stdlib.QArith.QArith_base <> x:235 var
+R23741:23741 Stdlib.QArith.QArith_base <> x:235 var
+R23760:23762 Stdlib.QArith.QArith_base <> Qle def
+prf 23790:23800 <> Qle_antisym
+binder 23802:23802 <> x:236
+binder 23804:23804 <> y:237
+R23812:23815 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23809:23810 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23808:23808 Stdlib.QArith.QArith_base <> x:236 var
+R23811:23811 Stdlib.QArith.QArith_base <> y:237 var
+R23820:23823 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23817:23818 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23816:23816 Stdlib.QArith.QArith_base <> y:237 var
+R23819:23819 Stdlib.QArith.QArith_base <> x:236 var
+R23825:23826 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R23824:23824 Stdlib.QArith.QArith_base <> x:236 var
+R23827:23827 Stdlib.QArith.QArith_base <> y:237 var
+R23843:23855 Stdlib.ZArith.BinInt Z le_antisymm thm
+prf 23870:23878 <> Qle_trans
+binder 23889:23889 <> x:238
+binder 23891:23891 <> y:239
+binder 23893:23893 <> z:240
+R23900:23903 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23897:23898 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23896:23896 Stdlib.QArith.QArith_base <> x:238 var
+R23899:23899 Stdlib.QArith.QArith_base <> y:239 var
+R23908:23911 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23905:23906 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23904:23904 Stdlib.QArith.QArith_base <> y:239 var
+R23907:23907 Stdlib.QArith.QArith_base <> z:240 var
+R23913:23914 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R23912:23912 Stdlib.QArith.QArith_base <> x:238 var
+R23915:23915 Stdlib.QArith.QArith_base <> z:240 var
+R23934:23936 Stdlib.QArith.QArith_base <> Qle def
+R24045:24048 Corelib.Numbers.BinNums <> Zpos constr
+R24019:24037 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+R24101:24103 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R24091:24093 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R24094:24097 Corelib.Numbers.BinNums <> Zpos constr
+R24104:24107 Corelib.Numbers.BinNums <> Zpos constr
+R24072:24081 Stdlib.ZArith.BinInt Z le_trans thm
+R24126:24139 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R24152:24170 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+R24185:24198 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R24202:24215 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R24236:24254 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 24336:24345 <> Qlt_irrefl
+binder 24347:24347 <> x:241
+R24351:24351 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24353:24353 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R24352:24352 Stdlib.QArith.QArith_base <> x:241 var
+R24354:24354 Stdlib.QArith.QArith_base <> x:241 var
+R24370:24380 Stdlib.ZArith.BinInt Z lt_irrefl thm
+prf 24395:24404 <> Qlt_not_eq
+binder 24406:24406 <> x:242
+binder 24408:24408 <> y:243
+R24415:24418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24413:24413 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R24412:24412 Stdlib.QArith.QArith_base <> x:242 var
+R24414:24414 Stdlib.QArith.QArith_base <> y:243 var
+R24419:24420 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24422:24423 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R24421:24421 Stdlib.QArith.QArith_base <> x:242 var
+R24424:24424 Stdlib.QArith.QArith_base <> y:243 var
+R24440:24447 Stdlib.ZArith.BinInt Z lt_neq thm
+prf 24462:24468 <> Zle_Qle
+R24476:24476 Corelib.Numbers.BinNums <> Z ind
+binder 24471:24471 <> x:244
+binder 24473:24473 <> y:245
+R24490:24493 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24518:24518 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24482:24485 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R24481:24481 Stdlib.QArith.QArith_base <> x:244 var
+R24486:24486 Stdlib.QArith.QArith_base <> y:245 var
+R24504:24507 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R24494:24501 Stdlib.QArith.QArith_base <> inject_Z def
+R24503:24503 Stdlib.QArith.QArith_base <> x:244 var
+R24508:24515 Stdlib.QArith.QArith_base <> inject_Z def
+R24517:24517 Stdlib.QArith.QArith_base <> y:245 var
+R24536:24538 Stdlib.QArith.QArith_base <> Qle def
+R24561:24569 Stdlib.ZArith.BinInt Z mul_1_r thm
+prf 24584:24590 <> Zlt_Qlt
+R24598:24598 Corelib.Numbers.BinNums <> Z ind
+binder 24593:24593 <> x:246
+binder 24595:24595 <> y:247
+R24611:24614 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24638:24638 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24604:24606 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R24603:24603 Stdlib.QArith.QArith_base <> x:246 var
+R24607:24607 Stdlib.QArith.QArith_base <> y:247 var
+R24625:24627 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R24615:24622 Stdlib.QArith.QArith_base <> inject_Z def
+R24624:24624 Stdlib.QArith.QArith_base <> x:246 var
+R24628:24635 Stdlib.QArith.QArith_base <> inject_Z def
+R24637:24637 Stdlib.QArith.QArith_base <> y:247 var
+R24656:24658 Stdlib.QArith.QArith_base <> Qlt def
+R24681:24689 Stdlib.ZArith.BinInt Z mul_1_r thm
+prf 24737:24744 <> Qle_lteq
+binder 24746:24746 <> x:248
+binder 24748:24748 <> y:249
+R24756:24760 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R24753:24754 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R24752:24752 Stdlib.QArith.QArith_base <> x:248 var
+R24755:24755 Stdlib.QArith.QArith_base <> y:249 var
+R24764:24767 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R24762:24762 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R24761:24761 Stdlib.QArith.QArith_base <> x:248 var
+R24763:24763 Stdlib.QArith.QArith_base <> y:249 var
+R24769:24770 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R24768:24768 Stdlib.QArith.QArith_base <> x:248 var
+R24771:24771 Stdlib.QArith.QArith_base <> y:249 var
+R24790:24796 Stdlib.QArith.QArith_base <> Qeq_alt thm
+R24799:24805 Stdlib.QArith.QArith_base <> Qle_alt thm
+R24808:24814 Stdlib.QArith.QArith_base <> Qlt_alt thm
+R24829:24832 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+prf 24874:24882 <> Qlt_leneq
+R24898:24898 Stdlib.QArith.QArith_base <> Q rec
+binder 24892:24892 <> p:250
+binder 24894:24894 <> q:251
+R24906:24910 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R24902:24904 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R24901:24901 Stdlib.QArith.QArith_base <> p:250 var
+R24905:24905 Stdlib.QArith.QArith_base <> q:251 var
+R24917:24920 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R24912:24915 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R24911:24911 Stdlib.QArith.QArith_base <> p:250 var
+R24916:24916 Stdlib.QArith.QArith_base <> q:251 var
+R24921:24923 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24930:24930 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24925:24928 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R24924:24924 Stdlib.QArith.QArith_base <> p:250 var
+R24929:24929 Stdlib.QArith.QArith_base <> q:251 var
+R24983:24989 Stdlib.QArith.QArith_base <> Qlt_alt thm
+R25005:25011 Stdlib.QArith.QArith_base <> Qle_alt thm
+R25014:25020 Stdlib.QArith.QArith_base <> Qeq_alt thm
+R25082:25088 Stdlib.QArith.QArith_base <> Qlt_alt thm
+R25099:25105 Stdlib.QArith.QArith_base <> Qle_alt thm
+R25108:25114 Stdlib.QArith.QArith_base <> Qeq_alt thm
+R25137:25140 Stdlib.QArith.QArith_base <> ::Q_scope:x_'?='_x not
+prf 25164:25174 <> Qlt_le_weak
+binder 25176:25176 <> x:252
+binder 25178:25178 <> y:253
+R25185:25188 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25183:25183 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R25182:25182 Stdlib.QArith.QArith_base <> x:252 var
+R25184:25184 Stdlib.QArith.QArith_base <> y:253 var
+R25190:25191 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R25189:25189 Stdlib.QArith.QArith_base <> x:252 var
+R25192:25192 Stdlib.QArith.QArith_base <> y:253 var
+R25208:25219 Stdlib.ZArith.BinInt Z lt_le_incl thm
+prf 25332:25337 <> Qgt_lt
+R25353:25353 Stdlib.QArith.QArith_base <> Q rec
+binder 25347:25347 <> p:254
+binder 25349:25349 <> q:255
+R25361:25364 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25357:25359 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R25360:25360 Stdlib.QArith.QArith_base <> q:255 var
+R25356:25356 Stdlib.QArith.QArith_base <> p:254 var
+R25366:25368 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R25365:25365 Stdlib.QArith.QArith_base <> q:255 var
+R25369:25369 Stdlib.QArith.QArith_base <> p:254 var
+prf 25419:25424 <> Qlt_gt
+R25440:25440 Stdlib.QArith.QArith_base <> Q rec
+binder 25434:25434 <> p:256
+binder 25436:25436 <> q:257
+R25448:25451 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25444:25446 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R25443:25443 Stdlib.QArith.QArith_base <> p:256 var
+R25447:25447 Stdlib.QArith.QArith_base <> q:257 var
+R25453:25455 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R25456:25456 Stdlib.QArith.QArith_base <> p:256 var
+R25452:25452 Stdlib.QArith.QArith_base <> q:257 var
+prf 25506:25511 <> Qge_le
+R25527:25527 Stdlib.QArith.QArith_base <> Q rec
+binder 25521:25521 <> p:258
+binder 25523:25523 <> q:259
+R25536:25539 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25531:25534 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>='_x not
+R25535:25535 Stdlib.QArith.QArith_base <> q:259 var
+R25530:25530 Stdlib.QArith.QArith_base <> p:258 var
+R25541:25544 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R25540:25540 Stdlib.QArith.QArith_base <> q:259 var
+R25545:25545 Stdlib.QArith.QArith_base <> p:258 var
+prf 25595:25600 <> Qle_ge
+R25616:25616 Stdlib.QArith.QArith_base <> Q rec
+binder 25610:25610 <> p:260
+binder 25612:25612 <> q:261
+R25625:25628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25620:25623 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R25619:25619 Stdlib.QArith.QArith_base <> p:260 var
+R25624:25624 Stdlib.QArith.QArith_base <> q:261 var
+R25630:25633 Stdlib.QArith.QArith_base <> ::Q_scope:x_'>='_x not
+R25634:25634 Stdlib.QArith.QArith_base <> p:260 var
+R25629:25629 Stdlib.QArith.QArith_base <> q:261 var
+prf 25684:25695 <> Qle_lt_trans
+binder 25706:25706 <> x:262
+binder 25708:25708 <> y:263
+binder 25710:25710 <> z:264
+R25717:25720 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25714:25715 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R25713:25713 Stdlib.QArith.QArith_base <> x:262 var
+R25716:25716 Stdlib.QArith.QArith_base <> y:263 var
+R25724:25727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25722:25722 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R25721:25721 Stdlib.QArith.QArith_base <> y:263 var
+R25723:25723 Stdlib.QArith.QArith_base <> z:264 var
+R25729:25729 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R25728:25728 Stdlib.QArith.QArith_base <> x:262 var
+R25730:25730 Stdlib.QArith.QArith_base <> z:264 var
+R25749:25751 Stdlib.QArith.QArith_base <> Qle def
+R25754:25756 Stdlib.QArith.QArith_base <> Qlt def
+R25865:25868 Corelib.Numbers.BinNums <> Zpos constr
+R25839:25857 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R25924:25926 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R25914:25916 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R25917:25920 Corelib.Numbers.BinNums <> Zpos constr
+R25927:25930 Corelib.Numbers.BinNums <> Zpos constr
+R25892:25904 Stdlib.ZArith.BinInt Z le_lt_trans thm
+R25949:25962 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R25975:25993 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+R26008:26021 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R26025:26038 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R26059:26077 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 26115:26126 <> Qlt_le_trans
+binder 26137:26137 <> x:265
+binder 26139:26139 <> y:266
+binder 26141:26141 <> z:267
+R26147:26150 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26145:26145 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26144:26144 Stdlib.QArith.QArith_base <> x:265 var
+R26146:26146 Stdlib.QArith.QArith_base <> y:266 var
+R26155:26158 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26152:26153 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R26151:26151 Stdlib.QArith.QArith_base <> y:266 var
+R26154:26154 Stdlib.QArith.QArith_base <> z:267 var
+R26160:26160 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26159:26159 Stdlib.QArith.QArith_base <> x:265 var
+R26161:26161 Stdlib.QArith.QArith_base <> z:267 var
+R26180:26182 Stdlib.QArith.QArith_base <> Qle def
+R26185:26187 Stdlib.QArith.QArith_base <> Qlt def
+R26296:26299 Corelib.Numbers.BinNums <> Zpos constr
+R26270:26288 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R26355:26357 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26345:26347 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26348:26351 Corelib.Numbers.BinNums <> Zpos constr
+R26358:26361 Corelib.Numbers.BinNums <> Zpos constr
+R26323:26335 Stdlib.ZArith.BinInt Z lt_le_trans thm
+R26380:26393 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R26406:26424 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R26439:26452 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R26456:26469 Stdlib.ZArith.BinInt Z mul_shuffle0 thm
+R26490:26508 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 26546:26554 <> Qlt_trans
+binder 26565:26565 <> x:268
+binder 26567:26567 <> y:269
+binder 26569:26569 <> z:270
+R26575:26578 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26573:26573 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26572:26572 Stdlib.QArith.QArith_base <> x:268 var
+R26574:26574 Stdlib.QArith.QArith_base <> y:269 var
+R26582:26585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26580:26580 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26579:26579 Stdlib.QArith.QArith_base <> y:269 var
+R26581:26581 Stdlib.QArith.QArith_base <> z:270 var
+R26587:26587 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26586:26586 Stdlib.QArith.QArith_base <> x:268 var
+R26588:26588 Stdlib.QArith.QArith_base <> z:270 var
+R26626:26637 Stdlib.QArith.QArith_base <> Qle_lt_trans thm
+R26661:26671 Stdlib.QArith.QArith_base <> Qlt_le_weak thm
+prf 26720:26729 <> Qnot_lt_le
+binder 26731:26731 <> x:271
+binder 26733:26733 <> y:272
+R26744:26747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26737:26738 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R26740:26742 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26739:26739 Stdlib.QArith.QArith_base <> x:271 var
+R26743:26743 Stdlib.QArith.QArith_base <> y:272 var
+R26749:26752 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R26748:26748 Stdlib.QArith.QArith_base <> y:272 var
+R26753:26753 Stdlib.QArith.QArith_base <> x:271 var
+R26769:26776 Stdlib.ZArith.BinInt Z nlt_ge thm
+prf 26791:26800 <> Qnot_le_lt
+binder 26802:26802 <> x:273
+binder 26804:26804 <> y:274
+R26816:26819 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26808:26809 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R26811:26814 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R26810:26810 Stdlib.QArith.QArith_base <> x:273 var
+R26815:26815 Stdlib.QArith.QArith_base <> y:274 var
+R26821:26823 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26820:26820 Stdlib.QArith.QArith_base <> y:274 var
+R26824:26824 Stdlib.QArith.QArith_base <> x:273 var
+R26840:26847 Stdlib.ZArith.BinInt Z nle_gt thm
+prf 26862:26871 <> Qlt_not_le
+binder 26873:26873 <> x:275
+binder 26875:26875 <> y:276
+R26884:26887 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26880:26882 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26879:26879 Stdlib.QArith.QArith_base <> x:275 var
+R26883:26883 Stdlib.QArith.QArith_base <> y:276 var
+R26888:26889 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R26891:26894 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R26890:26890 Stdlib.QArith.QArith_base <> y:276 var
+R26895:26895 Stdlib.QArith.QArith_base <> x:275 var
+R26911:26918 Stdlib.ZArith.BinInt Z lt_nge thm
+prf 26933:26942 <> Qle_not_lt
+binder 26944:26944 <> x:277
+binder 26946:26946 <> y:278
+R26956:26959 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26951:26954 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R26950:26950 Stdlib.QArith.QArith_base <> x:277 var
+R26955:26955 Stdlib.QArith.QArith_base <> y:278 var
+R26960:26961 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R26963:26965 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R26962:26962 Stdlib.QArith.QArith_base <> y:278 var
+R26966:26966 Stdlib.QArith.QArith_base <> x:277 var
+R26982:26989 Stdlib.ZArith.BinInt Z le_ngt thm
+prf 27004:27015 <> Qle_lt_or_eq
+binder 27026:27026 <> x:279
+binder 27028:27028 <> y:280
+R27035:27038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27032:27033 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R27031:27031 Stdlib.QArith.QArith_base <> x:279 var
+R27034:27034 Stdlib.QArith.QArith_base <> y:280 var
+R27042:27045 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27040:27040 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R27039:27039 Stdlib.QArith.QArith_base <> x:279 var
+R27041:27041 Stdlib.QArith.QArith_base <> y:280 var
+R27047:27048 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R27046:27046 Stdlib.QArith.QArith_base <> x:279 var
+R27049:27049 Stdlib.QArith.QArith_base <> y:280 var
+R27068:27070 Stdlib.QArith.QArith_base <> Qle def
+R27073:27075 Stdlib.QArith.QArith_base <> Qlt def
+R27078:27080 Stdlib.QArith.QArith_base <> Qeq def
+R27101:27113 Stdlib.ZArith.BinInt Z lt_eq_cases thm
+prf 27301:27305 <> Q_dec
+binder 27316:27316 <> x:281
+binder 27318:27318 <> y:282
+R27334:27337 Corelib.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R27342:27342 Corelib.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R27321:27321 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27325:27329 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27333:27333 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27323:27323 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R27322:27322 Stdlib.QArith.QArith_base <> x:281 var
+R27324:27324 Stdlib.QArith.QArith_base <> y:282 var
+R27331:27331 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R27330:27330 Stdlib.QArith.QArith_base <> y:282 var
+R27332:27332 Stdlib.QArith.QArith_base <> x:281 var
+R27339:27340 Stdlib.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R27338:27338 Stdlib.QArith.QArith_base <> x:281 var
+R27341:27341 Stdlib.QArith.QArith_base <> y:282 var
+R27361:27363 Stdlib.QArith.QArith_base <> Qlt def
+R27366:27368 Stdlib.QArith.QArith_base <> Qle def
+R27371:27373 Stdlib.QArith.QArith_base <> Qeq def
+R27397:27413 Stdlib.ZArith.ZArith_dec <> Z_dec' thm
+R27422:27424 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R27416:27419 Stdlib.QArith.QArith_base <> Qnum proj
+R27425:27428 Stdlib.QArith.QArith_base <> QDen abbrev
+R27440:27442 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R27434:27437 Stdlib.QArith.QArith_base <> Qnum proj
+R27443:27446 Stdlib.QArith.QArith_base <> QDen abbrev
+prf 27469:27478 <> Qlt_le_dec
+binder 27489:27489 <> x:283
+binder 27491:27491 <> y:284
+R27494:27494 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27498:27502 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27507:27507 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27496:27496 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R27495:27495 Stdlib.QArith.QArith_base <> x:283 var
+R27497:27497 Stdlib.QArith.QArith_base <> y:284 var
+R27504:27505 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R27503:27503 Stdlib.QArith.QArith_base <> y:284 var
+R27506:27506 Stdlib.QArith.QArith_base <> x:283 var
+R27526:27528 Stdlib.QArith.QArith_base <> Qlt def
+R27531:27533 Stdlib.QArith.QArith_base <> Qle def
+R27557:27578 Stdlib.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R27605:27607 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R27599:27602 Stdlib.QArith.QArith_base <> Qnum proj
+R27608:27611 Stdlib.QArith.QArith_base <> QDen abbrev
+R27587:27589 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R27581:27584 Stdlib.QArith.QArith_base <> Qnum proj
+R27590:27593 Stdlib.QArith.QArith_base <> QDen abbrev
+prf 27634:27645 <> Qarchimedean
+R27660:27660 Stdlib.QArith.QArith_base <> Q rec
+binder 27656:27656 <> q:285
+R27663:27664 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R27666:27668 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R27677:27679 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R27695:27696 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R27669:27676 Corelib.Numbers.BinNums <> positive ind
+binder 27665:27665 <> p:286
+R27681:27683 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R27680:27680 Stdlib.QArith.QArith_base <> q:285 var
+R27691:27693 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R27684:27688 Stdlib.ZArith.BinInt Z pos abbrev
+R27690:27690 Stdlib.QArith.QArith_base <> p:286 var
+R27772:27773 Corelib.Numbers.BinNums <> xH constr
+R27802:27802 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R27823:27835 Stdlib.ZArith.BinInt Z lt_le_trans thm
+R27840:27844 Stdlib.ZArith.BinInt Z pos abbrev
+R27848:27848 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R27876:27886 Stdlib.PArith.BinPos Pos mul_1_r thm
+R27901:27916 Stdlib.ZArith.BinInt Z lt_succ_diag_r thm
+R27940:27952 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R27973:27981 Stdlib.ZArith.BinInt <> Zmult_1_r abbrev
+R27984:27988 Stdlib.ZArith.BinInt Z pos abbrev
+R27992:27992 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R28005:28024 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg thm
+R28065:28073 Stdlib.ZArith.BinInt <> Zmult_1_r abbrev
+R28082:28090 Stdlib.ZArith.BinInt Z le_refl thm
+R28129:28144 Stdlib.ZArith.BinInt Pos2Z pos_le_pos thm
+R28147:28156 Stdlib.PArith.BinPos Pos le_1_l thm
+R28170:28171 Corelib.Numbers.BinNums <> xH constr
+prf 28251:28264 <> Qopp_le_compat
+binder 28275:28275 <> p:287
+binder 28277:28277 <> q:288
+R28284:28287 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28281:28282 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R28280:28280 Stdlib.QArith.QArith_base <> p:287 var
+R28283:28283 Stdlib.QArith.QArith_base <> q:288 var
+R28290:28293 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R28288:28288 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28289:28289 Stdlib.QArith.QArith_base <> q:288 var
+R28294:28294 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28295:28295 Stdlib.QArith.QArith_base <> p:287 var
+R28338:28340 Stdlib.QArith.QArith_base <> Qle def
+R28343:28345 Stdlib.QArith.QArith_base <> Qlt def
+R28370:28380 Stdlib.ZArith.BinInt Z mul_opp_l thm
+R28386:28398 Stdlib.ZArith.BinInt Z opp_le_mono thm
+prf 28413:28426 <> Qopp_lt_compat
+R28442:28442 Stdlib.QArith.QArith_base <> Q rec
+binder 28436:28436 <> p:289
+binder 28438:28438 <> q:290
+R28450:28453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28446:28448 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R28445:28445 Stdlib.QArith.QArith_base <> p:289 var
+R28449:28449 Stdlib.QArith.QArith_base <> q:290 var
+R28457:28459 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R28454:28455 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28456:28456 Stdlib.QArith.QArith_base <> q:290 var
+R28460:28461 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28462:28462 Stdlib.QArith.QArith_base <> p:289 var
+R28505:28507 Stdlib.QArith.QArith_base <> Qle def
+R28510:28512 Stdlib.QArith.QArith_base <> Qlt def
+R28537:28547 Stdlib.ZArith.BinInt Z mul_opp_l thm
+R28553:28565 Stdlib.ZArith.BinInt Z opp_lt_mono thm
+prf 28644:28656 <> Qle_minus_iff
+binder 28667:28667 <> p:291
+binder 28669:28669 <> q:292
+R28678:28682 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R28673:28676 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R28672:28672 Stdlib.QArith.QArith_base <> p:291 var
+R28677:28677 Stdlib.QArith.QArith_base <> q:292 var
+R28684:28687 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R28689:28689 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R28688:28688 Stdlib.QArith.QArith_base <> q:292 var
+R28690:28690 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28691:28691 Stdlib.QArith.QArith_base <> p:291 var
+R28734:28736 Stdlib.QArith.QArith_base <> Qle def
+R28756:28764 Stdlib.ZArith.BinInt Z mul_1_r thm
+R28767:28777 Stdlib.ZArith.BinInt Z mul_opp_l thm
+R28783:28799 Stdlib.ZArith.BinInt Z le_sub_le_add_r thm
+R28802:28817 Stdlib.ZArith.BinInt Z opp_involutive thm
+prf 28847:28859 <> Qlt_minus_iff
+binder 28870:28870 <> p:293
+binder 28872:28872 <> q:294
+R28880:28884 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R28876:28878 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R28875:28875 Stdlib.QArith.QArith_base <> p:293 var
+R28879:28879 Stdlib.QArith.QArith_base <> q:294 var
+R28886:28888 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R28890:28890 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R28889:28889 Stdlib.QArith.QArith_base <> q:294 var
+R28891:28891 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28892:28892 Stdlib.QArith.QArith_base <> p:293 var
+R28935:28937 Stdlib.QArith.QArith_base <> Qlt def
+R28957:28965 Stdlib.ZArith.BinInt Z mul_1_r thm
+R28968:28978 Stdlib.ZArith.BinInt Z mul_opp_l thm
+R28984:29000 Stdlib.ZArith.BinInt Z lt_sub_lt_add_r thm
+R29003:29018 Stdlib.ZArith.BinInt Z opp_involutive thm
+prf 29048:29062 <> Qplus_le_compat
+binder 29075:29075 <> x:295
+binder 29077:29077 <> y:296
+binder 29079:29079 <> z:297
+binder 29081:29081 <> t:298
+R29088:29091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29085:29086 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29084:29084 Stdlib.QArith.QArith_base <> x:295 var
+R29087:29087 Stdlib.QArith.QArith_base <> y:296 var
+R29096:29099 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29093:29094 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29092:29092 Stdlib.QArith.QArith_base <> z:297 var
+R29095:29095 Stdlib.QArith.QArith_base <> t:298 var
+R29103:29106 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29101:29101 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29100:29100 Stdlib.QArith.QArith_base <> x:295 var
+R29102:29102 Stdlib.QArith.QArith_base <> z:297 var
+R29108:29108 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29107:29107 Stdlib.QArith.QArith_base <> y:296 var
+R29109:29109 Stdlib.QArith.QArith_base <> t:298 var
+R29128:29132 Stdlib.QArith.QArith_base <> Qplus def
+R29135:29137 Stdlib.QArith.QArith_base <> Qle def
+R29262:29265 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R29305:29314 Stdlib.ZArith.BinInt Z add_comm thm
+R29325:29337 Stdlib.ZArith.BinInt Z add_le_mono thm
+R29365:29368 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R29396:29399 Corelib.Numbers.BinNums <> Zpos constr
+R29406:29409 Corelib.Numbers.BinNums <> Zpos constr
+R29439:29460 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R29463:29477 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+R29505:29508 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R29536:29539 Corelib.Numbers.BinNums <> Zpos constr
+R29546:29549 Corelib.Numbers.BinNums <> Zpos constr
+R29579:29600 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R29603:29617 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+prf 29657:29674 <> Qplus_lt_le_compat
+binder 29687:29687 <> x:299
+binder 29689:29689 <> y:300
+binder 29691:29691 <> z:301
+binder 29693:29693 <> t:302
+R29699:29702 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29697:29697 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R29696:29696 Stdlib.QArith.QArith_base <> x:299 var
+R29698:29698 Stdlib.QArith.QArith_base <> y:300 var
+R29707:29710 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29704:29705 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29703:29703 Stdlib.QArith.QArith_base <> z:301 var
+R29706:29706 Stdlib.QArith.QArith_base <> t:302 var
+R29714:29716 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R29712:29712 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29711:29711 Stdlib.QArith.QArith_base <> x:299 var
+R29713:29713 Stdlib.QArith.QArith_base <> z:301 var
+R29718:29718 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29717:29717 Stdlib.QArith.QArith_base <> y:300 var
+R29719:29719 Stdlib.QArith.QArith_base <> t:302 var
+R29738:29742 Stdlib.QArith.QArith_base <> Qplus def
+R29745:29747 Stdlib.QArith.QArith_base <> Qle def
+R29750:29752 Stdlib.QArith.QArith_base <> Qlt def
+R29877:29879 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R29919:29928 Stdlib.ZArith.BinInt Z add_comm thm
+R29939:29954 Stdlib.ZArith.BinInt Z add_le_lt_mono thm
+R29982:29985 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R30013:30016 Corelib.Numbers.BinNums <> Zpos constr
+R30023:30026 Corelib.Numbers.BinNums <> Zpos constr
+R30056:30077 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R30080:30094 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+R30122:30124 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R30152:30155 Corelib.Numbers.BinNums <> Zpos constr
+R30162:30165 Corelib.Numbers.BinNums <> Zpos constr
+R30196:30214 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 30264:30273 <> Qplus_le_l
+R30283:30283 Stdlib.QArith.QArith_base <> Q rec
+binder 30276:30276 <> x:303
+binder 30278:30278 <> y:304
+binder 30280:30280 <> z:305
+R30301:30305 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30292:30295 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R30288:30290 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30287:30287 Stdlib.QArith.QArith_base <> x:303 var
+R30291:30291 Stdlib.QArith.QArith_base <> z:305 var
+R30297:30299 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30296:30296 Stdlib.QArith.QArith_base <> y:304 var
+R30300:30300 Stdlib.QArith.QArith_base <> z:305 var
+R30307:30310 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R30306:30306 Stdlib.QArith.QArith_base <> x:303 var
+R30311:30311 Stdlib.QArith.QArith_base <> y:304 var
+R30352:30360 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R30370:30378 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R30388:30398 Stdlib.QArith.QArith_base <> Qplus_opp_r thm
+R30420:30430 Stdlib.QArith.QArith_base <> Qplus_assoc thm
+R30442:30456 Stdlib.QArith.QArith_base <> Qplus_le_compat thm
+R30481:30495 Stdlib.QArith.QArith_base <> Qplus_le_compat thm
+prf 30523:30532 <> Qplus_le_r
+R30542:30542 Stdlib.QArith.QArith_base <> Q rec
+binder 30535:30535 <> x:306
+binder 30537:30537 <> y:307
+binder 30539:30539 <> z:308
+R30560:30564 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30551:30554 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R30547:30549 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30546:30546 Stdlib.QArith.QArith_base <> z:308 var
+R30550:30550 Stdlib.QArith.QArith_base <> x:306 var
+R30556:30558 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30555:30555 Stdlib.QArith.QArith_base <> z:308 var
+R30559:30559 Stdlib.QArith.QArith_base <> y:307 var
+R30566:30569 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R30565:30565 Stdlib.QArith.QArith_base <> x:306 var
+R30570:30570 Stdlib.QArith.QArith_base <> y:307 var
+R30590:30599 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R30608:30617 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R30632:30641 Stdlib.QArith.QArith_base <> Qplus_le_l thm
+prf 30656:30665 <> Qplus_lt_l
+R30675:30675 Stdlib.QArith.QArith_base <> Q rec
+binder 30668:30668 <> x:309
+binder 30670:30670 <> y:310
+binder 30672:30672 <> z:311
+R30692:30696 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30684:30686 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R30680:30682 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30679:30679 Stdlib.QArith.QArith_base <> x:309 var
+R30683:30683 Stdlib.QArith.QArith_base <> z:311 var
+R30688:30690 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30687:30687 Stdlib.QArith.QArith_base <> y:310 var
+R30691:30691 Stdlib.QArith.QArith_base <> z:311 var
+R30698:30700 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R30697:30697 Stdlib.QArith.QArith_base <> x:309 var
+R30701:30701 Stdlib.QArith.QArith_base <> y:310 var
+R30742:30750 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R30760:30768 Stdlib.QArith.QArith_base <> Qplus_0_r thm
+R30778:30788 Stdlib.QArith.QArith_base <> Qplus_opp_r thm
+R30810:30820 Stdlib.QArith.QArith_base <> Qplus_assoc thm
+R30832:30849 Stdlib.QArith.QArith_base <> Qplus_lt_le_compat thm
+R30874:30891 Stdlib.QArith.QArith_base <> Qplus_lt_le_compat thm
+prf 30919:30928 <> Qplus_lt_r
+R30938:30938 Stdlib.QArith.QArith_base <> Q rec
+binder 30931:30931 <> x:312
+binder 30933:30933 <> y:313
+binder 30935:30935 <> z:314
+R30955:30959 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30947:30949 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R30943:30945 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30942:30942 Stdlib.QArith.QArith_base <> z:314 var
+R30946:30946 Stdlib.QArith.QArith_base <> x:312 var
+R30951:30953 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R30950:30950 Stdlib.QArith.QArith_base <> z:314 var
+R30954:30954 Stdlib.QArith.QArith_base <> y:313 var
+R30961:30963 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R30960:30960 Stdlib.QArith.QArith_base <> x:312 var
+R30964:30964 Stdlib.QArith.QArith_base <> y:313 var
+R30984:30993 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R31002:31011 Stdlib.QArith.QArith_base <> Qplus_comm thm
+R31026:31035 Stdlib.QArith.QArith_base <> Qplus_lt_l thm
+prf 31050:31064 <> Qplus_lt_compat
+R31085:31085 Stdlib.QArith.QArith_base <> Q rec
+binder 31075:31075 <> x:315
+binder 31077:31077 <> y:316
+binder 31079:31079 <> z:317
+binder 31081:31081 <> t:318
+R31095:31098 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31091:31093 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R31090:31090 Stdlib.QArith.QArith_base <> x:315 var
+R31094:31094 Stdlib.QArith.QArith_base <> y:316 var
+R31104:31107 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31100:31102 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R31099:31099 Stdlib.QArith.QArith_base <> z:317 var
+R31103:31103 Stdlib.QArith.QArith_base <> t:318 var
+R31113:31115 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R31109:31111 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R31108:31108 Stdlib.QArith.QArith_base <> x:315 var
+R31112:31112 Stdlib.QArith.QArith_base <> z:317 var
+R31117:31119 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R31116:31116 Stdlib.QArith.QArith_base <> y:316 var
+R31120:31120 Stdlib.QArith.QArith_base <> t:318 var
+R31162:31179 Stdlib.QArith.QArith_base <> Qplus_lt_le_compat thm
+R31208:31215 Stdlib.QArith.QArith_base <> Qle_lteq thm
+prf 31303:31319 <> Qmult_le_compat_r
+binder 31330:31330 <> x:319
+binder 31332:31332 <> y:320
+binder 31334:31334 <> z:321
+R31343:31346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31338:31341 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R31337:31337 Stdlib.QArith.QArith_base <> x:319 var
+R31342:31342 Stdlib.QArith.QArith_base <> y:320 var
+R31353:31356 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31348:31351 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R31352:31352 Stdlib.QArith.QArith_base <> z:321 var
+R31360:31363 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R31358:31358 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R31357:31357 Stdlib.QArith.QArith_base <> x:319 var
+R31359:31359 Stdlib.QArith.QArith_base <> z:321 var
+R31365:31365 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R31364:31364 Stdlib.QArith.QArith_base <> y:320 var
+R31366:31366 Stdlib.QArith.QArith_base <> z:321 var
+R31417:31419 Stdlib.QArith.QArith_base <> Qle def
+R31422:31424 Stdlib.QArith.QArith_base <> Qlt def
+R31466:31474 Stdlib.ZArith.BinInt Z mul_1_r thm
+R31509:31522 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R31526:31539 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R31554:31575 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R31596:31614 Stdlib.ZArith.BinInt Z mul_nonneg_nonneg thm
+prf 31652:31670 <> Qmult_lt_0_le_reg_r
+binder 31681:31681 <> x:322
+binder 31683:31683 <> y:323
+binder 31685:31685 <> z:324
+R31693:31697 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31689:31691 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R31692:31692 Stdlib.QArith.QArith_base <> z:324 var
+R31708:31711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31701:31704 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R31699:31699 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R31698:31698 Stdlib.QArith.QArith_base <> x:322 var
+R31700:31700 Stdlib.QArith.QArith_base <> z:324 var
+R31706:31706 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R31705:31705 Stdlib.QArith.QArith_base <> y:323 var
+R31707:31707 Stdlib.QArith.QArith_base <> z:324 var
+R31713:31716 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R31712:31712 Stdlib.QArith.QArith_base <> x:322 var
+R31717:31717 Stdlib.QArith.QArith_base <> y:323 var
+R31768:31770 Stdlib.QArith.QArith_base <> Qle def
+R31773:31775 Stdlib.QArith.QArith_base <> Qlt def
+R31831:31844 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R31848:31861 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R31878:31886 Stdlib.ZArith.BinInt Z mul_1_r thm
+R31913:31931 Stdlib.ZArith.BinInt Z mul_le_mono_pos_r thm
+R31957:31969 Stdlib.ZArith.BinInt Z mul_pos_pos thm
+prf 32013:32022 <> Qmult_le_r
+R32032:32032 Stdlib.QArith.QArith_base <> Q rec
+binder 32025:32025 <> x:325
+binder 32027:32027 <> y:326
+binder 32029:32029 <> z:327
+R32041:32045 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32067:32067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32037:32039 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32040:32040 Stdlib.QArith.QArith_base <> z:327 var
+R32056:32060 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32049:32052 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R32047:32047 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32046:32046 Stdlib.QArith.QArith_base <> x:325 var
+R32048:32048 Stdlib.QArith.QArith_base <> z:327 var
+R32054:32054 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32053:32053 Stdlib.QArith.QArith_base <> y:326 var
+R32055:32055 Stdlib.QArith.QArith_base <> z:327 var
+R32062:32065 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R32061:32061 Stdlib.QArith.QArith_base <> x:325 var
+R32066:32066 Stdlib.QArith.QArith_base <> y:326 var
+R32105:32123 Stdlib.QArith.QArith_base <> Qmult_lt_0_le_reg_r thm
+R32142:32158 Stdlib.QArith.QArith_base <> Qmult_le_compat_r thm
+prf 32191:32200 <> Qmult_le_l
+R32210:32210 Stdlib.QArith.QArith_base <> Q rec
+binder 32203:32203 <> x:328
+binder 32205:32205 <> y:329
+binder 32207:32207 <> z:330
+R32219:32223 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32245:32245 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32215:32217 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32218:32218 Stdlib.QArith.QArith_base <> z:330 var
+R32234:32238 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32227:32230 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R32225:32225 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32224:32224 Stdlib.QArith.QArith_base <> z:330 var
+R32226:32226 Stdlib.QArith.QArith_base <> x:328 var
+R32232:32232 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32231:32231 Stdlib.QArith.QArith_base <> z:330 var
+R32233:32233 Stdlib.QArith.QArith_base <> y:329 var
+R32240:32243 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R32239:32239 Stdlib.QArith.QArith_base <> x:328 var
+R32244:32244 Stdlib.QArith.QArith_base <> y:329 var
+R32265:32274 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R32283:32292 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R32307:32316 Stdlib.QArith.QArith_base <> Qmult_le_r thm
+prf 32331:32347 <> Qmult_lt_compat_r
+binder 32358:32358 <> x:331
+binder 32360:32360 <> y:332
+binder 32362:32362 <> z:333
+R32370:32374 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32366:32368 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32369:32369 Stdlib.QArith.QArith_base <> z:333 var
+R32380:32383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32376:32378 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32375:32375 Stdlib.QArith.QArith_base <> x:331 var
+R32379:32379 Stdlib.QArith.QArith_base <> y:332 var
+R32387:32389 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32385:32385 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32384:32384 Stdlib.QArith.QArith_base <> x:331 var
+R32386:32386 Stdlib.QArith.QArith_base <> z:333 var
+R32391:32391 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32390:32390 Stdlib.QArith.QArith_base <> y:332 var
+R32392:32392 Stdlib.QArith.QArith_base <> z:333 var
+R32443:32445 Stdlib.QArith.QArith_base <> Qle def
+R32448:32450 Stdlib.QArith.QArith_base <> Qlt def
+R32492:32500 Stdlib.ZArith.BinInt Z mul_1_r thm
+R32535:32548 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R32552:32565 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R32580:32598 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R32627:32639 Stdlib.ZArith.BinInt Z mul_pos_pos thm
+prf 32683:32692 <> Qmult_lt_r
+binder 32702:32702 <> x:334
+binder 32704:32704 <> y:335
+binder 32706:32706 <> z:336
+R32714:32718 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32738:32738 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32710:32712 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32713:32713 Stdlib.QArith.QArith_base <> z:336 var
+R32728:32732 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32722:32724 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32720:32720 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32719:32719 Stdlib.QArith.QArith_base <> x:334 var
+R32721:32721 Stdlib.QArith.QArith_base <> z:336 var
+R32726:32726 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R32725:32725 Stdlib.QArith.QArith_base <> y:335 var
+R32727:32727 Stdlib.QArith.QArith_base <> z:336 var
+R32734:32736 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R32733:32733 Stdlib.QArith.QArith_base <> x:334 var
+R32737:32737 Stdlib.QArith.QArith_base <> y:335 var
+R32810:32812 Stdlib.QArith.QArith_base <> Qle def
+R32815:32817 Stdlib.QArith.QArith_base <> Qlt def
+R32849:32862 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R32866:32879 Stdlib.ZArith.BinInt Z mul_shuffle1 thm
+R32895:32903 Stdlib.ZArith.BinInt Z mul_1_r thm
+R32928:32946 Stdlib.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R32978:32990 Stdlib.ZArith.BinInt Z mul_pos_pos thm
+prf 33029:33038 <> Qmult_lt_l
+R33048:33048 Stdlib.QArith.QArith_base <> Q rec
+binder 33041:33041 <> x:337
+binder 33043:33043 <> y:338
+binder 33045:33045 <> z:339
+R33057:33061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33081:33081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33053:33055 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33056:33056 Stdlib.QArith.QArith_base <> z:339 var
+R33071:33075 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R33065:33067 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33063:33063 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R33062:33062 Stdlib.QArith.QArith_base <> z:339 var
+R33064:33064 Stdlib.QArith.QArith_base <> x:337 var
+R33069:33069 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R33068:33068 Stdlib.QArith.QArith_base <> z:339 var
+R33070:33070 Stdlib.QArith.QArith_base <> y:338 var
+R33077:33079 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33076:33076 Stdlib.QArith.QArith_base <> x:337 var
+R33080:33080 Stdlib.QArith.QArith_base <> y:338 var
+R33101:33110 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R33119:33128 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R33143:33152 Stdlib.QArith.QArith_base <> Qmult_lt_r thm
+prf 33167:33183 <> Qmult_le_0_compat
+binder 33194:33194 <> a:340
+binder 33196:33196 <> b:341
+R33205:33208 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33200:33203 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33204:33204 Stdlib.QArith.QArith_base <> a:340 var
+R33215:33218 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33210:33213 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33214:33214 Stdlib.QArith.QArith_base <> b:341 var
+R33220:33223 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33225:33225 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R33224:33224 Stdlib.QArith.QArith_base <> a:340 var
+R33226:33226 Stdlib.QArith.QArith_base <> b:341 var
+R33261:33263 Stdlib.QArith.QArith_base <> Qle def
+R33291:33299 Stdlib.ZArith.BinInt Z mul_1_r thm
+R33318:33336 Stdlib.ZArith.BinInt Z mul_nonneg_nonneg thm
+prf 33351:33367 <> Qmult_lt_0_compat
+R33384:33384 Stdlib.QArith.QArith_base <> Q rec
+binder 33378:33378 <> a:342
+binder 33380:33380 <> b:343
+R33392:33395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33388:33390 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33391:33391 Stdlib.QArith.QArith_base <> a:342 var
+R33401:33404 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33397:33399 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33400:33400 Stdlib.QArith.QArith_base <> b:343 var
+R33406:33408 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33410:33412 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R33409:33409 Stdlib.QArith.QArith_base <> a:342 var
+R33413:33413 Stdlib.QArith.QArith_base <> b:343 var
+R33466:33468 Stdlib.QArith.QArith_base <> Qlt def
+R33471:33475 Stdlib.QArith.QArith_base <> Qmult def
+R33478:33493 Stdlib.QArith.QArith_base <> Qnum proj
+R33496:33511 Stdlib.QArith.QArith_base <> Qden proj
+R33529:33541 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R33554:33562 Stdlib.ZArith.BinInt Z mul_0_l thm
+R33565:33573 Stdlib.ZArith.BinInt Z mul_1_r thm
+R33589:33601 Stdlib.ZArith.BinInt Z mul_pos_pos thm
+prf 33628:33644 <> Qmult_le_1_compat
+R33660:33660 Stdlib.QArith.QArith_base <> Q rec
+binder 33654:33654 <> a:344
+binder 33656:33656 <> b:345
+R33669:33672 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33664:33667 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33668:33668 Stdlib.QArith.QArith_base <> a:344 var
+R33679:33682 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33674:33677 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33678:33678 Stdlib.QArith.QArith_base <> b:345 var
+R33684:33687 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R33689:33691 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R33688:33688 Stdlib.QArith.QArith_base <> a:344 var
+R33692:33692 Stdlib.QArith.QArith_base <> b:345 var
+R33745:33747 Stdlib.QArith.QArith_base <> Qle def
+R33750:33754 Stdlib.QArith.QArith_base <> Qmult def
+R33757:33772 Stdlib.QArith.QArith_base <> Qnum proj
+R33775:33790 Stdlib.QArith.QArith_base <> Qden proj
+R33808:33820 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R33833:33841 Stdlib.ZArith.BinInt Z mul_1_l thm
+R33844:33852 Stdlib.ZArith.BinInt Z mul_1_r thm
+R33868:33887 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg thm
+R33922:33936 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+prf 33951:33967 <> Qmult_lt_1_compat
+R33983:33983 Stdlib.QArith.QArith_base <> Q rec
+binder 33977:33977 <> a:346
+binder 33979:33979 <> b:347
+R33991:33994 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33987:33989 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33990:33990 Stdlib.QArith.QArith_base <> a:346 var
+R34000:34003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33996:33998 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R33999:33999 Stdlib.QArith.QArith_base <> b:347 var
+R34005:34007 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R34009:34011 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R34008:34008 Stdlib.QArith.QArith_base <> a:346 var
+R34012:34012 Stdlib.QArith.QArith_base <> b:347 var
+R34065:34067 Stdlib.QArith.QArith_base <> Qlt def
+R34070:34074 Stdlib.QArith.QArith_base <> Qmult def
+R34077:34092 Stdlib.QArith.QArith_base <> Qnum proj
+R34095:34110 Stdlib.QArith.QArith_base <> Qden proj
+R34128:34140 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R34153:34161 Stdlib.ZArith.BinInt Z mul_1_l thm
+R34164:34172 Stdlib.ZArith.BinInt Z mul_1_r thm
+R34188:34207 Stdlib.ZArith.BinInt Z mul_lt_mono_nonneg thm
+R34242:34256 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+prf 34271:34292 <> Qmult_lt_compat_nonneg
+R34312:34312 Stdlib.QArith.QArith_base <> Q rec
+binder 34302:34302 <> x:348
+binder 34304:34304 <> y:349
+binder 34306:34306 <> z:350
+binder 34308:34308 <> t:351
+R34325:34328 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34316:34319 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<'_x not
+R34321:34323 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<'_x not
+R34320:34320 Stdlib.QArith.QArith_base <> x:348 var
+R34324:34324 Stdlib.QArith.QArith_base <> y:349 var
+R34339:34342 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34330:34333 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<'_x not
+R34335:34337 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<'_x not
+R34334:34334 Stdlib.QArith.QArith_base <> z:350 var
+R34338:34338 Stdlib.QArith.QArith_base <> t:351 var
+R34348:34350 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R34344:34346 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R34343:34343 Stdlib.QArith.QArith_base <> x:348 var
+R34347:34347 Stdlib.QArith.QArith_base <> z:350 var
+R34352:34354 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R34351:34351 Stdlib.QArith.QArith_base <> y:349 var
+R34355:34355 Stdlib.QArith.QArith_base <> t:351 var
+R34444:34448 Stdlib.QArith.QArith_base <> Qmult def
+R34451:34453 Stdlib.QArith.QArith_base <> Qlt def
+R34456:34458 Stdlib.QArith.QArith_base <> Qle def
+R34461:34464 Stdlib.QArith.QArith_base <> Qnum proj
+R34467:34470 Stdlib.QArith.QArith_base <> Qden proj
+R34488:34496 Stdlib.ZArith.BinInt Z mul_0_l thm
+R34498:34506 Stdlib.ZArith.BinInt Z mul_1_r thm
+R34540:34552 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R34580:34583 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34603:34603 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34575:34577 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34592:34594 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34584:34588 Stdlib.ZArith.BinInt Z pos abbrev
+R34595:34599 Stdlib.ZArith.BinInt Z pos abbrev
+R34614:34614 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34628:34632 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34646:34646 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34617:34619 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34620:34624 Stdlib.ZArith.BinInt Z pos abbrev
+R34635:34637 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34638:34642 Stdlib.ZArith.BinInt Z pos abbrev
+R34685:34688 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34708:34708 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34680:34682 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34697:34699 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34689:34693 Stdlib.ZArith.BinInt Z pos abbrev
+R34700:34704 Stdlib.ZArith.BinInt Z pos abbrev
+R34719:34719 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34733:34737 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34751:34751 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34722:34724 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34725:34729 Stdlib.ZArith.BinInt Z pos abbrev
+R34740:34742 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R34743:34747 Stdlib.ZArith.BinInt Z pos abbrev
+R34773:34792 Stdlib.ZArith.BinInt Z mul_lt_mono_nonneg thm
+R34835:34843 Stdlib.ZArith.BinInt Z mul_0_l thm
+R34855:34874 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg thm
+R34929:34943 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+prf 34959:34980 <> Qmult_le_lt_compat_pos
+R35000:35000 Stdlib.QArith.QArith_base <> Q rec
+binder 34990:34990 <> x:352
+binder 34992:34992 <> y:353
+binder 34994:34994 <> z:354
+binder 34996:34996 <> t:355
+R35013:35016 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35004:35006 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x_'<='_x not
+R35008:35011 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x_'<='_x not
+R35007:35007 Stdlib.QArith.QArith_base <> x:352 var
+R35012:35012 Stdlib.QArith.QArith_base <> y:353 var
+R35026:35029 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35018:35020 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x_'<'_x not
+R35022:35024 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x_'<'_x not
+R35021:35021 Stdlib.QArith.QArith_base <> z:354 var
+R35025:35025 Stdlib.QArith.QArith_base <> t:355 var
+R35035:35037 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R35031:35033 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R35030:35030 Stdlib.QArith.QArith_base <> x:352 var
+R35034:35034 Stdlib.QArith.QArith_base <> z:354 var
+R35039:35041 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R35038:35038 Stdlib.QArith.QArith_base <> y:353 var
+R35042:35042 Stdlib.QArith.QArith_base <> t:355 var
+R35131:35135 Stdlib.QArith.QArith_base <> Qmult def
+R35138:35140 Stdlib.QArith.QArith_base <> Qlt def
+R35143:35145 Stdlib.QArith.QArith_base <> Qle def
+R35148:35151 Stdlib.QArith.QArith_base <> Qnum proj
+R35154:35157 Stdlib.QArith.QArith_base <> Qden proj
+R35175:35183 Stdlib.ZArith.BinInt Z mul_0_l thm
+R35185:35193 Stdlib.ZArith.BinInt Z mul_1_r thm
+R35227:35239 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R35267:35270 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35290:35290 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35262:35264 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35279:35281 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35271:35275 Stdlib.ZArith.BinInt Z pos abbrev
+R35282:35286 Stdlib.ZArith.BinInt Z pos abbrev
+R35301:35301 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35315:35319 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35333:35333 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35304:35306 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35307:35311 Stdlib.ZArith.BinInt Z pos abbrev
+R35322:35324 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35325:35329 Stdlib.ZArith.BinInt Z pos abbrev
+R35372:35375 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35395:35395 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35367:35369 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35384:35386 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35376:35380 Stdlib.ZArith.BinInt Z pos abbrev
+R35387:35391 Stdlib.ZArith.BinInt Z pos abbrev
+R35406:35406 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35420:35424 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35438:35438 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35409:35411 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35412:35416 Stdlib.ZArith.BinInt Z pos abbrev
+R35427:35429 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35430:35434 Stdlib.ZArith.BinInt Z pos abbrev
+R35460:35482 Stdlib.ZArith.Zorder <> Zmult_lt_compat2 thm
+R35532:35540 Stdlib.ZArith.BinInt Z mul_0_l thm
+R35552:35571 Stdlib.ZArith.BinInt Z mul_lt_mono_nonneg thm
+R35626:35637 Stdlib.ZArith.BinInt Pos2Z is_pos thm
+prf 35653:35674 <> Qmult_le_compat_nonneg
+R35694:35694 Stdlib.QArith.QArith_base <> Q rec
+binder 35684:35684 <> x:356
+binder 35686:35686 <> y:357
+binder 35688:35688 <> z:358
+binder 35690:35690 <> t:359
+R35708:35711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35698:35701 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<='_x not
+R35703:35706 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<='_x not
+R35702:35702 Stdlib.QArith.QArith_base <> x:356 var
+R35707:35707 Stdlib.QArith.QArith_base <> y:357 var
+R35723:35726 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35713:35716 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<='_x not
+R35718:35721 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x_'<='_x not
+R35717:35717 Stdlib.QArith.QArith_base <> z:358 var
+R35722:35722 Stdlib.QArith.QArith_base <> t:359 var
+R35732:35735 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R35728:35730 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R35727:35727 Stdlib.QArith.QArith_base <> x:356 var
+R35731:35731 Stdlib.QArith.QArith_base <> z:358 var
+R35737:35739 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R35736:35736 Stdlib.QArith.QArith_base <> y:357 var
+R35740:35740 Stdlib.QArith.QArith_base <> t:359 var
+R35829:35833 Stdlib.QArith.QArith_base <> Qmult def
+R35836:35838 Stdlib.QArith.QArith_base <> Qlt def
+R35841:35843 Stdlib.QArith.QArith_base <> Qle def
+R35846:35849 Stdlib.QArith.QArith_base <> Qnum proj
+R35852:35855 Stdlib.QArith.QArith_base <> Qden proj
+R35873:35881 Stdlib.ZArith.BinInt Z mul_0_l thm
+R35883:35891 Stdlib.ZArith.BinInt Z mul_1_r thm
+R35925:35937 Stdlib.ZArith.BinInt Pos2Z inj_mul thm
+R35965:35968 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35988:35988 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35960:35962 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35977:35979 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R35969:35973 Stdlib.ZArith.BinInt Z pos abbrev
+R35980:35984 Stdlib.ZArith.BinInt Z pos abbrev
+R35999:35999 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36013:36017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36031:36031 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36002:36004 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36005:36009 Stdlib.ZArith.BinInt Z pos abbrev
+R36020:36022 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36023:36027 Stdlib.ZArith.BinInt Z pos abbrev
+R36070:36073 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36093:36093 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36065:36067 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36082:36084 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36074:36078 Stdlib.ZArith.BinInt Z pos abbrev
+R36085:36089 Stdlib.ZArith.BinInt Z pos abbrev
+R36104:36104 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36118:36122 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36136:36136 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36107:36109 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36110:36114 Stdlib.ZArith.BinInt Z pos abbrev
+R36125:36127 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R36128:36132 Stdlib.ZArith.BinInt Z pos abbrev
+R36158:36177 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg thm
+R36220:36228 Stdlib.ZArith.BinInt Z mul_0_l thm
+R36240:36259 Stdlib.ZArith.BinInt Z mul_le_mono_nonneg thm
+R36314:36328 Stdlib.ZArith.BinInt Pos2Z is_nonneg thm
+prf 36406:36421 <> Qinv_le_0_compat
+binder 36432:36432 <> a:360
+R36441:36444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36436:36439 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36440:36440 Stdlib.QArith.QArith_base <> a:360 var
+R36446:36449 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36450:36450 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R36451:36451 Stdlib.QArith.QArith_base <> a:360 var
+prf 36507:36521 <> Qle_shift_div_l
+binder 36532:36532 <> a:361
+binder 36534:36534 <> b:362
+binder 36536:36536 <> c:363
+R36545:36548 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36541:36543 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R36544:36544 Stdlib.QArith.QArith_base <> c:363 var
+R36557:36560 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36552:36555 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36550:36550 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36549:36549 Stdlib.QArith.QArith_base <> a:361 var
+R36551:36551 Stdlib.QArith.QArith_base <> c:363 var
+R36556:36556 Stdlib.QArith.QArith_base <> b:362 var
+R36562:36565 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36561:36561 Stdlib.QArith.QArith_base <> a:361 var
+R36567:36567 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R36566:36566 Stdlib.QArith.QArith_base <> b:362 var
+R36568:36568 Stdlib.QArith.QArith_base <> c:363 var
+R36603:36621 Stdlib.QArith.QArith_base <> Qmult_lt_0_le_reg_r thm
+R36668:36668 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36666:36666 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R36679:36680 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36684:36684 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36682:36682 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R36696:36705 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R36718:36728 Stdlib.QArith.QArith_base <> Qmult_div_r thm
+prf 36774:36788 <> Qle_shift_inv_l
+binder 36799:36799 <> a:364
+binder 36801:36801 <> c:365
+R36810:36813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36806:36808 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R36809:36809 Stdlib.QArith.QArith_base <> c:365 var
+R36822:36825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36817:36820 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36815:36815 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36814:36814 Stdlib.QArith.QArith_base <> a:364 var
+R36816:36816 Stdlib.QArith.QArith_base <> c:365 var
+R36827:36830 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36826:36826 Stdlib.QArith.QArith_base <> a:364 var
+R36831:36831 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R36832:36832 Stdlib.QArith.QArith_base <> c:365 var
+R36875:36875 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R36886:36886 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R36887:36887 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R36911:36919 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R36932:36935 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R36937:36937 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R36948:36962 Stdlib.QArith.QArith_base <> Qle_shift_div_l thm
+prf 36989:37003 <> Qle_shift_div_r
+binder 37014:37014 <> a:366
+binder 37016:37016 <> b:367
+binder 37018:37018 <> c:368
+R37027:37030 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37023:37025 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37026:37026 Stdlib.QArith.QArith_base <> b:367 var
+R37039:37042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37032:37035 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R37031:37031 Stdlib.QArith.QArith_base <> a:366 var
+R37037:37037 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37036:37036 Stdlib.QArith.QArith_base <> c:368 var
+R37038:37038 Stdlib.QArith.QArith_base <> b:367 var
+R37046:37049 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R37044:37044 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37043:37043 Stdlib.QArith.QArith_base <> a:366 var
+R37045:37045 Stdlib.QArith.QArith_base <> b:367 var
+R37050:37050 Stdlib.QArith.QArith_base <> c:368 var
+R37085:37103 Stdlib.QArith.QArith_base <> Qmult_lt_0_le_reg_r thm
+R37148:37148 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37146:37146 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37159:37160 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37164:37164 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37162:37162 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37176:37185 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R37198:37208 Stdlib.QArith.QArith_base <> Qmult_div_r thm
+prf 37254:37268 <> Qle_shift_inv_r
+binder 37279:37279 <> b:369
+binder 37281:37281 <> c:370
+R37290:37293 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37286:37288 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37289:37289 Stdlib.QArith.QArith_base <> b:369 var
+R37302:37305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37295:37298 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R37300:37300 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37299:37299 Stdlib.QArith.QArith_base <> c:370 var
+R37301:37301 Stdlib.QArith.QArith_base <> b:369 var
+R37308:37311 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R37306:37306 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37307:37307 Stdlib.QArith.QArith_base <> b:369 var
+R37312:37312 Stdlib.QArith.QArith_base <> c:370 var
+R37355:37355 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37366:37366 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37367:37367 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37391:37399 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R37414:37417 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R37412:37412 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37428:37442 Stdlib.QArith.QArith_base <> Qle_shift_div_r thm
+prf 37469:37484 <> Qinv_lt_0_compat
+binder 37495:37495 <> a:371
+R37503:37506 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37499:37501 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37502:37502 Stdlib.QArith.QArith_base <> a:371 var
+R37508:37510 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37511:37511 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37512:37512 Stdlib.QArith.QArith_base <> a:371 var
+prf 37568:37582 <> Qlt_shift_div_l
+binder 37593:37593 <> a:372
+binder 37595:37595 <> b:373
+binder 37597:37597 <> c:374
+R37606:37609 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37602:37604 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37605:37605 Stdlib.QArith.QArith_base <> c:374 var
+R37617:37620 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37613:37615 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37611:37611 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37610:37610 Stdlib.QArith.QArith_base <> a:372 var
+R37612:37612 Stdlib.QArith.QArith_base <> c:374 var
+R37616:37616 Stdlib.QArith.QArith_base <> b:373 var
+R37622:37624 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37621:37621 Stdlib.QArith.QArith_base <> a:372 var
+R37626:37626 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37625:37625 Stdlib.QArith.QArith_base <> b:373 var
+R37627:37627 Stdlib.QArith.QArith_base <> c:374 var
+R37662:37671 Stdlib.QArith.QArith_base <> Qnot_le_lt thm
+R37692:37701 Stdlib.QArith.QArith_base <> Qlt_not_le thm
+R37743:37743 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37717:37735 Stdlib.QArith.QArith_base <> Qmult_lt_0_le_reg_r thm
+R37756:37771 Stdlib.QArith.QArith_base <> Qinv_lt_0_compat thm
+R37809:37809 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R37807:37807 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37832:37842 Stdlib.QArith.QArith_base <> Qdiv_mult_l thm
+prf 37886:37900 <> Qlt_shift_inv_l
+binder 37911:37911 <> a:375
+binder 37913:37913 <> c:376
+R37922:37925 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37918:37920 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37921:37921 Stdlib.QArith.QArith_base <> c:376 var
+R37933:37936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37929:37931 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37927:37927 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37926:37926 Stdlib.QArith.QArith_base <> a:375 var
+R37928:37928 Stdlib.QArith.QArith_base <> c:376 var
+R37938:37940 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R37937:37937 Stdlib.QArith.QArith_base <> a:375 var
+R37941:37941 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37942:37942 Stdlib.QArith.QArith_base <> c:376 var
+R37985:37985 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R37996:37996 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R37997:37997 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38021:38029 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R38042:38044 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38046:38046 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R38057:38071 Stdlib.QArith.QArith_base <> Qlt_shift_div_l thm
+prf 38098:38112 <> Qlt_shift_div_r
+binder 38123:38123 <> a:377
+binder 38125:38125 <> b:378
+binder 38127:38127 <> c:379
+R38136:38139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38132:38134 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38135:38135 Stdlib.QArith.QArith_base <> b:378 var
+R38147:38150 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38141:38143 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38140:38140 Stdlib.QArith.QArith_base <> a:377 var
+R38145:38145 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R38144:38144 Stdlib.QArith.QArith_base <> c:379 var
+R38146:38146 Stdlib.QArith.QArith_base <> b:378 var
+R38154:38156 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38152:38152 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R38151:38151 Stdlib.QArith.QArith_base <> a:377 var
+R38153:38153 Stdlib.QArith.QArith_base <> b:378 var
+R38157:38157 Stdlib.QArith.QArith_base <> c:379 var
+R38192:38201 Stdlib.QArith.QArith_base <> Qnot_le_lt thm
+R38222:38231 Stdlib.QArith.QArith_base <> Qlt_not_le thm
+R38273:38273 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38247:38265 Stdlib.QArith.QArith_base <> Qmult_lt_0_le_reg_r thm
+R38286:38301 Stdlib.QArith.QArith_base <> Qinv_lt_0_compat thm
+R38339:38339 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R38337:38337 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R38362:38372 Stdlib.QArith.QArith_base <> Qdiv_mult_l thm
+prf 38416:38430 <> Qlt_shift_inv_r
+binder 38441:38441 <> b:380
+binder 38443:38443 <> c:381
+R38452:38455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38448:38450 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38451:38451 Stdlib.QArith.QArith_base <> b:380 var
+R38463:38466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38457:38459 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38461:38461 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R38460:38460 Stdlib.QArith.QArith_base <> c:381 var
+R38462:38462 Stdlib.QArith.QArith_base <> b:380 var
+R38469:38471 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38467:38467 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38468:38468 Stdlib.QArith.QArith_base <> b:380 var
+R38472:38472 Stdlib.QArith.QArith_base <> c:381 var
+R38515:38515 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38526:38526 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R38527:38527 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38551:38559 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R38574:38576 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38572:38572 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R38587:38601 Stdlib.QArith.QArith_base <> Qlt_shift_div_r thm
+prf 38628:38644 <> Qinv_lt_contravar
+R38661:38661 Stdlib.QArith.QArith_base <> Q rec
+binder 38655:38655 <> a:382
+binder 38657:38657 <> b:383
+R38673:38676 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38669:38671 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38672:38672 Stdlib.QArith.QArith_base <> a:382 var
+R38682:38686 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38704:38704 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38678:38680 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38681:38681 Stdlib.QArith.QArith_base <> b:383 var
+R38692:38696 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R38688:38690 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38687:38687 Stdlib.QArith.QArith_base <> a:382 var
+R38691:38691 Stdlib.QArith.QArith_base <> b:383 var
+R38699:38701 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R38697:38697 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38698:38698 Stdlib.QArith.QArith_base <> b:383 var
+R38702:38702 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R38703:38703 Stdlib.QArith.QArith_base <> a:382 var
+R38765:38773 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R38782:38796 Stdlib.QArith.QArith_base <> Qlt_shift_div_r thm
+R38833:38843 Stdlib.QArith.QArith_base <> Qmult_inv_r thm
+R38865:38874 Stdlib.QArith.QArith_base <> Qmult_comm thm
+R38891:38900 Stdlib.QArith.QArith_base <> Qmult_lt_l thm
+R38920:38935 Stdlib.QArith.QArith_base <> Qinv_lt_0_compat thm
+R39013:39022 Stdlib.QArith.QArith_base <> Qlt_irrefl thm
+R39056:39070 Stdlib.QArith.QArith_base <> Qinv_involutive thm
+R39088:39096 Stdlib.QArith.QArith_base <> Qmult_1_l thm
+R39099:39100 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R39101:39102 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R39118:39132 Stdlib.QArith.QArith_base <> Qlt_shift_div_l thm
+R39147:39162 Stdlib.QArith.QArith_base <> Qinv_lt_0_compat thm
+R39193:39203 Stdlib.QArith.QArith_base <> Qmult_inv_r thm
+R39223:39232 Stdlib.QArith.QArith_base <> Qmult_lt_l thm
+R39320:39329 Stdlib.QArith.QArith_base <> Qlt_irrefl thm
+def 39392:39406 <> Qpower_positive
+R39411:39414 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39410:39410 Stdlib.QArith.QArith_base <> Q rec
+R39423:39426 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39415:39422 Corelib.Numbers.BinNums <> positive ind
+R39427:39427 Stdlib.QArith.QArith_base <> Q rec
+R39433:39439 Stdlib.setoid_ring.Ring_theory <> pow_pos def
+R39441:39445 Stdlib.QArith.QArith_base <> Qmult def
+inst 39468:39487 <> Qpower_positive_comp
+R39491:39496 Corelib.Classes.Morphisms <> Proper class
+R39515:39529 Stdlib.QArith.QArith_base <> Qpower_positive def
+R39502:39504 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R39499:39501 Stdlib.QArith.QArith_base <> Qeq def
+R39507:39509 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R39505:39506 Corelib.Init.Logic <> eq ind
+R39510:39512 Stdlib.QArith.QArith_base <> Qeq def
+R39597:39611 Stdlib.QArith.QArith_base <> Qpower_positive def
+def 39715:39720 <> Qpower
+R39725:39725 Stdlib.QArith.QArith_base <> Q rec
+binder 39723:39723 <> q:384
+R39731:39731 Corelib.Numbers.BinNums <> Z ind
+binder 39729:39729 <> z:385
+R39747:39747 Stdlib.QArith.QArith_base <> z:385 var
+R39762:39765 Corelib.Numbers.BinNums <> Zpos constr
+R39772:39786 Stdlib.QArith.QArith_base <> Qpower_positive def
+R39788:39788 Stdlib.QArith.QArith_base <> q:384 var
+R39800:39801 Corelib.Numbers.BinNums <> Z0 constr
+R39816:39819 Corelib.Numbers.BinNums <> Zneg constr
+R39826:39826 Stdlib.QArith.QArith_base <> ::Q_scope:'/'_x not
+R39827:39841 Stdlib.QArith.QArith_base <> Qpower_positive def
+R39843:39843 Stdlib.QArith.QArith_base <> q:384 var
+R39880:39885 Stdlib.QArith.QArith_base <> Qpower def
+not 39866:39866 <> ::Q_scope:x_'^'_x
+inst 39958:39968 <> Qpower_comp
+R39972:39977 Corelib.Classes.Morphisms <> Proper class
+R39996:40001 Stdlib.QArith.QArith_base <> Qpower def
+R39983:39985 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R39980:39982 Stdlib.QArith.QArith_base <> Qeq def
+R39988:39990 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R39986:39987 Corelib.Init.Logic <> eq ind
+R39991:39993 Stdlib.QArith.QArith_base <> Qeq def

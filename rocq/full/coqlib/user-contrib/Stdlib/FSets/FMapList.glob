@@ -1,0 +1,3107 @@
+DIGEST 13f63c8d5ed4055832b37175d2171821
+FStdlib.FSets.FMapList
+R903:915 Stdlib.FSets.FMapInterface <> <> lib
+R981:991 Stdlib.Structures.OrderedType OrderedType <> modtype
+mod 974:976 <> Raw
+R1016:1031 Stdlib.Structures.OrderedType OrderedTypeFacts <> mod
+R1033:1033 Stdlib.FSets.FMapList X <> mod
+mod 1010:1011 <> Raw.MX
+R1010:1011 Stdlib.FSets.FMapList Raw.MX <> mod
+R1056:1069 Stdlib.Structures.OrderedType KeyOrderedType <> mod
+R1071:1071 Stdlib.FSets.FMapList X <> mod
+mod 1050:1051 <> Raw.PX
+R1050:1051 Stdlib.FSets.FMapList Raw.PX <> mod
+def 1086:1088 Raw key
+R1093:1095 Stdlib.FSets.FMapList X t defax
+def 1109:1109 Raw t
+binder 1112:1114 <> elt:1
+R1125:1128 Corelib.Init.Datatypes <> list ind
+R1134:1136 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1131:1133 Stdlib.FSets.FMapList X t defax
+R1137:1139 Stdlib.FSets.FMapList <> elt:1 var
+sec 1152:1154 Raw Elt
+var 1166:1168 Raw.Elt elt
+abbrev 1188:1190 Raw eqk
+R1196:1198 Stdlib.FSets.FMapList Raw eqk def
+R1206:1208 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1222:1225 Raw eqke
+R1231:1234 Stdlib.FSets.FMapList Raw eqke def
+R1242:1244 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1258:1260 Raw ltk
+R1266:1268 Stdlib.FSets.FMapList Raw ltk def
+R1276:1278 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1292:1297 Raw MapsTo
+R1303:1308 Stdlib.FSets.FMapList Raw MapsTo def
+R1316:1318 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1332:1333 Raw In
+R1339:1340 Stdlib.FSets.FMapList Raw In def
+R1348:1350 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1364:1367 Raw Sort
+R1373:1376 Stdlib.Sorting.Sorted <> sort abbrev
+R1378:1380 Stdlib.FSets.FMapList Raw ltk abbrev
+abbrev 1393:1395 Raw Inf
+R1401:1407 Stdlib.Sorting.Sorted <> lelistA abbrev
+R1410:1412 Stdlib.FSets.FMapList Raw ltk abbrev
+def 1447:1451 Raw empty
+R1455:1455 Stdlib.FSets.FMapList Raw t def
+R1457:1459 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R1464:1466 Corelib.Init.Datatypes <> nil constr
+def 1481:1485 Raw Empty
+binder 1487:1487 <> m:4
+R1504:1506 Stdlib.FSets.FMapList Raw key def
+binder 1500:1500 <> a:5
+R1511:1513 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 1509:1509 <> e:6
+R1518:1519 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1520:1525 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R1531:1531 Stdlib.FSets.FMapList <> m:4 var
+R1529:1529 Stdlib.FSets.FMapList <> e:6 var
+R1527:1527 Stdlib.FSets.FMapList <> a:5 var
+prf 1541:1547 Raw empty_1
+R1551:1555 Stdlib.FSets.FMapList Raw Empty def
+R1557:1561 Stdlib.FSets.FMapList Raw empty def
+R1579:1583 Stdlib.FSets.FMapList Raw Empty def
+R1585:1589 Stdlib.FSets.FMapList Raw empty def
+prf 1683:1694 Raw empty_sorted
+R1698:1701 Stdlib.FSets.FMapList Raw Sort abbrev
+R1703:1707 Stdlib.FSets.FMapList Raw empty def
+R1725:1729 Stdlib.FSets.FMapList Raw empty def
+def 1776:1783 Raw is_empty
+R1790:1790 Stdlib.FSets.FMapList Raw t def
+R1792:1794 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 1786:1786 <> l:7
+R1799:1802 Corelib.Init.Datatypes <> bool ind
+R1810:1810 Stdlib.FSets.FMapList <> l:7 var
+R1827:1831 Corelib.Init.Datatypes <> false constr
+R1817:1820 Corelib.Init.Datatypes <> true constr
+prf 1841:1850 Raw is_empty_1
+binder 1860:1860 <> m:8
+R1870:1873 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1863:1867 Stdlib.FSets.FMapList Raw Empty def
+R1869:1869 Stdlib.FSets.FMapList <> m:8 var
+R1884:1886 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1874:1881 Stdlib.FSets.FMapList Raw is_empty def
+R1883:1883 Stdlib.FSets.FMapList <> m:8 var
+R1887:1890 Corelib.Init.Datatypes <> true constr
+R1908:1912 Stdlib.FSets.FMapList Raw Empty def
+R1915:1923 Stdlib.FSets.FMapList Raw MapsTo def
+R1984:1986 Stdlib.Sorting.SetoidList <> InA ind
+R2007:2010 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2001:2001 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2003:2004 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2006:2006 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1993:1993 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1995:1996 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1998:1998 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1988:1991 Stdlib.FSets.FMapList Raw eqke abbrev
+prf 2052:2061 Raw is_empty_2
+binder 2072:2072 <> m:9
+R2092:2095 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2085:2087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2075:2082 Stdlib.FSets.FMapList Raw is_empty def
+R2084:2084 Stdlib.FSets.FMapList <> m:9 var
+R2088:2091 Corelib.Init.Datatypes <> true constr
+R2096:2100 Stdlib.FSets.FMapList Raw Empty def
+R2102:2102 Stdlib.FSets.FMapList <> m:9 var
+def 2201:2203 Raw mem
+R2210:2212 Stdlib.FSets.FMapList Raw key def
+binder 2206:2206 <> k:10
+R2220:2220 Stdlib.FSets.FMapList Raw t def
+R2222:2224 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 2216:2216 <> s:11
+R2240:2243 Corelib.Init.Datatypes <> bool ind
+R2255:2255 Stdlib.FSets.FMapList <> s:11 var
+R2266:2268 Corelib.Init.Datatypes <> nil constr
+R2273:2277 Corelib.Init.Datatypes <> false constr
+R2289:2292 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2283:2283 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2286:2286 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2288:2288 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2309:2317 Stdlib.FSets.FMapList X compare defax
+R2319:2319 Stdlib.FSets.FMapList <> k:10 var
+R2337:2338 Stdlib.Structures.OrderedType <> LT constr
+R2345:2349 Corelib.Init.Datatypes <> false constr
+R2359:2360 Stdlib.Structures.OrderedType <> EQ constr
+R2367:2370 Corelib.Init.Datatypes <> true constr
+R2380:2381 Stdlib.Structures.OrderedType <> GT constr
+R2388:2390 Stdlib.FSets.FMapList <> mem:12 def
+R2392:2392 Stdlib.FSets.FMapList <> k:10 var
+prf 2418:2422 Raw mem_1
+binder 2433:2433 <> m:14
+R2439:2442 Stdlib.FSets.FMapList Raw Sort abbrev
+R2444:2444 Stdlib.FSets.FMapList <> m:14 var
+binder 2436:2437 <> Hm:15
+binder 2447:2447 <> x:16
+R2456:2459 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2450:2451 Stdlib.FSets.FMapList Raw In abbrev
+R2455:2455 Stdlib.FSets.FMapList <> m:14 var
+R2453:2453 Stdlib.FSets.FMapList <> x:16 var
+R2467:2469 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2460:2462 Stdlib.FSets.FMapList Raw mem def
+R2466:2466 Stdlib.FSets.FMapList <> m:14 var
+R2464:2464 Stdlib.FSets.FMapList <> x:16 var
+R2470:2473 Corelib.Init.Datatypes <> true constr
+R2592:2597 Stdlib.FSets.FMapList Raw In_inv thm
+R2641:2655 Stdlib.FSets.FMapList Raw elim_compare_eq thm
+R2711:2719 Stdlib.FSets.FMapList X compare defax
+R2792:2793 Stdlib.FSets.FMapList Raw In abbrev
+R2804:2807 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2798:2798 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2800:2801 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2803:2803 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2880:2893 Stdlib.FSets.FMapList Raw Sort_Inf_NotIn thm
+prf 2971:2975 Raw mem_2
+binder 2986:2986 <> m:17
+R2992:2995 Stdlib.FSets.FMapList Raw Sort abbrev
+R2997:2997 Stdlib.FSets.FMapList <> m:17 var
+binder 2989:2990 <> Hm:18
+binder 3000:3000 <> x:19
+R3017:3020 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3010:3012 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3003:3005 Stdlib.FSets.FMapList Raw mem def
+R3009:3009 Stdlib.FSets.FMapList <> m:17 var
+R3007:3007 Stdlib.FSets.FMapList <> x:19 var
+R3013:3016 Corelib.Init.Datatypes <> true constr
+R3021:3022 Stdlib.FSets.FMapList Raw In abbrev
+R3026:3026 Stdlib.FSets.FMapList <> m:17 var
+R3024:3024 Stdlib.FSets.FMapList <> x:19 var
+R3128:3136 Stdlib.FSets.FMapList X compare defax
+R3179:3189 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R3288:3298 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+def 3339:3342 Raw find
+R3347:3349 Stdlib.FSets.FMapList Raw key def
+binder 3345:3345 <> k:20
+R3356:3356 Stdlib.FSets.FMapList Raw t def
+R3358:3360 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 3353:3353 <> s:21
+R3376:3381 Corelib.Init.Datatypes <> option ind
+R3383:3385 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R3397:3397 Stdlib.FSets.FMapList <> s:21 var
+R3408:3410 Corelib.Init.Datatypes <> nil constr
+R3415:3418 Corelib.Init.Datatypes <> None constr
+R3430:3431 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3424:3424 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3427:3427 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3429:3429 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3457 Stdlib.FSets.FMapList X compare defax
+R3459:3459 Stdlib.FSets.FMapList <> k:20 var
+R3477:3478 Stdlib.Structures.OrderedType <> LT constr
+R3485:3488 Corelib.Init.Datatypes <> None constr
+R3498:3499 Stdlib.Structures.OrderedType <> EQ constr
+R3506:3509 Corelib.Init.Datatypes <> Some constr
+R3521:3522 Stdlib.Structures.OrderedType <> GT constr
+R3529:3532 Stdlib.FSets.FMapList <> find:22 def
+R3534:3534 Stdlib.FSets.FMapList <> k:20 var
+prf 3561:3566 Raw find_2
+binder 3578:3578 <> m:24
+binder 3580:3580 <> x:25
+binder 3582:3582 <> e:26
+R3602:3605 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3593:3595 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3585:3588 Stdlib.FSets.FMapList Raw find def
+R3592:3592 Stdlib.FSets.FMapList <> m:24 var
+R3590:3590 Stdlib.FSets.FMapList <> x:25 var
+R3596:3599 Corelib.Init.Datatypes <> Some constr
+R3601:3601 Stdlib.FSets.FMapList <> e:26 var
+R3606:3611 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R3617:3617 Stdlib.FSets.FMapList <> m:24 var
+R3615:3615 Stdlib.FSets.FMapList <> e:26 var
+R3613:3613 Stdlib.FSets.FMapList <> x:25 var
+R3704:3712 Stdlib.FSets.FMapList X compare defax
+R3741:3751 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R3791:3801 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+prf 3833:3838 Raw find_1
+binder 3850:3850 <> m:27
+R3856:3859 Stdlib.FSets.FMapList Raw Sort abbrev
+R3861:3861 Stdlib.FSets.FMapList <> m:27 var
+binder 3853:3854 <> Hm:28
+binder 3864:3864 <> x:29
+binder 3866:3866 <> e:30
+R3881:3884 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3869:3874 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R3880:3880 Stdlib.FSets.FMapList <> m:27 var
+R3878:3878 Stdlib.FSets.FMapList <> e:30 var
+R3876:3876 Stdlib.FSets.FMapList <> x:29 var
+R3893:3895 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3885:3888 Stdlib.FSets.FMapList Raw find def
+R3892:3892 Stdlib.FSets.FMapList <> m:27 var
+R3890:3890 Stdlib.FSets.FMapList <> x:29 var
+R3896:3899 Corelib.Init.Datatypes <> Some constr
+R3901:3901 Stdlib.FSets.FMapList <> e:30 var
+R4012:4019 Stdlib.Sorting.SetoidList <> InA_cons thm
+R4059:4062 Stdlib.FSets.FMapList Raw eqke def
+R4095:4109 Stdlib.FSets.FMapList Raw elim_compare_eq thm
+R4195:4209 Stdlib.FSets.FMapList Raw elim_compare_gt thm
+R4270:4281 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R4300:4310 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+def 4353:4355 Raw add
+R4362:4364 Stdlib.FSets.FMapList Raw key def
+binder 4358:4358 <> k:31
+R4372:4374 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 4368:4368 <> x:32
+R4382:4382 Stdlib.FSets.FMapList Raw t def
+R4384:4386 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 4378:4378 <> s:33
+R4402:4402 Stdlib.FSets.FMapList Raw t def
+R4404:4406 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R4418:4418 Stdlib.FSets.FMapList <> s:33 var
+R4429:4431 Corelib.Init.Datatypes <> nil constr
+R4441:4444 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4436:4436 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4438:4438 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4440:4440 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4437:4437 Stdlib.FSets.FMapList <> k:31 var
+R4439:4439 Stdlib.FSets.FMapList <> x:32 var
+R4445:4447 Corelib.Init.Datatypes <> nil constr
+R4459:4462 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4453:4453 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4456:4456 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4458:4458 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4479:4487 Stdlib.FSets.FMapList X compare defax
+R4489:4489 Stdlib.FSets.FMapList <> k:31 var
+R4507:4508 Stdlib.Structures.OrderedType <> LT constr
+R4520:4521 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4515:4515 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4517:4517 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4519:4519 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4516:4516 Stdlib.FSets.FMapList <> k:31 var
+R4518:4518 Stdlib.FSets.FMapList <> x:32 var
+R4522:4522 Stdlib.FSets.FMapList <> s:33 var
+R4532:4533 Stdlib.Structures.OrderedType <> EQ constr
+R4545:4546 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4540:4540 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4542:4542 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4544:4544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4541:4541 Stdlib.FSets.FMapList <> k:31 var
+R4543:4543 Stdlib.FSets.FMapList <> x:32 var
+R4557:4558 Stdlib.Structures.OrderedType <> GT constr
+R4571:4574 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4565:4565 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4568:4568 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4570:4570 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4575:4577 Stdlib.FSets.FMapList <> add:34 def
+R4581:4581 Stdlib.FSets.FMapList <> x:32 var
+R4579:4579 Stdlib.FSets.FMapList <> k:31 var
+prf 4607:4611 Raw add_1
+binder 4622:4622 <> m:36
+binder 4624:4624 <> x:37
+binder 4626:4626 <> y:38
+binder 4628:4628 <> e:39
+R4639:4642 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4631:4634 Stdlib.FSets.FMapList X eq defax
+R4638:4638 Stdlib.FSets.FMapList <> y:38 var
+R4636:4636 Stdlib.FSets.FMapList <> x:37 var
+R4643:4648 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R4655:4657 Stdlib.FSets.FMapList Raw add def
+R4663:4663 Stdlib.FSets.FMapList <> m:36 var
+R4661:4661 Stdlib.FSets.FMapList <> e:39 var
+R4659:4659 Stdlib.FSets.FMapList <> x:37 var
+R4652:4652 Stdlib.FSets.FMapList <> e:39 var
+R4650:4650 Stdlib.FSets.FMapList <> y:38 var
+R4720:4728 Stdlib.FSets.FMapList Raw MapsTo def
+R4815:4823 Stdlib.FSets.FMapList X compare defax
+prf 4862:4866 Raw add_2
+binder 4877:4877 <> m:40
+binder 4879:4879 <> x:41
+binder 4881:4881 <> y:42
+binder 4883:4883 <> e:43
+binder 4885:4886 <> e':44
+R4901:4904 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4891:4892 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4893:4896 Stdlib.FSets.FMapList X eq defax
+R4900:4900 Stdlib.FSets.FMapList <> y:42 var
+R4898:4898 Stdlib.FSets.FMapList <> x:41 var
+R4917:4920 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4905:4910 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R4916:4916 Stdlib.FSets.FMapList <> m:40 var
+R4914:4914 Stdlib.FSets.FMapList <> e:43 var
+R4912:4912 Stdlib.FSets.FMapList <> y:42 var
+R4921:4926 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R4933:4935 Stdlib.FSets.FMapList Raw add def
+R4942:4942 Stdlib.FSets.FMapList <> m:40 var
+R4939:4940 Stdlib.FSets.FMapList <> e':44 var
+R4937:4937 Stdlib.FSets.FMapList <> x:41 var
+R4930:4930 Stdlib.FSets.FMapList <> e:43 var
+R4928:4928 Stdlib.FSets.FMapList <> y:42 var
+R4984:4992 Stdlib.FSets.FMapList Raw MapsTo def
+R5059:5067 Stdlib.FSets.FMapList X compare defax
+R5132:5142 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R5151:5158 Stdlib.Sorting.SetoidList <> InA_cons thm
+R5238:5245 Stdlib.Sorting.SetoidList <> InA_cons thm
+R5306:5316 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+prf 5345:5349 Raw add_3
+binder 5360:5360 <> m:45
+binder 5362:5362 <> x:46
+binder 5364:5364 <> y:47
+binder 5366:5366 <> e:48
+binder 5368:5369 <> e':49
+R5384:5387 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5374:5375 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5376:5379 Stdlib.FSets.FMapList X eq defax
+R5383:5383 Stdlib.FSets.FMapList <> y:47 var
+R5381:5381 Stdlib.FSets.FMapList <> x:46 var
+R5411:5414 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5388:5393 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R5400:5402 Stdlib.FSets.FMapList Raw add def
+R5409:5409 Stdlib.FSets.FMapList <> m:45 var
+R5406:5407 Stdlib.FSets.FMapList <> e':49 var
+R5404:5404 Stdlib.FSets.FMapList <> x:46 var
+R5397:5397 Stdlib.FSets.FMapList <> e:48 var
+R5395:5395 Stdlib.FSets.FMapList <> y:47 var
+R5415:5420 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R5426:5426 Stdlib.FSets.FMapList <> m:45 var
+R5424:5424 Stdlib.FSets.FMapList <> e:48 var
+R5422:5422 Stdlib.FSets.FMapList <> y:47 var
+R5467:5475 Stdlib.FSets.FMapList Raw MapsTo def
+R5537:5544 Stdlib.FSets.FMapList Raw In_inv_3 thm
+R5585:5593 Stdlib.FSets.FMapList X compare defax
+R5631:5638 Stdlib.FSets.FMapList Raw In_inv_3 thm
+R5694:5701 Stdlib.FSets.FMapList Raw In_inv_3 thm
+prf 5772:5778 Raw add_Inf
+R5792:5792 Stdlib.FSets.FMapList Raw t def
+R5794:5796 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 5790:5790 <> m:50
+R5804:5806 Stdlib.FSets.FMapList Raw key def
+binder 5799:5799 <> x:51
+binder 5801:5802 <> x':52
+R5814:5816 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 5809:5809 <> e:53
+binder 5811:5812 <> e':54
+R5835:5838 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5822:5824 Stdlib.FSets.FMapList Raw Inf abbrev
+R5834:5834 Stdlib.FSets.FMapList <> m:50 var
+R5826:5826 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5829:5829 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5832:5832 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5827:5828 Stdlib.FSets.FMapList <> x':52 var
+R5830:5831 Stdlib.FSets.FMapList <> e':54 var
+R5856:5859 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5839:5841 Stdlib.FSets.FMapList Raw ltk abbrev
+R5851:5851 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5853:5853 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5855:5855 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5852:5852 Stdlib.FSets.FMapList <> x:51 var
+R5854:5854 Stdlib.FSets.FMapList <> e:53 var
+R5843:5843 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5846:5846 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5849:5849 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5844:5845 Stdlib.FSets.FMapList <> x':52 var
+R5847:5848 Stdlib.FSets.FMapList <> e':54 var
+R5860:5862 Stdlib.FSets.FMapList Raw Inf abbrev
+R5873:5875 Stdlib.FSets.FMapList Raw add def
+R5881:5881 Stdlib.FSets.FMapList <> m:50 var
+R5879:5879 Stdlib.FSets.FMapList <> e:53 var
+R5877:5877 Stdlib.FSets.FMapList <> x:51 var
+R5864:5864 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5867:5867 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5870:5870 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5865:5866 Stdlib.FSets.FMapList <> x':52 var
+R5868:5869 Stdlib.FSets.FMapList <> e':54 var
+R6025:6033 Stdlib.FSets.FMapList X compare defax
+prf 6104:6113 Raw add_sorted
+binder 6124:6124 <> m:55
+R6130:6133 Stdlib.FSets.FMapList Raw Sort abbrev
+R6135:6135 Stdlib.FSets.FMapList <> m:55 var
+binder 6127:6128 <> Hm:56
+binder 6138:6138 <> x:57
+binder 6140:6140 <> e:58
+R6143:6146 Stdlib.FSets.FMapList Raw Sort abbrev
+R6149:6151 Stdlib.FSets.FMapList Raw add def
+R6157:6157 Stdlib.FSets.FMapList <> m:55 var
+R6155:6155 Stdlib.FSets.FMapList <> e:58 var
+R6153:6153 Stdlib.FSets.FMapList <> x:57 var
+R6256:6264 Stdlib.FSets.FMapList X compare defax
+R6353:6353 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6356:6356 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6359:6359 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6341:6346 Stdlib.FSets.FMapList Raw Inf_eq thm
+def 6402:6407 Raw remove
+R6414:6416 Stdlib.FSets.FMapList Raw key def
+binder 6410:6410 <> k:59
+R6424:6424 Stdlib.FSets.FMapList Raw t def
+R6426:6428 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 6420:6420 <> s:60
+R6444:6444 Stdlib.FSets.FMapList Raw t def
+R6446:6448 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R6460:6460 Stdlib.FSets.FMapList <> s:60 var
+R6471:6473 Corelib.Init.Datatypes <> nil constr
+R6478:6480 Corelib.Init.Datatypes <> nil constr
+R6492:6495 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6486:6486 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6489:6489 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6491:6491 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6512:6520 Stdlib.FSets.FMapList X compare defax
+R6522:6522 Stdlib.FSets.FMapList <> k:59 var
+R6540:6541 Stdlib.Structures.OrderedType <> LT constr
+R6548:6548 Stdlib.FSets.FMapList <> s:60 var
+R6558:6559 Stdlib.Structures.OrderedType <> EQ constr
+R6576:6577 Stdlib.Structures.OrderedType <> GT constr
+R6590:6593 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6584:6584 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6587:6587 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6589:6589 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6594:6599 Stdlib.FSets.FMapList <> remove:61 def
+R6601:6601 Stdlib.FSets.FMapList <> k:59 var
+prf 6627:6634 Raw remove_1
+binder 6645:6645 <> m:63
+R6651:6654 Stdlib.FSets.FMapList Raw Sort abbrev
+R6656:6656 Stdlib.FSets.FMapList <> m:63 var
+binder 6648:6649 <> Hm:64
+binder 6659:6659 <> x:65
+binder 6661:6661 <> y:66
+R6672:6675 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6664:6667 Stdlib.FSets.FMapList X eq defax
+R6671:6671 Stdlib.FSets.FMapList <> y:66 var
+R6669:6669 Stdlib.FSets.FMapList <> x:65 var
+R6676:6677 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6678:6679 Stdlib.FSets.FMapList Raw In abbrev
+R6684:6689 Stdlib.FSets.FMapList Raw remove def
+R6693:6693 Stdlib.FSets.FMapList <> m:63 var
+R6691:6691 Stdlib.FSets.FMapList <> x:65 var
+R6681:6681 Stdlib.FSets.FMapList <> y:66 var
+R6835:6843 Stdlib.FSets.FMapList X compare defax
+R6873:6880 Stdlib.Sorting.SetoidList <> InA_cons thm
+R6946:6957 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R6972:6982 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R7032:7043 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R7058:7068 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R7118:7125 Stdlib.Sorting.SetoidList <> InA_cons thm
+prf 7216:7223 Raw remove_2
+binder 7234:7234 <> m:67
+R7240:7243 Stdlib.FSets.FMapList Raw Sort abbrev
+R7245:7245 Stdlib.FSets.FMapList <> m:67 var
+binder 7237:7238 <> Hm:68
+binder 7248:7248 <> x:69
+binder 7250:7250 <> y:70
+binder 7252:7252 <> e:71
+R7267:7270 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7257:7258 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7259:7262 Stdlib.FSets.FMapList X eq defax
+R7266:7266 Stdlib.FSets.FMapList <> y:70 var
+R7264:7264 Stdlib.FSets.FMapList <> x:69 var
+R7283:7286 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7271:7276 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R7282:7282 Stdlib.FSets.FMapList <> m:67 var
+R7280:7280 Stdlib.FSets.FMapList <> e:71 var
+R7278:7278 Stdlib.FSets.FMapList <> y:70 var
+R7287:7292 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R7299:7304 Stdlib.FSets.FMapList Raw remove def
+R7308:7308 Stdlib.FSets.FMapList <> m:67 var
+R7306:7306 Stdlib.FSets.FMapList <> x:69 var
+R7296:7296 Stdlib.FSets.FMapList <> e:71 var
+R7294:7294 Stdlib.FSets.FMapList <> y:70 var
+R7424:7432 Stdlib.FSets.FMapList X compare defax
+R7478:7485 Stdlib.Sorting.SetoidList <> InA_cons thm
+R7564:7571 Stdlib.Sorting.SetoidList <> InA_cons thm
+R7603:7613 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R7640:7650 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+prf 7674:7681 Raw remove_3
+binder 7692:7692 <> m:72
+R7698:7701 Stdlib.FSets.FMapList Raw Sort abbrev
+R7703:7703 Stdlib.FSets.FMapList <> m:72 var
+binder 7695:7696 <> Hm:73
+binder 7706:7706 <> x:74
+binder 7708:7708 <> y:75
+binder 7710:7710 <> e:76
+R7738:7741 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7715:7720 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R7727:7732 Stdlib.FSets.FMapList Raw remove def
+R7736:7736 Stdlib.FSets.FMapList <> m:72 var
+R7734:7734 Stdlib.FSets.FMapList <> x:74 var
+R7724:7724 Stdlib.FSets.FMapList <> e:76 var
+R7722:7722 Stdlib.FSets.FMapList <> y:75 var
+R7742:7747 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R7753:7753 Stdlib.FSets.FMapList <> m:72 var
+R7751:7751 Stdlib.FSets.FMapList <> e:76 var
+R7749:7749 Stdlib.FSets.FMapList <> y:75 var
+R7865:7873 Stdlib.FSets.FMapList X compare defax
+R7919:7929 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R7945:7952 Stdlib.Sorting.SetoidList <> InA_cons thm
+R7984:7994 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R8021:8031 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+prf 8055:8064 Raw remove_Inf
+R8078:8078 Stdlib.FSets.FMapList Raw t def
+R8080:8082 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 8076:8076 <> m:77
+R8090:8093 Stdlib.FSets.FMapList Raw Sort abbrev
+R8095:8095 Stdlib.FSets.FMapList <> m:77 var
+binder 8085:8086 <> Hm:78
+R8103:8105 Stdlib.FSets.FMapList Raw key def
+binder 8098:8098 <> x:79
+binder 8100:8101 <> x':80
+R8111:8113 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 8108:8109 <> e':81
+R8132:8135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8119:8121 Stdlib.FSets.FMapList Raw Inf abbrev
+R8131:8131 Stdlib.FSets.FMapList <> m:77 var
+R8123:8123 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8126:8126 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8129:8129 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8124:8125 Stdlib.FSets.FMapList <> x':80 var
+R8127:8128 Stdlib.FSets.FMapList <> e':81 var
+R8136:8138 Stdlib.FSets.FMapList Raw Inf abbrev
+R8149:8154 Stdlib.FSets.FMapList Raw remove def
+R8158:8158 Stdlib.FSets.FMapList <> m:77 var
+R8156:8156 Stdlib.FSets.FMapList <> x:79 var
+R8140:8140 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8143:8143 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8146:8146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8141:8142 Stdlib.FSets.FMapList <> x':80 var
+R8144:8145 Stdlib.FSets.FMapList <> e':81 var
+R8299:8307 Stdlib.FSets.FMapList X compare defax
+R8372:8372 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8376:8376 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8380:8380 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8360:8365 Stdlib.FSets.FMapList Raw Inf_lt thm
+prf 8442:8454 Raw remove_sorted
+binder 8465:8465 <> m:82
+R8471:8474 Stdlib.FSets.FMapList Raw Sort abbrev
+R8476:8476 Stdlib.FSets.FMapList <> m:82 var
+binder 8468:8469 <> Hm:83
+binder 8479:8479 <> x:84
+R8482:8485 Stdlib.FSets.FMapList Raw Sort abbrev
+R8488:8493 Stdlib.FSets.FMapList Raw remove def
+R8497:8497 Stdlib.FSets.FMapList <> m:82 var
+R8495:8495 Stdlib.FSets.FMapList <> x:84 var
+R8596:8604 Stdlib.FSets.FMapList X compare defax
+def 8688:8695 Raw elements
+R8701:8701 Stdlib.FSets.FMapList Raw t def
+R8703:8705 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 8698:8698 <> m:85
+R8711:8711 Stdlib.FSets.FMapList <> m:85 var
+prf 8721:8730 Raw elements_1
+binder 8741:8741 <> m:86
+binder 8743:8743 <> x:87
+binder 8745:8745 <> e:88
+R8762:8765 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8750:8755 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R8761:8761 Stdlib.FSets.FMapList <> m:86 var
+R8759:8759 Stdlib.FSets.FMapList <> e:88 var
+R8757:8757 Stdlib.FSets.FMapList <> x:87 var
+R8766:8768 Stdlib.Sorting.SetoidList <> InA ind
+R8782:8789 Stdlib.FSets.FMapList Raw elements def
+R8791:8791 Stdlib.FSets.FMapList <> m:86 var
+R8775:8775 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8777:8777 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8779 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8776:8776 Stdlib.FSets.FMapList <> x:87 var
+R8778:8778 Stdlib.FSets.FMapList <> e:88 var
+R8770:8773 Stdlib.FSets.FMapList Raw eqke abbrev
+prf 8821:8830 Raw elements_2
+binder 8841:8841 <> m:89
+binder 8843:8843 <> x:90
+binder 8845:8845 <> e:91
+R8877:8880 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8850:8852 Stdlib.Sorting.SetoidList <> InA ind
+R8866:8873 Stdlib.FSets.FMapList Raw elements def
+R8875:8875 Stdlib.FSets.FMapList <> m:89 var
+R8859:8859 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8861:8861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8863:8863 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8860:8860 Stdlib.FSets.FMapList <> x:90 var
+R8862:8862 Stdlib.FSets.FMapList <> e:91 var
+R8854:8857 Stdlib.FSets.FMapList Raw eqke abbrev
+R8881:8886 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R8892:8892 Stdlib.FSets.FMapList <> m:89 var
+R8890:8890 Stdlib.FSets.FMapList <> e:91 var
+R8888:8888 Stdlib.FSets.FMapList <> x:90 var
+prf 8921:8930 Raw elements_3
+binder 8941:8941 <> m:92
+R8947:8950 Stdlib.FSets.FMapList Raw Sort abbrev
+R8952:8952 Stdlib.FSets.FMapList <> m:92 var
+binder 8944:8945 <> Hm:93
+R8956:8959 Stdlib.Sorting.Sorted <> sort abbrev
+R8966:8973 Stdlib.FSets.FMapList Raw elements def
+R8975:8975 Stdlib.FSets.FMapList <> m:92 var
+R8961:8963 Stdlib.FSets.FMapList Raw ltk abbrev
+prf 9005:9015 Raw elements_3w
+binder 9026:9026 <> m:94
+R9032:9035 Stdlib.FSets.FMapList Raw Sort abbrev
+R9037:9037 Stdlib.FSets.FMapList <> m:94 var
+binder 9029:9030 <> Hm:95
+R9041:9046 Stdlib.Sorting.SetoidList <> NoDupA ind
+R9053:9060 Stdlib.FSets.FMapList Raw elements def
+R9062:9062 Stdlib.FSets.FMapList <> m:94 var
+R9048:9050 Stdlib.FSets.FMapList Raw eqk abbrev
+R9089:9099 Stdlib.FSets.FMapList Raw Sort_NoDupA thm
+R9109:9118 Stdlib.FSets.FMapList Raw elements_3 thm
+def 9159:9162 Raw fold
+binder 9165:9165 <> A:96
+R9178:9179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9175:9177 Stdlib.FSets.FMapList Raw key def
+R9183:9184 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9180:9182 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R9186:9187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9185:9185 Stdlib.FSets.FMapList <> A:96 var
+R9188:9188 Stdlib.FSets.FMapList <> A:96 var
+binder 9173:9173 <> f:97
+R9193:9193 Stdlib.FSets.FMapList Raw t def
+R9195:9197 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 9191:9191 <> m:98
+R9205:9205 Stdlib.FSets.FMapList <> A:96 var
+binder 9201:9203 <> acc:99
+R9222:9222 Stdlib.FSets.FMapList <> A:96 var
+R9235:9235 Stdlib.FSets.FMapList <> m:98 var
+R9247:9249 Corelib.Init.Datatypes <> nil constr
+R9254:9256 Stdlib.FSets.FMapList <> acc:99 var
+R9268:9269 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9263:9263 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9265:9265 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9267:9267 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9276:9279 Stdlib.FSets.FMapList <> fold:100 def
+R9287:9287 Stdlib.FSets.FMapList <> f:97 var
+R9293:9295 Stdlib.FSets.FMapList <> acc:99 var
+R9281:9281 Stdlib.FSets.FMapList <> f:97 var
+prf 9312:9317 Raw fold_1
+binder 9328:9328 <> m:102
+binder 9331:9331 <> A:103
+R9341:9341 Stdlib.FSets.FMapList <> A:103 var
+binder 9339:9339 <> i:104
+R9349:9350 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9346:9348 Stdlib.FSets.FMapList Raw key def
+R9354:9355 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9351:9353 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R9357:9358 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9356:9356 Stdlib.FSets.FMapList <> A:103 var
+R9359:9359 Stdlib.FSets.FMapList <> A:103 var
+binder 9344:9344 <> f:105
+R9375:9377 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9365:9368 Stdlib.FSets.FMapList Raw fold def
+R9374:9374 Stdlib.FSets.FMapList <> i:104 var
+R9372:9372 Stdlib.FSets.FMapList <> m:102 var
+R9370:9370 Stdlib.FSets.FMapList <> f:105 var
+R9378:9386 Stdlib.Lists.List <> fold_left def
+R9434:9434 Stdlib.FSets.FMapList <> i:104 var
+R9422:9429 Stdlib.FSets.FMapList Raw elements def
+R9431:9431 Stdlib.FSets.FMapList <> m:102 var
+binder 9393:9393 <> a:106
+binder 9395:9395 <> p:107
+R9400:9400 Stdlib.FSets.FMapList <> f:105 var
+R9418:9418 Stdlib.FSets.FMapList <> a:106 var
+R9411:9413 Corelib.Init.Datatypes <> snd def
+R9415:9415 Stdlib.FSets.FMapList <> p:107 var
+R9403:9405 Corelib.Init.Datatypes <> fst def
+R9407:9407 Stdlib.FSets.FMapList <> p:107 var
+def 9517:9521 Raw equal
+R9531:9532 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9528:9530 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R9536:9537 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9533:9535 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R9538:9541 Corelib.Init.Datatypes <> bool ind
+binder 9524:9526 <> cmp:108
+R9551:9551 Stdlib.FSets.FMapList Raw t def
+R9553:9555 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 9544:9544 <> m:109
+binder 9546:9547 <> m':110
+R9571:9574 Corelib.Init.Datatypes <> bool ind
+R9590:9591 Stdlib.FSets.FMapList <> m':110 var
+R9587:9587 Stdlib.FSets.FMapList <> m:109 var
+R9603:9605 Corelib.Init.Datatypes <> nil constr
+R9608:9610 Corelib.Init.Datatypes <> nil constr
+R9615:9618 Corelib.Init.Datatypes <> true constr
+R9630:9631 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9625:9625 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9627:9627 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9629:9629 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9642:9643 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9635:9635 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9638:9638 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9641:9641 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9662:9670 Stdlib.FSets.FMapList X compare defax
+R9691:9692 Stdlib.Structures.OrderedType <> EQ constr
+R9707:9710 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9699:9701 Stdlib.FSets.FMapList <> cmp:108 var
+R9711:9715 Stdlib.FSets.FMapList <> equal:111 def
+R9717:9719 Stdlib.FSets.FMapList <> cmp:108 var
+R9743:9747 Corelib.Init.Datatypes <> false constr
+R9772:9776 Corelib.Init.Datatypes <> false constr
+def 9797:9802 Raw Equivb
+binder 9804:9806 <> cmp:114
+binder 9808:9808 <> m:115
+binder 9810:9811 <> m':116
+R9818:9818 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9847:9854 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9919:9919 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 9826:9826 <> k:117
+R9835:9839 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9829:9830 Stdlib.FSets.FMapList Raw In abbrev
+R9834:9834 Stdlib.FSets.FMapList <> m:115 var
+R9832:9832 Stdlib.FSets.FMapList <> k:117 var
+R9840:9841 Stdlib.FSets.FMapList Raw In abbrev
+R9845:9846 Stdlib.FSets.FMapList <> m':116 var
+R9843:9843 Stdlib.FSets.FMapList <> k:117 var
+binder 9862:9862 <> k:118
+binder 9864:9864 <> e:119
+binder 9866:9867 <> e':120
+R9882:9885 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9870:9875 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R9881:9881 Stdlib.FSets.FMapList <> m:115 var
+R9879:9879 Stdlib.FSets.FMapList <> e:119 var
+R9877:9877 Stdlib.FSets.FMapList <> k:118 var
+R9900:9903 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9886:9891 Stdlib.FSets.FMapList Raw MapsTo abbrev
+R9898:9899 Stdlib.FSets.FMapList <> m':116 var
+R9895:9896 Stdlib.FSets.FMapList <> e':120 var
+R9893:9893 Stdlib.FSets.FMapList <> k:118 var
+R9912:9914 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9904:9906 Stdlib.FSets.FMapList <> cmp:114 var
+R9908:9908 Stdlib.FSets.FMapList <> e:119 var
+R9910:9911 Stdlib.FSets.FMapList <> e':120 var
+R9915:9918 Corelib.Init.Datatypes <> true constr
+prf 9929:9935 Raw equal_1
+binder 9946:9946 <> m:121
+R9952:9955 Stdlib.FSets.FMapList Raw Sort abbrev
+R9957:9957 Stdlib.FSets.FMapList <> m:121 var
+binder 9949:9950 <> Hm:122
+binder 9960:9961 <> m':123
+R9969:9972 Stdlib.FSets.FMapList Raw Sort abbrev
+R9974:9975 Stdlib.FSets.FMapList <> m':123 var
+binder 9964:9966 <> Hm':124
+binder 9978:9980 <> cmp:125
+R10000:10003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9985:9990 Stdlib.FSets.FMapList Raw Equivb def
+R9998:9999 Stdlib.FSets.FMapList <> m':123 var
+R9996:9996 Stdlib.FSets.FMapList <> m:121 var
+R9992:9994 Stdlib.FSets.FMapList <> cmp:125 var
+R10018:10020 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10004:10008 Stdlib.FSets.FMapList Raw equal def
+R10016:10017 Stdlib.FSets.FMapList <> m':123 var
+R10014:10014 Stdlib.FSets.FMapList <> m:121 var
+R10010:10012 Stdlib.FSets.FMapList <> cmp:125 var
+R10021:10024 Corelib.Init.Datatypes <> true constr
+R10405:10414 Stdlib.Sorting.Sorted <> Sorted_inv thm
+R10463:10471 Stdlib.FSets.FMapList X compare defax
+R10645:10652 Stdlib.Sorting.SetoidList <> InA_cons thm
+R10694:10702 Stdlib.FSets.FMapList Raw gt_not_eq thm
+R10741:10752 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R10756:10766 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R10820:10832 Stdlib.Bool.Bool <> andb_true_iff thm
+R10899:10909 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R10941:10951 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R11194:11204 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R11235:11242 Stdlib.Sorting.SetoidList <> InA_cons thm
+R11303:11313 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R11322:11333 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R11361:11369 Stdlib.FSets.FMapList Raw gt_not_eq thm
+R11558:11568 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R11599:11606 Stdlib.Sorting.SetoidList <> InA_cons thm
+R11667:11677 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R11688:11699 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R11727:11735 Stdlib.FSets.FMapList Raw gt_not_eq thm
+R11883:11893 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R12038:12045 Stdlib.Sorting.SetoidList <> InA_cons thm
+R12087:12095 Stdlib.FSets.FMapList Raw gt_not_eq thm
+R12134:12145 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R12149:12159 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+prf 12213:12219 Raw equal_2
+binder 12230:12230 <> m:126
+R12236:12239 Stdlib.FSets.FMapList Raw Sort abbrev
+R12241:12241 Stdlib.FSets.FMapList <> m:126 var
+binder 12233:12234 <> Hm:127
+binder 12244:12245 <> m':128
+R12251:12254 Stdlib.FSets.FMapList Raw Sort abbrev
+R12256:12257 Stdlib.FSets.FMapList <> m':128 var
+binder 12248:12249 <> Hm:129
+binder 12260:12262 <> cmp:130
+R12288:12291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12281:12283 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12267:12271 Stdlib.FSets.FMapList Raw equal def
+R12279:12280 Stdlib.FSets.FMapList <> m':128 var
+R12277:12277 Stdlib.FSets.FMapList <> m:126 var
+R12273:12275 Stdlib.FSets.FMapList <> cmp:130 var
+R12284:12287 Corelib.Init.Datatypes <> true constr
+R12292:12297 Stdlib.FSets.FMapList Raw Equivb def
+R12305:12306 Stdlib.FSets.FMapList <> m':128 var
+R12303:12303 Stdlib.FSets.FMapList <> m:126 var
+R12299:12301 Stdlib.FSets.FMapList <> cmp:130 var
+R12491:12499 Stdlib.FSets.FMapList X compare defax
+R12539:12548 Stdlib.Sorting.Sorted <> Sorted_inv thm
+R12593:12605 Stdlib.Bool.Bool <> andb_true_iff thm
+R12685:12692 Stdlib.Sorting.SetoidList <> InA_cons thm
+R12748:12758 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R12847:12848 Stdlib.FSets.FMapList Raw In abbrev
+R12956:12966 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R12995:13005 Stdlib.Sorting.SetoidList <> InA_cons_hd constr
+R13105:13106 Stdlib.FSets.FMapList Raw In abbrev
+R13213:13223 Stdlib.Sorting.SetoidList <> InA_cons_tl constr
+R13268:13275 Stdlib.Sorting.SetoidList <> InA_cons thm
+R13484:13485 Stdlib.FSets.FMapList Raw In abbrev
+R13590:13601 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R13605:13615 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R13674:13682 Stdlib.FSets.FMapList Raw eq_not_gt thm
+R13719:13720 Stdlib.FSets.FMapList Raw In abbrev
+R13826:13837 Stdlib.FSets.FMapList Raw InA_eqke_eqk thm
+R13841:13851 Stdlib.FSets.FMapList Raw Sort_Inf_In thm
+R13912:13920 Stdlib.FSets.FMapList Raw eq_not_gt thm
+prf 14107:14116 Raw equal_cons
+binder 14127:14129 <> cmp:131
+binder 14131:14132 <> l1:132
+binder 14134:14135 <> l2:133
+binder 14137:14137 <> x:134
+binder 14139:14139 <> y:135
+R14154:14157 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14142:14145 Stdlib.FSets.FMapList Raw Sort abbrev
+R14149:14150 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14148:14148 Stdlib.FSets.FMapList <> x:134 var
+R14151:14152 Stdlib.FSets.FMapList <> l1:132 var
+R14170:14175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14158:14161 Stdlib.FSets.FMapList Raw Sort abbrev
+R14165:14166 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14164:14164 Stdlib.FSets.FMapList <> y:135 var
+R14167:14168 Stdlib.FSets.FMapList <> l2:133 var
+R14183:14186 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14176:14178 Stdlib.FSets.FMapList Raw eqk abbrev
+R14182:14182 Stdlib.FSets.FMapList <> y:135 var
+R14180:14180 Stdlib.FSets.FMapList <> x:134 var
+R14213:14219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14271:14271 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14206:14208 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14187:14189 Stdlib.FSets.FMapList <> cmp:131 var
+R14192:14194 Corelib.Init.Datatypes <> snd def
+R14196:14196 Stdlib.FSets.FMapList <> x:134 var
+R14200:14202 Corelib.Init.Datatypes <> snd def
+R14204:14204 Stdlib.FSets.FMapList <> y:135 var
+R14209:14212 Corelib.Init.Datatypes <> true constr
+R14236:14240 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14220:14225 Stdlib.FSets.FMapList Raw Equivb def
+R14234:14235 Stdlib.FSets.FMapList <> l2:133 var
+R14231:14232 Stdlib.FSets.FMapList <> l1:132 var
+R14227:14229 Stdlib.FSets.FMapList <> cmp:131 var
+R14241:14246 Stdlib.FSets.FMapList Raw Equivb def
+R14264:14267 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14263:14263 Stdlib.FSets.FMapList <> y:135 var
+R14268:14269 Stdlib.FSets.FMapList <> l2:133 var
+R14254:14257 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14253:14253 Stdlib.FSets.FMapList <> x:134 var
+R14258:14259 Stdlib.FSets.FMapList <> l1:132 var
+R14248:14250 Stdlib.FSets.FMapList <> cmp:131 var
+R14402:14408 Stdlib.FSets.FMapList Raw equal_2 thm
+R14472:14478 Stdlib.FSets.FMapList Raw equal_1 thm
+R14496:14502 Stdlib.FSets.FMapList Raw equal_2 thm
+R14526:14532 Stdlib.FSets.FMapList Raw equal_1 thm
+var 14611:14614 Raw.Elt elt'
+def 14659:14661 Raw map
+R14669:14672 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14666:14668 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R14673:14676 Stdlib.FSets.FMapList <> Raw.Elt.elt' var
+binder 14664:14664 <> f:138
+R14682:14682 Stdlib.FSets.FMapList Raw t def
+R14684:14686 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 14680:14680 <> m:139
+R14691:14691 Stdlib.FSets.FMapList Raw t def
+R14693:14696 Stdlib.FSets.FMapList <> Raw.Elt.elt' var
+R14709:14709 Stdlib.FSets.FMapList <> m:139 var
+R14721:14723 Corelib.Init.Datatypes <> nil constr
+R14728:14730 Corelib.Init.Datatypes <> nil constr
+R14742:14743 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14737:14737 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14739:14739 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14741:14741 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14757:14760 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14750:14750 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14752:14752 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14756:14756 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14753:14753 Stdlib.FSets.FMapList <> f:138 var
+R14761:14763 Stdlib.FSets.FMapList <> map:140 def
+R14765:14765 Stdlib.FSets.FMapList <> f:138 var
+def 14787:14790 Raw mapi
+R14799:14802 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14796:14798 Stdlib.FSets.FMapList Raw key def
+R14806:14809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14803:14805 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+R14810:14813 Stdlib.FSets.FMapList <> Raw.Elt.elt' var
+binder 14793:14793 <> f:142
+R14819:14819 Stdlib.FSets.FMapList Raw t def
+R14821:14823 Stdlib.FSets.FMapList <> Raw.Elt.elt var
+binder 14817:14817 <> m:143
+R14828:14828 Stdlib.FSets.FMapList Raw t def
+R14830:14833 Stdlib.FSets.FMapList <> Raw.Elt.elt' var
+R14846:14846 Stdlib.FSets.FMapList <> m:143 var
+R14858:14860 Corelib.Init.Datatypes <> nil constr
+R14865:14867 Corelib.Init.Datatypes <> nil constr
+R14879:14880 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14874:14874 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14876:14876 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14878:14878 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14896:14899 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14887:14887 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14889:14889 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14895:14895 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14890:14890 Stdlib.FSets.FMapList <> f:142 var
+R14900:14903 Stdlib.FSets.FMapList <> mapi:144 def
+R14905:14905 Stdlib.FSets.FMapList <> f:142 var
+R14922:14924 Stdlib.FSets.FMapList Raw.Elt <> sec
+sec 14935:14938 Raw Elt2
+var 15065:15067 Raw.Elt2 elt
+var 15069:15072 Raw.Elt2 elt'
+prf 15120:15124 Raw map_1
+R15138:15138 Stdlib.FSets.FMapList Raw t def
+R15140:15142 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 15136:15136 <> m:150
+R15147:15149 Stdlib.FSets.FMapList Raw key def
+binder 15145:15145 <> x:151
+R15154:15156 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 15152:15152 <> e:152
+R15164:15165 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15161:15163 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R15166:15169 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15159:15159 <> f:153
+R15187:15190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15175:15180 Stdlib.FSets.FMapList Raw MapsTo def
+R15186:15186 Stdlib.FSets.FMapList <> m:150 var
+R15184:15184 Stdlib.FSets.FMapList <> e:152 var
+R15182:15182 Stdlib.FSets.FMapList <> x:151 var
+R15191:15196 Stdlib.FSets.FMapList Raw MapsTo def
+R15207:15209 Stdlib.FSets.FMapList Raw map def
+R15213:15213 Stdlib.FSets.FMapList <> m:150 var
+R15211:15211 Stdlib.FSets.FMapList <> f:153 var
+R15201:15201 Stdlib.FSets.FMapList <> f:153 var
+R15203:15203 Stdlib.FSets.FMapList <> e:152 var
+R15198:15198 Stdlib.FSets.FMapList <> x:151 var
+R15362:15365 Stdlib.FSets.FMapList Raw eqke def
+R15419:15424 Stdlib.FSets.FMapList Raw MapsTo def
+prf 15450:15454 Raw map_2
+R15468:15468 Stdlib.FSets.FMapList Raw t def
+R15470:15472 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 15466:15466 <> m:154
+R15477:15479 Stdlib.FSets.FMapList Raw key def
+binder 15475:15475 <> x:155
+R15487:15488 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15484:15486 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R15489:15492 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15482:15482 <> f:156
+R15512:15515 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15498:15499 Stdlib.FSets.FMapList Raw In def
+R15504:15506 Stdlib.FSets.FMapList Raw map def
+R15510:15510 Stdlib.FSets.FMapList <> m:154 var
+R15508:15508 Stdlib.FSets.FMapList <> f:156 var
+R15501:15501 Stdlib.FSets.FMapList <> x:155 var
+R15516:15517 Stdlib.FSets.FMapList Raw In def
+R15521:15521 Stdlib.FSets.FMapList <> m:154 var
+R15519:15519 Stdlib.FSets.FMapList <> x:155 var
+R15756:15759 Stdlib.FSets.FMapList Raw eqke def
+prf 15905:15915 Raw map_lelistA
+R15930:15930 Stdlib.FSets.FMapList Raw t def
+R15932:15934 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 15927:15927 <> m:157
+R15939:15941 Stdlib.FSets.FMapList Raw key def
+binder 15937:15937 <> x:158
+R15946:15948 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 15944:15944 <> e:159
+R15954:15957 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15951:15952 <> e':160
+R15965:15966 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15962:15964 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R15967:15970 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15960:15960 <> f:161
+R16002:16007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15976:15982 Stdlib.Sorting.Sorted <> lelistA abbrev
+R16001:16001 Stdlib.FSets.FMapList <> m:157 var
+R15995:15995 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15997:15997 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15999:15999 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15996:15996 Stdlib.FSets.FMapList <> x:158 var
+R15998:15998 Stdlib.FSets.FMapList <> e:159 var
+R15986:15988 Stdlib.FSets.FMapList Raw ltk def
+R15990:15992 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R16008:16014 Stdlib.Sorting.Sorted <> lelistA abbrev
+R16036:16038 Stdlib.FSets.FMapList Raw map def
+R16042:16042 Stdlib.FSets.FMapList <> m:157 var
+R16040:16040 Stdlib.FSets.FMapList <> f:161 var
+R16028:16028 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16030:16030 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16033:16033 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16029:16029 Stdlib.FSets.FMapList <> x:158 var
+R16031:16032 Stdlib.FSets.FMapList <> e':160 var
+R16018:16020 Stdlib.FSets.FMapList Raw ltk def
+R16022:16025 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+prf 16194:16203 Raw map_sorted
+R16218:16218 Stdlib.FSets.FMapList Raw t def
+R16220:16222 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 16215:16215 <> m:162
+R16230:16233 Stdlib.Sorting.Sorted <> sort abbrev
+R16246:16246 Stdlib.FSets.FMapList <> m:162 var
+R16237:16239 Stdlib.FSets.FMapList Raw ltk def
+R16241:16243 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 16225:16226 <> Hm:163
+R16254:16257 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16251:16253 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R16258:16261 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 16249:16249 <> f:164
+R16267:16270 Stdlib.Sorting.Sorted <> sort abbrev
+R16285:16287 Stdlib.FSets.FMapList Raw map def
+R16291:16291 Stdlib.FSets.FMapList <> m:162 var
+R16289:16289 Stdlib.FSets.FMapList <> f:164 var
+R16274:16276 Stdlib.FSets.FMapList Raw ltk def
+R16278:16281 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+R16411:16421 Stdlib.FSets.FMapList Raw map_lelistA thm
+prf 16476:16481 Raw mapi_1
+R16495:16495 Stdlib.FSets.FMapList Raw t def
+R16497:16499 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 16493:16493 <> m:165
+R16504:16506 Stdlib.FSets.FMapList Raw key def
+binder 16502:16502 <> x:166
+R16511:16513 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 16509:16509 <> e:167
+R16521:16522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16518:16520 Stdlib.FSets.FMapList Raw key def
+R16526:16527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16523:16525 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R16528:16531 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 16516:16516 <> f:168
+R16549:16554 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16537:16542 Stdlib.FSets.FMapList Raw MapsTo def
+R16548:16548 Stdlib.FSets.FMapList <> m:165 var
+R16546:16546 Stdlib.FSets.FMapList <> e:167 var
+R16544:16544 Stdlib.FSets.FMapList <> x:166 var
+R16555:16561 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16563:16564 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16562:16562 <> y:169
+R16573:16576 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16565:16568 Stdlib.FSets.FMapList X eq defax
+R16572:16572 Stdlib.FSets.FMapList <> x:166 var
+R16570:16570 Stdlib.FSets.FMapList <> y:169 var
+R16577:16582 Stdlib.FSets.FMapList Raw MapsTo def
+R16595:16598 Stdlib.FSets.FMapList Raw mapi def
+R16602:16602 Stdlib.FSets.FMapList <> m:165 var
+R16600:16600 Stdlib.FSets.FMapList <> f:168 var
+R16587:16587 Stdlib.FSets.FMapList <> f:168 var
+R16591:16591 Stdlib.FSets.FMapList <> e:167 var
+R16589:16589 Stdlib.FSets.FMapList <> y:169 var
+R16584:16584 Stdlib.FSets.FMapList <> x:166 var
+R16844:16847 Stdlib.FSets.FMapList Raw eqke def
+prf 16988:16993 Raw mapi_2
+R17007:17007 Stdlib.FSets.FMapList Raw t def
+R17009:17011 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 17005:17005 <> m:170
+R17016:17018 Stdlib.FSets.FMapList Raw key def
+binder 17014:17014 <> x:171
+R17026:17027 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17023:17025 Stdlib.FSets.FMapList Raw key def
+R17031:17032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17028:17030 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R17033:17036 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 17021:17021 <> f:172
+R17057:17060 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17042:17043 Stdlib.FSets.FMapList Raw In def
+R17048:17051 Stdlib.FSets.FMapList Raw mapi def
+R17055:17055 Stdlib.FSets.FMapList <> m:170 var
+R17053:17053 Stdlib.FSets.FMapList <> f:172 var
+R17045:17045 Stdlib.FSets.FMapList <> x:171 var
+R17061:17062 Stdlib.FSets.FMapList Raw In def
+R17066:17066 Stdlib.FSets.FMapList <> m:170 var
+R17064:17064 Stdlib.FSets.FMapList <> x:171 var
+R17301:17304 Stdlib.FSets.FMapList Raw eqke def
+prf 17450:17461 Raw mapi_lelistA
+R17476:17476 Stdlib.FSets.FMapList Raw t def
+R17478:17480 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 17473:17473 <> m:173
+R17485:17487 Stdlib.FSets.FMapList Raw key def
+binder 17483:17483 <> x:174
+R17492:17494 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 17490:17490 <> e:175
+R17502:17503 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17499:17501 Stdlib.FSets.FMapList Raw key def
+R17507:17508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17504:17506 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R17509:17512 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 17497:17497 <> f:176
+R17544:17549 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17518:17524 Stdlib.Sorting.Sorted <> lelistA abbrev
+R17543:17543 Stdlib.FSets.FMapList <> m:173 var
+R17537:17537 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17539:17539 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17541:17541 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17538:17538 Stdlib.FSets.FMapList <> x:174 var
+R17540:17540 Stdlib.FSets.FMapList <> e:175 var
+R17528:17530 Stdlib.FSets.FMapList Raw ltk def
+R17532:17534 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R17550:17556 Stdlib.Sorting.Sorted <> lelistA abbrev
+R17581:17584 Stdlib.FSets.FMapList Raw mapi def
+R17588:17588 Stdlib.FSets.FMapList <> m:173 var
+R17586:17586 Stdlib.FSets.FMapList <> f:176 var
+R17570:17570 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17572:17572 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17578:17578 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17571:17571 Stdlib.FSets.FMapList <> x:174 var
+R17573:17573 Stdlib.FSets.FMapList <> f:176 var
+R17577:17577 Stdlib.FSets.FMapList <> e:175 var
+R17575:17575 Stdlib.FSets.FMapList <> x:174 var
+R17560:17562 Stdlib.FSets.FMapList Raw ltk def
+R17564:17567 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+prf 17741:17751 Raw mapi_sorted
+binder 17762:17762 <> m:177
+R17770:17773 Stdlib.Sorting.Sorted <> sort abbrev
+R17786:17786 Stdlib.FSets.FMapList <> m:177 var
+R17777:17779 Stdlib.FSets.FMapList Raw ltk def
+R17781:17783 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+binder 17765:17766 <> Hm:178
+R17795:17797 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17792:17794 Stdlib.FSets.FMapList Raw key def
+R17801:17804 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17798:17800 Stdlib.FSets.FMapList <> Raw.Elt2.elt var
+R17805:17808 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+binder 17789:17789 <> f:179
+R17814:17817 Stdlib.Sorting.Sorted <> sort abbrev
+R17832:17835 Stdlib.FSets.FMapList Raw mapi def
+R17839:17839 Stdlib.FSets.FMapList <> m:177 var
+R17837:17837 Stdlib.FSets.FMapList <> f:179 var
+R17821:17823 Stdlib.FSets.FMapList Raw ltk def
+R17825:17828 Stdlib.FSets.FMapList <> Raw.Elt2.elt' var
+R17947:17950 Stdlib.FSets.FMapList Raw.Elt2 <> sec
+sec 17961:17964 Raw Elt3
+var 17994:17996 Raw.Elt3 elt
+var 17998:18001 Raw.Elt3 elt'
+var 18003:18007 Raw.Elt3 elt''
+var 18026:18026 Raw.Elt3 f
+R18040:18043 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18030:18035 Corelib.Init.Datatypes <> option ind
+R18037:18039 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+R18055:18058 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18044:18049 Corelib.Init.Datatypes <> option ind
+R18051:18054 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R18059:18064 Corelib.Init.Datatypes <> option ind
+R18066:18070 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+def 18085:18095 Raw option_cons
+binder 18098:18098 <> A:188
+R18108:18110 Stdlib.FSets.FMapList Raw key def
+binder 18106:18106 <> k:189
+R18115:18120 Corelib.Init.Datatypes <> option ind
+R18122:18122 Stdlib.FSets.FMapList <> A:188 var
+binder 18113:18113 <> o:190
+R18127:18130 Corelib.Init.Datatypes <> list ind
+R18136:18136 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18133:18135 Stdlib.FSets.FMapList Raw key def
+R18137:18137 Stdlib.FSets.FMapList <> A:188 var
+binder 18125:18125 <> l:191
+R18152:18152 Stdlib.FSets.FMapList <> o:190 var
+R18164:18167 Corelib.Init.Datatypes <> Some constr
+R18179:18180 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18174:18174 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18176:18176 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18178:18178 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18175:18175 Stdlib.FSets.FMapList <> k:189 var
+R18181:18181 Stdlib.FSets.FMapList <> l:191 var
+R18188:18191 Corelib.Init.Datatypes <> None constr
+R18196:18196 Stdlib.FSets.FMapList <> l:191 var
+def 18215:18220 Raw map2_l
+R18227:18227 Stdlib.FSets.FMapList Raw t def
+R18229:18231 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 18223:18223 <> m:193
+R18236:18236 Stdlib.FSets.FMapList Raw t def
+R18238:18242 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R18255:18255 Stdlib.FSets.FMapList <> m:193 var
+R18267:18269 Corelib.Init.Datatypes <> nil constr
+R18274:18276 Corelib.Init.Datatypes <> nil constr
+R18288:18289 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18283:18283 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18285:18285 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18287:18287 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18295:18305 Stdlib.FSets.FMapList Raw option_cons def
+R18328:18333 Stdlib.FSets.FMapList <> map2_l:194 def
+R18310:18310 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R18321:18324 Corelib.Init.Datatypes <> None constr
+R18313:18316 Corelib.Init.Datatypes <> Some constr
+def 18355:18360 Raw map2_r
+R18368:18368 Stdlib.FSets.FMapList Raw t def
+R18370:18373 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 18363:18364 <> m':196
+R18378:18378 Stdlib.FSets.FMapList Raw t def
+R18380:18384 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R18397:18398 Stdlib.FSets.FMapList <> m':196 var
+R18410:18412 Corelib.Init.Datatypes <> nil constr
+R18417:18419 Corelib.Init.Datatypes <> nil constr
+R18432:18433 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18426:18426 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18428:18428 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18431:18431 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18440:18450 Stdlib.FSets.FMapList Raw option_cons def
+R18474:18479 Stdlib.FSets.FMapList <> map2_r:197 def
+R18455:18455 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R18463:18466 Corelib.Init.Datatypes <> Some constr
+R18457:18460 Corelib.Init.Datatypes <> None constr
+def 18502:18505 Raw map2
+R18512:18512 Stdlib.FSets.FMapList Raw t def
+R18514:18516 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 18508:18508 <> m:199
+R18527:18530 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18521:18521 Stdlib.FSets.FMapList Raw t def
+R18523:18526 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R18531:18531 Stdlib.FSets.FMapList Raw t def
+R18533:18537 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R18550:18550 Stdlib.FSets.FMapList <> m:199 var
+R18562:18564 Corelib.Init.Datatypes <> nil constr
+R18569:18574 Stdlib.FSets.FMapList Raw map2_r def
+R18586:18589 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18581:18581 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18583:18583 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18585:18585 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18620:18620 Stdlib.FSets.FMapList Raw t def
+R18622:18625 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 18615:18616 <> m':202
+R18630:18630 Stdlib.FSets.FMapList Raw t def
+R18632:18636 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R18655:18656 Stdlib.FSets.FMapList <> m':202 var
+R18674:18676 Corelib.Init.Datatypes <> nil constr
+R18681:18686 Stdlib.FSets.FMapList Raw map2_l def
+R18688:18688 Stdlib.FSets.FMapList <> m:199 var
+R18708:18711 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18701:18701 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18704:18704 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18707:18707 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18736:18744 Stdlib.FSets.FMapList X compare defax
+R18771:18772 Stdlib.Structures.OrderedType <> LT constr
+R18779:18789 Stdlib.FSets.FMapList Raw option_cons def
+R18812:18815 Stdlib.FSets.FMapList <> map2:200 def
+R18819:18820 Stdlib.FSets.FMapList <> m':202 var
+R18794:18794 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R18805:18808 Corelib.Init.Datatypes <> None constr
+R18797:18800 Corelib.Init.Datatypes <> Some constr
+R18838:18839 Stdlib.Structures.OrderedType <> EQ constr
+R18846:18856 Stdlib.FSets.FMapList Raw option_cons def
+R18884:18887 Stdlib.FSets.FMapList <> map2:200 def
+R18861:18861 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R18873:18876 Corelib.Init.Datatypes <> Some constr
+R18864:18867 Corelib.Init.Datatypes <> Some constr
+R18910:18911 Stdlib.Structures.OrderedType <> GT constr
+R18918:18928 Stdlib.FSets.FMapList Raw option_cons def
+R18953:18960 Stdlib.FSets.FMapList <> map2_aux:203 var
+R18934:18934 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R18942:18945 Corelib.Init.Datatypes <> Some constr
+R18936:18939 Corelib.Init.Datatypes <> None constr
+abbrev 19011:19014 Raw oee'
+R19030:19032 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19020:19025 Corelib.Init.Datatypes <> option ind
+R19027:19029 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+R19033:19038 Corelib.Init.Datatypes <> option ind
+R19040:19043 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+def 19062:19068 Raw combine
+R19075:19075 Stdlib.FSets.FMapList Raw t def
+R19077:19079 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 19071:19071 <> m:205
+R19090:19093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19084:19084 Stdlib.FSets.FMapList Raw t def
+R19086:19089 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R19094:19094 Stdlib.FSets.FMapList Raw t def
+R19096:19099 Stdlib.FSets.FMapList Raw oee' abbrev
+R19112:19112 Stdlib.FSets.FMapList <> m:205 var
+R19124:19126 Corelib.Init.Datatypes <> nil constr
+R19131:19133 Stdlib.FSets.FMapList Raw map def
+binder 19140:19141 <> e':208
+R19146:19146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19151:19151 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19159:19159 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19147:19150 Corelib.Init.Datatypes <> None constr
+R19152:19155 Corelib.Init.Datatypes <> Some constr
+R19157:19158 Stdlib.FSets.FMapList <> e':208 var
+R19172:19175 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19167:19167 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19169:19169 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19171:19171 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19207:19207 Stdlib.FSets.FMapList Raw t def
+R19209:19212 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 19204:19205 <> m':209
+R19217:19220 Corelib.Init.Datatypes <> list ind
+R19226:19228 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19223:19225 Stdlib.FSets.FMapList Raw key def
+R19229:19232 Stdlib.FSets.FMapList Raw oee' abbrev
+R19252:19253 Stdlib.FSets.FMapList <> m':209 var
+R19271:19273 Corelib.Init.Datatypes <> nil constr
+R19278:19280 Stdlib.FSets.FMapList Raw map def
+R19307:19307 Stdlib.FSets.FMapList <> m:205 var
+binder 19287:19287 <> e:212
+R19292:19292 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19299:19299 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19304:19304 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19293:19296 Corelib.Init.Datatypes <> Some constr
+R19298:19298 Stdlib.FSets.FMapList <> e:212 var
+R19300:19303 Corelib.Init.Datatypes <> None constr
+R19327:19330 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19320:19320 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19323:19323 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19326:19326 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19355:19363 Stdlib.FSets.FMapList X compare defax
+R19390:19391 Stdlib.Structures.OrderedType <> LT constr
+R19416:19417 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19398:19398 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19400:19400 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19415:19415 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19401:19401 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19408:19409 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19414:19414 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19402:19405 Corelib.Init.Datatypes <> Some constr
+R19410:19413 Corelib.Init.Datatypes <> None constr
+R19418:19424 Stdlib.FSets.FMapList <> combine:206 def
+R19428:19429 Stdlib.FSets.FMapList <> m':209 var
+R19446:19447 Stdlib.Structures.OrderedType <> EQ constr
+R19475:19476 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19454:19454 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19456:19456 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19474:19474 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19457:19457 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19464:19465 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19473:19473 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19458:19461 Corelib.Init.Datatypes <> Some constr
+R19466:19469 Corelib.Init.Datatypes <> Some constr
+R19477:19483 Stdlib.FSets.FMapList <> combine:206 def
+R19505:19506 Stdlib.Structures.OrderedType <> GT constr
+R19532:19533 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19513:19513 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19516:19516 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19531:19531 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19517:19517 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19522:19522 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19530:19530 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19518:19521 Corelib.Init.Datatypes <> None constr
+R19523:19526 Corelib.Init.Datatypes <> Some constr
+R19534:19544 Stdlib.FSets.FMapList <> combine_aux:210 var
+def 19596:19610 Raw fold_right_pair
+binder 19613:19613 <> A:213
+binder 19615:19615 <> B:214
+binder 19617:19617 <> C:215
+R19629:19630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19628:19628 Stdlib.FSets.FMapList <> A:213 var
+R19632:19633 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19631:19631 Stdlib.FSets.FMapList <> B:214 var
+R19635:19636 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19634:19634 Stdlib.FSets.FMapList <> C:215 var
+R19637:19637 Stdlib.FSets.FMapList <> C:215 var
+binder 19625:19625 <> f:216
+R19642:19645 Corelib.Init.Datatypes <> list ind
+R19649:19649 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19648:19648 Stdlib.FSets.FMapList <> A:213 var
+R19650:19650 Stdlib.FSets.FMapList <> B:214 var
+binder 19640:19640 <> l:217
+R19656:19656 Stdlib.FSets.FMapList <> C:215 var
+binder 19654:19654 <> i:218
+R19664:19678 Stdlib.Lists.List <> fold_right def
+R19711:19711 Stdlib.FSets.FMapList <> l:217 var
+R19709:19709 Stdlib.FSets.FMapList <> i:218 var
+binder 19685:19685 <> p:219
+R19690:19690 Stdlib.FSets.FMapList <> f:216 var
+R19701:19703 Corelib.Init.Datatypes <> snd def
+R19705:19705 Stdlib.FSets.FMapList <> p:219 var
+R19693:19695 Corelib.Init.Datatypes <> fst def
+R19697:19697 Stdlib.FSets.FMapList <> p:219 var
+def 19726:19733 Raw map2_alt
+binder 19735:19735 <> m:220
+binder 19737:19738 <> m':221
+R19764:19770 Stdlib.FSets.FMapList Raw combine def
+R19774:19775 Stdlib.FSets.FMapList <> m':221 var
+R19772:19772 Stdlib.FSets.FMapList <> m:220 var
+R19754:19754 Stdlib.FSets.FMapList Raw t def
+R19756:19759 Stdlib.FSets.FMapList Raw oee' abbrev
+binder 19749:19750 <> m0:222
+R19811:19813 Stdlib.FSets.FMapList Raw map def
+R19844:19845 Stdlib.FSets.FMapList <> m0:222 var
+binder 19820:19820 <> p:223
+R19825:19825 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R19836:19838 Corelib.Init.Datatypes <> snd def
+R19840:19840 Stdlib.FSets.FMapList <> p:223 var
+R19828:19830 Corelib.Init.Datatypes <> fst def
+R19832:19832 Stdlib.FSets.FMapList <> p:223 var
+R19791:19791 Stdlib.FSets.FMapList Raw t def
+R19794:19799 Corelib.Init.Datatypes <> option ind
+R19801:19805 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+binder 19786:19787 <> m1:224
+R19852:19866 Stdlib.FSets.FMapList Raw fold_right_pair def
+R19896:19898 Corelib.Init.Datatypes <> nil constr
+R19893:19894 Stdlib.FSets.FMapList <> m1:224 var
+R19869:19879 Stdlib.FSets.FMapList Raw option_cons def
+R19885:19889 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+prf 19908:19921 Raw map2_alt_equiv
+binder 19932:19932 <> m:225
+binder 19934:19935 <> m':226
+R19951:19953 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19938:19945 Stdlib.FSets.FMapList Raw map2_alt def
+R19949:19950 Stdlib.FSets.FMapList <> m':226 var
+R19947:19947 Stdlib.FSets.FMapList <> m:225 var
+R19954:19957 Stdlib.FSets.FMapList Raw map2 def
+R19961:19962 Stdlib.FSets.FMapList <> m':226 var
+R19959:19959 Stdlib.FSets.FMapList <> m:225 var
+R19980:19987 Stdlib.FSets.FMapList Raw map2_alt def
+R20353:20361 Stdlib.FSets.FMapList X compare defax
+prf 20454:20468 Raw combine_lelistA
+binder 20481:20481 <> m:227
+binder 20483:20484 <> m':228
+R20489:20491 Stdlib.FSets.FMapList Raw key def
+binder 20487:20487 <> x:229
+R20496:20498 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 20494:20494 <> e:230
+R20504:20507 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 20501:20502 <> e':231
+R20514:20517 Stdlib.FSets.FMapList Raw oee' abbrev
+binder 20510:20512 <> e'':232
+R20549:20554 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20523:20529 Stdlib.Sorting.Sorted <> lelistA abbrev
+R20548:20548 Stdlib.FSets.FMapList <> m:227 var
+R20542:20542 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20544:20544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20546:20546 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20543:20543 Stdlib.FSets.FMapList <> x:229 var
+R20545:20545 Stdlib.FSets.FMapList <> e:230 var
+R20533:20535 Stdlib.FSets.FMapList Raw ltk def
+R20537:20539 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+R20584:20589 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20555:20561 Stdlib.Sorting.Sorted <> lelistA abbrev
+R20582:20583 Stdlib.FSets.FMapList <> m':228 var
+R20575:20575 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20577:20577 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20580:20580 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20576:20576 Stdlib.FSets.FMapList <> x:229 var
+R20578:20579 Stdlib.FSets.FMapList <> e':231 var
+R20565:20567 Stdlib.FSets.FMapList Raw ltk def
+R20569:20572 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R20590:20596 Stdlib.Sorting.Sorted <> lelistA abbrev
+R20619:20625 Stdlib.FSets.FMapList Raw combine def
+R20629:20630 Stdlib.FSets.FMapList <> m':228 var
+R20627:20627 Stdlib.FSets.FMapList <> m:227 var
+R20610:20610 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20612:20612 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20616:20616 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20611:20611 Stdlib.FSets.FMapList <> x:229 var
+R20613:20615 Stdlib.FSets.FMapList <> e'':232 var
+R20600:20602 Stdlib.FSets.FMapList Raw ltk def
+R20604:20607 Stdlib.FSets.FMapList Raw oee' abbrev
+R20686:20696 Stdlib.FSets.FMapList Raw map_lelistA thm
+R20768:20774 Stdlib.FSets.FMapList Raw combine def
+R20792:20794 Corelib.Init.Datatypes <> nil constr
+R20785:20788 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20777:20777 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20780:20781 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20784:20784 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20810:20812 Stdlib.FSets.FMapList Raw map def
+R20857:20858 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20850:20850 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20853:20853 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20856:20856 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 20819:20819 <> e:233
+R20824:20824 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20831:20831 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20846:20846 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20825:20828 Corelib.Init.Datatypes <> Some constr
+R20830:20830 Stdlib.FSets.FMapList <> e:233 var
+R20832:20835 Corelib.Init.Datatypes <> None constr
+R20841:20844 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 20819:20819 <> e:234
+R20830:20830 Stdlib.FSets.FMapList <> e:234 var
+R20882:20892 Stdlib.FSets.FMapList Raw map_lelistA thm
+R20994:21002 Stdlib.FSets.FMapList X compare defax
+prf 21166:21179 Raw combine_sorted
+binder 21192:21192 <> m:235
+R21200:21203 Stdlib.Sorting.Sorted <> sort abbrev
+R21216:21216 Stdlib.FSets.FMapList <> m:235 var
+R21207:21209 Stdlib.FSets.FMapList Raw ltk def
+R21211:21213 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 21195:21196 <> Hm:236
+binder 21219:21220 <> m':237
+R21229:21232 Stdlib.Sorting.Sorted <> sort abbrev
+R21246:21247 Stdlib.FSets.FMapList <> m':237 var
+R21236:21238 Stdlib.FSets.FMapList Raw ltk def
+R21240:21243 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 21223:21225 <> Hm':238
+R21253:21256 Stdlib.Sorting.Sorted <> sort abbrev
+R21271:21277 Stdlib.FSets.FMapList Raw combine def
+R21281:21282 Stdlib.FSets.FMapList <> m':237 var
+R21279:21279 Stdlib.FSets.FMapList <> m:235 var
+R21260:21262 Stdlib.FSets.FMapList Raw ltk def
+R21264:21267 Stdlib.FSets.FMapList Raw oee' abbrev
+R21347:21356 Stdlib.FSets.FMapList Raw map_sorted thm
+R21437:21443 Stdlib.FSets.FMapList Raw combine def
+R21460:21462 Corelib.Init.Datatypes <> nil constr
+R21453:21456 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21446:21446 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21449:21450 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21452:21452 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21478:21480 Stdlib.FSets.FMapList Raw map def
+R21524:21525 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21518:21518 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21521:21521 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21523:21523 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 21487:21487 <> e:239
+R21492:21492 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21499:21499 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21514:21514 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21493:21496 Corelib.Init.Datatypes <> Some constr
+R21498:21498 Stdlib.FSets.FMapList <> e:239 var
+R21500:21503 Corelib.Init.Datatypes <> None constr
+R21509:21512 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 21487:21487 <> e:240
+R21498:21498 Stdlib.FSets.FMapList <> e:240 var
+R21548:21557 Stdlib.FSets.FMapList Raw map_sorted thm
+R21656:21664 Stdlib.FSets.FMapList X compare defax
+R21758:21764 Stdlib.Sorting.Sorted <> lelistA abbrev
+R21800:21801 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21793:21793 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21796:21796 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21799:21799 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21784:21784 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21786:21787 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21790:21790 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21767:21769 Stdlib.FSets.FMapList Raw ltk def
+R21777:21780 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R21830:21844 Stdlib.FSets.FMapList Raw combine_lelistA thm
+R21945:21951 Stdlib.Sorting.Sorted <> lelistA abbrev
+R21971:21971 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21973:21974 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21977:21977 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21954:21956 Stdlib.FSets.FMapList Raw ltk def
+R21964:21967 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+R22005:22005 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22008:22008 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22011:22011 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21993:21998 Stdlib.FSets.FMapList Raw Inf_eq thm
+R22035:22049 Stdlib.FSets.FMapList Raw combine_lelistA thm
+R22150:22156 Stdlib.Sorting.Sorted <> lelistA abbrev
+R22222:22228 Stdlib.FSets.FMapList Raw combine def
+R22236:22237 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22231:22231 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22233:22233 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22235:22235 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22176:22176 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22179:22180 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22196:22196 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22181:22181 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22186:22187 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22195:22195 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22182:22185 Corelib.Init.Datatypes <> None constr
+R22188:22191 Corelib.Init.Datatypes <> Some constr
+R22159:22161 Stdlib.FSets.FMapList Raw ltk def
+R22169:22172 Stdlib.FSets.FMapList Raw oee' abbrev
+R22262:22268 Stdlib.Sorting.Sorted <> lelistA abbrev
+R22301:22302 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22296:22296 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22298:22298 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22300:22300 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22287:22287 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22290:22291 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22293:22293 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22271:22273 Stdlib.FSets.FMapList Raw ltk def
+R22281:22283 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+R22330:22344 Stdlib.FSets.FMapList Raw combine_lelistA thm
+prf 22369:22379 Raw map2_sorted
+binder 22392:22392 <> m:241
+R22400:22403 Stdlib.Sorting.Sorted <> sort abbrev
+R22416:22416 Stdlib.FSets.FMapList <> m:241 var
+R22407:22409 Stdlib.FSets.FMapList Raw ltk def
+R22411:22413 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 22395:22396 <> Hm:242
+binder 22419:22420 <> m':243
+R22429:22432 Stdlib.Sorting.Sorted <> sort abbrev
+R22446:22447 Stdlib.FSets.FMapList <> m':243 var
+R22436:22438 Stdlib.FSets.FMapList Raw ltk def
+R22440:22443 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 22423:22425 <> Hm':244
+R22453:22456 Stdlib.Sorting.Sorted <> sort abbrev
+R22472:22475 Stdlib.FSets.FMapList Raw map2 def
+R22479:22480 Stdlib.FSets.FMapList <> m':243 var
+R22477:22477 Stdlib.FSets.FMapList <> m:241 var
+R22460:22462 Stdlib.FSets.FMapList Raw ltk def
+R22464:22468 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R22512:22525 Stdlib.FSets.FMapList Raw map2_alt_equiv thm
+R22536:22543 Stdlib.FSets.FMapList Raw map2_alt def
+R22559:22572 Stdlib.FSets.FMapList Raw combine_sorted thm
+R22593:22599 Stdlib.FSets.FMapList Raw combine def
+R22646:22649 Stdlib.FSets.FMapList Raw oee' abbrev
+binder 22642:22642 <> p:245
+R22654:22654 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R22665:22667 Corelib.Init.Datatypes <> snd def
+R22669:22669 Stdlib.FSets.FMapList <> p:245 var
+R22657:22659 Corelib.Init.Datatypes <> fst def
+R22661:22661 Stdlib.FSets.FMapList <> p:245 var
+binder 22642:22642 <> p:246
+R22669:22669 Stdlib.FSets.FMapList <> p:246 var
+R22661:22661 Stdlib.FSets.FMapList <> p:246 var
+R22687:22696 Stdlib.FSets.FMapList Raw map_sorted thm
+R22707:22712 Corelib.Init.Datatypes <> option ind
+R22714:22718 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R22739:22741 Stdlib.FSets.FMapList Raw map def
+R23179:23179 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23182:23183 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23199:23199 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23184:23187 Corelib.Init.Datatypes <> None constr
+R23193:23197 Stdlib.FSets.FMapList <> Raw.Elt3.elt'' var
+R23167:23172 Stdlib.FSets.FMapList Raw Inf_lt thm
+def 23225:23236 Raw at_least_one
+R23241:23246 Corelib.Init.Datatypes <> option ind
+R23248:23250 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 23239:23239 <> o:247
+R23256:23261 Corelib.Init.Datatypes <> option ind
+R23263:23266 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 23253:23254 <> o':248
+R23283:23284 Stdlib.FSets.FMapList <> o':248 var
+R23280:23280 Stdlib.FSets.FMapList <> o:247 var
+R23296:23299 Corelib.Init.Datatypes <> None constr
+R23302:23305 Corelib.Init.Datatypes <> None constr
+R23310:23313 Corelib.Init.Datatypes <> None constr
+R23329:23332 Corelib.Init.Datatypes <> Some constr
+R23334:23334 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23336:23336 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23339:23339 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23335:23335 Stdlib.FSets.FMapList <> o:247 var
+R23337:23338 Stdlib.FSets.FMapList <> o':248 var
+prf 23355:23363 Raw combine_1
+binder 23376:23376 <> m:251
+R23384:23387 Stdlib.Sorting.Sorted <> sort abbrev
+R23400:23400 Stdlib.FSets.FMapList <> m:251 var
+R23391:23393 Stdlib.FSets.FMapList Raw ltk def
+R23395:23397 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 23379:23380 <> Hm:252
+binder 23403:23404 <> m':253
+R23413:23416 Stdlib.Sorting.Sorted <> sort abbrev
+R23430:23431 Stdlib.FSets.FMapList <> m':253 var
+R23420:23422 Stdlib.FSets.FMapList Raw ltk def
+R23424:23427 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 23407:23409 <> Hm':254
+R23437:23439 Stdlib.FSets.FMapList Raw key def
+binder 23435:23435 <> x:255
+R23466:23468 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23445:23448 Stdlib.FSets.FMapList Raw find def
+R23453:23459 Stdlib.FSets.FMapList Raw combine def
+R23463:23464 Stdlib.FSets.FMapList <> m':253 var
+R23461:23461 Stdlib.FSets.FMapList <> m:251 var
+R23450:23450 Stdlib.FSets.FMapList <> x:255 var
+R23469:23480 Stdlib.FSets.FMapList Raw at_least_one def
+R23494:23497 Stdlib.FSets.FMapList Raw find def
+R23501:23502 Stdlib.FSets.FMapList <> m':253 var
+R23499:23499 Stdlib.FSets.FMapList <> x:255 var
+R23483:23486 Stdlib.FSets.FMapList Raw find def
+R23490:23490 Stdlib.FSets.FMapList <> m:251 var
+R23488:23488 Stdlib.FSets.FMapList <> x:255 var
+R23637:23645 Stdlib.FSets.FMapList X compare defax
+R23783:23791 Stdlib.FSets.FMapList X compare defax
+R23972:23980 Stdlib.FSets.FMapList X compare defax
+R24149:24157 Stdlib.FSets.FMapList X compare defax
+R24190:24198 Stdlib.FSets.FMapList X compare defax
+R24236:24244 Stdlib.FSets.FMapList X compare defax
+R24464:24466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24431:24434 Stdlib.FSets.FMapList Raw find def
+R24439:24445 Stdlib.FSets.FMapList Raw combine def
+R24454:24457 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24448:24448 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24450:24451 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24453:24453 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24467:24478 Stdlib.FSets.FMapList Raw at_least_one def
+R24486:24489 Stdlib.FSets.FMapList Raw find def
+R24480:24483 Corelib.Init.Datatypes <> None constr
+R24539:24542 Stdlib.FSets.FMapList Raw find def
+R24610:24612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24577:24580 Stdlib.FSets.FMapList Raw find def
+R24585:24591 Stdlib.FSets.FMapList Raw combine def
+R24600:24603 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24594:24594 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24596:24597 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24599:24599 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24613:24616 Corelib.Init.Datatypes <> Some constr
+R24618:24618 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24625:24626 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24636:24636 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24619:24622 Corelib.Init.Datatypes <> Some constr
+R24627:24630 Stdlib.FSets.FMapList Raw find def
+R24680:24683 Stdlib.FSets.FMapList Raw find def
+R24751:24770 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24718:24721 Stdlib.FSets.FMapList Raw find def
+R24726:24732 Stdlib.FSets.FMapList Raw combine def
+R24741:24744 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24735:24735 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24737:24738 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24740:24740 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24771:24782 Stdlib.FSets.FMapList Raw at_least_one def
+R24796:24799 Stdlib.FSets.FMapList Raw find def
+R24785:24788 Stdlib.FSets.FMapList Raw find def
+R24849:24852 Stdlib.FSets.FMapList Raw find def
+def 24889:24907 Raw at_least_one_then_f
+R24912:24917 Corelib.Init.Datatypes <> option ind
+R24919:24921 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 24910:24910 <> o:256
+R24927:24932 Corelib.Init.Datatypes <> option ind
+R24934:24937 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 24924:24925 <> o':257
+R24954:24955 Stdlib.FSets.FMapList <> o':257 var
+R24951:24951 Stdlib.FSets.FMapList <> o:256 var
+R24967:24970 Corelib.Init.Datatypes <> None constr
+R24973:24976 Corelib.Init.Datatypes <> None constr
+R24981:24984 Corelib.Init.Datatypes <> None constr
+R25000:25000 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R25004:25005 Stdlib.FSets.FMapList <> o':257 var
+R25002:25002 Stdlib.FSets.FMapList <> o:256 var
+prf 25021:25026 Raw map2_0
+binder 25039:25039 <> m:260
+R25047:25050 Stdlib.Sorting.Sorted <> sort abbrev
+R25063:25063 Stdlib.FSets.FMapList <> m:260 var
+R25054:25056 Stdlib.FSets.FMapList Raw ltk def
+R25058:25060 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 25042:25043 <> Hm:261
+binder 25066:25067 <> m':262
+R25076:25079 Stdlib.Sorting.Sorted <> sort abbrev
+R25093:25094 Stdlib.FSets.FMapList <> m':262 var
+R25083:25085 Stdlib.FSets.FMapList Raw ltk def
+R25087:25090 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 25070:25072 <> Hm':263
+R25100:25102 Stdlib.FSets.FMapList Raw key def
+binder 25098:25098 <> x:264
+R25126:25128 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25108:25111 Stdlib.FSets.FMapList Raw find def
+R25116:25119 Stdlib.FSets.FMapList Raw map2 def
+R25123:25124 Stdlib.FSets.FMapList <> m':262 var
+R25121:25121 Stdlib.FSets.FMapList <> m:260 var
+R25113:25113 Stdlib.FSets.FMapList <> x:264 var
+R25129:25147 Stdlib.FSets.FMapList Raw at_least_one_then_f def
+R25161:25164 Stdlib.FSets.FMapList Raw find def
+R25168:25169 Stdlib.FSets.FMapList <> m':262 var
+R25166:25166 Stdlib.FSets.FMapList <> x:264 var
+R25150:25153 Stdlib.FSets.FMapList Raw find def
+R25157:25157 Stdlib.FSets.FMapList <> m:260 var
+R25155:25155 Stdlib.FSets.FMapList <> x:264 var
+R25201:25214 Stdlib.FSets.FMapList Raw map2_alt_equiv thm
+R25225:25232 Stdlib.FSets.FMapList Raw map2_alt def
+R25247:25255 Stdlib.FSets.FMapList Raw combine_1 thm
+R25281:25294 Stdlib.FSets.FMapList Raw combine_sorted thm
+R25324:25327 Stdlib.FSets.FMapList Raw oee' abbrev
+binder 25320:25320 <> p:265
+R25332:25332 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R25343:25345 Corelib.Init.Datatypes <> snd def
+R25347:25347 Stdlib.FSets.FMapList <> p:265 var
+R25335:25337 Corelib.Init.Datatypes <> fst def
+R25339:25339 Stdlib.FSets.FMapList <> p:265 var
+binder 25320:25320 <> p:266
+R25347:25347 Stdlib.FSets.FMapList <> p:266 var
+R25339:25339 Stdlib.FSets.FMapList <> p:266 var
+R25364:25370 Stdlib.FSets.FMapList Raw combine def
+R25407:25410 Stdlib.FSets.FMapList Raw find def
+R25446:25449 Stdlib.FSets.FMapList Raw find def
+R25546:25549 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25543:25543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25552:25552 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25570:25570 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25579:25582 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25599:25599 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R25574:25575 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25572:25572 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25577:25577 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25589:25592 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25584:25584 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25585:25588 Corelib.Init.Datatypes <> None constr
+R25594:25594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25595:25598 Corelib.Init.Datatypes <> None constr
+R25802:25810 Stdlib.FSets.FMapList X compare defax
+R25882:25882 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25885:25885 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25889:25889 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26076:26079 Stdlib.FSets.FMapList Raw find def
+R26117:26119 Stdlib.FSets.FMapList Raw ltk def
+R26146:26146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26148:26148 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26157:26157 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26149:26149 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26152:26152 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26156:26156 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26133:26133 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26135:26135 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26144:26144 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26136:26136 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26139:26139 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26143:26143 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26127:26130 Stdlib.FSets.FMapList Raw oee' abbrev
+R26202:26215 Stdlib.FSets.FMapList Raw Sort_Inf_NotIn thm
+R26221:26226 Stdlib.FSets.FMapList Raw Inf_lt thm
+R26263:26268 Stdlib.FSets.FMapList Raw find_2 thm
+R26331:26333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26307:26325 Stdlib.FSets.FMapList Raw at_least_one_then_f def
+R26334:26334 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R26475:26475 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R26595:26598 Stdlib.FSets.FMapList Raw find def
+R26639:26641 Stdlib.FSets.FMapList Raw eqk def
+R26668:26668 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26670:26670 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26679:26679 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26671:26671 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26674:26674 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26678:26678 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26655:26655 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26657:26657 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26666:26666 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26658:26658 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26661:26661 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26665:26665 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26649:26652 Stdlib.FSets.FMapList Raw oee' abbrev
+R26748:26761 Stdlib.FSets.FMapList Raw Sort_Inf_NotIn thm
+R26767:26772 Stdlib.FSets.FMapList Raw Inf_eq thm
+R26775:26781 Stdlib.FSets.FMapList Raw eqk_sym thm
+R26822:26827 Stdlib.FSets.FMapList Raw find_2 thm
+R26891:26891 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R27139:27147 Stdlib.FSets.FMapList X compare defax
+R27227:27227 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R27338:27341 Stdlib.FSets.FMapList Raw find def
+R27379:27381 Stdlib.FSets.FMapList Raw ltk def
+R27408:27408 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27410:27410 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27419:27419 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27411:27411 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27414:27414 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27418:27418 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27395:27395 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27397:27397 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27406:27406 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27398:27398 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27401:27401 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27405:27405 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27389:27392 Stdlib.FSets.FMapList Raw oee' abbrev
+R27464:27477 Stdlib.FSets.FMapList Raw Sort_Inf_NotIn thm
+R27483:27488 Stdlib.FSets.FMapList Raw Inf_lt thm
+R27525:27530 Stdlib.FSets.FMapList Raw find_2 thm
+R27630:27630 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+prf 27822:27827 Raw map2_1
+binder 27840:27840 <> m:267
+R27848:27851 Stdlib.Sorting.Sorted <> sort abbrev
+R27864:27864 Stdlib.FSets.FMapList <> m:267 var
+R27855:27857 Stdlib.FSets.FMapList Raw ltk def
+R27859:27861 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 27843:27844 <> Hm:268
+binder 27867:27868 <> m':269
+R27877:27880 Stdlib.Sorting.Sorted <> sort abbrev
+R27894:27895 Stdlib.FSets.FMapList <> m':269 var
+R27884:27886 Stdlib.FSets.FMapList Raw ltk def
+R27888:27891 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 27871:27873 <> Hm':270
+R27900:27902 Stdlib.FSets.FMapList Raw key def
+binder 27898:27898 <> x:271
+R27925:27930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27914:27917 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R27908:27909 Stdlib.FSets.FMapList Raw In def
+R27913:27913 Stdlib.FSets.FMapList <> m:267 var
+R27911:27911 Stdlib.FSets.FMapList <> x:271 var
+R27918:27919 Stdlib.FSets.FMapList Raw In def
+R27923:27924 Stdlib.FSets.FMapList <> m':269 var
+R27921:27921 Stdlib.FSets.FMapList <> x:271 var
+R27949:27951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27931:27934 Stdlib.FSets.FMapList Raw find def
+R27939:27942 Stdlib.FSets.FMapList Raw map2 def
+R27946:27947 Stdlib.FSets.FMapList <> m':269 var
+R27944:27944 Stdlib.FSets.FMapList <> m:267 var
+R27936:27936 Stdlib.FSets.FMapList <> x:271 var
+R27952:27952 Stdlib.FSets.FMapList <> Raw.Elt3.f var
+R27966:27969 Stdlib.FSets.FMapList Raw find def
+R27973:27974 Stdlib.FSets.FMapList <> m':269 var
+R27971:27971 Stdlib.FSets.FMapList <> x:271 var
+R27955:27958 Stdlib.FSets.FMapList Raw find def
+R27962:27962 Stdlib.FSets.FMapList <> m:267 var
+R27960:27960 Stdlib.FSets.FMapList <> x:271 var
+R28003:28008 Stdlib.FSets.FMapList Raw map2_0 thm
+R28059:28064 Stdlib.FSets.FMapList Raw find_1 thm
+R28086:28089 Stdlib.FSets.FMapList Raw find def
+R28123:28128 Stdlib.FSets.FMapList Raw find_1 thm
+R28151:28154 Stdlib.FSets.FMapList Raw find def
+prf 28187:28192 Raw map2_2
+binder 28205:28205 <> m:272
+R28213:28216 Stdlib.Sorting.Sorted <> sort abbrev
+R28229:28229 Stdlib.FSets.FMapList <> m:272 var
+R28220:28222 Stdlib.FSets.FMapList Raw ltk def
+R28224:28226 Stdlib.FSets.FMapList <> Raw.Elt3.elt var
+binder 28208:28209 <> Hm:273
+binder 28232:28233 <> m':274
+R28242:28245 Stdlib.Sorting.Sorted <> sort abbrev
+R28259:28260 Stdlib.FSets.FMapList <> m':274 var
+R28249:28251 Stdlib.FSets.FMapList Raw ltk def
+R28253:28256 Stdlib.FSets.FMapList <> Raw.Elt3.elt' var
+binder 28236:28238 <> Hm':275
+R28265:28267 Stdlib.FSets.FMapList Raw key def
+binder 28263:28263 <> x:276
+R28289:28292 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28273:28274 Stdlib.FSets.FMapList Raw In def
+R28279:28282 Stdlib.FSets.FMapList Raw map2 def
+R28286:28287 Stdlib.FSets.FMapList <> m':274 var
+R28284:28284 Stdlib.FSets.FMapList <> m:272 var
+R28276:28276 Stdlib.FSets.FMapList <> x:276 var
+R28299:28302 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R28293:28294 Stdlib.FSets.FMapList Raw In def
+R28298:28298 Stdlib.FSets.FMapList <> m:272 var
+R28296:28296 Stdlib.FSets.FMapList <> x:276 var
+R28303:28304 Stdlib.FSets.FMapList Raw In def
+R28308:28309 Stdlib.FSets.FMapList <> m':274 var
+R28306:28306 Stdlib.FSets.FMapList <> x:276 var
+R28363:28368 Stdlib.FSets.FMapList Raw map2_0 thm
+R28391:28396 Stdlib.FSets.FMapList Raw find_1 thm
+R28399:28409 Stdlib.FSets.FMapList Raw map2_sorted thm
+R28437:28442 Stdlib.FSets.FMapList Raw find_2 thm
+R28466:28471 Stdlib.FSets.FMapList Raw find_2 thm
+R28493:28496 Stdlib.FSets.FMapList Raw find def
+R28517:28520 Stdlib.FSets.FMapList Raw find def
+R28650:28653 Stdlib.FSets.FMapList Raw.Elt3 <> sec
+R28660:28662 Stdlib.FSets.FMapList Raw <> mod
+R28682:28692 Stdlib.Structures.OrderedType OrderedType <> modtype
+R28698:28698 Stdlib.FSets.FMapInterface S <> modtype
+R28717:28717 Stdlib.FSets.FMapList X <> mod
+mod 28673:28676 <> Make
+R28734:28736 Stdlib.FSets.FMapList Raw <> mod
+R28738:28738 Stdlib.FSets.FMapList X <> mod
+mod 28727:28729 <> Make.Raw
+R28753:28753 Stdlib.FSets.FMapList X <> mod
+mod 28748:28748 <> Make.E
+def 28768:28770 Make key
+R28775:28777 Stdlib.FSets.FMapList Make t defax
+rec 28788:28792 Make slist
+proj 28811:28814 Make this
+proj 28830:28835 Make sorted
+binder 28795:28797 <> elt:277
+R28819:28823 Stdlib.FSets.FMapList Make t def
+R28825:28827 Stdlib.FSets.FMapList <> elt:277 var
+R28839:28842 Stdlib.Sorting.Sorted <> sort abbrev
+R28862:28865 Stdlib.FSets.FMapList <> this:279 meth
+R28846:28855 Stdlib.FSets.FMapList Make ltk def
+R28857:28859 Stdlib.FSets.FMapList <> elt:277 var
+def 28880:28880 Make t
+binder 28883:28885 <> elt:281
+R28903:28907 Stdlib.FSets.FMapList Make slist rec
+R28909:28911 Stdlib.FSets.FMapList <> elt:281 var
+sec 28923:28925 Make Elt
+var 28938:28940 Make.Elt elt
+var 28942:28945 Make.Elt elt'
+var 28947:28951 Make.Elt elt''
+R28980:28980 Stdlib.FSets.FMapList Make t def
+R28982:28984 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29009:29011 Stdlib.FSets.FMapList Make key def
+R29034:29036 Stdlib.FSets.FMapList <> Make.Elt.elt var
+def 29052:29056 Make empty
+R29060:29060 Stdlib.FSets.FMapList Make t def
+R29062:29064 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29069:29079 Stdlib.FSets.FMapList Make Build_slist constr
+R29082:29097 Stdlib.FSets.FMapList Make empty_sorted thm
+R29099:29101 Stdlib.FSets.FMapList <> Make.Elt.elt var
+def 29117:29124 Make is_empty
+binder 29126:29126 <> m:288
+R29130:29133 Corelib.Init.Datatypes <> bool ind
+R29138:29149 Stdlib.FSets.FMapList Make is_empty def
+R29152:29155 Stdlib.FSets.FMapList Make this proj
+R29157:29157 Stdlib.FSets.FMapList <> m:288 var
+def 29173:29175 Make add
+binder 29177:29177 <> x:289
+binder 29179:29179 <> e:290
+binder 29181:29181 <> m:291
+R29185:29185 Stdlib.FSets.FMapList Make t def
+R29187:29189 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29194:29204 Stdlib.FSets.FMapList Make Build_slist constr
+R29207:29220 Stdlib.FSets.FMapList Make add_sorted thm
+R29235:29235 Stdlib.FSets.FMapList <> e:290 var
+R29233:29233 Stdlib.FSets.FMapList <> x:289 var
+R29223:29228 Stdlib.FSets.FMapList Make sorted proj
+R29230:29230 Stdlib.FSets.FMapList <> m:291 var
+def 29251:29254 Make find
+binder 29256:29256 <> x:292
+binder 29258:29258 <> m:293
+R29262:29267 Corelib.Init.Datatypes <> option ind
+R29269:29271 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29276:29283 Stdlib.FSets.FMapList Make find def
+R29288:29291 Stdlib.FSets.FMapList Make this proj
+R29293:29293 Stdlib.FSets.FMapList <> m:293 var
+R29285:29285 Stdlib.FSets.FMapList <> x:292 var
+def 29309:29314 Make remove
+binder 29316:29316 <> x:294
+binder 29318:29318 <> m:295
+R29322:29322 Stdlib.FSets.FMapList Make t def
+R29324:29326 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29331:29341 Stdlib.FSets.FMapList Make Build_slist constr
+R29344:29360 Stdlib.FSets.FMapList Make remove_sorted thm
+R29373:29373 Stdlib.FSets.FMapList <> x:294 var
+R29363:29368 Stdlib.FSets.FMapList Make sorted proj
+R29370:29370 Stdlib.FSets.FMapList <> m:295 var
+def 29389:29391 Make mem
+binder 29393:29393 <> x:296
+binder 29395:29395 <> m:297
+R29399:29402 Corelib.Init.Datatypes <> bool ind
+R29407:29413 Stdlib.FSets.FMapList Make mem def
+R29418:29421 Stdlib.FSets.FMapList Make this proj
+R29423:29423 Stdlib.FSets.FMapList <> m:297 var
+R29415:29415 Stdlib.FSets.FMapList <> x:296 var
+def 29439:29441 Make map
+binder 29443:29443 <> f:298
+binder 29445:29445 <> m:299
+R29449:29449 Stdlib.FSets.FMapList Make t def
+R29451:29454 Stdlib.FSets.FMapList <> Make.Elt.elt' var
+R29459:29469 Stdlib.FSets.FMapList Make Build_slist constr
+R29472:29485 Stdlib.FSets.FMapList Make map_sorted thm
+R29498:29498 Stdlib.FSets.FMapList <> f:298 var
+R29488:29493 Stdlib.FSets.FMapList Make sorted proj
+R29495:29495 Stdlib.FSets.FMapList <> m:299 var
+def 29514:29517 Make mapi
+R29525:29526 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29522:29524 Stdlib.FSets.FMapList Make key def
+R29530:29531 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29527:29529 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29532:29535 Stdlib.FSets.FMapList <> Make.Elt.elt' var
+binder 29520:29520 <> f:300
+binder 29538:29538 <> m:301
+R29542:29542 Stdlib.FSets.FMapList Make t def
+R29544:29547 Stdlib.FSets.FMapList <> Make.Elt.elt' var
+R29552:29562 Stdlib.FSets.FMapList Make Build_slist constr
+R29565:29579 Stdlib.FSets.FMapList Make mapi_sorted thm
+R29592:29592 Stdlib.FSets.FMapList <> f:300 var
+R29582:29587 Stdlib.FSets.FMapList Make sorted proj
+R29589:29589 Stdlib.FSets.FMapList <> m:301 var
+def 29608:29611 Make map2
+binder 29613:29613 <> f:302
+binder 29615:29615 <> m:303
+R29621:29621 Stdlib.FSets.FMapList Make t def
+R29623:29626 Stdlib.FSets.FMapList <> Make.Elt.elt' var
+binder 29618:29619 <> m':304
+R29631:29631 Stdlib.FSets.FMapList Make t def
+R29633:29637 Stdlib.FSets.FMapList <> Make.Elt.elt'' var
+R29645:29655 Stdlib.FSets.FMapList Make Build_slist constr
+R29658:29672 Stdlib.FSets.FMapList Make map2_sorted thm
+R29688:29693 Stdlib.FSets.FMapList Make sorted proj
+R29695:29696 Stdlib.FSets.FMapList <> m':304 var
+R29677:29682 Stdlib.FSets.FMapList Make sorted proj
+R29684:29684 Stdlib.FSets.FMapList <> m:303 var
+R29674:29674 Stdlib.FSets.FMapList <> f:302 var
+def 29713:29720 Make elements
+binder 29722:29722 <> m:305
+R29726:29729 Corelib.Init.Datatypes <> list ind
+R29735:29735 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R29732:29734 Stdlib.FSets.FMapList Make key def
+R29736:29738 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29745:29756 Stdlib.FSets.FMapList Make elements def
+R29758:29760 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29763:29766 Stdlib.FSets.FMapList Make this proj
+R29768:29768 Stdlib.FSets.FMapList <> m:305 var
+def 29784:29791 Make cardinal
+binder 29793:29793 <> m:306
+R29798:29803 Corelib.Init.Datatypes <> length def
+R29806:29809 Stdlib.FSets.FMapList Make this proj
+R29811:29811 Stdlib.FSets.FMapList <> m:306 var
+def 29827:29830 Make fold
+binder 29833:29833 <> A:307
+R29846:29847 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29843:29845 Stdlib.FSets.FMapList Make key def
+R29851:29852 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29848:29850 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29854:29855 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29853:29853 Stdlib.FSets.FMapList <> A:307 var
+R29856:29856 Stdlib.FSets.FMapList <> A:307 var
+binder 29841:29841 <> f:308
+binder 29859:29859 <> m:309
+R29864:29864 Stdlib.FSets.FMapList <> A:307 var
+binder 29862:29862 <> i:310
+R29869:29869 Stdlib.FSets.FMapList <> A:307 var
+R29875:29882 Stdlib.FSets.FMapList Make fold def
+R29884:29886 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29888:29888 Stdlib.FSets.FMapList <> A:307 var
+R29890:29890 Stdlib.FSets.FMapList <> f:308 var
+R29893:29896 Stdlib.FSets.FMapList Make this proj
+R29898:29898 Stdlib.FSets.FMapList <> m:309 var
+R29901:29901 Stdlib.FSets.FMapList <> i:310 var
+def 29916:29920 Make equal
+binder 29922:29924 <> cmp:311
+binder 29926:29926 <> m:312
+binder 29928:29929 <> m':313
+R29933:29936 Corelib.Init.Datatypes <> bool ind
+R29942:29950 Stdlib.FSets.FMapList Make equal def
+R29952:29954 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R29956:29958 Stdlib.FSets.FMapList <> cmp:311 var
+R29961:29964 Stdlib.FSets.FMapList Make this proj
+R29966:29966 Stdlib.FSets.FMapList <> m:312 var
+R29970:29973 Stdlib.FSets.FMapList Make this proj
+R29975:29976 Stdlib.FSets.FMapList <> m':313 var
+def 29993:29998 Make MapsTo
+binder 30000:30000 <> x:314
+binder 30002:30002 <> e:315
+binder 30004:30004 <> m:316
+R30016:30028 Stdlib.FSets.FMapList Make MapsTo def
+R30035:30038 Stdlib.FSets.FMapList Make this proj
+R30040:30040 Stdlib.FSets.FMapList <> m:316 var
+R30032:30032 Stdlib.FSets.FMapList <> e:315 var
+R30030:30030 Stdlib.FSets.FMapList <> x:314 var
+def 30056:30057 Make In
+binder 30059:30059 <> x:317
+binder 30061:30061 <> m:318
+R30073:30081 Stdlib.FSets.FMapList Make In def
+R30086:30089 Stdlib.FSets.FMapList Make this proj
+R30091:30091 Stdlib.FSets.FMapList <> m:318 var
+R30083:30083 Stdlib.FSets.FMapList <> x:317 var
+def 30107:30111 Make Empty
+binder 30113:30113 <> m:319
+R30125:30133 Stdlib.FSets.FMapList Make Empty def
+R30136:30139 Stdlib.FSets.FMapList Make this proj
+R30141:30141 Stdlib.FSets.FMapList <> m:319 var
+def 30158:30162 Make Equal
+binder 30164:30164 <> m:320
+binder 30166:30167 <> m':321
+binder 30179:30179 <> y:322
+R30190:30192 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30182:30185 Stdlib.FSets.FMapList Make find def
+R30189:30189 Stdlib.FSets.FMapList <> m:320 var
+R30187:30187 Stdlib.FSets.FMapList <> y:322 var
+R30193:30196 Stdlib.FSets.FMapList Make find def
+R30200:30201 Stdlib.FSets.FMapList <> m':321 var
+R30198:30198 Stdlib.FSets.FMapList <> y:322 var
+def 30216:30220 Make Equiv
+R30233:30234 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30230:30232 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30238:30239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30235:30237 Stdlib.FSets.FMapList <> Make.Elt.elt var
+binder 30223:30228 <> eq_elt:323
+binder 30246:30246 <> m:324
+binder 30248:30249 <> m':325
+R30263:30263 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30292:30306 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30367:30367 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 30271:30271 <> k:326
+R30280:30284 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30274:30275 Stdlib.FSets.FMapList Make In def
+R30279:30279 Stdlib.FSets.FMapList <> m:324 var
+R30277:30277 Stdlib.FSets.FMapList <> k:326 var
+R30285:30286 Stdlib.FSets.FMapList Make In def
+R30290:30291 Stdlib.FSets.FMapList <> m':325 var
+R30288:30288 Stdlib.FSets.FMapList <> k:326 var
+binder 30314:30314 <> k:327
+binder 30316:30316 <> e:328
+binder 30318:30319 <> e':329
+R30334:30337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30322:30327 Stdlib.FSets.FMapList Make MapsTo def
+R30333:30333 Stdlib.FSets.FMapList <> m:324 var
+R30331:30331 Stdlib.FSets.FMapList <> e:328 var
+R30329:30329 Stdlib.FSets.FMapList <> k:327 var
+R30352:30355 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30338:30343 Stdlib.FSets.FMapList Make MapsTo def
+R30350:30351 Stdlib.FSets.FMapList <> m':325 var
+R30347:30348 Stdlib.FSets.FMapList <> e':329 var
+R30345:30345 Stdlib.FSets.FMapList <> k:327 var
+R30356:30361 Stdlib.FSets.FMapList <> eq_elt:323 var
+R30365:30366 Stdlib.FSets.FMapList <> e':329 var
+R30363:30363 Stdlib.FSets.FMapList <> e:328 var
+def 30382:30387 Make Equivb
+binder 30389:30391 <> cmp:330
+binder 30393:30393 <> m:331
+binder 30395:30396 <> m':332
+R30409:30418 Stdlib.FSets.FMapList Make Equivb def
+R30420:30422 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30424:30426 Stdlib.FSets.FMapList <> cmp:330 var
+R30429:30432 Stdlib.FSets.FMapList Make this proj
+R30434:30434 Stdlib.FSets.FMapList <> m:331 var
+R30438:30441 Stdlib.FSets.FMapList Make this proj
+R30443:30444 Stdlib.FSets.FMapList <> m':332 var
+def 30461:30466 Make eq_key
+R30470:30470 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30478:30482 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30474:30474 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30471:30473 Stdlib.FSets.FMapList Make key def
+R30475:30477 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30483:30483 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30491:30495 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30487:30487 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30484:30486 Stdlib.FSets.FMapList Make key def
+R30488:30490 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30505:30514 Stdlib.FSets.FMapList Make eqk def
+R30516:30518 Stdlib.FSets.FMapList <> Make.Elt.elt var
+def 30533:30542 Make eq_key_elt
+R30546:30546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30554:30558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30550:30550 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30547:30549 Stdlib.FSets.FMapList Make key def
+R30551:30553 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30559:30559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30567:30571 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30563:30563 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30560:30562 Stdlib.FSets.FMapList Make key def
+R30564:30566 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30580:30590 Stdlib.FSets.FMapList Make eqke def
+R30592:30594 Stdlib.FSets.FMapList <> Make.Elt.elt var
+def 30609:30614 Make lt_key
+R30618:30618 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30626:30630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30622:30622 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30619:30621 Stdlib.FSets.FMapList Make key def
+R30623:30625 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30631:30631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30639:30643 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30635:30635 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30632:30634 Stdlib.FSets.FMapList Make key def
+R30636:30638 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30653:30662 Stdlib.FSets.FMapList Make ltk def
+R30664:30666 Stdlib.FSets.FMapList <> Make.Elt.elt var
+prf 30677:30684 Make MapsTo_1
+binder 30695:30695 <> m:333
+binder 30697:30697 <> x:334
+binder 30699:30699 <> y:335
+binder 30701:30701 <> e:336
+R30712:30715 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30704:30707 Stdlib.FSets.FMapList Make eq defax
+R30711:30711 Stdlib.FSets.FMapList <> y:335 var
+R30709:30709 Stdlib.FSets.FMapList <> x:334 var
+R30728:30731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30716:30721 Stdlib.FSets.FMapList Make MapsTo def
+R30727:30727 Stdlib.FSets.FMapList <> m:333 var
+R30725:30725 Stdlib.FSets.FMapList <> e:336 var
+R30723:30723 Stdlib.FSets.FMapList <> x:334 var
+R30732:30737 Stdlib.FSets.FMapList Make MapsTo def
+R30743:30743 Stdlib.FSets.FMapList <> m:333 var
+R30741:30741 Stdlib.FSets.FMapList <> e:336 var
+R30739:30739 Stdlib.FSets.FMapList <> y:335 var
+R30772:30787 Stdlib.FSets.FMapList Make MapsTo_eq thm
+R30789:30791 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30794:30797 Stdlib.FSets.FMapList Make this proj
+prf 30817:30821 Make mem_1
+binder 30832:30832 <> m:337
+binder 30834:30834 <> x:338
+R30843:30846 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30837:30838 Stdlib.FSets.FMapList Make In def
+R30842:30842 Stdlib.FSets.FMapList <> m:337 var
+R30840:30840 Stdlib.FSets.FMapList <> x:338 var
+R30854:30856 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30847:30849 Stdlib.FSets.FMapList Make mem def
+R30853:30853 Stdlib.FSets.FMapList <> m:337 var
+R30851:30851 Stdlib.FSets.FMapList <> x:338 var
+R30857:30860 Corelib.Init.Datatypes <> true constr
+R30889:30897 Stdlib.FSets.FMapList Make mem_1 thm
+R30899:30901 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R30904:30907 Stdlib.FSets.FMapList Make this proj
+R30913:30918 Stdlib.FSets.FMapList Make sorted proj
+prf 30937:30941 Make mem_2
+binder 30952:30952 <> m:339
+binder 30954:30954 <> x:340
+R30971:30974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30964:30966 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30957:30959 Stdlib.FSets.FMapList Make mem def
+R30963:30963 Stdlib.FSets.FMapList <> m:339 var
+R30961:30961 Stdlib.FSets.FMapList <> x:340 var
+R30967:30970 Corelib.Init.Datatypes <> true constr
+R30975:30976 Stdlib.FSets.FMapList Make In def
+R30980:30980 Stdlib.FSets.FMapList <> m:339 var
+R30978:30978 Stdlib.FSets.FMapList <> x:340 var
+R31009:31017 Stdlib.FSets.FMapList Make mem_2 thm
+R31019:31021 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31024:31027 Stdlib.FSets.FMapList Make this proj
+R31033:31038 Stdlib.FSets.FMapList Make sorted proj
+prf 31058:31064 Make empty_1
+R31068:31072 Stdlib.FSets.FMapList Make Empty def
+R31074:31078 Stdlib.FSets.FMapList Make empty def
+R31097:31107 Stdlib.FSets.FMapList Make empty_1 thm
+R31109:31111 Stdlib.FSets.FMapList <> Make.Elt.elt var
+prf 31128:31137 Make is_empty_1
+binder 31148:31148 <> m:341
+R31158:31161 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31151:31155 Stdlib.FSets.FMapList Make Empty def
+R31157:31157 Stdlib.FSets.FMapList <> m:341 var
+R31172:31174 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31162:31169 Stdlib.FSets.FMapList Make is_empty def
+R31171:31171 Stdlib.FSets.FMapList <> m:341 var
+R31175:31178 Corelib.Init.Datatypes <> true constr
+R31207:31220 Stdlib.FSets.FMapList Make is_empty_1 thm
+R31222:31224 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31227:31230 Stdlib.FSets.FMapList Make this proj
+prf 31249:31258 Make is_empty_2
+binder 31270:31270 <> m:342
+R31290:31293 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31283:31285 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31273:31280 Stdlib.FSets.FMapList Make is_empty def
+R31282:31282 Stdlib.FSets.FMapList <> m:342 var
+R31286:31289 Corelib.Init.Datatypes <> true constr
+R31294:31298 Stdlib.FSets.FMapList Make Empty def
+R31300:31300 Stdlib.FSets.FMapList <> m:342 var
+R31329:31342 Stdlib.FSets.FMapList Make is_empty_2 thm
+R31344:31346 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31349:31352 Stdlib.FSets.FMapList Make this proj
+prf 31372:31376 Make add_1
+binder 31387:31387 <> m:343
+binder 31389:31389 <> x:344
+binder 31391:31391 <> y:345
+binder 31393:31393 <> e:346
+R31404:31407 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31396:31399 Stdlib.FSets.FMapList Make eq defax
+R31403:31403 Stdlib.FSets.FMapList <> y:345 var
+R31401:31401 Stdlib.FSets.FMapList <> x:344 var
+R31408:31413 Stdlib.FSets.FMapList Make MapsTo def
+R31420:31422 Stdlib.FSets.FMapList Make add def
+R31428:31428 Stdlib.FSets.FMapList <> m:343 var
+R31426:31426 Stdlib.FSets.FMapList <> e:346 var
+R31424:31424 Stdlib.FSets.FMapList <> x:344 var
+R31417:31417 Stdlib.FSets.FMapList <> e:346 var
+R31415:31415 Stdlib.FSets.FMapList <> y:345 var
+R31458:31466 Stdlib.FSets.FMapList Make add_1 thm
+R31468:31470 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31473:31476 Stdlib.FSets.FMapList Make this proj
+prf 31495:31499 Make add_2
+binder 31510:31510 <> m:347
+binder 31512:31512 <> x:348
+binder 31514:31514 <> y:349
+binder 31516:31516 <> e:350
+binder 31518:31519 <> e':351
+R31532:31535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31522:31523 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R31524:31527 Stdlib.FSets.FMapList Make eq defax
+R31531:31531 Stdlib.FSets.FMapList <> y:349 var
+R31529:31529 Stdlib.FSets.FMapList <> x:348 var
+R31548:31551 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31536:31541 Stdlib.FSets.FMapList Make MapsTo def
+R31547:31547 Stdlib.FSets.FMapList <> m:347 var
+R31545:31545 Stdlib.FSets.FMapList <> e:350 var
+R31543:31543 Stdlib.FSets.FMapList <> y:349 var
+R31552:31557 Stdlib.FSets.FMapList Make MapsTo def
+R31564:31566 Stdlib.FSets.FMapList Make add def
+R31573:31573 Stdlib.FSets.FMapList <> m:347 var
+R31570:31571 Stdlib.FSets.FMapList <> e':351 var
+R31568:31568 Stdlib.FSets.FMapList <> x:348 var
+R31561:31561 Stdlib.FSets.FMapList <> e:350 var
+R31559:31559 Stdlib.FSets.FMapList <> y:349 var
+R31603:31611 Stdlib.FSets.FMapList Make add_2 thm
+R31613:31615 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31618:31621 Stdlib.FSets.FMapList Make this proj
+prf 31640:31644 Make add_3
+binder 31655:31655 <> m:352
+binder 31657:31657 <> x:353
+binder 31659:31659 <> y:354
+binder 31661:31661 <> e:355
+binder 31663:31664 <> e':356
+R31677:31680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31667:31668 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R31669:31672 Stdlib.FSets.FMapList Make eq defax
+R31676:31676 Stdlib.FSets.FMapList <> y:354 var
+R31674:31674 Stdlib.FSets.FMapList <> x:353 var
+R31704:31707 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31681:31686 Stdlib.FSets.FMapList Make MapsTo def
+R31693:31695 Stdlib.FSets.FMapList Make add def
+R31702:31702 Stdlib.FSets.FMapList <> m:352 var
+R31699:31700 Stdlib.FSets.FMapList <> e':356 var
+R31697:31697 Stdlib.FSets.FMapList <> x:353 var
+R31690:31690 Stdlib.FSets.FMapList <> e:355 var
+R31688:31688 Stdlib.FSets.FMapList <> y:354 var
+R31708:31713 Stdlib.FSets.FMapList Make MapsTo def
+R31719:31719 Stdlib.FSets.FMapList <> m:352 var
+R31717:31717 Stdlib.FSets.FMapList <> e:355 var
+R31715:31715 Stdlib.FSets.FMapList <> y:354 var
+R31748:31756 Stdlib.FSets.FMapList Make add_3 thm
+R31758:31760 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31763:31766 Stdlib.FSets.FMapList Make this proj
+prf 31786:31793 Make remove_1
+binder 31804:31804 <> m:357
+binder 31806:31806 <> x:358
+binder 31808:31808 <> y:359
+R31819:31822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31811:31814 Stdlib.FSets.FMapList Make eq defax
+R31818:31818 Stdlib.FSets.FMapList <> y:359 var
+R31816:31816 Stdlib.FSets.FMapList <> x:358 var
+R31823:31824 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R31825:31826 Stdlib.FSets.FMapList Make In def
+R31831:31836 Stdlib.FSets.FMapList Make remove def
+R31840:31840 Stdlib.FSets.FMapList <> m:357 var
+R31838:31838 Stdlib.FSets.FMapList <> x:358 var
+R31828:31828 Stdlib.FSets.FMapList <> y:359 var
+R31870:31881 Stdlib.FSets.FMapList Make remove_1 thm
+R31883:31885 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R31888:31891 Stdlib.FSets.FMapList Make this proj
+R31897:31902 Stdlib.FSets.FMapList Make sorted proj
+prf 31921:31928 Make remove_2
+binder 31939:31939 <> m:360
+binder 31941:31941 <> x:361
+binder 31943:31943 <> y:362
+binder 31945:31945 <> e:363
+R31958:31961 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31948:31949 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R31950:31953 Stdlib.FSets.FMapList Make eq defax
+R31957:31957 Stdlib.FSets.FMapList <> y:362 var
+R31955:31955 Stdlib.FSets.FMapList <> x:361 var
+R31974:31977 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31962:31967 Stdlib.FSets.FMapList Make MapsTo def
+R31973:31973 Stdlib.FSets.FMapList <> m:360 var
+R31971:31971 Stdlib.FSets.FMapList <> e:363 var
+R31969:31969 Stdlib.FSets.FMapList <> y:362 var
+R31978:31983 Stdlib.FSets.FMapList Make MapsTo def
+R31990:31995 Stdlib.FSets.FMapList Make remove def
+R31999:31999 Stdlib.FSets.FMapList <> m:360 var
+R31997:31997 Stdlib.FSets.FMapList <> x:361 var
+R31987:31987 Stdlib.FSets.FMapList <> e:363 var
+R31985:31985 Stdlib.FSets.FMapList <> y:362 var
+R32029:32040 Stdlib.FSets.FMapList Make remove_2 thm
+R32042:32044 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32047:32050 Stdlib.FSets.FMapList Make this proj
+R32056:32061 Stdlib.FSets.FMapList Make sorted proj
+prf 32080:32087 Make remove_3
+binder 32098:32098 <> m:364
+binder 32100:32100 <> x:365
+binder 32102:32102 <> y:366
+binder 32104:32104 <> e:367
+R32130:32133 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32107:32112 Stdlib.FSets.FMapList Make MapsTo def
+R32119:32124 Stdlib.FSets.FMapList Make remove def
+R32128:32128 Stdlib.FSets.FMapList <> m:364 var
+R32126:32126 Stdlib.FSets.FMapList <> x:365 var
+R32116:32116 Stdlib.FSets.FMapList <> e:367 var
+R32114:32114 Stdlib.FSets.FMapList <> y:366 var
+R32134:32139 Stdlib.FSets.FMapList Make MapsTo def
+R32145:32145 Stdlib.FSets.FMapList <> m:364 var
+R32143:32143 Stdlib.FSets.FMapList <> e:367 var
+R32141:32141 Stdlib.FSets.FMapList <> y:366 var
+R32174:32185 Stdlib.FSets.FMapList Make remove_3 thm
+R32187:32189 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32192:32195 Stdlib.FSets.FMapList Make this proj
+R32201:32206 Stdlib.FSets.FMapList Make sorted proj
+prf 32226:32231 Make find_1
+binder 32242:32242 <> m:368
+binder 32244:32244 <> x:369
+binder 32246:32246 <> e:370
+R32261:32264 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32249:32254 Stdlib.FSets.FMapList Make MapsTo def
+R32260:32260 Stdlib.FSets.FMapList <> m:368 var
+R32258:32258 Stdlib.FSets.FMapList <> e:370 var
+R32256:32256 Stdlib.FSets.FMapList <> x:369 var
+R32273:32275 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32265:32268 Stdlib.FSets.FMapList Make find def
+R32272:32272 Stdlib.FSets.FMapList <> m:368 var
+R32270:32270 Stdlib.FSets.FMapList <> x:369 var
+R32276:32279 Corelib.Init.Datatypes <> Some constr
+R32281:32281 Stdlib.FSets.FMapList <> e:370 var
+R32310:32319 Stdlib.FSets.FMapList Make find_1 thm
+R32321:32323 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32326:32329 Stdlib.FSets.FMapList Make this proj
+R32335:32340 Stdlib.FSets.FMapList Make sorted proj
+prf 32359:32364 Make find_2
+binder 32375:32375 <> m:371
+binder 32377:32377 <> x:372
+binder 32379:32379 <> e:373
+R32399:32402 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32390:32392 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32382:32385 Stdlib.FSets.FMapList Make find def
+R32389:32389 Stdlib.FSets.FMapList <> m:371 var
+R32387:32387 Stdlib.FSets.FMapList <> x:372 var
+R32393:32396 Corelib.Init.Datatypes <> Some constr
+R32398:32398 Stdlib.FSets.FMapList <> e:373 var
+R32403:32408 Stdlib.FSets.FMapList Make MapsTo def
+R32414:32414 Stdlib.FSets.FMapList <> m:371 var
+R32412:32412 Stdlib.FSets.FMapList <> e:373 var
+R32410:32410 Stdlib.FSets.FMapList <> x:372 var
+R32443:32452 Stdlib.FSets.FMapList Make find_2 thm
+R32454:32456 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32459:32462 Stdlib.FSets.FMapList Make this proj
+prf 32482:32491 Make elements_1
+binder 32502:32502 <> m:374
+binder 32504:32504 <> x:375
+binder 32506:32506 <> e:376
+R32521:32524 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32509:32514 Stdlib.FSets.FMapList Make MapsTo def
+R32520:32520 Stdlib.FSets.FMapList <> m:374 var
+R32518:32518 Stdlib.FSets.FMapList <> e:376 var
+R32516:32516 Stdlib.FSets.FMapList <> x:375 var
+R32525:32527 Stdlib.Sorting.SetoidList <> InA ind
+R32547:32554 Stdlib.FSets.FMapList Make elements def
+R32556:32556 Stdlib.FSets.FMapList <> m:374 var
+R32540:32540 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32542:32542 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32544:32544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32541:32541 Stdlib.FSets.FMapList <> x:375 var
+R32543:32543 Stdlib.FSets.FMapList <> e:376 var
+R32529:32538 Stdlib.FSets.FMapList Make eq_key_elt def
+R32586:32599 Stdlib.FSets.FMapList Make elements_1 thm
+R32601:32603 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32606:32609 Stdlib.FSets.FMapList Make this proj
+prf 32628:32637 Make elements_2
+binder 32648:32648 <> m:377
+binder 32650:32650 <> x:378
+binder 32652:32652 <> e:379
+R32688:32691 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32655:32657 Stdlib.Sorting.SetoidList <> InA ind
+R32677:32684 Stdlib.FSets.FMapList Make elements def
+R32686:32686 Stdlib.FSets.FMapList <> m:377 var
+R32670:32670 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32672:32672 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32674:32674 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32671:32671 Stdlib.FSets.FMapList <> x:378 var
+R32673:32673 Stdlib.FSets.FMapList <> e:379 var
+R32659:32668 Stdlib.FSets.FMapList Make eq_key_elt def
+R32692:32697 Stdlib.FSets.FMapList Make MapsTo def
+R32703:32703 Stdlib.FSets.FMapList <> m:377 var
+R32701:32701 Stdlib.FSets.FMapList <> e:379 var
+R32699:32699 Stdlib.FSets.FMapList <> x:378 var
+R32732:32745 Stdlib.FSets.FMapList Make elements_2 thm
+R32747:32749 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32752:32755 Stdlib.FSets.FMapList Make this proj
+prf 32774:32783 Make elements_3
+binder 32794:32794 <> m:380
+R32797:32800 Stdlib.Sorting.Sorted <> sort abbrev
+R32810:32817 Stdlib.FSets.FMapList Make elements def
+R32819:32819 Stdlib.FSets.FMapList <> m:380 var
+R32802:32807 Stdlib.FSets.FMapList Make lt_key def
+R32849:32862 Stdlib.FSets.FMapList Make elements_3 thm
+R32864:32866 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R32869:32872 Stdlib.FSets.FMapList Make this proj
+R32878:32883 Stdlib.FSets.FMapList Make sorted proj
+prf 32902:32912 Make elements_3w
+binder 32923:32923 <> m:381
+R32926:32931 Stdlib.Sorting.SetoidList <> NoDupA ind
+R32941:32948 Stdlib.FSets.FMapList Make elements def
+R32950:32950 Stdlib.FSets.FMapList <> m:381 var
+R32933:32938 Stdlib.FSets.FMapList Make eq_key def
+R32980:32994 Stdlib.FSets.FMapList Make elements_3w thm
+R32996:32998 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R33001:33004 Stdlib.FSets.FMapList Make this proj
+R33010:33015 Stdlib.FSets.FMapList Make sorted proj
+prf 33035:33044 Make cardinal_1
+binder 33055:33055 <> m:382
+R33068:33070 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33058:33065 Stdlib.FSets.FMapList Make cardinal def
+R33067:33067 Stdlib.FSets.FMapList <> m:382 var
+R33071:33076 Corelib.Init.Datatypes <> length def
+R33079:33086 Stdlib.FSets.FMapList Make elements def
+R33088:33088 Stdlib.FSets.FMapList <> m:382 var
+prf 33134:33139 Make fold_1
+binder 33150:33150 <> m:383
+binder 33153:33153 <> A:384
+R33168:33168 Stdlib.FSets.FMapList <> A:384 var
+binder 33164:33164 <> i:385
+R33179:33182 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33176:33178 Stdlib.FSets.FMapList Make key def
+R33186:33189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33183:33185 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R33191:33194 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33190:33190 Stdlib.FSets.FMapList <> A:384 var
+R33195:33195 Stdlib.FSets.FMapList <> A:384 var
+binder 33172:33172 <> f:386
+R33217:33219 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33207:33210 Stdlib.FSets.FMapList Make fold def
+R33216:33216 Stdlib.FSets.FMapList <> i:385 var
+R33214:33214 Stdlib.FSets.FMapList <> m:383 var
+R33212:33212 Stdlib.FSets.FMapList <> f:386 var
+R33220:33228 Stdlib.Lists.List <> fold_left def
+R33276:33276 Stdlib.FSets.FMapList <> i:385 var
+R33264:33271 Stdlib.FSets.FMapList Make elements def
+R33273:33273 Stdlib.FSets.FMapList <> m:383 var
+binder 33235:33235 <> a:387
+binder 33237:33237 <> p:388
+R33242:33242 Stdlib.FSets.FMapList <> f:386 var
+R33260:33260 Stdlib.FSets.FMapList <> a:387 var
+R33253:33255 Corelib.Init.Datatypes <> snd def
+R33257:33257 Stdlib.FSets.FMapList <> p:388 var
+R33245:33247 Corelib.Init.Datatypes <> fst def
+R33249:33249 Stdlib.FSets.FMapList <> p:388 var
+R33305:33314 Stdlib.FSets.FMapList Make fold_1 thm
+R33316:33318 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R33321:33324 Stdlib.FSets.FMapList Make this proj
+prf 33344:33350 Make equal_1
+binder 33361:33361 <> m:389
+binder 33363:33364 <> m':390
+binder 33366:33368 <> cmp:391
+R33386:33389 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33371:33376 Stdlib.FSets.FMapList Make Equivb def
+R33384:33385 Stdlib.FSets.FMapList <> m':390 var
+R33382:33382 Stdlib.FSets.FMapList <> m:389 var
+R33378:33380 Stdlib.FSets.FMapList <> cmp:391 var
+R33404:33406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33390:33394 Stdlib.FSets.FMapList Make equal def
+R33402:33403 Stdlib.FSets.FMapList <> m':390 var
+R33400:33400 Stdlib.FSets.FMapList <> m:389 var
+R33396:33398 Stdlib.FSets.FMapList <> cmp:391 var
+R33407:33410 Corelib.Init.Datatypes <> true constr
+R33442:33452 Stdlib.FSets.FMapList Make equal_1 thm
+R33454:33456 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R33459:33462 Stdlib.FSets.FMapList Make this proj
+R33468:33473 Stdlib.FSets.FMapList Make sorted proj
+R33479:33482 Stdlib.FSets.FMapList Make this proj
+R33489:33494 Stdlib.FSets.FMapList Make sorted proj
+prf 33514:33520 Make equal_2
+binder 33531:33531 <> m:392
+binder 33533:33534 <> m':393
+binder 33536:33538 <> cmp:394
+R33562:33565 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33555:33557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33541:33545 Stdlib.FSets.FMapList Make equal def
+R33553:33554 Stdlib.FSets.FMapList <> m':393 var
+R33551:33551 Stdlib.FSets.FMapList <> m:392 var
+R33547:33549 Stdlib.FSets.FMapList <> cmp:394 var
+R33558:33561 Corelib.Init.Datatypes <> true constr
+R33566:33571 Stdlib.FSets.FMapList Make Equivb def
+R33579:33580 Stdlib.FSets.FMapList <> m':393 var
+R33577:33577 Stdlib.FSets.FMapList <> m:392 var
+R33573:33575 Stdlib.FSets.FMapList <> cmp:394 var
+R33612:33622 Stdlib.FSets.FMapList Make equal_2 thm
+R33624:33626 Stdlib.FSets.FMapList <> Make.Elt.elt var
+R33629:33632 Stdlib.FSets.FMapList Make this proj
+R33638:33643 Stdlib.FSets.FMapList Make sorted proj
+R33649:33652 Stdlib.FSets.FMapList Make this proj
+R33659:33664 Stdlib.FSets.FMapList Make sorted proj
+R33683:33685 Stdlib.FSets.FMapList Make.Elt <> sec
+prf 33696:33700 Make map_1
+binder 33712:33714 <> elt:395
+binder 33716:33719 <> elt':396
+R33730:33730 Stdlib.FSets.FMapList Make t def
+R33732:33734 Stdlib.FSets.FMapList <> elt:395 var
+binder 33727:33727 <> m:397
+R33739:33741 Stdlib.FSets.FMapList Make key def
+binder 33737:33737 <> x:398
+R33746:33748 Stdlib.FSets.FMapList <> elt:395 var
+binder 33744:33744 <> e:399
+R33756:33757 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33753:33755 Stdlib.FSets.FMapList <> elt:395 var
+R33758:33761 Stdlib.FSets.FMapList <> elt':396 var
+binder 33751:33751 <> f:400
+R33785:33788 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33773:33778 Stdlib.FSets.FMapList Make MapsTo def
+R33784:33784 Stdlib.FSets.FMapList <> m:397 var
+R33782:33782 Stdlib.FSets.FMapList <> e:399 var
+R33780:33780 Stdlib.FSets.FMapList <> x:398 var
+R33789:33794 Stdlib.FSets.FMapList Make MapsTo def
+R33805:33807 Stdlib.FSets.FMapList Make map def
+R33811:33811 Stdlib.FSets.FMapList <> m:397 var
+R33809:33809 Stdlib.FSets.FMapList <> f:400 var
+R33799:33799 Stdlib.FSets.FMapList <> f:400 var
+R33801:33801 Stdlib.FSets.FMapList <> e:399 var
+R33796:33796 Stdlib.FSets.FMapList <> x:398 var
+R33850:33858 Stdlib.FSets.FMapList Make map_1 thm
+R33870:33873 Stdlib.FSets.FMapList Make this proj
+prf 33892:33896 Make map_2
+binder 33908:33910 <> elt:401
+binder 33912:33915 <> elt':402
+R33926:33926 Stdlib.FSets.FMapList Make t def
+R33928:33930 Stdlib.FSets.FMapList <> elt:401 var
+binder 33923:33923 <> m:403
+R33935:33937 Stdlib.FSets.FMapList Make key def
+binder 33933:33933 <> x:404
+R33945:33946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33942:33944 Stdlib.FSets.FMapList <> elt:401 var
+R33947:33950 Stdlib.FSets.FMapList <> elt':402 var
+binder 33940:33940 <> f:405
+R33976:33979 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33962:33963 Stdlib.FSets.FMapList Make In def
+R33968:33970 Stdlib.FSets.FMapList Make map def
+R33974:33974 Stdlib.FSets.FMapList <> m:403 var
+R33972:33972 Stdlib.FSets.FMapList <> f:405 var
+R33965:33965 Stdlib.FSets.FMapList <> x:404 var
+R33980:33981 Stdlib.FSets.FMapList Make In def
+R33985:33985 Stdlib.FSets.FMapList <> m:403 var
+R33983:33983 Stdlib.FSets.FMapList <> x:404 var
+R34023:34031 Stdlib.FSets.FMapList Make map_2 thm
+R34043:34046 Stdlib.FSets.FMapList Make this proj
+prf 34066:34071 Make mapi_1
+binder 34083:34085 <> elt:406
+binder 34087:34090 <> elt':407
+R34101:34101 Stdlib.FSets.FMapList Make t def
+R34103:34105 Stdlib.FSets.FMapList <> elt:406 var
+binder 34098:34098 <> m:408
+R34110:34112 Stdlib.FSets.FMapList Make key def
+binder 34108:34108 <> x:409
+R34117:34119 Stdlib.FSets.FMapList <> elt:406 var
+binder 34115:34115 <> e:410
+R34136:34137 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34133:34135 Stdlib.FSets.FMapList Make key def
+R34141:34142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34138:34140 Stdlib.FSets.FMapList <> elt:406 var
+R34143:34146 Stdlib.FSets.FMapList <> elt':407 var
+binder 34131:34131 <> f:411
+R34162:34173 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34150:34155 Stdlib.FSets.FMapList Make MapsTo def
+R34161:34161 Stdlib.FSets.FMapList <> m:408 var
+R34159:34159 Stdlib.FSets.FMapList <> e:410 var
+R34157:34157 Stdlib.FSets.FMapList <> x:409 var
+R34174:34180 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34182:34183 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34181:34181 <> y:412
+R34192:34195 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R34184:34187 Stdlib.FSets.FMapList Make eq defax
+R34191:34191 Stdlib.FSets.FMapList <> x:409 var
+R34189:34189 Stdlib.FSets.FMapList <> y:412 var
+R34196:34201 Stdlib.FSets.FMapList Make MapsTo def
+R34214:34217 Stdlib.FSets.FMapList Make mapi def
+R34221:34221 Stdlib.FSets.FMapList <> m:408 var
+R34219:34219 Stdlib.FSets.FMapList <> f:411 var
+R34206:34206 Stdlib.FSets.FMapList <> f:411 var
+R34210:34210 Stdlib.FSets.FMapList <> e:410 var
+R34208:34208 Stdlib.FSets.FMapList <> y:412 var
+R34203:34203 Stdlib.FSets.FMapList <> x:409 var
+R34260:34269 Stdlib.FSets.FMapList Make mapi_1 thm
+R34281:34284 Stdlib.FSets.FMapList Make this proj
+prf 34303:34308 Make mapi_2
+binder 34320:34322 <> elt:413
+binder 34324:34327 <> elt':414
+R34338:34338 Stdlib.FSets.FMapList Make t def
+R34340:34342 Stdlib.FSets.FMapList <> elt:413 var
+binder 34335:34335 <> m:415
+R34347:34349 Stdlib.FSets.FMapList Make key def
+binder 34345:34345 <> x:416
+R34366:34367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34363:34365 Stdlib.FSets.FMapList Make key def
+R34371:34372 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34368:34370 Stdlib.FSets.FMapList <> elt:413 var
+R34373:34376 Stdlib.FSets.FMapList <> elt':414 var
+binder 34361:34361 <> f:417
+R34395:34398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34380:34381 Stdlib.FSets.FMapList Make In def
+R34386:34389 Stdlib.FSets.FMapList Make mapi def
+R34393:34393 Stdlib.FSets.FMapList <> m:415 var
+R34391:34391 Stdlib.FSets.FMapList <> f:417 var
+R34383:34383 Stdlib.FSets.FMapList <> x:416 var
+R34399:34400 Stdlib.FSets.FMapList Make In def
+R34404:34404 Stdlib.FSets.FMapList <> m:415 var
+R34402:34402 Stdlib.FSets.FMapList <> x:416 var
+R34442:34451 Stdlib.FSets.FMapList Make mapi_2 thm
+R34463:34466 Stdlib.FSets.FMapList Make this proj
+prf 34486:34491 Make map2_1
+binder 34503:34505 <> elt:418
+binder 34507:34510 <> elt':419
+binder 34512:34516 <> elt'':420
+R34527:34527 Stdlib.FSets.FMapList Make t def
+R34529:34531 Stdlib.FSets.FMapList <> elt:418 var
+binder 34524:34524 <> m:421
+R34538:34538 Stdlib.FSets.FMapList Make t def
+R34540:34543 Stdlib.FSets.FMapList <> elt':419 var
+binder 34534:34535 <> m':422
+R34557:34559 Stdlib.FSets.FMapList Make key def
+binder 34555:34555 <> x:423
+R34574:34575 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34564:34569 Corelib.Init.Datatypes <> option ind
+R34571:34573 Stdlib.FSets.FMapList <> elt:418 var
+R34587:34588 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34576:34581 Corelib.Init.Datatypes <> option ind
+R34583:34586 Stdlib.FSets.FMapList <> elt':419 var
+R34589:34594 Corelib.Init.Datatypes <> option ind
+R34596:34600 Stdlib.FSets.FMapList <> elt'':420 var
+binder 34562:34562 <> f:424
+R34629:34640 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34618:34621 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R34612:34613 Stdlib.FSets.FMapList Make In def
+R34617:34617 Stdlib.FSets.FMapList <> m:421 var
+R34615:34615 Stdlib.FSets.FMapList <> x:423 var
+R34622:34623 Stdlib.FSets.FMapList Make In def
+R34627:34628 Stdlib.FSets.FMapList <> m':422 var
+R34625:34625 Stdlib.FSets.FMapList <> x:423 var
+R34661:34663 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34641:34644 Stdlib.FSets.FMapList Make find def
+R34649:34652 Stdlib.FSets.FMapList Make map2 def
+R34658:34659 Stdlib.FSets.FMapList <> m':422 var
+R34656:34656 Stdlib.FSets.FMapList <> m:421 var
+R34654:34654 Stdlib.FSets.FMapList <> f:424 var
+R34646:34646 Stdlib.FSets.FMapList <> x:423 var
+R34664:34664 Stdlib.FSets.FMapList <> f:424 var
+R34678:34681 Stdlib.FSets.FMapList Make find def
+R34685:34686 Stdlib.FSets.FMapList <> m':422 var
+R34683:34683 Stdlib.FSets.FMapList <> x:423 var
+R34667:34670 Stdlib.FSets.FMapList Make find def
+R34674:34674 Stdlib.FSets.FMapList <> m:421 var
+R34672:34672 Stdlib.FSets.FMapList <> x:423 var
+R34740:34749 Stdlib.FSets.FMapList Make map2_1 thm
+R34769:34772 Stdlib.FSets.FMapList Make this proj
+R34778:34783 Stdlib.FSets.FMapList Make sorted proj
+R34789:34792 Stdlib.FSets.FMapList Make this proj
+R34799:34804 Stdlib.FSets.FMapList Make sorted proj
+prf 34827:34832 Make map2_2
+binder 34844:34846 <> elt:425
+binder 34848:34851 <> elt':426
+binder 34853:34857 <> elt'':427
+R34868:34868 Stdlib.FSets.FMapList Make t def
+R34870:34872 Stdlib.FSets.FMapList <> elt:425 var
+binder 34865:34865 <> m:428
+R34879:34879 Stdlib.FSets.FMapList Make t def
+R34881:34884 Stdlib.FSets.FMapList <> elt':426 var
+binder 34875:34876 <> m':429
+R34898:34900 Stdlib.FSets.FMapList Make key def
+binder 34896:34896 <> x:430
+R34915:34916 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34905:34910 Corelib.Init.Datatypes <> option ind
+R34912:34914 Stdlib.FSets.FMapList <> elt:425 var
+R34928:34929 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34917:34922 Corelib.Init.Datatypes <> option ind
+R34924:34927 Stdlib.FSets.FMapList <> elt':426 var
+R34930:34935 Corelib.Init.Datatypes <> option ind
+R34937:34941 Stdlib.FSets.FMapList <> elt'':427 var
+binder 34903:34903 <> f:431
+R34971:34974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34953:34954 Stdlib.FSets.FMapList Make In def
+R34959:34962 Stdlib.FSets.FMapList Make map2 def
+R34968:34969 Stdlib.FSets.FMapList <> m':429 var
+R34966:34966 Stdlib.FSets.FMapList <> m:428 var
+R34964:34964 Stdlib.FSets.FMapList <> f:431 var
+R34956:34956 Stdlib.FSets.FMapList <> x:430 var
+R34981:34984 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R34975:34976 Stdlib.FSets.FMapList Make In def
+R34980:34980 Stdlib.FSets.FMapList <> m:428 var
+R34978:34978 Stdlib.FSets.FMapList <> x:430 var
+R34985:34986 Stdlib.FSets.FMapList Make In def
+R34990:34991 Stdlib.FSets.FMapList <> m':429 var
+R34988:34988 Stdlib.FSets.FMapList <> x:430 var
+R35044:35053 Stdlib.FSets.FMapList Make map2_2 thm
+R35073:35076 Stdlib.FSets.FMapList Make this proj
+R35082:35087 Stdlib.FSets.FMapList Make sorted proj
+R35093:35096 Stdlib.FSets.FMapList Make this proj
+R35103:35108 Stdlib.FSets.FMapList Make sorted proj
+R35129:35132 Stdlib.FSets.FMapList Make <> mod
+R35156:35166 Stdlib.Structures.OrderedType OrderedType <> modtype
+R35173:35183 Stdlib.Structures.OrderedType OrderedType <> modtype
+R35189:35192 Stdlib.FSets.FMapInterface Sord <> modtype
+R35214:35214 Stdlib.FSets.FMapList D <> mod
+R35246:35246 Stdlib.FSets.FMapList X <> mod
+mod 35143:35150 <> Make_ord
+R35265:35265 Stdlib.FSets.FMapList D <> mod
+mod 35257:35260 <> Make_ord.Data
+R35283:35286 Stdlib.FSets.FMapList Make <> mod
+R35288:35288 Stdlib.FSets.FMapList X <> mod
+mod 35275:35278 <> Make_ord.MapS
+R35299:35302 Stdlib.FSets.FMapList Make_ord.MapS <> mod
+R35319:35334 Stdlib.Structures.OrderedType OrderedTypeFacts <> mod
+R35336:35336 Stdlib.FSets.FMapList D <> mod
+mod 35313:35314 <> Make_ord.MD
+R35347:35348 Stdlib.FSets.FMapList Make_ord.MD <> mod
+def 35363:35363 Make_ord t
+R35368:35373 Stdlib.FSets.FMapList Make_ord t def
+R35375:35377 Stdlib.FSets.FMapList D t defax
+def 35392:35394 Make_ord cmp
+binder 35396:35396 <> e:432
+binder 35398:35399 <> e':433
+R35410:35418 Stdlib.FSets.FMapList D compare defax
+R35422:35423 Stdlib.FSets.FMapList <> e':433 var
+R35420:35420 Stdlib.FSets.FMapList <> e:432 var
+R35430:35431 Stdlib.Structures.OrderedType <> EQ constr
+R35438:35441 Corelib.Init.Datatypes <> true constr
+R35450:35454 Corelib.Init.Datatypes <> false constr
+def 35471:35477 Make_ord eq_list
+R35487:35490 Corelib.Init.Datatypes <> list ind
+R35496:35498 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35493:35495 Stdlib.FSets.FMapList X t defax
+R35499:35501 Stdlib.FSets.FMapList D t defax
+binder 35480:35480 <> m:434
+binder 35482:35483 <> m':435
+R35526:35527 Stdlib.FSets.FMapList <> m':435 var
+R35523:35523 Stdlib.FSets.FMapList <> m:434 var
+R35539:35541 Corelib.Init.Datatypes <> nil constr
+R35544:35546 Corelib.Init.Datatypes <> nil constr
+R35551:35554 Corelib.Init.Logic <> True ind
+R35566:35567 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35561:35561 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35563:35563 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35565:35565 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35578:35579 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35571:35571 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35574:35574 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35577:35577 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35598:35606 Stdlib.FSets.FMapList X compare defax
+R35627:35628 Stdlib.Structures.OrderedType <> EQ constr
+R35644:35647 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R35635:35638 Stdlib.FSets.FMapList D eq defax
+R35648:35654 Stdlib.FSets.FMapList <> eq_list:436 def
+R35681:35685 Corelib.Init.Logic <> False ind
+R35710:35714 Corelib.Init.Logic <> False ind
+def 35735:35736 Make_ord eq
+binder 35738:35738 <> m:439
+binder 35740:35741 <> m':440
+R35746:35752 Stdlib.FSets.FMapList Make_ord eq_list def
+R35764:35767 Stdlib.FSets.FMapList Make_ord this proj
+R35769:35770 Stdlib.FSets.FMapList <> m':440 var
+R35755:35758 Stdlib.FSets.FMapList Make_ord this proj
+R35760:35760 Stdlib.FSets.FMapList <> m:439 var
+def 35784:35790 Make_ord lt_list
+R35800:35803 Corelib.Init.Datatypes <> list ind
+R35809:35811 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35806:35808 Stdlib.FSets.FMapList X t defax
+R35812:35814 Stdlib.FSets.FMapList D t defax
+binder 35793:35793 <> m:441
+binder 35795:35796 <> m':442
+R35839:35840 Stdlib.FSets.FMapList <> m':442 var
+R35836:35836 Stdlib.FSets.FMapList <> m:441 var
+R35852:35854 Corelib.Init.Datatypes <> nil constr
+R35857:35859 Corelib.Init.Datatypes <> nil constr
+R35864:35868 Corelib.Init.Logic <> False ind
+R35875:35877 Corelib.Init.Datatypes <> nil constr
+R35886:35889 Corelib.Init.Logic <> True ind
+R35899:35901 Corelib.Init.Datatypes <> nil constr
+R35907:35911 Corelib.Init.Logic <> False ind
+R35923:35924 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35918:35918 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35920:35920 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35922:35922 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35935:35936 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35928:35928 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35931:35931 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35934:35934 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35955:35963 Stdlib.FSets.FMapList X compare defax
+R35984:35985 Stdlib.Structures.OrderedType <> LT constr
+R35992:35995 Corelib.Init.Logic <> True ind
+R36006:36007 Stdlib.Structures.OrderedType <> GT constr
+R36014:36018 Corelib.Init.Logic <> False ind
+R36029:36030 Stdlib.Structures.OrderedType <> EQ constr
+R36046:36050 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R36076:36076 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R36037:36040 Stdlib.FSets.FMapList D lt defax
+R36060:36063 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R36051:36054 Stdlib.FSets.FMapList D eq defax
+R36064:36070 Stdlib.FSets.FMapList <> lt_list:443 def
+def 36107:36108 Make_ord lt
+binder 36110:36110 <> m:446
+binder 36112:36113 <> m':447
+R36118:36124 Stdlib.FSets.FMapList Make_ord lt_list def
+R36136:36139 Stdlib.FSets.FMapList Make_ord this proj
+R36141:36142 Stdlib.FSets.FMapList <> m':447 var
+R36127:36130 Stdlib.FSets.FMapList Make_ord this proj
+R36132:36132 Stdlib.FSets.FMapList <> m:446 var
+prf 36153:36160 Make_ord eq_equal
+binder 36171:36171 <> m:448
+binder 36173:36174 <> m':449
+R36184:36188 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R36177:36178 Stdlib.FSets.FMapList Make_ord eq def
+R36182:36183 Stdlib.FSets.FMapList <> m':449 var
+R36180:36180 Stdlib.FSets.FMapList <> m:448 var
+R36203:36205 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36189:36193 Stdlib.FSets.FMapList Make_ord equal def
+R36201:36202 Stdlib.FSets.FMapList <> m':449 var
+R36199:36199 Stdlib.FSets.FMapList <> m:448 var
+R36195:36197 Stdlib.FSets.FMapList Make_ord cmp def
+R36206:36209 Corelib.Init.Datatypes <> true constr
+R36277:36278 Stdlib.FSets.FMapList Make_ord eq def
+R36312:36316 Stdlib.FSets.FMapList Make_ord equal def
+R36380:36381 Stdlib.FSets.FMapList Make_ord eq def
+R36426:36430 Stdlib.FSets.FMapList Make_ord equal def
+R36535:36539 Stdlib.FSets.FMapList Make_ord equal def
+R36565:36573 Stdlib.FSets.FMapList X compare defax
+R36647:36649 Stdlib.FSets.FMapList Make_ord cmp def
+R36777:36787 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R36810:36814 Stdlib.FSets.FMapList Make_ord equal def
+R36817:36818 Stdlib.FSets.FMapList Make_ord eq def
+R36864:36872 Corelib.Init.Datatypes <> andb_prop thm
+R36921:36923 Stdlib.FSets.FMapList Make_ord cmp def
+R36993:37001 Corelib.Init.Datatypes <> andb_prop thm
+R37102:37112 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R37135:37139 Stdlib.FSets.FMapList Make_ord equal def
+R37142:37143 Stdlib.FSets.FMapList Make_ord eq def
+prf 37183:37186 Make_ord eq_1
+binder 37197:37197 <> m:450
+binder 37199:37200 <> m':451
+R37218:37221 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37203:37208 Stdlib.FSets.FMapList Make_ord Equivb def
+R37216:37217 Stdlib.FSets.FMapList <> m':451 var
+R37214:37214 Stdlib.FSets.FMapList <> m:450 var
+R37210:37212 Stdlib.FSets.FMapList Make_ord cmp def
+R37222:37223 Stdlib.FSets.FMapList Make_ord eq def
+R37227:37228 Stdlib.FSets.FMapList <> m':451 var
+R37225:37225 Stdlib.FSets.FMapList <> m:450 var
+R37261:37267 Stdlib.FSets.FMapList Make_ord equal_1 thm
+R37269:37271 Stdlib.FSets.FMapList D t defax
+R37278:37280 Stdlib.FSets.FMapList Make_ord cmp def
+R37298:37305 Stdlib.FSets.FMapList Make_ord eq_equal thm
+prf 37338:37341 Make_ord eq_2
+binder 37352:37352 <> m:452
+binder 37354:37355 <> m':453
+R37365:37368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37358:37359 Stdlib.FSets.FMapList Make_ord eq def
+R37363:37364 Stdlib.FSets.FMapList <> m':453 var
+R37361:37361 Stdlib.FSets.FMapList <> m:452 var
+R37369:37374 Stdlib.FSets.FMapList Make_ord Equivb def
+R37382:37383 Stdlib.FSets.FMapList <> m':453 var
+R37380:37380 Stdlib.FSets.FMapList <> m:452 var
+R37376:37378 Stdlib.FSets.FMapList Make_ord cmp def
+R37416:37422 Stdlib.FSets.FMapList Make_ord equal_2 thm
+R37424:37426 Stdlib.FSets.FMapList D t defax
+R37433:37435 Stdlib.FSets.FMapList Make_ord cmp def
+R37453:37460 Stdlib.FSets.FMapList Make_ord eq_equal thm
+prf 37493:37499 Make_ord eq_refl
+R37514:37514 Stdlib.FSets.FMapList Make_ord t def
+binder 37510:37510 <> m:454
+R37517:37518 Stdlib.FSets.FMapList Make_ord eq def
+R37522:37522 Stdlib.FSets.FMapList <> m:454 var
+R37520:37520 Stdlib.FSets.FMapList <> m:454 var
+R37568:37569 Stdlib.FSets.FMapList Make_ord eq def
+R37609:37617 Stdlib.FSets.FMapList X compare defax
+R37660:37682 Stdlib.FSets.FMapList Make_ord lt_antirefl thm
+R37717:37725 Stdlib.FSets.FMapList D eq_refl prfax
+R37783:37805 Stdlib.FSets.FMapList Make_ord lt_antirefl thm
+prf 37831:37836 Make_ord eq_sym
+R37855:37855 Stdlib.FSets.FMapList Make_ord t def
+binder 37847:37848 <> m1:455
+binder 37850:37851 <> m2:456
+R37866:37869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37858:37859 Stdlib.FSets.FMapList Make_ord eq def
+R37864:37865 Stdlib.FSets.FMapList <> m2:456 var
+R37861:37862 Stdlib.FSets.FMapList <> m1:455 var
+R37870:37871 Stdlib.FSets.FMapList Make_ord eq def
+R37876:37877 Stdlib.FSets.FMapList <> m1:455 var
+R37873:37874 Stdlib.FSets.FMapList <> m2:456 var
+R37955:37956 Stdlib.FSets.FMapList Make_ord eq def
+R38036:38044 Stdlib.FSets.FMapList X compare defax
+R38186:38196 Stdlib.FSets.FMapList Make_ord Build_slist constr
+prf 38222:38229 Make_ord eq_trans
+R38251:38251 Stdlib.FSets.FMapList Make_ord t def
+binder 38240:38241 <> m1:457
+binder 38243:38244 <> m2:458
+binder 38246:38247 <> m3:459
+R38262:38265 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38254:38255 Stdlib.FSets.FMapList Make_ord eq def
+R38260:38261 Stdlib.FSets.FMapList <> m2:458 var
+R38257:38258 Stdlib.FSets.FMapList <> m1:457 var
+R38274:38277 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38266:38267 Stdlib.FSets.FMapList Make_ord eq def
+R38272:38273 Stdlib.FSets.FMapList <> m3:459 var
+R38269:38270 Stdlib.FSets.FMapList <> m2:458 var
+R38278:38279 Stdlib.FSets.FMapList Make_ord eq def
+R38284:38285 Stdlib.FSets.FMapList <> m3:459 var
+R38281:38282 Stdlib.FSets.FMapList <> m1:457 var
+R38398:38399 Stdlib.FSets.FMapList Make_ord eq def
+R38530:38538 Stdlib.FSets.FMapList X compare defax
+R38576:38584 Stdlib.FSets.FMapList X compare defax
+R38661:38670 Stdlib.FSets.FMapList D eq_trans prfax
+R38772:38782 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R38789:38799 Stdlib.FSets.FMapList Make_ord Build_slist constr
+prf 38830:38837 Make_ord lt_trans
+R38859:38859 Stdlib.FSets.FMapList Make_ord t def
+binder 38848:38849 <> m1:460
+binder 38851:38852 <> m2:461
+binder 38854:38855 <> m3:462
+R38870:38873 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38862:38863 Stdlib.FSets.FMapList Make_ord lt def
+R38868:38869 Stdlib.FSets.FMapList <> m2:461 var
+R38865:38866 Stdlib.FSets.FMapList <> m1:460 var
+R38882:38885 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38874:38875 Stdlib.FSets.FMapList Make_ord lt def
+R38880:38881 Stdlib.FSets.FMapList <> m3:462 var
+R38877:38878 Stdlib.FSets.FMapList <> m2:461 var
+R38886:38887 Stdlib.FSets.FMapList Make_ord lt def
+R38892:38893 Stdlib.FSets.FMapList <> m3:462 var
+R38889:38890 Stdlib.FSets.FMapList <> m1:460 var
+R39006:39007 Stdlib.FSets.FMapList Make_ord lt def
+R39138:39146 Stdlib.FSets.FMapList X compare defax
+R39184:39192 Stdlib.FSets.FMapList X compare defax
+R39275:39284 Stdlib.FSets.FMapList D lt_trans prfax
+R39316:39320 Stdlib.FSets.FMapList Make_ord lt_eq thm
+R39352:39356 Stdlib.FSets.FMapList Make_ord eq_lt thm
+R39404:39413 Stdlib.FSets.FMapList D eq_trans prfax
+R39519:39529 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R39536:39546 Stdlib.FSets.FMapList Make_ord Build_slist constr
+prf 39577:39585 Make_ord lt_not_eq
+R39604:39604 Stdlib.FSets.FMapList Make_ord t def
+binder 39596:39597 <> m1:463
+binder 39599:39600 <> m2:464
+R39615:39618 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39607:39608 Stdlib.FSets.FMapList Make_ord lt def
+R39613:39614 Stdlib.FSets.FMapList <> m2:464 var
+R39610:39611 Stdlib.FSets.FMapList <> m1:463 var
+R39619:39620 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R39621:39622 Stdlib.FSets.FMapList Make_ord eq def
+R39627:39628 Stdlib.FSets.FMapList <> m2:464 var
+R39624:39625 Stdlib.FSets.FMapList <> m1:463 var
+R39709:39710 Stdlib.FSets.FMapList Make_ord eq def
+R39713:39714 Stdlib.FSets.FMapList Make_ord lt def
+R39814:39822 Stdlib.FSets.FMapList X compare defax
+R39876:39886 Stdlib.FSets.FMapList D lt_not_eq prfax
+R39960:39970 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R40020:40021 Stdlib.FSets.FMapList Make_ord eq def
+R40024:40025 Stdlib.FSets.FMapList Make_ord lt def
+def 40093:40099 Make_ord compare
+binder 40110:40111 <> m1:465
+binder 40113:40114 <> m2:466
+R40117:40123 Stdlib.Structures.OrderedType <> Compare ind
+R40134:40135 Stdlib.FSets.FMapList <> m2:466 var
+R40131:40132 Stdlib.FSets.FMapList <> m1:465 var
+R40128:40129 Stdlib.FSets.FMapList Make_ord eq def
+R40125:40126 Stdlib.FSets.FMapList Make_ord lt def
+R40219:40220 Stdlib.Structures.OrderedType <> EQ constr
+R40230:40231 Stdlib.Structures.OrderedType <> LT constr
+R40241:40242 Stdlib.Structures.OrderedType <> GT constr
+R40316:40324 Stdlib.FSets.FMapList X compare defax
+R40343:40344 Stdlib.Structures.OrderedType <> LT constr
+R40356:40357 Stdlib.Structures.OrderedType <> GT constr
+R40384:40392 Stdlib.FSets.FMapList D compare defax
+R40411:40412 Stdlib.Structures.OrderedType <> LT constr
+R40424:40425 Stdlib.Structures.OrderedType <> GT constr
+R40457:40460 Stdlib.Sorting.Sorted <> sort abbrev
+R40463:40472 Stdlib.FSets.FMapList Make_ord ltk def
+R40480:40482 Stdlib.FSets.FMapList D t defax
+R40539:40542 Stdlib.Sorting.Sorted <> sort abbrev
+R40545:40554 Stdlib.FSets.FMapList Make_ord ltk def
+R40562:40564 Stdlib.FSets.FMapList D t defax
+R40631:40641 Stdlib.FSets.FMapList Make_ord Build_slist constr
+R40664:40665 Stdlib.Structures.OrderedType <> LT constr
+R40675:40676 Stdlib.Structures.OrderedType <> EQ constr
+R40686:40687 Stdlib.Structures.OrderedType <> GT constr
+R40713:40720 Stdlib.FSets.FMapList Make_ord <> mod

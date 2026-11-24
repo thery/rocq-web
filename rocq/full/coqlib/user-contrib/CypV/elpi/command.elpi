@@ -1,0 +1,137 @@
+% What the commands of Cyp.v share: reading a Markdown proof and checking
+% it, counting and printing the result.
+
+% what a proof opened by Cyp gives to CypQed: name, language, statement
+kind qed type.
+type qed-data string -> string -> term -> qed.
+
+% the default tactics of the header's by: field, e.g. "lra | assumption"
+pred by-clauses i:string, o:list prop.
+by-clauses "" [] :- !.
+by-clauses S Cl :- rex.split " *| *" S Ns, std.map Ns by-clause Cl.
+% [by-clause Name Clause]: a tactic name of the by: field as a clause of
+% proof-default
+pred by-clause i:string, o:prop.
+by-clause N (proof-default T) :- prooftext.trim N T.
+
+% [with-attributes P]: P, in bare mode if the command has #[bare]
+pred with-attributes i:prop.
+with-attributes P :- attributes A, std.mem A (attribute "bare" _), !, bare-mode => P.
+with-attributes P :- P.
+
+% (undup, a list without its repetitions: text.elpi)
+
+% [check-file F Lang Name Ty Proof Rs Stated]: the proof in the Markdown file F, in
+% the language Lang, checked; writes F.checked.md and F.cyp.json next to it,
+% whatever the errors of its nodes; Stated as in check-tree
+pred check-file i:string, o:string, o:string, o:term, o:term, o:list report, o:bool.
+check-file F Lang Name Ty Proof Rs Stated :-
+  rex.replace "[.]md$" ".checked.md" F OutMd,
+  rex.replace "[.]md$" ".cyp.json" F OutJs,
+  prooftext.read-lines F Lines,
+  prooftext.lines-tree Lines (prooftext.proof-text H Name Top),
+  prooftext.field-value H "scope" Sc, prooftext.field-value H "by" By,
+  prooftext.field-value H "gaps" Gaps, prooftext.header-lang H Lang,
+  by-clauses By Cl0, gaps-clauses Gaps Off, std.append Off Cl0 Cl,
+  coq.say "cyp:" Name,
+  (current-lang Lang :- !) => (current-scope Sc :- !) => Cl => (
+    check-tree Top Ty Proof Rs Stated,
+    timed "markdown" (write-md OutMd Lines Top Rs),
+    timed "json" (write-json OutJs Top Rs)).
+
+% [check-tree Top Ty Proof Rs Stated]: the statement Ty of the tree of the
+% top node Top and its proof, with the reports of its nodes (the errors of
+% the tree, then the conditions), in the order of the text; Stated = ff
+% when the statement cannot be read whole (statement-read)
+pred check-tree i:prooftext.node, o:term, o:term, o:list report, o:bool.
+check-tree Top Ty Proof Rs Stated :-
+  prooftext.tree-errors Top Errors,
+  proof-node Errors (pr "0" Top) Node,
+  timed "conditions" (node-proof Node Ty Proof Concluded Rs0),
+  error-reports Errors Rs1, std.append Rs1 Rs0 Rs2,
+  prooftext.all-nodes "0" Top All, std.map All fst Ids,
+  in-text-order Ids Rs2 Rs,
+  statement-read Concluded Rs Stated.
+
+% [statement-read Concluded Rs Stated]: the statement, the top node 0, is
+% read whole (Stated = tt) when it has its conclusion (Concluded) and none
+% of its variables and hypotheses was left out (no report unread of 0):
+% else it is not the lemma's statement, and the commands fail
+pred statement-read i:bool, i:list report, o:bool.
+statement-read tt Rs tt :- not (std.exists Rs (r\ sigma M\ r = rep "0" (unread M))), !.
+statement-read _ _ ff.
+
+% [check-statement Name Stated Rs]: fails with the errors of the statement
+% of Name (node 0) when it cannot be read whole: the only error of a node
+% that stops a command
+pred check-statement i:string, i:bool, i:list report.
+check-statement _ tt _ :- !.
+check-statement Name ff Rs :-
+  std.map-filter Rs (r\ m\ r = rep "0" (bad m) ; r = rep "0" (unread m)) Ms,
+  std.string.concat "; " Ms M,
+  coq.error {msg "statement-not-read" [Name, M]}.
+
+% [in-text-order Ids Rs Sorted]: the reports Rs, those of each node of Ids
+% in turn
+pred in-text-order i:list string, i:list report, o:list report.
+in-text-order Ids Rs Sorted :-
+  std.map Ids (i\ rs\ std.filter Rs (r\ sigma S\ r = rep i S) rs) Rss, std.flatten Rss Sorted.
+
+% the nodes of the reports, and those with a condition not proved or an
+% error (Ko) or left to the Proof block (Todo: the open goals of the text
+% too)
+pred count i:list report, o:list string, o:list string, o:list string.
+count Rs Steps Ko Todo :-
+  std.map Rs (r\ s\ sigma St\ r = rep s St) S0, undup S0 Steps,
+  std.filter Rs (r\ sigma I S\ r = rep I S, (S = ko _ ; S = bad _ ; S = unread _)) Ko0,
+  std.map Ko0 (r\ s\ sigma St\ r = rep s St) K0, undup K0 Ko,
+  std.filter Rs (r\ sigma I G\ r = rep I (todo G) ; r = rep I (goal G)) T0,
+  std.map T0 (r\ i\ sigma St\ r = rep i St) Todo.
+
+% the goals of the conditions, each with its context
+pred say-goals i:list sealed-goal.
+say-goals GL :- std.forall GL (g\ coq.ltac.open say-goal g _).
+% [say-goal G GL]: the goal G printed with its context, as Rocq prints a
+% goal
+pred say-goal i:goal, o:list sealed-goal.
+say-goal (goal Ctx _ Ty _ _) [] :-
+  std.rev Ctx Cx, std.forall Cx say-hyp, coq.term->string Ty S,
+  coq.say "  ============================",
+  coq.say " " S, coq.say "".
+% [say-hyp D]: a variable or a definition of a goal's context, printed
+% (other entries are skipped)
+pred say-hyp i:prop.
+say-hyp (decl _ N T) :- !, coq.say " " {coq.name->id N} ":" {coq.term->string T}.
+say-hyp (def _ N _ V) :- !, coq.say " " {coq.name->id N} ":=" {coq.term->string V}.
+say-hyp _.
+
+% the conditions left, one line each
+pred say-todo i:list report.
+say-todo Rs :- std.forall Rs (r\ (sigma I G\ r = rep I (todo G), !,
+  say "left-line" [I, G]) ; (sigma I G\ r = rep I (goal G), !,
+  say "goal-line" [I, G]) ; true).
+
+% [say-reports Rs]: the report of each node, one line each: ✅ proved, ❌
+% an error or not proved, with its message (a goal left: say-todo)
+pred say-reports i:list report.
+say-reports Rs :- std.forall Rs say-report.
+% [say-report R]: the line of the report R
+pred say-report i:report.
+say-report (rep I ok) :- !, coq.say {calc ("  ✅ " ^ I)}.
+say-report (rep _ (todo _)) :- !.
+say-report (rep _ (goal _)) :- !.
+say-report (rep I (ko G)) :- !, say-error I {msg "md-not-proved" [G]}.
+say-report (rep I (bad M)) :- !, say-error I M.
+say-report (rep I (unread M)) :- say-error I M.
+% [say-error I M]: the line of an error M of node I (one string: coq.say
+% would break the line between its arguments)
+pred say-error i:string, i:string.
+say-error I M :- coq.say {calc ("  ❌ " ^ I ^ " " ^ M)}.
+
+% [define Name Ty Proof]: the lemma, once its proof has no hole
+pred define i:string, i:term, i:term.
+define Name Ty Proof :-
+  % the type-check also fills the holes the rules left (their _)
+  timed "type-check" (std.assert-ok! (coq.typecheck Proof Ty) {msg "no-typecheck" []}),
+  std.assert! (ground_term Proof) {msg "holes" []},
+  timed "definition" (coq.env.add-const Name Proof Ty @opaque! _).

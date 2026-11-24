@@ -1,0 +1,98 @@
+DIGEST 09d1aafd41d4211ea84a2787982a1c77
+FStdlib.micromega.ZifyN
+R778:783 Stdlib.NArith.BinNat <> <> lib
+R785:790 Stdlib.ZArith.BinInt <> <> lib
+R792:795 Stdlib.ZArith.Znat <> <> lib
+R835:845 Stdlib.micromega.ZifyClasses <> <> lib
+R847:854 Stdlib.micromega.ZifyInst <> <> lib
+R856:859 Stdlib.micromega.Zify <> <> lib
+R861:869 Stdlib.micromega.SatDivMod <> <> lib
+R940:943 Corelib.Init.Datatypes <> true constr
+R999:1005 Stdlib.micromega.ZifyInst <> Inj_N_Z inst
+inst 1028:1035 <> Op_N_div
+R1039:1043 Stdlib.micromega.ZifyClasses <> BinOp class
+R1045:1049 Stdlib.NArith.BinNat N div def
+R1059:1062 Stdlib.micromega.ZifyClasses <> TBOp meth
+R1075:1081 Stdlib.micromega.ZifyClasses <> TBOpInj meth
+R1067:1071 Stdlib.ZArith.BinInt Z div def
+R1086:1096 Stdlib.ZArith.Znat N2Z inj_div thm
+inst 1147:1154 <> Op_N_mod
+R1158:1162 Stdlib.micromega.ZifyClasses <> BinOp class
+R1164:1171 Stdlib.NArith.BinNat N modulo def
+R1181:1184 Stdlib.micromega.ZifyClasses <> TBOp meth
+R1197:1203 Stdlib.micromega.ZifyClasses <> TBOpInj meth
+R1189:1193 Stdlib.ZArith.BinInt Z rem def
+R1208:1218 Stdlib.ZArith.Znat N2Z inj_rem thm
+inst 1269:1276 <> Op_N_pow
+R1280:1284 Stdlib.micromega.ZifyClasses <> BinOp class
+R1286:1290 Stdlib.NArith.BinNat N pow def
+R1300:1303 Stdlib.micromega.ZifyClasses <> TBOp meth
+R1316:1322 Stdlib.micromega.ZifyClasses <> TBOpInj meth
+R1308:1312 Stdlib.ZArith.BinInt Z pow def
+R1327:1337 Stdlib.ZArith.Znat N2Z inj_pow thm
+prf 1413:1431 <> Z_div_nonneg_nonneg
+binder 1433:1433 <> a:1
+binder 1435:1435 <> b:2
+R1445:1448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1440:1443 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1444:1444 Stdlib.micromega.ZifyN <> a:1 var
+R1455:1458 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1450:1453 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1454:1454 Stdlib.micromega.ZifyN <> b:2 var
+R1460:1463 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1465:1467 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R1464:1464 Stdlib.micromega.ZifyN <> a:1 var
+R1468:1468 Stdlib.micromega.ZifyN <> b:2 var
+R1501:1509 Stdlib.ZArith.BinInt Z div_pos thm
+R1526:1535 Stdlib.ZArith.BinInt Z ltb_spec thm
+R1572:1584 Stdlib.ZArith.BinInt Z le_antisymm thm
+prf 1644:1662 <> Z_mod_nonneg_nonneg
+binder 1664:1664 <> a:3
+binder 1666:1666 <> b:4
+R1676:1679 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1671:1674 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1675:1675 Stdlib.micromega.ZifyN <> a:3 var
+R1686:1689 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1681:1684 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1685:1685 Stdlib.micromega.ZifyN <> b:4 var
+R1691:1694 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1696:1700 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1695:1695 Stdlib.micromega.ZifyN <> a:3 var
+R1701:1701 Stdlib.micromega.ZifyN <> b:4 var
+R1719:1728 Stdlib.ZArith.BinInt Z ltb_spec thm
+R1754:1768 Stdlib.ZArith.BinInt Z mod_pos_bound thm
+R1795:1807 Stdlib.ZArith.BinInt Z le_antisymm thm
+inst 1886:1891 <> SatDiv
+R1895:1902 Stdlib.micromega.ZifyClasses <> Saturate class
+R1904:1908 Stdlib.ZArith.BinInt Z div def
+R1922:1926 Stdlib.micromega.ZifyClasses <> PArg1 meth
+R1952:1956 Stdlib.micromega.ZifyClasses <> PArg2 meth
+R1982:1985 Stdlib.micromega.ZifyClasses <> PRes meth
+R2016:2020 Stdlib.micromega.ZifyClasses <> SatOk meth
+binder 1935:1935 <> x:5
+R1941:1944 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1945:1945 Stdlib.micromega.ZifyN <> x:5 var
+binder 1965:1965 <> y:6
+R1971:1974 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1975:1975 Stdlib.micromega.ZifyN <> y:6 var
+binder 1999:1999 <> r:7
+R2005:2008 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2009:2009 Stdlib.micromega.ZifyN <> r:7 var
+R2025:2043 Stdlib.micromega.ZifyN <> Z_div_nonneg_nonneg thm
+inst 2097:2102 <> SatMod
+R2106:2113 Stdlib.micromega.ZifyClasses <> Saturate class
+R2115:2122 Stdlib.ZArith.BinInt Z modulo def
+R2136:2140 Stdlib.micromega.ZifyClasses <> PArg1 meth
+R2166:2170 Stdlib.micromega.ZifyClasses <> PArg2 meth
+R2196:2199 Stdlib.micromega.ZifyClasses <> PRes meth
+R2230:2234 Stdlib.micromega.ZifyClasses <> SatOk meth
+binder 2149:2149 <> x:8
+R2155:2158 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2159:2159 Stdlib.micromega.ZifyN <> x:8 var
+binder 2179:2179 <> y:9
+R2185:2188 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2189:2189 Stdlib.micromega.ZifyN <> y:9 var
+binder 2213:2213 <> r:10
+R2219:2222 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2223:2223 Stdlib.micromega.ZifyN <> r:10 var
+R2239:2257 Stdlib.micromega.ZifyN <> Z_mod_nonneg_nonneg thm

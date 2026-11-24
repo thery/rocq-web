@@ -1,0 +1,735 @@
+DIGEST b4e961d10ee9a8c6762857fce0e9ff4b
+FStdlib.Reals.Rgeom
+R703:707 Stdlib.Reals.Rbase <> <> lib
+R737:746 Stdlib.Reals.Rfunctions <> <> lib
+R776:784 Stdlib.Reals.SeqSeries <> <> lib
+R814:820 Stdlib.Reals.Rtrigo1 <> <> lib
+R850:855 Stdlib.Reals.R_sqrt <> <> lib
+def 918:925 <> dist_euc
+R940:940 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 928:929 <> x0:1
+binder 931:932 <> y0:2
+binder 934:935 <> x1:3
+binder 937:938 <> y1:4
+R945:945 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R952:955 Stdlib.Reals.R_sqrt <> sqrt def
+R972:974 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R958:961 Stdlib.Reals.RIneq <> Rsqr def
+R966:968 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R964:965 Stdlib.Reals.Rgeom <> x0:1 var
+R969:970 Stdlib.Reals.Rgeom <> x1:3 var
+R975:978 Stdlib.Reals.RIneq <> Rsqr def
+R983:985 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R981:982 Stdlib.Reals.Rgeom <> y0:2 var
+R986:987 Stdlib.Reals.Rgeom <> y1:4 var
+prf 999:1011 <> distance_refl
+R1028:1028 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1022:1023 <> x0:5
+binder 1025:1026 <> y0:6
+R1051:1053 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1031:1038 Stdlib.Reals.Rgeom <> dist_euc def
+R1040:1041 Stdlib.Reals.Rgeom <> x0:5 var
+R1043:1044 Stdlib.Reals.Rgeom <> y0:6 var
+R1046:1047 Stdlib.Reals.Rgeom <> x0:5 var
+R1049:1050 Stdlib.Reals.Rgeom <> y0:6 var
+R1087:1094 Stdlib.Reals.Rgeom <> dist_euc def
+R1103:1110 Stdlib.Reals.R_sqr <> Rsqr_inj thm
+R1125:1139 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R1148:1167 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1184:1192 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R1202:1210 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R1257:1262 Stdlib.Reals.RIneq <> Rsqr_0 thm
+R1273:1281 Stdlib.Reals.R_sqrt <> Rsqr_sqrt thm
+R1301:1304 Stdlib.Reals.RIneq <> Rsqr def
+R1330:1349 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1360:1368 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R1378:1386 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+prf 1407:1419 <> distance_symm
+R1444:1444 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1432:1433 <> x0:7
+binder 1435:1436 <> y0:8
+binder 1438:1439 <> x1:9
+binder 1441:1442 <> y1:10
+R1467:1469 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1447:1454 Stdlib.Reals.Rgeom <> dist_euc def
+R1456:1457 Stdlib.Reals.Rgeom <> x0:7 var
+R1459:1460 Stdlib.Reals.Rgeom <> y0:8 var
+R1462:1463 Stdlib.Reals.Rgeom <> x1:9 var
+R1465:1466 Stdlib.Reals.Rgeom <> y1:10 var
+R1470:1477 Stdlib.Reals.Rgeom <> dist_euc def
+R1479:1480 Stdlib.Reals.Rgeom <> x1:9 var
+R1482:1483 Stdlib.Reals.Rgeom <> y1:10 var
+R1485:1486 Stdlib.Reals.Rgeom <> x0:7 var
+R1488:1489 Stdlib.Reals.Rgeom <> y0:8 var
+R1528:1535 Stdlib.Reals.Rgeom <> dist_euc def
+R1544:1551 Stdlib.Reals.R_sqr <> Rsqr_inj thm
+R1566:1580 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R1589:1608 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1624:1638 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R1647:1666 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1691:1699 Stdlib.Reals.R_sqrt <> Rsqr_sqrt thm
+R1719:1722 Stdlib.Reals.RIneq <> Rsqr def
+R1748:1767 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1787:1806 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R1819:1827 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+prf 1842:1852 <> law_cosines
+R1886:1886 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1865:1866 <> x0:11
+binder 1868:1869 <> y0:12
+binder 1871:1872 <> x1:13
+binder 1874:1875 <> y1:14
+binder 1877:1878 <> x2:15
+binder 1880:1881 <> y2:16
+binder 1883:1884 <> ac:17
+R1902:1909 Stdlib.Reals.Rgeom <> dist_euc def
+R1911:1912 Stdlib.Reals.Rgeom <> x1:13 var
+R1914:1915 Stdlib.Reals.Rgeom <> y1:14 var
+R1917:1918 Stdlib.Reals.Rgeom <> x0:11 var
+R1920:1921 Stdlib.Reals.Rgeom <> y0:12 var
+binder 1897:1897 <> a:18
+R1941:1948 Stdlib.Reals.Rgeom <> dist_euc def
+R1950:1951 Stdlib.Reals.Rgeom <> x2:15 var
+R1953:1954 Stdlib.Reals.Rgeom <> y2:16 var
+R1956:1957 Stdlib.Reals.Rgeom <> x0:11 var
+R1959:1960 Stdlib.Reals.Rgeom <> y0:12 var
+binder 1936:1936 <> b:19
+R1982:1989 Stdlib.Reals.Rgeom <> dist_euc def
+R1991:1992 Stdlib.Reals.Rgeom <> x2:15 var
+R1994:1995 Stdlib.Reals.Rgeom <> y2:16 var
+R1997:1998 Stdlib.Reals.Rgeom <> x1:13 var
+R2000:2001 Stdlib.Reals.Rgeom <> y1:14 var
+binder 1977:1977 <> c:20
+R2078:2091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2030:2032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2021:2023 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2017:2019 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2016:2016 Stdlib.Reals.Rgeom <> a:18 var
+R2020:2020 Stdlib.Reals.Rgeom <> c:20 var
+R2024:2026 Stdlib.Reals.Rtrigo_def <> cos def
+R2028:2029 Stdlib.Reals.Rgeom <> ac:17 var
+R2054:2056 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2033:2033 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2041:2045 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2053:2053 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2036:2038 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2034:2035 Stdlib.Reals.Rgeom <> x0:11 var
+R2039:2040 Stdlib.Reals.Rgeom <> x1:13 var
+R2048:2050 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2046:2047 Stdlib.Reals.Rgeom <> x2:15 var
+R2051:2052 Stdlib.Reals.Rgeom <> x1:13 var
+R2057:2057 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2065:2069 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2077:2077 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2060:2062 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2058:2059 Stdlib.Reals.Rgeom <> y0:12 var
+R2063:2064 Stdlib.Reals.Rgeom <> y1:14 var
+R2072:2074 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2070:2071 Stdlib.Reals.Rgeom <> y2:16 var
+R2075:2076 Stdlib.Reals.Rgeom <> y1:14 var
+R2098:2100 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2092:2095 Stdlib.Reals.RIneq <> Rsqr def
+R2097:2097 Stdlib.Reals.Rgeom <> b:19 var
+R2116:2118 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2107:2109 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2101:2104 Stdlib.Reals.RIneq <> Rsqr def
+R2106:2106 Stdlib.Reals.Rgeom <> c:20 var
+R2110:2113 Stdlib.Reals.RIneq <> Rsqr def
+R2115:2115 Stdlib.Reals.Rgeom <> a:18 var
+R2120:2123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2138:2138 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2129:2131 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2125:2127 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2124:2124 Stdlib.Reals.Rgeom <> a:18 var
+R2128:2128 Stdlib.Reals.Rgeom <> c:20 var
+R2132:2134 Stdlib.Reals.Rtrigo_def <> cos def
+R2136:2137 Stdlib.Reals.Rgeom <> ac:17 var
+R2157:2164 Stdlib.Reals.Rgeom <> dist_euc def
+R2190:2198 Stdlib.Reals.R_sqrt <> Rsqr_sqrt thm
+R2225:2228 Stdlib.Reals.RIneq <> Rsqr def
+R2250:2269 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R2285:2304 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R2320:2339 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R2350:2358 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+prf 2373:2380 <> triangle
+R2411:2411 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2393:2394 <> x0:21
+binder 2396:2397 <> y0:22
+binder 2399:2400 <> x1:23
+binder 2402:2403 <> y1:24
+binder 2405:2406 <> x2:25
+binder 2408:2409 <> y2:26
+R2438:2441 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2418:2425 Stdlib.Reals.Rgeom <> dist_euc def
+R2427:2428 Stdlib.Reals.Rgeom <> x0:21 var
+R2430:2431 Stdlib.Reals.Rgeom <> y0:22 var
+R2433:2434 Stdlib.Reals.Rgeom <> x1:23 var
+R2436:2437 Stdlib.Reals.Rgeom <> y1:24 var
+R2462:2464 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2442:2449 Stdlib.Reals.Rgeom <> dist_euc def
+R2451:2452 Stdlib.Reals.Rgeom <> x0:21 var
+R2454:2455 Stdlib.Reals.Rgeom <> y0:22 var
+R2457:2458 Stdlib.Reals.Rgeom <> x2:25 var
+R2460:2461 Stdlib.Reals.Rgeom <> y2:26 var
+R2465:2472 Stdlib.Reals.Rgeom <> dist_euc def
+R2474:2475 Stdlib.Reals.Rgeom <> x2:25 var
+R2477:2478 Stdlib.Reals.Rgeom <> y2:26 var
+R2480:2481 Stdlib.Reals.Rgeom <> x1:23 var
+R2483:2484 Stdlib.Reals.Rgeom <> y1:24 var
+R2511:2518 Stdlib.Reals.Rgeom <> dist_euc def
+R2527:2537 Stdlib.Reals.R_sqr <> Rsqr_incr_0 thm
+R2554:2562 Stdlib.Reals.R_sqr <> Rsqr_plus thm
+R2580:2588 Stdlib.Reals.R_sqrt <> Rsqr_sqrt thm
+R2608:2611 Stdlib.Reals.RIneq <> Rsqr def
+R2616:2618 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2669:2671 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2652:2654 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2638:2641 Stdlib.Reals.RIneq <> Rsqr def
+R2646:2648 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2655:2658 Stdlib.Reals.RIneq <> Rsqr def
+R2663:2665 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2685:2688 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2696:2696 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2673:2676 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2684:2684 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2679:2681 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2691:2693 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2719:2722 Stdlib.Reals.RIneq <> Rsqr def
+R2727:2729 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2782:2784 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2765:2767 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2751:2754 Stdlib.Reals.RIneq <> Rsqr def
+R2759:2761 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2768:2771 Stdlib.Reals.RIneq <> Rsqr def
+R2776:2778 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2798:2801 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2809:2809 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2786:2789 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2797:2797 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2792:2794 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2804:2806 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2914:2930 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2897:2899 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2880:2882 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2864:2865 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2866:2869 Stdlib.Reals.RIneq <> Rsqr def
+R2874:2876 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2883:2886 Stdlib.Reals.RIneq <> Rsqr def
+R2891:2893 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2900:2903 Stdlib.Reals.RIneq <> Rsqr def
+R2908:2910 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2931:2934 Stdlib.Reals.RIneq <> Rsqr def
+R2939:2941 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2831:2844 Stdlib.Reals.RIneq <> Rplus_le_reg_l thm
+R3062:3079 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3219:3219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3031:3047 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3014:3016 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2997:2999 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2981:2982 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2983:2986 Stdlib.Reals.RIneq <> Rsqr def
+R2991:2993 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3000:3003 Stdlib.Reals.RIneq <> Rsqr def
+R3008:3010 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3017:3020 Stdlib.Reals.RIneq <> Rsqr def
+R3025:3027 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3048:3051 Stdlib.Reals.RIneq <> Rsqr def
+R3056:3058 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3139:3158 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3218:3218 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3111:3113 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3094:3096 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3080:3083 Stdlib.Reals.RIneq <> Rsqr def
+R3088:3090 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3097:3100 Stdlib.Reals.RIneq <> Rsqr def
+R3105:3107 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3127:3130 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3138:3138 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3115:3118 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3126:3126 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3121:3123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3133:3135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3190:3192 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3173:3175 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3159:3162 Stdlib.Reals.RIneq <> Rsqr def
+R3167:3169 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3176:3179 Stdlib.Reals.RIneq <> Rsqr def
+R3184:3186 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3206:3209 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3217:3217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3194:3197 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3205:3205 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3200:3202 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3212:3214 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3241:3244 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3290:3290 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3266:3268 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3245:3245 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3253:3257 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3265:3265 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3248:3250 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3260:3262 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3269:3269 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3277:3281 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3289:3289 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3272:3274 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3284:3286 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3420:3441 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3655:3655 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3385:3405 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3368:3370 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3351:3353 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3335:3336 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R3337:3340 Stdlib.Reals.RIneq <> Rsqr def
+R3345:3347 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3354:3357 Stdlib.Reals.RIneq <> Rsqr def
+R3362:3364 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3371:3374 Stdlib.Reals.RIneq <> Rsqr def
+R3379:3381 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3406:3409 Stdlib.Reals.RIneq <> Rsqr def
+R3414:3416 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3529:3551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3473:3496 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3528:3528 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3456:3458 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3442:3445 Stdlib.Reals.RIneq <> Rsqr def
+R3450:3452 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3459:3462 Stdlib.Reals.RIneq <> Rsqr def
+R3467:3469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3511:3513 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3497:3500 Stdlib.Reals.RIneq <> Rsqr def
+R3505:3507 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3514:3517 Stdlib.Reals.RIneq <> Rsqr def
+R3522:3524 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3594:3616 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3553:3555 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3556:3559 Stdlib.Reals.R_sqrt <> sqrt def
+R3576:3578 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3562:3565 Stdlib.Reals.RIneq <> Rsqr def
+R3570:3572 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3579:3582 Stdlib.Reals.RIneq <> Rsqr def
+R3587:3589 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3617:3620 Stdlib.Reals.R_sqrt <> sqrt def
+R3637:3639 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3623:3626 Stdlib.Reals.RIneq <> Rsqr def
+R3631:3633 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3640:3643 Stdlib.Reals.RIneq <> Rsqr def
+R3648:3650 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3681:3702 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3802:3802 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3741:3763 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3703:3706 Stdlib.Reals.R_sqrt <> sqrt def
+R3723:3725 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3709:3712 Stdlib.Reals.RIneq <> Rsqr def
+R3717:3719 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3726:3729 Stdlib.Reals.RIneq <> Rsqr def
+R3734:3736 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3764:3767 Stdlib.Reals.R_sqrt <> sqrt def
+R3784:3786 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3770:3773 Stdlib.Reals.RIneq <> Rsqr def
+R3778:3780 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3787:3790 Stdlib.Reals.RIneq <> Rsqr def
+R3795:3797 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3830:3846 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R3885:3888 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3939:3946 Stdlib.Reals.RIneq <> lt_INR_0 abbrev
+R3951:3955 Corelib.Init.Logic <> proj1 thm
+R3977:3987 Stdlib.Arith.PeanoNat Nat neq_sym thm
+R3958:3971 Stdlib.Arith.PeanoNat Nat neq_0_lt_0 thm
+R4109:4119 Stdlib.Reals.R_sqrt <> sqrt_cauchy thm
+R4241:4260 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4269:4277 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R4295:4314 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4323:4331 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R4349:4368 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4377:4385 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R4403:4417 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R4426:4445 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4454:4462 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+R4478:4497 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4506:4520 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R4537:4556 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R4565:4573 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+def 4803:4804 <> xt
+R4812:4812 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4807:4807 <> x:27
+binder 4809:4810 <> tx:28
+R4817:4817 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4823:4825 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4822:4822 Stdlib.Reals.Rgeom <> x:27 var
+R4826:4827 Stdlib.Reals.Rgeom <> tx:28 var
+def 4841:4842 <> yt
+R4850:4850 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4845:4845 <> y:29
+binder 4847:4848 <> ty:30
+R4855:4855 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4861:4863 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4860:4860 Stdlib.Reals.Rgeom <> y:29 var
+R4864:4865 Stdlib.Reals.Rgeom <> ty:30 var
+prf 4875:4887 <> translation_0
+R4902:4902 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4898:4898 <> x:31
+binder 4900:4900 <> y:32
+R4915:4918 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4911:4913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4905:4906 Stdlib.Reals.Rgeom <> xt def
+R4908:4908 Stdlib.Reals.Rgeom <> x:31 var
+R4914:4914 Stdlib.Reals.Rgeom <> x:31 var
+R4925:4927 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4919:4920 Stdlib.Reals.Rgeom <> yt def
+R4922:4922 Stdlib.Reals.Rgeom <> y:32 var
+R4928:4928 Stdlib.Reals.Rgeom <> y:32 var
+R4968:4969 Stdlib.Reals.Rgeom <> xt def
+R4980:4981 Stdlib.Reals.Rgeom <> yt def
+prf 5004:5024 <> isometric_translation
+R5055:5055 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5037:5038 <> x1:33
+binder 5040:5041 <> x2:34
+binder 5043:5044 <> y1:35
+binder 5046:5047 <> y2:36
+binder 5049:5050 <> tx:37
+binder 5052:5053 <> ty:38
+R5093:5099 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5076:5078 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5062:5065 Stdlib.Reals.RIneq <> Rsqr def
+R5070:5072 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5068:5069 Stdlib.Reals.Rgeom <> x1:33 var
+R5073:5074 Stdlib.Reals.Rgeom <> x2:34 var
+R5079:5082 Stdlib.Reals.RIneq <> Rsqr def
+R5087:5089 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5085:5086 Stdlib.Reals.Rgeom <> y1:35 var
+R5090:5091 Stdlib.Reals.Rgeom <> y2:36 var
+R5126:5128 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5100:5103 Stdlib.Reals.RIneq <> Rsqr def
+R5114:5116 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5106:5107 Stdlib.Reals.Rgeom <> xt def
+R5109:5110 Stdlib.Reals.Rgeom <> x1:33 var
+R5112:5113 Stdlib.Reals.Rgeom <> tx:37 var
+R5117:5118 Stdlib.Reals.Rgeom <> xt def
+R5120:5121 Stdlib.Reals.Rgeom <> x2:34 var
+R5123:5124 Stdlib.Reals.Rgeom <> tx:37 var
+R5129:5132 Stdlib.Reals.RIneq <> Rsqr def
+R5143:5145 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5135:5136 Stdlib.Reals.Rgeom <> yt def
+R5138:5139 Stdlib.Reals.Rgeom <> y1:35 var
+R5141:5142 Stdlib.Reals.Rgeom <> ty:38 var
+R5146:5147 Stdlib.Reals.Rgeom <> yt def
+R5149:5150 Stdlib.Reals.Rgeom <> y2:36 var
+R5152:5153 Stdlib.Reals.Rgeom <> ty:38 var
+R5181:5184 Stdlib.Reals.RIneq <> Rsqr def
+R5187:5188 Stdlib.Reals.Rgeom <> xt def
+R5191:5192 Stdlib.Reals.Rgeom <> yt def
+def 5426:5427 <> xr
+R5440:5440 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5430:5430 <> x:39
+binder 5432:5432 <> y:40
+binder 5434:5438 <> theta:41
+R5445:5445 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5463:5465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5451:5453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5450:5450 Stdlib.Reals.Rgeom <> x:39 var
+R5454:5456 Stdlib.Reals.Rtrigo_def <> cos def
+R5458:5462 Stdlib.Reals.Rgeom <> theta:41 var
+R5467:5469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5466:5466 Stdlib.Reals.Rgeom <> y:40 var
+R5470:5472 Stdlib.Reals.Rtrigo_def <> sin def
+R5474:5478 Stdlib.Reals.Rgeom <> theta:41 var
+def 5492:5493 <> yr
+R5506:5506 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5496:5496 <> x:42
+binder 5498:5498 <> y:43
+binder 5500:5504 <> theta:44
+R5511:5511 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5531:5533 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5519:5521 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5516:5517 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5518:5518 Stdlib.Reals.Rgeom <> x:42 var
+R5522:5524 Stdlib.Reals.Rtrigo_def <> sin def
+R5526:5530 Stdlib.Reals.Rgeom <> theta:44 var
+R5535:5537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5534:5534 Stdlib.Reals.Rgeom <> y:43 var
+R5538:5540 Stdlib.Reals.Rtrigo_def <> cos def
+R5542:5546 Stdlib.Reals.Rgeom <> theta:44 var
+prf 5556:5565 <> rotation_0
+R5580:5580 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5576:5576 <> x:45
+binder 5578:5578 <> y:46
+R5595:5598 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5591:5593 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5583:5584 Stdlib.Reals.Rgeom <> xr def
+R5586:5586 Stdlib.Reals.Rgeom <> x:45 var
+R5588:5588 Stdlib.Reals.Rgeom <> y:46 var
+R5594:5594 Stdlib.Reals.Rgeom <> x:45 var
+R5607:5609 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5599:5600 Stdlib.Reals.Rgeom <> yr def
+R5602:5602 Stdlib.Reals.Rgeom <> x:45 var
+R5604:5604 Stdlib.Reals.Rgeom <> y:46 var
+R5610:5610 Stdlib.Reals.Rgeom <> y:46 var
+R5641:5642 Stdlib.Reals.Rgeom <> xr def
+R5645:5646 Stdlib.Reals.Rgeom <> yr def
+R5664:5668 Stdlib.Reals.Rtrigo_def <> cos_0 thm
+R5679:5683 Stdlib.Reals.Rtrigo_def <> sin_0 thm
+prf 5704:5715 <> rotation_PI2
+R5732:5732 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5728:5728 <> x:47
+binder 5730:5730 <> y:48
+R5754:5757 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5750:5752 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5735:5736 Stdlib.Reals.Rgeom <> xr def
+R5738:5738 Stdlib.Reals.Rgeom <> x:47 var
+R5740:5740 Stdlib.Reals.Rgeom <> y:48 var
+R5745:5747 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R5743:5744 Stdlib.Reals.Rtrigo1 <> PI def
+R5753:5753 Stdlib.Reals.Rgeom <> y:48 var
+R5773:5775 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5758:5759 Stdlib.Reals.Rgeom <> yr def
+R5761:5761 Stdlib.Reals.Rgeom <> x:47 var
+R5763:5763 Stdlib.Reals.Rgeom <> y:48 var
+R5768:5770 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R5766:5767 Stdlib.Reals.Rtrigo1 <> PI def
+R5776:5777 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5778:5778 Stdlib.Reals.Rgeom <> x:47 var
+R5809:5810 Stdlib.Reals.Rgeom <> xr def
+R5813:5814 Stdlib.Reals.Rgeom <> yr def
+R5832:5838 Stdlib.Reals.Rtrigo1 <> cos_PI2 thm
+R5849:5855 Stdlib.Reals.Rtrigo1 <> sin_PI2 thm
+prf 5880:5899 <> isometric_rotation_0
+R5930:5930 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5912:5913 <> x1:49
+binder 5915:5916 <> y1:50
+binder 5918:5919 <> x2:51
+binder 5921:5922 <> y2:52
+binder 5924:5928 <> theta:53
+R5968:5974 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5951:5953 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5937:5940 Stdlib.Reals.RIneq <> Rsqr def
+R5945:5947 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5943:5944 Stdlib.Reals.Rgeom <> x1:49 var
+R5948:5949 Stdlib.Reals.Rgeom <> x2:51 var
+R5954:5957 Stdlib.Reals.RIneq <> Rsqr def
+R5962:5964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5960:5961 Stdlib.Reals.Rgeom <> y1:50 var
+R5965:5966 Stdlib.Reals.Rgeom <> y2:52 var
+R6013:6019 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5975:5978 Stdlib.Reals.RIneq <> Rsqr def
+R5995:5997 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5981:5982 Stdlib.Reals.Rgeom <> xr def
+R5984:5985 Stdlib.Reals.Rgeom <> x1:49 var
+R5987:5988 Stdlib.Reals.Rgeom <> y1:50 var
+R5990:5994 Stdlib.Reals.Rgeom <> theta:53 var
+R5998:5999 Stdlib.Reals.Rgeom <> xr def
+R6001:6002 Stdlib.Reals.Rgeom <> x2:51 var
+R6004:6005 Stdlib.Reals.Rgeom <> y2:52 var
+R6007:6011 Stdlib.Reals.Rgeom <> theta:53 var
+R6020:6023 Stdlib.Reals.RIneq <> Rsqr def
+R6040:6042 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6026:6027 Stdlib.Reals.Rgeom <> yr def
+R6029:6030 Stdlib.Reals.Rgeom <> x1:49 var
+R6032:6033 Stdlib.Reals.Rgeom <> y1:50 var
+R6035:6039 Stdlib.Reals.Rgeom <> theta:53 var
+R6043:6044 Stdlib.Reals.Rgeom <> yr def
+R6046:6047 Stdlib.Reals.Rgeom <> x2:51 var
+R6049:6050 Stdlib.Reals.Rgeom <> y2:52 var
+R6052:6056 Stdlib.Reals.Rgeom <> theta:53 var
+R6084:6085 Stdlib.Reals.Rgeom <> xr def
+R6088:6089 Stdlib.Reals.Rgeom <> yr def
+R6140:6143 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6175:6175 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6123:6125 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6111:6113 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6114:6116 Stdlib.Reals.Rtrigo_def <> cos def
+R6128:6130 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6131:6133 Stdlib.Reals.Rtrigo_def <> sin def
+R6158:6160 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6146:6148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6149:6151 Stdlib.Reals.Rtrigo_def <> cos def
+R6163:6165 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6166:6168 Stdlib.Reals.Rtrigo_def <> sin def
+R6209:6211 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6197:6200 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6208:6208 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6188:6190 Stdlib.Reals.Rtrigo_def <> cos def
+R6203:6205 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6221:6224 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6232:6232 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6212:6214 Stdlib.Reals.Rtrigo_def <> sin def
+R6227:6229 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6290:6293 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6327:6327 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6273:6275 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6261:6263 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6257:6258 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6264:6266 Stdlib.Reals.Rtrigo_def <> sin def
+R6278:6280 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6281:6283 Stdlib.Reals.Rtrigo_def <> cos def
+R6310:6312 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6298:6300 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6294:6295 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6301:6303 Stdlib.Reals.Rtrigo_def <> sin def
+R6315:6317 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6318:6320 Stdlib.Reals.Rtrigo_def <> cos def
+R6363:6365 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6351:6354 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6362:6362 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6342:6344 Stdlib.Reals.Rtrigo_def <> cos def
+R6357:6359 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6375:6378 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6386:6386 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6366:6368 Stdlib.Reals.Rtrigo_def <> sin def
+R6381:6383 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6415:6423 Stdlib.Reals.R_sqr <> Rsqr_plus thm
+R6441:6449 Stdlib.Reals.R_sqr <> Rsqr_mult thm
+R6467:6470 Stdlib.Reals.Rtrigo1 <> cos2 thm
+R6509:6511 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6522:6524 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6532:6532 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6527:6529 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6559:6566 Stdlib.Reals.R_sqr <> Rsqr_neg thm
+prf 6630:6647 <> isometric_rotation
+R6678:6678 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6660:6661 <> x1:54
+binder 6663:6664 <> y1:55
+binder 6666:6667 <> x2:56
+binder 6669:6670 <> y2:57
+binder 6672:6676 <> theta:58
+R6705:6711 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6685:6692 Stdlib.Reals.Rgeom <> dist_euc def
+R6694:6695 Stdlib.Reals.Rgeom <> x1:54 var
+R6697:6698 Stdlib.Reals.Rgeom <> y1:55 var
+R6700:6701 Stdlib.Reals.Rgeom <> x2:56 var
+R6703:6704 Stdlib.Reals.Rgeom <> y2:57 var
+R6712:6719 Stdlib.Reals.Rgeom <> dist_euc def
+R6722:6723 Stdlib.Reals.Rgeom <> xr def
+R6725:6726 Stdlib.Reals.Rgeom <> x1:54 var
+R6728:6729 Stdlib.Reals.Rgeom <> y1:55 var
+R6731:6735 Stdlib.Reals.Rgeom <> theta:58 var
+R6739:6740 Stdlib.Reals.Rgeom <> yr def
+R6742:6743 Stdlib.Reals.Rgeom <> x1:54 var
+R6745:6746 Stdlib.Reals.Rgeom <> y1:55 var
+R6748:6752 Stdlib.Reals.Rgeom <> theta:58 var
+R6756:6757 Stdlib.Reals.Rgeom <> xr def
+R6759:6760 Stdlib.Reals.Rgeom <> x2:56 var
+R6762:6763 Stdlib.Reals.Rgeom <> y2:57 var
+R6765:6769 Stdlib.Reals.Rgeom <> theta:58 var
+R6777:6778 Stdlib.Reals.Rgeom <> yr def
+R6780:6781 Stdlib.Reals.Rgeom <> x2:56 var
+R6783:6784 Stdlib.Reals.Rgeom <> y2:57 var
+R6786:6790 Stdlib.Reals.Rgeom <> theta:58 var
+R6810:6817 Stdlib.Reals.Rgeom <> dist_euc def
+R6834:6841 Stdlib.Reals.R_sqr <> Rsqr_inj thm
+R6856:6870 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R6879:6898 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R6914:6928 Stdlib.Reals.R_sqrt <> sqrt_positivity thm
+R6937:6956 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R6981:6989 Stdlib.Reals.R_sqrt <> Rsqr_sqrt thm
+R7008:7027 Stdlib.Reals.Rgeom <> isometric_rotation_0 thm
+R7047:7066 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R7086:7105 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R7118:7126 Stdlib.Reals.RIneq <> Rle_0_sqr thm
+prf 7349:7367 <> isometric_rot_trans
+R7404:7404 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7380:7381 <> x1:59
+binder 7383:7384 <> y1:60
+binder 7386:7387 <> x2:61
+binder 7389:7390 <> y2:62
+binder 7392:7393 <> tx:63
+binder 7395:7396 <> ty:64
+binder 7398:7402 <> theta:65
+R7442:7448 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7425:7427 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7411:7414 Stdlib.Reals.RIneq <> Rsqr def
+R7419:7421 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7417:7418 Stdlib.Reals.Rgeom <> x1:59 var
+R7422:7423 Stdlib.Reals.Rgeom <> x2:61 var
+R7428:7431 Stdlib.Reals.RIneq <> Rsqr def
+R7436:7438 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7434:7435 Stdlib.Reals.Rgeom <> y1:60 var
+R7439:7440 Stdlib.Reals.Rgeom <> y2:62 var
+R7519:7525 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7449:7452 Stdlib.Reals.RIneq <> Rsqr def
+R7485:7487 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7455:7456 Stdlib.Reals.Rgeom <> xr def
+R7459:7460 Stdlib.Reals.Rgeom <> xt def
+R7462:7463 Stdlib.Reals.Rgeom <> x1:59 var
+R7465:7466 Stdlib.Reals.Rgeom <> tx:63 var
+R7470:7471 Stdlib.Reals.Rgeom <> yt def
+R7473:7474 Stdlib.Reals.Rgeom <> y1:60 var
+R7476:7477 Stdlib.Reals.Rgeom <> ty:64 var
+R7480:7484 Stdlib.Reals.Rgeom <> theta:65 var
+R7488:7489 Stdlib.Reals.Rgeom <> xr def
+R7492:7493 Stdlib.Reals.Rgeom <> xt def
+R7495:7496 Stdlib.Reals.Rgeom <> x2:61 var
+R7498:7499 Stdlib.Reals.Rgeom <> tx:63 var
+R7503:7504 Stdlib.Reals.Rgeom <> yt def
+R7506:7507 Stdlib.Reals.Rgeom <> y2:62 var
+R7509:7510 Stdlib.Reals.Rgeom <> ty:64 var
+R7513:7517 Stdlib.Reals.Rgeom <> theta:65 var
+R7526:7529 Stdlib.Reals.RIneq <> Rsqr def
+R7562:7564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7532:7533 Stdlib.Reals.Rgeom <> yr def
+R7536:7537 Stdlib.Reals.Rgeom <> xt def
+R7539:7540 Stdlib.Reals.Rgeom <> x1:59 var
+R7542:7543 Stdlib.Reals.Rgeom <> tx:63 var
+R7547:7548 Stdlib.Reals.Rgeom <> yt def
+R7550:7551 Stdlib.Reals.Rgeom <> y1:60 var
+R7553:7554 Stdlib.Reals.Rgeom <> ty:64 var
+R7557:7561 Stdlib.Reals.Rgeom <> theta:65 var
+R7565:7566 Stdlib.Reals.Rgeom <> yr def
+R7569:7570 Stdlib.Reals.Rgeom <> xt def
+R7572:7573 Stdlib.Reals.Rgeom <> x2:61 var
+R7575:7576 Stdlib.Reals.Rgeom <> tx:63 var
+R7580:7581 Stdlib.Reals.Rgeom <> yt def
+R7583:7584 Stdlib.Reals.Rgeom <> y2:62 var
+R7586:7587 Stdlib.Reals.Rgeom <> ty:64 var
+R7590:7594 Stdlib.Reals.Rgeom <> theta:65 var
+R7626:7645 Stdlib.Reals.Rgeom <> isometric_rotation_0 thm
+R7654:7674 Stdlib.Reals.Rgeom <> isometric_translation thm
+prf 7689:7707 <> isometric_trans_rot
+R7744:7744 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7720:7721 <> x1:66
+binder 7723:7724 <> y1:67
+binder 7726:7727 <> x2:68
+binder 7729:7730 <> y2:69
+binder 7732:7733 <> tx:70
+binder 7735:7736 <> ty:71
+binder 7738:7742 <> theta:72
+R7782:7788 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7765:7767 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7751:7754 Stdlib.Reals.RIneq <> Rsqr def
+R7759:7761 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7757:7758 Stdlib.Reals.Rgeom <> x1:66 var
+R7762:7763 Stdlib.Reals.Rgeom <> x2:68 var
+R7768:7771 Stdlib.Reals.RIneq <> Rsqr def
+R7776:7778 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7774:7775 Stdlib.Reals.Rgeom <> y1:67 var
+R7779:7780 Stdlib.Reals.Rgeom <> y2:69 var
+R7843:7849 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7789:7792 Stdlib.Reals.RIneq <> Rsqr def
+R7817:7819 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7795:7796 Stdlib.Reals.Rgeom <> xt def
+R7799:7800 Stdlib.Reals.Rgeom <> xr def
+R7802:7803 Stdlib.Reals.Rgeom <> x1:66 var
+R7805:7806 Stdlib.Reals.Rgeom <> y1:67 var
+R7808:7812 Stdlib.Reals.Rgeom <> theta:72 var
+R7815:7816 Stdlib.Reals.Rgeom <> tx:70 var
+R7820:7821 Stdlib.Reals.Rgeom <> xt def
+R7824:7825 Stdlib.Reals.Rgeom <> xr def
+R7827:7828 Stdlib.Reals.Rgeom <> x2:68 var
+R7830:7831 Stdlib.Reals.Rgeom <> y2:69 var
+R7833:7837 Stdlib.Reals.Rgeom <> theta:72 var
+R7840:7841 Stdlib.Reals.Rgeom <> tx:70 var
+R7850:7853 Stdlib.Reals.RIneq <> Rsqr def
+R7878:7880 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7856:7857 Stdlib.Reals.Rgeom <> yt def
+R7860:7861 Stdlib.Reals.Rgeom <> yr def
+R7863:7864 Stdlib.Reals.Rgeom <> x1:66 var
+R7866:7867 Stdlib.Reals.Rgeom <> y1:67 var
+R7869:7873 Stdlib.Reals.Rgeom <> theta:72 var
+R7876:7877 Stdlib.Reals.Rgeom <> ty:71 var
+R7881:7882 Stdlib.Reals.Rgeom <> yt def
+R7885:7886 Stdlib.Reals.Rgeom <> yr def
+R7888:7889 Stdlib.Reals.Rgeom <> x2:68 var
+R7891:7892 Stdlib.Reals.Rgeom <> y2:69 var
+R7894:7898 Stdlib.Reals.Rgeom <> theta:72 var
+R7901:7902 Stdlib.Reals.Rgeom <> ty:71 var
+R7934:7954 Stdlib.Reals.Rgeom <> isometric_translation thm
+R7963:7982 Stdlib.Reals.Rgeom <> isometric_rotation_0 thm

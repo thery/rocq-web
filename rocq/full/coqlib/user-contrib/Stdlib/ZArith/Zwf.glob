@@ -1,0 +1,96 @@
+DIGEST 814ff92c97c01705e604772848e02fe8
+FStdlib.ZArith.Zwf
+R703:710 Stdlib.Arith.PeanoNat <> <> lib
+R712:717 Stdlib.ZArith.BinInt <> <> lib
+R747:752 Stdlib.Arith.Wf_nat <> <> lib
+R782:784 Stdlib.micromega.Lia <> <> lib
+def 974:976 <> Zwf
+R985:985 Corelib.Numbers.BinNums <> Z ind
+binder 979:979 <> c:1
+binder 981:981 <> x:2
+binder 983:983 <> y:3
+R997:1000 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R992:995 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R991:991 Stdlib.ZArith.Zwf <> c:1 var
+R996:996 Stdlib.ZArith.Zwf <> y:3 var
+R1002:1004 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1001:1001 Stdlib.ZArith.Zwf <> x:2 var
+R1005:1005 Stdlib.ZArith.Zwf <> y:3 var
+sec 1069:1076 <> wf_proof
+var 1091:1091 wf_proof c
+R1095:1095 Corelib.Numbers.BinNums <> Z ind
+var 1233:1233 wf_proof f
+R1238:1238 Corelib.Numbers.BinNums <> Z ind
+binder 1236:1236 <> z:6
+R1244:1252 Stdlib.ZArith.BinInt Z abs_nat def
+R1256:1258 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1255:1255 Stdlib.ZArith.Zwf <> z:6 var
+R1259:1259 Stdlib.ZArith.Zwf <> wf_proof.c var
+prf 1272:1287 <> Zwf_well_founded
+R1291:1302 Corelib.Init.Wf <> well_founded def
+R1305:1307 Stdlib.ZArith.Zwf <> Zwf def
+R1309:1309 Stdlib.ZArith.Zwf <> wf_proof.c var
+R1361:1363 Corelib.Init.Datatypes <> nat ind
+binder 1359:1359 <> n:7
+R1369:1369 Corelib.Numbers.BinNums <> Z ind
+binder 1367:1367 <> a:8
+R1395:1398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1386:1389 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1377:1379 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1374:1374 Stdlib.ZArith.Zwf <> wf_proof.f var
+R1376:1376 Stdlib.ZArith.Zwf <> a:8 var
+R1380:1380 Stdlib.ZArith.Zwf <> n:7 var
+R1391:1393 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1390:1390 Stdlib.ZArith.Zwf <> a:8 var
+R1394:1394 Stdlib.ZArith.Zwf <> wf_proof.c var
+R1399:1401 Corelib.Init.Wf <> Acc ind
+R1411:1411 Stdlib.ZArith.Zwf <> a:8 var
+R1404:1406 Stdlib.ZArith.Zwf <> Zwf def
+R1408:1408 Stdlib.ZArith.Zwf <> wf_proof.c var
+binder 1359:1359 <> n:9
+binder 1367:1367 <> a:10
+R1376:1376 Stdlib.ZArith.Zwf <> a:10 var
+R1380:1380 Stdlib.ZArith.Zwf <> n:9 var
+R1390:1390 Stdlib.ZArith.Zwf <> a:10 var
+R1411:1411 Stdlib.ZArith.Zwf <> a:10 var
+R1525:1533 Corelib.Init.Wf <> Acc_intro constr
+R1543:1545 Stdlib.ZArith.Zwf <> Zwf def
+R1647:1655 Corelib.Init.Wf <> Acc_intro constr
+R1694:1696 Stdlib.ZArith.Zwf <> Zwf def
+R1717:1729 Stdlib.ZArith.BinInt Z le_gt_cases thm
+R1731:1731 Stdlib.ZArith.Zwf <> wf_proof.c var
+R1798:1798 Stdlib.ZArith.Zwf <> wf_proof.f var
+R1776:1790 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R1834:1834 Stdlib.ZArith.Zwf <> f vardef
+R1868:1868 Corelib.Init.Datatypes <> S constr
+R1871:1871 Stdlib.ZArith.Zwf <> wf_proof.f var
+R1897:1904 Stdlib.ZArith.Zwf wf_proof <> sec
+def 2071:2076 <> Zwf_up
+R2085:2085 Corelib.Numbers.BinNums <> Z ind
+binder 2079:2079 <> c:11
+binder 2081:2081 <> x:12
+binder 2083:2083 <> y:13
+R2092:2094 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R2096:2099 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R2091:2091 Stdlib.ZArith.Zwf <> y:13 var
+R2095:2095 Stdlib.ZArith.Zwf <> x:12 var
+R2100:2100 Stdlib.ZArith.Zwf <> c:11 var
+sec 2167:2177 <> wf_proof_up
+var 2192:2192 wf_proof_up c
+R2196:2196 Corelib.Numbers.BinNums <> Z ind
+var 2334:2334 wf_proof_up f
+R2339:2339 Corelib.Numbers.BinNums <> Z ind
+binder 2337:2337 <> z:16
+R2345:2353 Stdlib.ZArith.BinInt Z abs_nat def
+R2357:2359 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2356:2356 Stdlib.ZArith.Zwf <> wf_proof_up.c var
+R2360:2360 Stdlib.ZArith.Zwf <> z:16 var
+prf 2373:2391 <> Zwf_up_well_founded
+R2395:2406 Corelib.Init.Wf <> well_founded def
+R2409:2414 Stdlib.ZArith.Zwf <> Zwf_up def
+R2416:2416 Stdlib.ZArith.Zwf <> wf_proof_up.c var
+R2473:2473 Stdlib.ZArith.Zwf <> wf_proof_up.f var
+R2439:2460 Stdlib.Arith.Wf_nat <> well_founded_lt_compat thm
+R2488:2493 Stdlib.ZArith.Zwf <> Zwf_up def
+R2496:2496 Stdlib.ZArith.Zwf <> f vardef
+R2520:2530 Stdlib.ZArith.Zwf wf_proof_up <> sec

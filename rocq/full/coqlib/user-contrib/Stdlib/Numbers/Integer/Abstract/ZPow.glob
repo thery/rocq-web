@@ -1,0 +1,260 @@
+DIGEST b5a0826a6fc8ddeb386e806f2d8a5284
+FStdlib.Numbers.Integer.Abstract.ZPow
+R744:747 Stdlib.Bool.Bool <> <> lib
+R749:755 Stdlib.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R757:765 Stdlib.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R767:773 Stdlib.Numbers.Integer.Abstract.ZParity <> <> lib
+R775:781 Stdlib.Numbers.Integer.Abstract.ZSgnAbs <> <> lib
+R783:787 Stdlib.Numbers.NatInt.NZPow <> <> lib
+R825:835 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> modtype
+R851:863 Stdlib.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> modtype
+R865:865 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R881:891 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp <> modtype
+R893:893 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R895:895 Stdlib.Numbers.Integer.Abstract.ZPow B <> mod
+R911:921 Stdlib.Numbers.Integer.Abstract.ZSgnAbs ZSgnAbsProp <> modtype
+R923:923 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R925:925 Stdlib.Numbers.Integer.Abstract.ZPow B <> mod
+modtype 803:810 <> ZPowProp
+R803:810 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R803:810 Stdlib.Numbers.Integer.Abstract.ZPow B <> mod
+R803:810 Stdlib.Numbers.Integer.Abstract.ZPow C <> mod
+R803:810 Stdlib.Numbers.Integer.Abstract.ZPow D <> mod
+R939:947 Stdlib.Numbers.NatInt.NZPow NZPowProp <> modtype
+R949:949 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R951:951 Stdlib.Numbers.Integer.Abstract.ZPow A <> mod
+R953:953 Stdlib.Numbers.Integer.Abstract.ZPow B <> mod
+prf 1026:1036 ZPowProp pow_twice_r
+binder 1038:1038 <> a:1
+binder 1040:1040 <> b:2
+R1051:1054 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1045:1046 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1050:1050 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1044:1044 Stdlib.Numbers.Integer.Abstract.ZPow <> a:1 var
+R1048:1048 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1049:1049 Stdlib.Numbers.Integer.Abstract.ZPow <> b:2 var
+R1058:1060 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1056:1056 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1055:1055 Stdlib.Numbers.Integer.Abstract.ZPow <> a:1 var
+R1057:1057 Stdlib.Numbers.Integer.Abstract.ZPow <> b:2 var
+R1062:1062 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1061:1061 Stdlib.Numbers.Integer.Abstract.ZPow <> a:1 var
+R1063:1063 Stdlib.Numbers.Integer.Abstract.ZPow <> b:2 var
+R1082:1089 Stdlib.Numbers.Integer.Abstract.ZPow A two_succ prfax
+R1112:1122 Stdlib.Numbers.Integer.Abstract.ZPow B le_gt_cases thm
+R1145:1153 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_add_r thm
+R1168:1176 Stdlib.Numbers.Integer.Abstract.ZPow A pow_neg_r prfax
+R1226:1236 Stdlib.Numbers.Integer.Abstract.ZPow B add_neg_neg thm
+prf 1275:1282 ZPowProp even_pow
+binder 1293:1293 <> a:3
+binder 1295:1295 <> b:4
+R1301:1304 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1299:1299 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1300:1300 Stdlib.Numbers.Integer.Abstract.ZPow <> b:4 var
+R1315:1317 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1305:1308 Stdlib.Numbers.Integer.Abstract.ZPow A even defax
+R1312:1312 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1311:1311 Stdlib.Numbers.Integer.Abstract.ZPow <> a:3 var
+R1313:1313 Stdlib.Numbers.Integer.Abstract.ZPow <> b:4 var
+R1318:1321 Stdlib.Numbers.Integer.Abstract.ZPow A even defax
+R1323:1323 Stdlib.Numbers.Integer.Abstract.ZPow <> a:3 var
+R1356:1361 Stdlib.Numbers.Integer.Abstract.ZPow B lt_ind thm
+R1475:1482 Stdlib.Numbers.Integer.Abstract.ZPow C even_mul thm
+R1503:1506 Stdlib.Numbers.Integer.Abstract.ZPow A even defax
+prf 1524:1530 ZPowProp odd_pow
+binder 1541:1541 <> a:5
+binder 1543:1543 <> b:6
+R1549:1552 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1547:1547 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1548:1548 Stdlib.Numbers.Integer.Abstract.ZPow <> b:6 var
+R1562:1564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1553:1555 Stdlib.Numbers.Integer.Abstract.ZPow A odd defax
+R1559:1559 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1558:1558 Stdlib.Numbers.Integer.Abstract.ZPow <> a:5 var
+R1560:1560 Stdlib.Numbers.Integer.Abstract.ZPow <> b:6 var
+R1565:1567 Stdlib.Numbers.Integer.Abstract.ZPow A odd defax
+R1569:1569 Stdlib.Numbers.Integer.Abstract.ZPow <> a:5 var
+R1604:1612 Stdlib.Numbers.Integer.Abstract.ZPow C negb_even thm
+R1615:1622 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp even_pow thm
+prf 1685:1696 ZPowProp pow_opp_even
+binder 1707:1707 <> a:7
+binder 1709:1709 <> b:8
+R1718:1721 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1712:1715 Stdlib.Numbers.Integer.Abstract.ZPow A Even def
+R1717:1717 Stdlib.Numbers.Integer.Abstract.ZPow <> b:8 var
+R1728:1731 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1722:1722 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1725:1726 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1723:1723 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1724:1724 Stdlib.Numbers.Integer.Abstract.ZPow <> a:7 var
+R1727:1727 Stdlib.Numbers.Integer.Abstract.ZPow <> b:8 var
+R1733:1733 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1732:1732 Stdlib.Numbers.Integer.Abstract.ZPow <> a:7 var
+R1734:1734 Stdlib.Numbers.Integer.Abstract.ZPow <> b:8 var
+R1785:1795 Stdlib.Numbers.Integer.Abstract.ZPow B le_gt_cases thm
+R1816:1824 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_mul_r thm
+R1850:1856 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_2_r thm
+R1874:1884 Stdlib.Numbers.Integer.Abstract.ZPow B mul_opp_opp thm
+R1901:1903 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1899:1899 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1917:1927 Stdlib.Numbers.Integer.Abstract.ZPow B mul_pos_neg thm
+R1955:1963 Stdlib.Numbers.Integer.Abstract.ZPow A pow_neg_r prfax
+prf 1978:1988 ZPowProp pow_opp_odd
+binder 1999:1999 <> a:9
+binder 2001:2001 <> b:10
+R2009:2012 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2004:2006 Stdlib.Numbers.Integer.Abstract.ZPow A Odd def
+R2008:2008 Stdlib.Numbers.Integer.Abstract.ZPow <> b:10 var
+R2019:2022 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2013:2013 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2016:2017 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2014:2014 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2015:2015 Stdlib.Numbers.Integer.Abstract.ZPow <> a:9 var
+R2018:2018 Stdlib.Numbers.Integer.Abstract.ZPow <> b:10 var
+R2023:2024 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2028:2028 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2026:2026 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2025:2025 Stdlib.Numbers.Integer.Abstract.ZPow <> a:9 var
+R2027:2027 Stdlib.Numbers.Integer.Abstract.ZPow <> b:10 var
+R2079:2089 Stdlib.Numbers.Integer.Abstract.ZPow B le_gt_cases thm
+R2120:2123 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2125:2125 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2139:2155 Stdlib.Numbers.Integer.Abstract.ZPow B mul_nonneg_nonneg thm
+R2178:2184 Stdlib.Numbers.Integer.Abstract.ZPow B add_1_r thm
+R2188:2197 Stdlib.Numbers.Integer.Abstract.ZPow A pow_succ_r prfax
+R2220:2231 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_opp_even thm
+R2261:2269 Stdlib.Numbers.Integer.Abstract.ZPow B mul_opp_l thm
+R2281:2292 Stdlib.Numbers.Integer.Abstract.ZPow C double_above thm
+R2309:2315 Stdlib.Numbers.Integer.Abstract.ZPow B mul_0_r thm
+R2336:2344 Stdlib.Numbers.Integer.Abstract.ZPow A pow_neg_r prfax
+R2370:2374 Stdlib.Numbers.Integer.Abstract.ZPow A opp_0 prfax
+prf 2389:2400 ZPowProp pow_even_abs
+binder 2411:2411 <> a:11
+binder 2413:2413 <> b:12
+R2422:2425 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2416:2419 Stdlib.Numbers.Integer.Abstract.ZPow A Even def
+R2421:2421 Stdlib.Numbers.Integer.Abstract.ZPow <> b:12 var
+R2429:2432 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2427:2427 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2426:2426 Stdlib.Numbers.Integer.Abstract.ZPow <> a:11 var
+R2428:2428 Stdlib.Numbers.Integer.Abstract.ZPow <> b:12 var
+R2433:2433 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2439:2440 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2434:2436 Stdlib.Numbers.Integer.Abstract.ZPow A abs defax
+R2438:2438 Stdlib.Numbers.Integer.Abstract.ZPow <> a:11 var
+R2441:2441 Stdlib.Numbers.Integer.Abstract.ZPow <> b:12 var
+R2476:2488 Stdlib.Numbers.Integer.Abstract.ZPow D abs_eq_or_opp thm
+R2556:2567 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_opp_even thm
+prf 2582:2596 ZPowProp pow_even_nonneg
+binder 2607:2607 <> a:13
+binder 2609:2609 <> b:14
+R2618:2621 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2612:2615 Stdlib.Numbers.Integer.Abstract.ZPow A Even def
+R2617:2617 Stdlib.Numbers.Integer.Abstract.ZPow <> b:14 var
+R2623:2626 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2628:2628 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2627:2627 Stdlib.Numbers.Integer.Abstract.ZPow <> a:13 var
+R2629:2629 Stdlib.Numbers.Integer.Abstract.ZPow <> b:14 var
+R2656:2667 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_even_abs thm
+R2688:2697 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_nonneg thm
+R2700:2709 Stdlib.Numbers.Integer.Abstract.ZPow D abs_nonneg thm
+prf 2724:2738 ZPowProp pow_odd_abs_sgn
+binder 2749:2749 <> a:15
+binder 2751:2751 <> b:16
+R2759:2762 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2754:2756 Stdlib.Numbers.Integer.Abstract.ZPow A Odd def
+R2758:2758 Stdlib.Numbers.Integer.Abstract.ZPow <> b:16 var
+R2766:2769 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2764:2764 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2763:2763 Stdlib.Numbers.Integer.Abstract.ZPow <> a:15 var
+R2765:2765 Stdlib.Numbers.Integer.Abstract.ZPow <> b:16 var
+R2775:2777 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2770:2772 Stdlib.Numbers.Integer.Abstract.ZPow A sgn defax
+R2774:2774 Stdlib.Numbers.Integer.Abstract.ZPow <> a:15 var
+R2778:2778 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2784:2785 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2779:2781 Stdlib.Numbers.Integer.Abstract.ZPow A abs defax
+R2783:2783 Stdlib.Numbers.Integer.Abstract.ZPow <> a:15 var
+R2786:2786 Stdlib.Numbers.Integer.Abstract.ZPow <> b:16 var
+R2822:2829 Stdlib.Numbers.Integer.Abstract.ZPow D sgn_spec thm
+R2902:2907 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R2958:2968 Stdlib.Numbers.Integer.Abstract.ZPow B le_gt_cases thm
+R2987:2993 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_0_l thm
+R3010:3011 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3050:3057 Stdlib.Numbers.Integer.Abstract.ZPow A odd_spec prfax
+R3060:3064 Stdlib.Numbers.Integer.Abstract.ZPow C odd_0 thm
+R3097:3105 Stdlib.Numbers.Integer.Abstract.ZPow A pow_neg_r prfax
+R3119:3125 Stdlib.Numbers.Integer.Abstract.ZPow A abs_neq prfax
+R3148:3158 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_opp_odd thm
+R3185:3195 Stdlib.Numbers.Integer.Abstract.ZPow B mul_opp_opp thm
+R3198:3204 Stdlib.Numbers.Integer.Abstract.ZPow B mul_1_l thm
+prf 3219:3229 ZPowProp pow_odd_sgn
+binder 3240:3240 <> a:17
+binder 3242:3242 <> b:18
+R3249:3252 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3246:3247 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3248:3248 Stdlib.Numbers.Integer.Abstract.ZPow <> b:18 var
+R3258:3261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3253:3255 Stdlib.Numbers.Integer.Abstract.ZPow A Odd def
+R3257:3257 Stdlib.Numbers.Integer.Abstract.ZPow <> b:18 var
+R3271:3274 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3262:3264 Stdlib.Numbers.Integer.Abstract.ZPow A sgn defax
+R3268:3268 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3267:3267 Stdlib.Numbers.Integer.Abstract.ZPow <> a:17 var
+R3269:3269 Stdlib.Numbers.Integer.Abstract.ZPow <> b:18 var
+R3275:3277 Stdlib.Numbers.Integer.Abstract.ZPow A sgn defax
+R3279:3279 Stdlib.Numbers.Integer.Abstract.ZPow <> a:17 var
+R3318:3325 Stdlib.Numbers.Integer.Abstract.ZPow D sgn_spec thm
+R3384:3390 Stdlib.Numbers.Integer.Abstract.ZPow A sgn_pos prfax
+R3399:3412 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_pos_nonneg thm
+R3451:3457 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_0_l thm
+R3471:3475 Stdlib.Numbers.Integer.Abstract.ZPow D sgn_0 thm
+R3492:3493 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3532:3539 Stdlib.Numbers.Integer.Abstract.ZPow A odd_spec prfax
+R3542:3546 Stdlib.Numbers.Integer.Abstract.ZPow C odd_0 thm
+R3571:3577 Stdlib.Numbers.Integer.Abstract.ZPow A sgn_neg prfax
+R3595:3608 Stdlib.Numbers.Integer.Abstract.ZPow B opp_involutive thm
+R3622:3632 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_opp_odd thm
+R3655:3665 Stdlib.Numbers.Integer.Abstract.ZPow B opp_neg_pos thm
+R3677:3690 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_pos_nonneg thm
+R3715:3725 Stdlib.Numbers.Integer.Abstract.ZPow B opp_pos_neg thm
+prf 3740:3746 ZPowProp abs_pow
+binder 3757:3757 <> a:19
+binder 3759:3759 <> b:20
+R3771:3774 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3762:3764 Stdlib.Numbers.Integer.Abstract.ZPow A abs defax
+R3768:3768 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3767:3767 Stdlib.Numbers.Integer.Abstract.ZPow <> a:19 var
+R3769:3769 Stdlib.Numbers.Integer.Abstract.ZPow <> b:20 var
+R3775:3775 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3781:3782 Stdlib.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3776:3778 Stdlib.Numbers.Integer.Abstract.ZPow A abs defax
+R3780:3780 Stdlib.Numbers.Integer.Abstract.ZPow <> a:19 var
+R3783:3783 Stdlib.Numbers.Integer.Abstract.ZPow <> b:20 var
+R3817:3827 Stdlib.Numbers.Integer.Abstract.ZPow C Even_or_Odd thm
+R3853:3864 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_even_abs thm
+R3887:3892 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R3895:3904 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_nonneg thm
+R3907:3916 Stdlib.Numbers.Integer.Abstract.ZPow D abs_nonneg thm
+R3930:3944 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_odd_abs_sgn thm
+R3969:3975 Stdlib.Numbers.Integer.Abstract.ZPow D abs_mul thm
+R3991:4003 Stdlib.Numbers.Integer.Abstract.ZPow B lt_trichotomy thm
+R4041:4047 Stdlib.Numbers.Integer.Abstract.ZPow A sgn_pos prfax
+R4054:4059 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R4065:4071 Stdlib.Numbers.Integer.Abstract.ZPow B mul_1_l thm
+R4095:4100 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R4103:4112 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_nonneg thm
+R4115:4124 Stdlib.Numbers.Integer.Abstract.ZPow D abs_nonneg thm
+R4147:4151 Stdlib.Numbers.Integer.Abstract.ZPow D sgn_0 thm
+R4154:4158 Stdlib.Numbers.Integer.Abstract.ZPow D abs_0 thm
+R4161:4167 Stdlib.Numbers.Integer.Abstract.ZPow A mul_0_l prfax
+R4191:4198 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_0_l' thm
+R4240:4253 Stdlib.Numbers.Integer.Abstract.ZPow C Even_Odd_False thm
+R4305:4311 Stdlib.Numbers.Integer.Abstract.ZPow A sgn_neg prfax
+R4317:4323 Stdlib.Numbers.Integer.Abstract.ZPow D abs_opp thm
+R4327:4332 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R4338:4344 Stdlib.Numbers.Integer.Abstract.ZPow B mul_1_l thm
+R4368:4373 Stdlib.Numbers.Integer.Abstract.ZPow A abs_eq prfax
+R4376:4385 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp pow_nonneg thm
+R4388:4397 Stdlib.Numbers.Integer.Abstract.ZPow D abs_nonneg thm
+R4410:4417 Stdlib.Numbers.Integer.Abstract.ZPow ZPowProp <> modtype

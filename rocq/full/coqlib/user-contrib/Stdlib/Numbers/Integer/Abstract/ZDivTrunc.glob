@@ -1,0 +1,2016 @@
+DIGEST 8a1b0db5d1808fc13e134ccfcbb62425
+FStdlib.Numbers.Integer.Abstract.ZDivTrunc
+R703:709 Stdlib.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R711:719 Stdlib.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R721:727 Stdlib.Numbers.Integer.Abstract.ZSgnAbs <> <> lib
+R729:733 Stdlib.Numbers.NatInt.NZDiv <> <> lib
+R1466:1476 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> modtype
+R1492:1504 Stdlib.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> modtype
+R1506:1506 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A <> mod
+R1522:1532 Stdlib.Numbers.Integer.Abstract.ZSgnAbs ZSgnAbsProp <> modtype
+R1534:1534 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A <> mod
+R1536:1536 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B <> mod
+modtype 1443:1451 <> ZQuotProp
+R1443:1451 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A <> mod
+R1443:1451 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B <> mod
+R1443:1451 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C <> mod
+mod 1607:1617 <> ZQuotProp.Private_Div
+R1640:1644 Stdlib.Numbers.NatInt.NZDiv NZDiv <> modtype
+R1646:1646 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A <> mod
+mod 1628:1635 <> ZQuotProp.Private_Div.Quot2Div
+def 1662:1664 ZQuotProp.Private_Div.Quot2Div div
+R1669:1672 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot defax
+def 1688:1693 ZQuotProp.Private_Div.Quot2Div modulo
+R1698:1702 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem defax
+def 1718:1723 ZQuotProp.Private_Div.Quot2Div div_wd
+R1728:1734 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_wd prfax
+def 1750:1755 ZQuotProp.Private_Div.Quot2Div mod_wd
+R1760:1765 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_wd prfax
+def 1781:1787 ZQuotProp.Private_Div.Quot2Div div_mod
+R1792:1799 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+def 1815:1827 ZQuotProp.Private_Div.Quot2Div mod_bound_pos
+R1832:1844 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_bound_pos prfax
+R1852:1859 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp.Private_Div.Quot2Div <> mod
+R1880:1882 Stdlib.Structures.Equalities Nop <> modtype
+R1887:1895 Stdlib.Numbers.NatInt.NZDiv NZDivProp <> modtype
+R1897:1897 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A <> mod
+R1899:1906 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp.Private_Div.Quot2Div <> mod
+R1908:1908 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B <> mod
+mod 1870:1875 <> ZQuotProp.Private_Div.NZQuot
+R1916:1926 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp.Private_Div <> mod
+R2012:2022 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_gt_cases thm
+R2054:2064 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_pos_neg thm
+prf 2130:2135 ZQuotProp rem_eq
+binder 2147:2147 <> a:1
+binder 2149:2149 <> b:2
+R2156:2159 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2153:2154 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2152:2152 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:2 var
+R2167:2170 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2161:2165 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2160:2160 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:1 var
+R2166:2166 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:2 var
+R2172:2174 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2171:2171 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:1 var
+R2176:2177 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2182:2182 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2175:2175 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:2 var
+R2179:2180 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2178:2178 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:1 var
+R2181:2181 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:2 var
+R2211:2220 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_move_l thm
+R2243:2250 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+prf 2304:2314 ZQuotProp rem_opp_opp
+binder 2325:2325 <> a:3
+binder 2327:2327 <> b:4
+R2336:2339 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2331:2334 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2330:2330 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:4 var
+R2353:2356 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2340:2340 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2343:2349 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2352:2352 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2341:2341 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2342:2342 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:3 var
+R2350:2350 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2351:2351 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:4 var
+R2357:2359 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2367:2367 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2361:2365 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2360:2360 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:3 var
+R2366:2366 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:4 var
+R2397:2405 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R2408:2416 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+prf 2431:2440 ZQuotProp quot_opp_l
+binder 2451:2451 <> a:5
+binder 2453:2453 <> b:6
+R2462:2465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2457:2460 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2456:2456 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:6 var
+R2473:2476 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2466:2466 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2469:2471 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2467:2467 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2468:2468 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:5 var
+R2472:2472 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:6 var
+R2477:2478 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2483:2483 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2480:2481 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2479:2479 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:5 var
+R2482:2482 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:6 var
+R2519:2530 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_cancel_l thm
+R2563:2574 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_cancel_r thm
+R2581:2581 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2584:2589 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2582:2582 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2610:2617 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R2620:2628 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R2631:2639 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R2645:2657 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_add_distr thm
+R2663:2670 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+prf 2685:2694 ZQuotProp quot_opp_r
+binder 2705:2705 <> a:7
+binder 2707:2707 <> b:8
+R2716:2719 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2711:2714 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2710:2710 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:8 var
+R2727:2730 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2721:2723 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2726:2726 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2720:2720 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:7 var
+R2724:2724 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2725:2725 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:8 var
+R2731:2732 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2737:2737 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2734:2735 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R2733:2733 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:7 var
+R2736:2736 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:8 var
+R2771:2774 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2769:2769 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2794:2801 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B eq_opp_l thm
+R2804:2808 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A opp_0 prfax
+R2824:2835 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_cancel_l thm
+R2842:2842 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2871:2882 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_cancel_r thm
+R2890:2895 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2898:2898 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R2896:2896 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2918:2925 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R2928:2936 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R2939:2949 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_opp thm
+R2955:2962 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+prf 2977:2988 ZQuotProp quot_opp_opp
+binder 2999:2999 <> a:9
+binder 3001:3001 <> b:10
+R3010:3013 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3005:3008 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3004:3004 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:10 var
+R3024:3027 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3014:3014 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3017:3020 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3023:3023 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3015:3015 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R3016:3016 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:9 var
+R3021:3021 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R3022:3022 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:10 var
+R3029:3030 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3028:3028 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:9 var
+R3031:3031 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:10 var
+R3061:3070 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R3073:3082 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R3085:3098 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_involutive thm
+prf 3143:3157 ZQuotProp quot_rem_unique
+R3184:3184 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A t defax
+binder 3168:3168 <> b:11
+binder 3170:3171 <> q1:12
+binder 3173:3174 <> q2:13
+binder 3176:3177 <> r1:14
+binder 3179:3180 <> r2:15
+R3189:3189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3208:3212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3197:3200 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3191:3192 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3195:3195 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3193:3194 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r1:14 var
+R3196:3196 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3202:3202 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3205:3206 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3201:3201 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3203:3204 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r1:14 var
+R3213:3213 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3232:3238 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3221:3224 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3215:3216 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3219:3219 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3217:3218 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r2:15 var
+R3220:3220 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3226:3226 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3229:3230 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3225:3225 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3227:3228 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r2:15 var
+R3257:3260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3246:3249 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3243:3243 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3240:3240 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3239:3239 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3241:3242 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q1:12 var
+R3244:3245 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r1:14 var
+R3254:3254 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3251:3251 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3250:3250 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:11 var
+R3252:3253 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q2:13 var
+R3255:3256 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r2:15 var
+R3269:3272 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3263:3266 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3261:3262 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q1:12 var
+R3267:3268 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q2:13 var
+R3275:3278 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3273:3274 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r1:14 var
+R3279:3280 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r2:15 var
+R3383:3403 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mod_unique thm
+R3436:3445 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+R3491:3491 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R3463:3483 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mod_unique thm
+R3520:3530 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_lt_mono thm
+R3533:3549 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R3574:3584 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_lt_mono thm
+R3587:3603 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R3631:3639 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R3647:3659 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_add_distr thm
+R3662:3671 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+prf 3688:3698 ZQuotProp quot_unique
+binder 3709:3709 <> a:16
+binder 3711:3711 <> b:17
+binder 3713:3713 <> q:18
+binder 3715:3715 <> r:19
+R3722:3725 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3719:3720 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3721:3721 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:16 var
+R3732:3735 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3727:3728 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3730:3730 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3729:3729 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:19 var
+R3731:3731 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:17 var
+R3748:3751 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3737:3740 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3736:3736 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:16 var
+R3744:3746 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3742:3742 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3741:3741 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:17 var
+R3743:3743 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:18 var
+R3747:3747 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:19 var
+R3753:3756 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3752:3752 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:18 var
+R3758:3759 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R3757:3757 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:16 var
+R3760:3760 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:17 var
+R3799:3815 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_unique thm
+prf 3839:3848 ZQuotProp rem_unique
+binder 3859:3859 <> a:20
+binder 3861:3861 <> b:21
+binder 3863:3863 <> q:22
+binder 3865:3865 <> r:23
+R3872:3875 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3869:3870 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3871:3871 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:20 var
+R3882:3885 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3877:3878 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3880:3880 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3879:3879 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:23 var
+R3881:3881 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:21 var
+R3898:3901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3887:3890 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3886:3886 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:20 var
+R3894:3896 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3892:3892 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3891:3891 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:21 var
+R3893:3893 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:22 var
+R3897:3897 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:23 var
+R3903:3906 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3902:3902 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:23 var
+R3908:3912 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R3907:3907 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:20 var
+R3913:3913 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:21 var
+R3952:3968 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_unique thm
+prf 4029:4037 ZQuotProp quot_same
+binder 4048:4048 <> a:24
+R4055:4058 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4052:4053 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4051:4051 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:24 var
+R4063:4066 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4060:4061 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4059:4059 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:24 var
+R4062:4062 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:24 var
+R4115:4129 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_same thm
+R4154:4165 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R4189:4203 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_same thm
+prf 4218:4225 ZQuotProp rem_same
+binder 4236:4236 <> a:25
+R4243:4246 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4240:4241 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4239:4239 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:25 var
+R4254:4257 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4248:4252 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R4247:4247 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:25 var
+R4253:4253 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:25 var
+R4284:4289 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R4292:4300 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_same thm
+R4329:4336 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B sub_diag thm
+prf 4419:4428 ZQuotProp quot_small
+binder 4438:4438 <> a:26
+binder 4440:4440 <> b:27
+R4449:4452 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4444:4445 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4447:4447 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4446:4446 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:26 var
+R4448:4448 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:27 var
+R4457:4460 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4454:4455 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4453:4453 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:26 var
+R4456:4456 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:27 var
+R4477:4492 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_small thm
+prf 4552:4560 ZQuotProp rem_small
+binder 4570:4570 <> a:28
+binder 4572:4572 <> b:29
+R4581:4584 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4576:4577 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4579:4579 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4578:4578 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:28 var
+R4580:4580 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:29 var
+R4592:4595 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4586:4590 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R4585:4585 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:28 var
+R4591:4591 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:29 var
+R4596:4596 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:28 var
+R4612:4627 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_small thm
+prf 4690:4697 ZQuotProp quot_0_l
+binder 4707:4707 <> a:30
+R4714:4717 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4711:4712 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4710:4710 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:30 var
+R4722:4725 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4719:4720 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R4721:4721 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:30 var
+R4774:4787 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_0_l thm
+R4812:4823 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R4826:4830 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A opp_0 prfax
+R4854:4867 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_0_l thm
+prf 4882:4888 ZQuotProp rem_0_l
+binder 4898:4898 <> a:31
+R4905:4908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4902:4903 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4901:4901 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:31 var
+R4916:4919 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4910:4914 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R4915:4915 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:31 var
+R4946:4951 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R4954:4961 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_0_l thm
+prf 4989:4996 ZQuotProp quot_1_r
+binder 5006:5006 <> a:32
+R5013:5016 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5010:5011 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5009:5009 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:32 var
+R5017:5017 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:32 var
+R5067:5080 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_1_r thm
+R5093:5099 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R5113:5122 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R5137:5150 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_1_r thm
+R5209:5214 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_neq thm
+R5217:5222 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_0_1 thm
+prf 5237:5243 ZQuotProp rem_1_r
+binder 5253:5253 <> a:33
+R5263:5266 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5257:5261 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R5256:5256 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:33 var
+R5293:5298 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R5301:5308 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_1_r thm
+R5331:5338 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B sub_diag thm
+R5384:5389 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_neq thm
+R5398:5403 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_0_1 thm
+prf 5418:5425 ZQuotProp quot_1_l
+binder 5435:5435 <> a:34
+R5441:5444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5439:5439 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5440:5440 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:34 var
+R5449:5452 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5446:5447 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5448:5448 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:34 var
+R5469:5482 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_1_l thm
+prf 5497:5503 ZQuotProp rem_1_l
+binder 5513:5513 <> a:35
+R5519:5522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5517:5517 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5518:5518 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:35 var
+R5530:5533 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5524:5528 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R5529:5529 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:35 var
+R5550:5563 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_1_l thm
+prf 5578:5585 ZQuotProp quot_mul
+binder 5596:5596 <> a:36
+binder 5598:5598 <> b:37
+R5605:5608 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5602:5603 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5601:5601 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:37 var
+R5617:5620 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5609:5609 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5613:5615 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R5611:5611 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5610:5610 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:36 var
+R5612:5612 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:37 var
+R5616:5616 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:37 var
+R5621:5621 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:36 var
+R5685:5698 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul thm
+R5723:5734 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R5740:5748 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R5766:5779 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul thm
+R5804:5813 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+R5819:5828 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R5834:5842 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R5864:5877 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul thm
+R5902:5911 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+R5917:5926 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R5932:5942 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_opp thm
+R5964:5977 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul thm
+prf 5999:6005 ZQuotProp rem_mul
+binder 6016:6016 <> a:38
+binder 6018:6018 <> b:39
+R6025:6028 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6022:6023 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6021:6021 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:39 var
+R6040:6043 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6029:6029 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6033:6038 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6031:6031 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6030:6030 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:38 var
+R6032:6032 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:39 var
+R6039:6039 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:39 var
+R6070:6075 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R6078:6085 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul thm
+R6107:6114 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R6123:6130 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B sub_diag thm
+prf 6147:6163 ZQuotProp quot_unique_exact
+binder 6165:6165 <> a:40
+binder 6167:6167 <> b:41
+binder 6169:6169 <> q:42
+R6176:6179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6173:6174 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6172:6172 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:41 var
+R6188:6191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6181:6184 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6180:6180 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:40 var
+R6186:6186 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6185:6185 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:41 var
+R6187:6187 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:42 var
+R6193:6196 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6192:6192 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:42 var
+R6198:6199 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R6197:6197 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:40 var
+R6200:6200 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:41 var
+R6235:6242 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R6265:6272 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul thm
+prf 6356:6365 ZQuotProp rem_nonneg
+binder 6376:6376 <> a:43
+binder 6378:6378 <> b:44
+R6385:6388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6382:6383 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6381:6381 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:44 var
+R6395:6398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6390:6393 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6394:6394 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:43 var
+R6400:6403 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6405:6409 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6404:6404 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:43 var
+R6410:6410 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:44 var
+R6465:6477 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_bound_pos prfax
+R6507:6515 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R6541:6553 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_bound_pos prfax
+R6558:6558 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+prf 6585:6594 ZQuotProp rem_nonpos
+binder 6605:6605 <> a:45
+binder 6607:6607 <> b:46
+R6614:6617 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6611:6612 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6610:6610 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:46 var
+R6624:6627 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6619:6622 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6618:6618 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:45 var
+R6635:6638 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6629:6633 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6628:6628 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:45 var
+R6634:6634 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:46 var
+R6675:6691 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R6700:6716 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R6737:6745 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R6769:6778 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonneg thm
+prf 6793:6804 ZQuotProp rem_sign_mul
+binder 6815:6815 <> a:47
+binder 6817:6817 <> b:48
+R6824:6827 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6821:6822 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6820:6820 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:48 var
+R6829:6832 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6833:6833 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6841:6844 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6835:6839 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R6834:6834 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:47 var
+R6840:6840 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:48 var
+R6845:6845 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:47 var
+R6880:6890 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_ge_cases thm
+R6907:6923 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonneg_nonneg thm
+R6945:6954 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonneg thm
+R6966:6982 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonpos_nonpos thm
+R7004:7013 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonpos thm
+prf 7028:7038 ZQuotProp rem_sign_nz
+binder 7049:7049 <> a:49
+binder 7051:7051 <> b:50
+R7058:7061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7055:7056 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7054:7054 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:50 var
+R7074:7078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7069:7072 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7063:7067 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7062:7062 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:49 var
+R7068:7068 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:50 var
+R7092:7095 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7079:7081 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R7085:7089 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7084:7084 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:49 var
+R7090:7090 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:50 var
+R7096:7098 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R7100:7100 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:49 var
+R7137:7149 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_trichotomy thm
+R7185:7191 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_pos prfax
+R7218:7227 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonneg thm
+R7237:7246 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_le_incl thm
+R7286:7292 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_0_l thm
+R7295:7299 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C sgn_0 thm
+R7314:7320 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_neg prfax
+R7347:7356 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonpos thm
+R7366:7375 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_le_incl thm
+prf 7406:7413 ZQuotProp rem_sign
+binder 7424:7424 <> a:51
+binder 7426:7426 <> b:52
+R7433:7436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7430:7431 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7429:7429 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:51 var
+R7441:7444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7438:7439 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7437:7437 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:52 var
+R7458:7461 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7445:7447 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R7451:7455 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7450:7450 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:51 var
+R7456:7456 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:52 var
+R7462:7462 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7463:7465 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R7467:7467 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:51 var
+R7507:7518 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B eq_decidable thm
+R7522:7526 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7558:7569 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C sgn_null_iff thm
+R7572:7578 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R7599:7603 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A opp_0 prfax
+R7610:7614 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C sgn_0 thm
+R7629:7640 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C sgn_null_iff thm
+R7649:7658 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B eq_mul_0_l thm
+R7698:7709 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_move_0_l thm
+R7746:7756 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_sign_nz thm
+prf 7809:7817 ZQuotProp rem_abs_l
+binder 7828:7828 <> a:53
+binder 7830:7830 <> b:54
+R7839:7842 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7834:7837 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7833:7833 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:54 var
+R7856:7859 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7843:7843 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7849:7854 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7844:7846 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R7848:7848 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:53 var
+R7855:7855 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:54 var
+R7860:7862 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R7866:7870 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R7865:7865 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:53 var
+R7871:7871 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:54 var
+R7907:7917 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_ge_cases thm
+R7948:7953 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R7976:7985 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonneg thm
+R8000:8006 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R8009:8017 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R8040:8049 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_nonpos thm
+prf 8064:8072 ZQuotProp rem_abs_r
+binder 8083:8083 <> a:55
+binder 8085:8085 <> b:56
+R8094:8097 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8089:8092 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8088:8088 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:56 var
+R8111:8114 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8099:8104 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8110:8110 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8098:8098 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:55 var
+R8105:8107 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8109:8109 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:56 var
+R8116:8120 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8115:8115 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:55 var
+R8121:8121 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:56 var
+R8156:8166 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_ge_cases thm
+R8188:8193 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R8210:8216 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R8220:8228 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+prf 8243:8249 ZQuotProp rem_abs
+binder 8260:8260 <> a:57
+binder 8262:8262 <> b:58
+R8272:8275 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8267:8270 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8266:8266 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:58 var
+R8295:8298 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8276:8276 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8282:8288 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8294:8294 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8277:8279 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8281:8281 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:57 var
+R8289:8291 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8293:8293 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:58 var
+R8299:8301 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8305:8309 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R8304:8304 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:57 var
+R8310:8310 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:58 var
+R8341:8349 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_abs_r thm
+R8352:8360 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_abs_l thm
+prf 8375:8384 ZQuotProp quot_abs_l
+binder 8395:8395 <> a:59
+binder 8397:8397 <> b:60
+R8406:8409 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8401:8404 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8400:8400 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:60 var
+R8420:8423 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8410:8410 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8416:8418 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8411:8413 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8415:8415 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:59 var
+R8419:8419 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:60 var
+R8424:8424 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8430:8432 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8437:8437 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8425:8427 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R8429:8429 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:59 var
+R8434:8435 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8433:8433 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:59 var
+R8436:8436 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:60 var
+R8472:8484 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_trichotomy thm
+R8518:8523 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R8526:8532 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_pos prfax
+R8574:8578 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_0 thm
+R8581:8588 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_0_l thm
+R8623:8629 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R8632:8641 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R8644:8650 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_neg prfax
+R8672:8680 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+prf 8708:8717 ZQuotProp quot_abs_r
+binder 8728:8728 <> a:61
+binder 8730:8730 <> b:62
+R8739:8742 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8734:8737 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8733:8733 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:62 var
+R8753:8756 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8744:8746 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8752:8752 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8743:8743 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:61 var
+R8747:8749 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R8751:8751 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:62 var
+R8757:8757 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8763:8765 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8770:8770 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8758:8760 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn defax
+R8762:8762 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:62 var
+R8767:8768 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R8766:8766 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:61 var
+R8769:8769 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:62 var
+R8805:8817 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B lt_trichotomy thm
+R8851:8856 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R8859:8865 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_pos prfax
+R8909:8915 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R8918:8927 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R8930:8936 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A sgn_neg prfax
+R8958:8966 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+prf 8994:9001 ZQuotProp quot_abs
+binder 9012:9012 <> a:63
+binder 9014:9014 <> b:64
+R9023:9026 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9018:9021 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R9017:9017 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:64 var
+R9043:9046 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9027:9027 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R9033:9036 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R9042:9042 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R9028:9030 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R9032:9032 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:63 var
+R9037:9039 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R9041:9041 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:64 var
+R9047:9049 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R9053:9054 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R9052:9052 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:63 var
+R9055:9055 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:64 var
+R9105:9110 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9124:9130 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R9148:9164 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R9204:9209 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9223:9229 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R9250:9266 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R9292:9297 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9316:9329 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_pos thm
+R9354:9360 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_opp thm
+R9366:9375 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R9378:9383 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9406:9419 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_pos thm
+R9455:9460 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9474:9480 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_neq prfax
+R9501:9517 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R9547:9553 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_opp thm
+R9557:9558 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R9567:9576 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R9579:9584 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9607:9620 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_pos thm
+R9646:9657 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R9665:9670 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R9693:9706 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_pos thm
+prf 9780:9792 ZQuotProp rem_bound_abs
+binder 9804:9804 <> a:65
+binder 9806:9806 <> b:66
+R9813:9816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9810:9811 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R9809:9809 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:66 var
+R9830:9832 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R9817:9819 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R9823:9827 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R9822:9822 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:65 var
+R9828:9828 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:66 var
+R9833:9835 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R9837:9837 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:66 var
+R9866:9872 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_abs thm
+R9890:9902 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_bound_pos prfax
+R9913:9922 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_nonneg thm
+R9937:9943 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_pos thm
+prf 10059:10064 ZQuotProp rem_le
+binder 10074:10074 <> a:67
+binder 10076:10076 <> b:68
+R10083:10086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10080:10081 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10082:10082 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:67 var
+R10090:10093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10088:10088 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10089:10089 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:68 var
+R10101:10104 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10095:10099 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R10094:10094 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:67 var
+R10100:10100 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:68 var
+R10105:10105 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:67 var
+R10121:10133 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_le thm
+prf 10150:10157 ZQuotProp quot_pos
+binder 10168:10168 <> a:69
+binder 10170:10170 <> b:70
+R10177:10180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10174:10175 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10176:10176 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:69 var
+R10184:10187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10182:10182 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10183:10183 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:70 var
+R10189:10191 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10193:10194 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R10192:10192 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:69 var
+R10195:10195 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:70 var
+R10211:10224 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_pos thm
+prf 10239:10250 ZQuotProp quot_str_pos
+binder 10261:10261 <> a:71
+binder 10263:10263 <> b:72
+R10272:10275 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10267:10267 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R10269:10270 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R10268:10268 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:72 var
+R10271:10271 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:71 var
+R10277:10279 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10281:10282 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R10280:10280 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:71 var
+R10283:10283 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:72 var
+R10299:10316 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_str_pos thm
+prf 10331:10344 ZQuotProp quot_small_iff
+binder 10355:10355 <> a:73
+binder 10357:10357 <> b:74
+R10364:10368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10394:10394 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10361:10362 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R10360:10360 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:74 var
+R10376:10380 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10373:10374 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10370:10371 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R10369:10369 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:73 var
+R10372:10372 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:74 var
+R10386:10388 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10381:10383 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R10385:10385 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:73 var
+R10389:10391 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R10393:10393 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:74 var
+R10456:10475 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_small_iff thm
+R10499:10504 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R10538:10547 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+R10550:10554 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A opp_0 prfax
+R10560:10569 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R10572:10591 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_small_iff thm
+R10614:10619 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R10626:10633 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_neq' thm
+R10670:10679 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj_wd thm
+R10682:10686 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A opp_0 prfax
+R10692:10701 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R10704:10723 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_small_iff thm
+R10746:10753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_neq' thm
+R10760:10765 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs_eq prfax
+R10802:10813 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R10816:10835 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_small_iff thm
+R10858:10865 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_neq' thm
+R10872:10879 Stdlib.Numbers.Integer.Abstract.ZDivTrunc C abs_neq' thm
+prf 10915:10927 ZQuotProp rem_small_iff
+binder 10938:10938 <> a:75
+binder 10940:10940 <> b:76
+R10947:10951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10982:10982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10944:10945 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R10943:10943 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:76 var
+R10964:10968 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10959:10962 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10953:10957 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R10952:10952 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:75 var
+R10958:10958 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:76 var
+R10963:10963 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:75 var
+R10974:10976 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10969:10971 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R10973:10973 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:75 var
+R10977:10979 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A abs defax
+R10981:10981 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:76 var
+R11014:11019 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R11025:11038 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_small_iff thm
+R11058:11067 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B sub_move_r thm
+R11074:11080 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_0_r thm
+R11099:11110 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_cancel_l thm
+R11121:11130 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B eq_sym_iff thm
+R11133:11140 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B eq_mul_0 thm
+prf 11262:11268 ZQuotProp quot_lt
+binder 11279:11279 <> a:77
+binder 11281:11281 <> b:78
+R11287:11290 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11285:11285 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11286:11286 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:77 var
+R11294:11297 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11292:11292 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11293:11293 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:78 var
+R11302:11304 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11299:11300 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R11298:11298 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:77 var
+R11301:11301 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:78 var
+R11305:11305 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:77 var
+R11321:11333 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_lt thm
+prf 11401:11412 ZQuotProp quot_le_mono
+binder 11423:11423 <> a:79
+binder 11425:11425 <> b:80
+binder 11427:11427 <> c:81
+R11433:11436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11431:11431 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11432:11432 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:81 var
+R11441:11444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11438:11439 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11437:11437 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:79 var
+R11440:11440 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:80 var
+R11449:11452 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11446:11447 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R11445:11445 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:79 var
+R11448:11448 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:81 var
+R11454:11455 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R11453:11453 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:80 var
+R11456:11456 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:81 var
+R11509:11526 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_le_mono thm
+R11565:11572 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_trans thm
+R11601:11617 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R11623:11632 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R11658:11665 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_pos thm
+R11689:11696 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_pos thm
+R11720:11730 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_le_mono thm
+R11751:11760 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R11784:11801 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_le_mono thm
+prf 11921:11931 ZQuotProp mul_quot_le
+binder 11942:11942 <> a:82
+binder 11944:11944 <> b:83
+R11951:11954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11948:11949 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11950:11950 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:82 var
+R11959:11962 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11956:11957 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R11955:11955 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:83 var
+R11964:11967 Stdlib.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11976:11979 Stdlib.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11969:11970 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11975:11975 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11968:11968 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:83 var
+R11972:11973 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R11971:11971 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:82 var
+R11974:11974 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:83 var
+R11980:11980 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:82 var
+R12038:12054 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonneg_nonneg thm
+R12065:12072 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_pos thm
+R12093:12109 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_div_le thm
+R12132:12142 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_opp thm
+R12148:12157 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R12188:12204 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonneg_nonneg thm
+R12215:12222 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_pos thm
+R12243:12259 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_div_le thm
+prf 12281:12291 ZQuotProp mul_quot_ge
+binder 12302:12302 <> a:84
+binder 12304:12304 <> b:85
+R12311:12314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12308:12309 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R12307:12307 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:84 var
+R12319:12322 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12316:12317 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R12315:12315 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:85 var
+R12324:12327 Stdlib.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R12336:12339 Stdlib.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R12323:12323 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:84 var
+R12329:12330 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12335:12335 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12328:12328 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:85 var
+R12332:12333 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R12331:12331 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:84 var
+R12334:12334 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:85 var
+R12376:12392 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R12395:12405 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_le_mono thm
+R12410:12418 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R12423:12432 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R12455:12471 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R12489:12499 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_quot_le thm
+R12502:12502 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+prf 12614:12629 ZQuotProp mul_succ_quot_gt
+binder 12639:12639 <> a:86
+binder 12641:12641 <> b:87
+R12648:12651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12645:12646 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R12647:12647 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:86 var
+R12655:12658 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12653:12653 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12654:12654 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:87 var
+R12660:12662 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12659:12659 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:86 var
+R12664:12665 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12674:12674 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12663:12663 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:87 var
+R12666:12666 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A S abbrev
+R12670:12671 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R12669:12669 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:86 var
+R12672:12672 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:87 var
+R12690:12711 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_succ_div_gt thm
+prf 12772:12787 ZQuotProp mul_pred_quot_lt
+binder 12797:12797 <> a:88
+binder 12799:12799 <> b:89
+R12806:12809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12803:12804 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R12802:12802 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:88 var
+R12813:12816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12811:12811 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12812:12812 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:89 var
+R12829:12831 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12818:12819 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12828:12828 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12817:12817 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:89 var
+R12820:12820 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A P abbrev
+R12824:12825 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R12823:12823 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:88 var
+R12826:12826 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:89 var
+R12832:12832 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:88 var
+R12858:12868 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_lt_mono thm
+R12874:12882 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R12885:12892 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_pred thm
+R12898:12907 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R12930:12946 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R12964:12979 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_succ_quot_gt thm
+prf 12994:13009 ZQuotProp mul_pred_quot_gt
+binder 13019:13019 <> a:90
+binder 13021:13021 <> b:91
+R13028:13031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13025:13026 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13027:13027 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:90 var
+R13035:13038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13033:13033 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13032:13032 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:91 var
+R13040:13042 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13039:13039 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:90 var
+R13044:13045 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13054:13054 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13043:13043 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:91 var
+R13046:13046 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A P abbrev
+R13050:13051 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R13049:13049 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:90 var
+R13052:13052 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:91 var
+R13083:13093 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_opp thm
+R13096:13103 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_pred thm
+R13109:13118 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R13141:13151 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_pos_neg thm
+R13169:13184 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_succ_quot_gt thm
+prf 13199:13214 ZQuotProp mul_succ_quot_lt
+binder 13224:13224 <> a:92
+binder 13226:13226 <> b:93
+R13233:13236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13230:13231 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13229:13229 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:92 var
+R13240:13243 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13238:13238 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13237:13237 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:93 var
+R13256:13258 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13245:13246 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13255:13255 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13244:13244 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:93 var
+R13247:13247 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A S abbrev
+R13251:13252 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R13250:13250 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:92 var
+R13253:13253 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:93 var
+R13259:13259 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:92 var
+R13285:13295 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_lt_mono thm
+R13301:13309 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R13315:13326 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R13349:13365 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R13371:13381 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_pos_neg thm
+R13399:13414 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_succ_quot_gt thm
+prf 13495:13504 ZQuotProp quot_exact
+binder 13515:13515 <> a:94
+binder 13517:13517 <> b:95
+R13524:13528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13559:13559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13521:13522 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R13520:13520 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:95 var
+R13542:13546 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R13530:13533 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13529:13529 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:94 var
+R13535:13536 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13541:13541 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13534:13534 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:95 var
+R13538:13539 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R13537:13537 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:94 var
+R13540:13540 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:95 var
+R13554:13557 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13548:13552 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R13547:13547 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:94 var
+R13553:13553 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:95 var
+R13585:13590 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R13610:13619 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B sub_move_r thm
+prf 13701:13719 ZQuotProp quot_lt_upper_bound
+binder 13731:13731 <> a:96
+binder 13733:13733 <> b:97
+binder 13735:13735 <> q:98
+R13742:13745 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13739:13740 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13741:13741 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:96 var
+R13749:13752 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13747:13747 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13748:13748 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:97 var
+R13760:13763 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13754:13756 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13753:13753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:96 var
+R13758:13758 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13757:13757 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:97 var
+R13759:13759 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:98 var
+R13768:13770 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13765:13766 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R13764:13764 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:96 var
+R13767:13767 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:97 var
+R13771:13771 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:98 var
+R13787:13811 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_lt_upper_bound thm
+prf 13828:13846 ZQuotProp quot_le_upper_bound
+binder 13858:13858 <> a:99
+binder 13860:13860 <> b:100
+binder 13862:13862 <> q:101
+R13868:13871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13866:13866 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13867:13867 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:100 var
+R13880:13883 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13873:13876 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13872:13872 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:99 var
+R13878:13878 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13877:13877 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:100 var
+R13879:13879 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:101 var
+R13888:13891 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R13885:13886 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R13884:13884 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:99 var
+R13887:13887 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:100 var
+R13892:13892 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:101 var
+R13931:13938 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul thm
+R13961:13972 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_le_mono thm
+R13996:14003 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+prf 14020:14038 ZQuotProp quot_le_lower_bound
+binder 14050:14050 <> a:102
+binder 14052:14052 <> b:103
+binder 14054:14054 <> q:104
+R14060:14063 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14058:14058 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14059:14059 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:103 var
+R14072:14075 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14067:14070 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14065:14065 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14064:14064 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:103 var
+R14066:14066 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:104 var
+R14071:14071 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:102 var
+R14077:14080 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14076:14076 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:104 var
+R14082:14083 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R14081:14081 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:102 var
+R14084:14084 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:103 var
+R14123:14130 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul thm
+R14153:14164 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_le_mono thm
+R14188:14195 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+prf 14276:14291 ZQuotProp quot_le_compat_l
+binder 14301:14301 <> p:105
+binder 14303:14303 <> q:106
+binder 14305:14305 <> r:107
+R14312:14315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14309:14310 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14311:14311 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> p:105 var
+R14322:14325 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14317:14317 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R14319:14320 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R14318:14318 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:106 var
+R14321:14321 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:107 var
+R14330:14333 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14327:14328 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R14326:14326 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> p:105 var
+R14329:14329 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> r:107 var
+R14335:14336 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R14334:14334 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> p:105 var
+R14337:14337 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> q:106 var
+R14353:14374 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_le_compat_l thm
+prf 14632:14638 ZQuotProp rem_add
+binder 14649:14649 <> a:108
+binder 14651:14651 <> b:109
+binder 14653:14653 <> c:110
+R14660:14663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14657:14658 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14656:14656 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:110 var
+R14678:14682 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14665:14668 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14669:14669 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14675:14676 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14671:14671 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14670:14670 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:108 var
+R14673:14673 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14672:14672 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:109 var
+R14674:14674 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:110 var
+R14677:14677 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:108 var
+R14700:14703 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R14683:14683 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14693:14698 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14685:14687 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14684:14684 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:108 var
+R14689:14691 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14688:14688 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:109 var
+R14692:14692 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:110 var
+R14699:14699 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:110 var
+R14705:14709 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14704:14704 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:108 var
+R14710:14710 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:110 var
+binder 14735:14735 <> a:111
+binder 14737:14737 <> b:112
+binder 14739:14739 <> c:113
+R14746:14749 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14743:14744 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14742:14742 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:113 var
+R14754:14757 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14751:14752 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14753:14753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:111 var
+R14766:14769 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14759:14760 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14762:14762 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14761:14761 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:111 var
+R14764:14764 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14763:14763 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:112 var
+R14765:14765 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:113 var
+R14783:14786 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R14770:14770 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14776:14781 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14772:14772 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14771:14771 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:111 var
+R14774:14774 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14773:14773 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:112 var
+R14775:14775 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:113 var
+R14782:14782 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:113 var
+R14788:14792 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R14787:14787 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:111 var
+R14793:14793 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:113 var
+binder 14735:14735 <> a:114
+binder 14737:14737 <> b:115
+binder 14739:14739 <> c:116
+R14742:14742 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:116 var
+R14753:14753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:114 var
+R14761:14761 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:114 var
+R14763:14763 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:115 var
+R14765:14765 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:116 var
+R14771:14771 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:114 var
+R14773:14773 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:115 var
+R14775:14775 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:116 var
+R14782:14782 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:116 var
+R14787:14787 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:114 var
+R14793:14793 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:116 var
+R14842:14855 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_add thm
+R14881:14889 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R14899:14907 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R14911:14911 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14913:14913 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14943:14953 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_opp thm
+R14971:14984 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_add thm
+R15028:15035 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_0_mul thm
+R15091:15097 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R15130:15146 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+R15162:15170 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R15173:15185 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_add_distr thm
+R15191:15199 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+prf 15229:15236 ZQuotProp quot_add
+binder 15247:15247 <> a:117
+binder 15249:15249 <> b:118
+binder 15251:15251 <> c:119
+R15258:15261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15255:15256 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15254:15254 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:119 var
+R15276:15280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15263:15266 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15267:15267 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15273:15274 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15269:15269 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15268:15268 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:117 var
+R15271:15271 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15270:15270 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:118 var
+R15272:15272 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:119 var
+R15275:15275 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:117 var
+R15297:15300 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15281:15281 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15291:15295 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15283:15285 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15282:15282 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:117 var
+R15287:15289 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15286:15286 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:118 var
+R15290:15290 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:119 var
+R15296:15296 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:119 var
+R15307:15309 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15302:15305 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15301:15301 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:117 var
+R15306:15306 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:119 var
+R15310:15310 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:118 var
+R15349:15360 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_cancel_l thm
+R15393:15404 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_cancel_r thm
+R15411:15411 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R15417:15422 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R15413:15413 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15415:15415 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15439:15446 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R15449:15455 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_add thm
+R15481:15495 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_add_distr_l thm
+R15498:15509 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_shuffle0 thm
+R15514:15521 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R15524:15531 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+prf 15546:15555 ZQuotProp quot_add_l
+binder 15565:15565 <> a:120
+binder 15567:15567 <> b:121
+binder 15569:15569 <> c:122
+R15576:15579 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15573:15574 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15572:15572 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:121 var
+R15594:15598 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15581:15584 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15585:15585 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15591:15592 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15589:15589 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15587:15587 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15586:15586 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:120 var
+R15588:15588 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:121 var
+R15590:15590 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:122 var
+R15593:15593 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:122 var
+R15615:15618 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15599:15599 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15609:15613 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15605:15607 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15601:15603 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15600:15600 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:120 var
+R15604:15604 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:121 var
+R15608:15608 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:122 var
+R15614:15614 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:121 var
+R15620:15622 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15619:15619 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:120 var
+R15624:15627 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15623:15623 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:122 var
+R15628:15628 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:121 var
+R15661:15668 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_comm thm
+R15672:15679 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_comm thm
+R15695:15702 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_add thm
+prf 15740:15756 ZQuotProp quot_mul_cancel_r
+binder 15767:15767 <> a:123
+binder 15769:15769 <> b:124
+binder 15771:15771 <> c:125
+R15778:15781 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15775:15776 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15774:15774 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:124 var
+R15786:15790 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15783:15784 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15782:15782 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:125 var
+R15803:15806 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15791:15791 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15795:15798 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15802:15802 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15793:15793 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15792:15792 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:123 var
+R15794:15794 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:125 var
+R15800:15800 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15799:15799 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:124 var
+R15801:15801 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:125 var
+R15808:15809 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15807:15807 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:123 var
+R15810:15810 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:124 var
+binder 15842:15842 <> a:126
+binder 15844:15844 <> b:127
+binder 15846:15846 <> c:128
+R15853:15856 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15850:15851 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R15852:15852 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:126 var
+R15860:15863 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15858:15858 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R15859:15859 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:127 var
+R15868:15871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15865:15866 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15864:15864 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:128 var
+R15884:15887 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15872:15872 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15876:15879 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15883:15883 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15874:15874 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15873:15873 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:126 var
+R15875:15875 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:128 var
+R15881:15881 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15880:15880 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:127 var
+R15882:15882 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:128 var
+R15889:15890 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R15888:15888 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:126 var
+R15891:15891 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:127 var
+binder 15842:15842 <> a:129
+binder 15844:15844 <> b:130
+binder 15846:15846 <> c:131
+R15852:15852 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:129 var
+R15859:15859 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:130 var
+R15864:15864 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:131 var
+R15873:15873 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:129 var
+R15875:15875 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:131 var
+R15880:15880 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:130 var
+R15882:15882 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:131 var
+R15888:15888 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:129 var
+R15891:15891 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:130 var
+R15940:15962 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul_cancel_r thm
+R15987:15998 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_opp thm
+R16006:16014 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R16029:16051 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul_cancel_r thm
+R16078:16086 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+binder 16130:16130 <> a:132
+binder 16132:16132 <> b:133
+binder 16134:16134 <> c:134
+R16141:16144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16138:16139 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R16140:16140 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:132 var
+R16149:16152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16146:16147 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16145:16145 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:133 var
+R16157:16160 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16154:16155 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16153:16153 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:134 var
+R16173:16176 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16161:16161 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16165:16168 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16172:16172 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16163:16163 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16162:16162 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:132 var
+R16164:16164 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:134 var
+R16170:16170 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16169:16169 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:133 var
+R16171:16171 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:134 var
+R16178:16179 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16177:16177 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:132 var
+R16180:16180 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:133 var
+binder 16130:16130 <> a:135
+binder 16132:16132 <> b:136
+binder 16134:16134 <> c:137
+R16140:16140 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:135 var
+R16145:16145 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:136 var
+R16153:16153 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:137 var
+R16162:16162 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:135 var
+R16164:16164 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:137 var
+R16169:16169 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:136 var
+R16171:16171 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:137 var
+R16177:16177 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:135 var
+R16180:16180 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:136 var
+R16252:16258 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R16274:16283 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R16289:16297 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R16353:16361 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+R16443:16449 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R16465:16474 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R16480:16488 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R16536:16544 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+prf 16576:16592 ZQuotProp quot_mul_cancel_l
+binder 16603:16603 <> a:138
+binder 16605:16605 <> b:139
+binder 16607:16607 <> c:140
+R16614:16617 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16611:16612 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16610:16610 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:139 var
+R16622:16626 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16619:16620 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16618:16618 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:140 var
+R16639:16642 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16627:16627 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16631:16634 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16638:16638 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16629:16629 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16628:16628 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:140 var
+R16630:16630 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:138 var
+R16636:16636 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16635:16635 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:140 var
+R16637:16637 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:139 var
+R16644:16645 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R16643:16643 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:138 var
+R16646:16646 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:139 var
+R16683:16690 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R16706:16722 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul_cancel_r thm
+prf 16737:16751 ZQuotProp mul_rem_distr_r
+binder 16761:16761 <> a:141
+binder 16763:16763 <> b:142
+binder 16765:16765 <> c:143
+R16772:16775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16769:16770 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16768:16768 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:142 var
+R16780:16785 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16777:16778 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16776:16776 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:143 var
+R16801:16804 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16786:16786 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R16790:16796 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R16800:16800 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R16788:16788 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16787:16787 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:141 var
+R16789:16789 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:143 var
+R16798:16798 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16797:16797 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:142 var
+R16799:16799 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:143 var
+R16805:16805 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16813:16816 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16807:16811 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R16806:16806 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:141 var
+R16812:16812 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:142 var
+R16817:16817 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:143 var
+R16855:16858 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16853:16853 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16877:16885 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+R16906:16911 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_eq thm
+R16933:16949 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_mul_cancel_r thm
+R16973:16987 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_sub_distr_r thm
+R16994:17002 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_assoc thm
+R17006:17013 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R17017:17018 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+prf 17038:17052 ZQuotProp mul_rem_distr_l
+binder 17062:17062 <> a:144
+binder 17064:17064 <> b:145
+binder 17066:17066 <> c:146
+R17073:17076 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17070:17071 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17069:17069 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:145 var
+R17081:17086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17078:17079 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17077:17077 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:146 var
+R17102:17105 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17087:17087 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17091:17097 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17101:17101 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17089:17089 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17088:17088 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:146 var
+R17090:17090 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:144 var
+R17099:17099 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17098:17098 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:146 var
+R17100:17100 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:145 var
+R17107:17110 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17118:17118 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17106:17106 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:146 var
+R17112:17116 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17111:17111 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:144 var
+R17117:17117 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:145 var
+R17155:17162 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R17178:17192 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_rem_distr_r thm
+prf 17236:17242 ZQuotProp rem_rem
+binder 17252:17252 <> a:147
+binder 17254:17254 <> n:148
+R17261:17265 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17258:17259 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17257:17257 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:148 var
+R17281:17284 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17266:17266 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17274:17279 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17268:17272 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17267:17267 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:147 var
+R17273:17273 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:148 var
+R17280:17280 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:148 var
+R17286:17290 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17285:17285 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:147 var
+R17291:17291 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:148 var
+R17356:17369 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_mod thm
+R17397:17405 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R17430:17443 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_mod thm
+R17463:17469 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R17484:17492 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R17510:17523 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_mod thm
+R17543:17549 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R17564:17574 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_opp_opp thm
+R17592:17605 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mod_mod thm
+prf 17627:17641 ZQuotProp mul_rem_idemp_l
+binder 17652:17652 <> a:149
+binder 17654:17654 <> b:150
+binder 17656:17656 <> n:151
+R17663:17667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17660:17661 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17659:17659 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:151 var
+R17687:17690 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17668:17668 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17680:17685 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17669:17669 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17677:17678 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17671:17675 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17670:17670 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:149 var
+R17676:17676 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:151 var
+R17679:17679 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:150 var
+R17686:17686 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:151 var
+R17691:17691 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17695:17700 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17693:17693 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17692:17692 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:149 var
+R17694:17694 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:150 var
+R17701:17701 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:151 var
+binder 17733:17733 <> a:152
+binder 17735:17735 <> b:153
+binder 17737:17737 <> n:154
+R17744:17747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17741:17742 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R17743:17743 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:152 var
+R17752:17755 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17749:17750 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R17751:17751 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:153 var
+R17760:17772 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17757:17758 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17756:17756 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:154 var
+R17792:17795 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17773:17773 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17785:17790 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17774:17774 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17782:17783 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17776:17780 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17775:17775 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:152 var
+R17781:17781 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:154 var
+R17784:17784 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:153 var
+R17791:17791 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:154 var
+R17796:17796 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17800:17805 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R17798:17798 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17797:17797 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:152 var
+R17799:17799 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:153 var
+R17806:17806 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:154 var
+binder 17733:17733 <> a:155
+binder 17735:17735 <> b:156
+binder 17737:17737 <> n:157
+R17743:17743 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:155 var
+R17751:17751 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:156 var
+R17756:17756 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:157 var
+R17775:17775 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:155 var
+R17781:17781 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:157 var
+R17784:17784 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:156 var
+R17791:17791 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:157 var
+R17797:17797 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:155 var
+R17799:17799 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:156 var
+R17806:17806 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:157 var
+R17855:17876 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_mod_idemp_l thm
+R17904:17912 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R17935:17956 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_mod_idemp_l thm
+binder 17990:17990 <> a:158
+binder 17992:17992 <> b:159
+binder 17994:17994 <> n:160
+R18001:18004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17998:17999 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18000:18000 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:158 var
+R18009:18021 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18006:18007 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18005:18005 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:160 var
+R18041:18044 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18022:18022 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18034:18039 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18023:18023 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18031:18032 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18025:18029 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18024:18024 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:158 var
+R18030:18030 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:160 var
+R18033:18033 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:159 var
+R18040:18040 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:160 var
+R18045:18045 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18049:18054 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18047:18047 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18046:18046 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:158 var
+R18048:18048 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:159 var
+R18055:18055 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:160 var
+binder 17990:17990 <> a:161
+binder 17992:17992 <> b:162
+binder 17994:17994 <> n:163
+R18000:18000 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:161 var
+R18005:18005 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:163 var
+R18024:18024 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:161 var
+R18030:18030 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:163 var
+R18033:18033 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:162 var
+R18040:18040 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:163 var
+R18046:18046 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:161 var
+R18048:18048 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:162 var
+R18055:18055 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:163 var
+R18124:18130 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R18145:18153 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R18160:18168 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R18262:18268 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R18283:18291 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R18298:18306 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R18311:18319 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+prf 18362:18376 ZQuotProp mul_rem_idemp_r
+binder 18387:18387 <> a:164
+binder 18389:18389 <> b:165
+binder 18391:18391 <> n:166
+R18398:18402 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18395:18396 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18394:18394 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:166 var
+R18422:18425 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18403:18403 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18415:18420 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18405:18406 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18414:18414 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18404:18404 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:164 var
+R18408:18412 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18407:18407 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:165 var
+R18413:18413 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:166 var
+R18421:18421 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:166 var
+R18426:18426 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18430:18435 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18428:18428 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18427:18427 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:164 var
+R18429:18429 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:165 var
+R18436:18436 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:166 var
+R18473:18480 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+R18496:18510 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_rem_idemp_l thm
+prf 18527:18533 ZQuotProp mul_rem
+binder 18543:18543 <> a:167
+binder 18545:18545 <> b:168
+binder 18547:18547 <> n:169
+R18554:18558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18551:18552 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18550:18550 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:169 var
+R18572:18575 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18559:18559 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18565:18570 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18561:18563 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18560:18560 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:167 var
+R18564:18564 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:168 var
+R18571:18571 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:169 var
+R18576:18576 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18598:18603 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18577:18577 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18585:18589 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18597:18597 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18579:18583 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18578:18578 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:167 var
+R18584:18584 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:169 var
+R18591:18595 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18590:18590 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:168 var
+R18596:18596 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:169 var
+R18604:18604 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:169 var
+R18634:18648 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_rem_idemp_l thm
+R18651:18665 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp mul_rem_idemp_r thm
+prf 18933:18947 ZQuotProp add_rem_idemp_l
+binder 18958:18958 <> a:170
+binder 18960:18960 <> b:171
+binder 18962:18962 <> n:172
+R18969:18972 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18966:18967 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18965:18965 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:172 var
+R18981:18985 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18974:18977 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R18979:18979 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18978:18978 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:170 var
+R18980:18980 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:171 var
+R19005:19008 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18986:18986 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18998:19003 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18987:18987 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18995:18996 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18989:18993 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R18988:18988 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:170 var
+R18994:18994 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:172 var
+R18997:18997 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:171 var
+R19004:19004 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:172 var
+R19009:19009 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19013:19018 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19011:19011 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19010:19010 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:170 var
+R19012:19012 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:171 var
+R19019:19019 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:172 var
+binder 19050:19050 <> a:173
+binder 19052:19052 <> b:174
+binder 19054:19054 <> n:175
+R19061:19064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19058:19059 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R19060:19060 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:173 var
+R19069:19072 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19066:19067 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R19068:19068 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:174 var
+R19077:19090 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19074:19075 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R19073:19073 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:175 var
+R19110:19113 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R19091:19091 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19103:19108 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19092:19092 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19100:19101 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19094:19098 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19093:19093 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:173 var
+R19099:19099 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:175 var
+R19102:19102 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:174 var
+R19109:19109 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:175 var
+R19114:19114 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19118:19123 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19116:19116 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19115:19115 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:173 var
+R19117:19117 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:174 var
+R19124:19124 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:175 var
+binder 19050:19050 <> a:176
+binder 19052:19052 <> b:177
+binder 19054:19054 <> n:178
+R19060:19060 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:176 var
+R19068:19068 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:177 var
+R19073:19073 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:178 var
+R19093:19093 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:176 var
+R19099:19099 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:178 var
+R19102:19102 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:177 var
+R19109:19109 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:178 var
+R19115:19115 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:176 var
+R19117:19117 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:177 var
+R19124:19124 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:178 var
+R19171:19192 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp add_mod_idemp_l thm
+R19220:19228 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_r prfax
+R19251:19272 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp add_mod_idemp_l thm
+R19315:19322 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_0_mul thm
+R19380:19386 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R19401:19409 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R19414:19426 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_add_distr thm
+R19431:19439 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A rem_opp_l prfax
+R19462:19478 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_nonneg_nonpos thm
+prf 19513:19527 ZQuotProp add_rem_idemp_r
+binder 19538:19538 <> a:179
+binder 19540:19540 <> b:180
+binder 19542:19542 <> n:181
+R19549:19552 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19546:19547 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R19545:19545 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:181 var
+R19561:19565 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19554:19557 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R19559:19559 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19558:19558 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:179 var
+R19560:19560 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:180 var
+R19585:19588 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R19566:19566 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19578:19583 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19568:19569 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19577:19577 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19567:19567 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:179 var
+R19571:19575 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19570:19570 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:180 var
+R19576:19576 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:181 var
+R19584:19584 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:181 var
+R19589:19589 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19593:19598 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19591:19591 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19590:19590 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:179 var
+R19592:19592 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:180 var
+R19599:19599 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:181 var
+R19636:19643 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_comm thm
+R19655:19669 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp add_rem_idemp_l thm
+R19693:19700 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_comm thm
+prf 19717:19723 ZQuotProp add_rem
+binder 19733:19733 <> a:182
+binder 19735:19735 <> b:183
+binder 19737:19737 <> n:184
+R19744:19747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19741:19742 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R19740:19740 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:184 var
+R19756:19760 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19749:19752 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R19754:19754 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19753:19753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:182 var
+R19755:19755 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:183 var
+R19772:19775 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R19761:19761 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19765:19770 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19763:19763 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19762:19762 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:182 var
+R19764:19764 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:183 var
+R19771:19771 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:184 var
+R19776:19776 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19794:19799 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19784:19786 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19778:19782 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19777:19777 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:182 var
+R19783:19783 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:184 var
+R19788:19792 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R19787:19787 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:183 var
+R19793:19793 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:184 var
+R19800:19800 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> n:184 var
+R19839:19853 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp add_rem_idemp_l thm
+R19856:19870 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp add_rem_idemp_r thm
+R19909:19916 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_0_mul thm
+R19963:19970 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B le_0_mul thm
+R19977:19988 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_sign_mul thm
+R20038:20054 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonneg_nonneg thm
+R20057:20073 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_nonpos_nonpos thm
+R20122:20128 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_0_l thm
+R20202:20208 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_0_l thm
+prf 20319:20327 ZQuotProp quot_quot
+binder 20338:20338 <> a:185
+binder 20340:20340 <> b:186
+binder 20342:20342 <> c:187
+R20349:20352 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20346:20347 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20345:20345 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:186 var
+R20357:20361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20354:20355 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20353:20353 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:187 var
+R20371:20374 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20362:20362 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20367:20369 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20364:20365 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20363:20363 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:185 var
+R20366:20366 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:186 var
+R20370:20370 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:187 var
+R20376:20378 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20382:20382 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20375:20375 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:185 var
+R20380:20380 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20379:20379 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:186 var
+R20381:20381 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:187 var
+binder 20414:20414 <> a:188
+binder 20416:20416 <> b:189
+binder 20418:20418 <> c:190
+R20425:20428 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20422:20423 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20424:20424 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:188 var
+R20432:20435 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20430:20430 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R20431:20431 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:189 var
+R20440:20443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20437:20438 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20436:20436 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:190 var
+R20453:20456 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20444:20444 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20449:20451 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20446:20447 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20445:20445 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:188 var
+R20448:20448 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:189 var
+R20452:20452 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:190 var
+R20458:20460 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20464:20464 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20457:20457 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:188 var
+R20462:20462 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20461:20461 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:189 var
+R20463:20463 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:190 var
+binder 20414:20414 <> a:191
+binder 20416:20416 <> b:192
+binder 20418:20418 <> c:193
+R20424:20424 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:191 var
+R20431:20431 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:192 var
+R20436:20436 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:193 var
+R20445:20445 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:191 var
+R20448:20448 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:192 var
+R20452:20452 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:193 var
+R20457:20457 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:191 var
+R20461:20461 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:192 var
+R20463:20463 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:193 var
+R20511:20524 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_div thm
+R20544:20550 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R20566:20575 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R20581:20589 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_r thm
+R20611:20624 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_div thm
+R20649:20657 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+binder 20701:20701 <> a:194
+binder 20703:20703 <> b:195
+binder 20705:20705 <> c:196
+R20712:20715 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20709:20710 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20711:20711 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:194 var
+R20720:20723 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20717:20718 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20716:20716 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:195 var
+R20728:20731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20725:20726 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20724:20724 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:196 var
+R20741:20744 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20732:20732 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20737:20739 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20734:20735 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20733:20733 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:194 var
+R20736:20736 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:195 var
+R20740:20740 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:196 var
+R20746:20748 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20752:20752 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R20745:20745 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:194 var
+R20750:20750 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20749:20749 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:195 var
+R20751:20751 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:196 var
+binder 20701:20701 <> a:197
+binder 20703:20703 <> b:198
+binder 20705:20705 <> c:199
+R20711:20711 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:197 var
+R20716:20716 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:198 var
+R20724:20724 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:199 var
+R20733:20733 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:197 var
+R20736:20736 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:198 var
+R20740:20740 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:199 var
+R20745:20745 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:197 var
+R20749:20749 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:198 var
+R20751:20751 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:199 var
+R20822:20828 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R20842:20851 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R20859:20868 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_r thm
+R20874:20882 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_opp_l thm
+R20934:20942 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+R21024:21030 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B opp_inj thm
+R21046:21055 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_opp_l thm
+R21103:21111 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+prf 21133:21141 ZQuotProp mod_mul_r
+binder 21152:21152 <> a:200
+binder 21154:21154 <> b:201
+binder 21156:21156 <> c:202
+R21163:21166 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21160:21161 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R21159:21159 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:201 var
+R21171:21175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21168:21169 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R21167:21167 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:202 var
+R21187:21190 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R21177:21182 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21186:21186 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21176:21176 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:200 var
+R21184:21184 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21183:21183 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:201 var
+R21185:21185 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:202 var
+R21198:21200 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R21192:21196 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21191:21191 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:200 var
+R21197:21197 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:201 var
+R21202:21203 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21216:21216 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21201:21201 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:201 var
+R21204:21204 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21209:21214 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21206:21207 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21205:21205 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:200 var
+R21208:21208 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:201 var
+R21215:21215 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:202 var
+R21276:21277 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21286:21286 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21274:21274 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21279:21281 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21285:21285 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21283:21283 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21254:21265 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_cancel_l thm
+R21321:21329 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B neq_mul_0 thm
+R21302:21309 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R21359:21367 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_quot thm
+R21390:21398 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_assoc thm
+R21401:21412 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B add_shuffle0 thm
+R21418:21426 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_assoc thm
+R21432:21446 Stdlib.Numbers.Integer.Abstract.ZDivTrunc B mul_add_distr_l thm
+R21461:21468 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+R21487:21494 Stdlib.Numbers.Integer.Abstract.ZDivTrunc A quot_rem prfax
+prf 21516:21523 ZQuotProp rem_quot
+binder 21533:21533 <> a:203
+binder 21535:21535 <> b:204
+R21542:21546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21539:21540 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R21538:21538 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:204 var
+R21559:21562 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R21554:21557 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21548:21552 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'rem'_x not
+R21547:21547 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:203 var
+R21553:21553 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:204 var
+R21558:21558 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:204 var
+R21598:21611 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp quot_small_iff thm
+R21640:21652 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp rem_bound_abs thm
+prf 21696:21706 ZQuotProp quot_mul_le
+binder 21717:21717 <> a:205
+binder 21719:21719 <> b:206
+binder 21721:21721 <> c:207
+R21728:21731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21725:21726 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R21727:21727 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:205 var
+R21735:21738 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21733:21733 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R21734:21734 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:206 var
+R21743:21746 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21740:21741 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R21742:21742 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:207 var
+R21755:21758 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R21748:21749 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21754:21754 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21747:21747 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:207 var
+R21751:21752 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21750:21750 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:205 var
+R21753:21753 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:206 var
+R21759:21759 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21763:21765 Stdlib.Numbers.Integer.Abstract.ZAxioms QuotRemNotation :::x_'÷'_x not
+R21761:21761 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R21760:21760 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> c:207 var
+R21762:21762 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> a:205 var
+R21766:21766 Stdlib.Numbers.Integer.Abstract.ZDivTrunc <> b:206 var
+R21782:21798 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp div_mul_le thm
+R21811:21819 Stdlib.Numbers.Integer.Abstract.ZDivTrunc ZQuotProp <> modtype

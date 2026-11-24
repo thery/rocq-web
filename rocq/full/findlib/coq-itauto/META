@@ -1,0 +1,8 @@
+
+package "plugin" (
+  requires = "rocq-runtime.plugins.ltac"
+  archive(byte) = "cdcl_plugin.cma"
+  archive(native) = "cdcl_plugin.cmxa"
+  plugin(byte) = "cdcl_plugin.cma"
+  plugin(native) = "cdcl_plugin.cmxs"
+)

@@ -1,0 +1,68 @@
+% xtext: Kinds of binders and of arguments.
+% (part of xtext's writer; the files are loaded in the order of ExtractText.v)
+
+% ------------------------------------------------------------------
+% Kinds of binders and arguments
+
+% the sort Set (its universe compared without unification, so that a
+% universe variable is not taken for Set)
+pred is-set-sort i:term.
+is-set-sort (sort (typ U)) :- {{ Set }} = sort (typ SetUniverse), U == SetUniverse.
+
+% [binder-kind A K]: the kind of a binder of type A, from the sort of A: an
+% Assume for a proposition, a Consider for a set, a Let otherwise
+pred binder-kind i:term, o:bk.  % call it with a fresh output
+binder-kind A K :-
+  typ A S0, whnf S0 S, !, sort-kind S K.
+binder-kind _ bk-let.
+
+% [sort-kind S K]: the kind of a binder whose type has the sort S
+pred sort-kind i:term, o:bk.
+sort-kind (sort prop) bk-assume :- !.
+sort-kind (sort sprop) bk-assume :- !.
+sort-kind S bk-set :- is-set-sort S, !.
+sort-kind _ bk-let.
+
+% [is-prop D]: the type D is a proposition (its sort is Prop)
+pred is-prop i:term.
+is-prop D :- typ D S0, whnf S0 (sort prop).
+
+% kind of the argument of a product: => if non-dependent with a
+% domain in Prop, forall otherwise.  (The body of B = (_\ C_) is a variable
+% of the clause, which cannot depend on the bound one; an anonymous one,
+% (_\ _), would: it unifies with any B.)
+pred arg-kind i:term, i:(term -> term), o:ak.
+arg-kind D B ak-imp :- B = (_\ C_), is-prop D, !.
+arg-kind _ _ ak-all.
+
+% the kinds of the arguments Args of a term of type Ty
+
+pred kinds i:term, i:list term, o:list ak.
+kinds _ [] [] :- !.
+kinds Ty [A|As] [K|Ks] :-
+  whnf Ty (prod _ D B), !,
+  arg-kind D B K, kinds (B A) As Ks.
+kinds _ As Ks :- std.map As (_\ k\ k = ak-all) Ks.
+
+% the maximal prefix of arguments with the same kind
+pred run i:list ak, i:list term, o:ak, o:list term, o:list term.
+run [K|Ks] [A|As] K [A|R] Rest :- run-same K Ks As R Rest.
+% [run-same K Ks As R Rest]: the arguments R at the head of As whose kinds
+% Ks are K, and the arguments after them
+pred run-same i:ak, i:list ak, i:list term, o:list term, o:list term.
+run-same K [K|Ks] [A|As] [A|R] Rest :- !, run-same K Ks As R Rest.
+run-same _ _ As [] As.
+
+% the characterisation of subproofs is on (switch naming; defined in
+% subproofs.elpi, used here and in staged.elpi)
+pred characterising.
+
+% [abstraction-binder-kind A B K]: the kind K of the binder of an
+% abstraction of type Πx:A.B, by the sort of A (binder-kind); with the
+% characterisation of subproofs (Coscoy's thesis 4.3.2, Fig. 4.13: switch
+% naming, subproofs.elpi), a proof of a proposition A is a hypothesis
+% only when B does not depend on it (A ⇒ B), else it is a variable
+pred abstraction-binder-kind i:term, i:(term -> term), o:bk.
+abstraction-binder-kind A B bk-let :-
+  characterising, binder-kind A K, K = bk-assume, arg-kind A B Arg, Arg = ak-all, !.
+abstraction-binder-kind A _ K :- binder-kind A K.

@@ -1,0 +1,145 @@
+% xtext: The top level: the statement, the document and its header.
+% (part of xtext's writer; the files are loaded in the order of ExtractText.v)
+
+% ------------------------------------------------------------------
+% Top level: the abstractions at the top of the proof make the
+% statement (the * context of the paper, where the theorem is
+% announced); the rest is the proof.
+
+% The declared type of the theorem is followed along the abstractions:
+% what is left is the statement, inherited by the body (thesis 3.3.2).
+pred top-run i:list binder, i:term, i:term, o:string, o:list line.
+top-run Acc (fun N A F) Ty Stmt L :- not (statement-stops-at Ty N A), !,
+  binder-name N N1 Id,
+  ppf A FA,
+  (if (Ty = prod _ _ B) true (whnf Ty (prod _ _ B) ; B = (_\ Ty))),
+  abstraction-binder-kind A B K,
+  pi x\ (decl x N1 A, ctx-name Id) => top-run [b K Id FA|Acc] (F x) (B x) Stmt L.
+top-run Acc Body Ty0 Stmt L :-
+  std.rev Acc Bs, beta-ty Ty0 Ty, formula rclaim Ty FT,
+  statement Bs Ss, sentence [wd "we-prove", tx FT, tx "."] WP, std.append Ss [WP] Ss1,
+  std.string.concat " " Ss1 Stmt,
+  (if (staged-mode)
+     % (thesis 3.3.4: the body has the statement as required type; an
+     % abstraction left out of the statement says its conversion)
+     ((if (Body = fun _ _ _) (Ctx = nostar) (Ctx = star)),
+      (req Body Ty => (root-term Body :- !) => tr-root Body Ctx [] P))
+     (((root-term Body :- !) => tr-root Body star [] P0), that-is Body Ty P0 P)),
+  flatten P L.
+
+% [statement Binders Sentences]: the sentences of the statement that
+% introduce the binders at the top of the proof
+pred statement i:list binder, o:list string.
+statement [] [].
+statement [b bk-assume Id FA|Bs] [S|Ss] :- !,
+  assume-run [b bk-assume Id FA|Bs] Hs Rest,
+  sentence [wd "assume", enum Hs, tx "."] S,
+  statement Rest Ss.
+statement Bs [S|Ss] :-
+  let-run Bs Ls Rest, let-lines Ls Lines,
+  std.map Lines (l\ s\ sigma T\ l = it T [], s is T ^ ".") L,
+  std.string.concat " " L S,
+  statement Rest Ss.
+
+% [assume-run Bs Hs Rest]: the hypotheses Hs of the Assume binders at the
+% head of Bs, as written in an Assume sentence, and the binders after them
+pred assume-run i:list binder, o:list (list part), o:list binder.
+assume-run [b bk-assume Id FA|Bs] [H|Hs] Rest :- !,
+  assume-text (b bk-assume Id FA) H, assume-run Bs Hs Rest.
+assume-run Bs [] Bs.
+
+% [let-run Bs Ls Rest]: the binders Ls at the head of Bs up to the first
+% Assume binder (a Let sentence), and the binders from it on
+pred let-run i:list binder, o:list binder, o:list binder.
+let-run [b bk-assume Id FA|Bs] [] [b bk-assume Id FA|Bs] :- !.
+let-run [B|Bs] [B|Ls] Rest :- !, let-run Bs Ls Rest.
+let-run [] [] [].
+
+% ------------------------------------------------------------------
+% The document (../prooftext/document.elpi)
+
+% [proof-text Title Path Body Type D]: the document of the proof Body of
+% type Type, under the title Title; Path is the module of the theorem.
+% It is written in Markdown by prooftext.write-document, or in Typst by
+% prooftext.write-typst (prooftext.write-as chooses by the file).
+pred proof-text i:string, i:list string, i:term, i:term, o:prooftext.document.
+proof-text Title Path Body Type
+    (prooftext.document Fields Title prooftext.unplaced Statement Steps) :-
+  top-run [] Body Type Statement Lines0,
+  with-conclusions Lines0 Lines,
+  std.map Lines document-step Steps,
+  header-fields Path Fields.
+
+% a line of the proof is a step of the document; its text ends with a
+% punctuation mark
+pred document-step i:line, o:prooftext.step.
+document-step (it S Ch) (prooftext.step prooftext.unplaced S1 Steps) :-
+  end-dot S S1, std.map Ch document-step Steps.
+document-step (with-closing S Ch C) (prooftext.closed-step prooftext.unplaced S1 Steps C1) :-
+  end-dot S S1, end-dot C C1, std.map Ch document-step Steps.
+
+% The fields of the header, for cyp: the libraries (xtext-header-require)
+% and the module of the theorem, so that the lemmas it uses are known
+% (none for a theorem of the standard library, which the libraries load);
+% the language; the default tactics, those that check a guarded
+% contraction (xtext-guard-tactic), so that cyp closes the contracted
+% steps with the tactics that checked them.
+pred header-fields i:list string, o:list prooftext.field.
+header-fields Path Fields :-
+  xtext-header-require Libraries,
+  (if (Path = [Lib|_], (Lib = "Stdlib" ; Lib = "Corelib"))
+      (Require = Libraries)
+      (std.string.concat "." Path Module,
+       Require is Libraries ^ " Require Import " ^ Module ^ ".")),
+  switch "lang" Lang, prooftext.lang-fields Lang LangFields,
+  std.findall (xtext-guard-tactic _ _) Guards,
+  std.map Guards (g\ t\ sigma L\ g = xtext-guard-tactic L t) Tactics,
+  prooftext.by-field Tactics By,
+  std.append [prooftext.field "require" Require | LangFields] [By] Fields.
+
+% the document of a proof in progress (ExtractText_partial): its partial
+% proof term P, where the open goals are holes (thesis of L. Théry, 3.3.3)
+pred extract-text-partial i:string, i:term, o:prooftext.document.
+extract-text-partial Name P D :-
+  beta P P1, coq.typecheck P Ty0 ok, beta-ty Ty0 Ty,
+  coq.env.current-path Path,
+  proof-text {calc (Name ^ " (proof in progress)")} Path P1 Ty D.
+
+% the document of the proof of the constant Name
+pred extract-text i:string, o:prooftext.document.
+extract-text Name D :-
+  coq.locate Name GR,
+  ((GR = const C, coq.env.const-body C (some Bo)), !
+   ; coq.error "xtext:" Name "is not a constant with a body"),
+  % the beta-redexes left by tactics (intro patterns) are reduced first
+  beta Bo Bo1,
+  coq.env.const C _ CTy,
+  coq.gref->path GR Path,
+  proof-text Name Path Bo1 CTy D.
+
+% [say-document D]: the document D printed: as plain text (no header, no
+% title, no markup: prooftext.write-document-as untagged), or in Markdown
+% with its classes when the command has the attribute #[tags]; a file
+% is always written with them (cyp, the Typst writer and the gallery
+% read them)
+pred say-document i:prooftext.document.
+say-document D :-
+  attributes A, coq.parse-attributes A [att "tags" bool] Opts, !,
+  (if (std.mem! Opts (get-option "tags" tt)) (M = prooftext.tagged) (M = prooftext.untagged)),
+  prooftext.write-document-as M D T, coq.say T.
+
+% The vocabulary of the writer in language L (the lexicon): every use of
+% English has a phrase in L, and every phrase of a role is in lower case
+% (as the phrases of the lexicon are matched).  The failures are in Bad.
+pred vocab-check i:string, o:list string.
+vocab-check L Bad :-
+  std.findall (write-role L _ _ _) Rs,
+  std.map-filter Rs (r\ m\ sigma U P\ r = write-role L U P _,
+     not (lower P P), m is "phrase \"" ^ P ^ "\" (" ^ U ^ ") not in lower case") B1,
+  std.findall (write-role "en" _ _ _) Re, std.findall (write-word "en" _ _) We,
+  std.map Re (r\ u\ sigma P R\ r = write-role "en" u P R) U1,
+  std.map We (r\ u\ sigma P\ r = write-word "en" u P) U2,
+  std.append U1 U2 Us,
+  std.map-filter Us (u\ m\ not (write-role L u _ _ ; write-word L u _),
+     m is "no phrase for " ^ u) B2,
+  std.append B1 B2 Bad.

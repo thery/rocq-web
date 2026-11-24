@@ -1,0 +1,124 @@
+DIGEST 28e029e6cd455165c936e3b0f40f3f90
+FStdlib.Numbers.NatInt.NZBase
+R1289:1296 Stdlib.Numbers.NatInt.NZAxioms <> <> lib
+R1336:1347 Stdlib.Numbers.NatInt.NZAxioms NZDomainSig' <> modtype
+modtype 1312:1321 <> NZBaseProp
+R1312:1321 Stdlib.Numbers.NatInt.NZBase NZ <> mod
+R1462:1471 Stdlib.Structures.Equalities BackportEq <> mod
+R1473:1474 Stdlib.Numbers.NatInt.NZBase NZ <> mod
+R1476:1477 Stdlib.Numbers.NatInt.NZBase NZ <> mod
+prf 1487:1496 NZBaseProp eq_sym_iff
+binder 1507:1507 <> x:1
+binder 1509:1509 <> y:2
+R1516:1520 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1513:1514 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1512:1512 Stdlib.Numbers.NatInt.NZBase <> x:1 var
+R1515:1515 Stdlib.Numbers.NatInt.NZBase <> y:2 var
+R1522:1523 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1521:1521 Stdlib.Numbers.NatInt.NZBase <> y:2 var
+R1524:1524 Stdlib.Numbers.NatInt.NZBase <> x:1 var
+prf 1696:1702 NZBaseProp neq_sym
+binder 1713:1713 <> n:3
+binder 1715:1715 <> m:4
+R1724:1727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1719:1722 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1718:1718 Stdlib.Numbers.NatInt.NZBase <> n:3 var
+R1723:1723 Stdlib.Numbers.NatInt.NZBase <> m:4 var
+R1729:1732 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1728:1728 Stdlib.Numbers.NatInt.NZBase <> m:4 var
+R1733:1733 Stdlib.Numbers.NatInt.NZBase <> n:3 var
+prf 1869:1876 NZBaseProp eq_stepl
+binder 1887:1887 <> x:5
+binder 1889:1889 <> y:6
+binder 1891:1891 <> z:7
+R1900:1903 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1895:1898 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1894:1894 Stdlib.Numbers.NatInt.NZBase <> x:5 var
+R1899:1899 Stdlib.Numbers.NatInt.NZBase <> y:6 var
+R1910:1913 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1905:1908 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1904:1904 Stdlib.Numbers.NatInt.NZBase <> x:5 var
+R1909:1909 Stdlib.Numbers.NatInt.NZBase <> z:7 var
+R1915:1918 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1914:1914 Stdlib.Numbers.NatInt.NZBase <> z:7 var
+R1919:1919 Stdlib.Numbers.NatInt.NZBase <> y:6 var
+R1992:1999 Stdlib.Numbers.NatInt.NZBase NZBaseProp eq_stepl thm
+R2081:2102 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R2108:2115 Stdlib.Numbers.NatInt.NZBase NZ eq_equiv prfax
+prf 2128:2135 NZBaseProp succ_inj
+binder 2146:2147 <> n1:8
+binder 2149:2150 <> n2:9
+R2165:2168 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2157:2160 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2153:2153 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2155:2156 Stdlib.Numbers.NatInt.NZBase <> n1:8 var
+R2161:2161 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2163:2164 Stdlib.Numbers.NatInt.NZBase <> n2:9 var
+R2171:2174 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2169:2170 Stdlib.Numbers.NatInt.NZBase <> n1:8 var
+R2175:2176 Stdlib.Numbers.NatInt.NZBase <> n2:9 var
+R2208:2214 Stdlib.Numbers.NatInt.NZBase NZ pred_wd prfax
+R2239:2247 Stdlib.Numbers.NatInt.NZBase NZ pred_succ prfax
+prf 2367:2377 NZBaseProp succ_inj_wd
+binder 2388:2389 <> n1:10
+binder 2391:2392 <> n2:11
+R2407:2411 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2399:2402 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2395:2395 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2397:2398 Stdlib.Numbers.NatInt.NZBase <> n1:10 var
+R2403:2403 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2405:2406 Stdlib.Numbers.NatInt.NZBase <> n2:11 var
+R2414:2417 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2412:2413 Stdlib.Numbers.NatInt.NZBase <> n1:10 var
+R2418:2419 Stdlib.Numbers.NatInt.NZBase <> n2:11 var
+R2452:2459 Stdlib.Numbers.NatInt.NZBase NZBaseProp succ_inj thm
+prf 2499:2513 NZBaseProp succ_inj_wd_neg
+binder 2524:2524 <> n:12
+binder 2526:2526 <> m:13
+R2539:2543 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2532:2535 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2529:2529 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2531:2531 Stdlib.Numbers.NatInt.NZBase <> n:12 var
+R2536:2536 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2538:2538 Stdlib.Numbers.NatInt.NZBase <> m:13 var
+R2545:2548 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2544:2544 Stdlib.Numbers.NatInt.NZBase <> n:12 var
+R2549:2549 Stdlib.Numbers.NatInt.NZBase <> m:13 var
+R2579:2589 Stdlib.Numbers.NatInt.NZBase NZBaseProp succ_inj_wd thm
+sec 2723:2738 NZBaseProp CentralInduction
+var 2751:2751 NZBaseProp.CentralInduction A
+R2756:2759 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2755:2755 Stdlib.Numbers.NatInt.NZBase NZ t defax
+var 2777:2780 NZBaseProp.CentralInduction A_wd
+R2784:2789 Corelib.Classes.Morphisms <> Proper class
+R2802:2802 Stdlib.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2794:2796 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2792:2793 Stdlib.Numbers.NatInt.NZBase NZ eq defax
+R2797:2799 Corelib.Init.Logic <> iff def
+prf 2814:2830 NZBaseProp central_induction
+binder 2843:2843 <> z:18
+R2849:2856 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2846:2846 Stdlib.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2848:2848 Stdlib.Numbers.NatInt.NZBase <> z:18 var
+R2857:2857 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2883:2893 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 2865:2865 <> n:19
+R2871:2875 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2868:2868 Stdlib.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2870:2870 Stdlib.Numbers.NatInt.NZBase <> n:19 var
+R2876:2876 Stdlib.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2879:2879 Stdlib.Numbers.NatInt.NZBase NZ S abbrev
+R2881:2881 Stdlib.Numbers.NatInt.NZBase <> n:19 var
+binder 2901:2901 <> n:20
+R2904:2904 Stdlib.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2906:2906 Stdlib.Numbers.NatInt.NZBase <> n:20 var
+R2966:2977 Stdlib.Numbers.NatInt.NZBase NZ bi_induction prfax
+R3015:3026 Stdlib.Numbers.NatInt.NZBase NZ bi_induction prfax
+R3078:3093 Stdlib.Numbers.NatInt.NZBase NZBaseProp.CentralInduction <> sec
+R3168:3179 Stdlib.Numbers.NatInt.NZBase NZ bi_induction prfax
+binder 3270:3270 <> A:21
+binder 3272:3275 <> A_wd:22
+R3280:3296 Stdlib.Numbers.NatInt.NZBase NZBaseProp central_induction thm
+R3300:3303 Stdlib.Numbers.NatInt.NZBase <> A_wd:22 var
+R3298:3298 Stdlib.Numbers.NatInt.NZBase <> A:21 var
+R3315:3324 Stdlib.Numbers.NatInt.NZBase NZBaseProp <> modtype

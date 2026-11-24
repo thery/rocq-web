@@ -1,0 +1,132 @@
+DIGEST e9cf83d7cb9722eb8dbb81b3ad6e5172
+FStdlib.Classes.SetoidClass
+R940:946 Stdlib.Program.Program <> <> lib
+R977:996 Stdlib.Relations.Relation_Definitions <> <> lib
+R1034:1048 Stdlib.Classes.RelationClasses <> <> lib
+R1086:1094 Stdlib.Classes.Morphisms <> <> lib
+rec 1143:1148 <> Setoid
+proj 1159:1163 <> equiv
+proj 1192:1203 <> setoid_equiv
+binder 1150:1150 <> A:1
+R1167:1174 Corelib.Relations.Relation_Definitions <> relation def
+R1176:1176 Stdlib.Classes.SetoidClass <> A:1 var
+R1208:1218 Corelib.Classes.RelationClasses <> Equivalence class
+R1220:1224 Stdlib.Classes.SetoidClass <> equiv:3 meth
+prf 1453:1463 <> setoid_refl
+R1472:1477 Stdlib.Classes.SetoidClass <> Setoid class
+binder 1479:1479 <> A:5
+binder 1467:1468 <> sa:6
+R1484:1492 Corelib.Classes.RelationClasses <> Reflexive class
+R1494:1498 Stdlib.Classes.SetoidClass <> equiv meth
+prf 1539:1548 <> setoid_sym
+R1557:1562 Stdlib.Classes.SetoidClass <> Setoid class
+binder 1564:1564 <> A:7
+binder 1552:1553 <> sa:8
+R1569:1577 Corelib.Classes.RelationClasses <> Symmetric class
+R1579:1583 Stdlib.Classes.SetoidClass <> equiv meth
+prf 1624:1635 <> setoid_trans
+R1644:1649 Stdlib.Classes.SetoidClass <> Setoid class
+binder 1651:1651 <> A:9
+binder 1639:1640 <> sa:10
+R1656:1665 Corelib.Classes.RelationClasses <> Transitive class
+R1667:1671 Stdlib.Classes.SetoidClass <> equiv meth
+R1734:1744 Stdlib.Classes.SetoidClass <> setoid_refl thm
+R1775:1784 Stdlib.Classes.SetoidClass <> setoid_sym thm
+R1815:1826 Stdlib.Classes.SetoidClass <> setoid_trans thm
+inst 1985:1994 <> iff_setoid
+R1998:2003 Stdlib.Classes.SetoidClass <> Setoid class
+R2032:2043 Stdlib.Classes.SetoidClass <> setoid_equiv meth
+R2017:2021 Stdlib.Classes.SetoidClass <> equiv meth
+R2026:2028 Corelib.Init.Logic <> iff def
+R2048:2062 Corelib.Classes.RelationClasses <> iff_equivalence inst
+R2429:2433 Stdlib.Classes.SetoidClass <> equiv meth
+not 2414:2414 <> ::type_scope:x_'=='_x
+R2512:2521 Corelib.Classes.RelationClasses <> complement def
+R2523:2527 Stdlib.Classes.SetoidClass <> equiv meth
+not 2496:2496 <> ::type_scope:x_'=/='_x
+R2722:2725 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R2820:2823 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+prf 3024:3041 <> nequiv_equiv_trans
+R3054:3059 Stdlib.Classes.SetoidClass <> Setoid class
+binder 3061:3061 <> A:11
+binder 3054:3061 <> H:12
+R3073:3073 Stdlib.Classes.SetoidClass <> A:11 var
+binder 3065:3065 <> x:13
+binder 3067:3067 <> y:14
+binder 3069:3069 <> z:15
+R3084:3087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3078:3082 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=/='_x not
+R3077:3077 Stdlib.Classes.SetoidClass <> x:13 var
+R3083:3083 Stdlib.Classes.SetoidClass <> y:14 var
+R3094:3097 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3089:3092 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3088:3088 Stdlib.Classes.SetoidClass <> y:14 var
+R3093:3093 Stdlib.Classes.SetoidClass <> z:15 var
+R3099:3103 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=/='_x not
+R3098:3098 Stdlib.Classes.SetoidClass <> x:13 var
+R3104:3104 Stdlib.Classes.SetoidClass <> z:15 var
+R3152:3155 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3191:3194 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+prf 3256:3273 <> equiv_nequiv_trans
+R3286:3291 Stdlib.Classes.SetoidClass <> Setoid class
+binder 3293:3293 <> A:16
+binder 3286:3293 <> H:17
+R3305:3305 Stdlib.Classes.SetoidClass <> A:16 var
+binder 3297:3297 <> x:18
+binder 3299:3299 <> y:19
+binder 3301:3301 <> z:20
+R3315:3318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3310:3313 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3309:3309 Stdlib.Classes.SetoidClass <> x:18 var
+R3314:3314 Stdlib.Classes.SetoidClass <> y:19 var
+R3326:3329 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3320:3324 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=/='_x not
+R3319:3319 Stdlib.Classes.SetoidClass <> y:19 var
+R3325:3325 Stdlib.Classes.SetoidClass <> z:20 var
+R3331:3335 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=/='_x not
+R3330:3330 Stdlib.Classes.SetoidClass <> x:18 var
+R3336:3336 Stdlib.Classes.SetoidClass <> z:20 var
+R3386:3389 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3425:3428 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3545:3548 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3591:3594 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=='_x not
+R3638:3642 Stdlib.Classes.SetoidClass <> ::type_scope:x_'=/='_x not
+R3807:3812 Stdlib.Classes.SetoidClass <> Setoid class
+R3887:3892 Stdlib.Classes.SetoidClass <> Setoid class
+R3950:3954 Stdlib.Classes.SetoidClass <> equiv meth
+R3857:3861 Stdlib.Classes.SetoidClass <> equiv meth
+inst 4134:4148 <> setoid_morphism
+R4157:4162 Stdlib.Classes.SetoidClass <> Setoid class
+binder 4164:4164 <> A:21
+binder 4152:4153 <> sa:22
+R4169:4174 Corelib.Classes.Morphisms <> Proper class
+R4202:4206 Stdlib.Classes.SetoidClass <> equiv meth
+R4182:4186 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'++>'_x not
+R4177:4181 Stdlib.Classes.SetoidClass <> equiv meth
+R4192:4196 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'++>'_x not
+R4187:4191 Stdlib.Classes.SetoidClass <> equiv meth
+R4197:4199 Corelib.Init.Logic <> iff def
+R4213:4222 Corelib.Classes.Morphisms <> proper_prf def
+inst 4253:4279 <> setoid_partial_app_morphism
+R4288:4293 Stdlib.Classes.SetoidClass <> Setoid class
+binder 4295:4295 <> A:23
+binder 4283:4284 <> sa:24
+R4303:4303 Stdlib.Classes.SetoidClass <> A:23 var
+binder 4299:4299 <> x:25
+R4308:4313 Corelib.Classes.Morphisms <> Proper class
+R4332:4336 Stdlib.Classes.SetoidClass <> equiv meth
+R4338:4338 Stdlib.Classes.SetoidClass <> x:25 var
+R4321:4325 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'++>'_x not
+R4316:4320 Stdlib.Classes.SetoidClass <> equiv meth
+R4326:4328 Corelib.Init.Logic <> iff def
+R4346:4355 Corelib.Classes.Morphisms <> proper_prf def
+rec 4471:4483 <> PartialSetoid
+proj 4503:4508 <> pequiv
+proj 4535:4544 <> pequiv_prf
+binder 4486:4486 <> A:26
+R4512:4519 Corelib.Relations.Relation_Definitions <> relation def
+R4521:4521 Stdlib.Classes.SetoidClass <> A:26 var
+R4549:4551 Corelib.Classes.RelationClasses <> PER class
+R4553:4558 Stdlib.Classes.SetoidClass <> pequiv:28 meth
+R4639:4644 Stdlib.Classes.SetoidClass <> pequiv meth
+not 4630:4630 <> ::type_scope:x_'=~='_x

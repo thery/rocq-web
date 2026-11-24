@@ -1,0 +1,136 @@
+DIGEST f098c3293b8513b8c186cf3198852242
+FStdlib.Wellfounded.Well_Ordering
+R832:841 Stdlib.Logic.EqdepFacts <> <> lib
+ind 878:879 <> WO
+constr 920:922 <> sup
+binder 882:882 <> A:1
+R898:901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R897:897 Stdlib.Wellfounded.Well_Ordering <> A:1 var
+binder 893:893 <> B:2
+R936:936 Stdlib.Wellfounded.Well_Ordering <> A:1 var
+binder 934:934 <> a:5
+R945:948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R942:942 Stdlib.Wellfounded.Well_Ordering <> B:2 var
+R944:944 Stdlib.Wellfounded.Well_Ordering <> a:5 var
+R949:950 Stdlib.Wellfounded.Well_Ordering <> WO:3 ind
+R954:954 Stdlib.Wellfounded.Well_Ordering <> B:2 var
+R952:952 Stdlib.Wellfounded.Well_Ordering <> A:1 var
+binder 940:940 <> f:6
+R958:959 Stdlib.Wellfounded.Well_Ordering <> WO:3 ind
+R963:963 Stdlib.Wellfounded.Well_Ordering <> B:2 var
+R961:961 Stdlib.Wellfounded.Well_Ordering <> A:1 var
+scheme 878:879 <> WO_rect
+scheme 878:879 <> WO_ind
+scheme 878:879 <> WO_rec
+scheme 878:879 <> WO_sind
+sec 975:986 <> WellOrdering
+var 1000:1000 WellOrdering A
+var 1021:1021 WellOrdering B
+R1026:1029 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1025:1025 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.A var
+abbrev 1048:1049 <> WO
+R1055:1056 Stdlib.Wellfounded.Well_Ordering <> WO ind
+R1058:1058 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1060:1060 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.B var
+ind 1077:1081 <> le_WO
+constr 1109:1114 <> le_sup
+R1087:1090 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1085:1086 Stdlib.Wellfounded.Well_Ordering <> WO abbrev
+R1093:1096 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1091:1092 Stdlib.Wellfounded.Well_Ordering <> WO abbrev
+R1128:1128 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.A var
+binder 1126:1126 <> a:13
+R1137:1140 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1134:1134 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1136:1136 Stdlib.Wellfounded.Well_Ordering <> a:13 var
+R1141:1142 Stdlib.Wellfounded.Well_Ordering <> WO abbrev
+binder 1132:1132 <> f:14
+R1148:1148 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1150:1150 Stdlib.Wellfounded.Well_Ordering <> a:13 var
+binder 1146:1146 <> v:15
+R1154:1158 Stdlib.Wellfounded.Well_Ordering <> le_WO:11 ind
+R1167:1169 Stdlib.Wellfounded.Well_Ordering <> sup constr
+R1175:1175 Stdlib.Wellfounded.Well_Ordering <> a:13 var
+R1177:1177 Stdlib.Wellfounded.Well_Ordering <> f:14 var
+R1161:1161 Stdlib.Wellfounded.Well_Ordering <> f:14 var
+R1163:1163 Stdlib.Wellfounded.Well_Ordering <> v:15 var
+scheme 1077:1081 <> le_WO_ind
+scheme 1077:1081 <> le_WO_sind
+prf 1190:1198 <> le_WO_inv
+binder 1200:1200 <> x:16
+binder 1202:1202 <> y:17
+R1215:1218 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1206:1210 Stdlib.Wellfounded.Well_Ordering <> le_WO ind
+R1212:1212 Stdlib.Wellfounded.Well_Ordering <> x:16 var
+R1214:1214 Stdlib.Wellfounded.Well_Ordering <> y:17 var
+R1219:1225 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1231:1232 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1226:1226 <> a:18
+binder 1228:1228 <> f:19
+binder 1230:1230 <> v:20
+R1240:1243 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1236:1238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1233:1233 Stdlib.Wellfounded.Well_Ordering <> f:19 var
+R1235:1235 Stdlib.Wellfounded.Well_Ordering <> v:20 var
+R1239:1239 Stdlib.Wellfounded.Well_Ordering <> x:16 var
+R1255:1257 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1244:1246 Stdlib.Wellfounded.Well_Ordering <> sup constr
+R1252:1252 Stdlib.Wellfounded.Well_Ordering <> a:18 var
+R1254:1254 Stdlib.Wellfounded.Well_Ordering <> f:19 var
+R1258:1258 Stdlib.Wellfounded.Well_Ordering <> y:17 var
+prf 1310:1314 <> wf_WO
+R1318:1329 Corelib.Init.Wf <> well_founded def
+R1331:1335 Stdlib.Wellfounded.Well_Ordering <> le_WO ind
+R1358:1369 Corelib.Init.Wf <> well_founded def
+R1389:1397 Corelib.Init.Wf <> Acc_intro constr
+R1457:1465 Stdlib.Wellfounded.Well_Ordering <> le_WO_inv thm
+R1541:1546 Stdlib.Logic.EqdepFacts <> eq_dep ind
+binder 1555:1555 <> a:21
+R1563:1566 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1560:1560 Stdlib.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1562:1562 Stdlib.Wellfounded.Well_Ordering <> a:21 var
+R1567:1568 Stdlib.Wellfounded.Well_Ordering <> WO abbrev
+binder 1555:1555 <> a:22
+R1562:1562 Stdlib.Wellfounded.Well_Ordering <> a:22 var
+R1653:1661 Corelib.Init.Wf <> Acc_intro constr
+R1690:1701 Stdlib.Wellfounded.Well_Ordering WellOrdering <> sec
+sec 1714:1742 <> Characterisation_wf_relations
+var 1909:1909 Characterisation_wf_relations A
+var 1930:1932 Characterisation_wf_relations leA
+R1937:1940 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1936:1936 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1942:1945 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1941:1941 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+def 1966:1966 <> B
+R1971:1971 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+binder 1969:1969 <> a:27
+R1977:1977 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1979:1981 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1983:1985 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1993:1993 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1982:1982 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+binder 1978:1978 <> x:28
+R1986:1988 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.leA var
+R1990:1990 Stdlib.Wellfounded.Well_Ordering <> x:28 var
+R1992:1992 Stdlib.Wellfounded.Well_Ordering <> a:27 var
+prf 2007:2009 <> wof
+R2029:2032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2013:2024 Corelib.Init.Wf <> well_founded def
+R2026:2028 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.leA var
+R2034:2037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2033:2033 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R2038:2039 Stdlib.Wellfounded.Well_Ordering <> WO ind
+R2041:2041 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R2043:2043 Stdlib.Wellfounded.Well_Ordering <> B def
+R2078:2104 Corelib.Init.Wf <> well_founded_induction_type thm
+R2115:2115 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+binder 2113:2113 <> a:29
+R2120:2121 Stdlib.Wellfounded.Well_Ordering <> WO ind
+R2123:2123 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R2125:2125 Stdlib.Wellfounded.Well_Ordering <> B def
+binder 2113:2113 <> a:30
+R2164:2166 Stdlib.Wellfounded.Well_Ordering <> sup constr
+R2168:2168 Stdlib.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R2170:2170 Stdlib.Wellfounded.Well_Ordering <> B def
+R2187:2187 Stdlib.Wellfounded.Well_Ordering <> B def
+R2256:2284 Stdlib.Wellfounded.Well_Ordering Characterisation_wf_relations <> sec

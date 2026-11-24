@@ -1,0 +1,323 @@
+DIGEST 9da6b4aa92b33e74504b91e731fc60ea
+FStdlib.Sets.Powerset
+R1850:1858 Stdlib.Sets.Ensembles <> <> lib
+R1888:1898 Stdlib.Sets.Relations_1 <> <> lib
+R1928:1944 Stdlib.Sets.Relations_1_facts <> <> lib
+R1974:1986 Stdlib.Sets.Partial_Order <> <> lib
+R2016:2018 Stdlib.Sets.Cpo <> <> lib
+sec 2030:2056 <> The_power_set_partial_order
+var 2068:2068 The_power_set_partial_order U
+ind 2089:2097 <> Power_set
+constr 2145:2167 <> Definition_of_Power_set
+R2102:2109 Stdlib.Sets.Ensembles <> Ensemble def
+R2111:2111 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 2100:2100 <> A:3
+R2116:2123 Stdlib.Sets.Ensembles <> Ensemble def
+R2126:2133 Stdlib.Sets.Ensembles <> Ensemble def
+R2135:2135 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2186:2193 Stdlib.Sets.Ensembles <> Ensemble def
+R2195:2195 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 2184:2184 <> X:6
+R2212:2215 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2198:2205 Stdlib.Sets.Ensembles <> Included def
+R2209:2209 Stdlib.Sets.Powerset <> X:6 var
+R2211:2211 Stdlib.Sets.Powerset <> A:3 var
+R2207:2207 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2216:2217 Stdlib.Sets.Ensembles <> In def
+R2233:2241 Stdlib.Sets.Powerset <> Power_set:4 ind
+R2243:2243 Stdlib.Sets.Powerset <> A:3 var
+R2246:2246 Stdlib.Sets.Powerset <> X:6 var
+R2220:2227 Stdlib.Sets.Ensembles <> Ensemble def
+R2229:2229 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+scheme 2089:2097 <> Power_set_ind
+scheme 2089:2097 <> Power_set_sind
+prf 2312:2328 <> Empty_set_minimal
+R2341:2348 Stdlib.Sets.Ensembles <> Ensemble def
+R2350:2350 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 2339:2339 <> X:7
+R2353:2360 Stdlib.Sets.Ensembles <> Included def
+R2365:2373 Stdlib.Sets.Ensembles <> Empty_set ind
+R2375:2375 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2378:2378 Stdlib.Sets.Powerset <> X:7 var
+R2362:2362 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 2486:2504 <> Power_set_Inhabited
+R2518:2525 Stdlib.Sets.Ensembles <> Ensemble def
+R2527:2527 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 2516:2516 <> X:8
+R2530:2538 Stdlib.Sets.Ensembles <> Inhabited ind
+R2554:2562 Stdlib.Sets.Powerset <> Power_set ind
+R2564:2564 Stdlib.Sets.Powerset <> X:8 var
+R2541:2548 Stdlib.Sets.Ensembles <> Ensemble def
+R2550:2550 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2612:2620 Stdlib.Sets.Ensembles <> Empty_set ind
+R2622:2622 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2590:2604 Stdlib.Sets.Ensembles <> Inhabited_intro constr
+prf 2706:2726 <> Inclusion_is_an_order
+R2730:2734 Stdlib.Sets.Relations_1 <> Order ind
+R2750:2757 Stdlib.Sets.Ensembles <> Included def
+R2759:2759 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2737:2744 Stdlib.Sets.Ensembles <> Ensemble def
+R2746:2746 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 2854:2876 <> Inclusion_is_transitive
+R2880:2889 Stdlib.Sets.Relations_1 <> Transitive def
+R2905:2912 Stdlib.Sets.Ensembles <> Included def
+R2914:2914 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2892:2899 Stdlib.Sets.Ensembles <> Ensemble def
+R2901:2901 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R2930:2950 Stdlib.Sets.Powerset <> Inclusion_is_an_order thm
+def 3040:3051 <> Power_set_PO
+R3065:3068 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3055:3062 Stdlib.Sets.Ensembles <> Ensemble def
+R3064:3064 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3069:3070 Stdlib.Sets.Partial_Order <> PO rec
+R3073:3080 Stdlib.Sets.Ensembles <> Ensemble def
+R3082:3082 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3147:3155 Stdlib.Sets.Powerset <> Power_set ind
+R3161:3168 Stdlib.Sets.Ensembles <> Included def
+R3170:3170 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3124:3139 Stdlib.Sets.Partial_Order <> Definition_of_PO constr
+R3220:3231 Stdlib.Sets.Powerset <> Power_set_PO def
+prf 3250:3278 <> Strict_Rel_is_Strict_Included
+R3283:3295 Stdlib.Sets.Relations_1 <> same_relation def
+R3311:3325 Stdlib.Sets.Ensembles <> Strict_Included def
+R3327:3327 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3334:3346 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R3362:3373 Stdlib.Sets.Powerset <> Power_set_PO def
+R3376:3383 Stdlib.Sets.Ensembles <> Full_set ind
+R3385:3385 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3349:3356 Stdlib.Sets.Ensembles <> Ensemble def
+R3358:3358 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3298:3305 Stdlib.Sets.Ensembles <> Ensemble def
+R3307:3307 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 3508:3552 <> Strict_inclusion_is_transitive_with_inclusion
+R3570:3577 Stdlib.Sets.Ensembles <> Ensemble def
+R3579:3579 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 3564:3564 <> x:9
+binder 3566:3566 <> y:10
+binder 3568:3568 <> z:11
+R3606:3609 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3585:3599 Stdlib.Sets.Ensembles <> Strict_Included def
+R3603:3603 Stdlib.Sets.Powerset <> x:9 var
+R3605:3605 Stdlib.Sets.Powerset <> y:10 var
+R3601:3601 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3624:3627 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3610:3617 Stdlib.Sets.Ensembles <> Included def
+R3621:3621 Stdlib.Sets.Powerset <> y:10 var
+R3623:3623 Stdlib.Sets.Powerset <> z:11 var
+R3619:3619 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3628:3642 Stdlib.Sets.Ensembles <> Strict_Included def
+R3646:3646 Stdlib.Sets.Powerset <> x:9 var
+R3648:3648 Stdlib.Sets.Powerset <> z:11 var
+R3644:3644 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3700:3728 Stdlib.Sets.Powerset <> Strict_Rel_is_Strict_Included thm
+R3738:3745 Stdlib.Sets.Relations_1 <> contains def
+R3797:3826 Stdlib.Sets.Partial_Order <> Strict_Rel_Transitive_with_Rel thm
+prf 3871:3920 <> Strict_inclusion_is_transitive_with_inclusion_left
+R3938:3945 Stdlib.Sets.Ensembles <> Ensemble def
+R3947:3947 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 3932:3932 <> x:12
+binder 3934:3934 <> y:13
+binder 3936:3936 <> z:14
+R3967:3970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3953:3960 Stdlib.Sets.Ensembles <> Included def
+R3964:3964 Stdlib.Sets.Powerset <> x:12 var
+R3966:3966 Stdlib.Sets.Powerset <> y:13 var
+R3962:3962 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3992:3995 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3971:3985 Stdlib.Sets.Ensembles <> Strict_Included def
+R3989:3989 Stdlib.Sets.Powerset <> y:13 var
+R3991:3991 Stdlib.Sets.Powerset <> z:14 var
+R3987:3987 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R3996:4010 Stdlib.Sets.Ensembles <> Strict_Included def
+R4014:4014 Stdlib.Sets.Powerset <> x:12 var
+R4016:4016 Stdlib.Sets.Powerset <> z:14 var
+R4012:4012 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4068:4096 Stdlib.Sets.Powerset <> Strict_Rel_is_Strict_Included thm
+R4106:4113 Stdlib.Sets.Relations_1 <> contains def
+R4165:4199 Stdlib.Sets.Partial_Order <> Strict_Rel_Transitive_with_Rel_left thm
+prf 4244:4273 <> Strict_inclusion_is_transitive
+R4278:4287 Stdlib.Sets.Relations_1 <> Transitive def
+R4303:4317 Stdlib.Sets.Ensembles <> Strict_Included def
+R4319:4319 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4290:4297 Stdlib.Sets.Ensembles <> Ensemble def
+R4299:4299 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4378:4390 Stdlib.Sets.Partial_Order <> Strict_Rel_of def
+R4406:4417 Stdlib.Sets.Powerset <> Power_set_PO def
+R4420:4427 Stdlib.Sets.Ensembles <> Full_set ind
+R4429:4429 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4393:4400 Stdlib.Sets.Ensembles <> Ensemble def
+R4402:4402 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4336:4364 Stdlib.Sets.Relations_1_facts <> cong_transitive_same_relation thm
+prf 4466:4484 <> Empty_set_is_Bottom
+R4498:4505 Stdlib.Sets.Ensembles <> Ensemble def
+R4507:4507 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 4496:4496 <> A:15
+R4510:4515 Stdlib.Sets.Cpo <> Bottom ind
+R4548:4556 Stdlib.Sets.Ensembles <> Empty_set ind
+R4558:4558 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4531:4542 Stdlib.Sets.Powerset <> Power_set_PO def
+R4544:4544 Stdlib.Sets.Powerset <> A:15 var
+R4518:4525 Stdlib.Sets.Ensembles <> Ensemble def
+R4527:4527 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4584:4600 Stdlib.Sets.Cpo <> Bottom_definition constr
+prf 4690:4702 <> Union_minimal
+R4720:4727 Stdlib.Sets.Ensembles <> Ensemble def
+R4729:4729 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 4714:4714 <> a:16
+binder 4716:4716 <> b:17
+binder 4718:4718 <> X:18
+R4749:4752 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4735:4742 Stdlib.Sets.Ensembles <> Included def
+R4746:4746 Stdlib.Sets.Powerset <> a:16 var
+R4748:4748 Stdlib.Sets.Powerset <> X:18 var
+R4744:4744 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4767:4770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4753:4760 Stdlib.Sets.Ensembles <> Included def
+R4764:4764 Stdlib.Sets.Powerset <> b:17 var
+R4766:4766 Stdlib.Sets.Powerset <> X:18 var
+R4762:4762 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4771:4778 Stdlib.Sets.Ensembles <> Included def
+R4783:4787 Stdlib.Sets.Ensembles <> Union ind
+R4791:4791 Stdlib.Sets.Powerset <> a:16 var
+R4793:4793 Stdlib.Sets.Powerset <> b:17 var
+R4789:4789 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R4796:4796 Stdlib.Sets.Powerset <> X:18 var
+R4780:4780 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 4930:4949 <> Intersection_maximal
+R4967:4974 Stdlib.Sets.Ensembles <> Ensemble def
+R4976:4976 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 4961:4961 <> a:19
+binder 4963:4963 <> b:20
+binder 4965:4965 <> X:21
+R4996:4999 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4982:4989 Stdlib.Sets.Ensembles <> Included def
+R4993:4993 Stdlib.Sets.Powerset <> X:21 var
+R4995:4995 Stdlib.Sets.Powerset <> a:19 var
+R4991:4991 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5014:5017 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5000:5007 Stdlib.Sets.Ensembles <> Included def
+R5011:5011 Stdlib.Sets.Powerset <> X:21 var
+R5013:5013 Stdlib.Sets.Powerset <> b:20 var
+R5009:5009 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5018:5025 Stdlib.Sets.Ensembles <> Included def
+R5029:5029 Stdlib.Sets.Powerset <> X:21 var
+R5032:5043 Stdlib.Sets.Ensembles <> Intersection ind
+R5047:5047 Stdlib.Sets.Powerset <> a:19 var
+R5049:5049 Stdlib.Sets.Powerset <> b:20 var
+R5045:5045 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5027:5027 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 5090:5106 <> Union_increases_l
+R5121:5128 Stdlib.Sets.Ensembles <> Ensemble def
+R5130:5130 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 5117:5117 <> a:22
+binder 5119:5119 <> b:23
+R5133:5140 Stdlib.Sets.Ensembles <> Included def
+R5144:5144 Stdlib.Sets.Powerset <> a:22 var
+R5147:5151 Stdlib.Sets.Ensembles <> Union ind
+R5155:5155 Stdlib.Sets.Powerset <> a:22 var
+R5157:5157 Stdlib.Sets.Powerset <> b:23 var
+R5153:5153 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5142:5142 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 5198:5214 <> Union_increases_r
+R5229:5236 Stdlib.Sets.Ensembles <> Ensemble def
+R5238:5238 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 5225:5225 <> a:24
+binder 5227:5227 <> b:25
+R5241:5248 Stdlib.Sets.Ensembles <> Included def
+R5252:5252 Stdlib.Sets.Powerset <> b:25 var
+R5255:5259 Stdlib.Sets.Ensembles <> Union ind
+R5263:5263 Stdlib.Sets.Powerset <> a:24 var
+R5265:5265 Stdlib.Sets.Powerset <> b:25 var
+R5261:5261 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5250:5250 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 5306:5329 <> Intersection_decreases_l
+R5345:5352 Stdlib.Sets.Ensembles <> Ensemble def
+R5354:5354 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 5341:5341 <> a:26
+binder 5343:5343 <> b:27
+R5357:5364 Stdlib.Sets.Ensembles <> Included def
+R5369:5380 Stdlib.Sets.Ensembles <> Intersection ind
+R5384:5384 Stdlib.Sets.Powerset <> a:26 var
+R5386:5386 Stdlib.Sets.Powerset <> b:27 var
+R5382:5382 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5389:5389 Stdlib.Sets.Powerset <> a:26 var
+R5366:5366 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 5468:5491 <> Intersection_decreases_r
+R5507:5514 Stdlib.Sets.Ensembles <> Ensemble def
+R5516:5516 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 5503:5503 <> a:28
+binder 5505:5505 <> b:29
+R5519:5526 Stdlib.Sets.Ensembles <> Included def
+R5531:5542 Stdlib.Sets.Ensembles <> Intersection ind
+R5546:5546 Stdlib.Sets.Powerset <> a:28 var
+R5548:5548 Stdlib.Sets.Powerset <> b:29 var
+R5544:5544 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5551:5551 Stdlib.Sets.Powerset <> b:29 var
+R5528:5528 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+prf 5748:5759 <> Union_is_Lub
+R5777:5784 Stdlib.Sets.Ensembles <> Ensemble def
+R5786:5786 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 5771:5771 <> A:30
+binder 5773:5773 <> a:31
+binder 5775:5775 <> b:32
+R5806:5812 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5792:5799 Stdlib.Sets.Ensembles <> Included def
+R5803:5803 Stdlib.Sets.Powerset <> a:31 var
+R5805:5805 Stdlib.Sets.Powerset <> A:30 var
+R5801:5801 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5827:5833 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5813:5820 Stdlib.Sets.Ensembles <> Included def
+R5824:5824 Stdlib.Sets.Powerset <> b:32 var
+R5826:5826 Stdlib.Sets.Powerset <> A:30 var
+R5822:5822 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5834:5836 Stdlib.Sets.Cpo <> Lub ind
+R5869:5874 Stdlib.Sets.Ensembles <> Couple ind
+R5889:5889 Stdlib.Sets.Powerset <> a:31 var
+R5891:5891 Stdlib.Sets.Powerset <> b:32 var
+R5877:5884 Stdlib.Sets.Ensembles <> Ensemble def
+R5886:5886 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5895:5899 Stdlib.Sets.Ensembles <> Union ind
+R5903:5903 Stdlib.Sets.Powerset <> a:31 var
+R5905:5905 Stdlib.Sets.Powerset <> b:32 var
+R5901:5901 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5852:5863 Stdlib.Sets.Powerset <> Power_set_PO def
+R5865:5865 Stdlib.Sets.Powerset <> A:30 var
+R5839:5846 Stdlib.Sets.Ensembles <> Ensemble def
+R5848:5848 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R5943:5956 Stdlib.Sets.Cpo <> Lub_definition constr
+R5974:5995 Stdlib.Sets.Cpo <> Upper_Bound_definition constr
+prf 6126:6144 <> Intersection_is_Glb
+R6162:6169 Stdlib.Sets.Ensembles <> Ensemble def
+R6171:6171 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+binder 6156:6156 <> A:33
+binder 6158:6158 <> a:34
+binder 6160:6160 <> b:35
+R6191:6197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6177:6184 Stdlib.Sets.Ensembles <> Included def
+R6188:6188 Stdlib.Sets.Powerset <> a:34 var
+R6190:6190 Stdlib.Sets.Powerset <> A:33 var
+R6186:6186 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R6212:6218 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6198:6205 Stdlib.Sets.Ensembles <> Included def
+R6209:6209 Stdlib.Sets.Powerset <> b:35 var
+R6211:6211 Stdlib.Sets.Powerset <> A:33 var
+R6207:6207 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R6219:6221 Stdlib.Sets.Cpo <> Glb ind
+R6254:6259 Stdlib.Sets.Ensembles <> Couple ind
+R6274:6274 Stdlib.Sets.Powerset <> a:34 var
+R6276:6276 Stdlib.Sets.Powerset <> b:35 var
+R6262:6269 Stdlib.Sets.Ensembles <> Ensemble def
+R6271:6271 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R6285:6296 Stdlib.Sets.Ensembles <> Intersection ind
+R6300:6300 Stdlib.Sets.Powerset <> a:34 var
+R6302:6302 Stdlib.Sets.Powerset <> b:35 var
+R6298:6298 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R6237:6248 Stdlib.Sets.Powerset <> Power_set_PO def
+R6250:6250 Stdlib.Sets.Powerset <> A:33 var
+R6224:6231 Stdlib.Sets.Ensembles <> Ensemble def
+R6233:6233 Stdlib.Sets.Powerset <> The_power_set_partial_order.U var
+R6340:6353 Stdlib.Sets.Cpo <> Glb_definition constr
+R6371:6392 Stdlib.Sets.Cpo <> Lower_Bound_definition constr
+R6428:6450 Stdlib.Sets.Powerset <> Definition_of_Power_set constr
+R6468:6490 Stdlib.Sets.Powerset <> Inclusion_is_transitive thm
+R6656:6682 Stdlib.Sets.Powerset The_power_set_partial_order <> sec

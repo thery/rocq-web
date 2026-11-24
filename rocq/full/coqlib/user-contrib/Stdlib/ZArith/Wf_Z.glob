@@ -1,0 +1,432 @@
+DIGEST 699c762f10db3a9731267d6189bacc91
+FStdlib.ZArith.Wf_Z
+R703:708 Stdlib.ZArith.BinInt <> <> lib
+R738:745 Stdlib.ZArith.Zcompare <> <> lib
+R775:780 Stdlib.ZArith.Zorder <> <> lib
+R810:813 Stdlib.ZArith.Znat <> <> lib
+R843:847 Stdlib.ZArith.Zmisc <> <> lib
+R877:882 Stdlib.Arith.Wf_nat <> <> lib
+prf 1501:1517 <> Z_of_nat_complete
+R1524:1524 Corelib.Numbers.BinNums <> Z ind
+binder 1520:1520 <> x:1
+R1536:1539 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1531:1534 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1535:1535 Stdlib.ZArith.Wf_Z <> x:1 var
+R1540:1546 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1554:1555 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1551:1553 Corelib.Init.Datatypes <> nat ind
+binder 1547:1547 <> n:2
+R1557:1559 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1556:1556 Stdlib.ZArith.Wf_Z <> x:1 var
+R1560:1567 Stdlib.ZArith.BinInt Z of_nat def
+R1569:1569 Stdlib.ZArith.Wf_Z <> n:2 var
+R1598:1605 Stdlib.ZArith.BinInt Z to_nat def
+R1631:1638 Stdlib.ZArith.Znat Z2Nat id thm
+prf 1653:1673 <> Z_of_nat_complete_inf
+R1680:1680 Corelib.Numbers.BinNums <> Z ind
+binder 1676:1676 <> x:3
+R1692:1695 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1687:1690 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1691:1691 Stdlib.ZArith.Wf_Z <> x:3 var
+R1696:1696 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1698:1700 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1704:1706 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1721:1721 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1701:1703 Corelib.Init.Datatypes <> nat ind
+binder 1697:1697 <> n:4
+R1708:1710 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1707:1707 Stdlib.ZArith.Wf_Z <> x:3 var
+R1711:1718 Stdlib.ZArith.BinInt Z of_nat def
+R1720:1720 Stdlib.ZArith.Wf_Z <> n:4 var
+R1750:1757 Stdlib.ZArith.BinInt Z to_nat def
+R1783:1790 Stdlib.ZArith.Znat Z2Nat id thm
+prf 1805:1817 <> Z_of_nat_prop
+R1833:1836 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1832:1832 Corelib.Numbers.BinNums <> Z ind
+binder 1830:1830 <> P:5
+R1847:1847 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1876:1880 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1857:1859 Corelib.Init.Datatypes <> nat ind
+binder 1855:1855 <> n:6
+R1862:1862 Stdlib.ZArith.Wf_Z <> P:5 var
+R1865:1872 Stdlib.ZArith.BinInt Z of_nat def
+R1874:1874 Stdlib.ZArith.Wf_Z <> n:6 var
+R1890:1890 Corelib.Numbers.BinNums <> Z ind
+binder 1888:1888 <> x:7
+R1899:1902 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1894:1897 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1898:1898 Stdlib.ZArith.Wf_Z <> x:7 var
+R1903:1903 Stdlib.ZArith.Wf_Z <> P:5 var
+R1905:1905 Stdlib.ZArith.Wf_Z <> x:7 var
+R1947:1963 Stdlib.ZArith.Wf_Z <> Z_of_nat_complete thm
+prf 1994:2005 <> Z_of_nat_set
+R2020:2023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2019:2019 Corelib.Numbers.BinNums <> Z ind
+binder 2017:2017 <> P:8
+R2032:2032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2061:2065 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2042:2044 Corelib.Init.Datatypes <> nat ind
+binder 2040:2040 <> n:9
+R2047:2047 Stdlib.ZArith.Wf_Z <> P:8 var
+R2050:2057 Stdlib.ZArith.BinInt Z of_nat def
+R2059:2059 Stdlib.ZArith.Wf_Z <> n:9 var
+R2075:2075 Corelib.Numbers.BinNums <> Z ind
+binder 2073:2073 <> x:10
+R2084:2087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2079:2082 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2083:2083 Stdlib.ZArith.Wf_Z <> x:10 var
+R2088:2088 Stdlib.ZArith.Wf_Z <> P:8 var
+R2090:2090 Stdlib.ZArith.Wf_Z <> x:10 var
+R2132:2152 Stdlib.ZArith.Wf_Z <> Z_of_nat_complete_inf thm
+prf 2183:2193 <> natlike_ind
+R2208:2211 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2207:2207 Corelib.Numbers.BinNums <> Z ind
+binder 2205:2205 <> P:11
+R2224:2230 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2221:2221 Stdlib.ZArith.Wf_Z <> P:11 var
+R2231:2231 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2273:2280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2241:2241 Corelib.Numbers.BinNums <> Z ind
+binder 2239:2239 <> x:12
+R2250:2253 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2245:2248 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2249:2249 Stdlib.ZArith.Wf_Z <> x:12 var
+R2257:2260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2254:2254 Stdlib.ZArith.Wf_Z <> P:11 var
+R2256:2256 Stdlib.ZArith.Wf_Z <> x:12 var
+R2261:2261 Stdlib.ZArith.Wf_Z <> P:11 var
+R2264:2269 Stdlib.ZArith.BinInt Z succ def
+R2271:2271 Stdlib.ZArith.Wf_Z <> x:12 var
+R2290:2290 Corelib.Numbers.BinNums <> Z ind
+binder 2288:2288 <> x:13
+R2299:2302 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2294:2297 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2298:2298 Stdlib.ZArith.Wf_Z <> x:13 var
+R2303:2303 Stdlib.ZArith.Wf_Z <> P:11 var
+R2305:2305 Stdlib.ZArith.Wf_Z <> x:13 var
+R2345:2357 Stdlib.ZArith.Wf_Z <> Z_of_nat_prop thm
+R2417:2430 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+R2459:2473 Stdlib.ZArith.Znat Nat2Z is_nonneg thm
+prf 2488:2498 <> natlike_rec
+R2513:2516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2512:2512 Corelib.Numbers.BinNums <> Z ind
+binder 2510:2510 <> P:14
+R2528:2534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2525:2525 Stdlib.ZArith.Wf_Z <> P:14 var
+R2535:2535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2577:2584 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2545:2545 Corelib.Numbers.BinNums <> Z ind
+binder 2543:2543 <> x:15
+R2554:2557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2549:2552 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2553:2553 Stdlib.ZArith.Wf_Z <> x:15 var
+R2561:2564 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2558:2558 Stdlib.ZArith.Wf_Z <> P:14 var
+R2560:2560 Stdlib.ZArith.Wf_Z <> x:15 var
+R2565:2565 Stdlib.ZArith.Wf_Z <> P:14 var
+R2568:2573 Stdlib.ZArith.BinInt Z succ def
+R2575:2575 Stdlib.ZArith.Wf_Z <> x:15 var
+R2594:2594 Corelib.Numbers.BinNums <> Z ind
+binder 2592:2592 <> x:16
+R2603:2606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2598:2601 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2602:2602 Stdlib.ZArith.Wf_Z <> x:16 var
+R2607:2607 Stdlib.ZArith.Wf_Z <> P:14 var
+R2609:2609 Stdlib.ZArith.Wf_Z <> x:16 var
+R2649:2660 Stdlib.ZArith.Wf_Z <> Z_of_nat_set thm
+R2720:2733 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+R2762:2776 Stdlib.ZArith.Znat Nat2Z is_nonneg thm
+sec 2793:2805 <> Efficient_Rec
+var 2946:2946 Efficient_Rec R
+R2953:2953 Corelib.Numbers.BinNums <> Z ind
+binder 2949:2949 <> a:17
+binder 2951:2951 <> b:18
+R2965:2968 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2960:2963 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2964:2964 Stdlib.ZArith.Wf_Z <> a:17 var
+R2970:2972 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2969:2969 Stdlib.ZArith.Wf_Z <> a:17 var
+R2973:2973 Stdlib.ZArith.Wf_Z <> b:18 var
+def 2999:3002 <> R_wf
+R3006:3017 Corelib.Init.Wf <> well_founded def
+R3019:3019 Stdlib.ZArith.Wf_Z <> Efficient_Rec.R var
+R3068:3075 Stdlib.ZArith.BinInt Z to_nat def
+R3040:3061 Stdlib.Arith.Wf_nat <> well_founded_lt_compat thm
+R3106:3117 Stdlib.ZArith.Znat Z2Nat inj_lt thm
+prf 3149:3160 <> natlike_rec2
+R3178:3181 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3177:3177 Corelib.Numbers.BinNums <> Z ind
+binder 3175:3175 <> P:19
+R3197:3206 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3194:3194 Stdlib.ZArith.Wf_Z <> P:19 var
+R3207:3207 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3249:3259 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3217:3217 Corelib.Numbers.BinNums <> Z ind
+binder 3215:3215 <> z:20
+R3226:3229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3221:3224 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3225:3225 Stdlib.ZArith.Wf_Z <> z:20 var
+R3233:3236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3230:3230 Stdlib.ZArith.Wf_Z <> P:19 var
+R3232:3232 Stdlib.ZArith.Wf_Z <> z:20 var
+R3237:3237 Stdlib.ZArith.Wf_Z <> P:19 var
+R3240:3245 Stdlib.ZArith.BinInt Z succ def
+R3247:3247 Stdlib.ZArith.Wf_Z <> z:20 var
+R3269:3269 Corelib.Numbers.BinNums <> Z ind
+binder 3267:3267 <> z:21
+R3278:3281 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3273:3276 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3277:3277 Stdlib.ZArith.Wf_Z <> z:21 var
+R3282:3282 Stdlib.ZArith.Wf_Z <> P:19 var
+R3284:3284 Stdlib.ZArith.Wf_Z <> z:21 var
+R3351:3377 Corelib.Init.Wf <> well_founded_induction_type thm
+R3379:3382 Stdlib.ZArith.Wf_Z <> R_wf def
+R3450:3455 Stdlib.ZArith.BinInt Z pred def
+R3458:3461 Corelib.Numbers.BinNums <> Zpos constr
+R3487:3490 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3518:3529 Stdlib.ZArith.BinInt Z lt_le_pred thm
+R3557:3559 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3551:3554 Corelib.Numbers.BinNums <> Zpos constr
+R3560:3565 Stdlib.ZArith.BinInt Z succ def
+R3596:3606 Stdlib.ZArith.BinInt Z succ_pred thm
+R3689:3699 Stdlib.ZArith.BinInt Z lt_pred_l thm
+prf 3812:3823 <> natlike_rec3
+R3841:3844 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3840:3840 Corelib.Numbers.BinNums <> Z ind
+binder 3838:3838 <> P:22
+R3860:3869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3857:3857 Stdlib.ZArith.Wf_Z <> P:22 var
+R3870:3870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3911:3921 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3880:3880 Corelib.Numbers.BinNums <> Z ind
+binder 3878:3878 <> z:23
+R3888:3891 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3884:3886 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3887:3887 Stdlib.ZArith.Wf_Z <> z:23 var
+R3904:3907 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3892:3892 Stdlib.ZArith.Wf_Z <> P:22 var
+R3895:3900 Stdlib.ZArith.BinInt Z pred def
+R3902:3902 Stdlib.ZArith.Wf_Z <> z:23 var
+R3908:3908 Stdlib.ZArith.Wf_Z <> P:22 var
+R3910:3910 Stdlib.ZArith.Wf_Z <> z:23 var
+R3931:3931 Corelib.Numbers.BinNums <> Z ind
+binder 3929:3929 <> z:24
+R3940:3943 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3935:3938 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3939:3939 Stdlib.ZArith.Wf_Z <> z:24 var
+R3944:3944 Stdlib.ZArith.Wf_Z <> P:22 var
+R3946:3946 Stdlib.ZArith.Wf_Z <> z:24 var
+R4013:4039 Corelib.Init.Wf <> well_founded_induction_type thm
+R4041:4044 Stdlib.ZArith.Wf_Z <> R_wf def
+R4118:4121 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4122:4127 Stdlib.ZArith.BinInt Z pred def
+R4130:4133 Corelib.Numbers.BinNums <> Zpos constr
+R4152:4163 Stdlib.ZArith.BinInt Z lt_le_pred thm
+R4249:4259 Stdlib.ZArith.BinInt Z lt_pred_l thm
+prf 4383:4391 <> Zlt_0_rec
+R4409:4412 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4408:4408 Corelib.Numbers.BinNums <> Z ind
+binder 4406:4406 <> P:25
+R4425:4425 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4486:4496 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4435:4435 Corelib.Numbers.BinNums <> Z ind
+binder 4433:4433 <> x:26
+R4438:4438 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4468:4472 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4448:4448 Corelib.Numbers.BinNums <> Z ind
+binder 4446:4446 <> y:27
+R4461:4464 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4452:4455 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4457:4459 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4456:4456 Stdlib.ZArith.Wf_Z <> y:27 var
+R4460:4460 Stdlib.ZArith.Wf_Z <> x:26 var
+R4465:4465 Stdlib.ZArith.Wf_Z <> P:25 var
+R4467:4467 Stdlib.ZArith.Wf_Z <> y:27 var
+R4479:4482 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4474:4477 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4478:4478 Stdlib.ZArith.Wf_Z <> x:26 var
+R4483:4483 Stdlib.ZArith.Wf_Z <> P:25 var
+R4485:4485 Stdlib.ZArith.Wf_Z <> x:26 var
+R4506:4506 Corelib.Numbers.BinNums <> Z ind
+binder 4504:4504 <> x:28
+R4515:4518 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4510:4513 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4514:4514 Stdlib.ZArith.Wf_Z <> x:28 var
+R4519:4519 Stdlib.ZArith.Wf_Z <> P:25 var
+R4521:4521 Stdlib.ZArith.Wf_Z <> x:28 var
+R4585:4611 Corelib.Init.Wf <> well_founded_induction_type thm
+R4613:4616 Stdlib.ZArith.Wf_Z <> R_wf def
+R4705:4707 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4724:4736 Stdlib.ZArith.BinInt Z le_lt_trans thm
+prf 4887:4895 <> Zlt_0_ind
+R4913:4916 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4912:4912 Corelib.Numbers.BinNums <> Z ind
+binder 4910:4910 <> P:29
+R4929:4929 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4990:5000 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4939:4939 Corelib.Numbers.BinNums <> Z ind
+binder 4937:4937 <> x:30
+R4942:4942 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4972:4976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4952:4952 Corelib.Numbers.BinNums <> Z ind
+binder 4950:4950 <> y:31
+R4965:4968 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4956:4959 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4961:4963 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4960:4960 Stdlib.ZArith.Wf_Z <> y:31 var
+R4964:4964 Stdlib.ZArith.Wf_Z <> x:30 var
+R4969:4969 Stdlib.ZArith.Wf_Z <> P:29 var
+R4971:4971 Stdlib.ZArith.Wf_Z <> y:31 var
+R4983:4986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4978:4981 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4982:4982 Stdlib.ZArith.Wf_Z <> x:30 var
+R4987:4987 Stdlib.ZArith.Wf_Z <> P:29 var
+R4989:4989 Stdlib.ZArith.Wf_Z <> x:30 var
+R5010:5010 Corelib.Numbers.BinNums <> Z ind
+binder 5008:5008 <> x:32
+R5019:5022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5014:5017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5018:5018 Stdlib.ZArith.Wf_Z <> x:32 var
+R5023:5023 Stdlib.ZArith.Wf_Z <> P:29 var
+R5025:5025 Stdlib.ZArith.Wf_Z <> x:32 var
+R5055:5063 Stdlib.ZArith.Wf_Z <> Zlt_0_rec thm
+prf 5161:5168 <> Z_lt_rec
+R5186:5189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5185:5185 Corelib.Numbers.BinNums <> Z ind
+binder 5183:5183 <> P:33
+R5202:5202 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5253:5263 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5212:5212 Corelib.Numbers.BinNums <> Z ind
+binder 5210:5210 <> x:34
+R5215:5215 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5245:5249 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5225:5225 Corelib.Numbers.BinNums <> Z ind
+binder 5223:5223 <> y:35
+R5238:5241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5229:5232 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5234:5236 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5233:5233 Stdlib.ZArith.Wf_Z <> y:35 var
+R5237:5237 Stdlib.ZArith.Wf_Z <> x:34 var
+R5242:5242 Stdlib.ZArith.Wf_Z <> P:33 var
+R5244:5244 Stdlib.ZArith.Wf_Z <> y:35 var
+R5250:5250 Stdlib.ZArith.Wf_Z <> P:33 var
+R5252:5252 Stdlib.ZArith.Wf_Z <> x:34 var
+R5273:5273 Corelib.Numbers.BinNums <> Z ind
+binder 5271:5271 <> x:36
+R5282:5285 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5277:5280 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5281:5281 Stdlib.ZArith.Wf_Z <> x:36 var
+R5286:5286 Stdlib.ZArith.Wf_Z <> P:33 var
+R5288:5288 Stdlib.ZArith.Wf_Z <> x:36 var
+R5325:5333 Stdlib.ZArith.Wf_Z <> Zlt_0_rec thm
+prf 5358:5371 <> Z_lt_induction
+R5389:5392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5388:5388 Corelib.Numbers.BinNums <> Z ind
+binder 5386:5386 <> P:37
+R5405:5405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5456:5466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5415:5415 Corelib.Numbers.BinNums <> Z ind
+binder 5413:5413 <> x:38
+R5418:5418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5448:5452 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5428:5428 Corelib.Numbers.BinNums <> Z ind
+binder 5426:5426 <> y:39
+R5441:5444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5432:5435 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5437:5439 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5436:5436 Stdlib.ZArith.Wf_Z <> y:39 var
+R5440:5440 Stdlib.ZArith.Wf_Z <> x:38 var
+R5445:5445 Stdlib.ZArith.Wf_Z <> P:37 var
+R5447:5447 Stdlib.ZArith.Wf_Z <> y:39 var
+R5453:5453 Stdlib.ZArith.Wf_Z <> P:37 var
+R5455:5455 Stdlib.ZArith.Wf_Z <> x:38 var
+R5476:5476 Corelib.Numbers.BinNums <> Z ind
+binder 5474:5474 <> x:40
+R5485:5488 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5480:5483 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5484:5484 Stdlib.ZArith.Wf_Z <> x:40 var
+R5489:5489 Stdlib.ZArith.Wf_Z <> P:37 var
+R5491:5491 Stdlib.ZArith.Wf_Z <> x:40 var
+R5525:5532 Stdlib.ZArith.Wf_Z <> Z_lt_rec thm
+prf 5616:5634 <> Zlt_lower_bound_rec
+R5652:5655 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5651:5651 Corelib.Numbers.BinNums <> Z ind
+binder 5649:5649 <> P:41
+R5671:5671 Corelib.Numbers.BinNums <> Z ind
+binder 5669:5669 <> z:42
+R5680:5680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5741:5751 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5690:5690 Corelib.Numbers.BinNums <> Z ind
+binder 5688:5688 <> x:43
+R5693:5693 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5723:5727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5703:5703 Corelib.Numbers.BinNums <> Z ind
+binder 5701:5701 <> y:44
+R5716:5719 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5707:5710 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5712:5714 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5706:5706 Stdlib.ZArith.Wf_Z <> z:42 var
+R5711:5711 Stdlib.ZArith.Wf_Z <> y:44 var
+R5715:5715 Stdlib.ZArith.Wf_Z <> x:43 var
+R5720:5720 Stdlib.ZArith.Wf_Z <> P:41 var
+R5722:5722 Stdlib.ZArith.Wf_Z <> y:44 var
+R5734:5737 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5729:5732 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5728:5728 Stdlib.ZArith.Wf_Z <> z:42 var
+R5733:5733 Stdlib.ZArith.Wf_Z <> x:43 var
+R5738:5738 Stdlib.ZArith.Wf_Z <> P:41 var
+R5740:5740 Stdlib.ZArith.Wf_Z <> x:43 var
+R5761:5761 Corelib.Numbers.BinNums <> Z ind
+binder 5759:5759 <> x:45
+R5770:5773 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5765:5768 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5764:5764 Stdlib.ZArith.Wf_Z <> z:42 var
+R5769:5769 Stdlib.ZArith.Wf_Z <> x:45 var
+R5774:5774 Stdlib.ZArith.Wf_Z <> P:41 var
+R5776:5776 Stdlib.ZArith.Wf_Z <> x:45 var
+R5830:5842 Stdlib.ZArith.BinInt Z sub_simpl_r thm
+R5856:5865 Stdlib.ZArith.BinInt Z le_0_sub thm
+R5888:5890 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5901:5909 Stdlib.ZArith.Wf_Z <> Zlt_0_rec thm
+R6024:6036 Stdlib.ZArith.BinInt Z sub_simpl_r thm
+R6081:6090 Stdlib.ZArith.BinInt Z le_0_sub thm
+R6111:6127 Stdlib.ZArith.BinInt Z lt_sub_lt_add_r thm
+R6152:6166 Stdlib.ZArith.BinInt Z add_le_mono_r thm
+prf 6192:6210 <> Zlt_lower_bound_ind
+R6228:6231 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6227:6227 Corelib.Numbers.BinNums <> Z ind
+binder 6225:6225 <> P:46
+R6247:6247 Corelib.Numbers.BinNums <> Z ind
+binder 6245:6245 <> z:47
+R6256:6256 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6317:6327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6266:6266 Corelib.Numbers.BinNums <> Z ind
+binder 6264:6264 <> x:48
+R6269:6269 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6299:6303 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6279:6279 Corelib.Numbers.BinNums <> Z ind
+binder 6277:6277 <> y:49
+R6292:6295 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6283:6286 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6288:6290 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6282:6282 Stdlib.ZArith.Wf_Z <> z:47 var
+R6287:6287 Stdlib.ZArith.Wf_Z <> y:49 var
+R6291:6291 Stdlib.ZArith.Wf_Z <> x:48 var
+R6296:6296 Stdlib.ZArith.Wf_Z <> P:46 var
+R6298:6298 Stdlib.ZArith.Wf_Z <> y:49 var
+R6310:6313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6305:6308 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6304:6304 Stdlib.ZArith.Wf_Z <> z:47 var
+R6309:6309 Stdlib.ZArith.Wf_Z <> x:48 var
+R6314:6314 Stdlib.ZArith.Wf_Z <> P:46 var
+R6316:6316 Stdlib.ZArith.Wf_Z <> x:48 var
+R6337:6337 Corelib.Numbers.BinNums <> Z ind
+binder 6335:6335 <> x:50
+R6346:6349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6341:6344 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6340:6340 Stdlib.ZArith.Wf_Z <> z:47 var
+R6345:6345 Stdlib.ZArith.Wf_Z <> x:50 var
+R6350:6350 Stdlib.ZArith.Wf_Z <> P:46 var
+R6352:6352 Stdlib.ZArith.Wf_Z <> x:50 var
+R6396:6414 Stdlib.ZArith.Wf_Z <> Zlt_lower_bound_rec thm
+R6436:6448 Stdlib.ZArith.Wf_Z Efficient_Rec <> sec

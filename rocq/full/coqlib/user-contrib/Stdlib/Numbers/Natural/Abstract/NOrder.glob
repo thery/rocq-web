@@ -1,0 +1,545 @@
+DIGEST 60fc81e8cb6959c3cf9c3eee5a6f897e
+FStdlib.Numbers.Natural.Abstract.NOrder
+R853:856 Stdlib.Numbers.Natural.Abstract.NAdd <> <> lib
+R890:904 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> modtype
+mod 867:876 <> NOrderProp
+R916:923 Stdlib.Numbers.Natural.Abstract.NAdd NAddProp <> mod
+R925:925 Stdlib.Numbers.Natural.Abstract.NOrder N <> mod
+prf 1008:1014 NOrderProp lt_wf_0
+R1018:1029 Corelib.Init.Wf <> well_founded def
+R1031:1032 Stdlib.Numbers.Natural.Abstract.NOrder N lt defax
+R1057:1058 Stdlib.Numbers.Natural.Abstract.NOrder N lt defax
+binder 1070:1070 <> n:1
+binder 1072:1072 <> m:2
+R1078:1081 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1083:1085 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1082:1082 Stdlib.Numbers.Natural.Abstract.NOrder <> n:1 var
+R1086:1086 Stdlib.Numbers.Natural.Abstract.NOrder <> m:2 var
+binder 1070:1070 <> n:3
+binder 1072:1072 <> m:4
+R1082:1082 Stdlib.Numbers.Natural.Abstract.NOrder <> n:3 var
+R1086:1086 Stdlib.Numbers.Natural.Abstract.NOrder <> m:4 var
+R1098:1102 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_wf thm
+R1153:1158 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 1276:1282 NOrderProp nlt_0_r
+binder 1293:1293 <> n:5
+R1296:1297 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1299:1301 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1298:1298 Stdlib.Numbers.Natural.Abstract.NOrder <> n:5 var
+R1327:1332 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_ngt thm
+R1341:1346 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 1363:1372 NOrderProp nle_succ_0
+binder 1383:1383 <> n:6
+R1386:1388 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1397:1397 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1392:1395 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1389:1389 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R1391:1391 Stdlib.Numbers.Natural.Abstract.NOrder <> n:6 var
+R1425:1433 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R1453:1459 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+prf 1476:1481 NOrderProp le_0_r
+binder 1492:1492 <> n:7
+R1501:1505 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1496:1499 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1495:1495 Stdlib.Numbers.Natural.Abstract.NOrder <> n:7 var
+R1507:1510 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1506:1506 Stdlib.Numbers.Natural.Abstract.NOrder <> n:7 var
+R1573:1579 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R1608:1617 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+prf 1634:1642 NOrderProp lt_0_succ
+binder 1653:1653 <> n:8
+R1657:1659 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1660:1660 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R1662:1662 Stdlib.Numbers.Natural.Abstract.NOrder <> n:8 var
+R1698:1711 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R1737:1748 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+prf 1766:1774 NOrderProp le_1_succ
+binder 1785:1785 <> n:9
+R1789:1792 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1793:1793 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R1795:1795 Stdlib.Numbers.Natural.Abstract.NOrder <> n:9 var
+R1823:1830 Stdlib.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R1841:1852 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R1862:1867 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 1887:1896 NOrderProp neq_0_lt_0
+binder 1907:1907 <> n:10
+R1916:1920 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1911:1914 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1910:1910 Stdlib.Numbers.Natural.Abstract.NOrder <> n:10 var
+R1922:1924 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1925:1925 Stdlib.Numbers.Natural.Abstract.NOrder <> n:10 var
+R2002:2010 Stdlib.Numbers.Natural.Abstract.NOrder N lt_irrefl prfax
+R2055:2063 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+R2073:2082 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 2100:2109 NOrderProp neq_0_le_1
+binder 2120:2120 <> n:11
+R2129:2133 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2124:2127 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2123:2123 Stdlib.Numbers.Natural.Abstract.NOrder <> n:11 var
+R2135:2138 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2139:2139 Stdlib.Numbers.Natural.Abstract.NOrder <> n:11 var
+R2178:2186 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R2196:2204 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_1_succ thm
+R2235:2242 Stdlib.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2257:2266 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp nle_succ_0 thm
+prf 2295:2309 NOrderProp eq_0_gt_0_cases
+binder 2320:2320 <> n:12
+R2329:2332 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2324:2327 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2323:2323 Stdlib.Numbers.Natural.Abstract.NOrder <> n:12 var
+R2334:2336 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2337:2337 Stdlib.Numbers.Natural.Abstract.NOrder <> n:12 var
+R2399:2407 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+prf 2424:2431 NOrderProp zero_one
+binder 2442:2442 <> n:13
+R2451:2454 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2446:2449 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2445:2445 Stdlib.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2461:2464 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2456:2459 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2455:2455 Stdlib.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2466:2468 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2469:2469 Stdlib.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2494:2501 Stdlib.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2641:2650 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R2686:2699 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2728:2739 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+prf 2756:2761 NOrderProp lt_1_r
+binder 2772:2772 <> n:14
+R2780:2784 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2776:2778 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2775:2775 Stdlib.Numbers.Natural.Abstract.NOrder <> n:14 var
+R2786:2789 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2785:2785 Stdlib.Numbers.Natural.Abstract.NOrder <> n:14 var
+R2815:2822 Stdlib.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2880:2893 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2920:2931 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R2965:2971 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R2987:2996 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 3014:3019 NOrderProp le_1_r
+binder 3030:3030 <> n:15
+R3039:3043 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3034:3037 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3033:3033 Stdlib.Numbers.Natural.Abstract.NOrder <> n:15 var
+R3050:3053 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3045:3048 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3044:3044 Stdlib.Numbers.Natural.Abstract.NOrder <> n:15 var
+R3055:3058 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3054:3054 Stdlib.Numbers.Natural.Abstract.NOrder <> n:15 var
+R3084:3091 Stdlib.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R3146:3159 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+R3185:3196 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R3199:3204 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_r thm
+R3207:3217 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_inj_wd thm
+R3278:3287 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 3319:3325 NOrderProp lt_lt_0
+binder 3336:3336 <> n:16
+binder 3338:3338 <> m:17
+R3346:3349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3342:3344 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3341:3341 Stdlib.Numbers.Natural.Abstract.NOrder <> n:16 var
+R3345:3345 Stdlib.Numbers.Natural.Abstract.NOrder <> m:17 var
+R3351:3353 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3354:3354 Stdlib.Numbers.Natural.Abstract.NOrder <> m:17 var
+R3434:3442 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+prf 3459:3465 NOrderProp lt_1_l'
+binder 3476:3476 <> n:18
+binder 3478:3478 <> m:19
+binder 3480:3480 <> p:20
+R3488:3491 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3484:3486 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3483:3483 Stdlib.Numbers.Natural.Abstract.NOrder <> n:18 var
+R3487:3487 Stdlib.Numbers.Natural.Abstract.NOrder <> m:19 var
+R3497:3500 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3493:3495 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3492:3492 Stdlib.Numbers.Natural.Abstract.NOrder <> m:19 var
+R3496:3496 Stdlib.Numbers.Natural.Abstract.NOrder <> p:20 var
+R3502:3504 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3505:3505 Stdlib.Numbers.Natural.Abstract.NOrder <> p:20 var
+R3540:3545 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_1_l thm
+R3567:3577 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R3603:3608 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+sec 3684:3690 NOrderProp RelElim
+var 3703:3703 NOrderProp.RelElim R
+R3707:3714 Corelib.Relations.Relation_Definitions <> relation def
+R3716:3718 Stdlib.Numbers.Natural.Abstract.NOrder N t defax
+var 3732:3735 NOrderProp.RelElim R_wd
+R3739:3744 Corelib.Classes.Morphisms <> Proper class
+R3766:3766 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3751:3753 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3747:3750 Stdlib.Numbers.Natural.Abstract.NOrder N eq defax
+R3758:3760 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3754:3757 Stdlib.Numbers.Natural.Abstract.NOrder N eq defax
+R3761:3763 Corelib.Init.Logic <> iff def
+prf 3778:3787 NOrderProp le_ind_rel
+R3794:3794 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3810:3817 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3802:3802 <> m:25
+R3805:3805 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3809:3809 Stdlib.Numbers.Natural.Abstract.NOrder <> m:25 var
+R3818:3818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3863:3872 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3826:3826 <> n:26
+binder 3828:3828 <> m:27
+R3837:3840 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3832:3835 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3831:3831 Stdlib.Numbers.Natural.Abstract.NOrder <> n:26 var
+R3836:3836 Stdlib.Numbers.Natural.Abstract.NOrder <> m:27 var
+R3846:3849 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3841:3841 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3843:3843 Stdlib.Numbers.Natural.Abstract.NOrder <> n:26 var
+R3845:3845 Stdlib.Numbers.Natural.Abstract.NOrder <> m:27 var
+R3850:3850 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3853:3853 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R3855:3855 Stdlib.Numbers.Natural.Abstract.NOrder <> n:26 var
+R3859:3859 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R3861:3861 Stdlib.Numbers.Natural.Abstract.NOrder <> m:27 var
+binder 3880:3880 <> n:28
+binder 3882:3882 <> m:29
+R3891:3894 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3886:3889 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3885:3885 Stdlib.Numbers.Natural.Abstract.NOrder <> n:28 var
+R3890:3890 Stdlib.Numbers.Natural.Abstract.NOrder <> m:29 var
+R3895:3895 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3897:3897 Stdlib.Numbers.Natural.Abstract.NOrder <> n:28 var
+R3899:3899 Stdlib.Numbers.Natural.Abstract.NOrder <> m:29 var
+R3993:3998 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_ind thm
+R4055:4064 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R4091:4099 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R4114:4123 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+prf 4152:4161 NOrderProp lt_ind_rel
+R4168:4168 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4188:4195 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4176:4176 <> m:30
+R4179:4179 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R4184:4184 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R4186:4186 Stdlib.Numbers.Natural.Abstract.NOrder <> m:30 var
+R4196:4196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4240:4247 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4204:4204 <> n:31
+binder 4206:4206 <> m:32
+R4214:4217 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4210:4212 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4209:4209 Stdlib.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4213:4213 Stdlib.Numbers.Natural.Abstract.NOrder <> m:32 var
+R4223:4226 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4218:4218 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R4220:4220 Stdlib.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4222:4222 Stdlib.Numbers.Natural.Abstract.NOrder <> m:32 var
+R4227:4227 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R4230:4230 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R4232:4232 Stdlib.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4236:4236 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R4238:4238 Stdlib.Numbers.Natural.Abstract.NOrder <> m:32 var
+binder 4255:4255 <> n:33
+binder 4257:4257 <> m:34
+R4265:4268 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4261:4263 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4260:4260 Stdlib.Numbers.Natural.Abstract.NOrder <> n:33 var
+R4264:4264 Stdlib.Numbers.Natural.Abstract.NOrder <> m:34 var
+R4269:4269 Stdlib.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R4271:4271 Stdlib.Numbers.Natural.Abstract.NOrder <> n:33 var
+R4273:4273 Stdlib.Numbers.Natural.Abstract.NOrder <> m:34 var
+R4333:4346 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_exists_pred thm
+R4437:4442 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_ind thm
+R4503:4516 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R4545:4553 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+R4578:4584 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp.RelElim <> sec
+prf 4626:4638 NOrderProp succ_pred_pos
+binder 4649:4649 <> n:35
+R4657:4660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4653:4655 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4656:4656 Stdlib.Numbers.Natural.Abstract.NOrder <> n:35 var
+R4668:4671 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4661:4661 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R4664:4664 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R4666:4666 Stdlib.Numbers.Natural.Abstract.NOrder <> n:35 var
+R4672:4672 Stdlib.Numbers.Natural.Abstract.NOrder <> n:35 var
+R4700:4708 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R4750:4758 Stdlib.Numbers.Natural.Abstract.NOrder N lt_irrefl prfax
+prf 4775:4783 NOrderProp le_pred_l
+binder 4794:4794 <> n:36
+R4800:4803 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4797:4797 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R4799:4799 Stdlib.Numbers.Natural.Abstract.NOrder <> n:36 var
+R4804:4804 Stdlib.Numbers.Natural.Abstract.NOrder <> n:36 var
+R4842:4847 Stdlib.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R4860:4869 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R4890:4898 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4908:4921 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+prf 4938:4946 NOrderProp lt_pred_l
+binder 4957:4957 <> n:37
+R4966:4969 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4961:4964 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4960:4960 Stdlib.Numbers.Natural.Abstract.NOrder <> n:37 var
+R4973:4975 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4970:4970 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R4972:4972 Stdlib.Numbers.Natural.Abstract.NOrder <> n:37 var
+R4976:4976 Stdlib.Numbers.Natural.Abstract.NOrder <> n:37 var
+R5055:5063 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5073:5086 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+prf 5103:5112 NOrderProp le_le_pred
+binder 5123:5123 <> n:38
+binder 5125:5125 <> m:39
+R5134:5137 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5129:5132 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5128:5128 Stdlib.Numbers.Natural.Abstract.NOrder <> n:38 var
+R5133:5133 Stdlib.Numbers.Natural.Abstract.NOrder <> m:39 var
+R5141:5144 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5138:5138 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5140:5140 Stdlib.Numbers.Natural.Abstract.NOrder <> n:38 var
+R5145:5145 Stdlib.Numbers.Natural.Abstract.NOrder <> m:39 var
+R5177:5184 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R5204:5212 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 5245:5254 NOrderProp lt_lt_pred
+binder 5265:5265 <> n:40
+binder 5267:5267 <> m:41
+R5275:5278 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5271:5273 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5270:5270 Stdlib.Numbers.Natural.Abstract.NOrder <> n:40 var
+R5274:5274 Stdlib.Numbers.Natural.Abstract.NOrder <> m:41 var
+R5282:5284 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5279:5279 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5281:5281 Stdlib.Numbers.Natural.Abstract.NOrder <> n:40 var
+R5285:5285 Stdlib.Numbers.Natural.Abstract.NOrder <> m:41 var
+R5317:5327 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R5347:5355 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 5388:5397 NOrderProp lt_le_pred
+binder 5408:5408 <> n:42
+binder 5410:5410 <> m:43
+R5418:5421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5414:5416 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5413:5413 Stdlib.Numbers.Natural.Abstract.NOrder <> n:42 var
+R5417:5417 Stdlib.Numbers.Natural.Abstract.NOrder <> m:43 var
+R5423:5426 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5422:5422 Stdlib.Numbers.Natural.Abstract.NOrder <> n:42 var
+R5427:5427 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5429:5429 Stdlib.Numbers.Natural.Abstract.NOrder <> m:43 var
+R5524:5530 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R5556:5564 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5577:5585 Stdlib.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+prf 5602:5611 NOrderProp lt_pred_le
+binder 5622:5622 <> n:44
+binder 5624:5624 <> m:45
+R5634:5637 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5630:5632 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5627:5627 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5629:5629 Stdlib.Numbers.Natural.Abstract.NOrder <> n:44 var
+R5633:5633 Stdlib.Numbers.Natural.Abstract.NOrder <> m:45 var
+R5639:5642 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5638:5638 Stdlib.Numbers.Natural.Abstract.NOrder <> n:44 var
+R5643:5643 Stdlib.Numbers.Natural.Abstract.NOrder <> m:45 var
+R5725:5730 Stdlib.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5752:5761 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+R5787:5795 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5814:5822 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+prf 5839:5848 NOrderProp lt_pred_lt
+binder 5859:5859 <> n:46
+binder 5861:5861 <> m:47
+R5871:5874 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5865:5867 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5864:5864 Stdlib.Numbers.Natural.Abstract.NOrder <> n:46 var
+R5868:5868 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5870:5870 Stdlib.Numbers.Natural.Abstract.NOrder <> m:47 var
+R5876:5878 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5875:5875 Stdlib.Numbers.Natural.Abstract.NOrder <> n:46 var
+R5879:5879 Stdlib.Numbers.Natural.Abstract.NOrder <> m:47 var
+R5927:5927 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R5909:5919 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R5953:5961 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 5979:5988 NOrderProp le_pred_le
+binder 5999:5999 <> n:48
+binder 6001:6001 <> m:49
+R6012:6015 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6005:6008 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6004:6004 Stdlib.Numbers.Natural.Abstract.NOrder <> n:48 var
+R6009:6009 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6011:6011 Stdlib.Numbers.Natural.Abstract.NOrder <> m:49 var
+R6017:6020 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6016:6016 Stdlib.Numbers.Natural.Abstract.NOrder <> n:48 var
+R6021:6021 Stdlib.Numbers.Natural.Abstract.NOrder <> m:49 var
+R6066:6066 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6051:6058 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R6092:6100 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 6118:6129 NOrderProp pred_le_mono
+binder 6140:6140 <> n:50
+binder 6142:6142 <> m:51
+R6151:6154 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6146:6149 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6145:6145 Stdlib.Numbers.Natural.Abstract.NOrder <> n:50 var
+R6150:6150 Stdlib.Numbers.Natural.Abstract.NOrder <> m:51 var
+R6158:6161 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6155:6155 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6157:6157 Stdlib.Numbers.Natural.Abstract.NOrder <> n:50 var
+R6162:6162 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6164:6164 Stdlib.Numbers.Natural.Abstract.NOrder <> m:51 var
+R6245:6254 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_ind_rel thm
+R6290:6295 Stdlib.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R6304:6309 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R6348:6356 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+prf 6373:6384 NOrderProp pred_lt_mono
+binder 6395:6395 <> n:52
+binder 6397:6397 <> m:53
+R6406:6410 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6430:6430 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6401:6404 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6400:6400 Stdlib.Numbers.Natural.Abstract.NOrder <> n:52 var
+R6416:6420 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6412:6414 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6411:6411 Stdlib.Numbers.Natural.Abstract.NOrder <> n:52 var
+R6415:6415 Stdlib.Numbers.Natural.Abstract.NOrder <> m:53 var
+R6424:6426 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6421:6421 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6423:6423 Stdlib.Numbers.Natural.Abstract.NOrder <> n:52 var
+R6427:6427 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6429:6429 Stdlib.Numbers.Natural.Abstract.NOrder <> m:53 var
+R6483:6486 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6499:6508 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6521:6527 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6557:6565 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6589:6597 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6621:6632 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6653:6656 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6671:6680 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6703:6703 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6689:6695 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6737:6737 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6719:6729 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R6773:6781 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R6796:6807 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6833:6841 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+prf 6864:6878 NOrderProp lt_succ_lt_pred
+binder 6889:6889 <> n:54
+binder 6891:6891 <> m:55
+R6901:6905 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6897:6899 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6894:6894 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R6896:6896 Stdlib.Numbers.Natural.Abstract.NOrder <> n:54 var
+R6900:6900 Stdlib.Numbers.Natural.Abstract.NOrder <> m:55 var
+R6907:6909 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6906:6906 Stdlib.Numbers.Natural.Abstract.NOrder <> n:54 var
+R6910:6910 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R6912:6912 Stdlib.Numbers.Natural.Abstract.NOrder <> m:55 var
+R6964:6973 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R6942:6953 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp pred_lt_mono thm
+R6988:6996 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+prf 7013:7027 NOrderProp le_succ_le_pred
+binder 7038:7038 <> n:56
+binder 7040:7040 <> m:57
+R7051:7054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7046:7049 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7043:7043 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R7045:7045 Stdlib.Numbers.Natural.Abstract.NOrder <> n:56 var
+R7050:7050 Stdlib.Numbers.Natural.Abstract.NOrder <> m:57 var
+R7056:7059 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7055:7055 Stdlib.Numbers.Natural.Abstract.NOrder <> n:56 var
+R7060:7060 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R7062:7062 Stdlib.Numbers.Natural.Abstract.NOrder <> m:57 var
+R7133:7142 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_pred thm
+R7155:7163 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+prf 7180:7194 NOrderProp lt_pred_lt_succ
+binder 7205:7205 <> n:58
+binder 7207:7207 <> m:59
+R7217:7220 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7213:7215 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7210:7210 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R7212:7212 Stdlib.Numbers.Natural.Abstract.NOrder <> n:58 var
+R7216:7216 Stdlib.Numbers.Natural.Abstract.NOrder <> m:59 var
+R7222:7224 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7221:7221 Stdlib.Numbers.Natural.Abstract.NOrder <> n:58 var
+R7225:7225 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R7227:7227 Stdlib.Numbers.Natural.Abstract.NOrder <> m:59 var
+R7298:7306 Stdlib.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+R7319:7328 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp lt_pred_le thm
+prf 7345:7359 NOrderProp le_pred_le_succ
+binder 7370:7370 <> n:60
+binder 7372:7372 <> m:61
+R7383:7387 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7378:7381 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7375:7375 Stdlib.Numbers.Natural.Abstract.NOrder N P abbrev
+R7377:7377 Stdlib.Numbers.Natural.Abstract.NOrder <> n:60 var
+R7382:7382 Stdlib.Numbers.Natural.Abstract.NOrder <> m:61 var
+R7389:7392 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7388:7388 Stdlib.Numbers.Natural.Abstract.NOrder <> n:60 var
+R7393:7393 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R7395:7395 Stdlib.Numbers.Natural.Abstract.NOrder <> m:61 var
+R7436:7441 Stdlib.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R7466:7471 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R7493:7501 Stdlib.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R7510:7521 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+prf 7536:7552 NOrderProp measure_induction
+binder 7564:7564 <> X:62
+R7580:7583 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7579:7579 Stdlib.Numbers.Natural.Abstract.NOrder <> X:62 var
+R7584:7584 Stdlib.Numbers.Natural.Abstract.NOrder N t defax
+binder 7575:7575 <> f:63
+R7593:7596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7592:7592 Stdlib.Numbers.Natural.Abstract.NOrder <> X:62 var
+binder 7588:7588 <> A:64
+R7606:7606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7652:7658 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 7614:7614 <> x:65
+R7617:7617 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7644:7648 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 7625:7625 <> y:66
+R7637:7640 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7631:7633 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7628:7628 Stdlib.Numbers.Natural.Abstract.NOrder <> f:63 var
+R7630:7630 Stdlib.Numbers.Natural.Abstract.NOrder <> y:66 var
+R7634:7634 Stdlib.Numbers.Natural.Abstract.NOrder <> f:63 var
+R7636:7636 Stdlib.Numbers.Natural.Abstract.NOrder <> x:65 var
+R7641:7641 Stdlib.Numbers.Natural.Abstract.NOrder <> A:64 var
+R7643:7643 Stdlib.Numbers.Natural.Abstract.NOrder <> y:66 var
+R7649:7649 Stdlib.Numbers.Natural.Abstract.NOrder <> A:64 var
+R7651:7651 Stdlib.Numbers.Natural.Abstract.NOrder <> x:65 var
+binder 7666:7666 <> x:67
+R7669:7669 Stdlib.Numbers.Natural.Abstract.NOrder <> A:64 var
+R7671:7671 Stdlib.Numbers.Natural.Abstract.NOrder <> x:67 var
+R7709:7731 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp measure_right_induction thm
+R7751:7756 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R7825:7830 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 7960:7986 NOrderProp Private_strong_induction_le
+R7994:7997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7993:7993 Stdlib.Numbers.Natural.Abstract.NOrder N t defax
+binder 7989:7989 <> A:68
+R8029:8034 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8008:8013 Corelib.Classes.Morphisms <> Proper class
+R8028:8028 Stdlib.Numbers.Natural.Abstract.NOrder <> A:68 var
+R8018:8022 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8016:8017 Stdlib.Numbers.Natural.Abstract.NOrder N eq defax
+R8023:8025 Corelib.Init.Logic <> iff def
+R8038:8041 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8035:8035 Stdlib.Numbers.Natural.Abstract.NOrder <> A:68 var
+R8042:8042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8091:8096 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8110:8110 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 8050:8050 <> n:69
+R8054:8054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8078:8082 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 8062:8062 <> m:70
+R8071:8074 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8066:8069 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8065:8065 Stdlib.Numbers.Natural.Abstract.NOrder <> m:70 var
+R8070:8070 Stdlib.Numbers.Natural.Abstract.NOrder <> n:69 var
+R8075:8075 Stdlib.Numbers.Natural.Abstract.NOrder <> A:68 var
+R8077:8077 Stdlib.Numbers.Natural.Abstract.NOrder <> m:70 var
+R8083:8083 Stdlib.Numbers.Natural.Abstract.NOrder <> A:68 var
+R8086:8086 Stdlib.Numbers.Natural.Abstract.NOrder N S abbrev
+R8088:8088 Stdlib.Numbers.Natural.Abstract.NOrder <> n:69 var
+binder 8104:8104 <> n:71
+R8107:8107 Stdlib.Numbers.Natural.Abstract.NOrder <> A:68 var
+R8109:8109 Stdlib.Numbers.Natural.Abstract.NOrder <> n:71 var
+binder 8158:8158 <> k:72
+R8167:8170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8162:8165 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8161:8161 Stdlib.Numbers.Natural.Abstract.NOrder <> k:72 var
+R8173:8173 Stdlib.Numbers.Natural.Abstract.NOrder <> k:72 var
+binder 8158:8158 <> k:73
+R8161:8161 Stdlib.Numbers.Natural.Abstract.NOrder <> k:73 var
+R8173:8173 Stdlib.Numbers.Natural.Abstract.NOrder <> k:73 var
+R8208:8214 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_refl thm
+R8252:8257 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp le_0_r thm
+R8301:8301 Corelib.Init.Logic <> I constr
+R8291:8299 Stdlib.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+R8309:8319 Stdlib.Numbers.Natural.Abstract.NOrder N lt_eq_cases prfax
+R8389:8398 Stdlib.Numbers.Natural.Abstract.NOrder NOrderProp <> mod

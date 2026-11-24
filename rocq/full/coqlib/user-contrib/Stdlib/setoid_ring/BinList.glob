@@ -1,0 +1,153 @@
+DIGEST 9e37ebce301648d19c18594fa69bb0bd
+FStdlib.setoid_ring.BinList
+R703:708 Stdlib.PArith.BinPos <> <> lib
+R738:741 Stdlib.Lists.List <> <> lib
+sec 813:823 <> MakeBinList
+var 836:836 MakeBinList A
+var 856:862 MakeBinList default
+R866:866 Stdlib.setoid_ring.BinList <> MakeBinList.A var
+def 880:883 <> jump
+R888:895 Corelib.Numbers.BinNums <> positive ind
+binder 886:886 <> p:5
+R901:904 Corelib.Init.Datatypes <> list ind
+R906:906 Stdlib.setoid_ring.BinList <> MakeBinList.A var
+binder 899:899 <> l:6
+R922:925 Corelib.Init.Datatypes <> list ind
+R927:927 Stdlib.setoid_ring.BinList <> MakeBinList.A var
+R940:940 Stdlib.setoid_ring.BinList <> p:5 var
+R951:952 Corelib.Numbers.BinNums <> xH constr
+R957:958 Stdlib.Lists.List <> tl def
+R960:960 Stdlib.setoid_ring.BinList <> l:6 var
+R966:967 Corelib.Numbers.BinNums <> xO constr
+R974:977 Stdlib.setoid_ring.BinList <> jump:7 def
+R982:985 Stdlib.setoid_ring.BinList <> jump:7 def
+R989:989 Stdlib.setoid_ring.BinList <> l:6 var
+R987:987 Stdlib.setoid_ring.BinList <> p:5 var
+R979:979 Stdlib.setoid_ring.BinList <> p:5 var
+R996:997 Corelib.Numbers.BinNums <> xI constr
+R1005:1008 Stdlib.setoid_ring.BinList <> jump:7 def
+R1013:1016 Stdlib.setoid_ring.BinList <> jump:7 def
+R1021:1022 Stdlib.Lists.List <> tl def
+R1024:1024 Stdlib.setoid_ring.BinList <> l:6 var
+R1018:1018 Stdlib.setoid_ring.BinList <> p:5 var
+R1010:1010 Stdlib.setoid_ring.BinList <> p:5 var
+def 1046:1048 <> nth
+R1053:1060 Corelib.Numbers.BinNums <> positive ind
+binder 1051:1051 <> p:9
+R1066:1069 Corelib.Init.Datatypes <> list ind
+R1071:1071 Stdlib.setoid_ring.BinList <> MakeBinList.A var
+binder 1064:1064 <> l:10
+R1087:1087 Stdlib.setoid_ring.BinList <> MakeBinList.A var
+R1099:1099 Stdlib.setoid_ring.BinList <> p:9 var
+R1110:1111 Corelib.Numbers.BinNums <> xH constr
+R1116:1117 Stdlib.Lists.List <> hd def
+R1127:1127 Stdlib.setoid_ring.BinList <> l:10 var
+R1119:1125 Stdlib.setoid_ring.BinList <> MakeBinList.default var
+R1133:1134 Corelib.Numbers.BinNums <> xO constr
+R1141:1143 Stdlib.setoid_ring.BinList <> nth:11 def
+R1148:1151 Stdlib.setoid_ring.BinList <> jump def
+R1155:1155 Stdlib.setoid_ring.BinList <> l:10 var
+R1153:1153 Stdlib.setoid_ring.BinList <> p:9 var
+R1145:1145 Stdlib.setoid_ring.BinList <> p:9 var
+R1162:1163 Corelib.Numbers.BinNums <> xI constr
+R1170:1172 Stdlib.setoid_ring.BinList <> nth:11 def
+R1177:1180 Stdlib.setoid_ring.BinList <> jump def
+R1185:1186 Stdlib.Lists.List <> tl def
+R1188:1188 Stdlib.setoid_ring.BinList <> l:10 var
+R1182:1182 Stdlib.setoid_ring.BinList <> p:9 var
+R1174:1174 Stdlib.setoid_ring.BinList <> p:9 var
+prf 1207:1213 <> jump_tl
+binder 1224:1224 <> j:13
+binder 1226:1226 <> l:14
+R1242:1244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1229:1230 Stdlib.Lists.List <> tl def
+R1233:1236 Stdlib.setoid_ring.BinList <> jump def
+R1240:1240 Stdlib.setoid_ring.BinList <> l:14 var
+R1238:1238 Stdlib.setoid_ring.BinList <> j:13 var
+R1245:1248 Stdlib.setoid_ring.BinList <> jump def
+R1253:1254 Stdlib.Lists.List <> tl def
+R1256:1256 Stdlib.setoid_ring.BinList <> l:14 var
+R1250:1250 Stdlib.setoid_ring.BinList <> j:13 var
+prf 1354:1362 <> jump_succ
+binder 1373:1373 <> j:15
+binder 1375:1375 <> l:16
+R1399:1401 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1380:1383 Stdlib.setoid_ring.BinList <> jump def
+R1398:1398 Stdlib.setoid_ring.BinList <> l:16 var
+R1386:1393 Stdlib.PArith.BinPos Pos succ def
+R1395:1395 Stdlib.setoid_ring.BinList <> j:15 var
+R1402:1405 Stdlib.setoid_ring.BinList <> jump def
+R1410:1413 Stdlib.setoid_ring.BinList <> jump def
+R1417:1417 Stdlib.setoid_ring.BinList <> l:16 var
+R1415:1415 Stdlib.setoid_ring.BinList <> j:15 var
+R1521:1527 Stdlib.setoid_ring.BinList <> jump_tl thm
+R1547:1553 Stdlib.setoid_ring.BinList <> jump_tl thm
+prf 1583:1590 <> jump_add
+binder 1601:1601 <> i:17
+binder 1603:1603 <> j:18
+binder 1605:1605 <> l:19
+R1624:1626 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1610:1613 Stdlib.setoid_ring.BinList <> jump def
+R1623:1623 Stdlib.setoid_ring.BinList <> l:19 var
+R1617:1619 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R1616:1616 Stdlib.setoid_ring.BinList <> i:17 var
+R1620:1620 Stdlib.setoid_ring.BinList <> j:18 var
+R1627:1630 Stdlib.setoid_ring.BinList <> jump def
+R1635:1638 Stdlib.setoid_ring.BinList <> jump def
+R1642:1642 Stdlib.setoid_ring.BinList <> l:19 var
+R1640:1640 Stdlib.setoid_ring.BinList <> j:18 var
+R1632:1632 Stdlib.setoid_ring.BinList <> i:17 var
+R1695:1707 Stdlib.PArith.BinPos Pos peano_ind def
+R1734:1744 Stdlib.PArith.BinPos Pos add_1_l thm
+R1747:1755 Stdlib.setoid_ring.BinList <> jump_succ thm
+R1774:1787 Stdlib.PArith.BinPos Pos add_succ_l thm
+R1791:1799 Stdlib.setoid_ring.BinList <> jump_succ thm
+prf 1821:1836 <> jump_pred_double
+binder 1847:1847 <> i:20
+binder 1849:1849 <> l:21
+R1885:1887 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1854:1857 Stdlib.setoid_ring.BinList <> jump def
+R1880:1881 Stdlib.Lists.List <> tl def
+R1883:1883 Stdlib.setoid_ring.BinList <> l:21 var
+R1860:1874 Stdlib.PArith.BinPos Pos pred_double def
+R1876:1876 Stdlib.setoid_ring.BinList <> i:20 var
+R1888:1891 Stdlib.setoid_ring.BinList <> jump def
+R1896:1899 Stdlib.setoid_ring.BinList <> jump def
+R1903:1903 Stdlib.setoid_ring.BinList <> l:21 var
+R1901:1901 Stdlib.setoid_ring.BinList <> i:20 var
+R1893:1893 Stdlib.setoid_ring.BinList <> i:20 var
+R1986:1992 Stdlib.setoid_ring.BinList <> jump_tl thm
+R2021:2027 Stdlib.setoid_ring.BinList <> jump_tl thm
+prf 2062:2069 <> nth_jump
+binder 2080:2080 <> p:22
+binder 2082:2082 <> l:23
+R2097:2099 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2085:2087 Stdlib.setoid_ring.BinList <> nth def
+R2092:2093 Stdlib.Lists.List <> tl def
+R2095:2095 Stdlib.setoid_ring.BinList <> l:23 var
+R2089:2089 Stdlib.setoid_ring.BinList <> p:22 var
+R2100:2101 Stdlib.Lists.List <> hd def
+R2112:2115 Stdlib.setoid_ring.BinList <> jump def
+R2119:2119 Stdlib.setoid_ring.BinList <> l:23 var
+R2117:2117 Stdlib.setoid_ring.BinList <> p:22 var
+R2103:2109 Stdlib.setoid_ring.BinList <> MakeBinList.default var
+R2203:2209 Stdlib.setoid_ring.BinList <> jump_tl thm
+R2235:2241 Stdlib.setoid_ring.BinList <> jump_tl thm
+prf 2276:2290 <> nth_pred_double
+binder 2303:2303 <> p:24
+binder 2305:2305 <> l:25
+R2338:2340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2308:2310 Stdlib.setoid_ring.BinList <> nth def
+R2333:2334 Stdlib.Lists.List <> tl def
+R2336:2336 Stdlib.setoid_ring.BinList <> l:25 var
+R2313:2327 Stdlib.PArith.BinPos Pos pred_double def
+R2329:2329 Stdlib.setoid_ring.BinList <> p:24 var
+R2341:2343 Stdlib.setoid_ring.BinList <> nth def
+R2348:2351 Stdlib.setoid_ring.BinList <> jump def
+R2355:2355 Stdlib.setoid_ring.BinList <> l:25 var
+R2353:2353 Stdlib.setoid_ring.BinList <> p:24 var
+R2345:2345 Stdlib.setoid_ring.BinList <> p:24 var
+R2438:2444 Stdlib.setoid_ring.BinList <> jump_tl thm
+R2463:2478 Stdlib.setoid_ring.BinList <> jump_pred_double thm
+R2485:2491 Stdlib.setoid_ring.BinList <> jump_tl thm
+R2523:2533 Stdlib.setoid_ring.BinList MakeBinList <> sec

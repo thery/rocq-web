@@ -1,0 +1,532 @@
+DIGEST 366773f4970a7e629400464f798d9ae7
+FStdlib.Structures.OrdersTac
+R703:708 Stdlib.Setoids.Setoid <> <> lib
+R710:718 Stdlib.Classes.Morphisms <> <> lib
+R720:725 Stdlib.Program.Basics <> <> lib
+R727:736 Stdlib.Structures.Equalities <> <> lib
+R738:743 Stdlib.Structures.Orders <> <> lib
+ind 1693:1695 <> ord
+constr 1706:1708 <> OEQ
+constr 1712:1714 <> OLT
+constr 1718:1720 <> OLE
+scheme 1693:1695 <> ord_rect
+scheme 1693:1695 <> ord_ind
+scheme 1693:1695 <> ord_rec
+scheme 1693:1695 <> ord_sind
+def 1734:1742 <> trans_ord
+binder 1744:1744 <> o:3
+binder 1746:1747 <> o':4
+R1762:1763 Stdlib.Structures.OrdersTac <> o':4 var
+R1759:1759 Stdlib.Structures.OrdersTac <> o:3 var
+R1773:1775 Stdlib.Structures.OrdersTac <> OEQ constr
+R1783:1784 Stdlib.Structures.OrdersTac <> o':4 var
+R1792:1794 Stdlib.Structures.OrdersTac <> OEQ constr
+R1799:1799 Stdlib.Structures.OrdersTac <> o:3 var
+R1804:1806 Stdlib.Structures.OrdersTac <> OLE constr
+R1809:1811 Stdlib.Structures.OrdersTac <> OLE constr
+R1816:1818 Stdlib.Structures.OrdersTac <> OLE constr
+R1831:1833 Stdlib.Structures.OrdersTac <> OLT constr
+R1863:1871 Stdlib.Structures.OrdersTac <> trans_ord def
+not 1856:1856 <> :::x_'+'_x
+R2350:2355 Stdlib.Structures.Orders EqLtLe <> modtype
+R2362:2365 Stdlib.Structures.Equalities IsEq <> modtype
+R2367:2367 Stdlib.Structures.OrdersTac O <> mod
+R2372:2381 Stdlib.Structures.Orders IsStrOrder <> modtype
+R2383:2383 Stdlib.Structures.OrdersTac O <> mod
+R2388:2395 Stdlib.Structures.Orders LeIsLtEq <> modtype
+R2397:2397 Stdlib.Structures.OrdersTac O <> mod
+R2402:2410 Stdlib.Structures.Orders LtIsTotal <> modtype
+R2412:2412 Stdlib.Structures.OrdersTac O <> mod
+modtype 2334:2345 <> IsTotalOrder
+R2506:2511 Stdlib.Structures.Orders EqLtLe <> modtype
+R2516:2527 Stdlib.Structures.OrdersTac IsTotalOrder <> modtype
+R2529:2529 Stdlib.Structures.OrdersTac O <> mod
+mod 2485:2494 <> OrderFacts
+R2541:2554 Stdlib.Structures.Orders EqLtLeNotation <> modtype
+R2556:2556 Stdlib.Structures.OrdersTac O <> mod
+prf 2592:2598 OrderFacts eq_refl
+binder 2609:2609 <> x:7
+R2613:2614 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2612:2612 Stdlib.Structures.OrdersTac <> x:7 var
+R2615:2615 Stdlib.Structures.OrdersTac <> x:7 var
+prf 2650:2656 OrderFacts le_refl
+binder 2667:2667 <> x:8
+R2671:2672 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2670:2670 Stdlib.Structures.OrdersTac <> x:8 var
+R2673:2673 Stdlib.Structures.OrdersTac <> x:8 var
+R2699:2707 Stdlib.Structures.OrdersTac P le_lteq prfax
+prf 2742:2750 OrderFacts lt_irrefl
+binder 2761:2761 <> x:9
+R2764:2765 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2767:2767 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R2766:2766 Stdlib.Structures.OrdersTac <> x:9 var
+R2768:2768 Stdlib.Structures.OrdersTac <> x:9 var
+R2792:2814 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 2852:2857 OrderFacts eq_sym
+binder 2868:2868 <> x:10
+binder 2870:2870 <> y:11
+R2877:2880 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2874:2875 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2873:2873 Stdlib.Structures.OrdersTac <> x:10 var
+R2876:2876 Stdlib.Structures.OrdersTac <> y:11 var
+R2882:2883 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2881:2881 Stdlib.Structures.OrdersTac <> y:11 var
+R2884:2884 Stdlib.Structures.OrdersTac <> x:10 var
+prf 2919:2928 OrderFacts le_antisym
+binder 2939:2939 <> x:12
+binder 2941:2941 <> y:13
+R2948:2951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2945:2946 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2944:2944 Stdlib.Structures.OrdersTac <> x:12 var
+R2947:2947 Stdlib.Structures.OrdersTac <> y:13 var
+R2956:2959 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2953:2954 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2952:2952 Stdlib.Structures.OrdersTac <> y:13 var
+R2955:2955 Stdlib.Structures.OrdersTac <> x:12 var
+R2961:2962 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2960:2960 Stdlib.Structures.OrdersTac <> x:12 var
+R2963:2963 Stdlib.Structures.OrdersTac <> y:13 var
+R2997:3005 Stdlib.Structures.OrdersTac P le_lteq prfax
+R3047:3069 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 3109:3115 OrderFacts neq_sym
+binder 3126:3126 <> x:14
+binder 3128:3128 <> y:15
+R3136:3139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3131:3131 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3133:3134 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3132:3132 Stdlib.Structures.OrdersTac <> x:14 var
+R3135:3135 Stdlib.Structures.OrdersTac <> y:15 var
+R3140:3140 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3142:3143 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3141:3141 Stdlib.Structures.OrdersTac <> y:15 var
+R3144:3144 Stdlib.Structures.OrdersTac <> x:14 var
+R3165:3170 Stdlib.Structures.OrdersTac OrderFacts eq_sym thm
+R3298:3299 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+def 3393:3402 OrderFacts interp_ord
+binder 3404:3404 <> o:16
+R3416:3416 Stdlib.Structures.OrdersTac <> o:16 var
+R3423:3425 Stdlib.Structures.OrdersTac <> OEQ constr
+R3430:3433 Stdlib.Structures.OrdersTac O eq defax
+R3437:3439 Stdlib.Structures.OrdersTac <> OLT constr
+R3444:3447 Stdlib.Structures.OrdersTac O lt defax
+R3451:3453 Stdlib.Structures.OrdersTac <> OLE constr
+R3458:3461 Stdlib.Structures.OrdersTac O le defax
+R3493:3502 Stdlib.Structures.OrdersTac OrderFacts interp_ord def
+not 3486:3486 OrderFacts :::'#'
+prf 3512:3516 OrderFacts trans
+binder 3518:3518 <> o:18
+binder 3520:3521 <> o':19
+binder 3523:3523 <> x:20
+binder 3525:3525 <> y:21
+binder 3527:3527 <> z:22
+R3537:3540 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3531:3536 Stdlib.Structures.OrdersTac OrderFacts :::'#' not
+R3536:3536 Stdlib.Structures.OrdersTac <> y:21 var
+R3534:3534 Stdlib.Structures.OrdersTac <> x:20 var
+R3532:3532 Stdlib.Structures.OrdersTac <> o:18 var
+R3548:3551 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3541:3547 Stdlib.Structures.OrdersTac OrderFacts :::'#' not
+R3547:3547 Stdlib.Structures.OrdersTac <> z:22 var
+R3545:3545 Stdlib.Structures.OrdersTac <> y:21 var
+R3542:3543 Stdlib.Structures.OrdersTac <> o':19 var
+R3552:3562 Stdlib.Structures.OrdersTac OrderFacts :::'#' not
+R3562:3562 Stdlib.Structures.OrdersTac <> z:22 var
+R3560:3560 Stdlib.Structures.OrdersTac <> x:20 var
+R3555:3555 Stdlib.Structures.OrdersTac <> :::x_'+'_x not
+R3554:3554 Stdlib.Structures.OrdersTac <> o:18 var
+R3556:3557 Stdlib.Structures.OrdersTac <> o':19 var
+R3604:3612 Stdlib.Structures.OrdersTac P le_lteq prfax
+R3655:3676 Corelib.Classes.RelationClasses <> StrictOrder_Transitive meth
+def 3717:3724 OrderFacts eq_trans
+binder 3726:3726 <> x:23
+binder 3728:3728 <> y:24
+binder 3730:3730 <> z:25
+R3738:3741 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3735:3736 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3734:3734 Stdlib.Structures.OrdersTac <> x:23 var
+R3737:3737 Stdlib.Structures.OrdersTac <> y:24 var
+R3746:3749 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3743:3744 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3742:3742 Stdlib.Structures.OrdersTac <> y:24 var
+R3745:3745 Stdlib.Structures.OrdersTac <> z:25 var
+R3751:3752 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3750:3750 Stdlib.Structures.OrdersTac <> x:23 var
+R3753:3753 Stdlib.Structures.OrdersTac <> z:25 var
+R3759:3763 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R3765:3767 Stdlib.Structures.OrdersTac <> OEQ constr
+R3769:3771 Stdlib.Structures.OrdersTac <> OEQ constr
+R3773:3773 Stdlib.Structures.OrdersTac <> x:23 var
+R3775:3775 Stdlib.Structures.OrdersTac <> y:24 var
+R3777:3777 Stdlib.Structures.OrdersTac <> z:25 var
+def 3791:3798 OrderFacts le_trans
+binder 3800:3800 <> x:26
+binder 3802:3802 <> y:27
+binder 3804:3804 <> z:28
+R3812:3815 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3809:3810 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3808:3808 Stdlib.Structures.OrdersTac <> x:26 var
+R3811:3811 Stdlib.Structures.OrdersTac <> y:27 var
+R3820:3823 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3817:3818 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3816:3816 Stdlib.Structures.OrdersTac <> y:27 var
+R3819:3819 Stdlib.Structures.OrdersTac <> z:28 var
+R3825:3826 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3824:3824 Stdlib.Structures.OrdersTac <> x:26 var
+R3827:3827 Stdlib.Structures.OrdersTac <> z:28 var
+R3833:3837 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R3839:3841 Stdlib.Structures.OrdersTac <> OLE constr
+R3843:3845 Stdlib.Structures.OrdersTac <> OLE constr
+R3847:3847 Stdlib.Structures.OrdersTac <> x:26 var
+R3849:3849 Stdlib.Structures.OrdersTac <> y:27 var
+R3851:3851 Stdlib.Structures.OrdersTac <> z:28 var
+def 3865:3872 OrderFacts lt_trans
+binder 3874:3874 <> x:29
+binder 3876:3876 <> y:30
+binder 3878:3878 <> z:31
+R3885:3888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3883:3883 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3882:3882 Stdlib.Structures.OrdersTac <> x:29 var
+R3884:3884 Stdlib.Structures.OrdersTac <> y:30 var
+R3892:3895 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3890:3890 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3889:3889 Stdlib.Structures.OrdersTac <> y:30 var
+R3891:3891 Stdlib.Structures.OrdersTac <> z:31 var
+R3897:3897 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3896:3896 Stdlib.Structures.OrdersTac <> x:29 var
+R3898:3898 Stdlib.Structures.OrdersTac <> z:31 var
+R3904:3908 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R3910:3912 Stdlib.Structures.OrdersTac <> OLT constr
+R3914:3916 Stdlib.Structures.OrdersTac <> OLT constr
+R3918:3918 Stdlib.Structures.OrdersTac <> x:29 var
+R3920:3920 Stdlib.Structures.OrdersTac <> y:30 var
+R3922:3922 Stdlib.Structures.OrdersTac <> z:31 var
+def 3936:3946 OrderFacts le_lt_trans
+binder 3948:3948 <> x:32
+binder 3950:3950 <> y:33
+binder 3952:3952 <> z:34
+R3960:3963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3957:3958 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R3956:3956 Stdlib.Structures.OrdersTac <> x:32 var
+R3959:3959 Stdlib.Structures.OrdersTac <> y:33 var
+R3967:3970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3965:3965 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3964:3964 Stdlib.Structures.OrdersTac <> y:33 var
+R3966:3966 Stdlib.Structures.OrdersTac <> z:34 var
+R3972:3972 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R3971:3971 Stdlib.Structures.OrdersTac <> x:32 var
+R3973:3973 Stdlib.Structures.OrdersTac <> z:34 var
+R3979:3983 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R3985:3987 Stdlib.Structures.OrdersTac <> OLE constr
+R3989:3991 Stdlib.Structures.OrdersTac <> OLT constr
+R3993:3993 Stdlib.Structures.OrdersTac <> x:32 var
+R3995:3995 Stdlib.Structures.OrdersTac <> y:33 var
+R3997:3997 Stdlib.Structures.OrdersTac <> z:34 var
+def 4011:4021 OrderFacts lt_le_trans
+binder 4023:4023 <> x:35
+binder 4025:4025 <> y:36
+binder 4027:4027 <> z:37
+R4034:4037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4032:4032 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4031:4031 Stdlib.Structures.OrdersTac <> x:35 var
+R4033:4033 Stdlib.Structures.OrdersTac <> y:36 var
+R4042:4045 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4039:4040 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4038:4038 Stdlib.Structures.OrdersTac <> y:36 var
+R4041:4041 Stdlib.Structures.OrdersTac <> z:37 var
+R4047:4047 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4046:4046 Stdlib.Structures.OrdersTac <> x:35 var
+R4048:4048 Stdlib.Structures.OrdersTac <> z:37 var
+R4054:4058 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R4060:4062 Stdlib.Structures.OrdersTac <> OLT constr
+R4064:4066 Stdlib.Structures.OrdersTac <> OLE constr
+R4068:4068 Stdlib.Structures.OrdersTac <> x:35 var
+R4070:4070 Stdlib.Structures.OrdersTac <> y:36 var
+R4072:4072 Stdlib.Structures.OrdersTac <> z:37 var
+def 4086:4090 OrderFacts eq_lt
+binder 4092:4092 <> x:38
+binder 4094:4094 <> y:39
+binder 4096:4096 <> z:40
+R4104:4107 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4101:4102 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4100:4100 Stdlib.Structures.OrdersTac <> x:38 var
+R4103:4103 Stdlib.Structures.OrdersTac <> y:39 var
+R4111:4114 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4109:4109 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4108:4108 Stdlib.Structures.OrdersTac <> y:39 var
+R4110:4110 Stdlib.Structures.OrdersTac <> z:40 var
+R4116:4116 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4115:4115 Stdlib.Structures.OrdersTac <> x:38 var
+R4117:4117 Stdlib.Structures.OrdersTac <> z:40 var
+R4123:4127 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R4129:4131 Stdlib.Structures.OrdersTac <> OEQ constr
+R4133:4135 Stdlib.Structures.OrdersTac <> OLT constr
+R4137:4137 Stdlib.Structures.OrdersTac <> x:38 var
+R4139:4139 Stdlib.Structures.OrdersTac <> y:39 var
+R4141:4141 Stdlib.Structures.OrdersTac <> z:40 var
+def 4155:4159 OrderFacts lt_eq
+binder 4161:4161 <> x:41
+binder 4163:4163 <> y:42
+binder 4165:4165 <> z:43
+R4172:4175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4170:4170 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4169:4169 Stdlib.Structures.OrdersTac <> x:41 var
+R4171:4171 Stdlib.Structures.OrdersTac <> y:42 var
+R4180:4183 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4177:4178 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4176:4176 Stdlib.Structures.OrdersTac <> y:42 var
+R4179:4179 Stdlib.Structures.OrdersTac <> z:43 var
+R4185:4185 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4184:4184 Stdlib.Structures.OrdersTac <> x:41 var
+R4186:4186 Stdlib.Structures.OrdersTac <> z:43 var
+R4192:4196 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R4198:4200 Stdlib.Structures.OrdersTac <> OLT constr
+R4202:4204 Stdlib.Structures.OrdersTac <> OEQ constr
+R4206:4206 Stdlib.Structures.OrdersTac <> x:41 var
+R4208:4208 Stdlib.Structures.OrdersTac <> y:42 var
+R4210:4210 Stdlib.Structures.OrdersTac <> z:43 var
+def 4224:4228 OrderFacts eq_le
+binder 4230:4230 <> x:44
+binder 4232:4232 <> y:45
+binder 4234:4234 <> z:46
+R4242:4245 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4239:4240 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4238:4238 Stdlib.Structures.OrdersTac <> x:44 var
+R4241:4241 Stdlib.Structures.OrdersTac <> y:45 var
+R4250:4253 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4247:4248 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4246:4246 Stdlib.Structures.OrdersTac <> y:45 var
+R4249:4249 Stdlib.Structures.OrdersTac <> z:46 var
+R4255:4256 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4254:4254 Stdlib.Structures.OrdersTac <> x:44 var
+R4257:4257 Stdlib.Structures.OrdersTac <> z:46 var
+R4263:4267 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R4269:4271 Stdlib.Structures.OrdersTac <> OEQ constr
+R4273:4275 Stdlib.Structures.OrdersTac <> OLE constr
+R4277:4277 Stdlib.Structures.OrdersTac <> x:44 var
+R4279:4279 Stdlib.Structures.OrdersTac <> y:45 var
+R4281:4281 Stdlib.Structures.OrdersTac <> z:46 var
+def 4295:4299 OrderFacts le_eq
+binder 4301:4301 <> x:47
+binder 4303:4303 <> y:48
+binder 4305:4305 <> z:49
+R4313:4316 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4310:4311 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4309:4309 Stdlib.Structures.OrdersTac <> x:47 var
+R4312:4312 Stdlib.Structures.OrdersTac <> y:48 var
+R4321:4324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4318:4319 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4317:4317 Stdlib.Structures.OrdersTac <> y:48 var
+R4320:4320 Stdlib.Structures.OrdersTac <> z:49 var
+R4326:4327 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4325:4325 Stdlib.Structures.OrdersTac <> x:47 var
+R4328:4328 Stdlib.Structures.OrdersTac <> z:49 var
+R4334:4338 Stdlib.Structures.OrdersTac OrderFacts trans thm
+R4340:4342 Stdlib.Structures.OrdersTac <> OLE constr
+R4344:4346 Stdlib.Structures.OrdersTac <> OEQ constr
+R4348:4348 Stdlib.Structures.OrdersTac <> x:47 var
+R4350:4350 Stdlib.Structures.OrdersTac <> y:48 var
+R4352:4352 Stdlib.Structures.OrdersTac <> z:49 var
+prf 4362:4367 OrderFacts eq_neq
+binder 4378:4378 <> x:50
+binder 4380:4380 <> y:51
+binder 4382:4382 <> z:52
+R4389:4392 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4386:4387 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4385:4385 Stdlib.Structures.OrdersTac <> x:50 var
+R4388:4388 Stdlib.Structures.OrdersTac <> y:51 var
+R4398:4401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4393:4393 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4395:4396 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4394:4394 Stdlib.Structures.OrdersTac <> y:51 var
+R4397:4397 Stdlib.Structures.OrdersTac <> z:52 var
+R4402:4402 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4404:4405 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4403:4403 Stdlib.Structures.OrdersTac <> x:50 var
+R4406:4406 Stdlib.Structures.OrdersTac <> z:52 var
+R4428:4435 Stdlib.Structures.OrdersTac OrderFacts eq_trans def
+R4438:4443 Stdlib.Structures.OrdersTac OrderFacts eq_sym thm
+prf 4458:4463 OrderFacts neq_eq
+binder 4474:4474 <> x:53
+binder 4476:4476 <> y:54
+binder 4478:4478 <> z:55
+R4486:4489 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4481:4481 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4483:4484 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4482:4482 Stdlib.Structures.OrdersTac <> x:53 var
+R4485:4485 Stdlib.Structures.OrdersTac <> y:54 var
+R4494:4497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4491:4492 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4490:4490 Stdlib.Structures.OrdersTac <> y:54 var
+R4493:4493 Stdlib.Structures.OrdersTac <> z:55 var
+R4498:4498 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4500:4501 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4499:4499 Stdlib.Structures.OrdersTac <> x:53 var
+R4502:4502 Stdlib.Structures.OrdersTac <> z:55 var
+R4524:4531 Stdlib.Structures.OrdersTac OrderFacts eq_trans def
+R4534:4539 Stdlib.Structures.OrdersTac OrderFacts eq_sym thm
+prf 4586:4595 OrderFacts not_neq_eq
+binder 4606:4606 <> x:56
+binder 4608:4608 <> y:57
+R4617:4620 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4611:4611 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4612:4612 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4614:4615 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4613:4613 Stdlib.Structures.OrdersTac <> x:56 var
+R4616:4616 Stdlib.Structures.OrdersTac <> y:57 var
+R4622:4623 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4621:4621 Stdlib.Structures.OrdersTac <> x:56 var
+R4624:4624 Stdlib.Structures.OrdersTac <> y:57 var
+R4658:4667 Stdlib.Structures.OrdersTac P lt_total prfax
+R4743:4751 Stdlib.Structures.OrdersTac OrderFacts lt_irrefl thm
+prf 4773:4781 OrderFacts not_ge_lt
+binder 4792:4792 <> x:58
+binder 4794:4794 <> y:59
+R4802:4805 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4797:4797 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4799:4800 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4798:4798 Stdlib.Structures.OrdersTac <> y:59 var
+R4801:4801 Stdlib.Structures.OrdersTac <> x:58 var
+R4807:4807 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4806:4806 Stdlib.Structures.OrdersTac <> x:58 var
+R4808:4808 Stdlib.Structures.OrdersTac <> y:59 var
+R4842:4851 Stdlib.Structures.OrdersTac P lt_total prfax
+R4885:4893 Stdlib.Structures.OrdersTac P le_lteq prfax
+prf 4939:4947 OrderFacts not_gt_le
+binder 4958:4958 <> x:60
+binder 4960:4960 <> y:61
+R4967:4970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4963:4963 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4965:4965 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R4964:4964 Stdlib.Structures.OrdersTac <> y:61 var
+R4966:4966 Stdlib.Structures.OrdersTac <> x:60 var
+R4972:4973 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R4971:4971 Stdlib.Structures.OrdersTac <> x:60 var
+R4974:4974 Stdlib.Structures.OrdersTac <> y:61 var
+R5006:5014 Stdlib.Structures.OrdersTac P le_lteq prfax
+R5029:5038 Stdlib.Structures.OrdersTac P lt_total prfax
+prf 5069:5077 OrderFacts le_neq_lt
+binder 5088:5088 <> x:62
+binder 5090:5090 <> y:63
+R5097:5100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5094:5095 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R5093:5093 Stdlib.Structures.OrdersTac <> x:62 var
+R5096:5096 Stdlib.Structures.OrdersTac <> y:63 var
+R5106:5109 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5101:5101 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5103:5104 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5102:5102 Stdlib.Structures.OrdersTac <> x:62 var
+R5105:5105 Stdlib.Structures.OrdersTac <> y:63 var
+R5111:5111 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R5110:5110 Stdlib.Structures.OrdersTac <> x:62 var
+R5112:5112 Stdlib.Structures.OrdersTac <> y:63 var
+R5133:5141 Stdlib.Structures.OrdersTac OrderFacts not_ge_lt thm
+R5144:5153 Stdlib.Structures.OrdersTac OrderFacts le_antisym thm
+R5166:5175 Stdlib.Structures.OrdersTac OrderFacts <> mod
+R5279:5284 Stdlib.Structures.Orders EqLtLe <> modtype
+R5289:5300 Stdlib.Structures.OrdersTac IsTotalOrder <> modtype
+R5302:5302 Stdlib.Structures.OrdersTac O <> mod
+mod 5256:5267 <> MakeOrderTac
+R5314:5323 Stdlib.Structures.OrdersTac OrderFacts <> mod
+R5325:5325 Stdlib.Structures.OrdersTac O <> mod
+R5327:5327 Stdlib.Structures.OrdersTac P <> mod
+R5338:5351 Stdlib.Structures.Orders EqLtLeNotation <> modtype
+R5353:5353 Stdlib.Structures.OrdersTac O <> mod
+R5700:5703 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5773:5776 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5836:5836 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5838:5841 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5908:5908 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5910:5913 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5972:5974 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6041:6043 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R6101:6104 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6171:6174 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R6193:6197 Stdlib.Structures.OrdersTac MakeOrderTac le_eq def
+R6123:6127 Stdlib.Structures.OrdersTac MakeOrderTac eq_le def
+R6130:6135 Stdlib.Structures.OrdersTac MakeOrderTac eq_sym thm
+R6062:6066 Stdlib.Structures.OrdersTac MakeOrderTac lt_eq def
+R5993:5997 Stdlib.Structures.OrdersTac MakeOrderTac eq_lt def
+R6000:6005 Stdlib.Structures.OrdersTac MakeOrderTac eq_sym thm
+R5932:5937 Stdlib.Structures.OrdersTac MakeOrderTac neq_eq thm
+R5860:5865 Stdlib.Structures.OrdersTac MakeOrderTac eq_neq thm
+R5868:5873 Stdlib.Structures.OrdersTac MakeOrderTac eq_sym thm
+R5795:5802 Stdlib.Structures.OrdersTac MakeOrderTac eq_trans def
+R5722:5729 Stdlib.Structures.OrdersTac MakeOrderTac eq_trans def
+R5732:5737 Stdlib.Structures.OrdersTac MakeOrderTac eq_sym thm
+R6321:6330 Stdlib.Structures.OrdersTac MakeOrderTac interp_ord def
+R6332:6334 Stdlib.Structures.OrdersTac <> OEQ constr
+R6813:6816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6817:6821 Corelib.Init.Logic <> False ind
+R6870:6871 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6880:6880 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7381:7382 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7560:7568 Stdlib.Structures.OrdersTac MakeOrderTac not_gt_le thm
+R7529:7537 Stdlib.Structures.OrdersTac MakeOrderTac not_ge_lt thm
+R7497:7506 Stdlib.Structures.OrdersTac MakeOrderTac not_neq_eq thm
+R7457:7463 Stdlib.Structures.OrdersTac MakeOrderTac le_refl thm
+R7436:7442 Stdlib.Structures.OrdersTac MakeOrderTac eq_refl thm
+R7176:7177 Stdlib.Structures.OrdersTac O eq defax
+R7194:7195 Stdlib.Structures.OrdersTac O lt defax
+R7212:7213 Stdlib.Structures.OrdersTac O le defax
+R7310:7311 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7278:7278 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7245:7246 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6911:6912 Stdlib.Structures.OrdersTac O eq defax
+R7061:7069 Stdlib.Structures.OrdersTac MakeOrderTac not_ge_lt thm
+R7026:7034 Stdlib.Structures.OrdersTac MakeOrderTac not_gt_le thm
+R6994:6994 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6996:6997 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6839:6839 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7752:7754 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R7793:7794 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7797:7800 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7871:7874 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R7953:7956 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8041:8044 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8056:8059 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8184:8187 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8196:8197 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8200:8203 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8290:8293 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8302:8303 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8306:8309 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8440:8442 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8454:8456 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8599:8602 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8614:8616 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8762:8764 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8776:8779 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8925:8928 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8940:8943 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8988:8991 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R9034:9041 Stdlib.Structures.OrdersTac MakeOrderTac le_trans def
+R8824:8826 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8869:8879 Stdlib.Structures.OrdersTac MakeOrderTac lt_le_trans def
+R8661:8663 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8706:8716 Stdlib.Structures.OrdersTac MakeOrderTac le_lt_trans def
+R8501:8503 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R8546:8553 Stdlib.Structures.OrdersTac MakeOrderTac lt_trans def
+R8338:8346 Stdlib.Structures.OrdersTac MakeOrderTac le_neq_lt thm
+R8352:8358 Stdlib.Structures.OrdersTac MakeOrderTac neq_sym thm
+R8232:8240 Stdlib.Structures.OrdersTac MakeOrderTac le_neq_lt thm
+R8088:8097 Stdlib.Structures.OrdersTac MakeOrderTac le_antisym thm
+R7822:7828 Stdlib.Structures.OrdersTac MakeOrderTac eq_refl thm
+R7773:7781 Stdlib.Structures.OrdersTac MakeOrderTac lt_irrefl thm
+R9215:9226 Stdlib.Structures.OrdersTac MakeOrderTac <> mod
+R9258:9272 Stdlib.Structures.Orders OrderedTypeFull <> modtype
+mod 9237:9251 <> OTF_to_OrderTac
+R9290:9306 Stdlib.Structures.Orders OTF_to_TotalOrder <> mod
+R9308:9310 Stdlib.Structures.OrdersTac OTF <> mod
+mod 9284:9285 <> OTF_to_OrderTac.TO
+R9323:9334 Stdlib.Structures.OrdersTac MakeOrderTac <> mod
+R9336:9338 Stdlib.Structures.OrdersTac OTF <> mod
+R9340:9341 Stdlib.Structures.OrdersTac OTF_to_OrderTac.TO <> mod
+R9348:9362 Stdlib.Structures.OrdersTac OTF_to_OrderTac <> mod
+R9392:9402 Stdlib.Structures.Orders OrderedType <> modtype
+mod 9373:9386 <> OT_to_OrderTac
+R9421:9430 Stdlib.Structures.Orders OT_to_Full <> mod
+R9432:9433 Stdlib.Structures.OrdersTac OT <> mod
+mod 9414:9416 <> OT_to_OrderTac.OTF
+R9446:9460 Stdlib.Structures.OrdersTac OTF_to_OrderTac <> mod
+R9462:9464 Stdlib.Structures.OrdersTac OT_to_OrderTac.OTF <> mod
+R9471:9484 Stdlib.Structures.OrdersTac OT_to_OrderTac <> mod

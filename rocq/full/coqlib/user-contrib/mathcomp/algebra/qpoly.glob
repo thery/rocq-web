@@ -1,0 +1,2618 @@
+DIGEST 0af593a740e2b7dea7f9f8c87f8bd18a
+Fmathcomp.algebra.qpoly
+R23:32 HB.structures <> <> lib
+R64:72 mathcomp.boot.ssreflect <> <> lib
+R74:79 mathcomp.boot.ssrfun <> <> lib
+R81:87 mathcomp.boot.ssrbool <> <> lib
+R89:94 mathcomp.boot.eqtype <> <> lib
+R96:101 mathcomp.boot.ssrnat <> <> lib
+R103:105 mathcomp.boot.seq <> <> lib
+R107:112 mathcomp.boot.choice <> <> lib
+R144:150 mathcomp.boot.fintype <> <> lib
+R152:156 mathcomp.boot.tuple <> <> lib
+R158:163 mathcomp.boot.finfun <> <> lib
+R165:169 mathcomp.boot.bigop <> <> lib
+R171:176 mathcomp.boot.finset <> <> lib
+R178:184 mathcomp.boot.nmodule <> <> lib
+R216:241 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> <> lib
+R243:248 mathcomp.algebra.algebraic_hierarchy.divalg <> <> lib
+R250:257 mathcomp.algebra.countalg <> <> lib
+R259:264 mathcomp.algebra.finalg <> <> lib
+R296:299 mathcomp.algebra.poly <> <> lib
+R301:307 mathcomp.algebra.polydiv <> <> lib
+R309:314 mathcomp.algebra.matrix <> <> lib
+R316:324 mathcomp.algebra.mxalgebra <> <> lib
+R326:331 mathcomp.algebra.mxpoly <> <> lib
+R333:338 mathcomp.algebra.vector <> <> lib
+R2944:2955 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory <> mod
+R2965:2979 mathcomp.algebra.polydiv Pdiv.CommonRing <> mod
+R2989:3002 mathcomp.algebra.polydiv Pdiv.RingMonic <> mod
+R3012:3021 mathcomp.algebra.polydiv Pdiv.Field <> mod
+sec 3431:3435 <> NPoly
+var  3447:3447 NPoly R
+var  3468:3468 NPoly n
+R3451:3464 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+R3472:3474 Corelib.Init.Datatypes <> nat ind
+def 3490:3506 <> poly_of_size_pred
+R3519:3524 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R3526:3526 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R3525:3525 mathcomp.algebra.qpoly <> NPoly.R var
+binder 3515:3515 <> p:3
+R3537:3540 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R3531:3534 mathcomp.boot.seq <> size def
+R3536:3536 mathcomp.algebra.qpoly <> p:3 var
+R3541:3541 mathcomp.algebra.qpoly <> NPoly.n var
+R3554:3570 mathcomp.algebra.qpoly <> poly_of_size_pred def
+def 3588:3599 <> poly_of_size
+R3604:3614 Corelib.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_'|'_x_']' not
+R3616:3618 Corelib.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_'|'_x_']' not
+R3638:3638 Corelib.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_'|'_x_']' not
+binder 3615:3615 <> p:4
+R3619:3635 mathcomp.algebra.qpoly <> poly_of_size_pred def
+R3637:3637 mathcomp.algebra.qpoly <> p:4 var
+prf 3647:3669 <> npoly_subsemimod_closed
+R3673:3689 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ClosedExports subsemimod_closed abbrev
+R3691:3702 mathcomp.algebra.qpoly <> poly_of_size def
+R3767:3773 Corelib.ssr.ssrbool <> qualifE thm
+R3778:3787 mathcomp.algebra.poly <> size_poly0 thm
+R3806:3814 mathcomp.boot.ssrnat <> leq_trans thm
+R3817:3826 mathcomp.algebra.poly <> size_polyD thm
+R3837:3843 mathcomp.boot.ssrnat <> geq_max thm
+R3847:3850 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R3864:3872 mathcomp.boot.ssrnat <> leq_trans thm
+R3875:3888 mathcomp.algebra.poly <> size_scale_leq thm
+R3935:3964 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isSubSemiModClosed Build abbrev
+R3966:3966 mathcomp.algebra.qpoly <> NPoly.R var
+R3968:3973 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R3975:3975 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R3974:3974 mathcomp.algebra.qpoly <> NPoly.R var
+R3977:3993 mathcomp.algebra.qpoly <> poly_of_size_pred def
+R3999:4021 mathcomp.algebra.qpoly <> npoly_subsemimod_closed thm
+def 3905:4022 <> HB_unnamed_factory_1
+def 3905:4022 <> GRing_isSubSemiModClosed__to__GRing_isScaleClosed
+def 3905:4022 <> GRing_isSubSemiModClosed__to__Algebra_isAddClosed
+def 3905:4022 <> HB_unnamed_mixin_4
+def 3905:4022 <> qpoly_poly_of_size_pred__canonical__Algebra_AddClosed
+def 3905:4022 <> HB_unnamed_mixin_5
+def 3905:4022 <> qpoly_poly_of_size_pred__canonical__GRing_SubmodClosed
+rec 4032:4036 <> npoly
+proj 4065:4069 <> polyn
+R4040:4050 Corelib.ssr.ssrbool <> predArgType def
+R4074:4079 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R4081:4081 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R4080:4080 mathcomp.algebra.qpoly <> NPoly.R var
+R4095:4101 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R4090:4094 mathcomp.algebra.qpoly <> polyn:6 meth
+R4102:4113 mathcomp.algebra.qpoly <> poly_of_size def
+R4147:4157 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R4164:4164 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R4159:4163 mathcomp.algebra.qpoly <> polyn proj
+def 4119:4165 <> HB_unnamed_factory_6
+def 4119:4165 <> qpoly_npoly__canonical__eqtype_SubType
+prf 4174:4196 <> npoly_is_a_poly_of_size
+R4203:4207 mathcomp.algebra.qpoly <> npoly rec
+binder 4199:4199 <> p:7
+R4217:4223 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R4212:4214 mathcomp.boot.eqtype <> val abbrev
+R4216:4216 mathcomp.algebra.qpoly <> p:7 var
+R4224:4235 mathcomp.algebra.qpoly <> poly_of_size def
+prf 4314:4323 <> size_npoly
+R4330:4334 mathcomp.algebra.qpoly <> npoly rec
+binder 4326:4326 <> p:8
+R4345:4348 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R4339:4342 mathcomp.boot.seq <> size def
+R4344:4344 mathcomp.algebra.qpoly <> p:8 var
+R4349:4349 mathcomp.algebra.qpoly <> NPoly.n var
+R4366:4388 mathcomp.algebra.qpoly <> npoly_is_a_poly_of_size thm
+R4457:4467 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R4473:4479 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R4468:4472 mathcomp.algebra.qpoly <> npoly rec
+def 4429:4480 <> HB_unnamed_factory_8
+def 4429:4480 <> choice_Choice__to__choice_hasChoice
+def 4429:4480 <> choice_Choice__to__eqtype_hasDecEq
+def 4429:4480 <> HB_unnamed_mixin_11
+def 4429:4480 <> qpoly_npoly__canonical__eqtype_Equality
+def 4429:4480 <> qpoly_npoly__canonical__eqtype_SubEquality
+def 4429:4480 <> HB_unnamed_mixin_12
+def 4429:4480 <> qpoly_npoly__canonical__choice_Choice
+def 4429:4480 <> qpoly_npoly__canonical__choice_SubChoice
+R4510:4540 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubExports ::form_scope:'['_'SubChoice_isSubLSemiModule'_'of'_x_'by'_'<:'_']' not
+R4546:4552 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubExports ::form_scope:'['_'SubChoice_isSubLSemiModule'_'of'_x_'by'_'<:'_']' not
+R4541:4545 mathcomp.algebra.qpoly <> npoly rec
+def 4482:4553 <> HB_unnamed_factory_13
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__GRing_Nmodule_isLSemiModule
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__GRing_isSubLSemiModule
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_hasZero
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_AddMagma_isAddSemigroup
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_hasAdd
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_isSubBaseAddUMagma
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_BaseAddMagma_isAddMagma
+def 4482:4553 <> GRing_SubChoice_isSubLSemiModule__to__Algebra_BaseAddUMagma_isAddUMagma
+def 4482:4553 <> HB_unnamed_mixin_22
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_BaseAddMagma
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_ChoiceBaseAddMagma
+def 4482:4553 <> HB_unnamed_mixin_23
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_BaseAddUMagma
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_ChoiceBaseAddUMagma
+def 4482:4553 <> HB_unnamed_mixin_24
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_SubBaseAddUMagma
+def 4482:4553 <> HB_unnamed_mixin_25
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_AddMagma
+def 4482:4553 <> HB_unnamed_mixin_26
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_AddSemigroup
+def 4482:4553 <> HB_unnamed_mixin_27
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_AddUMagma
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_SubAddUMagma
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_Nmodule
+def 4482:4553 <> qpoly_npoly__canonical__Algebra_SubNmodule
+def 4482:4553 <> HB_unnamed_mixin_28
+def 4482:4553 <> qpoly_npoly__canonical__GRing_LSemiModule
+def 4482:4553 <> HB_unnamed_mixin_29
+def 4482:4553 <> qpoly_npoly__canonical__GRing_SubLSemiModule
+def 4567:4574 <> npoly_rV
+R4583:4586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4578:4582 mathcomp.algebra.qpoly <> npoly rec
+R4587:4590 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4592:4593 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4591:4591 mathcomp.algebra.qpoly <> NPoly.R var
+R4594:4594 mathcomp.algebra.qpoly <> NPoly.n var
+R4606:4609 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R4599:4605 mathcomp.algebra.mxpoly <> poly_rV def
+R4610:4612 mathcomp.boot.eqtype <> val abbrev
+def 4626:4632 <> rVnpoly
+R4644:4647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4636:4639 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4641:4642 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4640:4640 mathcomp.algebra.qpoly <> NPoly.R var
+R4643:4643 mathcomp.algebra.qpoly <> NPoly.n var
+R4648:4652 mathcomp.algebra.qpoly <> npoly rec
+R4675:4678 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R4657:4662 mathcomp.boot.eqtype <> insubd def
+R4669:4673 mathcomp.algebra.qpoly <> npoly rec
+R4679:4684 mathcomp.algebra.mxpoly <> rVpoly def
+R4697:4703 mathcomp.algebra.qpoly <> rVnpoly def
+R4718:4725 mathcomp.algebra.qpoly <> npoly_rV def
+prf 4737:4746 <> npoly_rV_K
+R4750:4755 Corelib.ssr.ssrfun <> cancel def
+R4766:4772 mathcomp.algebra.qpoly <> rVnpoly def
+R4757:4764 mathcomp.algebra.qpoly <> npoly_rV def
+R4801:4807 mathcomp.boot.eqtype <> val_inj thm
+R4821:4830 mathcomp.boot.eqtype <> val_insubd thm
+R4834:4840 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R4843:4851 mathcomp.algebra.poly <> size_poly thm
+R4854:4862 mathcomp.algebra.mxpoly <> poly_rV_K thm
+prf 4876:4883 <> rVnpolyK
+R4887:4892 Corelib.ssr.ssrfun <> cancel def
+R4902:4909 mathcomp.algebra.qpoly <> npoly_rV def
+R4894:4900 mathcomp.algebra.qpoly <> rVnpoly def
+R4943:4952 mathcomp.boot.eqtype <> val_insubd thm
+R4956:4962 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R4965:4973 mathcomp.algebra.poly <> size_poly thm
+R4975:4981 mathcomp.algebra.mxpoly <> rVpolyK thm
+prf 5037:5052 <> npoly_vect_axiom
+R5056:5071 mathcomp.algebra.vector MathCompCompatSemiVector.SemiVector axiom abbrev
+R5075:5079 mathcomp.algebra.qpoly <> npoly rec
+R5073:5073 mathcomp.algebra.qpoly <> NPoly.n var
+R5099:5106 mathcomp.algebra.qpoly <> npoly_rV def
+R5117:5128 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory semilinearPZ def
+R5139:5145 mathcomp.algebra.qpoly <> rVnpoly def
+R5183:5209 mathcomp.algebra.vector LSemiModule_hasFinDim Build abbrev
+R5211:5211 mathcomp.algebra.qpoly <> NPoly.R var
+R5213:5217 mathcomp.algebra.qpoly <> npoly rec
+R5221:5236 mathcomp.algebra.qpoly <> npoly_vect_axiom thm
+def 5155:5237 <> HB_unnamed_factory_30
+def 5155:5237 <> qpoly_npoly__canonical__vector_SemiVector
+R5244:5248 mathcomp.algebra.qpoly NPoly <> sec
+R5262:5278 mathcomp.algebra.qpoly <> poly_of_size_pred def
+R5297:5301 mathcomp.algebra.qpoly <> npoly rec
+R5351:5355 mathcomp.algebra.qpoly <> npoly rec
+not 5329:5329 <> ::type_scope:'{poly_'_x_x_'}'
+R5454:5470 mathcomp.algebra.qpoly <> poly_of_size_pred def
+R5491:5495 mathcomp.algebra.qpoly <> npoly rec
+R5547:5565 mathcomp.algebra.countalg CountRing.NzSemiRing.Exports countNzSemiRingType abbrev
+R5575:5588 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R5599:5605 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R5589:5594 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5596:5596 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5598:5598 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5597:5597 mathcomp.algebra.qpoly <> R:9 var
+R5595:5595 mathcomp.algebra.qpoly <> n:10 var
+sec 5517:5606 hb_instance_32 hb_instance_32
+var 5517:5606 hb_instance_32 R
+var 5517:5606 hb_instance_32 n
+def 5517:5606 <> HB_unnamed_factory_33
+def 5517:5606 <> choice_Countable__to__choice_hasChoice
+def 5517:5606 <> choice_Countable__to__eqtype_hasDecEq
+def 5517:5606 <> choice_Countable__to__choice_Choice_isCountable
+def 5517:5606 <> HB_unnamed_mixin_37
+def 5517:5606 <> qpoly_npoly__canonical__choice_Countable
+def 5517:5606 <> qpoly_npoly__canonical__choice_SubCountable
+def 5517:5606 <> qpoly_npoly__canonical__CountRing_Nmodule
+R5517:5606 mathcomp.algebra.qpoly <> <> sec
+R5640:5656 mathcomp.algebra.finalg FinRing.NzSemiRing.Exports finNzSemiRingType abbrev
+R5663:5670 mathcomp.boot.fintype <> isFinite abbrev
+R5672:5677 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5679:5679 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5681:5681 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5680:5680 mathcomp.algebra.qpoly <> R:11 var
+R5678:5678 mathcomp.algebra.qpoly <> n:12 var
+R5688:5698 mathcomp.boot.fintype <> CanIsFinite def
+R5702:5711 mathcomp.algebra.qpoly <> npoly_rV_K thm
+R5713:5713 mathcomp.algebra.qpoly <> R:11 var
+R5715:5715 mathcomp.algebra.qpoly <> n:12 var
+sec 5609:5717 hb_instance_38 hb_instance_38
+var 5609:5717 hb_instance_38 R
+var 5609:5717 hb_instance_38 n
+def 5609:5717 <> HB_unnamed_factory_39
+def 5609:5717 <> qpoly_npoly__canonical__fintype_Finite
+def 5609:5717 <> qpoly_npoly__canonical__fintype_SubFinite
+def 5609:5717 <> qpoly_npoly__canonical__FinRing_Nmodule
+R5609:5717 mathcomp.algebra.qpoly <> <> sec
+sec 5728:5742 <> SemiNPolyTheory
+var  5754:5754 SemiNPolyTheory R
+var  5775:5775 SemiNPolyTheory n
+R5758:5771 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+R5779:5781 Corelib.Init.Datatypes <> nat ind
+prf 5791:5809 <> polyn_is_semilinear
+R5813:5822 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LinearExports semilinear abbrev
+R5848:5851 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5838:5843 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5845:5845 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5847:5847 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5846:5846 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R5844:5844 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R5826:5830 mathcomp.algebra.qpoly <> polyn proj
+R5905:5928 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isSemilinear Build abbrev
+R5930:5930 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R5932:5937 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5939:5939 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5941:5941 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R5940:5940 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R5938:5938 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R5943:5948 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R5950:5950 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R5949:5949 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R5955:5959 mathcomp.algebra.qpoly <> polyn proj
+R5965:5965 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R5973:5991 mathcomp.algebra.qpoly <> polyn_is_semilinear thm
+def 5875:5992 <> HB_unnamed_factory_41
+def 5875:5992 <> GRing_isSemilinear__to__GRing_isScalable
+def 5875:5992 <> GRing_isSemilinear__to__Algebra_isNmodMorphism
+def 5875:5992 <> HB_unnamed_mixin_44
+def 5875:5992 <> qpoly_polyn__canonical__Algebra_Additive
+def 5875:5992 <> HB_unnamed_mixin_45
+def 5875:5992 <> qpoly_polyn__canonical__GRing_Linear
+def 6005:6012 <> mk_npoly
+R6022:6025 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6019:6021 Corelib.Init.Datatypes <> nat ind
+R6026:6026 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+binder 6015:6015 <> E:15
+R6031:6036 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6038:6038 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6040:6040 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6039:6039 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6037:6037 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6048:6052 mathcomp.algebra.qpoly <> NPoly constr
+R6054:6054 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6059:6065 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R6067:6069 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R6071:6072 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R6070:6070 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+binder 6066:6066 <> i:16
+R6073:6073 mathcomp.algebra.qpoly <> E:15 var
+R6075:6075 mathcomp.algebra.qpoly <> i:16 var
+R6079:6087 mathcomp.algebra.poly <> size_poly thm
+prf 6101:6111 <> size_npoly0
+R6134:6137 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R6115:6118 mathcomp.boot.seq <> size def
+R6125:6130 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6132:6132 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6131:6131 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6138:6138 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6159:6168 mathcomp.algebra.poly <> size_poly0 thm
+def 6188:6193 <> npoly0
+R6198:6202 mathcomp.algebra.qpoly <> NPoly constr
+R6205:6215 mathcomp.algebra.qpoly <> size_npoly0 thm
+prf 6225:6234 <> npolyp_key
+R6238:6241 Corelib.Init.Datatypes <> unit ind
+R6258:6259 Corelib.Init.Datatypes <> tt constr
+def 6278:6283 <> npolyp
+R6295:6298 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6287:6292 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6294:6294 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6293:6293 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6299:6304 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6306:6306 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6308:6308 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6307:6307 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6305:6305 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6315:6325 Corelib.ssr.ssreflect <> locked_with def
+R6347:6351 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R6357:6357 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R6339:6346 mathcomp.algebra.qpoly <> mk_npoly canonstruc
+R6352:6354 mathcomp.boot.seq <> nth def
+R6327:6336 mathcomp.algebra.qpoly <> npolyp_key thm
+def 6373:6384 <> npoly_of_seq
+R6395:6398 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R6389:6394 mathcomp.algebra.qpoly <> npolyp def
+R6399:6402 mathcomp.algebra.poly <> Poly def
+prf 6412:6417 <> npolyP
+R6426:6431 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6433:6433 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6435:6435 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6434:6434 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6432:6432 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+binder 6420:6420 <> p:17
+binder 6422:6422 <> q:18
+R6458:6462 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6447:6450 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R6440:6442 mathcomp.boot.seq <> nth def
+R6446:6446 mathcomp.algebra.qpoly <> p:17 var
+R6451:6453 mathcomp.boot.seq <> nth def
+R6457:6457 mathcomp.algebra.qpoly <> q:18 var
+R6464:6466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6463:6463 mathcomp.algebra.qpoly <> p:17 var
+R6467:6467 mathcomp.algebra.qpoly <> q:18 var
+R6491:6495 mathcomp.algebra.poly <> polyP thm
+R6497:6503 mathcomp.boot.eqtype <> val_inj thm
+prf 6522:6532 <> coef_npolyp
+R6539:6544 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6546:6546 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6545:6545 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+binder 6535:6535 <> p:19
+binder 6549:6549 <> i:20
+R6566:6568 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6553:6553 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R6562:6564 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R6554:6559 mathcomp.algebra.qpoly <> npolyp def
+R6561:6561 mathcomp.algebra.qpoly <> p:19 var
+R6565:6565 mathcomp.algebra.qpoly <> i:20 var
+R6569:6571 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R6577:6582 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R6587:6592 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R6573:6575 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R6572:6572 mathcomp.algebra.qpoly <> i:20 var
+R6576:6576 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6584:6585 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R6583:6583 mathcomp.algebra.qpoly <> p:19 var
+R6586:6586 mathcomp.algebra.qpoly <> i:20 var
+R6615:6620 mathcomp.algebra.qpoly <> npolyp def
+R6622:6627 Corelib.ssr.ssreflect <> unlock thm
+R6632:6640 mathcomp.algebra.poly <> coef_poly thm
+prf 6655:6668 <> big_coef_npoly
+R6675:6680 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6682:6682 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6684:6684 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R6683:6683 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6681:6681 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+binder 6671:6671 <> p:21
+binder 6687:6687 <> i:22
+R6697:6700 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6692:6695 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R6691:6691 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6696:6696 mathcomp.algebra.qpoly <> i:22 var
+R6705:6707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6702:6703 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R6701:6701 mathcomp.algebra.qpoly <> p:21 var
+R6704:6704 mathcomp.algebra.qpoly <> i:22 var
+R6743:6753 mathcomp.boot.seq <> nth_default thm
+R6759:6767 mathcomp.boot.ssrnat <> leq_trans thm
+R6779:6788 mathcomp.algebra.qpoly <> size_npoly thm
+prf 6803:6809 <> npolypK
+R6816:6821 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6823:6823 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6822:6822 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+binder 6812:6812 <> p:23
+R6839:6842 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6834:6837 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R6828:6831 mathcomp.boot.seq <> size def
+R6833:6833 mathcomp.algebra.qpoly <> p:23 var
+R6838:6838 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+R6851:6853 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6855:6858 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6859:6864 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6866:6866 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R6865:6865 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R6843:6848 mathcomp.algebra.qpoly <> npolyp def
+R6850:6850 mathcomp.algebra.qpoly <> p:23 var
+R6854:6854 mathcomp.algebra.qpoly <> p:23 var
+R6894:6898 mathcomp.algebra.poly <> polyP thm
+R6913:6923 mathcomp.algebra.qpoly <> coef_npolyp thm
+R6970:6980 mathcomp.boot.seq <> nth_default thm
+R6984:6992 mathcomp.boot.ssrnat <> leq_trans thm
+R6956:6959 mathcomp.boot.ssrnat <> ltnP thm
+prf 7012:7020 <> coefn_sum
+binder 7023:7023 <> I:24
+R7038:7040 mathcomp.boot.seq <> seq abbrev
+R7042:7042 mathcomp.algebra.qpoly <> I:24 var
+binder 7034:7034 <> r:25
+R7050:7053 Corelib.ssr.ssrbool <> pred def
+R7055:7055 mathcomp.algebra.qpoly <> I:24 var
+binder 7046:7046 <> P:26
+R7066:7069 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7065:7065 mathcomp.algebra.qpoly <> I:24 var
+R7070:7075 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7077:7077 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7079:7079 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7078:7078 mathcomp.algebra.qpoly <> SemiNPolyTheory.R var
+R7076:7076 mathcomp.algebra.qpoly <> SemiNPolyTheory.n var
+binder 7061:7061 <> F:27
+R7087:7089 Corelib.Init.Datatypes <> nat ind
+binder 7083:7083 <> k:28
+R7124:7126 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7096:7096 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R7120:7122 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R7097:7102 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7104:7107 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7109:7111 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7115:7116 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7108:7108 mathcomp.algebra.qpoly <> r:25 var
+binder 7103:7103 <> i:29
+binder 7103:7103 <> i:30
+binder 7103:7103 <> i:31
+R7112:7112 mathcomp.algebra.qpoly <> P:26 var
+R7114:7114 mathcomp.algebra.qpoly <> i:29 var
+R7117:7117 mathcomp.algebra.qpoly <> F:27 var
+R7119:7119 mathcomp.algebra.qpoly <> i:29 var
+R7123:7123 mathcomp.algebra.qpoly <> k:28 var
+R7127:7132 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7134:7137 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7139:7141 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7145:7146 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R7138:7138 mathcomp.algebra.qpoly <> r:25 var
+binder 7133:7133 <> i:32
+binder 7133:7133 <> i:33
+binder 7133:7133 <> i:34
+R7142:7142 mathcomp.algebra.qpoly <> P:26 var
+R7144:7144 mathcomp.algebra.qpoly <> i:32 var
+R7147:7147 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R7151:7153 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R7148:7148 mathcomp.algebra.qpoly <> F:27 var
+R7150:7150 mathcomp.algebra.qpoly <> i:32 var
+R7154:7154 mathcomp.algebra.qpoly <> k:28 var
+R7176:7184 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddf_sum def
+R7190:7197 mathcomp.algebra.poly <> coef_sum thm
+R7210:7224 mathcomp.algebra.qpoly SemiNPolyTheory <> sec
+R7237:7244 mathcomp.algebra.qpoly <> mk_npoly canonstruc
+R7265:7270 mathcomp.algebra.qpoly <> npolyp def
+sec 7290:7300 <> NPolyTheory
+var 7315:7315 NPolyTheory R
+var 7332:7332 NPolyTheory n
+R7319:7328 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing.Exports nzRingType abbrev
+R7336:7338 Corelib.Init.Datatypes <> nat ind
+prf 7348:7364 <> npoly_oppr_closed
+R7368:7378 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ClosedExports oppr_closed abbrev
+R7382:7393 mathcomp.algebra.qpoly <> poly_of_size def
+R7395:7395 mathcomp.algebra.qpoly <> NPolyTheory.R var
+R7397:7397 mathcomp.algebra.qpoly <> NPolyTheory.n var
+R7432:7438 Corelib.ssr.ssrbool <> qualifE thm
+R7442:7451 mathcomp.algebra.poly <> size_polyN thm
+R7490:7512 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.isOppClosed Build abbrev
+R7514:7519 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R7521:7521 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R7520:7520 mathcomp.algebra.qpoly <> NPolyTheory.R var
+R7525:7541 mathcomp.algebra.qpoly <> poly_of_size_pred def
+R7543:7543 mathcomp.algebra.qpoly <> NPolyTheory.R var
+R7545:7545 mathcomp.algebra.qpoly <> NPolyTheory.n var
+R7548:7564 mathcomp.algebra.qpoly <> npoly_oppr_closed thm
+def 7460:7565 <> HB_unnamed_factory_46
+def 7460:7565 <> qpoly_poly_of_size_pred__canonical__Algebra_OppClosed
+def 7460:7565 <> qpoly_poly_of_size_pred__canonical__Algebra_ZmodClosed
+R7596:7623 mathcomp.boot.nmodule Algebra.SubExports ::form_scope:'['_'SubNmodule_isSubZmodule'_'of'_x_'by'_'<:'_']' not
+R7633:7639 mathcomp.boot.nmodule Algebra.SubExports ::form_scope:'['_'SubNmodule_isSubZmodule'_'of'_x_'by'_'<:'_']' not
+R7624:7628 mathcomp.algebra.qpoly <> npoly rec
+R7632:7632 mathcomp.algebra.qpoly <> NPolyTheory.n var
+R7630:7630 mathcomp.algebra.qpoly <> NPolyTheory.R var
+def 7568:7640 <> HB_unnamed_factory_48
+def 7568:7640 <> Algebra_SubNmodule_isSubZmodule__to__Algebra_BaseZmoduleNmodule_isZmodule
+def 7568:7640 <> Algebra_SubNmodule_isSubZmodule__to__Algebra_hasOpp
+def 7568:7640 <> HB_unnamed_mixin_51
+def 7568:7640 <> qpoly_npoly__canonical__Algebra_BaseZmodule
+def 7568:7640 <> HB_unnamed_mixin_52
+def 7568:7640 <> qpoly_npoly__canonical__Algebra_Zmodule
+def 7568:7640 <> qpoly_npoly__canonical__Algebra_SubZmodule
+def 7568:7640 <> qpoly_npoly__canonical__GRing_Lmodule
+def 7568:7640 <> qpoly_npoly__canonical__vector_Vector
+def 7568:7640 <> qpoly_npoly__canonical__GRing_SubLmodule
+R7647:7657 mathcomp.algebra.qpoly NPolyTheory <> sec
+R7691:7705 mathcomp.algebra.countalg CountRing.NzRing.Exports countNzRingType abbrev
+R7713:7728 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.Zmodule on abbrev
+R7730:7735 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7737:7737 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7739:7739 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7738:7738 mathcomp.algebra.qpoly <> R:39 var
+R7736:7736 mathcomp.algebra.qpoly <> n:40 var
+sec 7661:7740 hb_instance_53 hb_instance_53
+var 7661:7740 hb_instance_53 R
+var 7661:7740 hb_instance_53 n
+def 7661:7740 <> HB_unnamed_factory_54
+def 7661:7740 <> Algebra_Zmodule__to__choice_hasChoice
+def 7661:7740 <> Algebra_Zmodule__to__eqtype_hasDecEq
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_hasOpp
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_hasZero
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_hasAdd
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_BaseZmoduleNmodule_isZmodule
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_BaseAddUMagma_isAddUMagma
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_BaseAddMagma_isAddMagma
+def 7661:7740 <> Algebra_Zmodule__to__Algebra_AddMagma_isAddSemigroup
+def 7661:7740 <> qpoly_npoly__canonical__CountRing_Zmodule
+R7661:7740 mathcomp.algebra.qpoly <> <> sec
+R7774:7786 mathcomp.algebra.finalg FinRing.NzRing.Exports finNzRingType abbrev
+R7794:7809 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.Zmodule on abbrev
+R7811:7816 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7818:7818 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7820:7820 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7819:7819 mathcomp.algebra.qpoly <> R:41 var
+R7817:7817 mathcomp.algebra.qpoly <> n:42 var
+sec 7743:7821 hb_instance_64 hb_instance_64
+var 7743:7821 hb_instance_64 R
+var 7743:7821 hb_instance_64 n
+def 7743:7821 <> HB_unnamed_factory_65
+def 7743:7821 <> Algebra_Zmodule__to__choice_hasChoice__67
+def 7743:7821 <> Algebra_Zmodule__to__eqtype_hasDecEq__69
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_hasOpp__71
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_hasZero__73
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_hasAdd__75
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_BaseZmoduleNmodule_isZmodule__77
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_BaseAddUMagma_isAddUMagma__79
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_BaseAddMagma_isAddMagma__81
+def 7743:7821 <> Algebra_Zmodule__to__Algebra_AddMagma_isAddSemigroup__83
+def 7743:7821 <> qpoly_npoly__canonical__FinRing_Zmodule
+def 7743:7821 <> qpoly_npoly__canonical__FinRing_Lmodule
+R7743:7821 mathcomp.algebra.qpoly <> <> sec
+sec 7832:7849 <> FinSemiNPolyTheory
+var 7862:7862 FinSemiNPolyTheory R
+R7866:7882 mathcomp.algebra.finalg FinRing.NzSemiRing.Exports finNzSemiRingType abbrev
+var 7894:7894 FinSemiNPolyTheory n
+R7898:7900 Corelib.Init.Datatypes <> nat ind
+R7924:7929 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7931:7931 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7933:7933 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7932:7932 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.R var
+R7930:7930 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+def 7948:7957 <> npoly_enum
+R7961:7963 mathcomp.boot.seq <> seq abbrev
+R7965:7970 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7972:7972 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7974:7974 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R7973:7973 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.R var
+R7971:7971 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R7984:7984 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R7993:7995 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R8023:8026 mathcomp.boot.seq <> pmap def
+R8034:8038 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R8067:8069 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R8089:8089 mathcomp.boot.fintype <> ::seq_scope:'['_'seq'_x_'|'_x_']' not
+R8076:8078 mathcomp.boot.finfun <> ::type_scope:x_'^'_x not
+R8080:8082 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R8075:8075 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.R var
+binder 8070:8070 <> c:48
+binder 8070:8088 <> c:49
+R8039:8045 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R8047:8049 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R8054:8055 mathcomp.algebra.poly <> ::ring_scope:'\poly_'_'('_x_'<'_x_')'_x not
+R8051:8053 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+binder 8046:8046 <> i:50
+R8056:8056 mathcomp.algebra.qpoly <> c:48 var
+R8059:8063 mathcomp.boot.fintype <> inord def
+R8065:8065 mathcomp.algebra.qpoly <> i:50 var
+binder 8070:8070 <> c:51
+binder 8070:8088 <> c:52
+R8028:8032 mathcomp.boot.eqtype <> insub def
+R8002:8005 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R8014:8014 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R8006:8011 mathcomp.algebra.qpoly <> npoly0 def
+prf 8099:8113 <> npoly_enum_uniq
+R8117:8120 mathcomp.boot.seq <> uniq def
+R8122:8131 mathcomp.algebra.qpoly <> npoly_enum def
+R8150:8159 mathcomp.algebra.qpoly <> npoly_enum def
+R8168:8168 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R8189:8201 mathcomp.boot.seq <> pmap_sub_uniq thm
+R8206:8217 mathcomp.boot.seq <> map_inj_uniq thm
+R8244:8252 mathcomp.boot.fintype <> enum_uniq thm
+R8264:8268 mathcomp.boot.finfun <> ffunP thm
+R8286:8291 Corelib.ssr.ssrfun <> congr1 def
+R8302:8307 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R8309:8309 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+binder 8298:8298 <> p:53
+R8315:8316 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R8314:8314 mathcomp.algebra.qpoly <> p:53 var
+R8342:8350 mathcomp.algebra.poly <> coef_poly thm
+R8352:8358 mathcomp.boot.fintype <> ltn_ord thm
+R8360:8368 mathcomp.boot.fintype <> inord_val thm
+prf 8383:8396 <> mem_npoly_enum
+binder 8398:8398 <> p:54
+R8403:8407 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R8402:8402 mathcomp.algebra.qpoly <> p:54 var
+R8408:8417 mathcomp.algebra.qpoly <> npoly_enum def
+R8436:8445 mathcomp.algebra.qpoly <> npoly_enum def
+R8454:8454 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R8512:8518 mathcomp.boot.seq <> in_cons thm
+R8521:8527 mathcomp.boot.eqtype <> val_eqE thm
+R8533:8546 mathcomp.algebra.poly <> size_poly_leq0 thm
+R8555:8558 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R8549:8552 mathcomp.boot.seq <> size def
+R8573:8584 mathcomp.boot.seq <> mem_pmap_sub thm
+R8593:8596 mathcomp.boot.seq <> mapP thm
+R8607:8612 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_':'_x_'=>'_x_']' not
+R8614:8616 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_':'_x_'=>'_x_']' not
+R8621:8624 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_':'_x_'=>'_x_']' not
+R8629:8629 mathcomp.boot.finfun <> ::function_scope:'['_'ffun'_x_':'_x_'=>'_x_']' not
+R8617:8619 mathcomp.boot.fintype <> :::'''I_'_x not
+binder 8613:8613 <> i:55
+R8626:8627 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R8628:8628 mathcomp.algebra.qpoly <> i:55 var
+R8649:8656 mathcomp.boot.fintype <> mem_enum thm
+binder 8613:8613 <> i:56
+R8628:8628 mathcomp.algebra.qpoly <> i:56 var
+R8665:8669 mathcomp.algebra.poly <> polyP thm
+R8685:8693 mathcomp.algebra.poly <> coef_poly thm
+R8743:8747 mathcomp.boot.finfun <> ffunE thm
+R8752:8757 mathcomp.boot.fintype <> inordK thm
+R8720:8723 mathcomp.boot.ssrnat <> ltnP thm
+R8771:8781 mathcomp.boot.seq <> nth_default thm
+R8789:8797 mathcomp.boot.ssrnat <> leq_trans thm
+R8811:8820 mathcomp.algebra.qpoly <> size_npoly thm
+prf 8835:8844 <> card_npoly
+R8861:8863 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8848:8849 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8860:8860 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8850:8855 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R8857:8857 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R8859:8859 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R8858:8858 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.R var
+R8856:8856 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R8869:8871 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R8865:8866 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8868:8868 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8867:8867 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.R var
+R8872:8872 mathcomp.algebra.qpoly <> FinSemiNPolyTheory.n var
+R8895:8904 mathcomp.boot.finset <> card_imset thm
+R8909:8915 Corelib.ssr.ssrfun <> can_inj thm
+R8919:8928 mathcomp.algebra.qpoly <> npoly_rV_K thm
+R8937:8944 mathcomp.boot.fintype <> eq_cardT thm
+R8973:8977 mathcomp.boot.fintype <> cardT thm
+R8982:8988 mathcomp.algebra.matrix <> card_mx thm
+R8990:8994 mathcomp.boot.ssrnat <> mul1n thm
+R9016:9021 mathcomp.boot.finset <> imsetP thm
+R9032:9038 mathcomp.algebra.qpoly <> rVnpoly def
+R9053:9060 mathcomp.algebra.qpoly <> rVnpolyK thm
+R9076:9093 mathcomp.algebra.qpoly FinSemiNPolyTheory <> sec
+sec 9105:9115 <> Irreducible
+var 9128:9128 Irreducible R
+R9132:9145 mathcomp.algebra.finalg FinRing.IntegralDomain.Exports finIdomainType abbrev
+var 9157:9157 Irreducible p
+R9161:9166 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R9168:9168 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R9167:9167 mathcomp.algebra.qpoly <> Irreducible.R var
+def 9183:9194 <> irreducibleb
+R9202:9202 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9213:9219 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9204:9206 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R9207:9210 mathcomp.boot.seq <> size def
+R9212:9212 mathcomp.algebra.qpoly <> Irreducible.p var
+R9220:9227 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R9229:9231 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R9287:9287 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R9232:9238 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R9250:9251 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R9253:9253 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R9252:9252 mathcomp.algebra.qpoly <> Irreducible.R var
+R9239:9239 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R9246:9249 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R9240:9243 mathcomp.boot.seq <> size def
+R9245:9245 mathcomp.algebra.qpoly <> Irreducible.p var
+binder 9228:9228 <> q:61
+R9254:9255 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R9269:9274 Corelib.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R9286:9286 Corelib.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R9257:9261 mathcomp.algebra.polydiv Pdiv.CommonRing rdvdp def
+R9265:9265 mathcomp.algebra.qpoly <> Irreducible.p var
+R9263:9263 mathcomp.algebra.qpoly <> q:61 var
+R9281:9284 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R9275:9278 mathcomp.boot.seq <> size def
+R9280:9280 mathcomp.algebra.qpoly <> q:61 var
+binder 9228:9228 <> q:62
+binder 9228:9228 <> q:63
+prf 9300:9311 <> irreducibleP
+R9315:9321 Corelib.Init.Datatypes <> reflect ind
+R9344:9355 mathcomp.algebra.qpoly <> irreducibleb def
+R9324:9339 mathcomp.algebra.polydiv Pdiv.Field irreducible_poly def
+R9341:9341 mathcomp.algebra.qpoly <> Irreducible.p var
+R9374:9385 mathcomp.algebra.qpoly <> irreducibleb def
+R9388:9403 mathcomp.algebra.polydiv Pdiv.Field irreducible_poly def
+R9414:9417 Corelib.ssr.ssrbool <> iffP thm
+R9419:9421 Corelib.ssr.ssrbool <> idP thm
+R9429:9432 Corelib.ssr.ssrbool <> andP thm
+R9438:9445 mathcomp.boot.fintype <> :::'''forall_'_x not
+R9446:9451 Corelib.ssr.ssrbool <> implyP thm
+R9509:9512 mathcomp.boot.seq <> size def
+R9495:9497 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R9489:9492 mathcomp.boot.seq <> size def
+R9494:9494 mathcomp.algebra.qpoly <> Irreducible.p var
+R9553:9565 mathcomp.algebra.poly <> size_poly_eq0 thm
+R9574:9577 mathcomp.boot.seq <> size def
+R9535:9538 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R9534:9534 mathcomp.algebra.qpoly <> Irreducible.p var
+R9624:9636 mathcomp.algebra.polydiv Pdiv.Field dvdp_size_eqp thm
+R9641:9647 mathcomp.boot.ssrnat <> eqn_leq thm
+R9649:9656 mathcomp.algebra.polydiv Pdiv.Field dvdp_leq thm
+R9672:9679 Corelib.ssr.ssrbool <> contraNT def
+R9699:9704 mathcomp.boot.ssrnat <> ltnNge thm
+R9773:9776 mathcomp.boot.ssrnat <> ltnS thm
+R9778:9783 mathcomp.boot.ssrnat <> prednK thm
+R9742:9745 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R9736:9739 mathcomp.boot.seq <> size def
+R9746:9746 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R9753:9756 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R9747:9750 mathcomp.boot.seq <> size def
+R9752:9752 mathcomp.algebra.qpoly <> Irreducible.p var
+R9796:9813 mathcomp.algebra.polydiv Pdiv.Idomain dvdpE thm
+R9843:9847 mathcomp.algebra.qpoly <> NPoly constr
+R9876:9884 mathcomp.boot.ssrnat <> leq_eqVlt thm
+R9886:9889 mathcomp.boot.ssrnat <> ltnS thm
+R9913:9926 mathcomp.algebra.poly <> size_poly_leq0 thm
+R9895:9897 Corelib.ssr.ssrbool <> orP thm
+R9932:9934 mathcomp.boot.eqtype <> eqP def
+R9957:9974 mathcomp.algebra.polydiv Pdiv.Idomain dvdpE thm
+R9982:9986 mathcomp.algebra.polydiv Pdiv.Field dvd0p thm
+R9989:9993 Corelib.ssr.ssrbool <> negPf thm
+R10048:10051 mathcomp.boot.seq <> size def
+R10034:10036 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R10028:10031 mathcomp.boot.seq <> size def
+R10033:10033 mathcomp.algebra.qpoly <> Irreducible.p var
+R10078:10085 mathcomp.boot.fintype <> :::'''forall_'_x not
+R10086:10091 Corelib.ssr.ssrbool <> implyP thm
+R10111:10128 mathcomp.algebra.polydiv Pdiv.Idomain dvdpE thm
+R10195:10199 Corelib.ssr.ssrbool <> boolP thm
+R10208:10211 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R10202:10205 mathcomp.boot.seq <> size def
+R10147:10149 mathcomp.boot.eqtype <> eqP def
+R10173:10180 mathcomp.algebra.polydiv Pdiv.Field eqp_size thm
+R10261:10264 mathcomp.boot.ssrnat <> ltnS thm
+R10266:10271 mathcomp.boot.ssrnat <> prednK thm
+R10274:10277 mathcomp.boot.ssrnat <> ltnn thm
+R10229:10238 mathcomp.algebra.qpoly <> size_npoly thm
+R10290:10300 mathcomp.algebra.qpoly Irreducible <> sec
+sec 10312:10317 <> Vspace
+var 10331:10331 Vspace K
+var 10347:10347 Vspace n
+R10335:10343 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Field.Exports fieldType abbrev
+R10351:10353 Corelib.Init.Datatypes <> nat ind
+prf 10364:10372 <> dim_polyn
+R10410:10412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10376:10381 mathcomp.algebra.vector <> ::nat_scope:'\dim'_x not
+R10409:10409 mathcomp.algebra.vector <> ::nat_scope:'\dim'_x not
+R10390:10397 mathcomp.algebra.vector VectorExports ::type_scope:'{'_'vspace'_x_'}' not
+R10408:10408 mathcomp.algebra.vector VectorExports ::type_scope:'{'_'vspace'_x_'}' not
+R10398:10403 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10405:10405 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10407:10407 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10406:10406 mathcomp.algebra.qpoly <> Vspace.K var
+R10404:10404 mathcomp.algebra.qpoly <> Vspace.n var
+R10382:10386 mathcomp.algebra.vector <> fullv def
+R10413:10413 mathcomp.algebra.qpoly <> Vspace.n var
+R10435:10437 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R10439:10448 mathcomp.algebra.mxalgebra <> mxrank_gen thm
+R10450:10456 mathcomp.algebra.mxalgebra <> mxrank1 thm
+def 10476:10481 <> npolyX
+R10486:10503 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R10485:10485 mathcomp.algebra.qpoly <> Vspace.n var
+R10494:10499 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10501:10501 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10503:10503 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R10502:10502 mathcomp.algebra.qpoly <> Vspace.K var
+R10500:10500 mathcomp.algebra.qpoly <> Vspace.n var
+R10508:10514 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R10528:10530 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R10532:10534 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R10536:10536 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R10535:10535 mathcomp.algebra.qpoly <> Vspace.n var
+binder 10531:10531 <> i:68
+R10515:10520 mathcomp.algebra.qpoly <> npolyp def
+R10524:10526 mathcomp.algebra.poly <> ::ring_scope:'''X^'_x not
+R10527:10527 mathcomp.algebra.qpoly <> i:68 var
+R10522:10522 mathcomp.algebra.qpoly <> Vspace.n var
+R10563:10566 mathcomp.boot.tuple <> tnth def
+R10568:10573 mathcomp.algebra.qpoly <> npolyX def
+not 10548:10548 Vspace :::'''nX^'_x
+prf 10586:10592 <> npolyXE
+R10599:10601 mathcomp.boot.fintype <> :::'''I_'_x not
+R10602:10602 mathcomp.algebra.qpoly <> Vspace.n var
+binder 10595:10595 <> i:69
+R10612:10614 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10619:10622 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10623:10628 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R10630:10630 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R10607:10610 mathcomp.algebra.qpoly Vspace :::'''nX^'_x not
+R10611:10611 mathcomp.algebra.qpoly <> i:69 var
+R10615:10617 mathcomp.algebra.poly <> ::ring_scope:'''X^'_x not
+R10618:10618 mathcomp.algebra.qpoly <> i:69 var
+R10651:10658 mathcomp.boot.tuple <> tnth_map thm
+R10660:10673 mathcomp.boot.tuple <> tnth_ord_tuple thm
+R10675:10681 mathcomp.algebra.qpoly <> npolypK thm
+R10686:10696 mathcomp.algebra.poly <> size_polyXn thm
+prf 10711:10720 <> nth_npolyX
+R10727:10729 mathcomp.boot.fintype <> :::'''I_'_x not
+R10730:10730 mathcomp.algebra.qpoly <> Vspace.n var
+binder 10723:10723 <> i:70
+R10744:10746 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10741:10742 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R10735:10740 mathcomp.algebra.qpoly <> npolyX def
+R10743:10743 mathcomp.algebra.qpoly <> i:70 var
+R10747:10750 mathcomp.algebra.qpoly Vspace :::'''nX^'_x not
+R10751:10751 mathcomp.algebra.qpoly <> i:70 var
+R10773:10780 mathcomp.boot.tuple <> tnth_nth thm
+prf 10795:10805 <> npolyX_free
+R10809:10812 mathcomp.algebra.vector <> free def
+R10814:10819 mathcomp.algebra.qpoly <> npolyX def
+R10835:10839 mathcomp.algebra.vector <> freeP thm
+R10868:10873 mathcomp.algebra.qpoly <> npolyP thm
+R10907:10915 mathcomp.boot.bigop <> big_morph thm
+R10927:10929 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R10935:10942 mathcomp.algebra.poly <> coef_sum thm
+R10944:10948 mathcomp.algebra.poly <> coef0 thm
+R10960:10964 mathcomp.boot.bigop <> bigD1 thm
+R10970:10973 mathcomp.boot.bigop <> big1 thm
+R10979:10983 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addr0 def
+R10986:10990 mathcomp.algebra.poly <> coefZ thm
+R10994:11000 mathcomp.boot.seq <> nth_map thm
+R11008:11016 mathcomp.boot.seq <> size_iota thm
+R11040:11049 mathcomp.algebra.qpoly <> nth_npolyX thm
+R11051:11057 mathcomp.algebra.qpoly <> npolyXE thm
+R11059:11064 mathcomp.algebra.poly <> coefXn thm
+R11066:11069 mathcomp.boot.eqtype <> eqxx abbrev
+R11071:11075 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R11097:11103 mathcomp.boot.eqtype <> val_eqE thm
+R11130:11139 mathcomp.algebra.qpoly <> nth_npolyX thm
+R11141:11147 mathcomp.algebra.qpoly <> npolyXE thm
+R11149:11153 mathcomp.algebra.poly <> coefZ thm
+R11155:11160 mathcomp.algebra.poly <> coefXn thm
+R11162:11167 mathcomp.boot.eqtype <> eq_sym thm
+R11170:11174 Corelib.ssr.ssrbool <> negPf thm
+R11184:11188 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+prf 11203:11213 <> npolyX_full
+R11217:11224 mathcomp.algebra.vector <> basis_of def
+R11232:11237 mathcomp.algebra.qpoly <> npolyX def
+R11226:11230 mathcomp.algebra.vector <> fullv def
+R11258:11267 mathcomp.algebra.vector <> basisEfree thm
+R11269:11279 mathcomp.algebra.qpoly <> npolyX_free thm
+R11281:11285 mathcomp.algebra.vector <> subvf thm
+R11287:11294 mathcomp.boot.seq <> size_map thm
+R11296:11308 mathcomp.boot.fintype <> size_enum_ord thm
+R11310:11318 mathcomp.algebra.qpoly <> dim_polyn thm
+prf 11336:11348 <> npolyX_coords
+R11355:11360 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R11362:11362 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R11364:11364 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R11363:11363 mathcomp.algebra.qpoly <> Vspace.K var
+R11361:11361 mathcomp.algebra.qpoly <> Vspace.n var
+binder 11351:11351 <> p:71
+binder 11367:11367 <> i:72
+R11387:11389 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11371:11375 mathcomp.algebra.vector <> coord def
+R11386:11386 mathcomp.algebra.qpoly <> p:71 var
+R11384:11384 mathcomp.algebra.qpoly <> i:72 var
+R11377:11382 mathcomp.algebra.qpoly <> npolyX def
+R11391:11392 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R11390:11390 mathcomp.algebra.qpoly <> p:71 var
+R11393:11393 mathcomp.algebra.qpoly <> i:72 var
+R11417:11419 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R11422:11432 mathcomp.algebra.vector <> coord_basis thm
+R11434:11444 mathcomp.algebra.qpoly <> npolyX_full thm
+R11448:11452 mathcomp.algebra.vector <> memvf thm
+R11457:11465 mathcomp.algebra.qpoly <> coefn_sum thm
+R11477:11481 mathcomp.boot.bigop <> bigD1 thm
+R11490:11494 mathcomp.algebra.poly <> coefZ thm
+R11496:11505 mathcomp.algebra.qpoly <> nth_npolyX thm
+R11507:11513 mathcomp.algebra.qpoly <> npolyXE thm
+R11515:11520 mathcomp.algebra.poly <> coefXn thm
+R11522:11525 mathcomp.boot.eqtype <> eqxx abbrev
+R11527:11531 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R11533:11536 mathcomp.boot.bigop <> big1 thm
+R11539:11543 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addr0 def
+R11567:11573 mathcomp.boot.eqtype <> val_eqE thm
+R11600:11604 mathcomp.algebra.poly <> coefZ thm
+R11606:11615 mathcomp.algebra.qpoly <> nth_npolyX thm
+R11617:11623 mathcomp.algebra.qpoly <> npolyXE thm
+R11625:11630 mathcomp.algebra.poly <> coefXn thm
+R11632:11637 mathcomp.boot.eqtype <> eq_sym thm
+R11640:11644 Corelib.ssr.ssrbool <> negPf thm
+R11654:11658 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+prf 11673:11682 <> npolyX_gen
+R11689:11694 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R11696:11696 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R11695:11695 mathcomp.algebra.qpoly <> Vspace.K var
+binder 11685:11685 <> p:73
+R11716:11721 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11708:11711 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R11702:11705 mathcomp.boot.seq <> size def
+R11707:11707 mathcomp.algebra.qpoly <> p:73 var
+R11712:11712 mathcomp.algebra.qpoly <> Vspace.n var
+R11723:11725 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11722:11722 mathcomp.algebra.qpoly <> p:73 var
+R11726:11731 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R11733:11735 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R11737:11738 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R11736:11736 mathcomp.algebra.qpoly <> Vspace.n var
+binder 11732:11732 <> i:74
+binder 11732:11732 <> i:75
+binder 11732:11732 <> i:76
+R11743:11746 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R11740:11741 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R11739:11739 mathcomp.algebra.qpoly <> p:73 var
+R11742:11742 mathcomp.algebra.qpoly <> i:74 var
+R11747:11750 mathcomp.algebra.qpoly Vspace :::'''nX^'_x not
+R11751:11751 mathcomp.algebra.qpoly <> i:74 var
+R11786:11792 mathcomp.algebra.qpoly <> npolypK thm
+R11796:11796 mathcomp.algebra.qpoly <> Vspace.n var
+R11826:11828 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R11831:11841 mathcomp.algebra.vector <> coord_basis thm
+R11843:11853 mathcomp.algebra.qpoly <> npolyX_full thm
+R11857:11861 mathcomp.algebra.vector <> memvf thm
+R11812:11817 mathcomp.algebra.qpoly <> npolyp def
+R11877:11885 mathcomp.boot.bigop <> big_morph thm
+R11897:11899 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R11906:11914 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddf_sum def
+R11927:11933 mathcomp.boot.bigop <> eq_bigr thm
+R11950:11962 mathcomp.algebra.qpoly <> npolyX_coords thm
+R11968:11977 mathcomp.algebra.qpoly <> nth_npolyX thm
+R11979:11985 mathcomp.algebra.qpoly <> npolyXE thm
+sec 12002:12009 Vspace lagrange
+var 12024:12024 Vspace.lagrange x
+R12031:12034 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12028:12030 Corelib.Init.Datatypes <> nat ind
+R12035:12035 mathcomp.algebra.qpoly <> Vspace.K var
+abbrev 12049:12060 <> lagrange_def
+R12073:12075 mathcomp.boot.fintype <> :::'''I_'_x not
+R12076:12076 mathcomp.algebra.qpoly <> Vspace.n var
+binder 12070:12070 <> i:79
+R12092:12092 mathcomp.algebra.qpoly <> i:79 var
+binder 12087:12087 <> k:80
+R12106:12112 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12114:12116 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12118:12120 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12127:12129 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12143:12143 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12117:12117 mathcomp.algebra.qpoly <> Vspace.n var
+binder 12113:12113 <> j:81
+binder 12113:12113 <> j:82
+binder 12113:12113 <> j:83
+R12122:12125 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R12121:12121 mathcomp.algebra.qpoly <> j:81 var
+R12126:12126 mathcomp.algebra.qpoly <> k:80 var
+R12132:12134 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R12130:12131 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+R12135:12135 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R12139:12142 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R12136:12136 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R12138:12138 mathcomp.algebra.qpoly <> j:81 var
+binder 12101:12101 <> p:84
+R12165:12167 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R12150:12150 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R12161:12164 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R12158:12160 mathcomp.algebra.algebraic_hierarchy.divalg <> ::ring_scope:x_'^-1' not
+R12152:12153 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12157:12157 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12151:12151 mathcomp.algebra.qpoly <> p:84 var
+R12154:12154 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R12156:12156 mathcomp.algebra.qpoly <> k:80 var
+R12168:12168 mathcomp.algebra.qpoly <> p:84 var
+prf 12178:12189 <> lagrange_key
+R12193:12196 Corelib.Init.Datatypes <> unit ind
+R12213:12214 Corelib.Init.Datatypes <> tt constr
+def 12234:12241 <> lagrange
+R12246:12256 Corelib.ssr.ssreflect <> locked_with def
+R12273:12279 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R12305:12307 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R12309:12311 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R12313:12313 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R12312:12312 mathcomp.algebra.qpoly <> Vspace.n var
+binder 12308:12308 <> i:85
+R12280:12285 mathcomp.algebra.qpoly <> npolyp def
+R12290:12301 mathcomp.algebra.qpoly <> lagrange_def abbrev
+R12303:12303 mathcomp.algebra.qpoly <> i:85 var
+R12287:12287 mathcomp.algebra.qpoly <> Vspace.n var
+R12258:12269 mathcomp.algebra.qpoly <> lagrange_key thm
+abbrev 12325:12333 <> lagrange_
+R12339:12342 mathcomp.boot.tuple <> tnth def
+R12344:12351 mathcomp.algebra.qpoly <> lagrange def
+var 12367:12371 Vspace.lagrange n_gt0
+R12377:12379 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R12380:12380 mathcomp.algebra.qpoly <> Vspace.n var
+var 12397:12401 Vspace.lagrange x_inj
+R12405:12413 Corelib.ssr.ssrfun <> injective def
+R12415:12415 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+var 12423:12441 Vspace.lagrange lagrange_def_sample
+R12450:12452 mathcomp.boot.fintype <> :::'''I_'_x not
+R12453:12453 mathcomp.algebra.qpoly <> Vspace.n var
+binder 12444:12444 <> i:90
+binder 12446:12446 <> j:91
+R12480:12482 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12458:12458 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12473:12475 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12479:12479 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12459:12470 mathcomp.algebra.qpoly <> lagrange_def abbrev
+R12472:12472 mathcomp.algebra.qpoly <> i:90 var
+R12476:12476 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R12478:12478 mathcomp.algebra.qpoly <> j:91 var
+R12483:12483 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R12490:12493 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R12485:12488 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R12484:12484 mathcomp.algebra.qpoly <> i:90 var
+R12489:12489 mathcomp.algebra.qpoly <> j:91 var
+R12524:12530 mathcomp.algebra.poly <> hornerM thm
+R12532:12538 mathcomp.algebra.poly <> hornerC thm
+R12551:12557 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12559:12561 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12563:12565 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+R12567:12568 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\prod_'_'('_x_'<'_x_'|'_x_')'_x not
+binder 12558:12558 <> pat:92
+binder 12558:12558 <> pat:93
+binder 12558:12558 <> pat:94
+R12596:12599 Corelib.ssr.ssrbool <> altP thm
+R12601:12603 mathcomp.boot.eqtype <> eqP def
+R12616:12620 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulVf def
+R12625:12635 mathcomp.algebra.poly <> horner_prod thm
+R12644:12653 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory prodf_neq0 def
+R12681:12691 mathcomp.algebra.poly <> hornerXsubC thm
+R12693:12700 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory subr_eq0 def
+R12702:12707 mathcomp.boot.eqtype <> inj_eq thm
+R12712:12717 mathcomp.boot.eqtype <> eq_sym thm
+R12735:12737 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R12740:12750 mathcomp.algebra.poly <> horner_prod thm
+R12753:12757 mathcomp.boot.bigop <> bigD1 thm
+R12764:12769 mathcomp.boot.eqtype <> eq_sym thm
+R12787:12797 mathcomp.algebra.poly <> hornerXsubC thm
+R12799:12803 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory subrr def
+R12805:12809 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul0r def
+R12811:12815 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+var 12828:12844 Vspace.lagrange size_lagrange_def
+binder 12846:12846 <> i:95
+R12871:12873 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12850:12853 mathcomp.boot.seq <> size def
+R12856:12867 mathcomp.algebra.qpoly <> lagrange_def abbrev
+R12869:12869 mathcomp.algebra.qpoly <> i:95 var
+R12874:12874 mathcomp.algebra.qpoly <> Vspace.n var
+R12892:12900 mathcomp.algebra.poly <> size_Cmul thm
+R12934:12937 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R12912:12912 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12927:12929 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12933:12933 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R12913:12924 mathcomp.algebra.qpoly <> lagrange_def abbrev
+R12930:12930 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R12956:12962 mathcomp.algebra.poly <> hornerE def
+R12964:12971 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulf_eq0 def
+R12977:12980 Corelib.ssr.ssrbool <> norP thm
+R12999:13017 mathcomp.algebra.qpoly <> Vspace.lagrange.lagrange_def_sample var
+R13020:13023 mathcomp.boot.eqtype <> eqxx abbrev
+R13026:13033 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R13044:13052 mathcomp.algebra.poly <> size_prod thm
+R13088:13100 mathcomp.algebra.poly <> polyXsubC_eq0 thm
+R13112:13118 mathcomp.boot.bigop <> eq_bigr thm
+R13121:13126 Corelib.ssr.ssrfun <> ::function_scope:'fun'_'=>'_x not
+R13129:13131 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R13170:13179 mathcomp.algebra.poly <> size_XsubC thm
+R13191:13200 mathcomp.boot.bigop <> big_distrr thm
+R13205:13213 mathcomp.boot.bigop <> sum1_card thm
+R13215:13220 mathcomp.boot.fintype <> cardC1 thm
+R13222:13229 mathcomp.boot.fintype <> card_ord thm
+R13245:13245 mathcomp.algebra.qpoly <> Vspace.n var
+R13252:13256 mathcomp.algebra.qpoly <> Vspace.lagrange.n_gt0 var
+R13272:13276 mathcomp.boot.ssrnat <> mul2n thm
+R13279:13283 mathcomp.boot.ssrnat <> addnn thm
+R13286:13290 mathcomp.boot.ssrnat <> addSn thm
+R13292:13296 mathcomp.boot.ssrnat <> addnK thm
+prf 13311:13319 <> lagrangeE
+binder 13321:13321 <> i:96
+R13336:13338 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R13353:13356 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R13357:13362 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R13364:13364 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R13325:13333 mathcomp.algebra.qpoly <> lagrange_ abbrev
+R13335:13335 mathcomp.algebra.qpoly <> i:96 var
+R13339:13350 mathcomp.algebra.qpoly <> lagrange_def abbrev
+R13352:13352 mathcomp.algebra.qpoly <> i:96 var
+R13383:13390 mathcomp.algebra.qpoly <> lagrange def
+R13392:13397 Corelib.ssr.ssreflect <> unlock thm
+R13399:13406 mathcomp.boot.tuple <> tnth_map thm
+R13421:13423 mathcomp.boot.eqtype <> val abbrev
+R13427:13433 mathcomp.algebra.qpoly <> npolypK thm
+R13435:13448 mathcomp.boot.tuple <> tnth_ord_tuple thm
+R13453:13469 mathcomp.algebra.qpoly <> Vspace.lagrange.size_lagrange_def var
+prf 13484:13495 <> nth_lagrange
+R13502:13504 mathcomp.boot.fintype <> :::'''I_'_x not
+R13505:13505 mathcomp.algebra.qpoly <> Vspace.n var
+binder 13498:13498 <> i:97
+R13521:13523 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13518:13519 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'`_'_x not
+R13510:13517 mathcomp.algebra.qpoly <> lagrange def
+R13520:13520 mathcomp.algebra.qpoly <> i:97 var
+R13524:13532 mathcomp.algebra.qpoly <> lagrange_ abbrev
+R13534:13534 mathcomp.algebra.qpoly <> i:97 var
+R13556:13563 mathcomp.boot.tuple <> tnth_nth thm
+prf 13578:13591 <> size_lagrange_
+binder 13593:13593 <> i:98
+R13615:13617 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13597:13600 mathcomp.boot.seq <> size def
+R13603:13611 mathcomp.algebra.qpoly <> lagrange_ abbrev
+R13613:13613 mathcomp.algebra.qpoly <> i:98 var
+R13618:13618 mathcomp.algebra.qpoly <> Vspace.n var
+R13639:13647 mathcomp.algebra.qpoly <> lagrangeE thm
+R13649:13665 mathcomp.algebra.qpoly <> Vspace.lagrange.size_lagrange_def var
+prf 13680:13692 <> size_lagrange
+R13709:13711 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13696:13699 mathcomp.boot.seq <> size def
+R13701:13708 mathcomp.algebra.qpoly <> lagrange def
+R13712:13712 mathcomp.algebra.qpoly <> Vspace.n var
+R13733:13742 mathcomp.boot.tuple <> size_tuple thm
+prf 13757:13771 <> lagrange_sample
+R13780:13782 mathcomp.boot.fintype <> :::'''I_'_x not
+R13783:13783 mathcomp.algebra.qpoly <> Vspace.n var
+binder 13774:13774 <> i:99
+binder 13776:13776 <> j:100
+R13807:13809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13788:13788 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R13800:13802 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R13806:13806 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R13789:13797 mathcomp.algebra.qpoly <> lagrange_ abbrev
+R13799:13799 mathcomp.algebra.qpoly <> i:99 var
+R13803:13803 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R13805:13805 mathcomp.algebra.qpoly <> j:100 var
+R13810:13810 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R13817:13820 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R13812:13815 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R13811:13811 mathcomp.algebra.qpoly <> i:99 var
+R13816:13816 mathcomp.algebra.qpoly <> j:100 var
+R13841:13849 mathcomp.algebra.qpoly <> lagrangeE thm
+R13851:13869 mathcomp.algebra.qpoly <> Vspace.lagrange.lagrange_def_sample var
+prf 13884:13896 <> lagrange_free
+R13900:13903 mathcomp.algebra.vector <> free def
+R13905:13912 mathcomp.algebra.qpoly <> lagrange def
+R13928:13932 mathcomp.algebra.vector <> freeP thm
+R13958:13963 Corelib.ssr.ssrfun <> congr1 def
+R13974:13979 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R13981:13981 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R13983:13983 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+binder 13970:13970 <> p:101
+R13989:13990 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R13994:13994 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R13988:13988 mathcomp.algebra.qpoly <> p:101 var
+R13991:13991 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R14017:14025 mathcomp.boot.bigop <> big_morph thm
+R14037:14039 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R14045:14054 mathcomp.algebra.poly <> horner_sum thm
+R14056:14062 mathcomp.algebra.poly <> horner0 thm
+R14074:14078 mathcomp.boot.bigop <> bigD1 thm
+R14086:14089 mathcomp.boot.bigop <> big1 thm
+R14128:14134 mathcomp.algebra.poly <> hornerE def
+R14136:14147 mathcomp.algebra.qpoly <> nth_lagrange thm
+R14149:14163 mathcomp.algebra.qpoly <> lagrange_sample thm
+R14166:14169 mathcomp.boot.eqtype <> eqxx abbrev
+R14176:14180 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R14183:14187 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+R14101:14105 Corelib.ssr.ssrbool <> negPf thm
+prf 14202:14214 <> lagrange_full
+R14218:14225 mathcomp.algebra.vector <> basis_of def
+R14233:14240 mathcomp.algebra.qpoly <> lagrange def
+R14227:14231 mathcomp.algebra.vector <> fullv def
+R14261:14270 mathcomp.algebra.vector <> basisEfree thm
+R14272:14284 mathcomp.algebra.qpoly <> lagrange_free thm
+R14286:14290 mathcomp.algebra.vector <> subvf thm
+R14292:14304 mathcomp.algebra.qpoly <> size_lagrange thm
+R14306:14314 mathcomp.algebra.qpoly <> dim_polyn thm
+prf 14332:14346 <> lagrange_coords
+R14353:14358 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R14360:14360 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R14362:14362 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R14361:14361 mathcomp.algebra.qpoly <> Vspace.K var
+R14359:14359 mathcomp.algebra.qpoly <> Vspace.n var
+binder 14349:14349 <> p:102
+binder 14365:14365 <> i:103
+R14387:14389 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14369:14373 mathcomp.algebra.vector <> coord def
+R14386:14386 mathcomp.algebra.qpoly <> p:102 var
+R14384:14384 mathcomp.algebra.qpoly <> i:103 var
+R14375:14382 mathcomp.algebra.qpoly <> lagrange def
+R14391:14392 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R14396:14396 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R14390:14390 mathcomp.algebra.qpoly <> p:102 var
+R14393:14393 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R14395:14395 mathcomp.algebra.qpoly <> i:103 var
+R14420:14422 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax RHS abbrev
+R14425:14435 mathcomp.algebra.vector <> coord_basis thm
+R14437:14449 mathcomp.algebra.qpoly <> lagrange_full thm
+R14453:14457 mathcomp.algebra.vector <> memvf thm
+R14473:14481 mathcomp.boot.bigop <> big_morph thm
+R14493:14495 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R14501:14510 mathcomp.algebra.poly <> horner_sum thm
+R14522:14526 mathcomp.boot.bigop <> bigD1 thm
+R14534:14537 mathcomp.boot.bigop <> big1 thm
+R14576:14582 mathcomp.algebra.poly <> hornerE def
+R14584:14595 mathcomp.algebra.qpoly <> nth_lagrange thm
+R14597:14611 mathcomp.algebra.qpoly <> lagrange_sample thm
+R14614:14617 mathcomp.boot.eqtype <> eqxx abbrev
+R14624:14628 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R14631:14635 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr0 def
+R14549:14553 Corelib.ssr.ssrbool <> negPf thm
+prf 14650:14661 <> lagrange_gen
+R14668:14673 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R14675:14675 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R14674:14674 mathcomp.algebra.qpoly <> Vspace.K var
+binder 14664:14664 <> p:104
+R14695:14700 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14687:14690 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R14681:14684 mathcomp.boot.seq <> size def
+R14686:14686 mathcomp.algebra.qpoly <> p:104 var
+R14691:14691 mathcomp.algebra.qpoly <> Vspace.n var
+R14702:14704 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14701:14701 mathcomp.algebra.qpoly <> p:104 var
+R14705:14710 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R14712:14714 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R14716:14717 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R14715:14715 mathcomp.algebra.qpoly <> Vspace.n var
+binder 14711:14711 <> i:105
+binder 14711:14711 <> i:106
+binder 14711:14711 <> i:107
+R14728:14730 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R14725:14727 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R14719:14720 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R14724:14724 mathcomp.algebra.poly <> ::ring_scope:x_'.['_x_']' not
+R14718:14718 mathcomp.algebra.qpoly <> p:104 var
+R14721:14721 mathcomp.algebra.qpoly <> Vspace.lagrange.x var
+R14723:14723 mathcomp.algebra.qpoly <> i:105 var
+R14731:14739 mathcomp.algebra.qpoly <> lagrange_ abbrev
+R14741:14741 mathcomp.algebra.qpoly <> i:105 var
+R14776:14782 mathcomp.algebra.qpoly <> npolypK thm
+R14786:14786 mathcomp.algebra.qpoly <> Vspace.n var
+R14816:14818 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R14821:14831 mathcomp.algebra.vector <> coord_basis thm
+R14833:14845 mathcomp.algebra.qpoly <> lagrange_full thm
+R14849:14853 mathcomp.algebra.vector <> memvf thm
+R14802:14807 mathcomp.algebra.qpoly <> npolyp def
+R14869:14877 mathcomp.boot.bigop <> big_morph thm
+R14889:14891 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R14905:14911 mathcomp.boot.bigop <> eq_bigr thm
+R14931:14945 mathcomp.algebra.qpoly <> lagrange_coords thm
+R14947:14955 mathcomp.algebra.poly <> mul_polyC thm
+R14957:14968 mathcomp.algebra.qpoly <> nth_lagrange thm
+R14981:14988 mathcomp.algebra.qpoly Vspace.lagrange <> sec
+R14996:15001 mathcomp.algebra.qpoly Vspace <> sec
+R15029:15032 mathcomp.boot.tuple <> tnth def
+R15035:15040 mathcomp.algebra.qpoly <> npolyX def
+not 15014:15014 <> ::ring_scope:'''nX^'_x
+R15090:15097 mathcomp.algebra.qpoly <> lagrange def
+not 15071:15071 <> ::ring_scope:x_'.-lagrange'
+R15145:15148 mathcomp.boot.tuple <> tnth def
+R15151:15160 mathcomp.algebra.qpoly <> ::ring_scope:x_'.-lagrange' not
+not 15125:15125 <> ::ring_scope:x_'.-lagrange_'
+sec 15186:15190 <> Qpoly
+var 15203:15203 Qpoly R
+R15207:15220 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+var 15232:15232 Qpoly h
+R15236:15241 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R15243:15243 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R15242:15242 mathcomp.algebra.qpoly <> Qpoly.R var
+def 15258:15265 <> mk_monic
+R15273:15275 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15307:15312 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15314:15319 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15290:15294 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15306:15306 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15278:15280 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R15281:15284 mathcomp.boot.seq <> size def
+R15286:15286 mathcomp.algebra.qpoly <> Qpoly.h var
+R15296:15300 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R15295:15295 mathcomp.algebra.qpoly <> Qpoly.h var
+R15301:15305 mathcomp.algebra.poly <> monic def
+R15313:15313 mathcomp.algebra.qpoly <> Qpoly.h var
+R15320:15321 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+def 15336:15340 <> qpoly
+R15345:15350 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R15369:15369 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R15371:15371 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R15370:15370 mathcomp.algebra.qpoly <> Qpoly.R var
+R15351:15351 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R15365:15368 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R15352:15355 mathcomp.boot.seq <> size def
+R15357:15364 mathcomp.algebra.qpoly <> mk_monic def
+R15378:15382 mathcomp.algebra.qpoly Qpoly <> sec
+R15419:15423 mathcomp.algebra.qpoly <> qpoly def
+not 15395:15395 <> ::type_scope:'{'_'poly'_'%/'_x_'}'
+sec 15451:15459 <> QpolyProp
+var 15472:15472 QpolyProp R
+R15476:15485 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing.Exports nzRingType abbrev
+var 15497:15497 QpolyProp h
+R15501:15506 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R15508:15508 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R15507:15507 mathcomp.algebra.qpoly <> QpolyProp.R var
+prf 15518:15531 <> monic_mk_monic
+R15535:15535 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R15546:15551 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R15536:15543 mathcomp.algebra.qpoly <> mk_monic def
+R15545:15545 mathcomp.algebra.qpoly <> QpolyProp.h var
+R15552:15556 mathcomp.algebra.poly <> monic def
+R15575:15582 mathcomp.algebra.qpoly <> mk_monic def
+R15591:15594 mathcomp.boot.ssrnat <> leqP thm
+R15622:15627 mathcomp.algebra.poly <> monicX thm
+R15644:15648 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R15643:15643 mathcomp.algebra.qpoly <> QpolyProp.h var
+R15649:15653 mathcomp.algebra.poly <> monic def
+R15680:15685 mathcomp.algebra.poly <> monicX thm
+prf 15701:15717 <> size_mk_monic_gt1
+R15723:15725 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R15726:15729 mathcomp.boot.seq <> size def
+R15732:15739 mathcomp.algebra.qpoly <> mk_monic def
+R15741:15741 mathcomp.algebra.qpoly <> QpolyProp.h var
+R15768:15773 Corelib.ssr.ssrbool <> fun_if thm
+R15775:15784 mathcomp.algebra.poly <> size_polyX thm
+R15793:15796 mathcomp.boot.ssrnat <> leqP thm
+R15814:15820 Corelib.ssr.ssrbool <> if_same thm
+prf 15835:15851 <> size_mk_monic_gt0
+R15857:15859 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R15860:15863 mathcomp.boot.seq <> size def
+R15866:15873 mathcomp.algebra.qpoly <> mk_monic def
+R15875:15875 mathcomp.algebra.qpoly <> QpolyProp.h var
+R15901:15909 mathcomp.boot.ssrnat <> leq_trans thm
+R15913:15929 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+prf 15945:15957 <> mk_monic_neq0
+R15971:15974 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R15961:15968 mathcomp.algebra.qpoly <> mk_monic def
+R15970:15970 mathcomp.algebra.qpoly <> QpolyProp.h var
+R15997:16009 mathcomp.algebra.poly <> size_poly_gt0 thm
+R16011:16027 mathcomp.algebra.qpoly <> size_mk_monic_gt0 thm
+prf 16042:16054 <> size_mk_monic
+R16061:16069 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R16071:16071 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R16070:16070 mathcomp.algebra.qpoly <> QpolyProp.h var
+binder 16057:16057 <> p:116
+R16082:16084 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R16076:16079 mathcomp.boot.seq <> size def
+R16081:16081 mathcomp.algebra.qpoly <> p:116 var
+R16085:16088 mathcomp.boot.seq <> size def
+R16091:16098 mathcomp.algebra.qpoly <> mk_monic def
+R16100:16100 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16117:16117 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R16130:16137 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R16122:16127 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16129:16129 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16128:16128 mathcomp.algebra.qpoly <> QpolyProp.R var
+R16138:16149 mathcomp.algebra.qpoly <> poly_of_size def
+R16151:16151 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R16169:16172 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R16152:16155 mathcomp.boot.seq <> size def
+R16158:16165 mathcomp.algebra.qpoly <> mk_monic def
+R16167:16167 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16197:16203 Corelib.ssr.ssrbool <> qualifE thm
+R16208:16211 mathcomp.boot.ssrnat <> ltnS thm
+R16213:16218 mathcomp.boot.ssrnat <> prednK thm
+R16223:16239 mathcomp.algebra.qpoly <> size_mk_monic_gt0 thm
+prf 16276:16291 <> poly_of_size_mod
+binder 16293:16293 <> p:117
+R16319:16325 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R16299:16303 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R16308:16315 mathcomp.algebra.qpoly <> mk_monic def
+R16317:16317 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16305:16305 mathcomp.algebra.qpoly <> p:117 var
+R16326:16337 mathcomp.algebra.qpoly <> poly_of_size def
+R16339:16339 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R16357:16360 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R16340:16343 mathcomp.boot.seq <> size def
+R16346:16353 mathcomp.algebra.qpoly <> mk_monic def
+R16355:16355 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16378:16384 Corelib.ssr.ssrbool <> qualifE thm
+R16389:16392 mathcomp.boot.ssrnat <> ltnS thm
+R16394:16399 mathcomp.boot.ssrnat <> prednK thm
+R16402:16418 mathcomp.algebra.qpoly <> size_mk_monic_gt0 thm
+R16434:16444 mathcomp.algebra.polydiv Pdiv.CommonRing ltn_rmodpN0 thm
+R16455:16467 mathcomp.algebra.qpoly <> mk_monic_neq0 thm
+def 16487:16494 <> in_qpoly
+binder 16496:16496 <> p:118
+R16500:16508 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R16510:16510 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R16509:16509 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16515:16519 mathcomp.algebra.qpoly <> NPoly constr
+R16522:16537 mathcomp.algebra.qpoly <> poly_of_size_mod thm
+R16539:16539 mathcomp.algebra.qpoly <> p:118 var
+prf 16550:16563 <> in_qpoly_small
+R16570:16575 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16577:16577 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16576:16576 mathcomp.algebra.qpoly <> QpolyProp.R var
+binder 16566:16566 <> p:119
+R16610:16613 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16590:16592 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R16584:16587 mathcomp.boot.seq <> size def
+R16589:16589 mathcomp.algebra.qpoly <> p:119 var
+R16593:16596 mathcomp.boot.seq <> size def
+R16599:16606 mathcomp.algebra.qpoly <> mk_monic def
+R16608:16608 mathcomp.algebra.qpoly <> QpolyProp.h var
+R16624:16626 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16628:16631 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16632:16637 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16639:16639 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R16638:16638 mathcomp.algebra.qpoly <> QpolyProp.R var
+R16614:16621 mathcomp.algebra.qpoly <> in_qpoly def
+R16623:16623 mathcomp.algebra.qpoly <> p:119 var
+R16627:16627 mathcomp.algebra.qpoly <> p:119 var
+R16656:16666 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp_small thm
+prf 16681:16689 <> in_qpoly0
+R16703:16705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16693:16700 mathcomp.algebra.qpoly <> in_qpoly def
+R16725:16731 mathcomp.boot.eqtype <> val_eqP thm
+R16745:16750 mathcomp.algebra.polydiv Pdiv.CommonRing rmod0p thm
+prf 16765:16773 <> in_qpolyD
+binder 16775:16775 <> p:120
+binder 16777:16777 <> q:121
+R16797:16799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16781:16788 mathcomp.algebra.qpoly <> in_qpoly def
+R16792:16794 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R16791:16791 mathcomp.algebra.qpoly <> p:120 var
+R16795:16795 mathcomp.algebra.qpoly <> q:121 var
+R16810:16812 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R16800:16807 mathcomp.algebra.qpoly <> in_qpoly def
+R16809:16809 mathcomp.algebra.qpoly <> p:120 var
+R16813:16820 mathcomp.algebra.qpoly <> in_qpoly def
+R16822:16822 mathcomp.algebra.qpoly <> q:121 var
+R16841:16847 mathcomp.boot.eqtype <> val_eqP thm
+R16863:16868 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpD thm
+R16871:16884 mathcomp.algebra.qpoly <> monic_mk_monic thm
+prf 16899:16907 <> in_qpolyZ
+binder 16909:16909 <> a:122
+binder 16911:16911 <> p:123
+R16932:16934 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16915:16922 mathcomp.algebra.qpoly <> in_qpoly def
+R16926:16929 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R16925:16925 mathcomp.algebra.qpoly <> a:122 var
+R16930:16930 mathcomp.algebra.qpoly <> p:123 var
+R16936:16939 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R16935:16935 mathcomp.algebra.qpoly <> a:122 var
+R16940:16947 mathcomp.algebra.qpoly <> in_qpoly def
+R16949:16949 mathcomp.algebra.qpoly <> p:123 var
+R16965:16971 mathcomp.boot.eqtype <> val_eqP thm
+R16987:16992 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpZ thm
+R16995:17008 mathcomp.algebra.qpoly <> monic_mk_monic thm
+prf 17025:17042 <> in_qpoly_is_linear
+R17046:17051 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LinearExports linear abbrev
+R17053:17060 mathcomp.algebra.qpoly <> in_qpoly def
+R17095:17103 mathcomp.algebra.qpoly <> in_qpolyD thm
+R17105:17113 mathcomp.algebra.qpoly <> in_qpolyZ thm
+R17152:17175 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isSemilinear Build abbrev
+R17177:17177 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17179:17184 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17186:17186 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17185:17185 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17188:17193 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R17216:17216 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R17218:17218 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R17217:17217 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17194:17194 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R17212:17215 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R17195:17198 mathcomp.boot.seq <> size def
+R17201:17208 mathcomp.algebra.qpoly <> mk_monic def
+R17210:17210 mathcomp.algebra.qpoly <> QpolyProp.h var
+R17222:17229 mathcomp.algebra.qpoly <> in_qpoly def
+R17236:17258 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing semilinear_linear thm
+R17260:17277 mathcomp.algebra.qpoly <> in_qpoly_is_linear thm
+def 17122:17279 <> HB_unnamed_factory_84
+def 17122:17279 <> GRing_isSemilinear__to__GRing_isScalable__86
+def 17122:17279 <> GRing_isSemilinear__to__Algebra_isNmodMorphism__88
+def 17122:17279 <> HB_unnamed_mixin_89
+def 17122:17279 <> qpoly_in_qpoly__canonical__Algebra_Additive
+def 17122:17279 <> HB_unnamed_mixin_90
+def 17122:17279 <> qpoly_in_qpoly__canonical__GRing_Linear
+prf 17288:17299 <> qpolyC_proof
+binder 17301:17301 <> k:124
+R17307:17307 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R17323:17330 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R17315:17320 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17322:17322 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17321:17321 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17309:17311 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R17308:17308 mathcomp.algebra.qpoly <> k:124 var
+R17331:17342 mathcomp.algebra.qpoly <> poly_of_size def
+R17344:17344 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R17362:17365 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R17345:17348 mathcomp.boot.seq <> size def
+R17351:17358 mathcomp.algebra.qpoly <> mk_monic def
+R17360:17360 mathcomp.algebra.qpoly <> QpolyProp.h var
+R17383:17389 Corelib.ssr.ssrbool <> qualifE thm
+R17394:17397 mathcomp.boot.ssrnat <> ltnS thm
+R17399:17408 mathcomp.algebra.poly <> size_polyC thm
+R17410:17415 mathcomp.boot.ssrnat <> prednK thm
+R17418:17434 mathcomp.algebra.qpoly <> size_mk_monic_gt0 thm
+R17452:17464 mathcomp.boot.ssrnat <> leq_ltn_trans thm
+R17468:17484 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+R17497:17499 mathcomp.boot.eqtype <> eqP def
+def 17519:17524 <> qpolyC
+binder 17526:17526 <> k:125
+R17530:17538 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17540:17540 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17539:17539 mathcomp.algebra.qpoly <> QpolyProp.h var
+R17546:17550 mathcomp.algebra.qpoly <> NPoly constr
+R17553:17564 mathcomp.algebra.qpoly <> qpolyC_proof thm
+R17566:17566 mathcomp.algebra.qpoly <> k:125 var
+prf 17577:17583 <> qpolyCE
+binder 17585:17585 <> k:126
+R17597:17599 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17604:17607 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17608:17613 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17615:17615 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17614:17614 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17589:17594 mathcomp.algebra.qpoly <> qpolyC def
+R17596:17596 mathcomp.algebra.qpoly <> k:126 var
+R17601:17603 mathcomp.algebra.poly <> ::ring_scope:x_'%:P' not
+R17600:17600 mathcomp.algebra.qpoly <> k:126 var
+prf 17644:17650 <> qpolyC0
+R17662:17664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17654:17659 mathcomp.algebra.qpoly <> qpolyC def
+R17684:17690 mathcomp.boot.eqtype <> val_eqP thm
+R17692:17694 mathcomp.boot.eqtype <> eqP def
+def 17714:17719 <> qpoly1
+R17724:17729 mathcomp.algebra.qpoly <> qpolyC def
+def 17746:17754 <> qpoly_mul
+R17765:17773 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17775:17775 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17774:17774 mathcomp.algebra.qpoly <> QpolyProp.h var
+binder 17757:17758 <> q1:127
+binder 17760:17761 <> q2:128
+R17780:17788 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17790:17790 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R17789:17789 mathcomp.algebra.qpoly <> QpolyProp.h var
+R17797:17804 mathcomp.algebra.qpoly <> in_qpoly def
+R17807:17807 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R17821:17824 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R17813:17818 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17820:17820 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R17819:17819 mathcomp.algebra.qpoly <> QpolyProp.R var
+R17808:17809 mathcomp.algebra.qpoly <> q1:127 var
+R17825:17826 mathcomp.algebra.qpoly <> q2:128 var
+prf 17837:17847 <> qpoly_mul1z
+R17851:17857 Corelib.ssr.ssrfun <> left_id def
+R17866:17874 mathcomp.algebra.qpoly <> qpoly_mul def
+R17859:17864 mathcomp.algebra.qpoly <> qpoly1 def
+R17904:17910 mathcomp.boot.eqtype <> val_inj thm
+R17924:17928 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mul1r def
+R17930:17940 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp_small thm
+R17945:17957 mathcomp.algebra.qpoly <> size_mk_monic thm
+prf 17972:17982 <> qpoly_mulz1
+R17986:17993 Corelib.ssr.ssrfun <> right_id def
+R18002:18010 mathcomp.algebra.qpoly <> qpoly_mul def
+R17995:18000 mathcomp.algebra.qpoly <> qpoly1 def
+R18040:18046 mathcomp.boot.eqtype <> val_inj thm
+R18060:18064 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1 def
+R18066:18076 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp_small thm
+R18081:18093 mathcomp.algebra.qpoly <> size_mk_monic thm
+prf 18108:18123 <> qpoly_nontrivial
+R18133:18136 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R18127:18132 mathcomp.algebra.qpoly <> qpoly1 def
+R18156:18158 mathcomp.boot.eqtype <> eqP def
+R18160:18166 mathcomp.boot.eqtype <> val_eqP thm
+R18180:18187 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+def 18207:18212 <> qpolyX
+R18217:18224 mathcomp.algebra.qpoly <> in_qpoly def
+R18226:18227 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+R18248:18253 mathcomp.algebra.qpoly <> qpolyX def
+not 18239:18239 QpolyProp :::'''qX'
+prf 18263:18269 <> qpolyXE
+R18283:18286 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18274:18276 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R18277:18280 mathcomp.boot.seq <> size def
+R18282:18282 mathcomp.algebra.qpoly <> QpolyProp.h var
+R18298:18301 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18288:18292 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R18287:18287 mathcomp.algebra.qpoly <> QpolyProp.h var
+R18293:18297 mathcomp.algebra.poly <> monic def
+R18305:18307 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18310:18313 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18314:18319 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18321:18321 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18320:18320 mathcomp.algebra.qpoly <> QpolyProp.R var
+R18302:18304 mathcomp.algebra.qpoly QpolyProp :::'''qX' not
+R18308:18309 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+R18362:18375 mathcomp.algebra.qpoly <> in_qpoly_small thm
+R18380:18389 mathcomp.algebra.poly <> size_polyX thm
+R18392:18399 mathcomp.algebra.qpoly <> mk_monic def
+R18401:18403 Corelib.ssr.ssrbool <> ifT thm
+R18409:18417 mathcomp.boot.ssrnat <> ltn_trans thm
+R18440:18448 mathcomp.algebra.qpoly QpolyProp <> sec
+R18471:18476 mathcomp.algebra.qpoly <> qpolyX def
+not 18461:18461 <> ::ring_scope:'''qX'
+prf 18502:18511 <> mk_monic_X
+R18518:18531 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+binder 18514:18514 <> R:129
+R18547:18549 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18552:18555 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18556:18561 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18563:18563 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18562:18562 mathcomp.algebra.qpoly <> R:129 var
+R18536:18543 mathcomp.algebra.qpoly <> mk_monic def
+R18545:18546 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+R18550:18551 mathcomp.algebra.poly <> ::ring_scope:'''X' not
+R18585:18592 mathcomp.algebra.qpoly <> mk_monic def
+R18594:18603 mathcomp.algebra.poly <> size_polyX thm
+R18605:18610 mathcomp.algebra.poly <> monicX thm
+prf 18625:18635 <> mk_monic_Xn
+R18642:18655 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+binder 18638:18638 <> R:130
+binder 18658:18658 <> n:131
+R18677:18679 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18692:18695 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18696:18701 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18703:18703 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18702:18702 mathcomp.algebra.qpoly <> R:130 var
+R18664:18671 mathcomp.algebra.qpoly <> mk_monic def
+R18673:18675 mathcomp.algebra.poly <> ::ring_scope:'''X^'_x not
+R18676:18676 mathcomp.algebra.qpoly <> n:131 var
+R18680:18683 mathcomp.algebra.poly <> ::ring_scope:'''X^'_x not
+R18691:18691 mathcomp.algebra.poly <> ::ring_scope:'''X^'_x not
+R18688:18690 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R18685:18687 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R18684:18684 mathcomp.algebra.qpoly <> n:131 var
+R18742:18749 mathcomp.algebra.qpoly <> mk_monic def
+R18751:18761 mathcomp.algebra.poly <> size_polyXn thm
+R18763:18769 mathcomp.algebra.poly <> monicXn thm
+R18775:18779 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory expr1 def
+prf 18794:18803 <> card_qpoly
+R18810:18826 mathcomp.algebra.finalg FinRing.NzSemiRing.Exports finNzSemiRingType abbrev
+binder 18806:18806 <> R:132
+R18834:18839 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18841:18841 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18840:18840 mathcomp.algebra.qpoly <> R:132 var
+binder 18830:18830 <> h:133
+R18862:18864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18848:18849 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R18861:18861 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R18850:18858 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R18860:18860 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R18859:18859 mathcomp.algebra.qpoly <> h:133 var
+R18869:18871 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R18865:18866 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R18868:18868 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R18867:18867 mathcomp.algebra.qpoly <> R:132 var
+R18872:18872 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R18890:18893 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R18873:18876 mathcomp.boot.seq <> size def
+R18879:18886 mathcomp.algebra.qpoly <> mk_monic def
+R18888:18888 mathcomp.algebra.qpoly <> h:133 var
+R18914:18923 mathcomp.algebra.qpoly <> card_npoly thm
+prf 18938:18953 <> card_monic_qpoly
+R18960:18976 mathcomp.algebra.finalg FinRing.NzSemiRing.Exports finNzSemiRingType abbrev
+binder 18956:18956 <> R:134
+R18984:18989 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18991:18991 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R18990:18990 mathcomp.algebra.qpoly <> R:134 var
+binder 18980:18980 <> h:135
+R19007:19010 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18998:19000 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R19001:19004 mathcomp.boot.seq <> size def
+R19006:19006 mathcomp.algebra.qpoly <> h:135 var
+R19022:19026 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19012:19016 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_x not
+R19011:19011 mathcomp.algebra.qpoly <> h:135 var
+R19017:19021 mathcomp.algebra.poly <> monic def
+R19041:19043 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19027:19028 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19040:19040 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19029:19037 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R19039:19039 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R19038:19038 mathcomp.algebra.qpoly <> h:135 var
+R19048:19050 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R19044:19045 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19047:19047 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R19046:19046 mathcomp.algebra.qpoly <> R:134 var
+R19051:19051 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R19058:19061 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R19052:19055 mathcomp.boot.seq <> size def
+R19057:19057 mathcomp.algebra.qpoly <> h:135 var
+R19100:19109 mathcomp.algebra.qpoly <> card_qpoly thm
+R19112:19119 mathcomp.algebra.qpoly <> mk_monic def
+sec 19146:19150 <> QRing
+var 19163:19163 QRing A
+R19167:19179 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing.Exports comNzRingType abbrev
+var 19191:19191 QRing h
+R19195:19200 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R19202:19202 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R19201:19201 mathcomp.algebra.qpoly <> QRing.A var
+prf 19235:19244 <> qpoly_mulC
+R19248:19258 Corelib.ssr.ssrfun <> commutative def
+R19262:19270 mathcomp.algebra.qpoly <> qpoly_mul def
+R19272:19272 mathcomp.algebra.qpoly <> QRing.A var
+R19274:19274 mathcomp.algebra.qpoly <> QRing.h var
+R19307:19313 mathcomp.boot.eqtype <> val_inj thm
+R19327:19331 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+prf 19346:19355 <> qpoly_mulA
+R19359:19369 Corelib.ssr.ssrfun <> associative def
+R19373:19381 mathcomp.algebra.qpoly <> qpoly_mul def
+R19383:19383 mathcomp.algebra.qpoly <> QRing.A var
+R19385:19385 mathcomp.algebra.qpoly <> QRing.h var
+R19447:19453 mathcomp.boot.eqtype <> val_inj thm
+R19408:19421 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R19423:19423 mathcomp.algebra.qpoly <> QRing.h var
+R19470:19480 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulml thm
+R19485:19495 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulmr thm
+R19500:19504 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrA def
+prf 19519:19532 <> qpoly_mul_addr
+R19536:19553 Corelib.ssr.ssrfun <> right_distributive def
+R19572:19574 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R19557:19565 mathcomp.algebra.qpoly <> qpoly_mul def
+R19567:19567 mathcomp.algebra.qpoly <> QRing.A var
+R19569:19569 mathcomp.algebra.qpoly <> QRing.h var
+R19635:19641 mathcomp.boot.eqtype <> val_inj thm
+R19596:19609 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R19611:19611 mathcomp.algebra.qpoly <> QRing.h var
+R19659:19659 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19666:19667 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19679:19680 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19687:19687 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19660:19665 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrDr def
+R19668:19678 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulmr thm
+R19681:19686 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpD thm
+prf 19702:19715 <> qpoly_mul_addl
+R19719:19735 Corelib.ssr.ssrfun <> left_distributive def
+R19754:19756 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::function_scope:'+%R' not
+R19739:19747 mathcomp.algebra.qpoly <> qpoly_mul def
+R19749:19749 mathcomp.algebra.qpoly <> QRing.A var
+R19751:19751 mathcomp.algebra.qpoly <> QRing.h var
+R19794:19803 mathcomp.algebra.qpoly <> qpoly_mulC thm
+R19808:19821 mathcomp.algebra.qpoly <> qpoly_mul_addr thm
+R19858:19888 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Zmodule_isComNzRing Build abbrev
+R19890:19895 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R19897:19897 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R19899:19899 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R19898:19898 mathcomp.algebra.qpoly <> QRing.A var
+R19961:19976 mathcomp.algebra.qpoly <> qpoly_nontrivial thm
+R19980:19980 mathcomp.algebra.qpoly <> QRing.h var
+R19944:19957 mathcomp.algebra.qpoly <> qpoly_mul_addl thm
+R19927:19937 mathcomp.algebra.qpoly <> qpoly_mul1z thm
+R19941:19941 mathcomp.algebra.qpoly <> QRing.h var
+R19914:19923 mathcomp.algebra.qpoly <> qpoly_mulC thm
+R19901:19910 mathcomp.algebra.qpoly <> qpoly_mulA thm
+def 19830:19982 <> HB_unnamed_factory_91
+def 19830:19982 <> GRing_Zmodule_isComNzRing__to__GRing_PzSemiRing_isNonZero
+def 19830:19982 <> GRing_Zmodule_isComNzRing__to__GRing_Nmodule_isPzSemiRing
+def 19830:19982 <> GRing_Zmodule_isComNzRing__to__GRing_SemiRing_hasCommutativeMul
+def 19830:19982 <> HB_unnamed_mixin_95
+def 19830:19982 <> qpoly_npoly__canonical__GRing_PzSemiRing
+def 19830:19982 <> qpoly_npoly__canonical__GRing_PzRing
+def 19830:19982 <> HB_unnamed_mixin_96
+def 19830:19982 <> qpoly_npoly__canonical__GRing_NzSemiRing
+def 19830:19982 <> qpoly_npoly__canonical__GRing_NzRing
+def 19830:19982 <> HB_unnamed_mixin_97
+def 19830:19982 <> qpoly_npoly__canonical__GRing_ComPzSemiRing
+def 19830:19982 <> qpoly_npoly__canonical__GRing_ComPzRing
+def 19830:19982 <> qpoly_npoly__canonical__GRing_ComNzSemiRing
+def 19830:19982 <> qpoly_npoly__canonical__GRing_ComNzRing
+R20012:20029 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing on abbrev
+R20031:20039 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20041:20041 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20040:20040 mathcomp.algebra.qpoly <> QRing.h var
+def 19984:20042 <> HB_unnamed_factory_98
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_hasOpp
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_hasZero
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_hasAdd
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_BaseZmoduleNmodule_isZmodule
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_BaseAddUMagma_isAddUMagma
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_BaseAddMagma_isAddMagma
+def 19984:20042 <> GRing_ComNzRing__to__choice_hasChoice
+def 19984:20042 <> GRing_ComNzRing__to__eqtype_hasDecEq
+def 19984:20042 <> GRing_ComNzRing__to__Algebra_AddMagma_isAddSemigroup
+def 19984:20042 <> GRing_ComNzRing__to__GRing_Nmodule_isPzSemiRing
+def 19984:20042 <> GRing_ComNzRing__to__GRing_SemiRing_hasCommutativeMul
+def 19984:20042 <> GRing_ComNzRing__to__GRing_PzSemiRing_isNonZero
+def 19984:20042 <> HB_unnamed_mixin_111
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_BaseAddMagma
+def 19984:20042 <> HB_unnamed_mixin_112
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_BaseAddUMagma
+def 19984:20042 <> HB_unnamed_mixin_113
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_BaseZmodule
+def 19984:20042 <> HB_unnamed_mixin_114
+def 19984:20042 <> qpoly_qpoly__canonical__eqtype_Equality
+def 19984:20042 <> HB_unnamed_mixin_115
+def 19984:20042 <> qpoly_qpoly__canonical__choice_Choice
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_ChoiceBaseAddMagma
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_ChoiceBaseAddUMagma
+def 19984:20042 <> HB_unnamed_mixin_116
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_AddMagma
+def 19984:20042 <> HB_unnamed_mixin_117
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_AddUMagma
+def 19984:20042 <> HB_unnamed_mixin_118
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_AddSemigroup
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_Nmodule
+def 19984:20042 <> HB_unnamed_mixin_119
+def 19984:20042 <> qpoly_qpoly__canonical__Algebra_Zmodule
+def 19984:20042 <> HB_unnamed_mixin_120
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_PzSemiRing
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_PzRing
+def 19984:20042 <> HB_unnamed_mixin_121
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_ComPzSemiRing
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_ComPzRing
+def 19984:20042 <> HB_unnamed_mixin_122
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_NzSemiRing
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_NzRing
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_ComNzSemiRing
+def 19984:20042 <> qpoly_qpoly__canonical__GRing_ComNzRing
+prf 20051:20059 <> in_qpoly1
+R20075:20077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20063:20070 mathcomp.algebra.qpoly <> in_qpoly def
+R20072:20072 mathcomp.algebra.qpoly <> QRing.h var
+R20094:20100 mathcomp.boot.eqtype <> val_eqP thm
+R20102:20104 mathcomp.boot.eqtype <> eqP def
+R20106:20119 mathcomp.algebra.qpoly <> in_qpoly_small thm
+R20133:20142 mathcomp.algebra.poly <> size_polyC thm
+R20144:20151 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R20156:20172 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+prf 20187:20195 <> in_qpolyM
+binder 20197:20198 <> q1:140
+binder 20200:20201 <> q2:141
+R20225:20227 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20205:20212 mathcomp.algebra.qpoly <> in_qpoly def
+R20219:20221 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R20217:20218 mathcomp.algebra.qpoly <> q1:140 var
+R20222:20223 mathcomp.algebra.qpoly <> q2:141 var
+R20214:20214 mathcomp.algebra.qpoly <> QRing.h var
+R20241:20243 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R20228:20235 mathcomp.algebra.qpoly <> in_qpoly def
+R20239:20240 mathcomp.algebra.qpoly <> q1:140 var
+R20237:20237 mathcomp.algebra.qpoly <> QRing.h var
+R20244:20251 mathcomp.algebra.qpoly <> in_qpoly def
+R20255:20256 mathcomp.algebra.qpoly <> q2:141 var
+R20253:20253 mathcomp.algebra.qpoly <> QRing.h var
+R20272:20278 mathcomp.boot.eqtype <> val_eqP thm
+R20298:20308 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulml thm
+R20311:20321 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulmr thm
+R20326:20339 mathcomp.algebra.qpoly <> monic_mk_monic thm
+prf 20353:20376 <> in_qpoly_monoid_morphism
+R20380:20394 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory monoid_morphism def
+R20397:20404 mathcomp.algebra.qpoly <> in_qpoly def
+R20406:20406 mathcomp.algebra.qpoly <> QRing.h var
+R20436:20444 mathcomp.algebra.qpoly <> in_qpoly1 thm
+R20455:20463 mathcomp.algebra.qpoly <> in_qpolyM thm
+def 20551:20576 <> in_qpoly_is_multiplicative
+binder 20588:20588 <> g:142
+R20593:20593 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20597:20597 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20601:20601 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20595:20596 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R20594:20594 mathcomp.algebra.qpoly <> g:142 var
+R20599:20600 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R20598:20598 mathcomp.algebra.qpoly <> g:142 var
+R20604:20627 mathcomp.algebra.qpoly <> in_qpoly_monoid_morphism thm
+R20660:20687 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isMonoidMorphism Build abbrev
+R20689:20694 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20696:20696 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20695:20695 mathcomp.algebra.qpoly <> QRing.A var
+R20698:20706 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20708:20708 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20707:20707 mathcomp.algebra.qpoly <> QRing.h var
+R20711:20718 mathcomp.algebra.qpoly <> in_qpoly def
+R20720:20720 mathcomp.algebra.qpoly <> QRing.h var
+R20727:20750 mathcomp.algebra.qpoly <> in_qpoly_monoid_morphism thm
+def 20630:20751 <> HB_unnamed_factory_123
+def 20630:20751 <> qpoly_in_qpoly__canonical__GRing_RMorphism
+def 20630:20751 <> qpoly_in_qpoly__canonical__GRing_LRMorphism
+prf 20760:20776 <> poly_of_qpoly_sum
+binder 20778:20778 <> I:143
+R20785:20787 mathcomp.boot.seq <> seq abbrev
+R20789:20789 mathcomp.algebra.qpoly <> I:143 var
+binder 20781:20781 <> r:144
+R20798:20801 Corelib.ssr.ssrbool <> pred def
+R20803:20803 mathcomp.algebra.qpoly <> I:143 var
+binder 20793:20794 <> P1:145
+R20812:20815 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20811:20811 mathcomp.algebra.qpoly <> I:143 var
+R20816:20824 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20826:20826 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20825:20825 mathcomp.algebra.qpoly <> QRing.h var
+binder 20807:20807 <> F:146
+R20834:20834 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20859:20866 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20906:20909 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20910:20915 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20917:20917 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20916:20916 mathcomp.algebra.qpoly <> QRing.A var
+R20835:20840 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20842:20845 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20847:20849 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20854:20855 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20846:20846 mathcomp.algebra.qpoly <> r:144 var
+binder 20841:20841 <> i:147
+binder 20841:20841 <> i:148
+binder 20841:20841 <> i:149
+R20850:20851 mathcomp.algebra.qpoly <> P1:145 var
+R20853:20853 mathcomp.algebra.qpoly <> i:147 var
+R20856:20856 mathcomp.algebra.qpoly <> F:146 var
+R20858:20858 mathcomp.algebra.qpoly <> i:147 var
+R20867:20872 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20874:20877 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20879:20881 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20886:20888 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20905:20905 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'\sum_'_'('_x_'<-'_x_'|'_x_')'_x not
+R20878:20878 mathcomp.algebra.qpoly <> r:144 var
+binder 20873:20873 <> p:150
+binder 20873:20873 <> p:151
+binder 20873:20873 <> p:152
+R20882:20883 mathcomp.algebra.qpoly <> P1:145 var
+R20885:20885 mathcomp.algebra.qpoly <> p:150 var
+R20897:20902 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20904:20904 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R20903:20903 mathcomp.algebra.qpoly <> QRing.A var
+R20890:20890 mathcomp.algebra.qpoly <> F:146 var
+R20892:20892 mathcomp.algebra.qpoly <> p:150 var
+R20937:20945 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddf_sum def
+prf 20960:20973 <> poly_of_qpolyD
+R20982:20990 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20992:20992 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R20991:20991 mathcomp.algebra.qpoly <> QRing.h var
+binder 20976:20976 <> p:153
+binder 20978:20978 <> q:154
+R21004:21005 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21024:21027 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21028:21033 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21035:21035 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21034:21034 mathcomp.algebra.qpoly <> QRing.A var
+R21000:21002 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R20999:20999 mathcomp.algebra.qpoly <> p:153 var
+R21003:21003 mathcomp.algebra.qpoly <> q:154 var
+R21006:21006 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R21019:21022 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R21011:21016 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21018:21018 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21017:21017 mathcomp.algebra.qpoly <> QRing.A var
+R21007:21007 mathcomp.algebra.qpoly <> p:153 var
+R21023:21023 mathcomp.algebra.qpoly <> q:154 var
+prf 21064:21074 <> qpolyC_natr
+binder 21076:21076 <> p:155
+R21080:21080 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21099:21102 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21107:21110 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21111:21116 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21118:21118 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21117:21117 mathcomp.algebra.qpoly <> QRing.A var
+R21088:21096 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21098:21098 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21097:21097 mathcomp.algebra.qpoly <> QRing.h var
+R21082:21084 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R21081:21081 mathcomp.algebra.qpoly <> p:155 var
+R21104:21106 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R21103:21103 mathcomp.algebra.qpoly <> p:155 var
+R21161:21165 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrS def
+R21167:21180 mathcomp.algebra.qpoly <> poly_of_qpolyD thm
+prf 21198:21208 <> pchar_qpoly
+R21231:21234 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R21212:21218 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R21230:21230 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R21219:21227 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21229:21229 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21228:21228 mathcomp.algebra.qpoly <> QRing.h var
+R21235:21241 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R21243:21243 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R21242:21242 mathcomp.algebra.qpoly <> QRing.A var
+R21272:21274 mathcomp.boot.finset <> inE def
+R21285:21288 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21299:21301 mathcomp.boot.eqtype <> eqP def
+R21303:21305 mathcomp.boot.eqtype <> eqP def
+R21312:21317 Corelib.ssr.ssrfun <> congr1 def
+R21319:21321 mathcomp.boot.eqtype <> val abbrev
+R21356:21362 mathcomp.boot.eqtype <> val_inj thm
+R21380:21390 mathcomp.algebra.qpoly <> qpolyC_natr thm
+R21396:21405 mathcomp.algebra.poly <> polyC_natr thm
+R21420:21430 mathcomp.algebra.qpoly <> qpolyC_natr thm
+R21434:21443 mathcomp.algebra.poly <> polyC_natr thm
+R21450:21455 Corelib.ssr.ssrfun <> congr1 def
+R21457:21459 mathcomp.boot.eqtype <> val abbrev
+R21477:21484 mathcomp.algebra.poly <> polyseqC thm
+R21486:21493 mathcomp.algebra.poly <> polyseq0 thm
+R21502:21504 mathcomp.boot.eqtype <> eqP def
+prf 21519:21532 <> poly_of_qpolyM
+R21541:21549 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21551:21551 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21550:21550 mathcomp.algebra.qpoly <> QRing.h var
+binder 21535:21535 <> p:156
+binder 21537:21537 <> q:157
+R21563:21565 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21605:21608 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21609:21614 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21616:21616 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21615:21615 mathcomp.algebra.qpoly <> QRing.A var
+R21559:21561 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R21558:21558 mathcomp.algebra.qpoly <> p:156 var
+R21562:21562 mathcomp.algebra.qpoly <> q:157 var
+R21566:21570 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R21594:21601 mathcomp.algebra.qpoly <> mk_monic def
+R21603:21603 mathcomp.algebra.qpoly <> QRing.h var
+R21573:21573 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R21586:21589 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R21578:21583 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21585:21585 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21584:21584 mathcomp.algebra.qpoly <> QRing.A var
+R21574:21574 mathcomp.algebra.qpoly <> p:156 var
+R21590:21590 mathcomp.algebra.qpoly <> q:157 var
+prf 21645:21658 <> poly_of_qpolyX
+R21665:21673 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21675:21675 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R21674:21674 mathcomp.algebra.qpoly <> QRing.h var
+binder 21661:21661 <> p:158
+binder 21678:21678 <> n:159
+R21690:21692 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21733:21736 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21737:21742 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21744:21744 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21743:21743 mathcomp.algebra.qpoly <> QRing.A var
+R21685:21688 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'^+'_x not
+R21684:21684 mathcomp.algebra.qpoly <> p:158 var
+R21689:21689 mathcomp.algebra.qpoly <> n:159 var
+R21693:21697 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R21722:21729 mathcomp.algebra.qpoly <> mk_monic def
+R21731:21731 mathcomp.algebra.qpoly <> QRing.h var
+R21700:21700 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'^+'_x not
+R21713:21717 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'^+'_x not
+R21705:21710 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21712:21712 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R21711:21711 mathcomp.algebra.qpoly <> QRing.A var
+R21701:21701 mathcomp.algebra.qpoly <> p:158 var
+R21718:21718 mathcomp.algebra.qpoly <> n:159 var
+R21766:21779 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R21781:21781 mathcomp.algebra.qpoly <> QRing.h var
+R21818:21828 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp_small thm
+R21833:21842 mathcomp.algebra.poly <> size_polyC thm
+R21846:21858 mathcomp.boot.ssrnat <> leq_ltn_trans thm
+R21863:21879 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+R21900:21902 mathcomp.boot.eqtype <> eqP def
+R21916:21920 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory exprS def
+R21931:21941 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulmr thm
+R21947:21951 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory exprS def
+prf 21966:21972 <> qpolyCN
+R21979:21979 mathcomp.algebra.qpoly <> QRing.A var
+binder 21975:21975 <> a:160
+R21998:22000 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21984:21989 mathcomp.algebra.qpoly <> qpolyC def
+R21994:21995 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R21996:21996 mathcomp.algebra.qpoly <> a:160 var
+R21991:21991 mathcomp.algebra.qpoly <> QRing.h var
+R22001:22002 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R22013:22013 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R22003:22008 mathcomp.algebra.qpoly <> qpolyC def
+R22012:22012 mathcomp.algebra.qpoly <> a:160 var
+R22010:22010 mathcomp.algebra.qpoly <> QRing.h var
+R22033:22039 mathcomp.boot.eqtype <> val_inj thm
+R22053:22058 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddfN def
+R22064:22069 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddfN def
+prf 22084:22090 <> qpolyCD
+R22094:22101 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22110:22113 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22115:22115 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22117:22119 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22125:22129 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22135:22135 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22102:22107 mathcomp.algebra.qpoly <> qpolyC def
+R22109:22109 mathcomp.algebra.qpoly <> QRing.h var
+binder 22114:22114 <> a:161
+binder 22116:22116 <> b:162
+R22121:22123 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R22120:22120 mathcomp.algebra.qpoly <> a:161 var
+R22124:22124 mathcomp.algebra.qpoly <> b:162 var
+binder 22114:22114 <> a:163
+binder 22116:22116 <> b:164
+R22131:22133 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R22130:22130 mathcomp.algebra.qpoly <> a:163 var
+R22134:22134 mathcomp.algebra.qpoly <> b:164 var
+R22168:22174 mathcomp.boot.eqtype <> val_eqP thm
+R22176:22178 mathcomp.boot.eqtype <> eqP def
+R22196:22201 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory raddfD def
+prf 22216:22222 <> qpolyCM
+R22226:22233 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22242:22245 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22247:22247 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22249:22251 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22257:22261 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22267:22267 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R22234:22239 mathcomp.algebra.qpoly <> qpolyC def
+R22241:22241 mathcomp.algebra.qpoly <> QRing.h var
+binder 22246:22246 <> a:165
+binder 22248:22248 <> b:166
+R22253:22255 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R22252:22252 mathcomp.algebra.qpoly <> a:165 var
+R22256:22256 mathcomp.algebra.qpoly <> b:166 var
+binder 22246:22246 <> a:167
+binder 22248:22248 <> b:168
+R22263:22265 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R22262:22262 mathcomp.algebra.qpoly <> a:167 var
+R22266:22266 mathcomp.algebra.qpoly <> b:168 var
+R22297:22303 mathcomp.boot.eqtype <> val_eqP thm
+R22305:22307 mathcomp.boot.eqtype <> eqP def
+R22324:22329 mathcomp.algebra.poly <> polyCM thm
+R22331:22341 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp_small thm
+R22356:22367 mathcomp.algebra.qpoly <> qpolyC_proof thm
+R22373:22375 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R22369:22369 mathcomp.algebra.qpoly <> QRing.h var
+R22391:22397 Corelib.ssr.ssrbool <> qualifE thm
+R22402:22405 mathcomp.boot.ssrnat <> ltnS thm
+R22407:22412 mathcomp.boot.ssrnat <> prednK thm
+R22417:22433 mathcomp.algebra.qpoly <> size_mk_monic_gt0 thm
+prf 22448:22470 <> qpolyC_is_zmod_morphism
+R22474:22486 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory zmod_morphism def
+R22489:22494 mathcomp.algebra.qpoly <> qpolyC def
+R22496:22496 mathcomp.algebra.qpoly <> QRing.h var
+R22530:22536 mathcomp.algebra.qpoly <> qpolyCD thm
+R22538:22544 mathcomp.algebra.qpoly <> qpolyCN thm
+def 22630:22647 <> qpolyC_is_additive
+R22652:22674 mathcomp.algebra.qpoly <> qpolyC_is_zmod_morphism thm
+prf 22684:22708 <> qpolyC_is_monoid_morphism
+R22712:22726 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory monoid_morphism def
+R22729:22734 mathcomp.algebra.qpoly <> qpolyC def
+R22736:22736 mathcomp.algebra.qpoly <> QRing.h var
+R22774:22780 mathcomp.algebra.qpoly <> qpolyCM thm
+def 22868:22891 <> qpolyC_is_multiplicative
+binder 22903:22903 <> g:169
+R22908:22908 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22912:22912 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22916:22916 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22910:22911 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R22909:22909 mathcomp.algebra.qpoly <> g:169 var
+R22914:22915 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R22913:22913 mathcomp.algebra.qpoly <> g:169 var
+R22919:22943 mathcomp.algebra.qpoly <> qpolyC_is_monoid_morphism thm
+R22975:23000 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing.isZmodMorphism Build abbrev
+R23002:23002 mathcomp.algebra.qpoly <> QRing.A var
+R23004:23012 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23014:23014 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23013:23013 mathcomp.algebra.qpoly <> QRing.h var
+R23017:23022 mathcomp.algebra.qpoly <> qpolyC def
+R23024:23024 mathcomp.algebra.qpoly <> QRing.h var
+R23029:23051 mathcomp.algebra.qpoly <> qpolyC_is_zmod_morphism thm
+def 22947:23052 <> HB_unnamed_factory_125
+def 22947:23052 <> GRing_isZmodMorphism__to__Algebra_isNmodMorphism
+def 22947:23052 <> HB_unnamed_mixin_127
+def 22947:23052 <> qpoly_qpolyC__canonical__Algebra_Additive
+R23084:23111 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isMonoidMorphism Build abbrev
+R23113:23113 mathcomp.algebra.qpoly <> QRing.A var
+R23115:23123 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23125:23125 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23124:23124 mathcomp.algebra.qpoly <> QRing.h var
+R23128:23133 mathcomp.algebra.qpoly <> qpolyC def
+R23135:23135 mathcomp.algebra.qpoly <> QRing.h var
+R23142:23166 mathcomp.algebra.qpoly <> qpolyC_is_monoid_morphism thm
+def 23054:23167 <> HB_unnamed_factory_128
+def 23054:23167 <> qpoly_qpolyC__canonical__GRing_RMorphism
+def 23181:23191 <> qpoly_scale
+binder 23193:23193 <> k:170
+R23200:23208 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23210:23210 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23209:23209 mathcomp.algebra.qpoly <> QRing.h var
+binder 23196:23196 <> p:171
+R23215:23223 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23225:23225 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R23224:23224 mathcomp.algebra.qpoly <> QRing.h var
+R23232:23235 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R23231:23231 mathcomp.algebra.qpoly <> k:170 var
+R23236:23236 mathcomp.algebra.qpoly <> p:171 var
+prf 23248:23259 <> qpoly_scaleA
+binder 23261:23261 <> a:172
+binder 23263:23263 <> b:173
+binder 23265:23265 <> p:174
+R23302:23304 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23271:23281 mathcomp.algebra.qpoly <> qpoly_scale def
+R23286:23296 mathcomp.algebra.qpoly <> qpoly_scale def
+R23300:23300 mathcomp.algebra.qpoly <> p:174 var
+R23298:23298 mathcomp.algebra.qpoly <> b:173 var
+R23283:23283 mathcomp.algebra.qpoly <> a:172 var
+R23305:23315 mathcomp.algebra.qpoly <> qpoly_scale def
+R23325:23325 mathcomp.algebra.qpoly <> p:174 var
+R23319:23321 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23318:23318 mathcomp.algebra.qpoly <> a:172 var
+R23322:23322 mathcomp.algebra.qpoly <> b:173 var
+R23345:23351 mathcomp.boot.eqtype <> val_eqP thm
+R23365:23371 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerA def
+prf 23385:23397 <> qpoly_scale1l
+R23401:23407 Corelib.ssr.ssrfun <> left_id def
+R23413:23423 mathcomp.algebra.qpoly <> qpoly_scale def
+R23452:23458 mathcomp.boot.eqtype <> val_eqP thm
+R23472:23478 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scale1r def
+prf 23492:23504 <> qpoly_scaleDr
+binder 23506:23506 <> a:175
+R23510:23516 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23530:23532 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23534:23534 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23536:23538 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23548:23548 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23517:23527 mathcomp.algebra.qpoly <> qpoly_scale def
+R23529:23529 mathcomp.algebra.qpoly <> a:175 var
+binder 23533:23533 <> p:176
+binder 23535:23535 <> q:177
+R23541:23543 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R23540:23540 mathcomp.algebra.qpoly <> p:176 var
+R23544:23544 mathcomp.algebra.qpoly <> q:177 var
+binder 23533:23533 <> p:178
+binder 23535:23535 <> q:179
+R23540:23540 mathcomp.algebra.qpoly <> p:178 var
+R23544:23544 mathcomp.algebra.qpoly <> q:179 var
+R23579:23585 mathcomp.boot.eqtype <> val_eqP thm
+R23599:23606 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerDr def
+prf 23620:23632 <> qpoly_scaleDl
+binder 23634:23634 <> p:180
+R23638:23644 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23660:23662 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23664:23664 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23666:23668 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23674:23674 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R23656:23658 Corelib.ssr.ssrfun <> ::function_scope:x_'^~'_x not
+R23659:23659 mathcomp.algebra.qpoly <> p:180 var
+R23645:23655 mathcomp.algebra.qpoly <> qpoly_scale def
+binder 23663:23663 <> a:181
+binder 23665:23665 <> b:182
+R23670:23672 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R23669:23669 mathcomp.algebra.qpoly <> a:181 var
+R23673:23673 mathcomp.algebra.qpoly <> b:182 var
+binder 23663:23663 <> a:183
+binder 23665:23665 <> b:184
+R23669:23669 mathcomp.algebra.qpoly <> a:183 var
+R23673:23673 mathcomp.algebra.qpoly <> b:184 var
+R23707:23713 mathcomp.boot.eqtype <> val_eqP thm
+R23727:23734 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerDl def
+prf 23748:23760 <> qpoly_scaleAl
+binder 23762:23762 <> a:185
+binder 23764:23764 <> p:186
+binder 23766:23766 <> q:187
+R23791:23794 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23814:23814 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23770:23780 mathcomp.algebra.qpoly <> qpoly_scale def
+R23786:23788 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23785:23785 mathcomp.algebra.qpoly <> p:186 var
+R23789:23789 mathcomp.algebra.qpoly <> q:187 var
+R23782:23782 mathcomp.algebra.qpoly <> a:185 var
+R23810:23812 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23795:23805 mathcomp.algebra.qpoly <> qpoly_scale def
+R23809:23809 mathcomp.algebra.qpoly <> p:186 var
+R23807:23807 mathcomp.algebra.qpoly <> a:185 var
+R23813:23813 mathcomp.algebra.qpoly <> q:187 var
+R23833:23839 mathcomp.boot.eqtype <> val_eqP thm
+R23854:23861 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerAl def
+R23863:23868 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpZ thm
+R23873:23886 mathcomp.algebra.qpoly <> monic_mk_monic thm
+prf 23900:23912 <> qpoly_scaleAr
+binder 23914:23914 <> a:188
+binder 23916:23916 <> p:189
+binder 23918:23918 <> q:190
+R23943:23945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23922:23932 mathcomp.algebra.qpoly <> qpoly_scale def
+R23938:23940 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23937:23937 mathcomp.algebra.qpoly <> p:189 var
+R23941:23941 mathcomp.algebra.qpoly <> q:190 var
+R23934:23934 mathcomp.algebra.qpoly <> a:188 var
+R23947:23950 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23966:23966 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R23946:23946 mathcomp.algebra.qpoly <> p:189 var
+R23951:23961 mathcomp.algebra.qpoly <> qpoly_scale def
+R23965:23965 mathcomp.algebra.qpoly <> q:190 var
+R23963:23963 mathcomp.algebra.qpoly <> a:188 var
+R23985:23991 mathcomp.boot.eqtype <> val_eqP thm
+R24006:24013 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerAr def
+R24015:24020 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpZ thm
+R24025:24038 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R24075:24112 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LSemiModule_isLSemiAlgebra Build abbrev
+R24114:24114 mathcomp.algebra.qpoly <> QRing.A var
+R24116:24121 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24123:24123 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24125:24125 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24124:24124 mathcomp.algebra.qpoly <> QRing.A var
+R24129:24141 mathcomp.algebra.qpoly <> qpoly_scaleAl thm
+def 24047:24142 <> HB_unnamed_factory_130
+def 24047:24142 <> qpoly_npoly__canonical__GRing_PzLSemiAlgebra
+def 24047:24142 <> qpoly_npoly__canonical__GRing_PzLalgebra
+def 24047:24142 <> qpoly_npoly__canonical__GRing_NzLSemiAlgebra
+def 24047:24142 <> qpoly_npoly__canonical__GRing_NzLalgebra
+R24172:24190 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLalgebra on abbrev
+R24192:24200 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24202:24202 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24201:24201 mathcomp.algebra.qpoly <> QRing.h var
+def 24144:24203 <> HB_unnamed_factory_132
+def 24144:24203 <> GRing_NzLalgebra__to__GRing_Nmodule_isLSemiModule
+def 24144:24203 <> GRing_NzLalgebra__to__GRing_LSemiModule_isLSemiAlgebra
+def 24144:24203 <> HB_unnamed_mixin_146
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_LSemiModule
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_Lmodule
+def 24144:24203 <> HB_unnamed_mixin_147
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_PzLSemiAlgebra
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_PzLalgebra
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_NzLSemiAlgebra
+def 24144:24203 <> qpoly_qpoly__canonical__GRing_NzLalgebra
+R24234:24271 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LSemiAlgebra_isSemiAlgebra Build abbrev
+R24273:24273 mathcomp.algebra.qpoly <> QRing.A var
+R24275:24280 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24282:24282 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24284:24284 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R24283:24283 mathcomp.algebra.qpoly <> QRing.A var
+R24288:24300 mathcomp.algebra.qpoly <> qpoly_scaleAr thm
+def 24206:24301 <> HB_unnamed_factory_148
+def 24206:24301 <> qpoly_npoly__canonical__GRing_PzSemiAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_PzAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_NzSemiAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_NzAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_ComPzSemiAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_ComPzAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_ComNzSemiAlgebra
+def 24206:24301 <> qpoly_npoly__canonical__GRing_ComNzAlgebra
+R24331:24348 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzAlgebra on abbrev
+R24350:24358 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24360:24360 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24359:24359 mathcomp.algebra.qpoly <> QRing.h var
+def 24303:24361 <> HB_unnamed_factory_150
+def 24303:24361 <> GRing_NzAlgebra__to__GRing_LSemiAlgebra_isSemiAlgebra
+def 24303:24361 <> HB_unnamed_mixin_165
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_PzSemiAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_PzAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_NzSemiAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_NzAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_ComPzSemiAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_ComPzAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_ComNzSemiAlgebra
+def 24303:24361 <> qpoly_qpoly__canonical__GRing_ComNzAlgebra
+prf 24370:24383 <> poly_of_qpolyZ
+R24390:24398 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24400:24400 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24399:24399 mathcomp.algebra.qpoly <> QRing.h var
+binder 24386:24386 <> p:191
+binder 24403:24403 <> a:192
+R24415:24417 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24437:24441 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24442:24447 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24449:24449 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24448:24448 mathcomp.algebra.qpoly <> QRing.A var
+R24410:24413 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R24409:24409 mathcomp.algebra.qpoly <> a:192 var
+R24414:24414 mathcomp.algebra.qpoly <> p:191 var
+R24419:24423 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R24436:24436 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R24418:24418 mathcomp.algebra.qpoly <> a:192 var
+R24428:24433 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24435:24435 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24434:24434 mathcomp.algebra.qpoly <> QRing.A var
+R24424:24424 mathcomp.algebra.qpoly <> p:191 var
+R24476:24480 mathcomp.algebra.qpoly QRing <> sec
+abbrev 24548:24557 <> char_qpoly
+R24563:24573 mathcomp.algebra.qpoly <> pchar_qpoly thm
+sec 24601:24605 <> Field
+var 24618:24618 Field R
+R24622:24630 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Field.Exports fieldType abbrev
+var 24642:24642 Field h
+R24646:24651 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24653:24653 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R24652:24652 mathcomp.algebra.qpoly <> Field.R var
+abbrev 24672:24673 <> hQ
+R24679:24686 mathcomp.algebra.qpoly <> mk_monic def
+R24688:24688 mathcomp.algebra.qpoly <> Field.h var
+def 24704:24712 <> qpoly_inv
+R24719:24727 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24729:24729 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24728:24728 mathcomp.algebra.qpoly <> Field.h var
+binder 24715:24715 <> p:197
+R24737:24739 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24753:24758 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24865:24870 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24740:24747 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R24752:24752 mathcomp.algebra.qpoly <> p:197 var
+R24749:24750 mathcomp.algebra.qpoly <> hQ abbrev
+R24782:24789 mathcomp.algebra.qpoly <> in_qpoly def
+R24793:24793 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R24804:24806 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R24794:24798 mathcomp.algebra.polydiv Pdiv.Field egcdp def
+R24803:24803 mathcomp.algebra.qpoly <> p:197 var
+R24800:24801 mathcomp.algebra.qpoly <> hQ abbrev
+R24791:24791 mathcomp.algebra.qpoly <> Field.h var
+R24767:24775 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24777:24777 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24776:24776 mathcomp.algebra.qpoly <> Field.h var
+binder 24763:24763 <> v:198
+R24859:24862 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R24836:24836 mathcomp.algebra.algebraic_hierarchy.divalg <> ::ring_scope:x_'^-1' not
+R24854:24858 mathcomp.algebra.algebraic_hierarchy.divalg <> ::ring_scope:x_'^-1' not
+R24837:24845 mathcomp.algebra.poly <> lead_coef def
+R24849:24851 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R24848:24848 mathcomp.algebra.qpoly <> v:198 var
+R24852:24852 mathcomp.algebra.qpoly <> p:197 var
+R24863:24863 mathcomp.algebra.qpoly <> v:198 var
+R24871:24871 mathcomp.algebra.qpoly <> p:197 var
+prf 24892:24902 <> qpoly_mulVz
+R24909:24917 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24919:24919 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R24918:24918 mathcomp.algebra.qpoly <> Field.h var
+binder 24905:24905 <> p:199
+R24937:24940 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24924:24931 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R24936:24936 mathcomp.algebra.qpoly <> p:199 var
+R24933:24934 mathcomp.algebra.qpoly <> hQ abbrev
+R24957:24959 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24953:24955 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R24942:24950 mathcomp.algebra.qpoly <> qpoly_inv def
+R24952:24952 mathcomp.algebra.qpoly <> p:199 var
+R24956:24956 mathcomp.algebra.qpoly <> p:199 var
+R24985:24998 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R25000:25000 mathcomp.algebra.qpoly <> Field.h var
+R25022:25028 mathcomp.boot.eqtype <> val_inj thm
+R25040:25048 mathcomp.algebra.qpoly <> qpoly_inv def
+R25051:25058 mathcomp.algebra.qpoly <> in_qpoly def
+R25083:25086 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R25100:25102 mathcomp.boot.eqtype <> eqP def
+R25143:25151 mathcomp.algebra.polydiv Pdiv.Field coprimep0 thm
+R25154:25166 mathcomp.algebra.polydiv Pdiv.Field size_poly_eq1 thm
+R25180:25183 mathcomp.boot.seq <> size def
+R25186:25202 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+R25204:25204 mathcomp.algebra.qpoly <> Field.h var
+R25266:25269 mathcomp.algebra.polydiv Pdiv.IdomainDefs ::ring_scope:x_'%='_x not
+R25245:25247 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R25240:25242 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R25226:25226 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R25237:25239 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R25227:25231 mathcomp.algebra.polydiv Pdiv.Field egcdp def
+R25233:25234 mathcomp.algebra.qpoly <> hQ abbrev
+R25243:25244 mathcomp.algebra.qpoly <> hQ abbrev
+R25262:25264 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R25248:25248 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R25259:25261 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R25249:25253 mathcomp.algebra.polydiv Pdiv.Field egcdp def
+R25255:25256 mathcomp.algebra.qpoly <> hQ abbrev
+R25282:25290 mathcomp.algebra.polydiv Pdiv.Field eqp_trans thm
+R25308:25311 mathcomp.algebra.polydiv Pdiv.IdomainDefs ::ring_scope:x_'%='_x not
+R25299:25302 mathcomp.algebra.polydiv Pdiv.Field gcdp def
+R25304:25305 mathcomp.algebra.qpoly <> hQ abbrev
+R25328:25334 mathcomp.algebra.polydiv Pdiv.Field eqp_sym thm
+R25351:25356 mathcomp.algebra.polydiv Pdiv.Field egcdpP thm
+R25359:25371 mathcomp.algebra.qpoly <> mk_monic_neq0 thm
+R25373:25373 mathcomp.algebra.qpoly <> Field.h var
+R25399:25411 mathcomp.algebra.polydiv Pdiv.Field size_poly_eq1 thm
+R25422:25432 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulml thm
+R25438:25445 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory scalerAl def
+R25447:25452 mathcomp.algebra.polydiv Pdiv.RingMonic rmodpZ thm
+R25457:25467 mathcomp.algebra.polydiv Pdiv.RingMonic rmodp_mulml thm
+R25483:25487 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R25490:25494 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R25498:25520 mathcomp.algebra.polydiv Pdiv.IdomainMonic modpE thm
+R25534:25542 mathcomp.algebra.polydiv Pdiv.Field eqp_modpl thm
+R25544:25545 mathcomp.algebra.qpoly <> hQ abbrev
+R25558:25562 mathcomp.algebra.polydiv Pdiv.Field modpD thm
+R25567:25575 mathcomp.algebra.polydiv Pdiv.Field modp_mull thm
+R25577:25581 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory add0r def
+R25599:25602 mathcomp.algebra.polydiv Pdiv.IdomainDefs ::ring_scope:x_'%%'_x not
+R25608:25617 mathcomp.algebra.polydiv Pdiv.Field modp_small thm
+R25648:25657 mathcomp.algebra.poly <> size_polyC thm
+R25659:25666 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oner_eq0 def
+R25668:25684 mathcomp.algebra.qpoly <> size_mk_monic_gt1 thm
+R25699:25703 mathcomp.algebra.polydiv Pdiv.Field eqpfP thm
+R25712:25721 mathcomp.algebra.poly <> lead_coefC thm
+R25723:25727 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory divr1 def
+R25729:25737 mathcomp.algebra.poly <> alg_polyC thm
+R25739:25749 mathcomp.algebra.poly <> scale_polyC thm
+R25751:25755 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulVf def
+R25769:25781 mathcomp.algebra.poly <> lead_coef_eq0 thm
+R25790:25792 mathcomp.boot.eqtype <> eqP def
+R25829:25841 mathcomp.algebra.polydiv Pdiv.Field size_poly_eq1 thm
+R25849:25858 mathcomp.algebra.poly <> size_polyC thm
+R25860:25865 mathcomp.boot.eqtype <> eq_sym thm
+R25868:25871 mathcomp.boot.eqtype <> eqxx abbrev
+prf 25886:25896 <> qpoly_mulzV
+R25903:25911 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R25913:25913 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R25912:25912 mathcomp.algebra.qpoly <> Field.h var
+binder 25899:25899 <> p:200
+R25933:25936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25920:25927 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R25932:25932 mathcomp.algebra.qpoly <> p:200 var
+R25929:25930 mathcomp.algebra.qpoly <> hQ abbrev
+R25955:25957 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25939:25942 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R25954:25954 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R25938:25938 mathcomp.algebra.qpoly <> p:200 var
+R25943:25951 mathcomp.algebra.qpoly <> qpoly_inv def
+R25953:25953 mathcomp.algebra.qpoly <> p:200 var
+R25997:26001 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrC def
+R26003:26013 mathcomp.algebra.qpoly <> qpoly_mulVz thm
+prf 26028:26043 <> qpoly_intro_unit
+R26052:26060 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26062:26062 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26061:26061 mathcomp.algebra.qpoly <> Field.h var
+binder 26046:26046 <> p:201
+binder 26048:26048 <> q:202
+R26080:26083 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26073:26075 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26069:26071 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R26068:26068 mathcomp.algebra.qpoly <> q:202 var
+R26072:26072 mathcomp.algebra.qpoly <> p:201 var
+R26084:26091 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R26096:26096 mathcomp.algebra.qpoly <> p:201 var
+R26093:26094 mathcomp.algebra.qpoly <> hQ abbrev
+R26118:26131 mathcomp.algebra.qpoly <> monic_mk_monic thm
+R26133:26133 mathcomp.algebra.qpoly <> Field.h var
+R26152:26156 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R26159:26163 mathcomp.algebra.polydiv Pdiv.CommonRing rmodp def
+R26167:26189 mathcomp.algebra.polydiv Pdiv.IdomainMonic modpE thm
+R26209:26217 mathcomp.algebra.polydiv Pdiv.Field coprimep1 thm
+R26219:26220 mathcomp.algebra.qpoly <> hQ abbrev
+R26232:26244 mathcomp.algebra.polydiv Pdiv.Field coprimep_modr thm
+R26257:26269 mathcomp.algebra.polydiv Pdiv.Field coprimep_modr thm
+R26271:26280 mathcomp.algebra.polydiv Pdiv.Field coprimepMr thm
+R26291:26294 Corelib.ssr.ssrbool <> andP thm
+prf 26309:26321 <> qpoly_inv_out
+R26328:26336 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26338:26338 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26337:26337 mathcomp.algebra.qpoly <> Field.h var
+binder 26324:26324 <> p:203
+R26359:26362 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26343:26345 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R26346:26353 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R26358:26358 mathcomp.algebra.qpoly <> p:203 var
+R26355:26356 mathcomp.algebra.qpoly <> hQ abbrev
+R26374:26376 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26363:26371 mathcomp.algebra.qpoly <> qpoly_inv def
+R26373:26373 mathcomp.algebra.qpoly <> p:203 var
+R26377:26377 mathcomp.algebra.qpoly <> p:203 var
+R26399:26407 mathcomp.algebra.qpoly <> qpoly_inv def
+R26413:26417 Corelib.ssr.ssrbool <> negPf thm
+R26456:26490 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComNzRing_hasMulInverse Build abbrev
+R26492:26497 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R26499:26499 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R26501:26501 mathcomp.algebra.qpoly <> ::type_scope:'{poly_'_x_x_'}' not
+R26534:26546 mathcomp.algebra.qpoly <> qpoly_inv_out thm
+R26517:26532 mathcomp.algebra.qpoly <> qpoly_intro_unit thm
+R26505:26515 mathcomp.algebra.qpoly <> qpoly_mulVz thm
+def 26428:26547 <> HB_unnamed_factory_166
+def 26428:26547 <> GRing_ComNzRing_hasMulInverse__to__GRing_NzRing_hasMulInverse
+def 26428:26547 <> HB_unnamed_mixin_168
+def 26428:26547 <> qpoly_npoly__canonical__GRing_UnitRing
+def 26428:26547 <> qpoly_npoly__canonical__GRing_UnitAlgebra
+def 26428:26547 <> qpoly_npoly__canonical__GRing_ComUnitRing
+def 26428:26547 <> qpoly_npoly__canonical__GRing_ComUnitAlgebra
+R26577:26599 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComUnitAlgebra on abbrev
+R26601:26609 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26611:26611 mathcomp.algebra.qpoly <> ::type_scope:'{'_'poly'_'%/'_x_'}' not
+R26610:26610 mathcomp.algebra.qpoly <> Field.h var
+def 26549:26612 <> HB_unnamed_factory_169
+def 26549:26612 <> GRing_ComUnitAlgebra__to__choice_hasChoice
+def 26549:26612 <> GRing_ComUnitAlgebra__to__eqtype_hasDecEq
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_hasOpp
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_hasZero
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_hasAdd
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_BaseZmoduleNmodule_isZmodule
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_BaseAddUMagma_isAddUMagma
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_BaseAddMagma_isAddMagma
+def 26549:26612 <> GRing_ComUnitAlgebra__to__Algebra_AddMagma_isAddSemigroup
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_Nmodule_isLSemiModule
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_Nmodule_isPzSemiRing
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_SemiRing_hasCommutativeMul
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_LSemiModule_isLSemiAlgebra
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_LSemiAlgebra_isSemiAlgebra
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_PzSemiRing_isNonZero
+def 26549:26612 <> GRing_ComUnitAlgebra__to__GRing_NzRing_hasMulInverse
+def 26549:26612 <> HB_unnamed_mixin_186
+def 26549:26612 <> qpoly_qpoly__canonical__GRing_UnitRing
+def 26549:26612 <> qpoly_qpoly__canonical__GRing_UnitAlgebra
+def 26549:26612 <> qpoly_qpoly__canonical__GRing_ComUnitRing
+def 26549:26612 <> qpoly_qpoly__canonical__GRing_ComUnitAlgebra
+prf 26621:26644 <> irreducible_poly_coprime
+R26651:26661 mathcomp.algebra.algebraic_hierarchy.divalg GRing.IntegralDomain.Exports idomainType abbrev
+binder 26647:26647 <> A:204
+R26671:26676 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R26678:26678 mathcomp.algebra.poly <> ::type_scope:'{'_'poly'_x_'}' not
+R26677:26677 mathcomp.algebra.qpoly <> A:204 var
+binder 26665:26665 <> p:205
+binder 26667:26667 <> q:206
+R26703:26706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26685:26700 mathcomp.algebra.polydiv Pdiv.Field irreducible_poly def
+R26702:26702 mathcomp.algebra.qpoly <> p:205 var
+R26719:26721 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26707:26714 mathcomp.algebra.polydiv Pdiv.Field coprimep def
+R26718:26718 mathcomp.algebra.qpoly <> q:206 var
+R26716:26716 mathcomp.algebra.qpoly <> p:205 var
+R26722:26723 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R26726:26729 mathcomp.algebra.polydiv Pdiv.IdomainDefs ::ring_scope:x_'%|'_x not
+R26725:26725 mathcomp.algebra.qpoly <> p:205 var
+R26730:26730 mathcomp.algebra.qpoly <> q:206 var
+R26764:26772 mathcomp.algebra.polydiv Pdiv.Field coprimepP thm
+R26774:26777 Corelib.ssr.ssrbool <> negP thm
+R26837:26849 mathcomp.algebra.polydiv Pdiv.Field size_poly_eq1 thm
+R26858:26861 mathcomp.boot.seq <> size def
+R26816:26820 mathcomp.algebra.polydiv Pdiv.Field dvdpp thm
+R26908:26920 mathcomp.algebra.polydiv Pdiv.Field size_poly_eq1 thm
+R26929:26931 mathcomp.boot.eqtype <> eqP def
+R26940:26942 mathcomp.boot.eqtype <> eqP def
+R26994:27001 mathcomp.algebra.polydiv Pdiv.Field eqp_dvdl thm
+R27021:27025 mathcomp.algebra.qpoly Field <> sec

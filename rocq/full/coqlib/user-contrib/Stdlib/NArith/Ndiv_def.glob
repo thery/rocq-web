@@ -1,0 +1,49 @@
+DIGEST ab97ded7680092fa4dbc7a475e41cf75
+FStdlib.NArith.Ndiv_def
+R703:708 Stdlib.NArith.BinNat <> <> lib
+def 839:847 <> Pdiv_eucl
+binder 849:849 <> a:1
+binder 851:851 <> b:2
+R856:869 Stdlib.NArith.BinNat N pos_div_eucl def
+R871:871 Stdlib.NArith.Ndiv_def <> a:1 var
+R874:877 Corelib.Numbers.BinNums <> Npos constr
+R879:879 Stdlib.NArith.Ndiv_def <> b:2 var
+def 895:911 <> Pdiv_eucl_correct
+binder 913:913 <> a:3
+binder 915:915 <> b:4
+R934:942 Stdlib.NArith.Ndiv_def <> Pdiv_eucl def
+R944:944 Stdlib.NArith.Ndiv_def <> a:3 var
+R946:946 Stdlib.NArith.Ndiv_def <> b:4 var
+binder 926:926 <> q:5
+binder 928:928 <> r:6
+R957:959 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R951:954 Corelib.Numbers.BinNums <> Npos constr
+R956:956 Stdlib.NArith.Ndiv_def <> a:3 var
+R970:972 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R961:963 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R960:960 Stdlib.NArith.Ndiv_def <> q:5 var
+R964:967 Corelib.Numbers.BinNums <> Npos constr
+R969:969 Stdlib.NArith.Ndiv_def <> b:4 var
+R973:973 Stdlib.NArith.Ndiv_def <> r:6 var
+R979:997 Stdlib.NArith.BinNat N pos_div_eucl_spec thm
+R999:999 Stdlib.NArith.Ndiv_def <> a:3 var
+R1002:1005 Corelib.Numbers.BinNums <> Npos constr
+R1007:1007 Stdlib.NArith.Ndiv_def <> b:4 var
+prf 1018:1036 <> Pdiv_eucl_remainder
+binder 1038:1038 <> a:7
+binder 1040:1040 <> b:8
+R1065:1067 Stdlib.NArith.BinNat <> ::N_scope:x_'<'_x not
+R1046:1048 Corelib.Init.Datatypes <> snd def
+R1051:1059 Stdlib.NArith.Ndiv_def <> Pdiv_eucl def
+R1061:1061 Stdlib.NArith.Ndiv_def <> a:7 var
+R1063:1063 Stdlib.NArith.Ndiv_def <> b:8 var
+R1068:1071 Corelib.Numbers.BinNums <> Npos constr
+R1073:1073 Stdlib.NArith.Ndiv_def <> b:8 var
+R1094:1117 Stdlib.NArith.BinNat N pos_div_eucl_remainder thm
+R1122:1125 Corelib.Numbers.BinNums <> Npos constr
+abbrev 1147:1150 <> Nmod
+R1155:1162 Stdlib.NArith.BinNat N modulo def
+abbrev 1190:1206 <> Ndiv_eucl_correct
+R1211:1225 Stdlib.NArith.BinNat N div_eucl_spec thm
+abbrev 1252:1262 <> Ndiv_mod_eq
+R1267:1276 Stdlib.NArith.BinNat N div_mod' thm

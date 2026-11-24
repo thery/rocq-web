@@ -1,0 +1,430 @@
+DIGEST 31fc7170772deccf0ceb4d346681fc8d
+FStdlib.Structures.OrdersLists
+R703:715 Stdlib.Classes.RelationPairs <> <> lib
+R717:726 Stdlib.Sorting.SetoidList <> <> lib
+R728:733 Stdlib.Structures.Orders <> <> lib
+R735:749 Stdlib.Structures.EqualitiesFacts <> <> lib
+R884:894 Stdlib.Structures.Orders OrderedType <> modtype
+mod 864:879 <> OrderedTypeLists
+abbrev 917:918 OrderedTypeLists In
+R922:924 Stdlib.Sorting.SetoidList <> InA ind
+R926:929 Stdlib.Structures.OrdersLists O eq defax
+abbrev 951:953 OrderedTypeLists Inf
+R957:963 Stdlib.Sorting.Sorted <> lelistA abbrev
+R965:968 Stdlib.Structures.OrdersLists O lt defax
+abbrev 990:993 OrderedTypeLists Sort
+R997:1000 Stdlib.Sorting.Sorted <> sort abbrev
+R1002:1005 Stdlib.Structures.OrdersLists O lt defax
+abbrev 1027:1031 OrderedTypeLists NoDup
+R1035:1040 Stdlib.Sorting.SetoidList <> NoDupA ind
+R1042:1045 Stdlib.Structures.OrdersLists O eq defax
+prf 1056:1060 OrderedTypeLists In_eq
+binder 1071:1071 <> l:1
+binder 1073:1073 <> x:2
+binder 1075:1075 <> y:3
+R1084:1087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1078:1079 Corelib.Init.Logic <> eq ind
+R1083:1083 Stdlib.Structures.OrdersLists <> y:3 var
+R1081:1081 Stdlib.Structures.OrdersLists <> x:2 var
+R1094:1097 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1088:1089 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1093:1093 Stdlib.Structures.OrdersLists <> l:1 var
+R1091:1091 Stdlib.Structures.OrdersLists <> x:2 var
+R1098:1099 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1103:1103 Stdlib.Structures.OrdersLists <> l:1 var
+R1101:1101 Stdlib.Structures.OrdersLists <> y:3 var
+prf 1153:1161 OrderedTypeLists ListIn_In
+binder 1172:1172 <> l:4
+binder 1174:1174 <> x:5
+R1188:1191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1177:1183 Stdlib.Lists.List <> In def
+R1187:1187 Stdlib.Structures.OrdersLists <> l:4 var
+R1185:1185 Stdlib.Structures.OrdersLists <> x:5 var
+R1192:1193 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1197:1197 Stdlib.Structures.OrdersLists <> l:4 var
+R1195:1195 Stdlib.Structures.OrdersLists <> x:5 var
+R1214:1219 Stdlib.Sorting.SetoidList <> In_InA thm
+R1221:1230 Stdlib.Structures.OrdersLists O eq_equiv prfax
+prf 1246:1251 OrderedTypeLists Inf_lt
+binder 1262:1262 <> l:6
+binder 1264:1264 <> x:7
+binder 1266:1266 <> y:8
+R1277:1280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1269:1272 Stdlib.Structures.OrdersLists O lt defax
+R1276:1276 Stdlib.Structures.OrdersLists <> y:8 var
+R1274:1274 Stdlib.Structures.OrdersLists <> x:7 var
+R1288:1291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1281:1283 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1287:1287 Stdlib.Structures.OrdersLists <> l:6 var
+R1285:1285 Stdlib.Structures.OrdersLists <> y:8 var
+R1292:1294 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1298:1298 Stdlib.Structures.OrdersLists <> l:6 var
+R1296:1296 Stdlib.Structures.OrdersLists <> x:7 var
+R1315:1322 Stdlib.Sorting.SetoidList <> InfA_ltA thm
+R1324:1336 Stdlib.Structures.OrdersLists O lt_strorder prfax
+prf 1352:1357 OrderedTypeLists Inf_eq
+binder 1368:1368 <> l:9
+binder 1370:1370 <> x:10
+binder 1372:1372 <> y:11
+R1383:1386 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1375:1378 Stdlib.Structures.OrdersLists O eq defax
+R1382:1382 Stdlib.Structures.OrdersLists <> y:11 var
+R1380:1380 Stdlib.Structures.OrdersLists <> x:10 var
+R1394:1397 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1387:1389 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1393:1393 Stdlib.Structures.OrdersLists <> l:9 var
+R1391:1391 Stdlib.Structures.OrdersLists <> y:11 var
+R1398:1400 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1404:1404 Stdlib.Structures.OrdersLists <> l:9 var
+R1402:1402 Stdlib.Structures.OrdersLists <> x:10 var
+R1421:1428 Stdlib.Sorting.SetoidList <> InfA_eqA thm
+R1441:1451 Stdlib.Structures.OrdersLists O lt_compat prfax
+R1430:1439 Stdlib.Structures.OrdersLists O eq_equiv prfax
+prf 1467:1477 OrderedTypeLists Sort_Inf_In
+binder 1488:1488 <> l:12
+binder 1490:1490 <> x:13
+binder 1492:1492 <> a:14
+R1501:1504 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1495:1498 Stdlib.Structures.OrdersLists OrderedTypeLists Sort abbrev
+R1500:1500 Stdlib.Structures.OrdersLists <> l:12 var
+R1512:1515 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1505:1507 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1511:1511 Stdlib.Structures.OrdersLists <> l:12 var
+R1509:1509 Stdlib.Structures.OrdersLists <> a:14 var
+R1522:1525 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1516:1517 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1521:1521 Stdlib.Structures.OrdersLists <> l:12 var
+R1519:1519 Stdlib.Structures.OrdersLists <> x:13 var
+R1526:1529 Stdlib.Structures.OrdersLists O lt defax
+R1533:1533 Stdlib.Structures.OrdersLists <> x:13 var
+R1531:1531 Stdlib.Structures.OrdersLists <> a:14 var
+R1550:1563 Stdlib.Sorting.SetoidList <> SortA_InfA_InA thm
+R1590:1600 Stdlib.Structures.OrdersLists O lt_compat prfax
+R1576:1588 Stdlib.Structures.OrdersLists O lt_strorder prfax
+R1565:1574 Stdlib.Structures.OrdersLists O eq_equiv prfax
+prf 1616:1625 OrderedTypeLists ListIn_Inf
+binder 1636:1636 <> l:15
+binder 1638:1638 <> x:16
+R1641:1641 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1675:1679 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 1649:1649 <> y:17
+R1663:1666 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1652:1658 Stdlib.Lists.List <> In def
+R1662:1662 Stdlib.Structures.OrdersLists <> l:15 var
+R1660:1660 Stdlib.Structures.OrdersLists <> y:17 var
+R1667:1670 Stdlib.Structures.OrdersLists O lt defax
+R1674:1674 Stdlib.Structures.OrdersLists <> y:17 var
+R1672:1672 Stdlib.Structures.OrdersLists <> x:16 var
+R1680:1682 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1686:1686 Stdlib.Structures.OrdersLists <> l:15 var
+R1684:1684 Stdlib.Structures.OrdersLists <> x:16 var
+R1704:1710 Stdlib.Sorting.SetoidList <> In_InfA thm
+R1712:1714 Stdlib.Structures.OrdersLists O t defax
+R1716:1719 Stdlib.Structures.OrdersLists O lt defax
+prf 1735:1740 OrderedTypeLists In_Inf
+binder 1751:1751 <> l:18
+binder 1753:1753 <> x:19
+R1756:1756 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1785:1789 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 1764:1764 <> y:20
+R1773:1776 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1767:1768 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1772:1772 Stdlib.Structures.OrdersLists <> l:18 var
+R1770:1770 Stdlib.Structures.OrdersLists <> y:20 var
+R1777:1780 Stdlib.Structures.OrdersLists O lt defax
+R1784:1784 Stdlib.Structures.OrdersLists <> y:20 var
+R1782:1782 Stdlib.Structures.OrdersLists <> x:19 var
+R1790:1792 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1796:1796 Stdlib.Structures.OrdersLists <> l:18 var
+R1794:1794 Stdlib.Structures.OrdersLists <> x:19 var
+R1813:1820 Stdlib.Sorting.SetoidList <> InA_InfA thm
+R1839:1842 Stdlib.Structures.OrdersLists O lt defax
+R1822:1831 Stdlib.Structures.OrdersLists O eq_equiv prfax
+prf 1859:1865 OrderedTypeLists Inf_alt
+binder 1877:1877 <> l:21
+binder 1879:1879 <> x:22
+R1888:1892 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1935:1935 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1882:1885 Stdlib.Structures.OrdersLists OrderedTypeLists Sort abbrev
+R1887:1887 Stdlib.Structures.OrdersLists <> l:21 var
+R1900:1905 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1934:1934 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1893:1895 Stdlib.Structures.OrdersLists OrderedTypeLists Inf abbrev
+R1899:1899 Stdlib.Structures.OrdersLists <> l:21 var
+R1897:1897 Stdlib.Structures.OrdersLists <> x:22 var
+binder 1913:1913 <> y:23
+R1922:1925 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1916:1917 Stdlib.Structures.OrdersLists OrderedTypeLists In abbrev
+R1921:1921 Stdlib.Structures.OrdersLists <> l:21 var
+R1919:1919 Stdlib.Structures.OrdersLists <> y:23 var
+R1926:1929 Stdlib.Structures.OrdersLists O lt defax
+R1933:1933 Stdlib.Structures.OrdersLists <> y:23 var
+R1931:1931 Stdlib.Structures.OrdersLists <> x:22 var
+R1952:1959 Stdlib.Sorting.SetoidList <> InfA_alt thm
+R1986:1996 Stdlib.Structures.OrdersLists O lt_compat prfax
+R1972:1984 Stdlib.Structures.OrdersLists O lt_strorder prfax
+R1961:1970 Stdlib.Structures.OrdersLists O eq_equiv prfax
+prf 2012:2021 OrderedTypeLists Sort_NoDup
+binder 2032:2032 <> l:24
+R2041:2044 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2035:2038 Stdlib.Structures.OrdersLists OrderedTypeLists Sort abbrev
+R2040:2040 Stdlib.Structures.OrdersLists <> l:24 var
+R2045:2049 Stdlib.Structures.OrdersLists OrderedTypeLists NoDup abbrev
+R2051:2051 Stdlib.Structures.OrdersLists <> l:24 var
+R2068:2079 Stdlib.Sorting.SetoidList <> SortA_NoDupA thm
+R2106:2116 Stdlib.Structures.OrdersLists O lt_compat prfax
+R2092:2104 Stdlib.Structures.OrdersLists O lt_strorder prfax
+R2081:2090 Stdlib.Structures.OrdersLists O eq_equiv prfax
+R2237:2252 Stdlib.Structures.OrdersLists OrderedTypeLists <> mod
+R2355:2365 Stdlib.Structures.Orders OrderedType <> modtype
+mod 2338:2351 <> KeyOrderedType
+R2378:2393 Stdlib.Structures.EqualitiesFacts KeyDecidableType <> mod
+R2395:2395 Stdlib.Structures.OrdersLists O <> mod
+abbrev 2444:2446 KeyOrderedType key
+R2449:2451 Stdlib.Structures.OrdersLists O t defax
+def 2505:2507 KeyOrderedType ltk
+binder 2510:2512 <> elt:25
+R2517:2524 Corelib.Relations.Relation_Definitions <> relation def
+R2530:2530 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2527:2529 Stdlib.Structures.OrdersLists KeyOrderedType key abbrev
+R2531:2533 Stdlib.Structures.OrdersLists <> elt:25 var
+R2543:2546 Stdlib.Classes.RelationPairs <> ::signature_scope:x_'@@1' not
+R2539:2542 Stdlib.Structures.OrdersLists O lt defax
+R2574:2576 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+inst 2637:2648 KeyOrderedType ltk_strorder
+binder 2651:2653 <> elt:26
+R2658:2668 Corelib.Classes.RelationClasses <> StrictOrder class
+R2672:2674 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R2676:2678 Stdlib.Structures.OrdersLists <> elt:26 var
+inst 2708:2717 KeyOrderedType ltk_compat
+binder 2720:2722 <> elt:27
+R2727:2732 Corelib.Classes.Morphisms <> Proper class
+R2754:2756 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R2758:2760 Stdlib.Structures.OrdersLists <> elt:27 var
+R2738:2740 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2735:2737 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R2744:2746 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2741:2743 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R2747:2749 Corelib.Init.Logic <> iff def
+R2779:2781 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R2784:2786 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+inst 2828:2838 KeyOrderedType ltk_compat'
+binder 2841:2843 <> elt:28
+R2848:2853 Corelib.Classes.Morphisms <> Proper class
+R2877:2879 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R2881:2883 Stdlib.Structures.OrdersLists <> elt:28 var
+R2860:2862 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2856:2859 Stdlib.Structures.OrdersLists KeyOrderedType eqke def
+R2867:2869 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2863:2866 Stdlib.Structures.OrdersLists KeyOrderedType eqke def
+R2870:2872 Corelib.Init.Logic <> iff def
+R2902:2919 Corelib.Classes.Morphisms <> subrelation_proper thm
+inst 2987:2997 KeyOrderedType pair_compat
+binder 3000:3002 <> elt:29
+R3007:3012 Corelib.Classes.Morphisms <> Proper class
+R3041:3044 Corelib.Init.Datatypes <> pair constr
+R3046:3048 Stdlib.Structures.OrdersLists KeyOrderedType key abbrev
+R3050:3052 Stdlib.Structures.OrdersLists <> elt:29 var
+R3019:3021 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3015:3018 Stdlib.Structures.OrdersLists O eq defax
+R3030:3032 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3022:3029 Corelib.Init.Logic <> eq ind
+R3033:3036 Stdlib.Structures.OrdersLists KeyOrderedType eqke def
+R3070:3080 Stdlib.Classes.RelationPairs <> pair_compat inst
+sec 3098:3100 KeyOrderedType Elt
+var 3114:3116 KeyOrderedType.Elt elt
+R3151:3151 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3148:3150 Stdlib.Structures.OrdersLists KeyOrderedType key abbrev
+R3152:3154 Stdlib.Structures.OrdersLists <> KeyOrderedType.Elt.elt var
+R3179:3182 Corelib.Init.Datatypes <> list ind
+R3188:3188 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3185:3187 Stdlib.Structures.OrdersLists KeyOrderedType key abbrev
+R3189:3191 Stdlib.Structures.OrdersLists <> KeyOrderedType.Elt.elt var
+prf 3204:3214 KeyOrderedType ltk_not_eqk
+binder 3216:3216 <> p:32
+binder 3218:3218 <> q:33
+R3229:3232 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3222:3224 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R3228:3228 Stdlib.Structures.OrdersLists <> q:33 var
+R3226:3226 Stdlib.Structures.OrdersLists <> p:32 var
+R3233:3234 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3235:3237 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R3241:3241 Stdlib.Structures.OrdersLists <> q:33 var
+R3239:3239 Stdlib.Structures.OrdersLists <> p:32 var
+R3295:3317 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 3342:3353 KeyOrderedType ltk_not_eqke
+binder 3355:3355 <> p:34
+binder 3357:3357 <> q:35
+R3368:3371 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3361:3363 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R3367:3367 Stdlib.Structures.OrdersLists <> q:35 var
+R3365:3365 Stdlib.Structures.OrdersLists <> p:34 var
+R3372:3372 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3373:3376 Stdlib.Structures.OrdersLists KeyOrderedType eqke def
+R3380:3380 Stdlib.Structures.OrdersLists <> q:35 var
+R3378:3378 Stdlib.Structures.OrdersLists <> p:34 var
+R3434:3456 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+abbrev 3484:3487 KeyOrderedType Sort
+R3493:3496 Stdlib.Sorting.Sorted <> sort abbrev
+R3498:3500 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+abbrev 3515:3517 KeyOrderedType Inf
+R3523:3529 Stdlib.Sorting.Sorted <> lelistA abbrev
+R3531:3533 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+prf 3546:3551 KeyOrderedType Inf_eq
+binder 3553:3553 <> l:36
+binder 3555:3555 <> x:37
+binder 3557:3558 <> x':38
+R3570:3573 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3562:3564 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R3568:3569 Stdlib.Structures.OrdersLists <> x':38 var
+R3566:3566 Stdlib.Structures.OrdersLists <> x:37 var
+R3582:3585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3574:3576 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3581:3581 Stdlib.Structures.OrdersLists <> l:36 var
+R3578:3579 Stdlib.Structures.OrdersLists <> x':38 var
+R3586:3588 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3592:3592 Stdlib.Structures.OrdersLists <> l:36 var
+R3590:3590 Stdlib.Structures.OrdersLists <> x:37 var
+prf 3633:3638 KeyOrderedType Inf_lt
+binder 3640:3640 <> l:39
+binder 3642:3642 <> x:40
+binder 3644:3645 <> x':41
+R3657:3660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3649:3651 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R3655:3656 Stdlib.Structures.OrdersLists <> x':41 var
+R3653:3653 Stdlib.Structures.OrdersLists <> x:40 var
+R3669:3672 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3661:3663 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3668:3668 Stdlib.Structures.OrdersLists <> l:39 var
+R3665:3666 Stdlib.Structures.OrdersLists <> x':41 var
+R3673:3675 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3679:3679 Stdlib.Structures.OrdersLists <> l:39 var
+R3677:3677 Stdlib.Structures.OrdersLists <> x:40 var
+R3697:3704 Stdlib.Sorting.SetoidList <> InfA_ltA thm
+prf 3819:3829 KeyOrderedType Sort_Inf_In
+binder 3831:3831 <> l:42
+binder 3833:3833 <> p:43
+binder 3835:3835 <> q:44
+R3845:3848 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3839:3842 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R3844:3844 Stdlib.Structures.OrdersLists <> l:42 var
+R3856:3859 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3849:3851 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3855:3855 Stdlib.Structures.OrdersLists <> l:42 var
+R3853:3853 Stdlib.Structures.OrdersLists <> q:44 var
+R3871:3874 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3860:3862 Stdlib.Sorting.SetoidList <> InA ind
+R3870:3870 Stdlib.Structures.OrdersLists <> l:42 var
+R3868:3868 Stdlib.Structures.OrdersLists <> p:43 var
+R3864:3866 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R3875:3877 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R3881:3881 Stdlib.Structures.OrdersLists <> p:43 var
+R3879:3879 Stdlib.Structures.OrdersLists <> q:44 var
+R3899:3912 Stdlib.Sorting.SetoidList <> SortA_InfA_InA thm
+prf 3942:3955 KeyOrderedType Sort_Inf_NotIn
+binder 3957:3957 <> l:45
+binder 3959:3959 <> k:46
+binder 3961:3961 <> e:47
+R3971:3974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3965:3968 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R3970:3970 Stdlib.Structures.OrdersLists <> l:45 var
+R3986:3990 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3975:3977 Stdlib.Structures.OrdersLists KeyOrderedType Inf abbrev
+R3985:3985 Stdlib.Structures.OrdersLists <> l:45 var
+R3979:3979 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3981:3981 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3983:3983 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3980:3980 Stdlib.Structures.OrdersLists <> k:46 var
+R3982:3982 Stdlib.Structures.OrdersLists <> e:47 var
+R3991:3991 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3992:3993 Stdlib.Structures.OrdersLists KeyOrderedType In def
+R3997:3997 Stdlib.Structures.OrdersLists <> l:45 var
+R3995:3995 Stdlib.Structures.OrdersLists <> k:46 var
+R4073:4083 Stdlib.Structures.OrdersLists KeyOrderedType ltk_not_eqk thm
+R4085:4085 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4087:4087 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4089:4089 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4091:4091 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4093:4093 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4096:4096 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4113:4123 Stdlib.Structures.OrdersLists KeyOrderedType Sort_Inf_In thm
+prf 4180:4190 KeyOrderedType Sort_NoDupA
+binder 4192:4192 <> l:48
+R4202:4205 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4196:4199 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R4201:4201 Stdlib.Structures.OrdersLists <> l:48 var
+R4206:4211 Stdlib.Sorting.SetoidList <> NoDupA ind
+R4217:4217 Stdlib.Structures.OrdersLists <> l:48 var
+R4213:4215 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R4235:4246 Stdlib.Sorting.SetoidList <> SortA_NoDupA thm
+prf 4276:4289 KeyOrderedType Sort_In_cons_1
+binder 4291:4291 <> l:49
+binder 4293:4293 <> p:50
+binder 4295:4295 <> q:51
+R4310:4313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4299:4302 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R4306:4307 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4305:4305 Stdlib.Structures.OrdersLists <> p:50 var
+R4308:4308 Stdlib.Structures.OrdersLists <> l:49 var
+R4325:4328 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4314:4316 Stdlib.Sorting.SetoidList <> InA ind
+R4324:4324 Stdlib.Structures.OrdersLists <> l:49 var
+R4322:4322 Stdlib.Structures.OrdersLists <> q:51 var
+R4318:4320 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R4329:4331 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R4335:4335 Stdlib.Structures.OrdersLists <> q:51 var
+R4333:4333 Stdlib.Structures.OrdersLists <> p:50 var
+R4379:4389 Stdlib.Structures.OrdersLists KeyOrderedType Sort_Inf_In thm
+R4366:4369 Stdlib.Sorting.Sorted <> sort abbrev
+prf 4415:4428 KeyOrderedType Sort_In_cons_2
+binder 4430:4430 <> l:52
+binder 4432:4432 <> p:53
+binder 4434:4434 <> q:54
+R4449:4452 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4438:4441 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R4445:4446 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4444:4444 Stdlib.Structures.OrdersLists <> p:53 var
+R4447:4447 Stdlib.Structures.OrdersLists <> l:52 var
+R4469:4478 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4453:4455 Stdlib.Sorting.SetoidList <> InA ind
+R4465:4466 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4464:4464 Stdlib.Structures.OrdersLists <> p:53 var
+R4467:4467 Stdlib.Structures.OrdersLists <> l:52 var
+R4461:4461 Stdlib.Structures.OrdersLists <> q:54 var
+R4457:4459 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R4486:4489 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4479:4481 Stdlib.Structures.OrdersLists KeyOrderedType ltk def
+R4485:4485 Stdlib.Structures.OrdersLists <> q:54 var
+R4483:4483 Stdlib.Structures.OrdersLists <> p:53 var
+R4490:4492 Stdlib.Structures.OrdersLists KeyOrderedType eqk def
+R4496:4496 Stdlib.Structures.OrdersLists <> q:54 var
+R4494:4494 Stdlib.Structures.OrdersLists <> p:53 var
+R4528:4530 Stdlib.Sorting.SetoidList <> InA ind
+R4570:4583 Stdlib.Structures.OrdersLists KeyOrderedType Sort_In_cons_1 thm
+prf 4630:4643 KeyOrderedType Sort_In_cons_3
+binder 4645:4645 <> x:55
+binder 4647:4647 <> l:56
+binder 4649:4649 <> k:57
+binder 4651:4651 <> e:58
+R4674:4677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4659:4662 Stdlib.Structures.OrdersLists KeyOrderedType Sort abbrev
+R4670:4671 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4665:4665 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4667:4667 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4669:4669 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4666:4666 Stdlib.Structures.OrdersLists <> k:57 var
+R4668:4668 Stdlib.Structures.OrdersLists <> e:58 var
+R4672:4672 Stdlib.Structures.OrdersLists <> l:56 var
+R4684:4687 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4678:4679 Stdlib.Structures.OrdersLists KeyOrderedType In def
+R4683:4683 Stdlib.Structures.OrdersLists <> l:56 var
+R4681:4681 Stdlib.Structures.OrdersLists <> x:55 var
+R4688:4688 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4689:4692 Stdlib.Structures.OrdersLists O eq defax
+R4696:4696 Stdlib.Structures.OrdersLists <> k:57 var
+R4694:4694 Stdlib.Structures.OrdersLists <> x:55 var
+R4728:4731 Stdlib.Sorting.Sorted <> sort abbrev
+R4758:4771 Stdlib.Structures.OrdersLists KeyOrderedType Sort_Inf_NotIn thm
+R4786:4790 Stdlib.Structures.OrdersLists KeyOrderedType In_eq thm
+R4806:4808 Stdlib.Structures.OrdersLists KeyOrderedType.Elt <> sec
+R5005:5018 Stdlib.Structures.OrdersLists KeyOrderedType <> mod

@@ -1,0 +1,914 @@
+DIGEST 58d9461130c586882a3080677e78b8aa
+Fmathcomp.algebra.zmodp
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.choice <> <> lib
+R256:261 mathcomp.boot.eqtype <> <> lib
+R263:268 mathcomp.boot.ssrnat <> <> lib
+R270:272 mathcomp.boot.seq <> <> lib
+R304:306 mathcomp.boot.div <> <> lib
+R308:314 mathcomp.boot.fintype <> <> lib
+R316:320 mathcomp.boot.bigop <> <> lib
+R322:327 mathcomp.boot.finset <> <> lib
+R329:333 mathcomp.boot.prime <> <> lib
+R335:342 mathcomp.finite_group.fingroup <> <> lib
+R344:347 mathcomp.finite_group.perm <> <> lib
+R379:385 mathcomp.boot.nmodule <> <> lib
+R387:412 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> <> lib
+R414:419 mathcomp.algebra.algebraic_hierarchy.divalg <> <> lib
+R421:428 mathcomp.algebra.algebraic_hierarchy.decfield <> <> lib
+R460:467 mathcomp.algebra.countalg <> <> lib
+R469:474 mathcomp.algebra.finalg <> <> lib
+sec 3435:3439 <> ZpDef
+var 3451:3452 ZpDef p'
+R3456:3458 Corelib.Init.Datatypes <> nat ind
+var 3465:3465 ZpDef p
+R3472:3474 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R3470:3471 mathcomp.algebra.zmodp <> ZpDef.p' var
+abbrev 3487:3489 <> Zp1
+R3496:3498 mathcomp.boot.fintype <> Zp1 def
+R3500:3501 mathcomp.algebra.zmodp <> ZpDef.p' var
+abbrev 3514:3517 <> inZp
+R3523:3526 mathcomp.boot.fintype <> inZp def
+R3528:3529 mathcomp.algebra.zmodp <> ZpDef.p' var
+R3552:3554 mathcomp.boot.fintype <> :::'''I_'_x not
+R3555:3555 mathcomp.algebra.zmodp <> ZpDef.p var
+R4025:4042 mathcomp.algebra.finalg FinRing.ZmoduleExports ::form_scope:'['_'finGroupMixin'_'of'_x_'for'_'+%R'_']' not
+R4047:4055 mathcomp.algebra.finalg FinRing.ZmoduleExports ::form_scope:'['_'finGroupMixin'_'of'_x_'for'_'+%R'_']' not
+R4043:4045 mathcomp.boot.fintype <> :::'''I_'_x not
+R4046:4046 mathcomp.algebra.zmodp <> ZpDef.p var
+def 3997:4056 <> HB_unnamed_factory_1
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_StarMonoid_isGroup
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_Magma_isSemigroup
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_Monoid_isStarMonoid
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_hasInv
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_hasMul
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_hasOne
+def 3997:4056 <> fingroup_Finite_isGroup__to__monoid_BaseUMagma_isUMagma
+def 3997:4056 <> HB_unnamed_mixin_9
+def 3997:4056 <> fintype_ordinal__canonical__monoid_Magma
+def 3997:4056 <> fintype_ordinal__canonical__monoid_ChoiceMagma
+def 3997:4056 <> HB_unnamed_mixin_10
+def 3997:4056 <> fintype_ordinal__canonical__monoid_Semigroup
+def 3997:4056 <> HB_unnamed_mixin_11
+def 3997:4056 <> fintype_ordinal__canonical__monoid_BaseUMagma
+def 3997:4056 <> fintype_ordinal__canonical__monoid_ChoiceBaseUMagma
+def 3997:4056 <> HB_unnamed_mixin_12
+def 3997:4056 <> fintype_ordinal__canonical__monoid_BaseGroup
+def 3997:4056 <> HB_unnamed_mixin_13
+def 3997:4056 <> fintype_ordinal__canonical__monoid_UMagma
+def 3997:4056 <> fintype_ordinal__canonical__monoid_Monoid
+def 3997:4056 <> HB_unnamed_mixin_14
+def 3997:4056 <> fintype_ordinal__canonical__monoid_StarMonoid
+def 3997:4056 <> HB_unnamed_mixin_15
+def 3997:4056 <> fintype_ordinal__canonical__monoid_Group
+def 3997:4056 <> fintype_ordinal__canonical__fingroup_FinStarMonoid
+def 3997:4056 <> fintype_ordinal__canonical__fingroup_FinGroup
+prf 4088:4095 <> Zp_mul1z
+R4099:4105 Corelib.ssr.ssrfun <> left_id def
+R4111:4116 mathcomp.boot.fintype <> Zp_mul def
+R4107:4109 mathcomp.algebra.zmodp <> Zp1 abbrev
+R4146:4152 mathcomp.boot.eqtype <> val_inj thm
+R4166:4172 mathcomp.boot.div <> modnMml thm
+R4174:4178 mathcomp.boot.ssrnat <> mul1n thm
+R4180:4184 mathcomp.boot.fintype <> modZp thm
+prf 4199:4206 <> Zp_mulz1
+R4210:4217 Corelib.ssr.ssrfun <> right_id def
+R4223:4228 mathcomp.boot.fintype <> Zp_mul def
+R4219:4221 mathcomp.algebra.zmodp <> Zp1 abbrev
+R4259:4265 mathcomp.boot.fintype <> Zp_mulC thm
+R4267:4274 mathcomp.algebra.zmodp <> Zp_mul1z thm
+prf 4289:4296 <> Zp_mulVz
+binder 4298:4298 <> x:3
+R4313:4316 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4302:4308 mathcomp.boot.div <> coprime def
+R4312:4312 mathcomp.algebra.zmodp <> x:3 var
+R4310:4310 mathcomp.algebra.zmodp <> ZpDef.p var
+R4336:4338 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4317:4322 mathcomp.boot.fintype <> Zp_mul def
+R4335:4335 mathcomp.algebra.zmodp <> x:3 var
+R4325:4330 mathcomp.boot.fintype <> Zp_inv def
+R4332:4332 mathcomp.algebra.zmodp <> x:3 var
+R4339:4341 mathcomp.algebra.zmodp <> Zp1 abbrev
+R4373:4379 mathcomp.boot.eqtype <> val_inj thm
+R4391:4396 mathcomp.boot.fintype <> Zp_inv def
+R4408:4414 mathcomp.boot.div <> modnMml thm
+R4430:4441 mathcomp.boot.div <> chinese_modl thm
+R4456:4462 mathcomp.boot.div <> chinese def
+R4464:4468 mathcomp.boot.ssrnat <> addn0 thm
+R4470:4474 mathcomp.boot.ssrnat <> mul1n thm
+R4476:4480 mathcomp.boot.ssrnat <> mulnC thm
+prf 4495:4502 <> Zp_mulzV
+binder 4504:4504 <> x:4
+R4519:4522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4508:4514 mathcomp.boot.div <> coprime def
+R4518:4518 mathcomp.algebra.zmodp <> x:4 var
+R4516:4516 mathcomp.algebra.zmodp <> ZpDef.p var
+R4542:4544 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4523:4528 mathcomp.boot.fintype <> Zp_mul def
+R4533:4538 mathcomp.boot.fintype <> Zp_inv def
+R4540:4540 mathcomp.algebra.zmodp <> x:4 var
+R4530:4530 mathcomp.algebra.zmodp <> x:4 var
+R4545:4547 mathcomp.algebra.zmodp <> Zp1 abbrev
+R4582:4588 mathcomp.boot.fintype <> Zp_mulC thm
+R4590:4597 mathcomp.algebra.zmodp <> Zp_mulVz thm
+prf 4612:4624 <> Zp_intro_unit
+binder 4626:4626 <> x:5
+binder 4628:4628 <> y:6
+R4648:4651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4642:4644 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4632:4637 mathcomp.boot.fintype <> Zp_mul def
+R4641:4641 mathcomp.algebra.zmodp <> x:5 var
+R4639:4639 mathcomp.algebra.zmodp <> y:6 var
+R4645:4647 mathcomp.algebra.zmodp <> Zp1 abbrev
+R4652:4658 mathcomp.boot.div <> coprime def
+R4662:4662 mathcomp.algebra.zmodp <> x:5 var
+R4660:4660 mathcomp.algebra.zmodp <> ZpDef.p var
+R4691:4699 mathcomp.boot.div <> coprimen1 thm
+R4701:4701 mathcomp.algebra.zmodp <> ZpDef.p var
+R4716:4727 mathcomp.boot.div <> coprime_modr thm
+R4734:4745 mathcomp.boot.div <> coprime_modr thm
+R4747:4755 mathcomp.boot.div <> coprimeMr thm
+R4763:4766 Corelib.ssr.ssrbool <> andP thm
+prf 4781:4788 <> Zp_mulrn
+binder 4790:4790 <> x:7
+binder 4792:4792 <> n:8
+R4802:4804 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4797:4800 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R4796:4796 mathcomp.algebra.zmodp <> x:7 var
+R4801:4801 mathcomp.algebra.zmodp <> n:8 var
+R4805:4808 mathcomp.algebra.zmodp <> inZp abbrev
+R4812:4814 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R4811:4811 mathcomp.algebra.zmodp <> x:7 var
+R4815:4815 mathcomp.algebra.zmodp <> n:8 var
+R4833:4839 mathcomp.boot.eqtype <> val_inj thm
+R4886:4890 mathcomp.boot.ssrnat <> muln0 thm
+R4892:4901 mathcomp.boot.div <> modn_small thm
+R4916:4926 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras Dummy.GRing mulrS thm
+R4935:4941 mathcomp.boot.div <> modnDmr thm
+R4943:4947 mathcomp.boot.ssrnat <> mulnS thm
+prf 4993:5000 <> Zp_mulgC
+R5005:5015 Corelib.ssr.ssrfun <> commutative def
+R5017:5019 mathcomp.boot.fintype <> :::'''I_'_x not
+R5020:5020 mathcomp.algebra.zmodp <> ZpDef.p var
+R5024:5026 mathcomp.boot.monoid <> mul def
+R5043:5049 mathcomp.boot.fintype <> Zp_addC thm
+prf 5064:5073 <> Zp_abelian
+R5077:5083 mathcomp.finite_group.fingroup <> abelian def
+R5085:5090 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R5095:5095 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R5091:5093 mathcomp.boot.fintype <> :::'''I_'_x not
+R5094:5094 mathcomp.algebra.zmodp <> ZpDef.p var
+R5112:5131 mathcomp.algebra.finalg FinRing zmod_abelian thm
+prf 5146:5152 <> Zp_expg
+binder 5154:5154 <> x:9
+binder 5156:5156 <> n:10
+R5166:5168 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5161:5164 mathcomp.boot.monoid <> ::group_scope:x_'^+'_x not
+R5160:5160 mathcomp.algebra.zmodp <> x:9 var
+R5165:5165 mathcomp.algebra.zmodp <> n:10 var
+R5169:5172 mathcomp.algebra.zmodp <> inZp abbrev
+R5176:5178 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R5175:5175 mathcomp.algebra.zmodp <> x:9 var
+R5179:5179 mathcomp.algebra.zmodp <> n:10 var
+R5197:5204 mathcomp.algebra.zmodp <> Zp_mulrn thm
+prf 5219:5227 <> Zp1_expgz
+binder 5229:5229 <> x:11
+R5241:5243 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5236:5239 mathcomp.boot.monoid <> ::group_scope:x_'^+'_x not
+R5233:5235 mathcomp.algebra.zmodp <> Zp1 abbrev
+R5240:5240 mathcomp.algebra.zmodp <> x:11 var
+R5244:5244 mathcomp.algebra.zmodp <> x:11 var
+R5262:5268 mathcomp.algebra.zmodp <> Zp_expg thm
+R5277:5283 mathcomp.boot.eqtype <> val_inj thm
+R5296:5303 mathcomp.algebra.zmodp <> Zp_mul1z thm
+R5313:5318 Corelib.ssr.ssrfun <> congr1 def
+R5320:5322 mathcomp.boot.eqtype <> val abbrev
+prf 5338:5345 <> Zp_cycle
+R5353:5355 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5349:5352 mathcomp.boot.finset <> setT abbrev
+R5356:5357 mathcomp.finite_group.fingroup <> ::group_scope:'<['_x_']'_'>' not
+R5361:5362 mathcomp.finite_group.fingroup <> ::group_scope:'<['_x_']'_'>' not
+R5358:5360 mathcomp.algebra.zmodp <> Zp1 abbrev
+R5381:5384 mathcomp.boot.finset <> setP thm
+R5403:5411 mathcomp.algebra.zmodp <> Zp1_expgz thm
+R5413:5415 mathcomp.finite_group.fingroup <> inE def
+R5417:5422 mathcomp.finite_group.fingroup <> groupX thm
+R5425:5431 mathcomp.finite_group.fingroup <> mem_gen thm
+R5434:5438 mathcomp.boot.finset <> set11 thm
+prf 5453:5461 <> order_Zp1
+R5471:5473 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5465:5466 mathcomp.finite_group.fingroup <> ::group_scope:'#['_x_']' not
+R5470:5470 mathcomp.finite_group.fingroup <> ::group_scope:'#['_x_']' not
+R5467:5469 mathcomp.algebra.zmodp <> Zp1 abbrev
+R5474:5474 mathcomp.algebra.zmodp <> ZpDef.p var
+R5495:5500 mathcomp.finite_group.fingroup <> orderE thm
+R5503:5510 mathcomp.algebra.zmodp <> Zp_cycle thm
+R5512:5517 mathcomp.boot.finset <> cardsT thm
+R5519:5526 mathcomp.boot.fintype <> card_ord thm
+R5539:5543 mathcomp.algebra.zmodp ZpDef <> sec
+R5557:5559 mathcomp.boot.fintype <> Zp0 def
+R5577:5579 mathcomp.boot.fintype <> Zp1 def
+R5597:5600 mathcomp.boot.fintype <> inZp def
+R5620:5625 mathcomp.boot.fintype <> valZpK thm
+abbrev 5880:5887 <> big_ord1
+R5892:5899 mathcomp.boot.bigop <> big_ord1 thm
+abbrev 5990:6002 <> big_ord1_cond
+R6007:6019 mathcomp.boot.bigop <> big_ord1_cond thm
+sec 6046:6053 <> ZpNzRing
+var 6066:6067 ZpNzRing p'
+R6071:6073 Corelib.Init.Datatypes <> nat ind
+abbrev 6091:6091 <> p
+R6098:6100 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R6096:6097 mathcomp.algebra.zmodp <> ZpNzRing.p' var
+prf 6110:6122 <> Zp_nontrivial
+R6129:6132 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R6134:6137 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R6138:6140 mathcomp.boot.fintype <> :::'''I_'_x not
+R6141:6141 mathcomp.algebra.zmodp <> p abbrev
+R6126:6128 mathcomp.boot.fintype <> Zp1 def
+R6194:6224 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Zmodule_isComNzRing Build abbrev
+R6226:6228 mathcomp.boot.fintype <> :::'''I_'_x not
+R6229:6229 mathcomp.algebra.zmodp <> p abbrev
+R6292:6304 mathcomp.algebra.zmodp <> Zp_nontrivial thm
+R6277:6287 mathcomp.boot.fintype <> Zp_mul_addl thm
+R6263:6270 mathcomp.algebra.zmodp <> Zp_mul1z thm
+R6250:6256 mathcomp.boot.fintype <> Zp_mulC thm
+R6237:6243 mathcomp.boot.fintype <> Zp_mulA thm
+def 6164:6305 <> HB_unnamed_factory_16
+def 6164:6305 <> GRing_Zmodule_isComNzRing__to__GRing_PzSemiRing_isNonZero
+def 6164:6305 <> GRing_Zmodule_isComNzRing__to__GRing_Nmodule_isPzSemiRing
+def 6164:6305 <> GRing_Zmodule_isComNzRing__to__GRing_SemiRing_hasCommutativeMul
+def 6164:6305 <> HB_unnamed_mixin_20
+def 6164:6305 <> fintype_ordinal__canonical__GRing_PzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_PzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_PzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__GRing_PzRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_PzRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_PzRing
+def 6164:6305 <> HB_unnamed_mixin_21
+def 6164:6305 <> fintype_ordinal__canonical__GRing_NzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_NzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_NzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__GRing_NzRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_NzRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_NzRing
+def 6164:6305 <> HB_unnamed_mixin_22
+def 6164:6305 <> fintype_ordinal__canonical__GRing_ComPzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_ComPzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_ComPzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__GRing_ComPzRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_ComPzRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_ComPzRing
+def 6164:6305 <> fintype_ordinal__canonical__GRing_ComNzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_ComNzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_ComNzSemiRing
+def 6164:6305 <> fintype_ordinal__canonical__GRing_ComNzRing
+def 6164:6305 <> fintype_ordinal__canonical__CountRing_ComNzRing
+def 6164:6305 <> fintype_ordinal__canonical__FinRing_ComNzRing
+R6337:6371 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComNzRing_hasMulInverse Build abbrev
+R6373:6375 mathcomp.boot.fintype <> :::'''I_'_x not
+R6376:6376 mathcomp.algebra.zmodp <> p abbrev
+R6417:6426 mathcomp.boot.fintype <> Zp_inv_out thm
+R6398:6410 mathcomp.algebra.zmodp <> Zp_intro_unit thm
+R6384:6391 mathcomp.algebra.zmodp <> Zp_mulVz thm
+def 6307:6430 <> HB_unnamed_factory_23
+def 6307:6430 <> GRing_ComNzRing_hasMulInverse__to__GRing_NzRing_hasMulInverse
+def 6307:6430 <> HB_unnamed_mixin_25
+def 6307:6430 <> fintype_ordinal__canonical__GRing_UnitRing
+def 6307:6430 <> fintype_ordinal__canonical__CountRing_UnitRing
+def 6307:6430 <> fintype_ordinal__canonical__FinRing_UnitRing
+def 6307:6430 <> fintype_ordinal__canonical__GRing_ComUnitRing
+def 6307:6430 <> fintype_ordinal__canonical__CountRing_ComUnitRing
+def 6307:6430 <> fintype_ordinal__canonical__FinRing_ComUnitRing
+prf 6439:6444 <> Zp_nat
+binder 6446:6446 <> n:14
+R6454:6456 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6463:6466 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6467:6469 mathcomp.boot.fintype <> :::'''I_'_x not
+R6470:6470 mathcomp.algebra.zmodp <> p abbrev
+R6451:6453 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R6450:6450 mathcomp.algebra.zmodp <> n:14 var
+R6457:6460 mathcomp.boot.fintype <> inZp def
+R6462:6462 mathcomp.algebra.zmodp <> n:14 var
+R6490:6496 mathcomp.boot.eqtype <> val_inj thm
+R6509:6511 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R6513:6520 mathcomp.algebra.zmodp <> Zp_mulrn thm
+R6525:6531 mathcomp.boot.div <> modnMml thm
+R6533:6537 mathcomp.boot.ssrnat <> mul1n thm
+prf 6552:6558 <> natr_Zp
+R6565:6567 mathcomp.boot.fintype <> :::'''I_'_x not
+R6568:6568 mathcomp.algebra.zmodp <> p abbrev
+binder 6561:6561 <> x:15
+R6577:6579 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6574:6576 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R6573:6573 mathcomp.algebra.zmodp <> x:15 var
+R6580:6580 mathcomp.algebra.zmodp <> x:15 var
+R6601:6606 mathcomp.algebra.zmodp <> Zp_nat thm
+R6608:6613 mathcomp.boot.fintype <> valZpK thm
+prf 6628:6637 <> natr_negZp
+R6644:6646 mathcomp.boot.fintype <> :::'''I_'_x not
+R6647:6647 mathcomp.algebra.zmodp <> p abbrev
+binder 6640:6640 <> x:16
+R6660:6662 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6652:6652 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R6656:6659 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R6653:6654 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R6655:6655 mathcomp.algebra.zmodp <> x:16 var
+R6663:6664 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'-'_x not
+R6665:6665 mathcomp.algebra.zmodp <> x:16 var
+R6685:6691 mathcomp.boot.eqtype <> val_inj thm
+R6705:6710 mathcomp.algebra.zmodp <> Zp_nat thm
+R6715:6722 mathcomp.boot.div <> modn_mod thm
+prf 6768:6780 <> unit_Zp_mulgC
+R6785:6795 Corelib.ssr.ssrfun <> commutative def
+R6797:6802 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R6807:6807 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R6803:6805 mathcomp.boot.fintype <> :::'''I_'_x not
+R6806:6806 mathcomp.algebra.zmodp <> p abbrev
+R6811:6813 mathcomp.boot.monoid <> mul def
+R6845:6851 mathcomp.boot.eqtype <> val_inj thm
+R6865:6875 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing mulrC def
+prf 6890:6901 <> unit_Zp_expg
+R6908:6913 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R6918:6918 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R6914:6916 mathcomp.boot.fintype <> :::'''I_'_x not
+R6917:6917 mathcomp.algebra.zmodp <> p abbrev
+binder 6904:6904 <> u:17
+binder 6921:6921 <> n:18
+R6939:6941 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6958:6961 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6962:6964 mathcomp.boot.fintype <> :::'''I_'_x not
+R6965:6965 mathcomp.algebra.zmodp <> p abbrev
+R6927:6929 mathcomp.boot.eqtype <> val abbrev
+R6933:6936 mathcomp.boot.monoid <> ::group_scope:x_'^+'_x not
+R6932:6932 mathcomp.algebra.zmodp <> u:17 var
+R6937:6937 mathcomp.algebra.zmodp <> n:18 var
+R6942:6945 mathcomp.boot.fintype <> inZp def
+R6953:6955 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R6948:6950 mathcomp.boot.eqtype <> val abbrev
+R6952:6952 mathcomp.algebra.zmodp <> u:17 var
+R6956:6956 mathcomp.algebra.zmodp <> n:18 var
+R6982:6988 mathcomp.boot.eqtype <> val_inj thm
+R7032:7036 mathcomp.boot.monoid <> expgS thm
+R7045:7049 mathcomp.boot.ssrnat <> expnS thm
+R7051:7057 mathcomp.boot.div <> modnMmr thm
+R7070:7077 mathcomp.algebra.zmodp ZpNzRing <> sec
+def 7092:7099 <> Zp_trunc
+binder 7101:7101 <> p:19
+R7107:7109 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-2' not
+R7106:7106 mathcomp.algebra.zmodp <> p:19 var
+R7177:7179 mathcomp.boot.fintype <> :::'''I_'_x not
+R7180:7180 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R7191:7194 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R7181:7188 mathcomp.algebra.zmodp <> Zp_trunc def
+not 7164:7164 <> ::type_scope:'''Z_'_x
+R7321:7324 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7331:7331 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7325:7328 mathcomp.boot.prime <> pdiv def
+not 7308:7308 <> ::type_scope:'''F_'_x
+R7405:7411 mathcomp.algebra.zmodp <> natr_Zp thm
+sec 7430:7437 <> ZpNzRing
+R7448:7459 mathcomp.algebra.algebraic_hierarchy.decfield GRing.Theory <> mod
+prf 7469:7476 <> add_1_Zp
+binder 7478:7478 <> p:20
+R7485:7487 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7488:7488 mathcomp.algebra.zmodp <> p:20 var
+binder 7481:7481 <> x:21
+R7498:7500 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7494:7496 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R7497:7497 mathcomp.algebra.zmodp <> x:21 var
+R7501:7504 mathcomp.boot.fintype <> ordS def
+R7506:7506 mathcomp.algebra.zmodp <> x:21 var
+R7552:7558 mathcomp.boot.eqtype <> val_inj thm
+prf 7573:7580 <> add_Zp_1
+binder 7582:7582 <> p:22
+R7589:7591 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7592:7592 mathcomp.algebra.zmodp <> p:22 var
+binder 7585:7585 <> x:23
+R7602:7604 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7598:7600 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R7597:7597 mathcomp.algebra.zmodp <> x:23 var
+R7605:7608 mathcomp.boot.fintype <> ordS def
+R7610:7610 mathcomp.algebra.zmodp <> x:23 var
+R7631:7635 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrC def
+R7637:7644 mathcomp.algebra.zmodp <> add_1_Zp thm
+prf 7659:7666 <> sub_Zp_1
+binder 7668:7668 <> p:24
+R7675:7677 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7678:7678 mathcomp.algebra.zmodp <> p:24 var
+binder 7671:7671 <> x:25
+R7688:7690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7684:7686 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R7683:7683 mathcomp.algebra.zmodp <> x:25 var
+R7691:7698 mathcomp.boot.fintype <> ord_pred def
+R7700:7700 mathcomp.algebra.zmodp <> x:25 var
+R7721:7725 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addIr def
+R7739:7744 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrNK def
+R7746:7753 mathcomp.algebra.zmodp <> add_Zp_1 thm
+R7755:7763 mathcomp.boot.fintype <> ord_predK thm
+prf 7778:7786 <> add_N1_Zp
+binder 7788:7788 <> p:26
+R7795:7797 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7798:7798 mathcomp.algebra.zmodp <> p:26 var
+binder 7791:7791 <> x:27
+R7809:7811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7805:7807 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R7808:7808 mathcomp.algebra.zmodp <> x:27 var
+R7812:7819 mathcomp.boot.fintype <> ord_pred def
+R7821:7821 mathcomp.algebra.zmodp <> x:27 var
+R7842:7846 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrC def
+R7848:7855 mathcomp.algebra.zmodp <> sub_Zp_1 thm
+R7868:7875 mathcomp.algebra.zmodp ZpNzRing <> sec
+sec 7887:7892 <> Groups
+var 7905:7905 Groups p
+R7909:7911 Corelib.Init.Datatypes <> nat ind
+def 7926:7927 <> Zp
+R7932:7934 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7940:7945 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7957:7962 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7936:7938 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R7935:7935 mathcomp.algebra.zmodp <> Groups.p var
+R7946:7951 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R7956:7956 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R7952:7954 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R7955:7955 mathcomp.algebra.zmodp <> Groups.p var
+def 7979:7986 <> units_Zp
+R7991:7996 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R8008:8008 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R7997:8002 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R8007:8007 mathcomp.algebra.finalg <> ::type_scope:'{'_'unit'_x_'}' not
+R8003:8005 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R8006:8006 mathcomp.algebra.zmodp <> Groups.p var
+prf 8018:8024 <> Zp_cast
+R8033:8036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8029:8031 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8028:8028 mathcomp.algebra.zmodp <> Groups.p var
+R8052:8054 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8037:8037 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R8048:8051 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R8038:8045 mathcomp.algebra.zmodp <> Zp_trunc def
+R8047:8047 mathcomp.algebra.zmodp <> Groups.p var
+R8055:8055 mathcomp.algebra.zmodp <> Groups.p var
+R8074:8074 mathcomp.algebra.zmodp <> Groups.p var
+prf 8098:8107 <> val_Zp_nat
+R8119:8121 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8118:8118 mathcomp.algebra.zmodp <> Groups.p var
+binder 8110:8114 <> p_gt1:30
+binder 8125:8125 <> n:31
+R8129:8129 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8141:8144 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8155:8158 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8159:8161 Corelib.Init.Datatypes <> nat ind
+R8137:8139 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R8140:8140 mathcomp.algebra.zmodp <> Groups.p var
+R8131:8133 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8130:8130 mathcomp.algebra.zmodp <> n:31 var
+R8147:8150 mathcomp.boot.div <> ::nat_scope:x_'%%'_x not
+R8146:8146 mathcomp.algebra.zmodp <> n:31 var
+R8151:8151 mathcomp.algebra.zmodp <> Groups.p var
+R8182:8187 mathcomp.algebra.zmodp <> Zp_nat thm
+R8192:8198 mathcomp.algebra.zmodp <> Zp_cast thm
+prf 8213:8222 <> Zp_nat_mod
+R8234:8236 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8233:8233 mathcomp.algebra.zmodp <> Groups.p var
+binder 8225:8229 <> p_gt1:32
+binder 8239:8239 <> m:33
+R8254:8256 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8261:8264 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8265:8267 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R8268:8268 mathcomp.algebra.zmodp <> Groups.p var
+R8243:8243 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8250:8253 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8245:8248 mathcomp.boot.div <> ::nat_scope:x_'%%'_x not
+R8244:8244 mathcomp.algebra.zmodp <> m:33 var
+R8249:8249 mathcomp.algebra.zmodp <> Groups.p var
+R8258:8260 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8257:8257 mathcomp.algebra.zmodp <> m:33 var
+R8288:8294 mathcomp.boot.fintype <> ord_inj thm
+R8306:8315 mathcomp.algebra.zmodp <> val_Zp_nat thm
+R8320:8327 mathcomp.boot.div <> modn_mod thm
+prf 8342:8349 <> pchar_Zp
+R8358:8361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8354:8356 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8353:8353 mathcomp.algebra.zmodp <> Groups.p var
+R8366:8368 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8370:8373 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8374:8376 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R8377:8377 mathcomp.algebra.zmodp <> Groups.p var
+R8363:8365 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8362:8362 mathcomp.algebra.zmodp <> Groups.p var
+R8413:8422 mathcomp.algebra.zmodp <> Zp_nat_mod thm
+R8425:8429 mathcomp.boot.div <> modnn thm
+prf 8444:8450 <> unitZpE
+binder 8452:8452 <> x:34
+R8461:8464 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8457:8459 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8456:8456 mathcomp.algebra.zmodp <> Groups.p var
+R8465:8465 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8496:8499 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8466:8466 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R8478:8485 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R8474:8476 mathcomp.algebra.zmodp <> ::type_scope:'''Z_'_x not
+R8477:8477 mathcomp.algebra.zmodp <> Groups.p var
+R8468:8470 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R8467:8467 mathcomp.algebra.zmodp <> x:34 var
+R8486:8495 mathcomp.algebra.algebraic_hierarchy.divalg GRing unit def
+R8500:8506 mathcomp.boot.div <> coprime def
+R8510:8510 mathcomp.algebra.zmodp <> x:34 var
+R8508:8508 mathcomp.algebra.zmodp <> Groups.p var
+R8542:8548 Corelib.ssr.ssrbool <> qualifE thm
+R8565:8574 mathcomp.algebra.zmodp <> val_Zp_nat thm
+R8577:8583 mathcomp.algebra.zmodp <> Zp_cast thm
+R8586:8597 mathcomp.boot.div <> coprime_modr thm
+prf 8612:8623 <> Zp_group_set
+R8627:8635 mathcomp.finite_group.fingroup <> group_set def
+R8637:8638 mathcomp.algebra.zmodp <> Zp def
+R8660:8661 mathcomp.algebra.zmodp <> Zp def
+R8672:8674 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8671:8671 mathcomp.algebra.zmodp <> Groups.p var
+R8686:8691 mathcomp.finite_group.fingroup <> groupP thm
+def 8773:8780 <> Zp_group
+R8785:8789 mathcomp.finite_group.fingroup <> Group constr
+R8791:8802 mathcomp.algebra.zmodp <> Zp_group_set thm
+prf 8812:8818 <> card_Zp
+R8827:8830 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8823:8825 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8822:8822 mathcomp.algebra.zmodp <> Groups.p var
+R8836:8838 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8831:8832 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8835:8835 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R8833:8834 mathcomp.algebra.zmodp <> Zp def
+R8839:8839 mathcomp.algebra.zmodp <> Groups.p var
+R8858:8859 mathcomp.algebra.zmodp <> Zp def
+R8868:8868 mathcomp.algebra.zmodp <> Groups.p var
+R8906:8911 mathcomp.boot.finset <> cards1 thm
+R8925:8930 mathcomp.boot.finset <> cardsT thm
+R8932:8939 mathcomp.boot.fintype <> card_ord thm
+prf 8954:8959 <> mem_Zp
+binder 8961:8961 <> x:35
+R8970:8973 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8966:8968 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R8965:8965 mathcomp.algebra.zmodp <> Groups.p var
+R8975:8979 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R8974:8974 mathcomp.algebra.zmodp <> x:35 var
+R8980:8981 mathcomp.algebra.zmodp <> Zp def
+R9003:9004 mathcomp.algebra.zmodp <> Zp def
+def 9029:9042 <> units_Zp_group
+R9047:9056 mathcomp.finite_group.fingroup <> ::form_scope:'['_'group'_'of'_x_']' not
+R9065:9065 mathcomp.finite_group.fingroup <> ::form_scope:'['_'group'_'of'_x_']' not
+R9057:9064 mathcomp.algebra.zmodp <> units_Zp def
+prf 9075:9087 <> card_units_Zp
+R9096:9099 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9092:9094 mathcomp.boot.ssrnat <> ::nat_scope:x_'>'_x not
+R9091:9091 mathcomp.algebra.zmodp <> Groups.p var
+R9111:9113 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9100:9101 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9110:9110 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9102:9109 mathcomp.algebra.zmodp <> units_Zp def
+R9114:9120 mathcomp.boot.prime <> totient def
+R9122:9122 mathcomp.algebra.zmodp <> Groups.p var
+R9160:9166 mathcomp.boot.prime <> totient def
+R9172:9174 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R9169:9171 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-2' not
+R9168:9168 mathcomp.algebra.zmodp <> Groups.p var
+R9192:9192 mathcomp.algebra.zmodp <> Groups.p var
+R9221:9226 mathcomp.boot.finset <> cardsT thm
+R9228:9235 mathcomp.boot.fintype <> card_sub thm
+R9238:9246 mathcomp.boot.bigop <> sum1_card thm
+R9248:9257 mathcomp.boot.bigop <> big_mkcond thm
+R9274:9294 mathcomp.boot.prime <> totient_count_coprime thm
+R9296:9304 mathcomp.boot.bigop <> big_mkord thm
+prf 9319:9334 <> units_Zp_abelian
+R9338:9344 mathcomp.finite_group.fingroup <> abelian def
+R9346:9353 mathcomp.algebra.zmodp <> units_Zp def
+R9372:9377 mathcomp.finite_group.fingroup <> centsP thm
+R9397:9409 mathcomp.algebra.zmodp <> unit_Zp_mulgC thm
+R9422:9427 mathcomp.algebra.zmodp Groups <> sec
+abbrev 9492:9498 <> char_Zp
+R9504:9511 mathcomp.algebra.zmodp <> pchar_Zp thm
+sec 9574:9583 <> PrimeField
+var 9620:9620 PrimeField p
+R9624:9626 Corelib.Init.Datatypes <> nat ind
+sec 9638:9644 PrimeField F_prime
+var 9659:9662 PrimeField.F_prime p_pr
+R9666:9670 mathcomp.boot.prime <> prime def
+R9672:9672 mathcomp.algebra.zmodp <> PrimeField.p var
+prf 9682:9689 <> Fp_Zcast
+R9710:9712 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9693:9700 mathcomp.algebra.zmodp <> Zp_trunc def
+R9703:9706 mathcomp.boot.prime <> pdiv def
+R9708:9708 mathcomp.algebra.zmodp <> PrimeField.p var
+R9713:9720 mathcomp.algebra.zmodp <> Zp_trunc def
+R9722:9722 mathcomp.algebra.zmodp <> PrimeField.p var
+R9744:9747 mathcomp.boot.prime <> pdiv def
+R9749:9760 mathcomp.boot.prime <> primes_prime thm
+prf 9775:9781 <> Fp_cast
+R9807:9809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9785:9785 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R9803:9806 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R9786:9793 mathcomp.algebra.zmodp <> Zp_trunc def
+R9796:9799 mathcomp.boot.prime <> pdiv def
+R9801:9801 mathcomp.algebra.zmodp <> PrimeField.p var
+R9810:9810 mathcomp.algebra.zmodp <> PrimeField.p var
+R9831:9838 mathcomp.algebra.zmodp <> Fp_Zcast thm
+R9841:9847 mathcomp.algebra.zmodp <> Zp_cast thm
+R9850:9858 mathcomp.boot.prime <> prime_gt1 thm
+prf 9873:9879 <> card_Fp
+R9890:9892 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9883:9884 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9889:9889 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R9885:9887 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R9888:9888 mathcomp.algebra.zmodp <> PrimeField.p var
+R9893:9893 mathcomp.algebra.zmodp <> PrimeField.p var
+R9914:9921 mathcomp.boot.fintype <> card_ord thm
+R9923:9929 mathcomp.algebra.zmodp <> Fp_cast thm
+prf 9944:9953 <> val_Fp_nat
+binder 9955:9955 <> n:40
+R9959:9959 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9971:9974 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9985:9988 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R9989:9991 Corelib.Init.Datatypes <> nat ind
+R9967:9969 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R9970:9970 mathcomp.algebra.zmodp <> PrimeField.p var
+R9961:9963 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R9960:9960 mathcomp.algebra.zmodp <> n:40 var
+R9977:9980 mathcomp.boot.div <> ::nat_scope:x_'%%'_x not
+R9976:9976 mathcomp.algebra.zmodp <> n:40 var
+R9981:9981 mathcomp.algebra.zmodp <> PrimeField.p var
+R10012:10017 mathcomp.algebra.zmodp <> Zp_nat thm
+R10022:10028 mathcomp.algebra.zmodp <> Fp_cast thm
+prf 10043:10052 <> Fp_nat_mod
+binder 10054:10054 <> m:41
+R10069:10071 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10076:10079 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10080:10082 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10083:10083 mathcomp.algebra.zmodp <> PrimeField.p var
+R10058:10058 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R10065:10068 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R10060:10063 mathcomp.boot.div <> ::nat_scope:x_'%%'_x not
+R10059:10059 mathcomp.algebra.zmodp <> m:41 var
+R10064:10064 mathcomp.algebra.zmodp <> PrimeField.p var
+R10073:10075 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R10072:10072 mathcomp.algebra.zmodp <> m:41 var
+R10103:10109 mathcomp.boot.fintype <> ord_inj thm
+R10121:10130 mathcomp.algebra.zmodp <> val_Fp_nat thm
+R10135:10142 mathcomp.boot.div <> modn_mod thm
+prf 10157:10164 <> pchar_Fp
+R10169:10173 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R10168:10168 mathcomp.algebra.zmodp <> PrimeField.p var
+R10174:10180 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R10185:10185 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:'['_'pchar'_x_']' not
+R10181:10183 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10184:10184 mathcomp.algebra.zmodp <> PrimeField.p var
+R10207:10209 mathcomp.finite_group.fingroup <> inE def
+R10212:10221 mathcomp.algebra.zmodp <> Fp_nat_mod thm
+R10223:10226 mathcomp.algebra.zmodp <> PrimeField.F_prime.p_pr var
+R10229:10233 mathcomp.boot.div <> modnn thm
+prf 10248:10257 <> pchar_Fp_0
+R10265:10267 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10269:10272 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R10273:10275 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10276:10276 mathcomp.algebra.zmodp <> PrimeField.p var
+R10262:10264 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R10261:10261 mathcomp.algebra.zmodp <> PrimeField.p var
+R10293:10305 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pcharf0 thm
+R10307:10314 mathcomp.algebra.zmodp <> pchar_Fp thm
+prf 10329:10335 <> unitFpE
+binder 10337:10337 <> x:42
+R10341:10341 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10372:10375 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10342:10342 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R10354:10361 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R10350:10352 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10353:10353 mathcomp.algebra.zmodp <> PrimeField.p var
+R10344:10346 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'%:R' not
+R10343:10343 mathcomp.algebra.zmodp <> x:42 var
+R10362:10371 mathcomp.algebra.algebraic_hierarchy.divalg GRing unit def
+R10376:10382 mathcomp.boot.div <> coprime def
+R10386:10386 mathcomp.algebra.zmodp <> x:42 var
+R10384:10384 mathcomp.algebra.zmodp <> PrimeField.p var
+R10407:10413 mathcomp.boot.prime <> pdiv_id thm
+R10418:10424 mathcomp.algebra.zmodp <> unitZpE thm
+R10429:10437 mathcomp.boot.prime <> prime_gt1 thm
+R10450:10456 mathcomp.algebra.zmodp PrimeField.F_prime <> sec
+prf 10466:10478 <> Fp_fieldMixin
+R10482:10506 mathcomp.algebra.algebraic_hierarchy.divalg GRing ComUnitRing_isField abbrev
+R10508:10510 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10511:10511 mathcomp.algebra.zmodp <> PrimeField.p var
+R10551:10557 Corelib.ssr.ssrbool <> qualifE thm
+R10562:10574 mathcomp.boot.prime <> prime_coprime thm
+R10577:10583 mathcomp.boot.div <> gtnNdvd thm
+R10586:10589 mathcomp.boot.ssrnat <> lt0n thm
+R10602:10605 mathcomp.boot.ssrnat <> ltnP thm
+R10609:10609 mathcomp.algebra.zmodp <> PrimeField.p var
+R10640:10640 mathcomp.algebra.zmodp <> PrimeField.p var
+R10666:10672 mathcomp.algebra.zmodp <> Zp_cast thm
+R10675:10683 mathcomp.boot.prime <> prime_gt1 thm
+R10686:10695 mathcomp.boot.prime <> pdiv_prime thm
+R10732:10744 mathcomp.algebra.zmodp <> Fp_fieldMixin thm
+def 10704:10745 <> HB_unnamed_factory_26
+def 10704:10745 <> GRing_ComUnitRing_isField__to__GRing_UnitRing_isField
+def 10704:10745 <> GRing_ComUnitRing_isField__to__GRing_ComUnitRing_isIntegral
+def 10704:10745 <> HB_unnamed_mixin_29
+def 10704:10745 <> fintype_ordinal__canonical__GRing_IntegralDomain
+def 10704:10745 <> fintype_ordinal__canonical__CountRing_IntegralDomain
+def 10704:10745 <> fintype_ordinal__canonical__FinRing_IntegralDomain
+def 10704:10745 <> HB_unnamed_mixin_30
+def 10704:10745 <> fintype_ordinal__canonical__GRing_Field
+def 10704:10745 <> fintype_ordinal__canonical__CountRing_Field
+def 10704:10745 <> fintype_ordinal__canonical__FinRing_Field
+R10775:10795 mathcomp.algebra.finalg FinRing.isField Build abbrev
+R10797:10799 mathcomp.algebra.zmodp <> ::type_scope:'''F_'_x not
+R10800:10800 mathcomp.algebra.zmodp <> PrimeField.p var
+def 10747:10801 <> HB_unnamed_factory_31
+def 10747:10801 <> FinRing_isField__to__GRing_Field_isDecField
+def 10747:10801 <> HB_unnamed_mixin_33
+def 10747:10801 <> fintype_ordinal__canonical__GRing_DecidableField
+def 10747:10801 <> fintype_ordinal__canonical__CountRing_DecidableField
+R10808:10817 mathcomp.algebra.zmodp PrimeField <> sec
+sec 10829:10831 <> Sym
+R10842:10853 mathcomp.algebra.algebraic_hierarchy.decfield GRing.Theory <> mod
+prf 10863:10876 <> gen_tperm_step
+binder 10878:10878 <> n:43
+R10885:10887 mathcomp.boot.fintype <> :::'''I_'_x not
+R10889:10891 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R10888:10888 mathcomp.algebra.zmodp <> n:43 var
+binder 10881:10881 <> k:44
+R10910:10915 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10896:10902 mathcomp.boot.div <> coprime def
+R10909:10909 mathcomp.algebra.zmodp <> k:44 var
+R10905:10907 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R10904:10904 mathcomp.algebra.zmodp <> n:43 var
+R10957:10959 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10916:10917 mathcomp.finite_group.fingroup <> ::group_scope:'<<'_x_'>>' not
+R10953:10954 mathcomp.finite_group.fingroup <> ::group_scope:'<<'_x_'>>' not
+R10918:10922 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_'|'_x_':'_x_']' not
+R10938:10940 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_'|'_x_':'_x_']' not
+R10942:10944 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_'|'_x_':'_x_']' not
+R10952:10952 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_'|'_x_':'_x_']' not
+R10945:10947 mathcomp.boot.fintype <> :::'''I_'_x not
+R10949:10951 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R10948:10948 mathcomp.algebra.zmodp <> n:43 var
+binder 10941:10941 <> i:45
+R10923:10927 mathcomp.finite_group.perm <> tperm def
+R10933:10935 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R10932:10932 mathcomp.algebra.zmodp <> i:45 var
+R10936:10936 mathcomp.algebra.zmodp <> k:44 var
+R10929:10929 mathcomp.algebra.zmodp <> i:45 var
+R10960:10965 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R10973:10973 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R10966:10968 mathcomp.finite_group.perm <> :::'''S_'_x not
+R10970:10972 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R10969:10969 mathcomp.algebra.zmodp <> n:43 var
+R11022:11024 mathcomp.boot.eqtype <> eqP def
+R11035:11043 mathcomp.boot.finset <> eqEsubset thm
+R11045:11051 mathcomp.boot.finset <> subsetT thm
+R11057:11065 mathcomp.finite_group.perm <> gen_tperm thm
+R11072:11079 mathcomp.finite_group.fingroup <> gen_subG thm
+R11090:11096 mathcomp.boot.fintype <> subsetP thm
+R11104:11109 mathcomp.boot.finset <> imsetP thm
+R11173:11179 mathcomp.boot.eqtype <> val_inj thm
+R11145:11145 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11158:11161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11146:11152 mathcomp.boot.fintype <> Ordinal constr
+R11195:11200 mathcomp.finite_group.perm <> tperm1 thm
+R11202:11207 mathcomp.finite_group.fingroup <> group1 thm
+R11219:11225 mathcomp.algebra.zmodp <> unitZpE thm
+R11229:11235 mathcomp.algebra.zmodp <> natr_Zp thm
+R11254:11256 mathcomp.boot.eqtype <> eqP def
+R11267:11275 mathcomp.boot.finset <> eqEsubset thm
+R11277:11283 mathcomp.boot.finset <> subsetT thm
+R11289:11297 mathcomp.finite_group.perm <> gen_tperm thm
+R11304:11311 mathcomp.finite_group.fingroup <> gen_subG thm
+R11320:11326 mathcomp.boot.fintype <> subsetP thm
+R11334:11339 mathcomp.boot.finset <> imsetP thm
+R11366:11371 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory mulVKr def
+R11384:11386 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R11389:11395 mathcomp.algebra.zmodp <> natr_Zp thm
+R11397:11405 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr_natr def
+R11415:11417 mathcomp.boot.eqtype <> val abbrev
+R11463:11468 mathcomp.finite_group.perm <> tperm1 thm
+R11470:11475 mathcomp.finite_group.fingroup <> group1 thm
+R11491:11496 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrSr def
+R11498:11504 mathcomp.finite_group.fingroup <> mem_gen thm
+R11515:11520 mathcomp.boot.finset <> imsetP thm
+R11591:11596 mathcomp.finite_group.perm <> tperm1 thm
+R11598:11603 mathcomp.finite_group.fingroup <> group1 thm
+R11552:11557 mathcomp.boot.eqtype <> eqVneq thm
+R11561:11564 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11566:11568 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R11631:11634 mathcomp.boot.eqtype <> ::bool_scope:x_'!='_x not
+R11623:11626 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11628:11630 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R11636:11639 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11641:11643 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11657:11664 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory subr_eq0 def
+R11667:11673 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrnBr def
+R11677:11682 mathcomp.boot.ssrnat <> subSnn thm
+R11684:11689 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulr1n def
+R11704:11713 mathcomp.boot.eqtype <> contraTneq thm
+R11737:11742 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory unitr0 def
+R11756:11767 mathcomp.finite_group.perm <> tpermJ_tperm thm
+R11773:11776 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11778:11780 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11786:11791 mathcomp.boot.eqtype <> eq_sym thm
+R11804:11809 mathcomp.finite_group.fingroup <> groupJ thm
+R11815:11820 mathcomp.finite_group.perm <> tpermC thm
+R11824:11829 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrSr def
+R11833:11838 mathcomp.finite_group.perm <> tpermC thm
+R11852:11858 mathcomp.finite_group.fingroup <> mem_gen thm
+R11869:11874 mathcomp.boot.finset <> imsetP thm
+R11886:11889 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11891:11893 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+prf 11909:11919 <> perm_addr1X
+binder 11921:11921 <> n:46
+binder 11923:11923 <> m:47
+R11932:11934 mathcomp.boot.fintype <> :::'''I_'_x not
+R11936:11938 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11935:11935 mathcomp.algebra.zmodp <> n:46 var
+binder 11926:11926 <> j:48
+binder 11928:11928 <> k:49
+R11970:11972 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11960:11963 mathcomp.boot.monoid <> ::group_scope:x_'^+'_x not
+R11944:11947 mathcomp.finite_group.perm <> perm abbrev
+R11950:11954 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrI def
+R11956:11956 mathcomp.algebra.zmodp <> m:47 var
+R11964:11964 mathcomp.algebra.zmodp <> j:48 var
+R11969:11969 mathcomp.algebra.zmodp <> k:49 var
+R11979:11981 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R11974:11977 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*+'_x not
+R11973:11973 mathcomp.algebra.zmodp <> m:47 var
+R11978:11978 mathcomp.algebra.zmodp <> j:48 var
+R11982:11982 mathcomp.algebra.zmodp <> k:49 var
+R12003:12007 mathcomp.finite_group.perm <> permX thm
+R12010:12016 mathcomp.boot.ssrnat <> eq_iter thm
+R12019:12023 mathcomp.finite_group.perm <> permE thm
+R12029:12037 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory iter_addr def
+prf 12052:12076 <> gen_tpermn_circular_shift
+binder 12078:12078 <> n:50
+R12087:12089 mathcomp.boot.fintype <> :::'''I_'_x not
+R12091:12093 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R12090:12090 mathcomp.algebra.zmodp <> n:50 var
+binder 12081:12081 <> i:51
+binder 12083:12083 <> j:52
+R12106:12109 mathcomp.finite_group.perm <> perm abbrev
+R12112:12116 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrI def
+binder 12101:12101 <> c:53
+R12146:12151 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12124:12130 mathcomp.boot.div <> coprime def
+R12139:12141 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R12138:12138 mathcomp.algebra.zmodp <> j:52 var
+R12142:12142 mathcomp.algebra.zmodp <> i:51 var
+R12133:12135 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R12132:12132 mathcomp.algebra.zmodp <> n:50 var
+R12177:12179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12152:12153 mathcomp.finite_group.fingroup <> ::group_scope:'<<'_x_'>>' not
+R12173:12174 mathcomp.finite_group.fingroup <> ::group_scope:'<<'_x_'>>' not
+R12154:12158 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_';'_x_';'_'..'_';'_x_']' not
+R12168:12170 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_';'_x_';'_'..'_';'_x_']' not
+R12172:12172 mathcomp.boot.finset <> ::set_scope:'['_'set'_x_';'_x_';'_'..'_';'_x_']' not
+R12159:12163 mathcomp.finite_group.perm <> tperm def
+R12167:12167 mathcomp.algebra.zmodp <> j:52 var
+R12165:12165 mathcomp.algebra.zmodp <> i:51 var
+R12171:12171 mathcomp.algebra.zmodp <> c:53 var
+R12180:12185 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R12193:12193 mathcomp.boot.finset <> ::set_scope:'['_'set'_':'_x_']' not
+R12186:12188 mathcomp.finite_group.perm <> :::'''S_'_x not
+R12190:12192 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+2' not
+R12189:12189 mathcomp.algebra.zmodp <> n:50 var
+R12229:12231 mathcomp.boot.eqtype <> eqP def
+R12242:12250 mathcomp.boot.finset <> eqEsubset thm
+R12252:12258 mathcomp.boot.finset <> subsetT thm
+R12273:12286 mathcomp.algebra.zmodp <> gen_tperm_step thm
+R12301:12308 mathcomp.finite_group.fingroup <> gen_subG thm
+R12317:12323 mathcomp.boot.fintype <> subsetP thm
+R12331:12336 mathcomp.boot.finset <> imsetP thm
+R12381:12383 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12360:12364 mathcomp.finite_group.perm <> tperm def
+R12370:12373 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R12379:12379 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'+'_x not
+R12375:12377 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R12394:12396 mathcomp.boot.monoid <> ::group_scope:x_'^'_x not
+R12385:12389 mathcomp.finite_group.perm <> tperm def
+R12398:12401 mathcomp.boot.monoid <> ::group_scope:x_'^+'_x not
+R12404:12406 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'-'_x not
+R12429:12434 mathcomp.finite_group.fingroup <> groupJ thm
+R12437:12442 mathcomp.finite_group.fingroup <> groupX thm
+R12445:12451 mathcomp.finite_group.fingroup <> mem_gen thm
+R12454:12456 mathcomp.finite_group.fingroup <> inE def
+R12459:12462 mathcomp.boot.eqtype <> eqxx abbrev
+R12465:12468 Corelib.ssr.ssrbool <> orbT thm
+R12482:12487 mathcomp.finite_group.perm <> tpermJ thm
+R12490:12500 mathcomp.algebra.zmodp <> perm_addr1X thm
+R12502:12508 mathcomp.algebra.zmodp <> natr_Zp thm
+R12510:12515 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrNK def
+R12517:12522 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrAC def
+R12524:12528 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrA def
+R12541:12543 mathcomp.algebra.zmodp Sym <> sec
+abbrev 12608:12614 <> char_Fp
+R12620:12627 mathcomp.algebra.zmodp <> pchar_Fp thm
+abbrev 12710:12718 <> char_Fp_0
+R12724:12733 mathcomp.algebra.zmodp <> pchar_Fp_0 thm

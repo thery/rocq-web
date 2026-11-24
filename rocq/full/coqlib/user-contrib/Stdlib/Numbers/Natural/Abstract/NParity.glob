@@ -1,0 +1,122 @@
+DIGEST 7825d600e6104239775b209919caa506
+FStdlib.Numbers.Natural.Abstract.NParity
+R703:706 Stdlib.Bool.Bool <> <> lib
+R708:711 Stdlib.Numbers.Natural.Abstract.NSub <> <> lib
+R713:720 Stdlib.Numbers.NatInt.NZParity <> <> lib
+R813:823 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsSig' <> modtype
+R838:845 Stdlib.Numbers.Natural.Abstract.NSub NSubProp <> modtype
+R847:847 Stdlib.Numbers.Natural.Abstract.NParity N <> mod
+modtype 789:799 <> NParityProp
+R789:799 Stdlib.Numbers.Natural.Abstract.NParity N <> mod
+R789:799 Stdlib.Numbers.Natural.Abstract.NParity NP <> mod
+R860:871 Stdlib.Numbers.NatInt.NZParity NZParityProp <> modtype
+R873:873 Stdlib.Numbers.Natural.Abstract.NParity N <> mod
+R875:875 Stdlib.Numbers.Natural.Abstract.NParity N <> mod
+R877:878 Stdlib.Numbers.Natural.Abstract.NParity NP <> mod
+prf 888:895 NParityProp odd_pred
+binder 897:897 <> n:1
+R905:908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R902:903 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R901:901 Stdlib.Numbers.Natural.Abstract.NParity <> n:1 var
+R918:920 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R909:911 Stdlib.Numbers.Natural.Abstract.NParity N odd defax
+R914:914 Stdlib.Numbers.Natural.Abstract.NParity N P abbrev
+R916:916 Stdlib.Numbers.Natural.Abstract.NParity <> n:1 var
+R921:924 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R926:926 Stdlib.Numbers.Natural.Abstract.NParity <> n:1 var
+R957:965 Stdlib.Numbers.Natural.Abstract.NParity NP succ_pred thm
+R1004:1012 Stdlib.Numbers.Natural.Abstract.NParity NParityProp even_succ thm
+prf 1027:1035 NParityProp even_pred
+binder 1037:1037 <> n:2
+R1045:1048 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1042:1043 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1041:1041 Stdlib.Numbers.Natural.Abstract.NParity <> n:2 var
+R1059:1061 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1049:1052 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1055:1055 Stdlib.Numbers.Natural.Abstract.NParity N P abbrev
+R1057:1057 Stdlib.Numbers.Natural.Abstract.NParity <> n:2 var
+R1062:1064 Stdlib.Numbers.Natural.Abstract.NParity N odd defax
+R1066:1066 Stdlib.Numbers.Natural.Abstract.NParity <> n:2 var
+R1097:1105 Stdlib.Numbers.Natural.Abstract.NParity NP succ_pred thm
+R1144:1151 Stdlib.Numbers.Natural.Abstract.NParity NParityProp odd_succ thm
+prf 1166:1173 NParityProp even_sub
+binder 1175:1175 <> n:3
+binder 1177:1177 <> m:4
+R1185:1188 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1182:1183 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R1181:1181 Stdlib.Numbers.Natural.Abstract.NParity <> m:4 var
+R1184:1184 Stdlib.Numbers.Natural.Abstract.NParity <> n:3 var
+R1199:1201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1189:1192 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1196:1196 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1195:1195 Stdlib.Numbers.Natural.Abstract.NParity <> n:3 var
+R1197:1197 Stdlib.Numbers.Natural.Abstract.NParity <> m:4 var
+R1202:1209 Stdlib.Bool.Bool <> eqb def
+R1212:1215 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1217:1217 Stdlib.Numbers.Natural.Abstract.NParity <> n:3 var
+R1221:1224 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1226:1226 Stdlib.Numbers.Natural.Abstract.NParity <> m:4 var
+R1256:1259 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1274:1277 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R1297:1309 Stdlib.Bool.Bool <> negb_true_iff thm
+R1313:1321 Stdlib.Numbers.Natural.Abstract.NParity NParityProp negb_even thm
+R1325:1332 Stdlib.Numbers.Natural.Abstract.NParity N odd_spec prfax
+R1336:1344 Stdlib.Numbers.Natural.Abstract.NParity N even_spec prfax
+R1386:1386 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1404:1418 Stdlib.Numbers.Natural.Abstract.NParity NP mul_sub_distr_l thm
+R1445:1445 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1442:1442 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1462:1476 Stdlib.Numbers.Natural.Abstract.NParity NP mul_sub_distr_l thm
+R1487:1499 Stdlib.Numbers.Natural.Abstract.NParity NP sub_add_distr thm
+R1502:1508 Stdlib.Numbers.Natural.Abstract.NParity NP mul_1_r thm
+R1522:1529 Stdlib.Numbers.Natural.Abstract.NParity N two_succ prfax
+R1549:1555 Stdlib.Numbers.Natural.Abstract.NParity NP add_1_l thm
+R1569:1581 Stdlib.Numbers.Natural.Abstract.NParity NP sub_add_distr thm
+R1603:1609 Stdlib.Numbers.Natural.Abstract.NParity NP sub_add thm
+R1621:1635 Stdlib.Numbers.Natural.Abstract.NParity NP le_add_le_sub_l thm
+R1649:1655 Stdlib.Numbers.Natural.Abstract.NParity NP add_1_l thm
+R1661:1668 Stdlib.Numbers.Natural.Abstract.NParity N two_succ prfax
+R1675:1681 Stdlib.Numbers.Natural.Abstract.NParity NP mul_1_r thm
+R1706:1720 Stdlib.Numbers.Natural.Abstract.NParity NP mul_sub_distr_l thm
+R1734:1750 Stdlib.Numbers.Natural.Abstract.NParity NP mul_le_mono_pos_l thm
+R1774:1781 Stdlib.Numbers.Natural.Abstract.NParity N one_succ prfax
+R1784:1792 Stdlib.Numbers.Natural.Abstract.NParity NP le_succ_l thm
+R1806:1820 Stdlib.Numbers.Natural.Abstract.NParity NP lt_add_lt_sub_l thm
+R1823:1829 Stdlib.Numbers.Natural.Abstract.NParity NP add_0_r thm
+R1845:1855 Stdlib.Numbers.Natural.Abstract.NParity NP le_gt_cases thm
+R1900:1911 Stdlib.Numbers.Natural.Abstract.NParity NParityProp double_below thm
+R1942:1942 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1956:1970 Stdlib.Numbers.Natural.Abstract.NParity NP mul_sub_distr_l thm
+R1990:2001 Stdlib.Numbers.Natural.Abstract.NParity NP add_sub_swap thm
+R2013:2029 Stdlib.Numbers.Natural.Abstract.NParity NP mul_le_mono_pos_l thm
+R2057:2067 Stdlib.Numbers.Natural.Abstract.NParity NP le_gt_cases thm
+R2112:2123 Stdlib.Numbers.Natural.Abstract.NParity NParityProp double_above thm
+R2154:2154 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2175:2189 Stdlib.Numbers.Natural.Abstract.NParity NP mul_sub_distr_l thm
+R2203:2215 Stdlib.Numbers.Natural.Abstract.NParity NP sub_add_distr thm
+R2226:2237 Stdlib.Numbers.Natural.Abstract.NParity NP add_sub_swap thm
+R2251:2257 Stdlib.Numbers.Natural.Abstract.NParity NP add_sub thm
+R2271:2282 Stdlib.Numbers.Natural.Abstract.NParity NP succ_le_mono thm
+R2298:2304 Stdlib.Numbers.Natural.Abstract.NParity NP add_1_r thm
+prf 2335:2341 NParityProp odd_sub
+binder 2343:2343 <> n:5
+binder 2345:2345 <> m:6
+R2353:2356 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2350:2351 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R2349:2349 Stdlib.Numbers.Natural.Abstract.NParity <> m:6 var
+R2352:2352 Stdlib.Numbers.Natural.Abstract.NParity <> n:5 var
+R2366:2368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2357:2359 Stdlib.Numbers.Natural.Abstract.NParity N odd defax
+R2363:2363 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2362:2362 Stdlib.Numbers.Natural.Abstract.NParity <> n:5 var
+R2364:2364 Stdlib.Numbers.Natural.Abstract.NParity <> m:6 var
+R2369:2372 Corelib.Init.Datatypes <> xorb def
+R2383:2385 Stdlib.Numbers.Natural.Abstract.NParity N odd defax
+R2387:2387 Stdlib.Numbers.Natural.Abstract.NParity <> m:6 var
+R2375:2377 Stdlib.Numbers.Natural.Abstract.NParity N odd defax
+R2379:2379 Stdlib.Numbers.Natural.Abstract.NParity <> n:5 var
+R2419:2427 Stdlib.Numbers.Natural.Abstract.NParity NParityProp negb_even thm
+R2438:2445 Stdlib.Numbers.Natural.Abstract.NParity NParityProp even_sub thm
+R2474:2477 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R2484:2487 Stdlib.Numbers.Natural.Abstract.NParity N even defax
+R2503:2513 Stdlib.Numbers.Natural.Abstract.NParity NParityProp <> modtype

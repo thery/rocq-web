@@ -1,0 +1,207 @@
+DIGEST bec222fa8996c3e4baf621bd04ba9554
+FStdlib.QArith.Qround
+R703:713 Stdlib.QArith.QArith_base <> <> lib
+R743:746 Stdlib.ZArith.Zdiv <> <> lib
+R775:801 Stdlib.QArith.QArith_base <> inject_Z def
+def 816:821 <> Qfloor
+R826:826 Stdlib.QArith.QArith_base <> Q rec
+binder 824:824 <> x:1
+R845:845 Stdlib.QArith.Qround <> x:1 var
+binder 837:837 <> n:2
+binder 839:839 <> d:3
+R850:854 Stdlib.ZArith.BinInt Z div def
+R856:856 Stdlib.QArith.Qround <> n:2 var
+R859:862 Corelib.Numbers.BinNums <> Zpos constr
+R864:864 Stdlib.QArith.Qround <> d:3 var
+def 879:886 <> Qceiling
+R891:891 Stdlib.QArith.QArith_base <> Q rec
+binder 889:889 <> x:4
+R898:899 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R911:911 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R900:905 Stdlib.QArith.Qround <> Qfloor def
+R908:908 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R909:909 Stdlib.QArith.Qround <> x:4 var
+prf 924:931 <> Qfloor_Z
+R944:944 Corelib.Numbers.BinNums <> Z ind
+binder 942:942 <> z:5
+R955:957 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R947:952 Stdlib.QArith.Qround <> Qfloor def
+R954:954 Stdlib.QArith.Qround <> z:5 var
+R958:958 Stdlib.QArith.Qround <> z:5 var
+prf 1010:1019 <> Qceiling_Z
+R1032:1032 Corelib.Numbers.BinNums <> Z ind
+binder 1030:1030 <> z:6
+R1045:1047 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1035:1042 Stdlib.QArith.Qround <> Qceiling def
+R1044:1044 Stdlib.QArith.Qround <> z:6 var
+R1048:1048 Stdlib.QArith.Qround <> z:6 var
+R1075:1082 Stdlib.QArith.Qround <> Qceiling def
+R1100:1108 Stdlib.ZArith.BinInt Z div_1_r thm
+R1117:1132 Stdlib.ZArith.BinInt Z opp_involutive thm
+prf 1147:1155 <> Qfloor_le
+binder 1166:1166 <> x:7
+R1177:1180 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R1169:1174 Stdlib.QArith.Qround <> Qfloor def
+R1176:1176 Stdlib.QArith.Qround <> x:7 var
+R1181:1181 Stdlib.QArith.Qround <> x:7 var
+R1219:1221 Stdlib.QArith.QArith_base <> Qle def
+R1241:1241 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1271:1280 Stdlib.ZArith.BinInt Z mul_comm thm
+R1293:1304 Stdlib.ZArith.BinInt Z mul_div_le thm
+prf 1363:1373 <> Qle_ceiling
+binder 1384:1384 <> x:8
+R1388:1391 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R1387:1387 Stdlib.QArith.Qround <> x:8 var
+R1392:1399 Stdlib.QArith.Qround <> Qceiling def
+R1401:1401 Stdlib.QArith.Qround <> x:8 var
+R1443:1444 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1445:1446 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1427:1435 Stdlib.QArith.QArith_base <> Qle_trans thm
+R1461:1475 Stdlib.QArith.QArith_base <> Qopp_involutive thm
+R1514:1514 Stdlib.QArith.QArith_base <> Q rec
+R1503:1510 Stdlib.QArith.Qround <> Qceiling def
+R1523:1524 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1535:1535 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1525:1530 Stdlib.QArith.Qround <> Qfloor def
+R1532:1532 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+prf 1612:1628 <> Qle_floor_ceiling
+binder 1639:1639 <> x:9
+R1650:1653 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R1642:1647 Stdlib.QArith.Qround <> Qfloor def
+R1649:1649 Stdlib.QArith.Qround <> x:9 var
+R1654:1661 Stdlib.QArith.Qround <> Qceiling def
+R1663:1663 Stdlib.QArith.Qround <> x:9 var
+prf 1704:1712 <> Qlt_floor
+binder 1723:1723 <> x:10
+R1727:1729 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R1726:1726 Stdlib.QArith.Qround <> x:10 var
+R1739:1739 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1731:1736 Stdlib.QArith.Qround <> Qfloor def
+R1738:1738 Stdlib.QArith.Qround <> x:10 var
+R1781:1783 Stdlib.QArith.QArith_base <> Qlt def
+R1803:1803 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1868:1870 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1859:1861 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1850:1852 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R1853:1856 Corelib.Numbers.BinNums <> Zpos constr
+R1862:1865 Corelib.Numbers.BinNums <> Zpos constr
+R1871:1874 Corelib.Numbers.BinNums <> Zpos constr
+R1938:1940 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1889:1889 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1927:1930 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1911:1913 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1896:1899 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1910:1910 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1890:1893 Corelib.Numbers.BinNums <> Zpos constr
+R1901:1903 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R1904:1907 Corelib.Numbers.BinNums <> Zpos constr
+R1915:1919 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1920:1923 Corelib.Numbers.BinNums <> Zpos constr
+R1931:1934 Corelib.Numbers.BinNums <> Zpos constr
+R1942:1946 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1947:1950 Corelib.Numbers.BinNums <> Zpos constr
+R1977:1993 Stdlib.ZArith.Zdiv <> Z_div_mod_eq_full thm
+R2007:2023 Stdlib.ZArith.BinInt Z lt_add_lt_sub_r thm
+R2032:2046 Stdlib.ZArith.BinInt Z add_lt_mono_l thm
+R2049:2063 Stdlib.ZArith.BinInt Z mod_pos_bound thm
+R2066:2072 Corelib.Init.Logic <> eq_refl constr
+prf 2131:2141 <> Qceiling_lt
+binder 2152:2152 <> x:11
+R2171:2173 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R2166:2166 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2156:2163 Stdlib.QArith.Qround <> Qceiling def
+R2165:2165 Stdlib.QArith.Qround <> x:11 var
+R2174:2174 Stdlib.QArith.Qround <> x:11 var
+R2201:2208 Stdlib.QArith.Qround <> Qceiling def
+R2234:2236 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2220:2221 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2222:2227 Stdlib.QArith.Qround <> Qfloor def
+R2230:2231 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2248:2249 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2265:2265 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2261:2263 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2250:2255 Stdlib.QArith.Qround <> Qfloor def
+R2258:2258 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2312:2312 Stdlib.QArith.QArith_base <> Q rec
+R2288:2290 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2307:2307 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2303:2305 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2291:2296 Stdlib.QArith.Qround <> Qfloor def
+R2299:2300 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2321:2321 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2335:2337 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2323:2328 Stdlib.QArith.Qround <> Qfloor def
+R2331:2332 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2370:2371 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2372:2373 Stdlib.QArith.QArith_base <> ::Q_scope:'-'_x not
+R2351:2362 Stdlib.QArith.QArith_base <> Qlt_le_trans thm
+R2399:2413 Stdlib.QArith.QArith_base <> Qopp_involutive thm
+R2422:2429 Stdlib.QArith.QArith_base <> Qle_refl thm
+prf 2490:2503 <> Qfloor_resp_le
+binder 2514:2514 <> x:12
+binder 2516:2516 <> y:13
+R2525:2528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2520:2523 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2519:2519 Stdlib.QArith.Qround <> x:12 var
+R2524:2524 Stdlib.QArith.Qround <> y:13 var
+R2538:2541 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2530:2535 Stdlib.QArith.Qround <> Qfloor def
+R2537:2537 Stdlib.QArith.Qround <> x:12 var
+R2542:2547 Stdlib.QArith.Qround <> Qfloor def
+R2549:2549 Stdlib.QArith.Qround <> y:13 var
+R2597:2599 Stdlib.QArith.QArith_base <> Qle def
+R2631:2648 Stdlib.ZArith.Zdiv <> Zdiv_mult_cancel_r thm
+R2654:2657 Corelib.Numbers.BinNums <> Zpos constr
+R2664:2667 Corelib.Numbers.BinNums <> Zpos constr
+R2700:2717 Stdlib.ZArith.Zdiv <> Zdiv_mult_cancel_r thm
+R2723:2726 Corelib.Numbers.BinNums <> Zpos constr
+R2733:2736 Corelib.Numbers.BinNums <> Zpos constr
+R2766:2775 Stdlib.ZArith.BinInt Z mul_comm thm
+R2778:2781 Corelib.Numbers.BinNums <> Zpos constr
+R2788:2791 Corelib.Numbers.BinNums <> Zpos constr
+R2805:2817 Stdlib.ZArith.BinInt Z div_le_mono thm
+R2831:2837 Corelib.Init.Logic <> eq_refl constr
+prf 2901:2916 <> Qceiling_resp_le
+binder 2927:2927 <> x:14
+binder 2929:2929 <> y:15
+R2938:2941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2933:2936 Stdlib.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2932:2932 Stdlib.QArith.Qround <> x:14 var
+R2937:2937 Stdlib.QArith.Qround <> y:15 var
+R2953:2956 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2943:2950 Stdlib.QArith.Qround <> Qceiling def
+R2952:2952 Stdlib.QArith.Qround <> x:14 var
+R2957:2964 Stdlib.QArith.Qround <> Qceiling def
+R2966:2966 Stdlib.QArith.Qround <> y:15 var
+R3002:3009 Stdlib.QArith.Qround <> Qceiling def
+R3023:3035 Stdlib.ZArith.BinInt Z opp_le_mono thm
+R3151:3155 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3148:3150 Stdlib.QArith.QArith_base <> Qeq def
+R3156:3157 Corelib.Init.Logic <> eq ind
+R3126:3131 Stdlib.QArith.Qround <> Qfloor def
+R3202:3214 Stdlib.ZArith.BinInt Z le_antisymm thm
+R3308:3312 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3305:3307 Stdlib.QArith.QArith_base <> Qeq def
+R3313:3314 Corelib.Init.Logic <> eq ind
+R3281:3288 Stdlib.QArith.Qround <> Qceiling def
+R3361:3373 Stdlib.ZArith.BinInt Z le_antisymm thm
+prf 3433:3441 <> Zdiv_Qdiv
+R3449:3449 Corelib.Numbers.BinNums <> Z ind
+binder 3444:3444 <> n:16
+binder 3446:3446 <> m:17
+R3462:3464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3455:3457 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R3454:3454 Stdlib.QArith.Qround <> n:16 var
+R3458:3458 Stdlib.QArith.Qround <> m:17 var
+R3465:3470 Stdlib.QArith.Qround <> Qfloor def
+R3474:3476 Stdlib.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R3473:3473 Stdlib.QArith.Qround <> n:16 var
+R3477:3477 Stdlib.QArith.Qround <> m:17 var
+R3496:3501 Stdlib.QArith.Qround <> Qfloor def
+R3566:3574 Stdlib.ZArith.BinInt Z div_0_r thm
+R3577:3585 Stdlib.ZArith.BinInt Z mul_0_r thm
+R3603:3611 Stdlib.ZArith.BinInt Z mul_1_r thm
+R3628:3642 Stdlib.ZArith.BinInt Z opp_eq_mul_m1 thm
+R3660:3675 Stdlib.ZArith.BinInt Z opp_involutive thm
+R3678:3681 Corelib.Numbers.BinNums <> Zpos constr
+R3703:3714 Stdlib.ZArith.Zdiv <> Zdiv_opp_opp thm

@@ -1,0 +1,101 @@
+DIGEST 1c56f1a436661258043e8d01628ba62a
+FStdlib.ZArith.Zeuclid
+R820:828 Stdlib.Classes.Morphisms <> <> lib
+R865:870 Stdlib.ZArith.BinInt <> <> lib
+R976:983 Stdlib.Numbers.Integer.Abstract.ZDivEucl <> <> lib
+mod 1320:1326 <> ZEuclid
+def 1342:1347 ZEuclid modulo
+binder 1349:1349 <> a:1
+binder 1351:1351 <> b:2
+R1356:1363 Stdlib.ZArith.BinInt Z modulo def
+R1365:1365 Stdlib.ZArith.Zeuclid <> a:1 var
+R1368:1372 Stdlib.ZArith.BinInt Z abs def
+R1374:1374 Stdlib.ZArith.Zeuclid <> b:2 var
+def 1390:1392 ZEuclid div
+binder 1394:1394 <> a:3
+binder 1396:1396 <> b:4
+R1401:1401 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1409:1413 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1431:1431 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1402:1406 Stdlib.ZArith.BinInt Z sgn def
+R1408:1408 Stdlib.ZArith.Zeuclid <> b:4 var
+R1414:1418 Stdlib.ZArith.BinInt Z div def
+R1420:1420 Stdlib.ZArith.Zeuclid <> a:3 var
+R1423:1427 Stdlib.ZArith.BinInt Z abs def
+R1429:1429 Stdlib.ZArith.Zeuclid <> b:4 var
+inst 1455:1460 ZEuclid mod_wd
+R1464:1469 Corelib.Classes.Morphisms <> Proper class
+R1486:1491 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R1474:1476 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1472:1473 Corelib.Init.Logic <> eq ind
+R1479:1481 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1477:1478 Corelib.Init.Logic <> eq ind
+R1482:1483 Corelib.Init.Logic <> eq ind
+inst 1539:1544 ZEuclid div_wd
+R1548:1553 Corelib.Classes.Morphisms <> Proper class
+R1570:1572 Stdlib.ZArith.Zeuclid ZEuclid div def
+R1558:1560 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1556:1557 Corelib.Init.Logic <> eq ind
+R1563:1565 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1561:1562 Corelib.Init.Logic <> eq ind
+R1566:1567 Corelib.Init.Logic <> eq ind
+prf 1610:1616 ZEuclid div_mod
+binder 1618:1618 <> a:5
+binder 1620:1620 <> b:6
+R1628:1631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1625:1626 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1624:1624 Stdlib.ZArith.Zeuclid <> b:6 var
+R1633:1635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1632:1632 Stdlib.ZArith.Zeuclid <> a:5 var
+R1647:1649 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1637:1638 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1646:1646 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1636:1636 Stdlib.ZArith.Zeuclid <> b:6 var
+R1639:1641 Stdlib.ZArith.Zeuclid ZEuclid div def
+R1643:1643 Stdlib.ZArith.Zeuclid <> a:5 var
+R1645:1645 Stdlib.ZArith.Zeuclid <> b:6 var
+R1650:1655 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R1657:1657 Stdlib.ZArith.Zeuclid <> a:5 var
+R1659:1659 Stdlib.ZArith.Zeuclid <> b:6 var
+R1690:1692 Stdlib.ZArith.Zeuclid ZEuclid div def
+R1695:1700 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R1713:1723 Stdlib.ZArith.BinInt Z mul_assoc thm
+R1734:1742 Stdlib.ZArith.BinInt Z sgn_abs thm
+R1751:1759 Stdlib.ZArith.BinInt Z div_mod thm
+prf 1794:1807 ZEuclid mod_always_pos
+binder 1809:1809 <> a:7
+binder 1811:1811 <> b:8
+R1819:1822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1816:1817 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1815:1815 Stdlib.ZArith.Zeuclid <> b:8 var
+R1824:1827 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1838:1840 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1828:1833 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R1835:1835 Stdlib.ZArith.Zeuclid <> a:7 var
+R1837:1837 Stdlib.ZArith.Zeuclid <> b:8 var
+R1841:1845 Stdlib.ZArith.BinInt Z abs def
+R1847:1847 Stdlib.ZArith.Zeuclid <> b:8 var
+R1878:1883 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R1894:1908 Stdlib.ZArith.BinInt Z mod_pos_bound thm
+prf 1974:1986 ZEuclid mod_bound_pos
+binder 1988:1988 <> a:9
+binder 1990:1990 <> b:10
+R1998:2001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1995:1996 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1997:1997 Stdlib.ZArith.Zeuclid <> a:9 var
+R2005:2008 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2003:2003 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2004:2004 Stdlib.ZArith.Zeuclid <> b:10 var
+R2010:2013 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2024:2026 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2014:2019 Stdlib.ZArith.Zeuclid ZEuclid modulo def
+R2021:2021 Stdlib.ZArith.Zeuclid <> a:9 var
+R2023:2023 Stdlib.ZArith.Zeuclid <> b:10 var
+R2027:2027 Stdlib.ZArith.Zeuclid <> b:10 var
+R2065:2072 Stdlib.ZArith.BinInt Z abs_eq thm
+R2102:2115 Stdlib.ZArith.Zeuclid ZEuclid mod_always_pos thm
+R2143:2153 Stdlib.Numbers.Integer.Abstract.ZDivEucl ZEuclidProp <> mod
+R2155:2155 Stdlib.ZArith.BinInt Z <> mod
+R2157:2157 Stdlib.ZArith.BinInt Z <> mod
+R2159:2159 Stdlib.ZArith.BinInt Z <> mod
+R2167:2173 Stdlib.ZArith.Zeuclid ZEuclid <> mod

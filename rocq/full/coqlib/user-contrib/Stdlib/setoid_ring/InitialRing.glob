@@ -1,0 +1,1493 @@
+DIGEST 4f508c3c4176070e17f07675b8d7cd28
+FStdlib.setoid_ring.InitialRing
+R703:708 Stdlib.ZArith.BinInt <> <> lib
+R738:743 Stdlib.NArith.BinNat <> <> lib
+R773:778 Stdlib.Setoids.Setoid <> <> lib
+R808:818 Stdlib.setoid_ring.Ring_theory <> <> lib
+R848:859 Stdlib.setoid_ring.Ring_polynom <> <> lib
+R869:872 Stdlib.Lists.List <> <> mod
+R941:950 Stdlib.setoid_ring.Ring_theory RingSyntax <> mod
+def 1042:1052 <> NotConstant
+R1057:1061 Corelib.Init.Datatypes <> false constr
+prf 1103:1106 <> Zsth
+R1110:1122 Corelib.Setoids.Setoid <> Setoid_Theory def
+R1124:1124 Corelib.Numbers.BinNums <> Z ind
+R1128:1129 Corelib.Init.Logic <> eq ind
+R1131:1131 Corelib.Numbers.BinNums <> Z ind
+R1151:1155 Stdlib.setoid_ring.Ring_theory <> Eqsth thm
+R1157:1157 Corelib.Numbers.BinNums <> Z ind
+prf 1173:1176 <> Zeqe
+R1180:1190 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R1212:1213 Corelib.Init.Logic <> eq ind
+R1215:1215 Corelib.Numbers.BinNums <> Z ind
+R1204:1208 Stdlib.ZArith.BinInt Z opp def
+R1198:1202 Stdlib.ZArith.BinInt Z mul def
+R1192:1196 Stdlib.ZArith.BinInt Z add def
+R1235:1240 Stdlib.setoid_ring.Ring_theory <> Eq_ext thm
+R1254:1258 Stdlib.ZArith.BinInt Z opp def
+R1248:1252 Stdlib.ZArith.BinInt Z mul def
+R1242:1246 Stdlib.ZArith.BinInt Z add def
+prf 1274:1276 <> Zth
+R1280:1290 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R1331:1332 Corelib.Init.Logic <> eq ind
+R1334:1334 Corelib.Numbers.BinNums <> Z ind
+R1323:1327 Stdlib.ZArith.BinInt Z opp def
+R1317:1321 Stdlib.ZArith.BinInt Z sub def
+R1311:1315 Stdlib.ZArith.BinInt Z mul def
+R1305:1309 Stdlib.ZArith.BinInt Z add def
+R1296:1299 Corelib.Numbers.BinNums <> Zpos constr
+R1301:1302 Corelib.Numbers.BinNums <> xH constr
+R1292:1293 Corelib.Numbers.BinNums <> Z0 constr
+R1370:1378 Stdlib.ZArith.BinInt Z add_0_l thm
+R1391:1400 Stdlib.ZArith.BinInt Z add_comm thm
+R1413:1423 Stdlib.ZArith.BinInt Z add_assoc thm
+R1436:1444 Stdlib.ZArith.BinInt Z mul_1_l thm
+R1457:1466 Stdlib.ZArith.BinInt Z mul_comm thm
+R1479:1489 Stdlib.ZArith.BinInt Z mul_assoc thm
+R1502:1518 Stdlib.ZArith.BinInt Z mul_add_distr_r thm
+R1544:1553 Stdlib.ZArith.BinInt Z sub_diag thm
+sec 1699:1707 <> ZMORPHISM
+var 1720:1720 ZMORPHISM R
+var 1741:1742 ZMORPHISM rO
+var 1744:1745 ZMORPHISM rI
+var 1753:1756 ZMORPHISM radd
+var 1758:1761 ZMORPHISM rmul
+var 1763:1766 ZMORPHISM rsub
+var 1779:1782 ZMORPHISM ropp
+R1749:1749 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1770:1771 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1769:1769 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1773:1774 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1772:1772 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1775:1775 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1787:1790 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1786:1786 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1791:1791 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+var 1805:1807 ZMORPHISM req
+R1812:1815 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1811:1811 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1817:1820 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1816:1816 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1845:1846 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rO var
+not 1838:1838 ZMORPHISM :::'0'
+R1866:1867 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rI var
+not 1859:1859 ZMORPHISM :::'1'
+R1893:1896 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+not 1881:1881 ZMORPHISM :::x_'+'_x
+R1927:1930 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+not 1914:1914 ZMORPHISM :::x_'*'_x
+R1962:1965 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+not 1949:1949 ZMORPHISM :::x_'-'_x
+R1993:1996 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+not 1983:1983 ZMORPHISM :::'-'_x
+R2026:2028 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+not 2013:2013 ZMORPHISM :::x_'=='_x
+var 2047:2050 ZMORPHISM Rsth
+R2054:2066 Corelib.Setoids.Setoid <> Setoid_Theory def
+R2068:2068 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2070:2072 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2106:2106 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2108:2110 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2144:2164 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R2170:2173 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2208:2228 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R2234:2237 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2272:2293 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R2299:2302 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+var 2376:2379 ZMORPHISM Reqe
+R2383:2393 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R2410:2412 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2405:2408 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R2400:2403 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R2395:2398 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R2455:2459 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2452:2454 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2463:2467 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2460:2462 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2468:2470 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2431:2434 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R2504:2511 Stdlib.setoid_ring.Ring_theory <> Radd_ext proj
+R2513:2516 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2565:2569 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2562:2564 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2573:2577 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2570:2572 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2578:2580 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2541:2544 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R2614:2621 Stdlib.setoid_ring.Ring_theory <> Rmul_ext proj
+R2623:2626 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2675:2679 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2672:2674 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2680:2682 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2651:2654 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R2716:2723 Stdlib.setoid_ring.Ring_theory <> Ropp_ext proj
+R2725:2728 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+def 2748:2758 <> gen_phiPOS1
+R2763:2770 Corelib.Numbers.BinNums <> positive ind
+binder 2761:2761 <> p:21
+R2775:2775 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2788:2788 Stdlib.setoid_ring.InitialRing <> p:21 var
+R2799:2800 Corelib.Numbers.BinNums <> xH constr
+R2811:2812 Corelib.Numbers.BinNums <> xO constr
+R2819:2819 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2825:2829 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2843:2843 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2821:2823 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2830:2840 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1:22 def
+R2842:2842 Stdlib.setoid_ring.InitialRing <> p:21 var
+R2849:2850 Corelib.Numbers.BinNums <> xI constr
+R2858:2861 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2887:2887 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2862:2862 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2868:2872 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2886:2886 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2864:2866 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2873:2883 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1:22 def
+R2885:2885 Stdlib.setoid_ring.InitialRing <> p:21 var
+def 2907:2916 <> gen_phiPOS
+R2921:2928 Corelib.Numbers.BinNums <> positive ind
+binder 2919:2919 <> p:24
+R2933:2933 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2946:2946 Stdlib.setoid_ring.InitialRing <> p:24 var
+R2957:2958 Corelib.Numbers.BinNums <> xH constr
+R2969:2970 Corelib.Numbers.BinNums <> xO constr
+R2972:2973 Corelib.Numbers.BinNums <> xH constr
+R2980:2982 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2990:2991 Corelib.Numbers.BinNums <> xO constr
+R2998:2998 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3004:3008 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3021:3021 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3000:3002 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3009:3018 Stdlib.setoid_ring.InitialRing <> gen_phiPOS:25 def
+R3020:3020 Stdlib.setoid_ring.InitialRing <> p:24 var
+R3027:3028 Corelib.Numbers.BinNums <> xI constr
+R3030:3031 Corelib.Numbers.BinNums <> xH constr
+R3037:3040 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3045:3045 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3042:3043 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3051:3052 Corelib.Numbers.BinNums <> xI constr
+R3060:3063 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3088:3088 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3064:3064 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3070:3074 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3087:3087 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R3066:3068 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R3075:3084 Stdlib.setoid_ring.InitialRing <> gen_phiPOS:25 def
+R3086:3086 Stdlib.setoid_ring.InitialRing <> p:24 var
+def 3110:3118 <> gen_phiZ1
+binder 3120:3120 <> z:27
+R3133:3133 Stdlib.setoid_ring.InitialRing <> z:27 var
+R3144:3147 Corelib.Numbers.BinNums <> Zpos constr
+R3154:3164 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R3172:3173 Corelib.Numbers.BinNums <> Z0 constr
+R3184:3187 Corelib.Numbers.BinNums <> Zneg constr
+R3194:3195 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3209:3209 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3196:3206 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+def 3231:3238 <> gen_phiZ
+binder 3240:3240 <> z:29
+R3253:3253 Stdlib.setoid_ring.InitialRing <> z:29 var
+R3264:3267 Corelib.Numbers.BinNums <> Zpos constr
+R3274:3283 Stdlib.setoid_ring.InitialRing <> gen_phiPOS def
+R3291:3292 Corelib.Numbers.BinNums <> Z0 constr
+R3303:3306 Corelib.Numbers.BinNums <> Zneg constr
+R3313:3314 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3327:3327 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3315:3324 Stdlib.setoid_ring.InitialRing <> gen_phiPOS def
+R3358:3365 Stdlib.setoid_ring.InitialRing <> gen_phiZ def
+not 3346:3346 ZMORPHISM :::'['_x_']'
+def 3384:3392 <> get_signZ
+binder 3394:3394 <> z:31
+R3407:3407 Stdlib.setoid_ring.InitialRing <> z:31 var
+R3418:3421 Corelib.Numbers.BinNums <> Zneg constr
+R3428:3431 Corelib.Init.Datatypes <> Some constr
+R3434:3437 Corelib.Numbers.BinNums <> Zpos constr
+R3451:3454 Corelib.Init.Datatypes <> None constr
+prf 3471:3482 <> get_signZ_th
+R3486:3496 Stdlib.setoid_ring.Ring_theory <> sign_theory rec
+R3510:3518 Stdlib.setoid_ring.InitialRing <> get_signZ def
+R3504:3508 Stdlib.ZArith.BinInt Z eqb def
+R3498:3502 Stdlib.ZArith.BinInt Z opp def
+R3635:3646 Stdlib.PArith.BinPos Pos eqb_refl thm
+sec 3666:3676 ZMORPHISM ALMOST_RING
+var 3689:3692 ZMORPHISM.ALMOST_RING ARth
+R3696:3713 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R3739:3741 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3734:3737 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R3729:3732 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R3724:3727 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R3719:3722 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R3784:3788 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3781:3783 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3792:3796 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3789:3791 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3797:3799 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3760:3763 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R3833:3841 Stdlib.setoid_ring.Ring_theory <> ARsub_ext inst
+R3853:3856 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ALMOST_RING.ARth var
+R3848:3851 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R3843:3846 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 3972:3979 <> same_gen
+binder 3990:3990 <> x:35
+R4006:4009 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R3993:4003 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4005:4005 Stdlib.setoid_ring.InitialRing <> x:35 var
+R4010:4019 Stdlib.setoid_ring.InitialRing <> gen_phiPOS def
+R4021:4021 Stdlib.setoid_ring.InitialRing <> x:35 var
+prf 4183:4200 <> ARgen_phiPOS_Psucc
+binder 4211:4211 <> x:36
+R4241:4244 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R4217:4227 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4230:4237 Stdlib.PArith.BinPos Pos succ def
+R4239:4239 Stdlib.setoid_ring.InitialRing <> x:36 var
+R4246:4249 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4263:4263 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4250:4260 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4262:4262 Stdlib.setoid_ring.InitialRing <> x:36 var
+prf 4381:4396 <> ARgen_phiPOS_add
+binder 4407:4407 <> x:37
+binder 4409:4409 <> y:38
+R4434:4437 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R4415:4425 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4429:4431 Stdlib.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R4428:4428 Stdlib.setoid_ring.InitialRing <> x:37 var
+R4432:4432 Stdlib.setoid_ring.InitialRing <> y:38 var
+R4438:4438 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4452:4456 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4470:4470 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4439:4449 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4451:4451 Stdlib.setoid_ring.InitialRing <> x:37 var
+R4457:4467 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4469:4469 Stdlib.setoid_ring.InitialRing <> y:38 var
+R4580:4597 Stdlib.PArith.BinPos Pos add_carry_spec thm
+R4612:4629 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4668:4678 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4732:4742 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4766:4783 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4838:4848 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4902:4912 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4958:4975 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+prf 5014:5030 <> ARgen_phiPOS_mult
+binder 5044:5044 <> x:39
+binder 5046:5046 <> y:40
+R5068:5071 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5049:5059 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5063:5065 Stdlib.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R5062:5062 Stdlib.setoid_ring.InitialRing <> x:39 var
+R5066:5066 Stdlib.setoid_ring.InitialRing <> y:40 var
+R5085:5087 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R5072:5082 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5084:5084 Stdlib.setoid_ring.InitialRing <> x:39 var
+R5088:5098 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5100:5100 Stdlib.setoid_ring.InitialRing <> y:40 var
+R5183:5198 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R5259:5269 Stdlib.setoid_ring.InitialRing ZMORPHISM.ALMOST_RING <> sec
+var 5283:5285 ZMORPHISM Rth
+R5289:5299 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R5325:5327 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5320:5323 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R5315:5318 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R5310:5313 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R5305:5308 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+var 5335:5338 ZMORPHISM ARth
+R5343:5350 Stdlib.setoid_ring.Ring_theory <> Rth_ARth thm
+R5362:5364 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R5357:5360 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R5352:5355 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R5407:5411 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5404:5406 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5415:5419 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5412:5414 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5420:5422 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5383:5386 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R5456:5464 Stdlib.setoid_ring.Ring_theory <> ARsub_ext inst
+R5476:5479 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5471:5474 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R5466:5469 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 5633:5641 <> same_genZ
+binder 5652:5652 <> x:43
+R5658:5661 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5655:5655 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5657:5657 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5656:5656 Stdlib.setoid_ring.InitialRing <> x:43 var
+R5662:5670 Stdlib.setoid_ring.InitialRing <> gen_phiZ1 def
+R5672:5672 Stdlib.setoid_ring.InitialRing <> x:43 var
+R5725:5732 Stdlib.setoid_ring.InitialRing <> same_gen thm
+R5734:5737 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+prf 5761:5771 <> gen_Zeqb_ok
+binder 5782:5782 <> x:44
+binder 5784:5784 <> y:45
+R5806:5809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5799:5801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5790:5794 Stdlib.ZArith.BinInt Z eqb def
+R5796:5796 Stdlib.setoid_ring.InitialRing <> x:44 var
+R5798:5798 Stdlib.setoid_ring.InitialRing <> y:45 var
+R5802:5805 Corelib.Init.Datatypes <> true constr
+R5813:5816 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5810:5810 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5812:5812 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5811:5811 Stdlib.setoid_ring.InitialRing <> x:44 var
+R5817:5817 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5819:5819 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5818:5818 Stdlib.setoid_ring.InitialRing <> y:45 var
+R5844:5851 Stdlib.ZArith.BinInt Z eqb_eq thm
+prf 5880:5896 <> gen_phiZ1_pos_sub
+binder 5907:5907 <> x:46
+binder 5909:5909 <> y:47
+R5938:5941 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5913:5921 Stdlib.setoid_ring.InitialRing <> gen_phiZ1 def
+R5924:5932 Stdlib.ZArith.BinInt Z pos_sub def
+R5934:5934 Stdlib.setoid_ring.InitialRing <> x:46 var
+R5936:5936 Stdlib.setoid_ring.InitialRing <> y:47 var
+R5955:5957 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R5942:5952 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5954:5954 Stdlib.setoid_ring.InitialRing <> x:46 var
+R5958:5958 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R5959:5969 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5971:5971 Stdlib.setoid_ring.InitialRing <> y:47 var
+R6006:6019 Stdlib.ZArith.BinInt Z pos_sub_spec thm
+R6029:6044 Stdlib.PArith.BinPos Pos compare_spec thm
+R6088:6095 Stdlib.setoid_ring.Ring_theory <> Ropp_def proj
+R6097:6099 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6125:6135 Stdlib.PArith.BinPos Pos sub_add thm
+R6158:6169 Stdlib.PArith.BinPos Pos add_comm thm
+R6185:6200 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6202:6205 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6233:6240 Stdlib.setoid_ring.Ring_theory <> Ropp_def proj
+R6242:6244 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6269:6279 Stdlib.PArith.BinPos Pos sub_add thm
+R6307:6322 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6324:6327 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6356:6366 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R6370:6370 Stdlib.PArith.BinPos <> ::positive_scope:x_'-'_x not
+R6384:6391 Stdlib.setoid_ring.Ring_theory <> Ropp_def proj
+R6393:6395 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+prf 6419:6430 <> gen_phiZ_add
+binder 6441:6441 <> x:48
+binder 6443:6443 <> y:49
+R6453:6456 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R6446:6446 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6452:6452 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6448:6450 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6447:6447 Stdlib.setoid_ring.InitialRing <> x:48 var
+R6451:6451 Stdlib.setoid_ring.InitialRing <> y:49 var
+R6460:6462 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R6457:6457 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6459:6459 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6458:6458 Stdlib.setoid_ring.InitialRing <> x:48 var
+R6463:6463 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6465:6465 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6464:6464 Stdlib.setoid_ring.InitialRing <> y:49 var
+R6505:6513 Stdlib.setoid_ring.InitialRing <> same_genZ thm
+R6594:6609 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6611:6614 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6628:6644 Stdlib.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6659:6675 Stdlib.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6685:6693 Stdlib.setoid_ring.Ring_theory <> Radd_comm proj
+R6695:6697 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6714:6729 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6731:6734 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+prf 6758:6769 <> gen_phiZ_mul
+binder 6780:6780 <> x:50
+binder 6782:6782 <> y:51
+R6792:6795 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R6785:6785 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6791:6791 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6787:6789 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6786:6786 Stdlib.setoid_ring.InitialRing <> x:50 var
+R6790:6790 Stdlib.setoid_ring.InitialRing <> y:51 var
+R6799:6801 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R6796:6796 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6798:6798 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6797:6797 Stdlib.setoid_ring.InitialRing <> x:50 var
+R6802:6802 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6804:6804 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6803:6803 Stdlib.setoid_ring.InitialRing <> y:51 var
+R6843:6851 Stdlib.setoid_ring.InitialRing <> same_genZ thm
+R6902:6918 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6920:6923 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6954:6961 Stdlib.setoid_ring.Ring_theory <> Ropp_opp thm
+R6973:6975 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6968:6971 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R6963:6966 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 6999:7010 <> gen_phiZ_ext
+R7027:7027 Corelib.Numbers.BinNums <> Z ind
+binder 7021:7021 <> x:52
+binder 7023:7023 <> y:53
+R7035:7038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7031:7033 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7030:7030 Stdlib.setoid_ring.InitialRing <> x:52 var
+R7034:7034 Stdlib.setoid_ring.InitialRing <> y:53 var
+R7042:7045 Stdlib.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R7039:7039 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R7041:7041 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R7040:7040 Stdlib.setoid_ring.InitialRing <> x:52 var
+R7046:7046 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R7048:7048 Stdlib.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R7047:7047 Stdlib.setoid_ring.InitialRing <> y:53 var
+prf 7145:7158 <> gen_phiZ_morph
+R7164:7173 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R7249:7256 Stdlib.setoid_ring.InitialRing <> gen_phiZ def
+R7243:7247 Stdlib.ZArith.BinInt Z eqb def
+R7237:7241 Stdlib.ZArith.BinInt Z opp def
+R7231:7235 Stdlib.ZArith.BinInt Z sub def
+R7225:7229 Stdlib.ZArith.BinInt Z mul def
+R7219:7223 Stdlib.ZArith.BinInt Z add def
+R7207:7210 Corelib.Numbers.BinNums <> Zpos constr
+R7212:7213 Corelib.Numbers.BinNums <> xH constr
+R7203:7204 Corelib.Numbers.BinNums <> Z0 constr
+R7199:7201 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R7194:7197 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R7189:7192 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R7184:7187 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R7179:7182 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R7288:7297 Stdlib.setoid_ring.Ring_theory <> semi_morph rec
+R7366:7373 Stdlib.setoid_ring.InitialRing <> gen_phiZ def
+R7360:7364 Stdlib.ZArith.BinInt Z eqb def
+R7354:7358 Stdlib.ZArith.BinInt Z mul def
+R7348:7352 Stdlib.ZArith.BinInt Z add def
+R7321:7324 Corelib.Numbers.BinNums <> Zpos constr
+R7326:7327 Corelib.Numbers.BinNums <> xH constr
+R7317:7318 Corelib.Numbers.BinNums <> Z0 constr
+R7313:7315 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.req var
+R7308:7311 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R7303:7306 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R7387:7394 Stdlib.setoid_ring.Ring_theory <> mkRmorph constr
+R7425:7436 Stdlib.setoid_ring.InitialRing <> gen_phiZ_add thm
+R7451:7462 Stdlib.setoid_ring.InitialRing <> gen_phiZ_mul thm
+R7477:7487 Stdlib.setoid_ring.InitialRing <> gen_Zeqb_ok thm
+R7502:7513 Stdlib.setoid_ring.Ring_theory <> Smorph_morph thm
+R7541:7552 Stdlib.setoid_ring.InitialRing <> gen_phiZ_ext thm
+R7529:7531 Stdlib.setoid_ring.InitialRing <> Zth thm
+R7525:7527 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R7520:7523 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R7515:7518 Stdlib.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R7567:7575 Stdlib.setoid_ring.InitialRing ZMORPHISM <> sec
+prf 7621:7624 <> Nsth
+R7628:7640 Corelib.Setoids.Setoid <> Setoid_Theory def
+R7642:7642 Corelib.Numbers.BinNums <> N ind
+R7646:7647 Corelib.Init.Logic <> eq ind
+R7649:7649 Corelib.Numbers.BinNums <> N ind
+R7669:7673 Stdlib.setoid_ring.Ring_theory <> Eqsth thm
+R7675:7675 Corelib.Numbers.BinNums <> N ind
+prf 7691:7695 <> Nseqe
+R7699:7710 Stdlib.setoid_ring.Ring_theory <> sring_eq_ext rec
+R7726:7727 Corelib.Init.Logic <> eq ind
+R7729:7729 Corelib.Numbers.BinNums <> N ind
+R7718:7722 Stdlib.NArith.BinNat N mul def
+R7712:7716 Stdlib.NArith.BinNat N add def
+R7749:7756 Stdlib.setoid_ring.Ring_theory <> Eq_s_ext thm
+R7764:7768 Stdlib.NArith.BinNat N mul def
+R7758:7762 Stdlib.NArith.BinNat N add def
+prf 7784:7786 <> Nth
+R7790:7805 Stdlib.setoid_ring.Ring_theory <> semi_ring_theory rec
+R7829:7830 Corelib.Init.Logic <> eq ind
+R7832:7832 Corelib.Numbers.BinNums <> N ind
+R7821:7825 Stdlib.NArith.BinNat N mul def
+R7815:7819 Stdlib.NArith.BinNat N add def
+R7868:7876 Stdlib.NArith.BinNat N add_0_l thm
+R7889:7898 Stdlib.NArith.BinNat N add_comm thm
+R7911:7921 Stdlib.NArith.BinNat N add_assoc thm
+R7934:7942 Stdlib.NArith.BinNat N mul_1_l thm
+R7955:7963 Stdlib.NArith.BinNat N mul_0_l thm
+R7976:7985 Stdlib.NArith.BinNat N mul_comm thm
+R7998:8008 Stdlib.NArith.BinNat N mul_assoc thm
+R8021:8037 Stdlib.NArith.BinNat N mul_add_distr_r thm
+def 8057:8060 <> Nsub
+R8065:8069 Stdlib.setoid_ring.Ring_theory <> SRsub def
+R8071:8075 Stdlib.NArith.BinNat N add def
+def 8089:8092 <> Nopp
+R8099:8103 Stdlib.setoid_ring.Ring_theory <> SRopp def
+R8105:8105 Corelib.Numbers.BinNums <> N ind
+prf 8116:8119 <> Neqe
+R8123:8133 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R8154:8155 Corelib.Init.Logic <> eq ind
+R8157:8157 Corelib.Numbers.BinNums <> N ind
+R8147:8150 Stdlib.setoid_ring.InitialRing <> Nopp def
+R8141:8145 Stdlib.NArith.BinNat N mul def
+R8135:8139 Stdlib.NArith.BinNat N add def
+R8177:8186 Stdlib.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R8188:8192 Stdlib.setoid_ring.InitialRing <> Nseqe thm
+prf 8208:8211 <> Nath
+R8216:8233 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R8267:8268 Corelib.Init.Logic <> eq ind
+R8270:8270 Corelib.Numbers.BinNums <> N ind
+R8260:8263 Stdlib.setoid_ring.InitialRing <> Nopp def
+R8255:8258 Stdlib.setoid_ring.InitialRing <> Nsub def
+R8249:8253 Stdlib.NArith.BinNat N mul def
+R8243:8247 Stdlib.NArith.BinNat N add def
+R8290:8298 Stdlib.setoid_ring.Ring_theory <> SRth_ARth thm
+R8305:8307 Stdlib.setoid_ring.InitialRing <> Nth thm
+R8300:8303 Stdlib.setoid_ring.InitialRing <> Nsth thm
+prf 8323:8329 <> Neqb_ok
+binder 8340:8340 <> x:54
+binder 8342:8342 <> y:55
+R8361:8364 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8354:8356 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8345:8349 Stdlib.NArith.BinNat N eqb def
+R8351:8351 Stdlib.setoid_ring.InitialRing <> x:54 var
+R8353:8353 Stdlib.setoid_ring.InitialRing <> y:55 var
+R8357:8360 Corelib.Init.Datatypes <> true constr
+R8366:8368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8365:8365 Stdlib.setoid_ring.InitialRing <> x:54 var
+R8369:8369 Stdlib.setoid_ring.InitialRing <> y:55 var
+binder 8390:8390 <> x:56
+binder 8392:8392 <> y:57
+R8397:8401 Corelib.Init.Logic <> proj1 thm
+R8404:8411 Stdlib.NArith.BinNat N eqb_eq thm
+R8413:8413 Stdlib.setoid_ring.InitialRing <> x:56 var
+R8415:8415 Stdlib.setoid_ring.InitialRing <> y:57 var
+binder 8390:8390 <> x:58
+binder 8392:8392 <> y:59
+R8413:8413 Stdlib.setoid_ring.InitialRing <> x:58 var
+R8415:8415 Stdlib.setoid_ring.InitialRing <> y:59 var
+sec 8543:8551 <> NMORPHISM
+var 8564:8564 NMORPHISM R
+var 8586:8587 NMORPHISM rO
+var 8589:8590 NMORPHISM rI
+var 8598:8601 NMORPHISM radd
+var 8603:8606 NMORPHISM rmul
+R8594:8594 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8610:8611 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8609:8609 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8613:8614 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8612:8612 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8615:8615 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+var 8629:8631 NMORPHISM req
+R8636:8639 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8635:8635 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8641:8644 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8640:8640 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8669:8670 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rO var
+not 8662:8662 NMORPHISM :::'0'
+R8690:8691 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rI var
+not 8683:8683 NMORPHISM :::'1'
+R8717:8720 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+not 8705:8705 NMORPHISM :::x_'+'_x
+R8751:8754 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+not 8738:8738 NMORPHISM :::x_'*'_x
+var 8772:8775 NMORPHISM Rsth
+R8779:8791 Corelib.Setoids.Setoid <> Setoid_Theory def
+R8793:8793 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8795:8797 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R8831:8831 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R8833:8835 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R8869:8889 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R8895:8898 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8933:8953 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R8959:8962 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8997:9018 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R9024:9027 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+var 9102:9106 NMORPHISM SReqe
+R9110:9121 Stdlib.setoid_ring.Ring_theory <> sring_eq_ext rec
+R9133:9135 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9128:9131 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9123:9126 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+var 9148:9151 NMORPHISM SRth
+R9155:9170 Stdlib.setoid_ring.Ring_theory <> semi_ring_theory rec
+R9186:9188 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9181:9184 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9176:9179 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+var 9196:9199 NMORPHISM ARth
+R9204:9212 Stdlib.setoid_ring.Ring_theory <> SRth_ARth thm
+R9219:9222 Stdlib.setoid_ring.InitialRing <> NMORPHISM.SRth var
+R9214:9217 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+var 9230:9233 NMORPHISM Reqe
+R9238:9247 Stdlib.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R9249:9253 Stdlib.setoid_ring.InitialRing <> NMORPHISM.SReqe var
+var 9261:9264 NMORPHISM ropp
+R9271:9275 Stdlib.setoid_ring.Ring_theory <> SRopp def
+R9277:9277 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+var 9286:9289 NMORPHISM rsub
+R9296:9300 Stdlib.setoid_ring.Ring_theory <> SRsub def
+R9302:9302 Stdlib.setoid_ring.InitialRing <> NMORPHISM.R var
+R9304:9307 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9335:9338 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rsub var
+not 9322:9322 NMORPHISM :::x_'-'_x
+R9366:9369 Stdlib.setoid_ring.InitialRing <> NMORPHISM.ropp var
+not 9356:9356 NMORPHISM :::'-'_x
+R9399:9401 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+not 9386:9386 NMORPHISM :::x_'=='_x
+R9449:9453 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9446:9448 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9457:9461 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9454:9456 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9462:9464 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9425:9428 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9498:9505 Stdlib.setoid_ring.Ring_theory <> Radd_ext proj
+R9507:9510 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9559:9563 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9556:9558 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9567:9571 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9564:9566 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9572:9574 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R9535:9538 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9608:9615 Stdlib.setoid_ring.Ring_theory <> Rmul_ext proj
+R9617:9620 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+def 9690:9698 <> gen_phiN1
+binder 9700:9700 <> x:78
+R9713:9713 Stdlib.setoid_ring.InitialRing <> x:78 var
+R9724:9725 Corelib.Numbers.BinNums <> N0 constr
+R9736:9739 Corelib.Numbers.BinNums <> Npos constr
+R9746:9756 Stdlib.setoid_ring.InitialRing <> gen_phiPOS1 def
+R9770:9770 Stdlib.setoid_ring.InitialRing <> x:78 var
+R9765:9768 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9760:9763 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+def 9792:9799 <> gen_phiN
+binder 9801:9801 <> x:80
+R9814:9814 Stdlib.setoid_ring.InitialRing <> x:80 var
+R9825:9826 Corelib.Numbers.BinNums <> N0 constr
+R9837:9840 Corelib.Numbers.BinNums <> Npos constr
+R9847:9856 Stdlib.setoid_ring.InitialRing <> gen_phiPOS def
+R9870:9870 Stdlib.setoid_ring.InitialRing <> x:80 var
+R9865:9868 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9860:9863 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9901:9908 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+not 9889:9889 NMORPHISM :::'['_x_']'
+prf 9922:9930 <> same_genN
+binder 9941:9941 <> x:82
+R9947:9950 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R9944:9944 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9946:9946 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9945:9945 Stdlib.setoid_ring.InitialRing <> x:82 var
+R9951:9959 Stdlib.setoid_ring.InitialRing <> gen_phiN1 def
+R9961:9961 Stdlib.setoid_ring.InitialRing <> x:82 var
+R10038:10045 Stdlib.setoid_ring.InitialRing <> same_gen thm
+R10057:10060 Stdlib.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10052:10055 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10047:10050 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 10078:10089 <> gen_phiN_add
+binder 10100:10100 <> x:83
+binder 10102:10102 <> y:84
+R10112:10115 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R10105:10105 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10111:10111 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10107:10109 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R10106:10106 Stdlib.setoid_ring.InitialRing <> x:83 var
+R10110:10110 Stdlib.setoid_ring.InitialRing <> y:84 var
+R10119:10121 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'+'_x not
+R10116:10116 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10118:10118 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10117:10117 Stdlib.setoid_ring.InitialRing <> x:83 var
+R10122:10122 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10124:10124 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10123:10123 Stdlib.setoid_ring.InitialRing <> y:84 var
+R10163:10171 Stdlib.setoid_ring.InitialRing <> same_genN thm
+R10219:10234 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R10246:10249 Stdlib.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10241:10244 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10236:10239 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 10267:10279 <> gen_phiN_mult
+binder 10290:10290 <> x:85
+binder 10292:10292 <> y:86
+R10302:10305 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R10295:10295 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10301:10301 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10297:10299 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R10296:10296 Stdlib.setoid_ring.InitialRing <> x:85 var
+R10300:10300 Stdlib.setoid_ring.InitialRing <> y:86 var
+R10309:10311 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'*'_x not
+R10306:10306 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10308:10308 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10307:10307 Stdlib.setoid_ring.InitialRing <> x:85 var
+R10312:10312 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10314:10314 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10313:10313 Stdlib.setoid_ring.InitialRing <> y:86 var
+R10353:10361 Stdlib.setoid_ring.InitialRing <> same_genN thm
+R10409:10425 Stdlib.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R10437:10440 Stdlib.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10432:10435 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10427:10430 Stdlib.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 10458:10469 <> gen_phiN_sub
+binder 10480:10480 <> x:87
+binder 10482:10482 <> y:88
+R10495:10498 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R10485:10485 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10494:10494 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10486:10489 Stdlib.setoid_ring.InitialRing <> Nsub def
+R10493:10493 Stdlib.setoid_ring.InitialRing <> y:88 var
+R10491:10491 Stdlib.setoid_ring.InitialRing <> x:87 var
+R10502:10504 Stdlib.setoid_ring.InitialRing NMORPHISM :::x_'-'_x not
+R10499:10499 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10501:10501 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10500:10500 Stdlib.setoid_ring.InitialRing <> x:87 var
+R10505:10505 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10507:10507 Stdlib.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10506:10506 Stdlib.setoid_ring.InitialRing <> y:88 var
+R10524:10535 Stdlib.setoid_ring.InitialRing <> gen_phiN_add thm
+prf 10598:10611 <> gen_phiN_morph
+R10615:10624 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R10717:10724 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R10711:10715 Stdlib.NArith.BinNat N eqb def
+R10706:10709 Stdlib.setoid_ring.InitialRing <> Nopp def
+R10701:10704 Stdlib.setoid_ring.InitialRing <> Nsub def
+R10695:10699 Stdlib.NArith.BinNat N mul def
+R10689:10693 Stdlib.NArith.BinNat N add def
+R10650:10652 Stdlib.setoid_ring.InitialRing <> NMORPHISM.req var
+R10645:10648 Stdlib.setoid_ring.InitialRing <> NMORPHISM.ropp var
+R10640:10643 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rsub var
+R10635:10638 Stdlib.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R10630:10633 Stdlib.setoid_ring.InitialRing <> NMORPHISM.radd var
+R10784:10795 Stdlib.setoid_ring.InitialRing <> gen_phiN_add thm
+R10808:10819 Stdlib.setoid_ring.InitialRing <> gen_phiN_sub thm
+R10832:10844 Stdlib.setoid_ring.InitialRing <> gen_phiN_mult thm
+R10872:10879 Stdlib.NArith.BinNat N eqb_eq thm
+R10910:10918 Stdlib.setoid_ring.InitialRing NMORPHISM <> sec
+def 10988:10992 <> Nword
+R10997:11000 Corelib.Init.Datatypes <> list ind
+R11002:11002 Corelib.Numbers.BinNums <> N ind
+def 11016:11018 <> NwO
+R11022:11026 Stdlib.setoid_ring.InitialRing <> Nword def
+R11031:11033 Corelib.Init.Datatypes <> nil constr
+def 11047:11049 <> NwI
+R11053:11057 Stdlib.setoid_ring.InitialRing <> Nword def
+R11065:11068 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11069:11071 Corelib.Init.Datatypes <> nil constr
+def 11086:11091 <> Nwcons
+binder 11093:11093 <> n:89
+R11100:11104 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11096:11096 <> w:90
+R11109:11113 Stdlib.setoid_ring.InitialRing <> Nword def
+R11129:11129 Stdlib.setoid_ring.InitialRing <> n:89 var
+R11126:11126 Stdlib.setoid_ring.InitialRing <> w:90 var
+R11140:11142 Corelib.Init.Datatypes <> nil constr
+R11152:11154 Corelib.Init.Datatypes <> nil constr
+R11169:11172 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11168:11168 Stdlib.setoid_ring.InitialRing <> n:89 var
+R11173:11173 Stdlib.setoid_ring.InitialRing <> w:90 var
+def 11192:11196 <> Nwadd
+R11207:11211 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11199:11200 <> w1:93
+binder 11202:11203 <> w2:94
+R11228:11232 Stdlib.setoid_ring.InitialRing <> Nword def
+R11249:11250 Stdlib.setoid_ring.InitialRing <> w2:94 var
+R11245:11246 Stdlib.setoid_ring.InitialRing <> w1:93 var
+R11263:11264 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11272:11274 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11291:11294 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11285:11285 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R11295:11299 Stdlib.setoid_ring.InitialRing <> Nwadd:95 def
+R11313:11315 Corelib.Init.Datatypes <> nil constr
+R11323:11324 Stdlib.setoid_ring.InitialRing <> w2:94 var
+R11333:11335 Corelib.Init.Datatypes <> nil constr
+R11340:11341 Stdlib.setoid_ring.InitialRing <> w1:93 var
+def 11362:11366 <> Nwopp
+R11371:11375 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11369:11369 <> w:98
+R11380:11384 Stdlib.setoid_ring.InitialRing <> Nword def
+R11389:11394 Stdlib.setoid_ring.InitialRing <> Nwcons def
+R11400:11400 Stdlib.setoid_ring.InitialRing <> w:98 var
+def 11415:11419 <> Nwsub
+binder 11421:11422 <> w1:99
+binder 11424:11425 <> w2:100
+R11430:11434 Stdlib.setoid_ring.InitialRing <> Nwadd def
+R11440:11444 Stdlib.setoid_ring.InitialRing <> Nwopp def
+R11446:11447 Stdlib.setoid_ring.InitialRing <> w2:100 var
+R11436:11437 Stdlib.setoid_ring.InitialRing <> w1:99 var
+def 11461:11466 <> Nwscal
+R11473:11473 Corelib.Numbers.BinNums <> N ind
+binder 11469:11469 <> n:101
+R11481:11485 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11477:11477 <> w:102
+R11501:11505 Stdlib.setoid_ring.InitialRing <> Nword def
+R11518:11518 Stdlib.setoid_ring.InitialRing <> w:102 var
+R11530:11533 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11547:11550 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11542:11542 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R11541:11541 Stdlib.setoid_ring.InitialRing <> n:101 var
+R11551:11556 Stdlib.setoid_ring.InitialRing <> Nwscal:103 def
+R11558:11558 Stdlib.setoid_ring.InitialRing <> n:101 var
+R11567:11569 Corelib.Init.Datatypes <> nil constr
+R11574:11576 Corelib.Init.Datatypes <> nil constr
+def 11595:11599 <> Nwmul
+R11610:11614 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11602:11603 <> w1:105
+binder 11605:11606 <> w2:106
+R11631:11635 Stdlib.setoid_ring.InitialRing <> Nword def
+R11648:11649 Stdlib.setoid_ring.InitialRing <> w1:105 var
+R11663:11664 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11672:11676 Stdlib.setoid_ring.InitialRing <> Nwopp def
+R11679:11683 Stdlib.setoid_ring.InitialRing <> Nwmul:107 def
+R11689:11690 Stdlib.setoid_ring.InitialRing <> w2:106 var
+R11699:11700 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11708:11712 Stdlib.setoid_ring.InitialRing <> Nwsub def
+R11730:11734 Stdlib.setoid_ring.InitialRing <> Nwmul:107 def
+R11740:11741 Stdlib.setoid_ring.InitialRing <> w2:106 var
+R11715:11720 Stdlib.setoid_ring.InitialRing <> Nwscal def
+R11725:11726 Stdlib.setoid_ring.InitialRing <> w2:106 var
+R11748:11750 Corelib.Init.Datatypes <> nil constr
+R11755:11757 Corelib.Init.Datatypes <> nil constr
+def 11775:11780 <> Nw_is0
+R11787:11791 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11783:11783 <> w:109
+R11796:11799 Corelib.Init.Datatypes <> bool ind
+R11812:11812 Stdlib.setoid_ring.InitialRing <> w:109 var
+R11823:11825 Corelib.Init.Datatypes <> nil constr
+R11830:11833 Corelib.Init.Datatypes <> true constr
+R11842:11845 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11852:11857 Stdlib.setoid_ring.InitialRing <> Nw_is0:110 def
+R11871:11875 Corelib.Init.Datatypes <> false constr
+def 11894:11902 <> Nweq_bool
+R11913:11917 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 11905:11906 <> w1:112
+binder 11908:11909 <> w2:113
+R11934:11937 Corelib.Init.Datatypes <> bool ind
+R11954:11955 Stdlib.setoid_ring.InitialRing <> w2:113 var
+R11950:11951 Stdlib.setoid_ring.InitialRing <> w1:112 var
+R11968:11969 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11977:11978 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11994:11998 Stdlib.NArith.BinNat N eqb def
+R12034:12038 Corelib.Init.Datatypes <> false constr
+R12011:12019 Stdlib.setoid_ring.InitialRing <> Nweq_bool:114 def
+R12044:12046 Corelib.Init.Datatypes <> nil constr
+R12054:12059 Stdlib.setoid_ring.InitialRing <> Nw_is0 def
+R12061:12062 Stdlib.setoid_ring.InitialRing <> w2:113 var
+R12071:12073 Corelib.Init.Datatypes <> nil constr
+R12078:12083 Stdlib.setoid_ring.InitialRing <> Nw_is0 def
+R12085:12086 Stdlib.setoid_ring.InitialRing <> w1:112 var
+sec 12104:12116 <> NWORDMORPHISM
+var 12129:12129 NWORDMORPHISM R
+var 12150:12151 NWORDMORPHISM rO
+var 12153:12154 NWORDMORPHISM rI
+var 12162:12165 NWORDMORPHISM radd
+var 12167:12170 NWORDMORPHISM rmul
+var 12172:12175 NWORDMORPHISM rsub
+var 12188:12191 NWORDMORPHISM ropp
+R12158:12158 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12179:12180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12178:12178 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12182:12183 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12181:12181 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12184:12184 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12196:12199 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12195:12195 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12200:12200 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+var 12214:12216 NWORDMORPHISM req
+R12221:12224 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12220:12220 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12226:12229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12225:12225 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12254:12255 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+not 12247:12247 NWORDMORPHISM :::'0'
+R12275:12276 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+not 12268:12268 NWORDMORPHISM :::'1'
+R12302:12305 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+not 12290:12290 NWORDMORPHISM :::x_'+'_x
+R12336:12339 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+not 12323:12323 NWORDMORPHISM :::x_'*'_x
+R12371:12374 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+not 12358:12358 NWORDMORPHISM :::x_'-'_x
+R12402:12405 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+not 12392:12392 NWORDMORPHISM :::'-'_x
+R12435:12437 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+not 12422:12422 NWORDMORPHISM :::x_'=='_x
+var 12456:12459 NWORDMORPHISM Rsth
+R12463:12475 Corelib.Setoids.Setoid <> Setoid_Theory def
+R12477:12477 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12479:12481 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12515:12515 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12517:12519 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12553:12573 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R12579:12582 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12617:12637 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R12643:12646 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12681:12702 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R12708:12711 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+var 12785:12788 NWORDMORPHISM Reqe
+R12792:12802 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R12819:12821 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12814:12817 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R12809:12812 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R12804:12807 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R12864:12868 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12861:12863 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12872:12876 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12869:12871 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12877:12879 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12840:12843 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R12913:12920 Stdlib.setoid_ring.Ring_theory <> Radd_ext proj
+R12922:12925 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12974:12978 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12971:12973 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12982:12986 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12979:12981 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12987:12989 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12950:12953 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13023:13030 Stdlib.setoid_ring.Ring_theory <> Rmul_ext proj
+R13032:13035 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13084:13088 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13081:13083 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13089:13091 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13060:13063 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R13125:13132 Stdlib.setoid_ring.Ring_theory <> Ropp_ext proj
+R13134:13137 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+var 13157:13160 NWORDMORPHISM ARth
+R13164:13181 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R13207:13209 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13202:13205 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R13197:13200 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R13192:13195 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13187:13190 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13252:13256 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13249:13251 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13260:13264 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13257:13259 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13265:13267 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13228:13231 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R13301:13309 Stdlib.setoid_ring.Ring_theory <> ARsub_ext inst
+R13321:13324 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13316:13319 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13311:13314 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+def 13443:13454 <> gen_phiNword
+R13461:13465 Stdlib.setoid_ring.InitialRing <> Nword def
+binder 13457:13457 <> w:139
+R13470:13470 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R13483:13483 Stdlib.setoid_ring.InitialRing <> w:139 var
+R13494:13496 Corelib.Init.Datatypes <> nil constr
+R13508:13511 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13512:13514 Corelib.Init.Datatypes <> nil constr
+R13519:13526 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R13539:13542 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13534:13537 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13531:13532 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R13528:13529 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R13552:13555 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13550:13551 Corelib.Numbers.BinNums <> N0 constr
+R13562:13563 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R13564:13575 Stdlib.setoid_ring.InitialRing <> gen_phiNword:140 def
+R13585:13586 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13619:13621 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R13593:13600 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R13613:13616 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13608:13611 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13605:13606 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R13602:13603 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R13622:13633 Stdlib.setoid_ring.InitialRing <> gen_phiNword:140 def
+prf 13653:13668 <> gen_phiNword0_ok
+binder 13679:13679 <> w:142
+R13697:13700 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13690:13692 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13682:13687 Stdlib.setoid_ring.InitialRing <> Nw_is0 def
+R13689:13689 Stdlib.setoid_ring.InitialRing <> w:142 var
+R13693:13696 Corelib.Init.Datatypes <> true constr
+R13715:13718 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R13701:13712 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R13714:13714 Stdlib.setoid_ring.InitialRing <> w:142 var
+R13894:13903 Stdlib.setoid_ring.Ring_theory <> ARopp_zero thm
+R13915:13918 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13910:13913 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13905:13908 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+prf 13955:13971 <> gen_phiNword_cons
+binder 13982:13982 <> w:143
+binder 13984:13984 <> n:144
+R14010:14013 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R13991:14002 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14006:14007 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14005:14005 Stdlib.setoid_ring.InitialRing <> n:144 var
+R14008:14008 Stdlib.setoid_ring.InitialRing <> w:143 var
+R14040:14042 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R14014:14021 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R14039:14039 Stdlib.setoid_ring.InitialRing <> n:144 var
+R14034:14037 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R14029:14032 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R14026:14027 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R14023:14024 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R14043:14054 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14056:14056 Stdlib.setoid_ring.InitialRing <> w:143 var
+prf 14175:14193 <> gen_phiNword_Nwcons
+binder 14204:14204 <> w:145
+binder 14206:14206 <> n:146
+R14238:14241 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R14213:14224 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14227:14232 Stdlib.setoid_ring.InitialRing <> Nwcons def
+R14236:14236 Stdlib.setoid_ring.InitialRing <> w:145 var
+R14234:14234 Stdlib.setoid_ring.InitialRing <> n:146 var
+R14268:14270 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R14242:14249 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R14267:14267 Stdlib.setoid_ring.InitialRing <> n:146 var
+R14262:14265 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R14257:14260 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R14254:14255 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R14251:14252 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R14271:14282 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14284:14284 Stdlib.setoid_ring.InitialRing <> w:145 var
+R14358:14363 Stdlib.setoid_ring.InitialRing <> Nwcons def
+R14376:14392 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+prf 14425:14439 <> gen_phiNword_ok
+binder 14450:14451 <> w1:147
+binder 14453:14454 <> w2:148
+R14482:14485 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14475:14477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14460:14468 Stdlib.setoid_ring.InitialRing <> Nweq_bool def
+R14473:14474 Stdlib.setoid_ring.InitialRing <> w2:148 var
+R14470:14471 Stdlib.setoid_ring.InitialRing <> w1:147 var
+R14478:14481 Corelib.Init.Datatypes <> true constr
+R14501:14504 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R14486:14497 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14499:14500 Stdlib.setoid_ring.InitialRing <> w1:147 var
+R14505:14516 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R14518:14519 Stdlib.setoid_ring.InitialRing <> w2:148 var
+R14603:14618 Stdlib.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14652:14668 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14761:14776 Stdlib.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14823:14839 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14855:14859 Stdlib.NArith.BinNat N eqb def
+R14913:14920 Stdlib.NArith.BinNat N eqb_eq thm
+prf 15044:15051 <> Nwadd_ok
+binder 15062:15062 <> x:149
+binder 15064:15064 <> y:150
+R15094:15097 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15070:15081 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15084:15088 Stdlib.setoid_ring.InitialRing <> Nwadd def
+R15092:15092 Stdlib.setoid_ring.InitialRing <> y:150 var
+R15090:15090 Stdlib.setoid_ring.InitialRing <> x:149 var
+R15112:15114 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'+'_x not
+R15098:15109 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15111:15111 Stdlib.setoid_ring.InitialRing <> x:149 var
+R15115:15126 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15128:15128 Stdlib.setoid_ring.InitialRing <> y:150 var
+R15227:15231 Stdlib.setoid_ring.InitialRing <> Nwadd def
+R15251:15255 Stdlib.setoid_ring.InitialRing <> Nwadd def
+R15277:15293 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+binder 15313:15316 <> sreq:151
+R15321:15332 Stdlib.setoid_ring.InitialRing <> gen_phiN_add thm
+R15345:15353 Stdlib.setoid_ring.Ring_theory <> ARth_SRth thm
+R15355:15358 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15339:15342 Stdlib.setoid_ring.InitialRing <> sreq:151 var
+R15334:15337 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+binder 15313:15316 <> sreq:152
+R15339:15342 Stdlib.setoid_ring.InitialRing <> sreq:152 var
+R15381:15384 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+binder 15313:15316 <> sreq:153
+R15339:15342 Stdlib.setoid_ring.InitialRing <> sreq:153 var
+R15452:15453 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R15454:15465 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+prf 15496:15503 <> Nwopp_ok
+binder 15514:15514 <> x:154
+R15539:15542 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15517:15528 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15531:15535 Stdlib.setoid_ring.InitialRing <> Nwopp def
+R15537:15537 Stdlib.setoid_ring.InitialRing <> x:154 var
+R15543:15544 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R15545:15556 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15558:15558 Stdlib.setoid_ring.InitialRing <> x:154 var
+R15582:15586 Stdlib.setoid_ring.InitialRing <> Nwopp def
+R15612:15630 Stdlib.setoid_ring.InitialRing <> gen_phiNword_Nwcons thm
+prf 15651:15659 <> Nwscal_ok
+binder 15670:15670 <> n:155
+binder 15672:15672 <> x:156
+R15702:15705 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15677:15688 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15691:15696 Stdlib.setoid_ring.InitialRing <> Nwscal def
+R15700:15700 Stdlib.setoid_ring.InitialRing <> x:156 var
+R15698:15698 Stdlib.setoid_ring.InitialRing <> n:155 var
+R15732:15734 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'*'_x not
+R15706:15713 Stdlib.setoid_ring.InitialRing <> gen_phiN def
+R15731:15731 Stdlib.setoid_ring.InitialRing <> n:155 var
+R15726:15729 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R15721:15724 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R15718:15719 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R15715:15716 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R15735:15746 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R15748:15748 Stdlib.setoid_ring.InitialRing <> x:156 var
+R15822:15827 Stdlib.setoid_ring.InitialRing <> Nwscal def
+R15847:15863 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+binder 15881:15884 <> sreq:157
+R15889:15901 Stdlib.setoid_ring.InitialRing <> gen_phiN_mult thm
+R15914:15922 Stdlib.setoid_ring.Ring_theory <> ARth_SRth thm
+R15924:15927 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15908:15911 Stdlib.setoid_ring.InitialRing <> sreq:157 var
+R15903:15906 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+binder 15881:15884 <> sreq:158
+R15908:15911 Stdlib.setoid_ring.InitialRing <> sreq:158 var
+R15948:15951 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+binder 15881:15884 <> sreq:159
+R15908:15911 Stdlib.setoid_ring.InitialRing <> sreq:159 var
+prf 16013:16020 <> Nwmul_ok
+binder 16031:16031 <> x:160
+binder 16033:16033 <> y:161
+R16063:16066 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R16039:16050 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R16053:16057 Stdlib.setoid_ring.InitialRing <> Nwmul def
+R16061:16061 Stdlib.setoid_ring.InitialRing <> y:161 var
+R16059:16059 Stdlib.setoid_ring.InitialRing <> x:160 var
+R16081:16083 Stdlib.setoid_ring.InitialRing NWORDMORPHISM :::x_'*'_x not
+R16067:16078 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R16080:16080 Stdlib.setoid_ring.InitialRing <> x:160 var
+R16084:16095 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R16097:16097 Stdlib.setoid_ring.InitialRing <> y:161 var
+R16185:16189 Stdlib.setoid_ring.InitialRing <> Nwmul def
+R16204:16211 Stdlib.setoid_ring.InitialRing <> Nwopp_ok thm
+R16243:16259 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R16283:16287 Stdlib.setoid_ring.InitialRing <> Nwmul def
+R16301:16305 Stdlib.setoid_ring.InitialRing <> Nwsub def
+R16320:16327 Stdlib.setoid_ring.InitialRing <> Nwadd_ok thm
+R16342:16350 Stdlib.setoid_ring.InitialRing <> Nwscal_ok thm
+R16365:16372 Stdlib.setoid_ring.InitialRing <> Nwopp_ok thm
+R16404:16420 Stdlib.setoid_ring.InitialRing <> gen_phiNword_cons thm
+prf 16501:16518 <> gen_phiNword_morph
+R16524:16533 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R16608:16619 Stdlib.setoid_ring.InitialRing <> gen_phiNword def
+R16598:16606 Stdlib.setoid_ring.InitialRing <> Nweq_bool def
+R16592:16596 Stdlib.setoid_ring.InitialRing <> Nwopp def
+R16586:16590 Stdlib.setoid_ring.InitialRing <> Nwsub def
+R16580:16584 Stdlib.setoid_ring.InitialRing <> Nwmul def
+R16574:16578 Stdlib.setoid_ring.InitialRing <> Nwadd def
+R16570:16572 Stdlib.setoid_ring.InitialRing <> NwI def
+R16566:16568 Stdlib.setoid_ring.InitialRing <> NwO def
+R16559:16561 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R16554:16557 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R16549:16552 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R16544:16547 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R16539:16542 Stdlib.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R16682:16689 Stdlib.setoid_ring.InitialRing <> Nwadd_ok thm
+R16712:16716 Stdlib.setoid_ring.InitialRing <> Nwsub def
+R16729:16736 Stdlib.setoid_ring.InitialRing <> Nwadd_ok thm
+R16749:16756 Stdlib.setoid_ring.InitialRing <> Nwopp_ok thm
+R16776:16783 Stdlib.setoid_ring.InitialRing <> Nwmul_ok thm
+R16795:16802 Stdlib.setoid_ring.InitialRing <> Nwopp_ok thm
+R16814:16828 Stdlib.setoid_ring.InitialRing <> gen_phiNword_ok thm
+R16842:16854 Stdlib.setoid_ring.InitialRing NWORDMORPHISM <> sec
+sec 16866:16872 <> GEN_DIV
+var 16890:16890 GEN_DIV R
+var 16901:16902 GEN_DIV rO
+var 16910:16911 GEN_DIV rI
+var 16919:16922 GEN_DIV radd
+var 16954:16957 GEN_DIV rmul
+var 16975:16978 GEN_DIV rsub
+var 16996:16999 GEN_DIV ropp
+var 17026:17028 GEN_DIV req
+var 17049:17049 GEN_DIV C
+var 17060:17061 GEN_DIV cO
+var 17069:17070 GEN_DIV cI
+var 17092:17095 GEN_DIV cadd
+var 17113:17116 GEN_DIV cmul
+var 17134:17137 GEN_DIV csub
+var 17169:17172 GEN_DIV copp
+var 17185:17188 GEN_DIV ceqb
+var 17209:17211 GEN_DIV phi
+R16906:16906 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16915:16915 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16927:16930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16926:16926 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16932:16935 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16931:16931 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16936:16936 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16962:16965 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16961:16961 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16967:16970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16966:16966 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16971:16971 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16983:16986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16982:16982 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16988:16991 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16987:16987 Stdlib.setoid_ring.InitialRing <> R:163 var
+R16992:16992 Stdlib.setoid_ring.InitialRing <> R:163 var
+R17004:17007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17003:17003 Stdlib.setoid_ring.InitialRing <> R:163 var
+R17008:17008 Stdlib.setoid_ring.InitialRing <> R:163 var
+R17033:17036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17032:17032 Stdlib.setoid_ring.InitialRing <> R:163 var
+R17038:17041 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17037:17037 Stdlib.setoid_ring.InitialRing <> R:163 var
+R17065:17065 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17074:17074 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17100:17103 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17099:17099 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17105:17108 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17104:17104 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17109:17109 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17121:17124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17120:17120 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17126:17129 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17125:17125 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17130:17130 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17142:17145 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17141:17141 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17147:17150 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17146:17146 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17151:17151 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17177:17180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17176:17176 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17181:17181 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17193:17196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17192:17192 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17198:17201 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17197:17197 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17202:17205 Corelib.Init.Datatypes <> bool ind
+R17216:17219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17215:17215 Stdlib.setoid_ring.InitialRing <> C:179 var
+R17220:17220 Stdlib.setoid_ring.InitialRing <> R:163 var
+var 17234:17237 GEN_DIV Rsth
+R17241:17253 Corelib.Setoids.Setoid <> Setoid_Theory def
+R17255:17255 Stdlib.setoid_ring.InitialRing <> GEN_DIV.R var
+R17257:17259 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+var 17272:17275 GEN_DIV Reqe
+R17279:17289 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R17306:17308 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17301:17304 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17296:17299 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17291:17294 Stdlib.setoid_ring.InitialRing <> GEN_DIV.radd var
+var 17321:17324 GEN_DIV ARth
+R17328:17345 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R17373:17375 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17368:17371 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17363:17366 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R17358:17361 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17353:17356 Stdlib.setoid_ring.InitialRing <> GEN_DIV.radd var
+R17350:17351 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rI var
+R17347:17348 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rO var
+var 17388:17392 GEN_DIV morph
+R17396:17405 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R17468:17470 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R17463:17466 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+R17458:17461 Stdlib.setoid_ring.InitialRing <> GEN_DIV.copp var
+R17453:17456 Stdlib.setoid_ring.InitialRing <> GEN_DIV.csub var
+R17448:17451 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R17443:17446 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R17440:17441 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cI var
+R17437:17438 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cO var
+R17433:17435 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17428:17431 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17423:17426 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R17418:17421 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17413:17416 Stdlib.setoid_ring.InitialRing <> GEN_DIV.radd var
+R17410:17411 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rI var
+R17407:17408 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rO var
+R17525:17525 Stdlib.setoid_ring.InitialRing <> GEN_DIV.R var
+R17527:17529 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17560:17580 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R17586:17589 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17621:17641 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R17647:17650 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17682:17703 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R17709:17712 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17805:17809 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17802:17804 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17813:17817 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17810:17812 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17818:17820 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17781:17784 Stdlib.setoid_ring.InitialRing <> GEN_DIV.radd var
+R17852:17859 Stdlib.setoid_ring.Ring_theory <> Radd_ext proj
+R17861:17864 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17912:17916 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17909:17911 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17920:17924 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17917:17919 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17925:17927 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17888:17891 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17959:17966 Stdlib.setoid_ring.Ring_theory <> Rmul_ext proj
+R17968:17971 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R18019:18023 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18016:18018 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R18024:18026 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R17995:17998 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R18058:18065 Stdlib.setoid_ring.Ring_theory <> Ropp_ext proj
+R18067:18070 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R18118:18122 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18115:18117 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R18126:18130 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18123:18125 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R18131:18133 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R18094:18097 Stdlib.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R18165:18173 Stdlib.setoid_ring.Ring_theory <> ARsub_ext inst
+R18185:18188 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ARth var
+R18180:18183 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R18175:18178 Stdlib.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+def 18255:18262 <> triv_div
+binder 18264:18264 <> x:204
+binder 18266:18266 <> y:205
+R18277:18280 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+R18284:18284 Stdlib.setoid_ring.InitialRing <> y:205 var
+R18282:18282 Stdlib.setoid_ring.InitialRing <> x:204 var
+R18308:18308 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18311:18312 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18314:18314 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18309:18310 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18313:18313 Stdlib.setoid_ring.InitialRing <> x:204 var
+R18291:18291 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18294:18295 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18298:18298 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18292:18293 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cI var
+R18296:18297 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18388:18390 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18392:18393 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18439:18441 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18443:18444 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cI var
+R18490:18492 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18495:18498 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R18561:18563 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18566:18569 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R18632:18634 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18637:18640 Stdlib.setoid_ring.InitialRing <> GEN_DIV.csub var
+R18703:18705 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18708:18711 Stdlib.setoid_ring.InitialRing <> GEN_DIV.copp var
+R18731:18739 Stdlib.setoid_ring.Ring_theory <> morph_opp proj
+R18741:18745 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18664:18672 Stdlib.setoid_ring.Ring_theory <> morph_sub proj
+R18674:18678 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18593:18601 Stdlib.setoid_ring.Ring_theory <> morph_mul proj
+R18603:18607 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18522:18530 Stdlib.setoid_ring.Ring_theory <> morph_add proj
+R18532:18536 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18459:18464 Stdlib.setoid_ring.Ring_theory <> morph1 proj
+R18466:18470 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18408:18413 Stdlib.setoid_ring.Ring_theory <> morph0 proj
+R18415:18419 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+prf 18769:18779 <> triv_div_th
+R18783:18804 Stdlib.setoid_ring.Ring_theory <> div_theory rec
+R18825:18832 Stdlib.setoid_ring.InitialRing <> triv_div def
+R18821:18823 Stdlib.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18816:18819 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R18811:18814 Stdlib.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R18807:18809 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R18878:18885 Stdlib.setoid_ring.InitialRing <> triv_div def
+R18902:18909 Stdlib.setoid_ring.Ring_theory <> morph_eq proj
+R18911:18915 Stdlib.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18932:18935 Stdlib.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+var 19029:19032 GEN_DIV zphi
+R19037:19040 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19036:19036 Corelib.Numbers.BinNums <> Z ind
+R19041:19041 Stdlib.setoid_ring.InitialRing <> GEN_DIV.R var
+prf 19052:19063 <> Ztriv_div_th
+R19067:19076 Stdlib.setoid_ring.Ring_theory <> div_theory rec
+R19099:19107 Stdlib.ZArith.BinInt Z quotrem def
+R19094:19097 Stdlib.setoid_ring.InitialRing <> GEN_DIV.zphi var
+R19088:19092 Stdlib.ZArith.BinInt Z mul def
+R19082:19086 Stdlib.ZArith.BinInt Z add def
+R19078:19080 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R19159:19170 Stdlib.ZArith.BinInt Z quotrem_eq thm
+R19183:19191 Stdlib.ZArith.BinInt Z quotrem def
+R19219:19228 Stdlib.ZArith.BinInt Z mul_comm thm
+var 19256:19259 GEN_DIV nphi
+R19264:19267 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19263:19263 Corelib.Numbers.BinNums <> N ind
+R19268:19268 Stdlib.setoid_ring.InitialRing <> GEN_DIV.R var
+prf 19279:19290 <> Ntriv_div_th
+R19294:19303 Stdlib.setoid_ring.Ring_theory <> div_theory rec
+R19326:19335 Stdlib.NArith.BinNat N div_eucl def
+R19321:19324 Stdlib.setoid_ring.InitialRing <> GEN_DIV.nphi var
+R19315:19319 Stdlib.NArith.BinNat N mul def
+R19309:19313 Stdlib.NArith.BinNat N add def
+R19305:19307 Stdlib.setoid_ring.InitialRing <> GEN_DIV.req var
+R19387:19401 Stdlib.NArith.BinNat N div_eucl_spec thm
+R19414:19423 Stdlib.NArith.BinNat N div_eucl def
+R19451:19460 Stdlib.NArith.BinNat N mul_comm thm
+R19482:19488 Stdlib.setoid_ring.InitialRing GEN_DIV <> sec
+R20230:20240 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20092:20102 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20195:20196 Corelib.Numbers.BinNums <> xI constr
+R20159:20169 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20115:20125 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R19852:19862 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R19989:19990 Corelib.Numbers.BinNums <> xO constr
+R19919:19929 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R19875:19885 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20460:20470 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20523:20524 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20517:20520 Corelib.Numbers.BinNums <> Npos constr
+R20525:20527 Corelib.Init.Datatypes <> nil constr
+R20483:20493 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20393:20395 Stdlib.setoid_ring.InitialRing <> NwO def
+R20719:20729 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20776:20779 Corelib.Numbers.BinNums <> Npos constr
+R20742:20752 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R21119:21129 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R21176:21179 Corelib.Numbers.BinNums <> Zpos constr
+R21142:21152 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R20983:20993 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R21040:21043 Corelib.Numbers.BinNums <> Zneg constr
+R21006:21016 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R21596:21606 Stdlib.setoid_ring.InitialRing <> NotConstant def
+R21686:21696 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R21751:21766 Stdlib.setoid_ring.Ring_theory <> semi_ring_theory rec
+R21814:21831 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R21789:21797 Stdlib.setoid_ring.Ring_theory <> SRth_ARth thm
+R21723:21730 Stdlib.setoid_ring.Ring_theory <> Rth_ARth thm
+R21966:21976 Stdlib.setoid_ring.Ring_theory <> ring_eq_ext rec
+R21997:22008 Stdlib.setoid_ring.Ring_theory <> sring_eq_ext rec
+R22027:22036 Stdlib.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R22176:22186 Stdlib.setoid_ring.Ring_theory <> ring_theory rec
+R22247:22262 Stdlib.setoid_ring.Ring_theory <> semi_ring_theory rec
+R22319:22336 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R22369:22386 Stdlib.setoid_ring.InitialRing <> gen_phiNword_morph thm
+R22285:22298 Stdlib.setoid_ring.InitialRing <> gen_phiN_morph thm
+R22213:22226 Stdlib.setoid_ring.InitialRing <> gen_phiZ_morph thm
+rec 22455:22458 <> hypo
+proj 22482:22490 <> hypo_type
+proj 22503:22512 <> hypo_proof
+R22516:22524 Stdlib.setoid_ring.InitialRing <> hypo_type:211 meth
+R22588:22591 Corelib.Init.Datatypes <> None constr
+R22784:22787 Corelib.Init.Datatypes <> Some constr
+R22629:22646 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R22704:22709 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R22713:22720 Stdlib.setoid_ring.Ring_theory <> pow_N_th def
+R22870:22873 Corelib.Init.Datatypes <> None constr
+R23342:23345 Corelib.Init.Datatypes <> Some constr
+R22914:22923 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R22980:22980 Corelib.Numbers.BinNums <> Z ind
+R23106:23115 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R23238:23243 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R23247:23262 Stdlib.setoid_ring.Ring_theory <> get_sign_None_th thm
+R23044:23049 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R23052:23062 Stdlib.setoid_ring.Ring_theory <> sign_theory rec
+R23074:23082 Stdlib.setoid_ring.InitialRing <> get_signZ def
+R23085:23096 Stdlib.setoid_ring.InitialRing <> get_signZ_th thm
+R23446:23455 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R23512:23512 Corelib.Numbers.BinNums <> Z ind
+R23522:23526 Stdlib.ZArith.BinInt Z add def
+R23528:23532 Stdlib.ZArith.BinInt Z mul def
+R23610:23619 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R23676:23676 Corelib.Numbers.BinNums <> N ind
+R23686:23690 Stdlib.NArith.BinNat N add def
+R23692:23696 Stdlib.NArith.BinNat N mul def
+R23774:23783 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R23904:23909 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R23912:23922 Stdlib.setoid_ring.InitialRing <> triv_div_th thm
+R23739:23744 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R23747:23758 Stdlib.setoid_ring.InitialRing <> Ntriv_div_th thm
+R23575:23580 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R23583:23594 Stdlib.setoid_ring.InitialRing <> Ztriv_div_th thm
+R24072:24075 Corelib.Init.Datatypes <> None constr
+R24120:24123 Corelib.Init.Datatypes <> Some constr
+R24339:24346 Stdlib.setoid_ring.Ring_theory <> Abstract constr
+R24395:24407 Stdlib.setoid_ring.Ring_theory <> Computational constr
+R24636:24643 Stdlib.setoid_ring.Ring_theory <> Morphism constr
+R24688:24697 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R24746:24755 Stdlib.setoid_ring.Ring_theory <> semi_morph rec
+R24809:24822 Stdlib.setoid_ring.Ring_theory <> SRmorph_Rmorph thm
+R24463:24480 Stdlib.setoid_ring.Ring_theory <> almost_ring_theory rec
+R24535:24541 Stdlib.setoid_ring.Ring_theory <> IDmorph thm
+R25356:25359 Corelib.Init.Datatypes <> None constr
+R25395:25398 Corelib.Init.Datatypes <> Some constr
+R25413:25431 Stdlib.setoid_ring.Ring_polynom <> ring_rw_pow_correct thm
+R25372:25386 Stdlib.setoid_ring.Ring_polynom <> ring_rw_correct thm
+R25597:25606 Stdlib.setoid_ring.Ring_theory <> ring_morph rec
+R25951:25956 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R25959:25970 Stdlib.setoid_ring.Ring_theory <> power_theory rec
+R26136:26141 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R26144:26153 Stdlib.setoid_ring.Ring_theory <> div_theory rec
+R26314:26319 Stdlib.setoid_ring.InitialRing <> mkhypo constr
+R26322:26332 Stdlib.setoid_ring.Ring_theory <> sign_theory rec
+R26495:26506 Stdlib.setoid_ring.Ring_polynom <> ring_correct thm
+R26992:26992 Corelib.Init.Datatypes <> O constr
+R27015:27015 Corelib.Init.Datatypes <> S constr
+R27051:27055 Corelib.Init.Datatypes <> false constr
+R27005:27008 Corelib.Init.Datatypes <> true constr
+R27102:27103 Corelib.Numbers.BinNums <> xI constr
+R27124:27125 Corelib.Numbers.BinNums <> xO constr
+R27146:27147 Corelib.Numbers.BinNums <> xH constr
+R27194:27208 Stdlib.PArith.BinPos Pos of_succ_nat def
+R27244:27248 Corelib.Init.Datatypes <> false constr
+R27160:27163 Corelib.Init.Datatypes <> true constr
+R27295:27296 Corelib.Numbers.BinNums <> N0 constr
+R27319:27322 Corelib.Numbers.BinNums <> Npos constr
+R27356:27360 Corelib.Init.Datatypes <> false constr
+R27309:27312 Corelib.Init.Datatypes <> true constr
+R27407:27408 Corelib.Numbers.BinNums <> Z0 constr
+R27431:27434 Corelib.Numbers.BinNums <> Zpos constr
+R27455:27458 Corelib.Numbers.BinNums <> Zneg constr
+R27506:27513 Stdlib.ZArith.BinInt Z of_nat def
+R27561:27566 Stdlib.ZArith.BinInt Z of_N def
+R27608:27612 Corelib.Init.Datatypes <> false constr
+R27421:27424 Corelib.Init.Datatypes <> true constr

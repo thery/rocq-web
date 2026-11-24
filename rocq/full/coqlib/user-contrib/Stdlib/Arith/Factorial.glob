@@ -1,0 +1,44 @@
+DIGEST 16d656ce8bf73118a798b692e0649776
+FStdlib.Arith.Factorial
+R703:710 Stdlib.Arith.PeanoNat <> <> lib
+def 772:775 <> fact
+R780:782 Corelib.Init.Datatypes <> nat ind
+binder 778:778 <> n:1
+R787:789 Corelib.Init.Datatypes <> nat ind
+R802:802 Stdlib.Arith.Factorial <> n:1 var
+R815:815 Corelib.Init.Datatypes <> O constr
+R828:828 Corelib.Init.Datatypes <> S constr
+R838:840 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R835:835 Corelib.Init.Datatypes <> S constr
+R837:837 Stdlib.Arith.Factorial <> n:1 var
+R841:844 Stdlib.Arith.Factorial <> fact:2 def
+R846:846 Stdlib.Arith.Factorial <> n:1 var
+R866:869 Stdlib.Arith.Factorial <> fact def
+prf 886:894 <> lt_O_fact
+binder 896:896 <> n:4
+R901:903 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R904:907 Stdlib.Arith.Factorial <> fact def
+R909:909 Stdlib.Arith.Factorial <> n:4 var
+R955:969 Stdlib.Arith.PeanoNat Nat lt_lt_add_r thm
+prf 996:1005 <> fact_neq_0
+binder 1007:1007 <> n:5
+R1017:1020 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1011:1014 Stdlib.Arith.Factorial <> fact def
+R1016:1016 Stdlib.Arith.Factorial <> n:5 var
+R1038:1051 Stdlib.Arith.PeanoNat Nat neq_0_lt_0 thm
+R1054:1062 Stdlib.Arith.Factorial <> lt_O_fact thm
+prf 1077:1083 <> fact_le
+binder 1085:1085 <> n:6
+binder 1087:1087 <> m:7
+R1097:1100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1092:1095 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1091:1091 Stdlib.Arith.Factorial <> n:6 var
+R1096:1096 Stdlib.Arith.Factorial <> m:7 var
+R1107:1110 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R1101:1104 Stdlib.Arith.Factorial <> fact def
+R1106:1106 Stdlib.Arith.Factorial <> n:6 var
+R1111:1114 Stdlib.Arith.Factorial <> fact def
+R1116:1116 Stdlib.Arith.Factorial <> m:7 var
+R1161:1164 Corelib.Init.Peano <> le_n constr
+R1192:1195 Stdlib.Arith.Factorial <> fact def
+R1228:1239 Stdlib.Arith.PeanoNat Nat le_add_r thm

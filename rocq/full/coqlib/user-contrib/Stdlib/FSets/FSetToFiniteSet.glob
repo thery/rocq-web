@@ -1,0 +1,266 @@
+DIGEST d997a54f7135d01f7cddbd9854290279
+FStdlib.FSets.FSetToFiniteSet
+R767:775 Stdlib.Sets.Ensembles <> <> lib
+R777:787 Stdlib.Sets.Finite_sets <> <> lib
+R817:829 Stdlib.FSets.FSetInterface <> <> lib
+R831:844 Stdlib.FSets.FSetProperties <> <> lib
+R846:858 Stdlib.Structures.OrderedTypeEx <> <> lib
+R860:874 Stdlib.Structures.DecidableTypeEx <> <> lib
+R1020:1037 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1043:1047 Stdlib.FSets.FSetInterface WSfun <> modtype
+R1049:1049 Stdlib.FSets.FSetToFiniteSet U <> mod
+mod 1000:1015 <> WS_to_Finite_set
+R1066:1080 Stdlib.FSets.FSetProperties WProperties_fun <> mod
+R1082:1082 Stdlib.FSets.FSetToFiniteSet U <> mod
+R1084:1084 Stdlib.FSets.FSetToFiniteSet M <> mod
+mod 1061:1062 <> WS_to_Finite_set.MP
+R1095:1095 Stdlib.FSets.FSetToFiniteSet M <> mod
+R1097:1098 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set.MP <> mod
+R1100:1101 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set.MP.FM <> mod
+R1103:1111 Stdlib.Sets.Ensembles <> <> mod
+R1113:1123 Stdlib.Sets.Finite_sets <> <> mod
+def 1139:1143 WS_to_Finite_set mkEns
+R1150:1153 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1147:1149 Stdlib.FSets.FSetToFiniteSet M t defax
+R1154:1161 Stdlib.Sets.Ensembles <> Ensemble def
+R1163:1167 Stdlib.FSets.FSetToFiniteSet M elt def
+binder 1179:1179 <> s:1
+binder 1181:1181 <> x:2
+R1186:1189 Stdlib.FSets.FSetToFiniteSet M In defax
+R1193:1193 Stdlib.FSets.FSetToFiniteSet <> s:1 var
+R1191:1191 Stdlib.FSets.FSetToFiniteSet <> x:2 var
+R1217:1221 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+not 1207:1207 WS_to_Finite_set :::'!!'
+prf 1232:1236 WS_to_Finite_set In_In
+binder 1247:1247 <> s:3
+binder 1249:1249 <> x:4
+R1260:1264 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1252:1255 Stdlib.FSets.FSetToFiniteSet M In defax
+R1259:1259 Stdlib.FSets.FSetToFiniteSet <> s:3 var
+R1257:1257 Stdlib.FSets.FSetToFiniteSet <> x:4 var
+R1265:1266 Stdlib.Sets.Ensembles <> In def
+R1271:1273 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1273:1273 Stdlib.FSets.FSetToFiniteSet <> s:3 var
+R1276:1276 Stdlib.FSets.FSetToFiniteSet <> x:4 var
+R1295:1296 Stdlib.Sets.Ensembles <> In def
+prf 1341:1355 WS_to_Finite_set Subset_Included
+binder 1366:1366 <> s:5
+binder 1368:1369 <> s':6
+R1380:1385 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1374:1377 Stdlib.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R1373:1373 Stdlib.FSets.FSetToFiniteSet <> s:5 var
+R1378:1379 Stdlib.FSets.FSetToFiniteSet <> s':6 var
+R1386:1393 Stdlib.Sets.Ensembles <> Included def
+R1398:1400 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1400:1400 Stdlib.FSets.FSetToFiniteSet <> s:5 var
+R1404:1407 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1406:1407 Stdlib.FSets.FSetToFiniteSet <> s':6 var
+R1427:1432 Stdlib.FSets.FSetToFiniteSet M Subset def
+R1435:1442 Stdlib.Sets.Ensembles <> Included def
+R1445:1446 Stdlib.Sets.Ensembles <> In def
+R1449:1453 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R1500:1507 Stdlib.Sets.Ensembles <> Same_set def
+R1509:1513 Stdlib.FSets.FSetToFiniteSet M elt def
+not 1484:1484 WS_to_Finite_set :::x_'==='_x
+prf 1561:1574 WS_to_Finite_set Equal_Same_set
+binder 1585:1585 <> s:7
+binder 1587:1588 <> s':8
+R1597:1601 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1592:1594 Stdlib.FSets.FSetInterface WSfun :::x_'[=]'_x not
+R1591:1591 Stdlib.FSets.FSetToFiniteSet <> s:7 var
+R1595:1596 Stdlib.FSets.FSetToFiniteSet <> s':8 var
+R1605:1609 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R1602:1604 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1604:1604 Stdlib.FSets.FSetToFiniteSet <> s:7 var
+R1610:1613 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1612:1613 Stdlib.FSets.FSetToFiniteSet <> s':8 var
+R1642:1657 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set double_inclusion thm
+R1668:1673 Stdlib.FSets.FSetToFiniteSet M Subset def
+R1676:1683 Stdlib.Sets.Ensembles <> Included def
+R1686:1693 Stdlib.Sets.Ensembles <> Same_set def
+R1696:1697 Stdlib.Sets.Ensembles <> In def
+R1700:1704 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+prf 1732:1746 WS_to_Finite_set empty_Empty_Set
+R1759:1763 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R1750:1758 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1752:1758 Stdlib.FSets.FSetToFiniteSet M empty defax
+R1764:1772 Stdlib.Sets.Ensembles <> Empty_set ind
+R1793:1800 Stdlib.Sets.Ensembles <> Same_set def
+R1803:1810 Stdlib.Sets.Ensembles <> Included def
+R1813:1817 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R1820:1821 Stdlib.Sets.Ensembles <> In def
+prf 1875:1889 WS_to_Finite_set Empty_Empty_set
+binder 1900:1900 <> s:9
+R1910:1913 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1903:1907 Stdlib.FSets.FSetToFiniteSet M Empty def
+R1909:1909 Stdlib.FSets.FSetToFiniteSet <> s:9 var
+R1917:1921 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R1914:1916 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R1916:1916 Stdlib.FSets.FSetToFiniteSet <> s:9 var
+R1922:1930 Stdlib.Sets.Ensembles <> Empty_set ind
+R1951:1958 Stdlib.Sets.Ensembles <> Same_set def
+R1961:1968 Stdlib.Sets.Ensembles <> Included def
+R1971:1975 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R1978:1979 Stdlib.Sets.Ensembles <> In def
+prf 2050:2068 WS_to_Finite_set singleton_Singleton
+binder 2079:2079 <> x:10
+R2099:2103 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R2082:2098 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2085:2095 Stdlib.FSets.FSetToFiniteSet M singleton defax
+R2097:2097 Stdlib.FSets.FSetToFiniteSet <> x:10 var
+R2104:2112 Stdlib.Sets.Ensembles <> Singleton ind
+R2116:2116 Stdlib.FSets.FSetToFiniteSet <> x:10 var
+R2136:2143 Stdlib.Sets.Ensembles <> Same_set def
+R2146:2153 Stdlib.Sets.Ensembles <> Included def
+R2156:2160 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R2163:2164 Stdlib.Sets.Ensembles <> In def
+prf 2241:2251 WS_to_Finite_set union_Union
+binder 2262:2262 <> s:11
+binder 2264:2265 <> s':12
+R2282:2286 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R2268:2281 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2271:2275 Stdlib.FSets.FSetToFiniteSet M union defax
+R2279:2280 Stdlib.FSets.FSetToFiniteSet <> s':12 var
+R2277:2277 Stdlib.FSets.FSetToFiniteSet <> s:11 var
+R2287:2291 Stdlib.Sets.Ensembles <> Union ind
+R2296:2298 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2298:2298 Stdlib.FSets.FSetToFiniteSet <> s:11 var
+R2302:2305 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2304:2305 Stdlib.FSets.FSetToFiniteSet <> s':12 var
+R2325:2332 Stdlib.Sets.Ensembles <> Same_set def
+R2335:2342 Stdlib.Sets.Ensembles <> Included def
+R2345:2349 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R2352:2353 Stdlib.Sets.Ensembles <> In def
+prf 2452:2469 WS_to_Finite_set inter_Intersection
+binder 2480:2480 <> s:13
+binder 2482:2483 <> s':14
+R2500:2504 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R2486:2499 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2489:2493 Stdlib.FSets.FSetToFiniteSet M inter defax
+R2497:2498 Stdlib.FSets.FSetToFiniteSet <> s':14 var
+R2495:2495 Stdlib.FSets.FSetToFiniteSet <> s:13 var
+R2505:2516 Stdlib.Sets.Ensembles <> Intersection ind
+R2521:2523 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2523:2523 Stdlib.FSets.FSetToFiniteSet <> s:13 var
+R2527:2530 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2529:2530 Stdlib.FSets.FSetToFiniteSet <> s':14 var
+R2550:2557 Stdlib.Sets.Ensembles <> Same_set def
+R2560:2567 Stdlib.Sets.Ensembles <> Included def
+R2570:2574 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R2577:2578 Stdlib.Sets.Ensembles <> In def
+prf 2655:2661 WS_to_Finite_set add_Add
+binder 2672:2672 <> x:15
+binder 2674:2674 <> s:16
+R2688:2692 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R2677:2687 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2680:2682 Stdlib.FSets.FSetToFiniteSet M add defax
+R2686:2686 Stdlib.FSets.FSetToFiniteSet <> s:16 var
+R2684:2684 Stdlib.FSets.FSetToFiniteSet <> x:15 var
+R2693:2695 Stdlib.Sets.Ensembles <> Add def
+R2700:2702 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2702:2702 Stdlib.FSets.FSetToFiniteSet <> s:16 var
+R2705:2705 Stdlib.FSets.FSetToFiniteSet <> x:15 var
+R2724:2731 Stdlib.Sets.Ensembles <> Same_set def
+R2734:2741 Stdlib.Sets.Ensembles <> Included def
+R2744:2748 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R2751:2752 Stdlib.Sets.Ensembles <> In def
+prf 2894:2900 WS_to_Finite_set Add_Add
+binder 2911:2911 <> x:17
+binder 2913:2913 <> s:18
+binder 2915:2916 <> s':19
+R2932:2935 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2919:2924 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set Add def
+R2930:2931 Stdlib.FSets.FSetToFiniteSet <> s':19 var
+R2928:2928 Stdlib.FSets.FSetToFiniteSet <> s:18 var
+R2926:2926 Stdlib.FSets.FSetToFiniteSet <> x:17 var
+R2940:2944 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R2936:2939 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2938:2939 Stdlib.FSets.FSetToFiniteSet <> s':19 var
+R2945:2947 Stdlib.Sets.Ensembles <> Add def
+R2952:2954 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R2954:2954 Stdlib.FSets.FSetToFiniteSet <> s:18 var
+R2957:2957 Stdlib.FSets.FSetToFiniteSet <> x:17 var
+R2976:2983 Stdlib.Sets.Ensembles <> Same_set def
+R2986:2993 Stdlib.Sets.Ensembles <> Included def
+R2996:3000 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R3003:3004 Stdlib.Sets.Ensembles <> In def
+prf 3231:3245 WS_to_Finite_set remove_Subtract
+binder 3256:3256 <> x:20
+binder 3258:3258 <> s:21
+R3275:3279 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R3261:3274 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3264:3269 Stdlib.FSets.FSetToFiniteSet M remove defax
+R3273:3273 Stdlib.FSets.FSetToFiniteSet <> s:21 var
+R3271:3271 Stdlib.FSets.FSetToFiniteSet <> x:20 var
+R3280:3287 Stdlib.Sets.Ensembles <> Subtract def
+R3292:3294 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3294:3294 Stdlib.FSets.FSetToFiniteSet <> s:21 var
+R3297:3297 Stdlib.FSets.FSetToFiniteSet <> x:20 var
+R3316:3323 Stdlib.Sets.Ensembles <> Same_set def
+R3326:3333 Stdlib.Sets.Ensembles <> Included def
+R3336:3340 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set mkEns def
+R3343:3344 Stdlib.Sets.Ensembles <> In def
+prf 3465:3476 WS_to_Finite_set mkEns_Finite
+binder 3487:3487 <> s:22
+R3490:3495 Stdlib.Sets.Finite_sets <> Finite ind
+R3500:3502 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3502:3502 Stdlib.FSets.FSetToFiniteSet <> s:22 var
+R3541:3553 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set set_induction thm
+R3593:3595 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3604:3612 Stdlib.Sets.Ensembles <> Empty_set ind
+R3614:3616 Stdlib.FSets.FSetToFiniteSet M elt def
+R3655:3678 Stdlib.Sets.Ensembles <> Extensionality_Ensembles prfax
+R3690:3704 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set Empty_Empty_set thm
+R3725:3728 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3737:3739 Stdlib.Sets.Ensembles <> Add def
+R3744:3746 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3800:3823 Stdlib.Sets.Ensembles <> Extensionality_Ensembles prfax
+R3837:3843 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set Add_Add thm
+prf 3866:3879 WS_to_Finite_set mkEns_cardinal
+binder 3890:3890 <> s:23
+R3893:3900 Stdlib.Sets.Finite_sets <> cardinal ind
+R3905:3907 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R3907:3907 Stdlib.FSets.FSetToFiniteSet <> s:23 var
+R3911:3920 Stdlib.FSets.FSetToFiniteSet M cardinal defax
+R3922:3922 Stdlib.FSets.FSetToFiniteSet <> s:23 var
+R3961:3973 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set set_induction thm
+R4013:4015 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R4024:4032 Stdlib.Sets.Ensembles <> Empty_set ind
+R4034:4036 Stdlib.FSets.FSetToFiniteSet M elt def
+R4069:4078 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set cardinal_1 thm
+R4118:4141 Stdlib.Sets.Ensembles <> Extensionality_Ensembles prfax
+R4155:4169 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set Empty_Empty_set thm
+R4190:4193 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R4202:4204 Stdlib.Sets.Ensembles <> Add def
+R4209:4211 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R4232:4241 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set cardinal_2 thm
+R4288:4311 Stdlib.Sets.Ensembles <> Extensionality_Ensembles prfax
+R4325:4331 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set Add_Add thm
+prf 4448:4458 WS_to_Finite_set Ens_to_FSet
+R4473:4480 Stdlib.Sets.Ensembles <> Ensemble def
+R4482:4486 Stdlib.FSets.FSetToFiniteSet M elt def
+binder 4469:4469 <> e:24
+R4499:4505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4489:4494 Stdlib.Sets.Finite_sets <> Finite ind
+R4498:4498 Stdlib.FSets.FSetToFiniteSet <> e:24 var
+R4506:4512 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4518:4519 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4515:4517 Stdlib.FSets.FSetToFiniteSet M t defax
+binder 4513:4513 <> s:25
+R4523:4527 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::x_'==='_x not
+R4520:4522 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set :::'!!' not
+R4522:4522 Stdlib.FSets.FSetToFiniteSet <> s:25 var
+R4528:4528 Stdlib.FSets.FSetToFiniteSet <> e:24 var
+R4563:4569 Stdlib.FSets.FSetToFiniteSet M empty defax
+R4581:4595 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set empty_Empty_Set thm
+R4641:4645 Stdlib.FSets.FSetToFiniteSet M add defax
+R4662:4685 Stdlib.Sets.Ensembles <> Extensionality_Ensembles prfax
+R4721:4727 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set add_Add thm
+R4741:4756 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set <> mod
+R4787:4802 Stdlib.Structures.OrderedTypeEx UsualOrderedType <> modtype
+R4808:4811 Stdlib.FSets.FSetInterface Sfun <> modtype
+R4813:4813 Stdlib.FSets.FSetToFiniteSet U <> mod
+R4821:4836 Stdlib.FSets.FSetToFiniteSet WS_to_Finite_set <> mod
+R4838:4838 Stdlib.FSets.FSetToFiniteSet U <> mod
+R4840:4840 Stdlib.FSets.FSetToFiniteSet M <> mod
+mod 4768:4782 <> S_to_Finite_set

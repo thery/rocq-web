@@ -1,0 +1,3034 @@
+DIGEST 04d69ae0e3fe2d3379478192fb4f4b45
+FStdlib.MSets.MSetProperties
+R1016:1028 Stdlib.MSets.MSetInterface <> <> lib
+R1058:1065 Stdlib.Arith.PeanoNat <> <> lib
+R1067:1081 Stdlib.Structures.DecidableTypeEx <> <> lib
+R1083:1093 Stdlib.Structures.OrdersLists <> <> lib
+R1095:1103 Stdlib.MSets.MSetFacts <> <> lib
+R1105:1114 Stdlib.MSets.MSetDecide <> <> lib
+R1250:1258 Stdlib.Sorting.SetoidList <> transpose def
+R1364:1376 Stdlib.Structures.Equalities DecidableType <> modtype
+R1383:1389 Stdlib.MSets.MSetInterface WSetsOn <> modtype
+R1391:1391 Stdlib.MSets.MSetProperties E <> mod
+mod 1338:1350 <> WPropertiesOn
+R1418:1426 Stdlib.MSets.MSetDecide WDecideOn <> mod
+R1428:1428 Stdlib.MSets.MSetProperties E <> mod
+R1430:1430 Stdlib.MSets.MSetProperties M <> mod
+mod 1411:1413 <> WPropertiesOn.Dec
+R1411:1413 Stdlib.MSets.MSetProperties WPropertiesOn.Dec <> mod
+R1455:1459 Stdlib.MSets.MSetProperties WPropertiesOn.Dec.F <> mod
+mod 1449:1450 <> WPropertiesOn.FM
+R1449:1450 Stdlib.MSets.MSetProperties WPropertiesOn.FM <> mod
+R1500:1500 Stdlib.MSets.MSetProperties M <> mod
+prf 1512:1517 WPropertiesOn In_dec
+binder 1528:1528 <> x:1
+binder 1530:1530 <> s:2
+R1533:1533 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1540:1544 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1553:1553 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1534:1535 Stdlib.MSets.MSetProperties M In defax
+R1539:1539 Stdlib.MSets.MSetProperties <> s:2 var
+R1537:1537 Stdlib.MSets.MSetProperties <> x:1 var
+R1545:1546 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1547:1548 Stdlib.MSets.MSetProperties M In defax
+R1552:1552 Stdlib.MSets.MSetProperties <> s:2 var
+R1550:1550 Stdlib.MSets.MSetProperties <> x:1 var
+R1587:1593 Stdlib.MSets.MSetProperties WPropertiesOn mem_iff thm
+R1607:1609 Stdlib.MSets.MSetProperties M mem defax
+def 1664:1666 WPropertiesOn Add
+binder 1668:1668 <> x:3
+binder 1670:1670 <> s:4
+binder 1672:1673 <> s':5
+binder 1685:1685 <> y:6
+R1695:1699 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1688:1689 Stdlib.MSets.MSetProperties M In defax
+R1693:1694 Stdlib.MSets.MSetProperties <> s':5 var
+R1691:1691 Stdlib.MSets.MSetProperties <> y:6 var
+R1708:1711 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1700:1703 Stdlib.MSets.MSetProperties E eq defax
+R1707:1707 Stdlib.MSets.MSetProperties <> y:6 var
+R1705:1705 Stdlib.MSets.MSetProperties <> x:3 var
+R1712:1713 Stdlib.MSets.MSetProperties M In defax
+R1717:1717 Stdlib.MSets.MSetProperties <> s:4 var
+R1715:1715 Stdlib.MSets.MSetProperties <> y:6 var
+prf 1729:1737 WPropertiesOn Add_Equal
+binder 1748:1748 <> x:7
+binder 1750:1750 <> s:8
+binder 1752:1753 <> s':9
+R1766:1770 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1756:1758 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R1764:1765 Stdlib.MSets.MSetProperties <> s':9 var
+R1762:1762 Stdlib.MSets.MSetProperties <> s:8 var
+R1760:1760 Stdlib.MSets.MSetProperties <> x:7 var
+R1773:1777 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R1771:1772 Stdlib.MSets.MSetProperties <> s':9 var
+R1778:1780 Stdlib.MSets.MSetProperties M add defax
+R1784:1784 Stdlib.MSets.MSetProperties <> s:8 var
+R1782:1782 Stdlib.MSets.MSetProperties <> x:7 var
+R1805:1807 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R1934:1942 Stdlib.MSets.MSetProperties WPropertiesOn Add_Equal thm
+sec 1956:1970 WPropertiesOn BasicProperties
+var 1985:1985 WPropertiesOn.BasicProperties s
+var 1987:1988 WPropertiesOn.BasicProperties s'
+var 1990:1992 WPropertiesOn.BasicProperties s''
+var 1994:1995 WPropertiesOn.BasicProperties s1
+var 1997:1998 WPropertiesOn.BasicProperties s2
+var 2000:2001 WPropertiesOn.BasicProperties s3
+R2005:2005 Stdlib.MSets.MSetProperties M t defax
+var 2019:2019 WPropertiesOn.BasicProperties x
+var 2021:2022 WPropertiesOn.BasicProperties x'
+R2026:2028 Stdlib.MSets.MSetProperties M elt def
+prf 2040:2049 WPropertiesOn equal_refl
+R2054:2056 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2053:2053 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2057:2057 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 2092:2100 WPropertiesOn equal_sym
+R2110:2113 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2105:2107 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2104:2104 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2108:2109 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R2116:2118 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2114:2115 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R2119:2119 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 2154:2164 WPropertiesOn equal_trans
+R2175:2178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2170:2172 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2168:2169 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2173:2174 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2186:2189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2181:2183 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2179:2180 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2184:2185 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+R2192:2194 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2190:2191 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2195:2196 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+prf 2231:2241 WPropertiesOn subset_refl
+R2246:2249 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2245:2245 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2250:2250 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 2285:2296 WPropertiesOn subset_trans
+R2308:2311 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2302:2305 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2300:2301 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2306:2307 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2320:2323 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2314:2317 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2312:2313 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2318:2319 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+R2326:2329 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2324:2325 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2330:2331 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+prf 2366:2379 WPropertiesOn subset_antisym
+R2390:2393 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2384:2387 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2383:2383 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2388:2389 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R2401:2404 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2396:2399 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2394:2395 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R2400:2400 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2406:2408 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2405:2405 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2409:2410 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 2445:2456 WPropertiesOn subset_equal
+R2466:2469 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2461:2463 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2460:2460 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2464:2465 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R2471:2474 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2470:2470 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R2475:2476 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 2511:2522 WPropertiesOn subset_empty
+R2531:2534 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2526:2530 Stdlib.MSets.MSetProperties M empty defax
+R2535:2535 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 2570:2584 WPropertiesOn subset_remove_3
+R2596:2599 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2590:2593 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2588:2589 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2594:2595 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2611:2616 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2600:2605 Stdlib.MSets.MSetProperties M remove defax
+R2609:2610 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2607:2607 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R2617:2618 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+prf 2653:2663 WPropertiesOn subset_diff
+R2675:2678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2669:2672 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2667:2668 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2673:2674 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+R2689:2694 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2679:2682 Stdlib.MSets.MSetProperties M diff defax
+R2687:2688 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2684:2685 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2695:2696 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s3 var
+prf 2731:2742 WPropertiesOn subset_add_3
+R2753:2756 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2746:2747 Stdlib.MSets.MSetProperties M In defax
+R2751:2752 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2749:2749 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R2765:2768 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2759:2762 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2757:2758 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2763:2764 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2777:2782 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2769:2771 Stdlib.MSets.MSetProperties M add defax
+R2775:2776 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2773:2773 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R2783:2784 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+prf 2819:2830 WPropertiesOn subset_add_2
+R2842:2845 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2836:2839 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2834:2835 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2840:2841 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2848:2852 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2846:2847 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2853:2855 Stdlib.MSets.MSetProperties M add defax
+R2859:2860 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2857:2857 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 2895:2903 WPropertiesOn in_subset
+R2914:2917 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2907:2908 Stdlib.MSets.MSetProperties M In defax
+R2912:2913 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2910:2910 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R2926:2929 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2920:2923 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R2918:2919 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2924:2925 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2930:2931 Stdlib.MSets.MSetProperties M In defax
+R2935:2936 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R2933:2933 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 2971:2986 WPropertiesOn double_inclusion
+R2997:3001 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2992:2994 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R2990:2991 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R2995:2996 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R3010:3013 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3004:3007 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R3002:3003 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+R3008:3009 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R3016:3019 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R3014:3015 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s2 var
+R3020:3021 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s1 var
+prf 3066:3081 WPropertiesOn empty_is_empty_1
+R3092:3095 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3085:3089 Stdlib.MSets.MSetProperties M Empty def
+R3091:3091 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3097:3099 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3096:3096 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3100:3104 Stdlib.MSets.MSetProperties M empty defax
+prf 3139:3154 WPropertiesOn empty_is_empty_2
+R3167:3170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3159:3161 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3158:3158 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3162:3166 Stdlib.MSets.MSetProperties M empty defax
+R3171:3175 Stdlib.MSets.MSetProperties M Empty def
+R3177:3177 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3212:3220 WPropertiesOn add_equal
+R3230:3233 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3224:3225 Stdlib.MSets.MSetProperties M In defax
+R3229:3229 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3227:3227 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3241:3245 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3234:3236 Stdlib.MSets.MSetProperties M add defax
+R3240:3240 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3238:3238 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3246:3246 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3281:3287 WPropertiesOn add_add
+R3307:3311 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3291:3293 Stdlib.MSets.MSetProperties M add defax
+R3298:3300 Stdlib.MSets.MSetProperties M add defax
+R3305:3305 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3302:3303 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x' var
+R3295:3295 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3312:3314 Stdlib.MSets.MSetProperties M add defax
+R3320:3322 Stdlib.MSets.MSetProperties M add defax
+R3326:3326 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3324:3324 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3316:3317 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x' var
+prf 3362:3373 WPropertiesOn remove_equal
+R3385:3388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3377:3378 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3379:3380 Stdlib.MSets.MSetProperties M In defax
+R3384:3384 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3382:3382 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3399:3403 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3389:3394 Stdlib.MSets.MSetProperties M remove defax
+R3398:3398 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3396:3396 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3404:3404 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3439:3450 WPropertiesOn Equal_remove
+R3460:3463 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3455:3457 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3454:3454 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3458:3459 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R3474:3478 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3464:3469 Stdlib.MSets.MSetProperties M remove defax
+R3473:3473 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3471:3471 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3479:3484 Stdlib.MSets.MSetProperties M remove defax
+R3488:3489 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R3486:3486 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 3524:3533 WPropertiesOn add_remove
+R3543:3546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3537:3538 Stdlib.MSets.MSetProperties M In defax
+R3542:3542 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3540:3540 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3565:3569 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3547:3549 Stdlib.MSets.MSetProperties M add defax
+R3554:3559 Stdlib.MSets.MSetProperties M remove defax
+R3563:3563 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3561:3561 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3551:3551 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3570:3570 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3605:3614 WPropertiesOn remove_add
+R3625:3628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3618:3618 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3619:3620 Stdlib.MSets.MSetProperties M In defax
+R3624:3624 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3622:3622 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3647:3651 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3629:3634 Stdlib.MSets.MSetProperties M remove defax
+R3639:3641 Stdlib.MSets.MSetProperties M add defax
+R3645:3645 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3643:3643 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3636:3636 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3652:3652 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3687:3705 WPropertiesOn singleton_equal_add
+R3720:3724 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3709:3717 Stdlib.MSets.MSetProperties M singleton defax
+R3719:3719 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3725:3727 Stdlib.MSets.MSetProperties M add defax
+R3731:3735 Stdlib.MSets.MSetProperties M empty defax
+R3729:3729 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 3770:3791 WPropertiesOn remove_singleton_empty
+R3804:3807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3798:3799 Stdlib.MSets.MSetProperties M In defax
+R3803:3803 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3801:3801 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3828:3831 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3818:3822 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3808:3813 Stdlib.MSets.MSetProperties M remove defax
+R3817:3817 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3815:3815 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3823:3827 Stdlib.MSets.MSetProperties M empty defax
+R3843:3847 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3832:3840 Stdlib.MSets.MSetProperties M singleton defax
+R3842:3842 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R3848:3848 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 3883:3891 WPropertiesOn union_sym
+R3905:3909 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3895:3899 Stdlib.MSets.MSetProperties M union defax
+R3903:3904 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R3901:3901 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3910:3914 Stdlib.MSets.MSetProperties M union defax
+R3919:3919 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3916:3917 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 3954:3971 WPropertiesOn union_subset_equal
+R3982:3985 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3976:3979 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R3975:3975 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R3980:3981 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R3996:4000 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R3986:3990 Stdlib.MSets.MSetProperties M union defax
+R3994:3995 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R3992:3992 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4001:4002 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 4037:4049 WPropertiesOn union_equal_1
+R4059:4062 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4054:4056 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4053:4053 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4057:4058 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4074:4078 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4063:4067 Stdlib.MSets.MSetProperties M union defax
+R4071:4073 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4069:4069 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4079:4083 Stdlib.MSets.MSetProperties M union defax
+R4088:4090 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4085:4086 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 4125:4137 WPropertiesOn union_equal_2
+R4149:4152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4143:4145 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4141:4142 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4146:4148 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4163:4167 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4153:4157 Stdlib.MSets.MSetProperties M union defax
+R4161:4162 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4159:4159 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4168:4172 Stdlib.MSets.MSetProperties M union defax
+R4176:4178 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4174:4174 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 4213:4223 WPropertiesOn union_assoc
+R4249:4253 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4227:4231 Stdlib.MSets.MSetProperties M union defax
+R4246:4248 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4234:4238 Stdlib.MSets.MSetProperties M union defax
+R4242:4243 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4240:4240 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4254:4258 Stdlib.MSets.MSetProperties M union defax
+R4263:4267 Stdlib.MSets.MSetProperties M union defax
+R4272:4274 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4269:4270 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4260:4260 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 4310:4328 WPropertiesOn add_union_singleton
+R4339:4343 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4332:4334 Stdlib.MSets.MSetProperties M add defax
+R4338:4338 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4336:4336 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4344:4348 Stdlib.MSets.MSetProperties M union defax
+R4364:4364 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4351:4359 Stdlib.MSets.MSetProperties M singleton defax
+R4361:4361 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 4399:4407 WPropertiesOn union_add
+R4429:4433 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4411:4415 Stdlib.MSets.MSetProperties M union defax
+R4427:4428 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4418:4420 Stdlib.MSets.MSetProperties M add defax
+R4424:4424 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4422:4422 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4434:4436 Stdlib.MSets.MSetProperties M add defax
+R4441:4445 Stdlib.MSets.MSetProperties M union defax
+R4449:4450 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4447:4447 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4438:4438 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 4486:4503 WPropertiesOn union_remove_add_1
+R4539:4543 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4510:4514 Stdlib.MSets.MSetProperties M union defax
+R4530:4532 Stdlib.MSets.MSetProperties M add defax
+R4536:4537 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4534:4534 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4517:4522 Stdlib.MSets.MSetProperties M remove defax
+R4526:4526 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4524:4524 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4544:4548 Stdlib.MSets.MSetProperties M union defax
+R4561:4566 Stdlib.MSets.MSetProperties M remove defax
+R4570:4571 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4568:4568 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4551:4553 Stdlib.MSets.MSetProperties M add defax
+R4557:4557 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4555:4555 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 4607:4624 WPropertiesOn union_remove_add_2
+R4634:4640 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4628:4629 Stdlib.MSets.MSetProperties M In defax
+R4633:4633 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4631:4631 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4670:4674 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R4641:4645 Stdlib.MSets.MSetProperties M union defax
+R4661:4663 Stdlib.MSets.MSetProperties M add defax
+R4667:4668 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4665:4665 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4648:4653 Stdlib.MSets.MSetProperties M remove defax
+R4657:4657 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4655:4655 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R4675:4679 Stdlib.MSets.MSetProperties M union defax
+R4683:4684 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4681:4681 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 4719:4732 WPropertiesOn union_subset_1
+R4737:4742 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4736:4736 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4743:4747 Stdlib.MSets.MSetProperties M union defax
+R4751:4752 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4749:4749 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 4787:4800 WPropertiesOn union_subset_2
+R4806:4811 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4804:4805 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4812:4816 Stdlib.MSets.MSetProperties M union defax
+R4820:4821 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4818:4818 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 4856:4869 WPropertiesOn union_subset_3
+R4881:4884 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4874:4877 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4873:4873 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4878:4880 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4894:4897 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4887:4890 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4885:4886 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4891:4893 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4908:4913 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4898:4902 Stdlib.MSets.MSetProperties M union defax
+R4906:4907 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4904:4904 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4914:4916 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+prf 4951:4964 WPropertiesOn union_subset_4
+R4975:4978 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4969:4972 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4968:4968 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4973:4974 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R4990:4995 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R4979:4983 Stdlib.MSets.MSetProperties M union defax
+R4987:4989 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R4985:4985 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R4996:5000 Stdlib.MSets.MSetProperties M union defax
+R5005:5007 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5002:5003 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 5042:5055 WPropertiesOn union_subset_5
+R5066:5069 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5060:5063 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R5059:5059 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5064:5065 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5081:5086 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R5070:5074 Stdlib.MSets.MSetProperties M union defax
+R5080:5080 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5076:5078 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5087:5091 Stdlib.MSets.MSetProperties M union defax
+R5097:5098 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5093:5095 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+prf 5133:5145 WPropertiesOn empty_union_1
+R5156:5159 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5149:5153 Stdlib.MSets.MSetProperties M Empty def
+R5155:5155 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5170:5174 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5160:5164 Stdlib.MSets.MSetProperties M union defax
+R5168:5169 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5166:5166 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5175:5176 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 5211:5223 WPropertiesOn empty_union_2
+R5234:5237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5227:5231 Stdlib.MSets.MSetProperties M Empty def
+R5233:5233 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5248:5252 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5238:5242 Stdlib.MSets.MSetProperties M union defax
+R5247:5247 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5244:5245 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5253:5254 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 5289:5300 WPropertiesOn not_in_union
+R5311:5314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5304:5304 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5305:5306 Stdlib.MSets.MSetProperties M In defax
+R5310:5310 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5308:5308 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R5323:5326 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5315:5315 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5316:5317 Stdlib.MSets.MSetProperties M In defax
+R5321:5322 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5319:5319 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R5327:5327 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5328:5329 Stdlib.MSets.MSetProperties M In defax
+R5334:5338 Stdlib.MSets.MSetProperties M union defax
+R5342:5343 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5340:5340 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5331:5331 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 5379:5387 WPropertiesOn inter_sym
+R5401:5405 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5391:5395 Stdlib.MSets.MSetProperties M inter defax
+R5399:5400 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5397:5397 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5406:5410 Stdlib.MSets.MSetProperties M inter defax
+R5415:5415 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5412:5413 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 5450:5467 WPropertiesOn inter_subset_equal
+R5478:5481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5472:5475 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R5471:5471 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5476:5477 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5492:5496 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5482:5486 Stdlib.MSets.MSetProperties M inter defax
+R5490:5491 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5488:5488 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5497:5497 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 5532:5544 WPropertiesOn inter_equal_1
+R5554:5557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5549:5551 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5548:5548 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5552:5553 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5569:5573 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5558:5562 Stdlib.MSets.MSetProperties M inter defax
+R5566:5568 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5564:5564 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5574:5578 Stdlib.MSets.MSetProperties M inter defax
+R5583:5585 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5580:5581 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 5620:5632 WPropertiesOn inter_equal_2
+R5644:5647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5638:5640 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5636:5637 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5641:5643 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5658:5662 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5648:5652 Stdlib.MSets.MSetProperties M inter defax
+R5656:5657 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5654:5654 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5663:5667 Stdlib.MSets.MSetProperties M inter defax
+R5671:5673 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5669:5669 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 5708:5718 WPropertiesOn inter_assoc
+R5744:5748 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5722:5726 Stdlib.MSets.MSetProperties M inter defax
+R5741:5743 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5729:5733 Stdlib.MSets.MSetProperties M inter defax
+R5737:5738 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5735:5735 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5749:5753 Stdlib.MSets.MSetProperties M inter defax
+R5758:5762 Stdlib.MSets.MSetProperties M inter defax
+R5767:5769 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5764:5765 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5755:5755 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 5805:5817 WPropertiesOn union_inter_1
+R5843:5847 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5821:5825 Stdlib.MSets.MSetProperties M inter defax
+R5840:5842 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5828:5832 Stdlib.MSets.MSetProperties M union defax
+R5836:5837 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5834:5834 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5848:5852 Stdlib.MSets.MSetProperties M union defax
+R5869:5873 Stdlib.MSets.MSetProperties M inter defax
+R5878:5880 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5875:5876 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5855:5859 Stdlib.MSets.MSetProperties M inter defax
+R5863:5865 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5861:5861 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 5916:5928 WPropertiesOn union_inter_2
+R5954:5958 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R5932:5936 Stdlib.MSets.MSetProperties M union defax
+R5951:5953 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5939:5943 Stdlib.MSets.MSetProperties M inter defax
+R5947:5948 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5945:5945 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R5959:5963 Stdlib.MSets.MSetProperties M inter defax
+R5980:5984 Stdlib.MSets.MSetProperties M union defax
+R5989:5991 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5986:5987 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R5966:5970 Stdlib.MSets.MSetProperties M union defax
+R5974:5976 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R5972:5972 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6027:6037 WPropertiesOn inter_add_1
+R6048:6051 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6041:6042 Stdlib.MSets.MSetProperties M In defax
+R6046:6047 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6044:6044 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6070:6074 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6052:6056 Stdlib.MSets.MSetProperties M inter defax
+R6068:6069 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6059:6061 Stdlib.MSets.MSetProperties M add defax
+R6065:6065 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6063:6063 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6075:6077 Stdlib.MSets.MSetProperties M add defax
+R6082:6086 Stdlib.MSets.MSetProperties M inter defax
+R6090:6091 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6088:6088 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6079:6079 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 6127:6137 WPropertiesOn inter_add_2
+R6150:6153 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6141:6142 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R6143:6144 Stdlib.MSets.MSetProperties M In defax
+R6148:6149 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6146:6146 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6172:6176 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6154:6158 Stdlib.MSets.MSetProperties M inter defax
+R6170:6171 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6161:6163 Stdlib.MSets.MSetProperties M add defax
+R6167:6167 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6165:6165 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6177:6181 Stdlib.MSets.MSetProperties M inter defax
+R6185:6186 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6183:6183 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6221:6233 WPropertiesOn empty_inter_1
+R6244:6247 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6237:6241 Stdlib.MSets.MSetProperties M Empty def
+R6243:6243 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6248:6252 Stdlib.MSets.MSetProperties M Empty def
+R6255:6259 Stdlib.MSets.MSetProperties M inter defax
+R6263:6264 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6261:6261 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6300:6312 WPropertiesOn empty_inter_2
+R6324:6327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6316:6320 Stdlib.MSets.MSetProperties M Empty def
+R6322:6323 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6328:6332 Stdlib.MSets.MSetProperties M Empty def
+R6335:6339 Stdlib.MSets.MSetProperties M inter defax
+R6343:6344 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6341:6341 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6380:6393 WPropertiesOn inter_subset_1
+R6407:6412 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6397:6401 Stdlib.MSets.MSetProperties M inter defax
+R6405:6406 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6403:6403 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6413:6413 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6448:6461 WPropertiesOn inter_subset_2
+R6475:6480 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6465:6469 Stdlib.MSets.MSetProperties M inter defax
+R6473:6474 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6471:6471 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6481:6482 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 6517:6530 WPropertiesOn inter_subset_3
+R6545:6548 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6540:6543 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6537:6539 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R6544:6544 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6558:6561 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6552:6555 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6549:6551 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R6556:6557 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6565:6569 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6562:6564 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R6570:6574 Stdlib.MSets.MSetProperties M inter defax
+R6578:6579 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6576:6576 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6614:6625 WPropertiesOn empty_diff_1
+R6636:6639 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6629:6633 Stdlib.MSets.MSetProperties M Empty def
+R6635:6635 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6640:6644 Stdlib.MSets.MSetProperties M Empty def
+R6647:6650 Stdlib.MSets.MSetProperties M diff defax
+R6654:6655 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6652:6652 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6691:6702 WPropertiesOn empty_diff_2
+R6713:6716 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6706:6710 Stdlib.MSets.MSetProperties M Empty def
+R6712:6712 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6726:6730 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6717:6720 Stdlib.MSets.MSetProperties M diff defax
+R6725:6725 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6722:6723 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6731:6732 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 6767:6777 WPropertiesOn diff_subset
+R6790:6795 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6781:6784 Stdlib.MSets.MSetProperties M diff defax
+R6788:6789 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6786:6786 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6796:6796 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 6831:6847 WPropertiesOn diff_subset_equal
+R6858:6861 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6852:6855 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R6851:6851 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6856:6857 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6871:6875 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6862:6865 Stdlib.MSets.MSetProperties M diff defax
+R6869:6870 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R6867:6867 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6876:6880 Stdlib.MSets.MSetProperties M empty defax
+prf 6915:6935 WPropertiesOn remove_diff_singleton
+R6952:6956 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R6942:6947 Stdlib.MSets.MSetProperties M remove defax
+R6951:6951 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R6949:6949 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6957:6960 Stdlib.MSets.MSetProperties M diff defax
+R6965:6973 Stdlib.MSets.MSetProperties M singleton defax
+R6975:6975 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R6962:6962 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 7011:7026 WPropertiesOn diff_inter_empty
+R7060:7064 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R7030:7034 Stdlib.MSets.MSetProperties M inter defax
+R7049:7053 Stdlib.MSets.MSetProperties M inter defax
+R7057:7058 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7055:7055 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7037:7040 Stdlib.MSets.MSetProperties M diff defax
+R7044:7045 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7042:7042 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7065:7069 Stdlib.MSets.MSetProperties M empty defax
+prf 7104:7117 WPropertiesOn diff_inter_all
+R7151:7155 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R7121:7125 Stdlib.MSets.MSetProperties M union defax
+R7140:7144 Stdlib.MSets.MSetProperties M inter defax
+R7148:7149 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7146:7146 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7128:7131 Stdlib.MSets.MSetProperties M diff defax
+R7135:7136 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7133:7133 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7156:7156 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+prf 7191:7197 WPropertiesOn Add_add
+R7201:7203 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7210:7212 Stdlib.MSets.MSetProperties M add defax
+R7216:7216 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7214:7214 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7207:7207 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7205:7205 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 7260:7269 WPropertiesOn Add_remove
+R7279:7282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7273:7274 Stdlib.MSets.MSetProperties M In defax
+R7278:7278 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7276:7276 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7283:7285 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7302:7302 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7290:7295 Stdlib.MSets.MSetProperties M remove defax
+R7299:7299 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7297:7297 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7287:7287 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 7345:7353 WPropertiesOn union_Add
+R7367:7370 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7357:7359 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7365:7366 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7363:7363 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7361:7361 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7371:7373 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7392:7396 Stdlib.MSets.MSetProperties M union defax
+R7401:7403 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7398:7399 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7378:7382 Stdlib.MSets.MSetProperties M union defax
+R7386:7388 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7384:7384 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7375:7375 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 7447:7455 WPropertiesOn inter_Add
+R7470:7473 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7462:7463 Stdlib.MSets.MSetProperties M In defax
+R7467:7469 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7465:7465 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7484:7487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7474:7476 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7482:7483 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7480:7480 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7478:7478 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7488:7490 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7509:7513 Stdlib.MSets.MSetProperties M inter defax
+R7518:7520 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7515:7516 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7495:7499 Stdlib.MSets.MSetProperties M inter defax
+R7503:7505 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7501:7501 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7492:7492 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+prf 7564:7574 WPropertiesOn union_Equal
+R7589:7592 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7581:7582 Stdlib.MSets.MSetProperties M In defax
+R7586:7588 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7584:7584 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7603:7606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7593:7595 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7601:7602 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7599:7599 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7597:7597 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7618:7622 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R7607:7611 Stdlib.MSets.MSetProperties M union defax
+R7615:7617 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7613:7613 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7623:7627 Stdlib.MSets.MSetProperties M union defax
+R7632:7634 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7629:7630 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+prf 7677:7687 WPropertiesOn inter_Add_2
+R7703:7706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7694:7694 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7695:7696 Stdlib.MSets.MSetProperties M In defax
+R7700:7702 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7698:7698 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7717:7720 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7707:7709 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R7715:7716 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7713:7713 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7711:7711 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.x var
+R7732:7736 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R7721:7725 Stdlib.MSets.MSetProperties M inter defax
+R7729:7731 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7727:7727 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s var
+R7737:7741 Stdlib.MSets.MSetProperties M inter defax
+R7746:7748 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s'' var
+R7743:7744 Stdlib.MSets.MSetProperties <> WPropertiesOn.BasicProperties.s' var
+R7789:7803 Stdlib.MSets.MSetProperties WPropertiesOn.BasicProperties <> sec
+prf 8799:8812 WPropertiesOn elements_Empty
+binder 8823:8823 <> s:26
+R8833:8837 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8826:8830 Stdlib.MSets.MSetProperties M Empty def
+R8832:8832 Stdlib.MSets.MSetProperties <> s:26 var
+R8848:8850 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8838:8845 Stdlib.MSets.MSetProperties M elements defax
+R8847:8847 Stdlib.MSets.MSetProperties <> s:26 var
+R8851:8853 Corelib.Init.Datatypes <> nil constr
+R8884:8888 Stdlib.MSets.MSetProperties M Empty def
+binder 8927:8927 <> a:27
+R8930:8931 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8932:8938 Stdlib.Lists.List <> In def
+R8943:8950 Stdlib.MSets.MSetProperties M elements defax
+R8940:8940 Stdlib.MSets.MSetProperties <> a:27 var
+binder 8927:8927 <> a:28
+R8940:8940 Stdlib.MSets.MSetProperties <> a:28 var
+R9011:9022 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R9039:9045 Stdlib.Sorting.SetoidList <> InA_alt thm
+R9099:9106 Stdlib.MSets.MSetProperties M elements defax
+R9177:9188 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R9209:9215 Stdlib.Sorting.SetoidList <> InA_alt thm
+prf 9311:9324 WPropertiesOn elements_empty
+R9342:9344 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9328:9335 Stdlib.MSets.MSetProperties M elements defax
+R9337:9341 Stdlib.MSets.MSetProperties M empty defax
+R9345:9347 Corelib.Init.Datatypes <> nil constr
+R9371:9384 Stdlib.MSets.MSetProperties WPropertiesOn elements_Empty thm
+def 9470:9476 WPropertiesOn of_list
+R9483:9486 Corelib.Init.Datatypes <> list ind
+R9488:9490 Stdlib.MSets.MSetProperties M elt def
+binder 9479:9479 <> l:29
+R9496:9510 Stdlib.Lists.List <> fold_right def
+R9522:9522 Stdlib.MSets.MSetProperties <> l:29 var
+R9516:9520 Stdlib.MSets.MSetProperties M empty defax
+R9512:9514 Stdlib.MSets.MSetProperties M add defax
+def 9539:9545 WPropertiesOn to_list
+R9550:9557 Stdlib.MSets.MSetProperties M elements defax
+prf 9569:9577 WPropertiesOn of_list_1
+binder 9588:9588 <> l:30
+binder 9590:9590 <> x:31
+R9609:9613 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9593:9594 Stdlib.MSets.MSetProperties M In defax
+R9599:9605 Stdlib.MSets.MSetProperties WPropertiesOn of_list def
+R9607:9607 Stdlib.MSets.MSetProperties <> l:30 var
+R9596:9596 Stdlib.MSets.MSetProperties <> x:31 var
+R9614:9616 Stdlib.Sorting.SetoidList <> InA ind
+R9625:9625 Stdlib.MSets.MSetProperties <> l:30 var
+R9623:9623 Stdlib.MSets.MSetProperties <> x:31 var
+R9618:9621 Stdlib.MSets.MSetProperties E eq defax
+R9680:9688 Stdlib.MSets.MSetProperties WPropertiesOn empty_iff thm
+R9691:9697 Stdlib.Sorting.SetoidList <> InA_nil thm
+R9723:9729 Stdlib.MSets.MSetProperties WPropertiesOn add_iff thm
+R9732:9739 Stdlib.Sorting.SetoidList <> InA_cons thm
+prf 9774:9782 WPropertiesOn of_list_2
+binder 9793:9793 <> l:32
+R9796:9805 Stdlib.Sorting.SetoidList <> equivlistA def
+R9834:9834 Stdlib.MSets.MSetProperties <> l:32 var
+R9813:9819 Stdlib.MSets.MSetProperties WPropertiesOn to_list def
+R9822:9828 Stdlib.MSets.MSetProperties WPropertiesOn of_list def
+R9830:9830 Stdlib.MSets.MSetProperties <> l:32 var
+R9807:9810 Stdlib.MSets.MSetProperties E eq defax
+R9855:9861 Stdlib.MSets.MSetProperties WPropertiesOn to_list def
+R9890:9901 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R9910:9918 Stdlib.MSets.MSetProperties WPropertiesOn of_list_1 thm
+prf 9937:9945 WPropertiesOn of_list_3
+binder 9956:9956 <> s:33
+R9978:9982 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R9959:9965 Stdlib.MSets.MSetProperties WPropertiesOn of_list def
+R9968:9974 Stdlib.MSets.MSetProperties WPropertiesOn to_list def
+R9976:9976 Stdlib.MSets.MSetProperties <> s:33 var
+R9983:9983 Stdlib.MSets.MSetProperties <> s:33 var
+R10004:10010 Stdlib.MSets.MSetProperties WPropertiesOn to_list def
+R10036:10044 Stdlib.MSets.MSetProperties WPropertiesOn of_list_1 thm
+R10063:10074 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+sec 10112:10115 WPropertiesOn Fold
+abbrev 10130:10134 WPropertiesOn NoDup
+R10140:10145 Stdlib.Sorting.SetoidList <> NoDupA ind
+R10147:10150 Stdlib.MSets.MSetProperties E eq defax
+abbrev 10165:10167 WPropertiesOn InA
+R10173:10175 Stdlib.Sorting.SetoidList <> InA ind
+R10177:10180 Stdlib.MSets.MSetProperties E eq defax
+prf 10246:10260 WPropertiesOn fold_spec_right
+R10265:10265 Stdlib.MSets.MSetProperties M t defax
+binder 10263:10263 <> s:34
+binder 10268:10268 <> A:35
+R10278:10278 Stdlib.MSets.MSetProperties <> A:35 var
+binder 10276:10276 <> i:36
+R10288:10291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10285:10287 Stdlib.MSets.MSetProperties M elt def
+R10293:10296 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10292:10292 Stdlib.MSets.MSetProperties <> A:35 var
+R10297:10297 Stdlib.MSets.MSetProperties <> A:35 var
+binder 10281:10281 <> f:37
+R10316:10318 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10306:10309 Stdlib.MSets.MSetProperties M fold defax
+R10315:10315 Stdlib.MSets.MSetProperties <> i:36 var
+R10313:10313 Stdlib.MSets.MSetProperties <> s:34 var
+R10311:10311 Stdlib.MSets.MSetProperties <> f:37 var
+R10319:10333 Stdlib.Lists.List <> fold_right def
+R10340:10342 Stdlib.Lists.List <> rev def
+R10345:10352 Stdlib.MSets.MSetProperties M elements defax
+R10354:10354 Stdlib.MSets.MSetProperties <> s:34 var
+R10337:10337 Stdlib.MSets.MSetProperties <> i:36 var
+R10335:10335 Stdlib.MSets.MSetProperties <> f:37 var
+R10379:10387 Stdlib.MSets.MSetProperties M fold_spec defax
+R10406:10424 Stdlib.Lists.List <> fold_left_rev_right thm
+prf 10645:10652 WPropertiesOn fold_rec
+binder 10668:10668 <> A:38
+R10681:10684 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10680:10680 Stdlib.MSets.MSetProperties M t defax
+R10686:10689 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10685:10685 Stdlib.MSets.MSetProperties <> A:38 var
+binder 10676:10676 <> P:39
+R10703:10706 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10700:10702 Stdlib.MSets.MSetProperties M elt def
+R10708:10711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10707:10707 Stdlib.MSets.MSetProperties <> A:38 var
+R10712:10712 Stdlib.MSets.MSetProperties <> A:38 var
+binder 10696:10696 <> f:40
+R10717:10717 Stdlib.MSets.MSetProperties <> A:38 var
+binder 10715:10715 <> i:41
+R10722:10722 Stdlib.MSets.MSetProperties M t defax
+binder 10720:10720 <> s:42
+R10731:10731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10761:10770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 10739:10740 <> s':43
+R10751:10754 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10743:10747 Stdlib.MSets.MSetProperties M Empty def
+R10749:10750 Stdlib.MSets.MSetProperties <> s':43 var
+R10755:10755 Stdlib.MSets.MSetProperties <> P:39 var
+R10760:10760 Stdlib.MSets.MSetProperties <> i:41 var
+R10757:10758 Stdlib.MSets.MSetProperties <> s':43 var
+R10771:10771 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10859:10868 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 10779:10779 <> x:44
+binder 10781:10781 <> a:45
+binder 10783:10784 <> s':46
+binder 10786:10788 <> s'':47
+R10797:10800 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10791:10792 Stdlib.MSets.MSetProperties M In defax
+R10796:10796 Stdlib.MSets.MSetProperties <> s:42 var
+R10794:10794 Stdlib.MSets.MSetProperties <> x:44 var
+R10809:10812 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10801:10801 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10802:10803 Stdlib.MSets.MSetProperties M In defax
+R10807:10808 Stdlib.MSets.MSetProperties <> s':46 var
+R10805:10805 Stdlib.MSets.MSetProperties <> x:44 var
+R10825:10835 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10813:10815 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R10822:10824 Stdlib.MSets.MSetProperties <> s'':47 var
+R10819:10820 Stdlib.MSets.MSetProperties <> s':46 var
+R10817:10817 Stdlib.MSets.MSetProperties <> x:44 var
+R10842:10845 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10836:10836 Stdlib.MSets.MSetProperties <> P:39 var
+R10841:10841 Stdlib.MSets.MSetProperties <> a:45 var
+R10838:10839 Stdlib.MSets.MSetProperties <> s':46 var
+R10846:10846 Stdlib.MSets.MSetProperties <> P:39 var
+R10853:10853 Stdlib.MSets.MSetProperties <> f:40 var
+R10857:10857 Stdlib.MSets.MSetProperties <> a:45 var
+R10855:10855 Stdlib.MSets.MSetProperties <> x:44 var
+R10848:10850 Stdlib.MSets.MSetProperties <> s'':47 var
+R10869:10869 Stdlib.MSets.MSetProperties <> P:39 var
+R10874:10877 Stdlib.MSets.MSetProperties M fold defax
+R10883:10883 Stdlib.MSets.MSetProperties <> i:41 var
+R10881:10881 Stdlib.MSets.MSetProperties <> s:42 var
+R10879:10879 Stdlib.MSets.MSetProperties <> f:40 var
+R10871:10871 Stdlib.MSets.MSetProperties <> s:42 var
+R10939:10953 Stdlib.MSets.MSetProperties WPropertiesOn fold_spec_right thm
+R10964:10966 Stdlib.Lists.List <> rev def
+R10969:10976 Stdlib.MSets.MSetProperties M elements defax
+binder 11009:11009 <> x:48
+binder 11011:11011 <> a:49
+binder 11013:11014 <> s':50
+binder 11016:11018 <> s'':51
+R11028:11031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11021:11023 Stdlib.MSets.MSetProperties WPropertiesOn InA abbrev
+R11025:11025 Stdlib.MSets.MSetProperties <> x:48 var
+R11040:11043 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11032:11032 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R11033:11034 Stdlib.MSets.MSetProperties M In defax
+R11038:11039 Stdlib.MSets.MSetProperties <> s':50 var
+R11036:11036 Stdlib.MSets.MSetProperties <> x:48 var
+R11056:11070 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11044:11046 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R11053:11055 Stdlib.MSets.MSetProperties <> s'':51 var
+R11050:11051 Stdlib.MSets.MSetProperties <> s':50 var
+R11048:11048 Stdlib.MSets.MSetProperties <> x:48 var
+R11077:11080 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11073:11074 Stdlib.MSets.MSetProperties <> s':50 var
+R11076:11076 Stdlib.MSets.MSetProperties <> a:49 var
+R11083:11085 Stdlib.MSets.MSetProperties <> s'':51 var
+R11090:11090 Stdlib.MSets.MSetProperties <> x:48 var
+R11092:11092 Stdlib.MSets.MSetProperties <> a:49 var
+binder 11009:11009 <> x:52
+binder 11011:11011 <> a:53
+binder 11013:11014 <> s':54
+binder 11016:11018 <> s'':55
+R11025:11025 Stdlib.MSets.MSetProperties <> x:52 var
+R11038:11039 Stdlib.MSets.MSetProperties <> s':54 var
+R11036:11036 Stdlib.MSets.MSetProperties <> x:52 var
+R11053:11055 Stdlib.MSets.MSetProperties <> s'':55 var
+R11050:11051 Stdlib.MSets.MSetProperties <> s':54 var
+R11048:11048 Stdlib.MSets.MSetProperties <> x:52 var
+R11073:11074 Stdlib.MSets.MSetProperties <> s':54 var
+R11076:11076 Stdlib.MSets.MSetProperties <> a:53 var
+R11083:11085 Stdlib.MSets.MSetProperties <> s'':55 var
+R11090:11090 Stdlib.MSets.MSetProperties <> x:52 var
+R11092:11092 Stdlib.MSets.MSetProperties <> a:53 var
+R11142:11153 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R11159:11165 Stdlib.Sorting.SetoidList <> InA_rev thm
+R11202:11206 Stdlib.MSets.MSetProperties WPropertiesOn NoDup abbrev
+R11241:11251 Stdlib.MSets.MSetProperties WPropertiesOn elements_3w abbrev
+R11254:11263 Stdlib.Sorting.SetoidList <> NoDupA_rev thm
+binder 11300:11300 <> x:56
+R11309:11313 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11303:11304 Stdlib.MSets.MSetProperties M In defax
+R11306:11306 Stdlib.MSets.MSetProperties <> x:56 var
+R11314:11316 Stdlib.MSets.MSetProperties WPropertiesOn InA abbrev
+R11318:11318 Stdlib.MSets.MSetProperties <> x:56 var
+R11357:11368 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R11371:11377 Stdlib.Sorting.SetoidList <> InA_rev thm
+binder 11300:11300 <> x:57
+R11306:11306 Stdlib.MSets.MSetProperties <> x:57 var
+R11318:11318 Stdlib.MSets.MSetProperties <> x:57 var
+R11534:11540 Stdlib.Sorting.SetoidList <> InA_nil thm
+R11619:11625 Stdlib.MSets.MSetProperties WPropertiesOn of_list def
+R11688:11696 Stdlib.MSets.MSetProperties WPropertiesOn of_list_1 thm
+R11739:11747 Stdlib.MSets.MSetProperties WPropertiesOn of_list_1 thm
+R11750:11757 Stdlib.Sorting.SetoidList <> InA_cons thm
+R11877:11885 Stdlib.MSets.MSetProperties WPropertiesOn of_list_1 thm
+prf 12043:12054 WPropertiesOn fold_rec_bis
+binder 12070:12070 <> A:58
+R12083:12086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12082:12082 Stdlib.MSets.MSetProperties M t defax
+R12088:12091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12087:12087 Stdlib.MSets.MSetProperties <> A:58 var
+binder 12078:12078 <> P:59
+R12105:12108 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12102:12104 Stdlib.MSets.MSetProperties M elt def
+R12110:12113 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12109:12109 Stdlib.MSets.MSetProperties <> A:58 var
+R12114:12114 Stdlib.MSets.MSetProperties <> A:58 var
+binder 12098:12098 <> f:60
+R12119:12119 Stdlib.MSets.MSetProperties <> A:58 var
+binder 12117:12117 <> i:61
+R12124:12124 Stdlib.MSets.MSetProperties M t defax
+binder 12122:12122 <> s:62
+R12133:12133 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12174:12183 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 12141:12141 <> s:63
+binder 12143:12144 <> s':64
+binder 12146:12146 <> a:65
+R12155:12158 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12150:12152 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R12149:12149 Stdlib.MSets.MSetProperties <> s:63 var
+R12153:12154 Stdlib.MSets.MSetProperties <> s':64 var
+R12164:12167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12159:12159 Stdlib.MSets.MSetProperties <> P:59 var
+R12163:12163 Stdlib.MSets.MSetProperties <> a:65 var
+R12161:12161 Stdlib.MSets.MSetProperties <> s:63 var
+R12168:12168 Stdlib.MSets.MSetProperties <> P:59 var
+R12173:12173 Stdlib.MSets.MSetProperties <> a:65 var
+R12170:12171 Stdlib.MSets.MSetProperties <> s':64 var
+R12184:12184 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12194:12203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12185:12185 Stdlib.MSets.MSetProperties <> P:59 var
+R12193:12193 Stdlib.MSets.MSetProperties <> i:61 var
+R12187:12191 Stdlib.MSets.MSetProperties M empty defax
+R12204:12204 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12272:12281 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 12212:12212 <> x:66
+binder 12214:12214 <> a:67
+binder 12216:12217 <> s':68
+R12226:12229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12220:12221 Stdlib.MSets.MSetProperties M In defax
+R12225:12225 Stdlib.MSets.MSetProperties <> s:62 var
+R12223:12223 Stdlib.MSets.MSetProperties <> x:66 var
+R12238:12241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12230:12230 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12231:12232 Stdlib.MSets.MSetProperties M In defax
+R12236:12237 Stdlib.MSets.MSetProperties <> s':68 var
+R12234:12234 Stdlib.MSets.MSetProperties <> x:66 var
+R12248:12251 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12242:12242 Stdlib.MSets.MSetProperties <> P:59 var
+R12247:12247 Stdlib.MSets.MSetProperties <> a:67 var
+R12244:12245 Stdlib.MSets.MSetProperties <> s':68 var
+R12252:12252 Stdlib.MSets.MSetProperties <> P:59 var
+R12266:12266 Stdlib.MSets.MSetProperties <> f:60 var
+R12270:12270 Stdlib.MSets.MSetProperties <> a:67 var
+R12268:12268 Stdlib.MSets.MSetProperties <> x:66 var
+R12255:12257 Stdlib.MSets.MSetProperties M add defax
+R12261:12262 Stdlib.MSets.MSetProperties <> s':68 var
+R12259:12259 Stdlib.MSets.MSetProperties <> x:66 var
+R12282:12282 Stdlib.MSets.MSetProperties <> P:59 var
+R12287:12290 Stdlib.MSets.MSetProperties M fold defax
+R12296:12296 Stdlib.MSets.MSetProperties <> i:61 var
+R12294:12294 Stdlib.MSets.MSetProperties <> s:62 var
+R12292:12292 Stdlib.MSets.MSetProperties <> f:60 var
+R12284:12284 Stdlib.MSets.MSetProperties <> s:62 var
+R12360:12367 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec thm
+R12403:12407 Stdlib.MSets.MSetProperties M empty defax
+R12437:12445 Stdlib.MSets.MSetProperties WPropertiesOn Add_Equal thm
+R12495:12497 Stdlib.MSets.MSetProperties M add defax
+prf 12537:12550 WPropertiesOn fold_rec_nodep
+binder 12566:12566 <> A:69
+R12579:12582 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12578:12578 Stdlib.MSets.MSetProperties <> A:69 var
+binder 12574:12574 <> P:70
+R12596:12599 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12593:12595 Stdlib.MSets.MSetProperties M elt def
+R12601:12604 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12600:12600 Stdlib.MSets.MSetProperties <> A:69 var
+R12605:12605 Stdlib.MSets.MSetProperties <> A:69 var
+binder 12589:12589 <> f:71
+R12610:12610 Stdlib.MSets.MSetProperties <> A:69 var
+binder 12608:12608 <> i:72
+R12615:12615 Stdlib.MSets.MSetProperties M t defax
+binder 12613:12613 <> s:73
+R12627:12630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12624:12624 Stdlib.MSets.MSetProperties <> P:70 var
+R12626:12626 Stdlib.MSets.MSetProperties <> i:72 var
+R12631:12631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12670:12679 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 12639:12639 <> x:74
+binder 12641:12641 <> a:75
+R12650:12653 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12644:12645 Stdlib.MSets.MSetProperties M In defax
+R12649:12649 Stdlib.MSets.MSetProperties <> s:73 var
+R12647:12647 Stdlib.MSets.MSetProperties <> x:74 var
+R12657:12660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12654:12654 Stdlib.MSets.MSetProperties <> P:70 var
+R12656:12656 Stdlib.MSets.MSetProperties <> a:75 var
+R12661:12661 Stdlib.MSets.MSetProperties <> P:70 var
+R12664:12664 Stdlib.MSets.MSetProperties <> f:71 var
+R12668:12668 Stdlib.MSets.MSetProperties <> a:75 var
+R12666:12666 Stdlib.MSets.MSetProperties <> x:74 var
+R12680:12680 Stdlib.MSets.MSetProperties <> P:70 var
+R12683:12686 Stdlib.MSets.MSetProperties M fold defax
+R12692:12692 Stdlib.MSets.MSetProperties <> i:72 var
+R12690:12690 Stdlib.MSets.MSetProperties <> s:73 var
+R12688:12688 Stdlib.MSets.MSetProperties <> f:71 var
+R12721:12732 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec_bis thm
+prf 13015:13027 WPropertiesOn fold_rec_weak
+binder 13043:13043 <> A:76
+R13056:13059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13055:13055 Stdlib.MSets.MSetProperties M t defax
+R13061:13064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13060:13060 Stdlib.MSets.MSetProperties <> A:76 var
+binder 13051:13051 <> P:77
+R13078:13081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13075:13077 Stdlib.MSets.MSetProperties M elt def
+R13083:13086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13082:13082 Stdlib.MSets.MSetProperties <> A:76 var
+R13087:13087 Stdlib.MSets.MSetProperties <> A:76 var
+binder 13071:13071 <> f:78
+R13092:13092 Stdlib.MSets.MSetProperties <> A:76 var
+binder 13090:13090 <> i:79
+R13100:13100 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13141:13149 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 13108:13108 <> s:80
+binder 13110:13111 <> s':81
+binder 13113:13113 <> a:82
+R13122:13125 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13117:13119 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R13116:13116 Stdlib.MSets.MSetProperties <> s:80 var
+R13120:13121 Stdlib.MSets.MSetProperties <> s':81 var
+R13131:13134 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13126:13126 Stdlib.MSets.MSetProperties <> P:77 var
+R13130:13130 Stdlib.MSets.MSetProperties <> a:82 var
+R13128:13128 Stdlib.MSets.MSetProperties <> s:80 var
+R13135:13135 Stdlib.MSets.MSetProperties <> P:77 var
+R13140:13140 Stdlib.MSets.MSetProperties <> a:82 var
+R13137:13138 Stdlib.MSets.MSetProperties <> s':81 var
+R13159:13166 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13150:13150 Stdlib.MSets.MSetProperties <> P:77 var
+R13158:13158 Stdlib.MSets.MSetProperties <> i:79 var
+R13152:13156 Stdlib.MSets.MSetProperties M empty defax
+R13167:13167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13221:13229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 13175:13175 <> x:83
+binder 13177:13177 <> a:84
+binder 13179:13179 <> s:85
+R13189:13192 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13182:13182 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13183:13184 Stdlib.MSets.MSetProperties M In defax
+R13188:13188 Stdlib.MSets.MSetProperties <> s:85 var
+R13186:13186 Stdlib.MSets.MSetProperties <> x:83 var
+R13198:13201 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13193:13193 Stdlib.MSets.MSetProperties <> P:77 var
+R13197:13197 Stdlib.MSets.MSetProperties <> a:84 var
+R13195:13195 Stdlib.MSets.MSetProperties <> s:85 var
+R13202:13202 Stdlib.MSets.MSetProperties <> P:77 var
+R13215:13215 Stdlib.MSets.MSetProperties <> f:78 var
+R13219:13219 Stdlib.MSets.MSetProperties <> a:84 var
+R13217:13217 Stdlib.MSets.MSetProperties <> x:83 var
+R13205:13207 Stdlib.MSets.MSetProperties M add defax
+R13211:13211 Stdlib.MSets.MSetProperties <> s:85 var
+R13209:13209 Stdlib.MSets.MSetProperties <> x:83 var
+binder 13237:13237 <> s:86
+R13240:13240 Stdlib.MSets.MSetProperties <> P:77 var
+R13245:13248 Stdlib.MSets.MSetProperties M fold defax
+R13254:13254 Stdlib.MSets.MSetProperties <> i:79 var
+R13252:13252 Stdlib.MSets.MSetProperties <> s:86 var
+R13250:13250 Stdlib.MSets.MSetProperties <> f:78 var
+R13242:13242 Stdlib.MSets.MSetProperties <> s:86 var
+R13283:13294 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec_bis thm
+prf 13319:13326 WPropertiesOn fold_rel
+binder 13342:13342 <> A:87
+binder 13344:13344 <> B:88
+R13357:13360 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13356:13356 Stdlib.MSets.MSetProperties <> A:87 var
+R13362:13365 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13361:13361 Stdlib.MSets.MSetProperties <> B:88 var
+binder 13352:13352 <> R:89
+R13385:13388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13382:13384 Stdlib.MSets.MSetProperties M elt def
+R13390:13393 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13389:13389 Stdlib.MSets.MSetProperties <> A:87 var
+R13394:13394 Stdlib.MSets.MSetProperties <> A:87 var
+binder 13378:13378 <> f:90
+R13404:13407 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13401:13403 Stdlib.MSets.MSetProperties M elt def
+R13409:13412 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13408:13408 Stdlib.MSets.MSetProperties <> B:88 var
+R13413:13413 Stdlib.MSets.MSetProperties <> B:88 var
+binder 13397:13397 <> g:91
+R13420:13420 Stdlib.MSets.MSetProperties <> A:87 var
+binder 13416:13416 <> i:92
+R13427:13427 Stdlib.MSets.MSetProperties <> B:88 var
+binder 13423:13423 <> j:93
+R13434:13434 Stdlib.MSets.MSetProperties M t defax
+binder 13430:13430 <> s:94
+R13448:13456 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13443:13443 Stdlib.MSets.MSetProperties <> R:89 var
+R13447:13447 Stdlib.MSets.MSetProperties <> j:93 var
+R13445:13445 Stdlib.MSets.MSetProperties <> i:92 var
+R13457:13457 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13508:13517 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 13465:13465 <> x:95
+binder 13467:13467 <> a:96
+binder 13469:13469 <> b:97
+R13478:13481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13472:13473 Stdlib.MSets.MSetProperties M In defax
+R13477:13477 Stdlib.MSets.MSetProperties <> s:94 var
+R13475:13475 Stdlib.MSets.MSetProperties <> x:95 var
+R13487:13490 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13482:13482 Stdlib.MSets.MSetProperties <> R:89 var
+R13486:13486 Stdlib.MSets.MSetProperties <> b:97 var
+R13484:13484 Stdlib.MSets.MSetProperties <> a:96 var
+R13491:13491 Stdlib.MSets.MSetProperties <> R:89 var
+R13502:13502 Stdlib.MSets.MSetProperties <> g:91 var
+R13506:13506 Stdlib.MSets.MSetProperties <> b:97 var
+R13504:13504 Stdlib.MSets.MSetProperties <> x:95 var
+R13494:13494 Stdlib.MSets.MSetProperties <> f:90 var
+R13498:13498 Stdlib.MSets.MSetProperties <> a:96 var
+R13496:13496 Stdlib.MSets.MSetProperties <> x:95 var
+R13518:13518 Stdlib.MSets.MSetProperties <> R:89 var
+R13534:13537 Stdlib.MSets.MSetProperties M fold defax
+R13543:13543 Stdlib.MSets.MSetProperties <> j:93 var
+R13541:13541 Stdlib.MSets.MSetProperties <> s:94 var
+R13539:13539 Stdlib.MSets.MSetProperties <> g:91 var
+R13521:13524 Stdlib.MSets.MSetProperties M fold defax
+R13530:13530 Stdlib.MSets.MSetProperties <> i:92 var
+R13528:13528 Stdlib.MSets.MSetProperties <> s:94 var
+R13526:13526 Stdlib.MSets.MSetProperties <> f:90 var
+R13607:13621 Stdlib.MSets.MSetProperties WPropertiesOn fold_spec_right thm
+R13632:13634 Stdlib.Lists.List <> rev def
+R13637:13644 Stdlib.MSets.MSetProperties M elements defax
+binder 13677:13677 <> x:98
+binder 13679:13679 <> a:99
+binder 13681:13681 <> b:100
+R13691:13694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13684:13686 Stdlib.MSets.MSetProperties WPropertiesOn InA abbrev
+R13688:13688 Stdlib.MSets.MSetProperties <> x:98 var
+R13700:13703 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13697:13697 Stdlib.MSets.MSetProperties <> a:99 var
+R13699:13699 Stdlib.MSets.MSetProperties <> b:100 var
+R13709:13709 Stdlib.MSets.MSetProperties <> x:98 var
+R13711:13711 Stdlib.MSets.MSetProperties <> a:99 var
+R13717:13717 Stdlib.MSets.MSetProperties <> x:98 var
+R13719:13719 Stdlib.MSets.MSetProperties <> b:100 var
+R13766:13777 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R13783:13789 Stdlib.Sorting.SetoidList <> InA_rev thm
+binder 13677:13677 <> x:101
+binder 13679:13679 <> a:102
+binder 13681:13681 <> b:103
+R13688:13688 Stdlib.MSets.MSetProperties <> x:101 var
+R13697:13697 Stdlib.MSets.MSetProperties <> a:102 var
+R13699:13699 Stdlib.MSets.MSetProperties <> b:103 var
+R13709:13709 Stdlib.MSets.MSetProperties <> x:101 var
+R13711:13711 Stdlib.MSets.MSetProperties <> a:102 var
+R13717:13717 Stdlib.MSets.MSetProperties <> x:101 var
+R13719:13719 Stdlib.MSets.MSetProperties <> b:103 var
+prf 14009:14021 WPropertiesOn set_induction
+R14040:14043 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14039:14039 Stdlib.MSets.MSetProperties M t defax
+binder 14035:14035 <> P:104
+R14053:14053 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14078:14085 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14061:14061 <> s:105
+R14071:14074 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14064:14068 Stdlib.MSets.MSetProperties M Empty def
+R14070:14070 Stdlib.MSets.MSetProperties <> s:105 var
+R14075:14075 Stdlib.MSets.MSetProperties <> P:104 var
+R14077:14077 Stdlib.MSets.MSetProperties <> s:105 var
+R14086:14086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14146:14153 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14094:14094 <> s:106
+binder 14096:14097 <> s':107
+R14103:14106 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14100:14100 Stdlib.MSets.MSetProperties <> P:104 var
+R14102:14102 Stdlib.MSets.MSetProperties <> s:106 var
+binder 14114:14114 <> x:108
+R14124:14127 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14117:14117 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14118:14119 Stdlib.MSets.MSetProperties M In defax
+R14123:14123 Stdlib.MSets.MSetProperties <> s:106 var
+R14121:14121 Stdlib.MSets.MSetProperties <> x:108 var
+R14138:14141 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14128:14130 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R14136:14137 Stdlib.MSets.MSetProperties <> s':107 var
+R14134:14134 Stdlib.MSets.MSetProperties <> s:106 var
+R14132:14132 Stdlib.MSets.MSetProperties <> x:108 var
+R14142:14142 Stdlib.MSets.MSetProperties <> P:104 var
+R14144:14145 Stdlib.MSets.MSetProperties <> s':107 var
+binder 14161:14161 <> s:109
+R14164:14164 Stdlib.MSets.MSetProperties <> P:104 var
+R14166:14166 Stdlib.MSets.MSetProperties <> s:109 var
+R14196:14203 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec thm
+binder 14212:14212 <> s:110
+R14221:14221 Stdlib.MSets.MSetProperties <> s:110 var
+R14236:14237 Corelib.Init.Datatypes <> tt constr
+R14240:14241 Corelib.Init.Datatypes <> tt constr
+binder 14212:14212 <> s:111
+R14221:14221 Stdlib.MSets.MSetProperties <> s:111 var
+prf 14270:14286 WPropertiesOn set_induction_bis
+R14305:14308 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14304:14304 Stdlib.MSets.MSetProperties M t defax
+binder 14300:14300 <> P:112
+R14318:14318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14355:14362 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14326:14326 <> s:113
+binder 14328:14329 <> s':114
+R14340:14343 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14333:14337 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R14332:14332 Stdlib.MSets.MSetProperties <> s:113 var
+R14338:14339 Stdlib.MSets.MSetProperties <> s':114 var
+R14347:14350 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14344:14344 Stdlib.MSets.MSetProperties <> P:112 var
+R14346:14346 Stdlib.MSets.MSetProperties <> s:113 var
+R14351:14351 Stdlib.MSets.MSetProperties <> P:112 var
+R14353:14354 Stdlib.MSets.MSetProperties <> s':114 var
+R14370:14376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14363:14363 Stdlib.MSets.MSetProperties <> P:112 var
+R14365:14369 Stdlib.MSets.MSetProperties M empty defax
+R14377:14377 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14419:14426 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14385:14385 <> x:115
+binder 14387:14387 <> s:116
+R14397:14400 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14390:14390 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14391:14392 Stdlib.MSets.MSetProperties M In defax
+R14396:14396 Stdlib.MSets.MSetProperties <> s:116 var
+R14394:14394 Stdlib.MSets.MSetProperties <> x:115 var
+R14404:14407 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14401:14401 Stdlib.MSets.MSetProperties <> P:112 var
+R14403:14403 Stdlib.MSets.MSetProperties <> s:116 var
+R14408:14408 Stdlib.MSets.MSetProperties <> P:112 var
+R14411:14413 Stdlib.MSets.MSetProperties M add defax
+R14417:14417 Stdlib.MSets.MSetProperties <> s:116 var
+R14415:14415 Stdlib.MSets.MSetProperties <> x:115 var
+binder 14434:14434 <> s:117
+R14437:14437 Stdlib.MSets.MSetProperties <> P:112 var
+R14439:14439 Stdlib.MSets.MSetProperties <> s:117 var
+R14471:14482 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec_bis thm
+binder 14491:14491 <> s:118
+R14500:14500 Stdlib.MSets.MSetProperties <> s:118 var
+R14515:14516 Corelib.Init.Datatypes <> tt constr
+R14519:14520 Corelib.Init.Datatypes <> tt constr
+binder 14491:14491 <> s:119
+R14500:14500 Stdlib.MSets.MSetProperties <> s:119 var
+prf 14615:14627 WPropertiesOn fold_identity
+binder 14638:14638 <> s:120
+R14657:14661 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R14641:14644 Stdlib.MSets.MSetProperties M fold defax
+R14652:14656 Stdlib.MSets.MSetProperties M empty defax
+R14650:14650 Stdlib.MSets.MSetProperties <> s:120 var
+R14646:14648 Stdlib.MSets.MSetProperties M add defax
+R14662:14662 Stdlib.MSets.MSetProperties <> s:120 var
+binder 14714:14714 <> s:121
+binder 14716:14718 <> acc:122
+R14726:14728 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R14723:14725 Stdlib.MSets.MSetProperties <> acc:122 var
+R14729:14729 Stdlib.MSets.MSetProperties <> s:121 var
+R14692:14699 Stdlib.MSets.MSetProperties WPropertiesOn fold_rec thm
+binder 14714:14714 <> s:123
+binder 14716:14718 <> acc:124
+R14723:14725 Stdlib.MSets.MSetProperties <> acc:124 var
+R14729:14729 Stdlib.MSets.MSetProperties <> s:123 var
+R14778:14786 Stdlib.MSets.MSetProperties WPropertiesOn Add_Equal thm
+prf 15060:15065 WPropertiesOn fold_0
+binder 15082:15082 <> s:125
+binder 15085:15085 <> A:126
+R15100:15100 Stdlib.MSets.MSetProperties <> A:126 var
+binder 15096:15096 <> i:127
+R15111:15114 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15108:15110 Stdlib.MSets.MSetProperties M elt def
+R15116:15119 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15115:15115 Stdlib.MSets.MSetProperties <> A:126 var
+R15120:15120 Stdlib.MSets.MSetProperties <> A:126 var
+binder 15104:15104 <> f:128
+R15130:15136 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15149:15158 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15141:15144 Corelib.Init.Datatypes <> list ind
+R15146:15148 Stdlib.MSets.MSetProperties M elt def
+binder 15137:15137 <> l:129
+R15166:15177 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15159:15163 Stdlib.MSets.MSetProperties WPropertiesOn NoDup abbrev
+R15165:15165 Stdlib.MSets.MSetProperties <> l:129 var
+R15178:15178 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15213:15225 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15190:15192 Stdlib.MSets.MSetProperties M elt def
+binder 15186:15186 <> x:130
+R15201:15205 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15195:15196 Stdlib.MSets.MSetProperties M In defax
+R15200:15200 Stdlib.MSets.MSetProperties <> s:125 var
+R15198:15198 Stdlib.MSets.MSetProperties <> x:130 var
+R15206:15208 Stdlib.MSets.MSetProperties WPropertiesOn InA abbrev
+R15212:15212 Stdlib.MSets.MSetProperties <> l:129 var
+R15210:15210 Stdlib.MSets.MSetProperties <> x:130 var
+R15236:15238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15226:15229 Stdlib.MSets.MSetProperties M fold defax
+R15235:15235 Stdlib.MSets.MSetProperties <> i:127 var
+R15233:15233 Stdlib.MSets.MSetProperties <> s:125 var
+R15231:15231 Stdlib.MSets.MSetProperties <> f:128 var
+R15239:15248 Stdlib.Lists.List <> fold_right def
+R15254:15254 Stdlib.MSets.MSetProperties <> l:129 var
+R15252:15252 Stdlib.MSets.MSetProperties <> i:127 var
+R15250:15250 Stdlib.MSets.MSetProperties <> f:128 var
+R15284:15286 Stdlib.Lists.List <> rev def
+R15289:15296 Stdlib.MSets.MSetProperties M elements defax
+R15320:15329 Stdlib.Sorting.SetoidList <> NoDupA_rev thm
+R15378:15389 Stdlib.MSets.MSetProperties WPropertiesOn elements_iff thm
+R15405:15411 Stdlib.Sorting.SetoidList <> InA_alt thm
+R15451:15456 Stdlib.Lists.List <> In_rev abbrev
+R15459:15466 Stdlib.MSets.MSetProperties M elements defax
+R15510:15524 Stdlib.MSets.MSetProperties WPropertiesOn fold_spec_right thm
+prf 15705:15710 WPropertiesOn fold_1
+binder 15724:15724 <> s:131
+binder 15727:15727 <> A:132
+R15745:15748 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15744:15744 Stdlib.MSets.MSetProperties <> A:132 var
+R15750:15753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15749:15749 Stdlib.MSets.MSetProperties <> A:132 var
+binder 15738:15740 <> eqA:133
+R15771:15781 Corelib.Classes.RelationClasses <> Equivalence class
+R15783:15785 Stdlib.MSets.MSetProperties <> eqA:133 var
+binder 15766:15767 <> st:134
+R15793:15793 Stdlib.MSets.MSetProperties <> A:132 var
+binder 15789:15789 <> i:135
+R15804:15807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15801:15803 Stdlib.MSets.MSetProperties M elt def
+R15809:15812 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15808:15808 Stdlib.MSets.MSetProperties <> A:132 var
+R15813:15813 Stdlib.MSets.MSetProperties <> A:132 var
+binder 15797:15797 <> f:136
+R15827:15830 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15820:15824 Stdlib.MSets.MSetProperties M Empty def
+R15826:15826 Stdlib.MSets.MSetProperties <> s:131 var
+R15831:15833 Stdlib.MSets.MSetProperties <> eqA:133 var
+R15848:15848 Stdlib.MSets.MSetProperties <> i:135 var
+R15836:15839 Stdlib.MSets.MSetProperties M fold defax
+R15845:15845 Stdlib.MSets.MSetProperties <> i:135 var
+R15843:15843 Stdlib.MSets.MSetProperties <> s:131 var
+R15841:15841 Stdlib.MSets.MSetProperties <> f:136 var
+R15869:15873 Stdlib.MSets.MSetProperties M Empty def
+R15894:15899 Stdlib.MSets.MSetProperties WPropertiesOn fold_0 thm
+prf 16086:16091 WPropertiesOn fold_2
+binder 16105:16105 <> s:137
+binder 16107:16108 <> s':138
+binder 16110:16110 <> x:139
+binder 16113:16113 <> A:140
+R16131:16134 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16130:16130 Stdlib.MSets.MSetProperties <> A:140 var
+R16136:16139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16135:16135 Stdlib.MSets.MSetProperties <> A:140 var
+binder 16124:16126 <> eqA:141
+R16157:16167 Corelib.Classes.RelationClasses <> Equivalence class
+R16169:16171 Stdlib.MSets.MSetProperties <> eqA:141 var
+binder 16152:16153 <> st:142
+R16179:16179 Stdlib.MSets.MSetProperties <> A:140 var
+binder 16175:16175 <> i:143
+R16190:16193 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16187:16189 Stdlib.MSets.MSetProperties M elt def
+R16195:16198 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16194:16194 Stdlib.MSets.MSetProperties <> A:140 var
+R16199:16199 Stdlib.MSets.MSetProperties <> A:140 var
+binder 16183:16183 <> f:144
+R16233:16239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16206:16211 Corelib.Classes.Morphisms <> Proper class
+R16232:16232 Stdlib.MSets.MSetProperties <> f:144 var
+R16218:16220 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R16214:16217 Stdlib.MSets.MSetProperties E eq defax
+R16224:16226 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R16221:16223 Stdlib.MSets.MSetProperties <> eqA:141 var
+R16227:16229 Stdlib.MSets.MSetProperties <> eqA:141 var
+R16255:16261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16240:16248 Stdlib.Sorting.SetoidList <> transpose def
+R16254:16254 Stdlib.MSets.MSetProperties <> f:144 var
+R16250:16252 Stdlib.MSets.MSetProperties <> eqA:141 var
+R16270:16273 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16262:16263 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16264:16265 Stdlib.MSets.MSetProperties M In defax
+R16269:16269 Stdlib.MSets.MSetProperties <> s:137 var
+R16267:16267 Stdlib.MSets.MSetProperties <> x:139 var
+R16284:16287 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16274:16276 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R16282:16283 Stdlib.MSets.MSetProperties <> s':138 var
+R16280:16280 Stdlib.MSets.MSetProperties <> s:137 var
+R16278:16278 Stdlib.MSets.MSetProperties <> x:139 var
+R16288:16290 Stdlib.MSets.MSetProperties <> eqA:141 var
+R16307:16307 Stdlib.MSets.MSetProperties <> f:144 var
+R16312:16315 Stdlib.MSets.MSetProperties M fold defax
+R16321:16321 Stdlib.MSets.MSetProperties <> i:143 var
+R16319:16319 Stdlib.MSets.MSetProperties <> s:137 var
+R16317:16317 Stdlib.MSets.MSetProperties <> f:144 var
+R16309:16309 Stdlib.MSets.MSetProperties <> x:139 var
+R16293:16296 Stdlib.MSets.MSetProperties M fold defax
+R16303:16303 Stdlib.MSets.MSetProperties <> i:143 var
+R16300:16301 Stdlib.MSets.MSetProperties <> s':138 var
+R16298:16298 Stdlib.MSets.MSetProperties <> f:144 var
+R16355:16360 Stdlib.MSets.MSetProperties WPropertiesOn fold_0 thm
+R16408:16413 Stdlib.MSets.MSetProperties WPropertiesOn fold_0 thm
+R16531:16534 Stdlib.MSets.MSetProperties E eq defax
+R16505:16518 Stdlib.Sorting.SetoidList <> fold_right_add thm
+R16620:16627 Stdlib.Sorting.SetoidList <> InA_cons thm
+prf 16833:16839 WPropertiesOn fold_1b
+binder 16853:16853 <> s:145
+binder 16856:16856 <> A:146
+R16870:16870 Stdlib.MSets.MSetProperties <> A:146 var
+binder 16866:16866 <> i:147
+R16881:16884 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16878:16880 Stdlib.MSets.MSetProperties M elt def
+R16886:16889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16885:16885 Stdlib.MSets.MSetProperties <> A:146 var
+R16890:16890 Stdlib.MSets.MSetProperties <> A:146 var
+binder 16874:16874 <> f:148
+R16904:16907 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16897:16901 Stdlib.MSets.MSetProperties M Empty def
+R16903:16903 Stdlib.MSets.MSetProperties <> s:145 var
+R16908:16908 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16919:16922 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16909:16912 Stdlib.MSets.MSetProperties M fold defax
+R16918:16918 Stdlib.MSets.MSetProperties <> i:147 var
+R16916:16916 Stdlib.MSets.MSetProperties <> s:145 var
+R16914:16914 Stdlib.MSets.MSetProperties <> f:148 var
+R16923:16923 Stdlib.MSets.MSetProperties <> i:147 var
+R16955:16963 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 abbrev
+R16976:16989 Stdlib.MSets.MSetProperties WPropertiesOn elements_Empty thm
+sec 17039:17047 WPropertiesOn.Fold Fold_More
+var 17064:17064 WPropertiesOn.Fold.Fold_More A
+var 17072:17074 WPropertiesOn.Fold.Fold_More eqA
+var 17088:17089 WPropertiesOn.Fold.Fold_More st
+R17077:17078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17076:17076 Stdlib.MSets.MSetProperties <> A:150 var
+R17080:17081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17079:17079 Stdlib.MSets.MSetProperties <> A:150 var
+R17091:17101 Corelib.Classes.RelationClasses <> Equivalence class
+R17103:17105 Stdlib.MSets.MSetProperties <> eqA:152 var
+var 17122:17122 WPropertiesOn.Fold.Fold_More f
+var 17135:17138 WPropertiesOn.Fold.Fold_More Comp
+var 17169:17171 WPropertiesOn.Fold.Fold_More Ass
+R17127:17128 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17124:17126 Stdlib.MSets.MSetProperties M elt def
+R17130:17131 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17129:17129 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.A var
+R17132:17132 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.A var
+R17140:17145 Corelib.Classes.Morphisms <> Proper class
+R17166:17166 Stdlib.MSets.MSetProperties <> f:156 var
+R17152:17154 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17148:17151 Stdlib.MSets.MSetProperties E eq defax
+R17158:17160 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17155:17157 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17161:17163 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17173:17181 Stdlib.Sorting.SetoidList <> transpose def
+R17187:17187 Stdlib.MSets.MSetProperties <> f:156 var
+R17183:17185 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+prf 17200:17212 WPropertiesOn fold_commutes
+binder 17223:17223 <> i:161
+binder 17225:17225 <> s:162
+binder 17227:17227 <> x:163
+R17233:17235 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17257:17257 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17262:17265 Stdlib.MSets.MSetProperties M fold defax
+R17271:17271 Stdlib.MSets.MSetProperties <> i:161 var
+R17269:17269 Stdlib.MSets.MSetProperties <> s:162 var
+R17267:17267 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17259:17259 Stdlib.MSets.MSetProperties <> x:163 var
+R17238:17241 Stdlib.MSets.MSetProperties M fold defax
+R17248:17248 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17252:17252 Stdlib.MSets.MSetProperties <> i:161 var
+R17250:17250 Stdlib.MSets.MSetProperties <> x:163 var
+R17245:17245 Stdlib.MSets.MSetProperties <> s:162 var
+R17243:17243 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+binder 17325:17325 <> u:164
+binder 17327:17327 <> v:165
+R17332:17334 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17339:17339 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17343:17343 Stdlib.MSets.MSetProperties <> v:165 var
+R17336:17336 Stdlib.MSets.MSetProperties <> u:164 var
+R17303:17310 Stdlib.MSets.MSetProperties WPropertiesOn fold_rel thm
+binder 17325:17325 <> u:166
+binder 17327:17327 <> v:167
+R17343:17343 Stdlib.MSets.MSetProperties <> v:167 var
+R17336:17336 Stdlib.MSets.MSetProperties <> u:166 var
+R17391:17391 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17397:17397 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17422:17425 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.Comp var
+prf 17497:17505 WPropertiesOn fold_init
+binder 17516:17516 <> i:168
+binder 17518:17519 <> i':169
+binder 17521:17521 <> s:170
+R17532:17538 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17524:17526 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17530:17531 Stdlib.MSets.MSetProperties <> i':169 var
+R17528:17528 Stdlib.MSets.MSetProperties <> i:168 var
+R17539:17541 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17557:17560 Stdlib.MSets.MSetProperties M fold defax
+R17566:17567 Stdlib.MSets.MSetProperties <> i':169 var
+R17564:17564 Stdlib.MSets.MSetProperties <> s:170 var
+R17562:17562 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17544:17547 Stdlib.MSets.MSetProperties M fold defax
+R17553:17553 Stdlib.MSets.MSetProperties <> i:168 var
+R17551:17551 Stdlib.MSets.MSetProperties <> s:170 var
+R17549:17549 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17614:17616 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17596:17603 Stdlib.MSets.MSetProperties WPropertiesOn fold_rel thm
+R17642:17645 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.Comp var
+prf 17685:17694 WPropertiesOn fold_equal
+binder 17708:17708 <> i:171
+binder 17710:17710 <> s:172
+binder 17712:17713 <> s':173
+R17722:17725 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17717:17719 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R17716:17716 Stdlib.MSets.MSetProperties <> s:172 var
+R17720:17721 Stdlib.MSets.MSetProperties <> s':173 var
+R17726:17728 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17744:17747 Stdlib.MSets.MSetProperties M fold defax
+R17754:17754 Stdlib.MSets.MSetProperties <> i:171 var
+R17751:17752 Stdlib.MSets.MSetProperties <> s':173 var
+R17749:17749 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17731:17734 Stdlib.MSets.MSetProperties M fold defax
+R17740:17740 Stdlib.MSets.MSetProperties <> i:171 var
+R17738:17738 Stdlib.MSets.MSetProperties <> s:172 var
+R17736:17736 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17798:17810 Stdlib.MSets.MSetProperties WPropertiesOn set_induction thm
+R17862:17867 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+R17898:17903 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+R17957:17957 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R17962:17965 Stdlib.MSets.MSetProperties M fold defax
+R17967:17967 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18008:18010 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R17988:17993 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+R18062:18064 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18042:18047 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+R18087:18089 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+prf 18190:18199 WPropertiesOn fold_empty
+binder 18210:18210 <> i:174
+R18227:18229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18213:18216 Stdlib.MSets.MSetProperties M fold defax
+R18226:18226 Stdlib.MSets.MSetProperties <> i:174 var
+R18220:18224 Stdlib.MSets.MSetProperties M empty defax
+R18218:18218 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18230:18230 Stdlib.MSets.MSetProperties <> i:174 var
+R18260:18266 Stdlib.MSets.MSetProperties WPropertiesOn fold_1b thm
+prf 18300:18307 WPropertiesOn fold_add
+binder 18318:18318 <> i:175
+binder 18320:18320 <> s:176
+binder 18322:18322 <> x:177
+R18332:18338 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18325:18325 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18326:18327 Stdlib.MSets.MSetProperties M In defax
+R18331:18331 Stdlib.MSets.MSetProperties <> s:176 var
+R18329:18329 Stdlib.MSets.MSetProperties <> x:177 var
+R18339:18341 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18365:18365 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18370:18373 Stdlib.MSets.MSetProperties M fold defax
+R18379:18379 Stdlib.MSets.MSetProperties <> i:175 var
+R18377:18377 Stdlib.MSets.MSetProperties <> s:176 var
+R18375:18375 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18367:18367 Stdlib.MSets.MSetProperties <> x:177 var
+R18344:18347 Stdlib.MSets.MSetProperties M fold defax
+R18361:18361 Stdlib.MSets.MSetProperties <> i:175 var
+R18352:18354 Stdlib.MSets.MSetProperties M add defax
+R18358:18358 Stdlib.MSets.MSetProperties <> s:176 var
+R18356:18356 Stdlib.MSets.MSetProperties <> x:177 var
+R18349:18349 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18429:18431 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18409:18414 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+prf 18466:18473 WPropertiesOn add_fold
+binder 18484:18484 <> i:178
+binder 18486:18486 <> s:179
+binder 18488:18488 <> x:180
+R18497:18503 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18491:18492 Stdlib.MSets.MSetProperties M In defax
+R18496:18496 Stdlib.MSets.MSetProperties <> s:179 var
+R18494:18494 Stdlib.MSets.MSetProperties <> x:180 var
+R18504:18506 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18530:18533 Stdlib.MSets.MSetProperties M fold defax
+R18539:18539 Stdlib.MSets.MSetProperties <> i:178 var
+R18537:18537 Stdlib.MSets.MSetProperties <> s:179 var
+R18535:18535 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18509:18512 Stdlib.MSets.MSetProperties M fold defax
+R18526:18526 Stdlib.MSets.MSetProperties <> i:178 var
+R18517:18519 Stdlib.MSets.MSetProperties M add defax
+R18523:18523 Stdlib.MSets.MSetProperties <> s:179 var
+R18521:18521 Stdlib.MSets.MSetProperties <> x:180 var
+R18514:18514 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18568:18577 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+prf 18611:18623 WPropertiesOn remove_fold_1
+binder 18633:18633 <> i:181
+binder 18635:18635 <> s:182
+binder 18637:18637 <> x:183
+R18646:18652 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18640:18641 Stdlib.MSets.MSetProperties M In defax
+R18645:18645 Stdlib.MSets.MSetProperties <> s:182 var
+R18643:18643 Stdlib.MSets.MSetProperties <> x:183 var
+R18653:18655 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18688:18691 Stdlib.MSets.MSetProperties M fold defax
+R18697:18697 Stdlib.MSets.MSetProperties <> i:181 var
+R18695:18695 Stdlib.MSets.MSetProperties <> s:182 var
+R18693:18693 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18658:18658 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18663:18666 Stdlib.MSets.MSetProperties M fold defax
+R18683:18683 Stdlib.MSets.MSetProperties <> i:181 var
+R18671:18676 Stdlib.MSets.MSetProperties M remove defax
+R18680:18680 Stdlib.MSets.MSetProperties <> s:182 var
+R18678:18678 Stdlib.MSets.MSetProperties <> x:183 var
+R18668:18668 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18660:18660 Stdlib.MSets.MSetProperties <> x:183 var
+R18758:18760 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18740:18745 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+prf 18805:18817 WPropertiesOn remove_fold_2
+binder 18827:18827 <> i:184
+binder 18829:18829 <> s:185
+binder 18831:18831 <> x:186
+R18841:18847 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18834:18834 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R18835:18836 Stdlib.MSets.MSetProperties M In defax
+R18840:18840 Stdlib.MSets.MSetProperties <> s:185 var
+R18838:18838 Stdlib.MSets.MSetProperties <> x:186 var
+R18848:18850 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R18877:18880 Stdlib.MSets.MSetProperties M fold defax
+R18886:18886 Stdlib.MSets.MSetProperties <> i:184 var
+R18884:18884 Stdlib.MSets.MSetProperties <> s:185 var
+R18882:18882 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18853:18856 Stdlib.MSets.MSetProperties M fold defax
+R18873:18873 Stdlib.MSets.MSetProperties <> i:184 var
+R18861:18866 Stdlib.MSets.MSetProperties M remove defax
+R18870:18870 Stdlib.MSets.MSetProperties <> s:185 var
+R18868:18868 Stdlib.MSets.MSetProperties <> x:186 var
+R18858:18858 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R18917:18926 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+prf 18960:18975 WPropertiesOn fold_union_inter
+binder 18986:18986 <> i:187
+binder 18988:18988 <> s:188
+binder 18990:18991 <> s':189
+R18997:18999 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R19055:19058 Stdlib.MSets.MSetProperties M fold defax
+R19065:19068 Stdlib.MSets.MSetProperties M fold defax
+R19075:19075 Stdlib.MSets.MSetProperties <> i:187 var
+R19072:19073 Stdlib.MSets.MSetProperties <> s':189 var
+R19070:19070 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19062:19062 Stdlib.MSets.MSetProperties <> s:188 var
+R19060:19060 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19002:19005 Stdlib.MSets.MSetProperties M fold defax
+R19023:19026 Stdlib.MSets.MSetProperties M fold defax
+R19043:19043 Stdlib.MSets.MSetProperties <> i:187 var
+R19031:19035 Stdlib.MSets.MSetProperties M inter defax
+R19039:19040 Stdlib.MSets.MSetProperties <> s':189 var
+R19037:19037 Stdlib.MSets.MSetProperties <> s:188 var
+R19028:19028 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19010:19014 Stdlib.MSets.MSetProperties M union defax
+R19018:19019 Stdlib.MSets.MSetProperties <> s':189 var
+R19016:19016 Stdlib.MSets.MSetProperties <> s:188 var
+R19007:19007 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19116:19128 Stdlib.MSets.MSetProperties WPropertiesOn set_induction thm
+R19166:19169 Stdlib.MSets.MSetProperties M fold defax
+R19177:19180 Stdlib.MSets.MSetProperties M fold defax
+R19185:19189 Stdlib.MSets.MSetProperties M inter defax
+R19182:19182 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19171:19171 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19214:19223 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+R19261:19264 Stdlib.MSets.MSetProperties M fold defax
+R19266:19266 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19287:19295 Stdlib.MSets.MSetProperties WPropertiesOn fold_init thm
+R19316:19321 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+R19361:19366 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+R19414:19419 Stdlib.MSets.MSetProperties WPropertiesOn In_dec thm
+R19468:19471 Stdlib.MSets.MSetProperties M fold defax
+R19491:19491 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19496:19499 Stdlib.MSets.MSetProperties M fold defax
+R19504:19508 Stdlib.MSets.MSetProperties M inter defax
+R19501:19501 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19476:19480 Stdlib.MSets.MSetProperties M union defax
+R19473:19473 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19551:19559 Stdlib.MSets.MSetProperties WPropertiesOn fold_init thm
+R19600:19602 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R19582:19587 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+R19637:19645 Stdlib.MSets.MSetProperties WPropertiesOn inter_iff abbrev
+R19681:19681 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19686:19689 Stdlib.MSets.MSetProperties M fold defax
+R19696:19699 Stdlib.MSets.MSetProperties M fold defax
+R19701:19701 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19691:19691 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19734:19737 Stdlib.MSets.MSetProperties M fold defax
+R19755:19755 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19760:19763 Stdlib.MSets.MSetProperties M fold defax
+R19768:19772 Stdlib.MSets.MSetProperties M inter defax
+R19765:19765 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19742:19746 Stdlib.MSets.MSetProperties M union defax
+R19739:19739 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19808:19808 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19813:19816 Stdlib.MSets.MSetProperties M fold defax
+R19834:19837 Stdlib.MSets.MSetProperties M fold defax
+R19842:19846 Stdlib.MSets.MSetProperties M inter defax
+R19839:19839 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19821:19825 Stdlib.MSets.MSetProperties M union defax
+R19818:19818 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R19874:19883 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+R19906:19914 Stdlib.MSets.MSetProperties WPropertiesOn equal_sym thm
+R19923:19933 Stdlib.MSets.MSetProperties WPropertiesOn union_Equal thm
+R19972:19984 Stdlib.MSets.MSetProperties WPropertiesOn fold_commutes thm
+R20007:20010 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.Comp var
+R20076:20078 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R20058:20063 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+R20131:20131 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20136:20139 Stdlib.MSets.MSetProperties M fold defax
+R20157:20160 Stdlib.MSets.MSetProperties M fold defax
+R20165:20169 Stdlib.MSets.MSetProperties M inter defax
+R20162:20162 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20144:20148 Stdlib.MSets.MSetProperties M union defax
+R20141:20141 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20217:20219 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R20199:20204 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+R20260:20260 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20265:20268 Stdlib.MSets.MSetProperties M fold defax
+R20286:20289 Stdlib.MSets.MSetProperties M fold defax
+R20294:20298 Stdlib.MSets.MSetProperties M inter defax
+R20291:20291 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20273:20277 Stdlib.MSets.MSetProperties M union defax
+R20270:20270 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20326:20329 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.Comp var
+R20366:20374 Stdlib.MSets.MSetProperties WPropertiesOn fold_init thm
+R20396:20405 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+R20427:20435 Stdlib.MSets.MSetProperties WPropertiesOn equal_sym thm
+R20444:20454 Stdlib.MSets.MSetProperties WPropertiesOn inter_Add_2 thm
+R20501:20501 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20506:20509 Stdlib.MSets.MSetProperties M fold defax
+R20516:20519 Stdlib.MSets.MSetProperties M fold defax
+R20521:20521 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20511:20511 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20546:20549 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.Comp var
+R20615:20617 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R20597:20602 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+prf 20643:20657 WPropertiesOn fold_diff_inter
+binder 20668:20668 <> i:190
+binder 20670:20670 <> s:191
+binder 20672:20673 <> s':192
+R20679:20681 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R20729:20732 Stdlib.MSets.MSetProperties M fold defax
+R20738:20738 Stdlib.MSets.MSetProperties <> i:190 var
+R20736:20736 Stdlib.MSets.MSetProperties <> s:191 var
+R20734:20734 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20684:20687 Stdlib.MSets.MSetProperties M fold defax
+R20704:20707 Stdlib.MSets.MSetProperties M fold defax
+R20724:20724 Stdlib.MSets.MSetProperties <> i:190 var
+R20712:20716 Stdlib.MSets.MSetProperties M inter defax
+R20720:20721 Stdlib.MSets.MSetProperties <> s':192 var
+R20718:20718 Stdlib.MSets.MSetProperties <> s:191 var
+R20709:20709 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20692:20695 Stdlib.MSets.MSetProperties M diff defax
+R20699:20700 Stdlib.MSets.MSetProperties <> s':192 var
+R20697:20697 Stdlib.MSets.MSetProperties <> s:191 var
+R20689:20689 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20777:20780 Stdlib.MSets.MSetProperties M fold defax
+R20833:20836 Stdlib.MSets.MSetProperties M fold defax
+R20841:20845 Stdlib.MSets.MSetProperties M inter defax
+R20860:20864 Stdlib.MSets.MSetProperties M inter defax
+R20848:20851 Stdlib.MSets.MSetProperties M diff defax
+R20838:20838 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20785:20789 Stdlib.MSets.MSetProperties M union defax
+R20804:20808 Stdlib.MSets.MSetProperties M inter defax
+R20792:20795 Stdlib.MSets.MSetProperties M diff defax
+R20782:20782 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20898:20913 Stdlib.MSets.MSetProperties WPropertiesOn fold_union_inter thm
+R20938:20941 Stdlib.MSets.MSetProperties M fold defax
+R20948:20951 Stdlib.MSets.MSetProperties M fold defax
+R20956:20960 Stdlib.MSets.MSetProperties M inter defax
+R20975:20979 Stdlib.MSets.MSetProperties M inter defax
+R20963:20966 Stdlib.MSets.MSetProperties M diff defax
+R20953:20953 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R20943:20943 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21003:21012 Stdlib.MSets.MSetProperties WPropertiesOn fold_equal thm
+R21040:21048 Stdlib.MSets.MSetProperties WPropertiesOn fold_init thm
+R21067:21072 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+prf 21106:21115 WPropertiesOn fold_union
+binder 21125:21125 <> i:193
+binder 21127:21127 <> s:194
+binder 21129:21130 <> s':195
+R21136:21136 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21165:21172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 21144:21144 <> x:196
+R21147:21148 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21164:21164 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21155:21156 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21149:21150 Stdlib.MSets.MSetProperties M In defax
+R21154:21154 Stdlib.MSets.MSetProperties <> s:194 var
+R21152:21152 Stdlib.MSets.MSetProperties <> x:196 var
+R21157:21158 Stdlib.MSets.MSetProperties M In defax
+R21162:21163 Stdlib.MSets.MSetProperties <> s':195 var
+R21160:21160 Stdlib.MSets.MSetProperties <> x:196 var
+R21173:21175 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.eqA var
+R21202:21205 Stdlib.MSets.MSetProperties M fold defax
+R21212:21215 Stdlib.MSets.MSetProperties M fold defax
+R21222:21222 Stdlib.MSets.MSetProperties <> i:193 var
+R21219:21220 Stdlib.MSets.MSetProperties <> s':195 var
+R21217:21217 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21209:21209 Stdlib.MSets.MSetProperties <> s:194 var
+R21207:21207 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21178:21181 Stdlib.MSets.MSetProperties M fold defax
+R21198:21198 Stdlib.MSets.MSetProperties <> i:193 var
+R21186:21190 Stdlib.MSets.MSetProperties M union defax
+R21194:21195 Stdlib.MSets.MSetProperties <> s':195 var
+R21192:21192 Stdlib.MSets.MSetProperties <> s:194 var
+R21183:21183 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21262:21265 Stdlib.MSets.MSetProperties M fold defax
+R21283:21286 Stdlib.MSets.MSetProperties M fold defax
+R21291:21295 Stdlib.MSets.MSetProperties M inter defax
+R21288:21288 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21270:21274 Stdlib.MSets.MSetProperties M union defax
+R21267:21267 Stdlib.MSets.MSetProperties <> WPropertiesOn.Fold.Fold_More.f var
+R21318:21326 Stdlib.MSets.MSetProperties WPropertiesOn fold_init thm
+R21355:21360 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+R21389:21393 Stdlib.MSets.MSetProperties M Empty def
+R21449:21464 Stdlib.MSets.MSetProperties WPropertiesOn fold_union_inter thm
+R21487:21495 Stdlib.MSets.MSetProperties WPropertiesOn.Fold.Fold_More <> sec
+prf 21507:21515 WPropertiesOn fold_plus
+binder 21529:21529 <> s:197
+binder 21531:21531 <> p:198
+R21555:21557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21534:21537 Stdlib.MSets.MSetProperties M fold defax
+R21554:21554 Stdlib.MSets.MSetProperties <> p:198 var
+R21552:21552 Stdlib.MSets.MSetProperties <> s:197 var
+R21549:21549 Corelib.Init.Datatypes <> S constr
+R21579:21581 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R21558:21561 Stdlib.MSets.MSetProperties M fold defax
+R21576:21576 Stdlib.MSets.MSetProperties <> s:197 var
+R21573:21573 Corelib.Init.Datatypes <> S constr
+R21582:21582 Stdlib.MSets.MSetProperties <> p:198 var
+binder 21632:21632 <> u:199
+binder 21634:21634 <> v:200
+R21640:21642 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21639:21639 Stdlib.MSets.MSetProperties <> u:199 var
+R21644:21646 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R21643:21643 Stdlib.MSets.MSetProperties <> v:200 var
+R21610:21617 Stdlib.MSets.MSetProperties WPropertiesOn fold_rel thm
+binder 21632:21632 <> u:201
+binder 21634:21634 <> v:202
+R21639:21639 Stdlib.MSets.MSetProperties <> u:201 var
+R21643:21643 Stdlib.MSets.MSetProperties <> v:202 var
+R21678:21681 Stdlib.MSets.MSetProperties WPropertiesOn.Fold <> sec
+prf 21773:21785 WPropertiesOn cardinal_fold
+binder 21796:21796 <> s:203
+R21809:21811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21799:21806 Stdlib.MSets.MSetProperties M cardinal defax
+R21808:21808 Stdlib.MSets.MSetProperties <> s:203 var
+R21812:21815 Stdlib.MSets.MSetProperties M fold defax
+R21830:21830 Stdlib.MSets.MSetProperties <> s:203 var
+R21827:21827 Corelib.Init.Datatypes <> S constr
+R21862:21871 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_1 abbrev
+R21882:21890 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 abbrev
+R21911:21923 Stdlib.Lists.List <> fold_left_S_0 thm
+prf 21996:22005 WPropertiesOn cardinal_0
+binder 22021:22021 <> s:204
+R22024:22030 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22043:22052 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22035:22038 Corelib.Init.Datatypes <> list ind
+R22040:22042 Stdlib.MSets.MSetProperties M elt def
+binder 22031:22031 <> l:205
+R22066:22077 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22053:22058 Stdlib.Sorting.SetoidList <> NoDupA ind
+R22065:22065 Stdlib.MSets.MSetProperties <> l:205 var
+R22060:22063 Stdlib.MSets.MSetProperties E eq defax
+R22078:22078 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22118:22130 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22090:22092 Stdlib.MSets.MSetProperties M elt def
+binder 22086:22086 <> x:206
+R22101:22105 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22095:22096 Stdlib.MSets.MSetProperties M In defax
+R22100:22100 Stdlib.MSets.MSetProperties <> s:204 var
+R22098:22098 Stdlib.MSets.MSetProperties <> x:206 var
+R22106:22108 Stdlib.Sorting.SetoidList <> InA ind
+R22117:22117 Stdlib.MSets.MSetProperties <> l:205 var
+R22115:22115 Stdlib.MSets.MSetProperties <> x:206 var
+R22110:22113 Stdlib.MSets.MSetProperties E eq defax
+R22141:22143 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22131:22138 Stdlib.MSets.MSetProperties M cardinal defax
+R22140:22140 Stdlib.MSets.MSetProperties <> s:204 var
+R22144:22149 Corelib.Init.Datatypes <> length def
+R22151:22151 Stdlib.MSets.MSetProperties <> l:205 var
+R22181:22188 Stdlib.MSets.MSetProperties M elements defax
+R22225:22234 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_1 abbrev
+prf 22253:22262 WPropertiesOn cardinal_1
+binder 22273:22273 <> s:207
+R22283:22286 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22276:22280 Stdlib.MSets.MSetProperties M Empty def
+R22282:22282 Stdlib.MSets.MSetProperties <> s:207 var
+R22297:22299 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22287:22294 Stdlib.MSets.MSetProperties M cardinal defax
+R22296:22296 Stdlib.MSets.MSetProperties <> s:207 var
+R22330:22342 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R22351:22356 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+prf 22388:22397 WPropertiesOn cardinal_2
+binder 22412:22412 <> s:208
+binder 22414:22415 <> s':209
+binder 22417:22417 <> x:210
+R22428:22431 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22420:22421 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R22422:22423 Stdlib.MSets.MSetProperties M In defax
+R22427:22427 Stdlib.MSets.MSetProperties <> s:208 var
+R22425:22425 Stdlib.MSets.MSetProperties <> x:210 var
+R22442:22445 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22432:22434 Stdlib.MSets.MSetProperties WPropertiesOn Add def
+R22440:22441 Stdlib.MSets.MSetProperties <> s':209 var
+R22438:22438 Stdlib.MSets.MSetProperties <> s:208 var
+R22436:22436 Stdlib.MSets.MSetProperties <> x:210 var
+R22457:22459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22446:22453 Stdlib.MSets.MSetProperties M cardinal defax
+R22455:22456 Stdlib.MSets.MSetProperties <> s':209 var
+R22460:22460 Corelib.Init.Datatypes <> S constr
+R22463:22470 Stdlib.MSets.MSetProperties M cardinal defax
+R22472:22472 Stdlib.MSets.MSetProperties <> s:208 var
+R22508:22520 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R22532:22532 Corelib.Init.Datatypes <> S constr
+R22550:22550 Corelib.Init.Datatypes <> S constr
+R22565:22570 Stdlib.MSets.MSetProperties WPropertiesOn fold_2 thm
+prf 22676:22689 WPropertiesOn cardinal_Empty
+binder 22700:22700 <> s:211
+R22710:22714 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22703:22707 Stdlib.MSets.MSetProperties M Empty def
+R22709:22709 Stdlib.MSets.MSetProperties <> s:211 var
+R22725:22727 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22715:22722 Stdlib.MSets.MSetProperties M cardinal defax
+R22724:22724 Stdlib.MSets.MSetProperties <> s:211 var
+R22760:22773 Stdlib.MSets.MSetProperties WPropertiesOn elements_Empty thm
+R22776:22788 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_1 abbrev
+R22803:22810 Stdlib.MSets.MSetProperties M elements defax
+prf 22857:22870 WPropertiesOn cardinal_inv_1
+binder 22881:22881 <> s:212
+R22898:22901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22894:22896 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22884:22891 Stdlib.MSets.MSetProperties M cardinal defax
+R22893:22893 Stdlib.MSets.MSetProperties <> s:212 var
+R22902:22906 Stdlib.MSets.MSetProperties M Empty def
+R22908:22908 Stdlib.MSets.MSetProperties <> s:212 var
+R22938:22951 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_Empty thm
+prf 23026:23039 WPropertiesOn cardinal_inv_2
+binder 23053:23053 <> s:213
+binder 23055:23055 <> n:214
+R23074:23077 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23068:23070 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23058:23065 Stdlib.MSets.MSetProperties M cardinal defax
+R23067:23067 Stdlib.MSets.MSetProperties <> s:213 var
+R23071:23071 Corelib.Init.Datatypes <> S constr
+R23073:23073 Stdlib.MSets.MSetProperties <> n:214 var
+R23078:23079 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23081:23083 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23087:23089 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23096:23097 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23084:23086 Stdlib.MSets.MSetProperties M elt def
+binder 23080:23080 <> x:215
+R23090:23091 Stdlib.MSets.MSetProperties M In defax
+R23095:23095 Stdlib.MSets.MSetProperties <> s:213 var
+R23093:23093 Stdlib.MSets.MSetProperties <> x:215 var
+R23127:23139 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_1 abbrev
+R23161:23170 Stdlib.MSets.MSetProperties WPropertiesOn elements_2 thm
+R23193:23200 Stdlib.MSets.MSetProperties M elements defax
+prf 23273:23287 WPropertiesOn cardinal_inv_2b
+binder 23301:23301 <> s:216
+R23319:23322 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23314:23317 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R23304:23311 Stdlib.MSets.MSetProperties M cardinal defax
+R23313:23313 Stdlib.MSets.MSetProperties <> s:216 var
+R23323:23324 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23326:23328 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23332:23334 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23341:23342 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23329:23331 Stdlib.MSets.MSetProperties M elt def
+binder 23325:23325 <> x:217
+R23335:23336 Stdlib.MSets.MSetProperties M In defax
+R23340:23340 Stdlib.MSets.MSetProperties <> s:216 var
+R23338:23338 Stdlib.MSets.MSetProperties <> x:217 var
+R23376:23389 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_inv_2 thm
+R23404:23411 Stdlib.MSets.MSetProperties M cardinal defax
+prf 23488:23501 WPropertiesOn Equal_cardinal
+binder 23512:23512 <> s:218
+binder 23514:23515 <> s':219
+R23524:23527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23519:23521 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R23518:23518 Stdlib.MSets.MSetProperties <> s:218 var
+R23522:23523 Stdlib.MSets.MSetProperties <> s':219 var
+R23538:23540 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23528:23535 Stdlib.MSets.MSetProperties M cardinal defax
+R23537:23537 Stdlib.MSets.MSetProperties <> s:218 var
+R23541:23548 Stdlib.MSets.MSetProperties M cardinal defax
+R23550:23551 Stdlib.MSets.MSetProperties <> s':219 var
+R23587:23594 Stdlib.MSets.MSetProperties M cardinal defax
+R23676:23685 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_1 thm
+R23722:23735 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_inv_2 thm
+R23784:23793 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_2 thm
+R23799:23804 Stdlib.MSets.MSetProperties M remove defax
+R23872:23881 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_2 thm
+R23887:23892 Stdlib.MSets.MSetProperties M remove defax
+inst 23979:23988 WPropertiesOn cardinal_m
+R23992:23997 Corelib.Classes.Morphisms <> Proper class
+R24018:24025 Stdlib.MSets.MSetProperties M cardinal defax
+R24005:24007 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R24000:24004 Stdlib.MSets.MSetProperties M Equal def
+R24008:24015 Corelib.Init.Logic <> eq ind
+R24045:24058 Stdlib.MSets.MSetProperties WPropertiesOn Equal_cardinal thm
+prf 24215:24228 WPropertiesOn empty_cardinal
+R24246:24248 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24232:24239 Stdlib.MSets.MSetProperties M cardinal defax
+R24241:24245 Stdlib.MSets.MSetProperties M empty defax
+R24271:24283 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R24292:24297 Stdlib.MSets.MSetProperties WPropertiesOn fold_1 thm
+prf 24392:24409 WPropertiesOn singleton_cardinal
+binder 24420:24420 <> x:220
+R24445:24447 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24423:24430 Stdlib.MSets.MSetProperties M cardinal defax
+R24433:24441 Stdlib.MSets.MSetProperties M singleton defax
+R24443:24443 Stdlib.MSets.MSetProperties <> x:220 var
+R24481:24499 Stdlib.MSets.MSetProperties WPropertiesOn singleton_equal_add thm
+R24523:24530 Stdlib.MSets.MSetProperties M cardinal defax
+R24532:24536 Stdlib.MSets.MSetProperties M empty defax
+R24563:24572 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_2 thm
+prf 24666:24684 WPropertiesOn diff_inter_cardinal
+binder 24698:24698 <> s:221
+binder 24700:24701 <> s':222
+R24748:24750 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24724:24726 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24704:24711 Stdlib.MSets.MSetProperties M cardinal defax
+R24714:24717 Stdlib.MSets.MSetProperties M diff defax
+R24721:24722 Stdlib.MSets.MSetProperties <> s':222 var
+R24719:24719 Stdlib.MSets.MSetProperties <> s:221 var
+R24727:24734 Stdlib.MSets.MSetProperties M cardinal defax
+R24737:24741 Stdlib.MSets.MSetProperties M inter defax
+R24745:24746 Stdlib.MSets.MSetProperties <> s':222 var
+R24743:24743 Stdlib.MSets.MSetProperties <> s:221 var
+R24751:24758 Stdlib.MSets.MSetProperties M cardinal defax
+R24760:24760 Stdlib.MSets.MSetProperties <> s:221 var
+R24796:24808 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R24824:24832 Stdlib.MSets.MSetProperties WPropertiesOn fold_plus thm
+R24871:24878 Corelib.Init.Logic <> eq ind
+R24880:24882 Corelib.Init.Datatypes <> nat ind
+R24843:24857 Stdlib.MSets.MSetProperties WPropertiesOn fold_diff_inter thm
+prf 24929:24942 WPropertiesOn union_cardinal
+binder 24955:24955 <> s:223
+binder 24957:24958 <> s':224
+R24961:24961 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24990:24997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 24969:24969 <> x:225
+R24972:24973 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24989:24989 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R24980:24981 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R24974:24975 Stdlib.MSets.MSetProperties M In defax
+R24979:24979 Stdlib.MSets.MSetProperties <> s:223 var
+R24977:24977 Stdlib.MSets.MSetProperties <> x:225 var
+R24982:24983 Stdlib.MSets.MSetProperties M In defax
+R24987:24988 Stdlib.MSets.MSetProperties <> s':224 var
+R24985:24985 Stdlib.MSets.MSetProperties <> x:225 var
+R25019:25019 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24998:25005 Stdlib.MSets.MSetProperties M cardinal defax
+R25008:25012 Stdlib.MSets.MSetProperties M union defax
+R25016:25017 Stdlib.MSets.MSetProperties <> s':224 var
+R25014:25014 Stdlib.MSets.MSetProperties <> s:223 var
+R25030:25030 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R25020:25027 Stdlib.MSets.MSetProperties M cardinal defax
+R25029:25029 Stdlib.MSets.MSetProperties <> s:223 var
+R25031:25038 Stdlib.MSets.MSetProperties M cardinal defax
+R25040:25041 Stdlib.MSets.MSetProperties <> s':224 var
+R25076:25088 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R25104:25112 Stdlib.MSets.MSetProperties WPropertiesOn fold_plus thm
+R25123:25132 Stdlib.MSets.MSetProperties WPropertiesOn fold_union thm
+prf 25196:25210 WPropertiesOn subset_cardinal
+binder 25224:25224 <> s:226
+binder 25226:25227 <> s':227
+R25237:25240 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25231:25234 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R25230:25230 Stdlib.MSets.MSetProperties <> s:226 var
+R25235:25236 Stdlib.MSets.MSetProperties <> s':227 var
+R25251:25254 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R25241:25248 Stdlib.MSets.MSetProperties M cardinal defax
+R25250:25250 Stdlib.MSets.MSetProperties <> s:226 var
+R25255:25262 Stdlib.MSets.MSetProperties M cardinal defax
+R25264:25265 Stdlib.MSets.MSetProperties <> s':227 var
+R25302:25320 Stdlib.MSets.MSetProperties WPropertiesOn diff_inter_cardinal thm
+R25340:25348 Stdlib.MSets.MSetProperties WPropertiesOn inter_sym thm
+R25368:25385 Stdlib.MSets.MSetProperties WPropertiesOn inter_subset_equal thm
+R25399:25410 Stdlib.Arith.PeanoNat Nat le_add_l thm
+prf 25429:25446 WPropertiesOn subset_cardinal_lt
+binder 25460:25460 <> s:228
+binder 25462:25463 <> s':229
+binder 25465:25465 <> x:230
+R25475:25478 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25469:25472 Stdlib.MSets.MSetInterface WSetsOn :::x_'[<=]'_x not
+R25468:25468 Stdlib.MSets.MSetProperties <> s:228 var
+R25473:25474 Stdlib.MSets.MSetProperties <> s':229 var
+R25486:25489 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25479:25480 Stdlib.MSets.MSetProperties M In defax
+R25484:25485 Stdlib.MSets.MSetProperties <> s':229 var
+R25482:25482 Stdlib.MSets.MSetProperties <> x:230 var
+R25497:25500 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25490:25490 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R25491:25492 Stdlib.MSets.MSetProperties M In defax
+R25496:25496 Stdlib.MSets.MSetProperties <> s:228 var
+R25494:25494 Stdlib.MSets.MSetProperties <> x:230 var
+R25511:25513 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R25501:25508 Stdlib.MSets.MSetProperties M cardinal defax
+R25510:25510 Stdlib.MSets.MSetProperties <> s:228 var
+R25514:25521 Stdlib.MSets.MSetProperties M cardinal defax
+R25523:25524 Stdlib.MSets.MSetProperties <> s':229 var
+R25560:25578 Stdlib.MSets.MSetProperties WPropertiesOn diff_inter_cardinal thm
+R25598:25606 Stdlib.MSets.MSetProperties WPropertiesOn inter_sym thm
+R25626:25643 Stdlib.MSets.MSetProperties WPropertiesOn inter_subset_equal thm
+R25664:25677 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_inv_1 thm
+R25680:25683 Stdlib.MSets.MSetProperties M diff defax
+R25705:25712 Stdlib.MSets.MSetProperties M cardinal defax
+R25715:25718 Stdlib.MSets.MSetProperties M diff defax
+R25756:25762 Corelib.Init.Logic <> eq_refl constr
+R25830:25832 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R25817:25819 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R25820:25827 Stdlib.MSets.MSetProperties M cardinal defax
+R25836:25838 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R25833:25833 Corelib.Init.Datatypes <> S constr
+R25839:25846 Stdlib.MSets.MSetProperties M cardinal defax
+R25862:25879 Stdlib.Arith.PeanoNat Nat add_lt_le_mono thm
+R25890:25902 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+prf 25939:25958 WPropertiesOn union_inter_cardinal
+binder 25972:25972 <> s:231
+binder 25974:25975 <> s':232
+R26023:26026 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25999:26001 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R25978:25985 Stdlib.MSets.MSetProperties M cardinal defax
+R25988:25992 Stdlib.MSets.MSetProperties M union defax
+R25996:25997 Stdlib.MSets.MSetProperties <> s':232 var
+R25994:25994 Stdlib.MSets.MSetProperties <> s:231 var
+R26002:26009 Stdlib.MSets.MSetProperties M cardinal defax
+R26012:26016 Stdlib.MSets.MSetProperties M inter defax
+R26020:26021 Stdlib.MSets.MSetProperties <> s':232 var
+R26018:26018 Stdlib.MSets.MSetProperties <> s:231 var
+R26037:26040 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R26027:26034 Stdlib.MSets.MSetProperties M cardinal defax
+R26036:26036 Stdlib.MSets.MSetProperties <> s:231 var
+R26041:26048 Stdlib.MSets.MSetProperties M cardinal defax
+R26050:26051 Stdlib.MSets.MSetProperties <> s':232 var
+R26089:26101 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R26122:26130 Stdlib.MSets.MSetProperties WPropertiesOn fold_plus thm
+R26170:26177 Corelib.Init.Logic <> eq ind
+R26179:26181 Corelib.Init.Datatypes <> nat ind
+R26141:26156 Stdlib.MSets.MSetProperties WPropertiesOn fold_union_inter thm
+prf 26228:26247 WPropertiesOn union_cardinal_inter
+binder 26261:26261 <> s:233
+binder 26263:26264 <> s':234
+R26288:26290 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26267:26274 Stdlib.MSets.MSetProperties M cardinal defax
+R26277:26281 Stdlib.MSets.MSetProperties M union defax
+R26285:26286 Stdlib.MSets.MSetProperties <> s':234 var
+R26283:26283 Stdlib.MSets.MSetProperties <> s:233 var
+R26315:26317 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R26301:26303 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R26291:26298 Stdlib.MSets.MSetProperties M cardinal defax
+R26300:26300 Stdlib.MSets.MSetProperties <> s:233 var
+R26304:26311 Stdlib.MSets.MSetProperties M cardinal defax
+R26313:26314 Stdlib.MSets.MSetProperties <> s':234 var
+R26318:26325 Stdlib.MSets.MSetProperties M cardinal defax
+R26328:26332 Stdlib.MSets.MSetProperties M inter defax
+R26336:26337 Stdlib.MSets.MSetProperties <> s':234 var
+R26334:26334 Stdlib.MSets.MSetProperties <> s:233 var
+R26373:26392 Stdlib.MSets.MSetProperties WPropertiesOn union_inter_cardinal thm
+R26395:26405 Stdlib.Arith.PeanoNat Nat add_sub thm
+prf 26439:26455 WPropertiesOn union_cardinal_le
+binder 26469:26469 <> s:235
+binder 26471:26472 <> s':236
+R26496:26499 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26475:26482 Stdlib.MSets.MSetProperties M cardinal defax
+R26485:26489 Stdlib.MSets.MSetProperties M union defax
+R26493:26494 Stdlib.MSets.MSetProperties <> s':236 var
+R26491:26491 Stdlib.MSets.MSetProperties <> s:235 var
+R26510:26513 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R26500:26507 Stdlib.MSets.MSetProperties M cardinal defax
+R26509:26509 Stdlib.MSets.MSetProperties <> s:235 var
+R26514:26521 Stdlib.MSets.MSetProperties M cardinal defax
+R26523:26524 Stdlib.MSets.MSetProperties <> s':236 var
+R26559:26578 Stdlib.MSets.MSetProperties WPropertiesOn union_inter_cardinal thm
+prf 26645:26658 WPropertiesOn add_cardinal_1
+binder 26672:26672 <> s:237
+binder 26674:26674 <> x:238
+R26683:26686 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26677:26678 Stdlib.MSets.MSetProperties M In defax
+R26682:26682 Stdlib.MSets.MSetProperties <> s:237 var
+R26680:26680 Stdlib.MSets.MSetProperties <> x:238 var
+R26705:26707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26687:26694 Stdlib.MSets.MSetProperties M cardinal defax
+R26697:26699 Stdlib.MSets.MSetProperties M add defax
+R26703:26703 Stdlib.MSets.MSetProperties <> s:237 var
+R26701:26701 Stdlib.MSets.MSetProperties <> x:238 var
+R26708:26715 Stdlib.MSets.MSetProperties M cardinal defax
+R26717:26717 Stdlib.MSets.MSetProperties <> s:237 var
+prf 26762:26775 WPropertiesOn add_cardinal_2
+binder 26789:26789 <> s:239
+binder 26791:26791 <> x:240
+R26801:26804 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26794:26794 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R26795:26796 Stdlib.MSets.MSetProperties M In defax
+R26800:26800 Stdlib.MSets.MSetProperties <> s:239 var
+R26798:26798 Stdlib.MSets.MSetProperties <> x:240 var
+R26823:26825 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26805:26812 Stdlib.MSets.MSetProperties M cardinal defax
+R26815:26817 Stdlib.MSets.MSetProperties M add defax
+R26821:26821 Stdlib.MSets.MSetProperties <> s:239 var
+R26819:26819 Stdlib.MSets.MSetProperties <> x:240 var
+R26826:26826 Corelib.Init.Datatypes <> S constr
+R26829:26836 Stdlib.MSets.MSetProperties M cardinal defax
+R26838:26838 Stdlib.MSets.MSetProperties <> s:239 var
+R26876:26888 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R26900:26900 Corelib.Init.Datatypes <> S constr
+R26918:26918 Corelib.Init.Datatypes <> S constr
+R26955:26962 Corelib.Init.Logic <> eq ind
+R26964:26966 Corelib.Init.Datatypes <> nat ind
+R26934:26941 Stdlib.MSets.MSetProperties WPropertiesOn fold_add thm
+prf 27013:27029 WPropertiesOn remove_cardinal_1
+binder 27043:27043 <> s:241
+binder 27045:27045 <> x:242
+R27054:27057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27048:27049 Stdlib.MSets.MSetProperties M In defax
+R27053:27053 Stdlib.MSets.MSetProperties <> s:241 var
+R27051:27051 Stdlib.MSets.MSetProperties <> x:242 var
+R27083:27085 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27058:27058 Corelib.Init.Datatypes <> S constr
+R27061:27068 Stdlib.MSets.MSetProperties M cardinal defax
+R27071:27076 Stdlib.MSets.MSetProperties M remove defax
+R27080:27080 Stdlib.MSets.MSetProperties <> s:241 var
+R27078:27078 Stdlib.MSets.MSetProperties <> x:242 var
+R27086:27093 Stdlib.MSets.MSetProperties M cardinal defax
+R27095:27095 Stdlib.MSets.MSetProperties <> s:241 var
+R27132:27144 Stdlib.MSets.MSetProperties WPropertiesOn cardinal_fold thm
+R27156:27156 Corelib.Init.Datatypes <> S constr
+R27173:27173 Corelib.Init.Datatypes <> S constr
+R27214:27221 Corelib.Init.Logic <> eq ind
+R27223:27225 Corelib.Init.Datatypes <> nat ind
+R27188:27200 Stdlib.MSets.MSetProperties WPropertiesOn remove_fold_1 thm
+prf 27272:27288 WPropertiesOn remove_cardinal_2
+binder 27302:27302 <> s:243
+binder 27304:27304 <> x:244
+R27314:27317 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27307:27307 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R27308:27309 Stdlib.MSets.MSetProperties M In defax
+R27313:27313 Stdlib.MSets.MSetProperties <> s:243 var
+R27311:27311 Stdlib.MSets.MSetProperties <> x:244 var
+R27339:27341 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27318:27325 Stdlib.MSets.MSetProperties M cardinal defax
+R27328:27333 Stdlib.MSets.MSetProperties M remove defax
+R27337:27337 Stdlib.MSets.MSetProperties <> s:243 var
+R27335:27335 Stdlib.MSets.MSetProperties <> x:244 var
+R27342:27349 Stdlib.MSets.MSetProperties M cardinal defax
+R27351:27351 Stdlib.MSets.MSetProperties <> s:243 var
+R27489:27501 Stdlib.MSets.MSetProperties WPropertiesOn <> mod
+R27810:27814 Stdlib.MSets.MSetInterface WSets <> modtype
+R27820:27832 Stdlib.MSets.MSetProperties WPropertiesOn <> mod
+R27834:27836 Stdlib.MSets.MSetProperties M.E <> mod
+R27838:27838 Stdlib.MSets.MSetProperties M <> mod
+mod 27795:27805 <> WProperties
+R27862:27872 Stdlib.MSets.MSetProperties WProperties <> mod
+mod 27848:27857 <> Properties
+R27996:27999 Stdlib.MSets.MSetInterface Sets <> modtype
+mod 27979:27991 <> OrdProperties
+R28023:28038 Stdlib.Structures.OrdersFacts OrderedTypeFacts <> mod
+R28040:28042 Stdlib.MSets.MSetProperties M.E <> mod
+mod 28019:28020 <> OrdProperties.ME
+R28019:28020 Stdlib.MSets.MSetProperties OrdProperties.ME <> mod
+R28066:28081 Stdlib.Structures.OrdersLists OrderedTypeLists <> mod
+R28083:28085 Stdlib.MSets.MSetProperties M.E <> mod
+mod 28062:28063 <> OrdProperties.ML
+R28062:28063 Stdlib.MSets.MSetProperties OrdProperties.ML <> mod
+R28110:28119 Stdlib.MSets.MSetProperties Properties <> mod
+R28121:28121 Stdlib.MSets.MSetProperties M <> mod
+mod 28105:28105 <> OrdProperties.P
+R28105:28105 Stdlib.MSets.MSetProperties OrdProperties.P <> mod
+R28133:28134 Stdlib.MSets.MSetProperties OrdProperties.P.FM <> mod
+R28146:28148 Stdlib.MSets.MSetProperties M.E <> mod
+R28160:28160 Stdlib.MSets.MSetProperties M <> mod
+prf 28418:28440 OrdProperties sort_equivlistA_eqlistA
+R28458:28461 Corelib.Init.Datatypes <> list ind
+R28463:28465 Stdlib.MSets.MSetProperties M elt def
+binder 28451:28451 <> l:245
+binder 28453:28454 <> l':246
+R28482:28485 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28471:28474 Stdlib.Sorting.Sorted <> sort abbrev
+R28481:28481 Stdlib.MSets.MSetProperties <> l:245 var
+R28476:28479 Stdlib.MSets.MSetProperties M.E lt defax
+R28498:28501 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28486:28489 Stdlib.Sorting.Sorted <> sort abbrev
+R28496:28497 Stdlib.MSets.MSetProperties <> l':246 var
+R28491:28494 Stdlib.MSets.MSetProperties M.E lt defax
+R28522:28525 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28502:28511 Stdlib.Sorting.SetoidList <> equivlistA def
+R28520:28521 Stdlib.MSets.MSetProperties <> l':246 var
+R28518:28518 Stdlib.MSets.MSetProperties <> l:245 var
+R28513:28516 Stdlib.MSets.MSetProperties M.E eq defax
+R28526:28532 Stdlib.Sorting.SetoidList <> eqlistA ind
+R28541:28542 Stdlib.MSets.MSetProperties <> l':246 var
+R28539:28539 Stdlib.MSets.MSetProperties <> l:245 var
+R28534:28537 Stdlib.MSets.MSetProperties M.E eq defax
+R28562:28585 Stdlib.Sorting.SetoidList <> SortA_equivlistA_eqlistA thm
+def 28623:28625 OrdProperties gtb
+binder 28627:28627 <> x:247
+binder 28629:28629 <> y:248
+R28640:28648 Stdlib.MSets.MSetProperties M.E compare defax
+R28652:28652 Stdlib.MSets.MSetProperties <> y:248 var
+R28650:28650 Stdlib.MSets.MSetProperties <> x:247 var
+R28659:28660 Corelib.Init.Datatypes <> Gt constr
+R28665:28668 Corelib.Init.Datatypes <> true constr
+R28677:28681 Corelib.Init.Datatypes <> false constr
+def 28701:28703 OrdProperties leb
+binder 28705:28705 <> x:249
+binder 28714:28714 <> y:250
+R28719:28722 Corelib.Init.Datatypes <> negb def
+R28725:28727 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R28731:28731 Stdlib.MSets.MSetProperties <> y:250 var
+R28729:28729 Stdlib.MSets.MSetProperties <> x:249 var
+def 28749:28759 OrdProperties elements_lt
+binder 28761:28761 <> x:251
+binder 28763:28763 <> s:252
+R28768:28778 Stdlib.Lists.List <> filter def
+R28789:28796 Stdlib.MSets.MSetProperties M elements defax
+R28798:28798 Stdlib.MSets.MSetProperties <> s:252 var
+R28781:28783 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R28785:28785 Stdlib.MSets.MSetProperties <> x:251 var
+def 28815:28825 OrdProperties elements_ge
+binder 28827:28827 <> x:253
+binder 28829:28829 <> s:254
+R28834:28844 Stdlib.Lists.List <> filter def
+R28855:28862 Stdlib.MSets.MSetProperties M elements defax
+R28864:28864 Stdlib.MSets.MSetProperties <> s:254 var
+R28847:28849 Stdlib.MSets.MSetProperties OrdProperties leb def
+R28851:28851 Stdlib.MSets.MSetProperties <> x:253 var
+prf 28877:28881 OrdProperties gtb_1
+binder 28892:28892 <> x:255
+binder 28894:28894 <> y:256
+R28911:28915 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R28904:28906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28897:28899 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R28903:28903 Stdlib.MSets.MSetProperties <> y:256 var
+R28901:28901 Stdlib.MSets.MSetProperties <> x:255 var
+R28907:28910 Corelib.Init.Datatypes <> true constr
+R28916:28919 Stdlib.MSets.MSetProperties M.E lt defax
+R28923:28923 Stdlib.MSets.MSetProperties <> x:255 var
+R28921:28921 Stdlib.MSets.MSetProperties <> y:256 var
+R28957:28970 Stdlib.MSets.MSetProperties OrdProperties compare_gt_iff thm
+R28980:28982 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R28997:29005 Stdlib.MSets.MSetProperties M.E compare defax
+prf 29053:29057 OrdProperties leb_1
+binder 29068:29068 <> x:257
+binder 29070:29070 <> y:258
+R29087:29091 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R29080:29082 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29073:29075 Stdlib.MSets.MSetProperties OrdProperties leb def
+R29079:29079 Stdlib.MSets.MSetProperties <> y:258 var
+R29077:29077 Stdlib.MSets.MSetProperties <> x:257 var
+R29083:29086 Corelib.Init.Datatypes <> true constr
+R29092:29092 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R29093:29096 Stdlib.MSets.MSetProperties M.E lt defax
+R29100:29100 Stdlib.MSets.MSetProperties <> x:257 var
+R29098:29098 Stdlib.MSets.MSetProperties <> y:258 var
+R29134:29147 Stdlib.MSets.MSetProperties OrdProperties compare_gt_iff thm
+R29157:29159 Stdlib.MSets.MSetProperties OrdProperties leb def
+R29162:29164 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R29179:29187 Stdlib.MSets.MSetProperties M.E compare defax
+inst 29248:29257 OrdProperties gtb_compat
+binder 29259:29259 <> x:259
+R29263:29268 Corelib.Classes.Morphisms <> Proper class
+R29289:29291 Stdlib.MSets.MSetProperties OrdProperties gtb def
+R29293:29293 Stdlib.MSets.MSetProperties <> x:259 var
+R29275:29277 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R29271:29274 Stdlib.MSets.MSetProperties M.E eq defax
+R29278:29285 Corelib.Init.Logic <> eq ind
+R29330:29332 Stdlib.MSets.MSetProperties OrdProperties gtb def
+inst 29381:29390 OrdProperties leb_compat
+binder 29392:29392 <> x:260
+R29396:29401 Corelib.Classes.Morphisms <> Proper class
+R29422:29424 Stdlib.MSets.MSetProperties OrdProperties leb def
+R29426:29426 Stdlib.MSets.MSetProperties <> x:260 var
+R29408:29410 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R29404:29407 Stdlib.MSets.MSetProperties M.E eq defax
+R29411:29418 Corelib.Init.Logic <> eq ind
+R29463:29465 Stdlib.MSets.MSetProperties OrdProperties leb def
+prf 29558:29571 OrdProperties elements_split
+binder 29582:29582 <> x:261
+binder 29584:29584 <> s:262
+R29600:29602 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29590:29597 Stdlib.MSets.MSetProperties M elements defax
+R29599:29599 Stdlib.MSets.MSetProperties <> s:262 var
+R29618:29621 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29603:29613 Stdlib.MSets.MSetProperties OrdProperties elements_lt def
+R29617:29617 Stdlib.MSets.MSetProperties <> s:262 var
+R29615:29615 Stdlib.MSets.MSetProperties <> x:261 var
+R29622:29632 Stdlib.MSets.MSetProperties OrdProperties elements_ge def
+R29636:29636 Stdlib.MSets.MSetProperties <> s:262 var
+R29634:29634 Stdlib.MSets.MSetProperties <> x:261 var
+R29657:29667 Stdlib.MSets.MSetProperties OrdProperties elements_lt def
+R29670:29680 Stdlib.MSets.MSetProperties OrdProperties elements_ge def
+R29683:29685 Stdlib.MSets.MSetProperties OrdProperties leb def
+R29707:29718 Stdlib.Sorting.SetoidList <> filter_split thm
+R29722:29725 Stdlib.MSets.MSetProperties M.E eq defax
+R29763:29767 Stdlib.MSets.MSetProperties OrdProperties gtb_1 thm
+R29785:29785 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R29786:29789 Stdlib.MSets.MSetProperties M.E lt defax
+R29809:29811 Stdlib.MSets.MSetProperties OrdProperties gtb def
+prf 29905:29916 OrdProperties elements_Add
+binder 29927:29927 <> s:263
+binder 29929:29930 <> s':264
+binder 29932:29932 <> x:265
+R29942:29945 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29935:29935 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R29936:29937 Stdlib.MSets.MSetProperties M In defax
+R29941:29941 Stdlib.MSets.MSetProperties <> s:263 var
+R29939:29939 Stdlib.MSets.MSetProperties <> x:265 var
+R29956:29963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29946:29948 Stdlib.MSets.MSetProperties OrdProperties Add def
+R29954:29955 Stdlib.MSets.MSetProperties <> s':264 var
+R29952:29952 Stdlib.MSets.MSetProperties <> s:263 var
+R29950:29950 Stdlib.MSets.MSetProperties <> x:265 var
+R29964:29970 Stdlib.Sorting.SetoidList <> eqlistA ind
+R30007:30010 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29992:30002 Stdlib.MSets.MSetProperties OrdProperties elements_lt def
+R30006:30006 Stdlib.MSets.MSetProperties <> s:263 var
+R30004:30004 Stdlib.MSets.MSetProperties <> x:265 var
+R30012:30015 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30011:30011 Stdlib.MSets.MSetProperties <> x:265 var
+R30016:30026 Stdlib.MSets.MSetProperties OrdProperties elements_ge def
+R30030:30030 Stdlib.MSets.MSetProperties <> s:263 var
+R30028:30028 Stdlib.MSets.MSetProperties <> x:265 var
+R29978:29985 Stdlib.MSets.MSetProperties M elements defax
+R29987:29988 Stdlib.MSets.MSetProperties <> s':264 var
+R29972:29975 Stdlib.MSets.MSetProperties M.E eq defax
+R30060:30070 Stdlib.MSets.MSetProperties OrdProperties elements_ge def
+R30073:30083 Stdlib.MSets.MSetProperties OrdProperties elements_lt def
+R30094:30116 Stdlib.MSets.MSetProperties OrdProperties sort_equivlistA_eqlistA thm
+R30146:30154 Stdlib.Sorting.SetoidList <> SortA_app thm
+R30158:30161 Stdlib.MSets.MSetProperties M.E eq defax
+R30192:30202 Stdlib.Sorting.SetoidList <> filter_sort thm
+R30206:30209 Stdlib.MSets.MSetProperties M.E eq defax
+R30281:30291 Stdlib.Sorting.SetoidList <> filter_sort thm
+R30295:30298 Stdlib.MSets.MSetProperties M.E eq defax
+R30365:30375 Stdlib.Sorting.SetoidList <> filter_sort thm
+R30379:30382 Stdlib.MSets.MSetProperties M.E eq defax
+R30345:30351 Stdlib.MSets.MSetProperties OrdProperties Inf_alt thm
+R30434:30443 Stdlib.Sorting.SetoidList <> filter_InA thm
+R30494:30498 Stdlib.MSets.MSetProperties OrdProperties leb_1 thm
+R30526:30537 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+R30562:30562 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R30563:30566 Stdlib.MSets.MSetProperties M.E eq defax
+R30660:30669 Stdlib.Sorting.SetoidList <> filter_InA thm
+R30718:30722 Stdlib.MSets.MSetProperties OrdProperties gtb_1 thm
+R30788:30797 Stdlib.Sorting.SetoidList <> filter_InA thm
+R30848:30852 Stdlib.MSets.MSetProperties OrdProperties leb_1 thm
+R30907:30917 Stdlib.Sorting.SetoidList <> InA_app_iff thm
+R30920:30927 Stdlib.Sorting.SetoidList <> InA_cons thm
+R30931:30940 Stdlib.Sorting.SetoidList <> filter_InA thm
+R30946:30957 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+R30966:30970 Stdlib.MSets.MSetProperties OrdProperties leb_1 thm
+R30973:30977 Stdlib.MSets.MSetProperties OrdProperties gtb_1 thm
+def 31117:31121 OrdProperties Above
+binder 31123:31123 <> x:266
+binder 31125:31125 <> s:267
+binder 31137:31137 <> y:268
+R31146:31149 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31140:31141 Stdlib.MSets.MSetProperties M In defax
+R31145:31145 Stdlib.MSets.MSetProperties <> s:267 var
+R31143:31143 Stdlib.MSets.MSetProperties <> y:268 var
+R31150:31153 Stdlib.MSets.MSetProperties M.E lt defax
+R31157:31157 Stdlib.MSets.MSetProperties <> x:266 var
+R31155:31155 Stdlib.MSets.MSetProperties <> y:268 var
+def 31173:31177 OrdProperties Below
+binder 31179:31179 <> x:269
+binder 31181:31181 <> s:270
+binder 31193:31193 <> y:271
+R31202:31205 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31196:31197 Stdlib.MSets.MSetProperties M In defax
+R31201:31201 Stdlib.MSets.MSetProperties <> s:270 var
+R31199:31199 Stdlib.MSets.MSetProperties <> y:271 var
+R31206:31209 Stdlib.MSets.MSetProperties M.E lt defax
+R31213:31213 Stdlib.MSets.MSetProperties <> y:271 var
+R31211:31211 Stdlib.MSets.MSetProperties <> x:269 var
+prf 31225:31242 OrdProperties elements_Add_Above
+binder 31253:31253 <> s:272
+binder 31255:31256 <> s':273
+binder 31258:31258 <> x:274
+R31273:31276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31264:31268 Stdlib.MSets.MSetProperties OrdProperties Above def
+R31272:31272 Stdlib.MSets.MSetProperties <> s:272 var
+R31270:31270 Stdlib.MSets.MSetProperties <> x:274 var
+R31287:31295 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31277:31279 Stdlib.MSets.MSetProperties OrdProperties Add def
+R31285:31286 Stdlib.MSets.MSetProperties <> s':273 var
+R31283:31283 Stdlib.MSets.MSetProperties <> s:272 var
+R31281:31281 Stdlib.MSets.MSetProperties <> x:274 var
+R31296:31302 Stdlib.Sorting.SetoidList <> eqlistA ind
+R31334:31337 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31324:31331 Stdlib.MSets.MSetProperties M elements defax
+R31333:31333 Stdlib.MSets.MSetProperties <> s:272 var
+R31339:31340 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31338:31338 Stdlib.MSets.MSetProperties <> x:274 var
+R31341:31343 Corelib.Init.Datatypes <> nil constr
+R31310:31317 Stdlib.MSets.MSetProperties M elements defax
+R31319:31320 Stdlib.MSets.MSetProperties <> s':273 var
+R31304:31307 Stdlib.MSets.MSetProperties M.E eq defax
+R31374:31396 Stdlib.MSets.MSetProperties OrdProperties sort_equivlistA_eqlistA thm
+R31426:31434 Stdlib.Sorting.SetoidList <> SortA_app thm
+R31438:31441 Stdlib.MSets.MSetProperties M.E eq defax
+R31482:31484 Stdlib.Sorting.SetoidList <> InA ind
+R31502:31513 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+R31588:31598 Stdlib.Sorting.SetoidList <> InA_app_iff thm
+R31601:31608 Stdlib.Sorting.SetoidList <> InA_cons thm
+R31611:31617 Stdlib.Sorting.SetoidList <> InA_nil thm
+R31623:31634 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+prf 31700:31717 OrdProperties elements_Add_Below
+binder 31728:31728 <> s:275
+binder 31730:31731 <> s':276
+binder 31733:31733 <> x:277
+R31748:31751 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31739:31743 Stdlib.MSets.MSetProperties OrdProperties Below def
+R31747:31747 Stdlib.MSets.MSetProperties <> s:275 var
+R31745:31745 Stdlib.MSets.MSetProperties <> x:277 var
+R31762:31770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31752:31754 Stdlib.MSets.MSetProperties OrdProperties Add def
+R31760:31761 Stdlib.MSets.MSetProperties <> s':276 var
+R31758:31758 Stdlib.MSets.MSetProperties <> s:275 var
+R31756:31756 Stdlib.MSets.MSetProperties <> x:277 var
+R31771:31777 Stdlib.Sorting.SetoidList <> eqlistA ind
+R31800:31801 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31799:31799 Stdlib.MSets.MSetProperties <> x:277 var
+R31802:31809 Stdlib.MSets.MSetProperties M elements defax
+R31811:31811 Stdlib.MSets.MSetProperties <> s:275 var
+R31785:31792 Stdlib.MSets.MSetProperties M elements defax
+R31794:31795 Stdlib.MSets.MSetProperties <> s':276 var
+R31779:31782 Stdlib.MSets.MSetProperties M.E eq defax
+R31842:31864 Stdlib.MSets.MSetProperties OrdProperties sort_equivlistA_eqlistA thm
+R31894:31897 Stdlib.Sorting.Sorted <> sort abbrev
+R31905:31905 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31912:31916 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31907:31908 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31909:31911 Corelib.Init.Datatypes <> nil constr
+R31917:31924 Stdlib.MSets.MSetProperties M elements defax
+R31899:31902 Stdlib.MSets.MSetProperties M.E lt defax
+R31943:31951 Stdlib.Sorting.SetoidList <> SortA_app thm
+R31955:31958 Stdlib.MSets.MSetProperties M.E eq defax
+R31999:32001 Stdlib.Sorting.SetoidList <> InA ind
+R32019:32030 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+R32106:32113 Stdlib.Sorting.SetoidList <> InA_cons thm
+R32120:32131 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+prf 32289:32305 OrdProperties set_induction_max
+R32324:32327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32323:32323 Stdlib.MSets.MSetProperties M t defax
+binder 32319:32319 <> P:278
+R32337:32337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32366:32373 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32349:32349 Stdlib.MSets.MSetProperties M t defax
+binder 32345:32345 <> s:279
+R32359:32362 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32352:32356 Stdlib.MSets.MSetProperties M Empty def
+R32358:32358 Stdlib.MSets.MSetProperties <> s:279 var
+R32363:32363 Stdlib.MSets.MSetProperties <> P:278 var
+R32365:32365 Stdlib.MSets.MSetProperties <> s:279 var
+R32374:32374 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32436:32443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 32382:32382 <> s:280
+binder 32384:32385 <> s':281
+R32391:32394 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32388:32388 Stdlib.MSets.MSetProperties <> P:278 var
+R32390:32390 Stdlib.MSets.MSetProperties <> s:280 var
+binder 32402:32402 <> x:282
+R32414:32417 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32405:32409 Stdlib.MSets.MSetProperties OrdProperties Above def
+R32413:32413 Stdlib.MSets.MSetProperties <> s:280 var
+R32411:32411 Stdlib.MSets.MSetProperties <> x:282 var
+R32428:32431 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32418:32420 Stdlib.MSets.MSetProperties OrdProperties Add def
+R32426:32427 Stdlib.MSets.MSetProperties <> s':281 var
+R32424:32424 Stdlib.MSets.MSetProperties <> s:280 var
+R32422:32422 Stdlib.MSets.MSetProperties <> x:282 var
+R32432:32432 Stdlib.MSets.MSetProperties <> P:278 var
+R32434:32435 Stdlib.MSets.MSetProperties <> s':281 var
+R32455:32455 Stdlib.MSets.MSetProperties M t defax
+binder 32451:32451 <> s:283
+R32458:32458 Stdlib.MSets.MSetProperties <> P:278 var
+R32460:32460 Stdlib.MSets.MSetProperties <> s:283 var
+R32492:32499 Stdlib.MSets.MSetProperties M cardinal defax
+R32563:32569 Stdlib.MSets.MSetProperties M max_elt defax
+R32602:32607 Stdlib.MSets.MSetProperties M remove defax
+R32666:32668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32663:32663 Corelib.Init.Datatypes <> S constr
+R32669:32669 Corelib.Init.Datatypes <> S constr
+R32672:32679 Stdlib.MSets.MSetProperties M cardinal defax
+R32682:32687 Stdlib.MSets.MSetProperties M remove defax
+R32727:32736 Stdlib.MSets.MSetProperties OrdProperties cardinal_2 thm
+R32838:32847 Stdlib.MSets.MSetProperties OrdProperties remove_iff thm
+R32888:32900 Stdlib.MSets.MSetProperties M max_elt_spec2 defax
+R32939:32951 Stdlib.MSets.MSetProperties M max_elt_spec3 defax
+R32969:32982 Stdlib.MSets.MSetProperties OrdProperties cardinal_Empty thm
+prf 33043:33059 OrdProperties set_induction_min
+R33078:33081 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33077:33077 Stdlib.MSets.MSetProperties M t defax
+binder 33073:33073 <> P:284
+R33091:33091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33120:33127 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33103:33103 Stdlib.MSets.MSetProperties M t defax
+binder 33099:33099 <> s:285
+R33113:33116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33106:33110 Stdlib.MSets.MSetProperties M Empty def
+R33112:33112 Stdlib.MSets.MSetProperties <> s:285 var
+R33117:33117 Stdlib.MSets.MSetProperties <> P:284 var
+R33119:33119 Stdlib.MSets.MSetProperties <> s:285 var
+R33128:33128 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33190:33197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 33136:33136 <> s:286
+binder 33138:33139 <> s':287
+R33145:33148 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33142:33142 Stdlib.MSets.MSetProperties <> P:284 var
+R33144:33144 Stdlib.MSets.MSetProperties <> s:286 var
+binder 33156:33156 <> x:288
+R33168:33171 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33159:33163 Stdlib.MSets.MSetProperties OrdProperties Below def
+R33167:33167 Stdlib.MSets.MSetProperties <> s:286 var
+R33165:33165 Stdlib.MSets.MSetProperties <> x:288 var
+R33182:33185 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33172:33174 Stdlib.MSets.MSetProperties OrdProperties Add def
+R33180:33181 Stdlib.MSets.MSetProperties <> s':287 var
+R33178:33178 Stdlib.MSets.MSetProperties <> s:286 var
+R33176:33176 Stdlib.MSets.MSetProperties <> x:288 var
+R33186:33186 Stdlib.MSets.MSetProperties <> P:284 var
+R33188:33189 Stdlib.MSets.MSetProperties <> s':287 var
+R33209:33209 Stdlib.MSets.MSetProperties M t defax
+binder 33205:33205 <> s:289
+R33212:33212 Stdlib.MSets.MSetProperties <> P:284 var
+R33214:33214 Stdlib.MSets.MSetProperties <> s:289 var
+R33246:33253 Stdlib.MSets.MSetProperties M cardinal defax
+R33317:33323 Stdlib.MSets.MSetProperties M min_elt defax
+R33356:33361 Stdlib.MSets.MSetProperties M remove defax
+R33420:33422 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33417:33417 Corelib.Init.Datatypes <> S constr
+R33423:33423 Corelib.Init.Datatypes <> S constr
+R33426:33433 Stdlib.MSets.MSetProperties M cardinal defax
+R33436:33441 Stdlib.MSets.MSetProperties M remove defax
+R33479:33488 Stdlib.MSets.MSetProperties OrdProperties cardinal_2 thm
+R33584:33593 Stdlib.MSets.MSetProperties OrdProperties remove_iff thm
+R33634:33646 Stdlib.MSets.MSetProperties M min_elt_spec2 defax
+R33685:33697 Stdlib.MSets.MSetProperties M min_elt_spec3 defax
+R33715:33728 Stdlib.MSets.MSetProperties OrdProperties cardinal_Empty thm
+prf 33870:33875 OrdProperties fold_3
+binder 33889:33889 <> s:290
+binder 33891:33892 <> s':291
+binder 33894:33894 <> x:292
+binder 33897:33897 <> A:293
+R33915:33918 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33914:33914 Stdlib.MSets.MSetProperties <> A:293 var
+R33920:33923 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33919:33919 Stdlib.MSets.MSetProperties <> A:293 var
+binder 33908:33910 <> eqA:294
+R33941:33951 Corelib.Classes.RelationClasses <> Equivalence class
+R33953:33955 Stdlib.MSets.MSetProperties <> eqA:294 var
+binder 33936:33937 <> st:295
+R33963:33963 Stdlib.MSets.MSetProperties <> A:293 var
+binder 33959:33959 <> i:296
+R33974:33977 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33971:33973 Stdlib.MSets.MSetProperties M elt def
+R33979:33982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33978:33978 Stdlib.MSets.MSetProperties <> A:293 var
+R33983:33983 Stdlib.MSets.MSetProperties <> A:293 var
+binder 33967:33967 <> f:297
+R34017:34023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33990:33995 Corelib.Classes.Morphisms <> Proper class
+R34016:34016 Stdlib.MSets.MSetProperties <> f:297 var
+R34002:34004 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R33998:34001 Stdlib.MSets.MSetProperties M.E eq defax
+R34008:34010 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R34005:34007 Stdlib.MSets.MSetProperties <> eqA:294 var
+R34011:34013 Stdlib.MSets.MSetProperties <> eqA:294 var
+R34033:34036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34024:34028 Stdlib.MSets.MSetProperties OrdProperties Above def
+R34032:34032 Stdlib.MSets.MSetProperties <> s:290 var
+R34030:34030 Stdlib.MSets.MSetProperties <> x:292 var
+R34047:34050 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34037:34039 Stdlib.MSets.MSetProperties OrdProperties Add def
+R34045:34046 Stdlib.MSets.MSetProperties <> s':291 var
+R34043:34043 Stdlib.MSets.MSetProperties <> s:290 var
+R34041:34041 Stdlib.MSets.MSetProperties <> x:292 var
+R34051:34053 Stdlib.MSets.MSetProperties <> eqA:294 var
+R34070:34070 Stdlib.MSets.MSetProperties <> f:297 var
+R34075:34078 Stdlib.MSets.MSetProperties M fold defax
+R34084:34084 Stdlib.MSets.MSetProperties <> i:296 var
+R34082:34082 Stdlib.MSets.MSetProperties <> s:290 var
+R34080:34080 Stdlib.MSets.MSetProperties <> f:297 var
+R34072:34072 Stdlib.MSets.MSetProperties <> x:292 var
+R34056:34059 Stdlib.MSets.MSetProperties M fold defax
+R34066:34066 Stdlib.MSets.MSetProperties <> i:296 var
+R34063:34064 Stdlib.MSets.MSetProperties <> s':291 var
+R34061:34061 Stdlib.MSets.MSetProperties <> f:297 var
+R34120:34134 Stdlib.MSets.MSetProperties OrdProperties fold_spec_right thm
+R34152:34161 Stdlib.Lists.List <> fold_right def
+R34168:34170 Stdlib.Lists.List <> rev def
+R34173:34180 Stdlib.MSets.MSetProperties M elements defax
+R34198:34207 Stdlib.Lists.List <> fold_right def
+R34226:34227 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R34214:34216 Stdlib.Lists.List <> rev def
+R34220:34221 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34222:34224 Corelib.Init.Datatypes <> nil constr
+R34228:34230 Stdlib.Lists.List <> rev def
+R34233:34240 Stdlib.MSets.MSetProperties M elements defax
+R34258:34275 Stdlib.Sorting.SetoidList <> fold_right_eqlistA thm
+R34277:34279 Stdlib.MSets.MSetProperties M.E t defax
+R34281:34284 Stdlib.MSets.MSetProperties M.E eq defax
+R34323:34331 Stdlib.Lists.List <> distr_rev abbrev
+R34342:34352 Stdlib.Sorting.SetoidList <> eqlistA_rev thm
+R34363:34380 Stdlib.MSets.MSetProperties OrdProperties elements_Add_Above thm
+prf 34405:34410 OrdProperties fold_4
+binder 34424:34424 <> s:298
+binder 34426:34427 <> s':299
+binder 34429:34429 <> x:300
+binder 34432:34432 <> A:301
+R34450:34453 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34449:34449 Stdlib.MSets.MSetProperties <> A:301 var
+R34455:34458 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34454:34454 Stdlib.MSets.MSetProperties <> A:301 var
+binder 34443:34445 <> eqA:302
+R34476:34486 Corelib.Classes.RelationClasses <> Equivalence class
+R34488:34490 Stdlib.MSets.MSetProperties <> eqA:302 var
+binder 34471:34472 <> st:303
+R34498:34498 Stdlib.MSets.MSetProperties <> A:301 var
+binder 34494:34494 <> i:304
+R34509:34512 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34506:34508 Stdlib.MSets.MSetProperties M elt def
+R34514:34517 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34513:34513 Stdlib.MSets.MSetProperties <> A:301 var
+R34518:34518 Stdlib.MSets.MSetProperties <> A:301 var
+binder 34502:34502 <> f:305
+R34552:34558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34525:34530 Corelib.Classes.Morphisms <> Proper class
+R34551:34551 Stdlib.MSets.MSetProperties <> f:305 var
+R34537:34539 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R34533:34536 Stdlib.MSets.MSetProperties M.E eq defax
+R34543:34545 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R34540:34542 Stdlib.MSets.MSetProperties <> eqA:302 var
+R34546:34548 Stdlib.MSets.MSetProperties <> eqA:302 var
+R34568:34571 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34559:34563 Stdlib.MSets.MSetProperties OrdProperties Below def
+R34567:34567 Stdlib.MSets.MSetProperties <> s:298 var
+R34565:34565 Stdlib.MSets.MSetProperties <> x:300 var
+R34582:34585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34572:34574 Stdlib.MSets.MSetProperties OrdProperties Add def
+R34580:34581 Stdlib.MSets.MSetProperties <> s':299 var
+R34578:34578 Stdlib.MSets.MSetProperties <> s:298 var
+R34576:34576 Stdlib.MSets.MSetProperties <> x:300 var
+R34586:34588 Stdlib.MSets.MSetProperties <> eqA:302 var
+R34605:34608 Stdlib.MSets.MSetProperties M fold defax
+R34615:34615 Stdlib.MSets.MSetProperties <> f:305 var
+R34619:34619 Stdlib.MSets.MSetProperties <> i:304 var
+R34617:34617 Stdlib.MSets.MSetProperties <> x:300 var
+R34612:34612 Stdlib.MSets.MSetProperties <> s:298 var
+R34610:34610 Stdlib.MSets.MSetProperties <> f:305 var
+R34591:34594 Stdlib.MSets.MSetProperties M fold defax
+R34601:34601 Stdlib.MSets.MSetProperties <> i:304 var
+R34598:34599 Stdlib.MSets.MSetProperties <> s':299 var
+R34596:34596 Stdlib.MSets.MSetProperties <> f:305 var
+R34654:34662 Stdlib.MSets.MSetProperties M fold_spec defax
+R34680:34688 Stdlib.Lists.List <> fold_left def
+R34700:34707 Stdlib.MSets.MSetProperties M elements defax
+R34691:34694 Corelib.Program.Basics <> flip def
+R34731:34739 Stdlib.Lists.List <> fold_left def
+R34752:34753 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34754:34761 Stdlib.MSets.MSetProperties M elements defax
+R34742:34745 Corelib.Program.Basics <> flip def
+R34780:34783 Corelib.Program.Basics <> flip def
+R34797:34815 Stdlib.Lists.List <> fold_left_rev_right thm
+R34828:34845 Stdlib.Sorting.SetoidList <> fold_right_eqlistA thm
+R34847:34849 Stdlib.MSets.MSetProperties M.E t defax
+R34851:34854 Stdlib.MSets.MSetProperties M.E eq defax
+R34881:34891 Stdlib.Sorting.SetoidList <> eqlistA_rev thm
+R34902:34919 Stdlib.MSets.MSetProperties OrdProperties elements_Add_Below thm
+sec 35105:35111 OrdProperties FoldOpt
+var 35127:35127 OrdProperties.FoldOpt A
+var 35135:35137 OrdProperties.FoldOpt eqA
+var 35151:35152 OrdProperties.FoldOpt st
+R35140:35141 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35139:35139 Stdlib.MSets.MSetProperties <> A:307 var
+R35143:35144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35142:35142 Stdlib.MSets.MSetProperties <> A:307 var
+R35154:35164 Corelib.Classes.RelationClasses <> Equivalence class
+R35166:35168 Stdlib.MSets.MSetProperties <> eqA:309 var
+var 35185:35185 OrdProperties.FoldOpt f
+var 35198:35201 OrdProperties.FoldOpt Comp
+R35190:35191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35187:35189 Stdlib.MSets.MSetProperties M elt def
+R35193:35194 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35192:35192 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.A var
+R35195:35195 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.A var
+R35203:35208 Corelib.Classes.Morphisms <> Proper class
+R35229:35229 Stdlib.MSets.MSetProperties <> f:313 var
+R35215:35217 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R35211:35214 Stdlib.MSets.MSetProperties M.E eq defax
+R35221:35223 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R35218:35220 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+R35224:35226 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+prf 35242:35251 OrdProperties fold_equal
+binder 35265:35265 <> i:316
+binder 35267:35267 <> s:317
+binder 35269:35270 <> s':318
+R35279:35282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35274:35276 Stdlib.MSets.MSetInterface WSetsOn :::x_'[=]'_x not
+R35273:35273 Stdlib.MSets.MSetProperties <> s:317 var
+R35277:35278 Stdlib.MSets.MSetProperties <> s':318 var
+R35283:35285 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+R35301:35304 Stdlib.MSets.MSetProperties M fold defax
+R35311:35311 Stdlib.MSets.MSetProperties <> i:316 var
+R35308:35309 Stdlib.MSets.MSetProperties <> s':318 var
+R35306:35306 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35288:35291 Stdlib.MSets.MSetProperties M fold defax
+R35297:35297 Stdlib.MSets.MSetProperties <> i:316 var
+R35295:35295 Stdlib.MSets.MSetProperties <> s:317 var
+R35293:35293 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35346:35360 Stdlib.MSets.MSetProperties OrdProperties fold_spec_right thm
+R35373:35390 Stdlib.Sorting.SetoidList <> fold_right_eqlistA thm
+R35392:35394 Stdlib.MSets.MSetProperties M.E t defax
+R35396:35399 Stdlib.MSets.MSetProperties M.E eq defax
+R35401:35401 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.A var
+R35403:35405 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+R35407:35408 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.st var
+R35426:35436 Stdlib.Sorting.SetoidList <> eqlistA_rev thm
+R35447:35469 Stdlib.MSets.MSetProperties OrdProperties sort_equivlistA_eqlistA thm
+R35519:35530 Stdlib.MSets.MSetProperties OrdProperties elements_iff thm
+prf 35555:35562 OrdProperties add_fold
+binder 35573:35573 <> i:319
+binder 35575:35575 <> s:320
+binder 35577:35577 <> x:321
+R35586:35592 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35580:35581 Stdlib.MSets.MSetProperties M In defax
+R35585:35585 Stdlib.MSets.MSetProperties <> s:320 var
+R35583:35583 Stdlib.MSets.MSetProperties <> x:321 var
+R35593:35595 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+R35619:35622 Stdlib.MSets.MSetProperties M fold defax
+R35628:35628 Stdlib.MSets.MSetProperties <> i:319 var
+R35626:35626 Stdlib.MSets.MSetProperties <> s:320 var
+R35624:35624 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35598:35601 Stdlib.MSets.MSetProperties M fold defax
+R35615:35615 Stdlib.MSets.MSetProperties <> i:319 var
+R35606:35608 Stdlib.MSets.MSetProperties M add defax
+R35612:35612 Stdlib.MSets.MSetProperties <> s:320 var
+R35610:35610 Stdlib.MSets.MSetProperties <> x:321 var
+R35603:35603 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35657:35666 Stdlib.MSets.MSetProperties OrdProperties fold_equal thm
+prf 35700:35712 OrdProperties remove_fold_2
+binder 35722:35722 <> i:322
+binder 35724:35724 <> s:323
+binder 35726:35726 <> x:324
+R35736:35742 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35729:35729 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R35730:35731 Stdlib.MSets.MSetProperties M In defax
+R35735:35735 Stdlib.MSets.MSetProperties <> s:323 var
+R35733:35733 Stdlib.MSets.MSetProperties <> x:324 var
+R35743:35745 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.eqA var
+R35772:35775 Stdlib.MSets.MSetProperties M fold defax
+R35781:35781 Stdlib.MSets.MSetProperties <> i:322 var
+R35779:35779 Stdlib.MSets.MSetProperties <> s:323 var
+R35777:35777 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35748:35751 Stdlib.MSets.MSetProperties M fold defax
+R35768:35768 Stdlib.MSets.MSetProperties <> i:322 var
+R35756:35761 Stdlib.MSets.MSetProperties M remove defax
+R35765:35765 Stdlib.MSets.MSetProperties <> s:323 var
+R35763:35763 Stdlib.MSets.MSetProperties <> x:324 var
+R35753:35753 Stdlib.MSets.MSetProperties <> OrdProperties.FoldOpt.f var
+R35812:35821 Stdlib.MSets.MSetProperties OrdProperties fold_equal thm
+R35853:35859 Stdlib.MSets.MSetProperties OrdProperties.FoldOpt <> sec
+prf 35918:35929 OrdProperties choose_equal
+binder 35940:35940 <> s:325
+binder 35942:35943 <> s':326
+R35956:35963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35946:35950 Stdlib.MSets.MSetProperties M Equal def
+R35954:35955 Stdlib.MSets.MSetProperties <> s':326 var
+R35952:35952 Stdlib.MSets.MSetProperties <> s:325 var
+R35980:35985 Stdlib.MSets.MSetProperties M choose defax
+R35987:35988 Stdlib.MSets.MSetProperties <> s':326 var
+R35970:35975 Stdlib.MSets.MSetProperties M choose defax
+R35977:35977 Stdlib.MSets.MSetProperties <> s:325 var
+R36003:36006 Corelib.Init.Datatypes <> Some constr
+R36011:36014 Corelib.Init.Datatypes <> Some constr
+R36022:36025 Stdlib.MSets.MSetProperties M.E eq defax
+R36040:36043 Corelib.Init.Datatypes <> None constr
+R36046:36049 Corelib.Init.Datatypes <> None constr
+R36054:36057 Corelib.Init.Logic <> True ind
+R36075:36079 Corelib.Init.Logic <> False ind
+R36132:36143 Stdlib.MSets.MSetProperties M choose_spec1 defax
+R36149:36160 Stdlib.MSets.MSetProperties M choose_spec2 defax
+R36180:36191 Stdlib.MSets.MSetProperties M choose_spec1 defax
+R36198:36209 Stdlib.MSets.MSetProperties M choose_spec2 defax
+R36216:36227 Stdlib.MSets.MSetProperties M choose_spec3 defax
+R36248:36253 Stdlib.MSets.MSetProperties M choose defax
+R36269:36274 Stdlib.MSets.MSetProperties M choose defax
+R36389:36401 Stdlib.MSets.MSetProperties OrdProperties <> mod

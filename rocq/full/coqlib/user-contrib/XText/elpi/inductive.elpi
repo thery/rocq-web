@@ -1,0 +1,186 @@
+% xtext: Inductive types: recognising introduction and elimination theorems.
+% (part of xtext's writer; the files are loaded in the order of ExtractText.v)
+
+% ------------------------------------------------------------------
+% Inductive types: introduction and elimination theorems
+
+% [final-sort Ty S]: the sort S at the end of the type Ty, after its products
+pred final-sort i:term, o:sort.
+final-sort (prod N D B) S :- !, pi x\ decl x N D => final-sort (B x) S.
+final-sort (sort S) S.
+
+% [ind-in-prop I]: the inductive type I is a proposition (its arity ends in
+% Prop or SProp)
+pred ind-in-prop i:inductive.
+ind-in-prop I :- coq.env.indt I _ _ _ Ar _ _, final-sort Ar S, !,
+  (S = prop ; S = sprop).
+
+% [count-prods Ty N]: the number N of products at the head of the type Ty
+pred count-prods i:term, o:int.
+count-prods (prod N D B) M :- !,
+  pi x\ decl x N D => (count-prods (B x) M0, M is M0 + 1).
+count-prods _ 0.
+
+% [ind-name I S]: the name S of the inductive type I
+pred ind-name i:inductive, o:string.
+ind-name I S :- coq.gref->id (indt I) S.
+
+% [standard-scheme GR I]: the constant GR is a standard elimination
+% scheme of the inductive type I, T_ind, T_rec, T_rect or T_sind, made
+% with I in its module
+pred standard-scheme i:gref, i:inductive.
+standard-scheme GR I :-
+  coq.gref->id GR Id, coq.gref->id (indt I) T,
+  std.exists ["_ind", "_rec", "_rect", "_sind"] (s\ Id is T ^ s),
+  coq.gref->path GR P, coq.gref->path (indt I) P, !.
+
+% H is an introduction theorem (a constructor of a proposition C)
+% that takes NC arguments
+pred intro-info i:term, o:inductive, o:int.
+intro-info H I NC :-
+  gr-of H (indc K), coq.env.indc->indt K I _, ind-in-prop I,
+  coq.env.indc K _ _ _ KTy, count-prods KTy NC.
+
+% The binders of the type of an elimination scheme: their kinds and, for
+% a branch (a premise), which of its own binders are induction
+% hypotheses: those whose type mentions the motive P (thesis 6.3.4).
+% M is the position of the motive (after the parameters).
+pred scheme-info i:term, i:int, i:int, i:option term, o:list ak, o:list (list bool).
+scheme-info (prod N D B) M I MV [K|Ks] [Fl|Fls] :- !,
+  arg-kind D B K,
+  (if (K = ak-imp, MV = some P) (ih-flags D P Fl) (Fl = [])),
+  I1 is I + 1,
+  pi x\ decl x N D => sigma MV1\
+    (if (I = M) (MV1 = some x) (MV1 = MV)),
+    scheme-info (B x) M I1 MV1 Ks Fls.
+scheme-info _ _ _ _ [] [].
+
+% [ih-flags D P Fs]: for each binder of the branch type D, whether its type
+% mentions the motive P (an induction hypothesis)
+pred ih-flags i:term, i:term, o:list bool.
+ih-flags (prod N D B) P [F|Fs] :- !,
+  (if (occurs P D) (F = tt) (F = ff)),
+  pi x\ decl x N D => ih-flags (B x) P Fs.
+ih-flags _ _ [].
+
+% H is an elimination principle, recognised by its type (thesis 6.4.2),
+% whatever its name: parameters, a motive P (whose type ends in Prop),
+% binders between (branches, whose conclusion is P applied, or indices,
+% which are not propositions), then the eliminated object, of an
+% inductive type I, and the conclusion P applied (to the object, kind 2)
+% or P (or P applied to indices, kind 1, when the object is a proof).
+% The type of the eliminated object does not mention P (else P is a
+% parameter, as A in proj1 : forall A B, A /\ B -> A).
+% Kind 1: ... Phi_1 => ... => Phi_i => I u => P ..   (NC = all binders)
+% Kind 2: ... Phi_1 => ... => Phi_i => forall x : I u, P .. x
+%         (NC = the binders before the indexes and x)
+pred elim-info i:term, o:inductive, o:int, o:int, o:list ak, o:list (list bool).
+elim-info H I Kind NC Ks Fls :-
+  gr-of H (const C), coq.env.const C _ Ty,
+  elim-shape Ty M I Kind,
+  scheme-info Ty M 0 none Ks0 Fls0,
+  std.length Ks0 L,
+  (if (Kind = 1) (NC = L)
+      (instance-arity I NS, NC is L - NS)),
+  NC > M, std.take NC Ks0 Ks, std.take NC Fls0 Fls.
+
+% the number of arguments of a dependent elimination on I after its
+% branches: the indices of I and the eliminated object
+pred instance-arity i:inductive, o:int.
+instance-arity I NS :- coq.env.indt I _ NP _ Ar _ _, count-prods Ar NA, NS is NA - NP + 1.
+
+% the position of the motive among the arguments of the elimination
+% theorem H
+pred motive-position i:term, o:int.
+motive-position H M :- gr-of H (const C), coq.env.const C _ Ty, elim-shape Ty M _ _.
+
+% [elim-shape Ty M I K]: the type Ty is that of an elimination principle
+% (elim-info): its motive at position M, its inductive type I, its kind K
+pred elim-shape i:term, o:int, o:inductive, o:int.
+elim-shape Ty M I K :- eshape Ty [] [] M I K.
+
+% [eshape Ty Vs Ds M I K]: elim-shape, the binders Vs (and their types Ds)
+% already crossed; at the conclusion, the motive, the object eliminated and
+% the checks of elim-info
+pred eshape i:term, i:list term, i:list term, o:int, o:inductive, o:int.
+eshape (prod N D B) Vs Ds M I K :- !,
+  pi x\ decl x N D => sigma Vs1 Ds1\
+    std.append Vs [x] Vs1, std.append Ds [D] Ds1,
+    eshape (B x) Vs1 Ds1 M I K.
+eshape Concl Vs Ds M I K :-
+  (Concl = app [P|CArgs] ; (Concl = P, CArgs = [])), name P,
+  index-of P Vs 0 M,
+  std.nth M Ds PTy, final-sort PTy S, (S = prop ; S = sprop), !,
+  std.last Vs X, std.last Ds XTy, ind-head XTy I,
+  % the motive is free: the eliminated object does not depend on it
+  not (occurs P XTy),
+  (if (std.exists CArgs (a\ a == X)) (K = 2) (K = 1, is-prop XTy)),
+  std.length Vs L, M1 is M + 1,
+  (if (K = 1) (L1 is L - 1) (instance-arity I NS, L1 is L - NS)),
+  L1 >= M1,
+  std.drop M1 Ds Ds2, std.take {calc (L1 - M1)} Ds2 Mid,
+  std.forall Mid (d\ (concl-head d P ; not (is-prop d))).
+
+% [index-of X L I J]: the position J of the term X in L, counting from I
+pred index-of i:term, i:list term, i:int, o:int.
+index-of X [Y|_] I I :- X == Y, !.
+index-of X [_|L] I J :- I1 is I + 1, index-of X L I1 J.
+
+% [ind-head Ty I]: the type Ty is the inductive type I, possibly applied
+pred ind-head i:term, o:inductive.
+ind-head (app [G|_]) I :- gr-of G (indt I), !.
+ind-head G I :- gr-of G (indt I).
+
+% the conclusion of the type D is P applied
+pred concl-head i:term, i:term.
+concl-head (prod N D B) P :- !, pi x\ decl x N D => concl-head (B x) P.
+concl-head (app [Q|_]) P :- Q == P, !.
+concl-head Q P :- Q == P.
+
+% the IH flags of the branches (the premises), as cases
+kind case-info type.
+type ci bool -> list bool -> case-info.
+% [branch-infos Ks Fls Cs]: the cases of the branches (the premises, ak-imp,
+% among the kinds Ks): inductive when one of their flags Fls is an induction
+% hypothesis, with those flags
+pred branch-infos i:list ak, i:list (list bool), o:list case-info.
+branch-infos [] _ [].
+branch-infos [ak-imp|Ks] [Fl|Fls] [ci Ind Fl|Cs] :- !,
+  (if (std.mem! Fl tt) (Ind = tt) (Ind = ff)), branch-infos Ks Fls Cs.
+branch-infos [_|Ks] [_|Fls] Cs :- branch-infos Ks Fls Cs.
+
+% the arguments of kind => in a list of arguments
+pred imp-args i:list ak, i:list term, o:list term.
+imp-args [] _ [].
+imp-args [ak-imp|Ks] [A|As] [A|R] :- !, imp-args Ks As R.
+imp-args [_|Ks] [_|As] R :- imp-args Ks As R.
+
+% H is a rewriting principle, recognised by its type as the elimination
+% principles are (thesis 6.4.2; the end of 6.4.2 asks for a rule of its
+% own, tr-rewrite), whatever its name (eq_ind, eq_rect_r, ...):
+%   forall (A : _) (x : A) (P : A -> _), P x -> forall y : A, E -> P y
+% where E is an equality of an equality type (is-equality) between x and
+% y: x = y, the proof of P x rewritten from left to right, or y = x, from
+% right to left (Dir)
+pred rewrite-info i:term, o:string.
+rewrite-info H Dir :-
+  gr-of H (const C), coq.env.const C _ Ty,
+  Ty = prod _ _ (a\ prod _ a (x\ prod _ (MotiveType_ a x) (p\
+         prod _ (app [p, x]) (_\ prod _ a (y\ prod _ (E a x p y) (_\ app [p, y])))))),
+  pi a x p y\ equality-direction (E a x p y) a x y Dir.
+
+% [equality-direction E A X Y Dir]: E is X = Y (left-right) or Y = X
+% (right-left), in an equality type, on the type A
+pred equality-direction i:term, i:term, i:term, i:term, o:string.
+equality-direction (app [Eq, A, X, Y]) A X Y "left-right" :- is-equality Eq, !.
+equality-direction (app [Eq, A, Y, X]) A X Y "right-left" :- is-equality Eq.
+
+% Eq is an equality type: an inductive proposition with two parameters, a
+% type A and x : A, and one constructor, of type Eq A x x (as eq, whose
+% constructor is eq_refl)
+pred is-equality i:term.
+is-equality Eq :-
+  gr-of Eq (indt I), ind-in-prop I,
+  coq.env.indt I _ 2 _ _ [_] [KTy],
+  KTy = prod _ _ (a\ prod _ a (x\ app [Self, a, x, x])),
+  gr-of Self (indt I).

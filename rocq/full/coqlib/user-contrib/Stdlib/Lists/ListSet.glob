@@ -1,0 +1,962 @@
+DIGEST 8ca175f4c3cf33611d690a5bcfd7ef1a
+FStdlib.Lists.ListSet
+R1098:1101 Stdlib.Lists.List <> <> lib
+sec 1138:1154 <> first_definitions
+var 1169:1169 first_definitions A
+var 1192:1198 first_definitions Aeq_dec
+R1213:1213 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 1209:1209 <> x:3
+binder 1211:1211 <> y:4
+R1216:1216 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1222:1226 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1233:1233 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1218:1220 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1217:1217 Stdlib.Lists.ListSet <> x:3 var
+R1221:1221 Stdlib.Lists.ListSet <> y:4 var
+R1228:1231 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1227:1227 Stdlib.Lists.ListSet <> x:3 var
+R1232:1232 Stdlib.Lists.ListSet <> y:4 var
+def 1250:1252 <> set
+R1257:1260 Corelib.Init.Datatypes <> list ind
+R1262:1262 Stdlib.Lists.ListSet <> first_definitions.A var
+def 1279:1287 <> empty_set
+R1291:1293 Stdlib.Lists.ListSet <> set def
+R1298:1300 Corelib.Init.Datatypes <> nil constr
+def 1315:1321 <> set_add
+R1326:1326 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 1324:1324 <> a:7
+R1332:1334 Stdlib.Lists.ListSet <> set def
+binder 1330:1330 <> x:8
+R1339:1341 Stdlib.Lists.ListSet <> set def
+R1356:1356 Stdlib.Lists.ListSet <> x:8 var
+R1369:1371 Corelib.Init.Datatypes <> nil constr
+R1377:1380 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1376:1376 Stdlib.Lists.ListSet <> a:7 var
+R1381:1383 Corelib.Init.Datatypes <> nil constr
+R1393:1396 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1417:1423 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R1425:1425 Stdlib.Lists.ListSet <> a:7 var
+R1445:1448 Corelib.Init.Specif <> left constr
+R1457:1460 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1474:1478 Corelib.Init.Specif <> right constr
+R1487:1490 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1491:1497 Stdlib.Lists.ListSet <> set_add:9 def
+R1499:1499 Stdlib.Lists.ListSet <> a:7 var
+def 1538:1544 <> set_mem
+R1549:1549 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 1547:1547 <> a:11
+R1555:1557 Stdlib.Lists.ListSet <> set def
+binder 1553:1553 <> x:12
+R1562:1565 Corelib.Init.Datatypes <> bool ind
+R1580:1580 Stdlib.Lists.ListSet <> x:12 var
+R1593:1595 Corelib.Init.Datatypes <> nil constr
+R1600:1604 Corelib.Init.Datatypes <> false constr
+R1614:1617 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1638:1644 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R1646:1646 Stdlib.Lists.ListSet <> a:11 var
+R1666:1669 Corelib.Init.Specif <> left constr
+R1676:1679 Corelib.Init.Datatypes <> true constr
+R1691:1695 Corelib.Init.Specif <> right constr
+R1702:1708 Stdlib.Lists.ListSet <> set_mem:13 def
+R1710:1710 Stdlib.Lists.ListSet <> a:11 var
+def 1990:1999 <> set_remove
+R2004:2004 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 2002:2002 <> a:15
+R2010:2012 Stdlib.Lists.ListSet <> set def
+binder 2008:2008 <> x:16
+R2017:2019 Stdlib.Lists.ListSet <> set def
+R2034:2034 Stdlib.Lists.ListSet <> x:16 var
+R2047:2049 Corelib.Init.Datatypes <> nil constr
+R2054:2062 Stdlib.Lists.ListSet <> empty_set def
+R2072:2075 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2096:2102 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R2104:2104 Stdlib.Lists.ListSet <> a:15 var
+R2124:2127 Corelib.Init.Specif <> left constr
+R2147:2151 Corelib.Init.Specif <> right constr
+R2160:2163 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2164:2173 Stdlib.Lists.ListSet <> set_remove:17 def
+R2175:2175 Stdlib.Lists.ListSet <> a:15 var
+def 2213:2221 <> set_inter
+R2226:2228 Stdlib.Lists.ListSet <> set def
+binder 2224:2224 <> x:19
+R2236:2239 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2233:2235 Stdlib.Lists.ListSet <> set def
+R2240:2242 Stdlib.Lists.ListSet <> set def
+R2257:2257 Stdlib.Lists.ListSet <> x:19 var
+R2270:2272 Corelib.Init.Datatypes <> nil constr
+binder 2281:2281 <> y:22
+R2286:2288 Corelib.Init.Datatypes <> nil constr
+R2298:2301 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 2320:2320 <> y:23
+R2338:2344 Stdlib.Lists.ListSet <> set_mem def
+R2349:2349 Stdlib.Lists.ListSet <> y:23 var
+R2382:2390 Stdlib.Lists.ListSet <> set_inter:20 def
+R2395:2395 Stdlib.Lists.ListSet <> y:23 var
+R2358:2361 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2362:2370 Stdlib.Lists.ListSet <> set_inter:20 def
+R2375:2375 Stdlib.Lists.ListSet <> y:23 var
+def 2418:2426 <> set_union
+R2433:2435 Stdlib.Lists.ListSet <> set def
+binder 2429:2429 <> x:24
+binder 2431:2431 <> y:25
+R2440:2442 Stdlib.Lists.ListSet <> set def
+R2457:2457 Stdlib.Lists.ListSet <> y:25 var
+R2470:2472 Corelib.Init.Datatypes <> nil constr
+R2477:2477 Stdlib.Lists.ListSet <> x:24 var
+R2487:2490 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2497:2503 Stdlib.Lists.ListSet <> set_add def
+R2509:2517 Stdlib.Lists.ListSet <> set_union:26 def
+R2519:2519 Stdlib.Lists.ListSet <> x:24 var
+def 2617:2624 <> set_diff
+R2631:2633 Stdlib.Lists.ListSet <> set def
+binder 2627:2627 <> x:28
+binder 2629:2629 <> y:29
+R2638:2640 Stdlib.Lists.ListSet <> set def
+R2655:2655 Stdlib.Lists.ListSet <> x:28 var
+R2668:2670 Corelib.Init.Datatypes <> nil constr
+R2675:2677 Corelib.Init.Datatypes <> nil constr
+R2687:2690 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2708:2714 Stdlib.Lists.ListSet <> set_mem def
+R2719:2719 Stdlib.Lists.ListSet <> y:29 var
+R2745:2751 Stdlib.Lists.ListSet <> set_add def
+R2757:2764 Stdlib.Lists.ListSet <> set_diff:30 def
+R2769:2769 Stdlib.Lists.ListSet <> y:29 var
+R2726:2733 Stdlib.Lists.ListSet <> set_diff:30 def
+R2738:2738 Stdlib.Lists.ListSet <> y:29 var
+def 2796:2801 <> set_In
+R2806:2809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2805:2805 Stdlib.Lists.ListSet <> first_definitions.A var
+R2813:2816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2810:2812 Stdlib.Lists.ListSet <> set def
+R2825:2826 Stdlib.Lists.List <> In def
+R2832:2832 Stdlib.Lists.ListSet <> first_definitions.A var
+prf 2845:2854 <> set_In_dec
+R2868:2868 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 2866:2866 <> a:32
+R2874:2876 Stdlib.Lists.ListSet <> set def
+binder 2872:2872 <> x:33
+R2880:2880 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2891:2895 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2908:2908 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2881:2886 Stdlib.Lists.ListSet <> set_In def
+R2890:2890 Stdlib.Lists.ListSet <> x:33 var
+R2888:2888 Stdlib.Lists.ListSet <> a:32 var
+R2896:2897 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2898:2903 Stdlib.Lists.ListSet <> set_In def
+R2907:2907 Stdlib.Lists.ListSet <> x:33 var
+R2905:2905 Stdlib.Lists.ListSet <> a:32 var
+R2927:2937 Stdlib.Lists.List <> In_dec abbrev
+R2939:2945 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 2963:2973 <> set_mem_ind
+binder 2988:2988 <> B:34
+R3000:3003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2999:2999 Stdlib.Lists.ListSet <> B:34 var
+binder 2997:2997 <> P:35
+R3015:3015 Stdlib.Lists.ListSet <> B:34 var
+binder 3011:3011 <> y:36
+binder 3013:3013 <> z:37
+R3021:3021 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 3019:3019 <> a:38
+R3027:3029 Stdlib.Lists.ListSet <> set def
+binder 3025:3025 <> x:39
+R3038:3038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3056:3060 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3049:3052 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3039:3044 Stdlib.Lists.ListSet <> set_In def
+R3048:3048 Stdlib.Lists.ListSet <> x:39 var
+R3046:3046 Stdlib.Lists.ListSet <> a:38 var
+R3053:3053 Stdlib.Lists.ListSet <> P:35 var
+R3055:3055 Stdlib.Lists.ListSet <> y:36 var
+R3064:3067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3061:3061 Stdlib.Lists.ListSet <> P:35 var
+R3063:3063 Stdlib.Lists.ListSet <> z:37 var
+R3068:3068 Stdlib.Lists.ListSet <> P:35 var
+R3074:3080 Stdlib.Lists.ListSet <> set_mem def
+R3084:3084 Stdlib.Lists.ListSet <> x:39 var
+R3082:3082 Stdlib.Lists.ListSet <> a:38 var
+R3098:3098 Stdlib.Lists.ListSet <> z:37 var
+R3091:3091 Stdlib.Lists.ListSet <> y:36 var
+R3181:3187 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 3233:3244 <> set_mem_ind2
+binder 3259:3259 <> B:40
+R3271:3274 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3270:3270 Stdlib.Lists.ListSet <> B:40 var
+binder 3268:3268 <> P:41
+R3286:3286 Stdlib.Lists.ListSet <> B:40 var
+binder 3282:3282 <> y:42
+binder 3284:3284 <> z:43
+R3292:3292 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 3290:3290 <> a:44
+R3298:3300 Stdlib.Lists.ListSet <> set def
+binder 3296:3296 <> x:45
+R3309:3309 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3327:3336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3320:3323 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3310:3315 Stdlib.Lists.ListSet <> set_In def
+R3319:3319 Stdlib.Lists.ListSet <> x:45 var
+R3317:3317 Stdlib.Lists.ListSet <> a:44 var
+R3324:3324 Stdlib.Lists.ListSet <> P:41 var
+R3326:3326 Stdlib.Lists.ListSet <> y:42 var
+R3337:3337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3357:3361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3350:3353 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3338:3339 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3340:3345 Stdlib.Lists.ListSet <> set_In def
+R3349:3349 Stdlib.Lists.ListSet <> x:45 var
+R3347:3347 Stdlib.Lists.ListSet <> a:44 var
+R3354:3354 Stdlib.Lists.ListSet <> P:41 var
+R3356:3356 Stdlib.Lists.ListSet <> z:43 var
+R3362:3362 Stdlib.Lists.ListSet <> P:41 var
+R3368:3374 Stdlib.Lists.ListSet <> set_mem def
+R3378:3378 Stdlib.Lists.ListSet <> x:45 var
+R3376:3376 Stdlib.Lists.ListSet <> a:44 var
+R3392:3392 Stdlib.Lists.ListSet <> z:43 var
+R3385:3385 Stdlib.Lists.ListSet <> y:42 var
+R3487:3493 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 3630:3645 <> set_mem_correct1
+R3662:3662 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 3660:3660 <> a:46
+R3668:3670 Stdlib.Lists.ListSet <> set def
+binder 3666:3666 <> x:47
+R3692:3695 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3685:3687 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3674:3680 Stdlib.Lists.ListSet <> set_mem def
+R3684:3684 Stdlib.Lists.ListSet <> x:47 var
+R3682:3682 Stdlib.Lists.ListSet <> a:46 var
+R3688:3691 Corelib.Init.Datatypes <> true constr
+R3696:3701 Stdlib.Lists.ListSet <> set_In def
+R3705:3705 Stdlib.Lists.ListSet <> x:47 var
+R3703:3703 Stdlib.Lists.ListSet <> a:46 var
+R3793:3799 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 3845:3860 <> set_mem_correct2
+R3877:3877 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 3875:3875 <> a:48
+R3883:3885 Stdlib.Lists.ListSet <> set def
+binder 3881:3881 <> x:49
+R3899:3902 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3889:3894 Stdlib.Lists.ListSet <> set_In def
+R3898:3898 Stdlib.Lists.ListSet <> x:49 var
+R3896:3896 Stdlib.Lists.ListSet <> a:48 var
+R3914:3916 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3903:3909 Stdlib.Lists.ListSet <> set_mem def
+R3913:3913 Stdlib.Lists.ListSet <> x:49 var
+R3911:3911 Stdlib.Lists.ListSet <> a:48 var
+R3917:3920 Corelib.Init.Datatypes <> true constr
+R4013:4019 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R4096:4098 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4169:4185 <> set_mem_complete1
+R4202:4202 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 4200:4200 <> a:50
+R4208:4210 Stdlib.Lists.ListSet <> set def
+binder 4206:4206 <> x:51
+R4233:4236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4225:4227 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4214:4220 Stdlib.Lists.ListSet <> set_mem def
+R4224:4224 Stdlib.Lists.ListSet <> x:51 var
+R4222:4222 Stdlib.Lists.ListSet <> a:50 var
+R4228:4232 Corelib.Init.Datatypes <> false constr
+R4237:4238 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4239:4244 Stdlib.Lists.ListSet <> set_In def
+R4248:4248 Stdlib.Lists.ListSet <> x:51 var
+R4246:4246 Stdlib.Lists.ListSet <> a:50 var
+R4329:4335 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R4383:4385 Corelib.Init.Logic <> not def
+prf 4445:4461 <> set_mem_complete2
+R4478:4478 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 4476:4476 <> a:52
+R4484:4486 Stdlib.Lists.ListSet <> set def
+binder 4482:4482 <> x:53
+R4502:4505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4490:4491 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4492:4497 Stdlib.Lists.ListSet <> set_In def
+R4501:4501 Stdlib.Lists.ListSet <> x:53 var
+R4499:4499 Stdlib.Lists.ListSet <> a:52 var
+R4517:4519 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4506:4512 Stdlib.Lists.ListSet <> set_mem def
+R4516:4516 Stdlib.Lists.ListSet <> x:53 var
+R4514:4514 Stdlib.Lists.ListSet <> a:52 var
+R4520:4524 Corelib.Init.Datatypes <> false constr
+R4605:4611 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 4696:4709 <> set_add_intro1
+R4728:4728 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 4724:4724 <> a:54
+binder 4726:4726 <> b:55
+R4734:4736 Stdlib.Lists.ListSet <> set def
+binder 4732:4732 <> x:56
+R4750:4753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4740:4745 Stdlib.Lists.ListSet <> set_In def
+R4749:4749 Stdlib.Lists.ListSet <> x:56 var
+R4747:4747 Stdlib.Lists.ListSet <> a:54 var
+R4754:4759 Stdlib.Lists.ListSet <> set_In def
+R4764:4770 Stdlib.Lists.ListSet <> set_add def
+R4774:4774 Stdlib.Lists.ListSet <> x:56 var
+R4772:4772 Stdlib.Lists.ListSet <> b:55 var
+R4761:4761 Stdlib.Lists.ListSet <> a:54 var
+R4799:4804 Stdlib.Lists.ListSet <> set_In def
+R4908:4914 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R4955:4961 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 5031:5044 <> set_add_intro2
+R5063:5063 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 5059:5059 <> a:57
+binder 5061:5061 <> b:58
+R5069:5071 Stdlib.Lists.ListSet <> set def
+binder 5067:5067 <> x:59
+R5080:5083 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5076:5078 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5075:5075 Stdlib.Lists.ListSet <> a:57 var
+R5079:5079 Stdlib.Lists.ListSet <> b:58 var
+R5084:5089 Stdlib.Lists.ListSet <> set_In def
+R5094:5100 Stdlib.Lists.ListSet <> set_add def
+R5104:5104 Stdlib.Lists.ListSet <> x:59 var
+R5102:5102 Stdlib.Lists.ListSet <> b:58 var
+R5091:5091 Stdlib.Lists.ListSet <> a:57 var
+R5129:5134 Stdlib.Lists.ListSet <> set_In def
+R5228:5234 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 5443:5455 <> set_add_intro
+R5474:5474 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 5470:5470 <> a:60
+binder 5472:5472 <> b:61
+R5480:5482 Stdlib.Lists.ListSet <> set def
+binder 5478:5478 <> x:62
+R5505:5508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5491:5494 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5487:5489 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5486:5486 Stdlib.Lists.ListSet <> a:60 var
+R5490:5490 Stdlib.Lists.ListSet <> b:61 var
+R5495:5500 Stdlib.Lists.ListSet <> set_In def
+R5504:5504 Stdlib.Lists.ListSet <> x:62 var
+R5502:5502 Stdlib.Lists.ListSet <> a:60 var
+R5509:5514 Stdlib.Lists.ListSet <> set_In def
+R5519:5525 Stdlib.Lists.ListSet <> set_add def
+R5529:5529 Stdlib.Lists.ListSet <> x:62 var
+R5527:5527 Stdlib.Lists.ListSet <> b:61 var
+R5516:5516 Stdlib.Lists.ListSet <> a:60 var
+prf 5607:5618 <> set_add_elim
+R5637:5637 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 5633:5633 <> a:63
+binder 5635:5635 <> b:64
+R5643:5645 Stdlib.Lists.ListSet <> set def
+binder 5641:5641 <> x:65
+R5671:5674 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5649:5654 Stdlib.Lists.ListSet <> set_In def
+R5659:5665 Stdlib.Lists.ListSet <> set_add def
+R5669:5669 Stdlib.Lists.ListSet <> x:65 var
+R5667:5667 Stdlib.Lists.ListSet <> b:64 var
+R5656:5656 Stdlib.Lists.ListSet <> a:63 var
+R5680:5683 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5676:5678 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5675:5675 Stdlib.Lists.ListSet <> a:63 var
+R5679:5679 Stdlib.Lists.ListSet <> b:64 var
+R5684:5689 Stdlib.Lists.ListSet <> set_In def
+R5693:5693 Stdlib.Lists.ListSet <> x:65 var
+R5691:5691 Stdlib.Lists.ListSet <> a:63 var
+R5717:5722 Stdlib.Lists.ListSet <> set_In def
+R5837:5843 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 5988:6000 <> set_add_elim2
+R6019:6019 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 6015:6015 <> a:66
+binder 6017:6017 <> b:67
+R6025:6027 Stdlib.Lists.ListSet <> set def
+binder 6023:6023 <> x:68
+R6053:6056 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6031:6036 Stdlib.Lists.ListSet <> set_In def
+R6041:6047 Stdlib.Lists.ListSet <> set_add def
+R6051:6051 Stdlib.Lists.ListSet <> x:68 var
+R6049:6049 Stdlib.Lists.ListSet <> b:67 var
+R6038:6038 Stdlib.Lists.ListSet <> a:66 var
+R6063:6066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6058:6061 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6057:6057 Stdlib.Lists.ListSet <> a:66 var
+R6062:6062 Stdlib.Lists.ListSet <> b:67 var
+R6067:6072 Stdlib.Lists.ListSet <> set_In def
+R6076:6076 Stdlib.Lists.ListSet <> x:68 var
+R6074:6074 Stdlib.Lists.ListSet <> a:66 var
+R6113:6124 Stdlib.Lists.ListSet <> set_add_elim thm
+prf 6267:6283 <> set_add_not_empty
+R6297:6297 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 6295:6295 <> a:69
+R6303:6305 Stdlib.Lists.ListSet <> set def
+binder 6301:6301 <> x:70
+R6320:6323 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6309:6315 Stdlib.Lists.ListSet <> set_add def
+R6319:6319 Stdlib.Lists.ListSet <> x:70 var
+R6317:6317 Stdlib.Lists.ListSet <> a:69 var
+R6324:6332 Stdlib.Lists.ListSet <> empty_set def
+R6415:6421 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 6468:6478 <> set_add_iff
+binder 6480:6480 <> a:71
+binder 6482:6482 <> b:72
+binder 6484:6484 <> l:73
+R6506:6510 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6488:6489 Stdlib.Lists.List <> In def
+R6494:6500 Stdlib.Lists.ListSet <> set_add def
+R6504:6504 Stdlib.Lists.ListSet <> l:73 var
+R6502:6502 Stdlib.Lists.ListSet <> b:72 var
+R6491:6491 Stdlib.Lists.ListSet <> a:71 var
+R6516:6519 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6512:6514 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6511:6511 Stdlib.Lists.ListSet <> a:71 var
+R6515:6515 Stdlib.Lists.ListSet <> b:72 var
+R6520:6521 Stdlib.Lists.List <> In def
+R6525:6525 Stdlib.Lists.ListSet <> l:73 var
+R6523:6523 Stdlib.Lists.ListSet <> a:71 var
+R6560:6571 Stdlib.Lists.ListSet <> set_add_elim thm
+R6586:6598 Stdlib.Lists.ListSet <> set_add_intro thm
+prf 6617:6629 <> set_add_nodup
+binder 6631:6631 <> a:74
+binder 6633:6633 <> l:75
+R6644:6647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6637:6641 Stdlib.Lists.List <> NoDup ind
+R6643:6643 Stdlib.Lists.ListSet <> l:75 var
+R6648:6652 Stdlib.Lists.List <> NoDup ind
+R6655:6661 Stdlib.Lists.ListSet <> set_add def
+R6665:6665 Stdlib.Lists.ListSet <> l:75 var
+R6663:6663 Stdlib.Lists.ListSet <> a:74 var
+R6777:6783 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R6838:6848 Stdlib.Lists.ListSet <> set_add_iff thm
+prf 6878:6889 <> set_remove_1
+R6898:6898 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 6892:6892 <> a:76
+binder 6894:6894 <> b:77
+R6906:6908 Stdlib.Lists.ListSet <> set def
+binder 6902:6902 <> l:78
+R6938:6941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6917:6918 Stdlib.Lists.List <> In def
+R6923:6932 Stdlib.Lists.ListSet <> set_remove def
+R6936:6936 Stdlib.Lists.ListSet <> l:78 var
+R6934:6934 Stdlib.Lists.ListSet <> b:77 var
+R6920:6920 Stdlib.Lists.ListSet <> a:76 var
+R6942:6943 Stdlib.Lists.List <> In def
+R6947:6947 Stdlib.Lists.ListSet <> l:78 var
+R6945:6945 Stdlib.Lists.ListSet <> a:76 var
+R7035:7041 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R7120:7124 Stdlib.Lists.List <> in_eq thm
+R7141:7147 Stdlib.Lists.List <> in_cons thm
+prf 7190:7201 <> set_remove_2
+R7208:7208 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 7204:7204 <> a:79
+binder 7206:7206 <> b:80
+R7216:7218 Stdlib.Lists.ListSet <> set def
+binder 7212:7212 <> l:81
+R7234:7237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7227:7231 Stdlib.Lists.List <> NoDup ind
+R7233:7233 Stdlib.Lists.ListSet <> l:81 var
+R7259:7262 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7238:7239 Stdlib.Lists.List <> In def
+R7244:7253 Stdlib.Lists.ListSet <> set_remove def
+R7257:7257 Stdlib.Lists.ListSet <> l:81 var
+R7255:7255 Stdlib.Lists.ListSet <> b:80 var
+R7241:7241 Stdlib.Lists.ListSet <> a:79 var
+R7264:7267 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7263:7263 Stdlib.Lists.ListSet <> a:79 var
+R7268:7268 Stdlib.Lists.ListSet <> b:80 var
+R7382:7388 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 7477:7488 <> set_remove_3
+R7497:7497 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 7491:7491 <> a:82
+binder 7493:7493 <> b:83
+R7505:7507 Stdlib.Lists.ListSet <> set def
+binder 7501:7501 <> l:84
+R7522:7525 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7516:7517 Stdlib.Lists.List <> In def
+R7521:7521 Stdlib.Lists.ListSet <> l:84 var
+R7519:7519 Stdlib.Lists.ListSet <> a:82 var
+R7532:7535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7527:7530 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7526:7526 Stdlib.Lists.ListSet <> a:82 var
+R7531:7531 Stdlib.Lists.ListSet <> b:83 var
+R7536:7537 Stdlib.Lists.List <> In def
+R7542:7551 Stdlib.Lists.ListSet <> set_remove def
+R7555:7555 Stdlib.Lists.ListSet <> l:84 var
+R7553:7553 Stdlib.Lists.ListSet <> b:83 var
+R7539:7539 Stdlib.Lists.ListSet <> a:82 var
+R7641:7647 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+prf 7719:7732 <> set_remove_iff
+R7741:7741 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 7735:7735 <> a:85
+binder 7737:7737 <> b:86
+R7749:7751 Stdlib.Lists.ListSet <> set def
+binder 7745:7745 <> l:87
+R7766:7770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7813:7813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7759:7763 Stdlib.Lists.List <> NoDup ind
+R7765:7765 Stdlib.Lists.ListSet <> l:87 var
+R7792:7796 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7771:7772 Stdlib.Lists.List <> In def
+R7777:7786 Stdlib.Lists.ListSet <> set_remove def
+R7790:7790 Stdlib.Lists.ListSet <> l:87 var
+R7788:7788 Stdlib.Lists.ListSet <> b:86 var
+R7774:7774 Stdlib.Lists.ListSet <> a:85 var
+R7803:7806 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7797:7798 Stdlib.Lists.List <> In def
+R7802:7802 Stdlib.Lists.ListSet <> l:87 var
+R7800:7800 Stdlib.Lists.ListSet <> a:85 var
+R7808:7811 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7807:7807 Stdlib.Lists.ListSet <> a:85 var
+R7812:7812 Stdlib.Lists.ListSet <> b:86 var
+R7858:7869 Stdlib.Lists.ListSet <> set_remove_1 thm
+R7891:7902 Stdlib.Lists.ListSet <> set_remove_2 thm
+R7935:7946 Stdlib.Lists.ListSet <> set_remove_3 thm
+prf 7971:7986 <> set_remove_nodup
+binder 7988:7988 <> a:88
+binder 7990:7990 <> l:89
+R8001:8004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7994:7998 Stdlib.Lists.List <> NoDup ind
+R8000:8000 Stdlib.Lists.ListSet <> l:89 var
+R8005:8009 Stdlib.Lists.List <> NoDup ind
+R8012:8021 Stdlib.Lists.ListSet <> set_remove def
+R8025:8025 Stdlib.Lists.ListSet <> l:89 var
+R8023:8023 Stdlib.Lists.ListSet <> a:88 var
+R8112:8118 Stdlib.Lists.ListSet <> first_definitions.Aeq_dec var
+R8187:8200 Stdlib.Lists.ListSet <> set_remove_iff thm
+prf 8239:8254 <> set_union_intro1
+R8271:8271 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 8269:8269 <> a:90
+R8279:8281 Stdlib.Lists.ListSet <> set def
+binder 8275:8275 <> x:91
+binder 8277:8277 <> y:92
+R8295:8298 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8285:8290 Stdlib.Lists.ListSet <> set_In def
+R8294:8294 Stdlib.Lists.ListSet <> x:91 var
+R8292:8292 Stdlib.Lists.ListSet <> a:90 var
+R8299:8304 Stdlib.Lists.ListSet <> set_In def
+R8309:8317 Stdlib.Lists.ListSet <> set_union def
+R8321:8321 Stdlib.Lists.ListSet <> y:92 var
+R8319:8319 Stdlib.Lists.ListSet <> x:91 var
+R8306:8306 Stdlib.Lists.ListSet <> a:90 var
+prf 8402:8417 <> set_union_intro2
+R8434:8434 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 8432:8432 <> a:93
+R8442:8444 Stdlib.Lists.ListSet <> set def
+binder 8438:8438 <> x:94
+binder 8440:8440 <> y:95
+R8458:8461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8448:8453 Stdlib.Lists.ListSet <> set_In def
+R8457:8457 Stdlib.Lists.ListSet <> y:95 var
+R8455:8455 Stdlib.Lists.ListSet <> a:93 var
+R8462:8467 Stdlib.Lists.ListSet <> set_In def
+R8472:8480 Stdlib.Lists.ListSet <> set_union def
+R8484:8484 Stdlib.Lists.ListSet <> y:95 var
+R8482:8482 Stdlib.Lists.ListSet <> x:94 var
+R8469:8469 Stdlib.Lists.ListSet <> a:93 var
+prf 8670:8684 <> set_union_intro
+R8701:8701 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 8699:8699 <> a:96
+R8709:8711 Stdlib.Lists.ListSet <> set def
+binder 8705:8705 <> x:97
+binder 8707:8707 <> y:98
+R8744:8747 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8730:8733 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8720:8725 Stdlib.Lists.ListSet <> set_In def
+R8729:8729 Stdlib.Lists.ListSet <> x:97 var
+R8727:8727 Stdlib.Lists.ListSet <> a:96 var
+R8734:8739 Stdlib.Lists.ListSet <> set_In def
+R8743:8743 Stdlib.Lists.ListSet <> y:98 var
+R8741:8741 Stdlib.Lists.ListSet <> a:96 var
+R8748:8753 Stdlib.Lists.ListSet <> set_In def
+R8758:8766 Stdlib.Lists.ListSet <> set_union def
+R8770:8770 Stdlib.Lists.ListSet <> y:98 var
+R8768:8768 Stdlib.Lists.ListSet <> x:97 var
+R8755:8755 Stdlib.Lists.ListSet <> a:96 var
+prf 8840:8853 <> set_union_elim
+R8870:8870 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 8868:8868 <> a:99
+R8878:8880 Stdlib.Lists.ListSet <> set def
+binder 8874:8874 <> x:100
+binder 8876:8876 <> y:101
+R8913:8916 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8889:8894 Stdlib.Lists.ListSet <> set_In def
+R8899:8907 Stdlib.Lists.ListSet <> set_union def
+R8911:8911 Stdlib.Lists.ListSet <> y:101 var
+R8909:8909 Stdlib.Lists.ListSet <> x:100 var
+R8896:8896 Stdlib.Lists.ListSet <> a:99 var
+R8927:8930 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8917:8922 Stdlib.Lists.ListSet <> set_In def
+R8926:8926 Stdlib.Lists.ListSet <> x:100 var
+R8924:8924 Stdlib.Lists.ListSet <> a:99 var
+R8931:8936 Stdlib.Lists.ListSet <> set_In def
+R8940:8940 Stdlib.Lists.ListSet <> y:101 var
+R8938:8938 Stdlib.Lists.ListSet <> a:99 var
+R9042:9053 Stdlib.Lists.ListSet <> set_add_elim thm
+prf 9149:9161 <> set_union_iff
+binder 9163:9163 <> a:102
+binder 9165:9165 <> l:103
+binder 9167:9168 <> l':104
+R9192:9196 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9171:9172 Stdlib.Lists.List <> In def
+R9177:9185 Stdlib.Lists.ListSet <> set_union def
+R9189:9190 Stdlib.Lists.ListSet <> l':104 var
+R9187:9187 Stdlib.Lists.ListSet <> l:103 var
+R9174:9174 Stdlib.Lists.ListSet <> a:102 var
+R9203:9206 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R9197:9198 Stdlib.Lists.List <> In def
+R9202:9202 Stdlib.Lists.ListSet <> l:103 var
+R9200:9200 Stdlib.Lists.ListSet <> a:102 var
+R9207:9208 Stdlib.Lists.List <> In def
+R9212:9213 Stdlib.Lists.ListSet <> l':104 var
+R9210:9210 Stdlib.Lists.ListSet <> a:102 var
+R9248:9261 Stdlib.Lists.ListSet <> set_union_elim thm
+R9276:9290 Stdlib.Lists.ListSet <> set_union_intro thm
+prf 9309:9323 <> set_union_nodup
+binder 9325:9325 <> l:105
+binder 9327:9328 <> l':106
+R9339:9342 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9332:9336 Stdlib.Lists.List <> NoDup ind
+R9338:9338 Stdlib.Lists.ListSet <> l:105 var
+R9351:9354 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9343:9347 Stdlib.Lists.List <> NoDup ind
+R9349:9350 Stdlib.Lists.ListSet <> l':106 var
+R9355:9359 Stdlib.Lists.List <> NoDup ind
+R9362:9370 Stdlib.Lists.ListSet <> set_union def
+R9374:9375 Stdlib.Lists.ListSet <> l':106 var
+R9372:9372 Stdlib.Lists.ListSet <> l:105 var
+R9449:9461 Stdlib.Lists.ListSet <> set_add_nodup thm
+prf 9480:9495 <> set_union_emptyL
+R9512:9512 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 9510:9510 <> a:107
+R9518:9520 Stdlib.Lists.ListSet <> set def
+binder 9516:9516 <> x:108
+R9556:9559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9524:9529 Stdlib.Lists.ListSet <> set_In def
+R9534:9542 Stdlib.Lists.ListSet <> set_union def
+R9554:9554 Stdlib.Lists.ListSet <> x:108 var
+R9544:9552 Stdlib.Lists.ListSet <> empty_set def
+R9531:9531 Stdlib.Lists.ListSet <> a:107 var
+R9560:9565 Stdlib.Lists.ListSet <> set_In def
+R9569:9569 Stdlib.Lists.ListSet <> x:108 var
+R9567:9567 Stdlib.Lists.ListSet <> a:107 var
+R9605:9618 Stdlib.Lists.ListSet <> set_union_elim thm
+prf 9669:9684 <> set_union_emptyR
+R9701:9701 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 9699:9699 <> a:109
+R9707:9709 Stdlib.Lists.ListSet <> set def
+binder 9705:9705 <> x:110
+R9745:9748 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9713:9718 Stdlib.Lists.ListSet <> set_In def
+R9723:9731 Stdlib.Lists.ListSet <> set_union def
+R9735:9743 Stdlib.Lists.ListSet <> empty_set def
+R9733:9733 Stdlib.Lists.ListSet <> x:110 var
+R9720:9720 Stdlib.Lists.ListSet <> a:109 var
+R9749:9754 Stdlib.Lists.ListSet <> set_In def
+R9758:9758 Stdlib.Lists.ListSet <> x:110 var
+R9756:9756 Stdlib.Lists.ListSet <> a:109 var
+R9794:9807 Stdlib.Lists.ListSet <> set_union_elim thm
+prf 9858:9872 <> set_inter_intro
+R9889:9889 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 9887:9887 <> a:111
+R9897:9899 Stdlib.Lists.ListSet <> set def
+binder 9893:9893 <> x:112
+binder 9895:9895 <> y:113
+R9918:9921 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9908:9913 Stdlib.Lists.ListSet <> set_In def
+R9917:9917 Stdlib.Lists.ListSet <> x:112 var
+R9915:9915 Stdlib.Lists.ListSet <> a:111 var
+R9932:9935 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9922:9927 Stdlib.Lists.ListSet <> set_In def
+R9931:9931 Stdlib.Lists.ListSet <> y:113 var
+R9929:9929 Stdlib.Lists.ListSet <> a:111 var
+R9936:9941 Stdlib.Lists.ListSet <> set_In def
+R9946:9954 Stdlib.Lists.ListSet <> set_inter def
+R9958:9958 Stdlib.Lists.ListSet <> y:113 var
+R9956:9956 Stdlib.Lists.ListSet <> x:112 var
+R9943:9943 Stdlib.Lists.ListSet <> a:111 var
+R10119:10134 Stdlib.Lists.ListSet <> set_mem_correct1 thm
+R10162:10178 Stdlib.Lists.ListSet <> set_mem_complete1 thm
+R10200:10206 Stdlib.Lists.ListSet <> set_mem def
+R10278:10283 Stdlib.Lists.ListSet <> set_In def
+R10326:10332 Stdlib.Lists.ListSet <> set_mem def
+prf 10411:10425 <> set_inter_elim1
+R10442:10442 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 10440:10440 <> a:114
+R10450:10452 Stdlib.Lists.ListSet <> set def
+binder 10446:10446 <> x:115
+binder 10448:10448 <> y:116
+R10480:10483 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10456:10461 Stdlib.Lists.ListSet <> set_In def
+R10466:10474 Stdlib.Lists.ListSet <> set_inter def
+R10478:10478 Stdlib.Lists.ListSet <> y:116 var
+R10476:10476 Stdlib.Lists.ListSet <> x:115 var
+R10463:10463 Stdlib.Lists.ListSet <> a:114 var
+R10484:10489 Stdlib.Lists.ListSet <> set_In def
+R10493:10493 Stdlib.Lists.ListSet <> x:115 var
+R10491:10491 Stdlib.Lists.ListSet <> a:114 var
+R10607:10622 Stdlib.Lists.ListSet <> set_mem_correct1 thm
+R10643:10649 Stdlib.Lists.ListSet <> set_mem def
+prf 10758:10772 <> set_inter_elim2
+R10789:10789 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 10787:10787 <> a:117
+R10797:10799 Stdlib.Lists.ListSet <> set def
+binder 10793:10793 <> x:118
+binder 10795:10795 <> y:119
+R10827:10830 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10803:10808 Stdlib.Lists.ListSet <> set_In def
+R10813:10821 Stdlib.Lists.ListSet <> set_inter def
+R10825:10825 Stdlib.Lists.ListSet <> y:119 var
+R10823:10823 Stdlib.Lists.ListSet <> x:118 var
+R10810:10810 Stdlib.Lists.ListSet <> a:117 var
+R10831:10836 Stdlib.Lists.ListSet <> set_In def
+R10840:10840 Stdlib.Lists.ListSet <> y:119 var
+R10838:10838 Stdlib.Lists.ListSet <> a:117 var
+R10947:10962 Stdlib.Lists.ListSet <> set_mem_correct1 thm
+R10983:10989 Stdlib.Lists.ListSet <> set_mem def
+prf 11227:11240 <> set_inter_elim
+R11257:11257 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 11255:11255 <> a:120
+R11265:11267 Stdlib.Lists.ListSet <> set def
+binder 11261:11261 <> x:121
+binder 11263:11263 <> y:122
+R11300:11303 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11276:11281 Stdlib.Lists.ListSet <> set_In def
+R11286:11294 Stdlib.Lists.ListSet <> set_inter def
+R11298:11298 Stdlib.Lists.ListSet <> y:122 var
+R11296:11296 Stdlib.Lists.ListSet <> x:121 var
+R11283:11283 Stdlib.Lists.ListSet <> a:120 var
+R11314:11317 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11304:11309 Stdlib.Lists.ListSet <> set_In def
+R11313:11313 Stdlib.Lists.ListSet <> x:121 var
+R11311:11311 Stdlib.Lists.ListSet <> a:120 var
+R11318:11323 Stdlib.Lists.ListSet <> set_In def
+R11327:11327 Stdlib.Lists.ListSet <> y:122 var
+R11325:11325 Stdlib.Lists.ListSet <> a:120 var
+prf 11381:11393 <> set_inter_iff
+binder 11395:11395 <> a:123
+binder 11397:11397 <> l:124
+binder 11399:11400 <> l':125
+R11425:11429 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11404:11405 Stdlib.Lists.List <> In def
+R11410:11418 Stdlib.Lists.ListSet <> set_inter def
+R11422:11423 Stdlib.Lists.ListSet <> l':125 var
+R11420:11420 Stdlib.Lists.ListSet <> l:124 var
+R11407:11407 Stdlib.Lists.ListSet <> a:123 var
+R11436:11439 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11430:11431 Stdlib.Lists.List <> In def
+R11435:11435 Stdlib.Lists.ListSet <> l:124 var
+R11433:11433 Stdlib.Lists.ListSet <> a:123 var
+R11440:11441 Stdlib.Lists.List <> In def
+R11445:11446 Stdlib.Lists.ListSet <> l':125 var
+R11443:11443 Stdlib.Lists.ListSet <> a:123 var
+R11481:11494 Stdlib.Lists.ListSet <> set_inter_elim thm
+R11525:11539 Stdlib.Lists.ListSet <> set_inter_intro thm
+prf 11558:11572 <> set_inter_nodup
+binder 11574:11574 <> l:126
+binder 11576:11577 <> l':127
+R11588:11591 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11581:11585 Stdlib.Lists.List <> NoDup ind
+R11587:11587 Stdlib.Lists.ListSet <> l:126 var
+R11600:11603 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11592:11596 Stdlib.Lists.List <> NoDup ind
+R11598:11599 Stdlib.Lists.ListSet <> l':127 var
+R11604:11608 Stdlib.Lists.List <> NoDup ind
+R11611:11619 Stdlib.Lists.ListSet <> set_inter def
+R11623:11624 Stdlib.Lists.ListSet <> l':127 var
+R11621:11621 Stdlib.Lists.ListSet <> l:126 var
+R11722:11728 Stdlib.Lists.ListSet <> set_mem def
+R11775:11787 Stdlib.Lists.ListSet <> set_inter_iff thm
+prf 11813:11826 <> set_diff_intro
+R11843:11843 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 11841:11841 <> a:128
+R11851:11853 Stdlib.Lists.ListSet <> set def
+binder 11847:11847 <> x:129
+binder 11849:11849 <> y:130
+R11872:11875 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11862:11867 Stdlib.Lists.ListSet <> set_In def
+R11871:11871 Stdlib.Lists.ListSet <> x:129 var
+R11869:11869 Stdlib.Lists.ListSet <> a:128 var
+R11888:11891 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11876:11877 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R11878:11883 Stdlib.Lists.ListSet <> set_In def
+R11887:11887 Stdlib.Lists.ListSet <> y:130 var
+R11885:11885 Stdlib.Lists.ListSet <> a:128 var
+R11892:11897 Stdlib.Lists.ListSet <> set_In def
+R11902:11909 Stdlib.Lists.ListSet <> set_diff def
+R11913:11913 Stdlib.Lists.ListSet <> y:130 var
+R11911:11911 Stdlib.Lists.ListSet <> x:129 var
+R11899:11899 Stdlib.Lists.ListSet <> a:128 var
+R12053:12069 Stdlib.Lists.ListSet <> set_mem_complete2 thm
+R12095:12101 Stdlib.Lists.ListSet <> set_mem def
+R12190:12196 Stdlib.Lists.ListSet <> set_mem def
+prf 12242:12255 <> set_diff_elim1
+R12272:12272 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 12270:12270 <> a:131
+R12280:12282 Stdlib.Lists.ListSet <> set def
+binder 12276:12276 <> x:132
+binder 12278:12278 <> y:133
+R12309:12312 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12286:12291 Stdlib.Lists.ListSet <> set_In def
+R12296:12303 Stdlib.Lists.ListSet <> set_diff def
+R12307:12307 Stdlib.Lists.ListSet <> y:133 var
+R12305:12305 Stdlib.Lists.ListSet <> x:132 var
+R12293:12293 Stdlib.Lists.ListSet <> a:131 var
+R12313:12318 Stdlib.Lists.ListSet <> set_In def
+R12322:12322 Stdlib.Lists.ListSet <> x:132 var
+R12320:12320 Stdlib.Lists.ListSet <> a:131 var
+R12417:12423 Stdlib.Lists.ListSet <> set_mem def
+R12489:12500 Stdlib.Lists.ListSet <> set_add_elim thm
+prf 12575:12588 <> set_diff_elim2
+R12605:12605 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 12603:12603 <> a:134
+R12613:12615 Stdlib.Lists.ListSet <> set def
+binder 12609:12609 <> x:135
+binder 12611:12611 <> y:136
+R12642:12645 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12619:12624 Stdlib.Lists.ListSet <> set_In def
+R12629:12636 Stdlib.Lists.ListSet <> set_diff def
+R12640:12640 Stdlib.Lists.ListSet <> y:136 var
+R12638:12638 Stdlib.Lists.ListSet <> x:135 var
+R12626:12626 Stdlib.Lists.ListSet <> a:134 var
+R12646:12647 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12648:12653 Stdlib.Lists.ListSet <> set_In def
+R12657:12657 Stdlib.Lists.ListSet <> y:136 var
+R12655:12655 Stdlib.Lists.ListSet <> a:134 var
+R12759:12770 Stdlib.Lists.ListSet <> set_mem_ind2 thm
+R12803:12814 Stdlib.Lists.ListSet <> set_add_elim thm
+prf 12881:12892 <> set_diff_iff
+binder 12894:12894 <> a:137
+binder 12896:12896 <> l:138
+binder 12898:12899 <> l':139
+R12923:12927 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12903:12904 Stdlib.Lists.List <> In def
+R12909:12916 Stdlib.Lists.ListSet <> set_diff def
+R12920:12921 Stdlib.Lists.ListSet <> l':139 var
+R12918:12918 Stdlib.Lists.ListSet <> l:138 var
+R12906:12906 Stdlib.Lists.ListSet <> a:137 var
+R12934:12937 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12928:12929 Stdlib.Lists.List <> In def
+R12933:12933 Stdlib.Lists.ListSet <> l:138 var
+R12931:12931 Stdlib.Lists.ListSet <> a:137 var
+R12938:12938 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12939:12940 Stdlib.Lists.List <> In def
+R12944:12945 Stdlib.Lists.ListSet <> l':139 var
+R12942:12942 Stdlib.Lists.ListSet <> a:137 var
+R12985:12998 Stdlib.Lists.ListSet <> set_diff_elim1 thm
+R13009:13022 Stdlib.Lists.ListSet <> set_diff_elim2 thm
+R13059:13072 Stdlib.Lists.ListSet <> set_diff_intro thm
+prf 13091:13104 <> set_diff_nodup
+binder 13106:13106 <> l:140
+binder 13108:13109 <> l':141
+R13120:13123 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13113:13117 Stdlib.Lists.List <> NoDup ind
+R13119:13119 Stdlib.Lists.ListSet <> l:140 var
+R13124:13128 Stdlib.Lists.List <> NoDup ind
+R13131:13138 Stdlib.Lists.ListSet <> set_diff def
+R13142:13143 Stdlib.Lists.ListSet <> l':141 var
+R13140:13140 Stdlib.Lists.ListSet <> l:140 var
+R13227:13233 Stdlib.Lists.ListSet <> set_mem def
+R13253:13265 Stdlib.Lists.ListSet <> set_add_nodup thm
+prf 13284:13299 <> set_diff_trivial
+R13313:13313 Stdlib.Lists.ListSet <> first_definitions.A var
+binder 13311:13311 <> a:142
+R13319:13321 Stdlib.Lists.ListSet <> set def
+binder 13317:13317 <> x:143
+R13325:13326 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13327:13332 Stdlib.Lists.ListSet <> set_In def
+R13337:13344 Stdlib.Lists.ListSet <> set_diff def
+R13348:13348 Stdlib.Lists.ListSet <> x:143 var
+R13346:13346 Stdlib.Lists.ListSet <> x:143 var
+R13334:13334 Stdlib.Lists.ListSet <> a:142 var
+R13391:13404 Stdlib.Lists.ListSet <> set_diff_elim2 thm
+R13425:13438 Stdlib.Lists.ListSet <> set_diff_elim1 thm
+R13526:13542 Stdlib.Lists.ListSet first_definitions <> sec
+sec 13554:13570 <> other_definitions
+def 13587:13594 <> set_prod
+binder 13606:13606 <> A:144
+binder 13608:13608 <> B:145
+R13622:13625 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13617:13619 Stdlib.Lists.ListSet <> set def
+R13621:13621 Stdlib.Lists.ListSet <> A:144 var
+R13631:13634 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13626:13628 Stdlib.Lists.ListSet <> set def
+R13630:13630 Stdlib.Lists.ListSet <> B:145 var
+R13635:13637 Stdlib.Lists.ListSet <> set def
+R13641:13643 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13640:13640 Stdlib.Lists.ListSet <> A:144 var
+R13644:13644 Stdlib.Lists.ListSet <> B:145 var
+R13654:13662 Stdlib.Lists.List <> list_prod def
+def 13731:13739 <> set_power
+binder 13751:13751 <> A:146
+binder 13753:13753 <> B:147
+R13767:13770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13762:13764 Stdlib.Lists.ListSet <> set def
+R13766:13766 Stdlib.Lists.ListSet <> A:146 var
+R13776:13779 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13771:13773 Stdlib.Lists.ListSet <> set def
+R13775:13775 Stdlib.Lists.ListSet <> B:147 var
+R13780:13782 Stdlib.Lists.ListSet <> set def
+R13785:13787 Stdlib.Lists.ListSet <> set def
+R13791:13793 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13790:13790 Stdlib.Lists.ListSet <> A:146 var
+R13794:13794 Stdlib.Lists.ListSet <> B:147 var
+R13805:13814 Stdlib.Lists.List <> list_power def
+def 13831:13843 <> set_fold_left
+binder 13846:13846 <> A:148
+binder 13848:13848 <> B:149
+R13858:13858 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13870:13874 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13860:13863 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13859:13859 Stdlib.Lists.ListSet <> B:149 var
+R13865:13868 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13864:13864 Stdlib.Lists.ListSet <> A:148 var
+R13869:13869 Stdlib.Lists.ListSet <> B:149 var
+R13880:13883 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13875:13877 Stdlib.Lists.ListSet <> set def
+R13879:13879 Stdlib.Lists.ListSet <> A:148 var
+R13885:13888 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13884:13884 Stdlib.Lists.ListSet <> B:149 var
+R13889:13889 Stdlib.Lists.ListSet <> B:149 var
+R13898:13906 Stdlib.Lists.List <> fold_left def
+R13919:13919 Stdlib.Lists.ListSet <> A:148 var
+R13912:13912 Stdlib.Lists.ListSet <> B:149 var
+def 13937:13950 <> set_fold_right
+binder 13953:13953 <> A:150
+binder 13955:13955 <> B:151
+R13967:13970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13966:13966 Stdlib.Lists.ListSet <> A:150 var
+R13972:13975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13971:13971 Stdlib.Lists.ListSet <> B:151 var
+R13976:13976 Stdlib.Lists.ListSet <> B:151 var
+binder 13964:13964 <> f:152
+R13982:13984 Stdlib.Lists.ListSet <> set def
+R13986:13986 Stdlib.Lists.ListSet <> A:150 var
+binder 13980:13980 <> x:153
+R13996:13996 Stdlib.Lists.ListSet <> B:151 var
+binder 13994:13994 <> b:154
+R14001:14001 Stdlib.Lists.ListSet <> B:151 var
+R14006:14015 Stdlib.Lists.List <> fold_right def
+R14021:14021 Stdlib.Lists.ListSet <> x:153 var
+R14019:14019 Stdlib.Lists.ListSet <> b:154 var
+R14017:14017 Stdlib.Lists.ListSet <> f:152 var
+def 14038:14044 <> set_map
+binder 14047:14047 <> A:155
+binder 14049:14049 <> B:156
+R14079:14079 Stdlib.Lists.ListSet <> B:156 var
+binder 14075:14075 <> x:157
+binder 14077:14077 <> y:158
+R14082:14082 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14088:14092 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14099:14099 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14084:14086 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14083:14083 Stdlib.Lists.ListSet <> x:157 var
+R14087:14087 Stdlib.Lists.ListSet <> y:158 var
+R14094:14097 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14093:14093 Stdlib.Lists.ListSet <> x:157 var
+R14098:14098 Stdlib.Lists.ListSet <> y:158 var
+binder 14058:14064 <> Aeq_dec:159
+R14112:14115 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14111:14111 Stdlib.Lists.ListSet <> A:155 var
+R14116:14116 Stdlib.Lists.ListSet <> B:156 var
+binder 14107:14107 <> f:160
+R14124:14126 Stdlib.Lists.ListSet <> set def
+R14128:14128 Stdlib.Lists.ListSet <> A:155 var
+binder 14120:14120 <> x:161
+R14133:14135 Stdlib.Lists.ListSet <> set def
+R14137:14137 Stdlib.Lists.ListSet <> B:156 var
+R14146:14159 Stdlib.Lists.ListSet <> set_fold_right def
+R14197:14205 Stdlib.Lists.ListSet <> empty_set def
+R14207:14207 Stdlib.Lists.ListSet <> B:156 var
+R14194:14194 Stdlib.Lists.ListSet <> x:161 var
+binder 14166:14166 <> a:162
+R14171:14177 Stdlib.Lists.ListSet <> set_add def
+R14188:14188 Stdlib.Lists.ListSet <> f:160 var
+R14190:14190 Stdlib.Lists.ListSet <> a:162 var
+R14179:14185 Stdlib.Lists.ListSet <> Aeq_dec:159 var
+R14216:14232 Stdlib.Lists.ListSet other_definitions <> sec

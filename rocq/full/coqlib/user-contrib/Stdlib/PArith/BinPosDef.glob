@@ -1,0 +1,948 @@
+DIGEST 33f7195c08568a3f85b9d0955e4d54d0
+FStdlib.PArith.BinPosDef
+R1099:1105 Stdlib.Numbers.BinNums <> <> lib
+R1107:1120 Stdlib.BinNums.PosDef <> <> lib
+mod 1168:1170 <> Pos
+R1182:1199 Corelib.BinNums.PosDef Pos <> mod
+def 1214:1214 Pos t
+R1219:1226 Corelib.Numbers.BinNums <> positive ind
+R1286:1288 Stdlib.PArith.BinPosDef Pos add def
+not 1279:1279 Pos ::positive_scope:x_'+'_x
+def 1343:1346 Pos pred
+binder 1348:1348 <> x:1
+R1361:1361 Stdlib.PArith.BinPosDef <> x:1 var
+R1375:1376 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1382:1383 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1392:1393 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1398:1408 Stdlib.PArith.BinPosDef Pos pred_double def
+def 1477:1485 Pos pred_mask
+R1492:1495 Stdlib.PArith.BinPosDef Pos mask ind
+binder 1488:1488 <> p:3
+R1500:1503 Stdlib.PArith.BinPosDef Pos mask ind
+R1516:1516 Stdlib.PArith.BinPosDef <> p:3 var
+R1529:1533 Stdlib.PArith.BinPosDef Pos IsPos constr
+R1540:1544 Stdlib.PArith.BinPosDef Pos IsNul constr
+R1552:1556 Stdlib.PArith.BinPosDef Pos IsPos constr
+R1563:1567 Stdlib.PArith.BinPosDef Pos IsPos constr
+R1570:1573 Stdlib.PArith.BinPosDef Pos pred def
+R1584:1588 Stdlib.PArith.BinPosDef Pos IsNul constr
+R1593:1597 Stdlib.PArith.BinPosDef Pos IsNeg constr
+R1605:1609 Stdlib.PArith.BinPosDef Pos IsNeg constr
+R1614:1618 Stdlib.PArith.BinPosDef Pos IsNeg constr
+R1641:1643 Stdlib.PArith.BinPosDef Pos sub def
+not 1634:1634 Pos ::positive_scope:x_'-'_x
+R1677:1679 Stdlib.PArith.BinPosDef Pos mul def
+not 1670:1670 Pos ::positive_scope:x_'*'_x
+def 1728:1730 Pos pow
+R1735:1742 Corelib.Numbers.BinNums <> positive ind
+binder 1733:1733 <> x:5
+R1748:1751 Stdlib.PArith.BinPosDef Pos iter def
+R1754:1756 Stdlib.PArith.BinPosDef Pos mul def
+R1758:1758 Stdlib.PArith.BinPosDef <> x:5 var
+R1778:1780 Stdlib.PArith.BinPosDef Pos pow def
+not 1771:1771 Pos ::positive_scope:x_'^'_x
+def 1828:1833 Pos square
+binder 1835:1835 <> p:6
+R1848:1848 Stdlib.PArith.BinPosDef <> p:6 var
+R1862:1863 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1884:1885 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R1868:1868 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1881:1883 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1877:1879 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'+'_x not
+R1869:1874 Stdlib.PArith.BinPosDef <> square:7 def
+R1876:1876 Stdlib.PArith.BinPosDef <> p:6 var
+R1880:1880 Stdlib.PArith.BinPosDef <> p:6 var
+R1894:1895 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1912:1913 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1900:1900 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1909:1911 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R1901:1906 Stdlib.PArith.BinPosDef <> square:7 def
+R1908:1908 Stdlib.PArith.BinPosDef <> p:6 var
+def 1994:2001 Pos size_nat
+binder 2003:2003 <> p:9
+R2007:2009 Corelib.Init.Datatypes <> nat ind
+R2022:2022 Stdlib.PArith.BinPosDef <> p:9 var
+R2040:2040 Corelib.Init.Datatypes <> S constr
+R2042:2042 Corelib.Init.Datatypes <> O constr
+R2051:2052 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R2057:2057 Corelib.Init.Datatypes <> S constr
+R2060:2067 Stdlib.PArith.BinPosDef <> size_nat:10 def
+R2069:2069 Stdlib.PArith.BinPosDef <> p:9 var
+R2079:2080 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R2085:2085 Corelib.Init.Datatypes <> S constr
+R2088:2095 Stdlib.PArith.BinPosDef <> size_nat:10 def
+R2097:2097 Stdlib.PArith.BinPosDef <> p:9 var
+def 2152:2155 Pos size
+binder 2157:2157 <> p:12
+R2170:2170 Stdlib.PArith.BinPosDef <> p:12 var
+R2197:2198 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R2203:2206 Stdlib.PArith.BinPosDef Pos succ def
+R2209:2212 Stdlib.PArith.BinPosDef <> size:13 def
+R2214:2214 Stdlib.PArith.BinPosDef <> p:12 var
+R2224:2225 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R2230:2233 Stdlib.PArith.BinPosDef Pos succ def
+R2236:2239 Stdlib.PArith.BinPosDef <> size:13 def
+R2241:2241 Stdlib.PArith.BinPosDef <> p:12 var
+R2266:2272 Stdlib.PArith.BinPosDef Pos compare def
+not 2258:2258 Pos ::positive_scope:x_'?='_x
+def 2336:2338 Pos min
+binder 2340:2340 <> p:15
+binder 2342:2343 <> p':16
+R2356:2359 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'?='_x not
+R2355:2355 Stdlib.PArith.BinPosDef <> p:15 var
+R2360:2361 Stdlib.PArith.BinPosDef <> p':16 var
+R2371:2372 Corelib.Init.Datatypes <> Lt constr
+R2376:2377 Corelib.Init.Datatypes <> Eq constr
+R2382:2382 Stdlib.PArith.BinPosDef <> p:15 var
+R2387:2388 Corelib.Init.Datatypes <> Gt constr
+R2393:2394 Stdlib.PArith.BinPosDef <> p':16 var
+def 2414:2416 Pos max
+binder 2418:2418 <> p:17
+binder 2420:2421 <> p':18
+R2434:2437 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'?='_x not
+R2433:2433 Stdlib.PArith.BinPosDef <> p:17 var
+R2438:2439 Stdlib.PArith.BinPosDef <> p':18 var
+R2449:2450 Corelib.Init.Datatypes <> Lt constr
+R2454:2455 Corelib.Init.Datatypes <> Eq constr
+R2460:2461 Stdlib.PArith.BinPosDef <> p':18 var
+R2466:2467 Corelib.Init.Datatypes <> Gt constr
+R2472:2472 Stdlib.PArith.BinPosDef <> p:17 var
+def 2536:2538 Pos ltb
+binder 2540:2540 <> x:19
+binder 2542:2542 <> y:20
+R2555:2558 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'?='_x not
+R2554:2554 Stdlib.PArith.BinPosDef <> x:19 var
+R2559:2559 Stdlib.PArith.BinPosDef <> y:20 var
+R2566:2567 Corelib.Init.Datatypes <> Lt constr
+R2572:2575 Corelib.Init.Datatypes <> true constr
+R2584:2588 Corelib.Init.Datatypes <> false constr
+R2610:2612 Stdlib.PArith.BinPosDef Pos eqb def
+not 2602:2602 Pos ::positive_scope:x_'=?'_x
+R2679:2681 Stdlib.PArith.BinPosDef Pos leb def
+not 2670:2670 Pos ::positive_scope:x_'<=?'_x
+R2747:2749 Stdlib.PArith.BinPosDef Pos ltb def
+not 2739:2739 Pos ::positive_scope:x_'<?'_x
+def 2848:2853 Pos divide
+binder 2855:2855 <> p:21
+binder 2857:2857 <> q:22
+R2862:2868 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2870:2871 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2869:2869 <> r:23
+R2873:2875 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2872:2872 Stdlib.PArith.BinPosDef <> q:22 var
+R2877:2877 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'*'_x not
+R2876:2876 Stdlib.PArith.BinPosDef <> r:23 var
+R2878:2878 Stdlib.PArith.BinPosDef <> p:21 var
+R2906:2911 Stdlib.PArith.BinPosDef Pos divide def
+not 2890:2890 Pos ::positive_scope:'('_x_'|'_x_')'
+def 3222:3225 Pos gcdn
+R3232:3234 Corelib.Init.Datatypes <> nat ind
+binder 3228:3228 <> n:24
+R3244:3251 Corelib.Numbers.BinNums <> positive ind
+binder 3238:3238 <> a:25
+binder 3240:3240 <> b:26
+R3256:3263 Corelib.Numbers.BinNums <> positive ind
+R3276:3276 Stdlib.PArith.BinPosDef <> n:24 var
+R3289:3289 Corelib.Init.Datatypes <> O constr
+R3302:3302 Corelib.Init.Datatypes <> S constr
+R3323:3323 Stdlib.PArith.BinPosDef <> b:26 var
+R3321:3321 Stdlib.PArith.BinPosDef <> a:25 var
+R3381:3382 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3386:3387 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3392:3392 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3403:3405 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3393:3396 Stdlib.PArith.BinPosDef <> gcdn:27 def
+R3402:3402 Stdlib.PArith.BinPosDef <> b:26 var
+R3400:3400 Stdlib.PArith.BinPosDef <> a:25 var
+R3398:3398 Stdlib.PArith.BinPosDef <> n:24 var
+R3423:3424 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3429:3432 Stdlib.PArith.BinPosDef <> gcdn:27 def
+R3438:3438 Stdlib.PArith.BinPosDef <> b:26 var
+R3436:3436 Stdlib.PArith.BinPosDef <> a:25 var
+R3434:3434 Stdlib.PArith.BinPosDef <> n:24 var
+R3451:3452 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R3462:3465 Stdlib.PArith.BinPosDef <> gcdn:27 def
+R3471:3471 Stdlib.PArith.BinPosDef <> b:26 var
+R3469:3469 Stdlib.PArith.BinPosDef <> a:25 var
+R3467:3467 Stdlib.PArith.BinPosDef <> n:24 var
+R3485:3486 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R3491:3492 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R3515:3518 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'?='_x not
+R3541:3542 Corelib.Init.Datatypes <> Eq constr
+R3547:3547 Stdlib.PArith.BinPosDef <> a:25 var
+R3563:3564 Corelib.Init.Datatypes <> Lt constr
+R3569:3572 Stdlib.PArith.BinPosDef <> gcdn:27 def
+R3584:3584 Stdlib.PArith.BinPosDef <> a:25 var
+R3579:3579 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'-'_x not
+R3574:3574 Stdlib.PArith.BinPosDef <> n:24 var
+R3600:3601 Corelib.Init.Datatypes <> Gt constr
+R3606:3609 Stdlib.PArith.BinPosDef <> gcdn:27 def
+R3621:3621 Stdlib.PArith.BinPosDef <> b:26 var
+R3616:3616 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'-'_x not
+R3611:3611 Stdlib.PArith.BinPosDef <> n:24 var
+def 3730:3732 Pos gcd
+R3741:3748 Corelib.Numbers.BinNums <> positive ind
+binder 3735:3735 <> a:31
+binder 3737:3737 <> b:32
+R3754:3757 Stdlib.PArith.BinPosDef Pos gcdn def
+R3770:3772 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R3760:3767 Stdlib.PArith.BinPosDef Pos size_nat def
+R3769:3769 Stdlib.PArith.BinPosDef <> a:31 var
+R3773:3780 Stdlib.PArith.BinPosDef Pos size_nat def
+R3782:3782 Stdlib.PArith.BinPosDef <> b:32 var
+R3789:3789 Stdlib.PArith.BinPosDef <> a:31 var
+R3791:3791 Stdlib.PArith.BinPosDef <> b:32 var
+def 3902:3906 Pos ggcdn
+R3913:3915 Corelib.Init.Datatypes <> nat ind
+binder 3909:3909 <> n:33
+R3925:3932 Corelib.Numbers.BinNums <> positive ind
+binder 3919:3919 <> a:34
+binder 3921:3921 <> b:35
+R3946:3947 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3965:3965 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3938:3945 Corelib.Numbers.BinNums <> positive ind
+R3956:3956 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3948:3955 Corelib.Numbers.BinNums <> positive ind
+R3957:3964 Corelib.Numbers.BinNums <> positive ind
+R3979:3979 Stdlib.PArith.BinPosDef <> n:33 var
+R3992:3992 Corelib.Init.Datatypes <> O constr
+R3997:3997 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3999:3999 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4005:4005 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4000:4000 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4002:4002 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4004:4004 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4001:4001 Stdlib.PArith.BinPosDef <> a:34 var
+R4003:4003 Stdlib.PArith.BinPosDef <> b:35 var
+R4013:4013 Corelib.Init.Datatypes <> S constr
+R4034:4034 Stdlib.PArith.BinPosDef <> b:35 var
+R4032:4032 Stdlib.PArith.BinPosDef <> a:34 var
+R4059:4059 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4061:4061 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4067:4067 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4062:4062 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4064:4064 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4066:4066 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4065:4065 Stdlib.PArith.BinPosDef <> b:35 var
+R4087:4087 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4089:4089 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4095:4095 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4090:4090 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4092:4092 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4094:4094 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4091:4091 Stdlib.PArith.BinPosDef <> a:34 var
+R4108:4109 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4113:4114 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4143:4147 Stdlib.PArith.BinPosDef <> ggcdn:36 def
+R4153:4153 Stdlib.PArith.BinPosDef <> b:35 var
+R4151:4151 Stdlib.PArith.BinPosDef <> a:34 var
+R4149:4149 Stdlib.PArith.BinPosDef <> n:33 var
+binder 4135:4135 <> g:40
+binder 4137:4137 <> p:41
+R4169:4169 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4173:4173 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4175:4175 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4171:4172 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4170:4170 Stdlib.PArith.BinPosDef <> g:40 var
+R4174:4174 Stdlib.PArith.BinPosDef <> p:41 var
+R4191:4192 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4228:4232 Stdlib.PArith.BinPosDef <> ggcdn:36 def
+R4238:4238 Stdlib.PArith.BinPosDef <> b:35 var
+R4236:4236 Stdlib.PArith.BinPosDef <> a:34 var
+R4234:4234 Stdlib.PArith.BinPosDef <> n:33 var
+R4213:4213 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4215:4215 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4223:4223 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4216:4216 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4219:4219 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4222:4222 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4254:4254 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4256:4256 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4267:4267 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4257:4257 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4260:4261 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4266:4266 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4264:4265 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4280:4281 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4320:4324 Stdlib.PArith.BinPosDef <> ggcdn:36 def
+R4330:4330 Stdlib.PArith.BinPosDef <> b:35 var
+R4328:4328 Stdlib.PArith.BinPosDef <> a:34 var
+R4326:4326 Stdlib.PArith.BinPosDef <> n:33 var
+R4305:4305 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4307:4307 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4315:4315 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4308:4308 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4311:4311 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4314:4314 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4346:4346 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4348:4348 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4359:4359 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4349:4349 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4354:4355 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4358:4358 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4352:4353 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4373:4374 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R4379:4380 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R4404:4407 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'?='_x not
+R4431:4432 Corelib.Init.Datatypes <> Eq constr
+R4437:4437 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4439:4439 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4445:4445 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4438:4438 Stdlib.PArith.BinPosDef <> a:34 var
+R4440:4440 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4442:4442 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4444:4444 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4462:4463 Corelib.Init.Datatypes <> Lt constr
+R4504:4508 Stdlib.PArith.BinPosDef <> ggcdn:36 def
+R4520:4520 Stdlib.PArith.BinPosDef <> a:34 var
+R4515:4515 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'-'_x not
+R4510:4510 Stdlib.PArith.BinPosDef <> n:33 var
+R4489:4489 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4491:4491 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4499:4499 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4492:4492 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4495:4495 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4498:4498 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4541:4541 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4543:4543 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4559:4559 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4544:4544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4547:4548 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4558:4558 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4551:4553 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'+'_x not
+R4556:4557 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R4576:4577 Corelib.Init.Datatypes <> Gt constr
+R4618:4622 Stdlib.PArith.BinPosDef <> ggcdn:36 def
+R4634:4634 Stdlib.PArith.BinPosDef <> b:35 var
+R4629:4629 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'-'_x not
+R4624:4624 Stdlib.PArith.BinPosDef <> n:33 var
+R4603:4603 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4605:4605 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4613:4613 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4606:4606 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4609:4609 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4612:4612 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4655:4655 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4657:4657 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4673:4673 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4658:4658 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4668:4669 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4672:4672 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4661:4663 Stdlib.PArith.BinPosDef Pos ::positive_scope:x_'+'_x not
+R4666:4667 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+def 4719:4722 Pos ggcd
+R4730:4737 Corelib.Numbers.BinNums <> positive ind
+binder 4725:4725 <> a:42
+binder 4727:4727 <> b:43
+R4743:4747 Stdlib.PArith.BinPosDef Pos ggcdn def
+R4760:4762 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4750:4757 Stdlib.PArith.BinPosDef Pos size_nat def
+R4759:4759 Stdlib.PArith.BinPosDef <> a:42 var
+R4763:4770 Stdlib.PArith.BinPosDef Pos size_nat def
+R4772:4772 Stdlib.PArith.BinPosDef <> b:43 var
+R4779:4779 Stdlib.PArith.BinPosDef <> a:42 var
+R4781:4781 Stdlib.PArith.BinPosDef <> b:43 var
+def 4845:4854 Pos shiftl_nat
+R4859:4866 Corelib.Numbers.BinNums <> positive ind
+binder 4857:4857 <> p:44
+R4872:4879 Corelib.Init.Datatypes <> nat_rect scheme
+R4895:4896 Corelib.Numbers.BinNums <> xO constr
+R4883:4883 Stdlib.PArith.BinPosDef <> p:44 var
+def 4911:4920 Pos shiftr_nat
+R4925:4932 Corelib.Numbers.BinNums <> positive ind
+binder 4923:4923 <> p:45
+R4938:4945 Corelib.Init.Datatypes <> nat_rect scheme
+R4961:4964 Stdlib.PArith.BinPosDef Pos div2 def
+R4949:4949 Stdlib.PArith.BinPosDef <> p:45 var
+def 4980:4985 Pos shiftl
+R4990:4997 Corelib.Numbers.BinNums <> positive ind
+binder 4988:4988 <> p:46
+R5002:5002 Corelib.Numbers.BinNums <> N ind
+binder 5000:5000 <> n:47
+R5016:5016 Stdlib.PArith.BinPosDef <> n:47 var
+R5029:5030 Corelib.Numbers.BinNums <> N0 constr
+R5035:5035 Stdlib.PArith.BinPosDef <> p:46 var
+R5043:5046 Corelib.Numbers.BinNums <> Npos constr
+R5053:5056 Stdlib.PArith.BinPosDef Pos iter def
+R5063:5063 Stdlib.PArith.BinPosDef <> n:47 var
+R5061:5061 Stdlib.PArith.BinPosDef <> p:46 var
+R5058:5059 Corelib.Numbers.BinNums <> xO constr
+def 5084:5089 Pos shiftr
+R5094:5101 Corelib.Numbers.BinNums <> positive ind
+binder 5092:5092 <> p:49
+R5106:5106 Corelib.Numbers.BinNums <> N ind
+binder 5104:5104 <> n:50
+R5120:5120 Stdlib.PArith.BinPosDef <> n:50 var
+R5133:5134 Corelib.Numbers.BinNums <> N0 constr
+R5139:5139 Stdlib.PArith.BinPosDef <> p:49 var
+R5147:5150 Corelib.Numbers.BinNums <> Npos constr
+R5157:5160 Stdlib.PArith.BinPosDef Pos iter def
+R5169:5169 Stdlib.PArith.BinPosDef <> n:50 var
+R5167:5167 Stdlib.PArith.BinPosDef <> p:49 var
+R5162:5165 Stdlib.PArith.BinPosDef Pos div2 def
+def 5244:5254 Pos testbit_nat
+R5259:5266 Corelib.Numbers.BinNums <> positive ind
+binder 5257:5257 <> p:52
+R5274:5277 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5271:5273 Corelib.Init.Datatypes <> nat ind
+R5278:5281 Corelib.Init.Datatypes <> bool ind
+R5294:5294 Stdlib.PArith.BinPosDef <> p:52 var
+binder 5316:5316 <> n:55
+R5327:5327 Stdlib.PArith.BinPosDef <> n:55 var
+R5358:5358 Corelib.Init.Datatypes <> O constr
+R5363:5366 Corelib.Init.Datatypes <> true constr
+R5392:5392 Corelib.Init.Datatypes <> S constr
+R5399:5403 Corelib.Init.Datatypes <> false constr
+R5436:5437 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+binder 5446:5446 <> n:57
+R5457:5457 Stdlib.PArith.BinPosDef <> n:57 var
+R5490:5490 Corelib.Init.Datatypes <> O constr
+R5495:5499 Corelib.Init.Datatypes <> false constr
+R5527:5527 Corelib.Init.Datatypes <> S constr
+R5535:5545 Stdlib.PArith.BinPosDef <> testbit_nat:53 def
+R5547:5547 Stdlib.PArith.BinPosDef <> p:52 var
+R5585:5586 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+binder 5595:5595 <> n:59
+R5606:5606 Stdlib.PArith.BinPosDef <> n:59 var
+R5639:5639 Corelib.Init.Datatypes <> O constr
+R5644:5647 Corelib.Init.Datatypes <> true constr
+R5675:5675 Corelib.Init.Datatypes <> S constr
+R5683:5693 Stdlib.PArith.BinPosDef <> testbit_nat:53 def
+R5695:5695 Stdlib.PArith.BinPosDef <> p:52 var
+def 5777:5783 Pos testbit
+R5788:5795 Corelib.Numbers.BinNums <> positive ind
+binder 5786:5786 <> p:61
+R5800:5800 Corelib.Numbers.BinNums <> N ind
+binder 5798:5798 <> n:62
+R5817:5817 Stdlib.PArith.BinPosDef <> n:62 var
+R5814:5814 Stdlib.PArith.BinPosDef <> p:61 var
+R5831:5832 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5835:5836 Corelib.Numbers.BinNums <> N0 constr
+R5841:5845 Corelib.Init.Datatypes <> false constr
+R5856:5857 Corelib.Numbers.BinNums <> N0 constr
+R5862:5865 Corelib.Init.Datatypes <> true constr
+R5881:5885 Corelib.Init.Datatypes <> false constr
+R5894:5895 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R5898:5901 Corelib.Numbers.BinNums <> Npos constr
+R5908:5914 Stdlib.PArith.BinPosDef <> testbit:63 def
+R5919:5924 Stdlib.PArith.BinPosDef Pos pred_N def
+R5926:5926 Stdlib.PArith.BinPosDef <> n:62 var
+R5916:5916 Stdlib.PArith.BinPosDef <> p:61 var
+R5936:5937 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R5940:5943 Corelib.Numbers.BinNums <> Npos constr
+R5950:5956 Stdlib.PArith.BinPosDef <> testbit:63 def
+R5961:5966 Stdlib.PArith.BinPosDef Pos pred_N def
+R5968:5968 Stdlib.PArith.BinPosDef <> n:62 var
+R5958:5958 Stdlib.PArith.BinPosDef <> p:61 var
+def 6120:6125 Pos of_nat
+R6130:6132 Corelib.Init.Datatypes <> nat ind
+binder 6128:6128 <> n:66
+R6137:6144 Corelib.Numbers.BinNums <> positive ind
+R6156:6156 Stdlib.PArith.BinPosDef <> n:66 var
+R6168:6168 Corelib.Init.Datatypes <> O constr
+R6180:6180 Corelib.Init.Datatypes <> S constr
+R6182:6182 Corelib.Init.Datatypes <> O constr
+R6194:6194 Corelib.Init.Datatypes <> S constr
+R6201:6204 Stdlib.PArith.BinPosDef Pos succ def
+R6207:6212 Stdlib.PArith.BinPosDef <> of_nat:67 def
+abbrev 6315:6317 Pos ten
+R6327:6328 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6325:6326 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6323:6324 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+def 6341:6351 Pos of_uint_acc
+R6356:6367 Corelib.Init.Decimal <> uint ind
+binder 6354:6354 <> d:69
+R6374:6381 Corelib.Numbers.BinNums <> positive ind
+binder 6370:6372 <> acc:70
+R6395:6395 Stdlib.PArith.BinPosDef <> d:69 var
+R6406:6416 Corelib.Init.Decimal <> Nil constr
+R6421:6423 Stdlib.PArith.BinPosDef <> acc:70 var
+R6429:6438 Corelib.Init.Decimal <> D0 constr
+R6445:6455 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6460:6462 Stdlib.PArith.BinPosDef Pos mul def
+R6464:6466 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6468:6470 Stdlib.PArith.BinPosDef <> acc:70 var
+R6477:6486 Corelib.Init.Decimal <> D1 constr
+R6493:6503 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6508:6510 Stdlib.PArith.BinPosDef Pos add def
+R6515:6517 Stdlib.PArith.BinPosDef Pos mul def
+R6519:6521 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6523:6525 Stdlib.PArith.BinPosDef <> acc:70 var
+R6533:6542 Corelib.Init.Decimal <> D2 constr
+R6549:6559 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6564:6566 Stdlib.PArith.BinPosDef Pos add def
+R6569:6570 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6573:6575 Stdlib.PArith.BinPosDef Pos mul def
+R6577:6579 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6581:6583 Stdlib.PArith.BinPosDef <> acc:70 var
+R6591:6600 Corelib.Init.Decimal <> D3 constr
+R6607:6617 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6622:6624 Stdlib.PArith.BinPosDef Pos add def
+R6627:6628 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6631:6633 Stdlib.PArith.BinPosDef Pos mul def
+R6635:6637 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6639:6641 Stdlib.PArith.BinPosDef <> acc:70 var
+R6649:6658 Corelib.Init.Decimal <> D4 constr
+R6665:6675 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6680:6682 Stdlib.PArith.BinPosDef Pos add def
+R6687:6688 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6685:6686 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6691:6693 Stdlib.PArith.BinPosDef Pos mul def
+R6695:6697 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6699:6701 Stdlib.PArith.BinPosDef <> acc:70 var
+R6709:6718 Corelib.Init.Decimal <> D5 constr
+R6725:6735 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6740:6742 Stdlib.PArith.BinPosDef Pos add def
+R6747:6748 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6745:6746 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6751:6753 Stdlib.PArith.BinPosDef Pos mul def
+R6755:6757 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6759:6761 Stdlib.PArith.BinPosDef <> acc:70 var
+R6769:6778 Corelib.Init.Decimal <> D6 constr
+R6785:6795 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6800:6802 Stdlib.PArith.BinPosDef Pos add def
+R6807:6808 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6805:6806 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6811:6813 Stdlib.PArith.BinPosDef Pos mul def
+R6815:6817 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6819:6821 Stdlib.PArith.BinPosDef <> acc:70 var
+R6829:6838 Corelib.Init.Decimal <> D7 constr
+R6845:6855 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6860:6862 Stdlib.PArith.BinPosDef Pos add def
+R6867:6868 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6865:6866 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6871:6873 Stdlib.PArith.BinPosDef Pos mul def
+R6875:6877 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6879:6881 Stdlib.PArith.BinPosDef <> acc:70 var
+R6889:6898 Corelib.Init.Decimal <> D8 constr
+R6905:6915 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6920:6922 Stdlib.PArith.BinPosDef Pos add def
+R6929:6930 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6927:6928 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6925:6926 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6933:6935 Stdlib.PArith.BinPosDef Pos mul def
+R6937:6939 Stdlib.PArith.BinPosDef Pos ten abbrev
+R6941:6943 Stdlib.PArith.BinPosDef <> acc:70 var
+R6951:6960 Corelib.Init.Decimal <> D9 constr
+R6967:6977 Stdlib.PArith.BinPosDef <> of_uint_acc:71 def
+R6982:6984 Stdlib.PArith.BinPosDef Pos add def
+R6991:6992 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R6989:6990 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6987:6988 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R6995:6997 Stdlib.PArith.BinPosDef Pos mul def
+R6999:7001 Stdlib.PArith.BinPosDef Pos ten abbrev
+R7003:7005 Stdlib.PArith.BinPosDef <> acc:70 var
+def 7026:7032 Pos of_uint
+R7037:7048 Corelib.Init.Decimal <> uint ind
+binder 7035:7035 <> d:73
+R7053:7053 Corelib.Numbers.BinNums <> N ind
+R7066:7066 Stdlib.PArith.BinPosDef <> d:73 var
+R7077:7087 Corelib.Init.Decimal <> Nil constr
+R7092:7093 Corelib.Numbers.BinNums <> N0 constr
+R7099:7108 Corelib.Init.Decimal <> D0 constr
+R7115:7121 Stdlib.PArith.BinPosDef <> of_uint:74 def
+R7129:7138 Corelib.Init.Decimal <> D1 constr
+R7145:7148 Corelib.Numbers.BinNums <> Npos constr
+R7151:7161 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7172:7181 Corelib.Init.Decimal <> D2 constr
+R7188:7191 Corelib.Numbers.BinNums <> Npos constr
+R7194:7204 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7209:7210 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7217:7226 Corelib.Init.Decimal <> D3 constr
+R7233:7236 Corelib.Numbers.BinNums <> Npos constr
+R7239:7249 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7254:7255 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7262:7271 Corelib.Init.Decimal <> D4 constr
+R7278:7281 Corelib.Numbers.BinNums <> Npos constr
+R7284:7294 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7301:7302 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7299:7300 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7309:7318 Corelib.Init.Decimal <> D5 constr
+R7325:7328 Corelib.Numbers.BinNums <> Npos constr
+R7331:7341 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7348:7349 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7346:7347 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7356:7365 Corelib.Init.Decimal <> D6 constr
+R7372:7375 Corelib.Numbers.BinNums <> Npos constr
+R7378:7388 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7395:7396 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7393:7394 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7403:7412 Corelib.Init.Decimal <> D7 constr
+R7419:7422 Corelib.Numbers.BinNums <> Npos constr
+R7425:7435 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7442:7443 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7440:7441 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7450:7459 Corelib.Init.Decimal <> D8 constr
+R7466:7469 Corelib.Numbers.BinNums <> Npos constr
+R7472:7482 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7491:7492 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7489:7490 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7487:7488 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7499:7508 Corelib.Init.Decimal <> D9 constr
+R7515:7518 Corelib.Numbers.BinNums <> Npos constr
+R7521:7531 Stdlib.PArith.BinPosDef Pos of_uint_acc def
+R7540:7541 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7538:7539 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7536:7537 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+abbrev 7570:7576 Pos sixteen
+R7588:7589 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7586:7587 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7584:7585 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7582:7583 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+def 7602:7616 Pos of_hex_uint_acc
+R7621:7636 Corelib.Init.Hexadecimal <> uint ind
+binder 7619:7619 <> d:76
+R7643:7650 Corelib.Numbers.BinNums <> positive ind
+binder 7639:7641 <> acc:77
+R7664:7664 Stdlib.PArith.BinPosDef <> d:76 var
+R7675:7689 Corelib.Init.Hexadecimal <> Nil constr
+R7694:7696 Stdlib.PArith.BinPosDef <> acc:77 var
+R7702:7715 Corelib.Init.Hexadecimal <> D0 constr
+R7722:7736 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R7741:7743 Stdlib.PArith.BinPosDef Pos mul def
+R7745:7751 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R7753:7755 Stdlib.PArith.BinPosDef <> acc:77 var
+R7762:7775 Corelib.Init.Hexadecimal <> D1 constr
+R7782:7796 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R7801:7803 Stdlib.PArith.BinPosDef Pos add def
+R7808:7810 Stdlib.PArith.BinPosDef Pos mul def
+R7812:7818 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R7820:7822 Stdlib.PArith.BinPosDef <> acc:77 var
+R7830:7843 Corelib.Init.Hexadecimal <> D2 constr
+R7850:7864 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R7869:7871 Stdlib.PArith.BinPosDef Pos add def
+R7874:7875 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R7878:7880 Stdlib.PArith.BinPosDef Pos mul def
+R7882:7888 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R7890:7892 Stdlib.PArith.BinPosDef <> acc:77 var
+R7900:7913 Corelib.Init.Hexadecimal <> D3 constr
+R7920:7934 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R7939:7941 Stdlib.PArith.BinPosDef Pos add def
+R7944:7945 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R7948:7950 Stdlib.PArith.BinPosDef Pos mul def
+R7952:7958 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R7960:7962 Stdlib.PArith.BinPosDef <> acc:77 var
+R7970:7983 Corelib.Init.Hexadecimal <> D4 constr
+R7990:8004 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8009:8011 Stdlib.PArith.BinPosDef Pos add def
+R8016:8017 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8014:8015 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8020:8022 Stdlib.PArith.BinPosDef Pos mul def
+R8024:8030 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8032:8034 Stdlib.PArith.BinPosDef <> acc:77 var
+R8042:8055 Corelib.Init.Hexadecimal <> D5 constr
+R8062:8076 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8081:8083 Stdlib.PArith.BinPosDef Pos add def
+R8088:8089 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8086:8087 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8092:8094 Stdlib.PArith.BinPosDef Pos mul def
+R8096:8102 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8104:8106 Stdlib.PArith.BinPosDef <> acc:77 var
+R8114:8127 Corelib.Init.Hexadecimal <> D6 constr
+R8134:8148 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8153:8155 Stdlib.PArith.BinPosDef Pos add def
+R8160:8161 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8158:8159 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8164:8166 Stdlib.PArith.BinPosDef Pos mul def
+R8168:8174 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8176:8178 Stdlib.PArith.BinPosDef <> acc:77 var
+R8186:8199 Corelib.Init.Hexadecimal <> D7 constr
+R8206:8220 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8225:8227 Stdlib.PArith.BinPosDef Pos add def
+R8232:8233 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8230:8231 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8236:8238 Stdlib.PArith.BinPosDef Pos mul def
+R8240:8246 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8248:8250 Stdlib.PArith.BinPosDef <> acc:77 var
+R8258:8271 Corelib.Init.Hexadecimal <> D8 constr
+R8278:8292 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8297:8299 Stdlib.PArith.BinPosDef Pos add def
+R8306:8307 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8304:8305 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8302:8303 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8310:8312 Stdlib.PArith.BinPosDef Pos mul def
+R8314:8320 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8322:8324 Stdlib.PArith.BinPosDef <> acc:77 var
+R8332:8345 Corelib.Init.Hexadecimal <> D9 constr
+R8352:8366 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8371:8373 Stdlib.PArith.BinPosDef Pos add def
+R8380:8381 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8378:8379 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8376:8377 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8384:8386 Stdlib.PArith.BinPosDef Pos mul def
+R8388:8394 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8396:8398 Stdlib.PArith.BinPosDef <> acc:77 var
+R8406:8419 Corelib.Init.Hexadecimal <> Da constr
+R8426:8440 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8445:8447 Stdlib.PArith.BinPosDef Pos add def
+R8454:8455 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8452:8453 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8450:8451 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8458:8460 Stdlib.PArith.BinPosDef Pos mul def
+R8462:8468 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8470:8472 Stdlib.PArith.BinPosDef <> acc:77 var
+R8480:8493 Corelib.Init.Hexadecimal <> Db constr
+R8500:8514 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8519:8521 Stdlib.PArith.BinPosDef Pos add def
+R8528:8529 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8526:8527 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8524:8525 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8532:8534 Stdlib.PArith.BinPosDef Pos mul def
+R8536:8542 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8544:8546 Stdlib.PArith.BinPosDef <> acc:77 var
+R8554:8567 Corelib.Init.Hexadecimal <> Dc constr
+R8574:8588 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8593:8595 Stdlib.PArith.BinPosDef Pos add def
+R8602:8603 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8600:8601 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8598:8599 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8606:8608 Stdlib.PArith.BinPosDef Pos mul def
+R8610:8616 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8618:8620 Stdlib.PArith.BinPosDef <> acc:77 var
+R8628:8641 Corelib.Init.Hexadecimal <> Dd constr
+R8648:8662 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8667:8669 Stdlib.PArith.BinPosDef Pos add def
+R8676:8677 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8674:8675 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8672:8673 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8680:8682 Stdlib.PArith.BinPosDef Pos mul def
+R8684:8690 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8692:8694 Stdlib.PArith.BinPosDef <> acc:77 var
+R8702:8715 Corelib.Init.Hexadecimal <> De constr
+R8722:8736 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8741:8743 Stdlib.PArith.BinPosDef Pos add def
+R8750:8751 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R8748:8749 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8746:8747 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8754:8756 Stdlib.PArith.BinPosDef Pos mul def
+R8758:8764 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8766:8768 Stdlib.PArith.BinPosDef <> acc:77 var
+R8776:8789 Corelib.Init.Hexadecimal <> Df constr
+R8796:8810 Stdlib.PArith.BinPosDef <> of_hex_uint_acc:78 def
+R8815:8817 Stdlib.PArith.BinPosDef Pos add def
+R8824:8825 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8822:8823 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8820:8821 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R8828:8830 Stdlib.PArith.BinPosDef Pos mul def
+R8832:8838 Stdlib.PArith.BinPosDef Pos sixteen abbrev
+R8840:8842 Stdlib.PArith.BinPosDef <> acc:77 var
+def 8863:8873 Pos of_hex_uint
+R8878:8893 Corelib.Init.Hexadecimal <> uint ind
+binder 8876:8876 <> d:80
+R8898:8898 Corelib.Numbers.BinNums <> N ind
+R8911:8911 Stdlib.PArith.BinPosDef <> d:80 var
+R8922:8936 Corelib.Init.Hexadecimal <> Nil constr
+R8941:8942 Corelib.Numbers.BinNums <> N0 constr
+R8948:8961 Corelib.Init.Hexadecimal <> D0 constr
+R8968:8978 Stdlib.PArith.BinPosDef <> of_hex_uint:81 def
+R8986:8999 Corelib.Init.Hexadecimal <> D1 constr
+R9006:9009 Corelib.Numbers.BinNums <> Npos constr
+R9012:9026 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9037:9050 Corelib.Init.Hexadecimal <> D2 constr
+R9057:9060 Corelib.Numbers.BinNums <> Npos constr
+R9063:9077 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9082:9083 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9090:9103 Corelib.Init.Hexadecimal <> D3 constr
+R9110:9113 Corelib.Numbers.BinNums <> Npos constr
+R9116:9130 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9135:9136 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9143:9156 Corelib.Init.Hexadecimal <> D4 constr
+R9163:9166 Corelib.Numbers.BinNums <> Npos constr
+R9169:9183 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9190:9191 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9188:9189 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9198:9211 Corelib.Init.Hexadecimal <> D5 constr
+R9218:9221 Corelib.Numbers.BinNums <> Npos constr
+R9224:9238 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9245:9246 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9243:9244 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9253:9266 Corelib.Init.Hexadecimal <> D6 constr
+R9273:9276 Corelib.Numbers.BinNums <> Npos constr
+R9279:9293 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9300:9301 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9298:9299 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9308:9321 Corelib.Init.Hexadecimal <> D7 constr
+R9328:9331 Corelib.Numbers.BinNums <> Npos constr
+R9334:9348 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9355:9356 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9353:9354 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9363:9376 Corelib.Init.Hexadecimal <> D8 constr
+R9383:9386 Corelib.Numbers.BinNums <> Npos constr
+R9389:9403 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9412:9413 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9410:9411 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9408:9409 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9420:9433 Corelib.Init.Hexadecimal <> D9 constr
+R9440:9443 Corelib.Numbers.BinNums <> Npos constr
+R9446:9460 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9469:9470 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9467:9468 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9465:9466 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9477:9490 Corelib.Init.Hexadecimal <> Da constr
+R9497:9500 Corelib.Numbers.BinNums <> Npos constr
+R9503:9517 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9526:9527 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9524:9525 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9522:9523 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9534:9547 Corelib.Init.Hexadecimal <> Db constr
+R9554:9557 Corelib.Numbers.BinNums <> Npos constr
+R9560:9574 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9583:9584 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9581:9582 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9579:9580 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9591:9604 Corelib.Init.Hexadecimal <> Dc constr
+R9611:9614 Corelib.Numbers.BinNums <> Npos constr
+R9617:9631 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9640:9641 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9638:9639 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9636:9637 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9648:9661 Corelib.Init.Hexadecimal <> Dd constr
+R9668:9671 Corelib.Numbers.BinNums <> Npos constr
+R9674:9688 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9697:9698 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9695:9696 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9693:9694 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9705:9718 Corelib.Init.Hexadecimal <> De constr
+R9725:9728 Corelib.Numbers.BinNums <> Npos constr
+R9731:9745 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9754:9755 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R9752:9753 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9750:9751 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9762:9775 Corelib.Init.Hexadecimal <> Df constr
+R9782:9785 Corelib.Numbers.BinNums <> Npos constr
+R9788:9802 Stdlib.PArith.BinPosDef Pos of_hex_uint_acc def
+R9811:9812 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9809:9810 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R9807:9808 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+def 9834:9844 Pos of_num_uint
+R9849:9859 Corelib.Init.Number <> uint variant
+binder 9847:9847 <> d:83
+R9864:9864 Corelib.Numbers.BinNums <> N ind
+R9877:9877 Stdlib.PArith.BinPosDef <> d:83 var
+R9888:9905 Corelib.Init.Number <> UIntDecimal constr
+R9912:9918 Stdlib.PArith.BinPosDef Pos of_uint def
+R9920:9920 Stdlib.PArith.BinPosDef <> d:83 var
+R9926:9947 Corelib.Init.Number <> UIntHexadecimal constr
+R9954:9964 Stdlib.PArith.BinPosDef Pos of_hex_uint def
+R9966:9966 Stdlib.PArith.BinPosDef <> d:83 var
+def 9987:9992 Pos of_int
+R9997:10007 Corelib.Init.Decimal <> int abbrev
+binder 9995:9995 <> d:85
+R10012:10017 Corelib.Init.Datatypes <> option ind
+R10019:10026 Corelib.Numbers.BinNums <> positive ind
+R10039:10039 Stdlib.PArith.BinPosDef <> d:85 var
+R10050:10060 Corelib.Init.Decimal <> Pos constr
+R10077:10083 Stdlib.PArith.BinPosDef Pos of_uint def
+R10085:10085 Stdlib.PArith.BinPosDef <> d:85 var
+R10098:10099 Corelib.Numbers.BinNums <> N0 constr
+R10104:10107 Corelib.Init.Datatypes <> None constr
+R10115:10118 Corelib.Numbers.BinNums <> Npos constr
+R10125:10128 Corelib.Init.Datatypes <> Some constr
+R10144:10154 Corelib.Init.Decimal <> Neg constr
+R10161:10164 Corelib.Init.Datatypes <> None constr
+def 10185:10194 Pos of_hex_int
+R10199:10213 Corelib.Init.Hexadecimal <> int abbrev
+binder 10197:10197 <> d:87
+R10218:10223 Corelib.Init.Datatypes <> option ind
+R10225:10232 Corelib.Numbers.BinNums <> positive ind
+R10245:10245 Stdlib.PArith.BinPosDef <> d:87 var
+R10256:10270 Corelib.Init.Hexadecimal <> Pos constr
+R10287:10297 Stdlib.PArith.BinPosDef Pos of_hex_uint def
+R10299:10299 Stdlib.PArith.BinPosDef <> d:87 var
+R10312:10313 Corelib.Numbers.BinNums <> N0 constr
+R10318:10321 Corelib.Init.Datatypes <> None constr
+R10329:10332 Corelib.Numbers.BinNums <> Npos constr
+R10339:10342 Corelib.Init.Datatypes <> Some constr
+R10358:10372 Corelib.Init.Hexadecimal <> Neg constr
+R10379:10382 Corelib.Init.Datatypes <> None constr
+def 10403:10412 Pos of_num_int
+R10417:10426 Corelib.Init.Number <> int abbrev
+binder 10415:10415 <> d:89
+R10431:10436 Corelib.Init.Datatypes <> option ind
+R10438:10445 Corelib.Numbers.BinNums <> positive ind
+R10458:10458 Stdlib.PArith.BinPosDef <> d:89 var
+R10469:10485 Corelib.Init.Number <> IntDecimal constr
+R10492:10497 Stdlib.PArith.BinPosDef Pos of_int def
+R10499:10499 Stdlib.PArith.BinPosDef <> d:89 var
+R10505:10525 Corelib.Init.Number <> IntHexadecimal constr
+R10532:10541 Stdlib.PArith.BinPosDef Pos of_hex_int def
+R10543:10543 Stdlib.PArith.BinPosDef <> d:89 var
+def 10562:10575 Pos to_little_uint
+binder 10577:10577 <> p:91
+R10590:10590 Stdlib.PArith.BinPosDef <> p:91 var
+R10606:10615 Corelib.Init.Decimal <> D1 constr
+R10617:10627 Corelib.Init.Decimal <> Nil constr
+R10634:10635 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R10640:10665 Corelib.Init.Decimal Little succ_double def
+R10668:10681 Stdlib.PArith.BinPosDef <> to_little_uint:92 def
+R10683:10683 Stdlib.PArith.BinPosDef <> p:91 var
+R10691:10692 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R10697:10717 Corelib.Init.Decimal Little double def
+R10720:10733 Stdlib.PArith.BinPosDef <> to_little_uint:92 def
+R10735:10735 Stdlib.PArith.BinPosDef <> p:91 var
+def 10757:10763 Pos to_uint
+binder 10765:10765 <> p:94
+R10770:10780 Corelib.Init.Decimal <> rev def
+R10783:10796 Stdlib.PArith.BinPosDef Pos to_little_uint def
+R10798:10798 Stdlib.PArith.BinPosDef <> p:94 var
+def 10812:10829 Pos to_little_hex_uint
+binder 10831:10831 <> p:95
+R10844:10844 Stdlib.PArith.BinPosDef <> p:95 var
+R10860:10873 Corelib.Init.Hexadecimal <> D1 constr
+R10875:10889 Corelib.Init.Hexadecimal <> Nil constr
+R10896:10897 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'1' not
+R10902:10931 Corelib.Init.Hexadecimal Little succ_double def
+R10934:10951 Stdlib.PArith.BinPosDef <> to_little_hex_uint:96 def
+R10953:10953 Stdlib.PArith.BinPosDef <> p:95 var
+R10961:10962 Corelib.BinNums.PosDef <> ::positive_scope:x_'~'_'0' not
+R10967:10991 Corelib.Init.Hexadecimal Little double def
+R10994:11011 Stdlib.PArith.BinPosDef <> to_little_hex_uint:96 def
+R11013:11013 Stdlib.PArith.BinPosDef <> p:95 var
+def 11035:11045 Pos to_hex_uint
+binder 11047:11047 <> p:98
+R11052:11066 Corelib.Init.Hexadecimal <> rev def
+R11069:11086 Stdlib.PArith.BinPosDef Pos to_little_hex_uint def
+R11088:11088 Stdlib.PArith.BinPosDef <> p:98 var
+def 11104:11114 Pos to_num_uint
+binder 11116:11116 <> p:99
+R11121:11138 Corelib.Init.Number <> UIntDecimal constr
+R11141:11147 Stdlib.PArith.BinPosDef Pos to_uint def
+R11149:11149 Stdlib.PArith.BinPosDef <> p:99 var
+def 11165:11179 Pos to_num_hex_uint
+binder 11181:11181 <> n:100
+R11186:11207 Corelib.Init.Number <> UIntHexadecimal constr
+R11210:11220 Stdlib.PArith.BinPosDef Pos to_hex_uint def
+R11222:11222 Stdlib.PArith.BinPosDef <> n:100 var
+def 11238:11243 Pos to_int
+binder 11245:11245 <> n:101
+R11250:11260 Corelib.Init.Decimal <> Pos constr
+R11263:11269 Stdlib.PArith.BinPosDef Pos to_uint def
+R11271:11271 Stdlib.PArith.BinPosDef <> n:101 var
+def 11287:11296 Pos to_hex_int
+binder 11298:11298 <> p:102
+R11303:11317 Corelib.Init.Hexadecimal <> Pos constr
+R11320:11330 Stdlib.PArith.BinPosDef Pos to_hex_uint def
+R11332:11332 Stdlib.PArith.BinPosDef <> p:102 var
+def 11348:11357 Pos to_num_int
+binder 11359:11359 <> n:103
+R11364:11380 Corelib.Init.Number <> IntDecimal constr
+R11383:11388 Stdlib.PArith.BinPosDef Pos to_int def
+R11390:11390 Stdlib.PArith.BinPosDef <> n:103 var
+def 11406:11419 Pos to_num_hex_int
+binder 11421:11421 <> n:104
+R11426:11446 Corelib.Init.Number <> IntHexadecimal constr
+R11449:11458 Stdlib.PArith.BinPosDef Pos to_hex_int def
+R11460:11460 Stdlib.PArith.BinPosDef <> n:104 var
+R11481:11488 Corelib.Numbers.BinNums <> positive ind
+R11490:11499 Stdlib.PArith.BinPosDef Pos of_num_int def
+R11501:11515 Stdlib.PArith.BinPosDef Pos to_num_hex_uint def
+R11555:11562 Corelib.Numbers.BinNums <> positive ind
+R11564:11573 Stdlib.PArith.BinPosDef Pos of_num_int def
+R11575:11585 Stdlib.PArith.BinPosDef Pos to_num_uint def
+R11610:11612 Stdlib.PArith.BinPosDef Pos <> mod
+R11700:11707 Corelib.Numbers.BinNums <> positive ind
+R11709:11722 Stdlib.PArith.BinPosDef <> of_num_int def
+R11724:11742 Stdlib.PArith.BinPosDef <> to_num_hex_uint def
+R11782:11789 Corelib.Numbers.BinNums <> positive ind
+R11791:11804 Stdlib.PArith.BinPosDef <> of_num_int def
+R11806:11820 Stdlib.PArith.BinPosDef <> to_num_uint def

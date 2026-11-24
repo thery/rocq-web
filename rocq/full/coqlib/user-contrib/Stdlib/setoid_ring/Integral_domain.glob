@@ -1,0 +1,103 @@
+DIGEST 97324f912c97e2196fe91ee70b61ca85
+FStdlib.setoid_ring.Integral_domain
+R703:711 Stdlib.NArith.BinNatDef <> <> lib
+R741:745 Stdlib.setoid_ring.Cring <> <> lib
+R755:760 Stdlib.NArith.BinNat <> <> mod
+rec 847:861 <> Integral_domain
+proj 894:916 <> integral_domain_product
+proj 967:990 <> integral_domain_one_zero
+binder 864:864 <> R:1
+R879:883 Stdlib.setoid_ring.Cring <> Cring class
+R885:885 Stdlib.setoid_ring.Integral_domain <> R:1 var
+binder 875:877 <> Rcr:11
+binder 929:929 <> x:13
+binder 931:931 <> y:14
+R944:947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R939:942 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R935:937 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R934:934 Stdlib.setoid_ring.Integral_domain <> x:13 var
+R938:938 Stdlib.setoid_ring.Integral_domain <> y:14 var
+R954:957 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R949:952 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R948:948 Stdlib.setoid_ring.Integral_domain <> x:13 var
+R959:962 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R958:958 Stdlib.setoid_ring.Integral_domain <> y:14 var
+R993:995 Corelib.Init.Logic <> not def
+R999:1002 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+sec 1017:1031 <> integral_domain
+var  1044:1044 integral_domain R
+var  1053:1055 integral_domain Rid
+R1057:1071 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R1073:1073 Stdlib.setoid_ring.Integral_domain <> R:17 var
+prf 1084:1113 <> integral_domain_minus_one_zero
+R1116:1117 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1125:1128 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1118:1120 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R1124:1124 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R1123:1123 Stdlib.setoid_ring.Integral_domain <> integral_domain.R var
+R1156:1179 Stdlib.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R1191:1194 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1195:1197 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R1201:1201 Stdlib.setoid_ring.Algebra_syntax <> :::'-'_x not
+R1200:1200 Stdlib.setoid_ring.Integral_domain <> integral_domain.R var
+def 1267:1269 <> pow
+R1276:1276 Stdlib.setoid_ring.Integral_domain <> integral_domain.R var
+binder 1272:1272 <> r:29
+R1284:1286 Corelib.Init.Datatypes <> nat ind
+binder 1280:1280 <> n:30
+R1292:1308 Stdlib.setoid_ring.Ring_theory <> pow_N def
+R1319:1326 Stdlib.NArith.BinNat N of_nat def
+R1328:1328 Stdlib.setoid_ring.Integral_domain <> n:30 var
+R1316:1316 Stdlib.setoid_ring.Integral_domain <> r:29 var
+R1312:1314 Stdlib.setoid_ring.Integral_domain <> integral_domain.mul var
+prf 1339:1350 <> pow_not_zero
+binder 1360:1360 <> p:31
+binder 1362:1362 <> n:32
+R1377:1380 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1372:1375 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1365:1367 Stdlib.setoid_ring.Integral_domain <> pow def
+R1369:1369 Stdlib.setoid_ring.Integral_domain <> p:31 var
+R1371:1371 Stdlib.setoid_ring.Integral_domain <> n:32 var
+R1382:1385 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1381:1381 Stdlib.setoid_ring.Integral_domain <> p:31 var
+R1422:1424 Stdlib.setoid_ring.Integral_domain <> pow def
+R1451:1454 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1478:1501 Stdlib.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R1539:1541 Stdlib.setoid_ring.Integral_domain <> pow def
+R1546:1546 Corelib.Init.Datatypes <> S constr
+R1559:1562 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R1570:1570 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R1563:1565 Stdlib.setoid_ring.Integral_domain <> pow def
+R1600:1622 Stdlib.setoid_ring.Integral_domain <> integral_domain_product meth
+R1627:1629 Stdlib.setoid_ring.Integral_domain <> pow def
+R1687:1689 Stdlib.setoid_ring.Integral_domain <> pow def
+R1761:1784 Stdlib.setoid_ring.Ring_theory <> pow_pos_succ thm
+R1816:1826 Stdlib.setoid_ring.Ncring <> ring_setoid meth
+R1843:1856 Stdlib.setoid_ring.Ncring <> ring_mult_comp meth
+R1873:1886 Stdlib.setoid_ring.Ncring <> ring_mul_assoc meth
+prf 1901:1920 <> Rintegral_domain_pow
+binder 1932:1932 <> c:33
+binder 1934:1934 <> p:34
+binder 1936:1936 <> r:35
+R1946:1949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1939:1939 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1941:1944 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1940:1940 Stdlib.setoid_ring.Integral_domain <> c:33 var
+R1972:1975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1963:1966 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1951:1954 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R1962:1962 Stdlib.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R1950:1950 Stdlib.setoid_ring.Integral_domain <> c:33 var
+R1955:1957 Stdlib.setoid_ring.Integral_domain <> pow def
+R1959:1959 Stdlib.setoid_ring.Integral_domain <> p:34 var
+R1961:1961 Stdlib.setoid_ring.Integral_domain <> r:35 var
+R1967:1971 Stdlib.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R1977:1980 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1976:1976 Stdlib.setoid_ring.Integral_domain <> p:34 var
+R1981:1985 Stdlib.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R2011:2033 Stdlib.setoid_ring.Integral_domain <> integral_domain_product meth
+R2038:2040 Stdlib.setoid_ring.Integral_domain <> pow def
+R2073:2076 Stdlib.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2077:2081 Stdlib.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R2109:2120 Stdlib.setoid_ring.Integral_domain <> pow_not_zero thm
+R2149:2163 Stdlib.setoid_ring.Integral_domain integral_domain <> sec

@@ -1,0 +1,71 @@
+DIGEST e9acab6b212f1a12e56ddd7858b1139d
+FStdlib.micromega.SatDivMod
+R27:32 Stdlib.ZArith.BinInt <> <> lib
+R72:82 Stdlib.micromega.ZifyClasses <> <> lib
+R84:91 Stdlib.micromega.ZifyInst <> <> lib
+prf 140:158 <> Z_div_nonneg_nonneg
+binder 160:160 <> a:1
+binder 162:162 <> b:2
+R172:175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R167:170 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R171:171 Stdlib.micromega.SatDivMod <> a:1 var
+R182:185 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R177:180 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R181:181 Stdlib.micromega.SatDivMod <> b:2 var
+R187:190 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R192:194 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R191:191 Stdlib.micromega.SatDivMod <> a:1 var
+R195:195 Stdlib.micromega.SatDivMod <> b:2 var
+R228:236 Stdlib.ZArith.BinInt Z div_pos thm
+R253:262 Stdlib.ZArith.BinInt Z ltb_spec thm
+R299:311 Stdlib.ZArith.BinInt Z le_antisymm thm
+prf 371:389 <> Z_mod_nonneg_nonneg
+binder 391:391 <> a:3
+binder 393:393 <> b:4
+R403:406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R398:401 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R402:402 Stdlib.micromega.SatDivMod <> a:3 var
+R413:416 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R408:411 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R412:412 Stdlib.micromega.SatDivMod <> b:4 var
+R418:421 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R423:427 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R422:422 Stdlib.micromega.SatDivMod <> a:3 var
+R428:428 Stdlib.micromega.SatDivMod <> b:4 var
+R446:455 Stdlib.ZArith.BinInt Z ltb_spec thm
+R481:495 Stdlib.ZArith.BinInt Z mod_pos_bound thm
+R522:534 Stdlib.ZArith.BinInt Z le_antisymm thm
+inst 613:618 <> SatDiv
+R622:629 Stdlib.micromega.ZifyClasses <> Saturate class
+R631:635 Stdlib.ZArith.BinInt Z div def
+R649:653 Stdlib.micromega.ZifyClasses <> PArg1 meth
+R679:683 Stdlib.micromega.ZifyClasses <> PArg2 meth
+R709:712 Stdlib.micromega.ZifyClasses <> PRes meth
+R743:747 Stdlib.micromega.ZifyClasses <> SatOk meth
+binder 662:662 <> x:5
+R668:671 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R672:672 Stdlib.micromega.SatDivMod <> x:5 var
+binder 692:692 <> y:6
+R698:701 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R702:702 Stdlib.micromega.SatDivMod <> y:6 var
+binder 726:726 <> r:7
+R732:735 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R736:736 Stdlib.micromega.SatDivMod <> r:7 var
+R752:770 Stdlib.micromega.SatDivMod <> Z_div_nonneg_nonneg thm
+inst 824:829 <> SatMod
+R833:840 Stdlib.micromega.ZifyClasses <> Saturate class
+R842:849 Stdlib.ZArith.BinInt Z modulo def
+R863:867 Stdlib.micromega.ZifyClasses <> PArg1 meth
+R893:897 Stdlib.micromega.ZifyClasses <> PArg2 meth
+R923:926 Stdlib.micromega.ZifyClasses <> PRes meth
+R957:961 Stdlib.micromega.ZifyClasses <> SatOk meth
+binder 876:876 <> x:8
+R882:885 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R886:886 Stdlib.micromega.SatDivMod <> x:8 var
+binder 906:906 <> y:9
+R912:915 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R916:916 Stdlib.micromega.SatDivMod <> y:9 var
+binder 940:940 <> r:10
+R946:949 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R950:950 Stdlib.micromega.SatDivMod <> r:10 var
+R966:984 Stdlib.micromega.SatDivMod <> Z_mod_nonneg_nonneg thm

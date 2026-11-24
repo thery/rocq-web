@@ -1,0 +1,452 @@
+DIGEST 7704850a40769f4d5f6c3ef102e85853
+FStdlib.Streams.Streams
+ind 729:734 <> Stream
+constr 752:755 <> Cons
+binder 737:737 <> A:1
+R760:763 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R759:759 Stdlib.Streams.Streams <> A:1 var
+R772:775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R764:769 Stdlib.Streams.Streams <> Stream:2 ind
+R771:771 Stdlib.Streams.Streams <> A:1 var
+R776:781 Stdlib.Streams.Streams <> Stream:2 ind
+R783:783 Stdlib.Streams.Streams <> A:1 var
+sec 795:801 <> Streams
+var 815:815 Streams A
+abbrev 837:842 <> Stream
+R848:853 Stdlib.Streams.Streams <> Stream coind
+R855:855 Stdlib.Streams.Streams <> Streams.A var
+def 872:873 <> hd
+R878:883 Stdlib.Streams.Streams <> Stream abbrev
+binder 876:876 <> x:6
+R895:895 Stdlib.Streams.Streams <> x:6 var
+R932:935 Stdlib.Streams.Streams <> Cons constr
+def 991:992 <> tl
+R997:1002 Stdlib.Streams.Streams <> Stream abbrev
+binder 995:995 <> x:8
+R1014:1014 Stdlib.Streams.Streams <> x:8 var
+R1051:1054 Stdlib.Streams.Streams <> Cons constr
+def 1109:1118 <> Str_nth_tl
+R1123:1125 Corelib.Init.Datatypes <> nat ind
+binder 1121:1121 <> n:10
+R1131:1136 Stdlib.Streams.Streams <> Stream abbrev
+binder 1129:1129 <> s:11
+R1141:1146 Stdlib.Streams.Streams <> Stream abbrev
+R1159:1159 Stdlib.Streams.Streams <> n:10 var
+R1170:1170 Corelib.Init.Datatypes <> O constr
+R1175:1175 Stdlib.Streams.Streams <> s:11 var
+R1181:1181 Corelib.Init.Datatypes <> S constr
+R1188:1197 Stdlib.Streams.Streams <> Str_nth_tl:12 def
+R1202:1203 Stdlib.Streams.Streams <> tl def
+R1205:1205 Stdlib.Streams.Streams <> s:11 var
+def 1227:1233 <> Str_nth
+R1238:1240 Corelib.Init.Datatypes <> nat ind
+binder 1236:1236 <> n:14
+R1246:1251 Stdlib.Streams.Streams <> Stream abbrev
+binder 1244:1244 <> s:15
+R1256:1256 Stdlib.Streams.Streams <> Streams.A var
+R1261:1262 Stdlib.Streams.Streams <> hd def
+R1265:1274 Stdlib.Streams.Streams <> Str_nth_tl def
+R1278:1278 Stdlib.Streams.Streams <> s:15 var
+R1276:1276 Stdlib.Streams.Streams <> n:14 var
+prf 1290:1302 <> unfold_Stream
+R1316:1321 Stdlib.Streams.Streams <> Stream abbrev
+binder 1314:1314 <> x:16
+R1325:1327 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1324:1324 Stdlib.Streams.Streams <> x:16 var
+R1334:1334 Stdlib.Streams.Streams <> x:16 var
+R1365:1368 Stdlib.Streams.Streams <> Cons constr
+R1377:1380 Stdlib.Streams.Streams <> Cons constr
+prf 1464:1472 <> tl_nth_tl
+R1487:1489 Corelib.Init.Datatypes <> nat ind
+binder 1485:1485 <> n:18
+R1495:1500 Stdlib.Streams.Streams <> Stream abbrev
+binder 1493:1493 <> s:19
+R1523:1525 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1504:1505 Stdlib.Streams.Streams <> tl def
+R1508:1517 Stdlib.Streams.Streams <> Str_nth_tl def
+R1521:1521 Stdlib.Streams.Streams <> s:19 var
+R1519:1519 Stdlib.Streams.Streams <> n:18 var
+R1526:1535 Stdlib.Streams.Streams <> Str_nth_tl def
+R1540:1541 Stdlib.Streams.Streams <> tl def
+R1543:1543 Stdlib.Streams.Streams <> s:19 var
+R1537:1537 Stdlib.Streams.Streams <> n:18 var
+prf 1645:1659 <> Str_nth_tl_plus
+R1676:1678 Corelib.Init.Datatypes <> nat ind
+binder 1672:1672 <> n:20
+binder 1674:1674 <> m:21
+R1684:1689 Stdlib.Streams.Streams <> Stream abbrev
+binder 1682:1682 <> s:22
+R1725:1727 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1696:1705 Stdlib.Streams.Streams <> Str_nth_tl def
+R1710:1719 Stdlib.Streams.Streams <> Str_nth_tl def
+R1723:1723 Stdlib.Streams.Streams <> s:22 var
+R1721:1721 Stdlib.Streams.Streams <> m:21 var
+R1707:1707 Stdlib.Streams.Streams <> n:20 var
+R1728:1737 Stdlib.Streams.Streams <> Str_nth_tl def
+R1747:1747 Stdlib.Streams.Streams <> s:22 var
+R1741:1743 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1740:1740 Stdlib.Streams.Streams <> n:20 var
+R1744:1744 Stdlib.Streams.Streams <> m:21 var
+R1835:1843 Stdlib.Streams.Streams <> tl_nth_tl thm
+prf 1882:1893 <> Str_nth_plus
+R1910:1912 Corelib.Init.Datatypes <> nat ind
+binder 1906:1906 <> n:23
+binder 1908:1908 <> m:24
+R1918:1923 Stdlib.Streams.Streams <> Stream abbrev
+binder 1916:1916 <> s:25
+R1953:1955 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1927:1933 Stdlib.Streams.Streams <> Str_nth def
+R1938:1947 Stdlib.Streams.Streams <> Str_nth_tl def
+R1951:1951 Stdlib.Streams.Streams <> s:25 var
+R1949:1949 Stdlib.Streams.Streams <> m:24 var
+R1935:1935 Stdlib.Streams.Streams <> n:23 var
+R1956:1962 Stdlib.Streams.Streams <> Str_nth def
+R1972:1972 Stdlib.Streams.Streams <> s:25 var
+R1966:1968 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1965:1965 Stdlib.Streams.Streams <> n:23 var
+R1969:1969 Stdlib.Streams.Streams <> m:24 var
+R1997:2003 Stdlib.Streams.Streams <> Str_nth def
+R2014:2028 Stdlib.Streams.Streams <> Str_nth_tl_plus thm
+ind 2124:2127 <> EqSt
+constr 2159:2162 <> eqst
+R2137:2142 Stdlib.Streams.Streams <> Stream abbrev
+binder 2130:2131 <> s1:26
+binder 2133:2134 <> s2:27
+R2187:2190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2179:2181 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2174:2175 Stdlib.Streams.Streams <> hd def
+R2177:2178 Stdlib.Streams.Streams <> s1:26 var
+R2182:2183 Stdlib.Streams.Streams <> hd def
+R2185:2186 Stdlib.Streams.Streams <> s2:27 var
+R2211:2214 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2191:2194 Stdlib.Streams.Streams <> EqSt:28 ind
+R2205:2206 Stdlib.Streams.Streams <> tl def
+R2208:2209 Stdlib.Streams.Streams <> s2:27 var
+R2197:2198 Stdlib.Streams.Streams <> tl def
+R2200:2201 Stdlib.Streams.Streams <> s1:26 var
+R2215:2218 Stdlib.Streams.Streams <> EqSt:28 ind
+R2223:2224 Stdlib.Streams.Streams <> s2:27 var
+R2220:2221 Stdlib.Streams.Streams <> s1:26 var
+prf 2441:2451 <> EqSt_reflex
+R2464:2469 Stdlib.Streams.Streams <> Stream abbrev
+binder 2462:2462 <> s:30
+R2472:2475 Stdlib.Streams.Streams <> EqSt coind
+R2479:2479 Stdlib.Streams.Streams <> s:30 var
+R2477:2477 Stdlib.Streams.Streams <> s:30 var
+prf 2541:2548 <> sym_EqSt
+R2565:2570 Stdlib.Streams.Streams <> Stream abbrev
+binder 2559:2560 <> s1:31
+binder 2562:2563 <> s2:32
+R2583:2586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2573:2576 Stdlib.Streams.Streams <> EqSt coind
+R2581:2582 Stdlib.Streams.Streams <> s2:32 var
+R2578:2579 Stdlib.Streams.Streams <> s1:31 var
+R2587:2590 Stdlib.Streams.Streams <> EqSt coind
+R2595:2596 Stdlib.Streams.Streams <> s1:31 var
+R2592:2593 Stdlib.Streams.Streams <> s2:32 var
+prf 2712:2721 <> trans_EqSt
+R2742:2747 Stdlib.Streams.Streams <> Stream abbrev
+binder 2733:2734 <> s1:33
+binder 2736:2737 <> s2:34
+binder 2739:2740 <> s3:35
+R2760:2763 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2750:2753 Stdlib.Streams.Streams <> EqSt coind
+R2758:2759 Stdlib.Streams.Streams <> s2:34 var
+R2755:2756 Stdlib.Streams.Streams <> s1:33 var
+R2774:2777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2764:2767 Stdlib.Streams.Streams <> EqSt coind
+R2772:2773 Stdlib.Streams.Streams <> s3:35 var
+R2769:2770 Stdlib.Streams.Streams <> s2:34 var
+R2778:2781 Stdlib.Streams.Streams <> EqSt coind
+R2786:2787 Stdlib.Streams.Streams <> s3:35 var
+R2783:2784 Stdlib.Streams.Streams <> s1:33 var
+R2835:2836 Stdlib.Streams.Streams <> hd def
+R2927:2928 Stdlib.Streams.Streams <> tl def
+R2935:2936 Stdlib.Streams.Streams <> tl def
+R2943:2944 Stdlib.Streams.Streams <> tl def
+prf 3139:3148 <> eqst_ntheq
+R3163:3165 Corelib.Init.Datatypes <> nat ind
+binder 3161:3161 <> n:36
+R3175:3180 Stdlib.Streams.Streams <> Stream abbrev
+binder 3169:3170 <> s1:37
+binder 3172:3173 <> s2:38
+R3194:3197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3184:3187 Stdlib.Streams.Streams <> EqSt coind
+R3192:3193 Stdlib.Streams.Streams <> s2:38 var
+R3189:3190 Stdlib.Streams.Streams <> s1:37 var
+R3210:3212 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3198:3204 Stdlib.Streams.Streams <> Str_nth def
+R3208:3209 Stdlib.Streams.Streams <> s1:37 var
+R3206:3206 Stdlib.Streams.Streams <> n:36 var
+R3213:3219 Stdlib.Streams.Streams <> Str_nth def
+R3223:3224 Stdlib.Streams.Streams <> s2:38 var
+R3221:3221 Stdlib.Streams.Streams <> n:36 var
+R3241:3247 Stdlib.Streams.Streams <> Str_nth def
+prf 3430:3439 <> ntheq_eqst
+R3457:3462 Stdlib.Streams.Streams <> Stream abbrev
+binder 3451:3452 <> s1:39
+binder 3454:3455 <> s2:40
+R3468:3468 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3510:3514 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3478:3480 Corelib.Init.Datatypes <> nat ind
+binder 3476:3476 <> n:41
+R3495:3497 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3483:3489 Stdlib.Streams.Streams <> Str_nth def
+R3493:3494 Stdlib.Streams.Streams <> s1:39 var
+R3491:3491 Stdlib.Streams.Streams <> n:41 var
+R3498:3504 Stdlib.Streams.Streams <> Str_nth def
+R3508:3509 Stdlib.Streams.Streams <> s2:40 var
+R3506:3506 Stdlib.Streams.Streams <> n:41 var
+R3515:3518 Stdlib.Streams.Streams <> EqSt coind
+R3523:3524 Stdlib.Streams.Streams <> s2:40 var
+R3520:3521 Stdlib.Streams.Streams <> s1:39 var
+R3591:3591 Corelib.Init.Datatypes <> S constr
+sec 3612:3628 Streams Stream_Properties
+var 3641:3641 Streams.Stream_Properties P
+R3651:3654 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3645:3650 Stdlib.Streams.Streams <> Stream abbrev
+ind 3832:3837 <> Exists
+constr 3867:3870 <> Here
+constr 3894:3900 <> Further
+R3844:3849 Stdlib.Streams.Streams <> Stream abbrev
+binder 3841:3841 <> x:44
+R3877:3880 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3874:3874 Stdlib.Streams.Streams <> Streams.Stream_Properties.P var
+R3876:3876 Stdlib.Streams.Streams <> x:44 var
+R3881:3886 Stdlib.Streams.Streams <> Exists:45 ind
+R3888:3888 Stdlib.Streams.Streams <> x:44 var
+R3917:3920 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3904:3909 Stdlib.Streams.Streams <> Exists:45 ind
+R3912:3913 Stdlib.Streams.Streams <> tl def
+R3915:3915 Stdlib.Streams.Streams <> x:44 var
+R3921:3926 Stdlib.Streams.Streams <> Exists:45 ind
+R3928:3928 Stdlib.Streams.Streams <> x:44 var
+scheme 3832:3837 <> Exists_ind
+scheme 3832:3837 <> Exists_sind
+ind 3944:3949 <> ForAll
+constr 3977:3990 <> HereAndFurther
+R3955:3960 Stdlib.Streams.Streams <> Stream abbrev
+binder 3952:3952 <> x:47
+R3997:4000 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3994:3994 Stdlib.Streams.Streams <> Streams.Stream_Properties.P var
+R3996:3996 Stdlib.Streams.Streams <> x:47 var
+R4014:4017 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4001:4006 Stdlib.Streams.Streams <> ForAll:48 ind
+R4009:4010 Stdlib.Streams.Streams <> tl def
+R4012:4012 Stdlib.Streams.Streams <> x:47 var
+R4018:4023 Stdlib.Streams.Streams <> ForAll:48 ind
+R4025:4025 Stdlib.Streams.Streams <> x:47 var
+prf 4035:4051 <> ForAll_Str_nth_tl
+binder 4062:4062 <> m:50
+binder 4064:4064 <> x:51
+R4075:4078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4067:4072 Stdlib.Streams.Streams <> ForAll coind
+R4074:4074 Stdlib.Streams.Streams <> x:51 var
+R4079:4084 Stdlib.Streams.Streams <> ForAll coind
+R4087:4096 Stdlib.Streams.Streams <> Str_nth_tl def
+R4100:4100 Stdlib.Streams.Streams <> x:51 var
+R4098:4098 Stdlib.Streams.Streams <> m:50 var
+sec 4201:4219 Streams.Stream_Properties Co_Induction_ForAll
+var 4231:4233 Streams.Stream_Properties.Co_Induction_ForAll Inv
+R4243:4246 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4237:4242 Stdlib.Streams.Streams <> Stream abbrev
+var 4264:4271 Streams.Stream_Properties.Co_Induction_ForAll InvThenP
+R4284:4289 Stdlib.Streams.Streams <> Stream abbrev
+binder 4282:4282 <> x:54
+R4297:4300 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4292:4294 Stdlib.Streams.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4296:4296 Stdlib.Streams.Streams <> x:54 var
+R4301:4301 Stdlib.Streams.Streams <> Streams.Stream_Properties.P var
+R4303:4303 Stdlib.Streams.Streams <> x:54 var
+var 4317:4327 Streams.Stream_Properties.Co_Induction_ForAll InvIsStable
+R4340:4345 Stdlib.Streams.Streams <> Stream abbrev
+binder 4338:4338 <> x:57
+R4353:4356 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4348:4350 Stdlib.Streams.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4352:4352 Stdlib.Streams.Streams <> x:57 var
+R4357:4359 Stdlib.Streams.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4362:4363 Stdlib.Streams.Streams <> tl def
+R4365:4365 Stdlib.Streams.Streams <> x:57 var
+prf 4378:4389 <> ForAll_coind
+R4402:4407 Stdlib.Streams.Streams <> Stream abbrev
+binder 4400:4400 <> x:60
+R4415:4418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4410:4412 Stdlib.Streams.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4414:4414 Stdlib.Streams.Streams <> x:60 var
+R4419:4424 Stdlib.Streams.Streams <> ForAll coind
+R4426:4426 Stdlib.Streams.Streams <> x:60 var
+R4477:4495 Stdlib.Streams.Streams Streams.Stream_Properties.Co_Induction_ForAll <> sec
+R4503:4519 Stdlib.Streams.Streams Streams.Stream_Properties <> sec
+R4527:4533 Stdlib.Streams.Streams Streams <> sec
+sec 4545:4547 <> Map
+var 4560:4560 Map A
+var 4562:4562 Map B
+var 4581:4581 Map f
+R4586:4589 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4585:4585 Stdlib.Streams.Streams <> Map.A var
+R4590:4590 Stdlib.Streams.Streams <> Map.B var
+def 4604:4606 <> map
+R4611:4616 Stdlib.Streams.Streams <> Stream coind
+R4618:4618 Stdlib.Streams.Streams <> Map.A var
+binder 4609:4609 <> s:67
+R4623:4628 Stdlib.Streams.Streams <> Stream coind
+R4630:4630 Stdlib.Streams.Streams <> Map.B var
+R4635:4638 Stdlib.Streams.Streams <> Cons constr
+R4652:4654 Stdlib.Streams.Streams <> map:68 def
+R4657:4658 Stdlib.Streams.Streams <> tl def
+R4660:4660 Stdlib.Streams.Streams <> s:67 var
+R4641:4641 Stdlib.Streams.Streams <> Map.f var
+R4644:4645 Stdlib.Streams.Streams <> hd def
+R4647:4647 Stdlib.Streams.Streams <> s:67 var
+prf 4672:4685 <> Str_nth_tl_map
+binder 4696:4696 <> n:69
+binder 4698:4698 <> s:70
+R4721:4722 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4701:4710 Stdlib.Streams.Streams <> Str_nth_tl def
+R4715:4717 Stdlib.Streams.Streams <> map def
+R4719:4719 Stdlib.Streams.Streams <> s:70 var
+R4712:4712 Stdlib.Streams.Streams <> n:69 var
+R4723:4725 Stdlib.Streams.Streams <> map def
+R4728:4737 Stdlib.Streams.Streams <> Str_nth_tl def
+R4741:4741 Stdlib.Streams.Streams <> s:70 var
+R4739:4739 Stdlib.Streams.Streams <> n:69 var
+prf 4826:4836 <> Str_nth_map
+binder 4847:4847 <> n:71
+binder 4849:4849 <> s:72
+R4869:4870 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4852:4858 Stdlib.Streams.Streams <> Str_nth def
+R4863:4865 Stdlib.Streams.Streams <> map def
+R4867:4867 Stdlib.Streams.Streams <> s:72 var
+R4860:4860 Stdlib.Streams.Streams <> n:71 var
+R4871:4871 Stdlib.Streams.Streams <> Map.f var
+R4874:4880 Stdlib.Streams.Streams <> Str_nth def
+R4884:4884 Stdlib.Streams.Streams <> s:72 var
+R4882:4882 Stdlib.Streams.Streams <> n:71 var
+R4914:4920 Stdlib.Streams.Streams <> Str_nth def
+R4931:4944 Stdlib.Streams.Streams <> Str_nth_tl_map thm
+prf 4972:4981 <> ForAll_map
+R5003:5006 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4995:5000 Stdlib.Streams.Streams <> Stream coind
+R5002:5002 Stdlib.Streams.Streams <> Map.B var
+binder 4993:4993 <> P:73
+R5016:5021 Stdlib.Streams.Streams <> Stream coind
+R5023:5023 Stdlib.Streams.Streams <> Map.A var
+binder 5014:5014 <> S:74
+R5056:5060 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5027:5032 Stdlib.Streams.Streams <> ForAll coind
+R5055:5055 Stdlib.Streams.Streams <> S:74 var
+binder 5039:5039 <> s:75
+R5044:5044 Stdlib.Streams.Streams <> P:73 var
+R5047:5049 Stdlib.Streams.Streams <> map def
+R5051:5051 Stdlib.Streams.Streams <> s:75 var
+R5061:5066 Stdlib.Streams.Streams <> ForAll coind
+R5071:5073 Stdlib.Streams.Streams <> map def
+R5075:5075 Stdlib.Streams.Streams <> S:74 var
+R5068:5068 Stdlib.Streams.Streams <> P:73 var
+prf 5215:5224 <> Exists_map
+R5246:5249 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5238:5243 Stdlib.Streams.Streams <> Stream coind
+R5245:5245 Stdlib.Streams.Streams <> Map.B var
+binder 5236:5236 <> P:76
+R5259:5264 Stdlib.Streams.Streams <> Stream coind
+R5266:5266 Stdlib.Streams.Streams <> Map.A var
+binder 5257:5257 <> S:77
+R5299:5302 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5270:5275 Stdlib.Streams.Streams <> Exists ind
+R5298:5298 Stdlib.Streams.Streams <> S:77 var
+binder 5282:5282 <> s:78
+R5287:5287 Stdlib.Streams.Streams <> P:76 var
+R5290:5292 Stdlib.Streams.Streams <> map def
+R5294:5294 Stdlib.Streams.Streams <> s:78 var
+R5303:5308 Stdlib.Streams.Streams <> Exists ind
+R5313:5315 Stdlib.Streams.Streams <> map def
+R5317:5317 Stdlib.Streams.Streams <> S:77 var
+R5310:5310 Stdlib.Streams.Streams <> P:76 var
+R5396:5398 Stdlib.Streams.Streams Map <> sec
+sec 5410:5424 <> Constant_Stream
+var 5436:5436 Constant_Stream A
+var 5455:5455 Constant_Stream a
+R5459:5459 Stdlib.Streams.Streams <> Constant_Stream.A var
+def 5473:5477 <> const
+R5482:5487 Stdlib.Streams.Streams <> Stream coind
+R5489:5489 Stdlib.Streams.Streams <> Constant_Stream.A var
+R5494:5497 Stdlib.Streams.Streams <> Cons constr
+R5501:5505 Stdlib.Streams.Streams <> const:83 def
+R5499:5499 Stdlib.Streams.Streams <> Constant_Stream.a var
+R5512:5526 Stdlib.Streams.Streams Constant_Stream <> sec
+sec 5538:5540 <> Zip
+var 5553:5553 Zip A
+var 5555:5555 Zip B
+var 5557:5557 Zip C
+var 5576:5576 Zip f
+R5580:5583 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5579:5579 Stdlib.Streams.Streams <> Zip.A var
+R5585:5588 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5584:5584 Stdlib.Streams.Streams <> Zip.B var
+R5589:5589 Stdlib.Streams.Streams <> Zip.C var
+def 5604:5610 <> zipWith
+R5615:5620 Stdlib.Streams.Streams <> Stream coind
+R5622:5622 Stdlib.Streams.Streams <> Zip.A var
+binder 5613:5613 <> a:92
+R5628:5633 Stdlib.Streams.Streams <> Stream coind
+R5635:5635 Stdlib.Streams.Streams <> Zip.B var
+binder 5626:5626 <> b:93
+R5640:5645 Stdlib.Streams.Streams <> Stream coind
+R5647:5647 Stdlib.Streams.Streams <> Zip.C var
+R5652:5655 Stdlib.Streams.Streams <> Cons constr
+R5676:5682 Stdlib.Streams.Streams <> zipWith:94 def
+R5692:5693 Stdlib.Streams.Streams <> tl def
+R5695:5695 Stdlib.Streams.Streams <> b:93 var
+R5685:5686 Stdlib.Streams.Streams <> tl def
+R5688:5688 Stdlib.Streams.Streams <> a:92 var
+R5658:5658 Stdlib.Streams.Streams <> Zip.f var
+R5668:5669 Stdlib.Streams.Streams <> hd def
+R5671:5671 Stdlib.Streams.Streams <> b:93 var
+R5661:5662 Stdlib.Streams.Streams <> hd def
+R5664:5664 Stdlib.Streams.Streams <> a:92 var
+prf 5707:5724 <> Str_nth_tl_zipWith
+binder 5735:5735 <> n:95
+R5740:5745 Stdlib.Streams.Streams <> Stream coind
+R5747:5747 Stdlib.Streams.Streams <> Zip.A var
+binder 5738:5738 <> a:96
+R5753:5758 Stdlib.Streams.Streams <> Stream coind
+R5760:5760 Stdlib.Streams.Streams <> Zip.B var
+binder 5751:5751 <> b:97
+R5791:5792 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5765:5774 Stdlib.Streams.Streams <> Str_nth_tl def
+R5779:5785 Stdlib.Streams.Streams <> zipWith def
+R5789:5789 Stdlib.Streams.Streams <> b:97 var
+R5787:5787 Stdlib.Streams.Streams <> a:96 var
+R5776:5776 Stdlib.Streams.Streams <> n:95 var
+R5793:5799 Stdlib.Streams.Streams <> zipWith def
+R5819:5828 Stdlib.Streams.Streams <> Str_nth_tl def
+R5832:5832 Stdlib.Streams.Streams <> b:97 var
+R5830:5830 Stdlib.Streams.Streams <> n:95 var
+R5802:5811 Stdlib.Streams.Streams <> Str_nth_tl def
+R5815:5815 Stdlib.Streams.Streams <> a:96 var
+R5813:5813 Stdlib.Streams.Streams <> n:95 var
+R5904:5910 Stdlib.Streams.Streams <> Str_nth def
+prf 5957:5971 <> Str_nth_zipWith
+binder 5982:5982 <> n:98
+R5987:5992 Stdlib.Streams.Streams <> Stream coind
+R5994:5994 Stdlib.Streams.Streams <> Zip.A var
+binder 5985:5985 <> a:99
+R6000:6005 Stdlib.Streams.Streams <> Stream coind
+R6007:6007 Stdlib.Streams.Streams <> Zip.B var
+binder 5998:5998 <> b:100
+R6035:6036 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6011:6017 Stdlib.Streams.Streams <> Str_nth def
+R6022:6028 Stdlib.Streams.Streams <> zipWith def
+R6033:6033 Stdlib.Streams.Streams <> b:100 var
+R6030:6030 Stdlib.Streams.Streams <> a:99 var
+R6019:6019 Stdlib.Streams.Streams <> n:98 var
+R6037:6037 Stdlib.Streams.Streams <> Zip.f var
+R6054:6060 Stdlib.Streams.Streams <> Str_nth def
+R6064:6064 Stdlib.Streams.Streams <> b:100 var
+R6062:6062 Stdlib.Streams.Streams <> n:98 var
+R6040:6046 Stdlib.Streams.Streams <> Str_nth def
+R6050:6050 Stdlib.Streams.Streams <> a:99 var
+R6048:6048 Stdlib.Streams.Streams <> n:98 var
+R6090:6096 Stdlib.Streams.Streams <> Str_nth def
+R6107:6124 Stdlib.Streams.Streams <> Str_nth_tl_zipWith thm
+R6150:6152 Stdlib.Streams.Streams Zip <> sec

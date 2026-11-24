@@ -1,0 +1,471 @@
+DIGEST bb37492e2f1685df12feaecc9d6dbfb6
+FStdlib.Sets.Uniset
+R795:798 Stdlib.Bool.Bool <> <> lib
+R800:805 Stdlib.Sets.Permut <> <> lib
+sec 842:845 <> defs
+var 858:858 defs A
+var 876:878 defs eqA
+R883:886 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R882:882 Stdlib.Sets.Uniset <> defs.A var
+R888:891 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R887:887 Stdlib.Sets.Uniset <> defs.A var
+var 909:915 defs eqA_dec
+R930:930 Stdlib.Sets.Uniset <> defs.A var
+binder 926:926 <> x:5
+binder 928:928 <> y:6
+R933:933 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R941:945 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R955:955 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R934:936 Stdlib.Sets.Uniset <> defs.eqA var
+R940:940 Stdlib.Sets.Uniset <> y:6 var
+R938:938 Stdlib.Sets.Uniset <> x:5 var
+R946:947 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R948:950 Stdlib.Sets.Uniset <> defs.eqA var
+R954:954 Stdlib.Sets.Uniset <> y:6 var
+R952:952 Stdlib.Sets.Uniset <> x:5 var
+ind 969:974 <> uniset
+constr 989:994 <> Charac
+R998:998 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1008:1012 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1000:1003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R999:999 Stdlib.Sets.Uniset <> defs.A var
+R1004:1007 Corelib.Init.Datatypes <> bool ind
+R1013:1018 Stdlib.Sets.Uniset <> uniset:9 ind
+scheme 969:974 <> uniset_rect
+scheme 969:974 <> uniset_ind
+scheme 969:974 <> uniset_rec
+scheme 969:974 <> uniset_sind
+def 1033:1038 <> charac
+R1043:1048 Stdlib.Sets.Uniset <> uniset ind
+binder 1041:1041 <> s:11
+R1054:1054 Stdlib.Sets.Uniset <> defs.A var
+binder 1052:1052 <> a:12
+R1059:1062 Corelib.Init.Datatypes <> bool ind
+R1078:1078 Stdlib.Sets.Uniset <> s:11 var
+binder 1072:1072 <> f:13
+R1083:1083 Stdlib.Sets.Uniset <> f:13 var
+R1085:1085 Stdlib.Sets.Uniset <> a:12 var
+def 1100:1107 <> Emptyset
+R1112:1117 Stdlib.Sets.Uniset <> Charac constr
+R1126:1126 Stdlib.Sets.Uniset <> defs.A var
+binder 1124:1124 <> a:14
+R1131:1135 Corelib.Init.Datatypes <> false constr
+def 1151:1157 <> Fullset
+R1162:1167 Stdlib.Sets.Uniset <> Charac constr
+R1176:1176 Stdlib.Sets.Uniset <> defs.A var
+binder 1174:1174 <> a:15
+R1181:1184 Corelib.Init.Datatypes <> true constr
+def 1200:1208 <> Singleton
+R1213:1213 Stdlib.Sets.Uniset <> defs.A var
+binder 1211:1211 <> a:16
+R1221:1226 Stdlib.Sets.Uniset <> Charac constr
+R1240:1240 Stdlib.Sets.Uniset <> defs.A var
+binder 1237:1238 <> a':17
+R1258:1264 Stdlib.Sets.Uniset <> defs.eqA_dec var
+R1268:1269 Stdlib.Sets.Uniset <> a':17 var
+R1266:1266 Stdlib.Sets.Uniset <> a:16 var
+R1285:1288 Corelib.Init.Specif <> left constr
+R1295:1298 Corelib.Init.Datatypes <> true constr
+R1309:1313 Corelib.Init.Specif <> right constr
+R1320:1324 Corelib.Init.Datatypes <> false constr
+def 1351:1352 <> In
+R1357:1362 Stdlib.Sets.Uniset <> uniset ind
+binder 1355:1355 <> s:18
+R1368:1368 Stdlib.Sets.Uniset <> defs.A var
+binder 1366:1366 <> a:19
+R1391:1393 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1381:1386 Stdlib.Sets.Uniset <> charac def
+R1390:1390 Stdlib.Sets.Uniset <> a:19 var
+R1388:1388 Stdlib.Sets.Uniset <> s:18 var
+R1394:1397 Corelib.Init.Datatypes <> true constr
+R1421:1422 Stdlib.Sets.Uniset <> In def
+def 1468:1471 <> incl
+R1480:1485 Stdlib.Sets.Uniset <> uniset ind
+binder 1474:1475 <> s1:20
+binder 1477:1478 <> s2:21
+R1500:1500 Stdlib.Sets.Uniset <> defs.A var
+binder 1498:1498 <> a:22
+R1503:1509 Stdlib.Bool.Bool <> le def
+R1512:1517 Stdlib.Sets.Uniset <> charac def
+R1522:1522 Stdlib.Sets.Uniset <> a:22 var
+R1519:1520 Stdlib.Sets.Uniset <> s1:20 var
+R1526:1531 Stdlib.Sets.Uniset <> charac def
+R1536:1536 Stdlib.Sets.Uniset <> a:22 var
+R1533:1534 Stdlib.Sets.Uniset <> s2:21 var
+R1561:1564 Stdlib.Sets.Uniset <> incl def
+def 1609:1611 <> seq
+R1620:1625 Stdlib.Sets.Uniset <> uniset ind
+binder 1614:1615 <> s1:23
+binder 1617:1618 <> s2:24
+R1640:1640 Stdlib.Sets.Uniset <> defs.A var
+binder 1638:1638 <> a:25
+R1654:1656 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1643:1648 Stdlib.Sets.Uniset <> charac def
+R1653:1653 Stdlib.Sets.Uniset <> a:25 var
+R1650:1651 Stdlib.Sets.Uniset <> s1:23 var
+R1657:1662 Stdlib.Sets.Uniset <> charac def
+R1667:1667 Stdlib.Sets.Uniset <> a:25 var
+R1664:1665 Stdlib.Sets.Uniset <> s2:24 var
+R1691:1693 Stdlib.Sets.Uniset <> seq def
+prf 1710:1716 <> le_refl
+binder 1727:1727 <> b:26
+R1730:1736 Stdlib.Bool.Bool <> le def
+R1738:1738 Stdlib.Sets.Uniset <> b:26 var
+R1740:1740 Stdlib.Sets.Uniset <> b:26 var
+prf 1825:1833 <> incl_left
+R1850:1855 Stdlib.Sets.Uniset <> uniset ind
+binder 1844:1845 <> s1:27
+binder 1847:1848 <> s2:28
+R1867:1870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1858:1860 Stdlib.Sets.Uniset <> seq def
+R1865:1866 Stdlib.Sets.Uniset <> s2:28 var
+R1862:1863 Stdlib.Sets.Uniset <> s1:27 var
+R1871:1874 Stdlib.Sets.Uniset <> incl def
+R1879:1880 Stdlib.Sets.Uniset <> s2:28 var
+R1876:1877 Stdlib.Sets.Uniset <> s1:27 var
+R1897:1900 Stdlib.Sets.Uniset <> incl def
+prf 1951:1960 <> incl_right
+R1977:1982 Stdlib.Sets.Uniset <> uniset ind
+binder 1971:1972 <> s1:29
+binder 1974:1975 <> s2:30
+R1994:1997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1985:1987 Stdlib.Sets.Uniset <> seq def
+R1992:1993 Stdlib.Sets.Uniset <> s2:30 var
+R1989:1990 Stdlib.Sets.Uniset <> s1:29 var
+R1998:2001 Stdlib.Sets.Uniset <> incl def
+R2006:2007 Stdlib.Sets.Uniset <> s1:29 var
+R2003:2004 Stdlib.Sets.Uniset <> s2:30 var
+R2024:2027 Stdlib.Sets.Uniset <> incl def
+prf 2078:2085 <> seq_refl
+R2098:2103 Stdlib.Sets.Uniset <> uniset ind
+binder 2096:2096 <> x:31
+R2106:2108 Stdlib.Sets.Uniset <> seq def
+R2112:2112 Stdlib.Sets.Uniset <> x:31 var
+R2110:2110 Stdlib.Sets.Uniset <> x:31 var
+R2141:2143 Stdlib.Sets.Uniset <> seq def
+prf 2203:2211 <> seq_trans
+R2228:2233 Stdlib.Sets.Uniset <> uniset ind
+binder 2222:2222 <> x:32
+binder 2224:2224 <> y:33
+binder 2226:2226 <> z:34
+R2243:2246 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2236:2238 Stdlib.Sets.Uniset <> seq def
+R2242:2242 Stdlib.Sets.Uniset <> y:33 var
+R2240:2240 Stdlib.Sets.Uniset <> x:32 var
+R2254:2257 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2247:2249 Stdlib.Sets.Uniset <> seq def
+R2253:2253 Stdlib.Sets.Uniset <> z:34 var
+R2251:2251 Stdlib.Sets.Uniset <> y:33 var
+R2258:2260 Stdlib.Sets.Uniset <> seq def
+R2264:2264 Stdlib.Sets.Uniset <> z:34 var
+R2262:2262 Stdlib.Sets.Uniset <> x:32 var
+R2281:2283 Stdlib.Sets.Uniset <> seq def
+prf 2366:2372 <> seq_sym
+R2387:2392 Stdlib.Sets.Uniset <> uniset ind
+binder 2383:2383 <> x:35
+binder 2385:2385 <> y:36
+R2402:2405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2395:2397 Stdlib.Sets.Uniset <> seq def
+R2401:2401 Stdlib.Sets.Uniset <> y:36 var
+R2399:2399 Stdlib.Sets.Uniset <> x:35 var
+R2406:2408 Stdlib.Sets.Uniset <> seq def
+R2412:2412 Stdlib.Sets.Uniset <> x:35 var
+R2410:2410 Stdlib.Sets.Uniset <> y:36 var
+R2429:2431 Stdlib.Sets.Uniset <> seq def
+def 2508:2512 <> union
+R2521:2526 Stdlib.Sets.Uniset <> uniset ind
+binder 2515:2516 <> m1:37
+binder 2518:2519 <> m2:38
+R2534:2539 Stdlib.Sets.Uniset <> Charac constr
+R2548:2548 Stdlib.Sets.Uniset <> defs.A var
+binder 2546:2546 <> a:39
+R2553:2555 Corelib.Init.Datatypes <> orb def
+R2572:2577 Stdlib.Sets.Uniset <> charac def
+R2582:2582 Stdlib.Sets.Uniset <> a:39 var
+R2579:2580 Stdlib.Sets.Uniset <> m2:38 var
+R2558:2563 Stdlib.Sets.Uniset <> charac def
+R2568:2568 Stdlib.Sets.Uniset <> a:39 var
+R2565:2566 Stdlib.Sets.Uniset <> m1:37 var
+prf 2594:2609 <> union_empty_left
+R2622:2627 Stdlib.Sets.Uniset <> uniset ind
+binder 2620:2620 <> x:40
+R2630:2632 Stdlib.Sets.Uniset <> seq def
+R2637:2641 Stdlib.Sets.Uniset <> union def
+R2652:2652 Stdlib.Sets.Uniset <> x:40 var
+R2643:2650 Stdlib.Sets.Uniset <> Emptyset def
+R2634:2634 Stdlib.Sets.Uniset <> x:40 var
+R2670:2672 Stdlib.Sets.Uniset <> seq def
+R2682:2686 Stdlib.Sets.Uniset <> union def
+prf 2761:2777 <> union_empty_right
+R2790:2795 Stdlib.Sets.Uniset <> uniset ind
+binder 2788:2788 <> x:41
+R2798:2800 Stdlib.Sets.Uniset <> seq def
+R2805:2809 Stdlib.Sets.Uniset <> union def
+R2813:2820 Stdlib.Sets.Uniset <> Emptyset def
+R2811:2811 Stdlib.Sets.Uniset <> x:41 var
+R2802:2802 Stdlib.Sets.Uniset <> x:41 var
+R2838:2840 Stdlib.Sets.Uniset <> seq def
+R2850:2854 Stdlib.Sets.Uniset <> union def
+R2885:2895 Stdlib.Bool.Bool <> orb_b_false abbrev
+R2898:2903 Stdlib.Sets.Uniset <> charac def
+prf 2978:2987 <> union_comm
+R3002:3007 Stdlib.Sets.Uniset <> uniset ind
+binder 2998:2998 <> x:42
+binder 3000:3000 <> y:43
+R3010:3012 Stdlib.Sets.Uniset <> seq def
+R3027:3031 Stdlib.Sets.Uniset <> union def
+R3035:3035 Stdlib.Sets.Uniset <> x:42 var
+R3033:3033 Stdlib.Sets.Uniset <> y:43 var
+R3015:3019 Stdlib.Sets.Uniset <> union def
+R3023:3023 Stdlib.Sets.Uniset <> y:43 var
+R3021:3021 Stdlib.Sets.Uniset <> x:42 var
+R3053:3055 Stdlib.Sets.Uniset <> seq def
+R3065:3070 Stdlib.Sets.Uniset <> charac def
+R3080:3084 Stdlib.Sets.Uniset <> union def
+prf 3180:3188 <> union_ass
+R3206:3211 Stdlib.Sets.Uniset <> uniset ind
+binder 3200:3200 <> x:44
+binder 3202:3202 <> y:45
+binder 3204:3204 <> z:46
+R3214:3216 Stdlib.Sets.Uniset <> seq def
+R3241:3245 Stdlib.Sets.Uniset <> union def
+R3250:3254 Stdlib.Sets.Uniset <> union def
+R3258:3258 Stdlib.Sets.Uniset <> z:46 var
+R3256:3256 Stdlib.Sets.Uniset <> y:45 var
+R3247:3247 Stdlib.Sets.Uniset <> x:44 var
+R3219:3223 Stdlib.Sets.Uniset <> union def
+R3237:3237 Stdlib.Sets.Uniset <> z:46 var
+R3226:3230 Stdlib.Sets.Uniset <> union def
+R3234:3234 Stdlib.Sets.Uniset <> y:45 var
+R3232:3232 Stdlib.Sets.Uniset <> x:44 var
+R3277:3279 Stdlib.Sets.Uniset <> seq def
+R3289:3293 Stdlib.Sets.Uniset <> union def
+R3303:3308 Stdlib.Sets.Uniset <> charac def
+prf 3415:3422 <> seq_left
+R3439:3444 Stdlib.Sets.Uniset <> uniset ind
+binder 3433:3433 <> x:47
+binder 3435:3435 <> y:48
+binder 3437:3437 <> z:49
+R3454:3457 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3447:3449 Stdlib.Sets.Uniset <> seq def
+R3453:3453 Stdlib.Sets.Uniset <> y:48 var
+R3451:3451 Stdlib.Sets.Uniset <> x:47 var
+R3458:3460 Stdlib.Sets.Uniset <> seq def
+R3475:3479 Stdlib.Sets.Uniset <> union def
+R3483:3483 Stdlib.Sets.Uniset <> z:49 var
+R3481:3481 Stdlib.Sets.Uniset <> y:48 var
+R3463:3467 Stdlib.Sets.Uniset <> union def
+R3471:3471 Stdlib.Sets.Uniset <> z:49 var
+R3469:3469 Stdlib.Sets.Uniset <> x:47 var
+R3501:3503 Stdlib.Sets.Uniset <> seq def
+R3513:3517 Stdlib.Sets.Uniset <> union def
+R3527:3532 Stdlib.Sets.Uniset <> charac def
+prf 3644:3652 <> seq_right
+R3669:3674 Stdlib.Sets.Uniset <> uniset ind
+binder 3663:3663 <> x:50
+binder 3665:3665 <> y:51
+binder 3667:3667 <> z:52
+R3684:3687 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3677:3679 Stdlib.Sets.Uniset <> seq def
+R3683:3683 Stdlib.Sets.Uniset <> y:51 var
+R3681:3681 Stdlib.Sets.Uniset <> x:50 var
+R3688:3690 Stdlib.Sets.Uniset <> seq def
+R3705:3709 Stdlib.Sets.Uniset <> union def
+R3713:3713 Stdlib.Sets.Uniset <> y:51 var
+R3711:3711 Stdlib.Sets.Uniset <> z:52 var
+R3693:3697 Stdlib.Sets.Uniset <> union def
+R3701:3701 Stdlib.Sets.Uniset <> x:50 var
+R3699:3699 Stdlib.Sets.Uniset <> z:52 var
+R3731:3733 Stdlib.Sets.Uniset <> seq def
+R3743:3747 Stdlib.Sets.Uniset <> union def
+R3757:3762 Stdlib.Sets.Uniset <> charac def
+prf 4082:4093 <> union_rotate
+R4111:4116 Stdlib.Sets.Uniset <> uniset ind
+binder 4105:4105 <> x:53
+binder 4107:4107 <> y:54
+binder 4109:4109 <> z:55
+R4119:4121 Stdlib.Sets.Uniset <> seq def
+R4146:4150 Stdlib.Sets.Uniset <> union def
+R4155:4159 Stdlib.Sets.Uniset <> union def
+R4163:4163 Stdlib.Sets.Uniset <> y:54 var
+R4161:4161 Stdlib.Sets.Uniset <> x:53 var
+R4152:4152 Stdlib.Sets.Uniset <> z:55 var
+R4124:4128 Stdlib.Sets.Uniset <> union def
+R4133:4137 Stdlib.Sets.Uniset <> union def
+R4141:4141 Stdlib.Sets.Uniset <> z:55 var
+R4139:4139 Stdlib.Sets.Uniset <> y:54 var
+R4130:4130 Stdlib.Sets.Uniset <> x:53 var
+R4190:4198 Stdlib.Sets.Permut <> op_rotate thm
+R4213:4215 Stdlib.Sets.Uniset <> seq def
+R4207:4211 Stdlib.Sets.Uniset <> union def
+R4200:4205 Stdlib.Sets.Uniset <> uniset ind
+R4231:4239 Stdlib.Sets.Uniset <> seq_trans thm
+prf 4254:4262 <> seq_congr
+R4282:4287 Stdlib.Sets.Uniset <> uniset ind
+binder 4274:4274 <> x:56
+binder 4276:4276 <> y:57
+binder 4278:4278 <> z:58
+binder 4280:4280 <> t:59
+R4297:4300 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4290:4292 Stdlib.Sets.Uniset <> seq def
+R4296:4296 Stdlib.Sets.Uniset <> y:57 var
+R4294:4294 Stdlib.Sets.Uniset <> x:56 var
+R4308:4311 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4301:4303 Stdlib.Sets.Uniset <> seq def
+R4307:4307 Stdlib.Sets.Uniset <> t:59 var
+R4305:4305 Stdlib.Sets.Uniset <> z:58 var
+R4312:4314 Stdlib.Sets.Uniset <> seq def
+R4329:4333 Stdlib.Sets.Uniset <> union def
+R4337:4337 Stdlib.Sets.Uniset <> t:59 var
+R4335:4335 Stdlib.Sets.Uniset <> y:57 var
+R4317:4321 Stdlib.Sets.Uniset <> union def
+R4325:4325 Stdlib.Sets.Uniset <> z:58 var
+R4323:4323 Stdlib.Sets.Uniset <> x:56 var
+R4363:4372 Stdlib.Sets.Permut <> cong_congr thm
+R4387:4389 Stdlib.Sets.Uniset <> seq def
+R4381:4385 Stdlib.Sets.Uniset <> union def
+R4374:4379 Stdlib.Sets.Uniset <> uniset ind
+R4405:4413 Stdlib.Sets.Uniset <> seq_trans thm
+prf 4428:4442 <> union_perm_left
+R4460:4465 Stdlib.Sets.Uniset <> uniset ind
+binder 4454:4454 <> x:60
+binder 4456:4456 <> y:61
+binder 4458:4458 <> z:62
+R4468:4470 Stdlib.Sets.Uniset <> seq def
+R4495:4499 Stdlib.Sets.Uniset <> union def
+R4504:4508 Stdlib.Sets.Uniset <> union def
+R4512:4512 Stdlib.Sets.Uniset <> z:62 var
+R4510:4510 Stdlib.Sets.Uniset <> x:60 var
+R4501:4501 Stdlib.Sets.Uniset <> y:61 var
+R4473:4477 Stdlib.Sets.Uniset <> union def
+R4482:4486 Stdlib.Sets.Uniset <> union def
+R4490:4490 Stdlib.Sets.Uniset <> z:62 var
+R4488:4488 Stdlib.Sets.Uniset <> y:61 var
+R4479:4479 Stdlib.Sets.Uniset <> x:60 var
+R4539:4547 Stdlib.Sets.Permut <> perm_left thm
+R4562:4564 Stdlib.Sets.Uniset <> seq def
+R4556:4560 Stdlib.Sets.Uniset <> union def
+R4549:4554 Stdlib.Sets.Uniset <> uniset ind
+R4580:4588 Stdlib.Sets.Uniset <> seq_trans thm
+prf 4603:4615 <> uniset_twist1
+R4635:4640 Stdlib.Sets.Uniset <> uniset ind
+binder 4627:4627 <> x:63
+binder 4629:4629 <> y:64
+binder 4631:4631 <> z:65
+binder 4633:4633 <> t:66
+R4646:4648 Stdlib.Sets.Uniset <> seq def
+R4683:4687 Stdlib.Sets.Uniset <> union def
+R4711:4711 Stdlib.Sets.Uniset <> z:65 var
+R4690:4694 Stdlib.Sets.Uniset <> union def
+R4699:4703 Stdlib.Sets.Uniset <> union def
+R4707:4707 Stdlib.Sets.Uniset <> t:66 var
+R4705:4705 Stdlib.Sets.Uniset <> x:63 var
+R4696:4696 Stdlib.Sets.Uniset <> y:64 var
+R4651:4655 Stdlib.Sets.Uniset <> union def
+R4660:4664 Stdlib.Sets.Uniset <> union def
+R4678:4678 Stdlib.Sets.Uniset <> t:66 var
+R4667:4671 Stdlib.Sets.Uniset <> union def
+R4675:4675 Stdlib.Sets.Uniset <> z:65 var
+R4673:4673 Stdlib.Sets.Uniset <> y:64 var
+R4657:4657 Stdlib.Sets.Uniset <> x:63 var
+R4737:4741 Stdlib.Sets.Permut <> twist thm
+R4756:4758 Stdlib.Sets.Uniset <> seq def
+R4750:4754 Stdlib.Sets.Uniset <> union def
+R4743:4748 Stdlib.Sets.Uniset <> uniset ind
+R4774:4782 Stdlib.Sets.Uniset <> seq_trans thm
+prf 4797:4809 <> uniset_twist2
+R4829:4834 Stdlib.Sets.Uniset <> uniset ind
+binder 4821:4821 <> x:67
+binder 4823:4823 <> y:68
+binder 4825:4825 <> z:69
+binder 4827:4827 <> t:70
+R4840:4842 Stdlib.Sets.Uniset <> seq def
+R4877:4881 Stdlib.Sets.Uniset <> union def
+R4905:4905 Stdlib.Sets.Uniset <> t:70 var
+R4884:4888 Stdlib.Sets.Uniset <> union def
+R4893:4897 Stdlib.Sets.Uniset <> union def
+R4901:4901 Stdlib.Sets.Uniset <> z:69 var
+R4899:4899 Stdlib.Sets.Uniset <> x:67 var
+R4890:4890 Stdlib.Sets.Uniset <> y:68 var
+R4845:4849 Stdlib.Sets.Uniset <> union def
+R4854:4858 Stdlib.Sets.Uniset <> union def
+R4872:4872 Stdlib.Sets.Uniset <> t:70 var
+R4861:4865 Stdlib.Sets.Uniset <> union def
+R4869:4869 Stdlib.Sets.Uniset <> z:69 var
+R4867:4867 Stdlib.Sets.Uniset <> y:68 var
+R4851:4851 Stdlib.Sets.Uniset <> x:67 var
+R4946:4950 Stdlib.Sets.Uniset <> union def
+R4953:4957 Stdlib.Sets.Uniset <> union def
+R4962:4966 Stdlib.Sets.Uniset <> union def
+R4930:4938 Stdlib.Sets.Uniset <> seq_trans thm
+R4986:4992 Stdlib.Sets.Uniset <> seq_sym thm
+R5001:5009 Stdlib.Sets.Uniset <> union_ass thm
+R5020:5027 Stdlib.Sets.Uniset <> seq_left thm
+R5036:5050 Stdlib.Sets.Uniset <> union_perm_left thm
+prf 5095:5109 <> treesort_twist1
+R5131:5136 Stdlib.Sets.Uniset <> uniset ind
+binder 5121:5121 <> x:71
+binder 5123:5123 <> y:72
+binder 5125:5125 <> z:73
+binder 5127:5127 <> t:74
+binder 5129:5129 <> u:75
+R5159:5165 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5142:5144 Stdlib.Sets.Uniset <> seq def
+R5149:5153 Stdlib.Sets.Uniset <> union def
+R5157:5157 Stdlib.Sets.Uniset <> z:73 var
+R5155:5155 Stdlib.Sets.Uniset <> y:72 var
+R5146:5146 Stdlib.Sets.Uniset <> u:75 var
+R5166:5168 Stdlib.Sets.Uniset <> seq def
+R5193:5197 Stdlib.Sets.Uniset <> union def
+R5221:5221 Stdlib.Sets.Uniset <> z:73 var
+R5200:5204 Stdlib.Sets.Uniset <> union def
+R5209:5213 Stdlib.Sets.Uniset <> union def
+R5217:5217 Stdlib.Sets.Uniset <> t:74 var
+R5215:5215 Stdlib.Sets.Uniset <> x:71 var
+R5206:5206 Stdlib.Sets.Uniset <> y:72 var
+R5171:5175 Stdlib.Sets.Uniset <> union def
+R5180:5184 Stdlib.Sets.Uniset <> union def
+R5188:5188 Stdlib.Sets.Uniset <> t:74 var
+R5186:5186 Stdlib.Sets.Uniset <> u:75 var
+R5177:5177 Stdlib.Sets.Uniset <> x:71 var
+R5262:5266 Stdlib.Sets.Uniset <> union def
+R5271:5275 Stdlib.Sets.Uniset <> union def
+R5278:5282 Stdlib.Sets.Uniset <> union def
+R5246:5254 Stdlib.Sets.Uniset <> seq_trans thm
+R5302:5310 Stdlib.Sets.Uniset <> seq_right thm
+R5319:5326 Stdlib.Sets.Uniset <> seq_left thm
+R5346:5358 Stdlib.Sets.Uniset <> uniset_twist1 thm
+prf 5373:5387 <> treesort_twist2
+R5409:5414 Stdlib.Sets.Uniset <> uniset ind
+binder 5399:5399 <> x:76
+binder 5401:5401 <> y:77
+binder 5403:5403 <> z:78
+binder 5405:5405 <> t:79
+binder 5407:5407 <> u:80
+R5437:5443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5420:5422 Stdlib.Sets.Uniset <> seq def
+R5427:5431 Stdlib.Sets.Uniset <> union def
+R5435:5435 Stdlib.Sets.Uniset <> z:78 var
+R5433:5433 Stdlib.Sets.Uniset <> y:77 var
+R5424:5424 Stdlib.Sets.Uniset <> u:80 var
+R5444:5446 Stdlib.Sets.Uniset <> seq def
+R5471:5475 Stdlib.Sets.Uniset <> union def
+R5499:5499 Stdlib.Sets.Uniset <> t:79 var
+R5478:5482 Stdlib.Sets.Uniset <> union def
+R5487:5491 Stdlib.Sets.Uniset <> union def
+R5495:5495 Stdlib.Sets.Uniset <> z:78 var
+R5493:5493 Stdlib.Sets.Uniset <> x:76 var
+R5484:5484 Stdlib.Sets.Uniset <> y:77 var
+R5449:5453 Stdlib.Sets.Uniset <> union def
+R5458:5462 Stdlib.Sets.Uniset <> union def
+R5466:5466 Stdlib.Sets.Uniset <> t:79 var
+R5464:5464 Stdlib.Sets.Uniset <> u:80 var
+R5455:5455 Stdlib.Sets.Uniset <> x:76 var
+R5540:5544 Stdlib.Sets.Uniset <> union def
+R5549:5553 Stdlib.Sets.Uniset <> union def
+R5556:5560 Stdlib.Sets.Uniset <> union def
+R5524:5532 Stdlib.Sets.Uniset <> seq_trans thm
+R5580:5588 Stdlib.Sets.Uniset <> seq_right thm
+R5597:5604 Stdlib.Sets.Uniset <> seq_left thm
+R5624:5636 Stdlib.Sets.Uniset <> uniset_twist2 thm
+R5807:5810 Stdlib.Sets.Uniset defs <> sec

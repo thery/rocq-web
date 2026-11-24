@@ -1,0 +1,1623 @@
+DIGEST 93118e568d182f3bcf6228c05ee68df9
+FStdlib.Strings.PString
+R27:32 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R62:71 Stdlib.Strings.PrimString <> <> lib
+R101:116 Stdlib.Strings.PrimStringAxioms <> <> lib
+R157:159 Stdlib.micromega.Lia <> <> lib
+R199:208 Stdlib.micromega.ZifyUint63 <> <> lib
+R248:251 Stdlib.micromega.Zify <> <> lib
+R281:286 Stdlib.Numbers.Cyclic.Int63.Ring63 <> <> lib
+R316:321 Stdlib.ZArith.ZArith <> <> lib
+R405:408 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+inst 449:461 <> Op_max_length
+R465:481 Stdlib.micromega.ZifyClasses <> CstOp class
+R483:492 Corelib.Strings.PrimString <> max_length prim
+R522:528 Stdlib.micromega.ZifyClasses <> TCstInj meth
+R501:504 Stdlib.micromega.ZifyClasses <> TCst meth
+R533:539 Corelib.Init.Logic <> eq_refl constr
+prf 811:821 <> to_list_inj
+R832:837 Corelib.Strings.PrimString <> string prim
+binder 824:825 <> s1:1
+binder 827:828 <> s2:2
+R867:870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R854:856 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R844:850 Corelib.Strings.PrimStringAxioms <> to_list def
+R852:853 Stdlib.Strings.PString <> s1:1 var
+R857:863 Corelib.Strings.PrimStringAxioms <> to_list def
+R865:866 Stdlib.Strings.PString <> s2:2 var
+R873:875 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R871:872 Stdlib.Strings.PString <> s1:1 var
+R876:877 Stdlib.Strings.PString <> s2:2 var
+R910:919 Corelib.Strings.PrimStringAxioms <> of_to_list prfax
+R929:938 Corelib.Strings.PrimStringAxioms <> of_to_list prfax
+prf 975:984 <> to_of_list
+R991:994 Corelib.Init.Datatypes <> list ind
+R996:1001 Corelib.Strings.PrimString <> char63 def
+binder 987:987 <> l:3
+R1034:1039 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1008:1018 Stdlib.Lists.List <> Forall abbrev
+R1033:1033 Stdlib.Strings.PString <> l:3 var
+R1020:1031 Corelib.Strings.PrimStringAxioms <> char63_valid def
+R1083:1088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1064:1067 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1040:1047 Stdlib.ZArith.BinInt Z of_nat def
+R1050:1060 Stdlib.Lists.List <> length abbrev
+R1062:1062 Stdlib.Strings.PString <> l:3 var
+R1068:1071 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1073:1082 Corelib.Strings.PrimString <> max_length prim
+R1108:1110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1089:1095 Corelib.Strings.PrimStringAxioms <> to_list def
+R1098:1104 Corelib.Strings.PrimStringAxioms <> of_list def
+R1106:1106 Stdlib.Strings.PString <> l:3 var
+R1111:1111 Stdlib.Strings.PString <> l:3 var
+R1200:1219 Stdlib.Lists.List <> Forall_cons_iff thm
+R1263:1270 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R1273:1281 Corelib.Strings.PrimStringAxioms <> make_spec prfax
+R1333:1348 Stdlib.Lists.List <> firstn_all2 thm
+prf 1446:1463 <> get_spec_in_bounds
+R1470:1475 Corelib.Strings.PrimString <> string prim
+binder 1466:1466 <> s:4
+R1483:1485 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 1479:1479 <> i:5
+R1516:1521 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1498:1500 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1492:1495 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1497:1497 Stdlib.Strings.PString <> i:5 var
+R1501:1504 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1507:1512 Corelib.Strings.PrimString <> length prim
+R1514:1514 Stdlib.Strings.PString <> s:4 var
+R1544:1549 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1522:1533 Corelib.Strings.PrimStringAxioms <> char63_valid def
+R1536:1538 Corelib.Strings.PrimString <> get prim
+R1540:1540 Stdlib.Strings.PString <> s:4 var
+R1542:1542 Stdlib.Strings.PString <> i:5 var
+R1587:1589 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1550:1563 Stdlib.Lists.List <> nth_error def
+R1578:1583 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R1585:1585 Stdlib.Strings.PString <> i:5 var
+R1566:1572 Corelib.Strings.PrimStringAxioms <> to_list def
+R1574:1574 Stdlib.Strings.PString <> s:4 var
+R1590:1593 Corelib.Init.Datatypes <> Some constr
+R1596:1598 Corelib.Strings.PrimString <> get prim
+R1600:1600 Stdlib.Strings.PString <> s:4 var
+R1602:1602 Stdlib.Strings.PString <> i:5 var
+R1635:1642 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R1667:1686 Corelib.Strings.PrimStringAxioms <> to_list_char63_valid prfax
+R1707:1721 Stdlib.Lists.List <> Forall_nth thm
+R1749:1759 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R1777:1795 Stdlib.Lists.List <> nth_error_nth' thm
+R1808:1818 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 1838:1859 <> get_spec_not_in_bounds
+R1866:1871 Corelib.Strings.PrimString <> string prim
+binder 1862:1862 <> s:6
+R1879:1881 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 1875:1875 <> i:7
+R1913:1918 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1903:1906 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1888:1891 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1894:1899 Corelib.Strings.PrimString <> length prim
+R1901:1901 Stdlib.Strings.PString <> s:6 var
+R1907:1910 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1912:1912 Stdlib.Strings.PString <> i:7 var
+R1926:1928 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1919:1921 Corelib.Strings.PrimString <> get prim
+R1923:1923 Stdlib.Strings.PString <> s:6 var
+R1925:1925 Stdlib.Strings.PString <> i:7 var
+R1968:1975 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R1978:1994 Stdlib.Lists.List <> nth_overflow thm
+R2025:2035 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 2055:2076 <> make_spec_valid_length
+R2083:2085 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 2079:2079 <> i:8
+R2093:2098 Corelib.Strings.PrimString <> char63 def
+binder 2089:2089 <> c:9
+R2130:2135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2111:2114 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2105:2108 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2110:2110 Stdlib.Strings.PString <> i:8 var
+R2115:2118 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2120:2129 Corelib.Strings.PrimString <> max_length prim
+R2154:2156 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2136:2142 Corelib.Strings.PrimStringAxioms <> to_list def
+R2145:2148 Corelib.Strings.PrimString <> make prim
+R2150:2150 Stdlib.Strings.PString <> i:8 var
+R2152:2152 Stdlib.Strings.PString <> c:9 var
+R2157:2167 Stdlib.Lists.List <> repeat abbrev
+R2190:2195 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R2197:2197 Stdlib.Strings.PString <> i:8 var
+R2171:2176 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R2170:2170 Stdlib.Strings.PString <> c:9 var
+R2230:2238 Corelib.Strings.PrimStringAxioms <> make_spec prfax
+R2241:2249 Stdlib.Arith.PeanoNat Nat min_l thm
+prf 2285:2308 <> make_spec_invalid_length
+R2315:2317 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 2311:2311 <> i:10
+R2325:2330 Corelib.Strings.PrimString <> char63 def
+binder 2321:2321 <> c:11
+R2361:2366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2352:2354 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2337:2340 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2342:2351 Corelib.Strings.PrimString <> max_length prim
+R2355:2358 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2360:2360 Stdlib.Strings.PString <> i:10 var
+R2385:2387 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2367:2373 Corelib.Strings.PrimStringAxioms <> to_list def
+R2376:2379 Corelib.Strings.PrimString <> make prim
+R2381:2381 Stdlib.Strings.PString <> i:10 var
+R2383:2383 Stdlib.Strings.PString <> c:11 var
+R2388:2398 Stdlib.Lists.List <> repeat abbrev
+R2421:2426 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R2428:2437 Corelib.Strings.PrimString <> max_length prim
+R2402:2407 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R2401:2401 Stdlib.Strings.PString <> c:11 var
+R2470:2478 Corelib.Strings.PrimStringAxioms <> make_spec prfax
+R2481:2489 Stdlib.Arith.PeanoNat Nat min_r thm
+prf 2525:2545 <> cat_spec_valid_length
+R2556:2561 Corelib.Strings.PrimString <> string prim
+binder 2548:2549 <> s1:12
+binder 2551:2552 <> s2:13
+R2622:2627 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2603:2606 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2584:2586 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2568:2571 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2574:2579 Corelib.Strings.PrimString <> length prim
+R2581:2582 Stdlib.Strings.PString <> s1:12 var
+R2587:2590 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2593:2598 Corelib.Strings.PrimString <> length prim
+R2600:2601 Stdlib.Strings.PString <> s2:13 var
+R2607:2610 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2612:2621 Corelib.Strings.PrimString <> max_length prim
+R2647:2649 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2628:2634 Corelib.Strings.PrimStringAxioms <> to_list def
+R2637:2639 Corelib.Strings.PrimString <> cat prim
+R2641:2642 Stdlib.Strings.PString <> s1:12 var
+R2644:2645 Stdlib.Strings.PString <> s2:13 var
+R2660:2663 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2650:2656 Corelib.Strings.PrimStringAxioms <> to_list def
+R2658:2659 Stdlib.Strings.PString <> s1:12 var
+R2664:2670 Corelib.Strings.PrimStringAxioms <> to_list def
+R2672:2673 Stdlib.Strings.PString <> s2:13 var
+R2706:2713 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R2716:2731 Stdlib.Lists.List <> firstn_all2 thm
+R2760:2774 Stdlib.Lists.List <> length_app thm
+R2780:2790 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 2848:2859 <> valid_length
+R2866:2871 Corelib.Strings.PrimString <> string prim
+binder 2862:2862 <> s:14
+R2893:2896 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2878:2881 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2884:2889 Corelib.Strings.PrimString <> length prim
+R2891:2891 Stdlib.Strings.PString <> s:14 var
+R2897:2900 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R2902:2911 Corelib.Strings.PrimString <> max_length prim
+R2935:2948 Corelib.Strings.PrimStringAxioms <> to_list_length prfax
+R2977:2987 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 3020:3034 <> length_spec_int
+R3041:3046 Corelib.Strings.PrimString <> string prim
+binder 3037:3037 <> s:15
+R3061:3063 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3053:3058 Corelib.Strings.PrimString <> length prim
+R3060:3060 Stdlib.Strings.PString <> s:15 var
+R3064:3067 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> of_Z def
+R3070:3077 Stdlib.ZArith.BinInt Z of_nat def
+R3080:3090 Stdlib.Lists.List <> length abbrev
+R3093:3099 Corelib.Strings.PrimStringAxioms <> to_list def
+R3101:3101 Stdlib.Strings.PString <> s:15 var
+R3122:3129 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z_inj thm
+R3142:3152 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R3165:3173 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R3176:3186 Stdlib.ZArith.BinInt Z mod_small thm
+R3189:3196 Stdlib.ZArith.Znat Z2Nat id thm
+prf 3216:3228 <> length_spec_Z
+R3235:3240 Corelib.Strings.PrimString <> string prim
+binder 3231:3231 <> s:16
+R3262:3264 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3247:3250 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3253:3258 Corelib.Strings.PrimString <> length prim
+R3260:3260 Stdlib.Strings.PString <> s:16 var
+R3265:3272 Stdlib.ZArith.BinInt Z of_nat def
+R3275:3285 Stdlib.Lists.List <> length abbrev
+R3288:3294 Corelib.Strings.PrimStringAxioms <> to_list def
+R3296:3296 Stdlib.Strings.PString <> s:16 var
+R3320:3330 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R3341:3348 Stdlib.ZArith.Znat Z2Nat id thm
+prf 3368:3383 <> make_length_spec
+R3390:3392 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 3386:3386 <> i:17
+R3400:3405 Corelib.Strings.PrimString <> char63 def
+binder 3396:3396 <> c:18
+R3437:3442 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3418:3421 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3412:3415 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3417:3417 Stdlib.Strings.PString <> i:17 var
+R3422:3425 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3427:3436 Corelib.Strings.PrimString <> max_length prim
+R3460:3462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3443:3448 Corelib.Strings.PrimString <> length prim
+R3451:3454 Corelib.Strings.PrimString <> make prim
+R3456:3456 Stdlib.Strings.PString <> i:17 var
+R3458:3458 Stdlib.Strings.PString <> c:18 var
+R3463:3463 Stdlib.Strings.PString <> i:17 var
+R3504:3514 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R3517:3520 Corelib.Strings.PrimString <> make prim
+R3548:3569 Stdlib.Strings.PString <> make_spec_valid_length thm
+R3602:3619 Stdlib.Lists.List <> repeat_length thm
+prf 3647:3661 <> sub_length_spec
+R3668:3673 Corelib.Strings.PrimString <> string prim
+binder 3664:3664 <> s:19
+R3687:3689 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 3677:3679 <> off:20
+binder 3681:3683 <> len:21
+R3723:3728 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3704:3707 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3696:3699 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3701:3703 Stdlib.Strings.PString <> off:20 var
+R3708:3711 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3714:3719 Corelib.Strings.PrimString <> length prim
+R3721:3721 Stdlib.Strings.PString <> s:19 var
+R3767:3772 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3737:3740 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3729:3732 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3734:3736 Stdlib.Strings.PString <> len:21 var
+R3756:3758 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3741:3744 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3747:3752 Corelib.Strings.PrimString <> length prim
+R3754:3754 Stdlib.Strings.PString <> s:19 var
+R3759:3762 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R3764:3766 Stdlib.Strings.PString <> off:20 var
+R3795:3797 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3773:3778 Corelib.Strings.PrimString <> length prim
+R3781:3783 Corelib.Strings.PrimString <> sub prim
+R3785:3785 Stdlib.Strings.PString <> s:19 var
+R3787:3789 Stdlib.Strings.PString <> off:20 var
+R3791:3793 Stdlib.Strings.PString <> len:21 var
+R3798:3800 Stdlib.Strings.PString <> len:21 var
+R3844:3854 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R3857:3859 Corelib.Strings.PrimString <> sub prim
+R3890:3897 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R3900:3920 Stdlib.Lists.List <> firstn_length_le thm
+R3947:3963 Stdlib.Lists.List <> length_skipn thm
+R3968:3978 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 3998:4012 <> cat_length_spec
+R4023:4028 Corelib.Strings.PrimString <> string prim
+binder 4015:4016 <> s1:22
+binder 4018:4019 <> s2:23
+R4053:4055 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4035:4040 Corelib.Strings.PrimString <> length prim
+R4043:4045 Corelib.Strings.PrimString <> cat prim
+R4047:4048 Stdlib.Strings.PString <> s1:22 var
+R4050:4051 Stdlib.Strings.PString <> s2:23 var
+R4056:4065 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min def
+R4067:4076 Corelib.Strings.PrimString <> max_length prim
+R4088:4090 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R4079:4084 Corelib.Strings.PrimString <> length prim
+R4086:4087 Stdlib.Strings.PString <> s1:22 var
+R4091:4096 Corelib.Strings.PrimString <> length prim
+R4098:4099 Stdlib.Strings.PString <> s2:23 var
+R4127:4141 Stdlib.Strings.PString <> length_spec_int thm
+R4144:4151 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R4154:4171 Stdlib.Lists.List <> length_firstn thm
+R4184:4196 Stdlib.ZArith.Znat Nat2Z inj_min thm
+R4199:4206 Stdlib.ZArith.Znat Z2Nat id thm
+R4227:4241 Stdlib.Lists.List <> length_app thm
+R4247:4257 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R4272:4284 Stdlib.ZArith.Znat Z2Nat inj_add thm
+R4309:4316 Stdlib.ZArith.Znat Z2Nat id thm
+R4372:4386 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4353:4355 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4337:4340 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4343:4348 Corelib.Strings.PrimString <> length prim
+R4356:4359 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4362:4367 Corelib.Strings.PrimString <> length prim
+R4387:4387 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4423:4428 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4404:4406 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4388:4391 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4394:4399 Corelib.Strings.PrimString <> length prim
+R4407:4410 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4413:4418 Corelib.Strings.PrimString <> length prim
+R4429:4430 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R4452:4462 Stdlib.ZArith.BinInt Z mod_small thm
+R4511:4522 Stdlib.Strings.PString <> valid_length thm
+R4550:4561 Stdlib.Strings.PString <> valid_length thm
+R4609:4616 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R4621:4635 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min_spec thm
+R4638:4644 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> of_to_Z prfax
+prf 4672:4698 <> cat_length_spec_no_overflow
+R4709:4714 Corelib.Strings.PrimString <> string prim
+binder 4701:4702 <> s1:24
+binder 4704:4705 <> s2:25
+R4775:4780 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4756:4759 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4737:4739 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4721:4724 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4727:4732 Corelib.Strings.PrimString <> length prim
+R4734:4735 Stdlib.Strings.PString <> s1:24 var
+R4740:4743 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4746:4751 Corelib.Strings.PrimString <> length prim
+R4753:4754 Stdlib.Strings.PString <> s2:25 var
+R4760:4763 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R4765:4774 Corelib.Strings.PrimString <> max_length prim
+R4799:4801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4781:4786 Corelib.Strings.PrimString <> length prim
+R4789:4791 Corelib.Strings.PrimString <> cat prim
+R4793:4794 Stdlib.Strings.PString <> s1:24 var
+R4796:4797 Stdlib.Strings.PString <> s2:25 var
+R4812:4814 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R4803:4808 Corelib.Strings.PrimString <> length prim
+R4810:4811 Stdlib.Strings.PString <> s1:24 var
+R4815:4820 Corelib.Strings.PrimString <> length prim
+R4822:4823 Stdlib.Strings.PString <> s2:25 var
+R4864:4878 Stdlib.Strings.PString <> cat_length_spec thm
+R4888:4890 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min def
+R4915:4920 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'≤?'_x not
+R4905:4914 Corelib.Strings.PrimString <> max_length prim
+R4930:4932 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R4921:4926 Corelib.Strings.PrimString <> length prim
+R4933:4938 Corelib.Strings.PrimString <> length prim
+R4986:4993 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> leb_spec prfax
+R4996:5003 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R5006:5016 Stdlib.ZArith.BinInt Z mod_small thm
+R5042:5049 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z_inj thm
+R5060:5067 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R5070:5080 Stdlib.ZArith.BinInt Z mod_small thm
+prf 5135:5150 <> get_char63_valid
+R5157:5162 Corelib.Strings.PrimString <> string prim
+binder 5153:5153 <> s:26
+R5170:5172 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 5166:5166 <> i:27
+R5179:5190 Corelib.Strings.PrimStringAxioms <> char63_valid def
+R5193:5195 Corelib.Strings.PrimString <> get prim
+R5197:5197 Stdlib.Strings.PString <> s:26 var
+R5199:5199 Stdlib.Strings.PString <> i:27 var
+R5220:5227 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R5250:5253 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R5242:5247 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R5254:5269 Corelib.Init.Datatypes <> length def
+R5272:5278 Corelib.Strings.PrimStringAxioms <> to_list def
+R5312:5331 Corelib.Strings.PrimStringAxioms <> to_list_char63_valid prfax
+R5356:5370 Stdlib.Lists.List <> Forall_nth thm
+R5403:5419 Stdlib.Lists.List <> nth_overflow thm
+prf 5453:5465 <> make_get_spec
+R5474:5476 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 5468:5468 <> i:28
+binder 5470:5470 <> j:29
+R5484:5489 Corelib.Strings.PrimString <> char63 def
+binder 5480:5480 <> c:30
+R5520:5525 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5502:5504 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5496:5499 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5501:5501 Stdlib.Strings.PString <> j:29 var
+R5505:5508 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5510:5519 Corelib.Strings.PrimString <> max_length prim
+R5541:5546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5532:5534 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5526:5529 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5531:5531 Stdlib.Strings.PString <> j:29 var
+R5535:5538 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5540:5540 Stdlib.Strings.PString <> i:28 var
+R5563:5565 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5547:5549 Corelib.Strings.PrimString <> get prim
+R5552:5555 Corelib.Strings.PrimString <> make prim
+R5557:5557 Stdlib.Strings.PString <> i:28 var
+R5559:5559 Stdlib.Strings.PString <> c:30 var
+R5562:5562 Stdlib.Strings.PString <> j:29 var
+R5568:5573 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R5567:5567 Stdlib.Strings.PString <> c:30 var
+R5620:5627 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R5630:5638 Corelib.Strings.PrimStringAxioms <> make_spec prfax
+R5651:5668 Stdlib.Lists.List <> nth_repeat_lt thm
+prf 5702:5720 <> make_get_spec_valid
+R5729:5731 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 5723:5723 <> i:31
+binder 5725:5725 <> j:32
+R5739:5744 Corelib.Strings.PrimString <> char63 def
+binder 5735:5735 <> c:33
+R5775:5780 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5757:5759 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5751:5754 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5756:5756 Stdlib.Strings.PString <> j:32 var
+R5760:5763 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5765:5774 Corelib.Strings.PrimString <> max_length prim
+R5796:5801 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5787:5789 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5781:5784 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5786:5786 Stdlib.Strings.PString <> j:32 var
+R5790:5793 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5795:5795 Stdlib.Strings.PString <> i:31 var
+R5816:5821 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5802:5813 Corelib.Strings.PrimStringAxioms <> char63_valid def
+R5815:5815 Stdlib.Strings.PString <> c:33 var
+R5838:5840 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5822:5824 Corelib.Strings.PrimString <> get prim
+R5827:5830 Corelib.Strings.PrimString <> make prim
+R5832:5832 Stdlib.Strings.PString <> i:31 var
+R5834:5834 Stdlib.Strings.PString <> c:33 var
+R5837:5837 Stdlib.Strings.PString <> j:32 var
+R5841:5841 Stdlib.Strings.PString <> c:33 var
+R5869:5881 Stdlib.Strings.PString <> make_get_spec thm
+prf 5908:5919 <> sub_get_spec
+R5926:5931 Corelib.Strings.PrimString <> string prim
+binder 5922:5922 <> s:34
+R5947:5949 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 5935:5937 <> off:35
+binder 5939:5941 <> len:36
+binder 5943:5943 <> i:37
+R5978:5983 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5973:5975 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5964:5966 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5956:5959 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5961:5963 Stdlib.Strings.PString <> off:35 var
+R5967:5970 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5972:5972 Stdlib.Strings.PString <> i:37 var
+R5976:5977 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R6001:6006 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5990:5992 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5984:5987 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5989:5989 Stdlib.Strings.PString <> i:37 var
+R5993:5996 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R5998:6000 Stdlib.Strings.PString <> len:36 var
+R6028:6030 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6007:6009 Corelib.Strings.PrimString <> get prim
+R6012:6014 Corelib.Strings.PrimString <> sub prim
+R6016:6016 Stdlib.Strings.PString <> s:34 var
+R6018:6020 Stdlib.Strings.PString <> off:35 var
+R6022:6024 Stdlib.Strings.PString <> len:36 var
+R6027:6027 Stdlib.Strings.PString <> i:37 var
+R6031:6033 Corelib.Strings.PrimString <> get prim
+R6035:6035 Stdlib.Strings.PString <> s:34 var
+R6041:6043 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R6038:6040 Stdlib.Strings.PString <> off:35 var
+R6044:6044 Stdlib.Strings.PString <> i:37 var
+R6083:6090 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R6093:6100 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R6113:6127 Stdlib.Lists.List <> nth_firstn thm
+R6130:6143 Stdlib.Lists.List <> nth_skipn thm
+R6182:6196 Stdlib.Numbers.Cyclic.Int63.Uint63 <> add_spec abbrev
+R6199:6209 Stdlib.ZArith.BinInt Z mod_small thm
+prf 6229:6242 <> cat_get_spec_l
+R6253:6258 Corelib.Strings.PrimString <> string prim
+binder 6245:6246 <> s1:38
+binder 6248:6249 <> s2:39
+R6266:6268 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 6262:6262 <> i:40
+R6300:6305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6281:6283 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6275:6278 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6280:6280 Stdlib.Strings.PString <> i:40 var
+R6284:6287 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6290:6295 Corelib.Strings.PrimString <> length prim
+R6297:6298 Stdlib.Strings.PString <> s1:38 var
+R6323:6325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6306:6308 Corelib.Strings.PrimString <> get prim
+R6311:6313 Corelib.Strings.PrimString <> cat prim
+R6315:6316 Stdlib.Strings.PString <> s1:38 var
+R6318:6319 Stdlib.Strings.PString <> s2:39 var
+R6322:6322 Stdlib.Strings.PString <> i:40 var
+R6326:6328 Corelib.Strings.PrimString <> get prim
+R6330:6331 Stdlib.Strings.PString <> s1:38 var
+R6333:6333 Stdlib.Strings.PString <> i:40 var
+R6369:6380 Stdlib.Strings.PString <> valid_length thm
+R6404:6411 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R6414:6421 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R6434:6448 Stdlib.Lists.List <> nth_firstn thm
+R6478:6490 Stdlib.Lists.List <> app_nth1 thm
+R6521:6531 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 6551:6564 <> cat_get_spec_r
+R6575:6580 Corelib.Strings.PrimString <> string prim
+binder 6567:6568 <> s1:41
+binder 6570:6571 <> s2:42
+R6588:6590 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 6584:6584 <> i:43
+R6623:6628 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6613:6616 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6597:6600 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6603:6608 Corelib.Strings.PrimString <> length prim
+R6610:6611 Stdlib.Strings.PString <> s1:41 var
+R6617:6620 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6622:6622 Stdlib.Strings.PString <> i:43 var
+R6653:6658 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6635:6637 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6629:6632 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6634:6634 Stdlib.Strings.PString <> i:43 var
+R6638:6641 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R6643:6652 Corelib.Strings.PrimString <> max_length prim
+R6676:6678 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6659:6661 Corelib.Strings.PrimString <> get prim
+R6664:6666 Corelib.Strings.PrimString <> cat prim
+R6668:6669 Stdlib.Strings.PString <> s1:41 var
+R6671:6672 Stdlib.Strings.PString <> s2:42 var
+R6675:6675 Stdlib.Strings.PString <> i:43 var
+R6679:6681 Corelib.Strings.PrimString <> get prim
+R6683:6684 Stdlib.Strings.PString <> s2:42 var
+R6688:6690 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R6687:6687 Stdlib.Strings.PString <> i:43 var
+R6691:6696 Corelib.Strings.PrimString <> length prim
+R6698:6699 Stdlib.Strings.PString <> s1:41 var
+R6737:6744 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R6747:6754 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R6767:6781 Stdlib.Lists.List <> nth_firstn thm
+R6811:6823 Stdlib.Lists.List <> app_nth2 thm
+R6838:6848 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R6869:6879 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R6882:6896 Stdlib.Numbers.Cyclic.Int63.Uint63 <> sub_spec abbrev
+R6899:6909 Stdlib.ZArith.BinInt Z mod_small thm
+R6930:6942 Stdlib.ZArith.Znat Z2Nat inj_sub thm
+prf 7018:7036 <> char63_compare_refl
+R7047:7052 Corelib.Strings.PrimString <> char63 def
+binder 7039:7040 <> c1:44
+binder 7042:7043 <> c2:45
+R7084:7088 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7079:7081 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7059:7072 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7074:7075 Stdlib.Strings.PString <> c1:44 var
+R7077:7078 Stdlib.Strings.PString <> c2:45 var
+R7082:7083 Corelib.Init.Datatypes <> Eq constr
+R7091:7093 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7089:7090 Stdlib.Strings.PString <> c1:44 var
+R7094:7095 Stdlib.Strings.PString <> c2:45 var
+R7115:7133 Stdlib.Numbers.Cyclic.Int63.Uint63 <> compare_spec thm
+R7136:7151 Stdlib.ZArith.BinInt Z compare_eq_iff thm
+R7170:7177 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z_inj thm
+prf 7216:7237 <> char63_compare_antisym
+R7248:7253 Corelib.Strings.PrimString <> char63 def
+binder 7240:7241 <> c1:46
+binder 7243:7244 <> c2:47
+R7280:7282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7260:7273 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7275:7276 Stdlib.Strings.PString <> c2:47 var
+R7278:7279 Stdlib.Strings.PString <> c1:46 var
+R7283:7289 Corelib.Init.Datatypes <> CompOpp def
+R7292:7305 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7307:7308 Stdlib.Strings.PString <> c1:46 var
+R7310:7311 Stdlib.Strings.PString <> c2:47 var
+R7333:7351 Stdlib.Numbers.Cyclic.Int63.Uint63 <> compare_spec thm
+R7360:7376 Stdlib.ZArith.BinInt Z compare_antisym thm
+prf 7391:7410 <> char63_compare_trans
+R7424:7429 Corelib.Strings.PrimString <> char63 def
+binder 7413:7414 <> c1:48
+binder 7416:7417 <> c2:49
+binder 7419:7420 <> c3:50
+R7437:7446 Corelib.Init.Datatypes <> comparison ind
+binder 7433:7433 <> c:51
+R7477:7480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7473:7475 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7453:7466 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7468:7469 Stdlib.Strings.PString <> c1:48 var
+R7471:7472 Stdlib.Strings.PString <> c2:49 var
+R7476:7476 Stdlib.Strings.PString <> c:51 var
+R7505:7508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7501:7503 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7481:7494 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7496:7497 Stdlib.Strings.PString <> c2:49 var
+R7499:7500 Stdlib.Strings.PString <> c3:50 var
+R7504:7504 Stdlib.Strings.PString <> c:51 var
+R7529:7531 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7509:7522 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R7524:7525 Stdlib.Strings.PString <> c1:48 var
+R7527:7528 Stdlib.Strings.PString <> c3:50 var
+R7532:7532 Stdlib.Strings.PString <> c:51 var
+R7569:7587 Stdlib.Strings.PString <> char63_compare_refl thm
+R7630:7648 Stdlib.Numbers.Cyclic.Int63.Uint63 <> compare_spec thm
+R7657:7673 Stdlib.ZArith.Zcompare <> Zcompare_Lt_trans thm
+R7689:7707 Stdlib.Numbers.Cyclic.Int63.Uint63 <> compare_spec thm
+R7716:7732 Stdlib.ZArith.Zcompare <> Zcompare_Gt_trans thm
+prf 7747:7758 <> compare_refl
+R7765:7770 Corelib.Strings.PrimString <> string prim
+binder 7761:7761 <> s:52
+R7786:7788 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7775:7781 Corelib.Strings.PrimString <> compare prim
+R7783:7783 Stdlib.Strings.PString <> s:52 var
+R7785:7785 Stdlib.Strings.PString <> s:52 var
+R7789:7790 Corelib.Init.Datatypes <> Eq constr
+R7810:7838 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R7850:7871 Stdlib.Lists.List <> list_compare_refl thm
+R7875:7893 Stdlib.Strings.PString <> char63_compare_refl thm
+prf 7922:7936 <> compare_antisym
+R7947:7952 Corelib.Strings.PrimString <> string prim
+binder 7939:7940 <> s1:53
+binder 7942:7943 <> s2:54
+R7972:7974 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7959:7965 Corelib.Strings.PrimString <> compare prim
+R7967:7968 Stdlib.Strings.PString <> s2:54 var
+R7970:7971 Stdlib.Strings.PString <> s1:53 var
+R7975:7981 Corelib.Init.Datatypes <> CompOpp def
+R7984:7990 Corelib.Strings.PrimString <> compare prim
+R7992:7993 Stdlib.Strings.PString <> s1:53 var
+R7995:7996 Stdlib.Strings.PString <> s2:54 var
+R8018:8046 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R8057:8081 Stdlib.Lists.List <> list_compare_antisym thm
+R8094:8112 Stdlib.Strings.PString <> char63_compare_refl thm
+R8125:8146 Stdlib.Strings.PString <> char63_compare_antisym thm
+prf 8161:8173 <> compare_trans
+R8180:8189 Corelib.Init.Datatypes <> comparison ind
+binder 8176:8176 <> c:55
+R8204:8209 Corelib.Strings.PrimString <> string prim
+binder 8193:8194 <> s1:56
+binder 8196:8197 <> s2:57
+binder 8199:8200 <> s3:58
+R8233:8236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8229:8231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8216:8222 Corelib.Strings.PrimString <> compare prim
+R8224:8225 Stdlib.Strings.PString <> s1:56 var
+R8227:8228 Stdlib.Strings.PString <> s2:57 var
+R8232:8232 Stdlib.Strings.PString <> c:55 var
+R8254:8257 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8250:8252 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8237:8243 Corelib.Strings.PrimString <> compare prim
+R8245:8246 Stdlib.Strings.PString <> s2:57 var
+R8248:8249 Stdlib.Strings.PString <> s3:58 var
+R8253:8253 Stdlib.Strings.PString <> c:55 var
+R8271:8273 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8258:8264 Corelib.Strings.PrimString <> compare prim
+R8266:8267 Stdlib.Strings.PString <> s1:56 var
+R8269:8270 Stdlib.Strings.PString <> s3:58 var
+R8274:8274 Stdlib.Strings.PString <> c:55 var
+R8295:8323 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R8334:8356 Stdlib.Lists.List <> list_compare_trans thm
+R8369:8387 Stdlib.Strings.PString <> char63_compare_refl thm
+R8400:8419 Stdlib.Strings.PString <> char63_compare_trans thm
+R8432:8453 Stdlib.Strings.PString <> char63_compare_antisym thm
+prf 8468:8485 <> compare_eq_correct
+R8496:8501 Corelib.Strings.PrimString <> string prim
+binder 8488:8489 <> s1:59
+binder 8491:8492 <> s2:60
+R8526:8529 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8521:8523 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8508:8514 Corelib.Strings.PrimString <> compare prim
+R8516:8517 Stdlib.Strings.PString <> s1:59 var
+R8519:8520 Stdlib.Strings.PString <> s2:60 var
+R8524:8525 Corelib.Init.Datatypes <> Eq constr
+R8532:8534 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8530:8531 Stdlib.Strings.PString <> s1:59 var
+R8535:8536 Stdlib.Strings.PString <> s2:60 var
+R8556:8567 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R8571:8592 Stdlib.Lists.List <> list_compare_refl thm
+R8596:8614 Stdlib.Strings.PString <> char63_compare_refl thm
+R8626:8636 Stdlib.Strings.PString <> to_list_inj thm
+prf 8651:8663 <> string_eq_ext
+R8674:8679 Corelib.Strings.PrimString <> string prim
+binder 8666:8667 <> s1:61
+binder 8669:8670 <> s2:62
+R8686:8686 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8773:8779 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8708:8714 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8696:8698 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8687:8692 Corelib.Strings.PrimString <> length prim
+R8694:8695 Stdlib.Strings.PString <> s1:61 var
+R8699:8704 Corelib.Strings.PrimString <> length prim
+R8706:8707 Stdlib.Strings.PString <> s2:62 var
+binder 8722:8722 <> i:63
+R8750:8753 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8731:8733 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R8725:8728 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R8730:8730 Stdlib.Strings.PString <> i:63 var
+R8734:8737 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R8740:8745 Corelib.Strings.PrimString <> length prim
+R8747:8748 Stdlib.Strings.PString <> s1:61 var
+R8762:8764 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8754:8756 Corelib.Strings.PrimString <> get prim
+R8758:8759 Stdlib.Strings.PString <> s1:61 var
+R8761:8761 Stdlib.Strings.PString <> i:63 var
+R8765:8767 Corelib.Strings.PrimString <> get prim
+R8769:8770 Stdlib.Strings.PString <> s2:62 var
+R8772:8772 Stdlib.Strings.PString <> i:63 var
+R8782:8784 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8780:8781 Stdlib.Strings.PString <> s1:61 var
+R8785:8786 Stdlib.Strings.PString <> s2:62 var
+R8824:8834 Stdlib.Strings.PString <> to_list_inj thm
+R8846:8857 Stdlib.Lists.List <> nth_ext thm
+R8898:8908 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R8957:8967 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R8989:8991 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8992:8997 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R9000:9005 Corelib.Strings.PrimStringAxioms <> of_nat abbrev
+R9032:9040 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R9043:9053 Stdlib.ZArith.BinInt Z mod_small thm
+R9056:9063 Stdlib.ZArith.Znat Nat2Z id thm
+R9088:9095 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R9122:9130 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R9133:9143 Stdlib.ZArith.BinInt Z mod_small thm
+prf 9163:9189 <> to_list_firstn_skipn_middle
+R9196:9201 Corelib.Strings.PrimString <> string prim
+binder 9192:9192 <> s:64
+R9209:9211 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 9205:9205 <> i:65
+R9242:9247 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9224:9226 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9218:9221 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9223:9223 Stdlib.Strings.PString <> i:65 var
+R9227:9230 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9233:9238 Corelib.Strings.PrimString <> length prim
+R9240:9240 Stdlib.Strings.PString <> s:64 var
+R9257:9259 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9248:9254 Corelib.Strings.PrimStringAxioms <> to_list def
+R9256:9256 Stdlib.Strings.PString <> s:64 var
+R9294:9313 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9260:9270 Stdlib.Lists.List <> firstn abbrev
+R9284:9290 Corelib.Strings.PrimStringAxioms <> to_list def
+R9292:9292 Stdlib.Strings.PString <> s:64 var
+R9273:9278 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R9280:9280 Stdlib.Strings.PString <> i:65 var
+R9321:9324 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9314:9316 Corelib.Strings.PrimString <> get prim
+R9318:9318 Stdlib.Strings.PString <> s:64 var
+R9320:9320 Stdlib.Strings.PString <> i:65 var
+R9325:9334 Stdlib.Lists.List <> skipn abbrev
+R9354:9360 Corelib.Strings.PrimStringAxioms <> to_list def
+R9362:9362 Stdlib.Strings.PString <> s:64 var
+R9337:9342 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R9346:9348 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R9345:9345 Stdlib.Strings.PString <> i:65 var
+R9410:9412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9396:9401 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R9405:9407 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R9413:9413 Corelib.Init.Datatypes <> S constr
+R9416:9421 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R9446:9453 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R9456:9466 Stdlib.ZArith.BinInt Z mod_small thm
+R9469:9481 Stdlib.ZArith.Znat Z2Nat inj_add thm
+R9509:9532 Stdlib.Lists.List <> firstn_skipn_middle thm
+R9545:9552 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R9561:9579 Stdlib.Lists.List <> nth_error_nth' thm
+R9594:9604 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 9624:9635 <> compare_spec
+R9646:9651 Corelib.Strings.PrimString <> string prim
+binder 9638:9639 <> s1:66
+binder 9641:9642 <> s2:67
+R9659:9668 Corelib.Init.Datatypes <> comparison ind
+binder 9655:9655 <> c:68
+R9692:9698 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9688:9690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9675:9681 Corelib.Strings.PrimString <> compare prim
+R9683:9684 Stdlib.Strings.PString <> s1:66 var
+R9686:9687 Stdlib.Strings.PString <> s2:67 var
+R9691:9691 Stdlib.Strings.PString <> c:68 var
+R9699:9705 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9707:9712 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9706:9706 <> i:69
+R9739:9746 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9719:9722 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9713:9716 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9718:9718 Stdlib.Strings.PString <> i:69 var
+R9723:9726 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9729:9734 Corelib.Strings.PrimString <> length prim
+R9736:9737 Stdlib.Strings.PString <> s1:66 var
+R9773:9780 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9753:9756 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9747:9750 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9752:9752 Stdlib.Strings.PString <> i:69 var
+R9757:9760 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9763:9768 Corelib.Strings.PrimString <> length prim
+R9770:9771 Stdlib.Strings.PString <> s2:67 var
+R9781:9781 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9830:9838 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 9789:9789 <> j:70
+R9807:9810 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9798:9800 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9792:9795 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9797:9797 Stdlib.Strings.PString <> j:70 var
+R9801:9804 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9806:9806 Stdlib.Strings.PString <> i:69 var
+R9819:9821 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9811:9813 Corelib.Strings.PrimString <> get prim
+R9815:9816 Stdlib.Strings.PString <> s1:66 var
+R9818:9818 Stdlib.Strings.PString <> j:70 var
+R9822:9824 Corelib.Strings.PrimString <> get prim
+R9826:9827 Stdlib.Strings.PString <> s2:67 var
+R9829:9829 Stdlib.Strings.PString <> j:70 var
+R9845:9845 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9860:9861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9876:9876 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9847:9850 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'=?'_x not
+R9846:9846 Stdlib.Strings.PString <> i:69 var
+R9851:9856 Corelib.Strings.PrimString <> length prim
+R9858:9859 Stdlib.Strings.PString <> s1:66 var
+R9863:9866 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'=?'_x not
+R9862:9862 Stdlib.Strings.PString <> i:69 var
+R9867:9872 Corelib.Strings.PrimString <> length prim
+R9874:9875 Stdlib.Strings.PString <> s2:67 var
+R9896:9896 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9901:9903 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9908:9909 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9897:9900 Corelib.Init.Datatypes <> true constr
+R9904:9907 Corelib.Init.Datatypes <> true constr
+R9915:9917 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9914:9914 Stdlib.Strings.PString <> c:68 var
+R9918:9919 Corelib.Init.Datatypes <> Eq constr
+R9927:9927 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9932:9934 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9940:9940 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9928:9931 Corelib.Init.Datatypes <> true constr
+R9935:9939 Corelib.Init.Datatypes <> false constr
+R9946:9948 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9945:9945 Stdlib.Strings.PString <> c:68 var
+R9949:9950 Corelib.Init.Datatypes <> Lt constr
+R9958:9958 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9964:9965 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9970:9971 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9959:9963 Corelib.Init.Datatypes <> false constr
+R9966:9969 Corelib.Init.Datatypes <> true constr
+R9977:9979 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9976:9976 Stdlib.Strings.PString <> c:68 var
+R9980:9981 Corelib.Init.Datatypes <> Gt constr
+R9989:9989 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9995:9996 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10002:10002 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9990:9994 Corelib.Init.Datatypes <> false constr
+R9997:10001 Corelib.Init.Datatypes <> false constr
+R10021:10034 Stdlib.Numbers.Cyclic.Int63.Uint63 <> compare abbrev
+R10037:10039 Corelib.Strings.PrimString <> get prim
+R10041:10042 Stdlib.Strings.PString <> s1:66 var
+R10044:10044 Stdlib.Strings.PString <> i:69 var
+R10048:10050 Corelib.Strings.PrimString <> get prim
+R10052:10053 Stdlib.Strings.PString <> s2:67 var
+R10055:10055 Stdlib.Strings.PString <> i:69 var
+R10073:10074 Corelib.Init.Datatypes <> Eq constr
+R10079:10083 Corelib.Init.Logic <> False ind
+R10102:10104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10101:10101 Stdlib.Strings.PString <> c:68 var
+R10146:10157 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R10182:10199 Stdlib.Lists.List <> list_compareP thm
+R10237:10243 Corelib.Strings.PrimStringAxioms <> to_list def
+R10224:10230 Corelib.Strings.PrimStringAxioms <> to_list def
+R10203:10221 Stdlib.Strings.PString <> char63_compare_refl thm
+R10285:10301 Stdlib.Lists.List <> list_compare abbrev
+R10444:10454 Stdlib.Strings.PString <> to_list_inj thm
+R10480:10485 Corelib.Strings.PrimString <> length prim
+R10506:10511 Stdlib.micromega.ZifyUint63 <> eqb_eq thm
+R10514:10523 Stdlib.ZArith.BinInt Z eqb_refl thm
+R10559:10564 Corelib.Strings.PrimString <> length prim
+R10586:10591 Stdlib.micromega.ZifyUint63 <> eqb_eq thm
+R10594:10603 Stdlib.ZArith.BinInt Z eqb_refl thm
+R10607:10619 Stdlib.Strings.PString <> length_spec_Z thm
+R10625:10639 Stdlib.Lists.List <> length_app thm
+R10706:10713 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R10727:10739 Stdlib.Lists.List <> app_nth1 thm
+R10832:10837 Corelib.Strings.PrimString <> length prim
+R10859:10864 Stdlib.micromega.ZifyUint63 <> eqb_eq thm
+R10867:10876 Stdlib.ZArith.BinInt Z eqb_refl thm
+R10880:10892 Stdlib.Strings.PString <> length_spec_Z thm
+R10898:10912 Stdlib.Lists.List <> length_app thm
+R10979:10986 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R11000:11012 Stdlib.Lists.List <> app_nth1 thm
+R11105:11110 Corelib.Strings.PrimStringAxioms <> of_nat abbrev
+R11113:11123 Stdlib.Lists.List <> length abbrev
+R11178:11180 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11149:11156 Stdlib.ZArith.BinInt Z of_nat def
+R11159:11169 Stdlib.Lists.List <> length abbrev
+R11181:11182 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R11216:11222 Corelib.Init.Logic <> f_equal thm
+R11226:11236 Stdlib.Lists.List <> length abbrev
+R11272:11283 Stdlib.Strings.PString <> valid_length thm
+R11315:11325 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R11328:11342 Stdlib.Lists.List <> length_app thm
+R11375:11380 Stdlib.micromega.ZifyUint63 <> eqb_eq thm
+R11384:11396 Stdlib.Strings.PString <> length_spec_Z thm
+R11408:11422 Stdlib.Lists.List <> length_app thm
+R11439:11447 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R11450:11460 Stdlib.ZArith.BinInt Z mod_small thm
+R11535:11542 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R11554:11566 Stdlib.Lists.List <> app_nth1 thm
+R11654:11661 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R11694:11706 Stdlib.Lists.List <> app_nth2 thm
+R11719:11727 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R11730:11740 Stdlib.ZArith.BinInt Z mod_small thm
+R11767:11775 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R11778:11788 Stdlib.ZArith.BinInt Z mod_small thm
+R11791:11798 Stdlib.ZArith.Znat Nat2Z id thm
+R11801:11812 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R11876:11881 Corelib.Strings.PrimStringAxioms <> of_nat abbrev
+R11884:11894 Stdlib.Lists.List <> length abbrev
+R11949:11951 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11920:11927 Stdlib.ZArith.BinInt Z of_nat def
+R11930:11940 Stdlib.Lists.List <> length abbrev
+R11952:11953 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R11987:11993 Corelib.Init.Logic <> f_equal thm
+R11997:12007 Stdlib.Lists.List <> length abbrev
+R12043:12054 Stdlib.Strings.PString <> valid_length thm
+R12086:12096 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R12099:12113 Stdlib.Lists.List <> length_app thm
+R12146:12151 Stdlib.micromega.ZifyUint63 <> eqb_eq thm
+R12155:12167 Stdlib.Strings.PString <> length_spec_Z thm
+R12179:12193 Stdlib.Lists.List <> length_app thm
+R12210:12218 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R12221:12231 Stdlib.ZArith.BinInt Z mod_small thm
+R12306:12313 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R12325:12337 Stdlib.Lists.List <> app_nth1 thm
+R12425:12432 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R12465:12477 Stdlib.Lists.List <> app_nth2 thm
+R12490:12498 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R12501:12511 Stdlib.ZArith.BinInt Z mod_small thm
+R12538:12546 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R12549:12559 Stdlib.ZArith.BinInt Z mod_small thm
+R12562:12569 Stdlib.ZArith.Znat Nat2Z id thm
+R12572:12583 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R12687:12698 Stdlib.Strings.PString <> valid_length thm
+R12728:12739 Stdlib.Strings.PString <> valid_length thm
+R12765:12795 Stdlib.Lists.List <> list_compare_spec_complete thm
+R12797:12815 Stdlib.Strings.PString <> char63_compare_refl thm
+R12858:12875 Stdlib.Lists.List <> ListCompareEq constr
+R12893:12905 Stdlib.Strings.PString <> string_eq_ext thm
+R12989:12991 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12973:12976 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R12979:12984 Corelib.Strings.PrimString <> length prim
+R12992:12995 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R12998:13003 Corelib.Strings.PrimString <> length prim
+R13041:13043 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13044:13049 Corelib.Strings.PrimString <> length prim
+R13085:13107 Stdlib.Lists.List <> ListCompareShorter constr
+R13150:13159 Stdlib.Lists.List <> skipn abbrev
+R13187:13193 Corelib.Strings.PrimStringAxioms <> to_list def
+R13162:13167 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R13179:13181 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R13170:13175 Corelib.Strings.PrimString <> length prim
+R13114:13116 Corelib.Strings.PrimString <> get prim
+R13122:13127 Corelib.Strings.PrimString <> length prim
+R13217:13243 Stdlib.Strings.PString <> to_list_firstn_skipn_middle thm
+R13249:13254 Corelib.Strings.PrimString <> length prim
+R13297:13308 Stdlib.Lists.List <> nth_ext thm
+R13350:13367 Stdlib.Lists.List <> length_firstn thm
+R13373:13383 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R13407:13424 Stdlib.Lists.List <> length_firstn thm
+R13430:13440 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R13443:13451 Stdlib.Arith.PeanoNat Nat min_l thm
+R13489:13503 Stdlib.Lists.List <> nth_firstn thm
+R13546:13551 Corelib.Strings.PrimStringAxioms <> of_nat abbrev
+R13566:13573 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R13595:13603 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R13606:13616 Stdlib.ZArith.BinInt Z mod_small thm
+R13619:13626 Stdlib.ZArith.Znat Nat2Z id thm
+R13702:13704 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13686:13689 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R13692:13697 Corelib.Strings.PrimString <> length prim
+R13705:13708 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R13711:13716 Corelib.Strings.PrimString <> length prim
+R13754:13756 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13757:13762 Corelib.Strings.PrimString <> length prim
+R13799:13820 Stdlib.Lists.List <> ListCompareLonger constr
+R13864:13873 Stdlib.Lists.List <> skipn abbrev
+R13901:13907 Corelib.Strings.PrimStringAxioms <> to_list def
+R13876:13881 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R13893:13895 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R13884:13889 Corelib.Strings.PrimString <> length prim
+R13827:13829 Corelib.Strings.PrimString <> get prim
+R13835:13840 Corelib.Strings.PrimString <> length prim
+R13931:13957 Stdlib.Strings.PString <> to_list_firstn_skipn_middle thm
+R13963:13968 Corelib.Strings.PrimString <> length prim
+R14011:14022 Stdlib.Lists.List <> nth_ext thm
+R14064:14081 Stdlib.Lists.List <> length_firstn thm
+R14087:14097 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R14121:14138 Stdlib.Lists.List <> length_firstn thm
+R14144:14154 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R14157:14165 Stdlib.Arith.PeanoNat Nat min_l thm
+R14203:14217 Stdlib.Lists.List <> nth_firstn thm
+R14260:14265 Corelib.Strings.PrimStringAxioms <> of_nat abbrev
+R14280:14287 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R14309:14317 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R14320:14330 Stdlib.ZArith.BinInt Z mod_small thm
+R14333:14340 Stdlib.ZArith.Znat Nat2Z id thm
+R14401:14407 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14415:14428 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14408:14408 <> p:71
+binder 14410:14411 <> l1:72
+binder 14413:14414 <> l2:73
+R14461:14478 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14439:14441 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14429:14435 Corelib.Strings.PrimStringAxioms <> to_list def
+R14443:14446 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14442:14442 Stdlib.Strings.PString <> p:71 var
+R14455:14458 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14447:14449 Corelib.Strings.PrimString <> get prim
+R14459:14460 Stdlib.Strings.PString <> l1:72 var
+R14489:14491 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14479:14485 Corelib.Strings.PrimStringAxioms <> to_list def
+R14493:14496 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14492:14492 Stdlib.Strings.PString <> p:71 var
+R14505:14508 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14497:14499 Corelib.Strings.PrimString <> get prim
+R14509:14510 Stdlib.Strings.PString <> l2:73 var
+binder 14408:14408 <> p:74
+binder 14410:14411 <> l1:75
+binder 14413:14414 <> l2:76
+R14442:14442 Stdlib.Strings.PString <> p:74 var
+R14459:14460 Stdlib.Strings.PString <> l1:75 var
+R14492:14492 Stdlib.Strings.PString <> p:74 var
+R14509:14510 Stdlib.Strings.PString <> l2:76 var
+R14581:14584 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:x_'?='_x not
+R14646:14663 Stdlib.Lists.List <> ListCompareLt constr
+R14698:14715 Stdlib.Lists.List <> ListCompareGt constr
+R14749:14755 Corelib.Strings.PrimStringAxioms <> to_list def
+R14758:14760 Corelib.Strings.PrimString <> sub prim
+R14786:14792 Corelib.Strings.PrimStringAxioms <> to_list def
+R14795:14797 Corelib.Strings.PrimString <> sub prim
+R14804:14806 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R14824:14826 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14820:14822 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14811:14816 Corelib.Strings.PrimString <> length prim
+R14847:14853 Corelib.Strings.PrimStringAxioms <> to_list def
+R14856:14858 Corelib.Strings.PrimString <> sub prim
+R14865:14867 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R14885:14887 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14881:14883 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14872:14877 Corelib.Strings.PrimString <> length prim
+R14909:14916 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R14942:14957 Stdlib.Lists.List <> firstn_all2 thm
+R14963:14968 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R14983:14985 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14979:14981 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R14971:14976 Corelib.Strings.PrimString <> length prim
+R15028:15044 Stdlib.Lists.List <> length_skipn thm
+R15048:15062 Stdlib.Numbers.Cyclic.Int63.Uint63 <> add_spec abbrev
+R15078:15092 Stdlib.Numbers.Cyclic.Int63.Uint63 <> sub_spec abbrev
+R15096:15106 Stdlib.ZArith.BinInt Z mod_small thm
+R15110:15116 Stdlib.ZArith.BinInt Z min_r thm
+R15122:15132 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R15167:15193 Stdlib.Strings.PString <> to_list_firstn_skipn_middle thm
+R15218:15244 Stdlib.Strings.PString <> to_list_firstn_skipn_middle thm
+R15290:15292 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15280:15282 Corelib.Strings.PrimString <> sub prim
+R15293:15295 Corelib.Strings.PrimString <> sub prim
+R15337:15343 Corelib.Init.Logic <> f_equal thm
+R15345:15351 Corelib.Strings.PrimStringAxioms <> to_list def
+R15391:15398 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R15446:15458 Stdlib.Strings.PString <> string_eq_ext thm
+R15485:15499 Stdlib.Strings.PString <> sub_length_spec thm
+R15523:15537 Stdlib.Strings.PString <> sub_length_spec thm
+R15580:15591 Stdlib.Strings.PString <> sub_get_spec thm
+R15626:15628 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+prf 15686:15695 <> compare_eq
+R15706:15711 Corelib.Strings.PrimString <> string prim
+binder 15698:15699 <> s1:77
+binder 15701:15702 <> s2:78
+R15734:15738 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15729:15731 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15716:15722 Corelib.Strings.PrimString <> compare prim
+R15724:15725 Stdlib.Strings.PString <> s1:77 var
+R15727:15728 Stdlib.Strings.PString <> s2:78 var
+R15732:15733 Corelib.Init.Datatypes <> Eq constr
+R15741:15743 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15739:15740 Stdlib.Strings.PString <> s1:77 var
+R15744:15745 Stdlib.Strings.PString <> s2:78 var
+R15769:15786 Stdlib.Strings.PString <> compare_eq_correct thm
+R15805:15816 Stdlib.Strings.PString <> compare_refl thm
+prf 15832:15846 <> compare_lt_spec
+R15857:15862 Corelib.Strings.PrimString <> string prim
+binder 15849:15850 <> s1:79
+binder 15852:15853 <> s2:80
+R15887:15893 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15882:15884 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15869:15875 Corelib.Strings.PrimString <> compare prim
+R15877:15878 Stdlib.Strings.PString <> s1:79 var
+R15880:15881 Stdlib.Strings.PString <> s2:80 var
+R15885:15886 Corelib.Init.Datatypes <> Lt constr
+R15894:15900 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15902:15907 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15901:15901 <> i:81
+R15934:15941 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15914:15917 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15908:15911 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15913:15913 Stdlib.Strings.PString <> i:81 var
+R15918:15921 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15924:15929 Corelib.Strings.PrimString <> length prim
+R15931:15932 Stdlib.Strings.PString <> s1:79 var
+R15968:15975 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15948:15951 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15942:15945 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15947:15947 Stdlib.Strings.PString <> i:81 var
+R15952:15955 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15958:15963 Corelib.Strings.PrimString <> length prim
+R15965:15966 Stdlib.Strings.PString <> s2:80 var
+R15976:15976 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16025:16034 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16201:16201 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 15984:15984 <> j:82
+R16002:16005 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15993:15995 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R15987:15990 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15992:15992 Stdlib.Strings.PString <> j:82 var
+R15996:15999 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16001:16001 Stdlib.Strings.PString <> i:81 var
+R16014:16016 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16006:16008 Corelib.Strings.PrimString <> get prim
+R16010:16011 Stdlib.Strings.PString <> s1:79 var
+R16013:16013 Stdlib.Strings.PString <> j:82 var
+R16017:16019 Corelib.Strings.PrimString <> get prim
+R16021:16022 Stdlib.Strings.PString <> s2:80 var
+R16024:16024 Stdlib.Strings.PString <> j:82 var
+R16035:16035 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16078:16088 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16200:16200 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16049:16052 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16037:16039 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16036:16036 Stdlib.Strings.PString <> i:81 var
+R16040:16045 Corelib.Strings.PrimString <> length prim
+R16047:16048 Stdlib.Strings.PString <> s1:79 var
+R16059:16061 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R16053:16056 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16058:16058 Stdlib.Strings.PString <> i:81 var
+R16062:16065 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16068:16073 Corelib.Strings.PrimString <> length prim
+R16075:16076 Stdlib.Strings.PString <> s2:80 var
+R16114:16123 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16095:16097 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R16089:16092 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16094:16094 Stdlib.Strings.PString <> i:81 var
+R16098:16101 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16104:16109 Corelib.Strings.PrimString <> length prim
+R16111:16112 Stdlib.Strings.PString <> s1:79 var
+R16149:16158 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16130:16132 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R16124:16127 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16129:16129 Stdlib.Strings.PString <> i:81 var
+R16133:16136 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16139:16144 Corelib.Strings.PrimString <> length prim
+R16146:16147 Stdlib.Strings.PString <> s2:80 var
+R16195:16197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16159:16172 Corelib.Strings.PrimStringAxioms <> char63_compare abbrev
+R16175:16177 Corelib.Strings.PrimString <> get prim
+R16179:16180 Stdlib.Strings.PString <> s1:79 var
+R16182:16182 Stdlib.Strings.PString <> i:81 var
+R16186:16188 Corelib.Strings.PrimString <> get prim
+R16190:16191 Stdlib.Strings.PString <> s2:80 var
+R16193:16193 Stdlib.Strings.PString <> i:81 var
+R16198:16199 Corelib.Init.Datatypes <> Lt constr
+R16221:16232 Stdlib.Strings.PString <> compare_spec thm
+R16252:16280 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def_spec prfax
+R16290:16300 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def def
+prf 16749:16754 <> make_0
+R16761:16766 Corelib.Strings.PrimString <> char63 def
+binder 16757:16757 <> c:83
+R16779:16781 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16771:16774 Corelib.Strings.PrimString <> make prim
+R16778:16778 Stdlib.Strings.PString <> c:83 var
+R16809:16819 Stdlib.Strings.PString <> to_list_inj thm
+R16830:16838 Corelib.Strings.PrimStringAxioms <> make_spec prfax
+prf 16894:16907 <> length_0_empty
+R16914:16919 Corelib.Strings.PrimString <> string prim
+binder 16910:16910 <> s:84
+R16943:16946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16932:16934 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16924:16929 Corelib.Strings.PrimString <> length prim
+R16931:16931 Stdlib.Strings.PString <> s:84 var
+R16948:16950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16947:16947 Stdlib.Strings.PString <> s:84 var
+R16983:16994 Stdlib.Strings.PString <> valid_length thm
+R17013:17025 Stdlib.Strings.PString <> length_spec_Z thm
+R17044:17058 Stdlib.Strings.PString <> length_spec_int thm
+R17070:17079 Stdlib.micromega.ZifyUint63 <> eq_int_inj thm
+R17092:17100 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R17103:17113 Stdlib.ZArith.BinInt Z mod_small thm
+R17137:17147 Stdlib.Strings.PString <> to_list_inj thm
+R17160:17166 Corelib.Strings.PrimStringAxioms <> to_list def
+prf 17215:17225 <> cat_empty_l
+R17232:17237 Corelib.Strings.PrimString <> string prim
+binder 17228:17228 <> s:85
+R17258:17260 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17242:17244 Corelib.Strings.PrimString <> cat prim
+R17257:17257 Stdlib.Strings.PString <> s:85 var
+R17261:17261 Stdlib.Strings.PString <> s:85 var
+R17284:17295 Stdlib.Strings.PString <> valid_length thm
+R17314:17326 Stdlib.Strings.PString <> string_eq_ext thm
+R17348:17374 Stdlib.Strings.PString <> cat_length_spec_no_overflow thm
+R17432:17458 Stdlib.Strings.PString <> cat_length_spec_no_overflow thm
+R17525:17527 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R17528:17533 Corelib.Strings.PrimString <> length prim
+R17564:17577 Stdlib.Strings.PString <> cat_get_spec_r thm
+R17624:17626 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+prf 17663:17673 <> cat_empty_r
+R17680:17685 Corelib.Strings.PrimString <> string prim
+binder 17676:17676 <> s:86
+R17706:17708 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17690:17692 Corelib.Strings.PrimString <> cat prim
+R17694:17694 Stdlib.Strings.PString <> s:86 var
+R17709:17709 Stdlib.Strings.PString <> s:86 var
+R17732:17743 Stdlib.Strings.PString <> valid_length thm
+R17762:17774 Stdlib.Strings.PString <> string_eq_ext thm
+R17796:17822 Stdlib.Strings.PString <> cat_length_spec_no_overflow thm
+R17878:17904 Stdlib.Strings.PString <> cat_length_spec_no_overflow thm
+R17978:17980 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R17970:17975 Corelib.Strings.PrimString <> length prim
+R18010:18023 Stdlib.Strings.PString <> cat_get_spec_l thm
+prf 18064:18072 <> cat_assoc
+R18086:18091 Corelib.Strings.PrimString <> string prim
+binder 18075:18076 <> s1:87
+binder 18078:18079 <> s2:88
+binder 18081:18082 <> s3:89
+R18116:18118 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18098:18100 Corelib.Strings.PrimString <> cat prim
+R18103:18105 Corelib.Strings.PrimString <> cat prim
+R18107:18108 Stdlib.Strings.PString <> s1:87 var
+R18110:18111 Stdlib.Strings.PString <> s2:88 var
+R18114:18115 Stdlib.Strings.PString <> s3:89 var
+R18119:18121 Corelib.Strings.PrimString <> cat prim
+R18123:18124 Stdlib.Strings.PString <> s1:87 var
+R18127:18129 Corelib.Strings.PrimString <> cat prim
+R18131:18132 Stdlib.Strings.PString <> s2:88 var
+R18134:18135 Stdlib.Strings.PString <> s3:89 var
+R18154:18166 Stdlib.Strings.PString <> string_eq_ext thm
+R18180:18194 Stdlib.Strings.PString <> cat_length_spec thm
+R18210:18221 Stdlib.Strings.PString <> valid_length thm
+R18247:18258 Stdlib.Strings.PString <> valid_length thm
+R18284:18295 Stdlib.Strings.PString <> valid_length thm
+R18333:18350 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min_add_min_n_same thm
+R18363:18370 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R18373:18383 Stdlib.ZArith.BinInt Z mod_small thm
+R18403:18420 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min_add_n_min_same thm
+R18433:18440 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R18443:18453 Stdlib.ZArith.BinInt Z mod_small thm
+R18513:18520 Corelib.Strings.PrimStringAxioms <> get_spec prfax
+R18524:18531 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R18544:18558 Stdlib.Numbers.Cyclic.Int63.Uint63 <> min_spec thm
+R18562:18569 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R18573:18583 Stdlib.ZArith.BinInt Z mod_small thm
+R18614:18624 Stdlib.ZArith.BinInt Z mod_small thm
+R18643:18657 Stdlib.Lists.List <> nth_firstn thm
+R18705:18708 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R18699:18702 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R18709:18712 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R18715:18720 Corelib.Strings.PrimString <> length prim
+R18751:18763 Stdlib.Lists.List <> app_nth1 thm
+R18780:18794 Stdlib.Lists.List <> nth_firstn thm
+R18828:18840 Stdlib.Lists.List <> app_nth1 thm
+R18875:18885 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R18910:18920 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R18942:18959 Stdlib.Lists.List <> length_firstn thm
+R18962:18976 Stdlib.Lists.List <> length_app thm
+R18982:18992 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19020:19023 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R19014:19017 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19040:19042 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19024:19027 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19030:19035 Corelib.Strings.PrimString <> length prim
+R19043:19046 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19049:19054 Corelib.Strings.PrimString <> length prim
+R19084:19096 Stdlib.Lists.List <> app_nth1 thm
+R19099:19111 Stdlib.Lists.List <> app_nth2 thm
+R19128:19142 Stdlib.Lists.List <> nth_firstn thm
+R19176:19190 Stdlib.Lists.List <> nth_firstn thm
+R19224:19236 Stdlib.Lists.List <> app_nth2 thm
+R19239:19251 Stdlib.Lists.List <> app_nth1 thm
+R19294:19304 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19328:19338 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19360:19377 Stdlib.Lists.List <> length_firstn thm
+R19380:19394 Stdlib.Lists.List <> length_app thm
+R19400:19410 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19431:19443 Stdlib.Lists.List <> app_nth2 thm
+R19458:19472 Stdlib.Lists.List <> nth_firstn thm
+R19504:19516 Stdlib.Lists.List <> app_nth2 thm
+R19532:19542 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19572:19589 Stdlib.Lists.List <> length_firstn thm
+R19592:19606 Stdlib.Lists.List <> length_app thm
+R19612:19622 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19644:19654 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19674:19691 Stdlib.Lists.List <> length_firstn thm
+R19694:19708 Stdlib.Lists.List <> length_app thm
+R19714:19724 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+prf 19772:19779 <> sub_full
+R19786:19791 Corelib.Strings.PrimString <> string prim
+binder 19782:19782 <> s:90
+R19814:19816 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19796:19798 Corelib.Strings.PrimString <> sub prim
+R19800:19800 Stdlib.Strings.PString <> s:90 var
+R19805:19810 Corelib.Strings.PrimString <> length prim
+R19812:19812 Stdlib.Strings.PString <> s:90 var
+R19817:19817 Stdlib.Strings.PString <> s:90 var
+R19835:19845 Stdlib.Strings.PString <> to_list_inj thm
+R19856:19863 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R19866:19877 Stdlib.Lists.List <> skipn_O abbrev
+R19890:19900 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R19903:19917 Stdlib.Lists.List <> firstn_all thm
+prf 19945:19953 <> sub_len_0
+R19962:19964 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 19956:19958 <> off:91
+R19972:19977 Corelib.Strings.PrimString <> string prim
+binder 19968:19968 <> s:92
+R19995:19997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19984:19986 Corelib.Strings.PrimString <> sub prim
+R19988:19988 Stdlib.Strings.PString <> s:92 var
+R19990:19992 Stdlib.Strings.PString <> off:91 var
+R20025:20035 Stdlib.Strings.PString <> to_list_inj thm
+R20046:20053 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+prf 20081:20093 <> split_cat_sub
+R20100:20105 Corelib.Strings.PrimString <> string prim
+binder 20096:20096 <> s:93
+R20115:20117 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 20109:20111 <> len:94
+R20125:20127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20124:20124 Stdlib.Strings.PString <> s:93 var
+R20128:20130 Corelib.Strings.PrimString <> cat prim
+R20133:20135 Corelib.Strings.PrimString <> sub prim
+R20137:20137 Stdlib.Strings.PString <> s:93 var
+R20141:20143 Stdlib.Strings.PString <> len:94 var
+R20147:20149 Corelib.Strings.PrimString <> sub prim
+R20151:20151 Stdlib.Strings.PString <> s:93 var
+R20153:20155 Stdlib.Strings.PString <> len:94 var
+R20166:20168 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R20158:20163 Corelib.Strings.PrimString <> length prim
+R20165:20165 Stdlib.Strings.PString <> s:93 var
+R20169:20171 Stdlib.Strings.PString <> len:94 var
+R20198:20208 Stdlib.Strings.PString <> to_list_inj thm
+R20219:20226 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R20230:20237 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R20240:20251 Stdlib.Lists.List <> skipn_O abbrev
+R20267:20278 Stdlib.Strings.PString <> valid_length thm
+R20293:20308 Stdlib.Lists.List <> firstn_all2 thm
+R20324:20338 Stdlib.Lists.List <> length_app thm
+R20342:20359 Stdlib.Lists.List <> length_firstn thm
+R20363:20379 Stdlib.Lists.List <> length_skipn thm
+R20384:20394 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R20415:20431 Stdlib.Lists.List <> firstn_skipn thm
+R20447:20453 Corelib.Strings.PrimStringAxioms <> to_list def
+R20434:20439 Corelib.Strings.PrimStringAxioms <> to_nat abbrev
+R20484:20499 Stdlib.Lists.List <> firstn_all2 thm
+R20528:20544 Stdlib.Lists.List <> length_skipn thm
+R20549:20559 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R20582:20586 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R20574:20577 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20587:20590 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20593:20598 Corelib.Strings.PrimString <> length prim
+R20631:20645 Stdlib.Numbers.Cyclic.Int63.Uint63 <> sub_spec abbrev
+R20648:20658 Stdlib.ZArith.BinInt Z mod_small thm
+prf 20678:20684 <> sub_sub
+R20691:20696 Corelib.Strings.PrimString <> string prim
+binder 20687:20687 <> s:95
+R20722:20724 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 20700:20703 <> off1:96
+binder 20705:20708 <> len1:97
+binder 20710:20713 <> off2:98
+binder 20715:20718 <> len2:99
+R20780:20785 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20752:20754 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20740:20742 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20731:20734 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20736:20739 Stdlib.Strings.PString <> off1:96 var
+R20743:20746 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20748:20751 Stdlib.Strings.PString <> off2:98 var
+R20755:20758 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20765:20767 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20761:20764 Stdlib.Strings.PString <> off1:96 var
+R20768:20771 Stdlib.Strings.PString <> off2:98 var
+R20820:20825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20795:20798 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R20786:20789 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20791:20794 Stdlib.Strings.PString <> len2:99 var
+R20808:20810 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20799:20802 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20804:20807 Stdlib.Strings.PString <> len1:97 var
+R20811:20814 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R20816:20819 Stdlib.Strings.PString <> off2:98 var
+R20857:20859 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20826:20828 Corelib.Strings.PrimString <> sub prim
+R20831:20833 Corelib.Strings.PrimString <> sub prim
+R20835:20835 Stdlib.Strings.PString <> s:95 var
+R20837:20840 Stdlib.Strings.PString <> off1:96 var
+R20842:20845 Stdlib.Strings.PString <> len1:97 var
+R20848:20851 Stdlib.Strings.PString <> off2:98 var
+R20853:20856 Stdlib.Strings.PString <> len2:99 var
+R20860:20862 Corelib.Strings.PrimString <> sub prim
+R20864:20864 Stdlib.Strings.PString <> s:95 var
+R20871:20873 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20867:20870 Stdlib.Strings.PString <> off1:96 var
+R20874:20877 Stdlib.Strings.PString <> off2:98 var
+R20887:20890 Stdlib.Strings.PString <> len2:99 var
+R20922:20932 Stdlib.Strings.PString <> to_list_inj thm
+R20944:20951 Corelib.Strings.PrimStringAxioms <> sub_spec prfax
+R20970:20982 Stdlib.ZArith.Znat Z2Nat inj_add thm
+R21018:21039 Stdlib.Lists.List <> skipn_firstn_comm thm
+R21052:21069 Stdlib.Lists.List <> firstn_firstn thm
+R21072:21087 Stdlib.Lists.List <> skipn_skipn thm
+prf 21175:21188 <> of_list_length
+R21195:21198 Corelib.Init.Datatypes <> list ind
+R21200:21205 Corelib.Strings.PrimString <> char63 def
+binder 21191:21191 <> l:100
+R21255:21260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21236:21239 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R21212:21219 Stdlib.ZArith.BinInt Z of_nat def
+R21222:21232 Stdlib.Lists.List <> length abbrev
+R21234:21234 Stdlib.Strings.PString <> l:100 var
+R21240:21243 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R21245:21254 Corelib.Strings.PrimString <> max_length prim
+R21279:21281 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21261:21266 Corelib.Strings.PrimString <> length prim
+R21269:21275 Corelib.Strings.PrimStringAxioms <> of_list def
+R21277:21277 Stdlib.Strings.PString <> l:100 var
+R21282:21285 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> of_Z def
+R21288:21295 Stdlib.ZArith.BinInt Z of_nat def
+R21298:21308 Stdlib.Lists.List <> length abbrev
+R21310:21310 Stdlib.Strings.PString <> l:100 var
+R21396:21398 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21376:21386 Stdlib.Lists.List <> length abbrev
+R21390:21393 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21399:21399 Corelib.Init.Datatypes <> S constr
+R21402:21412 Stdlib.Lists.List <> length abbrev
+R21450:21463 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+R21532:21558 Stdlib.Strings.PString <> cat_length_spec_no_overflow thm
+R21578:21593 Stdlib.Strings.PString <> make_length_spec thm
+R21596:21604 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R21607:21617 Stdlib.ZArith.BinInt Z mod_small thm
+R21635:21650 Stdlib.Strings.PString <> make_length_spec thm
+R21681:21688 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z_inj thm
+R21701:21709 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R21712:21722 Stdlib.ZArith.BinInt Z mod_small thm
+R21743:21757 Stdlib.Numbers.Cyclic.Int63.Uint63 <> add_spec abbrev
+R21760:21770 Stdlib.ZArith.BinInt Z mod_small thm
+R21786:21794 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R21797:21807 Stdlib.ZArith.BinInt Z mod_small thm
+R21825:21833 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+R21836:21846 Stdlib.ZArith.BinInt Z mod_small thm
+prf 21866:21876 <> of_list_app
+R21887:21890 Corelib.Init.Datatypes <> list ind
+R21892:21897 Corelib.Strings.PrimString <> char63 def
+binder 21879:21880 <> l1:101
+binder 21882:21883 <> l2:102
+R21922:21924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21904:21910 Corelib.Strings.PrimStringAxioms <> of_list def
+R21915:21918 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21913:21914 Stdlib.Strings.PString <> l1:101 var
+R21919:21920 Stdlib.Strings.PString <> l2:102 var
+R21925:21927 Corelib.Strings.PrimString <> cat prim
+R21930:21936 Corelib.Strings.PrimStringAxioms <> of_list def
+R21938:21939 Stdlib.Strings.PString <> l1:101 var
+R21943:21949 Corelib.Strings.PrimStringAxioms <> of_list def
+R21951:21952 Stdlib.Strings.PString <> l2:102 var
+R22034:22044 Stdlib.Strings.PString <> cat_empty_l thm
+R22084:22092 Stdlib.Strings.PString <> cat_assoc thm
+prf 22120:22130 <> to_list_cat
+R22141:22146 Corelib.Strings.PrimString <> string prim
+binder 22133:22134 <> s1:103
+binder 22136:22137 <> s2:104
+R22211:22216 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22189:22192 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R22170:22172 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22154:22157 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R22160:22165 Corelib.Strings.PrimString <> length prim
+R22167:22168 Stdlib.Strings.PString <> s1:103 var
+R22173:22176 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R22179:22184 Corelib.Strings.PrimString <> length prim
+R22186:22187 Stdlib.Strings.PString <> s2:104 var
+R22193:22196 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R22198:22207 Corelib.Strings.PrimString <> max_length prim
+R22236:22238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22217:22223 Corelib.Strings.PrimStringAxioms <> to_list def
+R22226:22228 Corelib.Strings.PrimString <> cat prim
+R22230:22231 Stdlib.Strings.PString <> s1:103 var
+R22233:22234 Stdlib.Strings.PString <> s2:104 var
+R22239:22241 Corelib.Init.Datatypes <> app def
+R22257:22263 Corelib.Strings.PrimStringAxioms <> to_list def
+R22265:22266 Stdlib.Strings.PString <> s2:104 var
+R22244:22250 Corelib.Strings.PrimStringAxioms <> to_list def
+R22252:22253 Stdlib.Strings.PString <> s1:103 var
+R22287:22294 Corelib.Strings.PrimStringAxioms <> cat_spec prfax
+R22320:22335 Stdlib.Lists.List <> firstn_all2 thm
+R22364:22378 Stdlib.Lists.List <> length_app thm
+R22384:22394 Corelib.Strings.PrimStringAxioms <> length_spec prfax
+R22451:22461 Stdlib.Structures.OrderedType <> <> lib
+R22478:22500 Stdlib.Structures.OrderedType OrderedType <> modtype
+R22523:22528 Corelib.Strings.PrimString <> string prim
+mod 22472:22473 <> OT
+def 22544:22544 OT t
+R22549:22554 Corelib.Strings.PrimString <> string prim
+def 22571:22572 OT eq
+binder 22574:22575 <> s1:105
+binder 22577:22578 <> s2:106
+R22596:22598 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22583:22589 Corelib.Strings.PrimString <> compare prim
+R22591:22592 Stdlib.Strings.PString <> s1:105 var
+R22594:22595 Stdlib.Strings.PString <> s2:106 var
+R22599:22600 Corelib.Init.Datatypes <> Eq constr
+def 22616:22617 OT lt
+binder 22619:22620 <> s1:107
+binder 22622:22623 <> s2:108
+R22641:22643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22628:22634 Corelib.Strings.PrimString <> compare prim
+R22636:22637 Stdlib.Strings.PString <> s1:107 var
+R22639:22640 Stdlib.Strings.PString <> s2:108 var
+R22644:22645 Corelib.Init.Datatypes <> Lt constr
+prf 22657:22663 OT eq_refl
+R22670:22670 Stdlib.Strings.PString OT t def
+binder 22666:22666 <> s:109
+R22675:22676 Stdlib.Strings.PString OT eq def
+R22678:22678 Stdlib.Strings.PString <> s:109 var
+R22680:22680 Stdlib.Strings.PString <> s:109 var
+R22698:22709 Stdlib.Strings.PString <> compare_refl thm
+prf 22726:22731 OT eq_sym
+R22742:22742 Stdlib.Strings.PString OT t def
+binder 22734:22735 <> s1:110
+binder 22737:22738 <> s2:111
+R22755:22758 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22747:22748 Stdlib.Strings.PString OT eq def
+R22750:22751 Stdlib.Strings.PString <> s1:110 var
+R22753:22754 Stdlib.Strings.PString <> s2:111 var
+R22759:22760 Stdlib.Strings.PString OT eq def
+R22762:22763 Stdlib.Strings.PString <> s2:111 var
+R22765:22766 Stdlib.Strings.PString <> s1:110 var
+R22785:22786 Stdlib.Strings.PString OT eq def
+R22810:22824 Stdlib.Strings.PString <> compare_antisym thm
+prf 22859:22866 OT eq_trans
+R22880:22880 Stdlib.Strings.PString OT t def
+binder 22869:22870 <> s1:112
+binder 22872:22873 <> s2:113
+binder 22875:22876 <> s3:114
+R22893:22896 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22885:22886 Stdlib.Strings.PString OT eq def
+R22888:22889 Stdlib.Strings.PString <> s1:112 var
+R22891:22892 Stdlib.Strings.PString <> s2:113 var
+R22905:22908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22897:22898 Stdlib.Strings.PString OT eq def
+R22900:22901 Stdlib.Strings.PString <> s2:113 var
+R22903:22904 Stdlib.Strings.PString <> s3:114 var
+R22909:22910 Stdlib.Strings.PString OT eq def
+R22912:22913 Stdlib.Strings.PString <> s1:112 var
+R22915:22916 Stdlib.Strings.PString <> s3:114 var
+R22935:22936 Stdlib.Strings.PString OT eq def
+R22945:22957 Stdlib.Strings.PString <> compare_trans thm
+prf 22974:22981 OT lt_trans
+R22995:22995 Stdlib.Strings.PString OT t def
+binder 22984:22985 <> s1:115
+binder 22987:22988 <> s2:116
+binder 22990:22991 <> s3:117
+R23008:23011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23000:23001 Stdlib.Strings.PString OT lt def
+R23003:23004 Stdlib.Strings.PString <> s1:115 var
+R23006:23007 Stdlib.Strings.PString <> s2:116 var
+R23020:23023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23012:23013 Stdlib.Strings.PString OT lt def
+R23015:23016 Stdlib.Strings.PString <> s2:116 var
+R23018:23019 Stdlib.Strings.PString <> s3:117 var
+R23024:23025 Stdlib.Strings.PString OT lt def
+R23027:23028 Stdlib.Strings.PString <> s1:115 var
+R23030:23031 Stdlib.Strings.PString <> s3:117 var
+R23050:23051 Stdlib.Strings.PString OT lt def
+R23060:23072 Stdlib.Strings.PString <> compare_trans thm
+prf 23089:23097 OT lt_not_eq
+R23108:23108 Stdlib.Strings.PString OT t def
+binder 23100:23101 <> s1:118
+binder 23103:23104 <> s2:119
+R23121:23124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23113:23114 Stdlib.Strings.PString OT lt def
+R23116:23117 Stdlib.Strings.PString <> s1:118 var
+R23119:23120 Stdlib.Strings.PString <> s2:119 var
+R23125:23127 Corelib.Init.Logic <> not def
+R23130:23131 Stdlib.Strings.PString OT eq def
+R23133:23134 Stdlib.Strings.PString <> s1:118 var
+R23136:23137 Stdlib.Strings.PString <> s2:119 var
+R23157:23158 Stdlib.Strings.PString OT lt def
+R23161:23162 Stdlib.Strings.PString OT eq def
+def 23222:23228 OT compare
+R23239:23239 Stdlib.Strings.PString OT t def
+binder 23231:23232 <> s1:120
+binder 23234:23235 <> s2:121
+R23244:23262 Stdlib.Structures.OrderedType <> Compare ind
+R23273:23274 Stdlib.Strings.PString <> s2:121 var
+R23270:23271 Stdlib.Strings.PString <> s1:120 var
+R23267:23268 Stdlib.Strings.PString OT eq def
+R23264:23265 Stdlib.Strings.PString OT lt def
+R23289:23295 Corelib.Strings.PrimString <> compare prim
+R23297:23298 Stdlib.Strings.PString <> s1:120 var
+R23300:23301 Stdlib.Strings.PString <> s2:121 var
+R23314:23315 Corelib.Init.Datatypes <> Eq constr
+R23320:23333 Stdlib.Structures.OrderedType <> EQ constr
+R23343:23344 Corelib.Init.Datatypes <> Lt constr
+R23349:23362 Stdlib.Structures.OrderedType <> LT constr
+R23372:23373 Corelib.Init.Datatypes <> Gt constr
+R23378:23391 Stdlib.Structures.OrderedType <> GT constr
+R23530:23531 Stdlib.Strings.PString OT lt def
+R23542:23556 Stdlib.Strings.PString <> compare_antisym thm
+def 23704:23709 OT eq_dec
+R23720:23720 Stdlib.Strings.PString OT t def
+binder 23712:23713 <> s1:122
+binder 23715:23716 <> s2:123
+R23725:23725 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R23734:23738 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R23749:23749 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R23726:23727 Stdlib.Strings.PString OT eq def
+R23729:23730 Stdlib.Strings.PString <> s1:122 var
+R23732:23733 Stdlib.Strings.PString <> s2:123 var
+R23739:23740 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R23741:23742 Stdlib.Strings.PString OT eq def
+R23744:23745 Stdlib.Strings.PString <> s1:122 var
+R23747:23748 Stdlib.Strings.PString <> s2:123 var
+R23772:23773 Stdlib.Strings.PString OT eq def
+R23790:23807 Corelib.Strings.PrimString <> compare prim
+R23907:23908 Stdlib.Strings.PString OT <> mod

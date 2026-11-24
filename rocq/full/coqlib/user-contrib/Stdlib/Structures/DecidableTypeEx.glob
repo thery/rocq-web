@@ -1,0 +1,145 @@
+DIGEST d41bbdb811195be0856aaf9b5bc87da2
+FStdlib.Structures.DecidableTypeEx
+R703:715 Stdlib.Structures.DecidableType <> <> lib
+R717:727 Stdlib.Structures.OrderedType <> <> lib
+R729:741 Stdlib.Structures.OrderedTypeEx <> <> lib
+R1120:1152 Stdlib.Structures.Equalities UsualDecidableTypeOrig <> modtype
+modtype 1098:1115 <> UsualDecidableType
+R1244:1261 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1267:1279 Stdlib.Structures.DecidableType DecidableType <> modtype
+R1284:1284 Stdlib.Structures.DecidableTypeEx U <> mod
+mod 1231:1239 <> UDT_to_DT
+R1382:1409 Stdlib.Structures.Equalities MiniDecidableType <> modtype
+modtype 1361:1377 <> MiniDecidableType
+R1432:1448 Stdlib.Structures.DecidableTypeEx MiniDecidableType <> modtype
+R1454:1471 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1477:1495 Stdlib.Structures.Equalities Make_UDT <> mod
+R1497:1497 Stdlib.Structures.DecidableTypeEx M <> mod
+mod 1420:1427 <> Make_UDT
+R1587:1597 Stdlib.Structures.OrderedType OrderedType <> modtype
+R1603:1615 Stdlib.Structures.DecidableType DecidableType <> modtype
+R1620:1620 Stdlib.Structures.DecidableTypeEx O <> mod
+mod 1575:1582 <> OT_as_DT
+R1707:1724 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1729:1737 Stdlib.Structures.OrderedTypeEx Nat_as_OT <> mod
+mod 1694:1702 <> Nat_as_DT
+R1765:1782 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1787:1800 Stdlib.Structures.OrderedTypeEx Positive_as_OT <> mod
+mod 1747:1760 <> Positive_as_DT
+R1821:1838 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1843:1849 Stdlib.Structures.OrderedTypeEx N_as_OT <> mod
+mod 1810:1816 <> N_as_DT
+R1870:1887 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R1892:1898 Stdlib.Structures.OrderedTypeEx Z_as_OT <> mod
+mod 1859:1865 <> Z_as_DT
+R2033:2045 Stdlib.Structures.DecidableType DecidableType <> modtype
+R2051:2063 Stdlib.Structures.DecidableType DecidableType <> modtype
+mod 2009:2025 <> PairDecidableType
+def 2079:2079 PairDecidableType t
+R2084:2087 Corelib.Init.Datatypes <> prod ind
+R2094:2097 Stdlib.Structures.DecidableTypeEx D2 t defax
+R2089:2092 Stdlib.Structures.DecidableTypeEx D1 t defax
+def 2113:2114 PairDecidableType eq
+binder 2116:2116 <> x:1
+binder 2118:2118 <> y:2
+R2144:2147 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2123:2127 Stdlib.Structures.DecidableTypeEx D1 eq defax
+R2138:2140 Corelib.Init.Datatypes <> fst def
+R2142:2142 Stdlib.Structures.DecidableTypeEx <> y:2 var
+R2130:2132 Corelib.Init.Datatypes <> fst def
+R2134:2134 Stdlib.Structures.DecidableTypeEx <> x:1 var
+R2148:2152 Stdlib.Structures.DecidableTypeEx D2 eq defax
+R2163:2165 Corelib.Init.Datatypes <> snd def
+R2167:2167 Stdlib.Structures.DecidableTypeEx <> y:2 var
+R2155:2157 Corelib.Init.Datatypes <> snd def
+R2159:2159 Stdlib.Structures.DecidableTypeEx <> x:1 var
+prf 2179:2185 PairDecidableType eq_refl
+R2200:2200 Stdlib.Structures.DecidableTypeEx PairDecidableType t def
+binder 2196:2196 <> x:3
+R2203:2204 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2208:2208 Stdlib.Structures.DecidableTypeEx <> x:3 var
+R2206:2206 Stdlib.Structures.DecidableTypeEx <> x:3 var
+prf 2268:2273 PairDecidableType eq_sym
+R2290:2290 Stdlib.Structures.DecidableTypeEx PairDecidableType t def
+binder 2284:2284 <> x:4
+binder 2286:2286 <> y:5
+R2299:2302 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2293:2294 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2298:2298 Stdlib.Structures.DecidableTypeEx <> y:5 var
+R2296:2296 Stdlib.Structures.DecidableTypeEx <> x:4 var
+R2303:2304 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2308:2308 Stdlib.Structures.DecidableTypeEx <> x:4 var
+R2306:2306 Stdlib.Structures.DecidableTypeEx <> y:5 var
+R2351:2352 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+prf 2387:2394 PairDecidableType eq_trans
+R2413:2413 Stdlib.Structures.DecidableTypeEx PairDecidableType t def
+binder 2405:2405 <> x:6
+binder 2407:2407 <> y:7
+binder 2409:2409 <> z:8
+R2422:2425 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2416:2417 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2421:2421 Stdlib.Structures.DecidableTypeEx <> y:7 var
+R2419:2419 Stdlib.Structures.DecidableTypeEx <> x:6 var
+R2432:2435 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2426:2427 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2431:2431 Stdlib.Structures.DecidableTypeEx <> z:8 var
+R2429:2429 Stdlib.Structures.DecidableTypeEx <> y:7 var
+R2436:2437 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2441:2441 Stdlib.Structures.DecidableTypeEx <> z:8 var
+R2439:2439 Stdlib.Structures.DecidableTypeEx <> x:6 var
+R2492:2493 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+def 2539:2544 PairDecidableType eq_dec
+binder 2555:2555 <> x:9
+binder 2557:2557 <> y:10
+R2560:2561 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2568:2572 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2580:2581 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2562:2563 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2567:2567 Stdlib.Structures.DecidableTypeEx <> y:10 var
+R2565:2565 Stdlib.Structures.DecidableTypeEx <> x:9 var
+R2573:2573 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2574:2575 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2579:2579 Stdlib.Structures.DecidableTypeEx <> y:10 var
+R2577:2577 Stdlib.Structures.DecidableTypeEx <> x:9 var
+R2624:2625 Stdlib.Structures.DecidableTypeEx PairDecidableType eq def
+R2646:2654 Stdlib.Structures.DecidableTypeEx D1 eq_dec defax
+R2674:2682 Stdlib.Structures.DecidableTypeEx D2 eq_dec defax
+R2718:2734 Stdlib.Structures.DecidableTypeEx PairDecidableType <> mod
+R2824:2841 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+R2847:2864 Stdlib.Structures.DecidableTypeEx UsualDecidableType <> modtype
+mod 2795:2816 <> PairUsualDecidableType
+def 2879:2879 PairUsualDecidableType t
+R2884:2887 Corelib.Init.Datatypes <> prod ind
+R2894:2897 Stdlib.Structures.DecidableTypeEx D2 t defax
+R2889:2892 Stdlib.Structures.DecidableTypeEx D1 t defax
+def 2912:2913 PairUsualDecidableType eq
+R2919:2920 Corelib.Init.Logic <> eq ind
+R2922:2922 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 2937:2943 PairUsualDecidableType eq_refl
+R2949:2955 Corelib.Init.Logic <> eq_refl constr
+R2957:2957 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 2972:2977 PairUsualDecidableType eq_sym
+R2983:2988 Corelib.Init.Logic <> eq_sym scheme
+R2990:2990 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 3005:3012 PairUsualDecidableType eq_trans
+R3018:3025 Corelib.Init.Logic <> eq_trans thm
+R3027:3027 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 3042:3047 PairUsualDecidableType eq_dec
+binder 3058:3058 <> x:11
+binder 3060:3060 <> y:12
+R3063:3064 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3071:3075 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3083:3084 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3065:3066 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3070:3070 Stdlib.Structures.DecidableTypeEx <> y:12 var
+R3068:3068 Stdlib.Structures.DecidableTypeEx <> x:11 var
+R3076:3076 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3077:3078 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3082:3082 Stdlib.Structures.DecidableTypeEx <> y:12 var
+R3080:3080 Stdlib.Structures.DecidableTypeEx <> x:11 var
+R3131:3139 Stdlib.Structures.DecidableTypeEx D1 eq_dec defax
+R3159:3167 Stdlib.Structures.DecidableTypeEx D2 eq_dec defax
+R3185:3186 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3189:3193 Stdlib.Structures.DecidableTypeEx D1 eq def
+R3196:3200 Stdlib.Structures.DecidableTypeEx D2 eq def
+R3289:3310 Stdlib.Structures.DecidableTypeEx PairUsualDecidableType <> mod

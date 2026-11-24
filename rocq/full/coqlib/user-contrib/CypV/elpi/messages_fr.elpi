@@ -1,0 +1,43 @@
+% cyp's messages in French (see messages_en.elpi)
+message "fr" "proved" "cyp: %1 démontré, %2 étapes".
+message "fr" "proved-lemma" "cyp: %1 démontré".
+message "fr" "not-proved" "cyp: %1 étapes sur %2 de %3 non démontrées (%4), voir %5".
+message "fr" "conditions" "cyp: %1, %2 étapes, %3 conditions".
+message "fr" "all-discharged" "cyp: %1, %2 étapes, toutes les conditions sont déchargées".
+message "fr" "left" "cyp: %1, %2 étapes, %3 condition(s) laissée(s) au bloc Proof : %4".
+message "fr" "left-line" "  🔶 condition %1 : %2".
+message "fr" "no-typecheck" "cyp: la preuve n'est pas bien typée".
+message "fr" "holes" "cyp: des conditions ne sont pas démontrées".
+message "fr" "errors" "cyp: %1, %2 nœud(s) avec une erreur (❌ ci-dessus) : %3".
+message "fr" "statement-not-read" "cyp: l'énoncé de %1 ne peut pas être lu : %2".
+message "fr" "statement-no-typecheck" "cyp: l'énoncé n'est pas bien typé".
+message "fr" "md-not-proved" "non démontré : %1".
+message "fr" "md-not-parsed" "ne s'analyse pas : %1".
+message "fr" "md-todo" "condition %1, à démontrer dans le bloc Proof : %2".
+message "fr" "time" "cyp: temps %1 %2 ms".
+message "fr" "definition-not-parsed" "la définition %1 ne s'analyse pas".
+message "fr" "variables-not-parsed" "les variables %1 ne s'analysent pas : %2".
+message "fr" "hypothesis-not-parsed" "l'hypothèse %1 ne s'analyse pas : %2".
+message "fr" "conclusion-not-prop" "la conclusion %1 n'est pas une proposition".
+message "fr" "fact-unknown" "le fait %1 n'est ni une hypothèse ni une conclusion visible ici".
+message "fr" "name-unknown" "%1 ne nomme rien de connu : ni hypothèse, ni nœud, ni lemme, ni mot de justification déclaré (le déclarer : CypJustification \"%1\" := tactique. ou := rules.)".
+message "fr" "at-line" "ligne %1 : %2".
+message "fr" "no-conclusion" "un nœud sans conclusion : il a des balises, mais pas de {.claim}".
+message "fr" "two-conclusions" "un nœud à deux conclusions, %1 et %2".
+message "fr" "statement-no-conclusion" "l'énoncé n'a pas de conclusion, pas de {.claim}".
+message "fr" "unknown-class" "une classe inconnue, {.%1}".
+message "fr" "not-a-name" "une justification est un nom, pas *%1*{.just}".
+message "fr" "out-of-scope" "%1 n'est pas visible ici".
+message "fr" "name-twice" "le nom %1 est donné deux fois dans une même portée".
+message "fr" "unclosed-span" "un [ sans ]{.p} après lui : un span non fermé".
+message "fr" "unopened-span" "un ]{.p} sans [ avant lui".
+message "fr" "unclosed-div" "un ::: p sans ::: après lui : un div non fermé".
+message "fr" "unopened-div" "un ::: qui ne ferme aucun div".
+% les buts ouverts d'un texte ({.goal}) et les méthodes fixes (*match*,
+% *induction*)
+message "fr" "goal-line" "  🔶 but ouvert %1 du texte : %2".
+message "fr" "md-goal" "but ouvert du texte, non essayé : condition %1, à démontrer dans le bloc Proof : %2".
+message "fr" "method-no-object" "*%1*{.just} ne nomme rien à éliminer : nommer l'hypothèse ou la variable (*h*{.just}), ou son type (*T*{.just})".
+message "fr" "type-objects" "pas une seule hypothèse ou variable de type %1 visible ici à éliminer (%2 trouvées) : la nommer".
+message "fr" "not-of-type" "%1 n'est pas de type %2".
+message "fr" "type-alone" "%1 est un type inductif : il ne justifie une étape qu'avec *match*{.just} ou *induction*{.just}".

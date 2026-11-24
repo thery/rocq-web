@@ -1,0 +1,589 @@
+DIGEST 82b114b5870172d43b6d020117a23646
+FStdlib.Reals.Abstract.ConstructivePower
+R703:706 Stdlib.ZArith.Znat <> <> lib
+R736:741 Stdlib.QArith.QArith <> <> lib
+R743:746 Stdlib.QArith.Qabs <> <> lib
+R776:792 Stdlib.Reals.Abstract.ConstructiveReals <> <> lib
+R822:847 Stdlib.Reals.Abstract.ConstructiveRealsMorphisms <> <> lib
+R877:891 Stdlib.Reals.Abstract.ConstructiveAbs <> <> lib
+R921:938 Stdlib.Reals.Abstract.ConstructiveLimits <> <> lib
+R968:982 Stdlib.Reals.Abstract.ConstructiveSum <> <> lib
+def 1164:1168 <> CRpow
+R1175:1191 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1171:1171 <> R:1
+R1197:1205 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1207:1207 Stdlib.Reals.Abstract.ConstructivePower <> R:1 var
+binder 1195:1195 <> r:2
+R1213:1215 Corelib.Init.Datatypes <> nat ind
+binder 1211:1211 <> n:3
+R1220:1228 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1230:1230 Stdlib.Reals.Abstract.ConstructivePower <> R:1 var
+R1243:1243 Stdlib.Reals.Abstract.ConstructivePower <> n:3 var
+R1256:1256 Corelib.Init.Datatypes <> O constr
+R1269:1269 Corelib.Init.Datatypes <> S constr
+R1277:1280 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R1290:1290 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R1276:1276 Stdlib.Reals.Abstract.ConstructivePower <> r:2 var
+R1281:1285 Stdlib.Reals.Abstract.ConstructivePower <> CRpow:4 def
+R1289:1289 Stdlib.Reals.Abstract.ConstructivePower <> n:3 var
+R1287:1287 Stdlib.Reals.Abstract.ConstructivePower <> r:2 var
+prf 1306:1317 <> CRpow_ge_one
+R1333:1349 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1329:1329 <> R:6
+R1357:1365 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1367:1367 Stdlib.Reals.Abstract.ConstructivePower <> R:6 var
+binder 1353:1353 <> x:7
+R1375:1377 Corelib.Init.Datatypes <> nat ind
+binder 1371:1371 <> n:8
+R1391:1398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1386:1389 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R1390:1390 Stdlib.Reals.Abstract.ConstructivePower <> x:7 var
+R1400:1403 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R1404:1408 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R1412:1412 Stdlib.Reals.Abstract.ConstructivePower <> n:8 var
+R1410:1410 Stdlib.Reals.Abstract.ConstructivePower <> x:7 var
+R1455:1463 Stdlib.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R1492:1501 Stdlib.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R1507:1509 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R1529:1538 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R1562:1584 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_le_compat_l_half thm
+R1602:1614 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_le_trans thm
+R1639:1651 Stdlib.Reals.Abstract.ConstructiveReals <> CRzero_lt_one proj
+prf 1714:1726 <> CRpow_ge_zero
+R1742:1758 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1738:1738 <> R:9
+R1766:1774 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1776:1776 Stdlib.Reals.Abstract.ConstructivePower <> R:9 var
+binder 1762:1762 <> x:10
+R1784:1786 Corelib.Init.Datatypes <> nat ind
+binder 1780:1780 <> n:11
+R1800:1807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1795:1798 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R1799:1799 Stdlib.Reals.Abstract.ConstructivePower <> x:10 var
+R1809:1812 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R1813:1817 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R1821:1821 Stdlib.Reals.Abstract.ConstructivePower <> n:11 var
+R1819:1819 Stdlib.Reals.Abstract.ConstructivePower <> x:10 var
+R1864:1872 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_asym thm
+R1875:1887 Stdlib.Reals.Abstract.ConstructiveReals <> CRzero_lt_one proj
+R1915:1932 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_le_0_compat thm
+prf 1988:2000 <> CRpow_gt_zero
+R2016:2032 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 2012:2012 <> R:12
+R2040:2048 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R2050:2050 Stdlib.Reals.Abstract.ConstructivePower <> R:12 var
+binder 2036:2036 <> x:13
+R2058:2060 Corelib.Init.Datatypes <> nat ind
+binder 2054:2054 <> n:14
+R2073:2080 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2069:2071 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R2072:2072 Stdlib.Reals.Abstract.ConstructivePower <> x:13 var
+R2082:2084 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R2085:2089 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2093:2093 Stdlib.Reals.Abstract.ConstructivePower <> n:14 var
+R2091:2091 Stdlib.Reals.Abstract.ConstructivePower <> x:13 var
+R2136:2148 Stdlib.Reals.Abstract.ConstructiveReals <> CRzero_lt_one proj
+R2176:2193 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_0_compat proj
+prf 2249:2258 <> CRpow_mult
+R2274:2290 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 2270:2270 <> R:15
+R2300:2308 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R2310:2310 Stdlib.Reals.Abstract.ConstructivePower <> R:15 var
+binder 2294:2294 <> x:16
+binder 2296:2296 <> y:17
+R2316:2318 Corelib.Init.Datatypes <> nat ind
+binder 2314:2314 <> n:18
+R2347:2350 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R2335:2337 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R2326:2330 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2334:2334 Stdlib.Reals.Abstract.ConstructivePower <> n:18 var
+R2332:2332 Stdlib.Reals.Abstract.ConstructivePower <> x:16 var
+R2338:2342 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2346:2346 Stdlib.Reals.Abstract.ConstructivePower <> n:18 var
+R2344:2344 Stdlib.Reals.Abstract.ConstructivePower <> y:17 var
+R2351:2355 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2363:2363 Stdlib.Reals.Abstract.ConstructivePower <> n:18 var
+R2359:2359 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R2358:2358 Stdlib.Reals.Abstract.ConstructivePower <> x:16 var
+R2360:2360 Stdlib.Reals.Abstract.ConstructivePower <> y:17 var
+R2407:2416 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2476:2485 Stdlib.setoid_ring.Ring_theory <> Rmul_assoc proj
+R2488:2495 Stdlib.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R2512:2523 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_morph def
+R2563:2571 Stdlib.setoid_ring.Ring_theory <> Rmul_comm proj
+R2574:2581 Stdlib.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R2600:2609 Stdlib.setoid_ring.Ring_theory <> Rmul_assoc proj
+R2612:2619 Stdlib.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R2638:2649 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_morph def
+R2693:2701 Stdlib.setoid_ring.Ring_theory <> Rmul_comm proj
+R2704:2711 Stdlib.Reals.Abstract.ConstructiveReals <> CRisRing proj
+prf 2743:2751 <> CRpow_one
+R2767:2783 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 2763:2763 <> R:19
+R2789:2791 Corelib.Init.Datatypes <> nat ind
+binder 2787:2787 <> n:20
+R2811:2814 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R2800:2804 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2806:2806 Stdlib.Reals.Abstract.ConstructivePower <> R:19 var
+R2810:2810 Stdlib.Reals.Abstract.ConstructivePower <> n:20 var
+R2875:2880 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult proj
+R2887:2891 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R2946:2955 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+prf 2983:2994 <> CRpow_proper
+R3010:3026 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 3006:3006 <> R:21
+R3036:3044 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R3046:3046 Stdlib.Reals.Abstract.ConstructivePower <> R:21 var
+binder 3030:3030 <> x:22
+binder 3032:3032 <> y:23
+R3054:3056 Corelib.Init.Datatypes <> nat ind
+binder 3050:3050 <> n:24
+R3070:3073 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3065:3068 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R3064:3064 Stdlib.Reals.Abstract.ConstructivePower <> x:22 var
+R3069:3069 Stdlib.Reals.Abstract.ConstructivePower <> y:23 var
+R3083:3086 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R3074:3078 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3082:3082 Stdlib.Reals.Abstract.ConstructivePower <> n:24 var
+R3080:3080 Stdlib.Reals.Abstract.ConstructivePower <> x:22 var
+R3087:3091 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3095:3095 Stdlib.Reals.Abstract.ConstructivePower <> n:24 var
+R3093:3093 Stdlib.Reals.Abstract.ConstructivePower <> y:23 var
+prf 3218:3226 <> CRpow_inv
+R3242:3258 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 3238:3238 <> R:25
+R3266:3274 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R3276:3276 Stdlib.Reals.Abstract.ConstructivePower <> R:25 var
+binder 3262:3262 <> x:26
+R3288:3290 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R3291:3291 Stdlib.Reals.Abstract.ConstructivePower <> x:26 var
+binder 3280:3283 <> xPos:27
+R3299:3301 Corelib.Init.Datatypes <> nat ind
+binder 3295:3295 <> n:28
+R3339:3346 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R3309:3313 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3338:3338 Stdlib.Reals.Abstract.ConstructivePower <> n:28 var
+R3316:3320 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv proj
+R3322:3322 Stdlib.Reals.Abstract.ConstructivePower <> R:25 var
+R3324:3324 Stdlib.Reals.Abstract.ConstructivePower <> x:26 var
+R3327:3329 Corelib.Init.Datatypes <> inr constr
+R3331:3334 Stdlib.Reals.Abstract.ConstructivePower <> xPos:27 var
+R3347:3351 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv proj
+R3353:3353 Stdlib.Reals.Abstract.ConstructivePower <> R:25 var
+R3356:3360 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3364:3364 Stdlib.Reals.Abstract.ConstructivePower <> n:28 var
+R3362:3362 Stdlib.Reals.Abstract.ConstructivePower <> x:26 var
+R3368:3370 Corelib.Init.Datatypes <> inr constr
+R3373:3385 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R3391:3394 Stdlib.Reals.Abstract.ConstructivePower <> xPos:27 var
+R3389:3389 Stdlib.Reals.Abstract.ConstructivePower <> n:28 var
+R3387:3387 Stdlib.Reals.Abstract.ConstructivePower <> x:26 var
+R3433:3439 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv_1 thm
+R3493:3495 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R3473:3477 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv proj
+R3484:3486 Corelib.Init.Datatypes <> inr constr
+R3496:3500 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3503:3507 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv proj
+R3514:3516 Corelib.Init.Datatypes <> inr constr
+R3582:3584 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R3586:3588 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R3589:3593 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3615:3632 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_0_compat proj
+R3673:3685 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R3714:3729 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv_mult_distr thm
+R3740:3742 Corelib.Init.Datatypes <> inr constr
+R3761:3771 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv_morph thm
+prf 3799:3814 <> CRpow_plus_distr
+R3830:3846 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 3826:3826 <> R:29
+R3854:3862 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R3864:3864 Stdlib.Reals.Abstract.ConstructivePower <> R:29 var
+binder 3850:3850 <> x:30
+R3872:3874 Corelib.Init.Datatypes <> nat ind
+binder 3868:3868 <> n:31
+binder 3870:3870 <> p:32
+R3903:3906 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R3891:3893 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R3882:3886 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3890:3890 Stdlib.Reals.Abstract.ConstructivePower <> n:31 var
+R3888:3888 Stdlib.Reals.Abstract.ConstructivePower <> x:30 var
+R3894:3898 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3902:3902 Stdlib.Reals.Abstract.ConstructivePower <> p:32 var
+R3900:3900 Stdlib.Reals.Abstract.ConstructivePower <> x:30 var
+R3907:3911 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R3917:3917 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R3916:3916 Stdlib.Reals.Abstract.ConstructivePower <> n:31 var
+R3918:3918 Stdlib.Reals.Abstract.ConstructivePower <> p:32 var
+R3913:3913 Stdlib.Reals.Abstract.ConstructivePower <> x:30 var
+R3971:3980 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_l thm
+R4023:4034 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_assoc thm
+R4043:4054 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_morph def
+prf 4101:4109 <> CR_double
+R4125:4141 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 4121:4121 <> R:33
+R4147:4155 Stdlib.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R4157:4157 Stdlib.Reals.Abstract.ConstructivePower <> R:33 var
+binder 4145:4145 <> x:34
+R4180:4183 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R4176:4178 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R4165:4171 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R4173:4173 Stdlib.Reals.Abstract.ConstructivePower <> R:33 var
+R4179:4179 Stdlib.Reals.Abstract.ConstructivePower <> x:34 var
+R4185:4187 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R4184:4184 Stdlib.Reals.Abstract.ConstructivePower <> x:34 var
+R4188:4188 Stdlib.Reals.Abstract.ConstructivePower <> x:34 var
+R4221:4233 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R4241:4241 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R4273:4284 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R4297:4315 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_r thm
+R4318:4327 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_l thm
+prf 4355:4363 <> GeoCvZero
+R4379:4395 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 4375:4375 <> R:35
+R4403:4407 Stdlib.Reals.Abstract.ConstructiveReals <> CR_cv proj
+R4409:4409 Stdlib.Reals.Abstract.ConstructivePower <> R:35 var
+R4418:4420 Corelib.Init.Datatypes <> nat ind
+binder 4416:4416 <> n:36
+R4425:4429 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R4449:4449 Stdlib.Reals.Abstract.ConstructivePower <> n:36 var
+R4432:4438 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R4440:4440 Stdlib.Reals.Abstract.ConstructivePower <> R:35 var
+R4444:4444 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R4490:4492 Corelib.Init.Datatypes <> nat ind
+binder 4488:4488 <> n:37
+R4500:4502 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R4495:4497 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R4499:4499 Stdlib.Reals.Abstract.ConstructivePower <> n:37 var
+R4503:4507 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R4523:4523 Stdlib.Reals.Abstract.ConstructivePower <> n:37 var
+R4510:4516 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+binder 4488:4488 <> n:38
+R4499:4499 Stdlib.Reals.Abstract.ConstructivePower <> n:38 var
+R4523:4523 Stdlib.Reals.Abstract.ConstructivePower <> n:38 var
+R4557:4559 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R4581:4593 Stdlib.Reals.Abstract.ConstructiveReals <> CRzero_lt_one proj
+R4609:4611 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R4621:4621 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4644:4656 Stdlib.ZArith.Znat Nat2Z inj_add thm
+R4674:4686 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R4693:4693 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R4708:4712 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R4726:4726 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R4704:4706 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R4694:4701 Stdlib.ZArith.BinInt Z of_nat def
+R4723:4724 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R4713:4720 Stdlib.ZArith.BinInt Z of_nat def
+R4756:4770 Stdlib.QArith.QArith_base <> Qinv_plus_distr thm
+R4787:4798 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R4816:4820 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R4838:4840 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4823:4829 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R4870:4872 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R4859:4865 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R4873:4877 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R4880:4886 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R4927:4935 Stdlib.Reals.Abstract.ConstructivePower <> CR_double thm
+R4950:4968 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_le_lt_compat thm
+R5010:5021 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_ge_one thm
+R5030:5039 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R5078:5087 Stdlib.PArith.BinPos Pos to_nat def
+R5110:5116 Stdlib.Reals.Abstract.ConstructiveReals <> CRminus proj
+R5127:5133 Stdlib.Reals.Abstract.ConstructiveReals <> CRopp_0 thm
+R5144:5153 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R5166:5176 Stdlib.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R5190:5202 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_ge_zero thm
+R5211:5220 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R5245:5253 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_asym thm
+R5265:5279 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_reg_l thm
+R5282:5288 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R5300:5302 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R5293:5297 Stdlib.ZArith.BinInt Z pos abbrev
+R5319:5328 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+R5359:5370 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_mult proj
+R5386:5398 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R5403:5403 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5415:5419 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5425:5425 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5411:5413 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R5404:5408 Stdlib.ZArith.BinInt Z pos abbrev
+R5421:5423 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R5446:5450 Stdlib.QArith.QArith_base <> Qmult def
+R5453:5455 Stdlib.QArith.QArith_base <> Qeq def
+R5458:5461 Stdlib.QArith.QArith_base <> Qnum proj
+R5464:5467 Stdlib.QArith.QArith_base <> Qden proj
+R5509:5523 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_reg_r thm
+R5526:5530 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R5533:5539 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R5563:5575 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R5590:5599 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+R5629:5640 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_assoc thm
+R5651:5660 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_mult thm
+R5678:5689 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_proper thm
+R5709:5711 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R5692:5698 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R5704:5706 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R5712:5718 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R5729:5737 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_one thm
+R5756:5765 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R5768:5777 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_l thm
+R5795:5807 Stdlib.Reals.Abstract.ConstructiveReals <> CRle_lt_trans thm
+R5812:5814 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R5860:5869 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R5879:5881 Stdlib.QArith.QArith_base <> Qle def
+R5883:5886 Stdlib.QArith.QArith_base <> Qnum proj
+R5888:5891 Stdlib.QArith.QArith_base <> Qden proj
+R5915:5923 Stdlib.ZArith.BinInt Z mul_1_r thm
+R5945:5958 Stdlib.ZArith.Znat <> positive_nat_Z thm
+R5967:5978 Stdlib.ZArith.Znat Nat2Z inj_le thm
+R6004:6015 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_mult proj
+R6034:6034 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6038:6039 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6036:6036 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+prf 6115:6126 <> GeoFiniteSum
+R6142:6158 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 6138:6138 <> R:39
+R6164:6166 Corelib.Init.Datatypes <> nat ind
+binder 6162:6162 <> n:40
+R6207:6210 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R6174:6178 Stdlib.Reals.Abstract.ConstructiveSum <> CRsum def
+R6206:6206 Stdlib.Reals.Abstract.ConstructivePower <> n:40 var
+R6181:6185 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6188:6194 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6196:6196 Stdlib.Reals.Abstract.ConstructivePower <> R:39 var
+R6200:6200 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6222:6224 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R6211:6217 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6219:6219 Stdlib.Reals.Abstract.ConstructivePower <> R:39 var
+R6225:6229 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6249:6249 Stdlib.Reals.Abstract.ConstructivePower <> n:40 var
+R6232:6238 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6240:6240 Stdlib.Reals.Abstract.ConstructivePower <> R:39 var
+R6244:6244 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6285:6289 Stdlib.Reals.Abstract.ConstructiveSum <> CRsum def
+R6292:6296 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6339:6345 Stdlib.Reals.Abstract.ConstructiveReals <> CRminus proj
+R6357:6368 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R6390:6401 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6416:6427 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R6430:6439 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6475:6479 Stdlib.Reals.Abstract.ConstructiveSum <> CRsum def
+R6510:6510 Corelib.Init.Datatypes <> S constr
+R6482:6486 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6489:6495 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6501:6503 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6563:6565 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R6528:6532 Stdlib.Reals.Abstract.ConstructiveSum <> CRsum def
+R6535:6539 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6542:6548 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6554:6556 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6566:6570 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6593:6593 Corelib.Init.Datatypes <> S constr
+R6573:6579 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6585:6587 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6655:6661 Stdlib.Reals.Abstract.ConstructiveReals <> CRminus proj
+R6676:6687 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6696:6707 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R6742:6756 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_eq_reg_l thm
+R6801:6803 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R6774:6778 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6781:6787 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6793:6795 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6804:6808 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6831:6831 Corelib.Init.Datatypes <> S constr
+R6811:6817 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6823:6825 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6854:6865 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6872:6872 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R6873:6877 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6900:6900 Corelib.Init.Datatypes <> S constr
+R6880:6886 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6892:6894 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R6916:6927 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R6930:6939 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6957:6967 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R6970:6974 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R6977:6983 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R6989:6991 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7001:7012 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7033:7044 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7047:7051 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7054:7060 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7066:7068 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7078:7089 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R7100:7109 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R7115:7123 Stdlib.Reals.Abstract.ConstructivePower <> CR_double thm
+R7148:7152 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7175:7175 Corelib.Init.Datatypes <> S constr
+R7155:7161 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7167:7169 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7212:7214 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R7195:7201 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7207:7209 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7215:7219 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7222:7228 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7234:7236 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7284:7295 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_assoc thm
+R7301:7312 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_mult proj
+R7338:7341 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7347:7347 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7343:7345 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7376:7385 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_l thm
+prf 7421:7435 <> GeoHalfBelowTwo
+R7451:7467 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 7447:7447 <> R:41
+R7473:7475 Corelib.Init.Datatypes <> nat ind
+binder 7471:7471 <> n:42
+R7516:7518 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R7483:7487 Stdlib.Reals.Abstract.ConstructiveSum <> CRsum def
+R7515:7515 Stdlib.Reals.Abstract.ConstructivePower <> n:42 var
+R7490:7494 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7497:7503 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7505:7505 Stdlib.Reals.Abstract.ConstructivePower <> R:41 var
+R7509:7509 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7519:7525 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7527:7527 Stdlib.Reals.Abstract.ConstructivePower <> R:41 var
+R7561:7570 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R7573:7579 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7588:7599 Stdlib.Reals.Abstract.ConstructivePower <> GeoFiniteSum thm
+R7610:7627 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_lt_compat_l proj
+R7641:7647 Stdlib.Reals.Abstract.ConstructiveReals <> CRopp_0 thm
+R7658:7678 Stdlib.Reals.Abstract.ConstructiveReals <> CRopp_gt_lt_contravar thm
+R7689:7701 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R7710:7719 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+prf 7747:7756 <> GeoHalfTwo
+R7772:7788 Stdlib.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 7768:7768 <> R:43
+R7796:7804 Stdlib.Reals.Abstract.ConstructiveSum <> series_cv def
+R7844:7850 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7852:7852 Stdlib.Reals.Abstract.ConstructivePower <> R:43 var
+binder 7811:7811 <> n:44
+R7816:7820 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7840:7840 Stdlib.Reals.Abstract.ConstructivePower <> n:44 var
+R7823:7829 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7831:7831 Stdlib.Reals.Abstract.ConstructivePower <> R:43 var
+R7835:7835 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R7885:7892 Stdlib.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 7901:7901 <> n:45
+R7917:7919 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R7906:7912 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7920:7924 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R7946:7946 Stdlib.Reals.Abstract.ConstructivePower <> n:45 var
+R7927:7933 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R7939:7941 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+binder 7901:7901 <> n:46
+R7946:7946 Stdlib.Reals.Abstract.ConstructivePower <> n:46 var
+R7972:7983 Stdlib.Reals.Abstract.ConstructivePower <> GeoFiniteSum thm
+R8020:8022 Corelib.Init.Datatypes <> nat ind
+binder 8018:8018 <> n:47
+R8030:8032 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R8025:8027 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R8029:8029 Stdlib.Reals.Abstract.ConstructivePower <> n:47 var
+R8033:8037 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8053:8053 Stdlib.Reals.Abstract.ConstructivePower <> n:47 var
+R8040:8046 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+binder 8018:8018 <> n:48
+R8029:8029 Stdlib.Reals.Abstract.ConstructivePower <> n:48 var
+R8053:8053 Stdlib.Reals.Abstract.ConstructivePower <> n:48 var
+R8091:8093 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R8117:8129 Stdlib.Reals.Abstract.ConstructiveReals <> CRzero_lt_one proj
+R8147:8159 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_le_trans thm
+R8185:8187 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R8164:8168 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8171:8177 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8210:8212 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R8233:8246 Stdlib.ZArith.Znat Nat2Z inj_succ thm
+R8252:8260 Stdlib.ZArith.BinInt Z add_1_l thm
+R8282:8294 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R8302:8305 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R8319:8319 Stdlib.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R8316:8317 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R8306:8313 Stdlib.ZArith.BinInt Z of_nat def
+R8353:8367 Stdlib.QArith.QArith_base <> Qinv_plus_distr thm
+R8378:8389 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R8410:8420 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R8439:8456 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_lt_compat_r thm
+R8490:8494 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8511:8511 Corelib.Init.Datatypes <> S constr
+R8497:8503 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8556:8558 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R8535:8539 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8542:8548 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8559:8563 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8566:8572 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8601:8616 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R8640:8648 Stdlib.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R8672:8683 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_ge_one thm
+R8692:8701 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R8741:8749 Stdlib.Reals.Abstract.ConstructivePower <> CR_double thm
+R8789:8798 Stdlib.PArith.BinPos Pos to_nat def
+R8873:8875 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R8843:8845 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R8832:8838 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8846:8850 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8853:8859 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8865:8867 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R8876:8882 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8901:8902 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R8903:8907 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R8910:8916 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R8922:8924 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R8947:8955 Stdlib.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R8966:8976 Stdlib.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R8996:8998 Stdlib.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R8999:9005 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R9029:9038 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+R9073:9084 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_proper thm
+R9089:9093 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv proj
+R9098:9104 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R9112:9114 Corelib.Init.Datatypes <> inr constr
+R9142:9150 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_inv thm
+R9159:9167 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_asym thm
+R9188:9202 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_reg_l thm
+R9205:9209 Stdlib.Reals.Abstract.ConstructivePower <> CRpow def
+R9212:9218 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R9250:9262 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R9291:9297 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv_r thm
+R9321:9335 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_lt_reg_r thm
+R9338:9344 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R9356:9356 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R9349:9353 Stdlib.ZArith.BinInt Z pos abbrev
+R9386:9395 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+R9436:9445 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_l thm
+R9448:9459 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_assoc thm
+R9490:9501 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_mult proj
+R9530:9542 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R9547:9547 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9553:9557 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9569:9569 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9549:9551 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R9565:9567 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R9558:9562 Stdlib.ZArith.BinInt Z pos abbrev
+R9617:9626 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R9636:9648 Stdlib.Reals.Abstract.ConstructiveReals <> CRle_lt_trans thm
+R9653:9655 Stdlib.Reals.Abstract.ConstructiveSum <> INR def
+R9697:9706 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R9733:9735 Stdlib.QArith.QArith_base <> Qle def
+R9738:9741 Stdlib.QArith.QArith_base <> Qnum proj
+R9744:9747 Stdlib.QArith.QArith_base <> Qden proj
+R9763:9771 Stdlib.ZArith.BinInt Z mul_1_r thm
+R9840:9853 Stdlib.PArith.Pnat Pos2Nat is_pos thm
+R9935:9950 Stdlib.ZArith.BinInt Pos2Z pos_le_pos thm
+R9959:9972 Stdlib.PArith.Pnat Pos2Nat inj_le thm
+R9999:10010 Stdlib.Arith.PeanoNat Nat le_trans thm
+R10031:10049 Stdlib.PArith.Pnat SuccNat2Pos id_succ thm
+R10058:10068 Stdlib.Arith.PeanoNat Nat le_refl thm
+R10089:10103 Stdlib.Reals.Abstract.ConstructiveReals <> CRmult_eq_reg_l thm
+R10106:10112 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R10174:10180 Stdlib.Reals.Abstract.ConstructiveReals <> CRinv_r thm
+R10194:10205 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_mult proj
+R10239:10242 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R10248:10248 Stdlib.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R10244:10246 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R10337:10345 Stdlib.Reals.Abstract.ConstructiveReals <> CRlt_asym thm
+R10348:10360 Stdlib.Reals.Abstract.ConstructivePower <> CRpow_gt_zero thm
+R10377:10386 Stdlib.Reals.Abstract.ConstructiveReals <> CR_of_Q_lt proj
+R10415:10421 Stdlib.Reals.Abstract.ConstructiveReals <> CRminus proj
+R10432:10442 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R10448:10459 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R10476:10487 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R10490:10499 Stdlib.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm

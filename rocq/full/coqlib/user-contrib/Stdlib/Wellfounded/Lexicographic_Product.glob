@@ -1,0 +1,275 @@
+DIGEST d4f740e6b4fd3a1fd498d5382f132bb3
+FStdlib.Wellfounded.Lexicographic_Product
+R750:759 Stdlib.Logic.EqdepFacts <> <> lib
+R789:806 Stdlib.Relations.Relation_Operators <> <> lib
+R836:853 Stdlib.Wellfounded.Transitive_Closure <> <> lib
+R883:891 Stdlib.Wellfounded.Inclusion <> <> lib
+R921:933 Stdlib.Wellfounded.Inverse_Image <> <> lib
+sec 1048:1070 <> WfLexicographic_Product
+R1083:1095 Corelib.Init.Specif SigTNotations <> mod
+var 1110:1110 WfLexicographic_Product A
+var 1131:1131 WfLexicographic_Product B
+R1136:1139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1135:1135 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+var 1157:1159 WfLexicographic_Product leA
+R1164:1167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1163:1163 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+R1169:1172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1168:1168 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+var 1190:1192 WfLexicographic_Product leB
+R1207:1207 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+binder 1203:1203 <> x:7
+R1213:1216 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1210:1210 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.B var
+R1212:1212 Stdlib.Wellfounded.Lexicographic_Product <> x:7 var
+R1220:1223 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1217:1217 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.B var
+R1219:1219 Stdlib.Wellfounded.Lexicographic_Product <> x:7 var
+abbrev 1242:1248 <> LexProd
+R1254:1260 Stdlib.Relations.Relation_Operators <> lexprod ind
+R1270:1272 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leB var
+R1266:1268 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leA var
+R1264:1264 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.B var
+R1262:1262 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+prf 1285:1299 <> acc_A_B_lexprod
+R1318:1318 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+binder 1314:1314 <> x:10
+R1336:1345 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1327:1329 Corelib.Init.Wf <> Acc ind
+R1335:1335 Stdlib.Wellfounded.Lexicographic_Product <> x:10 var
+R1331:1333 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leA var
+R1346:1346 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1408:1418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1359:1359 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+binder 1354:1355 <> x0:11
+R1383:1386 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1362:1371 Stdlib.Relations.Relation_Operators <> clos_trans ind
+R1379:1380 Stdlib.Wellfounded.Lexicographic_Product <> x0:11 var
+R1382:1382 Stdlib.Wellfounded.Lexicographic_Product <> x:10 var
+R1375:1377 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leA var
+R1373:1373 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+R1387:1398 Corelib.Init.Wf <> well_founded def
+R1401:1403 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leB var
+R1405:1406 Stdlib.Wellfounded.Lexicographic_Product <> x0:11 var
+R1430:1430 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.B var
+R1432:1432 Stdlib.Wellfounded.Lexicographic_Product <> x:10 var
+binder 1426:1426 <> y:12
+R1448:1451 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1435:1437 Corelib.Init.Wf <> Acc ind
+R1447:1447 Stdlib.Wellfounded.Lexicographic_Product <> y:12 var
+R1440:1442 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leB var
+R1444:1444 Stdlib.Wellfounded.Lexicographic_Product <> x:10 var
+R1452:1454 Corelib.Init.Wf <> Acc ind
+R1464:1464 Corelib.Init.Specif SigTNotations :::'('_x_';'_x_')' not
+R1466:1467 Corelib.Init.Specif SigTNotations :::'('_x_';'_x_')' not
+R1469:1469 Corelib.Init.Specif SigTNotations :::'('_x_';'_x_')' not
+R1465:1465 Stdlib.Wellfounded.Lexicographic_Product <> x:10 var
+R1468:1468 Stdlib.Wellfounded.Lexicographic_Product <> y:12 var
+R1456:1462 Stdlib.Wellfounded.Lexicographic_Product <> LexProd abbrev
+R1578:1586 Corelib.Init.Wf <> Acc_intro constr
+R1669:1671 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leA var
+R1779:1785 Stdlib.Relations.Relation_Operators <> t_trans constr
+R1999:2012 Stdlib.Logic.EqdepFacts <> eq_sigT_eq_dep thm
+prf 2100:2109 <> wf_lexprod
+R2133:2140 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2117:2128 Corelib.Init.Wf <> well_founded def
+R2130:2132 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leA var
+R2141:2141 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2176:2180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2153:2153 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.A var
+binder 2149:2149 <> x:13
+R2156:2167 Corelib.Init.Wf <> well_founded def
+R2170:2172 Stdlib.Wellfounded.Lexicographic_Product <> WfLexicographic_Product.leB var
+R2174:2174 Stdlib.Wellfounded.Lexicographic_Product <> x:13 var
+R2181:2192 Corelib.Init.Wf <> well_founded def
+R2194:2200 Stdlib.Wellfounded.Lexicographic_Product <> LexProd abbrev
+R2239:2250 Corelib.Init.Wf <> well_founded def
+R2279:2293 Stdlib.Wellfounded.Lexicographic_Product <> acc_A_B_lexprod thm
+R2373:2395 Stdlib.Wellfounded.Lexicographic_Product WfLexicographic_Product <> sec
+sec 2407:2436 <> WfSimple_Lexicographic_Product
+var 2451:2451 WfSimple_Lexicographic_Product A
+var 2472:2472 WfSimple_Lexicographic_Product B
+var 2493:2495 WfSimple_Lexicographic_Product leA
+R2500:2503 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2499:2499 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.A var
+R2505:2508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2504:2504 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.A var
+var 2526:2528 WfSimple_Lexicographic_Product leB
+R2533:2536 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2532:2532 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.B var
+R2538:2541 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2537:2537 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.B var
+abbrev 2560:2566 <> LexProd
+R2572:2579 Stdlib.Relations.Relation_Operators <> slexprod ind
+R2589:2591 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.leB var
+R2585:2587 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.leA var
+R2583:2583 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.B var
+R2581:2581 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.A var
+prf 2606:2616 <> wf_slexprod
+R2640:2643 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2624:2635 Corelib.Init.Wf <> well_founded def
+R2637:2639 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.leA var
+R2660:2663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2644:2655 Corelib.Init.Wf <> well_founded def
+R2657:2659 Stdlib.Wellfounded.Lexicographic_Product <> WfSimple_Lexicographic_Product.leB var
+R2664:2675 Corelib.Init.Wf <> well_founded def
+R2677:2683 Stdlib.Wellfounded.Lexicographic_Product <> LexProd abbrev
+R2714:2720 Stdlib.Wellfounded.Inclusion <> wf_incl thm
+R2747:2762 Stdlib.Relations.Relation_Operators <> slexprod_lexprod thm
+R2781:2796 Stdlib.Wellfounded.Inverse_Image <> wf_inverse_image thm
+R2799:2808 Stdlib.Wellfounded.Lexicographic_Product <> wf_lexprod thm
+R2823:2852 Stdlib.Wellfounded.Lexicographic_Product WfSimple_Lexicographic_Product <> sec
+sec 2864:2883 <> Wf_Symmetric_Product
+var 2897:2897 Wf_Symmetric_Product A
+var 2918:2918 Wf_Symmetric_Product B
+var 2939:2941 Wf_Symmetric_Product leA
+R2946:2949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2945:2945 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.A var
+R2951:2954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2950:2950 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.A var
+var 2972:2974 Wf_Symmetric_Product leB
+R2979:2982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2978:2978 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.B var
+R2984:2987 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2983:2983 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.B var
+abbrev 3006:3012 <> Symprod
+R3018:3024 Stdlib.Relations.Relation_Operators <> symprod ind
+R3034:3036 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leB var
+R3030:3032 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leA var
+R3028:3028 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.B var
+R3026:3026 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.A var
+prf 3049:3059 <> Acc_symprod
+R3076:3076 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.A var
+binder 3074:3074 <> x:30
+R3088:3091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3079:3081 Corelib.Init.Wf <> Acc ind
+R3087:3087 Stdlib.Wellfounded.Lexicographic_Product <> x:30 var
+R3083:3085 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leA var
+R3101:3101 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.B var
+binder 3099:3099 <> y:31
+R3113:3116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3104:3106 Corelib.Init.Wf <> Acc ind
+R3112:3112 Stdlib.Wellfounded.Lexicographic_Product <> y:31 var
+R3108:3110 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leB var
+R3117:3119 Corelib.Init.Wf <> Acc ind
+R3129:3129 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3131:3132 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3134:3134 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3130:3130 Stdlib.Wellfounded.Lexicographic_Product <> x:30 var
+R3133:3133 Stdlib.Wellfounded.Lexicographic_Product <> y:31 var
+R3121:3127 Stdlib.Wellfounded.Lexicographic_Product <> Symprod abbrev
+R3237:3245 Corelib.Init.Wf <> Acc_intro constr
+R3334:3342 Corelib.Init.Wf <> Acc_intro constr
+prf 3375:3384 <> wf_symprod
+R3408:3411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3392:3403 Corelib.Init.Wf <> well_founded def
+R3405:3407 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leA var
+R3428:3431 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3412:3423 Corelib.Init.Wf <> well_founded def
+R3425:3427 Stdlib.Wellfounded.Lexicographic_Product <> Wf_Symmetric_Product.leB var
+R3432:3443 Corelib.Init.Wf <> well_founded def
+R3445:3451 Stdlib.Wellfounded.Lexicographic_Product <> Symprod abbrev
+R3498:3508 Stdlib.Wellfounded.Lexicographic_Product <> Acc_symprod thm
+R3543:3562 Stdlib.Wellfounded.Lexicographic_Product Wf_Symmetric_Product <> sec
+sec 3575:3578 <> Swap
+var 3593:3593 Swap A
+var 3614:3614 Swap R
+R3619:3622 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3618:3618 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+R3624:3627 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3623:3623 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+abbrev 3646:3653 <> SwapProd
+R3659:3666 Stdlib.Relations.Relation_Operators <> swapprod ind
+R3670:3670 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R3668:3668 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+prf 3684:3691 <> swap_Acc
+R3706:3706 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+binder 3702:3702 <> x:36
+binder 3704:3704 <> y:37
+R3728:3731 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3709:3711 Corelib.Init.Wf <> Acc ind
+R3722:3722 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3724:3725 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3727:3727 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3723:3723 Stdlib.Wellfounded.Lexicographic_Product <> x:36 var
+R3726:3726 Stdlib.Wellfounded.Lexicographic_Product <> y:37 var
+R3713:3720 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+R3732:3734 Corelib.Init.Wf <> Acc ind
+R3745:3745 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3747:3748 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3750:3750 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3746:3746 Stdlib.Wellfounded.Lexicographic_Product <> y:37 var
+R3749:3749 Stdlib.Wellfounded.Lexicographic_Product <> x:36 var
+R3736:3743 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+R3807:3815 Corelib.Init.Wf <> Acc_intro constr
+R3908:3914 Stdlib.Relations.Relation_Operators <> sp_swap constr
+R3929:3937 Stdlib.Relations.Relation_Operators <> right_sym constr
+R3969:3975 Stdlib.Relations.Relation_Operators <> sp_swap constr
+R3990:3997 Stdlib.Relations.Relation_Operators <> left_sym constr
+R4029:4037 Stdlib.Relations.Relation_Operators <> sp_noswap constr
+R4052:4060 Stdlib.Relations.Relation_Operators <> right_sym constr
+R4092:4100 Stdlib.Relations.Relation_Operators <> sp_noswap constr
+R4115:4122 Stdlib.Relations.Relation_Operators <> left_sym constr
+prf 4162:4173 <> Acc_swapprod
+R4192:4192 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+binder 4188:4188 <> x:38
+binder 4190:4190 <> y:39
+R4202:4205 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4195:4197 Corelib.Init.Wf <> Acc ind
+R4201:4201 Stdlib.Wellfounded.Lexicographic_Product <> x:38 var
+R4199:4199 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R4213:4216 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4206:4208 Corelib.Init.Wf <> Acc ind
+R4212:4212 Stdlib.Wellfounded.Lexicographic_Product <> y:39 var
+R4210:4210 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R4217:4219 Corelib.Init.Wf <> Acc ind
+R4230:4230 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4232:4233 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4235:4235 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4231:4231 Stdlib.Wellfounded.Lexicographic_Product <> x:38 var
+R4234:4234 Stdlib.Wellfounded.Lexicographic_Product <> y:39 var
+R4221:4228 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+R4311:4311 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+binder 4308:4309 <> y0:40
+R4321:4324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4314:4314 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R4316:4317 Stdlib.Wellfounded.Lexicographic_Product <> y0:40 var
+R4325:4327 Corelib.Init.Wf <> Acc ind
+R4338:4338 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4341:4342 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4344:4344 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4339:4340 Stdlib.Wellfounded.Lexicographic_Product <> y0:40 var
+R4329:4336 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+binder 4308:4309 <> y0:41
+R4316:4317 Stdlib.Wellfounded.Lexicographic_Product <> y0:41 var
+R4339:4340 Stdlib.Wellfounded.Lexicographic_Product <> y0:41 var
+R4436:4436 Stdlib.Wellfounded.Lexicographic_Product <> Swap.A var
+binder 4434:4434 <> y:42
+R4445:4448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4439:4439 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R4441:4441 Stdlib.Wellfounded.Lexicographic_Product <> y:42 var
+R4449:4451 Corelib.Init.Wf <> Acc ind
+R4462:4462 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4465:4466 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4468:4468 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4467:4467 Stdlib.Wellfounded.Lexicographic_Product <> y:42 var
+R4453:4460 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+binder 4434:4434 <> y:43
+R4441:4441 Stdlib.Wellfounded.Lexicographic_Product <> y:43 var
+R4467:4467 Stdlib.Wellfounded.Lexicographic_Product <> y:43 var
+R4523:4531 Corelib.Init.Wf <> Acc_intro constr
+R4655:4662 Stdlib.Wellfounded.Lexicographic_Product <> swap_Acc thm
+R4801:4801 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4804:4805 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4808:4808 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4788:4794 Corelib.Init.Wf <> Acc_inv thm
+R4841:4849 Stdlib.Relations.Relation_Operators <> sp_noswap constr
+R4866:4874 Stdlib.Relations.Relation_Operators <> right_sym constr
+prf 4937:4947 <> wf_swapprod
+R4965:4968 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4951:4962 Corelib.Init.Wf <> well_founded def
+R4964:4964 Stdlib.Wellfounded.Lexicographic_Product <> Swap.R var
+R4969:4980 Corelib.Init.Wf <> well_founded def
+R4982:4989 Stdlib.Wellfounded.Lexicographic_Product <> SwapProd abbrev
+R5044:5055 Stdlib.Wellfounded.Lexicographic_Product <> Acc_swapprod thm
+R5090:5093 Stdlib.Wellfounded.Lexicographic_Product Swap <> sec

@@ -1,0 +1,65 @@
+DIGEST 3ee1bdd6ccc1549c2bc812c1beb72580
+FStdlib.Wellfounded.Disjoint_Union
+R839:856 Stdlib.Relations.Relation_Operators <> <> lib
+sec 868:884 <> Wf_Disjoint_Union
+var 899:899 Wf_Disjoint_Union A
+var 901:901 Wf_Disjoint_Union B
+var 922:924 Wf_Disjoint_Union leA
+R929:932 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R928:928 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+R934:937 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R933:933 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+var 955:957 Wf_Disjoint_Union leB
+R962:965 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R961:961 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R967:970 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R966:966 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+abbrev 989:994 <> Le_AsB
+R1000:1005 Stdlib.Relations.Relation_Operators <> le_AsB ind
+R1015:1017 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R1011:1013 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1009:1009 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R1007:1007 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+prf 1030:1038 <> acc_A_sum
+R1051:1051 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+binder 1049:1049 <> x:9
+R1063:1066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1054:1056 Corelib.Init.Wf <> Acc ind
+R1062:1062 Stdlib.Wellfounded.Disjoint_Union <> x:9 var
+R1058:1060 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1067:1069 Corelib.Init.Wf <> Acc ind
+R1079:1081 Corelib.Init.Datatypes <> inl constr
+R1085:1085 Stdlib.Wellfounded.Disjoint_Union <> x:9 var
+R1083:1083 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R1071:1076 Stdlib.Wellfounded.Disjoint_Union <> Le_AsB abbrev
+R1125:1133 Corelib.Init.Wf <> Acc_intro constr
+prf 1209:1217 <> acc_B_sum
+R1241:1244 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1225:1236 Corelib.Init.Wf <> well_founded def
+R1238:1240 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1254:1254 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+binder 1252:1252 <> x:10
+R1266:1269 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1257:1259 Corelib.Init.Wf <> Acc ind
+R1265:1265 Stdlib.Wellfounded.Disjoint_Union <> x:10 var
+R1261:1263 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R1270:1272 Corelib.Init.Wf <> Acc ind
+R1282:1284 Corelib.Init.Datatypes <> inr constr
+R1288:1288 Stdlib.Wellfounded.Disjoint_Union <> x:10 var
+R1286:1286 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+R1274:1279 Stdlib.Wellfounded.Disjoint_Union <> Le_AsB abbrev
+R1328:1336 Corelib.Init.Wf <> Acc_intro constr
+R1402:1410 Stdlib.Wellfounded.Disjoint_Union <> acc_A_sum thm
+prf 1446:1460 <> wf_disjoint_sum
+R1484:1487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1468:1479 Corelib.Init.Wf <> well_founded def
+R1481:1483 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1504:1507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1488:1499 Corelib.Init.Wf <> well_founded def
+R1501:1503 Stdlib.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R1508:1519 Corelib.Init.Wf <> well_founded def
+R1521:1526 Stdlib.Wellfounded.Disjoint_Union <> Le_AsB abbrev
+R1561:1572 Corelib.Init.Wf <> well_founded def
+R1614:1622 Stdlib.Wellfounded.Disjoint_Union <> acc_A_sum thm
+R1661:1669 Stdlib.Wellfounded.Disjoint_Union <> acc_B_sum thm
+R1709:1725 Stdlib.Wellfounded.Disjoint_Union Wf_Disjoint_Union <> sec

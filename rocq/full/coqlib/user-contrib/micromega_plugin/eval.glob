@@ -1,0 +1,505 @@
+DIGEST 75e75fb97b261d5bb679a062017e1653
+Fmicromega_plugin.eval
+R1156:1161 Corelib.BinNums.PosDef <> <> lib
+R1201:1207 micromega_plugin.formula <> <> lib
+R1209:1215 micromega_plugin.witness <> <> lib
+R1255:1263 micromega_plugin.ring_eval <> <> lib
+sec 1300:1304 <> Feval
+var 1318:1318 Feval R
+var 1329:1330 Feval rO
+var 1332:1333 Feval rI
+var 1341:1344 Feval radd
+var 1346:1349 Feval rmul
+var 1351:1354 Feval rsub
+var 1371:1374 Feval ropp
+R1337:1337 micromega_plugin.eval <> R:2 var
+R1358:1361 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1357:1357 micromega_plugin.eval <> R:2 var
+R1363:1366 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1362:1362 micromega_plugin.eval <> R:2 var
+R1367:1367 micromega_plugin.eval <> R:2 var
+R1379:1382 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1378:1378 micromega_plugin.eval <> R:2 var
+R1383:1383 micromega_plugin.eval <> R:2 var
+var 1398:1401 Feval Cpow
+var 1412:1420 Feval Cpow_of_N
+var 1436:1439 Feval rpow
+R1425:1428 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1424:1424 Corelib.Numbers.BinNums <> N ind
+R1429:1432 micromega_plugin.eval <> Cpow:16 var
+R1444:1447 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1443:1443 micromega_plugin.eval <> Feval.R var
+R1452:1455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1448:1451 micromega_plugin.eval <> Cpow:16 var
+R1456:1456 micromega_plugin.eval <> Feval.R var
+var 1471:1471 Feval k
+var 1482:1484 Feval req
+var 1486:1489 Feval rneq
+var 1491:1493 Feval rle
+var 1495:1497 Feval rlt
+R1475:1478 micromega_plugin.formula <> kind variant
+R1502:1505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1501:1501 micromega_plugin.eval <> Feval.R var
+R1507:1510 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1506:1506 micromega_plugin.eval <> Feval.R var
+R1511:1515 micromega_plugin.formula <> eKind def
+R1517:1517 micromega_plugin.eval <> k:22 var
+var 1532:1532 Feval C
+var 1543:1548 Feval R_of_C
+R1553:1556 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1552:1552 micromega_plugin.eval <> C:32 var
+R1557:1557 micromega_plugin.eval <> Feval.R var
+var 1572:1574 Feval Env
+var 1585:1591 Feval env_nth
+R1603:1606 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1595:1602 Corelib.Numbers.BinNums <> positive ind
+R1610:1613 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1607:1609 micromega_plugin.eval <> Env:36 var
+R1614:1614 micromega_plugin.eval <> Feval.R var
+abbrev 1637:1642 <> PEeval
+R1648:1653 micromega_plugin.ring_eval <> PEeval def
+R1705:1711 micromega_plugin.eval <> Feval.env_nth var
+R1698:1703 micromega_plugin.eval <> Feval.R_of_C var
+R1693:1696 micromega_plugin.eval <> Feval.rpow var
+R1683:1691 micromega_plugin.eval <> Feval.Cpow_of_N var
+R1678:1681 micromega_plugin.eval <> Feval.ropp var
+R1673:1676 micromega_plugin.eval <> Feval.rsub var
+R1668:1671 micromega_plugin.eval <> Feval.rmul var
+R1663:1666 micromega_plugin.eval <> Feval.radd var
+R1660:1661 micromega_plugin.eval <> Feval.rI var
+R1657:1658 micromega_plugin.eval <> Feval.rO var
+def 1727:1734 <> eval_op2
+R1741:1743 micromega_plugin.formula <> Op2 variant
+binder 1737:1737 <> o:39
+R1753:1753 micromega_plugin.eval <> Feval.R var
+binder 1747:1747 <> x:40
+binder 1749:1749 <> y:41
+R1758:1762 micromega_plugin.formula <> eKind def
+R1764:1764 micromega_plugin.eval <> Feval.k var
+R1777:1777 micromega_plugin.eval <> o:39 var
+R1788:1791 micromega_plugin.formula <> OpEq constr
+R1796:1798 micromega_plugin.eval <> Feval.req var
+R1802:1802 micromega_plugin.eval <> y:41 var
+R1800:1800 micromega_plugin.eval <> x:40 var
+R1808:1812 micromega_plugin.formula <> OpNEq constr
+R1817:1820 micromega_plugin.eval <> Feval.rneq var
+R1824:1824 micromega_plugin.eval <> y:41 var
+R1822:1822 micromega_plugin.eval <> x:40 var
+R1830:1833 micromega_plugin.formula <> OpLe constr
+R1838:1840 micromega_plugin.eval <> Feval.rle var
+R1844:1844 micromega_plugin.eval <> y:41 var
+R1842:1842 micromega_plugin.eval <> x:40 var
+R1850:1853 micromega_plugin.formula <> OpGe constr
+R1858:1860 micromega_plugin.eval <> Feval.rle var
+R1864:1864 micromega_plugin.eval <> x:40 var
+R1862:1862 micromega_plugin.eval <> y:41 var
+R1870:1873 micromega_plugin.formula <> OpLt constr
+R1878:1880 micromega_plugin.eval <> Feval.rlt var
+R1884:1884 micromega_plugin.eval <> y:41 var
+R1882:1882 micromega_plugin.eval <> x:40 var
+R1890:1893 micromega_plugin.formula <> OpGt constr
+R1898:1900 micromega_plugin.eval <> Feval.rlt var
+R1904:1904 micromega_plugin.eval <> x:40 var
+R1902:1902 micromega_plugin.eval <> y:41 var
+def 1925:1929 <> Feval
+R1938:1940 micromega_plugin.eval <> Feval.Env var
+binder 1932:1934 <> env:43
+R1948:1954 micromega_plugin.formula <> Formula rec
+R1956:1956 micromega_plugin.eval <> Feval.C var
+binder 1944:1944 <> f:44
+R1961:1965 micromega_plugin.formula <> eKind def
+R1967:1967 micromega_plugin.eval <> Feval.k var
+R2007:2007 micromega_plugin.eval <> f:44 var
+R1979:1991 micromega_plugin.formula <> Build_Formula constr
+R2014:2021 micromega_plugin.eval <> eval_op2 def
+R2044:2049 micromega_plugin.eval <> PEeval abbrev
+R2051:2053 micromega_plugin.eval <> env:43 var
+R2027:2032 micromega_plugin.eval <> PEeval abbrev
+R2034:2036 micromega_plugin.eval <> env:43 var
+R2065:2069 micromega_plugin.eval Feval <> sec
+sec 2081:2092 <> GFormulaEval
+var 2104:2106 GFormulaEval eqb
+R2114:2117 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2110:2113 Corelib.Init.Datatypes <> bool ind
+R2122:2125 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2118:2121 Corelib.Init.Datatypes <> bool ind
+R2126:2129 Corelib.Init.Datatypes <> bool ind
+var  2142:2143 GFormulaEval TA
+var  2195:2196 GFormulaEval TX
+R2204:2207 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2200:2203 micromega_plugin.formula <> kind variant
+var  2265:2266 GFormulaEval AA
+var  2322:2323 GFormulaEval AF
+abbrev 2388:2395 <> GFormula
+R2402:2409 micromega_plugin.formula <> GFormula ind
+R2411:2412 micromega_plugin.eval <> GFormulaEval.TA var
+R2414:2415 micromega_plugin.eval <> GFormulaEval.TX var
+R2417:2418 micromega_plugin.eval <> GFormulaEval.AA var
+R2420:2421 micromega_plugin.eval <> GFormulaEval.AF var
+var 2435:2436 GFormulaEval ex
+R2451:2454 micromega_plugin.formula <> kind variant
+binder 2447:2447 <> k:52
+R2461:2464 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2457:2458 micromega_plugin.eval <> GFormulaEval.TX var
+R2460:2460 micromega_plugin.eval <> k:52 var
+R2465:2469 micromega_plugin.formula <> eKind def
+R2471:2471 micromega_plugin.eval <> k:52 var
+var 2516:2517 GFormulaEval ea
+R2532:2535 micromega_plugin.formula <> kind variant
+binder 2528:2528 <> k:55
+R2540:2543 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2538:2539 micromega_plugin.eval <> GFormulaEval.TA var
+R2544:2548 micromega_plugin.formula <> eKind def
+R2550:2550 micromega_plugin.eval <> k:55 var
+def 2565:2567 <> eTT
+R2574:2577 micromega_plugin.formula <> kind variant
+binder 2570:2570 <> k:58
+R2582:2586 micromega_plugin.formula <> eKind def
+R2588:2588 micromega_plugin.eval <> k:58 var
+R2598:2598 micromega_plugin.eval <> k:58 var
+R2613:2617 micromega_plugin.formula <> eKind def
+R2619:2620 micromega_plugin.eval <> k':59 var
+R2637:2640 Corelib.Init.Datatypes <> true constr
+R2627:2630 Corelib.Init.Logic <> True ind
+def 2655:2657 <> eFF
+R2664:2667 micromega_plugin.formula <> kind variant
+binder 2660:2660 <> k:60
+R2672:2676 micromega_plugin.formula <> eKind def
+R2678:2678 micromega_plugin.eval <> k:60 var
+R2688:2688 micromega_plugin.eval <> k:60 var
+R2703:2707 micromega_plugin.formula <> eKind def
+R2709:2710 micromega_plugin.eval <> k':61 var
+R2728:2732 Corelib.Init.Datatypes <> false constr
+R2717:2721 Corelib.Init.Logic <> False ind
+def 2747:2750 <> eAND
+R2757:2760 micromega_plugin.formula <> kind variant
+binder 2753:2753 <> k:62
+R2772:2775 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2765:2769 micromega_plugin.formula <> eKind def
+R2771:2771 micromega_plugin.eval <> k:62 var
+R2783:2786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2776:2780 micromega_plugin.formula <> eKind def
+R2782:2782 micromega_plugin.eval <> k:62 var
+R2787:2791 micromega_plugin.formula <> eKind def
+R2793:2793 micromega_plugin.eval <> k:62 var
+R2803:2803 micromega_plugin.eval <> k:62 var
+R2826:2829 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2818:2822 micromega_plugin.formula <> eKind def
+R2824:2825 micromega_plugin.eval <> k':63 var
+R2838:2841 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2830:2834 micromega_plugin.formula <> eKind def
+R2836:2837 micromega_plugin.eval <> k':63 var
+R2842:2846 micromega_plugin.formula <> eKind def
+R2848:2849 micromega_plugin.eval <> k':63 var
+R2865:2868 Corelib.Init.Datatypes <> andb def
+R2856:2858 Corelib.Init.Logic <> and ind
+def 2883:2885 <> eOR
+R2892:2895 micromega_plugin.formula <> kind variant
+binder 2888:2888 <> k:64
+R2907:2910 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2900:2904 micromega_plugin.formula <> eKind def
+R2906:2906 micromega_plugin.eval <> k:64 var
+R2918:2921 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2911:2915 micromega_plugin.formula <> eKind def
+R2917:2917 micromega_plugin.eval <> k:64 var
+R2922:2926 micromega_plugin.formula <> eKind def
+R2928:2928 micromega_plugin.eval <> k:64 var
+R2938:2938 micromega_plugin.eval <> k:64 var
+R2961:2964 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2953:2957 micromega_plugin.formula <> eKind def
+R2959:2960 micromega_plugin.eval <> k':65 var
+R2973:2976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2965:2969 micromega_plugin.formula <> eKind def
+R2971:2972 micromega_plugin.eval <> k':65 var
+R2977:2981 micromega_plugin.formula <> eKind def
+R2983:2984 micromega_plugin.eval <> k':65 var
+R2999:3001 Corelib.Init.Datatypes <> orb def
+R2991:2992 Corelib.Init.Logic <> or ind
+def 3016:3019 <> eNOT
+R3026:3029 micromega_plugin.formula <> kind variant
+binder 3022:3022 <> k:66
+R3041:3044 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3034:3038 micromega_plugin.formula <> eKind def
+R3040:3040 micromega_plugin.eval <> k:66 var
+R3045:3049 micromega_plugin.formula <> eKind def
+R3051:3051 micromega_plugin.eval <> k:66 var
+R3061:3061 micromega_plugin.eval <> k:66 var
+R3084:3087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3076:3080 micromega_plugin.formula <> eKind def
+R3082:3083 micromega_plugin.eval <> k':67 var
+R3088:3092 micromega_plugin.formula <> eKind def
+R3094:3095 micromega_plugin.eval <> k':67 var
+R3111:3114 Corelib.Init.Datatypes <> negb def
+R3102:3104 Corelib.Init.Logic <> not def
+def 3129:3133 <> eIMPL
+R3140:3143 micromega_plugin.formula <> kind variant
+binder 3136:3136 <> k:68
+R3155:3158 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3148:3152 micromega_plugin.formula <> eKind def
+R3154:3154 micromega_plugin.eval <> k:68 var
+R3166:3169 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3159:3163 micromega_plugin.formula <> eKind def
+R3165:3165 micromega_plugin.eval <> k:68 var
+R3170:3174 micromega_plugin.formula <> eKind def
+R3176:3176 micromega_plugin.eval <> k:68 var
+R3186:3186 micromega_plugin.eval <> k:68 var
+R3209:3212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3201:3205 micromega_plugin.formula <> eKind def
+R3207:3208 micromega_plugin.eval <> k':69 var
+R3221:3224 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3213:3217 micromega_plugin.formula <> eKind def
+R3219:3220 micromega_plugin.eval <> k':69 var
+R3225:3229 micromega_plugin.formula <> eKind def
+R3231:3232 micromega_plugin.eval <> k':69 var
+R3266:3270 Corelib.Init.Datatypes <> implb def
+binder 3246:3246 <> x:70
+binder 3248:3248 <> y:71
+R3254:3257 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3253:3253 micromega_plugin.eval <> x:70 var
+R3258:3258 micromega_plugin.eval <> y:71 var
+def 3285:3288 <> eIFF
+R3295:3298 micromega_plugin.formula <> kind variant
+binder 3291:3291 <> k:72
+R3310:3313 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3303:3307 micromega_plugin.formula <> eKind def
+R3309:3309 micromega_plugin.eval <> k:72 var
+R3321:3324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3314:3318 micromega_plugin.formula <> eKind def
+R3320:3320 micromega_plugin.eval <> k:72 var
+R3325:3329 micromega_plugin.formula <> eKind def
+R3331:3331 micromega_plugin.eval <> k:72 var
+R3341:3341 micromega_plugin.eval <> k:72 var
+R3364:3367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3356:3360 micromega_plugin.formula <> eKind def
+R3362:3363 micromega_plugin.eval <> k':73 var
+R3376:3379 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3368:3372 micromega_plugin.formula <> eKind def
+R3374:3375 micromega_plugin.eval <> k':73 var
+R3380:3384 micromega_plugin.formula <> eKind def
+R3386:3387 micromega_plugin.eval <> k':73 var
+R3403:3405 micromega_plugin.eval <> GFormulaEval.eqb var
+R3394:3396 Corelib.Init.Logic <> iff def
+def 3418:3423 <> GFeval
+R3430:3433 micromega_plugin.formula <> kind variant
+binder 3426:3426 <> k:74
+R3441:3448 micromega_plugin.eval <> GFormula abbrev
+R3450:3450 micromega_plugin.eval <> k:74 var
+binder 3437:3437 <> f:75
+R3466:3470 micromega_plugin.formula <> eKind def
+R3472:3472 micromega_plugin.eval <> k:74 var
+R3485:3485 micromega_plugin.eval <> f:75 var
+R3490:3505 micromega_plugin.formula <> GFormula ind
+R3517:3521 micromega_plugin.formula <> eKind def
+R3523:3524 micromega_plugin.eval <> k':78 var
+R3535:3536 micromega_plugin.formula <> TT constr
+R3544:3546 micromega_plugin.eval <> eTT def
+R3555:3556 micromega_plugin.formula <> FF constr
+R3564:3566 micromega_plugin.eval <> eFF def
+R3575:3575 micromega_plugin.formula <> X constr
+R3584:3585 micromega_plugin.eval <> GFormulaEval.ex var
+R3593:3593 micromega_plugin.formula <> A constr
+R3604:3605 micromega_plugin.eval <> GFormulaEval.ea var
+R3607:3607 micromega_plugin.eval <> k:74 var
+R3616:3618 micromega_plugin.formula <> AND constr
+R3639:3642 micromega_plugin.eval <> eAND def
+R3660:3665 micromega_plugin.eval <> GFeval:76 def
+R3647:3652 micromega_plugin.eval <> GFeval:76 def
+R3644:3644 micromega_plugin.eval <> k:74 var
+R3676:3677 micromega_plugin.formula <> OR constr
+R3698:3700 micromega_plugin.eval <> eOR def
+R3717:3722 micromega_plugin.eval <> GFeval:76 def
+R3705:3710 micromega_plugin.eval <> GFeval:76 def
+R3702:3702 micromega_plugin.eval <> k:74 var
+R3733:3735 micromega_plugin.formula <> NOT constr
+R3752:3755 micromega_plugin.eval <> eNOT def
+R3760:3765 micromega_plugin.eval <> GFeval:76 def
+R3757:3757 micromega_plugin.eval <> k:74 var
+R3775:3778 micromega_plugin.formula <> IMPL constr
+R3801:3805 micromega_plugin.eval <> eIMPL def
+R3823:3828 micromega_plugin.eval <> GFeval:76 def
+R3810:3815 micromega_plugin.eval <> GFeval:76 def
+R3807:3807 micromega_plugin.eval <> k:74 var
+R3839:3841 micromega_plugin.formula <> IFF constr
+R3862:3865 micromega_plugin.eval <> eIFF def
+R3882:3887 micromega_plugin.eval <> GFeval:76 def
+R3870:3875 micromega_plugin.eval <> GFeval:76 def
+R3867:3867 micromega_plugin.eval <> k:74 var
+R3897:3898 micromega_plugin.formula <> EQ constr
+R3909:3909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3919:3923 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3933:3933 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3910:3915 micromega_plugin.eval <> GFeval:76 def
+R3924:3929 micromega_plugin.eval <> GFeval:76 def
+R3946:3957 micromega_plugin.eval GFormulaEval <> sec
+def 3972:3977 <> BFeval
+binder 3979:3981 <> eqb:79
+binder 3984:3984 <> A:80
+R4012:4015 micromega_plugin.formula <> kind variant
+binder 4008:4008 <> k:81
+R4020:4023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4019:4019 micromega_plugin.eval <> A:80 var
+R4024:4028 micromega_plugin.formula <> eKind def
+R4030:4030 micromega_plugin.eval <> k:81 var
+binder 3995:3996 <> ea:82
+R4040:4043 micromega_plugin.formula <> kind variant
+binder 4036:4036 <> k:83
+R4051:4058 micromega_plugin.formula <> BFormula def
+R4062:4062 micromega_plugin.eval <> k:83 var
+R4060:4060 micromega_plugin.eval <> A:80 var
+binder 4047:4047 <> f:84
+R4068:4073 micromega_plugin.eval <> GFeval def
+R4097:4097 micromega_plugin.eval <> f:84 var
+R4094:4095 micromega_plugin.eval <> ea:82 var
+binder 4084:4084 <> k:85
+binder 4086:4086 <> x:86
+R4091:4091 micromega_plugin.eval <> x:86 var
+R4075:4077 micromega_plugin.eval <> eqb:79 var
+def 4112:4115 <> Fmap
+binder 4117:4117 <> T:87
+binder 4119:4120 <> T':88
+R4128:4131 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4127:4127 micromega_plugin.eval <> T:87 var
+R4132:4133 micromega_plugin.eval <> T':88 var
+binder 4123:4123 <> f:89
+R4141:4147 micromega_plugin.formula <> Formula rec
+R4149:4149 micromega_plugin.eval <> T:87 var
+binder 4137:4137 <> g:90
+R4154:4160 micromega_plugin.formula <> Formula rec
+R4162:4163 micromega_plugin.eval <> T':88 var
+R4198:4198 micromega_plugin.eval <> g:90 var
+R4175:4187 micromega_plugin.formula <> Build_Formula constr
+R4205:4217 micromega_plugin.formula <> Build_Formula constr
+R4234:4238 micromega_plugin.ring_eval <> PEmap def
+R4240:4240 micromega_plugin.eval <> f:89 var
+R4220:4224 micromega_plugin.ring_eval <> PEmap def
+R4226:4226 micromega_plugin.eval <> f:89 var
+sec 4255:4265 <> GFormulaMap
+var  4277:4278 GFormulaMap TA
+var  4280:4282 GFormulaMap TA'
+var  4293:4294 GFormulaMap TX
+var  4313:4314 GFormulaMap AA
+var  4325:4326 GFormulaMap AF
+R4302:4305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4298:4301 micromega_plugin.formula <> kind variant
+def 4346:4350 <> GFmap
+R4357:4360 micromega_plugin.formula <> kind variant
+binder 4353:4353 <> k:97
+R4372:4375 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4370:4371 micromega_plugin.eval <> GFormulaMap.TA var
+R4376:4378 micromega_plugin.eval <> GFormulaMap.TA' var
+binder 4364:4366 <> fct:98
+R4387:4394 micromega_plugin.formula <> GFormula ind
+R4396:4397 micromega_plugin.eval <> GFormulaMap.TA var
+R4399:4400 micromega_plugin.eval <> GFormulaMap.TX var
+R4402:4403 micromega_plugin.eval <> GFormulaMap.AA var
+R4405:4406 micromega_plugin.eval <> GFormulaMap.AF var
+R4408:4408 micromega_plugin.eval <> k:97 var
+binder 4382:4382 <> f:99
+R4418:4425 micromega_plugin.formula <> GFormula ind
+R4427:4429 micromega_plugin.eval <> GFormulaMap.TA' var
+R4431:4432 micromega_plugin.eval <> GFormulaMap.TX var
+R4434:4435 micromega_plugin.eval <> GFormulaMap.AA var
+R4437:4438 micromega_plugin.eval <> GFormulaMap.AF var
+R4440:4440 micromega_plugin.eval <> k:97 var
+R4453:4453 micromega_plugin.eval <> f:99 var
+R4464:4465 micromega_plugin.formula <> TT constr
+R4472:4473 micromega_plugin.formula <> TT constr
+R4475:4475 micromega_plugin.eval <> k:97 var
+R4481:4482 micromega_plugin.formula <> FF constr
+R4489:4490 micromega_plugin.formula <> FF constr
+R4492:4492 micromega_plugin.eval <> k:97 var
+R4498:4498 micromega_plugin.formula <> X constr
+R4507:4507 micromega_plugin.formula <> X constr
+R4509:4509 micromega_plugin.eval <> k:97 var
+R4517:4517 micromega_plugin.formula <> A constr
+R4528:4528 micromega_plugin.formula <> A constr
+R4533:4535 micromega_plugin.eval <> fct:98 var
+R4530:4530 micromega_plugin.eval <> k:97 var
+R4546:4548 micromega_plugin.formula <> AND constr
+R4559:4561 micromega_plugin.formula <> AND constr
+R4579:4583 micromega_plugin.eval <> GFmap:100 def
+R4585:4587 micromega_plugin.eval <> fct:98 var
+R4564:4568 micromega_plugin.eval <> GFmap:100 def
+R4570:4572 micromega_plugin.eval <> fct:98 var
+R4597:4598 micromega_plugin.formula <> OR constr
+R4609:4610 micromega_plugin.formula <> OR constr
+R4628:4632 micromega_plugin.eval <> GFmap:100 def
+R4634:4636 micromega_plugin.eval <> fct:98 var
+R4613:4617 micromega_plugin.eval <> GFmap:100 def
+R4619:4621 micromega_plugin.eval <> fct:98 var
+R4646:4648 micromega_plugin.formula <> NOT constr
+R4655:4657 micromega_plugin.formula <> NOT constr
+R4660:4664 micromega_plugin.eval <> GFmap:100 def
+R4670:4670 micromega_plugin.eval <> f:99 var
+R4666:4668 micromega_plugin.eval <> fct:98 var
+R4677:4680 micromega_plugin.formula <> IMPL constr
+R4693:4696 micromega_plugin.formula <> IMPL constr
+R4716:4720 micromega_plugin.eval <> GFmap:100 def
+R4722:4724 micromega_plugin.eval <> fct:98 var
+R4699:4703 micromega_plugin.eval <> GFmap:100 def
+R4705:4707 micromega_plugin.eval <> fct:98 var
+R4734:4736 micromega_plugin.formula <> IFF constr
+R4747:4749 micromega_plugin.formula <> IFF constr
+R4767:4771 micromega_plugin.eval <> GFmap:100 def
+R4773:4775 micromega_plugin.eval <> fct:98 var
+R4752:4756 micromega_plugin.eval <> GFmap:100 def
+R4758:4760 micromega_plugin.eval <> fct:98 var
+R4785:4786 micromega_plugin.formula <> EQ constr
+R4798:4799 micromega_plugin.formula <> EQ constr
+R4817:4821 micromega_plugin.eval <> GFmap:100 def
+R4823:4825 micromega_plugin.eval <> fct:98 var
+R4802:4806 micromega_plugin.eval <> GFmap:100 def
+R4808:4810 micromega_plugin.eval <> fct:98 var
+R4842:4852 micromega_plugin.eval GFormulaMap <> sec
+def 4865:4873 <> Psatz_map
+binder 4875:4875 <> T:102
+binder 4877:4878 <> T':103
+R4886:4889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4885:4885 micromega_plugin.eval <> T:102 var
+R4890:4891 micromega_plugin.eval <> T':103 var
+binder 4881:4881 <> f:104
+R4899:4903 micromega_plugin.witness <> Psatz ind
+R4905:4905 micromega_plugin.eval <> T:102 var
+binder 4895:4895 <> e:105
+R4910:4914 micromega_plugin.witness <> Psatz ind
+R4916:4917 micromega_plugin.eval <> T':103 var
+R4930:4930 micromega_plugin.eval <> e:105 var
+R4941:4948 micromega_plugin.witness <> PsatzLet constr
+R4959:4966 micromega_plugin.witness <> PsatzLet constr
+R4986:4994 micromega_plugin.eval <> Psatz_map:106 def
+R4996:4996 micromega_plugin.eval <> f:104 var
+R4969:4977 micromega_plugin.eval <> Psatz_map:106 def
+R4979:4979 micromega_plugin.eval <> f:104 var
+R5006:5012 micromega_plugin.witness <> PsatzIn constr
+R5021:5027 micromega_plugin.witness <> PsatzIn constr
+R5029:5030 micromega_plugin.eval <> T':103 var
+R5038:5048 micromega_plugin.witness <> PsatzSquare constr
+R5055:5065 micromega_plugin.witness <> PsatzSquare constr
+R5068:5071 micromega_plugin.ring_eval <> Pmap def
+R5075:5075 micromega_plugin.eval <> e:105 var
+R5073:5073 micromega_plugin.eval <> f:104 var
+R5082:5090 micromega_plugin.witness <> PsatzMulC constr
+R5100:5108 micromega_plugin.witness <> PsatzMulC constr
+R5123:5131 micromega_plugin.eval <> Psatz_map:106 def
+R5135:5135 micromega_plugin.eval <> e:105 var
+R5133:5133 micromega_plugin.eval <> f:104 var
+R5111:5114 micromega_plugin.ring_eval <> Pmap def
+R5116:5116 micromega_plugin.eval <> f:104 var
+R5142:5150 micromega_plugin.witness <> PsatzMulE constr
+R5161:5169 micromega_plugin.witness <> PsatzMulE constr
+R5189:5197 micromega_plugin.eval <> Psatz_map:106 def
+R5199:5199 micromega_plugin.eval <> f:104 var
+R5172:5180 micromega_plugin.eval <> Psatz_map:106 def
+R5182:5182 micromega_plugin.eval <> f:104 var
+R5209:5216 micromega_plugin.witness <> PsatzAdd constr
+R5227:5234 micromega_plugin.witness <> PsatzAdd constr
+R5254:5262 micromega_plugin.eval <> Psatz_map:106 def
+R5264:5264 micromega_plugin.eval <> f:104 var
+R5237:5245 micromega_plugin.eval <> Psatz_map:106 def
+R5247:5247 micromega_plugin.eval <> f:104 var
+R5274:5279 micromega_plugin.witness <> PsatzC constr
+R5286:5291 micromega_plugin.witness <> PsatzC constr
+R5294:5294 micromega_plugin.eval <> f:104 var
+R5303:5308 micromega_plugin.witness <> PsatzZ constr
+R5315:5320 micromega_plugin.witness <> PsatzZ constr
+R5322:5323 micromega_plugin.eval <> T':103 var

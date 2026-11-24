@@ -1,0 +1,101 @@
+DIGEST 26a4fad190c4d4d735dc3ae5e321a61f
+FStdlib.Numbers.Integer.Abstract.ZParity
+R703:706 Stdlib.Bool.Bool <> <> lib
+R708:716 Stdlib.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R718:725 Stdlib.Numbers.NatInt.NZParity <> <> lib
+R815:825 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> modtype
+R865:877 Stdlib.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> modtype
+R879:879 Stdlib.Numbers.Integer.Abstract.ZParity Z <> mod
+modtype 791:801 <> ZParityProp
+R791:801 Stdlib.Numbers.Integer.Abstract.ZParity Z <> mod
+R791:801 Stdlib.Numbers.Integer.Abstract.ZParity ZP <> mod
+R892:903 Stdlib.Numbers.NatInt.NZParity NZParityProp <> modtype
+R905:905 Stdlib.Numbers.Integer.Abstract.ZParity Z <> mod
+R907:907 Stdlib.Numbers.Integer.Abstract.ZParity Z <> mod
+R909:910 Stdlib.Numbers.Integer.Abstract.ZParity ZP <> mod
+prf 920:927 ZParityProp odd_pred
+binder 938:938 <> n:1
+R950:952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R941:943 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R946:946 Stdlib.Numbers.Integer.Abstract.ZParity Z P abbrev
+R948:948 Stdlib.Numbers.Integer.Abstract.ZParity <> n:1 var
+R953:956 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R958:958 Stdlib.Numbers.Integer.Abstract.ZParity <> n:1 var
+R991:999 Stdlib.Numbers.Integer.Abstract.ZParity Z succ_pred prfax
+R1026:1034 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp even_succ thm
+prf 1049:1057 ZParityProp even_pred
+binder 1068:1068 <> n:2
+R1081:1083 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1071:1074 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1077:1077 Stdlib.Numbers.Integer.Abstract.ZParity Z P abbrev
+R1079:1079 Stdlib.Numbers.Integer.Abstract.ZParity <> n:2 var
+R1084:1086 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1088:1088 Stdlib.Numbers.Integer.Abstract.ZParity <> n:2 var
+R1121:1129 Stdlib.Numbers.Integer.Abstract.ZParity Z succ_pred prfax
+R1156:1163 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp odd_succ thm
+prf 1178:1185 ZParityProp even_opp
+binder 1196:1196 <> n:3
+R1208:1210 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1199:1202 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1205:1205 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1206:1206 Stdlib.Numbers.Integer.Abstract.ZParity <> n:3 var
+R1211:1214 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1216:1216 Stdlib.Numbers.Integer.Abstract.ZParity <> n:3 var
+binder 1246:1246 <> n:4
+R1255:1258 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1249:1252 Stdlib.Numbers.Integer.Abstract.ZParity Z Even def
+R1254:1254 Stdlib.Numbers.Integer.Abstract.ZParity <> n:4 var
+R1259:1262 Stdlib.Numbers.Integer.Abstract.ZParity Z Even def
+R1265:1265 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1266:1266 Stdlib.Numbers.Integer.Abstract.ZParity <> n:4 var
+binder 1246:1246 <> n:5
+R1254:1254 Stdlib.Numbers.Integer.Abstract.ZParity <> n:5 var
+R1266:1266 Stdlib.Numbers.Integer.Abstract.ZParity <> n:5 var
+R1298:1298 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1311:1319 Stdlib.Numbers.Integer.Abstract.ZParity ZP mul_opp_r thm
+R1356:1369 Stdlib.Bool.Bool <> eq_iff_eq_true thm
+R1373:1381 Stdlib.Numbers.Integer.Abstract.ZParity Z even_spec prfax
+R1407:1420 Stdlib.Numbers.Integer.Abstract.ZParity ZP opp_involutive thm
+prf 1464:1470 ZParityProp odd_opp
+binder 1481:1481 <> n:6
+R1492:1494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1484:1486 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1489:1489 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1490:1490 Stdlib.Numbers.Integer.Abstract.ZParity <> n:6 var
+R1495:1497 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1499:1499 Stdlib.Numbers.Integer.Abstract.ZParity <> n:6 var
+R1530:1538 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp negb_even thm
+R1553:1560 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp even_opp thm
+prf 1575:1582 ZParityProp even_sub
+binder 1593:1593 <> n:7
+binder 1595:1595 <> m:8
+R1608:1610 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1598:1601 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1605:1605 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1604:1604 Stdlib.Numbers.Integer.Abstract.ZParity <> n:7 var
+R1606:1606 Stdlib.Numbers.Integer.Abstract.ZParity <> m:8 var
+R1611:1618 Stdlib.Bool.Bool <> eqb def
+R1621:1624 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1626:1626 Stdlib.Numbers.Integer.Abstract.ZParity <> n:7 var
+R1630:1633 Stdlib.Numbers.Integer.Abstract.ZParity Z even defax
+R1635:1635 Stdlib.Numbers.Integer.Abstract.ZParity <> m:8 var
+R1670:1678 Stdlib.Numbers.Integer.Abstract.ZParity ZP add_opp_r thm
+R1681:1688 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp even_add thm
+R1691:1698 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp even_opp thm
+prf 1713:1719 ZParityProp odd_sub
+binder 1730:1730 <> n:9
+binder 1732:1732 <> m:10
+R1744:1746 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1735:1737 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1741:1741 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1740:1740 Stdlib.Numbers.Integer.Abstract.ZParity <> n:9 var
+R1742:1742 Stdlib.Numbers.Integer.Abstract.ZParity <> m:10 var
+R1747:1750 Corelib.Init.Datatypes <> xorb def
+R1761:1763 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1765:1765 Stdlib.Numbers.Integer.Abstract.ZParity <> m:10 var
+R1753:1755 Stdlib.Numbers.Integer.Abstract.ZParity Z odd defax
+R1757:1757 Stdlib.Numbers.Integer.Abstract.ZParity <> n:9 var
+R1800:1808 Stdlib.Numbers.Integer.Abstract.ZParity ZP add_opp_r thm
+R1811:1817 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp odd_add thm
+R1820:1826 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp odd_opp thm
+R1839:1849 Stdlib.Numbers.Integer.Abstract.ZParity ZParityProp <> modtype

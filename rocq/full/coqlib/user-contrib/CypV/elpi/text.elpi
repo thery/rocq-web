@@ -1,0 +1,77 @@
+% The elements of a node: what cyp takes from its text.
+%
+% cyp uses only what is tagged: the parts of the text of a node, read by
+% prooftext's reader (prooftext/formulas.elpi, text-parts), are words,
+% formulas with their class, and justifications.  A formula's role is its
+% class ({.var}, {.hyp}, {.claim}, {.fact}); a formula with no class is
+% plain text, and so are all the words: no word gives a role.  A
+% conclusion {.goal} is an open goal that the author leaves to prove
+% (proof.elpi: it is not tried, it is left to the Proof block).  A
+% justification is *X*{.just} (or *by X*, the form of the texts written
+% before the tree).  The name in parentheses after a hypothesis, `P` (h),
+% is its name; the name after the conclusion, the name of the node
+% (prooftext/nodes.elpi, node-name).
+
+% a list without its repetitions
+pred undup i:list string, o:list string.
+undup [] [].
+undup [X | L] R :- std.mem L X, !, undup L R.
+undup [X | L] [X | R] :- undup L R.
+
+% the language of the text being read (cyp's messages, messages_xx.elpi)
+pred current-lang o:string.
+
+% the elements of a node, once its text is read
+kind element type.
+type elt role -> string -> element.     % a formula and its role (rgoal:
+                                        % an open goal, not tried)
+type eltt role -> term -> element.      % a formula already a Rocq term (Cyp Lemma), and its role
+type hname string -> element.           % the name of the hypothesis before it
+type just string -> element.            % a justification: the name it gives
+
+% [part-elements Parts Es]: the elements of the parts of a text, in order;
+% the untagged parts give none
+pred part-elements i:list prooftext.text-part, o:list element.
+part-elements Ps Es :- std.map Ps part-element Ess, std.flatten Ess Es.
+
+% [part-element P Es]: the elements of the part P: a tagged formula and,
+% after a hypothesis, its name; the name of a justification
+pred part-element i:prooftext.text-part, o:list element.
+part-element (prooftext.formula-part C F N) [elt R F | Name] :-
+  prooftext.role-tag R C, !, hyp-name-element R N Name.
+part-element (prooftext.term-part C T N) [eltt R T | Name] :-
+  prooftext.role-tag R C, !, hyp-name-element R N Name.
+part-element P [just X] :- prooftext.justification-of P X, !.
+part-element _ [].
+
+% [hyp-name-element Role Name Es]: the name of a hypothesis (Role = rhyp,
+% Name = some H) as an element, hname H; none for another formula or no
+% name
+pred hyp-name-element i:role, i:option string, o:list element.
+hyp-name-element rhyp (some H) [hname H] :- !.
+hyp-name-element _ _ [].
+
+% What the justifications and the facts of a node give to the proof of its
+% condition (check.elpi):
+% a name given to the method
+kind given type.
+type given-local string -> given.       % a hypothesis, a conclusion or a variable in scope
+type given-lemma gref -> given.         % a lemma
+
+% how a condition is closed: the names of rules and tactics, the names
+% given, and the names of the hypotheses that the facts are; or, for a
+% node justified by one of the fixed methods *match* or *induction*
+% (prooftext's method), the method, the names of the hypotheses or
+% variables it eliminates, and how the cases are then closed
+kind method type.
+type method list string -> list given -> list string -> method.
+type eliminating string -> list string -> method -> method.
+
+% The names in scope while a proof is checked (declared by under-decl,
+% proof.elpi), which the justifications and the facts look up:
+% [name-in-scope S]: S is the name of something declared in scope
+pred name-in-scope o:string.
+
+% [local-in-scope X S T]: the variable X, named S, of type T, is declared
+% in scope (the latest first)
+pred local-in-scope o:term, o:string, o:term.

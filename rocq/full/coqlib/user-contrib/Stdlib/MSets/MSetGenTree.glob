@@ -1,0 +1,1993 @@
+DIGEST 60b384592a4296988b6b4ddd958661af
+FStdlib.MSets.MSetGenTree
+R1454:1459 Stdlib.Structures.Orders <> <> lib
+R1461:1471 Stdlib.Structures.OrdersFacts <> <> lib
+R1473:1485 Stdlib.MSets.MSetInterface <> <> lib
+R1487:1494 Stdlib.Arith.PeanoNat <> <> lib
+R1517:1521 Stdlib.Arith.Arith <> <> lib
+modtype 1761:1767 <> InfoTyp
+ax 1781:1781 InfoTyp t
+R1794:1800 Stdlib.MSets.MSetGenTree InfoTyp <> modtype
+R1858:1868 Stdlib.Structures.Orders OrderedType <> modtype
+R1876:1882 Stdlib.MSets.MSetGenTree InfoTyp <> modtype
+modtype 1851:1853 <> Ops
+def 1898:1900 Ops elt
+R1905:1907 Stdlib.MSets.MSetGenTree X t defax
+R1937:1939 Stdlib.MSets.MSetGenTree Ops elt def
+ind 1960:1963 Ops tree
+constr 1978:1981 Ops Leaf
+constr 1992:1995 Ops Node
+R1985:1988 Stdlib.MSets.MSetGenTree <> tree:3 ind
+R2005:2008 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1999:2004 Stdlib.MSets.MSetGenTree Info t defax
+R2013:2016 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2009:2012 Stdlib.MSets.MSetGenTree <> tree:3 ind
+R2020:2023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2017:2019 Stdlib.MSets.MSetGenTree X t defax
+R2028:2031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2024:2027 Stdlib.MSets.MSetGenTree <> tree:3 ind
+R2032:2035 Stdlib.MSets.MSetGenTree <> tree:3 ind
+def 2094:2098 Ops empty
+R2103:2106 Stdlib.MSets.MSetGenTree Ops Leaf constr
+def 2121:2128 Ops is_empty
+binder 2130:2130 <> t:5
+R2142:2142 Stdlib.MSets.MSetGenTree <> t:5 var
+R2152:2155 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2160:2163 Corelib.Init.Datatypes <> true constr
+R2173:2177 Corelib.Init.Datatypes <> false constr
+def 2357:2359 Ops mem
+binder 2361:2361 <> x:7
+binder 2363:2363 <> t:8
+R2375:2375 Stdlib.MSets.MSetGenTree <> t:8 var
+R2385:2388 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2393:2397 Corelib.Init.Datatypes <> false constr
+R2402:2405 Stdlib.MSets.MSetGenTree Ops Node constr
+R2427:2435 Stdlib.MSets.MSetGenTree X compare defax
+R2437:2437 Stdlib.MSets.MSetGenTree <> x:7 var
+R2453:2454 Corelib.Init.Datatypes <> Lt constr
+R2459:2461 Stdlib.MSets.MSetGenTree <> mem:9 def
+R2463:2463 Stdlib.MSets.MSetGenTree <> x:7 var
+R2474:2475 Corelib.Init.Datatypes <> Eq constr
+R2480:2483 Corelib.Init.Datatypes <> true constr
+R2492:2493 Corelib.Init.Datatypes <> Gt constr
+R2498:2500 Stdlib.MSets.MSetGenTree <> mem:9 def
+R2502:2502 Stdlib.MSets.MSetGenTree <> x:7 var
+def 2577:2583 Ops min_elt
+R2590:2593 Stdlib.MSets.MSetGenTree Ops tree ind
+binder 2586:2586 <> t:11
+R2598:2603 Corelib.Init.Datatypes <> option ind
+R2605:2607 Stdlib.MSets.MSetGenTree Ops elt def
+R2619:2619 Stdlib.MSets.MSetGenTree <> t:11 var
+R2629:2632 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2637:2640 Corelib.Init.Datatypes <> None constr
+R2645:2648 Stdlib.MSets.MSetGenTree Ops Node constr
+R2652:2655 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2664:2667 Corelib.Init.Datatypes <> Some constr
+R2674:2677 Stdlib.MSets.MSetGenTree Ops Node constr
+R2690:2696 Stdlib.MSets.MSetGenTree <> min_elt:12 def
+def 2716:2722 Ops max_elt
+R2729:2732 Stdlib.MSets.MSetGenTree Ops tree ind
+binder 2725:2725 <> t:14
+R2737:2742 Corelib.Init.Datatypes <> option ind
+R2744:2746 Stdlib.MSets.MSetGenTree Ops elt def
+R2759:2759 Stdlib.MSets.MSetGenTree <> t:14 var
+R2770:2773 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2778:2781 Corelib.Init.Datatypes <> None constr
+R2787:2790 Stdlib.MSets.MSetGenTree Ops Node constr
+R2798:2801 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R2806:2809 Corelib.Init.Datatypes <> Some constr
+R2817:2820 Stdlib.MSets.MSetGenTree Ops Node constr
+R2833:2839 Stdlib.MSets.MSetGenTree <> max_elt:15 def
+def 2862:2867 Ops choose
+R2872:2878 Stdlib.MSets.MSetGenTree Ops min_elt def
+def 2924:2927 Ops fold
+binder 2930:2930 <> A:17
+R2946:2949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2943:2945 Stdlib.MSets.MSetGenTree Ops elt def
+R2951:2954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2950:2950 Stdlib.MSets.MSetGenTree <> A:17 var
+R2955:2955 Stdlib.MSets.MSetGenTree <> A:17 var
+binder 2940:2940 <> f:18
+R2962:2965 Stdlib.MSets.MSetGenTree Ops tree ind
+binder 2959:2959 <> t:19
+R2975:2975 Stdlib.MSets.MSetGenTree <> A:17 var
+binder 2969:2972 <> base:20
+R2980:2980 Stdlib.MSets.MSetGenTree <> A:17 var
+R2993:2993 Stdlib.MSets.MSetGenTree <> t:19 var
+R3004:3007 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3012:3015 Stdlib.MSets.MSetGenTree <> base:20 var
+R3021:3024 Stdlib.MSets.MSetGenTree Ops Node constr
+R3037:3040 Stdlib.MSets.MSetGenTree <> fold:21 def
+R3047:3047 Stdlib.MSets.MSetGenTree <> f:18 var
+R3052:3055 Stdlib.MSets.MSetGenTree <> fold:21 def
+R3061:3064 Stdlib.MSets.MSetGenTree <> base:20 var
+R3057:3057 Stdlib.MSets.MSetGenTree <> f:18 var
+R3042:3042 Stdlib.MSets.MSetGenTree <> f:18 var
+def 3084:3095 Ops elements_aux
+binder 3097:3099 <> acc:23
+binder 3101:3101 <> s:24
+R3114:3114 Stdlib.MSets.MSetGenTree <> s:24 var
+R3126:3129 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3134:3136 Stdlib.MSets.MSetGenTree <> acc:23 var
+R3143:3146 Stdlib.MSets.MSetGenTree Ops Node constr
+R3159:3170 Stdlib.MSets.MSetGenTree <> elements_aux:25 def
+R3174:3177 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3178:3189 Stdlib.MSets.MSetGenTree <> elements_aux:25 def
+R3191:3193 Stdlib.MSets.MSetGenTree <> acc:23 var
+def 3219:3226 Ops elements
+R3231:3242 Stdlib.MSets.MSetGenTree Ops elements_aux def
+R3244:3246 Corelib.Init.Datatypes <> nil constr
+def 3259:3274 Ops rev_elements_aux
+binder 3276:3278 <> acc:27
+binder 3280:3280 <> s:28
+R3293:3293 Stdlib.MSets.MSetGenTree <> s:28 var
+R3305:3308 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3313:3315 Stdlib.MSets.MSetGenTree <> acc:27 var
+R3322:3325 Stdlib.MSets.MSetGenTree Ops Node constr
+R3338:3353 Stdlib.MSets.MSetGenTree <> rev_elements_aux:29 def
+R3357:3360 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3361:3376 Stdlib.MSets.MSetGenTree <> rev_elements_aux:29 def
+R3378:3380 Stdlib.MSets.MSetGenTree <> acc:27 var
+def 3406:3417 Ops rev_elements
+R3422:3437 Stdlib.MSets.MSetGenTree Ops rev_elements_aux def
+R3439:3441 Corelib.Init.Datatypes <> nil constr
+def 3454:3461 Ops cardinal
+R3468:3471 Stdlib.MSets.MSetGenTree Ops tree ind
+binder 3464:3464 <> s:31
+R3476:3478 Corelib.Init.Datatypes <> nat ind
+R3491:3491 Stdlib.MSets.MSetGenTree <> s:31 var
+R3503:3506 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3518:3521 Stdlib.MSets.MSetGenTree Ops Node constr
+R3534:3534 Corelib.Init.Datatypes <> S constr
+R3547:3549 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R3537:3544 Stdlib.MSets.MSetGenTree <> cardinal:32 def
+R3550:3557 Stdlib.MSets.MSetGenTree <> cardinal:32 def
+def 3579:3586 Ops maxdepth
+binder 3588:3588 <> s:34
+R3600:3600 Stdlib.MSets.MSetGenTree <> s:34 var
+R3610:3613 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3623:3626 Stdlib.MSets.MSetGenTree Ops Node constr
+R3639:3639 Corelib.Init.Datatypes <> S constr
+R3642:3644 Corelib.Init.Peano <> max abbrev
+R3647:3654 Stdlib.MSets.MSetGenTree <> maxdepth:35 def
+R3660:3667 Stdlib.MSets.MSetGenTree <> maxdepth:35 def
+def 3689:3696 Ops mindepth
+binder 3698:3698 <> s:37
+R3710:3710 Stdlib.MSets.MSetGenTree <> s:37 var
+R3720:3723 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3733:3736 Stdlib.MSets.MSetGenTree Ops Node constr
+R3749:3749 Corelib.Init.Datatypes <> S constr
+R3752:3754 Corelib.Init.Peano <> min abbrev
+R3757:3764 Stdlib.MSets.MSetGenTree <> mindepth:38 def
+R3770:3777 Stdlib.MSets.MSetGenTree <> mindepth:38 def
+def 3935:3941 Ops for_all
+R3949:3950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3946:3948 Stdlib.MSets.MSetGenTree Ops elt def
+R3951:3954 Corelib.Init.Datatypes <> bool ind
+binder 3944:3944 <> f:40
+binder 3957:3957 <> s:41
+R3968:3968 Stdlib.MSets.MSetGenTree <> s:41 var
+R3979:3982 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R3987:3990 Corelib.Init.Datatypes <> true constr
+R3996:3999 Stdlib.MSets.MSetGenTree Ops Node constr
+R4031:4035 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4036:4042 Stdlib.MSets.MSetGenTree <> for_all:42 def
+R4044:4044 Stdlib.MSets.MSetGenTree <> f:40 var
+R4015:4019 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4020:4026 Stdlib.MSets.MSetGenTree <> for_all:42 def
+R4028:4028 Stdlib.MSets.MSetGenTree <> f:40 var
+R4012:4012 Stdlib.MSets.MSetGenTree <> f:40 var
+def 4063:4069 Ops exists_
+R4077:4078 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4074:4076 Stdlib.MSets.MSetGenTree Ops elt def
+R4079:4082 Corelib.Init.Datatypes <> bool ind
+binder 4072:4072 <> f:44
+binder 4085:4085 <> s:45
+R4096:4096 Stdlib.MSets.MSetGenTree <> s:45 var
+R4107:4110 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R4115:4119 Corelib.Init.Datatypes <> false constr
+R4125:4128 Stdlib.MSets.MSetGenTree Ops Node constr
+R4160:4164 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R4165:4171 Stdlib.MSets.MSetGenTree <> exists_:46 def
+R4173:4173 Stdlib.MSets.MSetGenTree <> f:44 var
+R4144:4148 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R4149:4155 Stdlib.MSets.MSetGenTree <> exists_:46 def
+R4157:4157 Stdlib.MSets.MSetGenTree <> f:44 var
+R4141:4141 Stdlib.MSets.MSetGenTree <> f:44 var
+ind 4758:4768 Ops enumeration
+constr 4776:4778 Ops End
+constr 4797:4800 Ops More
+R4782:4792 Stdlib.MSets.MSetGenTree <> enumeration:48 ind
+R4807:4810 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4804:4806 Stdlib.MSets.MSetGenTree Ops elt def
+R4815:4818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4811:4814 Stdlib.MSets.MSetGenTree Ops tree ind
+R4830:4833 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4819:4829 Stdlib.MSets.MSetGenTree <> enumeration:48 ind
+R4834:4844 Stdlib.MSets.MSetGenTree <> enumeration:48 ind
+def 4943:4946 Ops cons
+binder 4948:4948 <> s:50
+binder 4950:4950 <> e:51
+R4954:4964 Stdlib.MSets.MSetGenTree Ops enumeration ind
+R4976:4976 Stdlib.MSets.MSetGenTree <> s:50 var
+R4987:4990 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R4995:4995 Stdlib.MSets.MSetGenTree <> e:51 var
+R5001:5004 Stdlib.MSets.MSetGenTree Ops Node constr
+R5017:5020 Stdlib.MSets.MSetGenTree <> cons:52 def
+R5025:5028 Stdlib.MSets.MSetGenTree Ops More constr
+R5034:5034 Stdlib.MSets.MSetGenTree <> e:51 var
+def 5098:5109 Ops compare_more
+binder 5111:5112 <> x1:54
+R5131:5132 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5120:5130 Stdlib.MSets.MSetGenTree Ops enumeration ind
+R5133:5142 Corelib.Init.Datatypes <> comparison ind
+binder 5115:5118 <> cont:55
+binder 5145:5146 <> e2:56
+R5158:5159 Stdlib.MSets.MSetGenTree <> e2:56 var
+R5169:5171 Stdlib.MSets.MSetGenTree Ops End constr
+R5176:5177 Corelib.Init.Datatypes <> Gt constr
+R5182:5185 Stdlib.MSets.MSetGenTree Ops More constr
+R5210:5218 Stdlib.MSets.MSetGenTree X compare defax
+R5220:5221 Stdlib.MSets.MSetGenTree <> x1:54 var
+R5239:5240 Corelib.Init.Datatypes <> Eq constr
+R5245:5248 Stdlib.MSets.MSetGenTree <> cont:55 var
+R5251:5254 Stdlib.MSets.MSetGenTree Ops cons def
+R5259:5260 Stdlib.MSets.MSetGenTree <> e2:56 var
+R5271:5272 Corelib.Init.Datatypes <> Lt constr
+R5277:5278 Corelib.Init.Datatypes <> Lt constr
+R5288:5289 Corelib.Init.Datatypes <> Gt constr
+R5294:5295 Corelib.Init.Datatypes <> Gt constr
+def 5387:5398 Ops compare_cont
+binder 5400:5401 <> s1:58
+R5420:5421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5409:5419 Stdlib.MSets.MSetGenTree Ops enumeration ind
+R5422:5431 Corelib.Init.Datatypes <> comparison ind
+binder 5404:5407 <> cont:59
+binder 5434:5435 <> e2:60
+R5447:5448 Stdlib.MSets.MSetGenTree <> s1:58 var
+R5459:5462 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R5467:5470 Stdlib.MSets.MSetGenTree <> cont:59 var
+R5472:5473 Stdlib.MSets.MSetGenTree <> e2:60 var
+R5479:5482 Stdlib.MSets.MSetGenTree Ops Node constr
+R5503:5514 Stdlib.MSets.MSetGenTree <> compare_cont:61 def
+R5560:5561 Stdlib.MSets.MSetGenTree <> e2:60 var
+R5520:5531 Stdlib.MSets.MSetGenTree Ops compare_more def
+R5537:5548 Stdlib.MSets.MSetGenTree <> compare_cont:61 def
+R5553:5556 Stdlib.MSets.MSetGenTree <> cont:59 var
+def 5611:5621 Ops compare_end
+binder 5623:5624 <> e2:63
+R5636:5637 Stdlib.MSets.MSetGenTree <> e2:63 var
+R5644:5646 Stdlib.MSets.MSetGenTree Ops End constr
+R5651:5652 Corelib.Init.Datatypes <> Eq constr
+R5661:5662 Corelib.Init.Datatypes <> Lt constr
+def 5713:5719 Ops compare
+binder 5721:5722 <> s1:65
+binder 5724:5725 <> s2:66
+R5730:5741 Stdlib.MSets.MSetGenTree Ops compare_cont def
+R5743:5744 Stdlib.MSets.MSetGenTree <> s1:65 var
+R5746:5756 Stdlib.MSets.MSetGenTree Ops compare_end def
+R5759:5762 Stdlib.MSets.MSetGenTree Ops cons def
+R5764:5765 Stdlib.MSets.MSetGenTree <> s2:66 var
+R5767:5769 Stdlib.MSets.MSetGenTree Ops End constr
+def 5785:5789 Ops equal
+binder 5791:5792 <> s1:67
+binder 5794:5795 <> s2:68
+R5807:5813 Stdlib.MSets.MSetGenTree Ops compare def
+R5815:5816 Stdlib.MSets.MSetGenTree <> s1:67 var
+R5818:5819 Stdlib.MSets.MSetGenTree <> s2:68 var
+R5826:5827 Corelib.Init.Datatypes <> Eq constr
+R5832:5835 Corelib.Init.Datatypes <> true constr
+R5844:5848 Corelib.Init.Datatypes <> false constr
+def 6377:6383 Ops subsetl
+R6402:6405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6398:6401 Stdlib.MSets.MSetGenTree Ops tree ind
+R6406:6409 Corelib.Init.Datatypes <> bool ind
+binder 6386:6394 <> subset_l1:69
+binder 6412:6413 <> x1:70
+binder 6415:6416 <> s2:71
+R6420:6423 Corelib.Init.Datatypes <> bool ind
+R6435:6436 Stdlib.MSets.MSetGenTree <> s2:71 var
+R6447:6450 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R6455:6459 Corelib.Init.Datatypes <> false constr
+R6465:6468 Stdlib.MSets.MSetGenTree Ops Node constr
+R6495:6503 Stdlib.MSets.MSetGenTree X compare defax
+R6505:6506 Stdlib.MSets.MSetGenTree <> x1:70 var
+R6524:6525 Corelib.Init.Datatypes <> Eq constr
+R6530:6538 Stdlib.MSets.MSetGenTree <> subset_l1:69 var
+R6551:6552 Corelib.Init.Datatypes <> Lt constr
+R6557:6563 Stdlib.MSets.MSetGenTree <> subsetl:72 def
+R6575:6576 Stdlib.MSets.MSetGenTree <> x1:70 var
+R6565:6573 Stdlib.MSets.MSetGenTree <> subset_l1:69 var
+R6589:6590 Corelib.Init.Datatypes <> Gt constr
+R6604:6608 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R6609:6617 Stdlib.MSets.MSetGenTree <> subset_l1:69 var
+R6619:6620 Stdlib.MSets.MSetGenTree <> s2:71 var
+R6595:6597 Stdlib.MSets.MSetGenTree Ops mem def
+R6599:6600 Stdlib.MSets.MSetGenTree <> x1:70 var
+def 6647:6653 Ops subsetr
+R6672:6675 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6668:6671 Stdlib.MSets.MSetGenTree Ops tree ind
+R6676:6679 Corelib.Init.Datatypes <> bool ind
+binder 6656:6664 <> subset_r1:74
+binder 6682:6683 <> x1:75
+binder 6685:6686 <> s2:76
+R6690:6693 Corelib.Init.Datatypes <> bool ind
+R6705:6706 Stdlib.MSets.MSetGenTree <> s2:76 var
+R6717:6720 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R6725:6729 Corelib.Init.Datatypes <> false constr
+R6735:6738 Stdlib.MSets.MSetGenTree Ops Node constr
+R6765:6773 Stdlib.MSets.MSetGenTree X compare defax
+R6775:6776 Stdlib.MSets.MSetGenTree <> x1:75 var
+R6794:6795 Corelib.Init.Datatypes <> Eq constr
+R6800:6808 Stdlib.MSets.MSetGenTree <> subset_r1:74 var
+R6821:6822 Corelib.Init.Datatypes <> Lt constr
+R6836:6840 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R6841:6849 Stdlib.MSets.MSetGenTree <> subset_r1:74 var
+R6851:6852 Stdlib.MSets.MSetGenTree <> s2:76 var
+R6827:6829 Stdlib.MSets.MSetGenTree Ops mem def
+R6831:6832 Stdlib.MSets.MSetGenTree <> x1:75 var
+R6862:6863 Corelib.Init.Datatypes <> Gt constr
+R6868:6874 Stdlib.MSets.MSetGenTree <> subsetr:77 def
+R6886:6887 Stdlib.MSets.MSetGenTree <> x1:75 var
+R6876:6884 Stdlib.MSets.MSetGenTree <> subset_r1:74 var
+def 6917:6922 Ops subset
+binder 6924:6925 <> s1:79
+binder 6927:6928 <> s2:80
+R6932:6935 Corelib.Init.Datatypes <> bool ind
+R6950:6951 Stdlib.MSets.MSetGenTree <> s2:80 var
+R6946:6947 Stdlib.MSets.MSetGenTree <> s1:79 var
+R6962:6965 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R6973:6976 Corelib.Init.Datatypes <> true constr
+R6982:6985 Stdlib.MSets.MSetGenTree Ops Node constr
+R6996:6999 Stdlib.MSets.MSetGenTree Ops Leaf constr
+R7004:7008 Corelib.Init.Datatypes <> false constr
+R7014:7017 Stdlib.MSets.MSetGenTree Ops Node constr
+R7031:7034 Stdlib.MSets.MSetGenTree Ops Node constr
+R7061:7069 Stdlib.MSets.MSetGenTree X compare defax
+R7090:7091 Corelib.Init.Datatypes <> Eq constr
+R7108:7112 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7113:7118 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7096:7101 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7134:7135 Corelib.Init.Datatypes <> Lt constr
+R7165:7169 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7170:7175 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7180:7181 Stdlib.MSets.MSetGenTree <> s2:80 var
+R7140:7146 Stdlib.MSets.MSetGenTree Ops subsetl def
+R7149:7154 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7191:7192 Corelib.Init.Datatypes <> Gt constr
+R7222:7226 Stdlib.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7227:7232 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7237:7238 Stdlib.MSets.MSetGenTree <> s2:80 var
+R7197:7203 Stdlib.MSets.MSetGenTree Ops subsetr def
+R7206:7211 Stdlib.MSets.MSetGenTree <> subset:81 def
+R7260:7262 Stdlib.MSets.MSetGenTree Ops <> modtype
+R7352:7362 Stdlib.Structures.Orders OrderedType <> modtype
+R7370:7376 Stdlib.MSets.MSetGenTree InfoTyp <> modtype
+R7388:7390 Stdlib.MSets.MSetGenTree Ops <> modtype
+R7392:7392 Stdlib.MSets.MSetGenTree X <> mod
+R7394:7397 Stdlib.MSets.MSetGenTree Info <> mod
+modtype 7343:7347 <> Props
+R7343:7347 Stdlib.MSets.MSetGenTree M <> mod
+ind 7444:7446 Props InT
+constr 7480:7485 Props IsRoot
+constr 7542:7547 Props InLeft
+constr 7603:7609 Props InRight
+R7453:7455 Stdlib.MSets.MSetGenTree M elt def
+binder 7449:7449 <> x:84
+R7464:7467 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7460:7463 Stdlib.MSets.MSetGenTree M tree ind
+binder 7496:7496 <> c:87
+binder 7498:7498 <> l:88
+binder 7500:7500 <> r:89
+binder 7502:7502 <> y:90
+R7513:7516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7505:7508 Stdlib.MSets.MSetGenTree X eq defax
+R7512:7512 Stdlib.MSets.MSetGenTree <> y:90 var
+R7510:7510 Stdlib.MSets.MSetGenTree <> x:84 var
+R7517:7519 Stdlib.MSets.MSetGenTree <> InT:85 ind
+R7524:7527 Stdlib.MSets.MSetGenTree M Node constr
+R7529:7529 Stdlib.MSets.MSetGenTree <> c:87 var
+R7531:7531 Stdlib.MSets.MSetGenTree <> l:88 var
+R7533:7533 Stdlib.MSets.MSetGenTree <> y:90 var
+R7535:7535 Stdlib.MSets.MSetGenTree <> r:89 var
+R7521:7521 Stdlib.MSets.MSetGenTree <> x:84 var
+binder 7558:7558 <> c:91
+binder 7560:7560 <> l:92
+binder 7562:7562 <> r:93
+binder 7564:7564 <> y:94
+R7574:7577 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7567:7569 Stdlib.MSets.MSetGenTree <> InT:85 ind
+R7573:7573 Stdlib.MSets.MSetGenTree <> l:92 var
+R7571:7571 Stdlib.MSets.MSetGenTree <> x:84 var
+R7578:7580 Stdlib.MSets.MSetGenTree <> InT:85 ind
+R7585:7588 Stdlib.MSets.MSetGenTree M Node constr
+R7590:7590 Stdlib.MSets.MSetGenTree <> c:91 var
+R7592:7592 Stdlib.MSets.MSetGenTree <> l:92 var
+R7594:7594 Stdlib.MSets.MSetGenTree <> y:94 var
+R7596:7596 Stdlib.MSets.MSetGenTree <> r:93 var
+R7582:7582 Stdlib.MSets.MSetGenTree <> x:84 var
+binder 7620:7620 <> c:95
+binder 7622:7622 <> l:96
+binder 7624:7624 <> r:97
+binder 7626:7626 <> y:98
+R7636:7639 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7629:7631 Stdlib.MSets.MSetGenTree <> InT:85 ind
+R7635:7635 Stdlib.MSets.MSetGenTree <> r:97 var
+R7633:7633 Stdlib.MSets.MSetGenTree <> x:84 var
+R7640:7642 Stdlib.MSets.MSetGenTree <> InT:85 ind
+R7647:7650 Stdlib.MSets.MSetGenTree M Node constr
+R7652:7652 Stdlib.MSets.MSetGenTree <> c:95 var
+R7654:7654 Stdlib.MSets.MSetGenTree <> l:96 var
+R7656:7656 Stdlib.MSets.MSetGenTree <> y:98 var
+R7658:7658 Stdlib.MSets.MSetGenTree <> r:97 var
+R7644:7644 Stdlib.MSets.MSetGenTree <> x:84 var
+def 7674:7675 Props In
+R7680:7682 Stdlib.MSets.MSetGenTree Props InT ind
+def 7723:7727 Props Equal
+binder 7729:7729 <> s:99
+binder 7731:7732 <> s':100
+R7748:7750 Stdlib.MSets.MSetGenTree M elt def
+binder 7744:7744 <> a:101
+R7760:7764 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7753:7755 Stdlib.MSets.MSetGenTree Props InT ind
+R7757:7757 Stdlib.MSets.MSetGenTree <> a:101 var
+R7759:7759 Stdlib.MSets.MSetGenTree <> s:99 var
+R7765:7767 Stdlib.MSets.MSetGenTree Props InT ind
+R7769:7769 Stdlib.MSets.MSetGenTree <> a:101 var
+R7771:7772 Stdlib.MSets.MSetGenTree <> s':100 var
+def 7786:7791 Props Subset
+binder 7793:7793 <> s:102
+binder 7795:7796 <> s':103
+R7812:7814 Stdlib.MSets.MSetGenTree M elt def
+binder 7808:7808 <> a:104
+R7824:7827 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7817:7819 Stdlib.MSets.MSetGenTree Props InT ind
+R7821:7821 Stdlib.MSets.MSetGenTree <> a:104 var
+R7823:7823 Stdlib.MSets.MSetGenTree <> s:102 var
+R7828:7830 Stdlib.MSets.MSetGenTree Props InT ind
+R7832:7832 Stdlib.MSets.MSetGenTree <> a:104 var
+R7834:7835 Stdlib.MSets.MSetGenTree <> s':103 var
+def 7849:7853 Props Empty
+binder 7855:7855 <> s:105
+R7871:7873 Stdlib.MSets.MSetGenTree M elt def
+binder 7867:7867 <> a:106
+R7876:7877 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7878:7880 Stdlib.MSets.MSetGenTree Props InT ind
+R7882:7882 Stdlib.MSets.MSetGenTree <> a:106 var
+R7884:7884 Stdlib.MSets.MSetGenTree <> s:105 var
+def 7898:7904 Props For_all
+R7914:7917 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7911:7913 Stdlib.MSets.MSetGenTree M elt def
+binder 7907:7907 <> P:107
+binder 7924:7924 <> s:108
+binder 7936:7936 <> x:109
+R7946:7949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7939:7941 Stdlib.MSets.MSetGenTree Props InT ind
+R7943:7943 Stdlib.MSets.MSetGenTree <> x:109 var
+R7945:7945 Stdlib.MSets.MSetGenTree <> s:108 var
+R7950:7950 Stdlib.MSets.MSetGenTree <> P:107 var
+R7952:7952 Stdlib.MSets.MSetGenTree <> x:109 var
+def 7966:7971 Props Exists
+R7981:7984 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7978:7980 Stdlib.MSets.MSetGenTree M elt def
+binder 7974:7974 <> P:110
+binder 7991:7991 <> s:111
+R7996:8002 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8004:8005 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8003:8003 <> x:112
+R8013:8016 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8006:8008 Stdlib.MSets.MSetGenTree Props InT ind
+R8010:8010 Stdlib.MSets.MSetGenTree <> x:112 var
+R8012:8012 Stdlib.MSets.MSetGenTree <> s:111 var
+R8017:8017 Stdlib.MSets.MSetGenTree <> P:110 var
+R8019:8019 Stdlib.MSets.MSetGenTree <> x:112 var
+def 8162:8168 Props lt_tree
+binder 8170:8170 <> x:113
+binder 8172:8172 <> s:114
+binder 8184:8184 <> y:115
+R8194:8197 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8187:8189 Stdlib.MSets.MSetGenTree Props InT ind
+R8191:8191 Stdlib.MSets.MSetGenTree <> y:115 var
+R8193:8193 Stdlib.MSets.MSetGenTree <> s:114 var
+R8198:8201 Stdlib.MSets.MSetGenTree X lt defax
+R8205:8205 Stdlib.MSets.MSetGenTree <> x:113 var
+R8203:8203 Stdlib.MSets.MSetGenTree <> y:115 var
+def 8219:8225 Props gt_tree
+binder 8227:8227 <> x:116
+binder 8229:8229 <> s:117
+binder 8241:8241 <> y:118
+R8251:8254 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8244:8246 Stdlib.MSets.MSetGenTree Props InT ind
+R8248:8248 Stdlib.MSets.MSetGenTree <> y:118 var
+R8250:8250 Stdlib.MSets.MSetGenTree <> s:117 var
+R8255:8258 Stdlib.MSets.MSetGenTree X lt defax
+R8262:8262 Stdlib.MSets.MSetGenTree <> y:118 var
+R8260:8260 Stdlib.MSets.MSetGenTree <> x:116 var
+ind 8322:8324 Props bst
+constr 8348:8353 Props BSLeaf
+constr 8370:8375 Props BSNode
+R8332:8335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8328:8331 Stdlib.MSets.MSetGenTree M tree ind
+R8357:8359 Stdlib.MSets.MSetGenTree <> bst:119 ind
+R8361:8364 Stdlib.MSets.MSetGenTree M Leaf constr
+binder 8386:8386 <> c:121
+binder 8388:8388 <> x:122
+binder 8390:8390 <> l:123
+binder 8392:8392 <> r:124
+R8400:8403 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8395:8397 Stdlib.MSets.MSetGenTree <> bst:119 ind
+R8399:8399 Stdlib.MSets.MSetGenTree <> l:123 var
+R8409:8417 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8404:8406 Stdlib.MSets.MSetGenTree <> bst:119 ind
+R8408:8408 Stdlib.MSets.MSetGenTree <> r:124 var
+R8429:8432 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8418:8424 Stdlib.MSets.MSetGenTree Props lt_tree def
+R8426:8426 Stdlib.MSets.MSetGenTree <> x:122 var
+R8428:8428 Stdlib.MSets.MSetGenTree <> l:123 var
+R8444:8447 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8433:8439 Stdlib.MSets.MSetGenTree Props gt_tree def
+R8441:8441 Stdlib.MSets.MSetGenTree <> x:122 var
+R8443:8443 Stdlib.MSets.MSetGenTree <> r:124 var
+R8448:8450 Stdlib.MSets.MSetGenTree <> bst:119 ind
+R8453:8456 Stdlib.MSets.MSetGenTree M Node constr
+R8458:8458 Stdlib.MSets.MSetGenTree <> c:121 var
+R8460:8460 Stdlib.MSets.MSetGenTree <> l:123 var
+R8462:8462 Stdlib.MSets.MSetGenTree <> x:122 var
+R8464:8464 Stdlib.MSets.MSetGenTree <> r:124 var
+def 8555:8558 Props IsOk
+R8563:8565 Stdlib.MSets.MSetGenTree Props bst ind
+ind 8575:8576 Props Ok
+constr 8597:8598 Props ok
+rec 8575:8576 Props Ok
+proj 8597:8598 Props ok
+R8581:8584 Stdlib.MSets.MSetGenTree M tree ind
+binder 8579:8579 <> s:125
+R8602:8604 Stdlib.MSets.MSetGenTree Props bst ind
+R8606:8606 Stdlib.MSets.MSetGenTree <> s:125 var
+inst 8629:8634 Props bst_Ok
+binder 8636:8636 <> s:128
+R8644:8646 Stdlib.MSets.MSetGenTree Props bst ind
+R8648:8648 Stdlib.MSets.MSetGenTree <> s:128 var
+binder 8639:8640 <> Hs:129
+R8653:8654 Stdlib.MSets.MSetGenTree Props Ok class
+R8656:8656 Stdlib.MSets.MSetGenTree <> s:128 var
+R8663:8664 Stdlib.MSets.MSetGenTree Props ok def
+def 8685:8692 Props ltb_tree
+binder 8694:8694 <> x:130
+binder 8696:8696 <> s:131
+R8708:8708 Stdlib.MSets.MSetGenTree <> s:131 var
+R8719:8722 Stdlib.MSets.MSetGenTree M Leaf constr
+R8727:8730 Corelib.Init.Datatypes <> true constr
+R8736:8739 Stdlib.MSets.MSetGenTree M Node constr
+R8763:8771 Stdlib.MSets.MSetGenTree X compare defax
+R8773:8773 Stdlib.MSets.MSetGenTree <> x:130 var
+R8790:8791 Corelib.Init.Datatypes <> Gt constr
+R8808:8811 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8796:8803 Stdlib.MSets.MSetGenTree <> ltb_tree:132 def
+R8805:8805 Stdlib.MSets.MSetGenTree <> x:130 var
+R8812:8819 Stdlib.MSets.MSetGenTree <> ltb_tree:132 def
+R8821:8821 Stdlib.MSets.MSetGenTree <> x:130 var
+R8838:8842 Corelib.Init.Datatypes <> false constr
+def 8869:8876 Props gtb_tree
+binder 8878:8878 <> x:134
+binder 8880:8880 <> s:135
+R8892:8892 Stdlib.MSets.MSetGenTree <> s:135 var
+R8903:8906 Stdlib.MSets.MSetGenTree M Leaf constr
+R8911:8914 Corelib.Init.Datatypes <> true constr
+R8920:8923 Stdlib.MSets.MSetGenTree M Node constr
+R8947:8955 Stdlib.MSets.MSetGenTree X compare defax
+R8957:8957 Stdlib.MSets.MSetGenTree <> x:134 var
+R8974:8975 Corelib.Init.Datatypes <> Lt constr
+R8992:8995 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8980:8987 Stdlib.MSets.MSetGenTree <> gtb_tree:136 def
+R8989:8989 Stdlib.MSets.MSetGenTree <> x:134 var
+R8996:9003 Stdlib.MSets.MSetGenTree <> gtb_tree:136 def
+R9005:9005 Stdlib.MSets.MSetGenTree <> x:134 var
+R9022:9026 Corelib.Init.Datatypes <> false constr
+def 9053:9056 Props isok
+binder 9058:9058 <> s:138
+R9070:9070 Stdlib.MSets.MSetGenTree <> s:138 var
+R9081:9084 Stdlib.MSets.MSetGenTree M Leaf constr
+R9089:9092 Corelib.Init.Datatypes <> true constr
+R9098:9101 Stdlib.MSets.MSetGenTree M Node constr
+R9147:9150 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9131:9134 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9121:9124 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9115:9118 Stdlib.MSets.MSetGenTree <> isok:139 def
+R9125:9128 Stdlib.MSets.MSetGenTree <> isok:139 def
+R9135:9142 Stdlib.MSets.MSetGenTree Props ltb_tree def
+R9151:9158 Stdlib.MSets.MSetGenTree Props gtb_tree def
+R9235:9250 Stdlib.Structures.OrdersFacts OrderedTypeFacts <> mod
+R9252:9252 Stdlib.MSets.MSetGenTree X <> mod
+mod 9229:9230 <> Props.MX
+R9229:9230 Stdlib.MSets.MSetGenTree Props.MX <> mod
+def 9307:9314 Props tree_ind
+R9333:9336 Stdlib.MSets.MSetGenTree M tree ind
+def 9356:9362 Props bst_ind
+R9381:9383 Stdlib.MSets.MSetGenTree Props bst ind
+R9528:9529 Stdlib.MSets.MSetGenTree Props In def
+R9531:9537 Stdlib.MSets.MSetGenTree Props lt_tree def
+R9539:9545 Stdlib.MSets.MSetGenTree Props gt_tree def
+R9582:9584 Stdlib.MSets.MSetGenTree <> InT ind
+R9586:9588 Stdlib.MSets.MSetGenTree <> bst ind
+R9619:9620 Stdlib.MSets.MSetGenTree Props Ok class
+R9770:9771 Stdlib.MSets.MSetGenTree Props Ok class
+R9774:9777 Stdlib.MSets.MSetGenTree M Node constr
+R9827:9828 Stdlib.MSets.MSetGenTree Props Ok class
+R9830:9833 Stdlib.MSets.MSetGenTree M Leaf constr
+R9864:9866 Stdlib.MSets.MSetGenTree Props bst ind
+R9887:9888 Stdlib.MSets.MSetGenTree Props Ok class
+R10065:10068 Stdlib.MSets.MSetGenTree M Leaf constr
+R10084:10087 Stdlib.MSets.MSetGenTree M Node constr
+R10578:10584 Stdlib.MSets.MSetGenTree Props lt_tree def
+R10595:10597 Stdlib.MSets.MSetGenTree Props InT ind
+R10653:10659 Stdlib.MSets.MSetGenTree Props gt_tree def
+R10670:10672 Stdlib.MSets.MSetGenTree Props InT ind
+prf 10807:10818 Props ltb_tree_iff
+binder 10829:10829 <> x:141
+binder 10831:10831 <> s:142
+R10845:10849 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R10834:10840 Stdlib.MSets.MSetGenTree Props lt_tree def
+R10842:10842 Stdlib.MSets.MSetGenTree <> x:141 var
+R10844:10844 Stdlib.MSets.MSetGenTree <> s:142 var
+R10862:10864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10850:10857 Stdlib.MSets.MSetGenTree Props ltb_tree def
+R10859:10859 Stdlib.MSets.MSetGenTree <> x:141 var
+R10861:10861 Stdlib.MSets.MSetGenTree <> s:142 var
+R10865:10868 Corelib.Init.Datatypes <> true constr
+R10931:10937 Stdlib.MSets.MSetGenTree Props lt_tree def
+R11021:11024 Stdlib.MSets.MSetGenTree X lt defax
+R11093:11096 Stdlib.MSets.MSetGenTree X lt defax
+R11133:11145 Stdlib.Bool.Bool <> andb_true_iff thm
+R11174:11180 Stdlib.MSets.MSetGenTree Props lt_tree def
+prf 11216:11227 Props gtb_tree_iff
+binder 11238:11238 <> x:143
+binder 11240:11240 <> s:144
+R11254:11258 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11243:11249 Stdlib.MSets.MSetGenTree Props gt_tree def
+R11251:11251 Stdlib.MSets.MSetGenTree <> x:143 var
+R11253:11253 Stdlib.MSets.MSetGenTree <> s:144 var
+R11271:11273 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11259:11266 Stdlib.MSets.MSetGenTree Props gtb_tree def
+R11268:11268 Stdlib.MSets.MSetGenTree <> x:143 var
+R11270:11270 Stdlib.MSets.MSetGenTree <> s:144 var
+R11274:11277 Corelib.Init.Datatypes <> true constr
+R11340:11346 Stdlib.MSets.MSetGenTree Props gt_tree def
+R11430:11433 Stdlib.MSets.MSetGenTree X lt defax
+R11470:11482 Stdlib.Bool.Bool <> andb_true_iff thm
+R11511:11517 Stdlib.MSets.MSetGenTree Props gt_tree def
+R11587:11590 Stdlib.MSets.MSetGenTree X lt defax
+prf 11625:11632 Props isok_iff
+binder 11643:11643 <> s:145
+R11650:11654 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11646:11647 Stdlib.MSets.MSetGenTree Props Ok class
+R11649:11649 Stdlib.MSets.MSetGenTree <> s:145 var
+R11661:11663 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11655:11658 Stdlib.MSets.MSetGenTree Props isok def
+R11660:11660 Stdlib.MSets.MSetGenTree <> s:145 var
+R11664:11667 Corelib.Init.Datatypes <> true constr
+R11749:11761 Stdlib.Bool.Bool <> andb_true_iff thm
+R11782:11793 Stdlib.MSets.MSetGenTree Props ltb_tree_iff thm
+R11799:11810 Stdlib.MSets.MSetGenTree Props gtb_tree_iff thm
+inst 11855:11861 Props isok_Ok
+binder 11863:11863 <> s:146
+R11880:11883 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11873:11875 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11867:11870 Stdlib.MSets.MSetGenTree Props isok def
+R11872:11872 Stdlib.MSets.MSetGenTree <> s:146 var
+R11876:11879 Corelib.Init.Datatypes <> true constr
+R11884:11885 Stdlib.MSets.MSetGenTree Props Ok class
+R11887:11887 Stdlib.MSets.MSetGenTree <> s:146 var
+R11919:11926 Stdlib.MSets.MSetGenTree Props isok_iff thm
+prf 11983:11986 Props In_1
+binder 11998:11998 <> s:147
+binder 12000:12000 <> x:148
+binder 12002:12002 <> y:149
+R12013:12016 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12005:12008 Stdlib.MSets.MSetGenTree X eq defax
+R12012:12012 Stdlib.MSets.MSetGenTree <> y:149 var
+R12010:12010 Stdlib.MSets.MSetGenTree <> x:148 var
+R12024:12027 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12017:12019 Stdlib.MSets.MSetGenTree Props InT ind
+R12021:12021 Stdlib.MSets.MSetGenTree <> x:148 var
+R12023:12023 Stdlib.MSets.MSetGenTree <> s:147 var
+R12028:12030 Stdlib.MSets.MSetGenTree Props InT ind
+R12032:12032 Stdlib.MSets.MSetGenTree <> y:149 var
+R12034:12034 Stdlib.MSets.MSetGenTree <> s:147 var
+inst 12148:12156 Props In_compat
+R12160:12165 Corelib.Classes.Morphisms <> Proper class
+R12185:12187 Stdlib.MSets.MSetGenTree Props InT ind
+R12172:12174 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12168:12171 Stdlib.MSets.MSetGenTree X eq defax
+R12177:12179 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12175:12176 Corelib.Init.Logic <> eq ind
+R12180:12182 Corelib.Init.Logic <> iff def
+R12203:12223 Corelib.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R12272:12275 Stdlib.MSets.MSetGenTree Props In_1 thm
+prf 12303:12313 Props In_node_iff
+binder 12325:12325 <> c:150
+binder 12327:12327 <> l:151
+binder 12329:12329 <> x:152
+binder 12331:12331 <> r:153
+binder 12333:12333 <> y:154
+R12358:12362 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12338:12340 Stdlib.MSets.MSetGenTree Props InT ind
+R12342:12342 Stdlib.MSets.MSetGenTree <> y:154 var
+R12345:12348 Stdlib.MSets.MSetGenTree M Node constr
+R12350:12350 Stdlib.MSets.MSetGenTree <> c:150 var
+R12352:12352 Stdlib.MSets.MSetGenTree <> l:151 var
+R12354:12354 Stdlib.MSets.MSetGenTree <> x:152 var
+R12356:12356 Stdlib.MSets.MSetGenTree <> r:153 var
+R12370:12373 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R12363:12365 Stdlib.MSets.MSetGenTree Props InT ind
+R12367:12367 Stdlib.MSets.MSetGenTree <> y:154 var
+R12369:12369 Stdlib.MSets.MSetGenTree <> l:151 var
+R12382:12385 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R12374:12377 Stdlib.MSets.MSetGenTree X eq defax
+R12381:12381 Stdlib.MSets.MSetGenTree <> x:152 var
+R12379:12379 Stdlib.MSets.MSetGenTree <> y:154 var
+R12386:12388 Stdlib.MSets.MSetGenTree Props InT ind
+R12390:12390 Stdlib.MSets.MSetGenTree <> y:154 var
+R12392:12392 Stdlib.MSets.MSetGenTree <> r:153 var
+prf 12429:12439 Props In_leaf_iff
+binder 12450:12450 <> x:155
+R12463:12467 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R12453:12455 Stdlib.MSets.MSetGenTree Props InT ind
+R12457:12457 Stdlib.MSets.MSetGenTree <> x:155 var
+R12459:12462 Stdlib.MSets.MSetGenTree M Leaf constr
+R12468:12472 Corelib.Init.Logic <> False ind
+prf 12555:12561 Props lt_leaf
+R12576:12578 Stdlib.MSets.MSetGenTree M elt def
+binder 12572:12572 <> x:156
+R12581:12587 Stdlib.MSets.MSetGenTree Props lt_tree def
+R12589:12589 Stdlib.MSets.MSetGenTree <> x:156 var
+R12591:12594 Stdlib.MSets.MSetGenTree M Leaf constr
+prf 12635:12641 Props gt_leaf
+R12656:12658 Stdlib.MSets.MSetGenTree M elt def
+binder 12652:12652 <> x:157
+R12661:12667 Stdlib.MSets.MSetGenTree Props gt_tree def
+R12669:12669 Stdlib.MSets.MSetGenTree <> x:157 var
+R12671:12674 Stdlib.MSets.MSetGenTree M Leaf constr
+prf 12715:12726 Props lt_tree_node
+R12745:12747 Stdlib.MSets.MSetGenTree M elt def
+binder 12739:12739 <> x:158
+binder 12741:12741 <> y:159
+R12757:12760 Stdlib.MSets.MSetGenTree M tree ind
+binder 12751:12751 <> l:160
+binder 12753:12753 <> r:161
+R12768:12773 Stdlib.MSets.MSetGenTree Info t defax
+binder 12764:12764 <> i:162
+R12789:12792 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12778:12784 Stdlib.MSets.MSetGenTree Props lt_tree def
+R12786:12786 Stdlib.MSets.MSetGenTree <> x:158 var
+R12788:12788 Stdlib.MSets.MSetGenTree <> l:160 var
+R12804:12807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12793:12799 Stdlib.MSets.MSetGenTree Props lt_tree def
+R12801:12801 Stdlib.MSets.MSetGenTree <> x:158 var
+R12803:12803 Stdlib.MSets.MSetGenTree <> r:161 var
+R12816:12819 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12808:12811 Stdlib.MSets.MSetGenTree X lt defax
+R12815:12815 Stdlib.MSets.MSetGenTree <> x:158 var
+R12813:12813 Stdlib.MSets.MSetGenTree <> y:159 var
+R12820:12826 Stdlib.MSets.MSetGenTree Props lt_tree def
+R12828:12828 Stdlib.MSets.MSetGenTree <> x:158 var
+R12831:12834 Stdlib.MSets.MSetGenTree M Node constr
+R12836:12836 Stdlib.MSets.MSetGenTree <> i:162 var
+R12838:12838 Stdlib.MSets.MSetGenTree <> l:160 var
+R12840:12840 Stdlib.MSets.MSetGenTree <> y:159 var
+R12842:12842 Stdlib.MSets.MSetGenTree <> r:161 var
+R12861:12867 Stdlib.MSets.MSetGenTree Props lt_tree def
+prf 12903:12914 Props gt_tree_node
+R12933:12935 Stdlib.MSets.MSetGenTree M elt def
+binder 12927:12927 <> x:163
+binder 12929:12929 <> y:164
+R12945:12948 Stdlib.MSets.MSetGenTree M tree ind
+binder 12939:12939 <> l:165
+binder 12941:12941 <> r:166
+R12956:12961 Stdlib.MSets.MSetGenTree Info t defax
+binder 12952:12952 <> i:167
+R12977:12980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12966:12972 Stdlib.MSets.MSetGenTree Props gt_tree def
+R12974:12974 Stdlib.MSets.MSetGenTree <> x:163 var
+R12976:12976 Stdlib.MSets.MSetGenTree <> l:165 var
+R12992:12995 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12981:12987 Stdlib.MSets.MSetGenTree Props gt_tree def
+R12989:12989 Stdlib.MSets.MSetGenTree <> x:163 var
+R12991:12991 Stdlib.MSets.MSetGenTree <> r:166 var
+R13004:13007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12996:12999 Stdlib.MSets.MSetGenTree X lt defax
+R13003:13003 Stdlib.MSets.MSetGenTree <> y:164 var
+R13001:13001 Stdlib.MSets.MSetGenTree <> x:163 var
+R13008:13014 Stdlib.MSets.MSetGenTree Props gt_tree def
+R13016:13016 Stdlib.MSets.MSetGenTree <> x:163 var
+R13019:13022 Stdlib.MSets.MSetGenTree M Node constr
+R13024:13024 Stdlib.MSets.MSetGenTree <> i:167 var
+R13026:13026 Stdlib.MSets.MSetGenTree <> l:165 var
+R13028:13028 Stdlib.MSets.MSetGenTree <> y:164 var
+R13030:13030 Stdlib.MSets.MSetGenTree <> r:166 var
+R13049:13055 Stdlib.MSets.MSetGenTree Props gt_tree def
+prf 13164:13177 Props lt_tree_not_in
+R13194:13196 Stdlib.MSets.MSetGenTree M elt def
+binder 13190:13190 <> x:168
+R13204:13207 Stdlib.MSets.MSetGenTree M tree ind
+binder 13200:13200 <> t:169
+R13222:13225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13211:13217 Stdlib.MSets.MSetGenTree Props lt_tree def
+R13219:13219 Stdlib.MSets.MSetGenTree <> x:168 var
+R13221:13221 Stdlib.MSets.MSetGenTree <> t:169 var
+R13226:13227 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13228:13230 Stdlib.MSets.MSetGenTree Props InT ind
+R13232:13232 Stdlib.MSets.MSetGenTree <> x:168 var
+R13234:13234 Stdlib.MSets.MSetGenTree <> t:169 var
+prf 13279:13291 Props lt_tree_trans
+binder 13303:13303 <> x:170
+binder 13305:13305 <> y:171
+R13316:13319 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13308:13311 Stdlib.MSets.MSetGenTree X lt defax
+R13315:13315 Stdlib.MSets.MSetGenTree <> y:171 var
+R13313:13313 Stdlib.MSets.MSetGenTree <> x:170 var
+binder 13327:13327 <> t:172
+R13341:13344 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13330:13336 Stdlib.MSets.MSetGenTree Props lt_tree def
+R13338:13338 Stdlib.MSets.MSetGenTree <> x:170 var
+R13340:13340 Stdlib.MSets.MSetGenTree <> t:172 var
+R13345:13351 Stdlib.MSets.MSetGenTree Props lt_tree def
+R13353:13353 Stdlib.MSets.MSetGenTree <> y:171 var
+R13355:13355 Stdlib.MSets.MSetGenTree <> t:172 var
+prf 13385:13398 Props gt_tree_not_in
+R13415:13417 Stdlib.MSets.MSetGenTree M elt def
+binder 13411:13411 <> x:173
+R13425:13428 Stdlib.MSets.MSetGenTree M tree ind
+binder 13421:13421 <> t:174
+R13443:13446 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13432:13438 Stdlib.MSets.MSetGenTree Props gt_tree def
+R13440:13440 Stdlib.MSets.MSetGenTree <> x:173 var
+R13442:13442 Stdlib.MSets.MSetGenTree <> t:174 var
+R13447:13448 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13449:13451 Stdlib.MSets.MSetGenTree Props InT ind
+R13453:13453 Stdlib.MSets.MSetGenTree <> x:173 var
+R13455:13455 Stdlib.MSets.MSetGenTree <> t:174 var
+prf 13500:13512 Props gt_tree_trans
+binder 13524:13524 <> x:175
+binder 13526:13526 <> y:176
+R13537:13540 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13529:13532 Stdlib.MSets.MSetGenTree X lt defax
+R13536:13536 Stdlib.MSets.MSetGenTree <> x:175 var
+R13534:13534 Stdlib.MSets.MSetGenTree <> y:176 var
+binder 13548:13548 <> t:177
+R13562:13565 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13551:13557 Stdlib.MSets.MSetGenTree Props gt_tree def
+R13559:13559 Stdlib.MSets.MSetGenTree <> x:175 var
+R13561:13561 Stdlib.MSets.MSetGenTree <> t:177 var
+R13566:13572 Stdlib.MSets.MSetGenTree Props gt_tree def
+R13574:13574 Stdlib.MSets.MSetGenTree <> y:176 var
+R13576:13576 Stdlib.MSets.MSetGenTree <> t:177 var
+inst 13619:13632 Props lt_tree_compat
+R13636:13641 Corelib.Classes.Morphisms <> Proper class
+R13671:13677 Stdlib.MSets.MSetGenTree Props lt_tree def
+R13648:13652 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13644:13647 Stdlib.MSets.MSetGenTree X eq defax
+R13661:13665 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13653:13660 Corelib.Init.Logic <> eq ind
+R13666:13668 Corelib.Init.Logic <> iff def
+R13694:13714 Corelib.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+inst 13815:13828 Props gt_tree_compat
+R13832:13837 Corelib.Classes.Morphisms <> Proper class
+R13867:13873 Stdlib.MSets.MSetGenTree Props gt_tree def
+R13844:13848 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13840:13843 Stdlib.MSets.MSetGenTree X eq defax
+R13857:13861 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13849:13856 Corelib.Init.Logic <> eq ind
+R13862:13864 Corelib.Init.Logic <> iff def
+R13890:13910 Corelib.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R14261:14263 Stdlib.MSets.MSetGenTree Props bst ind
+R14270:14271 Stdlib.MSets.MSetGenTree Props Ok class
+R14304:14305 Stdlib.MSets.MSetGenTree Props Ok class
+R14308:14311 Stdlib.MSets.MSetGenTree M Node constr
+R14358:14364 Stdlib.MSets.MSetGenTree Props lt_tree def
+R14369:14372 Stdlib.MSets.MSetGenTree M Node constr
+R14417:14423 Stdlib.MSets.MSetGenTree Props gt_tree def
+R14428:14431 Stdlib.MSets.MSetGenTree M Node constr
+R14451:14462 Stdlib.MSets.MSetGenTree Props gt_tree_node thm
+R14392:14403 Stdlib.MSets.MSetGenTree Props lt_tree_node thm
+prf 14543:14552 Props empty_spec
+R14556:14560 Stdlib.MSets.MSetGenTree Props Empty def
+R14562:14566 Stdlib.MSets.MSetGenTree M empty def
+inst 14627:14634 Props empty_ok
+R14638:14639 Stdlib.MSets.MSetGenTree Props Ok class
+R14641:14645 Stdlib.MSets.MSetGenTree M empty def
+prf 14700:14712 Props is_empty_spec
+binder 14723:14723 <> s:178
+R14743:14747 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14736:14738 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14726:14733 Stdlib.MSets.MSetGenTree M is_empty def
+R14735:14735 Stdlib.MSets.MSetGenTree <> s:178 var
+R14739:14742 Corelib.Init.Datatypes <> true constr
+R14748:14752 Stdlib.MSets.MSetGenTree Props Empty def
+R14754:14754 Stdlib.MSets.MSetGenTree <> s:178 var
+prf 14944:14951 Props mem_spec
+binder 14962:14962 <> s:179
+binder 14964:14964 <> x:180
+R14968:14969 Stdlib.MSets.MSetGenTree Props Ok class
+R14971:14971 Stdlib.MSets.MSetGenTree <> s:179 var
+binder 14968:14971 <> H:181
+R14989:14993 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R14982:14984 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14975:14977 Stdlib.MSets.MSetGenTree M mem def
+R14979:14979 Stdlib.MSets.MSetGenTree <> x:180 var
+R14981:14981 Stdlib.MSets.MSetGenTree <> s:179 var
+R14985:14988 Corelib.Init.Datatypes <> true constr
+R14994:14996 Stdlib.MSets.MSetGenTree Props InT ind
+R14998:14998 Stdlib.MSets.MSetGenTree <> x:180 var
+R15000:15000 Stdlib.MSets.MSetGenTree <> s:179 var
+prf 15131:15143 Props min_elt_spec1
+binder 15145:15145 <> s:182
+binder 15147:15147 <> x:183
+R15169:15172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15160:15162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15151:15157 Stdlib.MSets.MSetGenTree M min_elt def
+R15159:15159 Stdlib.MSets.MSetGenTree <> s:182 var
+R15163:15166 Corelib.Init.Datatypes <> Some constr
+R15168:15168 Stdlib.MSets.MSetGenTree <> x:183 var
+R15173:15175 Stdlib.MSets.MSetGenTree Props InT ind
+R15177:15177 Stdlib.MSets.MSetGenTree <> x:183 var
+R15179:15179 Stdlib.MSets.MSetGenTree <> s:182 var
+prf 15274:15286 Props min_elt_spec2
+binder 15288:15288 <> s:184
+binder 15290:15290 <> x:185
+binder 15292:15292 <> y:186
+R15296:15297 Stdlib.MSets.MSetGenTree Props Ok class
+R15299:15299 Stdlib.MSets.MSetGenTree <> s:184 var
+binder 15296:15299 <> H:187
+R15323:15326 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15314:15316 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15305:15311 Stdlib.MSets.MSetGenTree M min_elt def
+R15313:15313 Stdlib.MSets.MSetGenTree <> s:184 var
+R15317:15320 Corelib.Init.Datatypes <> Some constr
+R15322:15322 Stdlib.MSets.MSetGenTree <> x:185 var
+R15334:15337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15327:15329 Stdlib.MSets.MSetGenTree Props InT ind
+R15331:15331 Stdlib.MSets.MSetGenTree <> y:186 var
+R15333:15333 Stdlib.MSets.MSetGenTree <> s:184 var
+R15338:15339 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15340:15343 Stdlib.MSets.MSetGenTree X lt defax
+R15347:15347 Stdlib.MSets.MSetGenTree <> x:185 var
+R15345:15345 Stdlib.MSets.MSetGenTree <> y:186 var
+R15471:15481 Stdlib.MSets.MSetGenTree Props In_node_iff thm
+R15615:15625 Stdlib.MSets.MSetGenTree Props In_leaf_iff thm
+R15728:15740 Stdlib.MSets.MSetGenTree Props lt_tree_trans thm
+R15791:15803 Stdlib.MSets.MSetGenTree Props min_elt_spec1 thm
+R15818:15831 Stdlib.MSets.MSetGenTree Props lt_tree_not_in thm
+R15880:15892 Stdlib.MSets.MSetGenTree Props min_elt_spec1 thm
+R15916:15929 Stdlib.MSets.MSetGenTree Props gt_tree_not_in thm
+R15963:15975 Stdlib.MSets.MSetGenTree Props gt_tree_trans thm
+prf 16011:16023 Props min_elt_spec3
+binder 16025:16025 <> s:188
+R16045:16048 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16038:16040 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16029:16035 Stdlib.MSets.MSetGenTree M min_elt def
+R16037:16037 Stdlib.MSets.MSetGenTree <> s:188 var
+R16041:16044 Corelib.Init.Datatypes <> None constr
+R16049:16053 Stdlib.MSets.MSetGenTree Props Empty def
+R16055:16055 Stdlib.MSets.MSetGenTree <> s:188 var
+prf 16225:16237 Props max_elt_spec1
+binder 16239:16239 <> s:189
+binder 16241:16241 <> x:190
+R16263:16266 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16254:16256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16245:16251 Stdlib.MSets.MSetGenTree M max_elt def
+R16253:16253 Stdlib.MSets.MSetGenTree <> s:189 var
+R16257:16260 Corelib.Init.Datatypes <> Some constr
+R16262:16262 Stdlib.MSets.MSetGenTree <> x:190 var
+R16267:16269 Stdlib.MSets.MSetGenTree Props InT ind
+R16271:16271 Stdlib.MSets.MSetGenTree <> x:190 var
+R16273:16273 Stdlib.MSets.MSetGenTree <> s:189 var
+prf 16417:16429 Props max_elt_spec2
+binder 16431:16431 <> s:191
+binder 16433:16433 <> x:192
+binder 16435:16435 <> y:193
+R16439:16440 Stdlib.MSets.MSetGenTree Props Ok class
+R16442:16442 Stdlib.MSets.MSetGenTree <> s:191 var
+binder 16439:16442 <> H:194
+R16466:16469 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16457:16459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16448:16454 Stdlib.MSets.MSetGenTree M max_elt def
+R16456:16456 Stdlib.MSets.MSetGenTree <> s:191 var
+R16460:16463 Corelib.Init.Datatypes <> Some constr
+R16465:16465 Stdlib.MSets.MSetGenTree <> x:192 var
+R16477:16480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16470:16472 Stdlib.MSets.MSetGenTree Props InT ind
+R16474:16474 Stdlib.MSets.MSetGenTree <> y:193 var
+R16476:16476 Stdlib.MSets.MSetGenTree <> s:191 var
+R16481:16482 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16483:16486 Stdlib.MSets.MSetGenTree X lt defax
+R16490:16490 Stdlib.MSets.MSetGenTree <> y:193 var
+R16488:16488 Stdlib.MSets.MSetGenTree <> x:192 var
+R16614:16624 Stdlib.MSets.MSetGenTree Props In_node_iff thm
+R16758:16768 Stdlib.MSets.MSetGenTree Props In_leaf_iff thm
+R16847:16859 Stdlib.MSets.MSetGenTree Props max_elt_spec1 thm
+R16883:16896 Stdlib.MSets.MSetGenTree Props lt_tree_not_in thm
+R16930:16942 Stdlib.MSets.MSetGenTree Props lt_tree_trans thm
+R16987:16999 Stdlib.MSets.MSetGenTree Props gt_tree_trans thm
+R17050:17062 Stdlib.MSets.MSetGenTree Props max_elt_spec1 thm
+R17077:17090 Stdlib.MSets.MSetGenTree Props gt_tree_not_in thm
+prf 17154:17166 Props max_elt_spec3
+binder 17168:17168 <> s:195
+R17188:17191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17181:17183 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17172:17178 Stdlib.MSets.MSetGenTree M max_elt def
+R17180:17180 Stdlib.MSets.MSetGenTree <> s:195 var
+R17184:17187 Corelib.Init.Datatypes <> None constr
+R17192:17196 Stdlib.MSets.MSetGenTree Props Empty def
+R17198:17198 Stdlib.MSets.MSetGenTree <> s:195 var
+prf 17368:17379 Props choose_spec1
+binder 17390:17390 <> s:196
+binder 17392:17392 <> x:197
+R17412:17415 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17403:17405 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17395:17400 Stdlib.MSets.MSetGenTree M choose def
+R17402:17402 Stdlib.MSets.MSetGenTree <> s:196 var
+R17406:17409 Corelib.Init.Datatypes <> Some constr
+R17411:17411 Stdlib.MSets.MSetGenTree <> x:197 var
+R17416:17418 Stdlib.MSets.MSetGenTree Props InT ind
+R17420:17420 Stdlib.MSets.MSetGenTree <> x:197 var
+R17422:17422 Stdlib.MSets.MSetGenTree <> s:196 var
+R17439:17451 Stdlib.MSets.MSetGenTree Props min_elt_spec1 thm
+prf 17466:17477 Props choose_spec2
+binder 17488:17488 <> s:198
+R17506:17509 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17499:17501 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17491:17496 Stdlib.MSets.MSetGenTree M choose def
+R17498:17498 Stdlib.MSets.MSetGenTree <> s:198 var
+R17502:17505 Corelib.Init.Datatypes <> None constr
+R17510:17514 Stdlib.MSets.MSetGenTree Props Empty def
+R17516:17516 Stdlib.MSets.MSetGenTree <> s:198 var
+R17533:17545 Stdlib.MSets.MSetGenTree Props min_elt_spec3 thm
+prf 17560:17571 Props choose_spec3
+binder 17582:17582 <> s:199
+binder 17584:17585 <> s':200
+binder 17587:17587 <> x:201
+binder 17589:17590 <> x':202
+R17594:17595 Stdlib.MSets.MSetGenTree Props Ok class
+R17597:17597 Stdlib.MSets.MSetGenTree <> s:199 var
+binder 17594:17597 <> H:203
+R17600:17601 Stdlib.MSets.MSetGenTree Props Ok class
+R17603:17604 Stdlib.MSets.MSetGenTree <> s':200 var
+binder 17600:17604 <> H0:204
+R17627:17630 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17618:17620 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17610:17615 Stdlib.MSets.MSetGenTree M choose def
+R17617:17617 Stdlib.MSets.MSetGenTree <> s:199 var
+R17621:17624 Corelib.Init.Datatypes <> Some constr
+R17626:17626 Stdlib.MSets.MSetGenTree <> x:201 var
+R17650:17655 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17640:17642 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17631:17636 Stdlib.MSets.MSetGenTree M choose def
+R17638:17639 Stdlib.MSets.MSetGenTree <> s':200 var
+R17643:17646 Corelib.Init.Datatypes <> Some constr
+R17648:17649 Stdlib.MSets.MSetGenTree <> x':202 var
+R17666:17669 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17656:17660 Stdlib.MSets.MSetGenTree Props Equal def
+R17662:17662 Stdlib.MSets.MSetGenTree <> s:199 var
+R17664:17665 Stdlib.MSets.MSetGenTree <> s':200 var
+R17670:17673 Stdlib.MSets.MSetGenTree X eq defax
+R17677:17678 Stdlib.MSets.MSetGenTree <> x':202 var
+R17675:17675 Stdlib.MSets.MSetGenTree <> x:201 var
+R17696:17701 Stdlib.MSets.MSetGenTree M choose def
+R17704:17708 Stdlib.MSets.MSetGenTree Props Equal def
+R17754:17754 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R17755:17758 Stdlib.MSets.MSetGenTree X lt defax
+R17777:17789 Stdlib.MSets.MSetGenTree Props min_elt_spec2 thm
+R17832:17844 Stdlib.MSets.MSetGenTree Props min_elt_spec1 thm
+R17859:17859 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R17860:17863 Stdlib.MSets.MSetGenTree X lt defax
+R17882:17894 Stdlib.MSets.MSetGenTree Props min_elt_spec2 thm
+R17934:17946 Stdlib.MSets.MSetGenTree Props min_elt_spec1 thm
+prf 18015:18029 Props elements_spec1'
+binder 18040:18040 <> s:205
+binder 18042:18044 <> acc:206
+binder 18046:18046 <> x:207
+R18081:18085 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R18050:18052 Stdlib.Sorting.SetoidList <> InA ind
+R18062:18073 Stdlib.MSets.MSetGenTree M elements_aux def
+R18075:18077 Stdlib.MSets.MSetGenTree <> acc:206 var
+R18079:18079 Stdlib.MSets.MSetGenTree <> s:205 var
+R18059:18059 Stdlib.MSets.MSetGenTree <> x:207 var
+R18054:18057 Stdlib.MSets.MSetGenTree X eq defax
+R18093:18096 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18086:18088 Stdlib.MSets.MSetGenTree Props InT ind
+R18090:18090 Stdlib.MSets.MSetGenTree <> x:207 var
+R18092:18092 Stdlib.MSets.MSetGenTree <> s:205 var
+R18097:18099 Stdlib.Sorting.SetoidList <> InA ind
+R18108:18110 Stdlib.MSets.MSetGenTree <> acc:206 var
+R18106:18106 Stdlib.MSets.MSetGenTree <> x:207 var
+R18101:18104 Stdlib.MSets.MSetGenTree X eq defax
+prf 18322:18335 Props elements_spec1
+binder 18346:18346 <> s:208
+binder 18348:18348 <> x:209
+R18374:18378 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R18351:18353 Stdlib.Sorting.SetoidList <> InA ind
+R18363:18370 Stdlib.MSets.MSetGenTree M elements def
+R18372:18372 Stdlib.MSets.MSetGenTree <> s:208 var
+R18360:18360 Stdlib.MSets.MSetGenTree <> x:209 var
+R18355:18358 Stdlib.MSets.MSetGenTree X eq defax
+R18379:18381 Stdlib.MSets.MSetGenTree Props InT ind
+R18383:18383 Stdlib.MSets.MSetGenTree <> x:209 var
+R18385:18385 Stdlib.MSets.MSetGenTree <> s:208 var
+R18416:18430 Stdlib.MSets.MSetGenTree Props elements_spec1' thm
+R18434:18436 Corelib.Init.Datatypes <> nil constr
+prf 18486:18500 Props elements_spec2'
+binder 18511:18511 <> s:210
+binder 18513:18515 <> acc:211
+R18519:18520 Stdlib.MSets.MSetGenTree Props Ok class
+R18522:18522 Stdlib.MSets.MSetGenTree <> s:210 var
+binder 18519:18522 <> H:212
+R18539:18543 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18526:18529 Stdlib.Sorting.Sorted <> sort abbrev
+R18536:18538 Stdlib.MSets.MSetGenTree <> acc:211 var
+R18531:18534 Stdlib.MSets.MSetGenTree X lt defax
+R18544:18544 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18600:18605 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18558:18560 Stdlib.MSets.MSetGenTree M elt def
+binder 18552:18552 <> x:213
+binder 18554:18554 <> y:214
+R18577:18580 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18563:18565 Stdlib.Sorting.SetoidList <> InA ind
+R18574:18576 Stdlib.MSets.MSetGenTree <> acc:211 var
+R18572:18572 Stdlib.MSets.MSetGenTree <> x:213 var
+R18567:18570 Stdlib.MSets.MSetGenTree X eq defax
+R18588:18591 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18581:18583 Stdlib.MSets.MSetGenTree Props InT ind
+R18585:18585 Stdlib.MSets.MSetGenTree <> y:214 var
+R18587:18587 Stdlib.MSets.MSetGenTree <> s:210 var
+R18592:18595 Stdlib.MSets.MSetGenTree X lt defax
+R18599:18599 Stdlib.MSets.MSetGenTree <> x:213 var
+R18597:18597 Stdlib.MSets.MSetGenTree <> y:214 var
+R18606:18609 Stdlib.Sorting.Sorted <> sort abbrev
+R18617:18628 Stdlib.MSets.MSetGenTree M elements_aux def
+R18630:18632 Stdlib.MSets.MSetGenTree <> acc:211 var
+R18634:18634 Stdlib.MSets.MSetGenTree <> s:210 var
+R18611:18614 Stdlib.MSets.MSetGenTree X lt defax
+R18771:18778 Stdlib.Sorting.SetoidList <> InA_InfA thm
+R18823:18837 Stdlib.MSets.MSetGenTree Props elements_spec1' thm
+R18921:18935 Stdlib.MSets.MSetGenTree Props elements_spec1' thm
+prf 18976:18989 Props elements_spec2
+binder 19000:19000 <> s:215
+R19004:19005 Stdlib.MSets.MSetGenTree Props Ok class
+R19007:19007 Stdlib.MSets.MSetGenTree <> s:215 var
+binder 19004:19007 <> H:216
+R19011:19014 Stdlib.Sorting.Sorted <> sort abbrev
+R19022:19029 Stdlib.MSets.MSetGenTree M elements def
+R19031:19031 Stdlib.MSets.MSetGenTree <> s:215 var
+R19016:19019 Stdlib.MSets.MSetGenTree X lt defax
+R19058:19065 Stdlib.MSets.MSetGenTree M elements def
+R19074:19088 Stdlib.MSets.MSetGenTree Props elements_spec2' thm
+prf 19177:19191 Props elements_spec2w
+binder 19202:19202 <> s:217
+R19206:19207 Stdlib.MSets.MSetGenTree Props Ok class
+R19209:19209 Stdlib.MSets.MSetGenTree <> s:217 var
+binder 19206:19209 <> H:218
+R19213:19218 Stdlib.Sorting.SetoidList <> NoDupA ind
+R19226:19233 Stdlib.MSets.MSetGenTree M elements def
+R19235:19235 Stdlib.MSets.MSetGenTree <> s:217 var
+R19220:19223 Stdlib.MSets.MSetGenTree X eq defax
+R19262:19273 Stdlib.Sorting.SetoidList <> SortA_NoDupA thm
+prf 19302:19322 Props elements_aux_cardinal
+binder 19334:19334 <> s:219
+binder 19336:19338 <> acc:220
+R19370:19372 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19352:19354 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R19342:19347 Corelib.Init.Datatypes <> length def
+R19349:19351 Stdlib.MSets.MSetGenTree <> acc:220 var
+R19355:19362 Stdlib.MSets.MSetGenTree M cardinal def
+R19364:19364 Stdlib.MSets.MSetGenTree <> s:219 var
+R19373:19378 Corelib.Init.Datatypes <> length def
+R19381:19392 Stdlib.MSets.MSetGenTree M elements_aux def
+R19394:19396 Stdlib.MSets.MSetGenTree <> acc:220 var
+R19398:19398 Stdlib.MSets.MSetGenTree <> s:219 var
+R19496:19507 Stdlib.Arith.PeanoNat Nat add_comm thm
+R19510:19517 Stdlib.MSets.MSetGenTree M cardinal def
+R19541:19554 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R19557:19569 Stdlib.Arith.PeanoNat Nat add_assoc thm
+prf 19584:19600 Props elements_cardinal
+R19615:19618 Stdlib.MSets.MSetGenTree M tree ind
+binder 19611:19611 <> s:221
+R19631:19633 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19621:19628 Stdlib.MSets.MSetGenTree M cardinal def
+R19630:19630 Stdlib.MSets.MSetGenTree <> s:221 var
+R19634:19639 Corelib.Init.Datatypes <> length def
+R19642:19649 Stdlib.MSets.MSetGenTree M elements def
+R19651:19651 Stdlib.MSets.MSetGenTree <> s:221 var
+binder 19674:19674 <> s:222
+R19679:19699 Stdlib.MSets.MSetGenTree Props elements_aux_cardinal thm
+R19701:19701 Stdlib.MSets.MSetGenTree <> s:222 var
+R19703:19705 Corelib.Init.Datatypes <> nil constr
+binder 19674:19674 <> s:223
+R19701:19701 Stdlib.MSets.MSetGenTree <> s:223 var
+def 19726:19738 Props cardinal_spec
+R19743:19746 Stdlib.MSets.MSetGenTree M tree ind
+binder 19741:19741 <> s:224
+R19752:19753 Stdlib.MSets.MSetGenTree Props Ok class
+R19755:19755 Stdlib.MSets.MSetGenTree <> s:224 var
+binder 19749:19750 <> Hs:225
+R19761:19777 Stdlib.MSets.MSetGenTree Props elements_cardinal thm
+R19779:19779 Stdlib.MSets.MSetGenTree <> s:224 var
+prf 19789:19800 Props elements_app
+binder 19812:19812 <> s:226
+binder 19814:19816 <> acc:227
+R19837:19839 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19819:19830 Stdlib.MSets.MSetGenTree M elements_aux def
+R19832:19834 Stdlib.MSets.MSetGenTree <> acc:227 var
+R19836:19836 Stdlib.MSets.MSetGenTree <> s:226 var
+R19850:19853 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19840:19847 Stdlib.MSets.MSetGenTree M elements def
+R19849:19849 Stdlib.MSets.MSetGenTree <> s:226 var
+R19854:19856 Stdlib.MSets.MSetGenTree <> acc:227 var
+R19930:19937 Stdlib.MSets.MSetGenTree M elements def
+R19971:19979 Stdlib.Lists.List <> app_nil_r thm
+R19986:19994 Stdlib.Lists.List <> app_assoc thm
+prf 20015:20027 Props elements_node
+binder 20029:20029 <> c:228
+binder 20031:20031 <> l:229
+binder 20033:20033 <> x:230
+binder 20035:20035 <> r:231
+R20063:20065 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20040:20047 Stdlib.MSets.MSetGenTree M elements def
+R20050:20053 Stdlib.MSets.MSetGenTree M Node constr
+R20055:20055 Stdlib.MSets.MSetGenTree <> c:228 var
+R20057:20057 Stdlib.MSets.MSetGenTree <> l:229 var
+R20059:20059 Stdlib.MSets.MSetGenTree <> x:230 var
+R20061:20061 Stdlib.MSets.MSetGenTree <> r:231 var
+R20076:20079 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20066:20073 Stdlib.MSets.MSetGenTree M elements def
+R20075:20075 Stdlib.MSets.MSetGenTree <> l:229 var
+R20081:20084 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20080:20080 Stdlib.MSets.MSetGenTree <> x:230 var
+R20085:20092 Stdlib.MSets.MSetGenTree M elements def
+R20094:20094 Stdlib.MSets.MSetGenTree <> r:231 var
+R20112:20119 Stdlib.MSets.MSetGenTree M elements def
+R20143:20154 Stdlib.MSets.MSetGenTree Props elements_app thm
+R20158:20166 Stdlib.Lists.List <> app_nil_r thm
+prf 20181:20196 Props rev_elements_app
+binder 20208:20208 <> s:232
+binder 20210:20212 <> acc:233
+R20237:20239 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20215:20230 Stdlib.MSets.MSetGenTree M rev_elements_aux def
+R20232:20234 Stdlib.MSets.MSetGenTree <> acc:233 var
+R20236:20236 Stdlib.MSets.MSetGenTree <> s:232 var
+R20254:20257 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20240:20251 Stdlib.MSets.MSetGenTree M rev_elements def
+R20253:20253 Stdlib.MSets.MSetGenTree <> s:232 var
+R20258:20260 Stdlib.MSets.MSetGenTree <> acc:233 var
+R20334:20345 Stdlib.MSets.MSetGenTree M rev_elements def
+R20379:20387 Stdlib.Lists.List <> app_nil_r thm
+R20394:20402 Stdlib.Lists.List <> app_assoc thm
+prf 20423:20439 Props rev_elements_node
+binder 20441:20441 <> c:234
+binder 20443:20443 <> l:235
+binder 20445:20445 <> x:236
+binder 20447:20447 <> r:237
+R20479:20481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20452:20463 Stdlib.MSets.MSetGenTree M rev_elements def
+R20466:20469 Stdlib.MSets.MSetGenTree M Node constr
+R20471:20471 Stdlib.MSets.MSetGenTree <> c:234 var
+R20473:20473 Stdlib.MSets.MSetGenTree <> l:235 var
+R20475:20475 Stdlib.MSets.MSetGenTree <> x:236 var
+R20477:20477 Stdlib.MSets.MSetGenTree <> r:237 var
+R20496:20499 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20482:20493 Stdlib.MSets.MSetGenTree M rev_elements def
+R20495:20495 Stdlib.MSets.MSetGenTree <> r:237 var
+R20501:20504 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20500:20500 Stdlib.MSets.MSetGenTree <> x:236 var
+R20505:20516 Stdlib.MSets.MSetGenTree M rev_elements def
+R20518:20518 Stdlib.MSets.MSetGenTree <> l:235 var
+R20536:20547 Stdlib.MSets.MSetGenTree M rev_elements def
+R20571:20586 Stdlib.MSets.MSetGenTree Props rev_elements_app thm
+R20590:20598 Stdlib.Lists.List <> app_nil_r thm
+prf 20613:20628 Props rev_elements_rev
+binder 20630:20630 <> s:238
+R20648:20650 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20634:20645 Stdlib.MSets.MSetGenTree M rev_elements def
+R20647:20647 Stdlib.MSets.MSetGenTree <> s:238 var
+R20651:20653 Stdlib.Lists.List <> rev def
+R20656:20663 Stdlib.MSets.MSetGenTree M elements def
+R20665:20665 Stdlib.MSets.MSetGenTree <> s:238 var
+R20730:20742 Stdlib.MSets.MSetGenTree Props elements_node thm
+R20745:20761 Stdlib.MSets.MSetGenTree Props rev_elements_node thm
+R20774:20786 Stdlib.Lists.List <> rev_app_distr thm
+R20813:20821 Stdlib.Lists.List <> app_assoc thm
+prf 20931:20944 Props sorted_app_inv
+binder 20946:20947 <> l1:239
+binder 20949:20950 <> l2:240
+R20973:20977 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20955:20958 Stdlib.Sorting.Sorted <> sort abbrev
+R20968:20969 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20966:20967 Stdlib.MSets.MSetGenTree <> l1:239 var
+R20970:20971 Stdlib.MSets.MSetGenTree <> l2:240 var
+R20960:20963 Stdlib.MSets.MSetGenTree X lt defax
+R20990:20993 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20978:20981 Stdlib.Sorting.Sorted <> sort abbrev
+R20988:20989 Stdlib.MSets.MSetGenTree <> l1:239 var
+R20983:20986 Stdlib.MSets.MSetGenTree X lt defax
+R21006:21010 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20994:20997 Stdlib.Sorting.Sorted <> sort abbrev
+R21004:21005 Stdlib.MSets.MSetGenTree <> l2:240 var
+R20999:21002 Stdlib.MSets.MSetGenTree X lt defax
+binder 21018:21019 <> x1:241
+binder 21021:21022 <> x2:242
+R21039:21042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21025:21027 Stdlib.Sorting.SetoidList <> InA ind
+R21037:21038 Stdlib.MSets.MSetGenTree <> l1:239 var
+R21034:21035 Stdlib.MSets.MSetGenTree <> x1:241 var
+R21029:21032 Stdlib.MSets.MSetGenTree X eq defax
+R21057:21060 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21043:21045 Stdlib.Sorting.SetoidList <> InA ind
+R21055:21056 Stdlib.MSets.MSetGenTree <> l2:240 var
+R21052:21053 Stdlib.MSets.MSetGenTree <> x2:242 var
+R21047:21050 Stdlib.MSets.MSetGenTree X eq defax
+R21061:21064 Stdlib.MSets.MSetGenTree X lt defax
+R21069:21070 Stdlib.MSets.MSetGenTree <> x2:242 var
+R21066:21067 Stdlib.MSets.MSetGenTree <> x1:241 var
+R21165:21171 Stdlib.Sorting.SetoidList <> InA_nil thm
+R21422:21429 Stdlib.Sorting.SetoidList <> InA_cons thm
+R21510:21513 Stdlib.MSets.MSetGenTree X eq defax
+R21521:21522 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21484:21497 Stdlib.Sorting.SetoidList <> SortA_InfA_InA thm
+R21552:21562 Stdlib.Sorting.SetoidList <> InA_app_iff thm
+prf 21599:21614 Props elements_sort_ok
+binder 21616:21616 <> s:243
+R21642:21645 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21620:21623 Stdlib.Sorting.Sorted <> sort abbrev
+R21631:21638 Stdlib.MSets.MSetGenTree M elements def
+R21640:21640 Stdlib.MSets.MSetGenTree <> s:243 var
+R21625:21628 Stdlib.MSets.MSetGenTree X lt defax
+R21646:21647 Stdlib.MSets.MSetGenTree Props Ok class
+R21649:21649 Stdlib.MSets.MSetGenTree <> s:243 var
+R21715:21727 Stdlib.MSets.MSetGenTree Props elements_node thm
+R21753:21766 Stdlib.MSets.MSetGenTree Props sorted_app_inv thm
+R21884:21897 Stdlib.MSets.MSetGenTree Props elements_spec1 thm
+R21915:21922 Stdlib.Sorting.SetoidList <> InA_cons thm
+R21990:21993 Stdlib.MSets.MSetGenTree X eq defax
+R21999:22006 Stdlib.MSets.MSetGenTree M elements def
+R21964:21977 Stdlib.Sorting.SetoidList <> SortA_InfA_InA thm
+R22038:22051 Stdlib.MSets.MSetGenTree Props elements_spec1 thm
+prf 22100:22111 Props for_all_spec
+binder 22113:22113 <> s:244
+binder 22115:22115 <> f:245
+R22139:22144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22199:22199 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22119:22124 Corelib.Classes.Morphisms <> Proper class
+R22138:22138 Stdlib.MSets.MSetGenTree <> f:245 var
+R22131:22133 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22127:22130 Stdlib.MSets.MSetGenTree X eq defax
+R22134:22135 Corelib.Init.Logic <> eq ind
+R22163:22167 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22156:22158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22145:22151 Stdlib.MSets.MSetGenTree M for_all def
+R22153:22153 Stdlib.MSets.MSetGenTree <> f:245 var
+R22155:22155 Stdlib.MSets.MSetGenTree <> s:244 var
+R22159:22162 Corelib.Init.Datatypes <> true constr
+R22168:22174 Stdlib.MSets.MSetGenTree Props For_all def
+binder 22181:22181 <> x:246
+R22189:22191 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22186:22186 Stdlib.MSets.MSetGenTree <> f:245 var
+R22188:22188 Stdlib.MSets.MSetGenTree <> x:246 var
+R22192:22195 Corelib.Init.Datatypes <> true constr
+R22198:22198 Stdlib.MSets.MSetGenTree <> s:244 var
+R22228:22234 Stdlib.MSets.MSetGenTree Props For_all def
+R22330:22342 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R22346:22358 Stdlib.Bool.Bool <> andb_true_iff thm
+prf 22422:22432 Props exists_spec
+binder 22434:22434 <> s:247
+binder 22436:22436 <> f:248
+R22460:22465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22519:22519 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22440:22445 Corelib.Classes.Morphisms <> Proper class
+R22459:22459 Stdlib.MSets.MSetGenTree <> f:248 var
+R22452:22454 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22448:22451 Stdlib.MSets.MSetGenTree X eq defax
+R22455:22456 Corelib.Init.Logic <> eq ind
+R22484:22488 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22477:22479 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22466:22472 Stdlib.MSets.MSetGenTree M exists_ def
+R22474:22474 Stdlib.MSets.MSetGenTree <> f:248 var
+R22476:22476 Stdlib.MSets.MSetGenTree <> s:247 var
+R22480:22483 Corelib.Init.Datatypes <> true constr
+R22489:22494 Stdlib.MSets.MSetGenTree Props Exists def
+binder 22501:22501 <> x:249
+R22509:22511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22506:22506 Stdlib.MSets.MSetGenTree <> f:248 var
+R22508:22508 Stdlib.MSets.MSetGenTree <> x:249 var
+R22512:22515 Corelib.Init.Datatypes <> true constr
+R22518:22518 Stdlib.MSets.MSetGenTree <> s:247 var
+R22548:22553 Stdlib.MSets.MSetGenTree Props Exists def
+R22677:22688 Stdlib.Bool.Bool <> orb_lazy_alt thm
+R22692:22703 Stdlib.Bool.Bool <> orb_true_iff thm
+prf 22951:22960 Props fold_spec'
+binder 22963:22963 <> A:250
+R22974:22977 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22971:22973 Stdlib.MSets.MSetGenTree M elt def
+R22979:22982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22978:22978 Stdlib.MSets.MSetGenTree <> A:250 var
+R22983:22983 Stdlib.MSets.MSetGenTree <> A:250 var
+binder 22967:22967 <> f:251
+R22991:22994 Stdlib.MSets.MSetGenTree M tree ind
+binder 22987:22987 <> s:252
+R23002:23002 Stdlib.MSets.MSetGenTree <> A:250 var
+binder 22998:22998 <> i:253
+R23012:23015 Corelib.Init.Datatypes <> list ind
+R23017:23019 Stdlib.MSets.MSetGenTree M elt def
+binder 23006:23008 <> acc:254
+R23066:23068 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23025:23033 Stdlib.Lists.List <> fold_left def
+R23065:23065 Stdlib.MSets.MSetGenTree <> i:253 var
+R23045:23056 Stdlib.MSets.MSetGenTree M elements_aux def
+R23058:23060 Stdlib.MSets.MSetGenTree <> acc:254 var
+R23062:23062 Stdlib.MSets.MSetGenTree <> s:252 var
+R23036:23039 Corelib.Program.Basics <> flip def
+R23041:23041 Stdlib.MSets.MSetGenTree <> f:251 var
+R23069:23077 Stdlib.Lists.List <> fold_left def
+R23093:23096 Stdlib.MSets.MSetGenTree M fold def
+R23102:23102 Stdlib.MSets.MSetGenTree <> i:253 var
+R23100:23100 Stdlib.MSets.MSetGenTree <> s:252 var
+R23098:23098 Stdlib.MSets.MSetGenTree <> f:251 var
+R23088:23090 Stdlib.MSets.MSetGenTree <> acc:254 var
+R23080:23083 Corelib.Program.Basics <> flip def
+R23085:23085 Stdlib.MSets.MSetGenTree <> f:251 var
+R23214:23217 Corelib.Program.Basics <> flip def
+prf 23249:23257 Props fold_spec
+R23262:23265 Stdlib.MSets.MSetGenTree M tree ind
+binder 23260:23260 <> s:255
+binder 23269:23269 <> A:256
+R23277:23277 Stdlib.MSets.MSetGenTree <> A:256 var
+binder 23273:23273 <> i:257
+R23288:23291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23285:23287 Stdlib.MSets.MSetGenTree M elt def
+R23293:23296 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23292:23292 Stdlib.MSets.MSetGenTree <> A:256 var
+R23297:23297 Stdlib.MSets.MSetGenTree <> A:256 var
+binder 23281:23281 <> f:258
+R23313:23315 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23303:23306 Stdlib.MSets.MSetGenTree M fold def
+R23312:23312 Stdlib.MSets.MSetGenTree <> i:257 var
+R23310:23310 Stdlib.MSets.MSetGenTree <> s:255 var
+R23308:23308 Stdlib.MSets.MSetGenTree <> f:258 var
+R23316:23324 Stdlib.Lists.List <> fold_left def
+R23348:23348 Stdlib.MSets.MSetGenTree <> i:257 var
+R23336:23343 Stdlib.MSets.MSetGenTree M elements def
+R23345:23345 Stdlib.MSets.MSetGenTree <> s:255 var
+R23327:23330 Corelib.Program.Basics <> flip def
+R23332:23332 Stdlib.MSets.MSetGenTree <> f:258 var
+R23376:23383 Stdlib.MSets.MSetGenTree M elements def
+R23452:23461 Stdlib.MSets.MSetGenTree Props fold_spec' thm
+prf 23523:23534 Props subsetl_spec
+binder 23545:23553 <> subset_l1:259
+binder 23555:23556 <> l1:260
+binder 23558:23559 <> x1:261
+binder 23561:23562 <> c1:262
+binder 23564:23565 <> s2:263
+R23570:23571 Stdlib.MSets.MSetGenTree Props Ok class
+R23574:23577 Stdlib.MSets.MSetGenTree M Node constr
+R23579:23580 Stdlib.MSets.MSetGenTree <> c1:262 var
+R23582:23583 Stdlib.MSets.MSetGenTree <> l1:260 var
+R23585:23586 Stdlib.MSets.MSetGenTree <> x1:261 var
+R23588:23591 Stdlib.MSets.MSetGenTree M Leaf constr
+binder 23570:23592 <> H:264
+R23595:23596 Stdlib.MSets.MSetGenTree Props Ok class
+R23598:23599 Stdlib.MSets.MSetGenTree <> s2:263 var
+binder 23595:23599 <> H0:265
+R23604:23604 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23659:23665 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23731:23732 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 23612:23612 <> s:266
+R23616:23617 Stdlib.MSets.MSetGenTree Props Ok class
+R23619:23619 Stdlib.MSets.MSetGenTree <> s:266 var
+binder 23616:23619 <> H1:267
+R23642:23646 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R23635:23637 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23624:23632 Stdlib.MSets.MSetGenTree <> subset_l1:259 var
+R23634:23634 Stdlib.MSets.MSetGenTree <> s:266 var
+R23638:23641 Corelib.Init.Datatypes <> true constr
+R23647:23652 Stdlib.MSets.MSetGenTree Props Subset def
+R23654:23655 Stdlib.MSets.MSetGenTree <> l1:260 var
+R23657:23657 Stdlib.MSets.MSetGenTree <> s:266 var
+R23696:23700 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R23689:23691 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23666:23672 Stdlib.MSets.MSetGenTree M subsetl def
+R23674:23682 Stdlib.MSets.MSetGenTree <> subset_l1:259 var
+R23684:23685 Stdlib.MSets.MSetGenTree <> x1:261 var
+R23687:23688 Stdlib.MSets.MSetGenTree <> s2:263 var
+R23692:23695 Corelib.Init.Datatypes <> true constr
+R23701:23706 Stdlib.MSets.MSetGenTree Props Subset def
+R23709:23712 Stdlib.MSets.MSetGenTree M Node constr
+R23714:23715 Stdlib.MSets.MSetGenTree <> c1:262 var
+R23717:23718 Stdlib.MSets.MSetGenTree <> l1:260 var
+R23720:23721 Stdlib.MSets.MSetGenTree <> x1:261 var
+R23723:23726 Stdlib.MSets.MSetGenTree M Leaf constr
+R23729:23730 Stdlib.MSets.MSetGenTree <> s2:263 var
+R23810:23815 Stdlib.MSets.MSetGenTree Props Subset def
+R23862:23864 Stdlib.MSets.MSetGenTree Props InT ind
+R23869:23872 Stdlib.MSets.MSetGenTree M Leaf constr
+R24035:24040 Stdlib.MSets.MSetGenTree Props Subset def
+R24072:24075 Stdlib.MSets.MSetGenTree X eq defax
+R24122:24124 Stdlib.MSets.MSetGenTree Props InT ind
+R24129:24132 Stdlib.MSets.MSetGenTree M Node constr
+R24238:24243 Stdlib.MSets.MSetGenTree Props Subset def
+R24275:24277 Stdlib.MSets.MSetGenTree Props InT ind
+R24282:24285 Stdlib.MSets.MSetGenTree M Node constr
+R24346:24348 Stdlib.MSets.MSetGenTree Props InT ind
+R24353:24356 Stdlib.MSets.MSetGenTree M Node constr
+R24418:24430 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R24433:24445 Stdlib.Bool.Bool <> andb_true_iff thm
+R24492:24497 Stdlib.MSets.MSetGenTree Props Subset def
+R24579:24586 Stdlib.MSets.MSetGenTree Props mem_spec thm
+R24610:24617 Stdlib.MSets.MSetGenTree Props mem_spec thm
+R24641:24643 Stdlib.MSets.MSetGenTree Props InT ind
+R24649:24652 Stdlib.MSets.MSetGenTree M Node constr
+prf 24711:24722 Props subsetr_spec
+binder 24733:24741 <> subset_r1:268
+binder 24743:24744 <> r1:269
+binder 24746:24747 <> x1:270
+binder 24749:24750 <> c1:271
+binder 24752:24753 <> s2:272
+R24781:24784 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24757:24759 Stdlib.MSets.MSetGenTree Props bst ind
+R24762:24765 Stdlib.MSets.MSetGenTree M Node constr
+R24767:24768 Stdlib.MSets.MSetGenTree <> c1:271 var
+R24770:24773 Stdlib.MSets.MSetGenTree M Leaf constr
+R24775:24776 Stdlib.MSets.MSetGenTree <> x1:270 var
+R24778:24779 Stdlib.MSets.MSetGenTree <> r1:269 var
+R24791:24795 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24785:24787 Stdlib.MSets.MSetGenTree Props bst ind
+R24789:24790 Stdlib.MSets.MSetGenTree <> s2:272 var
+R24796:24796 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24852:24858 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24924:24924 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 24804:24804 <> s:273
+R24812:24816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24851:24851 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24807:24809 Stdlib.MSets.MSetGenTree Props bst ind
+R24811:24811 Stdlib.MSets.MSetGenTree <> s:273 var
+R24835:24839 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R24828:24830 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24817:24825 Stdlib.MSets.MSetGenTree <> subset_r1:268 var
+R24827:24827 Stdlib.MSets.MSetGenTree <> s:273 var
+R24831:24834 Corelib.Init.Datatypes <> true constr
+R24840:24845 Stdlib.MSets.MSetGenTree Props Subset def
+R24847:24848 Stdlib.MSets.MSetGenTree <> r1:269 var
+R24850:24850 Stdlib.MSets.MSetGenTree <> s:273 var
+R24889:24893 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R24882:24884 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24859:24865 Stdlib.MSets.MSetGenTree M subsetr def
+R24867:24875 Stdlib.MSets.MSetGenTree <> subset_r1:268 var
+R24877:24878 Stdlib.MSets.MSetGenTree <> x1:270 var
+R24880:24881 Stdlib.MSets.MSetGenTree <> s2:272 var
+R24885:24888 Corelib.Init.Datatypes <> true constr
+R24894:24899 Stdlib.MSets.MSetGenTree Props Subset def
+R24902:24905 Stdlib.MSets.MSetGenTree M Node constr
+R24907:24908 Stdlib.MSets.MSetGenTree <> c1:271 var
+R24910:24913 Stdlib.MSets.MSetGenTree M Leaf constr
+R24915:24916 Stdlib.MSets.MSetGenTree <> x1:270 var
+R24918:24919 Stdlib.MSets.MSetGenTree <> r1:269 var
+R24922:24923 Stdlib.MSets.MSetGenTree <> s2:272 var
+R25002:25007 Stdlib.MSets.MSetGenTree Props Subset def
+R25054:25056 Stdlib.MSets.MSetGenTree Props InT ind
+R25061:25064 Stdlib.MSets.MSetGenTree M Leaf constr
+R25227:25232 Stdlib.MSets.MSetGenTree Props Subset def
+R25264:25267 Stdlib.MSets.MSetGenTree X eq defax
+R25314:25316 Stdlib.MSets.MSetGenTree Props InT ind
+R25321:25324 Stdlib.MSets.MSetGenTree M Node constr
+R25386:25398 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R25401:25413 Stdlib.Bool.Bool <> andb_true_iff thm
+R25461:25466 Stdlib.MSets.MSetGenTree Props Subset def
+R25548:25555 Stdlib.MSets.MSetGenTree Props mem_spec thm
+R25579:25586 Stdlib.MSets.MSetGenTree Props mem_spec thm
+R25610:25612 Stdlib.MSets.MSetGenTree Props InT ind
+R25618:25621 Stdlib.MSets.MSetGenTree M Node constr
+R25727:25732 Stdlib.MSets.MSetGenTree Props Subset def
+R25764:25766 Stdlib.MSets.MSetGenTree Props InT ind
+R25771:25774 Stdlib.MSets.MSetGenTree M Node constr
+R25835:25837 Stdlib.MSets.MSetGenTree Props InT ind
+R25842:25845 Stdlib.MSets.MSetGenTree M Node constr
+prf 25903:25913 Props subset_spec
+binder 25924:25925 <> s1:274
+binder 25927:25928 <> s2:275
+R25932:25933 Stdlib.MSets.MSetGenTree Props Ok class
+R25935:25936 Stdlib.MSets.MSetGenTree <> s1:274 var
+binder 25932:25936 <> H:276
+R25939:25940 Stdlib.MSets.MSetGenTree Props Ok class
+R25942:25943 Stdlib.MSets.MSetGenTree <> s2:275 var
+binder 25939:25943 <> H0:277
+R25968:25972 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R25961:25963 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25949:25954 Stdlib.MSets.MSetGenTree M subset def
+R25956:25957 Stdlib.MSets.MSetGenTree <> s1:274 var
+R25959:25960 Stdlib.MSets.MSetGenTree <> s2:275 var
+R25964:25967 Corelib.Init.Datatypes <> true constr
+R25973:25978 Stdlib.MSets.MSetGenTree Props Subset def
+R25980:25981 Stdlib.MSets.MSetGenTree <> s1:274 var
+R25983:25984 Stdlib.MSets.MSetGenTree <> s2:275 var
+R26063:26068 Stdlib.MSets.MSetGenTree Props Subset def
+R26146:26151 Stdlib.MSets.MSetGenTree Props Subset def
+R26203:26205 Stdlib.MSets.MSetGenTree Props InT ind
+R26210:26213 Stdlib.MSets.MSetGenTree M Leaf constr
+R26292:26304 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R26307:26319 Stdlib.Bool.Bool <> andb_true_iff thm
+R26380:26385 Stdlib.MSets.MSetGenTree Props Subset def
+R26420:26423 Stdlib.MSets.MSetGenTree X eq defax
+R26473:26475 Stdlib.MSets.MSetGenTree Props InT ind
+R26480:26483 Stdlib.MSets.MSetGenTree M Node constr
+R26547:26549 Stdlib.MSets.MSetGenTree Props InT ind
+R26554:26557 Stdlib.MSets.MSetGenTree M Node constr
+R26621:26633 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R26636:26648 Stdlib.Bool.Bool <> andb_true_iff thm
+R26682:26693 Stdlib.MSets.MSetGenTree Props subsetl_spec thm
+R26696:26701 Stdlib.MSets.MSetGenTree M subset def
+R26764:26769 Stdlib.MSets.MSetGenTree Props Subset def
+R26804:26806 Stdlib.MSets.MSetGenTree Props InT ind
+R26811:26814 Stdlib.MSets.MSetGenTree M Node constr
+R26878:26880 Stdlib.MSets.MSetGenTree Props InT ind
+R26885:26888 Stdlib.MSets.MSetGenTree M Node constr
+R26952:26964 Stdlib.Bool.Bool <> andb_lazy_alt thm
+R26967:26979 Stdlib.Bool.Bool <> andb_true_iff thm
+R27013:27024 Stdlib.MSets.MSetGenTree Props subsetr_spec thm
+R27027:27032 Stdlib.MSets.MSetGenTree M subset def
+R27095:27100 Stdlib.MSets.MSetGenTree Props Subset def
+R27135:27137 Stdlib.MSets.MSetGenTree Props InT ind
+R27142:27145 Stdlib.MSets.MSetGenTree M Node constr
+R27209:27211 Stdlib.MSets.MSetGenTree Props InT ind
+R27216:27219 Stdlib.MSets.MSetGenTree M Node constr
+R27349:27378 Stdlib.MSets.MSetInterface MakeListOrdering <> mod
+R27380:27380 Stdlib.MSets.MSetGenTree X <> mod
+mod 27344:27344 <> Props.L
+def 27395:27396 Props eq
+R27401:27405 Stdlib.MSets.MSetGenTree Props Equal def
+inst 27427:27434 Props eq_equiv
+R27438:27448 Corelib.Classes.RelationClasses <> Equivalence class
+R27450:27451 Stdlib.MSets.MSetGenTree Props eq def
+prf 27485:27490 Props eq_Leq
+binder 27501:27501 <> s:278
+binder 27503:27504 <> s':279
+R27514:27518 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R27507:27508 Stdlib.MSets.MSetGenTree Props eq def
+R27510:27510 Stdlib.MSets.MSetGenTree <> s:278 var
+R27512:27513 Stdlib.MSets.MSetGenTree <> s':279 var
+R27519:27522 Stdlib.MSets.MSetGenTree Props eq def
+R27538:27545 Stdlib.MSets.MSetGenTree M elements def
+R27547:27548 Stdlib.MSets.MSetGenTree <> s':279 var
+R27525:27532 Stdlib.MSets.MSetGenTree M elements def
+R27534:27534 Stdlib.MSets.MSetGenTree <> s:278 var
+R27567:27568 Stdlib.MSets.MSetGenTree Props eq def
+R27571:27575 Stdlib.MSets.MSetGenTree Props Equal def
+R27578:27581 Stdlib.MSets.MSetGenTree Props eq def
+R27608:27621 Stdlib.MSets.MSetGenTree Props elements_spec1 thm
+def 27654:27655 Props lt
+R27666:27669 Stdlib.MSets.MSetGenTree M tree ind
+binder 27658:27659 <> s1:280
+binder 27661:27662 <> s2:281
+R27683:27689 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27697:27698 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 27690:27692 <> s1':282
+binder 27694:27696 <> s2':283
+R27705:27708 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27699:27700 Stdlib.MSets.MSetGenTree Props Ok class
+R27702:27704 Stdlib.MSets.MSetGenTree <> s1':282 var
+R27715:27718 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27709:27710 Stdlib.MSets.MSetGenTree Props Ok class
+R27712:27714 Stdlib.MSets.MSetGenTree <> s2':283 var
+R27728:27731 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27719:27720 Stdlib.MSets.MSetGenTree Props eq def
+R27722:27723 Stdlib.MSets.MSetGenTree <> s1:280 var
+R27725:27727 Stdlib.MSets.MSetGenTree <> s1':282 var
+R27741:27747 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27732:27733 Stdlib.MSets.MSetGenTree Props eq def
+R27735:27736 Stdlib.MSets.MSetGenTree <> s2:281 var
+R27738:27740 Stdlib.MSets.MSetGenTree <> s2':283 var
+R27748:27751 Stdlib.MSets.MSetGenTree Props lt def
+R27769:27776 Stdlib.MSets.MSetGenTree M elements def
+R27778:27780 Stdlib.MSets.MSetGenTree <> s2':283 var
+R27754:27761 Stdlib.MSets.MSetGenTree M elements def
+R27763:27765 Stdlib.MSets.MSetGenTree <> s1':282 var
+R27809:27812 Stdlib.MSets.MSetGenTree Props eq def
+R27814:27823 Stdlib.Sorting.SetoidList <> equivlistA def
+inst 27846:27856 Props lt_strorder
+R27860:27870 Corelib.Classes.RelationClasses <> StrictOrder class
+R27872:27873 Stdlib.MSets.MSetGenTree Props lt def
+R27949:27955 Stdlib.Sorting.SetoidList <> eqlistA ind
+R27977:27984 Stdlib.MSets.MSetGenTree M elements def
+R27963:27970 Stdlib.MSets.MSetGenTree M elements def
+R27957:27960 Stdlib.MSets.MSetGenTree X eq defax
+R28039:28042 Stdlib.MSets.MSetGenTree X lt defax
+R28003:28026 Stdlib.Sorting.SetoidList <> SortA_equivlistA_eqlistA thm
+R28075:28080 Stdlib.MSets.MSetGenTree Props eq_Leq thm
+R28154:28176 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R28179:28186 Stdlib.MSets.MSetGenTree M elements def
+R28363:28369 Stdlib.Sorting.SetoidList <> eqlistA ind
+R28392:28399 Stdlib.MSets.MSetGenTree M elements def
+R28377:28384 Stdlib.MSets.MSetGenTree M elements def
+R28371:28374 Stdlib.MSets.MSetGenTree X eq defax
+R28456:28459 Stdlib.MSets.MSetGenTree X lt defax
+R28420:28443 Stdlib.Sorting.SetoidList <> SortA_equivlistA_eqlistA thm
+R28492:28497 Stdlib.MSets.MSetGenTree Props eq_Leq thm
+R28558:28565 Stdlib.MSets.MSetGenTree M elements def
+inst 28626:28634 Props lt_compat
+R28638:28643 Corelib.Classes.Morphisms <> Proper class
+R28661:28662 Stdlib.MSets.MSetGenTree Props lt def
+R28648:28650 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R28646:28647 Stdlib.MSets.MSetGenTree Props eq def
+R28653:28655 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R28651:28652 Stdlib.MSets.MSetGenTree Props eq def
+R28656:28658 Corelib.Init.Logic <> iff def
+def 29244:29252 Props flatten_e
+R29259:29269 Stdlib.MSets.MSetGenTree M enumeration ind
+binder 29255:29255 <> e:284
+R29274:29277 Corelib.Init.Datatypes <> list ind
+R29279:29281 Stdlib.MSets.MSetGenTree M elt def
+R29292:29292 Stdlib.MSets.MSetGenTree <> e:284 var
+R29303:29305 Stdlib.MSets.MSetGenTree M End constr
+R29310:29312 Corelib.Init.Datatypes <> nil constr
+R29318:29321 Stdlib.MSets.MSetGenTree M More constr
+R29333:29336 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29347:29350 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29337:29344 Stdlib.MSets.MSetGenTree M elements def
+R29351:29359 Stdlib.MSets.MSetGenTree <> flatten_e:285 def
+prf 29376:29393 Props flatten_e_elements
+binder 29405:29405 <> l:287
+binder 29407:29407 <> x:288
+binder 29409:29409 <> r:289
+binder 29411:29411 <> c:290
+binder 29413:29413 <> e:291
+R29453:29455 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29427:29430 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29417:29424 Stdlib.MSets.MSetGenTree M elements def
+R29426:29426 Stdlib.MSets.MSetGenTree <> l:287 var
+R29431:29439 Stdlib.MSets.MSetGenTree Props flatten_e def
+R29442:29445 Stdlib.MSets.MSetGenTree M More constr
+R29447:29447 Stdlib.MSets.MSetGenTree <> x:288 var
+R29449:29449 Stdlib.MSets.MSetGenTree <> r:289 var
+R29451:29451 Stdlib.MSets.MSetGenTree <> e:291 var
+R29479:29482 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29456:29463 Stdlib.MSets.MSetGenTree M elements def
+R29466:29469 Stdlib.MSets.MSetGenTree M Node constr
+R29471:29471 Stdlib.MSets.MSetGenTree <> c:290 var
+R29473:29473 Stdlib.MSets.MSetGenTree <> l:287 var
+R29475:29475 Stdlib.MSets.MSetGenTree <> x:288 var
+R29477:29477 Stdlib.MSets.MSetGenTree <> r:289 var
+R29483:29491 Stdlib.MSets.MSetGenTree Props flatten_e def
+R29493:29493 Stdlib.MSets.MSetGenTree <> e:291 var
+R29524:29536 Stdlib.MSets.MSetGenTree Props elements_node thm
+R29542:29550 Stdlib.Lists.List <> app_assoc thm
+prf 29565:29570 Props cons_1
+binder 29581:29581 <> s:292
+binder 29583:29583 <> e:293
+R29608:29610 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29588:29596 Stdlib.MSets.MSetGenTree Props flatten_e def
+R29599:29602 Stdlib.MSets.MSetGenTree M cons def
+R29604:29604 Stdlib.MSets.MSetGenTree <> s:292 var
+R29606:29606 Stdlib.MSets.MSetGenTree <> e:293 var
+R29621:29624 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29611:29618 Stdlib.MSets.MSetGenTree M elements def
+R29620:29620 Stdlib.MSets.MSetGenTree <> s:292 var
+R29625:29633 Stdlib.MSets.MSetGenTree Props flatten_e def
+R29635:29635 Stdlib.MSets.MSetGenTree <> e:293 var
+R29701:29718 Stdlib.MSets.MSetGenTree Props flatten_e_elements thm
+def 29777:29779 Props Cmp
+binder 29781:29781 <> c:294
+binder 29783:29783 <> x:295
+binder 29785:29785 <> y:296
+R29790:29797 Corelib.Init.Datatypes <> CompSpec def
+R29813:29813 Stdlib.MSets.MSetGenTree <> c:294 var
+R29811:29811 Stdlib.MSets.MSetGenTree <> y:296 var
+R29809:29809 Stdlib.MSets.MSetGenTree <> x:295 var
+R29804:29807 Stdlib.MSets.MSetGenTree Props lt def
+R29799:29802 Stdlib.MSets.MSetGenTree Props eq def
+R29838:29840 Stdlib.MSets.MSetGenTree Props Cmp def
+R29842:29845 Corelib.Program.Basics <> flip def
+prf 29862:29876 Props compare_end_Cmp
+binder 29888:29889 <> e2:297
+R29892:29894 Stdlib.MSets.MSetGenTree Props Cmp def
+R29897:29907 Stdlib.MSets.MSetGenTree M compare_end def
+R29909:29910 Stdlib.MSets.MSetGenTree <> e2:297 var
+R29913:29915 Corelib.Init.Datatypes <> nil constr
+R29918:29926 Stdlib.MSets.MSetGenTree Props flatten_e def
+R29928:29929 Stdlib.MSets.MSetGenTree <> e2:297 var
+prf 30005:30020 Props compare_more_Cmp
+binder 30031:30032 <> x1:298
+binder 30034:30037 <> cont:299
+binder 30039:30040 <> x2:300
+binder 30042:30043 <> r2:301
+binder 30045:30046 <> e2:302
+binder 30048:30048 <> l:303
+R30108:30114 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30053:30055 Stdlib.MSets.MSetGenTree Props Cmp def
+R30058:30061 Stdlib.MSets.MSetGenTree <> cont:299 var
+R30064:30067 Stdlib.MSets.MSetGenTree M cons def
+R30069:30070 Stdlib.MSets.MSetGenTree <> r2:301 var
+R30072:30073 Stdlib.MSets.MSetGenTree <> e2:302 var
+R30077:30077 Stdlib.MSets.MSetGenTree <> l:303 var
+R30091:30094 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30080:30087 Stdlib.MSets.MSetGenTree M elements def
+R30089:30090 Stdlib.MSets.MSetGenTree <> r2:301 var
+R30095:30103 Stdlib.MSets.MSetGenTree Props flatten_e def
+R30105:30106 Stdlib.MSets.MSetGenTree <> e2:302 var
+R30115:30117 Stdlib.MSets.MSetGenTree Props Cmp def
+R30120:30131 Stdlib.MSets.MSetGenTree M compare_more def
+R30133:30134 Stdlib.MSets.MSetGenTree <> x1:298 var
+R30136:30139 Stdlib.MSets.MSetGenTree <> cont:299 var
+R30142:30145 Stdlib.MSets.MSetGenTree M More constr
+R30147:30148 Stdlib.MSets.MSetGenTree <> x2:300 var
+R30150:30151 Stdlib.MSets.MSetGenTree <> r2:301 var
+R30153:30154 Stdlib.MSets.MSetGenTree <> e2:302 var
+R30161:30162 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30159:30160 Stdlib.MSets.MSetGenTree <> x1:298 var
+R30163:30163 Stdlib.MSets.MSetGenTree <> l:303 var
+R30173:30181 Stdlib.MSets.MSetGenTree Props flatten_e def
+R30184:30187 Stdlib.MSets.MSetGenTree M More constr
+R30189:30190 Stdlib.MSets.MSetGenTree <> x2:300 var
+R30192:30193 Stdlib.MSets.MSetGenTree <> r2:301 var
+R30195:30196 Stdlib.MSets.MSetGenTree <> e2:302 var
+prf 30274:30289 Props compare_cont_Cmp
+binder 30300:30301 <> s1:304
+binder 30303:30306 <> cont:305
+binder 30308:30309 <> e2:306
+binder 30311:30311 <> l:307
+R30315:30315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30354:30359 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 30323:30323 <> e:308
+R30326:30328 Stdlib.MSets.MSetGenTree Props Cmp def
+R30331:30334 Stdlib.MSets.MSetGenTree <> cont:305 var
+R30336:30336 Stdlib.MSets.MSetGenTree <> e:308 var
+R30339:30339 Stdlib.MSets.MSetGenTree <> l:307 var
+R30342:30350 Stdlib.MSets.MSetGenTree Props flatten_e def
+R30352:30352 Stdlib.MSets.MSetGenTree <> e:308 var
+R30360:30362 Stdlib.MSets.MSetGenTree Props Cmp def
+R30365:30376 Stdlib.MSets.MSetGenTree M compare_cont def
+R30378:30379 Stdlib.MSets.MSetGenTree <> s1:304 var
+R30381:30384 Stdlib.MSets.MSetGenTree <> cont:305 var
+R30386:30387 Stdlib.MSets.MSetGenTree <> e2:306 var
+R30402:30405 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30391:30398 Stdlib.MSets.MSetGenTree M elements def
+R30400:30401 Stdlib.MSets.MSetGenTree <> s1:304 var
+R30406:30406 Stdlib.MSets.MSetGenTree <> l:307 var
+R30410:30418 Stdlib.MSets.MSetGenTree Props flatten_e def
+R30420:30421 Stdlib.MSets.MSetGenTree <> e2:306 var
+R30496:30508 Stdlib.MSets.MSetGenTree Props elements_node thm
+R30514:30522 Stdlib.Lists.List <> app_assoc thm
+R30605:30620 Stdlib.MSets.MSetGenTree Props compare_more_Cmp thm
+R30637:30642 Stdlib.MSets.MSetGenTree Props cons_1 thm
+prf 30663:30673 Props compare_Cmp
+binder 30684:30685 <> s1:309
+binder 30687:30688 <> s2:310
+R30692:30694 Stdlib.MSets.MSetGenTree Props Cmp def
+R30697:30703 Stdlib.MSets.MSetGenTree M compare def
+R30705:30706 Stdlib.MSets.MSetGenTree <> s1:309 var
+R30708:30709 Stdlib.MSets.MSetGenTree <> s2:310 var
+R30713:30720 Stdlib.MSets.MSetGenTree M elements def
+R30722:30723 Stdlib.MSets.MSetGenTree <> s1:309 var
+R30727:30734 Stdlib.MSets.MSetGenTree M elements def
+R30736:30737 Stdlib.MSets.MSetGenTree <> s2:310 var
+R30764:30770 Stdlib.MSets.MSetGenTree M compare def
+R30786:30794 Stdlib.Lists.List <> app_nil_r thm
+R30797:30804 Stdlib.MSets.MSetGenTree M elements def
+R30822:30829 Stdlib.MSets.MSetGenTree M elements def
+R30841:30849 Stdlib.MSets.MSetGenTree Props flatten_e def
+R30852:30855 Stdlib.MSets.MSetGenTree M cons def
+R30860:30862 Stdlib.MSets.MSetGenTree M End constr
+R30880:30885 Stdlib.MSets.MSetGenTree Props cons_1 thm
+R30903:30911 Stdlib.Lists.List <> app_nil_r thm
+R30928:30943 Stdlib.MSets.MSetGenTree Props compare_cont_Cmp thm
+R30968:30982 Stdlib.MSets.MSetGenTree Props compare_end_Cmp thm
+prf 31003:31014 Props compare_spec
+binder 31025:31026 <> s1:311
+binder 31028:31029 <> s2:312
+R31033:31034 Stdlib.MSets.MSetGenTree Props Ok class
+R31036:31037 Stdlib.MSets.MSetGenTree <> s1:311 var
+binder 31033:31037 <> H:313
+R31040:31041 Stdlib.MSets.MSetGenTree Props Ok class
+R31043:31044 Stdlib.MSets.MSetGenTree <> s2:312 var
+binder 31040:31044 <> H0:314
+R31049:31056 Corelib.Init.Datatypes <> CompSpec def
+R31071:31077 Stdlib.MSets.MSetGenTree M compare def
+R31079:31080 Stdlib.MSets.MSetGenTree <> s1:311 var
+R31082:31083 Stdlib.MSets.MSetGenTree <> s2:312 var
+R31067:31068 Stdlib.MSets.MSetGenTree <> s2:312 var
+R31064:31065 Stdlib.MSets.MSetGenTree <> s1:311 var
+R31061:31062 Stdlib.MSets.MSetGenTree Props lt def
+R31058:31059 Stdlib.MSets.MSetGenTree Props eq def
+R31114:31124 Stdlib.MSets.MSetGenTree Props compare_Cmp thm
+R31158:31163 Stdlib.MSets.MSetGenTree Props eq_Leq thm
+prf 31302:31311 Props equal_spec
+binder 31322:31323 <> s1:315
+binder 31325:31326 <> s2:316
+R31330:31331 Stdlib.MSets.MSetGenTree Props Ok class
+R31333:31334 Stdlib.MSets.MSetGenTree <> s1:315 var
+binder 31330:31334 <> H:317
+R31337:31338 Stdlib.MSets.MSetGenTree Props Ok class
+R31340:31341 Stdlib.MSets.MSetGenTree <> s2:316 var
+binder 31337:31341 <> H0:318
+R31364:31368 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R31357:31359 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31346:31350 Stdlib.MSets.MSetGenTree M equal def
+R31352:31353 Stdlib.MSets.MSetGenTree <> s1:315 var
+R31355:31356 Stdlib.MSets.MSetGenTree <> s2:316 var
+R31360:31363 Corelib.Init.Datatypes <> true constr
+R31369:31370 Stdlib.MSets.MSetGenTree Props eq def
+R31372:31373 Stdlib.MSets.MSetGenTree <> s1:315 var
+R31375:31376 Stdlib.MSets.MSetGenTree <> s2:316 var
+R31393:31397 Stdlib.MSets.MSetGenTree M equal def
+R31431:31442 Stdlib.MSets.MSetGenTree Props compare_spec thm
+R31537:31559 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R31597:31619 Corelib.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 31701:31717 Props mindepth_maxdepth
+binder 31719:31719 <> s:319
+R31733:31736 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R31723:31730 Stdlib.MSets.MSetGenTree M mindepth def
+R31732:31732 Stdlib.MSets.MSetGenTree <> s:319 var
+R31737:31744 Stdlib.MSets.MSetGenTree M maxdepth def
+R31746:31746 Stdlib.MSets.MSetGenTree <> s:319 var
+R31795:31810 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R31828:31835 Stdlib.MSets.MSetGenTree M mindepth def
+R31851:31862 Stdlib.Arith.PeanoNat Nat le_min_l thm
+R31882:31889 Stdlib.MSets.MSetGenTree M maxdepth def
+R31921:31932 Stdlib.Arith.PeanoNat Nat le_max_l thm
+prf 31947:31963 Props maxdepth_cardinal
+binder 31965:31965 <> s:320
+R31979:31981 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R31969:31976 Stdlib.MSets.MSetGenTree M cardinal def
+R31978:31978 Stdlib.MSets.MSetGenTree <> s:320 var
+R31983:31984 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R31995:31995 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R31985:31992 Stdlib.MSets.MSetGenTree M maxdepth def
+R31994:31994 Stdlib.MSets.MSetGenTree <> s:320 var
+R32013:32020 Corelib.Init.Peano <> lt def
+R32089:32102 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R32108:32121 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R32124:32134 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R32146:32160 Stdlib.Arith.PeanoNat Nat add_le_mono thm
+R32217:32231 Stdlib.Arith.PeanoNat Nat pow_le_mono thm
+R32251:32262 Stdlib.Arith.PeanoNat Nat le_max_l thm
+R32276:32287 Stdlib.Arith.PeanoNat Nat le_max_r thm
+prf 32302:32318 Props mindepth_cardinal
+binder 32320:32320 <> s:321
+R32338:32341 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R32325:32326 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R32337:32337 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R32327:32334 Stdlib.MSets.MSetGenTree M mindepth def
+R32336:32336 Stdlib.MSets.MSetGenTree <> s:321 var
+R32342:32342 Corelib.Init.Datatypes <> S constr
+R32345:32352 Stdlib.MSets.MSetGenTree M cardinal def
+R32354:32354 Stdlib.MSets.MSetGenTree <> s:321 var
+R32373:32380 Corelib.Init.Peano <> lt def
+R32449:32462 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R32468:32481 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R32484:32494 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R32506:32520 Stdlib.Arith.PeanoNat Nat add_le_mono thm
+R32577:32591 Stdlib.Arith.PeanoNat Nat pow_le_mono thm
+R32611:32622 Stdlib.Arith.PeanoNat Nat le_min_l thm
+R32636:32647 Stdlib.Arith.PeanoNat Nat le_min_r thm
+prf 32662:32682 Props maxdepth_log_cardinal
+binder 32684:32684 <> s:322
+R32697:32701 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32689:32692 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R32688:32688 Stdlib.MSets.MSetGenTree <> s:322 var
+R32693:32696 Stdlib.MSets.MSetGenTree M Leaf constr
+R32723:32725 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R32702:32709 Stdlib.Arith.PeanoNat Nat log2 def
+R32712:32719 Stdlib.MSets.MSetGenTree M cardinal def
+R32721:32721 Stdlib.MSets.MSetGenTree <> s:322 var
+R32726:32733 Stdlib.MSets.MSetGenTree M maxdepth def
+R32735:32735 Stdlib.MSets.MSetGenTree <> s:322 var
+R32763:32778 Stdlib.Arith.PeanoNat Nat log2_lt_pow2 thm
+R32839:32855 Stdlib.MSets.MSetGenTree Props maxdepth_cardinal thm
+prf 32870:32890 Props mindepth_log_cardinal
+binder 32892:32892 <> s:323
+R32906:32909 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R32896:32903 Stdlib.MSets.MSetGenTree M mindepth def
+R32905:32905 Stdlib.MSets.MSetGenTree <> s:323 var
+R32910:32917 Stdlib.Arith.PeanoNat Nat log2 def
+R32920:32920 Corelib.Init.Datatypes <> S constr
+R32923:32930 Stdlib.MSets.MSetGenTree M cardinal def
+R32932:32932 Stdlib.MSets.MSetGenTree <> s:323 var
+R32952:32967 Stdlib.Arith.PeanoNat Nat log2_le_pow2 thm
+R33001:33017 Stdlib.MSets.MSetGenTree Props mindepth_cardinal thm
+R33030:33034 Stdlib.MSets.MSetGenTree Props <> modtype

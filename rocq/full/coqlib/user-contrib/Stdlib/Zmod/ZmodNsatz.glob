@@ -1,0 +1,72 @@
+DIGEST 6cb9792909fc3483efe6a16ba100a014
+FStdlib.Zmod.ZmodNsatz
+R32:42 Stdlib.nsatz.NsatzTactic <> <> lib
+R61:73 Stdlib.ZArith.Zdivisibility <> <> lib
+R75:77 Stdlib.micromega.Lia <> <> lib
+R79:89 Stdlib.nsatz.NsatzTactic <> <> lib
+R107:113 Stdlib.Zmod.ZmodDef <> <> lib
+R115:122 Stdlib.Zmod.ZmodBase <> <> lib
+R124:130 Stdlib.Zmod.ZmodInv <> <> lib
+inst 153:165 <> Ring_ops_Zmod
+binder 167:167 <> m:1
+R172:179 Stdlib.setoid_ring.Ncring <> Ring_ops class
+R182:185 Stdlib.Zmod.ZmodDef <> Zmod abbrev
+R187:187 Stdlib.Zmod.ZmodNsatz <> m:1 var
+R190:198 Stdlib.Zmod.ZmodDef Zmod zero def
+R200:207 Stdlib.Zmod.ZmodDef Zmod one def
+R209:216 Stdlib.Zmod.ZmodDef Zmod add def
+R218:225 Stdlib.Zmod.ZmodDef Zmod mul def
+R227:234 Stdlib.Zmod.ZmodDef Zmod sub def
+R236:243 Stdlib.Zmod.ZmodDef Zmod opp def
+R245:252 Corelib.Init.Logic <> eq ind
+inst 281:289 <> Ring_Zmod
+binder 291:291 <> m:2
+R295:298 Stdlib.setoid_ring.Ncring <> Ring class
+R305:317 Stdlib.Zmod.ZmodNsatz <> Ring_ops_Zmod inst
+R319:319 Stdlib.Zmod.ZmodNsatz <> m:2 var
+R349:362 Corelib.Classes.RelationClasses <> eq_equivalence inst
+R413:424 Stdlib.Zmod.ZmodBase Zmod add_0_l thm
+R439:451 Stdlib.Zmod.ZmodBase Zmod add_comm thm
+R466:479 Stdlib.Zmod.ZmodBase Zmod add_assoc thm
+R494:505 Stdlib.Zmod.ZmodBase Zmod mul_1_l thm
+R520:531 Stdlib.Zmod.ZmodBase Zmod mul_1_r thm
+R546:559 Stdlib.Zmod.ZmodBase Zmod mul_assoc thm
+R574:587 Stdlib.Zmod.ZmodBase Zmod mul_add_l thm
+R616:629 Stdlib.Zmod.ZmodBase Zmod mul_add_r thm
+R654:667 Stdlib.Zmod.ZmodBase Zmod add_opp_r thm
+R682:700 Stdlib.Zmod.ZmodBase Zmod add_opp_same_r thm
+inst 730:739 <> Cring_ZMod
+binder 741:741 <> m:3
+R745:749 Stdlib.setoid_ring.Cring <> Cring class
+R756:764 Stdlib.Zmod.ZmodNsatz <> Ring_Zmod inst
+R766:766 Stdlib.Zmod.ZmodNsatz <> m:3 var
+R784:788 Stdlib.setoid_ring.Cring <> Cring class
+R800:812 Stdlib.Zmod.ZmodBase Zmod mul_comm thm
+inst 840:859 <> Integral_domain_Zmod
+binder 861:861 <> m:4
+R874:877 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R865:871 Stdlib.ZArith.Zdivisibility Z prime class
+R873:873 Stdlib.Zmod.ZmodNsatz <> m:4 var
+R878:892 Stdlib.setoid_ring.Integral_domain <> Integral_domain class
+R899:907 Stdlib.Zmod.ZmodNsatz <> Ring_Zmod inst
+R909:909 Stdlib.Zmod.ZmodNsatz <> m:4 var
+R949:968 Stdlib.Zmod.ZmodInv Zmod mul_0_iff_prime thm
+R986:1002 Stdlib.Zmod.ZmodBase Zmod one_neq_zero thm
+R1016:1027 Stdlib.ZArith.Zdivisibility Z prime_ge_2 thm
+R1106:1127 Stdlib.setoid_ring.Ncring_tac <> extra_reify class
+R1133:1141 Stdlib.Zmod.ZmodDef Zmod of_Z def
+R1230:1232 Stdlib.setoid_ring.Ring_polynom <> PEc constr
+R1308:1329 Stdlib.setoid_ring.Ncring_tac <> extra_reify class
+R1375:1382 Stdlib.Zmod.ZmodDef Zmod pow def
+R1388:1392 Stdlib.ZArith.BinInt Z pos abbrev
+R1519:1523 Stdlib.setoid_ring.Ring_polynom <> PEpow constr
+R1529:1540 Stdlib.NArith.BinNat N pos abbrev
+R1579:1600 Stdlib.setoid_ring.Ncring_tac <> extra_reify class
+R1605:1613 Stdlib.Zmod.ZmodDef Zmod of_Z def
+R1691:1712 Stdlib.setoid_ring.Ncring_tac <> extra_reify class
+R1717:1724 Stdlib.Zmod.ZmodDef Zmod pow def
+R1729:1733 Stdlib.ZArith.BinInt Z pos abbrev
+R1811:1832 Stdlib.setoid_ring.Ncring_tac <> extra_reify class
+R1837:1844 Stdlib.Zmod.ZmodDef Zmod pow def
+R1848:1849 Corelib.Numbers.BinNums <> Z0 constr
+R1863:1865 Stdlib.setoid_ring.Ring_polynom <> PEc constr

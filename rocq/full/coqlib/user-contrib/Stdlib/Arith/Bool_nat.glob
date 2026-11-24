@@ -1,0 +1,84 @@
+DIGEST 18d003481cd95f293338ce6fa738a2d5
+FStdlib.Arith.Bool_nat
+R740:750 Stdlib.Arith.Compare_dec <> <> lib
+R780:788 Stdlib.Arith.Peano_dec <> <> lib
+R818:824 Stdlib.Init.Sumbool <> <> lib
+R932:934 Corelib.Init.Datatypes <> nat ind
+def 1161:1168 <> notzerop
+binder 1170:1170 <> n:1
+R1175:1185 Corelib.Init.Sumbool <> sumbool_not def
+R1192:1196 Stdlib.Arith.Compare_dec <> zerop def
+R1198:1198 Stdlib.Arith.Bool_nat <> n:1 var
+def 1311:1319 <> lt_ge_dec
+binder 1330:1330 <> x:2
+binder 1332:1332 <> y:3
+R1335:1335 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1341:1345 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1352:1352 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1337:1339 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1336:1336 Stdlib.Arith.Bool_nat <> x:2 var
+R1340:1340 Stdlib.Arith.Bool_nat <> y:3 var
+R1347:1350 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R1346:1346 Stdlib.Arith.Bool_nat <> x:2 var
+R1351:1351 Stdlib.Arith.Bool_nat <> y:3 var
+binder 1363:1363 <> n:4
+binder 1365:1365 <> m:5
+R1370:1380 Corelib.Init.Sumbool <> sumbool_not def
+R1387:1395 Stdlib.Arith.Compare_dec <> le_lt_dec def
+R1397:1397 Stdlib.Arith.Bool_nat <> m:5 var
+R1399:1399 Stdlib.Arith.Bool_nat <> n:4 var
+def 1480:1493 <> nat_lt_ge_bool
+binder 1495:1495 <> x:6
+binder 1497:1497 <> y:7
+R1502:1516 Corelib.Init.Sumbool <> bool_of_sumbool def
+R1519:1527 Stdlib.Arith.Bool_nat <> lt_ge_dec def
+R1529:1529 Stdlib.Arith.Bool_nat <> x:6 var
+R1531:1531 Stdlib.Arith.Bool_nat <> y:7 var
+def 1612:1625 <> nat_ge_lt_bool
+binder 1627:1627 <> x:8
+binder 1629:1629 <> y:9
+R1636:1650 Corelib.Init.Sumbool <> bool_of_sumbool def
+R1653:1663 Corelib.Init.Sumbool <> sumbool_not def
+R1670:1678 Stdlib.Arith.Bool_nat <> lt_ge_dec def
+R1680:1680 Stdlib.Arith.Bool_nat <> x:8 var
+R1682:1682 Stdlib.Arith.Bool_nat <> y:9 var
+def 1764:1777 <> nat_le_gt_bool
+binder 1779:1779 <> x:10
+binder 1781:1781 <> y:11
+R1786:1800 Corelib.Init.Sumbool <> bool_of_sumbool def
+R1803:1811 Stdlib.Arith.Compare_dec <> le_gt_dec def
+R1813:1813 Stdlib.Arith.Bool_nat <> x:10 var
+R1815:1815 Stdlib.Arith.Bool_nat <> y:11 var
+def 1896:1909 <> nat_gt_le_bool
+binder 1911:1911 <> x:12
+binder 1913:1913 <> y:13
+R1920:1934 Corelib.Init.Sumbool <> bool_of_sumbool def
+R1937:1947 Corelib.Init.Sumbool <> sumbool_not def
+R1954:1962 Stdlib.Arith.Compare_dec <> le_gt_dec def
+R1964:1964 Stdlib.Arith.Bool_nat <> x:12 var
+R1966:1966 Stdlib.Arith.Bool_nat <> y:13 var
+def 2048:2058 <> nat_eq_bool
+binder 2060:2060 <> x:14
+binder 2062:2062 <> y:15
+R2067:2081 Corelib.Init.Sumbool <> bool_of_sumbool def
+R2084:2093 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
+R2095:2095 Stdlib.Arith.Bool_nat <> x:14 var
+R2097:2097 Stdlib.Arith.Bool_nat <> y:15 var
+def 2178:2191 <> nat_noteq_bool
+binder 2193:2193 <> x:16
+binder 2195:2195 <> y:17
+R2202:2216 Corelib.Init.Sumbool <> bool_of_sumbool def
+R2219:2229 Corelib.Init.Sumbool <> sumbool_not def
+R2236:2245 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
+R2247:2247 Stdlib.Arith.Bool_nat <> x:16 var
+R2249:2249 Stdlib.Arith.Bool_nat <> y:17 var
+def 2342:2351 <> zerop_bool
+binder 2353:2353 <> x:18
+R2358:2372 Corelib.Init.Sumbool <> bool_of_sumbool def
+R2375:2379 Stdlib.Arith.Compare_dec <> zerop def
+R2381:2381 Stdlib.Arith.Bool_nat <> x:18 var
+def 2473:2485 <> notzerop_bool
+binder 2487:2487 <> x:19
+R2492:2506 Corelib.Init.Sumbool <> bool_of_sumbool def
+R2509:2516 Stdlib.Arith.Bool_nat <> notzerop def
+R2518:2518 Stdlib.Arith.Bool_nat <> x:19 var

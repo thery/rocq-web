@@ -1,0 +1,985 @@
+DIGEST 602179112ab637d0537edd3cb7c862e8
+Fmathcomp.algebra.algebraic_hierarchy.ssralg
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.eqtype <> <> lib
+R256:261 mathcomp.boot.ssrnat <> <> lib
+R263:265 mathcomp.boot.div <> <> lib
+R267:269 mathcomp.boot.seq <> <> lib
+R301:306 mathcomp.boot.choice <> <> lib
+R308:314 mathcomp.boot.fintype <> <> lib
+R316:321 mathcomp.boot.finfun <> <> lib
+R323:327 mathcomp.boot.bigop <> <> lib
+R329:333 mathcomp.boot.prime <> <> lib
+R335:342 mathcomp.boot.binomial <> <> lib
+R374:380 mathcomp.boot.nmodule <> <> lib
+R382:407 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> <> lib
+R409:414 mathcomp.algebra.algebraic_hierarchy.divalg <> <> lib
+R416:423 mathcomp.algebra.algebraic_hierarchy.decfield <> <> lib
+mod 1446:1450 <> GRing
+R1461:1465 mathcomp.algebra.algebraic_hierarchy.decfield GRing <> mod
+abbrev 1550:1557 GRing SemiRing
+R1565:1574 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzSemiRing abbrev
+mod 1603:1610 <> GRing.SemiRing
+abbrev 1681:1684 GRing.SemiRing sort
+R1690:1704 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing sort def
+abbrev 1789:1790 GRing.SemiRing on
+R1798:1810 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing on abbrev
+abbrev 1899:1902 GRing.SemiRing copy
+R1912:1926 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing copy abbrev
+R1953:1960 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SemiRing <> mod
+abbrev 2023:2026 GRing Ring
+R2034:2039 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzRing abbrev
+mod 2068:2071 <> GRing.Ring
+abbrev 2138:2141 GRing.Ring sort
+R2147:2157 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing sort def
+abbrev 2238:2239 GRing.Ring on
+R2247:2255 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing on abbrev
+abbrev 2340:2343 GRing.Ring copy
+R2353:2363 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing copy abbrev
+R2390:2393 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Ring <> mod
+abbrev 2464:2475 GRing LSemiAlgebra
+R2483:2496 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzLSemiAlgebra abbrev
+mod 2525:2536 <> GRing.LSemiAlgebra
+abbrev 2611:2614 GRing.LSemiAlgebra sort
+R2620:2638 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLSemiAlgebra sort def
+abbrev 2727:2728 GRing.LSemiAlgebra on
+R2736:2752 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLSemiAlgebra on abbrev
+abbrev 2845:2848 GRing.LSemiAlgebra copy
+R2858:2876 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLSemiAlgebra copy abbrev
+R2903:2914 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.LSemiAlgebra <> mod
+abbrev 2981:2988 GRing Lalgebra
+R2996:3005 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzLalgebra abbrev
+mod 3034:3041 <> GRing.Lalgebra
+abbrev 3112:3115 GRing.Lalgebra sort
+R3121:3135 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLalgebra sort def
+abbrev 3220:3221 GRing.Lalgebra on
+R3229:3241 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLalgebra on abbrev
+abbrev 3330:3333 GRing.Lalgebra copy
+R3343:3357 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLalgebra copy abbrev
+R3384:3391 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Lalgebra <> mod
+abbrev 3461:3471 GRing ComSemiRing
+R3479:3491 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing ComNzSemiRing abbrev
+mod 3520:3530 <> GRing.ComSemiRing
+abbrev 3604:3607 GRing.ComSemiRing sort
+R3613:3630 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiRing sort def
+abbrev 3718:3719 GRing.ComSemiRing on
+R3727:3742 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiRing on abbrev
+abbrev 3834:3837 GRing.ComSemiRing copy
+R3847:3864 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiRing copy abbrev
+R3891:3901 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComSemiRing <> mod
+abbrev 3967:3973 GRing ComRing
+R3981:3989 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing ComNzRing abbrev
+mod 4018:4024 <> GRing.ComRing
+abbrev 4094:4097 GRing.ComRing sort
+R4103:4116 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing sort def
+abbrev 4200:4201 GRing.ComRing on
+R4209:4220 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing on abbrev
+abbrev 4308:4311 GRing.ComRing copy
+R4321:4334 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing copy abbrev
+R4361:4367 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComRing <> mod
+abbrev 4437:4447 GRing SemiAlgebra
+R4455:4467 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzSemiAlgebra abbrev
+mod 4496:4506 <> GRing.SemiAlgebra
+abbrev 4580:4583 GRing.SemiAlgebra sort
+R4589:4606 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiAlgebra sort def
+abbrev 4694:4695 GRing.SemiAlgebra on
+R4703:4718 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiAlgebra on abbrev
+abbrev 4810:4813 GRing.SemiAlgebra copy
+R4823:4840 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiAlgebra copy abbrev
+R4867:4877 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SemiAlgebra <> mod
+abbrev 4943:4949 GRing Algebra
+R4957:4965 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing NzAlgebra abbrev
+mod 4994:5000 <> GRing.Algebra
+abbrev 5070:5073 GRing.Algebra sort
+R5079:5092 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzAlgebra sort def
+abbrev 5176:5177 GRing.Algebra on
+R5185:5196 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzAlgebra on abbrev
+abbrev 5284:5287 GRing.Algebra copy
+R5297:5310 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzAlgebra copy abbrev
+R5337:5343 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Algebra <> mod
+abbrev 5416:5429 GRing ComSemiAlgebra
+R5437:5452 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing ComNzSemiAlgebra abbrev
+mod 5481:5494 <> GRing.ComSemiAlgebra
+abbrev 5571:5574 GRing.ComSemiAlgebra sort
+R5580:5600 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiAlgebra sort def
+abbrev 5691:5692 GRing.ComSemiAlgebra on
+R5700:5718 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiAlgebra on abbrev
+abbrev 5813:5816 GRing.ComSemiAlgebra copy
+R5826:5846 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiAlgebra copy abbrev
+R5873:5886 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComSemiAlgebra <> mod
+abbrev 5955:5964 GRing ComAlgebra
+R5972:5983 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing ComNzAlgebra abbrev
+mod 6012:6021 <> GRing.ComAlgebra
+abbrev 6094:6097 GRing.ComAlgebra sort
+R6103:6119 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzAlgebra sort def
+abbrev 6206:6207 GRing.ComAlgebra on
+R6215:6229 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzAlgebra on abbrev
+abbrev 6320:6323 GRing.ComAlgebra copy
+R6333:6349 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzAlgebra copy abbrev
+R6376:6385 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComAlgebra <> mod
+abbrev 6455:6465 GRing SubSemiRing
+R6473:6485 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzSemiRing abbrev
+mod 6514:6524 <> GRing.SubSemiRing
+abbrev 6598:6601 GRing.SubSemiRing sort
+R6607:6624 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiRing sort def
+abbrev 6712:6713 GRing.SubSemiRing on
+R6721:6736 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiRing on abbrev
+abbrev 6828:6831 GRing.SubSemiRing copy
+R6841:6858 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiRing copy abbrev
+R6885:6895 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubSemiRing <> mod
+abbrev 6968:6981 GRing SubComSemiRing
+R6989:7004 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubComNzSemiRing abbrev
+mod 7033:7046 <> GRing.SubComSemiRing
+abbrev 7123:7126 GRing.SubComSemiRing sort
+R7133:7153 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzSemiRing sort def
+abbrev 7244:7245 GRing.SubComSemiRing on
+R7253:7271 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzSemiRing on abbrev
+abbrev 7366:7369 GRing.SubComSemiRing copy
+R7379:7399 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzSemiRing copy abbrev
+R7426:7439 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubComSemiRing <> mod
+abbrev 7505:7511 GRing SubRing
+R7519:7527 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzRing abbrev
+mod 7556:7562 <> GRing.SubRing
+abbrev 7632:7635 GRing.SubRing sort
+R7641:7654 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzRing sort def
+abbrev 7738:7739 GRing.SubRing on
+R7747:7758 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzRing on abbrev
+abbrev 7846:7849 GRing.SubRing copy
+R7859:7872 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzRing copy abbrev
+R7899:7905 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubRing <> mod
+abbrev 7974:7983 GRing SubComRing
+R7991:8002 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubComNzRing abbrev
+mod 8031:8040 <> GRing.SubComRing
+abbrev 8113:8116 GRing.SubComRing sort
+R8122:8138 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzRing sort def
+abbrev 8225:8226 GRing.SubComRing on
+R8234:8248 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzRing on abbrev
+abbrev 8339:8342 GRing.SubComRing copy
+R8352:8368 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzRing copy abbrev
+R8395:8404 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubComRing <> mod
+abbrev 8478:8492 GRing SubLSemiAlgebra
+R8500:8516 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzLSemiAlgebra abbrev
+mod 8545:8559 <> GRing.SubLSemiAlgebra
+abbrev 8637:8640 GRing.SubLSemiAlgebra sort
+R8646:8667 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLSemiAlgebra sort def
+abbrev 8759:8760 GRing.SubLSemiAlgebra on
+R8768:8787 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLSemiAlgebra on abbrev
+abbrev 8883:8886 GRing.SubLSemiAlgebra copy
+R8896:8917 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLSemiAlgebra copy abbrev
+R8944:8958 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubLSemiAlgebra <> mod
+abbrev 9028:9038 GRing SubLalgebra
+R9046:9058 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzLalgebra abbrev
+mod 9087:9097 <> GRing.SubLalgebra
+abbrev 9171:9174 GRing.SubLalgebra sort
+R9180:9197 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLalgebra sort def
+abbrev 9285:9286 GRing.SubLalgebra on
+R9294:9309 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLalgebra on abbrev
+abbrev 9401:9404 GRing.SubLalgebra copy
+R9414:9431 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLalgebra copy abbrev
+R9458:9468 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubLalgebra <> mod
+abbrev 9541:9554 GRing SubSemiAlgebra
+R9562:9577 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzSemiAlgebra abbrev
+mod 9606:9619 <> GRing.SubSemiAlgebra
+abbrev 9696:9699 GRing.SubSemiAlgebra sort
+R9705:9725 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiAlgebra sort def
+abbrev 9816:9817 GRing.SubSemiAlgebra on
+R9825:9843 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiAlgebra on abbrev
+abbrev 9938:9941 GRing.SubSemiAlgebra copy
+R9951:9971 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiAlgebra copy abbrev
+R9998:10011 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubSemiAlgebra <> mod
+abbrev 10080:10089 GRing SubAlgebra
+R10097:10108 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNzAlgebra abbrev
+mod 10137:10146 <> GRing.SubAlgebra
+abbrev 10219:10222 GRing.SubAlgebra sort
+R10228:10244 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzAlgebra sort def
+abbrev 10331:10332 GRing.SubAlgebra on
+R10340:10354 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzAlgebra on abbrev
+abbrev 10445:10448 GRing.SubAlgebra copy
+R10458:10474 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzAlgebra copy abbrev
+R10501:10510 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubAlgebra <> mod
+mod 10549:10566 <> GRing.Nmodule_isSemiRing
+abbrev 10648:10652 GRing.Nmodule_isSemiRing Build
+R10660:10685 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Nmodule_isNzSemiRing Build abbrev
+R10710:10727 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Nmodule_isSemiRing <> mod
+mod 10738:10747 <> GRing.isSemiRing
+abbrev 10821:10825 GRing.isSemiRing Build
+R10833:10850 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isNzSemiRing Build abbrev
+R10875:10884 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.isSemiRing <> mod
+abbrev 10953:10962 GRing isSemiRing
+R10970:10981 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing isNzSemiRing abbrev
+mod 11010:11023 <> GRing.Zmodule_isRing
+abbrev 11101:11105 GRing.Zmodule_isRing Build
+R11113:11134 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Zmodule_isNzRing Build abbrev
+R11159:11172 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Zmodule_isRing <> mod
+abbrev 11245:11258 GRing Zmodule_isRing
+R11266:11281 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing Zmodule_isNzRing abbrev
+mod 11310:11315 <> GRing.isRing
+abbrev 11385:11389 GRing.isRing Build
+R11397:11410 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isNzRing Build abbrev
+R11435:11440 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.isRing <> mod
+abbrev 11505:11510 GRing isRing
+R11518:11525 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing isNzRing abbrev
+mod 11554:11571 <> GRing.Lmodule_isLalgebra
+abbrev 11659:11663 GRing.Lmodule_isLalgebra Build
+R11673:11704 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LSemiModule_isLSemiAlgebra Build abbrev
+R11731:11748 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Lmodule_isLalgebra <> mod
+abbrev 11831:11848 GRing Lmodule_isLalgebra
+R11860:11885 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing LSemiModule_isLSemiAlgebra abbrev
+mod 11916:11943 <> GRing.PzSemiRing_hasCommutativeMul
+abbrev 12031:12035 GRing.PzSemiRing_hasCommutativeMul Build
+R12043:12074 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SemiRing_hasCommutativeMul Build abbrev
+R12099:12126 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.PzSemiRing_hasCommutativeMul <> mod
+abbrev 12209:12236 GRing PzSemiRing_hasCommutativeMul
+R12246:12271 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SemiRing_hasCommutativeMul abbrev
+mod 12300:12321 <> GRing.Ring_hasCommutativeMul
+abbrev 12409:12413 GRing.Ring_hasCommutativeMul Build
+R12421:12452 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SemiRing_hasCommutativeMul Build abbrev
+R12477:12498 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Ring_hasCommutativeMul <> mod
+abbrev 12581:12602 GRing Ring_hasCommutativeMul
+R12612:12637 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SemiRing_hasCommutativeMul abbrev
+mod 12666:12689 <> GRing.PzRing_hasCommutativeMul
+abbrev 12777:12781 GRing.PzRing_hasCommutativeMul Build
+R12789:12820 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SemiRing_hasCommutativeMul Build abbrev
+R12845:12868 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.PzRing_hasCommutativeMul <> mod
+abbrev 12951:12974 GRing PzRing_hasCommutativeMul
+R12984:13009 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SemiRing_hasCommutativeMul abbrev
+mod 13038:13058 <> GRing.Nmodule_isComSemiRing
+abbrev 13143:13147 GRing.Nmodule_isComSemiRing Build
+R13155:13183 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Nmodule_isComNzSemiRing Build abbrev
+R13208:13228 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Nmodule_isComSemiRing <> mod
+abbrev 13308:13328 GRing Nmodule_isComSemiRing
+R13336:13358 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing Nmodule_isComNzSemiRing abbrev
+mod 13387:13403 <> GRing.Zmodule_isComRing
+abbrev 13484:13488 GRing.Zmodule_isComRing Build
+R13496:13520 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Zmodule_isComNzRing Build abbrev
+R13545:13561 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Zmodule_isComRing <> mod
+abbrev 13637:13653 GRing Zmodule_isComRing
+R13661:13679 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing Zmodule_isComNzRing abbrev
+mod 13708:13725 <> GRing.Lalgebra_isAlgebra
+abbrev 13813:13817 GRing.Lalgebra_isAlgebra Build
+R13827:13858 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LSemiAlgebra_isSemiAlgebra Build abbrev
+R13885:13902 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Lalgebra_isAlgebra <> mod
+abbrev 13985:14002 GRing Lalgebra_isAlgebra
+R14014:14039 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing LSemiAlgebra_isSemiAlgebra abbrev
+mod 14070:14090 <> GRing.Lalgebra_isComAlgebra
+abbrev 14181:14185 GRing.Lalgebra_isComAlgebra Build
+R14195:14229 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LSemiAlgebra_isComSemiAlgebra Build abbrev
+R14256:14276 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Lalgebra_isComAlgebra <> mod
+abbrev 14362:14382 GRing Lalgebra_isComAlgebra
+R14394:14422 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing LSemiAlgebra_isComSemiAlgebra abbrev
+mod 14453:14465 <> GRing.isSubSemiRing
+abbrev 14542:14546 GRing.isSubSemiRing Build
+R14558:14578 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isSubPzSemiRing Build abbrev
+R14607:14619 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.isSubSemiRing <> mod
+abbrev 14691:14703 GRing isSubSemiRing
+R14715:14729 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing isSubPzSemiRing abbrev
+mod 14762:14785 <> GRing.SubNmodule_isSubSemiRing
+abbrev 14873:14877 GRing.SubNmodule_isSubSemiRing Build
+R14889:14920 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R14949:14972 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubNmodule_isSubSemiRing <> mod
+abbrev 15055:15078 GRing SubNmodule_isSubSemiRing
+R15092:15117 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNmodule_isSubNzSemiRing abbrev
+mod 15150:15171 <> GRing.SubZmodule_isSubPzRing
+abbrev 15259:15263 GRing.SubZmodule_isSubPzRing Build
+R15275:15306 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubPzSemiRing Build abbrev
+R15335:15356 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubZmodule_isSubPzRing <> mod
+abbrev 15439:15460 GRing SubZmodule_isSubPzRing
+R15474:15499 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNmodule_isSubPzSemiRing abbrev
+mod 15532:15553 <> GRing.SubZmodule_isSubNzRing
+abbrev 15641:15645 GRing.SubZmodule_isSubNzRing Build
+R15657:15688 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R15717:15738 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubZmodule_isSubNzRing <> mod
+abbrev 15821:15842 GRing SubZmodule_isSubNzRing
+R15856:15881 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNmodule_isSubNzSemiRing abbrev
+mod 15914:15933 <> GRing.SubZmodule_isSubRing
+abbrev 16021:16025 GRing.SubZmodule_isSubRing Build
+R16037:16068 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R16097:16116 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubZmodule_isSubRing <> mod
+abbrev 16199:16218 GRing SubZmodule_isSubRing
+R16232:16257 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubNmodule_isSubNzSemiRing abbrev
+mod 16290:16312 <> GRing.SubChoice_isSubSemiRing
+abbrev 16399:16403 GRing.SubChoice_isSubSemiRing Build
+R16415:16445 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzSemiRing Build abbrev
+R16474:16496 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubChoice_isSubSemiRing <> mod
+abbrev 16578:16600 GRing SubChoice_isSubSemiRing
+R16614:16638 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubChoice_isSubNzSemiRing abbrev
+mod 16671:16696 <> GRing.SubChoice_isSubComSemiRing
+abbrev 16786:16790 GRing.SubChoice_isSubComSemiRing Build
+R16804:16837 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubComNzSemiRing Build abbrev
+R16866:16891 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubChoice_isSubComSemiRing <> mod
+abbrev 16976:17001 GRing SubChoice_isSubComSemiRing
+R17015:17042 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubChoice_isSubComNzSemiRing abbrev
+mod 17075:17093 <> GRing.SubChoice_isSubRing
+abbrev 17176:17180 GRing.SubChoice_isSubRing Build
+R17192:17218 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzRing Build abbrev
+R17247:17265 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubChoice_isSubRing <> mod
+abbrev 17343:17361 GRing SubChoice_isSubRing
+R17375:17395 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubChoice_isSubNzRing abbrev
+mod 17428:17449 <> GRing.SubChoice_isSubComRing
+abbrev 17535:17539 GRing.SubChoice_isSubComRing Build
+R17551:17580 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubComNzRing Build abbrev
+R17609:17630 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubChoice_isSubComRing <> mod
+abbrev 17711:17732 GRing SubChoice_isSubComRing
+R17746:17769 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubChoice_isSubComNzRing abbrev
+mod 17802:17819 <> GRing.Ring_hasMulInverse
+abbrev 17901:17905 GRing.Ring_hasMulInverse Build
+R17913:17938 mathcomp.algebra.algebraic_hierarchy.divalg GRing.NzRing_hasMulInverse Build abbrev
+R17963:17980 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Ring_hasMulInverse <> mod
+abbrev 18057:18074 GRing Ring_hasMulInverse
+R18082:18101 mathcomp.algebra.algebraic_hierarchy.divalg GRing NzRing_hasMulInverse abbrev
+mod 18130:18150 <> GRing.ComRing_hasMulInverse
+abbrev 18235:18239 GRing.ComRing_hasMulInverse Build
+R18247:18275 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComNzRing_hasMulInverse Build abbrev
+R18300:18320 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComRing_hasMulInverse <> mod
+abbrev 18400:18420 GRing ComRing_hasMulInverse
+R18428:18450 mathcomp.algebra.algebraic_hierarchy.divalg GRing ComNzRing_hasMulInverse abbrev
+mod 18479:18493 <> GRing.ComRing_isField
+abbrev 18572:18576 GRing.ComRing_isField Build
+R18584:18606 mathcomp.algebra.algebraic_hierarchy.divalg GRing.ComNzRing_isField Build abbrev
+R18631:18645 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.ComRing_isField <> mod
+abbrev 18719:18733 GRing ComRing_isField
+R18741:18757 mathcomp.algebra.algebraic_hierarchy.divalg GRing ComNzRing_isField abbrev
+mod 18786:18795 <> GRing.SubExports
+R18976:19007 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R19017:19023 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing rpred1M thm
+not 18922:18922 GRing.SubExports ::form_scope:'['_'SubNmodule_isSubSemiRing'_'of'_x_'by'_'<:'_']'
+R19285:19315 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzSemiRing Build abbrev
+R19324:19338 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing semiringClosedP thm
+not 19232:19232 GRing.SubExports ::form_scope:'['_'SubChoice_isSubSemiRing'_'of'_x_'by'_'<:'_']'
+R19604:19637 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+not 19542:19542 GRing.SubExports ::form_scope:'['_'SubPzSemiRing_isSubComPzSemiRing'_'of'_x_'by'_'<:'_']'
+R19915:19948 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+not 19853:19853 GRing.SubExports ::form_scope:'['_'SubNzSemiRing_isSubComNzSemiRing'_'of'_x_'by'_'<:'_']'
+R20219:20252 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+not 20169:20169 GRing.SubExports ::form_scope:'['_'SubRing_isSubComRing'_'of'_x_'by'_'<:'_']'
+R20515:20548 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+not 20461:20461 GRing.SubExports ::form_scope:'['_'SubPzRing_isSubComPzRing'_'of'_x_'by'_'<:'_']'
+R20815:20848 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+not 20761:20761 GRing.SubExports ::form_scope:'['_'SubNzRing_isSubComNzRing'_'of'_x_'by'_'<:'_']'
+R21117:21150 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubComNzSemiRing Build abbrev
+R21159:21173 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing semiringClosedP thm
+not 21061:21061 GRing.SubExports ::form_scope:'['_'SubChoice_isSubComSemiRing'_'of'_x_'by'_'<:'_']'
+R21435:21466 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R21475:21488 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subringClosedP thm
+not 21383:21383 GRing.SubExports ::form_scope:'['_'SubZmodule_isSubNzRing'_'of'_x_'by'_'<:'_']'
+R21740:21771 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubNzSemiRing Build abbrev
+R21780:21793 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subringClosedP thm
+not 21690:21690 GRing.SubExports ::form_scope:'['_'SubZmodule_isSubRing'_'of'_x_'by'_'<:'_']'
+R22041:22067 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzRing Build abbrev
+R22076:22089 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subringClosedP thm
+not 21992:21992 GRing.SubExports ::form_scope:'['_'SubChoice_isSubRing'_'of'_x_'by'_'<:'_']'
+R22342:22371 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubComNzRing Build abbrev
+R22380:22393 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subringClosedP thm
+not 22290:22290 GRing.SubExports ::form_scope:'['_'SubChoice_isSubComRing'_'of'_x_'by'_'<:'_']'
+R22648:22680 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNmodule_isSubLSemiModule Build abbrev
+R22691:22707 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subsemimodClosedP thm
+not 22595:22595 GRing.SubExports ::form_scope:'['_'SubZmodule_isSubLmodule'_'of'_x_'by'_'<:'_']'
+R23001:23050 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_SubLSemiModule_isSubLSemiAlgebra Build abbrev
+not 22925:22925 GRing.SubExports ::form_scope:'['_'SubNzSemiRing_SubLSemiModule_isSubLSemiAlgebra'_'of'_x_'by'_'<:'_']'
+R23348:23385 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubRing_SubLmodule_isSubLalgebra Build abbrev
+not 23284:23284 GRing.SubExports ::form_scope:'['_'SubNzRing_SubLmodule_isSubLalgebra'_'of'_x_'by'_'<:'_']'
+R23663:23700 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubLSemiAlgebra_isSubSemiAlgebra Build abbrev
+not 23609:23609 GRing.SubExports ::form_scope:'['_'SubLalgebra_isSubAlgebra'_'of'_x_'by'_'<:'_']'
+R23966:24000 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzLSemiAlgebra Build abbrev
+R24011:24027 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subsemialgClosedP thm
+not 23909:23909 GRing.SubExports ::form_scope:'['_'SubChoice_isSubLSemiAlgebra'_'of'_x_'by'_'<:'_']'
+R24283:24313 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzLalgebra Build abbrev
+R24324:24340 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subsemialgClosedP thm
+not 24230:24230 GRing.SubExports ::form_scope:'['_'SubChoice_isSubLalgebra'_'of'_x_'by'_'<:'_']'
+R24605:24638 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzSemiAlgebra Build abbrev
+R24649:24665 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subsemialgClosedP thm
+not 24549:24549 GRing.SubExports ::form_scope:'['_'SubChoice_isSubSemiAlgebra'_'of'_x_'by'_'<:'_']'
+R24925:24954 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubChoice_isSubNzAlgebra Build abbrev
+R24965:24981 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subsemialgClosedP thm
+not 24873:24873 GRing.SubExports ::form_scope:'['_'SubChoice_isSubAlgebra'_'of'_x_'by'_'<:'_']'
+R25234:25262 mathcomp.algebra.algebraic_hierarchy.divalg GRing.SubNzRing_isSubUnitRing Build abbrev
+R25271:25284 mathcomp.algebra.algebraic_hierarchy.divalg GRing divringClosedP thm
+not 25183:25183 GRing.SubExports ::form_scope:'['_'SubRing_isSubUnitRing'_'of'_x_'by'_'<:'_']'
+R25371:25380 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubExports <> mod
+abbrev 25509:25526 GRing Nmodule_isSemiRing
+R25534:25553 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing Nmodule_isNzSemiRing abbrev
+def 25649:25659 GRing addr_closed
+R25664:25674 mathcomp.boot.nmodule Algebra nmod_closed abbrev
+def 25754:25765 GRing zmod_closedD
+R25770:25782 mathcomp.boot.nmodule Algebra zmod_closed0D thm
+def 25860:25871 GRing subr_2closed
+R25876:25886 mathcomp.boot.nmodule Algebra subr_closed def
+abbrev 25948:25951 GRing char
+R25956:25960 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pchar def
+abbrev 26042:26050 GRing has_char0
+R26058:26067 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> has_pchar0 abbrev
+abbrev 26156:26168 GRing Frobenius_aut
+R26173:26186 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut def
+abbrev 26264:26269 GRing charf0
+R26274:26280 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pcharf0 thm
+abbrev 26363:26373 GRing charf_prime
+R26378:26389 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pcharf_prime thm
+abbrev 26471:26480 GRing mulrn_char
+R26485:26495 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing mulrn_pchar thm
+abbrev 26580:26592 GRing natr_mod_char
+R26597:26610 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing natr_mod_pchar thm
+abbrev 26692:26701 GRing dvdn_charf
+R26706:26716 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing dvdn_pcharf thm
+abbrev 26796:26803 GRing charf_eq
+R26808:26816 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pcharf_eq thm
+abbrev 26902:26915 GRing bin_lt_charf_0
+R26920:26934 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing bin_lt_pcharf_0 thm
+abbrev 27020:27033 GRing Frobenius_autE
+R27038:27052 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autE thm
+abbrev 27138:27151 GRing Frobenius_aut0
+R27156:27170 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut0 thm
+abbrev 27256:27269 GRing Frobenius_aut1
+R27274:27288 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut1 thm
+abbrev 27379:27397 GRing Frobenius_autD_comm
+R27402:27421 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autD_comm thm
+abbrev 27508:27522 GRing Frobenius_autMn
+R27527:27542 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autMn thm
+abbrev 27631:27647 GRing Frobenius_aut_nat
+R27652:27669 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut_nat thm
+abbrev 27760:27778 GRing Frobenius_autM_comm
+R27783:27802 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autM_comm thm
+abbrev 27888:27901 GRing Frobenius_autX
+R27906:27920 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autX thm
+abbrev 28003:28013 GRing addrr_char2
+R28018:28029 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing addrr_pchar2 thm
+abbrev 28116:28129 GRing Frobenius_autN
+R28134:28148 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autN thm
+abbrev 28239:28257 GRing Frobenius_autB_comm
+R28262:28281 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_autB_comm thm
+abbrev 28364:28374 GRing exprNn_char
+R28379:28390 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing exprNn_pchar thm
+abbrev 28472:28481 GRing oppr_char2
+R28486:28496 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing oppr_pchar2 thm
+abbrev 28578:28587 GRing subr_char2
+R28592:28602 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing subr_pchar2 thm
+abbrev 28685:28695 GRing addrK_char2
+R28700:28711 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing addrK_pchar2 thm
+abbrev 28794:28804 GRing addKr_char2
+R28809:28820 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing addKr_pchar2 thm
+def 28909:28922 GRing multiplicative
+R28931:28944 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzSemiRing.Exports pzSemiRingType abbrev
+binder 28925:28925 <> R:1
+binder 28927:28927 <> S:2
+R28953:28956 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28952:28952 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:1 var
+R28957:28957 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:2 var
+binder 28948:28948 <> f:3
+R28997:29000 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R29008:29008 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28972:28978 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R28980:28982 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R28984:28984 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R28986:28988 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R28994:28994 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R28979:28979 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:3 var
+binder 28983:28983 <> x:4
+binder 28985:28985 <> y:5
+R28990:28992 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R28989:28989 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:4 var
+R28993:28993 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:5 var
+binder 28983:28983 <> x:6
+binder 28985:28985 <> y:7
+R28989:28989 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:6 var
+R28993:28993 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:7 var
+R29004:29006 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29001:29001 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:3 var
+R29100:29113 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzSemiRing.Exports pzSemiRingType abbrev
+R29122:29125 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29121:29121 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:8 var
+R29126:29126 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:9 var
+R29161:29174 mathcomp.algebra.algebraic_hierarchy.ssralg GRing multiplicative def
+R29176:29176 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:10 var
+mod 29012:29179 <> GRing.isMultiplicative
+sec 29012:29179 GRing.isMultiplicative.isMultiplicative isMultiplicative
+var 29012:29179 GRing.isMultiplicative.isMultiplicative R
+var 29012:29179 GRing.isMultiplicative.isMultiplicative S
+var 29012:29179 GRing.isMultiplicative.isMultiplicative f
+rec 29012:29179 GRing.isMultiplicative axioms_
+proj 29012:29179 GRing.isMultiplicative rmorphism_subproof
+R29012:29179 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.isMultiplicative <> sec
+def 29012:29179 GRing.isMultiplicative phant_Build
+abbrev 29012:29179 GRing.isMultiplicative Build
+def 29012:29179 GRing.isMultiplicative phant_axioms
+abbrev 29012:29179 GRing.isMultiplicative axioms
+mod 29012:29179 <> GRing.isMultiplicative.Exports
+abbrev 29012:29179 GRing isMultiplicative
+R29209:29224 mathcomp.algebra.algebraic_hierarchy.ssralg GRing isMultiplicative abbrev
+R29226:29226 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:15 var
+R29228:29228 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:16 var
+R29230:29230 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:17 var
+mod 29181:29231 <> GRing.Builders_1
+mod 29181:29231 <> GRing.Builders_1.Super
+sec 29181:29231 GRing.Builders_1.Builders_1 Builders_1
+var 29181:29231 GRing.Builders_1.Builders_1 R
+var 29181:29231 GRing.Builders_1.Builders_1 S
+var 29181:29231 GRing.Builders_1.Builders_1 f
+var 29181:29231 GRing.Builders_1.Builders_1 fresh_name_2
+abbrev 29181:29231 GRing.Builders_1 rmorphism_subproof
+R29295:29316 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.isMonoidMorphism Build abbrev
+R29318:29318 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_1.Builders_1.R var
+R29320:29320 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_1.Builders_1.S var
+R29322:29322 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_1.Builders_1.f var
+R29354:29354 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29375:29376 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29397:29397 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29373:29374 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R29355:29372 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Builders_1 rmorphism_subproof abbrev
+R29395:29396 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R29377:29394 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Builders_1 rmorphism_subproof abbrev
+def 29234:29398 GRing.Builders_1 HB_unnamed_factory_3
+R29401:29407 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Builders_1 <> sec
+mod 29401:29407 <> GRing.Builders_1.Builders_Export_5
+R29543:29555 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComPzRing.Exports comPzRingType abbrev
+R29568:29576 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing SubPzRing abbrev
+R29578:29578 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:21 var
+R29582:29582 mathcomp.algebra.algebraic_hierarchy.ssralg <> U:23 var
+R29580:29580 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:22 var
+mod 29495:29589 <> GRing.SubPzRing_isSubComPzRing
+sec 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing R
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing S
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing U
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_eqtype_isSub
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__eqtype_SubType
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_choice_hasChoice
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_eqtype_hasDecEq
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__eqtype_Equality
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__eqtype_SubEquality
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__choice_Choice
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__choice_SubChoice
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_hasOpp
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_hasZero
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_hasAdd
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_BaseAddMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_ChoiceBaseAddMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_BaseAddUMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_ChoiceBaseAddUMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_BaseZmodule
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_isSubBaseAddUMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_SubBaseAddUMagma
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_BaseZmoduleNmodule_isZmodule
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_BaseAddUMagma_isAddUMagma
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_BaseAddMagma_isAddMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_AddMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_AddUMagma
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_SubAddUMagma
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_Algebra_AddMagma_isAddSemigroup
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_AddSemigroup
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_Nmodule
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_Zmodule
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_SubNmodule
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__Algebra_SubZmodule
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_GRing_Nmodule_isPzSemiRing
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__GRing_PzSemiRing
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__GRing_PzRing
+var 29495:29589 GRing.SubPzRing_isSubComPzRing.SubPzRing_isSubComPzRing local_mixin_GRing_isSubPzSemiRing
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__GRing_SubPzSemiRing
+def 29495:29589 GRing.SubPzRing_isSubComPzRing SubPzRing_isSubComPzRing_U__canonical__GRing_SubPzRing
+rec 29495:29589 GRing.SubPzRing_isSubComPzRing axioms_
+R29495:29589 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.SubPzRing_isSubComPzRing <> sec
+def 29495:29589 GRing.SubPzRing_isSubComPzRing phant_Build
+abbrev 29495:29589 GRing.SubPzRing_isSubComPzRing Build
+def 29495:29589 GRing.SubPzRing_isSubComPzRing phant_axioms
+abbrev 29495:29589 GRing.SubPzRing_isSubComPzRing axioms
+mod 29495:29589 <> GRing.SubPzRing_isSubComPzRing.Exports
+abbrev 29495:29589 GRing SubPzRing_isSubComPzRing
+R29620:29643 mathcomp.algebra.algebraic_hierarchy.ssralg GRing SubPzRing_isSubComPzRing abbrev
+R29645:29645 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:27 var
+R29647:29647 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:28 var
+R29649:29649 mathcomp.algebra.algebraic_hierarchy.ssralg <> U:29 var
+mod 29592:29650 <> GRing.Builders_6
+mod 29592:29650 <> GRing.Builders_6.Super
+sec 29592:29650 GRing.Builders_6.Builders_6 Builders_6
+var 29592:29650 GRing.Builders_6.Builders_6 R
+var 29592:29650 GRing.Builders_6.Builders_6 S
+var 29592:29650 GRing.Builders_6.Builders_6 U
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_eqtype_isSub
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__eqtype_SubType
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_choice_hasChoice
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_eqtype_hasDecEq
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__eqtype_Equality
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__eqtype_SubEquality
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__choice_Choice
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__choice_SubChoice
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_hasOpp
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_hasZero
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_hasAdd
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_BaseAddMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_ChoiceBaseAddMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_BaseAddUMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_ChoiceBaseAddUMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_BaseZmodule
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_isSubBaseAddUMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_SubBaseAddUMagma
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_BaseZmoduleNmodule_isZmodule
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_BaseAddUMagma_isAddUMagma
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_BaseAddMagma_isAddMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_AddMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_AddUMagma
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_SubAddUMagma
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_Algebra_AddMagma_isAddSemigroup
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_AddSemigroup
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_Nmodule
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_Zmodule
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_SubNmodule
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__Algebra_SubZmodule
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_GRing_Nmodule_isPzSemiRing
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__GRing_PzSemiRing
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__GRing_PzRing
+var 29592:29650 GRing.Builders_6.Builders_6 local_mixin_GRing_isSubPzSemiRing
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__GRing_SubPzSemiRing
+def 29592:29650 GRing.Builders_6 Builders_6_U__canonical__GRing_SubPzRing
+var 29592:29650 GRing.Builders_6.Builders_6 fresh_name_7
+R29680:29713 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubSemiRing_isSubComSemiRing Build abbrev
+R29715:29715 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_6.Builders_6.R var
+R29717:29717 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_6.Builders_6.S var
+R29719:29719 mathcomp.algebra.algebraic_hierarchy.ssralg <> GRing.Builders_6.Builders_6.U var
+def 29652:29720 GRing.Builders_6 HB_unnamed_factory_8
+def 29652:29720 GRing.Builders_6 GRing_SubPzRing_isSubComPzRing__to__GRing_SemiRing_hasCommutativeMul
+def 29652:29720 GRing.Builders_6 Builders_6_U__canonical__GRing_ComPzSemiRing
+def 29652:29720 GRing.Builders_6 Builders_6_U__canonical__GRing_SubComPzSemiRing
+def 29652:29720 GRing.Builders_6 Builders_6_U__canonical__GRing_ComPzRing
+def 29652:29720 GRing.Builders_6 Builders_6_U__canonical__GRing_SubComPzRing
+R29722:29728 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Builders_6 <> sec
+mod 29722:29728 <> GRing.Builders_6.Builders_Export_10
+def 29859:29869 GRing rmorphismMP
+R29878:29891 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzSemiRing.Exports pzSemiRingType abbrev
+binder 29872:29872 <> R:33
+binder 29874:29874 <> S:34
+R29899:29909 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.RMorphismExports ::type_scope:'{'_'rmorphism'_x_'->'_x_'}' not
+R29911:29914 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.RMorphismExports ::type_scope:'{'_'rmorphism'_x_'->'_x_'}' not
+R29916:29916 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.RMorphismExports ::type_scope:'{'_'rmorphism'_x_'->'_x_'}' not
+R29910:29910 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:33 var
+R29915:29915 mathcomp.algebra.algebraic_hierarchy.ssralg <> S:34 var
+binder 29895:29895 <> f:35
+R29923:29936 mathcomp.algebra.algebraic_hierarchy.ssralg GRing multiplicative def
+R29938:29938 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:35 var
+binder 29948:29948 <> p:36
+R29953:29953 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29957:29958 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29962:29962 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29955:29956 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R29954:29954 mathcomp.algebra.algebraic_hierarchy.ssralg <> p:36 var
+R29960:29961 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R29959:29959 mathcomp.algebra.algebraic_hierarchy.ssralg <> p:36 var
+R29966:29982 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing rmorphism_monoidP thm
+R29984:29984 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:35 var
+abbrev 30054:30064 GRing rmorph_char
+R30069:30080 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing rmorph_pchar thm
+def 30174:30188 GRing additive_linear
+R30193:30212 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing zmod_morphism_linear thm
+abbrev 30302:30333 GRing pFrobenius_aut_is_multiplicative
+binder 30345:30345 <> p:37
+R30360:30363 Corelib.ssr.ssrfun <> ::function_scope:x_'\o'_x not
+R30350:30350 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30354:30355 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30359:30359 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30352:30353 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R30351:30351 mathcomp.algebra.algebraic_hierarchy.ssralg <> p:37 var
+R30357:30358 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R30356:30356 mathcomp.algebra.algebraic_hierarchy.ssralg <> p:37 var
+R30364:30396 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut_is_monoid_morphism thm
+abbrev 30480:30490 GRing exprDn_char
+R30495:30506 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing exprDn_pchar thm
+abbrev 30593:30601 GRing natf_neq0
+R30606:30620 mathcomp.algebra.algebraic_hierarchy.divalg GRing natf_neq0_pchar thm
+abbrev 30702:30711 GRing natf0_char
+R30716:30726 mathcomp.algebra.algebraic_hierarchy.divalg GRing natf0_pchar thm
+abbrev 30808:30817 GRing charf'_nat
+R30822:30832 mathcomp.algebra.algebraic_hierarchy.divalg GRing pcharf'_nat thm
+abbrev 30911:30917 GRing charf0P
+R30922:30929 mathcomp.algebra.algebraic_hierarchy.divalg GRing pcharf0P thm
+abbrev 31016:31029 GRing char0_natf_div
+R31034:31048 mathcomp.algebra.algebraic_hierarchy.divalg GRing pchar0_natf_div thm
+abbrev 31131:31141 GRing fmorph_char
+R31146:31157 mathcomp.algebra.algebraic_hierarchy.divalg GRing fmorph_pchar thm
+abbrev 31238:31246 GRing char_lalg
+R31251:31260 mathcomp.algebra.algebraic_hierarchy.divalg GRing pchar_lalg thm
+prf 31410:31418 GRing lalgMixin
+R31427:31436 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzRing.Exports pzRingType abbrev
+binder 31423:31423 <> R:38
+R31444:31453 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzLalgebra.Exports pzLalgType abbrev
+R31455:31455 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:38 var
+binder 31440:31440 <> A:39
+R31463:31470 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Lmodule.Exports lmodType abbrev
+R31472:31472 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:38 var
+binder 31459:31459 <> B:40
+R31481:31484 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31480:31480 mathcomp.algebra.algebraic_hierarchy.ssralg <> B:40 var
+R31485:31485 mathcomp.algebra.algebraic_hierarchy.ssralg <> A:39 var
+binder 31476:31476 <> f:41
+R31499:31502 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31492:31496 Corelib.ssr.ssreflect <> phant variant
+R31498:31498 mathcomp.algebra.algebraic_hierarchy.ssralg <> B:40 var
+R31514:31517 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31503:31511 Corelib.ssr.ssrfun <> injective def
+R31513:31513 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:41 var
+R31528:31533 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31518:31525 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LinearExports scalable abbrev
+R31527:31527 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:41 var
+binder 31541:31544 <> mulB:42
+R31583:31588 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31547:31553 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31555:31557 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31559:31559 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31561:31563 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31572:31576 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31582:31582 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R31554:31554 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:41 var
+binder 31558:31558 <> x:43
+binder 31560:31560 <> y:44
+R31564:31567 mathcomp.algebra.algebraic_hierarchy.ssralg <> mulB:42 var
+R31569:31569 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:43 var
+R31571:31571 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:44 var
+binder 31558:31558 <> x:45
+binder 31560:31560 <> y:46
+R31578:31580 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R31577:31577 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:45 var
+R31581:31581 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:46 var
+binder 31596:31596 <> a:47
+binder 31598:31598 <> u:48
+binder 31600:31600 <> v:49
+R31618:31620 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31604:31608 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R31617:31617 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R31603:31603 mathcomp.algebra.algebraic_hierarchy.ssralg <> a:47 var
+R31609:31612 mathcomp.algebra.algebraic_hierarchy.ssralg <> mulB:42 var
+R31614:31614 mathcomp.algebra.algebraic_hierarchy.ssralg <> u:48 var
+R31616:31616 mathcomp.algebra.algebraic_hierarchy.ssralg <> v:49 var
+R31621:31624 mathcomp.algebra.algebraic_hierarchy.ssralg <> mulB:42 var
+R31628:31631 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R31627:31627 mathcomp.algebra.algebraic_hierarchy.ssralg <> a:47 var
+R31632:31632 mathcomp.algebra.algebraic_hierarchy.ssralg <> u:48 var
+R31635:31635 mathcomp.algebra.algebraic_hierarchy.ssralg <> v:49 var
+R31702:31702 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31705:31706 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31709:31709 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31711:31718 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing scalerAl def
+prf 31842:31853 GRing comRingMixin
+R31860:31872 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComPzRing.Exports comPzRingType abbrev
+binder 31856:31856 <> R:50
+R31880:31889 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzRing.Exports pzRingType abbrev
+binder 31876:31876 <> T:51
+R31898:31901 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31897:31897 mathcomp.algebra.algebraic_hierarchy.ssralg <> T:51 var
+R31902:31902 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:50 var
+binder 31893:31893 <> f:52
+R31916:31919 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31909:31913 Corelib.ssr.ssreflect <> phant variant
+R31915:31915 mathcomp.algebra.algebraic_hierarchy.ssralg <> T:51 var
+R31931:31934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31920:31928 Corelib.ssr.ssrfun <> injective def
+R31930:31930 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:52 var
+R31958:31961 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31935:31941 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R31943:31945 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R31947:31947 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R31949:31951 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R31957:31957 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R31942:31942 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:52 var
+binder 31946:31946 <> x:53
+binder 31948:31948 <> y:54
+R31953:31955 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R31952:31952 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:53 var
+R31956:31956 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:54 var
+binder 31946:31946 <> x:55
+binder 31948:31948 <> y:56
+R31952:31952 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:55 var
+R31956:31956 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:56 var
+R31962:31972 Corelib.ssr.ssrfun <> commutative def
+R31976:31978 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing mul def
+R31980:31980 mathcomp.algebra.algebraic_hierarchy.ssralg <> T:51 var
+R32043:32047 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing mulrC def
+prf 32175:32182 GRing algMixin
+R32191:32200 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzRing.Exports pzRingType abbrev
+binder 32187:32187 <> R:57
+R32208:32216 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzAlgebra.Exports pzAlgType abbrev
+R32218:32218 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:57 var
+binder 32204:32204 <> A:58
+R32226:32235 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.PzLalgebra.Exports pzLalgType abbrev
+R32237:32237 mathcomp.algebra.algebraic_hierarchy.ssralg <> R:57 var
+binder 32222:32222 <> B:59
+R32246:32249 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32245:32245 mathcomp.algebra.algebraic_hierarchy.ssralg <> B:59 var
+R32250:32250 mathcomp.algebra.algebraic_hierarchy.ssralg <> A:58 var
+binder 32241:32241 <> f:60
+R32264:32267 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32257:32261 Corelib.ssr.ssreflect <> phant variant
+R32263:32263 mathcomp.algebra.algebraic_hierarchy.ssralg <> B:59 var
+R32279:32282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32268:32276 Corelib.ssr.ssrfun <> injective def
+R32278:32278 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:60 var
+R32306:32309 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32283:32289 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R32291:32293 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R32295:32295 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R32297:32299 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R32305:32305 Corelib.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}' not
+R32290:32290 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:60 var
+binder 32294:32294 <> x:61
+binder 32296:32296 <> y:62
+R32301:32303 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R32300:32300 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:61 var
+R32304:32304 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:62 var
+binder 32294:32294 <> x:63
+binder 32296:32296 <> y:64
+R32300:32300 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:63 var
+R32304:32304 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:64 var
+R32320:32325 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32310:32317 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.LinearExports scalable abbrev
+R32319:32319 mathcomp.algebra.algebraic_hierarchy.ssralg <> f:60 var
+binder 32333:32333 <> k:65
+R32342:32342 mathcomp.algebra.algebraic_hierarchy.ssralg <> B:59 var
+binder 32336:32336 <> x:66
+binder 32338:32338 <> y:67
+R32358:32360 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32347:32351 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R32357:32357 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R32346:32346 mathcomp.algebra.algebraic_hierarchy.ssralg <> k:65 var
+R32353:32355 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R32352:32352 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:66 var
+R32356:32356 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:67 var
+R32362:32365 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R32372:32372 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*'_x not
+R32361:32361 mathcomp.algebra.algebraic_hierarchy.ssralg <> x:66 var
+R32367:32370 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras <> ::ring_scope:x_'*:'_x not
+R32366:32366 mathcomp.algebra.algebraic_hierarchy.ssralg <> k:65 var
+R32371:32371 mathcomp.algebra.algebraic_hierarchy.ssralg <> y:67 var
+R32436:32436 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32439:32440 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32443:32443 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32445:32452 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing scalerAr def
+mod 32468:32473 <> GRing.Theory
+R32483:32494 mathcomp.algebra.algebraic_hierarchy.decfield GRing.Theory <> mod
+def 32559:32564 GRing.Theory charf0
+R32569:32575 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pcharf0 def
+def 32645:32655 GRing.Theory charf_prime
+R32660:32671 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pcharf_prime def
+def 32740:32749 GRing.Theory mulrn_char
+R32754:32764 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory mulrn_pchar def
+def 32833:32842 GRing.Theory dvdn_charf
+R32847:32857 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory dvdn_pcharf def
+def 32924:32931 GRing.Theory charf_eq
+R32936:32944 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pcharf_eq def
+def 33017:33030 GRing.Theory bin_lt_charf_0
+R33035:33049 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory bin_lt_pcharf_0 def
+def 33122:33135 GRing.Theory Frobenius_autE
+R33140:33154 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autE def
+def 33227:33240 GRing.Theory Frobenius_aut0
+R33245:33259 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_aut0 def
+def 33332:33345 GRing.Theory Frobenius_aut1
+R33350:33364 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_aut1 def
+def 33442:33460 GRing.Theory Frobenius_autD_comm
+R33465:33484 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autD_comm def
+def 33558:33572 GRing.Theory Frobenius_autMn
+R33577:33592 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autMn def
+def 33668:33684 GRing.Theory Frobenius_aut_nat
+R33689:33706 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_aut_nat def
+def 33784:33802 GRing.Theory Frobenius_autM_comm
+R33807:33826 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autM_comm def
+def 33899:33912 GRing.Theory Frobenius_autX
+R33917:33931 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autX def
+def 34004:34017 GRing.Theory Frobenius_autN
+R34022:34036 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autN def
+def 34114:34132 GRing.Theory Frobenius_autB_comm
+R34137:34156 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory pFrobenius_autB_comm def
+def 34226:34236 GRing.Theory exprNn_char
+R34241:34252 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory exprNn_pchar def
+def 34322:34332 GRing.Theory addrr_char2
+R34337:34348 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrr_pchar2 def
+def 34417:34426 GRing.Theory oppr_char2
+R34431:34441 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory oppr_pchar2 def
+def 34511:34521 GRing.Theory addrK_char2
+R34526:34537 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addrK_pchar2 def
+def 34607:34617 GRing.Theory addKr_char2
+R34622:34633 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory addKr_pchar2 def
+def 34703:34713 GRing.Theory exprDn_char
+R34718:34729 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory exprDn_pchar def
+def 34846:34858 GRing.Theory semi_additive
+R34863:34875 mathcomp.boot.nmodule Algebra semi_additive def
+def 34992:34999 GRing.Theory additive
+R35004:35011 mathcomp.boot.nmodule Algebra additive def
+def 35133:35150 GRing.Theory can2_semi_additive
+R35155:35172 mathcomp.boot.nmodule Algebra can2_semi_additive def
+def 35294:35306 GRing.Theory can2_additive
+R35311:35323 mathcomp.boot.nmodule Algebra can2_additive def
+def 35442:35455 GRing.Theory multiplicative
+R35460:35473 mathcomp.algebra.algebraic_hierarchy.ssralg GRing multiplicative def
+def 35594:35604 GRing.Theory rmorphismMP
+R35609:35619 mathcomp.algebra.algebraic_hierarchy.ssralg GRing rmorphismMP def
+def 35689:35699 GRing.Theory rmorph_char
+R35704:35715 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.Theory rmorph_pchar def
+def 35839:35852 GRing.Theory can2_rmorphism
+R35857:35870 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing can2_rmorphism def
+def 35998:36016 GRing.Theory additive_semilinear
+R36021:36039 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing additive_semilinear def
+def 36163:36177 GRing.Theory additive_linear
+R36182:36196 mathcomp.algebra.algebraic_hierarchy.ssralg GRing additive_linear def
+def 36264:36272 GRing.Theory char_lalg
+R36277:36286 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory pchar_lalg def
+def 36359:36367 GRing.Theory natf_neq0
+R36372:36386 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory natf_neq0_pchar def
+def 36455:36464 GRing.Theory natf0_char
+R36469:36479 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory natf0_pchar def
+def 36548:36557 GRing.Theory charf'_nat
+R36562:36572 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory pcharf'_nat def
+def 36638:36644 GRing.Theory charf0P
+R36649:36656 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory pcharf0P def
+def 36729:36742 GRing.Theory char0_natf_div
+R36747:36761 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory pchar0_natf_div def
+def 36831:36841 GRing.Theory fmorph_char
+R36846:36857 mathcomp.algebra.algebraic_hierarchy.divalg GRing.Theory fmorph_pchar def
+R36864:36869 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.Theory <> mod
+mod 36880:36889 <> GRing.AllExports
+abbrev 36956:36966 GRing.AllExports addr_closed
+R36971:36981 mathcomp.boot.nmodule Algebra nmod_closed abbrev
+R37001:37010 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.AllExports <> mod
+R37018:37022 mathcomp.algebra.algebraic_hierarchy.ssralg GRing <> mod
+R37033:37042 mathcomp.algebra.algebraic_hierarchy.ssralg GRing.AllExports <> mod
+abbrev 37206:37217 <> semiRingType
+R37223:37236 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiRing.Exports nzSemiRingType abbrev
+abbrev 37407:37414 <> ringType
+R37420:37429 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzRing.Exports nzRingType abbrev
+abbrev 37614:37628 <> comSemiRingType
+R37634:37650 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiRing.Exports comNzSemiRingType abbrev
+abbrev 37827:37837 <> comRingType
+R37843:37855 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzRing.Exports comNzRingType abbrev
+abbrev 38040:38054 <> subSemiRingType
+R38060:38076 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiRing.Exports subNzSemiRingType abbrev
+abbrev 38267:38284 <> subComSemiRingType
+R38290:38309 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzSemiRing.Exports subComNzSemiRingType abbrev
+abbrev 38486:38496 <> subRingType
+R38502:38514 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzRing.Exports subNzRingType abbrev
+abbrev 38697:38710 <> subComRingType
+R38716:38731 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubComNzRing.Exports subComNzRingType abbrev
+abbrev 38910:38921 <> lSemiAlgType
+R38927:38940 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLSemiAlgebra.Exports nzLSemiAlgType abbrev
+abbrev 39111:39118 <> lalgType
+R39124:39133 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzLalgebra.Exports nzLalgType abbrev
+abbrev 39310:39320 <> semiAlgType
+R39326:39338 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzSemiAlgebra.Exports nzSemiAlgType abbrev
+abbrev 39507:39513 <> algType
+R39519:39527 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.NzAlgebra.Exports nzAlgType abbrev
+abbrev 39710:39723 <> comSemiAlgType
+R39729:39744 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzSemiAlgebra.Exports comNzSemiAlgType abbrev
+abbrev 39919:39928 <> comAlgType
+R39934:39945 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.ComNzAlgebra.Exports comNzAlgType abbrev
+abbrev 40130:40144 <> subLSemiAlgType
+R40150:40166 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLSemiAlgebra.Exports subNzLSemiAlgType abbrev
+abbrev 40343:40353 <> subLalgType
+R40359:40371 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzLalgebra.Exports subNzLalgType abbrev
+abbrev 40554:40567 <> subSemiAlgType
+R40573:40588 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzSemiAlgebra.Exports subNzSemiAlgType abbrev
+abbrev 40763:40772 <> subAlgType
+R40778:40789 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing.SubNzAlgebra.Exports subNzAlgType abbrev
+R40906:40916 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pchar def
+not 40887:40887 <> ::ring_scope:'['_'char'_x_']'
+abbrev 40998:41006 <> has_char0
+R41027:41030 Corelib.ssr.ssrbool <> ::type_scope:x_'=i'_x not
+R41014:41024 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pchar def
+R41031:41035 Corelib.ssr.ssrbool <> pred0 def
+abbrev 41106:41118 <> Frobenius_aut
+R41129:41142 mathcomp.algebra.algebraic_hierarchy.rings_modules_and_algebras GRing pFrobenius_aut def

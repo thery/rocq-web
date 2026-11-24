@@ -1,0 +1,87 @@
+DIGEST 75ea1d2991401539060e9a767b1e8656
+FStdlib.Arith.EqNat
+R703:710 Stdlib.Arith.PeanoNat <> <> lib
+def 824:829 <> eq_nat
+binder 831:831 <> n:1
+binder 833:833 <> m:2
+R856:856 Stdlib.Arith.EqNat <> m:2 var
+R853:853 Stdlib.Arith.EqNat <> n:1 var
+R869:869 Corelib.Init.Datatypes <> O constr
+R872:872 Corelib.Init.Datatypes <> O constr
+R877:880 Corelib.Init.Logic <> True ind
+R888:888 Corelib.Init.Datatypes <> O constr
+R891:891 Corelib.Init.Datatypes <> S constr
+R898:902 Corelib.Init.Logic <> False ind
+R910:910 Corelib.Init.Datatypes <> S constr
+R915:915 Corelib.Init.Datatypes <> O constr
+R920:924 Corelib.Init.Logic <> False ind
+R932:932 Corelib.Init.Datatypes <> S constr
+R938:938 Corelib.Init.Datatypes <> S constr
+R946:951 Stdlib.Arith.EqNat <> eq_nat:3 def
+prf 975:985 <> eq_nat_refl
+binder 987:987 <> n:6
+R991:996 Stdlib.Arith.EqNat <> eq_nat def
+R998:998 Stdlib.Arith.EqNat <> n:6 var
+R1000:1000 Stdlib.Arith.EqNat <> n:6 var
+prf 1113:1124 <> eq_nat_is_eq
+binder 1126:1126 <> n:7
+binder 1128:1128 <> m:8
+R1142:1146 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1132:1137 Stdlib.Arith.EqNat <> eq_nat def
+R1139:1139 Stdlib.Arith.EqNat <> n:7 var
+R1141:1141 Stdlib.Arith.EqNat <> m:8 var
+R1148:1150 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1147:1147 Stdlib.Arith.EqNat <> n:7 var
+R1151:1151 Stdlib.Arith.EqNat <> m:8 var
+R1269:1279 Stdlib.Arith.EqNat <> eq_nat_refl thm
+prf 1294:1302 <> eq_eq_nat
+binder 1304:1304 <> n:9
+binder 1306:1306 <> m:10
+R1315:1318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1311:1313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1310:1310 Stdlib.Arith.EqNat <> n:9 var
+R1314:1314 Stdlib.Arith.EqNat <> m:10 var
+R1319:1324 Stdlib.Arith.EqNat <> eq_nat def
+R1326:1326 Stdlib.Arith.EqNat <> n:9 var
+R1328:1328 Stdlib.Arith.EqNat <> m:10 var
+R1345:1356 Stdlib.Arith.EqNat <> eq_nat_is_eq thm
+prf 1371:1379 <> eq_nat_eq
+binder 1381:1381 <> n:11
+binder 1383:1383 <> m:12
+R1397:1400 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1387:1392 Stdlib.Arith.EqNat <> eq_nat def
+R1394:1394 Stdlib.Arith.EqNat <> n:11 var
+R1396:1396 Stdlib.Arith.EqNat <> m:12 var
+R1402:1404 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1401:1401 Stdlib.Arith.EqNat <> n:11 var
+R1405:1405 Stdlib.Arith.EqNat <> m:12 var
+R1422:1433 Stdlib.Arith.EqNat <> eq_nat_is_eq thm
+prf 1450:1460 <> eq_nat_elim
+binder 1473:1473 <> n:13
+R1481:1484 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1478:1480 Corelib.Init.Datatypes <> nat ind
+binder 1476:1476 <> P:14
+R1495:1498 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1492:1492 Stdlib.Arith.EqNat <> P:14 var
+R1494:1494 Stdlib.Arith.EqNat <> n:13 var
+binder 1506:1506 <> m:15
+R1519:1522 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1509:1514 Stdlib.Arith.EqNat <> eq_nat def
+R1516:1516 Stdlib.Arith.EqNat <> n:13 var
+R1518:1518 Stdlib.Arith.EqNat <> m:15 var
+R1523:1523 Stdlib.Arith.EqNat <> P:14 var
+R1525:1525 Stdlib.Arith.EqNat <> m:15 var
+R1583:1591 Stdlib.Arith.EqNat <> eq_nat_eq thm
+prf 1622:1634 <> eq_nat_decide
+binder 1645:1645 <> n:16
+binder 1647:1647 <> m:17
+R1650:1650 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1661:1665 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1678:1678 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1651:1656 Stdlib.Arith.EqNat <> eq_nat def
+R1658:1658 Stdlib.Arith.EqNat <> n:16 var
+R1660:1660 Stdlib.Arith.EqNat <> m:17 var
+R1666:1667 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1668:1673 Stdlib.Arith.EqNat <> eq_nat def
+R1675:1675 Stdlib.Arith.EqNat <> n:16 var
+R1677:1677 Stdlib.Arith.EqNat <> m:17 var

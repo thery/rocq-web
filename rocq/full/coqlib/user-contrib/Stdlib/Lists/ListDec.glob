@@ -1,0 +1,199 @@
+DIGEST e7650722516b3287fd79bb25931ae719
+FStdlib.Lists.ListDec
+R744:747 Stdlib.Lists.List <> <> lib
+R749:757 Stdlib.Logic.Decidable <> <> lib
+def 796:807 <> decidable_eq
+binder 809:809 <> A:1
+R825:825 Stdlib.Lists.ListDec <> A:1 var
+binder 821:821 <> x:2
+binder 823:823 <> y:3
+R828:836 Stdlib.Logic.Decidable <> decidable def
+R840:840 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R839:839 Stdlib.Lists.ListDec <> x:2 var
+R841:841 Stdlib.Lists.ListDec <> y:3 var
+sec 854:864 <> Dec_in_Prop
+var 878:878 Dec_in_Prop A
+var 886:888 Dec_in_Prop dec
+R890:901 Stdlib.Lists.ListDec <> decidable_eq def
+R903:903 Stdlib.Lists.ListDec <> A:5 var
+prf 914:925 <> In_decidable
+binder 927:927 <> x:8
+R932:935 Corelib.Init.Datatypes <> list ind
+R937:937 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 930:930 <> l:9
+R942:950 Stdlib.Logic.Decidable <> decidable def
+R953:954 Stdlib.Lists.List <> In def
+R958:958 Stdlib.Lists.ListDec <> l:9 var
+R956:956 Stdlib.Lists.ListDec <> x:8 var
+R1035:1037 Stdlib.Lists.ListDec <> Dec_in_Prop.dec var
+prf 1124:1137 <> incl_decidable
+R1145:1148 Corelib.Init.Datatypes <> list ind
+R1150:1150 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 1140:1140 <> l:10
+binder 1142:1143 <> l':11
+R1155:1163 Stdlib.Logic.Decidable <> decidable def
+R1166:1169 Stdlib.Lists.List <> incl def
+R1173:1174 Stdlib.Lists.ListDec <> l':11 var
+R1171:1171 Stdlib.Lists.ListDec <> l:10 var
+R1259:1270 Stdlib.Lists.ListDec <> In_decidable thm
+prf 1478:1492 <> NoDup_decidable
+R1497:1500 Corelib.Init.Datatypes <> list ind
+R1502:1502 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 1495:1495 <> l:12
+R1507:1515 Stdlib.Logic.Decidable <> decidable def
+R1518:1522 Stdlib.Lists.List <> NoDup ind
+R1524:1524 Stdlib.Lists.ListDec <> l:12 var
+R1613:1624 Stdlib.Lists.ListDec <> In_decidable thm
+prf 1770:1778 <> not_NoDup
+R1784:1787 Corelib.Init.Datatypes <> list ind
+R1789:1789 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 1781:1781 <> l:13
+R1806:1809 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1797:1798 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1799:1803 Stdlib.Lists.List <> NoDup ind
+R1805:1805 Stdlib.Lists.ListDec <> l:13 var
+R1810:1816 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1827:1828 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1817:1817 <> a:14
+binder 1819:1820 <> l1:15
+binder 1822:1823 <> l2:16
+binder 1825:1826 <> l3:17
+R1830:1832 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1829:1829 Stdlib.Lists.ListDec <> l:13 var
+R1835:1836 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1833:1834 Stdlib.Lists.ListDec <> l1:15 var
+R1838:1839 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1837:1837 Stdlib.Lists.ListDec <> a:14 var
+R1842:1843 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1840:1841 Stdlib.Lists.ListDec <> l2:16 var
+R1845:1846 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1844:1844 Stdlib.Lists.ListDec <> a:14 var
+R1847:1848 Stdlib.Lists.ListDec <> l3:17 var
+R1952:1966 Stdlib.Lists.ListDec <> NoDup_decidable thm
+R1997:2008 Stdlib.Lists.ListDec <> In_decidable thm
+R2043:2050 Stdlib.Lists.List <> in_split thm
+R2099:2101 Corelib.Init.Datatypes <> nil constr
+R2223:2224 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 2250:2269 <> NoDup_list_decidable
+R2274:2277 Corelib.Init.Datatypes <> list ind
+R2279:2279 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 2272:2272 <> l:18
+R2291:2294 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2284:2288 Stdlib.Lists.List <> NoDup ind
+R2290:2290 Stdlib.Lists.ListDec <> l:18 var
+R2306:2306 Stdlib.Lists.ListDec <> Dec_in_Prop.A var
+binder 2302:2302 <> x:19
+binder 2304:2304 <> y:20
+R2315:2318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2309:2310 Stdlib.Lists.List <> In def
+R2314:2314 Stdlib.Lists.ListDec <> l:18 var
+R2312:2312 Stdlib.Lists.ListDec <> x:19 var
+R2325:2328 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2319:2320 Stdlib.Lists.List <> In def
+R2324:2324 Stdlib.Lists.ListDec <> l:18 var
+R2322:2322 Stdlib.Lists.ListDec <> y:20 var
+R2329:2337 Stdlib.Logic.Decidable <> decidable def
+R2341:2341 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2340:2340 Stdlib.Lists.ListDec <> x:19 var
+R2342:2342 Stdlib.Lists.ListDec <> y:20 var
+R2432:2442 Stdlib.Lists.ListDec Dec_in_Prop <> sec
+sec 2454:2464 <> Dec_in_Type
+var 2478:2478 Dec_in_Type A
+var 2486:2488 Dec_in_Type dec
+R2503:2503 Stdlib.Lists.ListDec <> A:22 var
+binder 2499:2499 <> x:23
+binder 2501:2501 <> y:24
+R2506:2506 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2510:2512 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2517:2517 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2508:2508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2507:2507 Stdlib.Lists.ListDec <> x:23 var
+R2509:2509 Stdlib.Lists.ListDec <> y:24 var
+R2514:2515 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2513:2513 Stdlib.Lists.ListDec <> x:23 var
+R2516:2516 Stdlib.Lists.ListDec <> y:24 var
+def 2533:2538 <> In_dec
+R2543:2553 Stdlib.Lists.List <> In_dec abbrev
+R2555:2557 Stdlib.Lists.ListDec <> Dec_in_Type.dec var
+prf 2591:2598 <> incl_dec
+R2606:2609 Corelib.Init.Datatypes <> list ind
+R2611:2611 Stdlib.Lists.ListDec <> Dec_in_Type.A var
+binder 2601:2601 <> l:27
+binder 2603:2604 <> l':28
+R2616:2616 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2626:2628 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2639:2639 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2617:2620 Stdlib.Lists.List <> incl def
+R2624:2625 Stdlib.Lists.ListDec <> l':28 var
+R2622:2622 Stdlib.Lists.ListDec <> l:27 var
+R2629:2629 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2630:2633 Stdlib.Lists.List <> incl def
+R2637:2638 Stdlib.Lists.ListDec <> l':28 var
+R2635:2635 Stdlib.Lists.ListDec <> l:27 var
+R2723:2728 Stdlib.Lists.ListDec <> In_dec def
+prf 2936:2944 <> NoDup_dec
+R2949:2952 Corelib.Init.Datatypes <> list ind
+R2954:2954 Stdlib.Lists.ListDec <> Dec_in_Type.A var
+binder 2947:2947 <> l:29
+R2959:2959 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2967:2969 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2978:2978 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2960:2964 Stdlib.Lists.List <> NoDup ind
+R2966:2966 Stdlib.Lists.ListDec <> l:29 var
+R2970:2970 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2971:2975 Stdlib.Lists.List <> NoDup ind
+R2977:2977 Stdlib.Lists.ListDec <> l:29 var
+R3066:3071 Stdlib.Lists.ListDec <> In_dec def
+R3215:3225 Stdlib.Lists.ListDec Dec_in_Type <> sec
+prf 3328:3339 <> uniquify_map
+binder 3341:3341 <> A:30
+binder 3343:3343 <> B:31
+R3348:3359 Stdlib.Lists.ListDec <> decidable_eq def
+R3361:3361 Stdlib.Lists.ListDec <> B:31 var
+binder 3346:3346 <> d:32
+R3367:3368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3366:3366 Stdlib.Lists.ListDec <> A:30 var
+R3369:3369 Stdlib.Lists.ListDec <> B:31 var
+binder 3364:3364 <> f:33
+R3374:3377 Corelib.Init.Datatypes <> list ind
+R3379:3379 Stdlib.Lists.ListDec <> A:30 var
+binder 3372:3372 <> l:34
+R3385:3391 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3394:3395 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3392:3393 <> l':35
+R3412:3415 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3396:3400 Stdlib.Lists.List <> NoDup ind
+R3403:3405 Corelib.Lists.ListDef <> map def
+R3409:3410 Stdlib.Lists.ListDec <> l':35 var
+R3407:3407 Stdlib.Lists.ListDec <> f:33 var
+R3416:3419 Stdlib.Lists.List <> incl def
+R3432:3434 Corelib.Lists.ListDef <> map def
+R3438:3439 Stdlib.Lists.ListDec <> l':35 var
+R3436:3436 Stdlib.Lists.ListDec <> f:33 var
+R3422:3424 Corelib.Lists.ListDef <> map def
+R3428:3428 Stdlib.Lists.ListDec <> l:34 var
+R3426:3426 Stdlib.Lists.ListDec <> f:33 var
+R3488:3490 Corelib.Init.Datatypes <> nil constr
+R3587:3598 Stdlib.Lists.ListDec <> In_decidable thm
+R3609:3611 Corelib.Lists.ListDef <> map def
+R3735:3736 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 3874:3881 <> uniquify
+binder 3883:3883 <> A:36
+R3888:3899 Stdlib.Lists.ListDec <> decidable_eq def
+R3901:3901 Stdlib.Lists.ListDec <> A:36 var
+binder 3886:3886 <> d:37
+R3906:3909 Corelib.Init.Datatypes <> list ind
+R3911:3911 Stdlib.Lists.ListDec <> A:36 var
+binder 3904:3904 <> l:38
+R3917:3923 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3926:3927 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3924:3925 <> l':39
+R3936:3939 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3928:3932 Stdlib.Lists.List <> NoDup ind
+R3934:3935 Stdlib.Lists.ListDec <> l':39 var
+R3940:3943 Stdlib.Lists.List <> incl def
+R3947:3948 Stdlib.Lists.ListDec <> l':39 var
+R3945:3945 Stdlib.Lists.ListDec <> l:38 var
+R3969:3980 Stdlib.Lists.ListDec <> uniquify_map thm
+R3984:3985 Corelib.Init.Datatypes <> id def
+R4026:4031 Stdlib.Lists.List <> map_id thm

@@ -1,0 +1,325 @@
+DIGEST d86df8629d1e4f982de852f71df6c31b
+FStdlib.Sorting.PermutEq
+R703:711 Stdlib.Relations.Relations <> <> lib
+R713:718 Stdlib.Setoids.Setoid <> <> lib
+R720:729 Stdlib.Sorting.SetoidList <> <> lib
+R731:734 Stdlib.Lists.List <> <> lib
+R736:743 Stdlib.Sets.Multiset <> <> lib
+R745:756 Stdlib.Sorting.PermutSetoid <> <> lib
+R758:768 Stdlib.Sorting.Permutation <> <> lib
+sec 1062:1065 <> Perm
+var 1080:1080 Perm A
+var 1103:1108 Perm eq_dec
+R1123:1123 Stdlib.Sorting.PermutEq <> Perm.A var
+binder 1119:1119 <> x:3
+binder 1121:1121 <> y:4
+R1126:1126 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1130:1134 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1140:1140 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1128:1128 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1127:1127 Stdlib.Sorting.PermutEq <> x:3 var
+R1129:1129 Stdlib.Sorting.PermutEq <> y:4 var
+R1135:1136 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1138:1138 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1137:1137 Stdlib.Sorting.PermutEq <> x:3 var
+R1139:1139 Stdlib.Sorting.PermutEq <> y:4 var
+abbrev 1155:1165 <> permutation
+R1171:1181 Stdlib.Sorting.PermutSetoid <> permutation def
+R1185:1190 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+abbrev 1205:1217 <> list_contents
+R1223:1235 Stdlib.Sorting.PermutSetoid <> list_contents def
+R1239:1244 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+prf 1321:1335 <> multiplicity_In
+binder 1350:1350 <> l:7
+binder 1352:1352 <> a:8
+R1361:1365 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1355:1356 Stdlib.Lists.List <> In def
+R1360:1360 Stdlib.Sorting.PermutEq <> l:7 var
+R1358:1358 Stdlib.Sorting.PermutEq <> a:8 var
+R1367:1369 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1370:1381 Stdlib.Sets.Multiset <> multiplicity def
+R1401:1401 Stdlib.Sorting.PermutEq <> a:8 var
+R1384:1396 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R1398:1398 Stdlib.Sorting.PermutEq <> l:7 var
+R1454:1459 Stdlib.Sorting.SetoidList <> In_InA thm
+R1462:1477 Stdlib.Sorting.PermutSetoid <> multiplicity_InA thm
+R1530:1545 Stdlib.Sorting.PermutSetoid <> multiplicity_InA thm
+R1548:1554 Stdlib.Sorting.SetoidList <> InA_alt thm
+prf 1626:1642 <> multiplicity_In_O
+binder 1657:1657 <> l:9
+binder 1659:1659 <> a:10
+R1670:1673 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1662:1663 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1664:1665 Stdlib.Lists.List <> In def
+R1669:1669 Stdlib.Sorting.PermutEq <> l:9 var
+R1667:1667 Stdlib.Sorting.PermutEq <> a:10 var
+R1706:1708 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1674:1685 Stdlib.Sets.Multiset <> multiplicity def
+R1705:1705 Stdlib.Sorting.PermutEq <> a:10 var
+R1688:1700 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R1702:1702 Stdlib.Sorting.PermutEq <> l:9 var
+R1745:1759 Stdlib.Sorting.PermutEq <> multiplicity_In thm
+R1778:1789 Stdlib.Sets.Multiset <> multiplicity def
+R1792:1804 Stdlib.Sorting.PermutEq <> list_contents abbrev
+prf 1868:1884 <> multiplicity_In_S
+binder 1899:1899 <> l:11
+binder 1901:1901 <> a:12
+R1910:1913 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1904:1905 Stdlib.Lists.List <> In def
+R1909:1909 Stdlib.Sorting.PermutEq <> l:11 var
+R1907:1907 Stdlib.Sorting.PermutEq <> a:12 var
+R1946:1949 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R1914:1925 Stdlib.Sets.Multiset <> multiplicity def
+R1945:1945 Stdlib.Sorting.PermutEq <> a:12 var
+R1928:1940 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R1942:1942 Stdlib.Sorting.PermutEq <> l:11 var
+R1986:2000 Stdlib.Sorting.PermutEq <> multiplicity_In thm
+prf 2025:2042 <> multiplicity_NoDup
+binder 2057:2057 <> l:13
+R2067:2072 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2120:2120 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2060:2064 Stdlib.Lists.List <> NoDup ind
+R2066:2066 Stdlib.Sorting.PermutEq <> l:13 var
+binder 2080:2080 <> a:14
+R2115:2118 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2083:2094 Stdlib.Sets.Multiset <> multiplicity def
+R2114:2114 Stdlib.Sorting.PermutEq <> a:14 var
+R2097:2109 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R2111:2111 Stdlib.Sorting.PermutEq <> l:13 var
+R2212:2220 Stdlib.Lists.List <> NoDup_nil constr
+R2323:2328 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R2395:2411 Stdlib.Sorting.PermutEq <> multiplicity_In_O thm
+R2467:2481 Stdlib.Sorting.PermutEq <> multiplicity_In thm
+R2532:2537 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R2579:2590 Stdlib.Sets.Multiset <> multiplicity def
+R2593:2605 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R2820:2825 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+prf 2874:2885 <> NoDup_permut
+binder 2900:2900 <> l:15
+binder 2902:2903 <> l':16
+R2913:2916 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2906:2910 Stdlib.Lists.List <> NoDup ind
+R2912:2912 Stdlib.Sorting.PermutEq <> l:15 var
+R2925:2934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2917:2921 Stdlib.Lists.List <> NoDup ind
+R2923:2924 Stdlib.Sorting.PermutEq <> l':16 var
+R2935:2935 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2964:2968 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 2943:2943 <> x:17
+R2952:2956 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2946:2947 Stdlib.Lists.List <> In def
+R2951:2951 Stdlib.Sorting.PermutEq <> l:15 var
+R2949:2949 Stdlib.Sorting.PermutEq <> x:17 var
+R2957:2958 Stdlib.Lists.List <> In def
+R2962:2963 Stdlib.Sorting.PermutEq <> l':16 var
+R2960:2960 Stdlib.Sorting.PermutEq <> x:17 var
+R2969:2979 Stdlib.Sorting.PermutEq <> permutation abbrev
+R2983:2984 Stdlib.Sorting.PermutEq <> l':16 var
+R2981:2981 Stdlib.Sorting.PermutEq <> l:15 var
+R3024:3026 Stdlib.Sets.Multiset <> meq def
+R3049:3066 Stdlib.Sorting.PermutEq <> multiplicity_NoDup thm
+R3146:3160 Stdlib.Sorting.PermutEq <> multiplicity_In thm
+R3203:3214 Stdlib.Sets.Multiset <> multiplicity def
+R3217:3229 Stdlib.Sorting.PermutEq <> list_contents abbrev
+R3263:3274 Stdlib.Sets.Multiset <> multiplicity def
+R3277:3289 Stdlib.Sorting.PermutEq <> list_contents abbrev
+prf 3527:3538 <> permut_In_In
+binder 3553:3554 <> l1:18
+binder 3556:3557 <> l2:19
+binder 3559:3559 <> e:20
+R3579:3582 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3562:3572 Stdlib.Sorting.PermutEq <> permutation abbrev
+R3577:3578 Stdlib.Sorting.PermutEq <> l2:19 var
+R3574:3575 Stdlib.Sorting.PermutEq <> l1:18 var
+R3590:3593 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3583:3584 Stdlib.Lists.List <> In def
+R3588:3589 Stdlib.Sorting.PermutEq <> l1:18 var
+R3586:3586 Stdlib.Sorting.PermutEq <> e:20 var
+R3594:3595 Stdlib.Lists.List <> In def
+R3599:3600 Stdlib.Sorting.PermutEq <> l2:19 var
+R3597:3597 Stdlib.Sorting.PermutEq <> e:20 var
+R3623:3646 Stdlib.Sorting.PermutSetoid <> permutation def
+R3649:3651 Stdlib.Sets.Multiset <> meq def
+R3720:3725 Stdlib.Lists.List <> In_dec abbrev
+R3727:3732 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R3769:3785 Stdlib.Sorting.PermutEq <> multiplicity_In_O thm
+R3823:3839 Stdlib.Sorting.PermutEq <> multiplicity_In_S thm
+prf 3899:3912 <> permut_cons_In
+binder 3927:3928 <> l1:21
+binder 3930:3931 <> l2:22
+binder 3933:3933 <> e:23
+R3960:3963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3936:3946 Stdlib.Sorting.PermutEq <> permutation abbrev
+R3958:3959 Stdlib.Sorting.PermutEq <> l2:22 var
+R3950:3953 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3949:3949 Stdlib.Sorting.PermutEq <> e:23 var
+R3954:3955 Stdlib.Sorting.PermutEq <> l1:21 var
+R3964:3965 Stdlib.Lists.List <> In def
+R3969:3970 Stdlib.Sorting.PermutEq <> l2:22 var
+R3967:3967 Stdlib.Sorting.PermutEq <> e:23 var
+R4001:4012 Stdlib.Sorting.PermutEq <> permut_In_In thm
+prf 4092:4101 <> permut_nil
+binder 4116:4116 <> l:24
+R4136:4139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4119:4129 Stdlib.Sorting.PermutEq <> permutation abbrev
+R4133:4135 Corelib.Init.Datatypes <> nil constr
+R4131:4131 Stdlib.Sorting.PermutEq <> l:24 var
+R4141:4143 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4140:4140 Stdlib.Sorting.PermutEq <> l:24 var
+R4144:4146 Corelib.Init.Datatypes <> nil constr
+R4217:4218 Stdlib.Lists.List <> In def
+R4224:4225 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4273:4284 Stdlib.Sorting.PermutEq <> permut_In_In thm
+prf 4436:4458 <> permutation_Permutation
+binder 4473:4473 <> l:25
+binder 4475:4476 <> l':26
+R4495:4499 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4479:4489 Stdlib.Sorting.Permutation <> Permutation ind
+R4493:4494 Stdlib.Sorting.PermutEq <> l':26 var
+R4491:4491 Stdlib.Sorting.PermutEq <> l:25 var
+R4500:4510 Stdlib.Sorting.PermutEq <> permutation abbrev
+R4514:4515 Stdlib.Sorting.PermutEq <> l':26 var
+R4512:4512 Stdlib.Sorting.PermutEq <> l:25 var
+R4571:4581 Stdlib.Sorting.PermutSetoid <> permut_refl thm
+R4598:4608 Stdlib.Sorting.PermutSetoid <> permut_cons thm
+R4633:4643 Stdlib.Sorting.PermutEq <> permutation abbrev
+R4656:4656 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4663:4665 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4658:4659 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4660:4662 Corelib.Init.Datatypes <> nil constr
+R4667:4668 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4647:4648 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4650:4651 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4688:4709 Stdlib.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R4725:4735 Stdlib.Sorting.PermutSetoid <> permut_refl thm
+R4752:4763 Stdlib.Sorting.PermutSetoid <> permut_trans thm
+R4849:4858 Stdlib.Sorting.PermutEq <> permut_nil thm
+R4861:4870 Stdlib.Sorting.PermutSetoid <> permut_sym thm
+R4891:4906 Stdlib.Sorting.Permutation <> Permutation_refl thm
+R4943:4950 Stdlib.Lists.List <> In_split abbrev
+R4957:4970 Stdlib.Sorting.PermutEq <> permut_cons_In thm
+R5025:5044 Stdlib.Sorting.Permutation <> Permutation_cons_app thm
+R5080:5095 Stdlib.Sorting.PermutSetoid <> permut_remove_hd thm
+prf 5191:5205 <> permut_length_1
+binder 5219:5219 <> a:27
+binder 5221:5221 <> b:28
+R5257:5261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5224:5234 Stdlib.Sorting.PermutEq <> permutation abbrev
+R5249:5252 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5248:5248 Stdlib.Sorting.PermutEq <> b:28 var
+R5253:5255 Corelib.Init.Datatypes <> nil constr
+R5238:5241 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5237:5237 Stdlib.Sorting.PermutEq <> a:27 var
+R5242:5244 Corelib.Init.Datatypes <> nil constr
+R5263:5263 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5262:5262 Stdlib.Sorting.PermutEq <> a:27 var
+R5264:5264 Stdlib.Sorting.PermutEq <> b:28 var
+R5299:5322 Stdlib.Sorting.PermutSetoid <> permutation def
+R5325:5327 Stdlib.Sets.Multiset <> meq def
+R5393:5398 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R5452:5457 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+prf 5516:5530 <> permut_length_2
+binder 5545:5546 <> a1:29
+binder 5548:5549 <> b1:30
+binder 5551:5552 <> a2:31
+binder 5554:5555 <> b2:32
+R5605:5614 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5558:5568 Stdlib.Sorting.PermutEq <> permutation abbrev
+R5591:5594 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5589:5590 Stdlib.Sorting.PermutEq <> a2:31 var
+R5597:5600 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5595:5596 Stdlib.Sorting.PermutEq <> b2:32 var
+R5601:5603 Corelib.Init.Datatypes <> nil constr
+R5573:5576 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5571:5572 Stdlib.Sorting.PermutEq <> a1:29 var
+R5579:5582 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5577:5578 Stdlib.Sorting.PermutEq <> b1:30 var
+R5583:5585 Corelib.Init.Datatypes <> nil constr
+R5633:5636 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5615:5615 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5621:5626 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5632:5632 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5618:5618 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5616:5617 Stdlib.Sorting.PermutEq <> a1:29 var
+R5619:5620 Stdlib.Sorting.PermutEq <> a2:31 var
+R5629:5629 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5627:5628 Stdlib.Sorting.PermutEq <> b1:30 var
+R5630:5631 Stdlib.Sorting.PermutEq <> b2:32 var
+R5637:5637 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5643:5648 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5654:5654 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5640:5640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5638:5639 Stdlib.Sorting.PermutEq <> a1:29 var
+R5641:5642 Stdlib.Sorting.PermutEq <> b2:32 var
+R5651:5651 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5649:5650 Stdlib.Sorting.PermutEq <> a2:31 var
+R5652:5653 Stdlib.Sorting.PermutEq <> b1:30 var
+R5707:5720 Stdlib.Sorting.PermutEq <> permut_cons_In thm
+R5786:5800 Stdlib.Sorting.PermutEq <> permut_length_1 thm
+R5883:5888 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R5926:5931 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R6131:6145 Stdlib.Sorting.PermutEq <> permut_length_1 thm
+R6228:6233 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R6271:6276 Stdlib.Sorting.PermutEq <> Perm.eq_dec var
+R6328:6336 Corelib.Init.Peano <> plus_n_Sm thm
+prf 6510:6522 <> permut_length
+binder 6537:6538 <> l1:33
+binder 6540:6541 <> l2:34
+R6561:6564 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6544:6554 Stdlib.Sorting.PermutEq <> permutation abbrev
+R6559:6560 Stdlib.Sorting.PermutEq <> l2:34 var
+R6556:6557 Stdlib.Sorting.PermutEq <> l1:33 var
+R6574:6576 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6565:6570 Corelib.Init.Datatypes <> length def
+R6572:6573 Stdlib.Sorting.PermutEq <> l1:33 var
+R6577:6582 Corelib.Init.Datatypes <> length def
+R6584:6585 Stdlib.Sorting.PermutEq <> l2:34 var
+R6643:6652 Stdlib.Sorting.PermutEq <> permut_nil thm
+R6655:6664 Stdlib.Sorting.PermutSetoid <> permut_sym thm
+R6693:6700 Stdlib.Lists.List <> In_split abbrev
+R6707:6720 Stdlib.Sorting.PermutEq <> permut_cons_In thm
+R6773:6782 Stdlib.Lists.List <> length_app thm
+R6809:6817 Corelib.Init.Peano <> plus_n_Sm thm
+R6846:6855 Stdlib.Lists.List <> length_app thm
+R6888:6903 Stdlib.Sorting.PermutSetoid <> permut_remove_hd thm
+var 6963:6963 Perm B
+var 6984:6990 Perm eqB_dec
+R7005:7005 Stdlib.Sorting.PermutEq <> Perm.B var
+binder 7001:7001 <> x:37
+binder 7003:7003 <> y:38
+R7008:7009 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7013:7017 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7022:7023 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7011:7011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7010:7010 Stdlib.Sorting.PermutEq <> x:37 var
+R7012:7012 Stdlib.Sorting.PermutEq <> y:38 var
+R7018:7018 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7020:7020 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7019:7019 Stdlib.Sorting.PermutEq <> x:37 var
+R7021:7021 Stdlib.Sorting.PermutEq <> y:38 var
+prf 7081:7095 <> permutation_map
+binder 7110:7110 <> f:41
+binder 7112:7113 <> l1:42
+binder 7115:7116 <> l2:43
+R7136:7145 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7119:7129 Stdlib.Sorting.PermutEq <> permutation abbrev
+R7134:7135 Stdlib.Sorting.PermutEq <> l2:43 var
+R7131:7132 Stdlib.Sorting.PermutEq <> l1:42 var
+R7146:7169 Stdlib.Sorting.PermutSetoid <> permutation def
+R7193:7195 Corelib.Lists.ListDef <> map def
+R7199:7200 Stdlib.Sorting.PermutEq <> l2:43 var
+R7197:7197 Stdlib.Sorting.PermutEq <> f:41 var
+R7182:7184 Corelib.Lists.ListDef <> map def
+R7188:7189 Stdlib.Sorting.PermutEq <> l1:42 var
+R7186:7186 Stdlib.Sorting.PermutEq <> f:41 var
+R7173:7179 Stdlib.Sorting.PermutEq <> Perm.eqB_dec var
+R7269:7278 Stdlib.Sorting.PermutEq <> permut_nil thm
+R7281:7290 Stdlib.Sorting.PermutSetoid <> permut_sym thm
+R7303:7313 Stdlib.Sorting.PermutSetoid <> permut_refl thm
+R7364:7371 Stdlib.Lists.List <> In_split abbrev
+R7378:7391 Stdlib.Sorting.PermutEq <> permut_cons_In thm
+R7444:7450 Stdlib.Lists.List <> map_app thm
+R7478:7499 Stdlib.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R7519:7525 Stdlib.Lists.List <> map_app thm
+R7564:7579 Stdlib.Sorting.PermutSetoid <> permut_remove_hd thm
+R7632:7635 Stdlib.Sorting.PermutEq Perm <> sec

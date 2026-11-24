@@ -1,0 +1,3452 @@
+DIGEST 917fe9d6e50275c629e247175ce4953f
+FStdlib.Arith.PeanoNat
+R853:859 Stdlib.Numbers.Natural.Abstract.NAxioms <> <> lib
+R861:871 Stdlib.Numbers.Natural.Abstract.NProperties <> <> lib
+R873:883 Stdlib.Structures.OrdersFacts <> <> lib
+R885:898 Stdlib.Classes.DecidableClass <> <> lib
+R966:975 Stdlib.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> modtype
+R982:1003 Stdlib.Structures.Equalities UsualDecidableTypeFull <> modtype
+R1010:1024 Stdlib.Structures.Orders OrderedTypeFull <> modtype
+R1031:1040 Stdlib.Structures.Orders TotalOrder <> modtype
+mod 957:959 <> Nat
+R1115:1130 Corelib.Init.Nat <> <> mod
+def 1320:1327 Nat eq_equiv
+R1331:1341 Corelib.Classes.RelationClasses <> Equivalence class
+R1345:1346 Corelib.Init.Logic <> eq ind
+R1348:1350 Corelib.Init.Datatypes <> nat ind
+R1356:1369 Corelib.Classes.RelationClasses <> eq_equivalence inst
+inst 1445:1451 Nat succ_wd
+R1455:1460 Corelib.Classes.Morphisms <> Proper class
+R1472:1472 Corelib.Init.Datatypes <> S constr
+R1465:1467 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1463:1464 Corelib.Init.Logic <> eq ind
+R1468:1469 Corelib.Init.Logic <> eq ind
+inst 1502:1508 Nat pred_wd
+R1512:1517 Corelib.Classes.Morphisms <> Proper class
+R1529:1532 Stdlib.Arith.PeanoNat Nat pred def
+R1522:1524 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1520:1521 Corelib.Init.Logic <> eq ind
+R1525:1526 Corelib.Init.Logic <> eq ind
+inst 1562:1567 Nat add_wd
+R1571:1576 Corelib.Classes.Morphisms <> Proper class
+R1593:1596 Corelib.Init.Peano <> plus abbrev
+R1581:1583 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1579:1580 Corelib.Init.Logic <> eq ind
+R1586:1588 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1584:1585 Corelib.Init.Logic <> eq ind
+R1589:1590 Corelib.Init.Logic <> eq ind
+inst 1626:1631 Nat sub_wd
+R1635:1640 Corelib.Classes.Morphisms <> Proper class
+R1657:1661 Corelib.Init.Peano <> minus abbrev
+R1645:1647 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1643:1644 Corelib.Init.Logic <> eq ind
+R1650:1652 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1648:1649 Corelib.Init.Logic <> eq ind
+R1653:1654 Corelib.Init.Logic <> eq ind
+inst 1691:1696 Nat mul_wd
+R1700:1705 Corelib.Classes.Morphisms <> Proper class
+R1722:1725 Corelib.Init.Peano <> mult abbrev
+R1710:1712 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1708:1709 Corelib.Init.Logic <> eq ind
+R1715:1717 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1713:1714 Corelib.Init.Logic <> eq ind
+R1718:1719 Corelib.Init.Logic <> eq ind
+inst 1755:1760 Nat pow_wd
+R1764:1769 Corelib.Classes.Morphisms <> Proper class
+R1786:1788 Stdlib.Arith.PeanoNat Nat pow def
+R1774:1776 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1772:1773 Corelib.Init.Logic <> eq ind
+R1779:1781 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1777:1778 Corelib.Init.Logic <> eq ind
+R1782:1783 Corelib.Init.Logic <> eq ind
+inst 1818:1823 Nat div_wd
+R1827:1832 Corelib.Classes.Morphisms <> Proper class
+R1849:1851 Stdlib.Arith.PeanoNat Nat div def
+R1837:1839 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1835:1836 Corelib.Init.Logic <> eq ind
+R1842:1844 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1840:1841 Corelib.Init.Logic <> eq ind
+R1845:1846 Corelib.Init.Logic <> eq ind
+inst 1881:1886 Nat mod_wd
+R1890:1895 Corelib.Classes.Morphisms <> Proper class
+R1912:1917 Stdlib.Arith.PeanoNat Nat modulo def
+R1900:1902 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1898:1899 Corelib.Init.Logic <> eq ind
+R1905:1907 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1903:1904 Corelib.Init.Logic <> eq ind
+R1908:1909 Corelib.Init.Logic <> eq ind
+inst 1947:1951 Nat lt_wd
+R1955:1960 Corelib.Classes.Morphisms <> Proper class
+R1978:1979 Corelib.Init.Peano <> lt def
+R1965:1967 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1963:1964 Corelib.Init.Logic <> eq ind
+R1970:1972 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1968:1969 Corelib.Init.Logic <> eq ind
+R1973:1975 Corelib.Init.Logic <> iff def
+inst 2009:2018 Nat testbit_wd
+R2022:2027 Corelib.Classes.Morphisms <> Proper class
+R2044:2050 Stdlib.Arith.PeanoNat Nat testbit def
+R2032:2034 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2030:2031 Corelib.Init.Logic <> eq ind
+R2037:2039 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2035:2036 Corelib.Init.Logic <> eq ind
+R2040:2041 Corelib.Init.Logic <> eq ind
+prf 2096:2107 Nat bi_induction
+R2127:2130 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2124:2126 Corelib.Init.Datatypes <> nat ind
+binder 2120:2120 <> A:1
+R2156:2163 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2137:2142 Corelib.Classes.Morphisms <> Proper class
+R2155:2155 Stdlib.Arith.PeanoNat <> A:1 var
+R2147:2149 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2145:2146 Corelib.Init.Logic <> eq ind
+R2150:2152 Corelib.Init.Logic <> iff def
+R2167:2170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2164:2164 Stdlib.Arith.PeanoNat <> A:1 var
+R2171:2171 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2203:2207 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2183:2185 Corelib.Init.Datatypes <> nat ind
+binder 2179:2179 <> n:2
+R2191:2195 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2188:2188 Stdlib.Arith.PeanoNat <> A:1 var
+R2190:2190 Stdlib.Arith.PeanoNat <> n:2 var
+R2196:2196 Stdlib.Arith.PeanoNat <> A:1 var
+R2199:2199 Corelib.Init.Datatypes <> S constr
+R2201:2201 Stdlib.Arith.PeanoNat <> n:2 var
+R2219:2221 Corelib.Init.Datatypes <> nat ind
+binder 2215:2215 <> n:3
+R2224:2224 Stdlib.Arith.PeanoNat <> A:1 var
+R2226:2226 Stdlib.Arith.PeanoNat <> n:3 var
+R2265:2271 Corelib.Init.Datatypes <> nat_ind scheme
+def 2363:2371 Nat recursion
+binder 2374:2374 <> A:4
+R2380:2383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2379:2379 Stdlib.Arith.PeanoNat <> A:4 var
+R2384:2384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2398:2402 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2388:2391 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2385:2387 Corelib.Init.Datatypes <> nat ind
+R2393:2396 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2392:2392 Stdlib.Arith.PeanoNat <> A:4 var
+R2397:2397 Stdlib.Arith.PeanoNat <> A:4 var
+R2406:2409 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2403:2405 Corelib.Init.Datatypes <> nat ind
+R2410:2410 Stdlib.Arith.PeanoNat <> A:4 var
+R2417:2424 Corelib.Init.Datatypes <> nat_rect scheme
+R2436:2436 Stdlib.Arith.PeanoNat <> A:4 var
+inst 2460:2471 Nat recursion_wd
+binder 2474:2474 <> A:5
+R2484:2491 Corelib.Relations.Relation_Definitions <> relation def
+R2493:2493 Stdlib.Arith.PeanoNat <> A:5 var
+binder 2478:2480 <> Aeq:6
+R2500:2505 Corelib.Classes.Morphisms <> Proper class
+R2549:2557 Stdlib.Arith.PeanoNat Nat recursion def
+R2511:2515 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2508:2510 Stdlib.Arith.PeanoNat <> Aeq:6 var
+R2516:2516 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2531:2536 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2519:2521 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2517:2518 Corelib.Init.Logic <> eq ind
+R2525:2527 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2522:2524 Stdlib.Arith.PeanoNat <> Aeq:6 var
+R2528:2530 Stdlib.Arith.PeanoNat <> Aeq:6 var
+R2539:2543 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2537:2538 Corelib.Init.Logic <> eq ind
+R2544:2546 Stdlib.Arith.PeanoNat <> Aeq:6 var
+prf 2661:2671 Nat recursion_0
+binder 2685:2685 <> A:7
+R2693:2693 Stdlib.Arith.PeanoNat <> A:7 var
+binder 2689:2689 <> a:8
+R2704:2707 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2701:2703 Corelib.Init.Datatypes <> nat ind
+R2709:2712 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2708:2708 Stdlib.Arith.PeanoNat <> A:7 var
+R2713:2713 Stdlib.Arith.PeanoNat <> A:7 var
+binder 2697:2697 <> f:9
+R2732:2734 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2717:2725 Stdlib.Arith.PeanoNat Nat recursion def
+R2729:2729 Stdlib.Arith.PeanoNat <> f:9 var
+R2727:2727 Stdlib.Arith.PeanoNat <> a:8 var
+R2735:2735 Stdlib.Arith.PeanoNat <> a:8 var
+prf 2772:2785 Nat recursion_succ
+binder 2799:2799 <> A:10
+R2809:2816 Corelib.Relations.Relation_Definitions <> relation def
+R2818:2818 Stdlib.Arith.PeanoNat <> A:10 var
+binder 2803:2805 <> Aeq:11
+R2826:2826 Stdlib.Arith.PeanoNat <> A:10 var
+binder 2822:2822 <> a:12
+R2837:2840 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2834:2836 Corelib.Init.Datatypes <> nat ind
+R2842:2845 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2841:2841 Stdlib.Arith.PeanoNat <> A:10 var
+R2846:2846 Stdlib.Arith.PeanoNat <> A:10 var
+binder 2830:2830 <> f:13
+R2861:2864 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2854:2856 Stdlib.Arith.PeanoNat <> Aeq:11 var
+R2858:2858 Stdlib.Arith.PeanoNat <> a:12 var
+R2860:2860 Stdlib.Arith.PeanoNat <> a:12 var
+R2890:2899 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2865:2870 Corelib.Classes.Morphisms <> Proper class
+R2889:2889 Stdlib.Arith.PeanoNat <> f:13 var
+R2875:2877 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2873:2874 Corelib.Init.Logic <> eq ind
+R2881:2883 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2878:2880 Stdlib.Arith.PeanoNat <> Aeq:11 var
+R2884:2886 Stdlib.Arith.PeanoNat <> Aeq:11 var
+R2911:2913 Corelib.Init.Datatypes <> nat ind
+binder 2907:2907 <> n:14
+R2916:2918 Stdlib.Arith.PeanoNat <> Aeq:11 var
+R2921:2929 Stdlib.Arith.PeanoNat Nat recursion def
+R2936:2936 Corelib.Init.Datatypes <> S constr
+R2938:2938 Stdlib.Arith.PeanoNat <> n:14 var
+R2933:2933 Stdlib.Arith.PeanoNat <> f:13 var
+R2931:2931 Stdlib.Arith.PeanoNat <> a:12 var
+R2943:2943 Stdlib.Arith.PeanoNat <> f:13 var
+R2948:2956 Stdlib.Arith.PeanoNat Nat recursion def
+R2962:2962 Stdlib.Arith.PeanoNat <> n:14 var
+R2960:2960 Stdlib.Arith.PeanoNat <> f:13 var
+R2958:2958 Stdlib.Arith.PeanoNat <> a:12 var
+R2945:2945 Stdlib.Arith.PeanoNat <> n:14 var
+R2983:2988 Corelib.Classes.Morphisms <> Proper class
+R2991:3000 Corelib.Classes.Morphisms <> respectful def
+def 3249:3250 Nat eq
+R3256:3263 Corelib.Init.Logic <> eq ind
+R3265:3267 Corelib.Init.Datatypes <> nat ind
+def 3281:3282 Nat le
+R3287:3294 Corelib.Init.Peano <> le ind
+def 3308:3309 Nat lt
+R3314:3321 Corelib.Init.Peano <> lt def
+prf 3382:3390 Nat pred_succ
+binder 3392:3392 <> n:15
+R3406:3408 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3396:3399 Stdlib.Arith.PeanoNat Nat pred def
+R3402:3402 Corelib.Init.Datatypes <> S constr
+R3404:3404 Stdlib.Arith.PeanoNat <> n:15 var
+R3409:3409 Stdlib.Arith.PeanoNat <> n:15 var
+prf 3444:3449 Nat pred_0
+R3459:3461 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3453:3456 Stdlib.Arith.PeanoNat Nat pred def
+prf 3497:3504 Nat one_succ
+R3509:3511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3512:3512 Corelib.Init.Datatypes <> S constr
+prf 3549:3556 Nat two_succ
+R3561:3563 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3564:3564 Corelib.Init.Datatypes <> S constr
+prf 3601:3607 Nat add_0_l
+binder 3609:3609 <> n:16
+R3618:3620 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3614:3616 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3617:3617 Stdlib.Arith.PeanoNat <> n:16 var
+R3621:3621 Stdlib.Arith.PeanoNat <> n:16 var
+prf 3656:3665 Nat add_succ_l
+binder 3667:3667 <> n:17
+binder 3669:3669 <> m:18
+R3682:3684 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3673:3673 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3677:3680 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3674:3674 Corelib.Init.Datatypes <> S constr
+R3676:3676 Stdlib.Arith.PeanoNat <> n:17 var
+R3681:3681 Stdlib.Arith.PeanoNat <> m:18 var
+R3685:3685 Corelib.Init.Datatypes <> S constr
+R3689:3691 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3688:3688 Stdlib.Arith.PeanoNat <> n:17 var
+R3692:3692 Stdlib.Arith.PeanoNat <> m:18 var
+prf 3728:3734 Nat sub_0_r
+binder 3736:3736 <> n:19
+R3745:3747 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3741:3743 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R3740:3740 Stdlib.Arith.PeanoNat <> n:19 var
+R3748:3748 Stdlib.Arith.PeanoNat <> n:19 var
+prf 3786:3795 Nat sub_succ_r
+binder 3797:3797 <> n:20
+binder 3799:3799 <> m:21
+R3812:3814 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3804:3807 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R3811:3811 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R3803:3803 Stdlib.Arith.PeanoNat <> n:20 var
+R3808:3808 Corelib.Init.Datatypes <> S constr
+R3810:3810 Stdlib.Arith.PeanoNat <> m:21 var
+R3815:3818 Stdlib.Arith.PeanoNat Nat pred def
+R3822:3824 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R3821:3821 Stdlib.Arith.PeanoNat <> n:20 var
+R3825:3825 Stdlib.Arith.PeanoNat <> m:21 var
+R3903:3909 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+prf 3924:3930 Nat mul_0_l
+binder 3932:3932 <> n:22
+R3941:3943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3937:3939 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R3940:3940 Stdlib.Arith.PeanoNat <> n:22 var
+prf 3979:3988 Nat mul_succ_l
+binder 3990:3990 <> n:23
+binder 3992:3992 <> m:24
+R4003:4005 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3999:4001 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R3996:3996 Corelib.Init.Datatypes <> S constr
+R3998:3998 Stdlib.Arith.PeanoNat <> n:23 var
+R4002:4002 Stdlib.Arith.PeanoNat <> m:24 var
+R4011:4013 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R4007:4009 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R4006:4006 Stdlib.Arith.PeanoNat <> n:23 var
+R4010:4010 Stdlib.Arith.PeanoNat <> m:24 var
+R4014:4014 Stdlib.Arith.PeanoNat <> m:24 var
+binder 4050:4050 <> x:25
+binder 4052:4052 <> y:26
+R4060:4062 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4056:4056 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R4055:4055 Stdlib.Arith.PeanoNat <> x:25 var
+R4057:4057 Corelib.Init.Datatypes <> S constr
+R4059:4059 Stdlib.Arith.PeanoNat <> y:26 var
+R4063:4063 Corelib.Init.Datatypes <> S constr
+R4066:4066 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R4065:4065 Stdlib.Arith.PeanoNat <> x:25 var
+R4067:4067 Stdlib.Arith.PeanoNat <> y:26 var
+binder 4050:4050 <> x:27
+binder 4052:4052 <> y:28
+R4055:4055 Stdlib.Arith.PeanoNat <> x:27 var
+R4059:4059 Stdlib.Arith.PeanoNat <> y:28 var
+R4065:4065 Stdlib.Arith.PeanoNat <> x:27 var
+R4067:4067 Stdlib.Arith.PeanoNat <> y:28 var
+binder 4124:4124 <> x:29
+binder 4126:4126 <> y:30
+R4132:4134 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4130:4130 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R4129:4129 Stdlib.Arith.PeanoNat <> x:29 var
+R4131:4131 Stdlib.Arith.PeanoNat <> y:30 var
+R4136:4136 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R4135:4135 Stdlib.Arith.PeanoNat <> y:30 var
+R4137:4137 Stdlib.Arith.PeanoNat <> x:29 var
+binder 4124:4124 <> x:31
+binder 4126:4126 <> y:32
+R4129:4129 Stdlib.Arith.PeanoNat <> x:31 var
+R4131:4131 Stdlib.Arith.PeanoNat <> y:32 var
+R4135:4135 Stdlib.Arith.PeanoNat <> y:32 var
+R4137:4137 Stdlib.Arith.PeanoNat <> x:31 var
+prf 4255:4263 Nat lt_succ_r
+binder 4265:4265 <> n:33
+binder 4267:4267 <> m:34
+R4278:4282 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4272:4274 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4271:4271 Stdlib.Arith.PeanoNat <> n:33 var
+R4275:4275 Corelib.Init.Datatypes <> S constr
+R4277:4277 Stdlib.Arith.PeanoNat <> m:34 var
+R4284:4287 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R4283:4283 Stdlib.Arith.PeanoNat <> n:33 var
+R4288:4288 Stdlib.Arith.PeanoNat <> m:34 var
+R4317:4328 Corelib.Init.Peano <> le_S_n thm
+prf 4397:4402 Nat eqb_eq
+binder 4404:4404 <> n:35
+binder 4406:4406 <> m:36
+R4424:4428 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4417:4419 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4410:4412 Stdlib.Arith.PeanoNat Nat eqb def
+R4414:4414 Stdlib.Arith.PeanoNat <> n:35 var
+R4416:4416 Stdlib.Arith.PeanoNat <> m:36 var
+R4420:4423 Corelib.Init.Datatypes <> true constr
+R4430:4432 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4429:4429 Stdlib.Arith.PeanoNat <> n:35 var
+R4433:4433 Stdlib.Arith.PeanoNat <> m:36 var
+inst 4606:4621 Nat Decidable_eq_nat
+R4639:4641 Corelib.Init.Datatypes <> nat ind
+binder 4633:4633 <> x:37
+binder 4635:4635 <> y:38
+R4645:4653 Stdlib.Classes.DecidableClass <> Decidable class
+R4656:4657 Stdlib.Arith.PeanoNat Nat eq def
+R4659:4659 Stdlib.Arith.PeanoNat <> x:37 var
+R4661:4661 Stdlib.Arith.PeanoNat <> y:38 var
+R4671:4684 Stdlib.Classes.DecidableClass <> Decidable_spec meth
+R4689:4698 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+prf 4714:4719 Nat leb_le
+binder 4721:4721 <> n:39
+binder 4723:4723 <> m:40
+R4743:4747 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4727:4727 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4735:4738 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4729:4733 Corelib.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R4728:4728 Stdlib.Arith.PeanoNat <> n:39 var
+R4734:4734 Stdlib.Arith.PeanoNat <> m:40 var
+R4739:4742 Corelib.Init.Datatypes <> true constr
+R4749:4752 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R4748:4748 Stdlib.Arith.PeanoNat <> n:39 var
+R4753:4753 Stdlib.Arith.PeanoNat <> m:40 var
+R4883:4894 Corelib.Init.Peano <> le_0_n thm
+R4948:4959 Corelib.Init.Peano <> le_n_S thm
+R4974:4985 Corelib.Init.Peano <> le_S_n thm
+inst 5013:5028 Nat Decidable_le_nat
+R5046:5048 Corelib.Init.Datatypes <> nat ind
+binder 5040:5040 <> x:41
+binder 5042:5042 <> y:42
+R5052:5060 Stdlib.Classes.DecidableClass <> Decidable class
+R5064:5067 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R5063:5063 Stdlib.Arith.PeanoNat <> x:41 var
+R5068:5068 Stdlib.Arith.PeanoNat <> y:42 var
+R5078:5091 Stdlib.Classes.DecidableClass <> Decidable_spec meth
+R5096:5105 Stdlib.Arith.PeanoNat Nat leb_le thm
+prf 5121:5126 Nat ltb_lt
+binder 5128:5128 <> n:43
+binder 5130:5130 <> m:44
+R5149:5153 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5134:5134 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5141:5144 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5136:5139 Corelib.Init.Nat <> ::nat_scope:x_'<?'_x not
+R5135:5135 Stdlib.Arith.PeanoNat <> n:43 var
+R5140:5140 Stdlib.Arith.PeanoNat <> m:44 var
+R5145:5148 Corelib.Init.Datatypes <> true constr
+R5155:5157 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5154:5154 Stdlib.Arith.PeanoNat <> n:43 var
+R5158:5158 Stdlib.Arith.PeanoNat <> m:44 var
+R5174:5179 Stdlib.Arith.PeanoNat Nat leb_le thm
+prf 5436:5441 Nat eq_dec
+R5458:5460 Corelib.Init.Datatypes <> nat ind
+binder 5452:5452 <> n:45
+binder 5454:5454 <> m:46
+R5463:5463 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5469:5473 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5480:5480 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5465:5467 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5464:5464 Stdlib.Arith.PeanoNat <> n:45 var
+R5468:5468 Stdlib.Arith.PeanoNat <> m:46 var
+R5475:5478 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R5474:5474 Stdlib.Arith.PeanoNat <> n:45 var
+R5479:5479 Stdlib.Arith.PeanoNat <> m:46 var
+prf 5862:5875 Nat compare_eq_iff
+binder 5877:5877 <> n:47
+binder 5879:5879 <> m:48
+R5896:5900 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5883:5883 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5890:5893 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5885:5888 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R5884:5884 Stdlib.Arith.PeanoNat <> n:47 var
+R5889:5889 Stdlib.Arith.PeanoNat <> m:48 var
+R5894:5895 Corelib.Init.Datatypes <> Eq constr
+R5902:5904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5901:5901 Stdlib.Arith.PeanoNat <> n:47 var
+R5905:5905 Stdlib.Arith.PeanoNat <> m:48 var
+prf 6027:6040 Nat compare_lt_iff
+binder 6042:6042 <> n:49
+binder 6044:6044 <> m:50
+R6061:6065 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6048:6048 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6055:6058 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6050:6053 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6049:6049 Stdlib.Arith.PeanoNat <> n:49 var
+R6054:6054 Stdlib.Arith.PeanoNat <> m:50 var
+R6059:6060 Corelib.Init.Datatypes <> Lt constr
+R6067:6069 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6066:6066 Stdlib.Arith.PeanoNat <> n:49 var
+R6070:6070 Stdlib.Arith.PeanoNat <> m:50 var
+R6198:6209 Corelib.Init.Peano <> le_n_S thm
+R6212:6223 Corelib.Init.Peano <> le_0_n thm
+R6236:6247 Corelib.Init.Peano <> le_n_S thm
+R6260:6271 Corelib.Init.Peano <> le_S_n thm
+prf 6286:6299 Nat compare_le_iff
+binder 6301:6301 <> n:51
+binder 6303:6303 <> m:52
+R6321:6325 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6307:6307 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6314:6318 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6309:6312 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6308:6308 Stdlib.Arith.PeanoNat <> n:51 var
+R6313:6313 Stdlib.Arith.PeanoNat <> m:52 var
+R6319:6320 Corelib.Init.Datatypes <> Gt constr
+R6327:6330 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R6326:6326 Stdlib.Arith.PeanoNat <> n:51 var
+R6331:6331 Stdlib.Arith.PeanoNat <> m:52 var
+R6466:6477 Corelib.Init.Peano <> le_0_n thm
+R6579:6590 Corelib.Init.Peano <> le_n_S thm
+R6609:6620 Corelib.Init.Peano <> le_S_n thm
+prf 6635:6649 Nat compare_antisym
+binder 6651:6651 <> n:53
+binder 6653:6653 <> m:54
+R6657:6657 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6664:6667 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6659:6662 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6658:6658 Stdlib.Arith.PeanoNat <> m:54 var
+R6663:6663 Stdlib.Arith.PeanoNat <> n:53 var
+R6668:6674 Corelib.Init.Datatypes <> CompOpp def
+R6678:6681 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6677:6677 Stdlib.Arith.PeanoNat <> n:53 var
+R6682:6682 Stdlib.Arith.PeanoNat <> m:54 var
+prf 6765:6776 Nat compare_succ
+binder 6778:6778 <> n:55
+binder 6780:6780 <> m:56
+R6784:6784 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6795:6799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6806:6806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6788:6791 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6785:6785 Corelib.Init.Datatypes <> S constr
+R6787:6787 Stdlib.Arith.PeanoNat <> n:55 var
+R6792:6792 Corelib.Init.Datatypes <> S constr
+R6794:6794 Stdlib.Arith.PeanoNat <> m:56 var
+R6801:6804 Corelib.Init.Nat <> ::nat_scope:x_'?='_x not
+R6800:6800 Stdlib.Arith.PeanoNat <> n:55 var
+R6805:6805 Stdlib.Arith.PeanoNat <> m:56 var
+prf 6870:6874 Nat max_l
+binder 6885:6885 <> n:57
+binder 6887:6887 <> m:58
+R6896:6899 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6891:6894 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R6890:6890 Stdlib.Arith.PeanoNat <> m:58 var
+R6895:6895 Stdlib.Arith.PeanoNat <> n:57 var
+R6907:6909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6900:6902 Stdlib.Arith.PeanoNat Nat max def
+R6904:6904 Stdlib.Arith.PeanoNat <> n:57 var
+R6906:6906 Stdlib.Arith.PeanoNat <> m:58 var
+R6910:6910 Stdlib.Arith.PeanoNat <> n:57 var
+R6926:6936 Corelib.Init.Peano <> max_l thm
+prf 6951:6955 Nat max_r
+binder 6966:6966 <> n:59
+binder 6968:6968 <> m:60
+R6977:6980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6972:6975 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R6971:6971 Stdlib.Arith.PeanoNat <> n:59 var
+R6976:6976 Stdlib.Arith.PeanoNat <> m:60 var
+R6988:6990 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6981:6983 Stdlib.Arith.PeanoNat Nat max def
+R6985:6985 Stdlib.Arith.PeanoNat <> n:59 var
+R6987:6987 Stdlib.Arith.PeanoNat <> m:60 var
+R6991:6991 Stdlib.Arith.PeanoNat <> m:60 var
+R7007:7017 Corelib.Init.Peano <> max_r thm
+prf 7032:7036 Nat min_l
+binder 7047:7047 <> n:61
+binder 7049:7049 <> m:62
+R7058:7061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7053:7056 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7052:7052 Stdlib.Arith.PeanoNat <> n:61 var
+R7057:7057 Stdlib.Arith.PeanoNat <> m:62 var
+R7069:7071 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7062:7064 Stdlib.Arith.PeanoNat Nat min def
+R7066:7066 Stdlib.Arith.PeanoNat <> n:61 var
+R7068:7068 Stdlib.Arith.PeanoNat <> m:62 var
+R7072:7072 Stdlib.Arith.PeanoNat <> n:61 var
+R7088:7098 Corelib.Init.Peano <> min_l thm
+prf 7113:7117 Nat min_r
+binder 7128:7128 <> n:63
+binder 7130:7130 <> m:64
+R7139:7142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7134:7137 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7133:7133 Stdlib.Arith.PeanoNat <> m:64 var
+R7138:7138 Stdlib.Arith.PeanoNat <> n:63 var
+R7150:7152 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7143:7145 Stdlib.Arith.PeanoNat Nat min def
+R7147:7147 Stdlib.Arith.PeanoNat <> n:63 var
+R7149:7149 Stdlib.Arith.PeanoNat <> m:64 var
+R7153:7153 Stdlib.Arith.PeanoNat <> m:64 var
+R7169:7179 Corelib.Init.Peano <> min_r thm
+R7324:7337 Stdlib.Structures.OrdersFacts BoolOrderFacts <> modtype
+R7504:7513 Stdlib.Numbers.Natural.Abstract.NProperties NBasicProp <> modtype
+R7518:7545 Stdlib.Structures.GenericMinMax UsualMinMaxLogicalProperties <> mod
+R7550:7573 Stdlib.Structures.GenericMinMax UsualMinMaxDecProperties <> mod
+prf 7583:7601 Nat strong_induction_le
+R7611:7614 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7608:7610 Corelib.Init.Datatypes <> nat ind
+binder 7604:7604 <> A:65
+R7628:7631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7625:7625 Stdlib.Arith.PeanoNat <> A:65 var
+R7632:7632 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7679:7683 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 7640:7640 <> n:66
+R7643:7643 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7667:7671 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 7651:7651 <> m:67
+R7660:7663 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7655:7658 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7654:7654 Stdlib.Arith.PeanoNat <> m:67 var
+R7659:7659 Stdlib.Arith.PeanoNat <> n:66 var
+R7664:7664 Stdlib.Arith.PeanoNat <> A:65 var
+R7666:7666 Stdlib.Arith.PeanoNat <> m:67 var
+R7672:7672 Stdlib.Arith.PeanoNat <> A:65 var
+R7675:7675 Corelib.Init.Datatypes <> S constr
+R7677:7677 Stdlib.Arith.PeanoNat <> n:66 var
+binder 7691:7691 <> n:68
+R7694:7694 Stdlib.Arith.PeanoNat <> A:65 var
+R7696:7696 Stdlib.Arith.PeanoNat <> n:68 var
+R7712:7738 Stdlib.Arith.PeanoNat Nat Private_strong_induction_le thm
+prf 7798:7806 Nat pow_neg_r
+binder 7808:7808 <> a:69
+binder 7810:7810 <> b:70
+R7817:7820 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7815:7815 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7814:7814 Stdlib.Arith.PeanoNat <> b:70 var
+R7824:7826 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7822:7822 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R7821:7821 Stdlib.Arith.PeanoNat <> a:69 var
+R7823:7823 Stdlib.Arith.PeanoNat <> b:70 var
+prf 7862:7868 Nat pow_0_r
+binder 7870:7870 <> a:71
+R7877:7879 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7875:7875 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R7874:7874 Stdlib.Arith.PeanoNat <> a:71 var
+prf 7915:7924 Nat pow_succ_r
+binder 7926:7926 <> a:72
+binder 7928:7928 <> b:73
+R7936:7939 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7933:7934 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7935:7935 Stdlib.Arith.PeanoNat <> b:73 var
+R7947:7949 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7941:7942 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R7946:7946 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R7940:7940 Stdlib.Arith.PeanoNat <> a:72 var
+R7943:7943 Corelib.Init.Datatypes <> S constr
+R7945:7945 Stdlib.Arith.PeanoNat <> b:73 var
+R7951:7953 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R7950:7950 Stdlib.Arith.PeanoNat <> a:72 var
+R7955:7955 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R7954:7954 Stdlib.Arith.PeanoNat <> a:72 var
+R7956:7956 Stdlib.Arith.PeanoNat <> b:73 var
+prf 8009:8019 Nat square_spec
+binder 8021:8021 <> n:74
+R8033:8035 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8025:8030 Stdlib.Arith.PeanoNat Nat square def
+R8032:8032 Stdlib.Arith.PeanoNat <> n:74 var
+R8037:8039 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8036:8036 Stdlib.Arith.PeanoNat <> n:74 var
+R8040:8040 Stdlib.Arith.PeanoNat <> n:74 var
+def 8098:8101 Nat Even
+binder 8103:8103 <> n:75
+R8108:8114 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8116:8117 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8115:8115 <> m:76
+R8119:8121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8118:8118 Stdlib.Arith.PeanoNat <> n:75 var
+R8123:8123 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8124:8124 Stdlib.Arith.PeanoNat <> m:76 var
+def 8138:8140 Nat Odd
+binder 8142:8142 <> n:77
+R8147:8153 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8155:8156 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8154:8154 <> m:78
+R8158:8160 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8157:8157 Stdlib.Arith.PeanoNat <> n:77 var
+R8164:8164 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R8162:8162 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8163:8163 Stdlib.Arith.PeanoNat <> m:78 var
+mod 8176:8189 <> Nat.Private_Parity
+prf 8199:8204 Nat.Private_Parity Even_0
+R8208:8211 Stdlib.Arith.PeanoNat Nat Even def
+prf 8258:8263 Nat.Private_Parity Even_1
+R8267:8268 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8269:8272 Stdlib.Arith.PeanoNat Nat Even def
+R8352:8360 Corelib.Init.Peano <> plus_n_Sm thm
+prf 8380:8385 Nat.Private_Parity Even_2
+binder 8387:8387 <> n:79
+R8397:8401 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8391:8394 Stdlib.Arith.PeanoNat Nat Even def
+R8396:8396 Stdlib.Arith.PeanoNat <> n:79 var
+R8402:8405 Stdlib.Arith.PeanoNat Nat Even def
+R8408:8408 Corelib.Init.Datatypes <> S constr
+R8411:8411 Corelib.Init.Datatypes <> S constr
+R8413:8413 Stdlib.Arith.PeanoNat <> n:79 var
+R8460:8460 Corelib.Init.Datatypes <> S constr
+R8504:8512 Corelib.Init.Peano <> plus_n_Sm thm
+R8598:8606 Corelib.Init.Peano <> plus_n_Sm thm
+prf 8647:8651 Nat.Private_Parity Odd_0
+R8655:8656 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8657:8659 Stdlib.Arith.PeanoNat Nat Odd def
+prf 8704:8708 Nat.Private_Parity Odd_1
+R8712:8714 Stdlib.Arith.PeanoNat Nat Odd def
+prf 8761:8765 Nat.Private_Parity Odd_2
+binder 8767:8767 <> n:80
+R8776:8780 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8771:8773 Stdlib.Arith.PeanoNat Nat Odd def
+R8775:8775 Stdlib.Arith.PeanoNat <> n:80 var
+R8781:8783 Stdlib.Arith.PeanoNat Nat Odd def
+R8786:8786 Corelib.Init.Datatypes <> S constr
+R8789:8789 Corelib.Init.Datatypes <> S constr
+R8791:8791 Stdlib.Arith.PeanoNat <> n:80 var
+R8838:8838 Corelib.Init.Datatypes <> S constr
+R8886:8894 Corelib.Init.Peano <> plus_n_Sm thm
+R8983:8991 Corelib.Init.Peano <> plus_n_Sm thm
+R9043:9051 Corelib.Init.Peano <> plus_n_Sm thm
+R9058:9065 Corelib.Init.Peano <> plus_n_O thm
+R9078:9091 Stdlib.Arith.PeanoNat Nat.Private_Parity <> mod
+R9101:9114 Stdlib.Arith.PeanoNat Nat.Private_Parity <> mod
+prf 9124:9132 Nat even_spec
+binder 9143:9143 <> n:81
+R9159:9163 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9152:9154 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9146:9149 Stdlib.Arith.PeanoNat Nat even def
+R9151:9151 Stdlib.Arith.PeanoNat <> n:81 var
+R9155:9158 Corelib.Init.Datatypes <> true constr
+R9164:9167 Stdlib.Arith.PeanoNat Nat Even def
+R9169:9169 Stdlib.Arith.PeanoNat <> n:81 var
+R9270:9275 Stdlib.Arith.PeanoNat Nat Even_0 thm
+R9336:9341 Stdlib.Arith.PeanoNat Nat Even_1 thm
+R9386:9391 Stdlib.Arith.PeanoNat Nat Even_2 thm
+prf 9406:9413 Nat odd_spec
+binder 9424:9424 <> n:82
+R9439:9443 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9432:9434 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9427:9429 Stdlib.Arith.PeanoNat Nat odd def
+R9431:9431 Stdlib.Arith.PeanoNat <> n:82 var
+R9435:9438 Corelib.Init.Datatypes <> true constr
+R9444:9446 Stdlib.Arith.PeanoNat Nat Odd def
+R9448:9448 Stdlib.Arith.PeanoNat <> n:82 var
+R9467:9469 Stdlib.Arith.PeanoNat Nat odd def
+R9578:9582 Stdlib.Arith.PeanoNat Nat Odd_0 thm
+R9619:9623 Stdlib.Arith.PeanoNat Nat Odd_1 thm
+R9674:9678 Stdlib.Arith.PeanoNat Nat Odd_2 thm
+prf 9713:9723 Nat divmod_spec
+binder 9734:9734 <> x:83
+binder 9736:9736 <> y:84
+binder 9738:9738 <> q:85
+binder 9740:9740 <> u:86
+R9749:9754 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9744:9747 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R9743:9743 Stdlib.Arith.PeanoNat <> u:86 var
+R9748:9748 Stdlib.Arith.PeanoNat <> y:84 var
+R9770:9775 Stdlib.Arith.PeanoNat Nat divmod def
+R9777:9777 Stdlib.Arith.PeanoNat <> x:83 var
+R9779:9779 Stdlib.Arith.PeanoNat <> y:84 var
+R9781:9781 Stdlib.Arith.PeanoNat <> q:85 var
+R9783:9783 Stdlib.Arith.PeanoNat <> u:86 var
+binder 9760:9761 <> q':87
+binder 9763:9764 <> u':88
+R9829:9832 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9809:9811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9801:9804 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9808:9808 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9791:9793 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9790:9790 Stdlib.Arith.PeanoNat <> x:83 var
+R9794:9794 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R9798:9799 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R9795:9795 Corelib.Init.Datatypes <> S constr
+R9797:9797 Stdlib.Arith.PeanoNat <> y:84 var
+R9800:9800 Stdlib.Arith.PeanoNat <> q:85 var
+R9806:9806 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R9805:9805 Stdlib.Arith.PeanoNat <> y:84 var
+R9807:9807 Stdlib.Arith.PeanoNat <> u:86 var
+R9820:9823 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9828:9828 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9812:9812 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R9816:9817 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R9813:9813 Corelib.Init.Datatypes <> S constr
+R9815:9815 Stdlib.Arith.PeanoNat <> y:84 var
+R9818:9819 Stdlib.Arith.PeanoNat <> q':87 var
+R9825:9825 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R9824:9824 Stdlib.Arith.PeanoNat <> y:84 var
+R9826:9827 Stdlib.Arith.PeanoNat <> u':88 var
+R9835:9838 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R9833:9834 Stdlib.Arith.PeanoNat <> u':88 var
+R9839:9839 Stdlib.Arith.PeanoNat <> y:84 var
+R9957:9962 Stdlib.Arith.PeanoNat Nat divmod def
+R9990:9990 Corelib.Init.Datatypes <> S constr
+R9998:10001 Corelib.Init.Peano <> le_n constr
+R10023:10028 Stdlib.Arith.PeanoNat Nat divmod def
+R10101:10107 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+R10110:10117 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R10120:10126 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R10148:10157 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R10163:10172 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R10178:10186 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R10189:10198 Stdlib.Arith.PeanoNat Nat mul_succ_r thm
+R10221:10224 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R10258:10258 Corelib.Init.Datatypes <> S constr
+R10243:10250 Stdlib.Arith.PeanoNat Nat le_trans thm
+R10349:10354 Stdlib.Arith.PeanoNat Nat divmod def
+R10428:10437 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R10443:10452 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R10485:10494 Stdlib.Arith.PeanoNat Nat sub_succ_l thm
+prf 10509:10518 Nat div_mod_eq
+binder 10520:10520 <> x:89
+binder 10522:10522 <> y:90
+R10527:10529 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10526:10526 Stdlib.Arith.PeanoNat <> x:89 var
+R10537:10539 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R10531:10532 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R10536:10536 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R10530:10530 Stdlib.Arith.PeanoNat <> y:90 var
+R10534:10534 Corelib.Init.Nat <> ::nat_scope:x_'/'_x not
+R10533:10533 Stdlib.Arith.PeanoNat <> x:89 var
+R10535:10535 Stdlib.Arith.PeanoNat <> y:90 var
+R10541:10545 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R10540:10540 Stdlib.Arith.PeanoNat <> x:89 var
+R10546:10546 Stdlib.Arith.PeanoNat <> y:90 var
+R10605:10607 Stdlib.Arith.PeanoNat Nat div def
+R10610:10615 Stdlib.Arith.PeanoNat Nat modulo def
+R10632:10642 Stdlib.Arith.PeanoNat Nat divmod_spec thm
+R10653:10656 Corelib.Init.Peano <> le_n constr
+R10674:10679 Stdlib.Arith.PeanoNat Nat divmod def
+R10735:10741 Stdlib.Arith.PeanoNat Nat mul_0_r thm
+R10744:10751 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R10755:10761 Stdlib.Arith.PeanoNat Nat add_0_r thm
+prf 10846:10852 Nat div_mod
+binder 10854:10854 <> x:91
+binder 10856:10856 <> y:92
+R10866:10869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10861:10864 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R10860:10860 Stdlib.Arith.PeanoNat <> y:92 var
+R10871:10873 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10870:10870 Stdlib.Arith.PeanoNat <> x:91 var
+R10881:10883 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R10875:10876 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R10880:10880 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R10874:10874 Stdlib.Arith.PeanoNat <> y:92 var
+R10878:10878 Corelib.Init.Nat <> ::nat_scope:x_'/'_x not
+R10877:10877 Stdlib.Arith.PeanoNat <> x:91 var
+R10879:10879 Stdlib.Arith.PeanoNat <> y:92 var
+R10885:10889 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R10884:10884 Stdlib.Arith.PeanoNat <> x:91 var
+R10890:10890 Stdlib.Arith.PeanoNat <> y:92 var
+R10918:10927 Stdlib.Arith.PeanoNat Nat div_mod_eq thm
+prf 10942:10954 Nat mod_bound_pos
+binder 10956:10956 <> x:93
+binder 10958:10958 <> y:94
+R10966:10969 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10963:10964 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R10965:10965 Stdlib.Arith.PeanoNat <> x:93 var
+R10973:10976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10971:10971 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10972:10972 Stdlib.Arith.PeanoNat <> y:94 var
+R10978:10981 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10989:10991 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10983:10987 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R10982:10982 Stdlib.Arith.PeanoNat <> x:93 var
+R10988:10988 Stdlib.Arith.PeanoNat <> y:94 var
+R10992:10992 Stdlib.Arith.PeanoNat <> y:94 var
+R11037:11042 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R11100:11105 Stdlib.Arith.PeanoNat Nat modulo def
+R11118:11126 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R11129:11136 Stdlib.Arith.PeanoNat Nat le_sub_l thm
+prf 11174:11187 Nat sqrt_iter_spec
+binder 11198:11198 <> k:95
+binder 11200:11200 <> p:96
+binder 11202:11202 <> q:97
+binder 11204:11204 <> r:98
+R11216:11219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11210:11212 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11209:11209 Stdlib.Arith.PeanoNat <> q:97 var
+R11214:11214 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11213:11213 Stdlib.Arith.PeanoNat <> p:96 var
+R11215:11215 Stdlib.Arith.PeanoNat <> p:96 var
+R11224:11229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11221:11222 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R11220:11220 Stdlib.Arith.PeanoNat <> r:98 var
+R11223:11223 Stdlib.Arith.PeanoNat <> q:97 var
+R11239:11247 Stdlib.Arith.PeanoNat Nat sqrt_iter def
+R11249:11249 Stdlib.Arith.PeanoNat <> k:95 var
+R11251:11251 Stdlib.Arith.PeanoNat <> p:96 var
+R11253:11253 Stdlib.Arith.PeanoNat <> q:97 var
+R11255:11255 Stdlib.Arith.PeanoNat <> r:98 var
+binder 11234:11234 <> s:99
+R11265:11268 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R11286:11288 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R11263:11263 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11262:11262 Stdlib.Arith.PeanoNat <> s:99 var
+R11264:11264 Stdlib.Arith.PeanoNat <> s:99 var
+R11276:11279 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11285:11285 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11270:11272 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11269:11269 Stdlib.Arith.PeanoNat <> k:95 var
+R11274:11274 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11273:11273 Stdlib.Arith.PeanoNat <> p:96 var
+R11275:11275 Stdlib.Arith.PeanoNat <> p:96 var
+R11281:11283 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R11280:11280 Stdlib.Arith.PeanoNat <> q:97 var
+R11284:11284 Stdlib.Arith.PeanoNat <> r:98 var
+R11289:11289 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11293:11295 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11299:11299 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11290:11290 Corelib.Init.Datatypes <> S constr
+R11292:11292 Stdlib.Arith.PeanoNat <> s:99 var
+R11296:11296 Corelib.Init.Datatypes <> S constr
+R11298:11298 Stdlib.Arith.PeanoNat <> s:99 var
+R11415:11422 Stdlib.Arith.PeanoNat Nat le_add_r thm
+R11437:11445 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R11462:11471 Stdlib.Arith.PeanoNat Nat mul_succ_r thm
+R11474:11482 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R11486:11493 Stdlib.Arith.PeanoNat Nat add_comm thm
+R11502:11510 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R11525:11537 Stdlib.Arith.PeanoNat Nat add_le_mono_l thm
+R11573:11580 Stdlib.Arith.PeanoNat Nat le_sub_l thm
+R11701:11704 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11708:11708 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11695:11697 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11692:11692 Corelib.Init.Datatypes <> S constr
+R11699:11699 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11706:11706 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R11732:11735 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11753:11753 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11718:11720 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R11721:11721 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11725:11727 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11731:11731 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R11722:11722 Corelib.Init.Datatypes <> S constr
+R11728:11728 Corelib.Init.Datatypes <> S constr
+R11743:11745 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R11736:11736 Corelib.Init.Datatypes <> S constr
+R11739:11739 Corelib.Init.Datatypes <> S constr
+R11746:11746 Corelib.Init.Datatypes <> S constr
+R11749:11749 Corelib.Init.Datatypes <> S constr
+R11775:11782 Stdlib.Arith.PeanoNat Nat sub_diag thm
+R11785:11791 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+R11794:11800 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R11828:11837 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R11860:11868 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R11898:11907 Stdlib.Arith.PeanoNat Nat mul_succ_r thm
+R11911:11918 Stdlib.Arith.PeanoNat Nat add_comm thm
+R11927:11935 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R11997:12006 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R12027:12030 Corelib.Init.Peano <> le_n constr
+R12098:12101 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12107:12107 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12092:12094 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12089:12089 Corelib.Init.Datatypes <> S constr
+R12096:12096 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12103:12103 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R12104:12104 Corelib.Init.Datatypes <> S constr
+R12123:12126 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12132:12132 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12117:12119 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12121:12121 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12128:12130 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R12165:12174 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R12197:12206 Stdlib.Arith.PeanoNat Nat sub_succ_l thm
+R12272:12272 Corelib.Init.Datatypes <> S constr
+R12257:12264 Stdlib.Arith.PeanoNat Nat le_trans thm
+prf 12323:12333 Nat sqrt_specif
+binder 12335:12335 <> n:100
+R12356:12359 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R12361:12363 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R12339:12339 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12346:12348 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12355:12355 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12340:12343 Stdlib.Arith.PeanoNat Nat sqrt def
+R12345:12345 Stdlib.Arith.PeanoNat <> n:100 var
+R12349:12352 Stdlib.Arith.PeanoNat Nat sqrt def
+R12354:12354 Stdlib.Arith.PeanoNat <> n:100 var
+R12360:12360 Stdlib.Arith.PeanoNat <> n:100 var
+R12374:12376 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12364:12364 Corelib.Init.Datatypes <> S constr
+R12367:12370 Stdlib.Arith.PeanoNat Nat sqrt def
+R12372:12372 Stdlib.Arith.PeanoNat <> n:100 var
+R12377:12377 Corelib.Init.Datatypes <> S constr
+R12380:12383 Stdlib.Arith.PeanoNat Nat sqrt def
+R12385:12385 Stdlib.Arith.PeanoNat <> n:100 var
+R12406:12409 Stdlib.Arith.PeanoNat Nat sqrt def
+R12440:12443 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12447:12447 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12434:12436 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12438:12438 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R12445:12445 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R12461:12474 Stdlib.Arith.PeanoNat Nat sqrt_iter_spec thm
+R12511:12517 Stdlib.Arith.PeanoNat Nat add_0_r thm
+def 12537:12545 Nat sqrt_spec
+binder 12547:12547 <> a:101
+R12554:12555 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R12556:12556 Stdlib.Arith.PeanoNat <> a:101 var
+binder 12550:12551 <> Ha:102
+R12562:12572 Stdlib.Arith.PeanoNat Nat sqrt_specif thm
+R12574:12574 Stdlib.Arith.PeanoNat <> a:101 var
+prf 12584:12591 Nat sqrt_neg
+binder 12593:12593 <> a:103
+R12600:12603 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12598:12598 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R12597:12597 Stdlib.Arith.PeanoNat <> a:103 var
+R12610:12612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12604:12607 Stdlib.Arith.PeanoNat Nat sqrt def
+R12609:12609 Stdlib.Arith.PeanoNat <> a:103 var
+prf 12669:12682 Nat log2_iter_spec
+binder 12693:12693 <> k:104
+binder 12695:12695 <> p:105
+binder 12697:12697 <> q:106
+binder 12699:12699 <> r:107
+R12721:12724 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12711:12713 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12705:12706 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12710:12710 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12707:12707 Corelib.Init.Datatypes <> S constr
+R12709:12709 Stdlib.Arith.PeanoNat <> p:105 var
+R12715:12717 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12714:12714 Stdlib.Arith.PeanoNat <> q:106 var
+R12718:12718 Corelib.Init.Datatypes <> S constr
+R12720:12720 Stdlib.Arith.PeanoNat <> r:107 var
+R12732:12737 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12726:12728 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R12725:12725 Stdlib.Arith.PeanoNat <> r:107 var
+R12730:12730 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12731:12731 Stdlib.Arith.PeanoNat <> p:105 var
+R12747:12755 Stdlib.Arith.PeanoNat Nat log2_iter def
+R12757:12757 Stdlib.Arith.PeanoNat <> k:104 var
+R12759:12759 Stdlib.Arith.PeanoNat <> p:105 var
+R12761:12761 Stdlib.Arith.PeanoNat <> q:106 var
+R12763:12763 Stdlib.Arith.PeanoNat <> r:107 var
+binder 12742:12742 <> s:108
+R12773:12776 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R12782:12784 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R12771:12771 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12772:12772 Stdlib.Arith.PeanoNat <> s:108 var
+R12778:12780 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R12777:12777 Stdlib.Arith.PeanoNat <> k:104 var
+R12781:12781 Stdlib.Arith.PeanoNat <> q:106 var
+R12786:12787 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12791:12791 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12788:12788 Corelib.Init.Datatypes <> S constr
+R12790:12790 Stdlib.Arith.PeanoNat <> s:108 var
+R12887:12895 Stdlib.Arith.PeanoNat Nat log2_iter def
+R12933:12939 Stdlib.Arith.PeanoNat Nat add_0_l thm
+R12943:12955 Stdlib.Arith.PeanoNat Nat add_le_mono_l thm
+R12963:12963 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R12981:12983 Stdlib.Arith.PeanoNat Nat pow def
+R13006:13012 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R13033:13040 Stdlib.Arith.PeanoNat Nat add_comm thm
+R13055:13067 Stdlib.Arith.PeanoNat Nat add_le_mono_r thm
+R13092:13099 Stdlib.Arith.PeanoNat Nat add_comm thm
+R13114:13126 Stdlib.Arith.PeanoNat Nat add_lt_mono_l thm
+R13141:13149 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R13152:13157 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R13259:13268 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R13271:13277 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R13300:13309 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R13315:13324 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R13385:13385 Corelib.Init.Datatypes <> S constr
+R13424:13430 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R13501:13510 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R13516:13525 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R13565:13574 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+R13580:13589 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R13624:13624 Corelib.Init.Datatypes <> S constr
+R13606:13616 Stdlib.Arith.PeanoNat Nat le_lt_trans thm
+prf 13677:13685 Nat log2_spec
+binder 13687:13687 <> n:109
+R13694:13699 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13692:13692 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R13693:13693 Stdlib.Arith.PeanoNat <> n:109 var
+R13710:13713 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R13715:13717 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R13701:13702 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R13709:13709 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R13703:13706 Stdlib.Arith.PeanoNat Nat log2 def
+R13708:13708 Stdlib.Arith.PeanoNat <> n:109 var
+R13714:13714 Stdlib.Arith.PeanoNat <> n:109 var
+R13719:13720 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R13731:13731 Corelib.Init.Nat <> ::nat_scope:x_'^'_x not
+R13721:13721 Corelib.Init.Datatypes <> S constr
+R13724:13727 Stdlib.Arith.PeanoNat Nat log2 def
+R13729:13729 Stdlib.Arith.PeanoNat <> n:109 var
+R13761:13764 Stdlib.Arith.PeanoNat Nat log2 def
+R13794:13796 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R13788:13791 Stdlib.Arith.PeanoNat Nat pred def
+R13811:13824 Stdlib.Arith.PeanoNat Nat log2_iter_spec thm
+R13845:13851 Stdlib.Arith.PeanoNat Nat add_1_r thm
+R13864:13872 Stdlib.Arith.PeanoNat Nat succ_pred thm
+R13889:13895 Stdlib.Arith.PeanoNat Nat neq_sym thm
+R13898:13903 Stdlib.Arith.PeanoNat Nat lt_neq thm
+prf 13918:13928 Nat log2_nonpos
+binder 13930:13930 <> n:110
+R13938:13941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13935:13936 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R13934:13934 Stdlib.Arith.PeanoNat <> n:110 var
+R13948:13950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13942:13945 Stdlib.Arith.PeanoNat Nat log2 def
+R13947:13947 Stdlib.Arith.PeanoNat <> n:110 var
+prf 14029:14041 Nat iter_swap_gen
+binder 14043:14043 <> A:111
+binder 14045:14045 <> B:112
+R14051:14054 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14050:14050 Stdlib.Arith.PeanoNat <> A:111 var
+R14055:14055 Stdlib.Arith.PeanoNat <> B:112 var
+binder 14048:14048 <> f:113
+R14062:14065 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14061:14061 Stdlib.Arith.PeanoNat <> A:111 var
+R14066:14066 Stdlib.Arith.PeanoNat <> A:111 var
+binder 14059:14059 <> g:114
+R14073:14076 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14072:14072 Stdlib.Arith.PeanoNat <> B:112 var
+R14077:14077 Stdlib.Arith.PeanoNat <> B:112 var
+binder 14070:14070 <> h:115
+R14083:14083 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14111:14115 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14091:14091 <> a:116
+R14101:14103 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14094:14094 Stdlib.Arith.PeanoNat <> f:113 var
+R14097:14097 Stdlib.Arith.PeanoNat <> g:114 var
+R14099:14099 Stdlib.Arith.PeanoNat <> a:116 var
+R14104:14104 Stdlib.Arith.PeanoNat <> h:115 var
+R14107:14107 Stdlib.Arith.PeanoNat <> f:113 var
+R14109:14109 Stdlib.Arith.PeanoNat <> a:116 var
+binder 14123:14123 <> n:117
+binder 14125:14125 <> a:118
+R14143:14145 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14129:14129 Stdlib.Arith.PeanoNat <> f:113 var
+R14132:14135 Stdlib.Arith.PeanoNat Nat iter def
+R14141:14141 Stdlib.Arith.PeanoNat <> a:118 var
+R14139:14139 Stdlib.Arith.PeanoNat <> g:114 var
+R14137:14137 Stdlib.Arith.PeanoNat <> n:117 var
+R14146:14149 Stdlib.Arith.PeanoNat Nat iter def
+R14156:14156 Stdlib.Arith.PeanoNat <> f:113 var
+R14158:14158 Stdlib.Arith.PeanoNat <> a:118 var
+R14153:14153 Stdlib.Arith.PeanoNat <> h:115 var
+R14151:14151 Stdlib.Arith.PeanoNat <> n:117 var
+prf 14279:14287 Nat iter_swap
+binder 14300:14300 <> n:119
+binder 14303:14303 <> A:120
+R14315:14318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14314:14314 Stdlib.Arith.PeanoNat <> A:120 var
+R14319:14319 Stdlib.Arith.PeanoNat <> A:120 var
+binder 14312:14312 <> f:121
+R14325:14325 Stdlib.Arith.PeanoNat <> A:120 var
+binder 14323:14323 <> x:122
+R14347:14349 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14333:14336 Stdlib.Arith.PeanoNat Nat iter def
+R14343:14343 Stdlib.Arith.PeanoNat <> f:121 var
+R14345:14345 Stdlib.Arith.PeanoNat <> x:122 var
+R14340:14340 Stdlib.Arith.PeanoNat <> f:121 var
+R14338:14338 Stdlib.Arith.PeanoNat <> n:119 var
+R14350:14350 Stdlib.Arith.PeanoNat <> f:121 var
+R14353:14356 Stdlib.Arith.PeanoNat Nat iter def
+R14362:14362 Stdlib.Arith.PeanoNat <> x:122 var
+R14360:14360 Stdlib.Arith.PeanoNat <> f:121 var
+R14358:14358 Stdlib.Arith.PeanoNat <> n:119 var
+R14402:14414 Stdlib.Arith.PeanoNat Nat iter_swap_gen thm
+prf 14429:14437 Nat iter_succ
+binder 14450:14450 <> n:123
+binder 14453:14453 <> A:124
+R14465:14468 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14464:14464 Stdlib.Arith.PeanoNat <> A:124 var
+R14469:14469 Stdlib.Arith.PeanoNat <> A:124 var
+binder 14462:14462 <> f:125
+R14475:14475 Stdlib.Arith.PeanoNat <> A:124 var
+binder 14473:14473 <> x:126
+R14497:14499 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14483:14486 Stdlib.Arith.PeanoNat Nat iter def
+R14496:14496 Stdlib.Arith.PeanoNat <> x:126 var
+R14494:14494 Stdlib.Arith.PeanoNat <> f:125 var
+R14489:14489 Corelib.Init.Datatypes <> S constr
+R14491:14491 Stdlib.Arith.PeanoNat <> n:123 var
+R14500:14500 Stdlib.Arith.PeanoNat <> f:125 var
+R14503:14506 Stdlib.Arith.PeanoNat Nat iter def
+R14512:14512 Stdlib.Arith.PeanoNat <> x:126 var
+R14510:14510 Stdlib.Arith.PeanoNat <> f:125 var
+R14508:14508 Stdlib.Arith.PeanoNat <> n:123 var
+prf 14550:14560 Nat iter_succ_r
+binder 14573:14573 <> n:127
+binder 14576:14576 <> A:128
+R14588:14591 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14587:14587 Stdlib.Arith.PeanoNat <> A:128 var
+R14592:14592 Stdlib.Arith.PeanoNat <> A:128 var
+binder 14585:14585 <> f:129
+R14598:14598 Stdlib.Arith.PeanoNat <> A:128 var
+binder 14596:14596 <> x:130
+R14620:14622 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14606:14609 Stdlib.Arith.PeanoNat Nat iter def
+R14619:14619 Stdlib.Arith.PeanoNat <> x:130 var
+R14617:14617 Stdlib.Arith.PeanoNat <> f:129 var
+R14612:14612 Corelib.Init.Datatypes <> S constr
+R14614:14614 Stdlib.Arith.PeanoNat <> n:127 var
+R14623:14626 Stdlib.Arith.PeanoNat Nat iter def
+R14633:14633 Stdlib.Arith.PeanoNat <> f:129 var
+R14635:14635 Stdlib.Arith.PeanoNat <> x:130 var
+R14630:14630 Stdlib.Arith.PeanoNat <> f:129 var
+R14628:14628 Stdlib.Arith.PeanoNat <> n:127 var
+R14667:14675 Stdlib.Arith.PeanoNat Nat iter_succ thm
+R14678:14686 Stdlib.Arith.PeanoNat Nat iter_swap thm
+prf 14701:14708 Nat iter_add
+binder 14721:14721 <> p:131
+binder 14723:14723 <> q:132
+binder 14726:14726 <> A:133
+R14738:14741 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14737:14737 Stdlib.Arith.PeanoNat <> A:133 var
+R14742:14742 Stdlib.Arith.PeanoNat <> A:133 var
+binder 14735:14735 <> f:134
+R14748:14748 Stdlib.Arith.PeanoNat <> A:133 var
+binder 14746:14746 <> x:135
+R14770:14772 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14756:14759 Stdlib.Arith.PeanoNat Nat iter def
+R14769:14769 Stdlib.Arith.PeanoNat <> x:135 var
+R14767:14767 Stdlib.Arith.PeanoNat <> f:134 var
+R14763:14763 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R14762:14762 Stdlib.Arith.PeanoNat <> p:131 var
+R14764:14764 Stdlib.Arith.PeanoNat <> q:132 var
+R14773:14776 Stdlib.Arith.PeanoNat Nat iter def
+R14783:14786 Stdlib.Arith.PeanoNat Nat iter def
+R14792:14792 Stdlib.Arith.PeanoNat <> x:135 var
+R14790:14790 Stdlib.Arith.PeanoNat <> f:134 var
+R14788:14788 Stdlib.Arith.PeanoNat <> q:132 var
+R14780:14780 Stdlib.Arith.PeanoNat <> f:134 var
+R14778:14778 Stdlib.Arith.PeanoNat <> p:131 var
+prf 14912:14919 Nat iter_ind
+binder 14922:14922 <> A:136
+R14934:14937 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14933:14933 Stdlib.Arith.PeanoNat <> A:136 var
+R14938:14938 Stdlib.Arith.PeanoNat <> A:136 var
+binder 14931:14931 <> f:137
+R14944:14944 Stdlib.Arith.PeanoNat <> A:136 var
+binder 14942:14942 <> a:138
+R14953:14956 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14950:14952 Corelib.Init.Datatypes <> nat ind
+R14958:14961 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14957:14957 Stdlib.Arith.PeanoNat <> A:136 var
+binder 14948:14948 <> P:139
+R14979:14986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14974:14974 Stdlib.Arith.PeanoNat <> P:139 var
+R14978:14978 Stdlib.Arith.PeanoNat <> a:138 var
+R14987:14987 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15025:15033 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14995:14995 <> n:140
+binder 14997:14998 <> a':141
+R15007:15010 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15001:15001 Stdlib.Arith.PeanoNat <> P:139 var
+R15005:15006 Stdlib.Arith.PeanoNat <> a':141 var
+R15003:15003 Stdlib.Arith.PeanoNat <> n:140 var
+R15011:15011 Stdlib.Arith.PeanoNat <> P:139 var
+R15020:15020 Stdlib.Arith.PeanoNat <> f:137 var
+R15022:15023 Stdlib.Arith.PeanoNat <> a':141 var
+R15014:15014 Corelib.Init.Datatypes <> S constr
+R15016:15016 Stdlib.Arith.PeanoNat <> n:140 var
+binder 15041:15041 <> n:142
+R15044:15044 Stdlib.Arith.PeanoNat <> P:139 var
+R15049:15052 Stdlib.Arith.PeanoNat Nat iter def
+R15058:15058 Stdlib.Arith.PeanoNat <> a:138 var
+R15056:15056 Stdlib.Arith.PeanoNat <> f:137 var
+R15054:15054 Stdlib.Arith.PeanoNat <> n:142 var
+R15046:15046 Stdlib.Arith.PeanoNat <> n:142 var
+prf 15161:15169 Nat iter_rect
+binder 15172:15172 <> A:143
+R15184:15187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15183:15183 Stdlib.Arith.PeanoNat <> A:143 var
+R15188:15188 Stdlib.Arith.PeanoNat <> A:143 var
+binder 15181:15181 <> f:144
+R15194:15194 Stdlib.Arith.PeanoNat <> A:143 var
+binder 15192:15192 <> a:145
+R15203:15206 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15200:15202 Corelib.Init.Datatypes <> nat ind
+R15208:15211 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15207:15207 Stdlib.Arith.PeanoNat <> A:143 var
+binder 15198:15198 <> P:146
+R15229:15236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15224:15224 Stdlib.Arith.PeanoNat <> P:146 var
+R15228:15228 Stdlib.Arith.PeanoNat <> a:145 var
+R15237:15237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15275:15283 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 15245:15245 <> n:147
+binder 15247:15248 <> a':148
+R15257:15260 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15251:15251 Stdlib.Arith.PeanoNat <> P:146 var
+R15255:15256 Stdlib.Arith.PeanoNat <> a':148 var
+R15253:15253 Stdlib.Arith.PeanoNat <> n:147 var
+R15261:15261 Stdlib.Arith.PeanoNat <> P:146 var
+R15270:15270 Stdlib.Arith.PeanoNat <> f:144 var
+R15272:15273 Stdlib.Arith.PeanoNat <> a':148 var
+R15264:15264 Corelib.Init.Datatypes <> S constr
+R15266:15266 Stdlib.Arith.PeanoNat <> n:147 var
+binder 15291:15291 <> n:149
+R15294:15294 Stdlib.Arith.PeanoNat <> P:146 var
+R15299:15302 Stdlib.Arith.PeanoNat Nat iter def
+R15308:15308 Stdlib.Arith.PeanoNat <> a:145 var
+R15306:15306 Stdlib.Arith.PeanoNat <> f:144 var
+R15304:15304 Stdlib.Arith.PeanoNat <> n:149 var
+R15296:15296 Stdlib.Arith.PeanoNat <> n:149 var
+prf 15415:15428 Nat iter_invariant
+R15444:15446 Corelib.Init.Datatypes <> nat ind
+binder 15442:15442 <> n:150
+binder 15450:15450 <> A:151
+R15462:15465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15461:15461 Stdlib.Arith.PeanoNat <> A:151 var
+R15466:15466 Stdlib.Arith.PeanoNat <> A:151 var
+binder 15459:15459 <> f:152
+R15475:15478 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15474:15474 Stdlib.Arith.PeanoNat <> A:151 var
+binder 15470:15472 <> Inv:153
+R15490:15490 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15521:15529 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15500:15500 Stdlib.Arith.PeanoNat <> A:151 var
+binder 15498:15498 <> x:154
+R15508:15511 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15503:15505 Stdlib.Arith.PeanoNat <> Inv:153 var
+R15507:15507 Stdlib.Arith.PeanoNat <> x:154 var
+R15512:15514 Stdlib.Arith.PeanoNat <> Inv:153 var
+R15517:15517 Stdlib.Arith.PeanoNat <> f:152 var
+R15519:15519 Stdlib.Arith.PeanoNat <> x:154 var
+R15539:15539 Stdlib.Arith.PeanoNat <> A:151 var
+binder 15537:15537 <> x:155
+R15547:15550 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15542:15544 Stdlib.Arith.PeanoNat <> Inv:153 var
+R15546:15546 Stdlib.Arith.PeanoNat <> x:155 var
+R15551:15553 Stdlib.Arith.PeanoNat <> Inv:153 var
+R15556:15559 Stdlib.Arith.PeanoNat Nat iter def
+R15565:15565 Stdlib.Arith.PeanoNat <> x:155 var
+R15563:15563 Stdlib.Arith.PeanoNat <> f:152 var
+R15561:15561 Stdlib.Arith.PeanoNat <> n:150 var
+R15591:15598 Stdlib.Arith.PeanoNat Nat iter_ind thm
+def 15642:15647 Nat divide
+binder 15649:15649 <> x:156
+binder 15651:15651 <> y:157
+R15656:15662 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15664:15665 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15663:15663 <> z:158
+R15667:15667 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15666:15666 Stdlib.Arith.PeanoNat <> y:157 var
+R15669:15669 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R15668:15668 Stdlib.Arith.PeanoNat <> z:158 var
+R15670:15670 Stdlib.Arith.PeanoNat <> x:156 var
+R15698:15703 Stdlib.Arith.PeanoNat Nat divide def
+not 15682:15682 Nat ::nat_scope:'('_x_'|'_x_')'
+prf 15743:15752 Nat gcd_divide
+binder 15763:15763 <> a:159
+binder 15765:15765 <> b:160
+R15781:15784 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15768:15768 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15776:15778 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15780:15780 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15769:15771 Stdlib.Arith.PeanoNat Nat gcd def
+R15773:15773 Stdlib.Arith.PeanoNat <> a:159 var
+R15775:15775 Stdlib.Arith.PeanoNat <> b:160 var
+R15779:15779 Stdlib.Arith.PeanoNat <> a:159 var
+R15785:15785 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15793:15795 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15797:15797 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R15786:15788 Stdlib.Arith.PeanoNat Nat gcd def
+R15790:15790 Stdlib.Arith.PeanoNat <> a:159 var
+R15792:15792 Stdlib.Arith.PeanoNat <> b:160 var
+R15796:15796 Stdlib.Arith.PeanoNat <> b:160 var
+R15936:15943 Corelib.Init.Peano <> plus_n_O thm
+R15959:15964 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R15968:15968 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R15965:15965 Corelib.Init.Datatypes <> S constr
+R16001:16006 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R16010:16010 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R16007:16007 Corelib.Init.Datatypes <> S constr
+R16014:16014 Corelib.Init.Datatypes <> S constr
+R16046:16046 Corelib.Init.Datatypes <> S constr
+R16091:16100 Stdlib.Arith.PeanoNat Nat div_mod_eq thm
+R16170:16177 Stdlib.Arith.PeanoNat Nat mul_comm thm
+R16202:16204 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R16194:16194 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R16199:16200 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R16196:16196 Corelib.Init.Nat <> ::nat_scope:x_'/'_x not
+R16223:16237 Stdlib.Arith.PeanoNat Nat mul_add_distr_r thm
+R16261:16269 Stdlib.Arith.PeanoNat Nat mul_assoc thm
+prf 16298:16309 Nat gcd_divide_l
+binder 16320:16320 <> a:161
+binder 16322:16322 <> b:162
+R16325:16325 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16333:16335 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16337:16337 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16326:16328 Stdlib.Arith.PeanoNat Nat gcd def
+R16330:16330 Stdlib.Arith.PeanoNat <> a:161 var
+R16332:16332 Stdlib.Arith.PeanoNat <> b:162 var
+R16336:16336 Stdlib.Arith.PeanoNat <> a:161 var
+R16353:16362 Stdlib.Arith.PeanoNat Nat gcd_divide thm
+prf 16377:16388 Nat gcd_divide_r
+binder 16399:16399 <> a:163
+binder 16401:16401 <> b:164
+R16404:16404 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16412:16414 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16416:16416 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16405:16407 Stdlib.Arith.PeanoNat Nat gcd def
+R16409:16409 Stdlib.Arith.PeanoNat <> a:163 var
+R16411:16411 Stdlib.Arith.PeanoNat <> b:164 var
+R16415:16415 Stdlib.Arith.PeanoNat <> b:164 var
+R16432:16441 Stdlib.Arith.PeanoNat Nat gcd_divide thm
+prf 16456:16467 Nat gcd_greatest
+binder 16478:16478 <> a:165
+binder 16480:16480 <> b:166
+binder 16482:16482 <> c:167
+R16490:16493 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16485:16485 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16487:16487 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16489:16489 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16486:16486 Stdlib.Arith.PeanoNat <> c:167 var
+R16488:16488 Stdlib.Arith.PeanoNat <> a:165 var
+R16499:16502 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16494:16494 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16496:16496 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16498:16498 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16495:16495 Stdlib.Arith.PeanoNat <> c:167 var
+R16497:16497 Stdlib.Arith.PeanoNat <> b:166 var
+R16503:16503 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16505:16505 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16513:16513 Stdlib.Arith.PeanoNat Nat ::nat_scope:'('_x_'|'_x_')' not
+R16504:16504 Stdlib.Arith.PeanoNat <> c:167 var
+R16506:16508 Stdlib.Arith.PeanoNat Nat gcd def
+R16510:16510 Stdlib.Arith.PeanoNat <> a:165 var
+R16512:16512 Stdlib.Arith.PeanoNat <> b:166 var
+R16588:16593 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R16597:16597 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R16594:16594 Corelib.Init.Datatypes <> S constr
+R16663:16663 Corelib.Init.Datatypes <> S constr
+R16687:16696 Stdlib.Arith.PeanoNat Nat div_mod_eq thm
+R16764:16766 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R16767:16767 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R16772:16773 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R16769:16769 Corelib.Init.Nat <> ::nat_scope:x_'/'_x not
+R16790:16797 Stdlib.Arith.PeanoNat Nat mul_comm thm
+R16818:16832 Stdlib.Arith.PeanoNat Nat mul_sub_distr_r thm
+R16845:16853 Stdlib.Arith.PeanoNat Nat mul_assoc thm
+R16878:16885 Stdlib.Arith.PeanoNat Nat add_comm thm
+R16888:16894 Stdlib.Arith.PeanoNat Nat add_sub thm
+prf 16909:16918 Nat gcd_nonneg
+binder 16920:16920 <> a:168
+binder 16922:16922 <> b:169
+R16927:16928 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R16929:16931 Stdlib.Arith.PeanoNat Nat gcd def
+R16933:16933 Stdlib.Arith.PeanoNat <> a:168 var
+R16935:16935 Stdlib.Arith.PeanoNat <> b:169 var
+R16951:16956 Stdlib.Arith.PeanoNat Nat le_0_l thm
+def 17007:17014 Nat double_S
+binder 17025:17025 <> n:170
+R17040:17042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17028:17033 Stdlib.Arith.PeanoNat Nat double def
+R17036:17036 Corelib.Init.Datatypes <> S constr
+R17038:17038 Stdlib.Arith.PeanoNat <> n:170 var
+R17043:17043 Corelib.Init.Datatypes <> S constr
+R17046:17046 Corelib.Init.Datatypes <> S constr
+R17049:17054 Stdlib.Arith.PeanoNat Nat double def
+R17056:17056 Stdlib.Arith.PeanoNat <> n:170 var
+binder 17087:17087 <> n:171
+R17092:17101 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R17104:17104 Corelib.Init.Datatypes <> S constr
+R17106:17106 Stdlib.Arith.PeanoNat <> n:171 var
+R17109:17109 Stdlib.Arith.PeanoNat <> n:171 var
+def 17124:17133 Nat double_add
+binder 17144:17144 <> n:172
+binder 17146:17146 <> m:173
+R17163:17165 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17149:17154 Stdlib.Arith.PeanoNat Nat double def
+R17158:17160 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R17157:17157 Stdlib.Arith.PeanoNat <> n:172 var
+R17161:17161 Stdlib.Arith.PeanoNat <> m:173 var
+R17174:17176 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R17166:17171 Stdlib.Arith.PeanoNat Nat double def
+R17173:17173 Stdlib.Arith.PeanoNat <> n:172 var
+R17177:17182 Stdlib.Arith.PeanoNat Nat double def
+R17184:17184 Stdlib.Arith.PeanoNat <> m:173 var
+binder 17215:17215 <> n:174
+binder 17217:17217 <> m:175
+R17222:17233 Stdlib.Arith.PeanoNat Nat add_shuffle1 thm
+R17235:17235 Stdlib.Arith.PeanoNat <> n:174 var
+R17237:17237 Stdlib.Arith.PeanoNat <> m:175 var
+R17239:17239 Stdlib.Arith.PeanoNat <> n:174 var
+R17241:17241 Stdlib.Arith.PeanoNat <> m:175 var
+prf 17251:17262 Nat double_twice
+binder 17273:17273 <> n:176
+R17284:17286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17276:17281 Stdlib.Arith.PeanoNat Nat double def
+R17283:17283 Stdlib.Arith.PeanoNat <> n:176 var
+R17288:17288 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17289:17289 Stdlib.Arith.PeanoNat <> n:176 var
+R17326:17332 Stdlib.Arith.PeanoNat Nat add_0_r thm
+modtype 17444:17461 <> Nat.PrivateBitwiseSpec
+ax 17530:17542 Nat.PrivateBitwiseSpec testbit_odd_0
+R17557:17559 Corelib.Init.Datatypes <> nat ind
+binder 17553:17553 <> a:177
+R17589:17591 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17562:17568 Stdlib.Arith.PeanoNat Nat testbit def
+R17571:17573 Stdlib.Arith.PeanoNat Nat add def
+R17576:17578 Stdlib.Arith.PeanoNat Nat mul def
+R17582:17582 Stdlib.Arith.PeanoNat <> a:177 var
+R17592:17595 Corelib.Init.Datatypes <> true constr
+ax 17610:17623 Nat.PrivateBitwiseSpec testbit_even_0
+R17638:17640 Corelib.Init.Datatypes <> nat ind
+binder 17634:17634 <> a:180
+R17662:17664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17643:17649 Stdlib.Arith.PeanoNat Nat testbit def
+R17652:17654 Stdlib.Arith.PeanoNat Nat mul def
+R17658:17658 Stdlib.Arith.PeanoNat <> a:180 var
+R17665:17669 Corelib.Init.Datatypes <> false constr
+ax 17684:17699 Nat.PrivateBitwiseSpec testbit_odd_succ
+R17716:17718 Corelib.Init.Datatypes <> nat ind
+binder 17710:17710 <> a:183
+binder 17712:17712 <> n:184
+R17727:17734 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17721:17722 Stdlib.Arith.PeanoNat Nat le def
+R17726:17726 Stdlib.Arith.PeanoNat <> n:184 var
+R17769:17771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17735:17741 Stdlib.Arith.PeanoNat Nat testbit def
+R17744:17746 Stdlib.Arith.PeanoNat Nat add def
+R17749:17751 Stdlib.Arith.PeanoNat Nat mul def
+R17755:17755 Stdlib.Arith.PeanoNat <> a:183 var
+R17762:17765 Stdlib.Arith.PeanoNat Nat succ def
+R17767:17767 Stdlib.Arith.PeanoNat <> n:184 var
+R17772:17778 Stdlib.Arith.PeanoNat Nat testbit def
+R17780:17780 Stdlib.Arith.PeanoNat <> a:183 var
+R17782:17782 Stdlib.Arith.PeanoNat <> n:184 var
+ax 17797:17813 Nat.PrivateBitwiseSpec testbit_even_succ
+R17830:17832 Corelib.Init.Datatypes <> nat ind
+binder 17824:17824 <> a:187
+binder 17826:17826 <> n:188
+R17841:17848 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17835:17836 Stdlib.Arith.PeanoNat Nat le def
+R17840:17840 Stdlib.Arith.PeanoNat <> n:188 var
+R17875:17877 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17849:17855 Stdlib.Arith.PeanoNat Nat testbit def
+R17858:17860 Stdlib.Arith.PeanoNat Nat mul def
+R17864:17864 Stdlib.Arith.PeanoNat <> a:187 var
+R17868:17871 Stdlib.Arith.PeanoNat Nat succ def
+R17873:17873 Stdlib.Arith.PeanoNat <> n:188 var
+R17878:17884 Stdlib.Arith.PeanoNat Nat testbit def
+R17886:17886 Stdlib.Arith.PeanoNat <> a:187 var
+R17888:17888 Stdlib.Arith.PeanoNat <> n:188 var
+ax 17903:17915 Nat.PrivateBitwiseSpec testbit_neg_r
+R17932:17934 Corelib.Init.Datatypes <> nat ind
+binder 17926:17926 <> a:191
+binder 17928:17928 <> n:192
+R17943:17946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17937:17938 Stdlib.Arith.PeanoNat Nat lt def
+R17940:17940 Stdlib.Arith.PeanoNat <> n:192 var
+R17958:17960 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17947:17953 Stdlib.Arith.PeanoNat Nat testbit def
+R17955:17955 Stdlib.Arith.PeanoNat <> a:191 var
+R17957:17957 Stdlib.Arith.PeanoNat <> n:192 var
+R17961:17965 Corelib.Init.Datatypes <> false constr
+ax 17980:17990 Nat.PrivateBitwiseSpec shiftr_spec
+R18009:18011 Corelib.Init.Datatypes <> nat ind
+binder 18001:18001 <> a:195
+binder 18003:18003 <> n:196
+binder 18005:18005 <> m:197
+R18020:18027 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18014:18015 Stdlib.Arith.PeanoNat Nat le def
+R18019:18019 Stdlib.Arith.PeanoNat <> m:197 var
+R18050:18052 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18028:18034 Stdlib.Arith.PeanoNat Nat testbit def
+R18037:18042 Stdlib.Arith.PeanoNat Nat shiftr def
+R18044:18044 Stdlib.Arith.PeanoNat <> a:195 var
+R18046:18046 Stdlib.Arith.PeanoNat <> n:196 var
+R18049:18049 Stdlib.Arith.PeanoNat <> m:197 var
+R18053:18059 Stdlib.Arith.PeanoNat Nat testbit def
+R18061:18061 Stdlib.Arith.PeanoNat <> a:195 var
+R18064:18066 Stdlib.Arith.PeanoNat Nat add def
+R18068:18068 Stdlib.Arith.PeanoNat <> m:197 var
+R18070:18070 Stdlib.Arith.PeanoNat <> n:196 var
+ax 18086:18101 Nat.PrivateBitwiseSpec shiftl_spec_high
+R18124:18126 Corelib.Init.Datatypes <> nat ind
+binder 18116:18116 <> a:200
+binder 18118:18118 <> n:201
+binder 18120:18120 <> m:202
+R18135:18142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18129:18130 Stdlib.Arith.PeanoNat Nat le def
+R18134:18134 Stdlib.Arith.PeanoNat <> m:202 var
+R18149:18152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18143:18144 Stdlib.Arith.PeanoNat Nat le def
+R18146:18146 Stdlib.Arith.PeanoNat <> n:201 var
+R18148:18148 Stdlib.Arith.PeanoNat <> m:202 var
+R18175:18177 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18153:18159 Stdlib.Arith.PeanoNat Nat testbit def
+R18162:18167 Stdlib.Arith.PeanoNat Nat shiftl def
+R18169:18169 Stdlib.Arith.PeanoNat <> a:200 var
+R18171:18171 Stdlib.Arith.PeanoNat <> n:201 var
+R18174:18174 Stdlib.Arith.PeanoNat <> m:202 var
+R18178:18184 Stdlib.Arith.PeanoNat Nat testbit def
+R18186:18186 Stdlib.Arith.PeanoNat <> a:200 var
+R18189:18191 Stdlib.Arith.PeanoNat Nat sub def
+R18193:18193 Stdlib.Arith.PeanoNat <> m:202 var
+R18195:18195 Stdlib.Arith.PeanoNat <> n:201 var
+ax 18211:18225 Nat.PrivateBitwiseSpec shiftl_spec_low
+R18248:18250 Corelib.Init.Datatypes <> nat ind
+binder 18240:18240 <> a:205
+binder 18242:18242 <> n:206
+binder 18244:18244 <> m:207
+R18259:18262 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18253:18254 Stdlib.Arith.PeanoNat Nat lt def
+R18256:18256 Stdlib.Arith.PeanoNat <> m:207 var
+R18258:18258 Stdlib.Arith.PeanoNat <> n:206 var
+R18285:18287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18263:18269 Stdlib.Arith.PeanoNat Nat testbit def
+R18272:18277 Stdlib.Arith.PeanoNat Nat shiftl def
+R18279:18279 Stdlib.Arith.PeanoNat <> a:205 var
+R18281:18281 Stdlib.Arith.PeanoNat <> n:206 var
+R18284:18284 Stdlib.Arith.PeanoNat <> m:207 var
+R18288:18292 Corelib.Init.Datatypes <> false constr
+ax 18307:18315 Nat.PrivateBitwiseSpec land_spec
+R18338:18340 Corelib.Init.Datatypes <> nat ind
+binder 18330:18330 <> a:210
+binder 18332:18332 <> b:211
+binder 18334:18334 <> n:212
+R18363:18365 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18343:18349 Stdlib.Arith.PeanoNat Nat testbit def
+R18352:18355 Stdlib.Arith.PeanoNat Nat land def
+R18357:18357 Stdlib.Arith.PeanoNat <> a:210 var
+R18359:18359 Stdlib.Arith.PeanoNat <> b:211 var
+R18362:18362 Stdlib.Arith.PeanoNat <> n:212 var
+R18377:18380 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R18366:18372 Stdlib.Arith.PeanoNat Nat testbit def
+R18374:18374 Stdlib.Arith.PeanoNat <> a:210 var
+R18376:18376 Stdlib.Arith.PeanoNat <> n:212 var
+R18381:18387 Stdlib.Arith.PeanoNat Nat testbit def
+R18389:18389 Stdlib.Arith.PeanoNat <> b:211 var
+R18391:18391 Stdlib.Arith.PeanoNat <> n:212 var
+ax 18406:18413 Nat.PrivateBitwiseSpec lor_spec
+R18436:18438 Corelib.Init.Datatypes <> nat ind
+binder 18428:18428 <> a:215
+binder 18430:18430 <> b:216
+binder 18432:18432 <> n:217
+R18460:18462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18441:18447 Stdlib.Arith.PeanoNat Nat testbit def
+R18450:18452 Stdlib.Arith.PeanoNat Nat lor def
+R18454:18454 Stdlib.Arith.PeanoNat <> a:215 var
+R18456:18456 Stdlib.Arith.PeanoNat <> b:216 var
+R18459:18459 Stdlib.Arith.PeanoNat <> n:217 var
+R18474:18477 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R18463:18469 Stdlib.Arith.PeanoNat Nat testbit def
+R18471:18471 Stdlib.Arith.PeanoNat <> a:215 var
+R18473:18473 Stdlib.Arith.PeanoNat <> n:217 var
+R18478:18484 Stdlib.Arith.PeanoNat Nat testbit def
+R18486:18486 Stdlib.Arith.PeanoNat <> b:216 var
+R18488:18488 Stdlib.Arith.PeanoNat <> n:217 var
+ax 18503:18512 Nat.PrivateBitwiseSpec ldiff_spec
+R18535:18537 Corelib.Init.Datatypes <> nat ind
+binder 18527:18527 <> a:220
+binder 18529:18529 <> b:221
+binder 18531:18531 <> n:222
+R18565:18567 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18544:18550 Stdlib.Arith.PeanoNat Nat testbit def
+R18553:18557 Stdlib.Arith.PeanoNat Nat ldiff def
+R18559:18559 Stdlib.Arith.PeanoNat <> a:220 var
+R18561:18561 Stdlib.Arith.PeanoNat <> b:221 var
+R18564:18564 Stdlib.Arith.PeanoNat <> n:222 var
+R18579:18582 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R18568:18574 Stdlib.Arith.PeanoNat Nat testbit def
+R18576:18576 Stdlib.Arith.PeanoNat <> a:220 var
+R18578:18578 Stdlib.Arith.PeanoNat <> n:222 var
+R18583:18586 Corelib.Init.Datatypes <> negb def
+R18589:18595 Stdlib.Arith.PeanoNat Nat testbit def
+R18597:18597 Stdlib.Arith.PeanoNat <> b:221 var
+R18599:18599 Stdlib.Arith.PeanoNat <> n:222 var
+ax 18615:18623 Nat.PrivateBitwiseSpec lxor_spec
+R18646:18648 Corelib.Init.Datatypes <> nat ind
+binder 18638:18638 <> a:225
+binder 18640:18640 <> b:226
+binder 18642:18642 <> n:227
+R18671:18673 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18651:18657 Stdlib.Arith.PeanoNat Nat testbit def
+R18660:18663 Stdlib.Arith.PeanoNat Nat lxor def
+R18665:18665 Stdlib.Arith.PeanoNat <> a:225 var
+R18667:18667 Stdlib.Arith.PeanoNat <> b:226 var
+R18670:18670 Stdlib.Arith.PeanoNat <> n:227 var
+R18674:18677 Corelib.Init.Datatypes <> xorb def
+R18694:18700 Stdlib.Arith.PeanoNat Nat testbit def
+R18702:18702 Stdlib.Arith.PeanoNat <> b:226 var
+R18704:18704 Stdlib.Arith.PeanoNat <> n:227 var
+R18680:18686 Stdlib.Arith.PeanoNat Nat testbit def
+R18688:18688 Stdlib.Arith.PeanoNat <> a:225 var
+R18690:18690 Stdlib.Arith.PeanoNat <> n:227 var
+ax 18720:18728 Nat.PrivateBitwiseSpec div2_spec
+R18747:18749 Corelib.Init.Datatypes <> nat ind
+binder 18743:18743 <> a:230
+R18752:18753 Stdlib.Arith.PeanoNat Nat eq def
+R18756:18759 Stdlib.Arith.PeanoNat Nat div2 def
+R18761:18761 Stdlib.Arith.PeanoNat <> a:230 var
+R18765:18770 Stdlib.Arith.PeanoNat Nat shiftr def
+R18772:18772 Stdlib.Arith.PeanoNat <> a:230 var
+ax 18846:18856 Nat.PrivateBitwiseSpec div2_double
+binder 18867:18867 <> n:233
+R18880:18882 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18870:18873 Stdlib.Arith.PeanoNat Nat div2 def
+R18877:18877 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R18878:18878 Stdlib.Arith.PeanoNat <> n:233 var
+R18883:18883 Stdlib.Arith.PeanoNat <> n:233 var
+ax 18898:18913 Nat.PrivateBitwiseSpec div2_succ_double
+binder 18924:18924 <> n:236
+R18941:18943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18927:18930 Stdlib.Arith.PeanoNat Nat div2 def
+R18933:18933 Corelib.Init.Datatypes <> S constr
+R18937:18937 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R18938:18938 Stdlib.Arith.PeanoNat <> n:236 var
+R18944:18944 Stdlib.Arith.PeanoNat <> n:236 var
+ax 18959:18970 Nat.PrivateBitwiseSpec div2_bitwise
+binder 18981:18982 <> op:239
+binder 18984:18984 <> n:240
+binder 18986:18986 <> a:241
+binder 18988:18988 <> b:242
+R19022:19024 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18995:18998 Stdlib.Arith.PeanoNat Nat div2 def
+R19001:19007 Stdlib.Arith.PeanoNat Nat bitwise def
+R19009:19010 Stdlib.Arith.PeanoNat <> op:239 var
+R19013:19013 Corelib.Init.Datatypes <> S constr
+R19015:19015 Stdlib.Arith.PeanoNat <> n:240 var
+R19018:19018 Stdlib.Arith.PeanoNat <> a:241 var
+R19020:19020 Stdlib.Arith.PeanoNat <> b:242 var
+R19025:19031 Stdlib.Arith.PeanoNat Nat bitwise def
+R19033:19034 Stdlib.Arith.PeanoNat <> op:239 var
+R19036:19036 Stdlib.Arith.PeanoNat <> n:240 var
+R19039:19042 Stdlib.Arith.PeanoNat Nat div2 def
+R19044:19044 Stdlib.Arith.PeanoNat <> a:241 var
+R19048:19051 Stdlib.Arith.PeanoNat Nat div2 def
+R19053:19053 Stdlib.Arith.PeanoNat <> b:242 var
+ax 19069:19079 Nat.PrivateBitwiseSpec odd_bitwise
+binder 19090:19091 <> op:245
+binder 19093:19093 <> n:246
+binder 19095:19095 <> a:247
+binder 19097:19097 <> b:248
+R19130:19132 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19104:19106 Stdlib.Arith.PeanoNat Nat odd def
+R19109:19115 Stdlib.Arith.PeanoNat Nat bitwise def
+R19117:19118 Stdlib.Arith.PeanoNat <> op:245 var
+R19121:19121 Corelib.Init.Datatypes <> S constr
+R19123:19123 Stdlib.Arith.PeanoNat <> n:246 var
+R19126:19126 Stdlib.Arith.PeanoNat <> a:247 var
+R19128:19128 Stdlib.Arith.PeanoNat <> b:248 var
+R19133:19134 Stdlib.Arith.PeanoNat <> op:245 var
+R19137:19139 Stdlib.Arith.PeanoNat Nat odd def
+R19141:19141 Stdlib.Arith.PeanoNat <> a:247 var
+R19145:19147 Stdlib.Arith.PeanoNat Nat odd def
+R19149:19149 Stdlib.Arith.PeanoNat <> b:248 var
+ax 19165:19181 Nat.PrivateBitwiseSpec testbit_bitwise_1
+binder 19192:19193 <> op:251
+R19196:19196 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19225:19233 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 19204:19204 <> b:252
+R19217:19219 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19207:19208 Stdlib.Arith.PeanoNat <> op:251 var
+R19210:19214 Corelib.Init.Datatypes <> false constr
+R19216:19216 Stdlib.Arith.PeanoNat <> b:252 var
+R19220:19224 Corelib.Init.Datatypes <> false constr
+binder 19241:19241 <> n:253
+binder 19243:19243 <> m:254
+binder 19245:19245 <> a:255
+binder 19247:19247 <> b:256
+R19254:19261 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19251:19252 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R19250:19250 Stdlib.Arith.PeanoNat <> a:255 var
+R19253:19253 Stdlib.Arith.PeanoNat <> n:253 var
+R19290:19292 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19262:19268 Stdlib.Arith.PeanoNat Nat testbit def
+R19271:19277 Stdlib.Arith.PeanoNat Nat bitwise def
+R19279:19280 Stdlib.Arith.PeanoNat <> op:251 var
+R19282:19282 Stdlib.Arith.PeanoNat <> n:253 var
+R19284:19284 Stdlib.Arith.PeanoNat <> a:255 var
+R19286:19286 Stdlib.Arith.PeanoNat <> b:256 var
+R19289:19289 Stdlib.Arith.PeanoNat <> m:254 var
+R19293:19294 Stdlib.Arith.PeanoNat <> op:251 var
+R19297:19303 Stdlib.Arith.PeanoNat Nat testbit def
+R19305:19305 Stdlib.Arith.PeanoNat <> a:255 var
+R19307:19307 Stdlib.Arith.PeanoNat <> m:254 var
+R19311:19317 Stdlib.Arith.PeanoNat Nat testbit def
+R19319:19319 Stdlib.Arith.PeanoNat <> b:256 var
+R19321:19321 Stdlib.Arith.PeanoNat <> m:254 var
+ax 19337:19353 Nat.PrivateBitwiseSpec testbit_bitwise_2
+binder 19364:19365 <> op:259
+R19390:19397 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19382:19384 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19368:19369 Stdlib.Arith.PeanoNat <> op:259 var
+R19371:19375 Corelib.Init.Datatypes <> false constr
+R19377:19381 Corelib.Init.Datatypes <> false constr
+R19385:19389 Corelib.Init.Datatypes <> false constr
+binder 19405:19405 <> n:260
+binder 19407:19407 <> m:261
+binder 19409:19409 <> a:262
+binder 19411:19411 <> b:263
+R19418:19421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19415:19416 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R19414:19414 Stdlib.Arith.PeanoNat <> a:262 var
+R19417:19417 Stdlib.Arith.PeanoNat <> n:260 var
+R19426:19433 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19423:19424 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R19422:19422 Stdlib.Arith.PeanoNat <> b:263 var
+R19425:19425 Stdlib.Arith.PeanoNat <> n:260 var
+R19462:19464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19434:19440 Stdlib.Arith.PeanoNat Nat testbit def
+R19443:19449 Stdlib.Arith.PeanoNat Nat bitwise def
+R19451:19452 Stdlib.Arith.PeanoNat <> op:259 var
+R19454:19454 Stdlib.Arith.PeanoNat <> n:260 var
+R19456:19456 Stdlib.Arith.PeanoNat <> a:262 var
+R19458:19458 Stdlib.Arith.PeanoNat <> b:263 var
+R19461:19461 Stdlib.Arith.PeanoNat <> m:261 var
+R19465:19466 Stdlib.Arith.PeanoNat <> op:259 var
+R19469:19475 Stdlib.Arith.PeanoNat Nat testbit def
+R19477:19477 Stdlib.Arith.PeanoNat <> a:262 var
+R19479:19479 Stdlib.Arith.PeanoNat <> m:261 var
+R19483:19489 Stdlib.Arith.PeanoNat Nat testbit def
+R19491:19491 Stdlib.Arith.PeanoNat <> b:263 var
+R19493:19493 Stdlib.Arith.PeanoNat <> m:261 var
+R19501:19518 Stdlib.Arith.PeanoNat Nat.PrivateBitwiseSpec <> modtype
+R19770:19787 Stdlib.Arith.PeanoNat Nat.PrivateBitwiseSpec <> modtype
+mod 19739:19766 <> Nat.PrivateImplementsBitwiseSpec
+prf 19797:19807 Nat.PrivateImplementsBitwiseSpec div2_double
+binder 19809:19809 <> n:266
+R19823:19825 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19813:19816 Stdlib.Arith.PeanoNat Nat div2 def
+R19820:19820 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19821:19821 Stdlib.Arith.PeanoNat <> n:266 var
+R19826:19826 Stdlib.Arith.PeanoNat <> n:266 var
+R19868:19870 Stdlib.Arith.PeanoNat Nat mul def
+R19883:19892 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+prf 19929:19944 Nat.PrivateImplementsBitwiseSpec div2_succ_double
+binder 19946:19946 <> n:267
+R19964:19966 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19950:19953 Stdlib.Arith.PeanoNat Nat div2 def
+R19956:19956 Corelib.Init.Datatypes <> S constr
+R19960:19960 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19961:19961 Stdlib.Arith.PeanoNat <> n:267 var
+R19967:19967 Stdlib.Arith.PeanoNat <> n:267 var
+R20033:20042 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+prf 20057:20063 Nat.PrivateImplementsBitwiseSpec le_div2
+binder 20065:20065 <> n:268
+R20079:20082 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R20069:20072 Stdlib.Arith.PeanoNat Nat div2 def
+R20075:20075 Corelib.Init.Datatypes <> S constr
+R20077:20077 Stdlib.Arith.PeanoNat <> n:268 var
+R20083:20083 Stdlib.Arith.PeanoNat <> n:268 var
+R20181:20189 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+prf 20260:20266 Nat.PrivateImplementsBitwiseSpec lt_div2
+binder 20268:20268 <> n:269
+R20277:20280 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20273:20275 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20276:20276 Stdlib.Arith.PeanoNat <> n:269 var
+R20287:20289 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20281:20284 Stdlib.Arith.PeanoNat Nat div2 def
+R20286:20286 Stdlib.Arith.PeanoNat <> n:269 var
+R20290:20290 Stdlib.Arith.PeanoNat <> n:269 var
+R20351:20359 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R20362:20368 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec le_div2 thm
+prf 20383:20391 Nat.PrivateImplementsBitwiseSpec div2_decr
+binder 20393:20393 <> a:270
+binder 20395:20395 <> n:271
+R20407:20410 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20400:20403 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R20399:20399 Stdlib.Arith.PeanoNat <> a:270 var
+R20404:20404 Corelib.Init.Datatypes <> S constr
+R20406:20406 Stdlib.Arith.PeanoNat <> n:271 var
+R20417:20420 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R20411:20414 Stdlib.Arith.PeanoNat Nat div2 def
+R20416:20416 Stdlib.Arith.PeanoNat <> a:270 var
+R20421:20421 Stdlib.Arith.PeanoNat <> n:271 var
+R20480:20485 Stdlib.Arith.PeanoNat Nat le_0_l thm
+R20498:20509 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R20527:20534 Stdlib.Arith.PeanoNat Nat le_trans thm
+R20552:20558 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec le_div2 thm
+prf 20644:20654 Nat.PrivateImplementsBitwiseSpec testbit_0_l
+binder 20665:20665 <> n:272
+R20679:20681 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20668:20674 Stdlib.Arith.PeanoNat Nat testbit def
+R20678:20678 Stdlib.Arith.PeanoNat <> n:272 var
+R20682:20686 Corelib.Init.Datatypes <> false constr
+prf 20793:20805 Nat.PrivateImplementsBitwiseSpec testbit_odd_0
+binder 20807:20807 <> a:273
+R20828:20830 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20811:20817 Stdlib.Arith.PeanoNat Nat testbit def
+R20823:20823 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R20821:20821 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R20822:20822 Stdlib.Arith.PeanoNat <> a:273 var
+R20831:20834 Corelib.Init.Datatypes <> true constr
+R20851:20857 Stdlib.Arith.PeanoNat Nat testbit def
+R20868:20875 Stdlib.Arith.PeanoNat Nat odd_spec thm
+prf 20963:20976 Nat.PrivateImplementsBitwiseSpec testbit_even_0
+binder 20978:20978 <> a:274
+R20997:20999 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20982:20988 Stdlib.Arith.PeanoNat Nat testbit def
+R20992:20992 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R20993:20993 Stdlib.Arith.PeanoNat <> a:274 var
+R21000:21004 Corelib.Init.Datatypes <> false constr
+R21023:21029 Stdlib.Arith.PeanoNat Nat testbit def
+R21032:21034 Stdlib.Arith.PeanoNat Nat odd def
+R21048:21052 Corelib.Init.Logic <> proj2 thm
+R21055:21063 Stdlib.Arith.PeanoNat Nat even_spec thm
+prf 21107:21123 Nat.PrivateImplementsBitwiseSpec testbit_odd_succ'
+binder 21125:21125 <> a:275
+binder 21127:21127 <> n:276
+R21152:21154 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21131:21137 Stdlib.Arith.PeanoNat Nat testbit def
+R21143:21143 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R21141:21141 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21142:21142 Stdlib.Arith.PeanoNat <> a:275 var
+R21148:21148 Corelib.Init.Datatypes <> S constr
+R21150:21150 Stdlib.Arith.PeanoNat <> n:276 var
+R21155:21161 Stdlib.Arith.PeanoNat Nat testbit def
+R21163:21163 Stdlib.Arith.PeanoNat <> a:275 var
+R21165:21165 Stdlib.Arith.PeanoNat <> n:276 var
+R21184:21190 Stdlib.Arith.PeanoNat Nat testbit def
+R21198:21204 Stdlib.Arith.PeanoNat Nat testbit def
+R21217:21223 Stdlib.Arith.PeanoNat Nat add_1_r thm
+R21243:21258 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_succ_double thm
+prf 21273:21290 Nat.PrivateImplementsBitwiseSpec testbit_even_succ'
+binder 21292:21292 <> a:277
+binder 21294:21294 <> n:278
+R21317:21319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21298:21304 Stdlib.Arith.PeanoNat Nat testbit def
+R21308:21308 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21309:21309 Stdlib.Arith.PeanoNat <> a:277 var
+R21313:21313 Corelib.Init.Datatypes <> S constr
+R21315:21315 Stdlib.Arith.PeanoNat <> n:278 var
+R21320:21326 Stdlib.Arith.PeanoNat Nat testbit def
+R21328:21328 Stdlib.Arith.PeanoNat <> a:277 var
+R21330:21330 Stdlib.Arith.PeanoNat <> n:278 var
+R21347:21353 Stdlib.Arith.PeanoNat Nat testbit def
+R21361:21367 Stdlib.Arith.PeanoNat Nat testbit def
+R21385:21395 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_double thm
+prf 21410:21422 Nat.PrivateImplementsBitwiseSpec shiftr_specif
+binder 21433:21433 <> a:279
+binder 21435:21435 <> n:280
+binder 21437:21437 <> m:281
+R21464:21466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21442:21448 Stdlib.Arith.PeanoNat Nat testbit def
+R21451:21456 Stdlib.Arith.PeanoNat Nat shiftr def
+R21458:21458 Stdlib.Arith.PeanoNat <> a:279 var
+R21460:21460 Stdlib.Arith.PeanoNat <> n:280 var
+R21463:21463 Stdlib.Arith.PeanoNat <> m:281 var
+R21467:21473 Stdlib.Arith.PeanoNat Nat testbit def
+R21475:21475 Stdlib.Arith.PeanoNat <> a:279 var
+R21479:21479 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R21478:21478 Stdlib.Arith.PeanoNat <> m:281 var
+R21480:21480 Stdlib.Arith.PeanoNat <> n:280 var
+R21556:21562 Stdlib.Arith.PeanoNat Nat add_0_r thm
+R21581:21590 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R21596:21605 Stdlib.Arith.PeanoNat Nat add_succ_l thm
+prf 21628:21645 Nat.PrivateImplementsBitwiseSpec shiftl_specif_high
+binder 21656:21656 <> a:282
+binder 21658:21658 <> n:283
+binder 21660:21660 <> m:284
+R21667:21672 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21664:21665 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R21663:21663 Stdlib.Arith.PeanoNat <> n:283 var
+R21666:21666 Stdlib.Arith.PeanoNat <> m:284 var
+R21695:21697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21673:21679 Stdlib.Arith.PeanoNat Nat testbit def
+R21682:21687 Stdlib.Arith.PeanoNat Nat shiftl def
+R21689:21689 Stdlib.Arith.PeanoNat <> a:282 var
+R21691:21691 Stdlib.Arith.PeanoNat <> n:283 var
+R21694:21694 Stdlib.Arith.PeanoNat <> m:284 var
+R21698:21704 Stdlib.Arith.PeanoNat Nat testbit def
+R21706:21706 Stdlib.Arith.PeanoNat <> a:282 var
+R21710:21710 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R21709:21709 Stdlib.Arith.PeanoNat <> m:284 var
+R21711:21711 Stdlib.Arith.PeanoNat <> n:283 var
+R21804:21810 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+R21865:21876 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+R21896:21901 Stdlib.Arith.PeanoNat Nat shiftl def
+R21906:21906 Corelib.Init.Datatypes <> S constr
+R21918:21923 Stdlib.Arith.PeanoNat Nat double def
+R21926:21931 Stdlib.Arith.PeanoNat Nat shiftl def
+R21952:21963 Stdlib.Arith.PeanoNat Nat double_twice thm
+R21966:21976 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_double thm
+prf 22069:22083 Nat.PrivateImplementsBitwiseSpec shiftl_spec_low
+binder 22094:22094 <> a:285
+binder 22096:22096 <> n:286
+binder 22098:22098 <> m:287
+R22104:22109 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22102:22102 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R22101:22101 Stdlib.Arith.PeanoNat <> m:287 var
+R22103:22103 Stdlib.Arith.PeanoNat <> n:286 var
+R22132:22134 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22110:22116 Stdlib.Arith.PeanoNat Nat testbit def
+R22119:22124 Stdlib.Arith.PeanoNat Nat shiftl def
+R22126:22126 Stdlib.Arith.PeanoNat <> a:285 var
+R22128:22128 Stdlib.Arith.PeanoNat <> n:286 var
+R22131:22131 Stdlib.Arith.PeanoNat <> m:287 var
+R22135:22139 Corelib.Init.Datatypes <> false constr
+R22229:22234 Stdlib.Arith.PeanoNat Nat shiftl def
+R22239:22239 Corelib.Init.Datatypes <> S constr
+R22251:22256 Stdlib.Arith.PeanoNat Nat double def
+R22259:22264 Stdlib.Arith.PeanoNat Nat shiftl def
+R22305:22307 Stdlib.Arith.PeanoNat Nat odd def
+R22316:22329 Stdlib.Bool.Bool <> negb_false_iff thm
+R22342:22350 Stdlib.Arith.PeanoNat Nat even_spec thm
+R22365:22370 Stdlib.Arith.PeanoNat Nat shiftl def
+R22388:22399 Stdlib.Arith.PeanoNat Nat double_twice thm
+R22414:22425 Stdlib.Arith.PeanoNat Nat double_twice thm
+R22428:22438 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_double thm
+R22470:22481 Stdlib.Arith.PeanoNat Nat succ_le_mono thm
+prf 22559:22570 Nat.PrivateImplementsBitwiseSpec div2_bitwise
+binder 22581:22582 <> op:288
+binder 22584:22584 <> n:289
+binder 22586:22586 <> a:290
+binder 22588:22588 <> b:291
+R22620:22622 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22593:22596 Stdlib.Arith.PeanoNat Nat div2 def
+R22599:22605 Stdlib.Arith.PeanoNat Nat bitwise def
+R22607:22608 Stdlib.Arith.PeanoNat <> op:288 var
+R22611:22611 Corelib.Init.Datatypes <> S constr
+R22613:22613 Stdlib.Arith.PeanoNat <> n:289 var
+R22616:22616 Stdlib.Arith.PeanoNat <> a:290 var
+R22618:22618 Stdlib.Arith.PeanoNat <> b:291 var
+R22623:22629 Stdlib.Arith.PeanoNat Nat bitwise def
+R22631:22632 Stdlib.Arith.PeanoNat <> op:288 var
+R22634:22634 Stdlib.Arith.PeanoNat <> n:289 var
+R22637:22640 Stdlib.Arith.PeanoNat Nat div2 def
+R22642:22642 Stdlib.Arith.PeanoNat <> a:290 var
+R22646:22649 Stdlib.Arith.PeanoNat Nat div2 def
+R22651:22651 Stdlib.Arith.PeanoNat <> b:291 var
+R22688:22694 Stdlib.Arith.PeanoNat Nat bitwise def
+R22702:22708 Stdlib.Arith.PeanoNat Nat bitwise def
+R22727:22729 Stdlib.Arith.PeanoNat Nat odd def
+R22735:22737 Stdlib.Arith.PeanoNat Nat odd def
+R22760:22775 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_succ_double thm
+R22794:22800 Stdlib.Arith.PeanoNat Nat add_0_l thm
+R22803:22813 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_double thm
+prf 22891:22901 Nat.PrivateImplementsBitwiseSpec odd_bitwise
+binder 22912:22913 <> op:292
+binder 22915:22915 <> n:293
+binder 22917:22917 <> a:294
+binder 22919:22919 <> b:295
+R22950:22952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22924:22926 Stdlib.Arith.PeanoNat Nat odd def
+R22929:22935 Stdlib.Arith.PeanoNat Nat bitwise def
+R22937:22938 Stdlib.Arith.PeanoNat <> op:292 var
+R22941:22941 Corelib.Init.Datatypes <> S constr
+R22943:22943 Stdlib.Arith.PeanoNat <> n:293 var
+R22946:22946 Stdlib.Arith.PeanoNat <> a:294 var
+R22948:22948 Stdlib.Arith.PeanoNat <> b:295 var
+R22953:22954 Stdlib.Arith.PeanoNat <> op:292 var
+R22957:22959 Stdlib.Arith.PeanoNat Nat odd def
+R22961:22961 Stdlib.Arith.PeanoNat <> a:294 var
+R22965:22967 Stdlib.Arith.PeanoNat Nat odd def
+R22969:22969 Stdlib.Arith.PeanoNat <> b:295 var
+R23006:23012 Stdlib.Arith.PeanoNat Nat bitwise def
+R23020:23026 Stdlib.Arith.PeanoNat Nat bitwise def
+R23045:23047 Stdlib.Arith.PeanoNat Nat odd def
+R23053:23055 Stdlib.Arith.PeanoNat Nat odd def
+R23072:23079 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R23094:23101 Stdlib.Arith.PeanoNat Nat add_comm thm
+R23131:23133 Stdlib.Arith.PeanoNat Nat odd def
+R23142:23155 Stdlib.Bool.Bool <> negb_false_iff thm
+R23168:23176 Stdlib.Arith.PeanoNat Nat even_spec thm
+R23191:23197 Stdlib.Arith.PeanoNat Nat add_0_l thm
+prf 23291:23307 Nat.PrivateImplementsBitwiseSpec testbit_bitwise_1
+binder 23318:23319 <> op:296
+R23322:23322 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23351:23357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 23330:23330 <> b:297
+R23343:23345 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23333:23334 Stdlib.Arith.PeanoNat <> op:296 var
+R23336:23340 Corelib.Init.Datatypes <> false constr
+R23342:23342 Stdlib.Arith.PeanoNat <> b:297 var
+R23346:23350 Corelib.Init.Datatypes <> false constr
+binder 23365:23365 <> n:298
+binder 23367:23367 <> m:299
+binder 23369:23369 <> a:300
+binder 23371:23371 <> b:301
+R23378:23383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23375:23376 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R23374:23374 Stdlib.Arith.PeanoNat <> a:300 var
+R23377:23377 Stdlib.Arith.PeanoNat <> n:298 var
+R23412:23414 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23384:23390 Stdlib.Arith.PeanoNat Nat testbit def
+R23393:23399 Stdlib.Arith.PeanoNat Nat bitwise def
+R23401:23402 Stdlib.Arith.PeanoNat <> op:296 var
+R23404:23404 Stdlib.Arith.PeanoNat <> n:298 var
+R23406:23406 Stdlib.Arith.PeanoNat <> a:300 var
+R23408:23408 Stdlib.Arith.PeanoNat <> b:301 var
+R23411:23411 Stdlib.Arith.PeanoNat <> m:299 var
+R23415:23416 Stdlib.Arith.PeanoNat <> op:296 var
+R23419:23425 Stdlib.Arith.PeanoNat Nat testbit def
+R23427:23427 Stdlib.Arith.PeanoNat <> a:300 var
+R23429:23429 Stdlib.Arith.PeanoNat <> m:299 var
+R23433:23439 Stdlib.Arith.PeanoNat Nat testbit def
+R23441:23441 Stdlib.Arith.PeanoNat <> b:301 var
+R23443:23443 Stdlib.Arith.PeanoNat <> m:299 var
+R23572:23582 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_0_l thm
+R23613:23623 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec odd_bitwise thm
+R23639:23645 Stdlib.Arith.PeanoNat Nat testbit def
+R23653:23659 Stdlib.Arith.PeanoNat Nat testbit def
+R23670:23681 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_bitwise thm
+R23711:23719 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_decr thm
+prf 23797:23813 Nat.PrivateImplementsBitwiseSpec testbit_bitwise_2
+binder 23824:23825 <> op:302
+R23850:23855 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23842:23844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23828:23829 Stdlib.Arith.PeanoNat <> op:302 var
+R23831:23835 Corelib.Init.Datatypes <> false constr
+R23837:23841 Corelib.Init.Datatypes <> false constr
+R23845:23849 Corelib.Init.Datatypes <> false constr
+binder 23863:23863 <> n:303
+binder 23865:23865 <> m:304
+binder 23867:23867 <> a:305
+binder 23869:23869 <> b:306
+R23876:23879 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23873:23874 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R23872:23872 Stdlib.Arith.PeanoNat <> a:305 var
+R23875:23875 Stdlib.Arith.PeanoNat <> n:303 var
+R23884:23889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23881:23882 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R23880:23880 Stdlib.Arith.PeanoNat <> b:306 var
+R23883:23883 Stdlib.Arith.PeanoNat <> n:303 var
+R23918:23920 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23890:23896 Stdlib.Arith.PeanoNat Nat testbit def
+R23899:23905 Stdlib.Arith.PeanoNat Nat bitwise def
+R23907:23908 Stdlib.Arith.PeanoNat <> op:302 var
+R23910:23910 Stdlib.Arith.PeanoNat <> n:303 var
+R23912:23912 Stdlib.Arith.PeanoNat <> a:305 var
+R23914:23914 Stdlib.Arith.PeanoNat <> b:306 var
+R23917:23917 Stdlib.Arith.PeanoNat <> m:304 var
+R23921:23922 Stdlib.Arith.PeanoNat <> op:302 var
+R23925:23931 Stdlib.Arith.PeanoNat Nat testbit def
+R23933:23933 Stdlib.Arith.PeanoNat <> a:305 var
+R23935:23935 Stdlib.Arith.PeanoNat <> m:304 var
+R23939:23945 Stdlib.Arith.PeanoNat Nat testbit def
+R23947:23947 Stdlib.Arith.PeanoNat <> b:306 var
+R23949:23949 Stdlib.Arith.PeanoNat <> m:304 var
+R24095:24105 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_0_l thm
+R24136:24146 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec odd_bitwise thm
+R24162:24168 Stdlib.Arith.PeanoNat Nat testbit def
+R24176:24182 Stdlib.Arith.PeanoNat Nat testbit def
+R24193:24204 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_bitwise thm
+R24234:24242 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec div2_decr thm
+prf 24316:24324 Nat.PrivateImplementsBitwiseSpec land_spec
+binder 24326:24326 <> a:307
+binder 24328:24328 <> b:308
+binder 24330:24330 <> n:309
+R24356:24358 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24336:24342 Stdlib.Arith.PeanoNat Nat testbit def
+R24345:24348 Stdlib.Arith.PeanoNat Nat land def
+R24350:24350 Stdlib.Arith.PeanoNat <> a:307 var
+R24352:24352 Stdlib.Arith.PeanoNat <> b:308 var
+R24355:24355 Stdlib.Arith.PeanoNat <> n:309 var
+R24370:24373 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24359:24365 Stdlib.Arith.PeanoNat Nat testbit def
+R24367:24367 Stdlib.Arith.PeanoNat <> a:307 var
+R24369:24369 Stdlib.Arith.PeanoNat <> n:309 var
+R24374:24380 Stdlib.Arith.PeanoNat Nat testbit def
+R24382:24382 Stdlib.Arith.PeanoNat <> b:308 var
+R24384:24384 Stdlib.Arith.PeanoNat <> n:309 var
+R24401:24404 Stdlib.Arith.PeanoNat Nat land def
+R24413:24429 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_bitwise_1 thm
+prf 24512:24521 Nat.PrivateImplementsBitwiseSpec ldiff_spec
+binder 24523:24523 <> a:310
+binder 24525:24525 <> b:311
+binder 24527:24527 <> n:312
+R24554:24556 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24533:24539 Stdlib.Arith.PeanoNat Nat testbit def
+R24542:24546 Stdlib.Arith.PeanoNat Nat ldiff def
+R24548:24548 Stdlib.Arith.PeanoNat <> a:310 var
+R24550:24550 Stdlib.Arith.PeanoNat <> b:311 var
+R24553:24553 Stdlib.Arith.PeanoNat <> n:312 var
+R24568:24571 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24557:24563 Stdlib.Arith.PeanoNat Nat testbit def
+R24565:24565 Stdlib.Arith.PeanoNat <> a:310 var
+R24567:24567 Stdlib.Arith.PeanoNat <> n:312 var
+R24572:24575 Corelib.Init.Datatypes <> negb def
+R24578:24584 Stdlib.Arith.PeanoNat Nat testbit def
+R24586:24586 Stdlib.Arith.PeanoNat <> b:311 var
+R24588:24588 Stdlib.Arith.PeanoNat <> n:312 var
+R24606:24610 Stdlib.Arith.PeanoNat Nat ldiff def
+R24619:24635 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_bitwise_1 thm
+prf 24718:24725 Nat.PrivateImplementsBitwiseSpec lor_spec
+binder 24727:24727 <> a:313
+binder 24729:24729 <> b:314
+binder 24731:24731 <> n:315
+R24756:24758 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24737:24743 Stdlib.Arith.PeanoNat Nat testbit def
+R24746:24748 Stdlib.Arith.PeanoNat Nat lor def
+R24750:24750 Stdlib.Arith.PeanoNat <> a:313 var
+R24752:24752 Stdlib.Arith.PeanoNat <> b:314 var
+R24755:24755 Stdlib.Arith.PeanoNat <> n:315 var
+R24770:24773 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R24759:24765 Stdlib.Arith.PeanoNat Nat testbit def
+R24767:24767 Stdlib.Arith.PeanoNat <> a:313 var
+R24769:24769 Stdlib.Arith.PeanoNat <> n:315 var
+R24774:24780 Stdlib.Arith.PeanoNat Nat testbit def
+R24782:24782 Stdlib.Arith.PeanoNat <> b:314 var
+R24784:24784 Stdlib.Arith.PeanoNat <> n:315 var
+R24803:24805 Stdlib.Arith.PeanoNat Nat lor def
+R24814:24830 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_bitwise_2 thm
+R24860:24871 Stdlib.Arith.PeanoNat Nat compare_spec thm
+R24904:24908 Stdlib.Arith.PeanoNat Nat max_l thm
+R24943:24952 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R24968:24972 Stdlib.Arith.PeanoNat Nat max_r thm
+R24991:25000 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25016:25020 Stdlib.Arith.PeanoNat Nat max_l thm
+R25037:25048 Stdlib.Arith.PeanoNat Nat compare_spec thm
+R25081:25085 Stdlib.Arith.PeanoNat Nat max_r thm
+R25120:25129 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25145:25149 Stdlib.Arith.PeanoNat Nat max_r thm
+R25168:25177 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25193:25197 Stdlib.Arith.PeanoNat Nat max_l thm
+prf 25271:25279 Nat.PrivateImplementsBitwiseSpec lxor_spec
+binder 25281:25281 <> a:316
+binder 25283:25283 <> b:317
+binder 25285:25285 <> n:318
+R25311:25313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25291:25297 Stdlib.Arith.PeanoNat Nat testbit def
+R25300:25303 Stdlib.Arith.PeanoNat Nat lxor def
+R25305:25305 Stdlib.Arith.PeanoNat <> a:316 var
+R25307:25307 Stdlib.Arith.PeanoNat <> b:317 var
+R25310:25310 Stdlib.Arith.PeanoNat <> n:318 var
+R25314:25317 Corelib.Init.Datatypes <> xorb def
+R25334:25340 Stdlib.Arith.PeanoNat Nat testbit def
+R25342:25342 Stdlib.Arith.PeanoNat <> b:317 var
+R25344:25344 Stdlib.Arith.PeanoNat <> n:318 var
+R25320:25326 Stdlib.Arith.PeanoNat Nat testbit def
+R25328:25328 Stdlib.Arith.PeanoNat <> a:316 var
+R25330:25330 Stdlib.Arith.PeanoNat <> n:318 var
+R25364:25367 Stdlib.Arith.PeanoNat Nat lxor def
+R25376:25392 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_bitwise_2 thm
+R25422:25433 Stdlib.Arith.PeanoNat Nat compare_spec thm
+R25466:25470 Stdlib.Arith.PeanoNat Nat max_l thm
+R25505:25514 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25530:25534 Stdlib.Arith.PeanoNat Nat max_r thm
+R25553:25562 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25578:25582 Stdlib.Arith.PeanoNat Nat max_l thm
+R25599:25610 Stdlib.Arith.PeanoNat Nat compare_spec thm
+R25643:25647 Stdlib.Arith.PeanoNat Nat max_r thm
+R25682:25691 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25707:25711 Stdlib.Arith.PeanoNat Nat max_r thm
+R25730:25739 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R25755:25759 Stdlib.Arith.PeanoNat Nat max_l thm
+prf 25833:25841 Nat.PrivateImplementsBitwiseSpec div2_spec
+binder 25843:25843 <> a:319
+R25853:25855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25847:25850 Stdlib.Arith.PeanoNat Nat div2 def
+R25852:25852 Stdlib.Arith.PeanoNat <> a:319 var
+R25856:25861 Stdlib.Arith.PeanoNat Nat shiftr def
+R25863:25863 Stdlib.Arith.PeanoNat <> a:319 var
+def 26033:26048 Nat.PrivateImplementsBitwiseSpec testbit_odd_succ
+binder 26050:26050 <> a:320
+binder 26052:26052 <> n:321
+R26058:26059 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26060:26060 Stdlib.Arith.PeanoNat <> n:321 var
+R26066:26082 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_odd_succ' thm
+R26084:26084 Stdlib.Arith.PeanoNat <> a:320 var
+R26086:26086 Stdlib.Arith.PeanoNat <> n:321 var
+def 26160:26176 Nat.PrivateImplementsBitwiseSpec testbit_even_succ
+binder 26178:26178 <> a:322
+binder 26180:26180 <> n:323
+R26186:26187 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26188:26188 Stdlib.Arith.PeanoNat <> n:323 var
+R26194:26211 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec testbit_even_succ' thm
+R26213:26213 Stdlib.Arith.PeanoNat <> a:322 var
+R26215:26215 Stdlib.Arith.PeanoNat <> n:323 var
+prf 26284:26296 Nat.PrivateImplementsBitwiseSpec testbit_neg_r
+binder 26298:26298 <> a:324
+binder 26300:26300 <> n:325
+R26306:26306 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R26305:26305 Stdlib.Arith.PeanoNat <> n:325 var
+binder 26303:26303 <> H:326
+R26323:26325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26312:26318 Stdlib.Arith.PeanoNat Nat testbit def
+R26320:26320 Stdlib.Arith.PeanoNat <> a:324 var
+R26322:26322 Stdlib.Arith.PeanoNat <> n:325 var
+R26326:26330 Corelib.Init.Datatypes <> false constr
+def 26429:26444 Nat.PrivateImplementsBitwiseSpec shiftl_spec_high
+binder 26446:26446 <> a:327
+binder 26448:26448 <> n:328
+binder 26450:26450 <> m:329
+R26456:26457 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26458:26458 Stdlib.Arith.PeanoNat <> m:329 var
+R26464:26481 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec shiftl_specif_high thm
+R26483:26483 Stdlib.Arith.PeanoNat <> a:327 var
+R26485:26485 Stdlib.Arith.PeanoNat <> n:328 var
+R26487:26487 Stdlib.Arith.PeanoNat <> m:329 var
+def 26561:26571 Nat.PrivateImplementsBitwiseSpec shiftr_spec
+binder 26573:26573 <> a:330
+binder 26575:26575 <> n:331
+binder 26577:26577 <> m:332
+R26583:26584 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26585:26585 Stdlib.Arith.PeanoNat <> m:332 var
+R26591:26603 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec shiftr_specif thm
+R26605:26605 Stdlib.Arith.PeanoNat <> a:330 var
+R26607:26607 Stdlib.Arith.PeanoNat <> n:331 var
+R26609:26609 Stdlib.Arith.PeanoNat <> m:332 var
+R26616:26643 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec <> mod
+R26654:26681 Stdlib.Arith.PeanoNat Nat.PrivateImplementsBitwiseSpec <> mod
+prf 26691:26697 Nat div_0_r
+binder 26699:26699 <> a:333
+R26708:26710 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26704:26706 Corelib.Init.Nat <> ::nat_scope:x_'/'_x not
+R26703:26703 Stdlib.Arith.PeanoNat <> a:333 var
+prf 26746:26752 Nat mod_0_r
+binder 26754:26754 <> a:334
+R26765:26767 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26759:26763 Corelib.Init.Nat <> ::nat_scope:x_'mod'_x not
+R26758:26758 Stdlib.Arith.PeanoNat <> a:334 var
+R26768:26768 Stdlib.Arith.PeanoNat <> a:334 var
+R26869:26881 Stdlib.Numbers.Natural.Abstract.NProperties NExtraPreProp <> modtype
+R26886:26896 Stdlib.Numbers.Natural.Abstract.NProperties NExtraProp0 <> modtype
+prf 26906:26921 Nat binary_induction
+R26931:26934 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26928:26930 Corelib.Init.Datatypes <> nat ind
+binder 26924:26924 <> A:335
+R26948:26951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26945:26945 Stdlib.Arith.PeanoNat <> A:335 var
+R26952:26952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26979:26983 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 26960:26960 <> n:336
+R26966:26969 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26963:26963 Stdlib.Arith.PeanoNat <> A:335 var
+R26965:26965 Stdlib.Arith.PeanoNat <> n:336 var
+R26970:26970 Stdlib.Arith.PeanoNat <> A:335 var
+R26974:26976 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R26977:26977 Stdlib.Arith.PeanoNat <> n:336 var
+R26984:26984 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27015:27021 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 26992:26992 <> n:337
+R26998:27001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26995:26995 Stdlib.Arith.PeanoNat <> A:335 var
+R26997:26997 Stdlib.Arith.PeanoNat <> n:337 var
+R27002:27002 Stdlib.Arith.PeanoNat <> A:335 var
+R27010:27012 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R27006:27008 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R27009:27009 Stdlib.Arith.PeanoNat <> n:337 var
+binder 27029:27029 <> n:338
+R27032:27032 Stdlib.Arith.PeanoNat <> A:335 var
+R27034:27034 Stdlib.Arith.PeanoNat <> n:338 var
+R27050:27073 Stdlib.Arith.PeanoNat Nat Private_binary_induction thm
+prf 27181:27193 Nat tail_add_spec
+binder 27195:27195 <> n:339
+binder 27197:27197 <> m:340
+R27213:27215 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27201:27208 Stdlib.Arith.PeanoNat Nat tail_add def
+R27210:27210 Stdlib.Arith.PeanoNat <> n:339 var
+R27212:27212 Stdlib.Arith.PeanoNat <> m:340 var
+R27217:27219 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R27216:27216 Stdlib.Arith.PeanoNat <> n:339 var
+R27220:27220 Stdlib.Arith.PeanoNat <> m:340 var
+R27308:27317 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+prf 27332:27347 Nat tail_addmul_spec
+binder 27349:27349 <> r:341
+binder 27351:27351 <> n:342
+binder 27353:27353 <> m:343
+R27374:27376 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27357:27367 Stdlib.Arith.PeanoNat Nat tail_addmul def
+R27369:27369 Stdlib.Arith.PeanoNat <> r:341 var
+R27371:27371 Stdlib.Arith.PeanoNat <> n:342 var
+R27373:27373 Stdlib.Arith.PeanoNat <> m:343 var
+R27378:27380 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R27377:27377 Stdlib.Arith.PeanoNat <> r:341 var
+R27382:27384 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R27381:27381 Stdlib.Arith.PeanoNat <> n:342 var
+R27385:27385 Stdlib.Arith.PeanoNat <> m:343 var
+R27472:27484 Stdlib.Arith.PeanoNat Nat tail_add_spec thm
+R27497:27505 Stdlib.Arith.PeanoNat Nat add_assoc thm
+R27525:27532 Stdlib.Arith.PeanoNat Nat add_comm thm
+prf 27547:27559 Nat tail_mul_spec
+binder 27561:27561 <> n:344
+binder 27563:27563 <> m:345
+R27579:27581 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27567:27574 Stdlib.Arith.PeanoNat Nat tail_mul def
+R27576:27576 Stdlib.Arith.PeanoNat <> n:344 var
+R27578:27578 Stdlib.Arith.PeanoNat <> m:345 var
+R27583:27585 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R27582:27582 Stdlib.Arith.PeanoNat <> n:344 var
+R27586:27586 Stdlib.Arith.PeanoNat <> m:345 var
+R27603:27610 Stdlib.Arith.PeanoNat Nat tail_mul def
+R27625:27640 Stdlib.Arith.PeanoNat Nat tail_addmul_spec thm
+def 27710:27721 Nat Even_Odd_dec
+binder 27723:27723 <> n:346
+R27727:27727 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27734:27738 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27744:27744 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27728:27731 Stdlib.Arith.PeanoNat Nat Even def
+R27733:27733 Stdlib.Arith.PeanoNat <> n:346 var
+R27739:27741 Stdlib.Arith.PeanoNat Nat Odd def
+R27743:27743 Stdlib.Arith.PeanoNat <> n:346 var
+R27797:27802 Stdlib.Arith.PeanoNat Nat Even_0 thm
+R27846:27854 Stdlib.Arith.PeanoNat Nat Even_succ thm
+R27857:27870 Stdlib.Arith.PeanoNat Nat Even_succ_succ thm
+R27903:27910 Stdlib.Arith.PeanoNat Nat Odd_succ thm
+R27913:27925 Stdlib.Arith.PeanoNat Nat Odd_succ_succ thm
+prf 27956:27969 Nat Even_add_split
+binder 27971:27971 <> n:347
+binder 27973:27973 <> m:348
+R27991:27994 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R27979:27982 Stdlib.Arith.PeanoNat Nat Even def
+R27986:27988 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R27985:27985 Stdlib.Arith.PeanoNat <> n:347 var
+R27989:27989 Stdlib.Arith.PeanoNat <> m:348 var
+R28011:28014 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R28001:28004 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R27995:27998 Stdlib.Arith.PeanoNat Nat Even def
+R28000:28000 Stdlib.Arith.PeanoNat <> n:347 var
+R28005:28008 Stdlib.Arith.PeanoNat Nat Even def
+R28010:28010 Stdlib.Arith.PeanoNat <> m:348 var
+R28020:28023 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28015:28017 Stdlib.Arith.PeanoNat Nat Odd def
+R28019:28019 Stdlib.Arith.PeanoNat <> n:347 var
+R28024:28026 Stdlib.Arith.PeanoNat Nat Odd def
+R28028:28028 Stdlib.Arith.PeanoNat <> m:348 var
+R28053:28061 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28069:28076 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R28079:28086 Stdlib.Arith.PeanoNat Nat even_add thm
+R28096:28098 Stdlib.Arith.PeanoNat Nat odd def
+R28115:28118 Stdlib.Arith.PeanoNat Nat even def
+prf 28139:28151 Nat Odd_add_split
+binder 28153:28153 <> n:349
+binder 28155:28155 <> m:350
+R28172:28175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28161:28163 Stdlib.Arith.PeanoNat Nat Odd def
+R28167:28169 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28166:28166 Stdlib.Arith.PeanoNat <> n:349 var
+R28170:28170 Stdlib.Arith.PeanoNat <> m:350 var
+R28191:28194 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R28181:28184 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28176:28178 Stdlib.Arith.PeanoNat Nat Odd def
+R28180:28180 Stdlib.Arith.PeanoNat <> n:349 var
+R28185:28188 Stdlib.Arith.PeanoNat Nat Even def
+R28190:28190 Stdlib.Arith.PeanoNat <> m:350 var
+R28201:28204 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28195:28198 Stdlib.Arith.PeanoNat Nat Even def
+R28200:28200 Stdlib.Arith.PeanoNat <> n:349 var
+R28205:28207 Stdlib.Arith.PeanoNat Nat Odd def
+R28209:28209 Stdlib.Arith.PeanoNat <> m:350 var
+R28234:28242 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28250:28257 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R28260:28266 Stdlib.Arith.PeanoNat Nat odd_add thm
+R28276:28278 Stdlib.Arith.PeanoNat Nat odd def
+R28295:28298 Stdlib.Arith.PeanoNat Nat even def
+prf 28319:28331 Nat Even_Even_add
+binder 28333:28333 <> n:351
+binder 28335:28335 <> m:352
+R28344:28347 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28338:28341 Stdlib.Arith.PeanoNat Nat Even def
+R28343:28343 Stdlib.Arith.PeanoNat <> n:351 var
+R28354:28357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28348:28351 Stdlib.Arith.PeanoNat Nat Even def
+R28353:28353 Stdlib.Arith.PeanoNat <> m:352 var
+R28358:28361 Stdlib.Arith.PeanoNat Nat Even def
+R28365:28367 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28364:28364 Stdlib.Arith.PeanoNat <> n:351 var
+R28368:28368 Stdlib.Arith.PeanoNat <> m:352 var
+R28392:28400 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28403:28410 Stdlib.Arith.PeanoNat Nat even_add thm
+R28427:28430 Stdlib.Arith.PeanoNat Nat even def
+prf 28451:28459 Nat Odd_add_l
+binder 28461:28461 <> n:353
+binder 28463:28463 <> m:354
+R28472:28475 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28467:28469 Stdlib.Arith.PeanoNat Nat Odd def
+R28471:28471 Stdlib.Arith.PeanoNat <> n:353 var
+R28482:28485 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28476:28479 Stdlib.Arith.PeanoNat Nat Even def
+R28481:28481 Stdlib.Arith.PeanoNat <> m:354 var
+R28486:28488 Stdlib.Arith.PeanoNat Nat Odd def
+R28492:28494 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28491:28491 Stdlib.Arith.PeanoNat <> n:353 var
+R28495:28495 Stdlib.Arith.PeanoNat <> m:354 var
+R28521:28529 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28537:28544 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R28547:28553 Stdlib.Arith.PeanoNat Nat odd_add thm
+R28563:28565 Stdlib.Arith.PeanoNat Nat odd def
+R28582:28585 Stdlib.Arith.PeanoNat Nat even def
+prf 28606:28614 Nat Odd_add_r
+binder 28616:28616 <> n:355
+binder 28618:28618 <> m:356
+R28628:28631 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28622:28625 Stdlib.Arith.PeanoNat Nat Even def
+R28627:28627 Stdlib.Arith.PeanoNat <> n:355 var
+R28637:28640 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28632:28634 Stdlib.Arith.PeanoNat Nat Odd def
+R28636:28636 Stdlib.Arith.PeanoNat <> m:356 var
+R28641:28643 Stdlib.Arith.PeanoNat Nat Odd def
+R28647:28649 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28646:28646 Stdlib.Arith.PeanoNat <> n:355 var
+R28650:28650 Stdlib.Arith.PeanoNat <> m:356 var
+R28676:28684 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28692:28699 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R28702:28708 Stdlib.Arith.PeanoNat Nat odd_add thm
+R28718:28720 Stdlib.Arith.PeanoNat Nat odd def
+R28737:28740 Stdlib.Arith.PeanoNat Nat even def
+prf 28761:28771 Nat Odd_Odd_add
+binder 28773:28773 <> n:357
+binder 28775:28775 <> m:358
+R28784:28787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28779:28781 Stdlib.Arith.PeanoNat Nat Odd def
+R28783:28783 Stdlib.Arith.PeanoNat <> n:357 var
+R28793:28796 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28788:28790 Stdlib.Arith.PeanoNat Nat Odd def
+R28792:28792 Stdlib.Arith.PeanoNat <> m:358 var
+R28797:28800 Stdlib.Arith.PeanoNat Nat Even def
+R28804:28806 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28803:28803 Stdlib.Arith.PeanoNat <> n:357 var
+R28807:28807 Stdlib.Arith.PeanoNat <> m:358 var
+R28833:28841 Stdlib.Arith.PeanoNat Nat even_spec thm
+R28849:28856 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R28859:28866 Stdlib.Arith.PeanoNat Nat even_add thm
+R28876:28878 Stdlib.Arith.PeanoNat Nat odd def
+R28895:28898 Stdlib.Arith.PeanoNat Nat even def
+prf 28919:28930 Nat Even_add_aux
+binder 28932:28932 <> n:359
+binder 28934:28934 <> m:360
+R28940:28940 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28991:28998 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29050:29050 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28952:28956 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R28941:28943 Stdlib.Arith.PeanoNat Nat Odd def
+R28947:28949 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R28946:28946 Stdlib.Arith.PeanoNat <> n:359 var
+R28950:28950 Stdlib.Arith.PeanoNat <> m:360 var
+R28972:28975 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R28962:28965 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28957:28959 Stdlib.Arith.PeanoNat Nat Odd def
+R28961:28961 Stdlib.Arith.PeanoNat <> n:359 var
+R28966:28969 Stdlib.Arith.PeanoNat Nat Even def
+R28971:28971 Stdlib.Arith.PeanoNat <> m:360 var
+R28982:28985 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R28976:28979 Stdlib.Arith.PeanoNat Nat Even def
+R28981:28981 Stdlib.Arith.PeanoNat <> n:359 var
+R28986:28988 Stdlib.Arith.PeanoNat Nat Odd def
+R28990:28990 Stdlib.Arith.PeanoNat <> m:360 var
+R29011:29015 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R28999:29002 Stdlib.Arith.PeanoNat Nat Even def
+R29006:29008 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29005:29005 Stdlib.Arith.PeanoNat <> n:359 var
+R29009:29009 Stdlib.Arith.PeanoNat <> m:360 var
+R29032:29035 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R29022:29025 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29016:29019 Stdlib.Arith.PeanoNat Nat Even def
+R29021:29021 Stdlib.Arith.PeanoNat <> n:359 var
+R29026:29029 Stdlib.Arith.PeanoNat Nat Even def
+R29031:29031 Stdlib.Arith.PeanoNat <> m:360 var
+R29041:29044 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29036:29038 Stdlib.Arith.PeanoNat Nat Odd def
+R29040:29040 Stdlib.Arith.PeanoNat <> n:359 var
+R29045:29047 Stdlib.Arith.PeanoNat Nat Odd def
+R29049:29049 Stdlib.Arith.PeanoNat <> m:360 var
+R29086:29098 Stdlib.Arith.PeanoNat Nat Odd_add_split thm
+R29139:29147 Stdlib.Arith.PeanoNat Nat Odd_add_l thm
+R29157:29165 Stdlib.Arith.PeanoNat Nat Odd_add_r thm
+R29192:29205 Stdlib.Arith.PeanoNat Nat Even_add_split thm
+R29246:29258 Stdlib.Arith.PeanoNat Nat Even_Even_add thm
+R29268:29278 Stdlib.Arith.PeanoNat Nat Odd_Odd_add thm
+prf 29307:29325 Nat Even_add_Even_inv_r
+binder 29327:29327 <> n:361
+binder 29329:29329 <> m:362
+R29345:29348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29333:29336 Stdlib.Arith.PeanoNat Nat Even def
+R29340:29342 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29339:29339 Stdlib.Arith.PeanoNat <> n:361 var
+R29343:29343 Stdlib.Arith.PeanoNat <> m:362 var
+R29355:29358 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29349:29352 Stdlib.Arith.PeanoNat Nat Even def
+R29354:29354 Stdlib.Arith.PeanoNat <> n:361 var
+R29359:29362 Stdlib.Arith.PeanoNat Nat Even def
+R29364:29364 Stdlib.Arith.PeanoNat <> m:362 var
+R29387:29395 Stdlib.Arith.PeanoNat Nat even_spec thm
+R29398:29405 Stdlib.Arith.PeanoNat Nat even_add thm
+R29422:29425 Stdlib.Arith.PeanoNat Nat even def
+prf 29446:29464 Nat Even_add_Even_inv_l
+binder 29466:29466 <> n:363
+binder 29468:29468 <> m:364
+R29484:29487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29472:29475 Stdlib.Arith.PeanoNat Nat Even def
+R29479:29481 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29478:29478 Stdlib.Arith.PeanoNat <> n:363 var
+R29482:29482 Stdlib.Arith.PeanoNat <> m:364 var
+R29494:29497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29488:29491 Stdlib.Arith.PeanoNat Nat Even def
+R29493:29493 Stdlib.Arith.PeanoNat <> m:364 var
+R29498:29501 Stdlib.Arith.PeanoNat Nat Even def
+R29503:29503 Stdlib.Arith.PeanoNat <> n:363 var
+R29526:29534 Stdlib.Arith.PeanoNat Nat even_spec thm
+R29537:29544 Stdlib.Arith.PeanoNat Nat even_add thm
+R29561:29564 Stdlib.Arith.PeanoNat Nat even def
+prf 29585:29602 Nat Even_add_Odd_inv_r
+binder 29604:29604 <> n:365
+binder 29606:29606 <> m:366
+R29622:29625 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29610:29613 Stdlib.Arith.PeanoNat Nat Even def
+R29617:29619 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29616:29616 Stdlib.Arith.PeanoNat <> n:365 var
+R29620:29620 Stdlib.Arith.PeanoNat <> m:366 var
+R29631:29634 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29626:29628 Stdlib.Arith.PeanoNat Nat Odd def
+R29630:29630 Stdlib.Arith.PeanoNat <> n:365 var
+R29635:29637 Stdlib.Arith.PeanoNat Nat Odd def
+R29639:29639 Stdlib.Arith.PeanoNat <> m:366 var
+R29664:29672 Stdlib.Arith.PeanoNat Nat even_spec thm
+R29680:29687 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R29690:29697 Stdlib.Arith.PeanoNat Nat even_add thm
+R29707:29709 Stdlib.Arith.PeanoNat Nat odd def
+R29726:29729 Stdlib.Arith.PeanoNat Nat even def
+prf 29750:29767 Nat Even_add_Odd_inv_l
+binder 29769:29769 <> n:367
+binder 29771:29771 <> m:368
+R29787:29790 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29775:29778 Stdlib.Arith.PeanoNat Nat Even def
+R29782:29784 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29781:29781 Stdlib.Arith.PeanoNat <> n:367 var
+R29785:29785 Stdlib.Arith.PeanoNat <> m:368 var
+R29796:29799 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29791:29793 Stdlib.Arith.PeanoNat Nat Odd def
+R29795:29795 Stdlib.Arith.PeanoNat <> m:368 var
+R29800:29802 Stdlib.Arith.PeanoNat Nat Odd def
+R29804:29804 Stdlib.Arith.PeanoNat <> n:367 var
+R29829:29837 Stdlib.Arith.PeanoNat Nat even_spec thm
+R29845:29852 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R29855:29862 Stdlib.Arith.PeanoNat Nat even_add thm
+R29872:29874 Stdlib.Arith.PeanoNat Nat odd def
+R29891:29894 Stdlib.Arith.PeanoNat Nat even def
+prf 29915:29932 Nat Odd_add_Even_inv_l
+binder 29934:29934 <> n:369
+binder 29936:29936 <> m:370
+R29951:29954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29940:29942 Stdlib.Arith.PeanoNat Nat Odd def
+R29946:29948 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R29945:29945 Stdlib.Arith.PeanoNat <> n:369 var
+R29949:29949 Stdlib.Arith.PeanoNat <> m:370 var
+R29960:29963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29955:29957 Stdlib.Arith.PeanoNat Nat Odd def
+R29959:29959 Stdlib.Arith.PeanoNat <> m:370 var
+R29964:29967 Stdlib.Arith.PeanoNat Nat Even def
+R29969:29969 Stdlib.Arith.PeanoNat <> n:369 var
+R29994:30002 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30010:30017 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R30020:30026 Stdlib.Arith.PeanoNat Nat odd_add thm
+R30036:30038 Stdlib.Arith.PeanoNat Nat odd def
+R30055:30058 Stdlib.Arith.PeanoNat Nat even def
+prf 30079:30096 Nat Odd_add_Even_inv_r
+binder 30098:30098 <> n:371
+binder 30100:30100 <> m:372
+R30115:30118 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30104:30106 Stdlib.Arith.PeanoNat Nat Odd def
+R30110:30112 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R30109:30109 Stdlib.Arith.PeanoNat <> n:371 var
+R30113:30113 Stdlib.Arith.PeanoNat <> m:372 var
+R30124:30127 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30119:30121 Stdlib.Arith.PeanoNat Nat Odd def
+R30123:30123 Stdlib.Arith.PeanoNat <> n:371 var
+R30128:30131 Stdlib.Arith.PeanoNat Nat Even def
+R30133:30133 Stdlib.Arith.PeanoNat <> m:372 var
+R30158:30166 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30174:30181 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R30184:30190 Stdlib.Arith.PeanoNat Nat odd_add thm
+R30200:30202 Stdlib.Arith.PeanoNat Nat odd def
+R30219:30222 Stdlib.Arith.PeanoNat Nat even def
+prf 30243:30259 Nat Odd_add_Odd_inv_l
+binder 30261:30261 <> n:373
+binder 30263:30263 <> m:374
+R30278:30281 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30267:30269 Stdlib.Arith.PeanoNat Nat Odd def
+R30273:30275 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R30272:30272 Stdlib.Arith.PeanoNat <> n:373 var
+R30276:30276 Stdlib.Arith.PeanoNat <> m:374 var
+R30288:30291 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30282:30285 Stdlib.Arith.PeanoNat Nat Even def
+R30287:30287 Stdlib.Arith.PeanoNat <> m:374 var
+R30292:30294 Stdlib.Arith.PeanoNat Nat Odd def
+R30296:30296 Stdlib.Arith.PeanoNat <> n:373 var
+R30321:30329 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30337:30344 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R30347:30353 Stdlib.Arith.PeanoNat Nat odd_add thm
+R30363:30365 Stdlib.Arith.PeanoNat Nat odd def
+R30382:30385 Stdlib.Arith.PeanoNat Nat even def
+prf 30406:30422 Nat Odd_add_Odd_inv_r
+binder 30424:30424 <> n:375
+binder 30426:30426 <> m:376
+R30441:30444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30430:30432 Stdlib.Arith.PeanoNat Nat Odd def
+R30436:30438 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R30435:30435 Stdlib.Arith.PeanoNat <> n:375 var
+R30439:30439 Stdlib.Arith.PeanoNat <> m:376 var
+R30451:30454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30445:30448 Stdlib.Arith.PeanoNat Nat Even def
+R30450:30450 Stdlib.Arith.PeanoNat <> n:375 var
+R30455:30457 Stdlib.Arith.PeanoNat Nat Odd def
+R30459:30459 Stdlib.Arith.PeanoNat <> m:376 var
+R30484:30492 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30500:30507 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R30510:30516 Stdlib.Arith.PeanoNat Nat odd_add thm
+R30526:30528 Stdlib.Arith.PeanoNat Nat odd def
+R30545:30548 Stdlib.Arith.PeanoNat Nat even def
+prf 30569:30580 Nat Even_mul_aux
+binder 30582:30582 <> n:377
+binder 30584:30584 <> m:378
+R30590:30590 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30621:30626 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30660:30660 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30602:30606 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30591:30593 Stdlib.Arith.PeanoNat Nat Odd def
+R30597:30599 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R30596:30596 Stdlib.Arith.PeanoNat <> n:377 var
+R30600:30600 Stdlib.Arith.PeanoNat <> m:378 var
+R30612:30615 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R30607:30609 Stdlib.Arith.PeanoNat Nat Odd def
+R30611:30611 Stdlib.Arith.PeanoNat <> n:377 var
+R30616:30618 Stdlib.Arith.PeanoNat Nat Odd def
+R30620:30620 Stdlib.Arith.PeanoNat <> m:378 var
+R30639:30643 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R30627:30630 Stdlib.Arith.PeanoNat Nat Even def
+R30634:30636 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R30633:30633 Stdlib.Arith.PeanoNat <> n:377 var
+R30637:30637 Stdlib.Arith.PeanoNat <> m:378 var
+R30650:30653 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R30644:30647 Stdlib.Arith.PeanoNat Nat Even def
+R30649:30649 Stdlib.Arith.PeanoNat <> n:377 var
+R30654:30657 Stdlib.Arith.PeanoNat Nat Even def
+R30659:30659 Stdlib.Arith.PeanoNat <> m:378 var
+R30685:30693 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30701:30708 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R30711:30717 Stdlib.Arith.PeanoNat Nat odd_mul thm
+R30720:30727 Stdlib.Arith.PeanoNat Nat even_mul thm
+R30737:30739 Stdlib.Arith.PeanoNat Nat odd def
+R30756:30759 Stdlib.Arith.PeanoNat Nat even def
+prf 30781:30790 Nat Even_mul_l
+binder 30792:30792 <> n:379
+binder 30794:30794 <> m:380
+R30804:30807 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30798:30801 Stdlib.Arith.PeanoNat Nat Even def
+R30803:30803 Stdlib.Arith.PeanoNat <> n:379 var
+R30808:30811 Stdlib.Arith.PeanoNat Nat Even def
+R30815:30817 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R30814:30814 Stdlib.Arith.PeanoNat <> n:379 var
+R30818:30818 Stdlib.Arith.PeanoNat <> m:380 var
+R30842:30850 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30853:30860 Stdlib.Arith.PeanoNat Nat even_mul thm
+R30877:30880 Stdlib.Arith.PeanoNat Nat even def
+prf 30901:30910 Nat Even_mul_r
+binder 30912:30912 <> n:381
+binder 30914:30914 <> m:382
+R30924:30927 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30918:30921 Stdlib.Arith.PeanoNat Nat Even def
+R30923:30923 Stdlib.Arith.PeanoNat <> m:382 var
+R30928:30931 Stdlib.Arith.PeanoNat Nat Even def
+R30935:30937 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R30934:30934 Stdlib.Arith.PeanoNat <> n:381 var
+R30938:30938 Stdlib.Arith.PeanoNat <> m:382 var
+R30962:30970 Stdlib.Arith.PeanoNat Nat even_spec thm
+R30973:30980 Stdlib.Arith.PeanoNat Nat even_mul thm
+R30997:31000 Stdlib.Arith.PeanoNat Nat even def
+prf 31021:31034 Nat Even_mul_inv_r
+binder 31036:31036 <> n:383
+binder 31038:31038 <> m:384
+R31054:31057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31042:31045 Stdlib.Arith.PeanoNat Nat Even def
+R31049:31051 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R31048:31048 Stdlib.Arith.PeanoNat <> n:383 var
+R31052:31052 Stdlib.Arith.PeanoNat <> m:384 var
+R31063:31066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31058:31060 Stdlib.Arith.PeanoNat Nat Odd def
+R31062:31062 Stdlib.Arith.PeanoNat <> n:383 var
+R31067:31070 Stdlib.Arith.PeanoNat Nat Even def
+R31072:31072 Stdlib.Arith.PeanoNat <> m:384 var
+R31097:31105 Stdlib.Arith.PeanoNat Nat even_spec thm
+R31113:31120 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R31123:31130 Stdlib.Arith.PeanoNat Nat even_mul thm
+R31140:31142 Stdlib.Arith.PeanoNat Nat odd def
+R31159:31162 Stdlib.Arith.PeanoNat Nat even def
+prf 31183:31196 Nat Even_mul_inv_l
+binder 31198:31198 <> n:385
+binder 31200:31200 <> m:386
+R31216:31219 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31204:31207 Stdlib.Arith.PeanoNat Nat Even def
+R31211:31213 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R31210:31210 Stdlib.Arith.PeanoNat <> n:385 var
+R31214:31214 Stdlib.Arith.PeanoNat <> m:386 var
+R31225:31228 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31220:31222 Stdlib.Arith.PeanoNat Nat Odd def
+R31224:31224 Stdlib.Arith.PeanoNat <> m:386 var
+R31229:31232 Stdlib.Arith.PeanoNat Nat Even def
+R31234:31234 Stdlib.Arith.PeanoNat <> n:385 var
+R31259:31267 Stdlib.Arith.PeanoNat Nat even_spec thm
+R31275:31282 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R31285:31292 Stdlib.Arith.PeanoNat Nat even_mul thm
+R31302:31304 Stdlib.Arith.PeanoNat Nat odd def
+R31321:31324 Stdlib.Arith.PeanoNat Nat even def
+prf 31345:31351 Nat Odd_mul
+binder 31353:31353 <> n:387
+binder 31355:31355 <> m:388
+R31364:31367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31359:31361 Stdlib.Arith.PeanoNat Nat Odd def
+R31363:31363 Stdlib.Arith.PeanoNat <> n:387 var
+R31373:31376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31368:31370 Stdlib.Arith.PeanoNat Nat Odd def
+R31372:31372 Stdlib.Arith.PeanoNat <> m:388 var
+R31377:31379 Stdlib.Arith.PeanoNat Nat Odd def
+R31383:31385 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R31382:31382 Stdlib.Arith.PeanoNat <> n:387 var
+R31386:31386 Stdlib.Arith.PeanoNat <> m:388 var
+R31410:31417 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R31420:31426 Stdlib.Arith.PeanoNat Nat odd_mul thm
+R31436:31438 Stdlib.Arith.PeanoNat Nat odd def
+R31455:31458 Stdlib.Arith.PeanoNat Nat even def
+prf 31479:31491 Nat Odd_mul_inv_l
+binder 31493:31493 <> n:389
+binder 31495:31495 <> m:390
+R31510:31513 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31499:31501 Stdlib.Arith.PeanoNat Nat Odd def
+R31505:31507 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R31504:31504 Stdlib.Arith.PeanoNat <> n:389 var
+R31508:31508 Stdlib.Arith.PeanoNat <> m:390 var
+R31514:31516 Stdlib.Arith.PeanoNat Nat Odd def
+R31518:31518 Stdlib.Arith.PeanoNat <> n:389 var
+R31541:31548 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R31551:31557 Stdlib.Arith.PeanoNat Nat odd_mul thm
+R31567:31569 Stdlib.Arith.PeanoNat Nat odd def
+R31586:31589 Stdlib.Arith.PeanoNat Nat even def
+prf 31610:31622 Nat Odd_mul_inv_r
+binder 31624:31624 <> n:391
+binder 31626:31626 <> m:392
+R31641:31644 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31630:31632 Stdlib.Arith.PeanoNat Nat Odd def
+R31636:31638 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R31635:31635 Stdlib.Arith.PeanoNat <> n:391 var
+R31639:31639 Stdlib.Arith.PeanoNat <> m:392 var
+R31645:31647 Stdlib.Arith.PeanoNat Nat Odd def
+R31649:31649 Stdlib.Arith.PeanoNat <> m:392 var
+R31672:31679 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R31682:31688 Stdlib.Arith.PeanoNat Nat odd_mul thm
+R31698:31700 Stdlib.Arith.PeanoNat Nat odd def
+R31717:31720 Stdlib.Arith.PeanoNat Nat even def
+prf 31741:31749 Nat Even_div2
+binder 31751:31751 <> n:393
+R31761:31764 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31755:31758 Stdlib.Arith.PeanoNat Nat Even def
+R31760:31760 Stdlib.Arith.PeanoNat <> n:393 var
+R31771:31773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31765:31768 Stdlib.Arith.PeanoNat Nat div2 def
+R31770:31770 Stdlib.Arith.PeanoNat <> n:393 var
+R31774:31777 Stdlib.Arith.PeanoNat Nat div2 def
+R31780:31780 Corelib.Init.Datatypes <> S constr
+R31782:31782 Stdlib.Arith.PeanoNat <> n:393 var
+R31816:31831 Stdlib.Arith.PeanoNat Nat div2_succ_double defax
+R31840:31850 Stdlib.Arith.PeanoNat Nat div2_double defax
+prf 31865:31872 Nat Odd_div2
+binder 31874:31874 <> n:394
+R31883:31886 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31878:31880 Stdlib.Arith.PeanoNat Nat Odd def
+R31882:31882 Stdlib.Arith.PeanoNat <> n:394 var
+R31897:31899 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31887:31887 Corelib.Init.Datatypes <> S constr
+R31890:31893 Stdlib.Arith.PeanoNat Nat div2 def
+R31895:31895 Stdlib.Arith.PeanoNat <> n:394 var
+R31900:31903 Stdlib.Arith.PeanoNat Nat div2 def
+R31906:31906 Corelib.Init.Datatypes <> S constr
+R31908:31908 Stdlib.Arith.PeanoNat <> n:394 var
+R31944:31950 Stdlib.Arith.PeanoNat Nat add_1_r thm
+R31953:31968 Stdlib.Arith.PeanoNat Nat div2_succ_double defax
+R32003:32013 Stdlib.Arith.PeanoNat Nat div2_double defax
+prf 32028:32036 Nat div2_Even
+binder 32038:32038 <> n:395
+R32061:32064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32048:32050 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32042:32045 Stdlib.Arith.PeanoNat Nat div2 def
+R32047:32047 Stdlib.Arith.PeanoNat <> n:395 var
+R32051:32054 Stdlib.Arith.PeanoNat Nat div2 def
+R32057:32057 Corelib.Init.Datatypes <> S constr
+R32059:32059 Stdlib.Arith.PeanoNat <> n:395 var
+R32065:32068 Stdlib.Arith.PeanoNat Nat Even def
+R32070:32070 Stdlib.Arith.PeanoNat <> n:395 var
+R32092:32102 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32136:32143 Stdlib.Arith.PeanoNat Nat Odd_div2 thm
+R32190:32204 Stdlib.Arith.PeanoNat Nat neq_succ_diag_r thm
+prf 32226:32233 Nat div2_Odd
+binder 32235:32235 <> n:396
+R32262:32265 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32249:32251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32239:32239 Corelib.Init.Datatypes <> S constr
+R32242:32245 Stdlib.Arith.PeanoNat Nat div2 def
+R32247:32247 Stdlib.Arith.PeanoNat <> n:396 var
+R32252:32255 Stdlib.Arith.PeanoNat Nat div2 def
+R32258:32258 Corelib.Init.Datatypes <> S constr
+R32260:32260 Stdlib.Arith.PeanoNat <> n:396 var
+R32266:32268 Stdlib.Arith.PeanoNat Nat Odd def
+R32270:32270 Stdlib.Arith.PeanoNat <> n:396 var
+R32292:32302 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32336:32344 Stdlib.Arith.PeanoNat Nat Even_div2 thm
+R32408:32422 Stdlib.Arith.PeanoNat Nat neq_succ_diag_r thm
+prf 32444:32456 Nat Even_Odd_div2
+binder 32458:32458 <> n:397
+R32464:32464 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32495:32500 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32534:32534 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32471:32475 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32465:32468 Stdlib.Arith.PeanoNat Nat Even def
+R32470:32470 Stdlib.Arith.PeanoNat <> n:397 var
+R32482:32484 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32476:32479 Stdlib.Arith.PeanoNat Nat div2 def
+R32481:32481 Stdlib.Arith.PeanoNat <> n:397 var
+R32485:32488 Stdlib.Arith.PeanoNat Nat div2 def
+R32491:32491 Corelib.Init.Datatypes <> S constr
+R32493:32493 Stdlib.Arith.PeanoNat <> n:397 var
+R32506:32510 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32501:32503 Stdlib.Arith.PeanoNat Nat Odd def
+R32505:32505 Stdlib.Arith.PeanoNat <> n:397 var
+R32521:32523 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32511:32511 Corelib.Init.Datatypes <> S constr
+R32514:32517 Stdlib.Arith.PeanoNat Nat div2 def
+R32519:32519 Stdlib.Arith.PeanoNat <> n:397 var
+R32524:32527 Stdlib.Arith.PeanoNat Nat div2 def
+R32530:32530 Corelib.Init.Datatypes <> S constr
+R32532:32532 Stdlib.Arith.PeanoNat <> n:397 var
+R32568:32576 Stdlib.Arith.PeanoNat Nat Even_div2 thm
+R32586:32594 Stdlib.Arith.PeanoNat Nat div2_Even thm
+R32604:32611 Stdlib.Arith.PeanoNat Nat Odd_div2 thm
+R32621:32628 Stdlib.Arith.PeanoNat Nat div2_Odd thm
+prf 32645:32659 Nat Even_Odd_double
+binder 32661:32661 <> n:398
+R32667:32667 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32698:32703 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32737:32737 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R32674:32678 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32668:32671 Stdlib.Arith.PeanoNat Nat Even def
+R32673:32673 Stdlib.Arith.PeanoNat <> n:398 var
+R32680:32682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32679:32679 Stdlib.Arith.PeanoNat <> n:398 var
+R32683:32688 Stdlib.Arith.PeanoNat Nat double def
+R32691:32694 Stdlib.Arith.PeanoNat Nat div2 def
+R32696:32696 Stdlib.Arith.PeanoNat <> n:398 var
+R32709:32713 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R32704:32706 Stdlib.Arith.PeanoNat Nat Odd def
+R32708:32708 Stdlib.Arith.PeanoNat <> n:398 var
+R32715:32717 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32714:32714 Stdlib.Arith.PeanoNat <> n:398 var
+R32718:32718 Corelib.Init.Datatypes <> S constr
+R32721:32726 Stdlib.Arith.PeanoNat Nat double def
+R32729:32732 Stdlib.Arith.PeanoNat Nat div2 def
+R32734:32734 Stdlib.Arith.PeanoNat <> n:398 var
+R32891:32896 Stdlib.Arith.PeanoNat Nat Even_0 thm
+R32906:32910 Stdlib.Arith.PeanoNat Nat Odd_0 thm
+R32996:33001 Stdlib.Arith.PeanoNat Nat Even_1 thm
+R33050:33054 Stdlib.Arith.PeanoNat Nat Odd_1 thm
+R33171:33174 Stdlib.Arith.PeanoNat Nat div2 def
+R33187:33194 Stdlib.Arith.PeanoNat Nat double_S def
+R33199:33212 Stdlib.Arith.PeanoNat Nat Even_succ_succ thm
+R33217:33229 Stdlib.Arith.PeanoNat Nat Odd_succ_succ thm
+prf 33370:33380 Nat Even_double
+binder 33382:33382 <> n:399
+R33392:33395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33386:33389 Stdlib.Arith.PeanoNat Nat Even def
+R33391:33391 Stdlib.Arith.PeanoNat <> n:399 var
+R33397:33399 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33396:33396 Stdlib.Arith.PeanoNat <> n:399 var
+R33400:33405 Stdlib.Arith.PeanoNat Nat double def
+R33408:33411 Stdlib.Arith.PeanoNat Nat div2 def
+R33413:33413 Stdlib.Arith.PeanoNat <> n:399 var
+R33433:33437 Corelib.Init.Logic <> proj1 thm
+R33440:33444 Corelib.Init.Logic <> proj1 thm
+R33447:33461 Stdlib.Arith.PeanoNat Nat Even_Odd_double thm
+prf 33481:33491 Nat double_Even
+binder 33493:33493 <> n:400
+R33516:33519 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33498:33500 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33497:33497 Stdlib.Arith.PeanoNat <> n:400 var
+R33501:33506 Stdlib.Arith.PeanoNat Nat double def
+R33509:33512 Stdlib.Arith.PeanoNat Nat div2 def
+R33514:33514 Stdlib.Arith.PeanoNat <> n:400 var
+R33520:33523 Stdlib.Arith.PeanoNat Nat Even def
+R33525:33525 Stdlib.Arith.PeanoNat <> n:400 var
+R33544:33548 Corelib.Init.Logic <> proj2 thm
+R33551:33555 Corelib.Init.Logic <> proj1 thm
+R33558:33572 Stdlib.Arith.PeanoNat Nat Even_Odd_double thm
+prf 33592:33601 Nat Odd_double
+binder 33603:33603 <> n:401
+R33612:33615 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33607:33609 Stdlib.Arith.PeanoNat Nat Odd def
+R33611:33611 Stdlib.Arith.PeanoNat <> n:401 var
+R33617:33619 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33616:33616 Stdlib.Arith.PeanoNat <> n:401 var
+R33620:33620 Corelib.Init.Datatypes <> S constr
+R33623:33628 Stdlib.Arith.PeanoNat Nat double def
+R33631:33634 Stdlib.Arith.PeanoNat Nat div2 def
+R33636:33636 Stdlib.Arith.PeanoNat <> n:401 var
+R33657:33661 Corelib.Init.Logic <> proj1 thm
+R33664:33668 Corelib.Init.Logic <> proj2 thm
+R33671:33685 Stdlib.Arith.PeanoNat Nat Even_Odd_double thm
+prf 33705:33714 Nat double_Odd
+binder 33716:33716 <> n:402
+R33743:33746 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33721:33723 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33720:33720 Stdlib.Arith.PeanoNat <> n:402 var
+R33724:33724 Corelib.Init.Datatypes <> S constr
+R33727:33732 Stdlib.Arith.PeanoNat Nat double def
+R33735:33738 Stdlib.Arith.PeanoNat Nat div2 def
+R33740:33740 Stdlib.Arith.PeanoNat <> n:402 var
+R33747:33749 Stdlib.Arith.PeanoNat Nat Odd def
+R33751:33751 Stdlib.Arith.PeanoNat <> n:402 var
+R33770:33774 Corelib.Init.Logic <> proj2 thm
+R33777:33781 Corelib.Init.Logic <> proj2 thm
+R33784:33798 Stdlib.Arith.PeanoNat Nat Even_Odd_double thm
+ind 33866:33873 Nat Even_alt
+constr 33894:33903 Nat Even_alt_O
+constr 33920:33929 Nat Even_alt_S
+ind 33976:33982 Nat Odd_alt
+constr 34003:34011 Nat Odd_alt_S
+R33880:33883 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33877:33879 Corelib.Init.Datatypes <> nat ind
+R33989:33992 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33986:33988 Corelib.Init.Datatypes <> nat ind
+R33907:33914 Stdlib.Arith.PeanoNat <> Even_alt:403 ind
+binder 33940:33940 <> n:407
+R33952:33955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R33943:33949 Stdlib.Arith.PeanoNat <> Odd_alt:404 ind
+R33951:33951 Stdlib.Arith.PeanoNat <> n:407 var
+R33956:33963 Stdlib.Arith.PeanoNat <> Even_alt:403 ind
+R33966:33966 Corelib.Init.Datatypes <> S constr
+R33968:33968 Stdlib.Arith.PeanoNat <> n:407 var
+binder 34022:34022 <> n:408
+R34035:34038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R34025:34032 Stdlib.Arith.PeanoNat <> Even_alt:403 ind
+R34034:34034 Stdlib.Arith.PeanoNat <> n:408 var
+R34039:34045 Stdlib.Arith.PeanoNat <> Odd_alt:404 ind
+R34048:34048 Corelib.Init.Datatypes <> S constr
+R34050:34050 Stdlib.Arith.PeanoNat <> n:408 var
+scheme 33866:33873 Nat Even_alt_ind
+scheme 33866:33873 Nat Even_alt_sind
+scheme 33976:33982 Nat Odd_alt_ind
+scheme 33976:33982 Nat Odd_alt_sind
+prf 34061:34073 Nat Even_alt_Even
+binder 34084:34084 <> n:409
+R34097:34101 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R34087:34094 Stdlib.Arith.PeanoNat Nat Even_alt ind
+R34096:34096 Stdlib.Arith.PeanoNat <> n:409 var
+R34102:34105 Stdlib.Arith.PeanoNat Nat Even def
+R34107:34107 Stdlib.Arith.PeanoNat <> n:409 var
+R34329:34341 Stdlib.Arith.PeanoNat Nat even_spec thm
+R34358:34375 Stdlib.Arith.PeanoNat Nat Even_succ_succ thm
+prf 34521:34531 Nat Odd_alt_Odd
+binder 34542:34542 <> n:410
+R34554:34558 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R34545:34551 Stdlib.Arith.PeanoNat Nat Odd_alt ind
+R34553:34553 Stdlib.Arith.PeanoNat <> n:410 var
+R34559:34561 Stdlib.Arith.PeanoNat Nat Odd def
+R34563:34563 Stdlib.Arith.PeanoNat <> n:410 var
+R34701:34712 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R34779:34795 Stdlib.Arith.PeanoNat Nat Odd_succ_succ thm
+def 34939:34958 Nat Odd_alt_Even_alt_ind
+def 35001:35020 Nat Even_alt_Odd_alt_ind
+R34978:34984 Stdlib.Arith.PeanoNat Nat Odd_alt ind
+R35040:35047 Stdlib.Arith.PeanoNat Nat Even_alt ind
+prf 35067:35078 Nat Odd_Even_ind
+R35090:35093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35087:35089 Corelib.Init.Datatypes <> nat ind
+binder 35081:35081 <> P:411
+binder 35083:35083 <> Q:412
+R35104:35104 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35139:35145 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 35112:35112 <> n:413
+R35121:35124 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35115:35118 Stdlib.Arith.PeanoNat Nat Even def
+R35120:35120 Stdlib.Arith.PeanoNat <> n:413 var
+R35128:35131 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35125:35125 Stdlib.Arith.PeanoNat <> Q:412 var
+R35127:35127 Stdlib.Arith.PeanoNat <> n:413 var
+R35132:35132 Stdlib.Arith.PeanoNat <> P:411 var
+R35135:35135 Corelib.Init.Datatypes <> S constr
+R35137:35137 Stdlib.Arith.PeanoNat <> n:413 var
+R35149:35152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35146:35146 Stdlib.Arith.PeanoNat <> Q:412 var
+R35153:35153 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35187:35191 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 35161:35161 <> n:414
+R35169:35172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35164:35166 Stdlib.Arith.PeanoNat Nat Odd def
+R35168:35168 Stdlib.Arith.PeanoNat <> n:414 var
+R35176:35179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35173:35173 Stdlib.Arith.PeanoNat <> P:411 var
+R35175:35175 Stdlib.Arith.PeanoNat <> n:414 var
+R35180:35180 Stdlib.Arith.PeanoNat <> Q:412 var
+R35183:35183 Corelib.Init.Datatypes <> S constr
+R35185:35185 Stdlib.Arith.PeanoNat <> n:414 var
+binder 35199:35199 <> n:415
+R35207:35210 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35202:35204 Stdlib.Arith.PeanoNat Nat Odd def
+R35206:35206 Stdlib.Arith.PeanoNat <> n:415 var
+R35211:35211 Stdlib.Arith.PeanoNat <> P:411 var
+R35213:35213 Stdlib.Arith.PeanoNat <> n:415 var
+R35248:35258 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+R35269:35288 Stdlib.Arith.PeanoNat Nat Odd_alt_Even_alt_ind def
+R35332:35344 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R35371:35381 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+prf 35402:35413 Nat Even_Odd_ind
+R35425:35428 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35422:35424 Corelib.Init.Datatypes <> nat ind
+binder 35416:35416 <> P:416
+binder 35418:35418 <> Q:417
+R35439:35439 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35474:35480 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 35447:35447 <> n:418
+R35456:35459 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35450:35453 Stdlib.Arith.PeanoNat Nat Even def
+R35455:35455 Stdlib.Arith.PeanoNat <> n:418 var
+R35463:35466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35460:35460 Stdlib.Arith.PeanoNat <> Q:417 var
+R35462:35462 Stdlib.Arith.PeanoNat <> n:418 var
+R35467:35467 Stdlib.Arith.PeanoNat <> P:416 var
+R35470:35470 Corelib.Init.Datatypes <> S constr
+R35472:35472 Stdlib.Arith.PeanoNat <> n:418 var
+R35484:35487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35481:35481 Stdlib.Arith.PeanoNat <> Q:417 var
+R35488:35488 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35522:35526 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 35496:35496 <> n:419
+R35504:35507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35499:35501 Stdlib.Arith.PeanoNat Nat Odd def
+R35503:35503 Stdlib.Arith.PeanoNat <> n:419 var
+R35511:35514 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35508:35508 Stdlib.Arith.PeanoNat <> P:416 var
+R35510:35510 Stdlib.Arith.PeanoNat <> n:419 var
+R35515:35515 Stdlib.Arith.PeanoNat <> Q:417 var
+R35518:35518 Corelib.Init.Datatypes <> S constr
+R35520:35520 Stdlib.Arith.PeanoNat <> n:419 var
+binder 35534:35534 <> n:420
+R35543:35546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35537:35540 Stdlib.Arith.PeanoNat Nat Even def
+R35542:35542 Stdlib.Arith.PeanoNat <> n:420 var
+R35547:35547 Stdlib.Arith.PeanoNat <> Q:417 var
+R35549:35549 Stdlib.Arith.PeanoNat <> n:420 var
+R35584:35596 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R35607:35626 Stdlib.Arith.PeanoNat Nat Even_alt_Odd_alt_ind def
+R35670:35682 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R35709:35719 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+def 35838:35858 Nat Odd_alt_Even_alt_sind
+def 35902:35922 Nat Even_alt_Odd_alt_sind
+R35878:35884 Stdlib.Arith.PeanoNat Nat Odd_alt ind
+R35942:35949 Stdlib.Arith.PeanoNat Nat Even_alt ind
+prf 35970:35982 Nat Odd_Even_sind
+R35994:35997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R35991:35993 Corelib.Init.Datatypes <> nat ind
+binder 35985:35985 <> P:421
+binder 35987:35987 <> Q:422
+R36009:36009 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36044:36050 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 36017:36017 <> n:423
+R36026:36029 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36020:36023 Stdlib.Arith.PeanoNat Nat Even def
+R36025:36025 Stdlib.Arith.PeanoNat <> n:423 var
+R36033:36036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36030:36030 Stdlib.Arith.PeanoNat <> Q:422 var
+R36032:36032 Stdlib.Arith.PeanoNat <> n:423 var
+R36037:36037 Stdlib.Arith.PeanoNat <> P:421 var
+R36040:36040 Corelib.Init.Datatypes <> S constr
+R36042:36042 Stdlib.Arith.PeanoNat <> n:423 var
+R36054:36057 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36051:36051 Stdlib.Arith.PeanoNat <> Q:422 var
+R36058:36058 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36092:36096 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 36066:36066 <> n:424
+R36074:36077 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36069:36071 Stdlib.Arith.PeanoNat Nat Odd def
+R36073:36073 Stdlib.Arith.PeanoNat <> n:424 var
+R36081:36084 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36078:36078 Stdlib.Arith.PeanoNat <> P:421 var
+R36080:36080 Stdlib.Arith.PeanoNat <> n:424 var
+R36085:36085 Stdlib.Arith.PeanoNat <> Q:422 var
+R36088:36088 Corelib.Init.Datatypes <> S constr
+R36090:36090 Stdlib.Arith.PeanoNat <> n:424 var
+binder 36104:36104 <> n:425
+R36112:36115 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36107:36109 Stdlib.Arith.PeanoNat Nat Odd def
+R36111:36111 Stdlib.Arith.PeanoNat <> n:425 var
+R36116:36116 Stdlib.Arith.PeanoNat <> P:421 var
+R36118:36118 Stdlib.Arith.PeanoNat <> n:425 var
+R36153:36163 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+R36174:36194 Stdlib.Arith.PeanoNat Nat Odd_alt_Even_alt_sind def
+R36238:36250 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R36277:36287 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+prf 36308:36320 Nat Even_Odd_sind
+R36332:36335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36329:36331 Corelib.Init.Datatypes <> nat ind
+binder 36323:36323 <> P:426
+binder 36325:36325 <> Q:427
+R36347:36347 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36382:36388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 36355:36355 <> n:428
+R36364:36367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36358:36361 Stdlib.Arith.PeanoNat Nat Even def
+R36363:36363 Stdlib.Arith.PeanoNat <> n:428 var
+R36371:36374 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36368:36368 Stdlib.Arith.PeanoNat <> Q:427 var
+R36370:36370 Stdlib.Arith.PeanoNat <> n:428 var
+R36375:36375 Stdlib.Arith.PeanoNat <> P:426 var
+R36378:36378 Corelib.Init.Datatypes <> S constr
+R36380:36380 Stdlib.Arith.PeanoNat <> n:428 var
+R36392:36395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36389:36389 Stdlib.Arith.PeanoNat <> Q:427 var
+R36396:36396 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36430:36434 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 36404:36404 <> n:429
+R36412:36415 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36407:36409 Stdlib.Arith.PeanoNat Nat Odd def
+R36411:36411 Stdlib.Arith.PeanoNat <> n:429 var
+R36419:36422 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36416:36416 Stdlib.Arith.PeanoNat <> P:426 var
+R36418:36418 Stdlib.Arith.PeanoNat <> n:429 var
+R36423:36423 Stdlib.Arith.PeanoNat <> Q:427 var
+R36426:36426 Corelib.Init.Datatypes <> S constr
+R36428:36428 Stdlib.Arith.PeanoNat <> n:429 var
+binder 36442:36442 <> n:430
+R36451:36454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R36445:36448 Stdlib.Arith.PeanoNat Nat Even def
+R36450:36450 Stdlib.Arith.PeanoNat <> n:430 var
+R36455:36455 Stdlib.Arith.PeanoNat <> Q:427 var
+R36457:36457 Stdlib.Arith.PeanoNat <> n:430 var
+R36492:36504 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R36515:36535 Stdlib.Arith.PeanoNat Nat Even_alt_Odd_alt_sind def
+R36579:36591 Stdlib.Arith.PeanoNat Nat Even_alt_Even thm
+R36618:36628 Stdlib.Arith.PeanoNat Nat Odd_alt_Odd thm
+def 36882:36886 Nat EvenT
+binder 36888:36888 <> n:431
+R36893:36894 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R36896:36898 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R36908:36909 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 36895:36895 <> m:432
+R36900:36902 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36899:36899 Stdlib.Arith.PeanoNat <> n:431 var
+R36904:36906 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R36907:36907 Stdlib.Arith.PeanoNat <> m:432 var
+def 36923:36926 Nat OddT
+binder 36928:36928 <> n:433
+R36933:36934 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R36936:36938 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R36952:36953 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 36935:36935 <> m:434
+R36940:36942 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36939:36939 Stdlib.Arith.PeanoNat <> n:433 var
+R36948:36950 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R36944:36946 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R36947:36947 Stdlib.Arith.PeanoNat <> m:434 var
+prf 36963:36969 Nat EvenT_0
+R36973:36977 Stdlib.Arith.PeanoNat Nat EvenT def
+prf 37024:37030 Nat EvenT_2
+binder 37032:37032 <> n:435
+R37043:37046 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37036:37040 Stdlib.Arith.PeanoNat Nat EvenT def
+R37042:37042 Stdlib.Arith.PeanoNat <> n:435 var
+R37047:37051 Stdlib.Arith.PeanoNat Nat EvenT def
+R37054:37054 Corelib.Init.Datatypes <> S constr
+R37057:37057 Corelib.Init.Datatypes <> S constr
+R37059:37059 Stdlib.Arith.PeanoNat <> n:435 var
+R37095:37095 Corelib.Init.Datatypes <> S constr
+R37127:37136 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+prf 37164:37169 Nat OddT_1
+R37173:37176 Stdlib.Arith.PeanoNat Nat OddT def
+prf 37223:37228 Nat OddT_2
+binder 37230:37230 <> n:436
+R37240:37243 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37234:37237 Stdlib.Arith.PeanoNat Nat OddT def
+R37239:37239 Stdlib.Arith.PeanoNat <> n:436 var
+R37244:37247 Stdlib.Arith.PeanoNat Nat OddT def
+R37250:37250 Corelib.Init.Datatypes <> S constr
+R37253:37253 Corelib.Init.Datatypes <> S constr
+R37255:37255 Stdlib.Arith.PeanoNat <> n:436 var
+R37291:37291 Corelib.Init.Datatypes <> S constr
+R37312:37321 Stdlib.Arith.PeanoNat Nat mul_succ_r thm
+R37329:37335 Stdlib.Arith.PeanoNat Nat add_1_r thm
+R37338:37346 Stdlib.Arith.PeanoNat Nat add_assoc thm
+prf 37374:37385 Nat EvenT_S_OddT
+binder 37387:37387 <> n:437
+R37402:37405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37391:37395 Stdlib.Arith.PeanoNat Nat EvenT def
+R37398:37398 Corelib.Init.Datatypes <> S constr
+R37400:37400 Stdlib.Arith.PeanoNat <> n:437 var
+R37406:37409 Stdlib.Arith.PeanoNat Nat OddT def
+R37411:37411 Stdlib.Arith.PeanoNat <> n:437 var
+R37475:37484 Stdlib.Arith.PeanoNat Nat add_succ_r thm
+R37487:37493 Stdlib.Arith.PeanoNat Nat add_1_r thm
+prf 37521:37532 Nat OddT_S_EvenT
+binder 37534:37534 <> n:438
+R37548:37551 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37538:37541 Stdlib.Arith.PeanoNat Nat OddT def
+R37544:37544 Corelib.Init.Datatypes <> S constr
+R37546:37546 Stdlib.Arith.PeanoNat <> n:438 var
+R37552:37556 Stdlib.Arith.PeanoNat Nat EvenT def
+R37558:37558 Stdlib.Arith.PeanoNat <> n:438 var
+R37593:37599 Stdlib.Arith.PeanoNat Nat add_1_r thm
+prf 37670:37679 Nat even_EvenT
+binder 37690:37690 <> n:439
+R37706:37709 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37699:37701 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37693:37696 Stdlib.Arith.PeanoNat Nat even def
+R37698:37698 Stdlib.Arith.PeanoNat <> n:439 var
+R37702:37705 Corelib.Init.Datatypes <> true constr
+R37710:37714 Stdlib.Arith.PeanoNat Nat EvenT def
+R37716:37716 Stdlib.Arith.PeanoNat <> n:439 var
+R37809:37815 Stdlib.Arith.PeanoNat Nat EvenT_0 thm
+R37882:37888 Stdlib.Arith.PeanoNat Nat EvenT_2 thm
+prf 37915:37922 Nat odd_OddT
+binder 37933:37933 <> n:440
+R37948:37951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37941:37943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37936:37938 Stdlib.Arith.PeanoNat Nat odd def
+R37940:37940 Stdlib.Arith.PeanoNat <> n:440 var
+R37944:37947 Corelib.Init.Datatypes <> true constr
+R37952:37955 Stdlib.Arith.PeanoNat Nat OddT def
+R37957:37957 Stdlib.Arith.PeanoNat <> n:440 var
+R37976:37978 Stdlib.Arith.PeanoNat Nat odd def
+R38092:38097 Stdlib.Arith.PeanoNat Nat OddT_1 thm
+R38133:38138 Stdlib.Arith.PeanoNat Nat OddT_2 thm
+prf 38165:38174 Nat EvenT_Even
+binder 38176:38176 <> n:441
+R38187:38190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38180:38184 Stdlib.Arith.PeanoNat Nat EvenT def
+R38186:38186 Stdlib.Arith.PeanoNat <> n:441 var
+R38191:38194 Stdlib.Arith.PeanoNat Nat Even def
+R38196:38196 Stdlib.Arith.PeanoNat <> n:441 var
+prf 38254:38261 Nat OddT_Odd
+binder 38263:38263 <> n:442
+R38273:38276 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38267:38270 Stdlib.Arith.PeanoNat Nat OddT def
+R38272:38272 Stdlib.Arith.PeanoNat <> n:442 var
+R38277:38279 Stdlib.Arith.PeanoNat Nat Odd def
+R38281:38281 Stdlib.Arith.PeanoNat <> n:442 var
+prf 38339:38348 Nat Even_EvenT
+binder 38350:38350 <> n:443
+R38360:38363 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38354:38357 Stdlib.Arith.PeanoNat Nat Even def
+R38359:38359 Stdlib.Arith.PeanoNat <> n:443 var
+R38364:38368 Stdlib.Arith.PeanoNat Nat EvenT def
+R38370:38370 Stdlib.Arith.PeanoNat <> n:443 var
+R38394:38403 Stdlib.Arith.PeanoNat Nat even_EvenT thm
+R38406:38414 Stdlib.Arith.PeanoNat Nat even_spec thm
+prf 38441:38448 Nat Odd_OddT
+binder 38450:38450 <> n:444
+R38459:38462 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38454:38456 Stdlib.Arith.PeanoNat Nat Odd def
+R38458:38458 Stdlib.Arith.PeanoNat <> n:444 var
+R38463:38466 Stdlib.Arith.PeanoNat Nat OddT def
+R38468:38468 Stdlib.Arith.PeanoNat <> n:444 var
+R38492:38499 Stdlib.Arith.PeanoNat Nat odd_OddT thm
+R38502:38509 Stdlib.Arith.PeanoNat Nat odd_spec thm
+prf 38536:38545 Nat EvenT_even
+binder 38547:38547 <> n:445
+R38558:38561 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38551:38555 Stdlib.Arith.PeanoNat Nat EvenT def
+R38557:38557 Stdlib.Arith.PeanoNat <> n:445 var
+R38568:38570 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38562:38565 Stdlib.Arith.PeanoNat Nat even def
+R38567:38567 Stdlib.Arith.PeanoNat <> n:445 var
+R38571:38574 Corelib.Init.Datatypes <> true constr
+R38598:38606 Stdlib.Arith.PeanoNat Nat even_spec thm
+R38609:38618 Stdlib.Arith.PeanoNat Nat EvenT_Even thm
+prf 38645:38652 Nat OddT_odd
+binder 38654:38654 <> n:446
+R38664:38667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38658:38661 Stdlib.Arith.PeanoNat Nat OddT def
+R38663:38663 Stdlib.Arith.PeanoNat <> n:446 var
+R38673:38675 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38668:38670 Stdlib.Arith.PeanoNat Nat odd def
+R38672:38672 Stdlib.Arith.PeanoNat <> n:446 var
+R38676:38679 Corelib.Init.Datatypes <> true constr
+R38703:38710 Stdlib.Arith.PeanoNat Nat odd_spec thm
+R38713:38720 Stdlib.Arith.PeanoNat Nat OddT_Odd thm
+prf 38747:38760 Nat EvenT_OddT_dec
+binder 38762:38762 <> n:447
+R38773:38775 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
+R38766:38770 Stdlib.Arith.PeanoNat Nat EvenT def
+R38772:38772 Stdlib.Arith.PeanoNat <> n:447 var
+R38776:38779 Stdlib.Arith.PeanoNat Nat OddT def
+R38781:38781 Stdlib.Arith.PeanoNat <> n:447 var
+R38802:38805 Stdlib.Arith.PeanoNat Nat even def
+R38838:38847 Stdlib.Arith.PeanoNat Nat even_EvenT thm
+R38879:38886 Stdlib.Arith.PeanoNat Nat odd_OddT thm
+R38900:38902 Stdlib.Arith.PeanoNat Nat odd def
+prf 38942:38956 Nat OddT_EvenT_rect
+R38968:38971 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38965:38967 Corelib.Init.Datatypes <> nat ind
+binder 38959:38959 <> P:448
+binder 38961:38961 <> Q:449
+R38982:38982 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39018:39024 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 38990:38990 <> n:450
+R39000:39003 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R38993:38997 Stdlib.Arith.PeanoNat Nat EvenT def
+R38999:38999 Stdlib.Arith.PeanoNat <> n:450 var
+R39007:39010 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39004:39004 Stdlib.Arith.PeanoNat <> Q:449 var
+R39006:39006 Stdlib.Arith.PeanoNat <> n:450 var
+R39011:39011 Stdlib.Arith.PeanoNat <> P:448 var
+R39014:39014 Corelib.Init.Datatypes <> S constr
+R39016:39016 Stdlib.Arith.PeanoNat <> n:450 var
+R39028:39031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39025:39025 Stdlib.Arith.PeanoNat <> Q:449 var
+R39032:39032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39067:39071 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 39040:39040 <> n:451
+R39049:39052 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39043:39046 Stdlib.Arith.PeanoNat Nat OddT def
+R39048:39048 Stdlib.Arith.PeanoNat <> n:451 var
+R39056:39059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39053:39053 Stdlib.Arith.PeanoNat <> P:448 var
+R39055:39055 Stdlib.Arith.PeanoNat <> n:451 var
+R39060:39060 Stdlib.Arith.PeanoNat <> Q:449 var
+R39063:39063 Corelib.Init.Datatypes <> S constr
+R39065:39065 Stdlib.Arith.PeanoNat <> n:451 var
+binder 39079:39079 <> n:452
+R39088:39091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39082:39085 Stdlib.Arith.PeanoNat Nat OddT def
+R39087:39087 Stdlib.Arith.PeanoNat <> n:452 var
+R39092:39092 Stdlib.Arith.PeanoNat <> P:448 var
+R39094:39094 Stdlib.Arith.PeanoNat <> n:452 var
+R39238:39244 Stdlib.Arith.PeanoNat Nat EvenT_0 thm
+R39285:39289 Stdlib.Arith.PeanoNat Nat EvenT def
+R39292:39292 Corelib.Init.Datatypes <> S constr
+R39315:39326 Stdlib.Arith.PeanoNat Nat OddT_S_EvenT thm
+R39351:39354 Stdlib.Arith.PeanoNat Nat OddT def
+R39375:39386 Stdlib.Arith.PeanoNat Nat EvenT_S_OddT thm
+prf 39467:39481 Nat EvenT_OddT_rect
+R39493:39496 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39490:39492 Corelib.Init.Datatypes <> nat ind
+binder 39484:39484 <> P:453
+binder 39486:39486 <> Q:454
+R39507:39507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39543:39549 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 39515:39515 <> n:455
+R39525:39528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39518:39522 Stdlib.Arith.PeanoNat Nat EvenT def
+R39524:39524 Stdlib.Arith.PeanoNat <> n:455 var
+R39532:39535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39529:39529 Stdlib.Arith.PeanoNat <> Q:454 var
+R39531:39531 Stdlib.Arith.PeanoNat <> n:455 var
+R39536:39536 Stdlib.Arith.PeanoNat <> P:453 var
+R39539:39539 Corelib.Init.Datatypes <> S constr
+R39541:39541 Stdlib.Arith.PeanoNat <> n:455 var
+R39553:39556 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39550:39550 Stdlib.Arith.PeanoNat <> Q:454 var
+R39557:39557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39592:39596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 39565:39565 <> n:456
+R39574:39577 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39568:39571 Stdlib.Arith.PeanoNat Nat OddT def
+R39573:39573 Stdlib.Arith.PeanoNat <> n:456 var
+R39581:39584 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39578:39578 Stdlib.Arith.PeanoNat <> P:453 var
+R39580:39580 Stdlib.Arith.PeanoNat <> n:456 var
+R39585:39585 Stdlib.Arith.PeanoNat <> Q:454 var
+R39588:39588 Corelib.Init.Datatypes <> S constr
+R39590:39590 Stdlib.Arith.PeanoNat <> n:456 var
+binder 39604:39604 <> n:457
+R39614:39617 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39607:39611 Stdlib.Arith.PeanoNat Nat EvenT def
+R39613:39613 Stdlib.Arith.PeanoNat <> n:457 var
+R39618:39618 Stdlib.Arith.PeanoNat <> Q:454 var
+R39620:39620 Stdlib.Arith.PeanoNat <> n:457 var
+R39689:39692 Stdlib.Arith.PeanoNat Nat OddT def
+R39713:39724 Stdlib.Arith.PeanoNat Nat EvenT_S_OddT thm
+R39748:39762 Stdlib.Arith.PeanoNat Nat OddT_EvenT_rect thm
+R39897:39899 Stdlib.Arith.PeanoNat Nat <> mod
+R40055:40061 Stdlib.Arith.PeanoNat <> pow def
+not 40048:40048 <> ::nat_scope:x_'^'_x
+R40090:40096 Stdlib.Arith.PeanoNat <> eqb def
+not 40082:40082 <> ::nat_scope:x_'=?'_x
+R40140:40146 Stdlib.Arith.PeanoNat <> leb def
+not 40131:40131 <> ::nat_scope:x_'<=?'_x
+R40189:40195 Stdlib.Arith.PeanoNat <> ltb def
+not 40181:40181 <> ::nat_scope:x_'<?'_x
+R40238:40248 Stdlib.Arith.PeanoNat <> compare def
+not 40230:40230 <> ::nat_scope:x_'?='_x
+R40290:40296 Stdlib.Arith.PeanoNat <> div def
+not 40283:40283 <> ::nat_scope:x_'/'_x
+R40326:40335 Stdlib.Arith.PeanoNat <> modulo def
+not 40317:40317 <> ::nat_scope:x_'mod'_x
+R40405:40410 Stdlib.Arith.PeanoNat <> le def
+R40442:40447 Stdlib.Arith.PeanoNat <> lt def
+def 40493:40502 <> lt_n_Sm_le
+binder 40512:40512 <> n:458
+binder 40514:40514 <> m:459
+R40520:40524 Corelib.Init.Logic <> proj1 thm
+R40527:40539 Stdlib.Arith.PeanoNat <> lt_succ_r thm
+R40541:40541 Stdlib.Arith.PeanoNat <> n:458 var
+R40543:40543 Stdlib.Arith.PeanoNat <> m:459 var
+def 40612:40621 <> le_lt_n_Sm
+binder 40631:40631 <> n:460
+binder 40633:40633 <> m:461
+R40639:40643 Corelib.Init.Logic <> proj2 thm
+R40646:40658 Stdlib.Arith.PeanoNat <> lt_succ_r thm
+R40660:40660 Stdlib.Arith.PeanoNat <> n:460 var
+R40662:40662 Stdlib.Arith.PeanoNat <> m:461 var
+def 40731:40736 <> lt_S_n
+binder 40746:40746 <> n:462
+binder 40748:40748 <> m:463
+R40754:40758 Corelib.Init.Logic <> proj2 thm
+R40761:40776 Stdlib.Arith.PeanoNat <> succ_lt_mono thm
+R40778:40778 Stdlib.Arith.PeanoNat <> n:462 var
+R40780:40780 Stdlib.Arith.PeanoNat <> m:463 var
+def 40890:40902 <> pred_of_minus
+binder 40912:40912 <> n:464
+R40917:40922 Corelib.Init.Logic <> eq_sym scheme
+R40925:40935 Stdlib.Arith.PeanoNat <> sub_1_r thm
+R40937:40937 Stdlib.Arith.PeanoNat <> n:464 var
+sec 41283:41291 <> TestOrder
+var 41300:41303 TestOrder test
+binder 41314:41314 <> x:465
+binder 41316:41316 <> y:466
+R41323:41326 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41320:41321 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R41319:41319 Stdlib.Arith.PeanoNat <> x:465 var
+R41322:41322 Stdlib.Arith.PeanoNat <> y:466 var
+R41331:41334 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41328:41329 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R41327:41327 Stdlib.Arith.PeanoNat <> y:466 var
+R41330:41330 Stdlib.Arith.PeanoNat <> x:465 var
+R41336:41336 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41335:41335 Stdlib.Arith.PeanoNat <> x:465 var
+R41337:41337 Stdlib.Arith.PeanoNat <> y:466 var
+R41373:41381 Stdlib.Arith.PeanoNat TestOrder <> sec

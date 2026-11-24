@@ -1,0 +1,84 @@
+DIGEST 027a561a7f2e81bda5848f48f048e253
+Felpi.apps.derive.derive.PrimStringEqb
+R28:36 Corelib.ssr.ssreflect <> <> lib
+R38:44 Corelib.ssr.ssrbool <> <> lib
+R75:84 Corelib.Strings.PrimString <> <> lib
+R86:97 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> <> lib
+R99:114 Corelib.Strings.PrimStringAxioms <> <> lib
+def 174:176 <> eqb
+R187:203 Corelib.Strings.PrimString <> string prim
+binder 179:180 <> s1:1
+binder 182:183 <> s2:2
+R217:234 Corelib.Strings.PrimString <> compare prim
+R236:237 elpi.apps.derive.derive.PrimStringEqb <> s1:1 var
+R239:240 elpi.apps.derive.derive.PrimStringEqb <> s2:2 var
+R247:248 Corelib.Init.Datatypes <> Eq constr
+R253:256 Corelib.Init.Datatypes <> true constr
+R265:269 Corelib.Init.Datatypes <> false constr
+prf 318:332 <> compare_Eq_refl
+R339:344 Corelib.Strings.PrimString <> string prim
+binder 335:335 <> s:3
+R360:362 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R349:355 Corelib.Strings.PrimString <> compare prim
+R357:357 elpi.apps.derive.derive.PrimStringEqb <> s:3 var
+R359:359 elpi.apps.derive.derive.PrimStringEqb <> s:3 var
+R363:364 Corelib.Init.Datatypes <> Eq constr
+R384:412 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R424:430 Corelib.Strings.PrimStringAxioms <> to_list def
+R461:489 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def_spec prfax
+R492:502 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def def
+R504:511 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> eqb_refl prfax
+R529:531 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R522:524 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R532:536 Corelib.Init.Datatypes <> false constr
+R565:572 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> ltb_spec prfax
+R590:592 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R617:620 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R604:606 Corelib.ssr.ssrbool <> isT def
+prf 650:667 <> compare_Eq_correct
+R678:683 Corelib.Strings.PrimString <> string prim
+binder 670:671 <> s1:4
+binder 673:674 <> s2:5
+R708:711 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R703:705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R690:696 Corelib.Strings.PrimString <> compare prim
+R698:699 elpi.apps.derive.derive.PrimStringEqb <> s1:4 var
+R701:702 elpi.apps.derive.derive.PrimStringEqb <> s2:5 var
+R706:707 Corelib.Init.Datatypes <> Eq constr
+R714:716 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R712:713 elpi.apps.derive.derive.PrimStringEqb <> s1:4 var
+R717:718 elpi.apps.derive.derive.PrimStringEqb <> s2:5 var
+R753:762 Corelib.Strings.PrimStringAxioms <> of_to_list prfax
+R769:778 Corelib.Strings.PrimStringAxioms <> of_to_list prfax
+R788:794 Corelib.Strings.PrimStringAxioms <> of_list def
+R819:830 Corelib.Strings.PrimStringAxioms <> compare_spec prfax
+R842:848 Corelib.Strings.PrimStringAxioms <> to_list def
+R855:861 Corelib.Strings.PrimStringAxioms <> to_list def
+R908:936 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def_spec prfax
+R939:949 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> compare_def def
+R961:971 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> eqb_correct prfax
+R985:997 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> eqb prim
+R1007:1009 Corelib.ssr.ssrbool <> isT def
+R1035:1037 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1028:1030 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R1038:1042 Corelib.Init.Datatypes <> false constr
+R1083:1090 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> ltb_spec prfax
+R1110:1112 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R1137:1140 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R1124:1126 Corelib.ssr.ssrbool <> isT def
+R1170:1172 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+prf 1186:1195 <> compare_ok
+R1206:1211 Corelib.Strings.PrimString <> string prim
+binder 1198:1199 <> s1:6
+binder 1201:1202 <> s2:7
+R1234:1238 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1229:1231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1216:1222 Corelib.Strings.PrimString <> compare prim
+R1224:1225 elpi.apps.derive.derive.PrimStringEqb <> s1:6 var
+R1227:1228 elpi.apps.derive.derive.PrimStringEqb <> s2:7 var
+R1232:1233 Corelib.Init.Datatypes <> Eq constr
+R1241:1243 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1239:1240 elpi.apps.derive.derive.PrimStringEqb <> s1:6 var
+R1244:1245 elpi.apps.derive.derive.PrimStringEqb <> s2:7 var
+R1269:1286 elpi.apps.derive.derive.PrimStringEqb <> compare_Eq_correct thm
+R1305:1319 elpi.apps.derive.derive.PrimStringEqb <> compare_Eq_refl thm

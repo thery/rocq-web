@@ -1,0 +1,43 @@
+(* Generates a projection for each argument of each constructor.
+
+   The projection is expected to be applied to an explicit construcor and all
+   its arguments. It is used to implement "injection".
+
+   license: GNU Lesser General Public License Version 2.1 or later           
+   ------------------------------------------------------------------------- *)
+From elpi.apps.derive.elpi Extra Dependency "projK.elpi" as projK.
+From elpi.apps.derive.elpi Extra Dependency "projK.db.elpi" as projKdb.
+
+From elpi Require Import elpi.
+From elpi.apps Require Import derive.
+
+Elpi Db derive.projK.db lp:{{ accumulate "elpi.apps.derive.elpi/projK.db". }}.
+
+Elpi Command derive.projK.
+Elpi Accumulate Db derive.projK.db.
+Elpi Accumulate File projK.
+Elpi Accumulate lp:{{
+
+  main [str I, str O] :- !, coq.locate I (indt GR), derive.projK.main GR O _.
+  main [str I] :- !, coq.locate I (indt GR), derive.projK.main GR "" _.
+  main _ :- usage.
+
+  usage :-
+    coq.error "Usage: derive.projK <inductive type name> [<output prefix>]".
+}}.
+
+
+
+(* hook into derive *)
+Elpi Accumulate derive Db derive.projK.db.
+Elpi Accumulate derive File projK.
+
+#[synterp] Elpi Accumulate derive lp:{{
+  derivation _ _ (derive "projK" (cl\ cl = []) true).
+}}.
+
+Elpi Accumulate derive lp:{{
+
+derivation (indt T) Prefix ff (derive "projK" (derive.projK.main T Prefix) (derive.exists-indc T (K\ projK-db K _ _))).
+
+}}.

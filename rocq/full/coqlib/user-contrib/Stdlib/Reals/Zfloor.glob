@@ -1,0 +1,431 @@
+DIGEST ea1f8010d2b544180b60f0f4fcf78eaa
+FStdlib.Reals.Zfloor
+R514:518 Stdlib.Reals.Rbase <> <> lib
+R520:529 Stdlib.Reals.Rfunctions <> <> lib
+R531:533 Stdlib.micromega.Lra <> <> lib
+R535:537 Stdlib.micromega.Lia <> <> lib
+def 582:587 <> Zfloor
+R594:594 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 590:590 <> x:1
+R605:607 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R601:602 Stdlib.Reals.Rdefinitions <> up def
+R604:604 Stdlib.Reals.Zfloor <> x:1 var
+prf 621:629 <> up_Zfloor
+binder 631:631 <> x:2
+R639:641 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R635:636 Stdlib.Reals.Rdefinitions <> up def
+R638:638 Stdlib.Reals.Zfloor <> x:2 var
+R651:653 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R643:648 Stdlib.Reals.Zfloor <> Zfloor def
+R650:650 Stdlib.Reals.Zfloor <> x:2 var
+R674:679 Stdlib.Reals.Zfloor <> Zfloor def
+prf 699:711 <> IZR_up_Zfloor
+binder 713:713 <> x:3
+R727:729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R717:719 Stdlib.Reals.Rdefinitions <> IZR def
+R722:723 Stdlib.Reals.Rdefinitions <> up def
+R725:725 Stdlib.Reals.Zfloor <> x:3 var
+R744:746 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R730:732 Stdlib.Reals.Rdefinitions <> IZR def
+R735:740 Stdlib.Reals.Zfloor <> Zfloor def
+R742:742 Stdlib.Reals.Zfloor <> x:3 var
+R769:777 Stdlib.Reals.Zfloor <> up_Zfloor thm
+R780:787 Stdlib.Reals.RIneq <> plus_IZR thm
+prf 802:813 <> Zfloor_bound
+binder 815:815 <> x:4
+R833:836 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R838:840 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R819:821 Stdlib.Reals.Rdefinitions <> IZR def
+R824:829 Stdlib.Reals.Zfloor <> Zfloor def
+R831:831 Stdlib.Reals.Zfloor <> x:4 var
+R837:837 Stdlib.Reals.Zfloor <> x:4 var
+R855:857 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R841:843 Stdlib.Reals.Rdefinitions <> IZR def
+R846:851 Stdlib.Reals.Zfloor <> Zfloor def
+R853:853 Stdlib.Reals.Zfloor <> x:4 var
+R875:880 Stdlib.Reals.Zfloor <> Zfloor def
+R891:899 Stdlib.Reals.RIneq <> minus_IZR thm
+R914:921 Stdlib.Reals.Raxioms <> archimed thm
+prf 944:953 <> Zfloor_lub
+R960:960 Corelib.Numbers.BinNums <> Z ind
+binder 956:956 <> z:5
+binder 963:963 <> x:6
+R977:980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R972:975 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R967:969 Stdlib.Reals.Rdefinitions <> IZR def
+R971:971 Stdlib.Reals.Zfloor <> z:5 var
+R976:976 Stdlib.Reals.Zfloor <> x:6 var
+R983:986 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R982:982 Stdlib.Reals.Zfloor <> z:5 var
+R987:992 Stdlib.Reals.Zfloor <> Zfloor def
+R994:994 Stdlib.Reals.Zfloor <> x:6 var
+R1031:1033 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1042:1044 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1034:1039 Stdlib.Reals.Zfloor <> Zfloor def
+R1066:1071 Stdlib.Reals.RIneq <> lt_IZR thm
+R1082:1089 Stdlib.Reals.RIneq <> plus_IZR thm
+R1108:1119 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+prf 1142:1150 <> Zfloor_eq
+R1157:1157 Corelib.Numbers.BinNums <> Z ind
+binder 1153:1153 <> z:7
+binder 1160:1160 <> x:8
+R1187:1190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1170:1173 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1175:1177 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1165:1167 Stdlib.Reals.Rdefinitions <> IZR def
+R1169:1169 Stdlib.Reals.Zfloor <> z:7 var
+R1174:1174 Stdlib.Reals.Zfloor <> x:8 var
+R1183:1185 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1178:1180 Stdlib.Reals.Rdefinitions <> IZR def
+R1182:1182 Stdlib.Reals.Zfloor <> z:7 var
+R1199:1201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1191:1196 Stdlib.Reals.Zfloor <> Zfloor def
+R1198:1198 Stdlib.Reals.Zfloor <> x:8 var
+R1202:1202 Stdlib.Reals.Zfloor <> z:7 var
+R1237:1248 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R1283:1286 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1275:1277 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1267:1272 Stdlib.Reals.Zfloor <> Zfloor def
+R1279:1281 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1288:1291 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1292:1297 Stdlib.Reals.Zfloor <> Zfloor def
+R1331:1340 Stdlib.Reals.Zfloor <> Zfloor_lub thm
+R1355:1360 Stdlib.Reals.RIneq <> lt_IZR thm
+R1371:1378 Stdlib.Reals.RIneq <> plus_IZR thm
+prf 1398:1406 <> Zfloor_le
+binder 1408:1408 <> x:9
+binder 1410:1410 <> y:10
+R1420:1423 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1415:1418 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1414:1414 Stdlib.Reals.Zfloor <> x:9 var
+R1419:1419 Stdlib.Reals.Zfloor <> y:10 var
+R1433:1436 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1425:1430 Stdlib.Reals.Zfloor <> Zfloor def
+R1432:1432 Stdlib.Reals.Zfloor <> x:9 var
+R1437:1442 Stdlib.Reals.Zfloor <> Zfloor def
+R1444:1444 Stdlib.Reals.Zfloor <> y:10 var
+R1472:1481 Stdlib.Reals.Zfloor <> Zfloor_lub thm
+R1496:1507 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+prf 1530:1540 <> Zfloor_addz
+R1546:1546 Corelib.Numbers.BinNums <> Z ind
+binder 1543:1543 <> z:11
+binder 1549:1549 <> x:12
+R1571:1573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1553:1558 Stdlib.Reals.Zfloor <> Zfloor def
+R1562:1564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1561:1561 Stdlib.Reals.Zfloor <> x:12 var
+R1565:1567 Stdlib.Reals.Rdefinitions <> IZR def
+R1569:1569 Stdlib.Reals.Zfloor <> z:11 var
+R1583:1585 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1575:1580 Stdlib.Reals.Zfloor <> Zfloor def
+R1582:1582 Stdlib.Reals.Zfloor <> x:12 var
+R1586:1586 Stdlib.Reals.Zfloor <> z:11 var
+R1613:1624 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R1640:1648 Stdlib.Reals.Zfloor <> Zfloor_eq thm
+R1659:1666 Stdlib.Reals.RIneq <> plus_IZR thm
+prf 1686:1692 <> ZfloorZ
+R1699:1699 Corelib.Numbers.BinNums <> Z ind
+binder 1695:1695 <> z:13
+R1718:1720 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1704:1709 Stdlib.Reals.Zfloor <> Zfloor def
+R1712:1714 Stdlib.Reals.Rdefinitions <> IZR def
+R1716:1716 Stdlib.Reals.Zfloor <> z:13 var
+R1721:1721 Stdlib.Reals.Zfloor <> z:13 var
+R1741:1749 Stdlib.Reals.Zfloor <> Zfloor_eq thm
+prf 1770:1777 <> ZfloorNZ
+R1784:1784 Corelib.Numbers.BinNums <> Z ind
+binder 1780:1780 <> z:14
+R1805:1807 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1789:1794 Stdlib.Reals.Zfloor <> Zfloor def
+R1797:1798 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1799:1801 Stdlib.Reals.Rdefinitions <> IZR def
+R1803:1803 Stdlib.Reals.Zfloor <> z:14 var
+R1809:1810 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1811:1811 Stdlib.Reals.Zfloor <> z:14 var
+R1839:1845 Stdlib.Reals.RIneq <> opp_IZR thm
+R1848:1854 Stdlib.Reals.Zfloor <> ZfloorZ thm
+prf 1869:1880 <> ZfloorD_cond
+binder 1882:1883 <> r1:15
+binder 1885:1886 <> r2:16
+R1895:1901 Stdlib.Reals.RIneq <> Rle_dec thm
+R1937:1939 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1919:1921 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1904:1906 Stdlib.Reals.Rdefinitions <> IZR def
+R1909:1914 Stdlib.Reals.Zfloor <> Zfloor def
+R1916:1917 Stdlib.Reals.Zfloor <> r1:15 var
+R1922:1924 Stdlib.Reals.Rdefinitions <> IZR def
+R1927:1932 Stdlib.Reals.Zfloor <> Zfloor def
+R1934:1935 Stdlib.Reals.Zfloor <> r2:16 var
+R1946:1948 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1944:1945 Stdlib.Reals.Zfloor <> r1:15 var
+R1949:1950 Stdlib.Reals.Zfloor <> r2:16 var
+R2033:2035 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2017:2022 Stdlib.Reals.Zfloor <> Zfloor def
+R2027:2029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2025:2026 Stdlib.Reals.Zfloor <> r1:15 var
+R2030:2031 Stdlib.Reals.Zfloor <> r2:16 var
+R2046:2048 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2037:2042 Stdlib.Reals.Zfloor <> Zfloor def
+R2044:2045 Stdlib.Reals.Zfloor <> r1:15 var
+R2049:2054 Stdlib.Reals.Zfloor <> Zfloor def
+R2056:2057 Stdlib.Reals.Zfloor <> r2:16 var
+R1976:1978 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1960:1965 Stdlib.Reals.Zfloor <> Zfloor def
+R1970:1972 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1968:1969 Stdlib.Reals.Zfloor <> r1:15 var
+R1973:1974 Stdlib.Reals.Zfloor <> r2:16 var
+R2001:2003 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1989:1991 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1980:1985 Stdlib.Reals.Zfloor <> Zfloor def
+R1987:1988 Stdlib.Reals.Zfloor <> r1:15 var
+R1992:1997 Stdlib.Reals.Zfloor <> Zfloor def
+R1999:2000 Stdlib.Reals.Zfloor <> r2:16 var
+R2079:2079 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2095:2096 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2112:2112 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2080:2091 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R2097:2108 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R2131:2137 Stdlib.Reals.RIneq <> Rle_dec thm
+R2161:2169 Stdlib.Reals.Zfloor <> Zfloor_eq thm
+R2180:2187 Stdlib.Reals.RIneq <> plus_IZR thm
+R2190:2197 Stdlib.Reals.RIneq <> plus_IZR thm
+R2215:2223 Stdlib.Reals.Zfloor <> Zfloor_eq thm
+R2234:2241 Stdlib.Reals.RIneq <> plus_IZR thm
+def 2266:2270 <> Zceil
+R2277:2277 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2273:2273 <> x:17
+R2284:2285 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2286:2291 Stdlib.Reals.Zfloor <> Zfloor def
+R2294:2295 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2296:2296 Stdlib.Reals.Zfloor <> x:17 var
+prf 2312:2322 <> Zceil_bound
+binder 2324:2324 <> x:18
+R2346:2348 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R2350:2353 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R2342:2344 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2329:2331 Stdlib.Reals.Rdefinitions <> IZR def
+R2334:2338 Stdlib.Reals.Zfloor <> Zceil def
+R2340:2340 Stdlib.Reals.Zfloor <> x:18 var
+R2349:2349 Stdlib.Reals.Zfloor <> x:18 var
+R2354:2356 Stdlib.Reals.Rdefinitions <> IZR def
+R2359:2363 Stdlib.Reals.Zfloor <> Zceil def
+R2365:2365 Stdlib.Reals.Zfloor <> x:18 var
+R2390:2394 Stdlib.Reals.Zfloor <> Zceil def
+R2409:2420 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R2423:2424 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2439:2445 Stdlib.Reals.RIneq <> opp_IZR thm
+prf 2467:2483 <> Zfloor_ceil_bound
+binder 2485:2485 <> x:19
+R2504:2507 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2509:2512 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2490:2492 Stdlib.Reals.Rdefinitions <> IZR def
+R2495:2500 Stdlib.Reals.Zfloor <> Zfloor def
+R2502:2502 Stdlib.Reals.Zfloor <> x:19 var
+R2508:2508 Stdlib.Reals.Zfloor <> x:19 var
+R2513:2515 Stdlib.Reals.Rdefinitions <> IZR def
+R2518:2522 Stdlib.Reals.Zfloor <> Zceil def
+R2524:2524 Stdlib.Reals.Zfloor <> x:19 var
+R2554:2565 Stdlib.Reals.Zfloor <> Zfloor_bound thm
+R2571:2581 Stdlib.Reals.Zfloor <> Zceil_bound thm
+prf 2606:2611 <> ZceilN
+binder 2613:2613 <> x:20
+R2629:2631 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2618:2622 Stdlib.Reals.Zfloor <> Zceil def
+R2625:2626 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2627:2627 Stdlib.Reals.Zfloor <> x:20 var
+R2632:2633 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2634:2639 Stdlib.Reals.Zfloor <> Zfloor def
+R2641:2641 Stdlib.Reals.Zfloor <> x:20 var
+R2665:2669 Stdlib.Reals.Zfloor <> Zceil def
+R2680:2694 Stdlib.Reals.RIneq <> Ropp_involutive thm
+prf 2711:2717 <> ZfloorN
+binder 2719:2719 <> x:21
+R2736:2738 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2724:2729 Stdlib.Reals.Zfloor <> Zfloor def
+R2732:2733 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2734:2734 Stdlib.Reals.Zfloor <> x:21 var
+R2739:2740 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2741:2745 Stdlib.Reals.Zfloor <> Zceil def
+R2747:2747 Stdlib.Reals.Zfloor <> x:21 var
+R2767:2771 Stdlib.Reals.Zfloor <> Zceil def
+prf 2791:2798 <> Zceil_eq
+R2805:2805 Corelib.Numbers.BinNums <> Z ind
+binder 2801:2801 <> z:22
+binder 2808:2808 <> x:23
+R2835:2838 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2822:2824 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R2826:2829 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R2818:2820 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2813:2815 Stdlib.Reals.Rdefinitions <> IZR def
+R2817:2817 Stdlib.Reals.Zfloor <> z:22 var
+R2825:2825 Stdlib.Reals.Zfloor <> x:23 var
+R2830:2832 Stdlib.Reals.Rdefinitions <> IZR def
+R2834:2834 Stdlib.Reals.Zfloor <> z:22 var
+R2846:2848 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2839:2843 Stdlib.Reals.Zfloor <> Zceil def
+R2845:2845 Stdlib.Reals.Zfloor <> x:23 var
+R2849:2849 Stdlib.Reals.Zfloor <> z:22 var
+R2893:2895 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2881:2886 Stdlib.Reals.Zfloor <> Zfloor def
+R2889:2890 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2897:2898 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2915:2919 Stdlib.Reals.Zfloor <> Zceil def
+R2938:2946 Stdlib.Reals.Zfloor <> Zfloor_eq thm
+R2957:2963 Stdlib.Reals.RIneq <> opp_IZR thm
+prf 2983:2990 <> Zceil_le
+binder 2992:2992 <> x:24
+binder 2994:2994 <> y:25
+R3004:3007 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2999:3002 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2998:2998 Stdlib.Reals.Zfloor <> x:24 var
+R3003:3003 Stdlib.Reals.Zfloor <> y:25 var
+R3016:3019 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3009:3013 Stdlib.Reals.Zfloor <> Zceil def
+R3015:3015 Stdlib.Reals.Zfloor <> x:24 var
+R3020:3024 Stdlib.Reals.Zfloor <> Zceil def
+R3026:3026 Stdlib.Reals.Zfloor <> y:25 var
+R3056:3068 Stdlib.ZArith.BinInt Z opp_le_mono thm
+R3078:3082 Stdlib.Reals.Zfloor <> Zceil def
+R3094:3109 Stdlib.ZArith.BinInt Z opp_involutive thm
+R3122:3130 Stdlib.Reals.Zfloor <> Zfloor_le thm
+prf 3150:3159 <> Zceil_addz
+R3165:3165 Corelib.Numbers.BinNums <> Z ind
+binder 3162:3162 <> z:26
+binder 3168:3168 <> x:27
+R3189:3191 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3172:3176 Stdlib.Reals.Zfloor <> Zceil def
+R3180:3182 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3179:3179 Stdlib.Reals.Zfloor <> x:27 var
+R3183:3185 Stdlib.Reals.Rdefinitions <> IZR def
+R3187:3187 Stdlib.Reals.Zfloor <> z:26 var
+R3200:3202 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3193:3197 Stdlib.Reals.Zfloor <> Zceil def
+R3199:3199 Stdlib.Reals.Zfloor <> x:27 var
+R3203:3203 Stdlib.Reals.Zfloor <> z:26 var
+R3227:3231 Stdlib.Reals.Zfloor <> Zceil def
+R3242:3256 Stdlib.Reals.RIneq <> Ropp_plus_distr thm
+R3262:3268 Stdlib.Reals.RIneq <> opp_IZR thm
+R3271:3281 Stdlib.Reals.Zfloor <> Zfloor_addz thm
+prf 3301:3311 <> ZceilD_cond
+binder 3313:3314 <> r1:28
+binder 3316:3317 <> r2:29
+R3326:3332 Stdlib.Reals.RIneq <> Rle_dec thm
+R3337:3339 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3335:3336 Stdlib.Reals.Zfloor <> r1:28 var
+R3340:3341 Stdlib.Reals.Zfloor <> r2:29 var
+R3376:3378 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3359:3361 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3345:3347 Stdlib.Reals.Rdefinitions <> IZR def
+R3350:3354 Stdlib.Reals.Zfloor <> Zceil def
+R3356:3357 Stdlib.Reals.Zfloor <> r1:28 var
+R3362:3364 Stdlib.Reals.Rdefinitions <> IZR def
+R3367:3371 Stdlib.Reals.Zfloor <> Zceil def
+R3373:3374 Stdlib.Reals.Zfloor <> r2:29 var
+R3457:3459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3442:3446 Stdlib.Reals.Zfloor <> Zceil def
+R3451:3453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3449:3450 Stdlib.Reals.Zfloor <> r1:28 var
+R3454:3455 Stdlib.Reals.Zfloor <> r2:29 var
+R3469:3471 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3461:3465 Stdlib.Reals.Zfloor <> Zceil def
+R3467:3468 Stdlib.Reals.Zfloor <> r1:28 var
+R3472:3476 Stdlib.Reals.Zfloor <> Zceil def
+R3478:3479 Stdlib.Reals.Zfloor <> r2:29 var
+R3404:3406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3389:3393 Stdlib.Reals.Zfloor <> Zceil def
+R3398:3400 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3396:3397 Stdlib.Reals.Zfloor <> r1:28 var
+R3401:3402 Stdlib.Reals.Zfloor <> r2:29 var
+R3427:3429 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3416:3418 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3408:3412 Stdlib.Reals.Zfloor <> Zceil def
+R3414:3415 Stdlib.Reals.Zfloor <> r1:28 var
+R3419:3423 Stdlib.Reals.Zfloor <> Zceil def
+R3425:3426 Stdlib.Reals.Zfloor <> r2:29 var
+R3504:3515 Stdlib.Reals.Zfloor <> ZfloorD_cond thm
+R3518:3519 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R3525:3526 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R3544:3548 Stdlib.Reals.Zfloor <> Zceil def
+R3560:3566 Stdlib.Reals.RIneq <> opp_IZR thm
+R3579:3585 Stdlib.Reals.RIneq <> Rle_dec thm
+R3609:3623 Stdlib.Reals.RIneq <> Ropp_plus_distr thm
+prf 3643:3654 <> ZfloorB_cond
+binder 3656:3657 <> r1:30
+binder 3659:3660 <> r2:31
+R3669:3675 Stdlib.Reals.RIneq <> Rle_dec thm
+R3710:3712 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3693:3695 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3678:3680 Stdlib.Reals.Rdefinitions <> IZR def
+R3683:3688 Stdlib.Reals.Zfloor <> Zfloor def
+R3690:3691 Stdlib.Reals.Zfloor <> r1:30 var
+R3696:3698 Stdlib.Reals.Rdefinitions <> IZR def
+R3701:3705 Stdlib.Reals.Zfloor <> Zceil def
+R3707:3708 Stdlib.Reals.Zfloor <> r2:31 var
+R3719:3721 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3717:3718 Stdlib.Reals.Zfloor <> r1:30 var
+R3722:3723 Stdlib.Reals.Zfloor <> r2:31 var
+R3805:3807 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3789:3794 Stdlib.Reals.Zfloor <> Zfloor def
+R3799:3801 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3797:3798 Stdlib.Reals.Zfloor <> r1:30 var
+R3802:3803 Stdlib.Reals.Zfloor <> r2:31 var
+R3818:3820 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3809:3814 Stdlib.Reals.Zfloor <> Zfloor def
+R3816:3817 Stdlib.Reals.Zfloor <> r1:30 var
+R3821:3825 Stdlib.Reals.Zfloor <> Zceil def
+R3827:3828 Stdlib.Reals.Zfloor <> r2:31 var
+R3749:3751 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3733:3738 Stdlib.Reals.Zfloor <> Zfloor def
+R3743:3745 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3741:3742 Stdlib.Reals.Zfloor <> r1:30 var
+R3746:3747 Stdlib.Reals.Zfloor <> r2:31 var
+R3773:3775 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3762:3764 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3753:3758 Stdlib.Reals.Zfloor <> Zfloor def
+R3760:3761 Stdlib.Reals.Zfloor <> r1:30 var
+R3765:3769 Stdlib.Reals.Zfloor <> Zceil def
+R3771:3772 Stdlib.Reals.Zfloor <> r2:31 var
+R3857:3868 Stdlib.Reals.Zfloor <> ZfloorD_cond thm
+R3874:3875 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R3891:3897 Stdlib.Reals.Zfloor <> ZfloorN thm
+R3901:3907 Stdlib.Reals.RIneq <> opp_IZR thm
+prf 3922:3932 <> ZceilB_cond
+binder 3934:3935 <> r1:32
+binder 3937:3938 <> r2:33
+R3947:3953 Stdlib.Reals.RIneq <> Rle_dec thm
+R3958:3960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3956:3957 Stdlib.Reals.Zfloor <> r1:32 var
+R3961:3962 Stdlib.Reals.Zfloor <> r2:33 var
+R3998:4000 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3980:3982 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3966:3968 Stdlib.Reals.Rdefinitions <> IZR def
+R3971:3975 Stdlib.Reals.Zfloor <> Zceil def
+R3977:3978 Stdlib.Reals.Zfloor <> r1:32 var
+R3983:3985 Stdlib.Reals.Rdefinitions <> IZR def
+R3988:3993 Stdlib.Reals.Zfloor <> Zfloor def
+R3995:3996 Stdlib.Reals.Zfloor <> r2:33 var
+R4080:4082 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4065:4069 Stdlib.Reals.Zfloor <> Zceil def
+R4074:4076 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4072:4073 Stdlib.Reals.Zfloor <> r1:32 var
+R4077:4078 Stdlib.Reals.Zfloor <> r2:33 var
+R4092:4094 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4084:4088 Stdlib.Reals.Zfloor <> Zceil def
+R4090:4091 Stdlib.Reals.Zfloor <> r1:32 var
+R4095:4100 Stdlib.Reals.Zfloor <> Zfloor def
+R4102:4103 Stdlib.Reals.Zfloor <> r2:33 var
+R4026:4028 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4011:4015 Stdlib.Reals.Zfloor <> Zceil def
+R4020:4022 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4018:4019 Stdlib.Reals.Zfloor <> r1:32 var
+R4023:4024 Stdlib.Reals.Zfloor <> r2:33 var
+R4050:4052 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4038:4040 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4030:4034 Stdlib.Reals.Zfloor <> Zceil def
+R4036:4037 Stdlib.Reals.Zfloor <> r1:32 var
+R4041:4046 Stdlib.Reals.Zfloor <> Zfloor def
+R4048:4049 Stdlib.Reals.Zfloor <> r2:33 var
+R4132:4142 Stdlib.Reals.Zfloor <> ZceilD_cond thm
+R4148:4149 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R4165:4170 Stdlib.Reals.Zfloor <> ZceilN thm
+R4174:4180 Stdlib.Reals.RIneq <> opp_IZR thm

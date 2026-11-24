@@ -1,0 +1,47 @@
+(*From Coq Require Ltac.*)
+From elpi_elpi Require Import dummy.
+Declare ML Module "rocq-elpi.elpi".
+
+(* Generate coq-bultins.elpi *)
+Elpi Document Builtins.
+
+(* Load once and for all these files in this .vo, to ease redistribution *)
+Elpi Template Command "elpi_elpi/elpi-command-template-synterp.elpi" "elpi_elpi/elpi-command-template.elpi".
+(* Note: this is on top of the template for commands for the interp phase *)
+Elpi Template Tactic "elpi_elpi/elpi-tactic-template.elpi".
+
+(* Special constant used for HOAS of holes, see coq-bultins.elpi *)
+Lemma hole : True. Proof. exact I. Qed.
+Register hole as elpi.hole.
+
+(* Special constant used for HOAS of match over unknown inductive type
+   in terms like "let (a,b...) := t in ..." *)
+Inductive unknown_inductive : Prop := unknown_constructor.
+Register unknown_inductive as elpi.unknown_inductive.
+Register unknown_constructor as elpi.unknown_constructor.
+(* This line informs Coq's detyper of this hack *)
+Register unknown_inductive as core.detyping.unknown_inductive.
+
+(* Special global constant used to signal a datum of type gref which
+   has no corresponding Coq global reference. This typically signals
+   an error: a term like (global (const X)) has no meaning in Coq, X must
+   be an actual name.
+*)
+Inductive unknown_gref : Prop := .
+Register unknown_gref as elpi.unknown_gref.
+
+(* Common constants available inside Coq's syntax {{ ... lib:<name> ... }} *)
+Register Corelib.Init.Logic.eq      as elpi.eq.
+Register Corelib.Init.Logic.eq_refl as elpi.erefl.
+
+Register Corelib.Init.Logic.False as elpi.False.
+
+Register Corelib.Init.Datatypes.bool  as elpi.bool.
+Register Corelib.Init.Datatypes.andb  as elpi.andb.
+Register Corelib.Init.Datatypes.true  as elpi.true.
+Register Corelib.Init.Datatypes.false as elpi.false.
+
+Register Corelib.Init.Datatypes.reflect  as elpi.reflect.
+Register Corelib.Init.Datatypes.ReflectF as elpi.ReflectF.
+Register Corelib.Init.Datatypes.ReflectT as elpi.ReflectT.
+Register Corelib.Init.Datatypes.is_true as elpi.is_true.

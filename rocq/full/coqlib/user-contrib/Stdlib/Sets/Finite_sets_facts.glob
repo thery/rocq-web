@@ -1,0 +1,443 @@
+DIGEST 2f19a1065050bff5eca8d555231e1bf8
+FStdlib.Sets.Finite_sets_facts
+R1850:1860 Stdlib.Sets.Finite_sets <> <> lib
+R1890:1906 Stdlib.Sets.Constructive_sets <> <> lib
+R1936:1944 Stdlib.Logic.Classical <> <> lib
+R1974:1987 Stdlib.Sets.Classical_sets <> <> lib
+R2017:2024 Stdlib.Sets.Powerset <> <> lib
+R2054:2067 Stdlib.Sets.Powerset_facts <> <> lib
+R2097:2120 Stdlib.Sets.Powerset_Classical_facts <> <> lib
+R2150:2157 Stdlib.Arith.PeanoNat <> <> lib
+sec 2169:2185 <> Finite_sets_facts
+var 2199:2199 Finite_sets_facts U
+prf 2218:2232 <> finite_cardinal
+R2249:2256 Stdlib.Sets.Ensembles <> Ensemble def
+R2258:2258 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 2247:2247 <> X:3
+R2271:2275 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2261:2266 Stdlib.Sets.Finite_sets <> Finite ind
+R2270:2270 Stdlib.Sets.Finite_sets_facts <> X:3 var
+R2268:2268 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2276:2282 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2290:2291 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2287:2289 Corelib.Init.Datatypes <> nat ind
+binder 2283:2283 <> n:4
+R2292:2299 Stdlib.Sets.Finite_sets <> cardinal ind
+R2303:2303 Stdlib.Sets.Finite_sets_facts <> X:3 var
+R2305:2305 Stdlib.Sets.Finite_sets_facts <> n:4 var
+R2301:2301 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2397:2397 Corelib.Init.Datatypes <> S constr
+prf 2435:2449 <> cardinal_finite
+R2467:2474 Stdlib.Sets.Ensembles <> Ensemble def
+R2476:2476 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 2465:2465 <> X:5
+R2482:2484 Corelib.Init.Datatypes <> nat ind
+binder 2480:2480 <> n:6
+R2502:2505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2488:2495 Stdlib.Sets.Finite_sets <> cardinal ind
+R2499:2499 Stdlib.Sets.Finite_sets_facts <> X:5 var
+R2501:2501 Stdlib.Sets.Finite_sets_facts <> n:6 var
+R2497:2497 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2506:2511 Stdlib.Sets.Finite_sets <> Finite ind
+R2515:2515 Stdlib.Sets.Finite_sets_facts <> X:5 var
+R2513:2513 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+prf 2578:2597 <> Add_preserves_Finite
+R2615:2622 Stdlib.Sets.Ensembles <> Ensemble def
+R2624:2624 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 2613:2613 <> X:7
+R2630:2630 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 2628:2628 <> x:8
+R2644:2647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2634:2639 Stdlib.Sets.Finite_sets <> Finite ind
+R2643:2643 Stdlib.Sets.Finite_sets_facts <> X:7 var
+R2641:2641 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2648:2653 Stdlib.Sets.Finite_sets <> Finite ind
+R2658:2660 Stdlib.Sets.Ensembles <> Add def
+R2664:2664 Stdlib.Sets.Finite_sets_facts <> X:7 var
+R2666:2666 Stdlib.Sets.Finite_sets_facts <> x:8 var
+R2662:2662 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2655:2655 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2708:2714 Stdlib.Logic.Classical_Prop <> classic prfax
+R2717:2718 Stdlib.Sets.Ensembles <> In def
+R2720:2720 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2769:2786 Stdlib.Sets.Powerset_facts <> Non_disjoint_union thm
+R2788:2788 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+prf 2830:2848 <> Singleton_is_finite
+R2861:2861 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 2859:2859 <> x:9
+R2864:2869 Stdlib.Sets.Finite_sets <> Finite ind
+R2874:2882 Stdlib.Sets.Ensembles <> Singleton ind
+R2886:2886 Stdlib.Sets.Finite_sets_facts <> x:9 var
+R2884:2884 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2871:2871 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R2923:2937 Stdlib.Sets.Powerset_facts <> Empty_set_zero' thm
+R2950:2964 Stdlib.Sets.Finite_sets <> Union_is_finite constr
+prf 3001:3022 <> Union_preserves_Finite
+R3041:3048 Stdlib.Sets.Ensembles <> Ensemble def
+R3050:3050 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3037:3037 <> X:10
+binder 3039:3039 <> Y:11
+R3063:3066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3053:3058 Stdlib.Sets.Finite_sets <> Finite ind
+R3062:3062 Stdlib.Sets.Finite_sets_facts <> X:10 var
+R3060:3060 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3077:3080 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3067:3072 Stdlib.Sets.Finite_sets <> Finite ind
+R3076:3076 Stdlib.Sets.Finite_sets_facts <> Y:11 var
+R3074:3074 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3081:3086 Stdlib.Sets.Finite_sets <> Finite ind
+R3091:3095 Stdlib.Sets.Ensembles <> Union ind
+R3099:3099 Stdlib.Sets.Finite_sets_facts <> X:10 var
+R3101:3101 Stdlib.Sets.Finite_sets_facts <> Y:11 var
+R3097:3097 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3088:3088 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3172:3185 Stdlib.Sets.Powerset_facts <> Empty_set_zero thm
+R3202:3218 Stdlib.Sets.Powerset_facts <> Union_commutative thm
+R3238:3246 Stdlib.Sets.Powerset_facts <> Union_add thm
+R3261:3280 Stdlib.Sets.Finite_sets_facts <> Add_preserves_Finite thm
+R3301:3317 Stdlib.Sets.Powerset_facts <> Union_commutative thm
+prf 3336:3357 <> Finite_downward_closed
+R3374:3381 Stdlib.Sets.Ensembles <> Ensemble def
+R3383:3383 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3372:3372 <> A:12
+R3402:3405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3392:3397 Stdlib.Sets.Finite_sets <> Finite ind
+R3401:3401 Stdlib.Sets.Finite_sets_facts <> A:12 var
+R3399:3399 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3415:3422 Stdlib.Sets.Ensembles <> Ensemble def
+R3424:3424 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3413:3413 <> X:13
+R3441:3444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3427:3434 Stdlib.Sets.Ensembles <> Included def
+R3438:3438 Stdlib.Sets.Finite_sets_facts <> X:13 var
+R3440:3440 Stdlib.Sets.Finite_sets_facts <> A:12 var
+R3436:3436 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3445:3450 Stdlib.Sets.Finite_sets <> Finite ind
+R3454:3454 Stdlib.Sets.Finite_sets_facts <> X:13 var
+R3452:3452 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3564:3578 Stdlib.Sets.Powerset_facts <> less_than_empty thm
+R3613:3624 Stdlib.Sets.Powerset_Classical_facts <> Included_Add thm
+prf 3694:3722 <> Intersection_preserves_finite
+R3739:3746 Stdlib.Sets.Ensembles <> Ensemble def
+R3748:3748 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3737:3737 <> A:14
+R3767:3770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3757:3762 Stdlib.Sets.Finite_sets <> Finite ind
+R3766:3766 Stdlib.Sets.Finite_sets_facts <> A:14 var
+R3764:3764 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3780:3787 Stdlib.Sets.Ensembles <> Ensemble def
+R3789:3789 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3778:3778 <> X:15
+R3792:3797 Stdlib.Sets.Finite_sets <> Finite ind
+R3802:3813 Stdlib.Sets.Ensembles <> Intersection ind
+R3817:3817 Stdlib.Sets.Finite_sets_facts <> X:15 var
+R3819:3819 Stdlib.Sets.Finite_sets_facts <> A:14 var
+R3815:3815 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3799:3799 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3857:3878 Stdlib.Sets.Finite_sets_facts <> Finite_downward_closed thm
+prf 3920:3934 <> cardinalO_empty
+R3951:3958 Stdlib.Sets.Ensembles <> Ensemble def
+R3960:3960 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 3949:3949 <> X:16
+R3977:3980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3963:3970 Stdlib.Sets.Finite_sets <> cardinal ind
+R3974:3974 Stdlib.Sets.Finite_sets_facts <> X:16 var
+R3972:3972 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R3982:3984 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3981:3981 Stdlib.Sets.Finite_sets_facts <> X:16 var
+R3985:3993 Stdlib.Sets.Ensembles <> Empty_set ind
+R3995:3995 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4030:4044 Stdlib.Sets.Finite_sets <> cardinal_invert thm
+R4046:4046 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+prf 4089:4101 <> inh_card_gt_O
+R4118:4125 Stdlib.Sets.Ensembles <> Ensemble def
+R4127:4127 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 4116:4116 <> X:17
+R4143:4146 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4130:4138 Stdlib.Sets.Ensembles <> Inhabited ind
+R4142:4142 Stdlib.Sets.Finite_sets_facts <> X:17 var
+R4140:4140 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4156:4158 Corelib.Init.Datatypes <> nat ind
+binder 4154:4154 <> n:18
+R4175:4178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4161:4168 Stdlib.Sets.Finite_sets <> cardinal ind
+R4172:4172 Stdlib.Sets.Finite_sets_facts <> X:17 var
+R4174:4174 Stdlib.Sets.Finite_sets_facts <> n:18 var
+R4170:4170 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4180:4182 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R4179:4179 Stdlib.Sets.Finite_sets_facts <> n:18 var
+R4242:4256 Stdlib.Sets.Finite_sets_facts <> cardinalO_empty thm
+R4284:4296 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+prf 4315:4327 <> card_soustr_1
+R4345:4352 Stdlib.Sets.Ensembles <> Ensemble def
+R4354:4354 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 4343:4343 <> X:19
+R4360:4362 Corelib.Init.Datatypes <> nat ind
+binder 4358:4358 <> n:20
+R4386:4395 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4372:4379 Stdlib.Sets.Finite_sets <> cardinal ind
+R4383:4383 Stdlib.Sets.Finite_sets_facts <> X:19 var
+R4385:4385 Stdlib.Sets.Finite_sets_facts <> n:20 var
+R4381:4381 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4405:4405 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 4403:4403 <> x:21
+R4416:4419 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4408:4409 Stdlib.Sets.Ensembles <> In def
+R4413:4413 Stdlib.Sets.Finite_sets_facts <> X:19 var
+R4415:4415 Stdlib.Sets.Finite_sets_facts <> x:21 var
+R4411:4411 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4420:4427 Stdlib.Sets.Finite_sets <> cardinal ind
+R4432:4439 Stdlib.Sets.Ensembles <> Subtract def
+R4443:4443 Stdlib.Sets.Finite_sets_facts <> X:19 var
+R4445:4445 Stdlib.Sets.Finite_sets_facts <> x:21 var
+R4441:4441 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4449:4452 Corelib.Init.Peano <> pred abbrev
+R4454:4454 Stdlib.Sets.Finite_sets_facts <> n:20 var
+R4429:4429 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R4567:4579 Stdlib.Arith.PeanoNat Nat pred_succ thm
+R4594:4600 Stdlib.Sets.Constructive_sets <> Add_inv thm
+R4641:4653 Stdlib.Sets.Powerset_Classical_facts <> add_soustr_xy thm
+R4718:4734 Stdlib.Arith.PeanoNat Nat succ_pred_pos thm
+R4753:4760 Stdlib.Sets.Finite_sets <> card_add constr
+R4813:4824 Stdlib.Sets.Classical_sets <> Subtract_inv thm
+R4843:4855 Stdlib.Sets.Finite_sets_facts <> inh_card_gt_O thm
+R4906:4920 Stdlib.Sets.Ensembles <> Inhabited_intro constr
+R4954:4964 Stdlib.Sets.Powerset_Classical_facts <> Sub_Add_new thm
+prf 5005:5018 <> cardinal_Empty
+R5031:5033 Corelib.Init.Datatypes <> nat ind
+binder 5029:5029 <> m:22
+R5062:5065 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5036:5043 Stdlib.Sets.Finite_sets <> cardinal ind
+R5048:5056 Stdlib.Sets.Ensembles <> Empty_set ind
+R5058:5058 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5061:5061 Stdlib.Sets.Finite_sets_facts <> m:22 var
+R5045:5045 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5067:5069 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5070:5070 Stdlib.Sets.Finite_sets_facts <> m:22 var
+R5187:5199 Stdlib.Sets.Constructive_sets <> not_Empty_Add thm
+prf 5223:5244 <> cardinal_is_functional
+R5262:5269 Stdlib.Sets.Ensembles <> Ensemble def
+R5271:5271 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 5260:5260 <> X:23
+R5278:5280 Corelib.Init.Datatypes <> nat ind
+binder 5275:5276 <> c1:24
+R5305:5314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5290:5297 Stdlib.Sets.Finite_sets <> cardinal ind
+R5301:5301 Stdlib.Sets.Finite_sets_facts <> X:23 var
+R5303:5304 Stdlib.Sets.Finite_sets_facts <> c1:24 var
+R5299:5299 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5325:5332 Stdlib.Sets.Ensembles <> Ensemble def
+R5334:5334 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 5323:5323 <> Y:25
+R5341:5343 Corelib.Init.Datatypes <> nat ind
+binder 5338:5339 <> c2:26
+R5362:5365 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5347:5354 Stdlib.Sets.Finite_sets <> cardinal ind
+R5358:5358 Stdlib.Sets.Finite_sets_facts <> Y:25 var
+R5360:5361 Stdlib.Sets.Finite_sets_facts <> c2:26 var
+R5356:5356 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5371:5374 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5367:5369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5366:5366 Stdlib.Sets.Finite_sets_facts <> X:23 var
+R5370:5370 Stdlib.Sets.Finite_sets_facts <> Y:25 var
+R5377:5379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5375:5376 Stdlib.Sets.Finite_sets_facts <> c1:24 var
+R5380:5381 Stdlib.Sets.Finite_sets_facts <> c2:26 var
+R5458:5471 Stdlib.Sets.Finite_sets_facts <> cardinal_Empty thm
+R5580:5592 Stdlib.Sets.Constructive_sets <> not_Empty_Add thm
+R5594:5594 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5679:5685 Corelib.Init.Logic <> f_equal thm
+R5710:5711 Stdlib.Sets.Ensembles <> In def
+R5716:5718 Stdlib.Sets.Ensembles <> Add def
+R5720:5720 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5713:5713 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5739:5748 Stdlib.Sets.Constructive_sets <> Add_intro2 thm
+R5797:5803 Stdlib.Sets.Constructive_sets <> Add_inv thm
+R5864:5871 Stdlib.Sets.Ensembles <> Subtract def
+R5876:5878 Stdlib.Sets.Ensembles <> Add def
+R5880:5880 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5873:5873 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R5917:5929 Stdlib.Arith.PeanoNat Nat pred_succ thm
+R5938:5950 Stdlib.Sets.Finite_sets_facts <> card_soustr_1 thm
+R6044:6055 Stdlib.Sets.Powerset_Classical_facts <> Simplify_add thm
+prf 6096:6111 <> cardinal_unicity
+R6129:6136 Stdlib.Sets.Ensembles <> Ensemble def
+R6138:6138 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 6127:6127 <> X:27
+R6144:6146 Corelib.Init.Datatypes <> nat ind
+binder 6142:6142 <> n:28
+R6170:6173 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6156:6163 Stdlib.Sets.Finite_sets <> cardinal ind
+R6167:6167 Stdlib.Sets.Finite_sets_facts <> X:27 var
+R6169:6169 Stdlib.Sets.Finite_sets_facts <> n:28 var
+R6165:6165 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6183:6185 Corelib.Init.Datatypes <> nat ind
+binder 6181:6181 <> m:29
+R6202:6205 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6188:6195 Stdlib.Sets.Finite_sets <> cardinal ind
+R6199:6199 Stdlib.Sets.Finite_sets_facts <> X:27 var
+R6201:6201 Stdlib.Sets.Finite_sets_facts <> m:29 var
+R6197:6197 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6207:6209 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6206:6206 Stdlib.Sets.Finite_sets_facts <> n:28 var
+R6210:6210 Stdlib.Sets.Finite_sets_facts <> m:29 var
+R6254:6275 Stdlib.Sets.Finite_sets_facts <> cardinal_is_functional thm
+prf 6303:6314 <> card_Add_gen
+R6332:6339 Stdlib.Sets.Ensembles <> Ensemble def
+R6341:6341 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 6330:6330 <> A:30
+R6347:6347 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 6345:6345 <> x:31
+R6356:6358 Corelib.Init.Datatypes <> nat ind
+binder 6351:6351 <> n:32
+binder 6353:6354 <> n':33
+R6382:6385 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6368:6375 Stdlib.Sets.Finite_sets <> cardinal ind
+R6379:6379 Stdlib.Sets.Finite_sets_facts <> A:30 var
+R6381:6381 Stdlib.Sets.Finite_sets_facts <> n:32 var
+R6377:6377 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6411:6414 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6386:6393 Stdlib.Sets.Finite_sets <> cardinal ind
+R6398:6400 Stdlib.Sets.Ensembles <> Add def
+R6404:6404 Stdlib.Sets.Finite_sets_facts <> A:30 var
+R6406:6406 Stdlib.Sets.Finite_sets_facts <> x:31 var
+R6402:6402 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6409:6410 Stdlib.Sets.Finite_sets_facts <> n':33 var
+R6395:6395 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6417:6420 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R6415:6416 Stdlib.Sets.Finite_sets_facts <> n':33 var
+R6421:6421 Corelib.Init.Datatypes <> S constr
+R6423:6423 Stdlib.Sets.Finite_sets_facts <> n:32 var
+R6472:6478 Stdlib.Logic.Classical_Prop <> classic prfax
+R6481:6482 Stdlib.Sets.Ensembles <> In def
+R6484:6484 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6518:6535 Stdlib.Sets.Powerset_facts <> Non_disjoint_union thm
+R6569:6584 Stdlib.Sets.Finite_sets_facts <> cardinal_unicity thm
+R6612:6629 Stdlib.Arith.PeanoNat Nat le_succ_diag_r thm
+R6644:6657 Stdlib.Arith.PeanoNat Nat eq_le_incl thm
+R6700:6702 Stdlib.Sets.Ensembles <> Add def
+R6704:6704 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6672:6687 Stdlib.Sets.Finite_sets_facts <> cardinal_unicity thm
+prf 6744:6758 <> incl_st_card_lt
+R6776:6783 Stdlib.Sets.Ensembles <> Ensemble def
+R6785:6785 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 6774:6774 <> X:34
+R6792:6794 Corelib.Init.Datatypes <> nat ind
+binder 6789:6790 <> c1:35
+R6819:6828 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6804:6811 Stdlib.Sets.Finite_sets <> cardinal ind
+R6815:6815 Stdlib.Sets.Finite_sets_facts <> X:34 var
+R6817:6818 Stdlib.Sets.Finite_sets_facts <> c1:35 var
+R6813:6813 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6839:6846 Stdlib.Sets.Ensembles <> Ensemble def
+R6848:6848 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 6837:6837 <> Y:36
+R6855:6857 Corelib.Init.Datatypes <> nat ind
+binder 6852:6853 <> c2:37
+R6884:6887 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6869:6876 Stdlib.Sets.Finite_sets <> cardinal ind
+R6880:6880 Stdlib.Sets.Finite_sets_facts <> Y:36 var
+R6882:6883 Stdlib.Sets.Finite_sets_facts <> c2:37 var
+R6878:6878 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6909:6912 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6888:6902 Stdlib.Sets.Ensembles <> Strict_Included def
+R6906:6906 Stdlib.Sets.Finite_sets_facts <> X:34 var
+R6908:6908 Stdlib.Sets.Finite_sets_facts <> Y:36 var
+R6904:6904 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R6915:6917 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R6913:6914 Stdlib.Sets.Finite_sets_facts <> c2:37 var
+R6918:6919 Stdlib.Sets.Finite_sets_facts <> c1:35 var
+R7081:7095 Stdlib.Sets.Classical_sets <> not_SIncl_empty thm
+R7130:7142 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R7170:7185 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+R7212:7229 Stdlib.Sets.Powerset_Classical_facts <> incl_st_add_soustr thm
+R7269:7281 Stdlib.Arith.PeanoNat Nat pred_succ thm
+R7290:7302 Stdlib.Sets.Finite_sets_facts <> card_soustr_1 thm
+R7343:7352 Stdlib.Sets.Constructive_sets <> Add_intro2 thm
+prf 7371:7382 <> incl_card_le
+R7402:7409 Stdlib.Sets.Ensembles <> Ensemble def
+R7411:7411 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 7398:7398 <> X:38
+binder 7400:7400 <> Y:39
+R7419:7421 Corelib.Init.Datatypes <> nat ind
+binder 7415:7415 <> n:40
+binder 7417:7417 <> m:41
+R7445:7448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7431:7438 Stdlib.Sets.Finite_sets <> cardinal ind
+R7442:7442 Stdlib.Sets.Finite_sets_facts <> X:38 var
+R7444:7444 Stdlib.Sets.Finite_sets_facts <> n:40 var
+R7440:7440 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7463:7466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7449:7456 Stdlib.Sets.Finite_sets <> cardinal ind
+R7460:7460 Stdlib.Sets.Finite_sets_facts <> Y:39 var
+R7462:7462 Stdlib.Sets.Finite_sets_facts <> m:41 var
+R7458:7458 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7481:7484 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7467:7474 Stdlib.Sets.Ensembles <> Included def
+R7478:7478 Stdlib.Sets.Finite_sets_facts <> X:38 var
+R7480:7480 Stdlib.Sets.Finite_sets_facts <> Y:39 var
+R7476:7476 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7486:7489 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R7485:7485 Stdlib.Sets.Finite_sets_facts <> n:40 var
+R7490:7490 Stdlib.Sets.Finite_sets_facts <> m:41 var
+R7546:7569 Stdlib.Sets.Classical_sets <> Included_Strict_Included thm
+R7610:7623 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+R7643:7657 Stdlib.Sets.Finite_sets_facts <> incl_st_card_lt thm
+R7687:7700 Stdlib.Arith.PeanoNat Nat eq_le_incl thm
+R7719:7734 Stdlib.Sets.Finite_sets_facts <> cardinal_unicity thm
+prf 7760:7795 <> Generalized_induction_on_finite_sets
+R7822:7825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7812:7819 Stdlib.Sets.Ensembles <> Ensemble def
+R7821:7821 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 7810:7810 <> P:42
+R7838:7838 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7948:7958 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7848:7855 Stdlib.Sets.Ensembles <> Ensemble def
+R7857:7857 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 7846:7846 <> X:43
+R7878:7889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7868:7873 Stdlib.Sets.Finite_sets <> Finite ind
+R7877:7877 Stdlib.Sets.Finite_sets_facts <> X:43 var
+R7875:7875 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7890:7890 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7940:7944 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7900:7907 Stdlib.Sets.Ensembles <> Ensemble def
+R7909:7909 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 7898:7898 <> Y:44
+R7933:7936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7912:7926 Stdlib.Sets.Ensembles <> Strict_Included def
+R7930:7930 Stdlib.Sets.Finite_sets_facts <> Y:44 var
+R7932:7932 Stdlib.Sets.Finite_sets_facts <> X:43 var
+R7928:7928 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7937:7937 Stdlib.Sets.Finite_sets_facts <> P:42 var
+R7939:7939 Stdlib.Sets.Finite_sets_facts <> Y:44 var
+R7945:7945 Stdlib.Sets.Finite_sets_facts <> P:42 var
+R7947:7947 Stdlib.Sets.Finite_sets_facts <> X:43 var
+R7968:7975 Stdlib.Sets.Ensembles <> Ensemble def
+R7977:7977 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+binder 7966:7966 <> X:45
+R7990:7993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7980:7985 Stdlib.Sets.Finite_sets <> Finite ind
+R7989:7989 Stdlib.Sets.Finite_sets_facts <> X:45 var
+R7987:7987 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R7994:7994 Stdlib.Sets.Finite_sets_facts <> P:42 var
+R7996:7996 Stdlib.Sets.Finite_sets_facts <> X:45 var
+R8137:8151 Stdlib.Sets.Powerset_facts <> less_than_empty thm
+binder 8179:8179 <> Y:46
+R8206:8209 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8182:8189 Stdlib.Sets.Ensembles <> Included def
+R8193:8193 Stdlib.Sets.Finite_sets_facts <> Y:46 var
+R8196:8198 Stdlib.Sets.Ensembles <> Add def
+R8200:8200 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R8191:8191 Stdlib.Sets.Finite_sets_facts <> Finite_sets_facts.U var
+R8212:8212 Stdlib.Sets.Finite_sets_facts <> Y:46 var
+binder 8179:8179 <> Y:47
+R8193:8193 Stdlib.Sets.Finite_sets_facts <> Y:47 var
+R8212:8212 Stdlib.Sets.Finite_sets_facts <> Y:47 var
+R8362:8364 Stdlib.Sets.Ensembles <> Add def
+R8333:8354 Stdlib.Sets.Finite_sets_facts <> Finite_downward_closed thm
+R8434:8478 Stdlib.Sets.Powerset <> Strict_inclusion_is_transitive_with_inclusion thm
+R8528:8539 Stdlib.Sets.Powerset_Classical_facts <> Included_Add thm
+R8598:8604 Stdlib.Logic.Classical_Prop <> classic prfax
+R8609:8611 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8865:8881 Stdlib.Sets.Finite_sets_facts Finite_sets_facts <> sec

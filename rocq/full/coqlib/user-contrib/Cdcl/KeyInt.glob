@@ -1,0 +1,1974 @@
+DIGEST b26d4e5ae195310d89446c039c459ad6
+FCdcl.KeyInt
+R82:85 Stdlib.Bool.Bool <> <> lib
+R87:97 Stdlib.micromega.ZifyClasses <> <> lib
+R99:108 Stdlib.micromega.ZifyUint63 <> <> lib
+R110:115 Stdlib.ZArith.ZArith <> <> lib
+R117:119 Stdlib.micromega.Lia <> <> lib
+R137:150 Cdcl.PatriciaR <> <> lib
+R162:167 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> lib
+sec 179:179 <> S
+R191:196 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> mod
+def 212:215 <> zero
+def 243:245 <> one
+R265:265 Cdcl.KeyInt S <> sec
+def 280:289 <> int_of_nat
+R294:296 Corelib.Init.Datatypes <> nat ind
+binder 292:292 <> n:1
+R302:312 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z abbrev
+R315:322 Stdlib.ZArith.BinInt Z of_nat def
+R324:324 Cdcl.KeyInt <> n:1 var
+inst 356:368 <> Op_int_of_nat
+R372:375 Stdlib.micromega.ZifyClasses <> UnOp class
+R377:386 Cdcl.KeyInt <> int_of_nat def
+R398:401 Stdlib.micromega.ZifyClasses <> TUOp meth
+R445:451 Stdlib.micromega.ZifyClasses <> TUOpInj meth
+binder 410:410 <> x:2
+R416:420 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R415:415 Cdcl.KeyInt <> x:2 var
+R490:499 Cdcl.KeyInt <> int_of_nat def
+R512:527 Stdlib.Numbers.Cyclic.Int63.Uint63 <> of_Z_spec thm
+prf 586:599 <> int_of_nat_inj
+binder 610:610 <> n:3
+binder 612:613 <> n':4
+R626:629 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R621:623 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R620:620 Cdcl.KeyInt <> n:3 var
+R637:644 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R632:634 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R630:631 Cdcl.KeyInt <> n':4 var
+R673:676 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R657:659 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R645:654 Cdcl.KeyInt <> int_of_nat def
+R656:656 Cdcl.KeyInt <> n:3 var
+R660:669 Cdcl.KeyInt <> int_of_nat def
+R671:672 Cdcl.KeyInt <> n':4 var
+R678:680 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R677:677 Cdcl.KeyInt <> n:3 var
+R681:682 Cdcl.KeyInt <> n':4 var
+R711:720 Cdcl.KeyInt <> int_of_nat def
+def 752:758 <> testbit
+R763:772 Stdlib.Numbers.Cyclic.Int63.Uint63 <> int abbrev
+binder 761:761 <> i:5
+R778:780 Corelib.Init.Datatypes <> nat ind
+binder 776:776 <> n:6
+R793:797 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R798:798 Cdcl.KeyInt <> n:6 var
+R816:825 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit abbrev
+R827:827 Cdcl.KeyInt <> i:5 var
+R830:839 Cdcl.KeyInt <> int_of_nat def
+R841:841 Cdcl.KeyInt <> n:6 var
+R805:809 Corelib.Init.Datatypes <> false constr
+prf 852:860 <> zero_spec
+binder 870:870 <> n:7
+R887:889 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R873:879 Cdcl.KeyInt <> testbit def
+R881:884 Cdcl.KeyInt <> zero def
+R886:886 Cdcl.KeyInt <> n:7 var
+R890:894 Corelib.Init.Datatypes <> false constr
+R921:927 Cdcl.KeyInt <> testbit def
+R929:932 Cdcl.KeyInt <> zero def
+R945:956 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_0 thm
+R973:976 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+prf 999:1006 <> eqb_spec
+binder 1017:1018 <> k1:8
+binder 1020:1021 <> k2:9
+R1047:1051 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1040:1042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1024:1033 Stdlib.Numbers.Cyclic.Int63.Uint63 <> eqb abbrev
+R1035:1036 Cdcl.KeyInt <> k1:8 var
+R1038:1039 Cdcl.KeyInt <> k2:9 var
+R1043:1046 Corelib.Init.Datatypes <> true constr
+R1054:1056 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1052:1053 Cdcl.KeyInt <> k1:8 var
+R1057:1058 Cdcl.KeyInt <> k2:9 var
+R1094:1111 Stdlib.Numbers.Cyclic.Int63.Uint63 <> eqb_correct abbrev
+R1128:1146 Stdlib.Numbers.Cyclic.Int63.Uint63 <> eqb_complete thm
+prf 1167:1178 <> testbit_spec
+binder 1188:1189 <> k1:10
+binder 1191:1192 <> k2:11
+R1195:1195 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1233:1237 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 1203:1203 <> n:12
+R1218:1220 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1206:1212 Cdcl.KeyInt <> testbit def
+R1214:1215 Cdcl.KeyInt <> k1:10 var
+R1217:1217 Cdcl.KeyInt <> n:12 var
+R1221:1227 Cdcl.KeyInt <> testbit def
+R1229:1230 Cdcl.KeyInt <> k2:11 var
+R1232:1232 Cdcl.KeyInt <> n:12 var
+R1240:1242 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1238:1239 Cdcl.KeyInt <> k1:10 var
+R1243:1244 Cdcl.KeyInt <> k2:11 var
+R1279:1285 Cdcl.KeyInt <> testbit def
+R1303:1316 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_ext thm
+R1352:1359 Stdlib.ZArith.BinInt Z to_nat def
+R1362:1372 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z abbrev
+R1396:1400 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R1401:1408 Stdlib.ZArith.BinInt Z to_nat def
+R1411:1421 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z abbrev
+R1476:1478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1450:1459 Stdlib.Numbers.Cyclic.Int63.Uint63 <> leb abbrev
+R1461:1473 Stdlib.Numbers.Cyclic.Int63.Uint63 <> digits abbrev
+R1479:1482 Corelib.Init.Datatypes <> true constr
+R1502:1514 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R1539:1550 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_M thm
+R1582:1593 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_M thm
+R1688:1690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1651:1660 Cdcl.KeyInt <> int_of_nat def
+R1663:1670 Stdlib.ZArith.BinInt Z to_nat def
+R1673:1683 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z abbrev
+R1713:1722 Cdcl.KeyInt <> int_of_nat def
+def 1769:1774 <> interp
+binder 1783:1783 <> i:13
+R1789:1798 Stdlib.Numbers.Cyclic.Int63.Uint63 <> sub abbrev
+R1800:1800 Cdcl.KeyInt <> i:13 var
+R1802:1804 Cdcl.KeyInt <> one def
+def 1823:1829 <> is_mask
+R1843:1852 Stdlib.Numbers.Cyclic.Int63.Uint63 <> int abbrev
+binder 1840:1840 <> m:14
+R1859:1861 Corelib.Init.Datatypes <> nat ind
+binder 1856:1856 <> n:15
+binder 1874:1874 <> p:16
+R1895:1899 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1888:1890 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1877:1883 Cdcl.KeyInt <> testbit def
+R1885:1885 Cdcl.KeyInt <> m:14 var
+R1887:1887 Cdcl.KeyInt <> p:16 var
+R1891:1894 Corelib.Init.Datatypes <> true constr
+R1901:1903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1900:1900 Cdcl.KeyInt <> n:15 var
+R1904:1904 Cdcl.KeyInt <> p:16 var
+R1918:1923 Stdlib.Numbers.Cyclic.Int63.Uint63 <> <> mod
+sec 1938:1942 <> NatUP
+var 1958:1958 NatUP P
+R1965:1968 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1962:1964 Corelib.Init.Datatypes <> nat ind
+R1969:1972 Corelib.Init.Datatypes <> bool ind
+def 1989:1996 <> forall_n
+R2002:2004 Corelib.Init.Datatypes <> nat ind
+binder 2000:2000 <> n:19
+R2009:2012 Corelib.Init.Datatypes <> bool ind
+R2029:2029 Cdcl.KeyInt <> n:19 var
+R2042:2042 Corelib.Init.Datatypes <> O constr
+R2047:2047 Cdcl.KeyInt <> NatUP.P var
+R2049:2049 Corelib.Init.Datatypes <> O constr
+R2057:2057 Corelib.Init.Datatypes <> S constr
+R2068:2071 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2065:2065 Cdcl.KeyInt <> NatUP.P var
+R2067:2067 Cdcl.KeyInt <> n:19 var
+R2072:2079 Cdcl.KeyInt <> forall_n:20 def
+prf 2106:2121 <> forall_n_correct
+binder 2132:2132 <> n:22
+R2152:2155 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2145:2147 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2135:2142 Cdcl.KeyInt <> forall_n def
+R2144:2144 Cdcl.KeyInt <> n:22 var
+R2148:2151 Corelib.Init.Datatypes <> true constr
+binder 2163:2163 <> p:23
+R2172:2175 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2167:2170 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2166:2166 Cdcl.KeyInt <> p:23 var
+R2171:2171 Cdcl.KeyInt <> n:22 var
+R2179:2181 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2176:2176 Cdcl.KeyInt <> NatUP.P var
+R2178:2178 Cdcl.KeyInt <> p:23 var
+R2182:2185 Corelib.Init.Datatypes <> true constr
+R2251:2253 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2317:2329 Stdlib.Bool.Bool <> andb_true_iff thm
+R2411:2414 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2405:2407 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2408:2408 Corelib.Init.Datatypes <> S constr
+R2416:2419 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2482:2486 Cdcl.KeyInt NatUP <> sec
+sec 2500:2505 <> NatUP2
+var 2521:2521 NatUP2 P
+R2528:2531 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2525:2527 Corelib.Init.Datatypes <> nat ind
+R2535:2538 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2532:2534 Corelib.Init.Datatypes <> nat ind
+R2539:2542 Corelib.Init.Datatypes <> bool ind
+def 2559:2567 <> forall_2n
+R2572:2574 Corelib.Init.Datatypes <> nat ind
+binder 2570:2570 <> n:26
+R2580:2582 Corelib.Init.Datatypes <> nat ind
+binder 2578:2578 <> m:27
+R2600:2600 Cdcl.KeyInt <> n:26 var
+R2615:2615 Corelib.Init.Datatypes <> O constr
+R2620:2627 Cdcl.KeyInt <> forall_n def
+R2635:2635 Cdcl.KeyInt <> m:27 var
+R2630:2630 Cdcl.KeyInt <> NatUP2.P var
+R2632:2632 Corelib.Init.Datatypes <> O constr
+R2645:2645 Corelib.Init.Datatypes <> S constr
+R2669:2672 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2653:2660 Cdcl.KeyInt <> forall_n def
+R2668:2668 Cdcl.KeyInt <> m:27 var
+R2663:2663 Cdcl.KeyInt <> NatUP2.P var
+R2665:2665 Cdcl.KeyInt <> n:26 var
+R2673:2681 Cdcl.KeyInt <> forall_2n:28 def
+R2686:2686 Cdcl.KeyInt <> m:27 var
+prf 2710:2726 <> forall_2n_correct
+binder 2737:2737 <> n:30
+binder 2739:2739 <> m:31
+R2762:2765 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2755:2757 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2742:2750 Cdcl.KeyInt <> forall_2n def
+R2752:2752 Cdcl.KeyInt <> n:30 var
+R2754:2754 Cdcl.KeyInt <> m:31 var
+R2758:2761 Corelib.Init.Datatypes <> true constr
+binder 2773:2773 <> p:32
+binder 2775:2775 <> q:33
+R2784:2787 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2779:2782 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2778:2778 Cdcl.KeyInt <> p:32 var
+R2783:2783 Cdcl.KeyInt <> n:30 var
+R2794:2797 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2789:2792 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2788:2788 Cdcl.KeyInt <> q:33 var
+R2793:2793 Cdcl.KeyInt <> m:31 var
+R2803:2805 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2798:2798 Cdcl.KeyInt <> NatUP2.P var
+R2800:2800 Cdcl.KeyInt <> p:32 var
+R2802:2802 Cdcl.KeyInt <> q:33 var
+R2806:2809 Corelib.Init.Datatypes <> true constr
+R2875:2877 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2919:2934 Cdcl.KeyInt <> forall_n_correct thm
+R2982:2994 Stdlib.Bool.Bool <> andb_true_iff thm
+R3080:3083 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3074:3076 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3077:3077 Corelib.Init.Datatypes <> S constr
+R3085:3088 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R3150:3165 Cdcl.KeyInt <> forall_n_correct thm
+R3191:3196 Cdcl.KeyInt NatUP2 <> sec
+prf 3209:3216 <> bool_and
+R3231:3234 Corelib.Init.Datatypes <> bool ind
+binder 3228:3228 <> b:34
+R3245:3248 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3241:3244 Corelib.Init.Datatypes <> bool ind
+binder 3238:3238 <> P:35
+R3314:3317 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3262:3262 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3281:3292 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3313:3313 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3271:3274 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3264:3266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3263:3263 Cdcl.KeyInt <> b:34 var
+R3267:3270 Corelib.Init.Datatypes <> true constr
+R3275:3275 Cdcl.KeyInt <> P:35 var
+R3277:3280 Corelib.Init.Datatypes <> true constr
+R3302:3305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3294:3296 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3293:3293 Cdcl.KeyInt <> b:34 var
+R3297:3301 Corelib.Init.Datatypes <> false constr
+R3306:3306 Cdcl.KeyInt <> P:35 var
+R3308:3312 Corelib.Init.Datatypes <> false constr
+R3318:3318 Cdcl.KeyInt <> P:35 var
+R3320:3320 Cdcl.KeyInt <> b:34 var
+R3467:3470 Corelib.Init.Datatypes <> true constr
+R3496:3500 Corelib.Init.Datatypes <> false constr
+R3539:3546 Cdcl.KeyInt <> bool_and thm
+prf 3570:3579 <> mask_small
+binder 3594:3594 <> m:36
+binder 3596:3596 <> n:37
+R3619:3621 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3618:3618 Cdcl.KeyInt <> n:37 var
+binder 3610:3614 <> BOUND:38
+R3645:3651 Cdcl.KeyInt <> is_mask def
+R3653:3653 Cdcl.KeyInt <> m:36 var
+R3655:3655 Cdcl.KeyInt <> n:37 var
+binder 3638:3641 <> BITN:39
+R3666:3668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3665:3665 Cdcl.KeyInt <> m:36 var
+R3669:3678 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lsl abbrev
+R3680:3682 Cdcl.KeyInt <> one def
+R3685:3694 Cdcl.KeyInt <> int_of_nat def
+R3696:3696 Cdcl.KeyInt <> n:37 var
+R3720:3722 Cdcl.KeyInt <> one def
+R3747:3758 Cdcl.KeyInt <> testbit_spec thm
+R3787:3793 Cdcl.KeyInt <> testbit def
+R3826:3828 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3899:3905 Cdcl.KeyInt <> testbit def
+R3946:3959 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R3976:3980 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R4031:4034 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4115:4121 Cdcl.KeyInt <> testbit def
+R4138:4151 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R4168:4172 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+prf 4233:4240 <> mask_big
+binder 4255:4255 <> m:40
+binder 4257:4257 <> n:41
+R4280:4283 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R4279:4279 Cdcl.KeyInt <> n:41 var
+binder 4271:4275 <> BOUND:42
+R4307:4313 Cdcl.KeyInt <> is_mask def
+R4315:4315 Cdcl.KeyInt <> m:40 var
+R4317:4317 Cdcl.KeyInt <> n:41 var
+binder 4300:4303 <> BITN:43
+R4327:4331 Corelib.Init.Logic <> False ind
+R4354:4360 Cdcl.KeyInt <> is_mask def
+R4423:4423 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4452:4458 Cdcl.KeyInt <> testbit def
+R4481:4485 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R4487:4488 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4497:4500 Corelib.Init.Datatypes <> true constr
+R4531:4535 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R4544:4547 Corelib.Init.Datatypes <> true constr
+def 4602:4610 <> mask_spec
+binder 4621:4621 <> m:44
+binder 4623:4623 <> n:45
+R4637:4677 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4626:4632 Cdcl.KeyInt <> is_mask def
+R4634:4634 Cdcl.KeyInt <> m:44 var
+R4636:4636 Cdcl.KeyInt <> n:45 var
+R4683:4687 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R4688:4688 Cdcl.KeyInt <> n:45 var
+R4822:4824 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4821:4821 Cdcl.KeyInt <> m:44 var
+R4825:4834 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lsl abbrev
+R4836:4838 Cdcl.KeyInt <> one def
+R4841:4850 Cdcl.KeyInt <> int_of_nat def
+R4852:4852 Cdcl.KeyInt <> n:45 var
+R4734:4738 Corelib.Init.Logic <> False ind
+R4893:4897 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R4920:4927 Cdcl.KeyInt <> mask_big thm
+R4971:4980 Cdcl.KeyInt <> mask_small thm
+prf 5029:5035 <> eqb_iff
+binder 5046:5047 <> b1:46
+binder 5049:5050 <> b2:47
+R5080:5085 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5109:5109 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5073:5075 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5059:5066 Stdlib.Bool.Bool <> eqb def
+R5068:5069 Cdcl.KeyInt <> b1:46 var
+R5071:5072 Cdcl.KeyInt <> b2:47 var
+R5076:5079 Corelib.Init.Datatypes <> true constr
+R5095:5099 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5088:5090 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5086:5087 Cdcl.KeyInt <> b1:46 var
+R5091:5094 Corelib.Init.Datatypes <> true constr
+R5102:5104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5100:5101 Cdcl.KeyInt <> b2:47 var
+R5105:5108 Corelib.Init.Datatypes <> true constr
+prf 5192:5202 <> interp_spec
+binder 5212:5212 <> m:48
+binder 5214:5214 <> n:49
+R5228:5231 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5217:5223 Cdcl.KeyInt <> is_mask def
+R5225:5225 Cdcl.KeyInt <> m:48 var
+R5227:5227 Cdcl.KeyInt <> n:49 var
+binder 5239:5239 <> p:50
+R5269:5273 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5262:5264 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5242:5248 Cdcl.KeyInt <> testbit def
+R5251:5256 Cdcl.KeyInt <> interp def
+R5258:5258 Cdcl.KeyInt <> m:48 var
+R5261:5261 Cdcl.KeyInt <> p:50 var
+R5265:5268 Corelib.Init.Datatypes <> true constr
+R5276:5278 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5275:5275 Cdcl.KeyInt <> p:50 var
+R5279:5279 Cdcl.KeyInt <> n:49 var
+R5318:5326 Cdcl.KeyInt <> mask_spec def
+R5350:5354 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R5397:5403 Cdcl.KeyInt <> testbit def
+R5422:5425 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R5474:5477 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R5510:5513 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R5543:5552 Stdlib.Arith.PeanoNat Nat ltb_lt thm
+R5569:5575 Cdcl.KeyInt <> eqb_iff thm
+binder 5599:5599 <> n:51
+binder 5601:5601 <> p:52
+R5607:5614 Stdlib.Bool.Bool <> eqb def
+R5617:5619 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R5622:5627 Cdcl.KeyInt <> interp def
+R5633:5636 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R5630:5632 Cdcl.KeyInt <> one def
+R5637:5646 Cdcl.KeyInt <> int_of_nat def
+R5648:5648 Cdcl.KeyInt <> n:51 var
+R5653:5662 Cdcl.KeyInt <> int_of_nat def
+R5664:5664 Cdcl.KeyInt <> p:52 var
+R5670:5673 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R5669:5669 Cdcl.KeyInt <> p:52 var
+R5674:5674 Cdcl.KeyInt <> n:51 var
+binder 5599:5599 <> n:53
+binder 5601:5601 <> p:54
+R5648:5648 Cdcl.KeyInt <> n:53 var
+R5664:5664 Cdcl.KeyInt <> p:54 var
+R5669:5669 Cdcl.KeyInt <> p:54 var
+R5674:5674 Cdcl.KeyInt <> n:53 var
+R5700:5702 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5703:5706 Corelib.Init.Datatypes <> true constr
+R5726:5742 Cdcl.KeyInt <> forall_2n_correct thm
+prf 5776:5784 <> land_spec
+binder 5794:5794 <> n:55
+binder 5796:5797 <> k1:56
+binder 5799:5800 <> k2:57
+R5832:5834 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5803:5809 Cdcl.KeyInt <> testbit def
+R5812:5822 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land abbrev
+R5824:5825 Cdcl.KeyInt <> k1:56 var
+R5827:5828 Cdcl.KeyInt <> k2:57 var
+R5831:5831 Cdcl.KeyInt <> n:55 var
+R5847:5850 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R5835:5841 Cdcl.KeyInt <> testbit def
+R5843:5844 Cdcl.KeyInt <> k1:56 var
+R5846:5846 Cdcl.KeyInt <> n:55 var
+R5851:5857 Cdcl.KeyInt <> testbit def
+R5859:5860 Cdcl.KeyInt <> k2:57 var
+R5862:5862 Cdcl.KeyInt <> n:55 var
+R5897:5903 Cdcl.KeyInt <> testbit def
+R5918:5933 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land_spec abbrev
+R5952:5956 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+prf 5998:6006 <> lxor_spec
+binder 6016:6016 <> n:58
+binder 6018:6019 <> k1:59
+binder 6021:6022 <> k2:60
+R6054:6056 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6025:6031 Cdcl.KeyInt <> testbit def
+R6034:6044 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lxor abbrev
+R6046:6047 Cdcl.KeyInt <> k1:59 var
+R6049:6050 Cdcl.KeyInt <> k2:60 var
+R6053:6053 Cdcl.KeyInt <> n:58 var
+R6057:6060 Corelib.Init.Datatypes <> xorb def
+R6078:6084 Cdcl.KeyInt <> testbit def
+R6086:6087 Cdcl.KeyInt <> k2:60 var
+R6089:6089 Cdcl.KeyInt <> n:58 var
+R6063:6069 Cdcl.KeyInt <> testbit def
+R6071:6072 Cdcl.KeyInt <> k1:59 var
+R6074:6074 Cdcl.KeyInt <> n:58 var
+R6125:6131 Cdcl.KeyInt <> testbit def
+R6146:6161 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lxor_spec abbrev
+R6180:6184 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R6276:6277 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+def 6349:6352 <> ones
+R6357:6359 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 6355:6355 <> n:61
+R6366:6366 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R6373:6376 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R6368:6371 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R6372:6372 Cdcl.KeyInt <> n:61 var
+prf 6397:6406 <> power2_mod
+binder 6417:6417 <> n:62
+binder 6419:6419 <> m:63
+R6435:6438 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6430:6433 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6434:6434 Cdcl.KeyInt <> n:62 var
+R6445:6455 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6508:6508 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6440:6443 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6444:6444 Cdcl.KeyInt <> m:63 var
+R6475:6478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6456:6456 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6462:6468 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6474:6474 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6458:6460 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6461:6461 Cdcl.KeyInt <> n:62 var
+R6470:6472 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6473:6473 Cdcl.KeyInt <> m:63 var
+R6482:6486 Stdlib.ZArith.BinInt Z ltb def
+R6488:6488 Cdcl.KeyInt <> n:62 var
+R6490:6490 Cdcl.KeyInt <> m:63 var
+R6498:6498 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6499:6499 Cdcl.KeyInt <> n:62 var
+R6550:6552 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R6577:6587 Stdlib.ZArith.BinInt Z mod_small thm
+R6621:6632 Stdlib.ZArith.BinInt Z pow_nonneg thm
+R6652:6666 Stdlib.ZArith.BinInt Z pow_lt_mono_r thm
+R6688:6688 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6694:6697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6690:6692 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6699:6701 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6709:6711 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6703:6704 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6708:6708 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6706:6706 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6713:6713 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6737:6747 Stdlib.ZArith.BinInt Z pow_add_r thm
+R6825:6839 Stdlib.ZArith.Zdiv <> Z_mod_plus_full thm
+R6854:6862 Stdlib.ZArith.BinInt Z mod_0_l thm
+R6883:6898 Stdlib.ZArith.BinInt Z pow_pos_nonneg thm
+prf 6933:6940 <> bit_ones
+binder 6951:6951 <> n:64
+binder 6953:6953 <> p:65
+R7050:7052 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7036:7038 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R7041:7044 Cdcl.KeyInt <> ones def
+R7046:7046 Cdcl.KeyInt <> n:64 var
+R7049:7049 Cdcl.KeyInt <> p:65 var
+R7064:7068 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7078:7078 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7057:7059 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R7061:7061 Cdcl.KeyInt <> p:65 var
+R7063:7063 Cdcl.KeyInt <> n:64 var
+R7069:7071 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> ltb prim
+R7073:7073 Cdcl.KeyInt <> p:65 var
+R7103:7107 Corelib.Init.Datatypes <> false constr
+R7093:7096 Corelib.Init.Datatypes <> true constr
+R7130:7133 Cdcl.KeyInt <> ones def
+R7135:7137 Cdcl.KeyInt <> one def
+R7164:7167 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bitE thm
+R7182:7189 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> sub_spec prfax
+R7204:7211 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lsl_spec prfax
+R7242:7244 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7230:7233 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7246:7248 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7250:7253 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7283:7286 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7293:7293 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7287:7290 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R7317:7318 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R7355:7358 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R7333:7342 Cdcl.KeyInt <> power2_mod thm
+R7396:7399 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R7384:7387 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7400:7407 Stdlib.ZArith.BinInt Z of_nat def
+R7409:7412 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R7438:7441 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R7463:7473 Stdlib.ZArith.BinInt Z mod_small thm
+R7509:7511 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7493:7495 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7497:7500 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7513:7516 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7543:7548 Stdlib.ZArith.BinInt Z pred def
+R7552:7554 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7556:7559 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R7598:7609 Stdlib.ZArith.BinInt Z ones_equiv thm
+R7626:7646 Stdlib.ZArith.BinInt Z testbit_ones_nonneg thm
+R7672:7672 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7679:7684 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7692:7692 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7674:7677 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R7686:7689 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R7750:7752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R7763:7765 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R7754:7756 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7757:7760 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R7766:7767 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R7789:7790 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R7822:7837 Stdlib.ZArith.BinInt Z pow_pos_nonneg thm
+R7859:7873 Stdlib.ZArith.BinInt Z pow_lt_mono_r thm
+R7896:7899 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R7922:7927 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R7930:7933 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R7994:7996 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7998:8000 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8001:8008 Stdlib.ZArith.BinInt Z of_nat def
+R8010:8013 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R8041:8050 Stdlib.ZArith.BinInt Z pow_gt_1 thm
+R8101:8117 Stdlib.ZArith.Zdiv <> Z_mod_nz_opp_full thm
+R8128:8138 Stdlib.ZArith.BinInt Z mod_small thm
+R8184:8186 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8168:8170 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8171:8178 Stdlib.ZArith.BinInt Z of_nat def
+R8180:8183 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R8188:8191 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R8218:8223 Stdlib.ZArith.BinInt Z pred def
+R8227:8229 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8230:8237 Stdlib.ZArith.BinInt Z of_nat def
+R8239:8242 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R8273:8284 Stdlib.ZArith.BinInt Z ones_equiv thm
+R8301:8321 Stdlib.ZArith.BinInt Z testbit_ones_nonneg thm
+R8362:8365 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8349:8352 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R8368:8371 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+def 8436:8442 <> split_m
+R8448:8450 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 8445:8445 <> i:66
+R8457:8459 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 8454:8454 <> m:67
+R8471:8471 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R8499:8506 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R8522:8523 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R8473:8479 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R8498:8498 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R8472:8472 Cdcl.KeyInt <> i:66 var
+R8480:8480 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R8492:8496 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R8481:8484 Cdcl.KeyInt <> ones def
+R8486:8491 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R8497:8497 Cdcl.KeyInt <> m:67 var
+R8508:8514 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R8521:8521 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R8507:8507 Cdcl.KeyInt <> i:66 var
+R8515:8518 Cdcl.KeyInt <> ones def
+R8520:8520 Cdcl.KeyInt <> m:67 var
+prf 8543:8551 <> split_all
+binder 8562:8562 <> i:68
+binder 8564:8564 <> m:69
+R8574:8576 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8573:8573 Cdcl.KeyInt <> i:68 var
+R8577:8583 Cdcl.KeyInt <> split_m def
+R8585:8585 Cdcl.KeyInt <> i:68 var
+R8587:8587 Cdcl.KeyInt <> m:69 var
+R8622:8628 Cdcl.KeyInt <> split_m def
+R8641:8647 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_ext thm
+R8674:8681 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lor_spec prfax
+R8696:8711 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land_spec abbrev
+R8726:8732 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R8747:8762 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land_spec abbrev
+R8778:8785 Cdcl.KeyInt <> bit_ones thm
+R8804:8808 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_M thm
+R8845:8848 Corelib.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R8832:8835 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R8856:8861 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'≤?'_x not
+R8850:8855 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R8910:8913 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8897:8900 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R8916:8919 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R8953:8958 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R8982:8984 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9014:9019 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9043:9045 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9102:9105 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9084:9087 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9080:9082 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R9088:9093 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9112:9115 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9108:9110 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R9167:9170 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9154:9157 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9173:9176 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9210:9215 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9239:9241 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9271:9276 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9300:9302 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9350:9353 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9337:9340 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9356:9359 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9393:9398 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9422:9424 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9454:9459 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R9483:9485 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+def 9524:9529 <> is_set
+R9534:9536 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 9532:9532 <> k:70
+R9542:9544 Corelib.Init.Datatypes <> nat ind
+binder 9540:9540 <> m:71
+R9556:9556 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9601:9611 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 9564:9564 <> p:72
+R9578:9581 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9569:9571 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R9568:9568 Cdcl.KeyInt <> p:72 var
+R9572:9572 Cdcl.KeyInt <> m:71 var
+R9593:9595 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9582:9588 Cdcl.KeyInt <> testbit def
+R9590:9590 Cdcl.KeyInt <> k:70 var
+R9592:9592 Cdcl.KeyInt <> p:72 var
+R9596:9600 Corelib.Init.Datatypes <> false constr
+R9623:9625 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9612:9618 Cdcl.KeyInt <> testbit def
+R9620:9620 Cdcl.KeyInt <> k:70 var
+R9622:9622 Cdcl.KeyInt <> m:71 var
+R9626:9629 Corelib.Init.Datatypes <> true constr
+def 9646:9655 <> is_set_int
+R9660:9662 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 9658:9658 <> k:73
+R9668:9670 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 9666:9666 <> m:74
+R9682:9682 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9734:9744 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 9690:9690 <> p:75
+R9715:9718 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9700:9702 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9695:9698 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R9694:9694 Cdcl.KeyInt <> p:75 var
+R9699:9699 Cdcl.KeyInt <> m:74 var
+R9703:9706 Corelib.Init.Datatypes <> true constr
+R9726:9728 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9719:9721 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9723:9723 Cdcl.KeyInt <> k:73 var
+R9725:9725 Cdcl.KeyInt <> p:75 var
+R9729:9733 Corelib.Init.Datatypes <> false constr
+R9752:9754 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9745:9747 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R9749:9749 Cdcl.KeyInt <> k:73 var
+R9751:9751 Cdcl.KeyInt <> m:74 var
+R9755:9758 Corelib.Init.Datatypes <> true constr
+R9815:9818 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+def 9893:9902 <> nat_of_int
+R9907:9909 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 9905:9905 <> i:76
+R9915:9922 Stdlib.ZArith.BinInt Z to_nat def
+R9925:9928 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R9930:9930 Cdcl.KeyInt <> i:76 var
+prf 9943:9954 <> is_set_small
+binder 9965:9965 <> k:77
+binder 9967:9967 <> m:78
+R9980:9983 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9970:9975 Cdcl.KeyInt <> is_set def
+R9977:9977 Cdcl.KeyInt <> k:77 var
+R9979:9979 Cdcl.KeyInt <> m:78 var
+R9985:9987 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R9984:9984 Cdcl.KeyInt <> m:78 var
+R10024:10029 Cdcl.KeyInt <> is_set def
+R10064:10070 Cdcl.KeyInt <> testbit def
+R10094:10098 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+prf 10132:10140 <> is_set_eq
+binder 10155:10155 <> k:79
+binder 10157:10157 <> m:80
+R10171:10190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10160:10165 Cdcl.KeyInt <> is_set def
+R10167:10167 Cdcl.KeyInt <> k:79 var
+R10170:10170 Cdcl.KeyInt <> m:80 var
+R10191:10197 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10199:10200 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10198:10198 <> n:81
+R10217:10246 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10202:10204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10201:10201 Cdcl.KeyInt <> n:81 var
+R10205:10214 Cdcl.KeyInt <> int_of_nat def
+R10216:10216 Cdcl.KeyInt <> m:80 var
+R10274:10303 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10259:10261 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10249:10252 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R10248:10248 Cdcl.KeyInt <> n:81 var
+R10253:10258 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R10262:10265 Corelib.Init.Datatypes <> true constr
+R10304:10313 Cdcl.KeyInt <> is_set_int def
+R10315:10315 Cdcl.KeyInt <> k:79 var
+R10317:10317 Cdcl.KeyInt <> n:81 var
+R10359:10370 Cdcl.KeyInt <> is_set_small thm
+R10391:10396 Cdcl.KeyInt <> is_set def
+R10399:10408 Cdcl.KeyInt <> is_set_int def
+R10444:10453 Cdcl.KeyInt <> int_of_nat def
+R10514:10519 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R10541:10547 Cdcl.KeyInt <> testbit def
+R10585:10594 Cdcl.KeyInt <> nat_of_int def
+R10617:10621 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R10622:10631 Cdcl.KeyInt <> nat_of_int def
+R10641:10645 Corelib.Init.Datatypes <> false constr
+R10658:10667 Cdcl.KeyInt <> nat_of_int def
+R10703:10712 Cdcl.KeyInt <> nat_of_int def
+R10734:10743 Cdcl.KeyInt <> nat_of_int def
+R10765:10771 Cdcl.KeyInt <> testbit def
+R10819:10823 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+prf 10857:10869 <> is_set_decomp
+binder 10880:10880 <> k:82
+binder 10882:10882 <> m:83
+R10901:10910 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10891:10896 Cdcl.KeyInt <> is_set def
+R10898:10898 Cdcl.KeyInt <> k:82 var
+R10900:10900 Cdcl.KeyInt <> m:83 var
+R10913:10915 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10912:10912 Cdcl.KeyInt <> k:82 var
+R10916:10916 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R10964:10971 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R10989:10989 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R10917:10917 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R10941:10946 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R10963:10963 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R10919:10923 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R10940:10940 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R10918:10918 Cdcl.KeyInt <> k:82 var
+R10936:10938 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R10924:10933 Cdcl.KeyInt <> int_of_nat def
+R10935:10935 Cdcl.KeyInt <> m:83 var
+R10959:10961 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R10947:10956 Cdcl.KeyInt <> int_of_nat def
+R10958:10958 Cdcl.KeyInt <> m:83 var
+R10973:10976 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R10977:10986 Cdcl.KeyInt <> int_of_nat def
+R10988:10988 Cdcl.KeyInt <> m:83 var
+R11031:11039 Cdcl.KeyInt <> is_set_eq thm
+R11097:11106 Cdcl.KeyInt <> is_set_int def
+R11186:11192 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_ext thm
+R11219:11226 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lor_spec prfax
+R11243:11249 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R11266:11272 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R11293:11296 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11289:11291 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11311:11314 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11304:11306 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11299:11302 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R11307:11310 Corelib.Init.Datatypes <> true constr
+R11364:11367 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11315:11315 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11356:11359 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11331:11335 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R11316:11325 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltb abbrev
+R11336:11345 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltb abbrev
+R11350:11355 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R11360:11363 Corelib.Init.Datatypes <> true constr
+R11368:11368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11389:11392 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11369:11378 Stdlib.Numbers.Cyclic.Int63.Uint63 <> leb abbrev
+R11380:11385 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R11393:11396 Corelib.Init.Datatypes <> true constr
+R11518:11522 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R11599:11603 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R11631:11643 Stdlib.Bool.Bool <> andb_true_iff thm
+R11686:11689 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R11691:11693 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11709:11713 Corelib.Init.Datatypes <> false constr
+R11757:11761 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<=?'_x not
+R11751:11756 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R11778:11782 Corelib.Init.Datatypes <> false constr
+R11820:11825 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'≤?'_x not
+R11810:11813 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11819:11819 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11815:11817 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11831:11834 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11847:11847 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11827:11829 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11837:11840 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11846:11846 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11842:11844 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11863:11866 Corelib.Init.Datatypes <> true constr
+R11897:11900 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11913:11913 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11893:11895 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11903:11906 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11912:11912 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R11908:11910 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R11969:11973 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R11992:11994 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R12022:12026 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_M thm
+R12072:12076 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+prf 12108:12115 <> sub_pow2
+binder 12126:12126 <> x:84
+binder 12128:12128 <> k:85
+binder 12130:12130 <> m:86
+R12153:12162 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12141:12144 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12146:12148 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12145:12145 Cdcl.KeyInt <> k:85 var
+R12149:12149 Cdcl.KeyInt <> m:86 var
+R12178:12188 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12165:12167 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12169:12171 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12168:12168 Cdcl.KeyInt <> x:84 var
+R12173:12173 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12174:12174 Cdcl.KeyInt <> m:86 var
+R12215:12217 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12209:12211 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12191:12193 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12190:12190 Cdcl.KeyInt <> x:84 var
+R12195:12199 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R12194:12194 Cdcl.KeyInt <> x:84 var
+R12201:12204 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12208:12208 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12206:12206 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12205:12205 Cdcl.KeyInt <> k:85 var
+R12213:12213 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12214:12214 Cdcl.KeyInt <> k:85 var
+R12219:12220 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12221:12221 Cdcl.KeyInt <> m:86 var
+R12270:12272 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12262:12264 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12269:12269 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12266:12267 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12274:12276 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12278:12278 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12305:12315 Stdlib.ZArith.BinInt Z pow_add_r thm
+R12371:12377 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12379:12380 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12378:12378 <> n:87
+R12391:12393 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12381:12388 Stdlib.ZArith.BinInt Z of_nat def
+R12390:12390 Cdcl.KeyInt <> n:87 var
+binder 12378:12378 <> n:88
+R12390:12390 Cdcl.KeyInt <> n:88 var
+R12418:12425 Stdlib.ZArith.BinInt Z to_nat def
+R12557:12558 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12559:12566 Stdlib.ZArith.BinInt Z of_nat def
+R12603:12605 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12666:12673 Stdlib.ZArith.BinInt Z of_nat def
+R12676:12676 Corelib.Init.Datatypes <> S constr
+R12692:12694 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12695:12702 Stdlib.ZArith.BinInt Z of_nat def
+R12745:12748 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12754:12756 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12750:12752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12758:12759 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12760:12767 Stdlib.ZArith.BinInt Z of_nat def
+R12801:12811 Stdlib.ZArith.BinInt Z pow_add_r thm
+R12867:12870 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R12863:12865 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12872:12874 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12878:12880 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12876:12876 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12881:12888 Stdlib.ZArith.BinInt Z of_nat def
+R12957:12959 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12961:12961 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R12994:13004 Stdlib.ZArith.BinInt Z pow_add_r thm
+R13068:13070 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13102:13112 Stdlib.ZArith.BinInt Z pow_add_r thm
+R13150:13152 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13139:13141 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13143:13145 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13149:13149 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13147:13147 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13154:13155 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13200:13200 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13233:13243 Stdlib.ZArith.BinInt Z pow_add_r thm
+R13334:13337 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13332:13332 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13339:13341 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13374:13388 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+R13471:13473 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13467:13469 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13423:13426 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13466:13466 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13452:13454 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13432:13434 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13428:13430 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13435:13435 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13441:13446 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13437:13439 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13448:13450 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13456:13459 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13465:13465 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13461:13463 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13475:13477 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13479:13481 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13482:13489 Stdlib.ZArith.BinInt Z of_nat def
+R13520:13532 Stdlib.ZArith.BinInt Z le_lt_trans thm
+R13620:13639 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13600:13602 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13604:13609 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13619:13619 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13611:13613 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13615:13617 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13677:13679 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13651:13653 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13641:13644 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13650:13650 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13646:13648 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13655:13658 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13676:13676 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13659:13659 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13665:13670 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13661:13663 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13672:13674 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R13806:13808 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 13852:13866 <> to_Z_branch_bit
+binder 13877:13877 <> k:89
+binder 13879:13879 <> m:90
+R13904:13906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13898:13901 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R13897:13897 Cdcl.KeyInt <> m:90 var
+R13907:13910 Corelib.Init.Datatypes <> true constr
+binder 13888:13892 <> SMALL:91
+R13984:13993 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13928:13931 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R13967:13969 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R13942:13942 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R13955:13960 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R13966:13966 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R13944:13948 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R13954:13954 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R13943:13943 Cdcl.KeyInt <> k:89 var
+R13950:13952 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R13949:13949 Cdcl.KeyInt <> m:90 var
+R13962:13964 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R13961:13961 Cdcl.KeyInt <> m:90 var
+R13971:13974 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R13975:13975 Cdcl.KeyInt <> m:90 var
+R14040:14042 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13995:13995 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14021:14024 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14002:14005 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13996:13999 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14001:14001 Cdcl.KeyInt <> k:89 var
+R14007:14009 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14020:14020 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14016:14018 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14010:14013 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14015:14015 Cdcl.KeyInt <> m:90 var
+R14026:14028 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14039:14039 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14035:14037 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14029:14032 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14034:14034 Cdcl.KeyInt <> m:90 var
+R14044:14046 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14053:14053 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14047:14050 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14052:14052 Cdcl.KeyInt <> m:90 var
+R14092:14099 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R14115:14122 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lsl_spec prfax
+R14137:14144 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lsr_spec prfax
+R14159:14166 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> add_spec prfax
+R14187:14189 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14181:14184 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14190:14193 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14219:14221 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14213:14216 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14247:14250 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14284:14286 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14264:14266 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14252:14255 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14268:14270 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14272:14275 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14287:14288 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R14329:14331 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14317:14320 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14333:14335 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14337:14340 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14360:14362 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14363:14366 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R14406:14417 Stdlib.ZArith.BinInt Z pow_nonneg thm
+R14443:14457 Stdlib.ZArith.BinInt Z pow_lt_mono_r thm
+R14520:14523 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R14518:14518 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14525:14529 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14547:14548 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14543:14545 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14531:14534 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14573:14587 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+R14638:14642 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R14656:14658 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14644:14647 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14660:14664 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14682:14683 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14678:14680 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14666:14669 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14733:14739 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14823:14828 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14788:14790 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14753:14755 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14741:14744 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14757:14760 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14787:14787 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14761:14761 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14779:14784 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14775:14777 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14763:14766 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14785:14786 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R14792:14795 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14822:14822 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R14796:14796 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14814:14819 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14810:14812 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14798:14801 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R14820:14821 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R14829:14830 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R14857:14864 Stdlib.ZArith.BinInt Z of_nat def
+R14866:14869 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R14902:14912 Stdlib.ZArith.BinInt Z mod_small thm
+R14947:14965 Stdlib.ZArith.BinInt Z mul_nonneg_nonneg thm
+R15004:15014 Stdlib.ZArith.BinInt Z mod_small thm
+R15047:15048 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R15065:15072 Stdlib.ZArith.BinInt Z of_nat def
+R15074:15077 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R15116:15126 Stdlib.ZArith.BinInt Z mod_small thm
+R15148:15158 Stdlib.ZArith.BinInt Z mod_small thm
+R15180:15190 Stdlib.ZArith.BinInt Z mod_small thm
+R15251:15252 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R15274:15281 Stdlib.ZArith.BinInt Z of_nat def
+R15283:15286 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R15379:15395 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15353:15355 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15327:15329 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15315:15318 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R15331:15334 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15352:15352 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15348:15350 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15336:15339 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R15357:15360 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15378:15378 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15374:15376 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15362:15365 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R15402:15404 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15396:15399 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15411:15415 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15405:15408 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15417:15420 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15438:15438 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15434:15436 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15422:15425 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R15486:15489 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R15525:15533 Stdlib.ZArith.BinInt Z mul_1_l thm
+R15548:15555 Cdcl.KeyInt <> sub_pow2 thm
+R15593:15594 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R15611:15618 Stdlib.ZArith.BinInt Z of_nat def
+R15620:15623 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+prf 15664:15672 <> testbit_0
+binder 15683:15683 <> a:92
+binder 15685:15685 <> n:93
+R15704:15713 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15696:15699 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15700:15700 Cdcl.KeyInt <> n:93 var
+R15727:15729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15714:15722 Stdlib.ZArith.BinInt Z testbit def
+R15724:15724 Cdcl.KeyInt <> a:92 var
+R15726:15726 Cdcl.KeyInt <> n:93 var
+R15748:15751 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R15731:15731 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15741:15746 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15733:15735 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15732:15732 Cdcl.KeyInt <> a:92 var
+R15737:15739 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15740:15740 Cdcl.KeyInt <> n:93 var
+R15796:15809 Stdlib.ZArith.BinInt Z testbit_true thm
+R15833:15841 Stdlib.ZArith.BinInt Z testbit def
+R15926:15929 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R15922:15924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15905:15905 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15915:15920 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15907:15909 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15911:15913 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15945:15947 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15939:15943 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15931:15933 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15935:15937 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+def 16072:16078 <> not_int
+R16085:16087 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 16081:16081 <> x:94
+R16097:16099 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R16094:16095 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalC ::uint63_scope:'-'_x not
+R16096:16096 Cdcl.KeyInt <> x:94 var
+prf 16120:16130 <> bit_not_int
+binder 16141:16141 <> x:95
+binder 16143:16143 <> n:96
+R16169:16171 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16159:16162 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R16158:16158 Cdcl.KeyInt <> n:96 var
+R16163:16168 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R16172:16175 Corelib.Init.Datatypes <> true constr
+binder 16152:16153 <> SN:97
+R16210:16212 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16193:16195 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R16198:16204 Cdcl.KeyInt <> not_int def
+R16206:16206 Cdcl.KeyInt <> x:95 var
+R16209:16209 Cdcl.KeyInt <> n:96 var
+R16213:16216 Corelib.Init.Datatypes <> negb def
+R16219:16221 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R16223:16223 Cdcl.KeyInt <> x:95 var
+R16225:16225 Cdcl.KeyInt <> n:96 var
+R16249:16255 Cdcl.KeyInt <> not_int def
+R16283:16286 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bitE thm
+R16300:16309 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R16324:16331 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> sub_spec prfax
+R16351:16354 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R16347:16349 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16356:16359 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R16421:16424 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16428:16430 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R16466:16473 Stdlib.ZArith.BinInt Z bits_0 thm
+R16513:16517 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R16498:16499 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16500:16503 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16518:16519 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R16532:16534 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16530:16531 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R16567:16570 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R16555:16564 Cdcl.KeyInt <> nat_of_int def
+R16591:16600 Cdcl.KeyInt <> nat_of_int def
+R16603:16608 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R16639:16642 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R16653:16660 Stdlib.ZArith.BinInt Z of_nat def
+R16663:16672 Cdcl.KeyInt <> nat_of_int def
+R16699:16708 Cdcl.KeyInt <> nat_of_int def
+binder 16743:16743 <> n:98
+R16750:16758 Stdlib.ZArith.BinInt Z testbit def
+R16763:16765 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16761:16762 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R16770:16777 Stdlib.ZArith.BinInt Z of_nat def
+R16779:16779 Cdcl.KeyInt <> n:98 var
+binder 16743:16743 <> n:99
+R16779:16779 Cdcl.KeyInt <> n:99 var
+R16814:16816 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16801:16810 Cdcl.KeyInt <> nat_of_int def
+R16817:16820 Corelib.Init.Datatypes <> true constr
+R16838:16853 Cdcl.KeyInt <> forall_n_correct thm
+R16888:16895 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> sub_spec prfax
+R16912:16920 Stdlib.ZArith.BinInt Z sub_0_l thm
+R16936:16941 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R16964:16977 Stdlib.ZArith.BinInt Z mod_opp_l_nz thm
+R16995:17005 Stdlib.ZArith.BinInt Z mod_small thm
+R17009:17012 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17035:17045 Stdlib.ZArith.BinInt Z mod_small thm
+R17066:17081 Stdlib.ZArith.BinInt Z opp_involutive thm
+R17103:17105 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17087:17089 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17085:17086 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17091:17094 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R17107:17110 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R17137:17146 Stdlib.ZArith.BinInt Z bits_opp thm
+R17180:17185 Stdlib.ZArith.BinInt Z pred def
+R17188:17190 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R17225:17225 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R17209:17211 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17193:17195 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17191:17192 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17197:17200 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R17213:17216 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R17254:17256 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17248:17251 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17257:17257 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17260:17263 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17264:17265 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17293:17301 Cdcl.KeyInt <> testbit_0 thm
+R17328:17330 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17331:17332 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17343:17343 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17370:17373 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17345:17348 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17369:17369 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17351:17353 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R17355:17356 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R17368:17368 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R17359:17361 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17362:17365 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17375:17376 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R17383:17383 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R17377:17380 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17403:17412 Stdlib.ZArith.Zdiv <> Z_div_plus thm
+R17429:17438 Stdlib.ZArith.BinInt Z mul_comm thm
+R17455:17469 Stdlib.ZArith.Zdiv <> Z_mod_plus_full thm
+R17503:17510 Stdlib.Numbers.Cyclic.Int63.Uint63 <> pow2_pos thm
+R17537:17538 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17555:17562 Stdlib.ZArith.BinInt Z of_nat def
+R17564:17567 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R17623:17625 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17607:17610 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17622:17622 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17613:17615 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17616:17619 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17626:17629 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R17659:17669 Stdlib.ZArith.BinInt Z pow_add_r thm
+R17695:17696 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R17705:17705 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+prf 17737:17744 <> opp_spec
+binder 17755:17755 <> x:100
+R17762:17764 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17759:17760 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalC ::uint63_scope:'-'_x not
+R17761:17761 Cdcl.KeyInt <> x:100 var
+R17774:17776 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R17765:17771 Cdcl.KeyInt <> not_int def
+R17773:17773 Cdcl.KeyInt <> x:100 var
+R17808:17814 Cdcl.KeyInt <> not_int def
+prf 17850:17857 <> bit_ext'
+binder 17868:17868 <> a:101
+binder 17870:17870 <> b:102
+R17937:17946 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 17887:17887 <> n:103
+R17908:17911 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17901:17903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17891:17894 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R17890:17890 Cdcl.KeyInt <> n:103 var
+R17895:17900 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R17904:17907 Corelib.Init.Datatypes <> true constr
+R17919:17921 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17912:17914 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R17916:17916 Cdcl.KeyInt <> a:101 var
+R17918:17918 Cdcl.KeyInt <> n:103 var
+R17922:17924 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R17926:17926 Cdcl.KeyInt <> b:102 var
+R17928:17928 Cdcl.KeyInt <> n:103 var
+R17948:17950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17947:17947 Cdcl.KeyInt <> a:101 var
+R17951:17951 Cdcl.KeyInt <> b:102 var
+R17985:17991 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_ext thm
+R18037:18040 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18030:18032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18024:18028 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<=?'_x not
+R18018:18023 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R18033:18036 Corelib.Init.Datatypes <> true constr
+R18052:18054 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18042:18045 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R18046:18051 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R18055:18058 Corelib.Init.Datatypes <> true constr
+R18108:18112 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_M thm
+prf 18180:18190 <> not_int_lor
+binder 18201:18201 <> a:104
+binder 18203:18203 <> b:105
+R18230:18232 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18213:18219 Cdcl.KeyInt <> not_int def
+R18223:18227 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R18222:18222 Cdcl.KeyInt <> a:104 var
+R18228:18228 Cdcl.KeyInt <> b:105 var
+R18233:18233 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R18243:18250 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R18260:18260 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R18234:18240 Cdcl.KeyInt <> not_int def
+R18242:18242 Cdcl.KeyInt <> a:104 var
+R18251:18257 Cdcl.KeyInt <> not_int def
+R18259:18259 Cdcl.KeyInt <> b:105 var
+R18302:18309 Cdcl.KeyInt <> bit_ext' thm
+R18332:18347 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land_spec abbrev
+R18363:18373 Cdcl.KeyInt <> bit_not_int thm
+R18396:18410 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lor_spec abbrev
+R18423:18430 Stdlib.Bool.Bool <> negb_orb thm
+def 18454:18461 <> bit_excl
+R18469:18471 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 18464:18464 <> x:106
+binder 18466:18466 <> y:107
+R18493:18495 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 18489:18489 <> n:108
+R18512:18515 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18505:18507 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18498:18500 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R18502:18502 Cdcl.KeyInt <> x:106 var
+R18504:18504 Cdcl.KeyInt <> n:108 var
+R18508:18511 Corelib.Init.Datatypes <> true constr
+R18530:18533 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18523:18525 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18516:18518 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R18520:18520 Cdcl.KeyInt <> y:107 var
+R18522:18522 Cdcl.KeyInt <> n:108 var
+R18526:18529 Corelib.Init.Datatypes <> true constr
+R18534:18538 Corelib.Init.Logic <> False ind
+prf 18551:18560 <> lsl_1_spec
+binder 18571:18571 <> n:109
+R18607:18616 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18592:18594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18582:18585 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R18581:18581 Cdcl.KeyInt <> n:109 var
+R18586:18591 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R18595:18598 Corelib.Init.Datatypes <> true constr
+R18638:18640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18619:18629 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R18624:18627 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R18628:18628 Cdcl.KeyInt <> n:109 var
+R18642:18644 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R18645:18648 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R18650:18650 Cdcl.KeyInt <> n:109 var
+R18689:18696 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lsl_spec prfax
+R18711:18721 Stdlib.ZArith.BinInt Z mod_small thm
+R18759:18761 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R18747:18750 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R18763:18765 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R18767:18770 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R18798:18799 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R18800:18803 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R18839:18850 Stdlib.ZArith.BinInt Z pow_nonneg thm
+R18869:18870 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R18884:18887 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R18901:18915 Stdlib.ZArith.BinInt Z pow_lt_mono_r thm
+R18943:18948 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+prf 18977:18990 <> bit_pred_1_lsl
+binder 19001:19001 <> n:110
+binder 19003:19003 <> i:111
+R19040:19049 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19025:19027 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19015:19018 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R19014:19014 Cdcl.KeyInt <> n:110 var
+R19019:19024 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R19028:19031 Corelib.Init.Datatypes <> true constr
+R19077:19080 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19051:19053 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R19062:19064 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R19057:19060 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19061:19061 Cdcl.KeyInt <> n:110 var
+R19068:19068 Cdcl.KeyInt <> i:111 var
+R19088:19091 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R19082:19085 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19087:19087 Cdcl.KeyInt <> i:111 var
+R19092:19095 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19097:19097 Cdcl.KeyInt <> n:110 var
+R19136:19139 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bitE thm
+R19154:19161 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> sub_spec prfax
+R19176:19186 Stdlib.ZArith.BinInt Z mod_small thm
+R19201:19210 Cdcl.KeyInt <> lsl_1_spec thm
+R19251:19253 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R19235:19237 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19239:19242 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R19255:19258 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ' not
+R19287:19292 Stdlib.ZArith.BinInt Z pred def
+R19296:19299 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19306:19306 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19300:19303 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19335:19346 Stdlib.ZArith.BinInt Z ones_equiv thm
+R19359:19379 Stdlib.ZArith.BinInt Z testbit_ones_nonneg thm
+R19412:19421 Cdcl.KeyInt <> lsl_1_spec thm
+R19447:19450 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R19445:19445 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19452:19454 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19455:19458 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19478:19492 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+R19514:19515 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R19518:19521 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R19532:19539 Stdlib.ZArith.BinInt Z of_nat def
+R19577:19579 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R19569:19570 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19571:19574 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R19581:19583 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R19609:19623 Stdlib.ZArith.BinInt Z pow_lt_mono_r thm
+prf 19680:19690 <> not_int_lsl
+binder 19701:19701 <> k:112
+binder 19703:19703 <> m:113
+R19739:19748 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19724:19726 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19714:19717 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R19713:19713 Cdcl.KeyInt <> m:113 var
+R19718:19723 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R19727:19730 Corelib.Init.Datatypes <> true constr
+R19794:19806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19855:19855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19750:19756 Cdcl.KeyInt <> not_int def
+R19780:19785 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R19792:19792 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R19759:19759 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19770:19775 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19779:19779 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19761:19765 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R19769:19769 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R19760:19760 Cdcl.KeyInt <> k:112 var
+R19767:19767 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R19766:19766 Cdcl.KeyInt <> m:113 var
+R19777:19777 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R19776:19776 Cdcl.KeyInt <> m:113 var
+R19787:19790 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19791:19791 Cdcl.KeyInt <> m:113 var
+R19807:19807 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R19837:19843 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R19854:19854 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R19828:19832 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19836:19836 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19808:19808 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R19818:19823 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R19827:19827 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R19809:19815 Cdcl.KeyInt <> not_int def
+R19817:19817 Cdcl.KeyInt <> k:112 var
+R19825:19825 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R19824:19824 Cdcl.KeyInt <> m:113 var
+R19834:19834 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R19833:19833 Cdcl.KeyInt <> m:113 var
+R19850:19852 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R19845:19848 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R19849:19849 Cdcl.KeyInt <> m:113 var
+R19897:19904 Cdcl.KeyInt <> bit_ext' thm
+R19928:19938 Cdcl.KeyInt <> bit_not_int thm
+R19962:19976 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lor_spec abbrev
+R19991:20004 Cdcl.KeyInt <> bit_pred_1_lsl thm
+R20027:20033 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R20049:20055 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R20071:20077 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R20092:20098 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R20113:20123 Cdcl.KeyInt <> bit_not_int thm
+R20145:20148 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20160:20160 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20141:20143 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20150:20153 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R20159:20159 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R20155:20157 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20198:20202 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R20262:20264 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+prf 20313:20322 <> bit_add_or
+R20343:20345 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 20337:20337 <> x:114
+binder 20339:20339 <> y:115
+R20354:20354 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20412:20422 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20366:20368 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 20362:20362 <> n:116
+R20385:20388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20378:20380 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20371:20373 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R20375:20375 Cdcl.KeyInt <> x:114 var
+R20377:20377 Cdcl.KeyInt <> n:116 var
+R20381:20384 Corelib.Init.Datatypes <> true constr
+R20403:20406 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20396:20398 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20389:20391 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R20393:20393 Cdcl.KeyInt <> y:115 var
+R20395:20395 Cdcl.KeyInt <> n:116 var
+R20399:20402 Corelib.Init.Datatypes <> true constr
+R20407:20411 Corelib.Init.Logic <> False ind
+R20437:20439 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20425:20427 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20424:20424 Cdcl.KeyInt <> x:114 var
+R20428:20428 Cdcl.KeyInt <> y:115 var
+R20442:20446 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R20441:20441 Cdcl.KeyInt <> x:114 var
+R20447:20447 Cdcl.KeyInt <> y:115 var
+R20493:20509 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_add_or thm
+prf 20529:20536 <> opp_mask
+binder 20547:20547 <> k:117
+binder 20549:20549 <> m:118
+R20585:20594 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20570:20572 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20560:20563 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R20559:20559 Cdcl.KeyInt <> m:118 var
+R20564:20569 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R20573:20576 Corelib.Init.Datatypes <> true constr
+R20638:20652 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20596:20598 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalC ::uint63_scope:'-'_x not
+R20637:20637 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalC ::uint63_scope:'-'_x not
+R20625:20629 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R20599:20599 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20612:20618 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20624:20624 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20601:20605 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R20611:20611 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R20600:20600 Cdcl.KeyInt <> k:117 var
+R20607:20609 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20606:20606 Cdcl.KeyInt <> m:118 var
+R20620:20622 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20619:20619 Cdcl.KeyInt <> m:118 var
+R20631:20635 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20636:20636 Cdcl.KeyInt <> m:118 var
+R20653:20653 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R20685:20692 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R20699:20700 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'lor'_x not
+R20654:20654 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20675:20680 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20684:20684 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20655:20655 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R20665:20670 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R20674:20674 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R20656:20662 Cdcl.KeyInt <> not_int def
+R20664:20664 Cdcl.KeyInt <> k:117 var
+R20672:20672 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20671:20671 Cdcl.KeyInt <> m:118 var
+R20682:20682 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R20681:20681 Cdcl.KeyInt <> m:118 var
+R20694:20697 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R20698:20698 Cdcl.KeyInt <> m:118 var
+R20744:20751 Cdcl.KeyInt <> opp_spec thm
+R20767:20777 Cdcl.KeyInt <> not_int_lsl thm
+R20810:20819 Cdcl.KeyInt <> bit_add_or thm
+R20869:20875 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R20898:20902 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R20925:20931 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R20954:20960 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R21064:21077 Cdcl.KeyInt <> bit_pred_1_lsl thm
+R21107:21113 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+prf 21192:21194 <> LPO
+R21208:21217 Stdlib.Numbers.Cyclic.Int63.Uint63 <> int abbrev
+binder 21206:21206 <> k:119
+R21230:21233 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21222:21225 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R21221:21221 Cdcl.KeyInt <> k:119 var
+R21226:21229 Cdcl.KeyInt <> zero def
+R21234:21240 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21242:21243 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21241:21241 <> p:120
+R21255:21257 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21244:21250 Cdcl.KeyInt <> testbit def
+R21252:21252 Cdcl.KeyInt <> k:119 var
+R21254:21254 Cdcl.KeyInt <> p:120 var
+R21258:21261 Corelib.Init.Datatypes <> true constr
+R21296:21299 Cdcl.KeyInt <> zero def
+R21325:21331 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21333:21334 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21332:21332 <> p:121
+R21335:21335 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21365:21370 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21385:21385 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21336:21336 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21357:21360 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21338:21341 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R21337:21337 Cdcl.KeyInt <> p:121 var
+R21342:21351 Cdcl.KeyInt <> int_of_nat def
+R21353:21356 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R21361:21364 Corelib.Init.Datatypes <> true constr
+R21378:21380 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21371:21373 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R21377:21377 Cdcl.KeyInt <> p:121 var
+R21381:21384 Corelib.Init.Datatypes <> true constr
+binder 21332:21332 <> p:122
+R21337:21337 Cdcl.KeyInt <> p:122 var
+R21377:21377 Cdcl.KeyInt <> p:122 var
+R21415:21426 Stdlib.Numbers.Cyclic.Int63.Uint63 <> to_Z_bounded thm
+R21445:21446 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> wB def
+R21464:21466 Corelib.Init.Peano <> ::nat_scope:x_'<'_x_'<='_x not
+R21471:21474 Corelib.Init.Peano <> ::nat_scope:x_'<'_x_'<='_x not
+R21467:21470 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R21503:21506 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R21556:21559 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R21604:21607 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R21600:21602 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21609:21611 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R21674:21676 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21677:21679 Cdcl.KeyInt <> one def
+R21712:21713 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R21714:21721 Stdlib.ZArith.BinInt Z of_nat def
+R21761:21763 Cdcl.KeyInt <> one def
+R21843:21852 Cdcl.KeyInt <> int_of_nat def
+R21875:21879 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R21918:21921 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R21906:21906 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21913:21916 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21908:21911 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R21922:21922 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R21930:21934 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R21924:21928 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R22018:22027 Cdcl.KeyInt <> int_of_nat def
+R22082:22084 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R22123:22131 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_split thm
+R22264:22270 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22278:22279 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22275:22277 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 22271:22271 <> p:123
+R22313:22316 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22306:22308 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22282:22285 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R22281:22281 Cdcl.KeyInt <> p:123 var
+R22286:22295 Cdcl.KeyInt <> int_of_nat def
+R22309:22312 Corelib.Init.Datatypes <> true constr
+R22331:22333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22317:22319 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R22323:22326 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'>>'_x not
+R22330:22330 Cdcl.KeyInt <> p:123 var
+R22334:22337 Corelib.Init.Datatypes <> true constr
+binder 22271:22271 <> p:124
+R22281:22281 Cdcl.KeyInt <> p:124 var
+R22330:22330 Cdcl.KeyInt <> p:124 var
+R22437:22444 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> lsr_spec prfax
+R22468:22475 Stdlib.ZArith.BinInt Z of_nat def
+R22478:22478 Corelib.Init.Datatypes <> S constr
+R22491:22493 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22494:22501 Stdlib.ZArith.BinInt Z of_nat def
+R22542:22552 Stdlib.ZArith.BinInt Z pow_add_r thm
+R22640:22640 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R22686:22695 Cdcl.KeyInt <> int_of_nat def
+R22759:22765 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R22796:22801 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'≤?'_x not
+R22803:22805 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R22920:22927 Stdlib.ZArith.BinInt Z to_nat def
+R22930:22933 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R22951:22957 Cdcl.KeyInt <> testbit def
+R22976:22980 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R22981:22988 Stdlib.ZArith.BinInt Z to_nat def
+R22991:22994 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> to_Z def
+R23019:23028 Cdcl.KeyInt <> int_of_nat def
+R23030:23033 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> size def
+R23111:23120 Cdcl.KeyInt <> int_of_nat def
+def 23150:23159 <> lowest_bit
+R23165:23167 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 23162:23162 <> x:125
+R23176:23182 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R23188:23188 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'land'_x not
+R23175:23175 Cdcl.KeyInt <> x:125 var
+R23183:23185 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R23187:23187 Cdcl.KeyInt <> x:125 var
+def 23211:23221 <> find_lowest
+R23227:23229 Corelib.Init.Datatypes <> nat ind
+binder 23224:23224 <> n:126
+R23236:23238 Corelib.Numbers.Cyclic.Int63.PrimInt63 <> int prim
+binder 23233:23233 <> k:127
+R23245:23247 Corelib.Init.Datatypes <> nat ind
+binder 23242:23242 <> p:128
+R23263:23263 Cdcl.KeyInt <> p:128 var
+R23276:23276 Corelib.Init.Datatypes <> O constr
+R23281:23281 Cdcl.KeyInt <> n:126 var
+R23289:23289 Corelib.Init.Datatypes <> S constr
+R23299:23305 Cdcl.KeyInt <> testbit def
+R23307:23307 Cdcl.KeyInt <> k:127 var
+R23311:23313 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R23310:23310 Cdcl.KeyInt <> n:126 var
+R23314:23314 Cdcl.KeyInt <> p:128 var
+R23343:23353 Cdcl.KeyInt <> find_lowest:129 def
+R23357:23357 Cdcl.KeyInt <> k:127 var
+R23355:23355 Cdcl.KeyInt <> n:126 var
+R23328:23330 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R23327:23327 Cdcl.KeyInt <> n:126 var
+R23331:23331 Cdcl.KeyInt <> p:128 var
+prf 23379:23394 <> find_lowest_spec
+binder 23408:23408 <> n:131
+binder 23410:23410 <> p:132
+binder 23412:23412 <> k:133
+R23439:23448 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23432:23434 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23421:23427 Cdcl.KeyInt <> testbit def
+R23429:23429 Cdcl.KeyInt <> k:133 var
+R23431:23431 Cdcl.KeyInt <> n:131 var
+R23435:23438 Corelib.Init.Datatypes <> true constr
+R23449:23449 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R23525:23529 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 23457:23457 <> q:134
+R23502:23505 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23472:23475 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R23477:23479 Corelib.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R23463:23465 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R23462:23462 Cdcl.KeyInt <> n:131 var
+R23466:23466 Cdcl.KeyInt <> p:132 var
+R23476:23476 Cdcl.KeyInt <> q:134 var
+R23480:23490 Cdcl.KeyInt <> find_lowest def
+R23492:23492 Cdcl.KeyInt <> n:131 var
+R23494:23494 Cdcl.KeyInt <> k:133 var
+R23496:23496 Cdcl.KeyInt <> p:132 var
+R23517:23519 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23506:23512 Cdcl.KeyInt <> testbit def
+R23514:23514 Cdcl.KeyInt <> k:133 var
+R23516:23516 Cdcl.KeyInt <> q:134 var
+R23520:23524 Corelib.Init.Datatypes <> false constr
+R23559:23561 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23530:23536 Cdcl.KeyInt <> testbit def
+R23538:23538 Cdcl.KeyInt <> k:133 var
+R23541:23551 Cdcl.KeyInt <> find_lowest def
+R23553:23553 Cdcl.KeyInt <> n:131 var
+R23555:23555 Cdcl.KeyInt <> k:133 var
+R23557:23557 Cdcl.KeyInt <> p:132 var
+R23562:23565 Corelib.Init.Datatypes <> true constr
+R23708:23714 Cdcl.KeyInt <> testbit def
+R23720:23722 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R23723:23723 Corelib.Init.Datatypes <> S constr
+R23823:23832 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R23836:23838 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R23839:23839 Corelib.Init.Datatypes <> S constr
+prf 23918:23930 <> lopp_spec_low
+binder 23944:23944 <> k:135
+binder 23946:23946 <> m:136
+R23955:23955 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24000:24010 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 23963:23963 <> p:137
+R23977:23980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23968:23970 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R23967:23967 Cdcl.KeyInt <> p:137 var
+R23971:23971 Cdcl.KeyInt <> m:136 var
+R23992:23994 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23981:23987 Cdcl.KeyInt <> testbit def
+R23989:23989 Cdcl.KeyInt <> k:135 var
+R23991:23991 Cdcl.KeyInt <> p:137 var
+R23995:23999 Corelib.Init.Datatypes <> false constr
+R24029:24038 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24022:24024 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24011:24017 Cdcl.KeyInt <> testbit def
+R24019:24019 Cdcl.KeyInt <> k:135 var
+R24021:24021 Cdcl.KeyInt <> m:136 var
+R24025:24028 Corelib.Init.Datatypes <> true constr
+binder 24046:24046 <> p:138
+R24060:24063 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24051:24053 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R24050:24050 Cdcl.KeyInt <> p:138 var
+R24054:24054 Cdcl.KeyInt <> m:136 var
+R24088:24090 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24064:24070 Cdcl.KeyInt <> testbit def
+R24073:24082 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R24084:24084 Cdcl.KeyInt <> k:135 var
+R24087:24087 Cdcl.KeyInt <> p:138 var
+R24091:24095 Corelib.Init.Datatypes <> false constr
+R24136:24141 Cdcl.KeyInt <> is_set def
+R24162:24167 Cdcl.KeyInt <> is_set def
+R24201:24212 Cdcl.KeyInt <> is_set_small thm
+R24233:24245 Cdcl.KeyInt <> is_set_decomp thm
+R24302:24307 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R24282:24289 Cdcl.KeyInt <> opp_mask thm
+R24327:24333 Cdcl.KeyInt <> testbit def
+R24349:24358 Cdcl.KeyInt <> int_of_nat def
+R24361:24372 Corelib.Init.Nat <> min def
+R24387:24396 Cdcl.KeyInt <> int_of_nat def
+R24421:24435 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lor_spec abbrev
+R24450:24456 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R24471:24477 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R24492:24496 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+prf 24542:24553 <> lopp_spec_eq
+binder 24563:24563 <> k:139
+binder 24565:24565 <> m:140
+R24574:24574 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24619:24629 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 24582:24582 <> p:141
+R24596:24599 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24587:24589 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R24586:24586 Cdcl.KeyInt <> p:141 var
+R24590:24590 Cdcl.KeyInt <> m:140 var
+R24611:24613 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24600:24606 Cdcl.KeyInt <> testbit def
+R24608:24608 Cdcl.KeyInt <> k:139 var
+R24610:24610 Cdcl.KeyInt <> p:141 var
+R24614:24618 Corelib.Init.Datatypes <> false constr
+R24648:24657 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24641:24643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24630:24636 Cdcl.KeyInt <> testbit def
+R24638:24638 Cdcl.KeyInt <> k:139 var
+R24640:24640 Cdcl.KeyInt <> m:140 var
+R24644:24647 Corelib.Init.Datatypes <> true constr
+R24682:24684 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24658:24664 Cdcl.KeyInt <> testbit def
+R24667:24676 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R24678:24678 Cdcl.KeyInt <> k:139 var
+R24681:24681 Cdcl.KeyInt <> m:140 var
+R24685:24688 Corelib.Init.Datatypes <> true constr
+R24729:24734 Cdcl.KeyInt <> is_set def
+R24755:24760 Cdcl.KeyInt <> is_set def
+R24794:24805 Cdcl.KeyInt <> is_set_small thm
+R24826:24838 Cdcl.KeyInt <> is_set_decomp thm
+R24895:24900 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R24875:24882 Cdcl.KeyInt <> opp_mask thm
+R24920:24926 Cdcl.KeyInt <> testbit def
+R24942:24951 Cdcl.KeyInt <> int_of_nat def
+R24954:24965 Corelib.Init.Nat <> min def
+R24980:24989 Cdcl.KeyInt <> int_of_nat def
+R25014:25028 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lor_spec abbrev
+R25043:25049 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R25064:25070 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R25085:25089 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R25103:25108 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+def 25158:25163 <> digits
+R25168:25171 Corelib.Init.Datatypes <> Some constr
+prf 25192:25200 <> testbit_M
+binder 25211:25211 <> k:142
+binder 25213:25213 <> n:143
+R25229:25232 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25216:25219 Cdcl.PatriciaR <> le_o def
+R25221:25226 Cdcl.KeyInt <> digits def
+R25228:25228 Cdcl.KeyInt <> n:143 var
+R25244:25246 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25233:25239 Cdcl.KeyInt <> testbit def
+R25241:25241 Cdcl.KeyInt <> k:142 var
+R25243:25243 Cdcl.KeyInt <> n:143 var
+R25247:25251 Corelib.Init.Datatypes <> false constr
+R25293:25299 Cdcl.KeyInt <> testbit def
+R25317:25321 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R25334:25337 Corelib.Init.Datatypes <> true constr
+prf 25383:25396 <> lopp_spec_high
+binder 25406:25406 <> k:144
+binder 25408:25408 <> m:145
+R25411:25411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25456:25460 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 25419:25419 <> p:146
+R25433:25436 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25424:25426 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R25423:25423 Cdcl.KeyInt <> p:146 var
+R25427:25427 Cdcl.KeyInt <> m:145 var
+R25448:25450 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25437:25443 Cdcl.KeyInt <> testbit def
+R25445:25445 Cdcl.KeyInt <> k:144 var
+R25447:25447 Cdcl.KeyInt <> p:146 var
+R25451:25455 Corelib.Init.Datatypes <> false constr
+R25479:25518 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25472:25474 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25461:25467 Cdcl.KeyInt <> testbit def
+R25469:25469 Cdcl.KeyInt <> k:144 var
+R25471:25471 Cdcl.KeyInt <> m:145 var
+R25475:25478 Corelib.Init.Datatypes <> true constr
+binder 25526:25526 <> p:147
+R25540:25543 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25531:25533 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R25530:25530 Cdcl.KeyInt <> p:147 var
+R25534:25534 Cdcl.KeyInt <> m:145 var
+R25559:25563 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R25544:25545 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R25546:25549 Cdcl.PatriciaR <> le_o def
+R25551:25556 Cdcl.KeyInt <> digits def
+R25558:25558 Cdcl.KeyInt <> p:147 var
+R25588:25590 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25564:25570 Cdcl.KeyInt <> testbit def
+R25573:25582 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R25584:25584 Cdcl.KeyInt <> k:144 var
+R25587:25587 Cdcl.KeyInt <> p:147 var
+R25591:25594 Corelib.Init.Datatypes <> negb def
+R25597:25603 Cdcl.KeyInt <> testbit def
+R25605:25605 Cdcl.KeyInt <> k:144 var
+R25607:25607 Cdcl.KeyInt <> p:147 var
+R25649:25654 Cdcl.KeyInt <> is_set def
+R25675:25680 Cdcl.KeyInt <> is_set def
+R25714:25725 Cdcl.KeyInt <> is_set_small thm
+R25746:25758 Cdcl.KeyInt <> is_set_decomp thm
+R25842:25854 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R25822:25829 Cdcl.KeyInt <> opp_mask thm
+R25874:25880 Cdcl.KeyInt <> testbit def
+R25898:25901 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R25914:25918 Corelib.Init.Datatypes <> false constr
+R25941:25955 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lor_spec abbrev
+R25970:25976 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R25992:25998 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsl thm
+R26013:26017 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_1 thm
+R26033:26039 Stdlib.Numbers.Cyclic.Int63.Uint63 <> bit_lsr thm
+R26053:26065 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R26145:26157 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> digits def
+R26122:26132 Cdcl.KeyInt <> bit_not_int thm
+R26181:26183 Corelib.Numbers.Cyclic.Int63.Uint63Axioms <> bit def
+R26204:26207 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R26241:26241 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R26200:26202 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R26188:26197 Cdcl.KeyInt <> int_of_nat def
+R26220:26223 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R26240:26240 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'-'_x not
+R26208:26217 Cdcl.KeyInt <> int_of_nat def
+R26236:26238 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'+'_x not
+R26224:26233 Cdcl.KeyInt <> int_of_nat def
+prf 26281:26288 <> ltb_spec
+binder 26298:26299 <> m1:148
+binder 26301:26302 <> n1:149
+binder 26304:26305 <> m2:150
+binder 26307:26308 <> n2:151
+R26324:26327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26311:26317 Cdcl.KeyInt <> is_mask def
+R26319:26320 Cdcl.KeyInt <> m1:148 var
+R26322:26323 Cdcl.KeyInt <> n1:149 var
+R26341:26345 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26387:26387 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26328:26334 Cdcl.KeyInt <> is_mask def
+R26336:26337 Cdcl.KeyInt <> m2:150 var
+R26339:26340 Cdcl.KeyInt <> n2:151 var
+R26369:26373 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R26362:26364 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26346:26355 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltb abbrev
+R26357:26358 Cdcl.KeyInt <> m1:148 var
+R26360:26361 Cdcl.KeyInt <> m2:150 var
+R26365:26368 Corelib.Init.Datatypes <> true constr
+R26377:26379 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R26375:26376 Cdcl.KeyInt <> n1:149 var
+R26380:26381 Cdcl.KeyInt <> n2:151 var
+R26421:26429 Cdcl.KeyInt <> mask_spec def
+R26447:26455 Cdcl.KeyInt <> mask_spec def
+R26480:26484 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R26527:26531 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R26589:26592 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26630:26633 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R26666:26675 Stdlib.Arith.PeanoNat Nat ltb_lt thm
+R26688:26694 Cdcl.KeyInt <> eqb_iff thm
+binder 26714:26715 <> n1:152
+binder 26717:26718 <> n2:153
+R26724:26731 Stdlib.Bool.Bool <> eqb def
+R26754:26757 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<?'_x not
+R26737:26740 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R26734:26736 Cdcl.KeyInt <> one def
+R26741:26750 Cdcl.KeyInt <> int_of_nat def
+R26752:26753 Cdcl.KeyInt <> n1:152 var
+R26761:26764 Stdlib.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalB ::uint63_scope:x_'<<'_x not
+R26758:26760 Cdcl.KeyInt <> one def
+R26765:26774 Cdcl.KeyInt <> int_of_nat def
+R26776:26777 Cdcl.KeyInt <> n2:153 var
+R26790:26793 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R26788:26789 Cdcl.KeyInt <> n1:152 var
+R26794:26795 Cdcl.KeyInt <> n2:153 var
+binder 26714:26715 <> n1:154
+binder 26717:26718 <> n2:155
+R26752:26753 Cdcl.KeyInt <> n1:154 var
+R26776:26777 Cdcl.KeyInt <> n2:155 var
+R26788:26789 Cdcl.KeyInt <> n1:154 var
+R26794:26795 Cdcl.KeyInt <> n2:155 var
+R26823:26825 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26826:26829 Corelib.Init.Datatypes <> true constr
+R26845:26861 Cdcl.KeyInt <> forall_2n_correct thm
+inst 26905:26908 <> KInt
+R26912:26924 Cdcl.PatriciaR Keys_Base Key class
+R26927:26936 Stdlib.Numbers.Cyclic.Int63.Uint63 <> int abbrev
+R26954:26966 Cdcl.PatriciaR Keys_Base eqb meth
+R26988:27004 Cdcl.PatriciaR Keys_Base testbit meth
+R27023:27038 Cdcl.PatriciaR Keys_Base interp meth
+R27079:27092 Cdcl.PatriciaR Keys_Base land meth
+R27115:27128 Cdcl.PatriciaR Keys_Base lxor meth
+R27151:27164 Cdcl.PatriciaR Keys_Base lopp meth
+R27186:27198 Cdcl.PatriciaR Keys_Base ltb meth
+R27220:27235 Cdcl.PatriciaR Keys_Base digits meth
+R27254:27272 Cdcl.PatriciaR Keys_Base testbit_M meth
+R27294:27312 Cdcl.PatriciaR Keys_Base zero_spec meth
+R27333:27350 Cdcl.PatriciaR Keys_Base eqb_spec meth
+R27378:27399 Cdcl.PatriciaR Keys_Base testbit_spec meth
+R27423:27443 Cdcl.PatriciaR Keys_Base interp_spec meth
+R27466:27484 Cdcl.PatriciaR Keys_Base land_spec meth
+R27505:27523 Cdcl.PatriciaR Keys_Base lxor_spec meth
+R27544:27566 Cdcl.PatriciaR Keys_Base lopp_spec_low meth
+R27591:27612 Cdcl.PatriciaR Keys_Base lopp_spec_eq meth
+R27636:27659 Cdcl.PatriciaR Keys_Base lopp_spec_high meth
+R27685:27702 Cdcl.PatriciaR Keys_Base ltb_spec meth
+R27722:27734 Cdcl.PatriciaR Keys_Base LPO meth
+R26970:26979 Stdlib.Numbers.Cyclic.Int63.Uint63 <> eqb abbrev
+R27008:27014 Cdcl.KeyInt <> testbit def
+binder 27047:27047 <> i:156
+R27053:27062 Stdlib.Numbers.Cyclic.Int63.Uint63 <> sub abbrev
+R27064:27064 Cdcl.KeyInt <> i:156 var
+R27066:27068 Cdcl.KeyInt <> one def
+R27096:27106 Stdlib.Numbers.Cyclic.Int63.Uint63 <> land abbrev
+R27132:27142 Stdlib.Numbers.Cyclic.Int63.Uint63 <> lxor abbrev
+R27168:27177 Stdlib.Numbers.Cyclic.Int63.Uint63 <> opp def
+R27202:27211 Stdlib.Numbers.Cyclic.Int63.Uint63 <> ltb abbrev
+R27240:27245 Cdcl.KeyInt <> digits def
+R27277:27285 Cdcl.KeyInt <> testbit_M thm
+R27316:27324 Cdcl.KeyInt <> zero_spec thm
+R27355:27369 Cdcl.KeyInt <> eqb_spec thm
+R27403:27414 Cdcl.KeyInt <> testbit_spec thm
+R27447:27457 Cdcl.KeyInt <> interp_spec thm
+R27488:27496 Cdcl.KeyInt <> land_spec thm
+R27527:27535 Cdcl.KeyInt <> lxor_spec thm
+R27570:27582 Cdcl.KeyInt <> lopp_spec_low thm
+R27616:27627 Cdcl.KeyInt <> lopp_spec_eq thm
+R27663:27676 Cdcl.KeyInt <> lopp_spec_high thm
+R27706:27713 Cdcl.KeyInt <> ltb_spec thm
+R27739:27741 Cdcl.KeyInt <> LPO thm

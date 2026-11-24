@@ -1,0 +1,487 @@
+DIGEST 86cca62f282291943831d5a665423f98
+FStdlib.Structures.Equalities
+R703:717 Stdlib.Classes.RelationClasses <> <> lib
+R747:750 Stdlib.Bool.Bool <> <> lib
+R752:760 Stdlib.Classes.Morphisms <> <> lib
+R762:767 Stdlib.Setoids.Setoid <> <> lib
+modtype 940:942 <> Nop
+R949:951 Stdlib.Structures.Equalities Nop <> modtype
+modtype 1013:1015 <> Typ
+ax 1041:1041 Typ t
+R1055:1057 Stdlib.Structures.Equalities Typ <> modtype
+R1140:1142 Stdlib.Structures.Equalities Typ <> modtype
+modtype 1124:1128 <> HasEq
+R1124:1128 Stdlib.Structures.Equalities T <> mod
+ax 1169:1170 HasEq eq
+R1175:1178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1174:1174 Stdlib.Structures.Equalities T t defax
+R1180:1183 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1179:1179 Stdlib.Structures.Equalities T t defax
+R1194:1198 Stdlib.Structures.Equalities HasEq <> modtype
+R1220:1222 Stdlib.Structures.Equalities Typ <> modtype
+R1227:1231 Stdlib.Structures.Equalities HasEq <> modtype
+modtype 1214:1215 <> Eq
+R1268:1269 Stdlib.Structures.Equalities Eq <> modtype
+modtype 1247:1256 <> EqNotation
+R1247:1256 Stdlib.Structures.Equalities E <> mod
+R1289:1290 Stdlib.Structures.Equalities E eq defax
+not 1281:1281 EqNotation :::x_'=='_x
+R1349:1349 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1350:1351 Stdlib.Structures.Equalities E eq defax
+not 1336:1336 EqNotation :::x_'~='_x
+R1395:1404 Stdlib.Structures.Equalities EqNotation <> modtype
+R1427:1428 Stdlib.Structures.Equalities Eq <> modtype
+R1433:1442 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 1420:1422 <> Eq'
+R1546:1547 Stdlib.Structures.Equalities Eq <> modtype
+modtype 1531:1534 <> IsEq
+R1531:1534 Stdlib.Structures.Equalities E <> mod
+inst 1580:1587 IsEq eq_equiv
+R1591:1601 Corelib.Classes.RelationClasses <> Equivalence class
+R1603:1604 Stdlib.Structures.Equalities E eq defax
+R1611:1614 Stdlib.Structures.Equalities IsEq <> modtype
+R1719:1721 Stdlib.Structures.Equalities Eq' <> modtype
+modtype 1700:1707 <> IsEqOrig
+R1700:1707 Stdlib.Structures.Equalities E <> mod
+ax 1733:1739 IsEqOrig eq_refl
+R1754:1754 Stdlib.Structures.Equalities E t defax
+binder 1750:1750 <> x:5
+R1758:1759 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1757:1757 Stdlib.Structures.Equalities <> x:5 var
+R1760:1760 Stdlib.Structures.Equalities <> x:5 var
+ax 1771:1776 IsEqOrig eq_sym
+R1793:1793 Stdlib.Structures.Equalities E t defax
+binder 1787:1787 <> x:8
+binder 1789:1789 <> y:9
+R1800:1803 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1797:1798 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1796:1796 Stdlib.Structures.Equalities <> x:8 var
+R1799:1799 Stdlib.Structures.Equalities <> y:9 var
+R1805:1806 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1804:1804 Stdlib.Structures.Equalities <> y:9 var
+R1807:1807 Stdlib.Structures.Equalities <> x:8 var
+ax 1818:1825 IsEqOrig eq_trans
+R1844:1844 Stdlib.Structures.Equalities E t defax
+binder 1836:1836 <> x:12
+binder 1838:1838 <> y:13
+binder 1840:1840 <> z:14
+R1851:1854 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1848:1849 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1847:1847 Stdlib.Structures.Equalities <> x:12 var
+R1850:1850 Stdlib.Structures.Equalities <> y:13 var
+R1859:1862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1856:1857 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1855:1855 Stdlib.Structures.Equalities <> y:13 var
+R1858:1858 Stdlib.Structures.Equalities <> z:14 var
+R1864:1865 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1863:1863 Stdlib.Structures.Equalities <> x:12 var
+R1866:1866 Stdlib.Structures.Equalities <> z:14 var
+R1969:1976 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R2051:2053 Stdlib.Structures.Equalities Eq' <> modtype
+modtype 2032:2039 <> HasEqDec
+R2032:2039 Stdlib.Structures.Equalities E <> mod
+ax 2069:2074 HasEqDec eq_dec
+R2091:2091 Stdlib.Structures.Equalities E t defax
+binder 2085:2085 <> x:17
+binder 2087:2087 <> y:18
+R2094:2095 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2100:2106 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2113:2114 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2097:2098 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2096:2096 Stdlib.Structures.Equalities <> x:17 var
+R2099:2099 Stdlib.Structures.Equalities <> y:18 var
+R2107:2108 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2110:2111 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2109:2109 Stdlib.Structures.Equalities <> x:17 var
+R2112:2112 Stdlib.Structures.Equalities <> y:18 var
+R2121:2128 Stdlib.Structures.Equalities HasEqDec <> modtype
+R2283:2285 Stdlib.Structures.Equalities Typ <> modtype
+modtype 2266:2271 <> HasEqb
+R2266:2271 Stdlib.Structures.Equalities T <> mod
+ax 2308:2310 HasEqb eqb
+R2315:2318 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2314:2314 Stdlib.Structures.Equalities T t defax
+R2320:2323 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2319:2319 Stdlib.Structures.Equalities T t defax
+R2324:2327 Corelib.Init.Datatypes <> bool ind
+R2334:2339 Stdlib.Structures.Equalities HasEqb <> modtype
+R2366:2368 Stdlib.Structures.Equalities Typ <> modtype
+R2373:2377 Stdlib.Structures.Equalities HasEq <> modtype
+R2379:2379 Stdlib.Structures.Equalities T <> mod
+R2384:2389 Stdlib.Structures.Equalities HasEqb <> modtype
+R2391:2391 Stdlib.Structures.Equalities T <> mod
+modtype 2355:2361 <> EqbSpec
+ax 2407:2412 EqbSpec eqb_eq
+binder 2423:2423 <> x:23
+binder 2425:2425 <> y:24
+R2444:2448 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2437:2439 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2428:2432 Stdlib.Structures.Equalities Y eqb defax
+R2436:2436 Stdlib.Structures.Equalities <> y:24 var
+R2434:2434 Stdlib.Structures.Equalities <> x:23 var
+R2440:2443 Corelib.Init.Datatypes <> true constr
+R2449:2452 Stdlib.Structures.Equalities X eq defax
+R2456:2456 Stdlib.Structures.Equalities <> y:24 var
+R2454:2454 Stdlib.Structures.Equalities <> x:23 var
+R2463:2469 Stdlib.Structures.Equalities EqbSpec <> modtype
+R2500:2502 Stdlib.Structures.Equalities Typ <> modtype
+R2507:2512 Stdlib.Structures.Equalities HasEqb <> modtype
+R2514:2514 Stdlib.Structures.Equalities T <> mod
+modtype 2485:2495 <> EqbNotation
+R2534:2538 Stdlib.Structures.Equalities E eqb defax
+not 2526:2526 EqbNotation :::x_'=?'_x
+R2577:2587 Stdlib.Structures.Equalities EqbNotation <> modtype
+R2616:2617 Stdlib.Structures.Equalities Eq <> modtype
+R2623:2628 Stdlib.Structures.Equalities HasEqb <> modtype
+R2630:2630 Stdlib.Structures.Equalities E <> mod
+R2635:2641 Stdlib.Structures.Equalities EqbSpec <> modtype
+R2643:2643 Stdlib.Structures.Equalities E <> mod
+R2645:2645 Stdlib.Structures.Equalities E <> mod
+modtype 2603:2611 <> HasEqBool
+R2780:2781 Stdlib.Structures.Equalities Eq <> modtype
+R2786:2789 Stdlib.Structures.Equalities IsEq <> modtype
+modtype 2764:2775 <> EqualityType
+R2825:2826 Stdlib.Structures.Equalities Eq <> modtype
+R2831:2838 Stdlib.Structures.Equalities IsEqOrig <> modtype
+modtype 2805:2820 <> EqualityTypeOrig
+R2874:2885 Stdlib.Structures.Equalities EqualityType <> modtype
+R2890:2905 Stdlib.Structures.Equalities EqualityTypeOrig <> modtype
+R2911:2912 Stdlib.Structures.Equalities Eq <> modtype
+R2917:2920 Stdlib.Structures.Equalities IsEq <> modtype
+R2925:2932 Stdlib.Structures.Equalities IsEqOrig <> modtype
+modtype 2854:2869 <> EqualityTypeBoth
+R2965:2976 Stdlib.Structures.Equalities EqualityType <> modtype
+R2982:2983 Stdlib.Structures.Equalities Eq <> modtype
+R2988:2991 Stdlib.Structures.Equalities IsEq <> modtype
+R2996:3003 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 2948:2960 <> DecidableType
+R3040:3055 Stdlib.Structures.Equalities EqualityTypeOrig <> modtype
+R3061:3062 Stdlib.Structures.Equalities Eq <> modtype
+R3067:3074 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R3079:3086 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 3019:3035 <> DecidableTypeOrig
+R3123:3135 Stdlib.Structures.Equalities DecidableType <> modtype
+R3140:3156 Stdlib.Structures.Equalities DecidableTypeOrig <> modtype
+R3162:3177 Stdlib.Structures.Equalities EqualityTypeBoth <> modtype
+R3182:3189 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 3102:3118 <> DecidableTypeBoth
+R3228:3239 Stdlib.Structures.Equalities EqualityType <> modtype
+R3245:3246 Stdlib.Structures.Equalities Eq <> modtype
+R3251:3254 Stdlib.Structures.Equalities IsEq <> modtype
+R3259:3267 Stdlib.Structures.Equalities HasEqBool <> modtype
+modtype 3205:3223 <> BooleanEqualityType
+R3307:3319 Stdlib.Structures.Equalities DecidableType <> modtype
+R3324:3342 Stdlib.Structures.Equalities BooleanEqualityType <> modtype
+R3348:3349 Stdlib.Structures.Equalities Eq <> modtype
+R3354:3357 Stdlib.Structures.Equalities IsEq <> modtype
+R3362:3369 Stdlib.Structures.Equalities HasEqDec <> modtype
+R3374:3382 Stdlib.Structures.Equalities HasEqBool <> modtype
+modtype 3283:3302 <> BooleanDecidableType
+R3419:3435 Stdlib.Structures.Equalities DecidableTypeBoth <> modtype
+R3440:3459 Stdlib.Structures.Equalities BooleanDecidableType <> modtype
+R3465:3466 Stdlib.Structures.Equalities Eq <> modtype
+R3471:3474 Stdlib.Structures.Equalities IsEq <> modtype
+R3479:3486 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R3491:3498 Stdlib.Structures.Equalities HasEqDec <> modtype
+R3503:3511 Stdlib.Structures.Equalities HasEqBool <> modtype
+modtype 3398:3414 <> DecidableTypeFull
+R3581:3592 Stdlib.Structures.Equalities EqualityType <> modtype
+R3597:3606 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3564:3576 <> EqualityType'
+R3642:3657 Stdlib.Structures.Equalities EqualityTypeOrig <> modtype
+R3662:3671 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3621:3637 <> EqualityTypeOrig'
+R3707:3722 Stdlib.Structures.Equalities EqualityTypeBoth <> modtype
+R3727:3736 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3686:3702 <> EqualityTypeBoth'
+R3769:3781 Stdlib.Structures.Equalities DecidableType <> modtype
+R3786:3795 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3751:3764 <> DecidableType'
+R3832:3848 Stdlib.Structures.Equalities DecidableTypeOrig <> modtype
+R3853:3862 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3810:3827 <> DecidableTypeOrig'
+R3899:3915 Stdlib.Structures.Equalities DecidableTypeBoth <> modtype
+R3920:3929 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 3877:3894 <> DecidableTypeBoth'
+R3969:3987 Stdlib.Structures.Equalities BooleanEqualityType <> modtype
+R3992:4001 Stdlib.Structures.Equalities EqNotation <> modtype
+R4006:4016 Stdlib.Structures.Equalities EqbNotation <> modtype
+modtype 3944:3963 <> BooleanEqualityType'
+R4057:4076 Stdlib.Structures.Equalities BooleanDecidableType <> modtype
+R4081:4090 Stdlib.Structures.Equalities EqNotation <> modtype
+R4095:4105 Stdlib.Structures.Equalities EqbNotation <> modtype
+modtype 4031:4051 <> BooleanDecidableType'
+R4142:4158 Stdlib.Structures.Equalities DecidableTypeFull <> modtype
+R4163:4172 Stdlib.Structures.Equalities EqNotation <> modtype
+modtype 4120:4137 <> DecidableTypeFull'
+R4297:4298 Stdlib.Structures.Equalities Eq <> modtype
+R4303:4306 Stdlib.Structures.Equalities IsEq <> modtype
+R4308:4308 Stdlib.Structures.Equalities E <> mod
+R4314:4321 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R4323:4323 Stdlib.Structures.Equalities E <> mod
+mod 4283:4292 <> BackportEq
+def 4338:4344 BackportEq eq_refl
+R4350:4370 Corelib.Classes.RelationClasses <> Equivalence_Reflexive meth
+R4376:4385 Stdlib.Structures.Equalities F eq_equiv prfax
+def 4400:4405 BackportEq eq_sym
+R4411:4431 Corelib.Classes.RelationClasses <> Equivalence_Symmetric meth
+R4437:4446 Stdlib.Structures.Equalities F eq_equiv prfax
+def 4461:4468 BackportEq eq_trans
+R4474:4495 Corelib.Classes.RelationClasses <> Equivalence_Transitive meth
+R4501:4510 Stdlib.Structures.Equalities F eq_equiv prfax
+R4517:4526 Stdlib.Structures.Equalities BackportEq <> mod
+R4549:4550 Stdlib.Structures.Equalities Eq <> modtype
+R4555:4562 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R4564:4564 Stdlib.Structures.Equalities E <> mod
+R4570:4573 Stdlib.Structures.Equalities IsEq <> modtype
+R4575:4575 Stdlib.Structures.Equalities E <> mod
+mod 4537:4544 <> UpdateEq
+inst 4598:4605 UpdateEq eq_equiv
+R4609:4619 Corelib.Classes.RelationClasses <> Equivalence class
+R4621:4624 Stdlib.Structures.Equalities E eq defax
+R4642:4658 Corelib.Classes.RelationClasses <> Build_Equivalence constr
+R4662:4670 Stdlib.Structures.Equalities F eq_refl prfax
+R4672:4679 Stdlib.Structures.Equalities F eq_sym prfax
+R4681:4690 Stdlib.Structures.Equalities F eq_trans prfax
+R4703:4710 Stdlib.Structures.Equalities UpdateEq <> mod
+R4736:4747 Stdlib.Structures.Equalities EqualityType <> modtype
+R4753:4768 Stdlib.Structures.Equalities EqualityTypeBoth <> modtype
+R4774:4774 Stdlib.Structures.Equalities E <> mod
+R4779:4788 Stdlib.Structures.Equalities BackportEq <> mod
+mod 4721:4731 <> Backport_ET
+R4812:4827 Stdlib.Structures.Equalities EqualityTypeOrig <> modtype
+R4833:4848 Stdlib.Structures.Equalities EqualityTypeBoth <> modtype
+R4854:4854 Stdlib.Structures.Equalities E <> mod
+R4859:4866 Stdlib.Structures.Equalities UpdateEq <> mod
+mod 4799:4807 <> Update_ET
+R4892:4904 Stdlib.Structures.Equalities DecidableType <> modtype
+R4910:4926 Stdlib.Structures.Equalities DecidableTypeBoth <> modtype
+R4932:4932 Stdlib.Structures.Equalities E <> mod
+R4937:4946 Stdlib.Structures.Equalities BackportEq <> mod
+mod 4877:4887 <> Backport_DT
+R4970:4986 Stdlib.Structures.Equalities DecidableTypeOrig <> modtype
+R4992:5008 Stdlib.Structures.Equalities DecidableTypeBoth <> modtype
+R5014:5014 Stdlib.Structures.Equalities E <> mod
+R5019:5026 Stdlib.Structures.Equalities UpdateEq <> mod
+mod 4957:4965 <> Update_DT
+R5125:5126 Stdlib.Structures.Equalities Eq <> modtype
+R5131:5138 Stdlib.Structures.Equalities HasEqDec <> modtype
+R5140:5140 Stdlib.Structures.Equalities E <> mod
+R5146:5154 Stdlib.Structures.Equalities HasEqBool <> modtype
+R5156:5156 Stdlib.Structures.Equalities E <> mod
+mod 5108:5120 <> HasEqDec2Bool
+def 5171:5173 HasEqDec2Bool eqb
+binder 5175:5175 <> x:27
+binder 5177:5177 <> y:28
+R5185:5192 Stdlib.Structures.Equalities F eq_dec defax
+R5196:5196 Stdlib.Structures.Equalities <> y:28 var
+R5194:5194 Stdlib.Structures.Equalities <> x:27 var
+R5213:5217 Corelib.Init.Datatypes <> false constr
+R5203:5206 Corelib.Init.Datatypes <> true constr
+prf 5227:5232 HasEqDec2Bool eqb_eq
+binder 5243:5243 <> x:29
+binder 5245:5245 <> y:30
+R5262:5266 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5255:5257 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5248:5250 Stdlib.Structures.Equalities HasEqDec2Bool eqb def
+R5254:5254 Stdlib.Structures.Equalities <> y:30 var
+R5252:5252 Stdlib.Structures.Equalities <> x:29 var
+R5258:5261 Corelib.Init.Datatypes <> true constr
+R5267:5270 Stdlib.Structures.Equalities E eq defax
+R5274:5274 Stdlib.Structures.Equalities <> y:30 var
+R5272:5272 Stdlib.Structures.Equalities <> x:29 var
+R5306:5308 Stdlib.Structures.Equalities HasEqDec2Bool eqb def
+R5320:5327 Stdlib.Structures.Equalities F eq_dec defax
+R5432:5444 Stdlib.Structures.Equalities HasEqDec2Bool <> mod
+R5472:5473 Stdlib.Structures.Equalities Eq <> modtype
+R5478:5486 Stdlib.Structures.Equalities HasEqBool <> modtype
+R5488:5488 Stdlib.Structures.Equalities E <> mod
+R5494:5501 Stdlib.Structures.Equalities HasEqDec <> modtype
+R5503:5503 Stdlib.Structures.Equalities E <> mod
+mod 5455:5467 <> HasEqBool2Dec
+prf 5513:5518 HasEqBool2Dec eq_dec
+binder 5529:5529 <> x:31
+binder 5531:5531 <> y:32
+R5534:5534 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5543:5545 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5555:5555 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5535:5538 Stdlib.Structures.Equalities E eq defax
+R5542:5542 Stdlib.Structures.Equalities <> y:32 var
+R5540:5540 Stdlib.Structures.Equalities <> x:31 var
+R5546:5546 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5547:5550 Stdlib.Structures.Equalities E eq defax
+R5554:5554 Stdlib.Structures.Equalities <> y:32 var
+R5552:5552 Stdlib.Structures.Equalities <> x:31 var
+R5591:5598 Stdlib.Structures.Equalities F eqb_eq defax
+R5618:5622 Stdlib.Structures.Equalities F eqb defax
+R5723:5735 Stdlib.Structures.Equalities HasEqBool2Dec <> mod
+R5758:5770 Stdlib.Structures.Equalities DecidableType <> modtype
+R5776:5795 Stdlib.Structures.Equalities BooleanDecidableType <> modtype
+R5801:5801 Stdlib.Structures.Equalities E <> mod
+R5806:5818 Stdlib.Structures.Equalities HasEqDec2Bool <> mod
+mod 5746:5753 <> Dec2Bool
+R5841:5859 Stdlib.Structures.Equalities BooleanEqualityType <> modtype
+R5865:5884 Stdlib.Structures.Equalities BooleanDecidableType <> modtype
+R5890:5890 Stdlib.Structures.Equalities E <> mod
+R5895:5907 Stdlib.Structures.Equalities HasEqBool2Dec <> mod
+mod 5829:5836 <> Bool2Dec
+R5993:6012 Stdlib.Structures.Equalities BooleanEqualityType' <> modtype
+mod 5963:5979 <> BoolEqualityFacts
+inst 6074:6083 BoolEqualityFacts eqb_compat
+R6087:6092 Corelib.Classes.Morphisms <> Proper class
+R6123:6125 Stdlib.Structures.Equalities E eqb defax
+R6099:6103 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6095:6098 Stdlib.Structures.Equalities E eq defax
+R6108:6112 Corelib.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6104:6107 Stdlib.Structures.Equalities E eq defax
+R6113:6120 Corelib.Init.Logic <> eq ind
+R6169:6182 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R6199:6204 Stdlib.Structures.Equalities E eqb_eq defax
+prf 6294:6301 BoolEqualityFacts eqb_spec
+binder 6303:6303 <> x:33
+binder 6305:6305 <> y:34
+R6309:6315 Corelib.Init.Datatypes <> reflect ind
+R6326:6329 Stdlib.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6325:6325 Stdlib.Structures.Equalities <> x:33 var
+R6330:6330 Stdlib.Structures.Equalities <> y:34 var
+R6319:6320 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6318:6318 Stdlib.Structures.Equalities <> x:33 var
+R6321:6321 Stdlib.Structures.Equalities <> y:34 var
+R6347:6357 Stdlib.Bool.Bool <> iff_reflect thm
+R6376:6381 Stdlib.Structures.Equalities E eqb_eq defax
+prf 6433:6439 BoolEqualityFacts eqb_neq
+binder 6441:6441 <> x:35
+binder 6443:6443 <> y:36
+R6463:6467 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6447:6447 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6454:6457 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6449:6452 Stdlib.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6448:6448 Stdlib.Structures.Equalities <> x:35 var
+R6453:6453 Stdlib.Structures.Equalities <> y:36 var
+R6458:6462 Corelib.Init.Datatypes <> false constr
+R6469:6472 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6468:6468 Stdlib.Structures.Equalities <> x:35 var
+R6473:6473 Stdlib.Structures.Equalities <> y:36 var
+R6498:6515 Stdlib.Bool.Bool <> not_true_iff_false thm
+R6518:6523 Stdlib.Structures.Equalities E eqb_eq defax
+prf 6576:6583 BoolEqualityFacts eqb_refl
+binder 6585:6585 <> x:37
+R6589:6589 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6596:6599 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6591:6594 Stdlib.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6590:6590 Stdlib.Structures.Equalities <> x:37 var
+R6595:6595 Stdlib.Structures.Equalities <> x:37 var
+R6600:6603 Corelib.Init.Datatypes <> true constr
+R6623:6628 Stdlib.Structures.Equalities E eqb_eq defax
+prf 6643:6649 BoolEqualityFacts eqb_sym
+binder 6651:6651 <> x:38
+binder 6653:6653 <> y:39
+R6657:6657 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6664:6668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6675:6675 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6659:6662 Stdlib.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6658:6658 Stdlib.Structures.Equalities <> x:38 var
+R6663:6663 Stdlib.Structures.Equalities <> y:39 var
+R6670:6673 Stdlib.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6669:6669 Stdlib.Structures.Equalities <> y:39 var
+R6674:6674 Stdlib.Structures.Equalities <> x:38 var
+R6691:6704 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R6721:6726 Stdlib.Structures.Equalities E eqb_eq defax
+R6797:6813 Stdlib.Structures.Equalities BoolEqualityFacts <> mod
+R6968:6970 Stdlib.Structures.Equalities Typ <> modtype
+R6976:6980 Stdlib.Structures.Equalities HasEq <> modtype
+R6982:6982 Stdlib.Structures.Equalities T <> mod
+modtype 6947:6956 <> HasUsualEq
+R6947:6956 Stdlib.Structures.Equalities T <> mod
+def 6997:6998 HasUsualEq eq
+R7004:7011 Corelib.Init.Logic <> eq ind
+R7013:7013 Stdlib.Structures.Equalities T t defax
+R7020:7029 Stdlib.Structures.Equalities HasUsualEq <> modtype
+R7056:7057 Stdlib.Structures.Equalities Eq <> modtype
+R7062:7064 Stdlib.Structures.Equalities Typ <> modtype
+R7069:7078 Stdlib.Structures.Equalities HasUsualEq <> modtype
+modtype 7045:7051 <> UsualEq
+R7107:7113 Stdlib.Structures.Equalities UsualEq <> modtype
+R7119:7122 Stdlib.Structures.Equalities IsEq <> modtype
+R7124:7124 Stdlib.Structures.Equalities E <> mod
+modtype 7094:7102 <> UsualIsEq
+def 7208:7215 UsualIsEq eq_equiv
+R7219:7229 Corelib.Classes.RelationClasses <> Equivalence class
+R7231:7234 Stdlib.Structures.Equalities E eq def
+R7239:7252 Corelib.Classes.RelationClasses <> eq_equivalence inst
+R7259:7267 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R7300:7306 Stdlib.Structures.Equalities UsualEq <> modtype
+R7312:7319 Stdlib.Structures.Equalities IsEqOrig <> modtype
+R7321:7321 Stdlib.Structures.Equalities E <> mod
+modtype 7283:7295 <> UsualIsEqOrig
+def 7336:7342 UsualIsEqOrig eq_refl
+R7348:7360 Corelib.Init.Logic <> eq_refl constr
+R7362:7364 Stdlib.Structures.Equalities E t defax
+def 7379:7384 UsualIsEqOrig eq_sym
+R7390:7401 Corelib.Init.Logic <> eq_sym scheme
+R7403:7405 Stdlib.Structures.Equalities E t defax
+def 7420:7427 UsualIsEqOrig eq_trans
+R7433:7446 Corelib.Init.Logic <> eq_trans thm
+R7448:7450 Stdlib.Structures.Equalities E t defax
+R7457:7469 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+R7506:7517 Stdlib.Structures.Equalities EqualityType <> modtype
+R7523:7529 Stdlib.Structures.Equalities UsualEq <> modtype
+R7534:7542 Stdlib.Structures.Equalities UsualIsEq <> modtype
+modtype 7485:7501 <> UsualEqualityType
+R7580:7592 Stdlib.Structures.Equalities DecidableType <> modtype
+R7598:7604 Stdlib.Structures.Equalities UsualEq <> modtype
+R7609:7617 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R7622:7629 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 7558:7575 <> UsualDecidableType
+R7671:7687 Stdlib.Structures.Equalities DecidableTypeOrig <> modtype
+R7693:7699 Stdlib.Structures.Equalities UsualEq <> modtype
+R7704:7716 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+R7721:7728 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 7645:7666 <> UsualDecidableTypeOrig
+R7770:7786 Stdlib.Structures.Equalities DecidableTypeBoth <> modtype
+R7792:7798 Stdlib.Structures.Equalities UsualEq <> modtype
+R7803:7811 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R7816:7828 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+R7833:7840 Stdlib.Structures.Equalities HasEqDec <> modtype
+modtype 7744:7765 <> UsualDecidableTypeBoth
+R7871:7877 Stdlib.Structures.Equalities UsualEq <> modtype
+R7882:7890 Stdlib.Structures.Equalities HasEqBool <> modtype
+modtype 7856:7866 <> UsualBoolEq
+R7932:7948 Stdlib.Structures.Equalities DecidableTypeFull <> modtype
+R7954:7960 Stdlib.Structures.Equalities UsualEq <> modtype
+R7965:7973 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R7978:7990 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+R7995:8002 Stdlib.Structures.Equalities HasEqDec <> modtype
+R8007:8015 Stdlib.Structures.Equalities HasEqBool <> modtype
+modtype 7906:7927 <> UsualDecidableTypeFull
+modtype 8098:8114 <> MiniDecidableType
+R8126:8128 Stdlib.Structures.Equalities Typ <> modtype
+ax 8142:8147 MiniDecidableType eq_dec
+R8164:8164 Stdlib.Structures.Equalities MiniDecidableType t defax
+binder 8158:8158 <> x:40
+binder 8160:8160 <> y:41
+R8167:8167 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8171:8173 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8178:8178 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8169:8169 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8168:8168 Stdlib.Structures.Equalities <> x:40 var
+R8170:8170 Stdlib.Structures.Equalities <> y:41 var
+R8174:8174 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8176:8176 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8175:8175 Stdlib.Structures.Equalities <> x:40 var
+R8177:8177 Stdlib.Structures.Equalities <> y:41 var
+R8185:8201 Stdlib.Structures.Equalities MiniDecidableType <> modtype
+R8224:8240 Stdlib.Structures.Equalities MiniDecidableType <> modtype
+R8246:8267 Stdlib.Structures.Equalities UsualDecidableTypeBoth <> modtype
+R8273:8273 Stdlib.Structures.Equalities M <> mod
+R8278:8287 Stdlib.Structures.Equalities HasUsualEq <> modtype
+R8292:8300 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R8305:8317 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+mod 8212:8219 <> Make_UDT
+R8341:8351 Stdlib.Structures.Equalities UsualBoolEq <> modtype
+R8357:8378 Stdlib.Structures.Equalities UsualDecidableTypeFull <> modtype
+R8384:8384 Stdlib.Structures.Equalities M <> mod
+R8389:8397 Stdlib.Structures.Equalities UsualIsEq <> modtype
+R8402:8414 Stdlib.Structures.Equalities UsualIsEqOrig <> modtype
+R8419:8431 Stdlib.Structures.Equalities HasEqBool2Dec <> mod
+mod 8328:8336 <> Make_UDTF

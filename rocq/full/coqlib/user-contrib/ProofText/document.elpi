@@ -1,0 +1,129 @@
+% prooftext: the document of a writer, and its writing.
+%
+% A proof text is a Markdown file:
+%
+%   ---                           the header: one field "key: value" per
+%   require: From Stdlib ...      line (header.elpi), between two lines ---
+%   by: tauto | lia
+%   ---
+%                                 (an empty line)
+%   # name                        the title: the name of the theorem
+%
+%   Let `n : nat`{.var}. We prove `n + 0 = n`{.claim}.
+%                                 the statement: the text before the steps
+%   - a step                      the steps: a nested list, two spaces of
+%     - a sub-step                indentation per level, each item one line
+%
+%     So we have ...              the closing paragraph of a step, after its
+%                                 sub-steps, indented as its text
+%
+% (load after header.elpi)
+%
+% The writer (xtext) builds a [document] and writes it with
+% [write-document].  The reader (tree.elpi) reads a file into the tree of
+% its nodes, the paper's tree (README.md, "The format"), which the Typst
+% writer (typst.elpi) reads.  The formulas and justifications inside the texts
+% are in formulas.elpi.
+
+namespace prooftext {
+
+% where a text stands in its file: its first and last lines, numbered
+% from 0 (a reader gives them, so that its messages point to the lines);
+% a text being written has none
+kind place type.
+type lines int -> int -> place.
+type unplaced place.
+
+% a step: its place, its text (the text of a list item, its continuation
+% lines joined by spaces) and its sub-steps
+kind step type.
+type step place -> string -> list step -> step.
+% a step written with a closing paragraph: its place, its text, its
+% sub-steps, then the closing paragraph, which belongs to the step (the
+% forward style of the 2003 paper: the conclusion after the subproofs;
+% README.md, "The format")
+type closed-step place -> string -> list step -> string -> step.
+
+% a proof text: the fields of its header, the name of the theorem (its
+% title), the place and the text of its statement, its steps
+kind document type.
+type document list prooftext.field -> string -> place -> string -> list step -> document.
+
+% [step-number Parent K Number]: the number of the K-th step of a list of
+% steps whose parent has the number Parent ("" at the top), in Dewey
+% notation: 2.1 is the first sub-step of step 2.  A checker names its
+% conditions after it (cyp), the Typst writer shows it
+pred step-number i:string, i:int, o:string.
+step-number "" K N :- !, N is {std.any->string K}.
+step-number P K N :- N is P ^ "." ^ {std.any->string K}.
+
+% ------------------------------------------------------------------
+% Writing
+%
+% A document is written with its markup (the files: cyp, the Typst
+% writer and the gallery read them), or as plain text, for a reader (the
+% text xtext prints): no header, no title, the formulas without backticks
+% and classes, the justifications without emphasis (plain-text,
+% formulas.elpi); the list of the steps stays.
+
+kind markup type.
+type tagged markup.     % Markdown with the classes of the format
+type untagged markup.   % plain text
+
+% [write-document D Text]: the Markdown text of D, ending with a newline
+pred write-document i:document, o:string.
+write-document D Text :- write-document-as tagged D Text.
+
+% [write-document-as M D Text]: the text of D with the markup M, ending
+% with a newline
+pred write-document-as i:markup, i:document, o:string.
+write-document-as M (document Fields Name _ Statement0 Steps0) Text :-
+  shown-text M Statement0 Statement,
+  std.map Steps0 (shown-step M) Steps,
+  step-lines "" Steps Lines,
+  document-start M Fields Name Start,
+  std.append Start [Statement, "" | Lines] All,
+  std.string.concat "\n" All Text0,
+  Text is Text0 ^ "\n".
+
+% [document-start M Fields Name Lines]: the lines before the statement:
+% the header and the title for the markup, none for plain text
+pred document-start i:markup, i:list prooftext.field, i:string, o:list string.
+document-start tagged Fields Name Lines :-
+  prooftext.header-lines Fields Header,
+  std.append Header ["", {calc ("# " ^ Name)}, ""] Lines.
+document-start untagged _ _ [].
+
+% [shown-step M S T]: the step S with its texts in the markup M
+pred shown-step i:markup, i:step, o:step.
+shown-step M (step P Text0 Sub0) (step P Text Sub) :-
+  shown-text M Text0 Text, std.map Sub0 (shown-step M) Sub.
+shown-step M (closed-step P Text0 Sub0 Closing0) (closed-step P Text Sub Closing) :-
+  shown-text M Text0 Text, std.map Sub0 (shown-step M) Sub,
+  shown-text M Closing0 Closing.
+
+% [shown-text M Text Shown]: the text of a node in the markup M; plain
+% text has its clauses in formulas.elpi, which reads the formulas
+pred shown-text i:markup, i:string, o:string.
+shown-text tagged Text Text.
+
+% [step-lines Indent Steps Lines]: the list items of Steps, the sub-steps
+% of a step below it, indented by two more spaces, then its closing
+% paragraph, if any, after an empty line, indented as the text of the step
+pred step-lines i:string, i:list step, o:list string.
+step-lines _ [] [].
+step-lines Indent [step _ Text Sub | Steps] [Line | Lines] :-
+  Line is Indent ^ "- " ^ Text,
+  step-lines {calc (Indent ^ "  ")} Sub SubLines,
+  step-lines Indent Steps Next,
+  std.append SubLines Next Lines.
+step-lines Indent [closed-step P Text Sub Closing | Steps] Lines :-
+  step-lines Indent [step P Text Sub] ItemLines,
+  step-lines Indent Steps Next,
+  std.append ItemLines ["", {calc (Indent ^ "  " ^ Closing)} | Next] Lines.
+
+% [trim S T]: S without the spaces and tabs at its ends
+pred trim i:string, o:string.
+trim S T :- rex.replace "^[ \t]+" "" S S1, rex.replace "[ \t]+$" "" S1 T.
+
+}

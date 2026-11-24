@@ -1,0 +1,1825 @@
+DIGEST 6a6802c9b3b7c68a9d54be24f2742013
+FStdlib.Zmod.Bits
+R27:32 Stdlib.ZArith.ZArith <> <> lib
+R34:43 Stdlib.ZArith.ZModOffset <> <> lib
+R45:49 Stdlib.ZArith.Zcong <> <> lib
+R51:53 Stdlib.micromega.Lia <> <> lib
+R83:91 Stdlib.Bool.Bool <> <> lib
+R93:102 Stdlib.Lists.List <> <> lib
+R104:122 Stdlib.Sorting.Permutation <> <> lib
+R132:144 Stdlib.Lists.List ListNotations <> mod
+R175:186 Stdlib.Zmod.ZmodDef <> <> lib
+R188:200 Stdlib.Zmod.ZmodBase <> <> lib
+R241:279 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R309:313 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+mod 349:352 <> bits
+R362:373 Stdlib.Zmod.ZmodDef Zmod <> mod
+R375:387 Stdlib.Zmod.ZmodBase Zmod <> mod
+R389:400 Stdlib.Zmod.ZmodDef bits <> mod
+abbrev 462:467 bits to_Z_0
+R472:477 Stdlib.Zmod.ZmodBase Zmod to_Z_0 abbrev
+abbrev 504:513 bits unsigned_0
+R518:527 Stdlib.Zmod.ZmodBase Zmod unsigned_0 thm
+prf 552:561 bits unsigned_1
+R568:568 Corelib.Numbers.BinNums <> Z ind
+binder 564:564 <> n:1
+R578:581 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R582:582 Stdlib.Zmod.Bits <> n:1 var
+binder 572:573 <> Hm:2
+R602:604 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R588:591 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R595:595 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R596:596 Stdlib.Zmod.Bits <> n:1 var
+R599:601 Stdlib.Zmod.ZmodDef Zmod one def
+R621:630 Stdlib.Zmod.ZmodBase Zmod to_Z_1_pos abbrev
+R639:653 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+abbrev 682:687 bits to_Z_1
+R692:701 Stdlib.Zmod.Bits bits unsigned_1 thm
+prf 726:733 bits signed_1
+binder 736:736 <> n:3
+R746:749 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R750:750 Stdlib.Zmod.Bits <> n:3 var
+binder 740:741 <> Hm:4
+R772:774 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R756:761 Stdlib.Zmod.ZmodDef Zmod signed def
+R765:765 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R766:766 Stdlib.Zmod.Bits <> n:3 var
+R769:771 Stdlib.Zmod.ZmodDef Zmod one def
+R791:798 Stdlib.Zmod.ZmodBase Zmod signed_1 thm
+R816:816 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R831:845 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+prf 865:875 bits unsigned_m1
+binder 877:877 <> n:5
+R902:904 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R882:885 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R889:889 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R890:890 Stdlib.Zmod.Bits <> n:5 var
+R894:896 Stdlib.Zmod.ZmodDef Zmod opp def
+R898:900 Stdlib.Zmod.ZmodDef Zmod one def
+R905:910 Stdlib.ZArith.BinInt Z ones def
+R912:912 Stdlib.Zmod.Bits <> n:5 var
+R939:942 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R935:937 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R933:933 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R950:953 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R946:948 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R944:944 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R955:958 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R960:960 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R1001:1013 Stdlib.Zmod.ZmodBase Zmod to_Z_m1_cases abbrev
+R1028:1037 Stdlib.ZArith.BinInt Z eqb_spec thm
+R1053:1068 Stdlib.Bool.Bool <> orb_false_r thm
+R1072:1087 Stdlib.Bool.Bool <> orb_false_r thm
+R1091:1102 Stdlib.ZArith.BinInt Z ones_equiv thm
+R1129:1139 Stdlib.Zmod.ZmodBase Zmod to_Z_m1_pos abbrev
+R1142:1153 Stdlib.ZArith.BinInt Z ones_equiv thm
+abbrev 1179:1185 bits to_Z_m1
+R1190:1200 Stdlib.Zmod.Bits bits unsigned_m1 thm
+prf 1225:1233 bits signed_m1
+binder 1236:1236 <> n:6
+R1246:1249 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1250:1250 Stdlib.Zmod.Bits <> n:6 var
+binder 1240:1241 <> Hm:7
+R1278:1280 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1256:1261 Stdlib.Zmod.ZmodDef Zmod signed def
+R1265:1265 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R1266:1266 Stdlib.Zmod.Bits <> n:6 var
+R1270:1272 Stdlib.Zmod.ZmodDef Zmod opp def
+R1274:1276 Stdlib.Zmod.ZmodDef Zmod one def
+R1300:1308 Stdlib.Zmod.ZmodBase Zmod signed_m1 thm
+R1320:1334 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+R1359:1365 Corelib.Init.Logic <> eq_refl constr
+prf 1380:1391 bits one_neq_zero
+binder 1394:1394 <> n:8
+R1404:1407 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1408:1408 Stdlib.Zmod.Bits <> n:8 var
+binder 1398:1399 <> Hm:9
+R1416:1419 Corelib.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R1424:1427 Corelib.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R1428:1431 Stdlib.Zmod.ZmodDef <> bits abbrev
+R1433:1433 Stdlib.Zmod.Bits <> n:8 var
+R1413:1415 Stdlib.Zmod.ZmodDef Zmod one def
+R1420:1423 Stdlib.Zmod.ZmodDef Zmod zero def
+R1449:1460 Stdlib.Zmod.ZmodBase Zmod one_neq_zero thm
+R1475:1489 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+prf 1516:1528 bits unsigned_of_Z
+binder 1531:1531 <> n:10
+R1539:1539 Corelib.Numbers.BinNums <> Z ind
+binder 1535:1535 <> z:11
+R1559:1561 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1544:1547 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R1550:1553 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R1555:1555 Stdlib.Zmod.Bits <> n:10 var
+R1557:1557 Stdlib.Zmod.Bits <> z:11 var
+R1563:1567 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1562:1562 Stdlib.Zmod.Bits <> z:11 var
+R1569:1569 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R1570:1570 Stdlib.Zmod.Bits <> n:10 var
+R1586:1594 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z abbrev
+abbrev 1611:1619 bits to_Z_of_Z
+R1624:1636 Stdlib.Zmod.Bits bits unsigned_of_Z thm
+prf 1646:1664 bits unsigned_of_Z_small
+binder 1667:1667 <> n:12
+binder 1670:1670 <> z:13
+R1678:1681 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1683:1685 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1682:1682 Stdlib.Zmod.Bits <> z:13 var
+R1687:1687 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R1688:1688 Stdlib.Zmod.Bits <> n:12 var
+binder 1673:1673 <> H:14
+R1713:1715 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1693:1696 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R1699:1707 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R1709:1709 Stdlib.Zmod.Bits <> n:12 var
+R1711:1711 Stdlib.Zmod.Bits <> z:13 var
+R1716:1716 Stdlib.Zmod.Bits <> z:13 var
+R1732:1746 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z_small abbrev
+abbrev 1766:1780 bits to_Z_of_Z_small
+R1785:1803 Stdlib.Zmod.Bits bits unsigned_of_Z_small thm
+prf 1828:1845 bits unsigned_of_Z_mod0
+binder 1848:1848 <> n:15
+R1858:1860 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1857:1857 Stdlib.Zmod.Bits <> n:15 var
+binder 1852:1853 <> Hn:16
+binder 1864:1864 <> x:17
+R1887:1889 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1868:1875 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R1878:1881 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R1883:1883 Stdlib.Zmod.Bits <> n:15 var
+R1885:1885 Stdlib.Zmod.Bits <> x:17 var
+R1890:1890 Stdlib.Zmod.Bits <> x:17 var
+R1908:1918 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R1935:1948 Stdlib.Zmod.ZmodBase Zmod to_Z_of_Z_mod0 abbrev
+prf 1963:1976 bits unsigned_width
+binder 1979:1979 <> n:18
+R1989:1992 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1993:1993 Stdlib.Zmod.Bits <> n:18 var
+binder 1983:1984 <> Hn:19
+R2022:2024 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1998:2005 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R2008:2016 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R2018:2018 Stdlib.Zmod.Bits <> n:18 var
+R2020:2020 Stdlib.Zmod.Bits <> n:18 var
+R2025:2025 Stdlib.Zmod.Bits <> n:18 var
+R2041:2055 Stdlib.Zmod.Bits bits to_Z_of_Z_small abbrev
+R2069:2082 Stdlib.ZArith.BinInt Z pow_gt_lin_r thm
+abbrev 2108:2117 bits to_Z_width
+R2122:2135 Stdlib.Zmod.Bits bits unsigned_width thm
+prf 2145:2158 bits unsigned_range
+binder 2161:2161 <> n:20
+R2169:2172 Stdlib.Zmod.ZmodDef <> bits abbrev
+R2174:2174 Stdlib.Zmod.Bits <> n:20 var
+binder 2165:2165 <> x:21
+R2184:2187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2188:2188 Stdlib.Zmod.Bits <> n:20 var
+binder 2178:2179 <> Hn:22
+R2194:2197 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2199:2201 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2198:2198 Stdlib.Zmod.Bits <> x:21 var
+R2203:2203 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2204:2204 Stdlib.Zmod.Bits <> n:20 var
+R2220:2242 Stdlib.Zmod.ZmodBase Zmod unsigned_pos_bound thm
+abbrev 2264:2273 bits to_Z_range
+R2278:2291 Stdlib.Zmod.Bits bits unsigned_range thm
+prf 2301:2311 bits signed_of_Z
+binder 2314:2314 <> n:23
+binder 2317:2317 <> z:24
+R2338:2340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2321:2326 Stdlib.Zmod.ZmodDef Zmod signed def
+R2329:2332 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R2334:2334 Stdlib.Zmod.Bits <> n:23 var
+R2336:2336 Stdlib.Zmod.Bits <> z:24 var
+R2341:2349 Stdlib.ZArith.ZModOffset Z smodulo def
+R2351:2351 Stdlib.Zmod.Bits <> z:24 var
+R2355:2355 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2356:2356 Stdlib.Zmod.Bits <> n:23 var
+R2373:2383 Stdlib.Zmod.ZmodBase Zmod signed_of_Z thm
+prf 2398:2409 bits signed_range
+binder 2412:2412 <> n:25
+R2420:2423 Stdlib.Zmod.ZmodDef <> bits abbrev
+R2425:2425 Stdlib.Zmod.Bits <> n:25 var
+binder 2416:2416 <> x:26
+R2435:2438 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2439:2439 Stdlib.Zmod.Bits <> n:25 var
+binder 2429:2430 <> Hn:27
+R2448:2451 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2462:2464 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2444:2444 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2446:2446 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2447:2447 Stdlib.Zmod.Bits <> n:25 var
+R2453:2453 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2454:2459 Stdlib.Zmod.ZmodDef Zmod signed def
+R2461:2461 Stdlib.Zmod.Bits <> x:26 var
+R2466:2466 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2467:2467 Stdlib.Zmod.Bits <> n:25 var
+R2483:2498 Stdlib.Zmod.ZmodBase Zmod signed_pos_bound thm
+prf 2518:2530 bits signed_range'
+binder 2533:2533 <> n:28
+R2541:2544 Stdlib.Zmod.ZmodDef <> bits abbrev
+R2546:2546 Stdlib.Zmod.Bits <> n:28 var
+binder 2537:2537 <> x:29
+R2556:2559 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2560:2560 Stdlib.Zmod.Bits <> n:28 var
+binder 2550:2551 <> Hn:30
+R2573:2576 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2585:2587 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2565:2565 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2567:2568 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2572:2572 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2570:2570 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2569:2569 Stdlib.Zmod.Bits <> n:28 var
+R2577:2582 Stdlib.Zmod.ZmodDef Zmod signed def
+R2584:2584 Stdlib.Zmod.Bits <> x:29 var
+R2589:2590 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2594:2594 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R2592:2592 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2591:2591 Stdlib.Zmod.Bits <> n:28 var
+R2617:2628 Stdlib.Zmod.Bits bits signed_range thm
+R2657:2667 Stdlib.ZArith.BinInt Z succ_pred thm
+R2693:2704 Stdlib.ZArith.BinInt Z pow_succ_r thm
+prf 2729:2743 bits unsigned_width0
+R2750:2753 Stdlib.Zmod.ZmodDef <> bits abbrev
+binder 2746:2746 <> a:31
+R2766:2768 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2760:2763 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R2765:2765 Stdlib.Zmod.Bits <> a:31 var
+R2790:2799 Stdlib.Zmod.Bits bits to_Z_range abbrev
+abbrev 2834:2844 bits to_Z_width0
+R2849:2863 Stdlib.Zmod.Bits bits unsigned_width0 thm
+prf 2888:2900 bits signed_width0
+R2907:2910 Stdlib.Zmod.ZmodDef <> bits abbrev
+binder 2903:2903 <> a:32
+R2925:2927 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2917:2922 Stdlib.Zmod.ZmodDef Zmod signed def
+R2924:2924 Stdlib.Zmod.Bits <> a:32 var
+R2949:2969 Stdlib.Zmod.ZmodBase Zmod signed_pos_bound thm
+prf 2991:2998 bits of_Z_mod
+binder 3001:3001 <> n:33
+binder 3004:3004 <> x:34
+R3031:3033 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3008:3016 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R3018:3018 Stdlib.Zmod.Bits <> n:33 var
+R3022:3026 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3021:3021 Stdlib.Zmod.Bits <> x:34 var
+R3028:3028 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3029:3029 Stdlib.Zmod.Bits <> n:33 var
+R3034:3042 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R3044:3044 Stdlib.Zmod.Bits <> n:33 var
+R3046:3046 Stdlib.Zmod.Bits <> x:34 var
+R3062:3069 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R3081:3089 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R3093:3100 Stdlib.ZArith.Zdiv <> Zmod_mod thm
+prf 3120:3127 bits of_Z_inj
+binder 3130:3130 <> n:35
+binder 3133:3133 <> x:36
+binder 3135:3135 <> y:37
+R3168:3172 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3152:3154 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3139:3147 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R3149:3149 Stdlib.Zmod.Bits <> n:35 var
+R3151:3151 Stdlib.Zmod.Bits <> x:36 var
+R3155:3163 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R3165:3165 Stdlib.Zmod.Bits <> n:35 var
+R3167:3167 Stdlib.Zmod.Bits <> y:37 var
+R3182:3184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3174:3178 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3173:3173 Stdlib.Zmod.Bits <> x:36 var
+R3180:3180 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3181:3181 Stdlib.Zmod.Bits <> n:35 var
+R3186:3190 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3185:3185 Stdlib.Zmod.Bits <> y:37 var
+R3192:3192 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3193:3193 Stdlib.Zmod.Bits <> n:35 var
+R3211:3218 Stdlib.Zmod.ZmodBase Zmod of_Z_inj thm
+prf 3242:3249 bits mod_to_Z
+binder 3252:3252 <> n:38
+R3260:3263 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3265:3265 Stdlib.Zmod.Bits <> n:38 var
+binder 3256:3256 <> x:39
+R3284:3286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3276:3280 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3270:3273 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R3275:3275 Stdlib.Zmod.Bits <> x:39 var
+R3282:3282 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3283:3283 Stdlib.Zmod.Bits <> n:38 var
+R3287:3290 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R3292:3292 Stdlib.Zmod.Bits <> x:39 var
+R3310:3319 Stdlib.ZArith.BinInt Z ltb_spec thm
+R3343:3353 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R3378:3386 Stdlib.ZArith.BinInt Z mod_0_r thm
+R3401:3411 Stdlib.ZArith.BinInt Z mod_small thm
+R3425:3434 Stdlib.Zmod.Bits bits to_Z_range abbrev
+prf 3449:3458 bits mod_signed
+binder 3461:3461 <> n:40
+R3469:3472 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3474:3474 Stdlib.Zmod.Bits <> n:40 var
+binder 3465:3465 <> x:41
+R3495:3497 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3487:3491 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R3479:3484 Stdlib.Zmod.ZmodDef Zmod signed def
+R3486:3486 Stdlib.Zmod.Bits <> x:41 var
+R3493:3493 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3494:3494 Stdlib.Zmod.Bits <> n:40 var
+R3498:3505 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R3507:3507 Stdlib.Zmod.Bits <> x:41 var
+R3523:3532 Stdlib.Zmod.ZmodBase Zmod mod_signed thm
+prf 3547:3559 bits smod_unsigned
+binder 3562:3562 <> n:42
+R3570:3573 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3575:3575 Stdlib.Zmod.Bits <> n:42 var
+binder 3566:3566 <> x:43
+R3608:3610 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3580:3588 Stdlib.ZArith.ZModOffset Z smodulo def
+R3591:3598 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R3600:3600 Stdlib.Zmod.Bits <> x:43 var
+R3605:3605 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3606:3606 Stdlib.Zmod.Bits <> n:42 var
+R3611:3616 Stdlib.Zmod.ZmodDef Zmod signed def
+R3618:3618 Stdlib.Zmod.Bits <> x:43 var
+R3634:3646 Stdlib.Zmod.ZmodBase Zmod smod_unsigned thm
+prf 3661:3671 bits smod_signed
+binder 3674:3674 <> n:44
+R3682:3685 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3687:3687 Stdlib.Zmod.Bits <> n:44 var
+binder 3678:3678 <> x:45
+R3718:3720 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3692:3700 Stdlib.ZArith.ZModOffset Z smodulo def
+R3703:3708 Stdlib.Zmod.ZmodDef Zmod signed def
+R3710:3710 Stdlib.Zmod.Bits <> x:45 var
+R3715:3715 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3716:3716 Stdlib.Zmod.Bits <> n:44 var
+R3721:3726 Stdlib.Zmod.ZmodDef Zmod signed def
+R3728:3728 Stdlib.Zmod.Bits <> x:45 var
+R3748:3760 Stdlib.Zmod.Bits bits smod_unsigned thm
+R3763:3773 Stdlib.ZArith.ZModOffset Z smod_smod thm
+prf 3797:3808 bits signed_small
+binder 3811:3811 <> n:46
+R3819:3822 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3824:3824 Stdlib.Zmod.Bits <> n:46 var
+binder 3815:3815 <> x:47
+R3833:3836 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3840:3842 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3838:3838 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3839:3839 Stdlib.Zmod.Bits <> x:47 var
+R3844:3844 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3845:3845 Stdlib.Zmod.Bits <> n:46 var
+binder 3828:3828 <> H:48
+R3858:3860 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3850:3855 Stdlib.Zmod.ZmodDef Zmod signed def
+R3857:3857 Stdlib.Zmod.Bits <> x:47 var
+R3861:3868 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R3870:3870 Stdlib.Zmod.Bits <> x:47 var
+R3886:3897 Stdlib.Zmod.ZmodBase Zmod signed_small thm
+prf 3915:3926 bits signed_large
+binder 3929:3929 <> n:49
+R3937:3940 Stdlib.Zmod.ZmodDef <> bits abbrev
+R3942:3942 Stdlib.Zmod.Bits <> n:49 var
+binder 3933:3933 <> x:50
+R3953:3956 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3951:3951 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3952:3952 Stdlib.Zmod.Bits <> n:49 var
+R3958:3958 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3959:3959 Stdlib.Zmod.Bits <> x:50 var
+binder 3946:3946 <> H:51
+R3972:3974 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3964:3969 Stdlib.Zmod.ZmodDef Zmod signed def
+R3971:3971 Stdlib.Zmod.Bits <> x:50 var
+R3976:3976 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3975:3975 Stdlib.Zmod.Bits <> x:50 var
+R3978:3978 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R3979:3979 Stdlib.Zmod.Bits <> n:49 var
+R3997:4008 Stdlib.Zmod.ZmodBase Zmod signed_large thm
+prf 4028:4041 bits signed_neg_iff
+binder 4044:4044 <> n:52
+R4052:4055 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4057:4057 Stdlib.Zmod.Bits <> n:52 var
+binder 4048:4048 <> x:53
+R4067:4070 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4071:4071 Stdlib.Zmod.Bits <> n:52 var
+binder 4061:4062 <> Hn:54
+R4090:4094 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4086:4088 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4078:4083 Stdlib.Zmod.ZmodDef Zmod signed def
+R4085:4085 Stdlib.Zmod.Bits <> x:53 var
+R4098:4101 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4096:4096 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4097:4097 Stdlib.Zmod.Bits <> n:52 var
+R4103:4105 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4106:4113 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R4115:4115 Stdlib.Zmod.Bits <> x:53 var
+R4133:4146 Stdlib.Zmod.ZmodBase Zmod signed_neg_iff thm
+prf 4166:4181 bits signed_small_iff
+binder 4184:4184 <> n:55
+R4192:4195 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4197:4197 Stdlib.Zmod.Bits <> n:55 var
+binder 4188:4188 <> x:56
+R4207:4210 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4211:4211 Stdlib.Zmod.Bits <> n:55 var
+binder 4201:4202 <> Hn:57
+R4239:4243 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4226:4228 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4218:4223 Stdlib.Zmod.ZmodDef Zmod signed def
+R4225:4225 Stdlib.Zmod.Bits <> x:56 var
+R4229:4236 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R4238:4238 Stdlib.Zmod.Bits <> x:56 var
+R4258:4260 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4245:4247 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4248:4255 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R4257:4257 Stdlib.Zmod.Bits <> x:56 var
+R4262:4262 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4263:4263 Stdlib.Zmod.Bits <> n:55 var
+R4281:4296 Stdlib.Zmod.ZmodBase Zmod signed_small_iff thm
+prf 4316:4332 bits signed_nonneg_iff
+binder 4335:4335 <> n:58
+R4343:4346 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4348:4348 Stdlib.Zmod.Bits <> n:58 var
+binder 4339:4339 <> x:59
+R4358:4361 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4362:4362 Stdlib.Zmod.Bits <> n:58 var
+binder 4352:4353 <> Hn:60
+R4382:4386 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4370:4373 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4374:4379 Stdlib.Zmod.ZmodDef Zmod signed def
+R4381:4381 Stdlib.Zmod.Bits <> x:59 var
+R4401:4403 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4388:4390 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4391:4398 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R4400:4400 Stdlib.Zmod.Bits <> x:59 var
+R4405:4405 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4406:4406 Stdlib.Zmod.Bits <> n:58 var
+R4424:4440 Stdlib.Zmod.ZmodBase Zmod signed_nonneg_iff thm
+R4454:4467 Stdlib.Zmod.Bits bits unsigned_range thm
+prf 4489:4502 bits signed_pos_iff
+binder 4505:4505 <> n:61
+R4513:4516 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4518:4518 Stdlib.Zmod.Bits <> n:61 var
+binder 4509:4509 <> x:62
+R4528:4531 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4532:4532 Stdlib.Zmod.Bits <> n:61 var
+binder 4522:4523 <> Hn:63
+R4551:4555 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4540:4542 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4543:4548 Stdlib.Zmod.ZmodDef Zmod signed def
+R4550:4550 Stdlib.Zmod.Bits <> x:62 var
+R4557:4559 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R4574:4576 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R4561:4563 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4564:4571 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R4573:4573 Stdlib.Zmod.Bits <> x:62 var
+R4578:4578 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4579:4579 Stdlib.Zmod.Bits <> n:61 var
+R4597:4610 Stdlib.Zmod.ZmodBase Zmod signed_pos_iff thm
+prf 4630:4641 bits unsigned_opp
+binder 4644:4644 <> n:64
+R4652:4655 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4657:4657 Stdlib.Zmod.Bits <> n:64 var
+binder 4648:4648 <> x:65
+R4674:4676 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4662:4665 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R4668:4670 Stdlib.Zmod.ZmodDef Zmod opp def
+R4672:4672 Stdlib.Zmod.Bits <> x:65 var
+R4677:4677 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4686:4691 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4678:4679 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4680:4683 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R4685:4685 Stdlib.Zmod.Bits <> x:65 var
+R4693:4693 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4694:4694 Stdlib.Zmod.Bits <> n:64 var
+R4712:4719 Stdlib.Zmod.ZmodBase Zmod to_Z_opp abbrev
+abbrev 4745:4752 bits to_Z_opp
+R4757:4768 Stdlib.Zmod.Bits bits unsigned_opp thm
+prf 4792:4801 bits signed_opp
+binder 4804:4804 <> n:66
+R4812:4815 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4817:4817 Stdlib.Zmod.Bits <> n:66 var
+binder 4808:4808 <> x:67
+R4836:4838 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4822:4827 Stdlib.Zmod.ZmodDef Zmod signed def
+R4830:4832 Stdlib.Zmod.ZmodDef Zmod opp def
+R4834:4834 Stdlib.Zmod.Bits <> x:67 var
+R4839:4847 Stdlib.ZArith.ZModOffset Z smodulo def
+R4850:4850 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4851:4856 Stdlib.Zmod.ZmodDef Zmod signed def
+R4858:4858 Stdlib.Zmod.Bits <> x:67 var
+R4863:4863 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4864:4864 Stdlib.Zmod.Bits <> n:66 var
+R4883:4892 Stdlib.Zmod.ZmodBase Zmod signed_opp thm
+prf 4915:4926 bits unsigned_add
+binder 4929:4929 <> n:68
+R4939:4942 Stdlib.Zmod.ZmodDef <> bits abbrev
+R4944:4944 Stdlib.Zmod.Bits <> n:68 var
+binder 4933:4933 <> x:69
+binder 4935:4935 <> y:70
+R4963:4965 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4949:4952 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R4955:4957 Stdlib.Zmod.ZmodDef Zmod add def
+R4961:4961 Stdlib.Zmod.Bits <> y:70 var
+R4959:4959 Stdlib.Zmod.Bits <> x:69 var
+R4966:4966 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4982:4987 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4973:4975 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4967:4970 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R4972:4972 Stdlib.Zmod.Bits <> x:69 var
+R4976:4979 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R4981:4981 Stdlib.Zmod.Bits <> y:70 var
+R4989:4989 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R4990:4990 Stdlib.Zmod.Bits <> n:68 var
+R5008:5015 Stdlib.Zmod.ZmodBase Zmod to_Z_add abbrev
+abbrev 5041:5048 bits to_Z_add
+R5053:5064 Stdlib.Zmod.Bits bits unsigned_add thm
+prf 5088:5097 bits signed_add
+binder 5100:5100 <> n:71
+R5110:5113 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5115:5115 Stdlib.Zmod.Bits <> n:71 var
+binder 5104:5104 <> x:72
+binder 5106:5106 <> y:73
+R5136:5138 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5120:5125 Stdlib.Zmod.ZmodDef Zmod signed def
+R5128:5130 Stdlib.Zmod.ZmodDef Zmod add def
+R5134:5134 Stdlib.Zmod.Bits <> y:73 var
+R5132:5132 Stdlib.Zmod.Bits <> x:72 var
+R5139:5147 Stdlib.ZArith.ZModOffset Z smodulo def
+R5158:5158 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5150:5155 Stdlib.Zmod.ZmodDef Zmod signed def
+R5157:5157 Stdlib.Zmod.Bits <> x:72 var
+R5159:5164 Stdlib.Zmod.ZmodDef Zmod signed def
+R5166:5166 Stdlib.Zmod.Bits <> y:73 var
+R5171:5171 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5172:5172 Stdlib.Zmod.Bits <> n:71 var
+R5191:5200 Stdlib.Zmod.ZmodBase Zmod signed_add thm
+prf 5223:5234 bits unsigned_sub
+binder 5237:5237 <> n:74
+R5247:5250 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5252:5252 Stdlib.Zmod.Bits <> n:74 var
+binder 5241:5241 <> x:75
+binder 5243:5243 <> y:76
+R5271:5273 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5257:5260 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5263:5265 Stdlib.Zmod.ZmodDef Zmod sub def
+R5269:5269 Stdlib.Zmod.Bits <> y:76 var
+R5267:5267 Stdlib.Zmod.Bits <> x:75 var
+R5274:5274 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5290:5295 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5281:5283 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5275:5278 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5280:5280 Stdlib.Zmod.Bits <> x:75 var
+R5284:5287 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5289:5289 Stdlib.Zmod.Bits <> y:76 var
+R5297:5297 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5298:5298 Stdlib.Zmod.Bits <> n:74 var
+R5316:5323 Stdlib.Zmod.ZmodBase Zmod to_Z_sub abbrev
+abbrev 5349:5356 bits to_Z_sub
+R5361:5372 Stdlib.Zmod.Bits bits unsigned_sub thm
+prf 5396:5405 bits signed_sub
+binder 5408:5408 <> n:77
+R5418:5421 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5423:5423 Stdlib.Zmod.Bits <> n:77 var
+binder 5412:5412 <> x:78
+binder 5414:5414 <> y:79
+R5444:5446 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5428:5433 Stdlib.Zmod.ZmodDef Zmod signed def
+R5436:5438 Stdlib.Zmod.ZmodDef Zmod sub def
+R5442:5442 Stdlib.Zmod.Bits <> y:79 var
+R5440:5440 Stdlib.Zmod.Bits <> x:78 var
+R5447:5455 Stdlib.ZArith.ZModOffset Z smodulo def
+R5466:5466 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5458:5463 Stdlib.Zmod.ZmodDef Zmod signed def
+R5465:5465 Stdlib.Zmod.Bits <> x:78 var
+R5467:5472 Stdlib.Zmod.ZmodDef Zmod signed def
+R5474:5474 Stdlib.Zmod.Bits <> y:79 var
+R5479:5479 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5480:5480 Stdlib.Zmod.Bits <> n:77 var
+R5499:5508 Stdlib.Zmod.ZmodBase Zmod signed_sub thm
+prf 5531:5542 bits unsigned_mul
+binder 5545:5545 <> n:80
+R5555:5558 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5560:5560 Stdlib.Zmod.Bits <> n:80 var
+binder 5549:5549 <> x:81
+binder 5551:5551 <> y:82
+R5579:5581 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5565:5568 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5571:5573 Stdlib.Zmod.ZmodDef Zmod mul def
+R5577:5577 Stdlib.Zmod.Bits <> y:82 var
+R5575:5575 Stdlib.Zmod.Bits <> x:81 var
+R5582:5582 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5598:5603 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5589:5591 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5583:5586 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5588:5588 Stdlib.Zmod.Bits <> x:81 var
+R5592:5595 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5597:5597 Stdlib.Zmod.Bits <> y:82 var
+R5605:5605 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5606:5606 Stdlib.Zmod.Bits <> n:80 var
+R5624:5631 Stdlib.Zmod.ZmodBase Zmod to_Z_mul abbrev
+abbrev 5657:5664 bits to_Z_mul
+R5669:5680 Stdlib.Zmod.Bits bits unsigned_mul thm
+prf 5704:5713 bits signed_mul
+binder 5716:5716 <> n:83
+R5726:5729 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5731:5731 Stdlib.Zmod.Bits <> n:83 var
+binder 5720:5720 <> x:84
+binder 5722:5722 <> y:85
+R5752:5754 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5736:5741 Stdlib.Zmod.ZmodDef Zmod signed def
+R5744:5746 Stdlib.Zmod.ZmodDef Zmod mul def
+R5750:5750 Stdlib.Zmod.Bits <> y:85 var
+R5748:5748 Stdlib.Zmod.Bits <> x:84 var
+R5755:5763 Stdlib.ZArith.ZModOffset Z smodulo def
+R5774:5774 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5766:5771 Stdlib.Zmod.ZmodDef Zmod signed def
+R5773:5773 Stdlib.Zmod.Bits <> x:84 var
+R5775:5780 Stdlib.Zmod.ZmodDef Zmod signed def
+R5782:5782 Stdlib.Zmod.Bits <> y:85 var
+R5787:5787 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5788:5788 Stdlib.Zmod.Bits <> n:83 var
+R5807:5816 Stdlib.Zmod.ZmodBase Zmod signed_mul thm
+prf 5839:5850 bits unsigned_slu
+binder 5853:5853 <> n:86
+R5861:5864 Stdlib.Zmod.ZmodDef <> bits abbrev
+R5866:5866 Stdlib.Zmod.Bits <> n:86 var
+binder 5857:5857 <> x:87
+binder 5869:5869 <> y:88
+R5887:5889 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5873:5876 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R5879:5881 Stdlib.Zmod.ZmodDef Zmod slu def
+R5885:5885 Stdlib.Zmod.Bits <> y:88 var
+R5883:5883 Stdlib.Zmod.Bits <> x:87 var
+R5902:5906 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5890:5897 Stdlib.ZArith.BinInt Z shiftl def
+R5899:5899 Stdlib.Zmod.Bits <> x:87 var
+R5901:5901 Stdlib.Zmod.Bits <> y:88 var
+R5908:5908 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R5909:5909 Stdlib.Zmod.Bits <> n:86 var
+R5927:5934 Stdlib.Zmod.ZmodBase Zmod to_Z_slu abbrev
+abbrev 5960:5967 bits to_Z_slu
+R5972:5983 Stdlib.Zmod.Bits bits unsigned_slu thm
+prf 6007:6018 bits unsigned_srs
+binder 6021:6021 <> n:89
+R6029:6032 Stdlib.Zmod.ZmodDef <> bits abbrev
+R6034:6034 Stdlib.Zmod.Bits <> n:89 var
+binder 6025:6025 <> x:90
+binder 6037:6037 <> y:91
+R6046:6049 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6050:6050 Stdlib.Zmod.Bits <> y:91 var
+binder 6040:6041 <> Hy:92
+R6069:6071 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6055:6058 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R6061:6063 Stdlib.Zmod.ZmodDef Zmod srs def
+R6067:6067 Stdlib.Zmod.Bits <> y:91 var
+R6065:6065 Stdlib.Zmod.Bits <> x:90 var
+R6093:6097 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6072:6079 Stdlib.ZArith.BinInt Z shiftr def
+R6082:6087 Stdlib.Zmod.ZmodDef Zmod signed def
+R6089:6089 Stdlib.Zmod.Bits <> x:90 var
+R6092:6092 Stdlib.Zmod.Bits <> y:91 var
+R6099:6099 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6100:6100 Stdlib.Zmod.Bits <> n:89 var
+R6118:6129 Stdlib.Zmod.ZmodBase Zmod unsigned_srs thm
+abbrev 6155:6162 bits to_Z_srs
+R6167:6178 Stdlib.Zmod.Bits bits unsigned_srs thm
+prf 6202:6211 bits signed_srs
+binder 6214:6214 <> n:93
+R6222:6225 Stdlib.Zmod.ZmodDef <> bits abbrev
+R6227:6227 Stdlib.Zmod.Bits <> n:93 var
+binder 6218:6218 <> x:94
+binder 6230:6230 <> y:95
+R6239:6242 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6243:6243 Stdlib.Zmod.Bits <> y:95 var
+binder 6233:6234 <> Hy:96
+R6264:6266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6248:6253 Stdlib.Zmod.ZmodDef Zmod signed def
+R6256:6258 Stdlib.Zmod.ZmodDef Zmod srs def
+R6262:6262 Stdlib.Zmod.Bits <> y:95 var
+R6260:6260 Stdlib.Zmod.Bits <> x:94 var
+R6267:6274 Stdlib.ZArith.BinInt Z shiftr def
+R6277:6282 Stdlib.Zmod.ZmodDef Zmod signed def
+R6284:6284 Stdlib.Zmod.Bits <> x:94 var
+R6287:6287 Stdlib.Zmod.Bits <> y:95 var
+R6303:6312 Stdlib.Zmod.ZmodBase Zmod signed_srs thm
+prf 6335:6342 bits of_Z_div
+binder 6345:6345 <> n:97
+R6355:6355 Corelib.Numbers.BinNums <> Z ind
+binder 6349:6349 <> x:98
+binder 6351:6351 <> y:99
+R6365:6368 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6370:6372 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6369:6369 Stdlib.Zmod.Bits <> x:98 var
+R6374:6374 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6375:6375 Stdlib.Zmod.Bits <> n:97 var
+binder 6359:6360 <> Hx:100
+R6385:6387 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R6389:6391 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R6388:6388 Stdlib.Zmod.Bits <> y:99 var
+R6393:6393 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6394:6394 Stdlib.Zmod.Bits <> n:97 var
+binder 6379:6380 <> Hy:101
+R6420:6422 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6401:6409 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6411:6411 Stdlib.Zmod.Bits <> n:97 var
+R6415:6417 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6414:6414 Stdlib.Zmod.Bits <> x:98 var
+R6418:6418 Stdlib.Zmod.Bits <> y:99 var
+R6423:6426 Stdlib.Zmod.ZmodDef Zmod udiv def
+R6440:6443 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6447:6447 Stdlib.Zmod.Bits <> y:99 var
+R6429:6432 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6436:6436 Stdlib.Zmod.Bits <> x:98 var
+R6464:6477 Stdlib.Zmod.ZmodBase Zmod of_Z_div_small thm
+prf 6500:6508 bits of_Z_umod
+binder 6511:6511 <> n:102
+R6521:6521 Corelib.Numbers.BinNums <> Z ind
+binder 6515:6515 <> x:103
+binder 6517:6517 <> y:104
+R6531:6534 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6536:6538 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6535:6535 Stdlib.Zmod.Bits <> x:103 var
+R6540:6540 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6541:6541 Stdlib.Zmod.Bits <> n:102 var
+binder 6525:6526 <> Hx:105
+R6551:6554 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6556:6558 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6555:6555 Stdlib.Zmod.Bits <> y:104 var
+R6560:6560 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6561:6561 Stdlib.Zmod.Bits <> n:102 var
+binder 6545:6546 <> Hy:106
+R6589:6591 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6568:6576 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6578:6578 Stdlib.Zmod.Bits <> n:102 var
+R6582:6586 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6581:6581 Stdlib.Zmod.Bits <> x:103 var
+R6587:6587 Stdlib.Zmod.Bits <> y:104 var
+R6592:6595 Stdlib.Zmod.ZmodDef Zmod umod def
+R6609:6612 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6616:6616 Stdlib.Zmod.Bits <> y:104 var
+R6598:6601 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R6605:6605 Stdlib.Zmod.Bits <> x:103 var
+R6635:6649 Stdlib.Zmod.ZmodBase Zmod of_Z_umod_small thm
+prf 6672:6684 bits unsigned_mdiv
+binder 6687:6687 <> n:107
+R6697:6700 Stdlib.Zmod.ZmodDef <> bits abbrev
+R6702:6702 Stdlib.Zmod.Bits <> n:107 var
+binder 6691:6691 <> x:108
+binder 6693:6693 <> y:109
+R6722:6724 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6707:6710 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R6713:6716 Stdlib.Zmod.ZmodDef Zmod mdiv def
+R6720:6720 Stdlib.Zmod.Bits <> y:109 var
+R6718:6718 Stdlib.Zmod.Bits <> x:108 var
+R6745:6749 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6726:6728 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6725:6725 Stdlib.Zmod.Bits <> x:108 var
+R6729:6736 Stdlib.ZArith.Zcong Z invmod def
+R6738:6738 Stdlib.Zmod.Bits <> y:109 var
+R6742:6742 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6743:6743 Stdlib.Zmod.Bits <> n:107 var
+R6751:6751 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6752:6752 Stdlib.Zmod.Bits <> n:107 var
+R6770:6778 Stdlib.Zmod.ZmodBase Zmod to_Z_mdiv abbrev
+abbrev 6804:6812 bits to_Z_mdiv
+R6817:6829 Stdlib.Zmod.Bits bits unsigned_mdiv thm
+prf 6853:6873 bits unsigned_pow_nonneg_r
+binder 6876:6876 <> n:110
+R6884:6887 Stdlib.Zmod.ZmodDef <> bits abbrev
+R6889:6889 Stdlib.Zmod.Bits <> n:110 var
+binder 6880:6880 <> x:111
+binder 6892:6892 <> z:112
+R6901:6904 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6905:6905 Stdlib.Zmod.Bits <> z:112 var
+binder 6895:6896 <> Hz:113
+R6924:6926 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6910:6913 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R6916:6918 Stdlib.Zmod.ZmodDef Zmod pow def
+R6922:6922 Stdlib.Zmod.Bits <> z:112 var
+R6920:6920 Stdlib.Zmod.Bits <> x:111 var
+R6930:6934 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6928:6928 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6927:6927 Stdlib.Zmod.Bits <> x:111 var
+R6929:6929 Stdlib.Zmod.Bits <> z:112 var
+R6936:6936 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6937:6937 Stdlib.Zmod.Bits <> n:110 var
+R6955:6971 Stdlib.Zmod.ZmodBase Zmod to_Z_pow_nonneg_r abbrev
+abbrev 6997:7011 bits to_Z_pow_nonneg
+R7016:7036 Stdlib.Zmod.Bits bits unsigned_pow_nonneg_r thm
+prf 7060:7078 bits signed_pow_nonneg_r
+binder 7081:7081 <> n:114
+R7091:7094 Stdlib.Zmod.ZmodDef <> bits abbrev
+R7096:7096 Stdlib.Zmod.Bits <> n:114 var
+binder 7085:7085 <> x:115
+binder 7087:7087 <> z:116
+R7106:7109 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7110:7110 Stdlib.Zmod.Bits <> z:116 var
+binder 7100:7101 <> Hz:117
+R7131:7133 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7115:7120 Stdlib.Zmod.ZmodDef Zmod signed def
+R7123:7125 Stdlib.Zmod.ZmodDef Zmod pow def
+R7129:7129 Stdlib.Zmod.Bits <> z:116 var
+R7127:7127 Stdlib.Zmod.Bits <> x:115 var
+R7134:7142 Stdlib.ZArith.ZModOffset Z smodulo def
+R7153:7155 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7145:7150 Stdlib.Zmod.ZmodDef Zmod signed def
+R7152:7152 Stdlib.Zmod.Bits <> x:115 var
+R7156:7156 Stdlib.Zmod.Bits <> z:116 var
+R7161:7161 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7162:7162 Stdlib.Zmod.Bits <> n:114 var
+R7181:7199 Stdlib.Zmod.ZmodBase Zmod signed_pow_nonneg_r thm
+abbrev 7225:7241 bits signed_pow_nonneg
+R7246:7264 Stdlib.Zmod.Bits bits signed_pow_nonneg_r thm
+prf 7274:7280 bits of_Z_nz
+binder 7283:7283 <> n:118
+R7291:7294 Stdlib.Zmod.ZmodDef <> bits abbrev
+R7296:7296 Stdlib.Zmod.Bits <> n:118 var
+binder 7287:7287 <> x:119
+R7314:7317 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7306:7310 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7305:7305 Stdlib.Zmod.Bits <> x:119 var
+R7312:7312 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7313:7313 Stdlib.Zmod.Bits <> n:118 var
+binder 7300:7300 <> H:120
+R7339:7342 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7326:7334 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R7336:7336 Stdlib.Zmod.Bits <> n:118 var
+R7338:7338 Stdlib.Zmod.Bits <> x:119 var
+R7343:7346 Stdlib.Zmod.ZmodDef Zmod zero def
+R7362:7368 Stdlib.Zmod.ZmodBase Zmod of_Z_nz thm
+prf 7392:7403 bits opp_overflow
+binder 7406:7406 <> n:121
+R7414:7417 Stdlib.Zmod.ZmodDef <> bits abbrev
+R7419:7419 Stdlib.Zmod.Bits <> n:121 var
+binder 7410:7410 <> x:122
+R7429:7432 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7433:7433 Stdlib.Zmod.Bits <> n:121 var
+binder 7423:7424 <> Hn:123
+R7450:7452 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7442:7447 Stdlib.Zmod.ZmodDef Zmod signed def
+R7449:7449 Stdlib.Zmod.Bits <> x:122 var
+R7453:7453 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7455:7456 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7460:7460 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7458:7458 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7457:7457 Stdlib.Zmod.Bits <> n:121 var
+binder 7437:7438 <> Hx:124
+R7470:7472 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7465:7467 Stdlib.Zmod.ZmodDef Zmod opp def
+R7469:7469 Stdlib.Zmod.Bits <> x:122 var
+R7473:7473 Stdlib.Zmod.Bits <> x:122 var
+R7491:7500 Stdlib.ZArith.BinInt Z eqb_spec thm
+R7524:7535 Stdlib.Zmod.ZmodBase Zmod hprop_Zmod_1 thm
+R7553:7564 Stdlib.ZArith.BinInt Z pow_succ_r thm
+R7570:7570 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7604:7609 Stdlib.ZArith.BinInt Z succ def
+R7613:7613 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7648:7659 Stdlib.Zmod.ZmodBase Zmod opp_overflow thm
+prf 7731:7742 bits abs_overflow
+binder 7745:7745 <> n:125
+R7753:7756 Stdlib.Zmod.ZmodDef <> bits abbrev
+R7758:7758 Stdlib.Zmod.Bits <> n:125 var
+binder 7749:7749 <> x:126
+R7768:7771 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7772:7772 Stdlib.Zmod.Bits <> n:125 var
+binder 7762:7763 <> Hn:127
+R7789:7791 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7781:7786 Stdlib.Zmod.ZmodDef Zmod signed def
+R7788:7788 Stdlib.Zmod.Bits <> x:126 var
+R7792:7792 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7794:7795 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7799:7799 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7797:7797 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7796:7796 Stdlib.Zmod.Bits <> n:125 var
+binder 7776:7777 <> Hx:128
+R7809:7811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7804:7806 Stdlib.Zmod.ZmodDef Zmod abs def
+R7808:7808 Stdlib.Zmod.Bits <> x:126 var
+R7812:7812 Stdlib.Zmod.Bits <> x:126 var
+R7829:7831 Stdlib.Zmod.ZmodDef Zmod abs def
+R7855:7864 Stdlib.ZArith.BinInt Z ltb_spec thm
+R7867:7867 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7869:7870 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7874:7874 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7872:7872 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7898:7909 Stdlib.Zmod.Bits bits opp_overflow thm
+prf 7924:7937 bits squot_overflow
+binder 7940:7940 <> n:129
+R7950:7953 Stdlib.Zmod.ZmodDef <> bits abbrev
+R7955:7955 Stdlib.Zmod.Bits <> n:129 var
+binder 7944:7944 <> x:130
+binder 7946:7946 <> y:131
+R7965:7968 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7969:7969 Stdlib.Zmod.Bits <> n:129 var
+binder 7959:7960 <> Hn:132
+R7986:7988 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7978:7983 Stdlib.Zmod.ZmodDef Zmod signed def
+R7985:7985 Stdlib.Zmod.Bits <> x:130 var
+R7989:7989 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7991:7992 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7996:7996 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7994:7994 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7993:7993 Stdlib.Zmod.Bits <> n:129 var
+binder 7973:7974 <> Hx:133
+R8013:8015 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8005:8010 Stdlib.Zmod.ZmodDef Zmod signed def
+R8012:8012 Stdlib.Zmod.Bits <> y:131 var
+binder 8000:8001 <> Hy:134
+R8033:8035 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8024:8028 Stdlib.Zmod.ZmodDef Zmod squot def
+R8032:8032 Stdlib.Zmod.Bits <> y:131 var
+R8030:8030 Stdlib.Zmod.Bits <> x:130 var
+R8036:8036 Stdlib.Zmod.Bits <> x:130 var
+R8054:8063 Stdlib.ZArith.BinInt Z eqb_spec thm
+R8087:8098 Stdlib.Zmod.ZmodBase Zmod hprop_Zmod_1 thm
+R8116:8127 Stdlib.ZArith.BinInt Z pow_succ_r thm
+R8133:8133 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8167:8172 Stdlib.ZArith.BinInt Z succ def
+R8176:8176 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8209:8222 Stdlib.Zmod.ZmodBase Zmod squot_overflow thm
+prf 8277:8294 bits signed_squot_small
+binder 8297:8297 <> n:135
+R8307:8310 Stdlib.Zmod.ZmodDef <> bits abbrev
+R8312:8312 Stdlib.Zmod.Bits <> n:135 var
+binder 8301:8301 <> x:136
+binder 8303:8303 <> y:137
+R8322:8325 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8326:8326 Stdlib.Zmod.Bits <> n:135 var
+binder 8316:8317 <> Hn:138
+R8343:8346 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8335:8340 Stdlib.Zmod.ZmodDef Zmod signed def
+R8342:8342 Stdlib.Zmod.Bits <> y:137 var
+binder 8330:8331 <> Hy:139
+R8394:8399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8354:8356 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8393:8393 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8376:8379 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8365:8367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8357:8362 Stdlib.Zmod.ZmodDef Zmod signed def
+R8364:8364 Stdlib.Zmod.Bits <> x:136 var
+R8368:8368 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8370:8371 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8375:8375 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8373:8373 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8372:8372 Stdlib.Zmod.Bits <> n:135 var
+R8388:8390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8380:8385 Stdlib.Zmod.ZmodDef Zmod signed def
+R8387:8387 Stdlib.Zmod.Bits <> y:137 var
+R8418:8420 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8400:8405 Stdlib.Zmod.ZmodDef Zmod signed def
+R8408:8412 Stdlib.Zmod.ZmodDef Zmod squot def
+R8416:8416 Stdlib.Zmod.Bits <> y:137 var
+R8414:8414 Stdlib.Zmod.Bits <> x:136 var
+R8429:8432 Stdlib.ZArith.BinInt <> ::Z_scope:x_'÷'_x not
+R8421:8426 Stdlib.Zmod.ZmodDef Zmod signed def
+R8428:8428 Stdlib.Zmod.Bits <> x:136 var
+R8433:8438 Stdlib.Zmod.ZmodDef Zmod signed def
+R8440:8440 Stdlib.Zmod.Bits <> y:137 var
+R8466:8475 Stdlib.ZArith.BinInt Z eqb_spec thm
+R8503:8515 Stdlib.Zmod.Bits bits signed_width0 thm
+R8537:8554 Stdlib.Zmod.ZmodBase Zmod signed_squot_small thm
+R8644:8655 Stdlib.ZArith.BinInt Z pow_succ_r thm
+R8661:8661 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8695:8700 Stdlib.ZArith.BinInt Z succ def
+R8704:8704 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 8785:8795 bits signed_srem
+binder 8798:8798 <> n:140
+R8808:8811 Stdlib.Zmod.ZmodDef <> bits abbrev
+R8813:8813 Stdlib.Zmod.Bits <> n:140 var
+binder 8802:8802 <> x:141
+binder 8804:8804 <> y:142
+R8835:8837 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8818:8823 Stdlib.Zmod.ZmodDef Zmod signed def
+R8826:8829 Stdlib.Zmod.ZmodDef Zmod srem def
+R8833:8833 Stdlib.Zmod.Bits <> y:142 var
+R8831:8831 Stdlib.Zmod.Bits <> x:141 var
+R8838:8846 Stdlib.ZArith.ZModOffset Z smodulo def
+R8849:8853 Stdlib.ZArith.BinInt Z rem def
+R8856:8861 Stdlib.Zmod.ZmodDef Zmod signed def
+R8863:8863 Stdlib.Zmod.Bits <> x:141 var
+R8867:8872 Stdlib.Zmod.ZmodDef Zmod signed def
+R8874:8874 Stdlib.Zmod.Bits <> y:142 var
+R8880:8880 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R8881:8881 Stdlib.Zmod.Bits <> n:140 var
+R8898:8908 Stdlib.Zmod.Bits bits signed_of_Z thm
+prf 8923:8934 bits signed_squot
+binder 8937:8937 <> n:143
+R8947:8950 Stdlib.Zmod.ZmodDef <> bits abbrev
+R8952:8952 Stdlib.Zmod.Bits <> n:143 var
+binder 8941:8941 <> x:144
+binder 8943:8943 <> y:145
+R8975:8979 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8957:8962 Stdlib.Zmod.ZmodDef Zmod signed def
+R8965:8969 Stdlib.Zmod.ZmodDef Zmod squot def
+R8973:8973 Stdlib.Zmod.Bits <> y:145 var
+R8971:8971 Stdlib.Zmod.Bits <> x:144 var
+R8980:8988 Stdlib.ZArith.ZModOffset Z smodulo def
+R9002:9005 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R8994:8999 Stdlib.Zmod.ZmodDef Zmod signed def
+R9001:9001 Stdlib.Zmod.Bits <> y:145 var
+R9029:9032 Stdlib.ZArith.BinInt <> ::Z_scope:x_'÷'_x not
+R9021:9026 Stdlib.Zmod.ZmodDef Zmod signed def
+R9028:9028 Stdlib.Zmod.Bits <> x:144 var
+R9033:9038 Stdlib.Zmod.ZmodDef Zmod signed def
+R9040:9040 Stdlib.Zmod.Bits <> y:145 var
+R9045:9045 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9046:9046 Stdlib.Zmod.Bits <> n:143 var
+R9063:9073 Stdlib.Zmod.Bits bits signed_of_Z thm
+prf 9088:9102 bits signed_squot_nz
+binder 9105:9105 <> n:146
+R9115:9118 Stdlib.Zmod.ZmodDef <> bits abbrev
+R9120:9120 Stdlib.Zmod.Bits <> n:146 var
+binder 9109:9109 <> x:147
+binder 9111:9111 <> y:148
+R9138:9141 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9133:9136 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9125:9130 Stdlib.Zmod.ZmodDef Zmod signed def
+R9132:9132 Stdlib.Zmod.Bits <> y:148 var
+R9160:9162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9142:9147 Stdlib.Zmod.ZmodDef Zmod signed def
+R9150:9154 Stdlib.Zmod.ZmodDef Zmod squot def
+R9158:9158 Stdlib.Zmod.Bits <> y:148 var
+R9156:9156 Stdlib.Zmod.Bits <> x:147 var
+R9163:9171 Stdlib.ZArith.ZModOffset Z smodulo def
+R9182:9185 Stdlib.ZArith.BinInt <> ::Z_scope:x_'÷'_x not
+R9174:9179 Stdlib.Zmod.ZmodDef Zmod signed def
+R9181:9181 Stdlib.Zmod.Bits <> x:147 var
+R9186:9191 Stdlib.Zmod.ZmodDef Zmod signed def
+R9193:9193 Stdlib.Zmod.Bits <> y:148 var
+R9198:9198 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9199:9199 Stdlib.Zmod.Bits <> n:146 var
+R9226:9240 Stdlib.Zmod.ZmodBase Zmod signed_squot_nz thm
+prf 9294:9305 bits testbit_high
+binder 9308:9308 <> n:149
+R9316:9319 Stdlib.Zmod.ZmodDef <> bits abbrev
+R9321:9321 Stdlib.Zmod.Bits <> n:149 var
+binder 9312:9312 <> x:150
+binder 9324:9324 <> i:151
+R9333:9336 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9337:9337 Stdlib.Zmod.Bits <> n:149 var
+binder 9327:9328 <> Hn:152
+R9348:9351 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9347:9347 Stdlib.Zmod.Bits <> n:149 var
+R9352:9352 Stdlib.Zmod.Bits <> i:151 var
+binder 9341:9342 <> Hi:153
+R9373:9375 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9360:9368 Stdlib.ZArith.BinInt Z testbit def
+R9370:9370 Stdlib.Zmod.Bits <> x:150 var
+R9372:9372 Stdlib.Zmod.Bits <> i:151 var
+R9376:9380 Corelib.Init.Datatypes <> false constr
+R9400:9407 Stdlib.Zmod.Bits bits mod_to_Z thm
+R9410:9429 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+prf 9449:9458 bits testbit_m1
+binder 9461:9461 <> n:154
+binder 9464:9464 <> i:155
+R9473:9476 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9477:9477 Stdlib.Zmod.Bits <> n:154 var
+binder 9467:9468 <> Hn:156
+R9515:9517 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9482:9490 Stdlib.ZArith.BinInt Z testbit def
+R9494:9501 Stdlib.Zmod.ZmodDef Zmod opp def
+R9505:9505 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R9506:9506 Stdlib.Zmod.Bits <> n:154 var
+R9509:9511 Stdlib.Zmod.ZmodDef Zmod one def
+R9514:9514 Stdlib.Zmod.Bits <> i:155 var
+R9518:9518 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9526:9531 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9538:9538 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9520:9524 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R9525:9525 Stdlib.Zmod.Bits <> i:155 var
+R9533:9536 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R9532:9532 Stdlib.Zmod.Bits <> i:155 var
+R9537:9537 Stdlib.Zmod.Bits <> n:154 var
+R9556:9562 Stdlib.Zmod.Bits bits to_Z_m1 abbrev
+R9565:9578 Stdlib.ZArith.BinInt Z testbit_ones thm
+prf 9598:9609 bits testbit_sign
+binder 9612:9612 <> n:157
+R9620:9623 Stdlib.Zmod.ZmodDef <> bits abbrev
+R9625:9625 Stdlib.Zmod.Bits <> n:157 var
+binder 9616:9616 <> x:158
+R9635:9638 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9639:9639 Stdlib.Zmod.Bits <> n:157 var
+binder 9629:9630 <> Hn:159
+R9661:9664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9678:9678 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9644:9652 Stdlib.ZArith.BinInt Z testbit def
+R9654:9654 Stdlib.Zmod.Bits <> x:158 var
+R9658:9658 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9657:9657 Stdlib.Zmod.Bits <> n:157 var
+R9673:9676 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R9665:9670 Stdlib.Zmod.ZmodDef Zmod signed def
+R9672:9672 Stdlib.Zmod.Bits <> x:158 var
+R9704:9713 Stdlib.ZArith.BinInt Z eqb_spec thm
+R9741:9753 Stdlib.Zmod.Bits bits signed_width0 thm
+R9775:9788 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R9799:9812 Stdlib.ZArith.BinInt Z testbit_true thm
+R9815:9822 Stdlib.ZArith.BinInt Z ltb_lt thm
+R9825:9838 Stdlib.Zmod.Bits bits signed_neg_iff thm
+R9861:9872 Stdlib.ZArith.BinInt Z pow_succ_r thm
+R9878:9878 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9912:9917 Stdlib.ZArith.BinInt Z succ def
+R9921:9921 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9959:9968 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R9983:9993 Stdlib.ZArith.BinInt Z mod_small thm
+prf 10048:10066 bits testbit_signed_high
+binder 10069:10069 <> n:160
+R10077:10080 Stdlib.Zmod.ZmodDef <> bits abbrev
+R10082:10082 Stdlib.Zmod.Bits <> n:160 var
+binder 10073:10073 <> x:161
+binder 10085:10085 <> i:162
+R10094:10097 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10098:10098 Stdlib.Zmod.Bits <> n:160 var
+binder 10088:10089 <> Hn:163
+R10109:10112 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10108:10108 Stdlib.Zmod.Bits <> n:160 var
+R10113:10113 Stdlib.Zmod.Bits <> i:162 var
+binder 10102:10103 <> Hi:164
+R10145:10148 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10162:10162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10123:10131 Stdlib.ZArith.BinInt Z testbit def
+R10134:10139 Stdlib.Zmod.ZmodDef Zmod signed def
+R10141:10141 Stdlib.Zmod.Bits <> x:161 var
+R10144:10144 Stdlib.Zmod.Bits <> i:162 var
+R10157:10160 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R10149:10154 Stdlib.Zmod.ZmodDef Zmod signed def
+R10156:10156 Stdlib.Zmod.Bits <> x:161 var
+R10188:10197 Stdlib.ZArith.BinInt Z eqb_spec thm
+R10225:10237 Stdlib.Zmod.Bits bits signed_width0 thm
+R10241:10253 Stdlib.ZArith.BinInt Z testbit_0_l thm
+R10275:10282 Stdlib.ZArith.BinInt Z eq_dec def
+R10285:10290 Stdlib.Zmod.ZmodDef Zmod signed def
+R10341:10352 Stdlib.Zmod.Bits bits signed_range thm
+R10365:10378 Stdlib.Bool.Bool <> eq_true_iff_eq thm
+R10391:10404 Stdlib.ZArith.BinInt Z bits_iff_neg thm
+R10407:10414 Stdlib.ZArith.BinInt Z ltb_lt thm
+R10434:10447 Stdlib.ZArith.BinInt Z log2_lt_pow2 thm
+R10492:10492 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R10468:10480 Stdlib.ZArith.BinInt Z lt_le_trans thm
+R10505:10519 Stdlib.ZArith.BinInt Z pow_le_mono_r thm
+prf 10540:10551 bits unsigned_and
+binder 10554:10554 <> n:165
+R10564:10567 Stdlib.Zmod.ZmodDef <> bits abbrev
+R10569:10569 Stdlib.Zmod.Bits <> n:165 var
+binder 10558:10558 <> x:166
+binder 10560:10560 <> y:167
+R10592:10594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10574:10581 Stdlib.Zmod.ZmodDef Zmod unsigned coe
+R10584:10586 Stdlib.Zmod.ZmodDef Zmod and def
+R10590:10590 Stdlib.Zmod.Bits <> y:167 var
+R10588:10588 Stdlib.Zmod.Bits <> x:166 var
+R10595:10600 Stdlib.ZArith.BinInt Z land def
+R10602:10602 Stdlib.Zmod.Bits <> x:166 var
+R10604:10604 Stdlib.Zmod.Bits <> y:167 var
+R10620:10637 Stdlib.Zmod.ZmodBase Zmod unsigned_and_small thm
+prf 10657:10667 bits unsigned_or
+binder 10670:10670 <> n:168
+R10680:10683 Stdlib.Zmod.ZmodDef <> bits abbrev
+R10685:10685 Stdlib.Zmod.Bits <> n:168 var
+binder 10674:10674 <> x:169
+binder 10676:10676 <> y:170
+R10703:10705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10690:10693 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R10696:10697 Stdlib.Zmod.ZmodDef Zmod or def
+R10701:10701 Stdlib.Zmod.Bits <> y:170 var
+R10699:10699 Stdlib.Zmod.Bits <> x:169 var
+R10706:10710 Stdlib.ZArith.BinInt Z lor def
+R10712:10712 Stdlib.Zmod.Bits <> x:169 var
+R10714:10714 Stdlib.Zmod.Bits <> y:170 var
+R10731:10732 Stdlib.Zmod.ZmodDef Zmod or def
+R10744:10752 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R10763:10772 Stdlib.ZArith.BinInt Z ltb_spec thm
+R10796:10806 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R10831:10839 Stdlib.ZArith.BinInt Z mod_0_r thm
+R10852:10861 Stdlib.ZArith.BinInt Z bits_inj thm
+R10884:10893 Stdlib.ZArith.BinInt Z ltb_spec thm
+R10919:10928 Stdlib.ZArith.BinInt Z lor_spec thm
+R10932:10950 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R10954:10973 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R10977:10988 Stdlib.Zmod.Bits bits testbit_high thm
+abbrev 11021:11027 bits to_Z_or
+R11032:11042 Stdlib.Zmod.Bits bits unsigned_or thm
+prf 11067:11078 bits unsigned_xor
+binder 11081:11081 <> n:171
+R11091:11094 Stdlib.Zmod.ZmodDef <> bits abbrev
+R11096:11096 Stdlib.Zmod.Bits <> n:171 var
+binder 11085:11085 <> x:172
+binder 11087:11087 <> y:173
+R11115:11117 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11101:11104 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R11107:11109 Stdlib.Zmod.ZmodDef Zmod xor def
+R11113:11113 Stdlib.Zmod.Bits <> y:173 var
+R11111:11111 Stdlib.Zmod.Bits <> x:172 var
+R11118:11123 Stdlib.ZArith.BinInt Z lxor def
+R11125:11125 Stdlib.Zmod.Bits <> x:172 var
+R11127:11127 Stdlib.Zmod.Bits <> y:173 var
+R11144:11146 Stdlib.Zmod.ZmodDef Zmod xor def
+R11158:11166 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R11177:11186 Stdlib.ZArith.BinInt Z ltb_spec thm
+R11210:11220 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R11245:11253 Stdlib.ZArith.BinInt Z mod_0_r thm
+R11266:11275 Stdlib.ZArith.BinInt Z bits_inj thm
+R11298:11307 Stdlib.ZArith.BinInt Z ltb_spec thm
+R11333:11343 Stdlib.ZArith.BinInt Z lxor_spec thm
+R11347:11365 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R11369:11388 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R11392:11403 Stdlib.Zmod.Bits bits testbit_high thm
+abbrev 11436:11443 bits to_Z_xor
+R11448:11459 Stdlib.Zmod.Bits bits unsigned_xor thm
+prf 11484:11495 bits xor_zero_iff
+binder 11498:11498 <> n:174
+R11508:11511 Stdlib.Zmod.ZmodDef <> bits abbrev
+R11513:11513 Stdlib.Zmod.Bits <> n:174 var
+binder 11502:11502 <> x:175
+binder 11504:11504 <> y:176
+R11532:11536 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11525:11527 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11518:11520 Stdlib.Zmod.ZmodDef Zmod xor def
+R11524:11524 Stdlib.Zmod.Bits <> y:176 var
+R11522:11522 Stdlib.Zmod.Bits <> x:175 var
+R11528:11531 Stdlib.Zmod.ZmodDef Zmod zero def
+R11538:11540 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11537:11537 Stdlib.Zmod.Bits <> x:175 var
+R11541:11541 Stdlib.Zmod.Bits <> y:176 var
+R11564:11575 Stdlib.Zmod.ZmodBase Zmod to_Z_inj_iff abbrev
+R11578:11583 Stdlib.Zmod.Bits bits to_Z_0 abbrev
+R11586:11593 Stdlib.Zmod.Bits bits to_Z_xor abbrev
+R11596:11610 Stdlib.ZArith.BinInt Z lxor_eq_0_iff thm
+prf 11634:11645 bits eqb_xor_zero
+binder 11648:11648 <> n:177
+R11658:11661 Stdlib.Zmod.ZmodDef <> bits abbrev
+R11663:11663 Stdlib.Zmod.Bits <> n:177 var
+binder 11652:11652 <> x:178
+binder 11654:11654 <> y:179
+R11686:11688 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11668:11670 Stdlib.Zmod.ZmodDef Zmod eqb def
+R11682:11685 Stdlib.Zmod.ZmodDef Zmod zero def
+R11673:11675 Stdlib.Zmod.ZmodDef Zmod xor def
+R11679:11679 Stdlib.Zmod.Bits <> y:179 var
+R11677:11677 Stdlib.Zmod.Bits <> x:178 var
+R11689:11691 Stdlib.Zmod.ZmodDef Zmod eqb def
+R11695:11695 Stdlib.Zmod.Bits <> y:179 var
+R11693:11693 Stdlib.Zmod.Bits <> x:178 var
+R11718:11729 Stdlib.Zmod.Bits bits xor_zero_iff thm
+R11748:11755 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+R11767:11770 Stdlib.Zmod.ZmodDef Zmod zero def
+R11758:11760 Stdlib.Zmod.ZmodDef Zmod xor def
+R11775:11782 Stdlib.Zmod.ZmodBase Zmod eqb_spec thm
+mod 11825:11825 <> bits.Z
+prf 11834:11841 bits.Z ones_neg
+binder 11843:11843 <> n:180
+R11852:11854 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11851:11851 Stdlib.Zmod.Bits <> n:180 var
+binder 11846:11847 <> Hn:181
+R11868:11870 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11860:11865 Stdlib.ZArith.BinInt Z ones def
+R11867:11867 Stdlib.Zmod.Bits <> n:180 var
+R11890:11901 Stdlib.ZArith.BinInt Z ones_equiv thm
+R11904:11914 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R11935:11935 Stdlib.Zmod.Bits bits.Z <> mod
+prf 11945:11956 bits unsigned_not
+binder 11959:11959 <> n:182
+R11967:11970 Stdlib.Zmod.ZmodDef <> bits abbrev
+R11972:11972 Stdlib.Zmod.Bits <> n:182 var
+binder 11963:11963 <> x:183
+R11989:11991 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11977:11980 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R11983:11985 Stdlib.Zmod.ZmodDef Zmod not def
+R11987:11987 Stdlib.Zmod.Bits <> x:183 var
+R11992:11998 Stdlib.ZArith.BinInt Z ldiff def
+R12001:12006 Stdlib.ZArith.BinInt Z ones def
+R12008:12008 Stdlib.Zmod.Bits <> n:182 var
+R12011:12011 Stdlib.Zmod.Bits <> x:183 var
+R12028:12030 Stdlib.Zmod.ZmodDef Zmod not def
+R12042:12050 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R12059:12069 Stdlib.ZArith.BinInt Z bits_inj' thm
+R12093:12102 Stdlib.ZArith.BinInt Z leb_spec thm
+R12122:12131 Stdlib.ZArith.BinInt Z ltb_spec thm
+R12163:12173 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R12204:12222 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R12226:12245 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R12249:12259 Stdlib.ZArith.BinInt Z lnot_spec thm
+R12267:12285 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R12289:12308 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R12312:12323 Stdlib.ZArith.BinInt Z ldiff_spec thm
+R12331:12346 Stdlib.ZArith.BinInt Z ones_spec_high thm
+R12350:12364 Stdlib.ZArith.BinInt Z ones_spec_low thm
+R12368:12379 Stdlib.Zmod.Bits bits testbit_high thm
+R12387:12396 Stdlib.Zmod.Bits bits ones_neg thm
+R12400:12408 Stdlib.ZArith.BinInt Z bits_m1 thm
+R12451:12461 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R12489:12497 Stdlib.ZArith.BinInt Z mod_0_r thm
+R12518:12528 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R12559:12577 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R12581:12600 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R12604:12614 Stdlib.ZArith.BinInt Z lnot_spec thm
+R12622:12640 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R12644:12663 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R12667:12678 Stdlib.ZArith.BinInt Z ldiff_spec thm
+R12686:12701 Stdlib.ZArith.BinInt Z ones_spec_high thm
+R12705:12719 Stdlib.ZArith.BinInt Z ones_spec_low thm
+R12723:12734 Stdlib.Zmod.Bits bits testbit_high thm
+R12742:12751 Stdlib.Zmod.Bits bits ones_neg thm
+R12755:12763 Stdlib.ZArith.BinInt Z bits_m1 thm
+abbrev 12818:12825 bits to_Z_not
+R12830:12841 Stdlib.Zmod.Bits bits unsigned_not thm
+prf 12866:12878 bits unsigned_not'
+binder 12881:12881 <> n:184
+R12889:12892 Stdlib.Zmod.ZmodDef <> bits abbrev
+R12894:12894 Stdlib.Zmod.Bits <> n:184 var
+binder 12885:12885 <> x:185
+R12911:12913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12899:12902 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R12905:12907 Stdlib.Zmod.ZmodDef Zmod not def
+R12909:12909 Stdlib.Zmod.Bits <> x:185 var
+R12922:12924 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12914:12919 Stdlib.ZArith.BinInt Z ones def
+R12921:12921 Stdlib.Zmod.Bits <> n:184 var
+R12925:12925 Stdlib.Zmod.Bits <> x:185 var
+R12945:12952 Stdlib.Zmod.Bits bits to_Z_not abbrev
+R12955:12973 Stdlib.ZArith.BinInt Z sub_nocarry_ldiff thm
+R12993:13003 Stdlib.ZArith.BinInt Z bits_inj' thm
+R13027:13036 Stdlib.ZArith.BinInt Z leb_spec thm
+R13056:13065 Stdlib.ZArith.BinInt Z ltb_spec thm
+R13099:13110 Stdlib.Bool.Bool <> andb_false_r thm
+R13118:13129 Stdlib.ZArith.BinInt Z ldiff_spec thm
+R13133:13146 Stdlib.ZArith.BinInt Z testbit_ones thm
+R13150:13162 Stdlib.ZArith.BinInt Z testbit_0_l thm
+R13166:13177 Stdlib.Zmod.Bits bits testbit_high thm
+R13186:13190 Corelib.Init.Logic <> proj2 thm
+R13193:13200 Stdlib.ZArith.BinInt Z ltb_lt thm
+R13211:13215 Corelib.Init.Logic <> proj2 thm
+R13218:13225 Stdlib.ZArith.BinInt Z leb_le thm
+R13235:13244 Stdlib.Zmod.Bits bits ones_neg thm
+R13248:13256 Stdlib.ZArith.BinInt Z bits_m1 thm
+abbrev 13302:13310 bits to_Z_not'
+R13315:13327 Stdlib.Zmod.Bits bits unsigned_not' thm
+prf 13352:13360 bits of_Z_lnot
+binder 13363:13363 <> n:186
+binder 13366:13366 <> z:187
+R13392:13394 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13370:13378 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R13380:13380 Stdlib.Zmod.Bits <> n:186 var
+R13383:13388 Stdlib.ZArith.BinInt Z lnot def
+R13390:13390 Stdlib.Zmod.Bits <> z:187 var
+R13395:13397 Stdlib.Zmod.ZmodDef Zmod not def
+R13400:13408 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R13410:13410 Stdlib.Zmod.Bits <> n:186 var
+R13412:13412 Stdlib.Zmod.Bits <> z:187 var
+R13431:13443 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R13454:13461 Stdlib.Zmod.Bits bits to_Z_not abbrev
+R13464:13472 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R13475:13483 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R13494:13504 Stdlib.ZArith.BinInt Z bits_inj' thm
+R13528:13537 Stdlib.ZArith.BinInt Z leb_spec thm
+R13557:13566 Stdlib.ZArith.BinInt Z ltb_spec thm
+R13598:13609 Stdlib.ZArith.BinInt Z ldiff_spec thm
+R13617:13635 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R13639:13658 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R13662:13672 Stdlib.ZArith.BinInt Z lnot_spec thm
+R13680:13698 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R13702:13721 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R13725:13738 Stdlib.ZArith.BinInt Z testbit_ones thm
+R13747:13751 Corelib.Init.Logic <> proj2 thm
+R13754:13761 Stdlib.ZArith.BinInt Z ltb_lt thm
+R13771:13775 Corelib.Init.Logic <> proj2 thm
+R13778:13785 Stdlib.ZArith.BinInt Z leb_le thm
+R13796:13800 Corelib.Init.Logic <> proj2 thm
+R13803:13811 Stdlib.ZArith.BinInt Z ltb_nlt thm
+R13851:13861 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R13889:13897 Stdlib.ZArith.BinInt Z mod_0_r thm
+R13911:13921 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R13949:13957 Stdlib.ZArith.BinInt Z mod_0_r thm
+R13978:13988 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R14019:14037 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R14041:14060 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R14064:14074 Stdlib.ZArith.BinInt Z lnot_spec thm
+R14082:14100 Stdlib.ZArith.BinInt Z mod_pow2_bits_low thm
+R14104:14123 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R14127:14138 Stdlib.ZArith.BinInt Z ldiff_spec thm
+R14146:14161 Stdlib.ZArith.BinInt Z ones_spec_high thm
+R14165:14179 Stdlib.ZArith.BinInt Z ones_spec_low thm
+R14183:14194 Stdlib.Zmod.Bits bits testbit_high thm
+R14202:14211 Stdlib.Zmod.Bits bits ones_neg thm
+R14215:14223 Stdlib.ZArith.BinInt Z bits_m1 thm
+prf 14267:14273 bits not_not
+binder 14276:14276 <> n:188
+R14284:14287 Stdlib.Zmod.ZmodDef <> bits abbrev
+R14289:14289 Stdlib.Zmod.Bits <> n:188 var
+binder 14280:14280 <> x:189
+R14305:14307 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14294:14296 Stdlib.Zmod.ZmodDef Zmod not def
+R14299:14301 Stdlib.Zmod.ZmodDef Zmod not def
+R14303:14303 Stdlib.Zmod.Bits <> x:189 var
+R14308:14308 Stdlib.Zmod.Bits <> x:189 var
+R14324:14331 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R14343:14351 Stdlib.Zmod.Bits bits to_Z_not' abbrev
+prf 14371:14375 bits not_0
+binder 14377:14377 <> n:190
+R14389:14391 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R14399:14402 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R14403:14406 Stdlib.Zmod.ZmodDef <> bits abbrev
+R14408:14408 Stdlib.Zmod.Bits <> n:190 var
+R14381:14383 Stdlib.Zmod.ZmodDef Zmod not def
+R14385:14388 Stdlib.Zmod.ZmodDef Zmod zero def
+R14392:14394 Stdlib.Zmod.ZmodDef Zmod opp def
+R14396:14398 Stdlib.Zmod.ZmodDef Zmod one def
+R14424:14436 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R14447:14455 Stdlib.Zmod.Bits bits to_Z_not' abbrev
+R14458:14463 Stdlib.Zmod.Bits bits to_Z_0 abbrev
+R14466:14474 Stdlib.ZArith.BinInt Z sub_0_r thm
+R14477:14483 Stdlib.Zmod.Bits bits to_Z_m1 abbrev
+prf 14507:14512 bits not_m1
+binder 14514:14514 <> n:191
+R14531:14533 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R14538:14541 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R14542:14545 Stdlib.Zmod.ZmodDef <> bits abbrev
+R14547:14547 Stdlib.Zmod.Bits <> n:191 var
+R14518:14520 Stdlib.Zmod.ZmodDef Zmod not def
+R14523:14525 Stdlib.Zmod.ZmodDef Zmod opp def
+R14527:14529 Stdlib.Zmod.ZmodDef Zmod one def
+R14534:14537 Stdlib.Zmod.ZmodDef Zmod zero def
+R14567:14571 Stdlib.Zmod.Bits bits not_0 thm
+R14574:14580 Stdlib.Zmod.Bits bits not_not thm
+prf 14731:14742 bits unsigned_app
+binder 14745:14745 <> n:192
+binder 14747:14747 <> m:193
+binder 14750:14750 <> a:194
+binder 14752:14752 <> b:195
+R14761:14764 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R14765:14765 Stdlib.Zmod.Bits <> n:192 var
+binder 14755:14756 <> Hn:196
+R14775:14778 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R14779:14779 Stdlib.Zmod.Bits <> m:193 var
+binder 14769:14770 <> Hm:197
+R14805:14807 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14786:14789 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R14793:14795 Stdlib.Zmod.ZmodDef Zmod app def
+R14797:14797 Stdlib.Zmod.Bits <> n:192 var
+R14799:14799 Stdlib.Zmod.Bits <> m:193 var
+R14801:14801 Stdlib.Zmod.Bits <> a:194 var
+R14803:14803 Stdlib.Zmod.Bits <> b:195 var
+R14808:14812 Stdlib.ZArith.BinInt Z lor def
+R14814:14814 Stdlib.Zmod.Bits <> a:194 var
+R14817:14824 Stdlib.ZArith.BinInt Z shiftl def
+R14826:14826 Stdlib.Zmod.Bits <> b:195 var
+R14828:14828 Stdlib.Zmod.Bits <> n:192 var
+R14846:14848 Stdlib.Zmod.ZmodDef Zmod app def
+R14860:14868 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R14871:14887 Stdlib.ZArith.BinInt Z shiftl_mul_pow2 thm
+R14907:14916 Stdlib.ZArith.BinInt Z ltb_spec thm
+R14920:14920 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14945:14955 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R14961:14961 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14967:14975 Stdlib.ZArith.BinInt Z mod_0_r thm
+R14993:15003 Stdlib.ZArith.BinInt Z mod_small thm
+R15016:15026 Stdlib.ZArith.BinInt Z pow_add_r thm
+R15068:15077 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R15093:15102 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R15120:15131 Stdlib.ZArith.BinInt Z lor_nonneg thm
+R15137:15139 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15141:15141 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15157:15169 Stdlib.ZArith.BinInt Z land_nonneg thm
+R15175:15177 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15179:15179 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15197:15210 Stdlib.ZArith.Zbitwise Z add_lor_land thm
+R15216:15218 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15220:15220 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+abbrev 15244:15251 bits to_Z_app
+R15256:15267 Stdlib.Zmod.Bits bits unsigned_app thm
+prf 15292:15306 bits unsigned_firstn
+binder 15309:15309 <> n:198
+binder 15311:15311 <> m:199
+binder 15314:15314 <> a:200
+R15338:15340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15318:15321 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R15325:15330 Stdlib.Zmod.ZmodDef Zmod firstn def
+R15332:15332 Stdlib.Zmod.Bits <> n:198 var
+R15334:15334 Stdlib.Zmod.Bits <> m:199 var
+R15336:15336 Stdlib.Zmod.Bits <> a:200 var
+R15342:15346 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15341:15341 Stdlib.Zmod.Bits <> a:200 var
+R15348:15348 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15349:15349 Stdlib.Zmod.Bits <> n:198 var
+R15365:15373 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+abbrev 15390:15400 bits to_Z_firstn
+R15405:15419 Stdlib.Zmod.Bits bits unsigned_firstn thm
+prf 15444:15457 bits unsigned_skipn
+binder 15460:15460 <> n:201
+binder 15462:15462 <> m:202
+binder 15465:15465 <> a:203
+R15474:15477 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15478:15478 Stdlib.Zmod.Bits <> n:201 var
+binder 15468:15469 <> Hn:204
+R15502:15504 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15483:15486 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R15490:15494 Stdlib.Zmod.ZmodDef Zmod skipn def
+R15496:15496 Stdlib.Zmod.Bits <> n:201 var
+R15498:15498 Stdlib.Zmod.Bits <> m:202 var
+R15500:15500 Stdlib.Zmod.Bits <> a:203 var
+R15506:15506 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15505:15505 Stdlib.Zmod.Bits <> a:203 var
+R15508:15508 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R15509:15509 Stdlib.Zmod.Bits <> n:201 var
+R15526:15530 Stdlib.Zmod.ZmodDef Zmod skipn def
+R15542:15550 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R15553:15569 Stdlib.ZArith.BinInt Z shiftr_div_pow2 thm
+R15591:15600 Stdlib.ZArith.BinInt Z ltb_spec thm
+R15625:15635 Stdlib.ZArith.BinInt Z pow_neg_r thm
+R15641:15641 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15647:15655 Stdlib.ZArith.BinInt Z mod_0_r thm
+R15678:15687 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R15711:15721 Stdlib.ZArith.BinInt Z mod_small thm
+R15772:15790 Stdlib.ZArith.Zdiv <> Zdiv_lt_upper_bound thm
+R15813:15823 Stdlib.ZArith.BinInt Z pow_add_r thm
+R15826:15834 Stdlib.ZArith.BinInt Z sub_add thm
+abbrev 15856:15865 bits to_Z_skipn
+R15870:15883 Stdlib.Zmod.Bits bits unsigned_skipn thm
+prf 15908:15921 bits unsigned_slice
+binder 15923:15927 <> start:205
+binder 15929:15935 <> pastend:206
+binder 15938:15938 <> w:207
+R15946:15949 Stdlib.Zmod.ZmodDef <> bits abbrev
+R15951:15951 Stdlib.Zmod.Bits <> w:207 var
+binder 15942:15942 <> a:208
+R15960:15963 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15969:15972 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15964:15968 Stdlib.Zmod.Bits <> start:205 var
+R15973:15979 Stdlib.Zmod.Bits <> pastend:206 var
+binder 15955:15955 <> H:209
+R16014:16016 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15986:15989 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R15992:15996 Stdlib.Zmod.ZmodDef Zmod slice def
+R16012:16012 Stdlib.Zmod.Bits <> a:208 var
+R16004:16010 Stdlib.Zmod.Bits <> pastend:206 var
+R15998:16002 Stdlib.Zmod.Bits <> start:205 var
+R16026:16030 Stdlib.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R16018:16018 Stdlib.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16017:16017 Stdlib.Zmod.Bits <> a:208 var
+R16020:16020 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R16021:16025 Stdlib.Zmod.Bits <> start:205 var
+R16032:16033 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R16047:16047 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R16041:16041 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16034:16040 Stdlib.Zmod.Bits <> pastend:206 var
+R16042:16046 Stdlib.Zmod.Bits <> start:205 var
+R16062:16066 Stdlib.Zmod.ZmodDef Zmod slice def
+R16078:16088 Stdlib.Zmod.Bits bits to_Z_firstn abbrev
+R16091:16100 Stdlib.Zmod.Bits bits to_Z_skipn abbrev
+abbrev 16122:16131 bits to_Z_slice
+R16136:16149 Stdlib.Zmod.Bits bits unsigned_slice thm
+prf 16247:16256 bits firstn_app
+binder 16259:16259 <> n:210
+binder 16261:16261 <> m:211
+binder 16264:16264 <> a:212
+binder 16266:16266 <> b:213
+R16275:16278 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16279:16279 Stdlib.Zmod.Bits <> n:210 var
+binder 16269:16270 <> Hn:214
+R16289:16292 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16293:16293 Stdlib.Zmod.Bits <> m:211 var
+binder 16283:16284 <> Hm:215
+R16323:16325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16300:16305 Stdlib.Zmod.ZmodDef Zmod firstn def
+R16311:16313 Stdlib.Zmod.ZmodDef Zmod app def
+R16315:16315 Stdlib.Zmod.Bits <> n:210 var
+R16317:16317 Stdlib.Zmod.Bits <> m:211 var
+R16319:16319 Stdlib.Zmod.Bits <> a:212 var
+R16321:16321 Stdlib.Zmod.Bits <> b:213 var
+R16307:16307 Stdlib.Zmod.Bits <> n:210 var
+R16326:16326 Stdlib.Zmod.Bits <> a:212 var
+R16344:16351 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R16362:16372 Stdlib.Zmod.Bits bits to_Z_firstn abbrev
+R16375:16382 Stdlib.Zmod.Bits bits to_Z_app abbrev
+R16416:16423 Stdlib.Zmod.Bits bits mod_to_Z thm
+R16454:16464 Stdlib.ZArith.BinInt Z land_ones thm
+R16482:16492 Stdlib.ZArith.BinInt Z bits_inj' thm
+R16526:16535 Stdlib.ZArith.BinInt Z lor_spec thm
+R16539:16549 Stdlib.ZArith.BinInt Z land_spec thm
+R16553:16565 Stdlib.ZArith.BinInt Z shiftl_spec thm
+R16569:16582 Stdlib.ZArith.BinInt Z testbit_ones thm
+R16590:16609 Stdlib.ZArith.BinInt Z mod_pow2_bits_high thm
+R16634:16648 Stdlib.ZArith.BinInt Z testbit_neg_r thm
+R16672:16686 Stdlib.ZArith.Zbool <> Zle_imp_le_bool thm
+R16690:16705 Stdlib.Bool.Bool <> andb_true_l thm
+R16736:16745 Stdlib.ZArith.BinInt Z ltb_spec thm
+R16783:16797 Stdlib.ZArith.BinInt Z testbit_neg_r thm
+prf 16913:16925 bits skipn_app_dep
+binder 16928:16928 <> n:216
+binder 16930:16930 <> m:217
+binder 16933:16933 <> a:218
+binder 16935:16935 <> b:219
+R16944:16947 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16948:16948 Stdlib.Zmod.Bits <> n:216 var
+binder 16938:16939 <> Hn:220
+R16958:16961 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16962:16962 Stdlib.Zmod.Bits <> m:217 var
+binder 16952:16953 <> Hm:221
+R17004:17006 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16969:16974 Corelib.Init.Specif <> existT constr
+R16981:16985 Stdlib.Zmod.ZmodDef Zmod skipn def
+R16991:16993 Stdlib.Zmod.ZmodDef Zmod app def
+R16995:16995 Stdlib.Zmod.Bits <> n:216 var
+R16997:16997 Stdlib.Zmod.Bits <> m:217 var
+R16999:16999 Stdlib.Zmod.Bits <> a:218 var
+R17001:17001 Stdlib.Zmod.Bits <> b:219 var
+R16987:16987 Stdlib.Zmod.Bits <> n:216 var
+R17007:17012 Corelib.Init.Specif <> existT constr
+R17018:17018 Stdlib.Zmod.Bits <> b:219 var
+R17041:17050 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R17062:17073 Stdlib.Zmod.ZmodBase Zmod to_Z_inj_dep abbrev
+R17104:17113 Stdlib.Zmod.Bits bits to_Z_skipn abbrev
+R17118:17134 Stdlib.ZArith.BinInt Z shiftr_div_pow2 thm
+R17137:17144 Stdlib.Zmod.Bits bits to_Z_app abbrev
+R17147:17158 Stdlib.ZArith.BinInt Z shiftr_lor thm
+R17161:17177 Stdlib.ZArith.BinInt Z shiftr_shiftl_l thm
+R17200:17216 Stdlib.ZArith.BinInt Z shiftr_div_pow2 thm
+R17219:17228 Stdlib.ZArith.BinInt Z sub_diag thm
+R17231:17242 Stdlib.ZArith.BinInt Z shiftl_0_r thm
+R17245:17255 Stdlib.ZArith.BinInt Z div_small thm
+R17258:17266 Stdlib.ZArith.BinInt Z lor_0_l thm
+prf 17286:17297 bits skipn_app_ex
+binder 17300:17300 <> n:222
+binder 17302:17302 <> m:223
+binder 17305:17305 <> a:224
+binder 17307:17307 <> b:225
+R17316:17319 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17320:17320 Stdlib.Zmod.Bits <> n:222 var
+binder 17310:17311 <> Hn:226
+R17330:17333 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17334:17334 Stdlib.Zmod.Bits <> m:223 var
+binder 17324:17325 <> Hm:227
+R17341:17347 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17350:17351 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17348:17349 <> pf:228
+R17374:17376 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17352:17356 Stdlib.Zmod.ZmodDef Zmod skipn def
+R17362:17364 Stdlib.Zmod.ZmodDef Zmod app def
+R17366:17366 Stdlib.Zmod.Bits <> n:222 var
+R17368:17368 Stdlib.Zmod.Bits <> m:223 var
+R17370:17370 Stdlib.Zmod.Bits <> a:224 var
+R17372:17372 Stdlib.Zmod.Bits <> b:225 var
+R17358:17358 Stdlib.Zmod.Bits <> n:222 var
+R17377:17383 Corelib.Init.Logic <> eq_rect scheme
+R17396:17397 Stdlib.Zmod.Bits <> pf:228 var
+R17392:17392 Stdlib.Zmod.Bits <> b:225 var
+R17387:17390 Stdlib.Zmod.ZmodDef Zmod Zmod rec
+R17420:17432 Stdlib.Zmod.Bits bits skipn_app_dep thm
+R17519:17526 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R17537:17548 Stdlib.Zmod.ZmodBase Zmod to_Z_eq_rect abbrev
+R17557:17568 Stdlib.Zmod.ZmodBase Zmod to_Z_eq_rect abbrev
+prf 17592:17600 bits skipn_app
+binder 17603:17603 <> n:229
+binder 17605:17605 <> m:230
+binder 17608:17608 <> a:231
+binder 17610:17610 <> b:232
+R17619:17622 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17623:17623 Stdlib.Zmod.Bits <> n:229 var
+binder 17613:17614 <> Hn:233
+R17633:17636 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17637:17637 Stdlib.Zmod.Bits <> m:230 var
+binder 17627:17628 <> Hm:234
+R17666:17668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17644:17648 Stdlib.Zmod.ZmodDef Zmod skipn def
+R17654:17656 Stdlib.Zmod.ZmodDef Zmod app def
+R17658:17658 Stdlib.Zmod.Bits <> n:229 var
+R17660:17660 Stdlib.Zmod.Bits <> m:230 var
+R17662:17662 Stdlib.Zmod.Bits <> a:231 var
+R17664:17664 Stdlib.Zmod.Bits <> b:232 var
+R17650:17650 Stdlib.Zmod.Bits <> n:229 var
+R17669:17672 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R17677:17680 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R17682:17682 Stdlib.Zmod.Bits <> b:232 var
+R17701:17712 Stdlib.Zmod.Bits bits skipn_app_ex thm
+R17746:17753 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R17764:17775 Stdlib.Zmod.ZmodBase Zmod to_Z_eq_rect abbrev
+R17778:17786 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R17802:17815 Stdlib.Zmod.Bits bits unsigned_range thm
+R17828:17838 Stdlib.ZArith.BinInt Z mod_small thm
+prf 17858:17870 bits app_assoc_dep
+binder 17873:17873 <> n:235
+binder 17875:17875 <> m:236
+binder 17877:17877 <> l:237
+R17885:17888 Stdlib.Zmod.ZmodDef <> bits abbrev
+R17890:17890 Stdlib.Zmod.Bits <> n:235 var
+binder 17881:17881 <> a:238
+R17898:17901 Stdlib.Zmod.ZmodDef <> bits abbrev
+R17903:17903 Stdlib.Zmod.Bits <> m:236 var
+binder 17894:17894 <> b:239
+R17911:17914 Stdlib.Zmod.ZmodDef <> bits abbrev
+R17916:17916 Stdlib.Zmod.Bits <> l:237 var
+binder 17907:17907 <> c:240
+R17928:17931 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17932:17932 Stdlib.Zmod.Bits <> n:235 var
+binder 17922:17923 <> Hn:241
+R17942:17945 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17946:17946 Stdlib.Zmod.Bits <> m:236 var
+binder 17936:17937 <> Hm:242
+R17956:17959 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17960:17960 Stdlib.Zmod.Bits <> l:237 var
+binder 17950:17951 <> Hl:243
+R17995:17997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17967:17972 Corelib.Init.Specif <> existT constr
+R17979:17981 Stdlib.Zmod.ZmodDef Zmod app def
+R17986:17988 Stdlib.Zmod.ZmodDef Zmod app def
+R17992:17992 Stdlib.Zmod.Bits <> c:240 var
+R17990:17990 Stdlib.Zmod.Bits <> b:239 var
+R17983:17983 Stdlib.Zmod.Bits <> a:238 var
+R17998:18003 Corelib.Init.Specif <> existT constr
+R18010:18012 Stdlib.Zmod.ZmodDef Zmod app def
+R18024:18024 Stdlib.Zmod.Bits <> c:240 var
+R18015:18017 Stdlib.Zmod.ZmodDef Zmod app def
+R18021:18021 Stdlib.Zmod.Bits <> b:239 var
+R18019:18019 Stdlib.Zmod.Bits <> a:238 var
+R18048:18057 Stdlib.Zmod.Bits bits to_Z_range abbrev
+R18069:18080 Stdlib.Zmod.ZmodBase Zmod to_Z_inj_dep abbrev
+R18112:18119 Stdlib.Zmod.Bits bits to_Z_app abbrev
+R18137:18147 Stdlib.ZArith.BinInt Z bits_inj' thm
+R18169:18178 Stdlib.ZArith.BinInt Z leb_spec thm
+R18184:18186 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18216:18225 Stdlib.ZArith.BinInt Z lor_spec thm
+R18229:18239 Stdlib.ZArith.BinInt Z land_spec thm
+R18243:18255 Stdlib.ZArith.BinInt Z shiftl_spec thm
+R18259:18272 Stdlib.ZArith.BinInt Z testbit_ones thm
+R18280:18294 Stdlib.ZArith.BinInt Z sub_add_distr thm
+R18298:18308 Stdlib.ZArith.Znat N2Z inj_add thm
+R18312:18325 Stdlib.Bool.Bool <> orb_assoc thm
+R18350:18364 Stdlib.ZArith.BinInt Z testbit_neg_r thm
+R18367:18374 Stdlib.ZArith.BinInt Z shiftl def
+R18385:18399 Stdlib.ZArith.BinInt Z testbit_neg_r thm
+prf 18437:18448 bits app_assoc_ex
+binder 18451:18451 <> n:244
+binder 18453:18453 <> m:245
+binder 18455:18455 <> l:246
+R18463:18466 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18468:18468 Stdlib.Zmod.Bits <> n:244 var
+binder 18459:18459 <> a:247
+R18476:18479 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18481:18481 Stdlib.Zmod.Bits <> m:245 var
+binder 18472:18472 <> b:248
+R18489:18492 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18494:18494 Stdlib.Zmod.Bits <> l:246 var
+binder 18485:18485 <> c:249
+R18506:18509 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18510:18510 Stdlib.Zmod.Bits <> n:244 var
+binder 18500:18501 <> Hn:250
+R18520:18523 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18524:18524 Stdlib.Zmod.Bits <> m:245 var
+binder 18514:18515 <> Hm:251
+R18534:18537 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18538:18538 Stdlib.Zmod.Bits <> l:246 var
+binder 18528:18529 <> Hl:252
+R18545:18551 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18554:18555 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18552:18553 <> pf:253
+R18571:18573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18556:18558 Stdlib.Zmod.ZmodDef Zmod app def
+R18563:18565 Stdlib.Zmod.ZmodDef Zmod app def
+R18569:18569 Stdlib.Zmod.Bits <> c:249 var
+R18567:18567 Stdlib.Zmod.Bits <> b:248 var
+R18560:18560 Stdlib.Zmod.Bits <> a:247 var
+R18574:18580 Corelib.Init.Logic <> eq_rect scheme
+R18606:18607 Stdlib.Zmod.Bits <> pf:253 var
+R18587:18589 Stdlib.Zmod.ZmodDef Zmod app def
+R18601:18601 Stdlib.Zmod.Bits <> c:249 var
+R18592:18594 Stdlib.Zmod.ZmodDef Zmod app def
+R18598:18598 Stdlib.Zmod.Bits <> b:248 var
+R18596:18596 Stdlib.Zmod.Bits <> a:247 var
+R18630:18642 Stdlib.Zmod.Bits bits app_assoc_dep thm
+R18716:18723 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R18741:18752 Stdlib.Zmod.ZmodBase Zmod to_Z_eq_rect abbrev
+prf 18776:18784 bits app_assoc
+binder 18787:18787 <> n:254
+binder 18789:18789 <> m:255
+binder 18791:18791 <> l:256
+R18799:18802 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18804:18804 Stdlib.Zmod.Bits <> n:254 var
+binder 18795:18795 <> a:257
+R18812:18815 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18817:18817 Stdlib.Zmod.Bits <> m:255 var
+binder 18808:18808 <> b:258
+R18825:18828 Stdlib.Zmod.ZmodDef <> bits abbrev
+R18830:18830 Stdlib.Zmod.Bits <> l:256 var
+binder 18821:18821 <> c:259
+R18842:18845 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18846:18846 Stdlib.Zmod.Bits <> n:254 var
+binder 18836:18837 <> Hn:260
+R18856:18859 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18860:18860 Stdlib.Zmod.Bits <> m:255 var
+binder 18850:18851 <> Hm:261
+R18870:18873 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18874:18874 Stdlib.Zmod.Bits <> l:256 var
+binder 18864:18865 <> Hl:262
+R18896:18898 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18881:18883 Stdlib.Zmod.ZmodDef Zmod app def
+R18888:18890 Stdlib.Zmod.ZmodDef Zmod app def
+R18894:18894 Stdlib.Zmod.Bits <> c:259 var
+R18892:18892 Stdlib.Zmod.Bits <> b:258 var
+R18885:18885 Stdlib.Zmod.Bits <> a:257 var
+R18899:18902 Stdlib.Zmod.ZmodDef bits of_Z abbrev
+R18907:18910 Stdlib.Zmod.ZmodDef Zmod to_Z abbrev
+R18913:18915 Stdlib.Zmod.ZmodDef Zmod app def
+R18927:18927 Stdlib.Zmod.Bits <> c:259 var
+R18918:18920 Stdlib.Zmod.ZmodDef Zmod app def
+R18924:18924 Stdlib.Zmod.Bits <> b:258 var
+R18922:18922 Stdlib.Zmod.Bits <> a:257 var
+R18948:18959 Stdlib.Zmod.Bits bits app_assoc_ex thm
+R18993:19000 Stdlib.Zmod.ZmodBase Zmod to_Z_inj abbrev
+R19016:19027 Stdlib.Zmod.ZmodBase Zmod to_Z_eq_rect abbrev
+R19031:19039 Stdlib.Zmod.Bits bits to_Z_of_Z abbrev
+R19043:19053 Stdlib.ZArith.BinInt Z add_assoc thm
+R19056:19063 Stdlib.Zmod.Bits bits mod_to_Z thm
+R19085:19088 Stdlib.Zmod.Bits bits <> mod

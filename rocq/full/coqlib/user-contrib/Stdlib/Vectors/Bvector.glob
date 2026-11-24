@@ -1,0 +1,170 @@
+DIGEST c9c837c7aed66863c81f8ae0393466df
+FStdlib.Vectors.Bvector
+R1175:1178 Stdlib.Bool.Bool <> <> lib
+R1180:1186 Stdlib.Init.Sumbool <> <> lib
+R1249:1254 Stdlib.Vectors.Vector <> <> lib
+R1264:1285 Stdlib.Vectors.Vector VectorNotations <> mod
+sec 1993:2007 <> BOOLEAN_VECTORS
+def 2810:2816 <> Bvector
+R2821:2828 Stdlib.Vectors.Vector <> t ind
+R2830:2833 Corelib.Init.Datatypes <> bool ind
+def 3063:3066 <> Bnil
+R3072:3081 Stdlib.Vectors.Vector <> nil constr
+R3083:3086 Corelib.Init.Datatypes <> bool ind
+def 3316:3320 <> Bcons
+R3326:3336 Stdlib.Vectors.Vector <> cons constr
+R3338:3341 Corelib.Init.Datatypes <> bool ind
+def 3571:3580 <> Bvect_true
+R3585:3596 Stdlib.Vectors.Vector <> const def
+R3598:3601 Corelib.Init.Datatypes <> true constr
+def 3831:3841 <> Bvect_false
+R3846:3857 Stdlib.Vectors.Vector <> const def
+R3859:3863 Corelib.Init.Datatypes <> false constr
+def 4093:4096 <> Blow
+R4102:4110 Stdlib.Vectors.Vector <> hd def
+R4112:4115 Corelib.Init.Datatypes <> bool ind
+def 4345:4349 <> Bhigh
+R4355:4363 Stdlib.Vectors.Vector <> tl def
+R4365:4368 Corelib.Init.Datatypes <> bool ind
+def 4598:4602 <> Bsign
+R4608:4618 Stdlib.Vectors.Vector <> last def
+R4620:4623 Corelib.Init.Datatypes <> bool ind
+def 4853:4856 <> Bneg
+R4862:4871 Stdlib.Vectors.Vector <> map def
+R4877:4880 Corelib.Init.Datatypes <> negb def
+def 5110:5114 <> BVand
+R5120:5130 Stdlib.Vectors.Vector <> map2 def
+R5138:5141 Corelib.Init.Datatypes <> andb def
+def 5371:5374 <> BVor
+R5380:5390 Stdlib.Vectors.Vector <> map2 def
+R5398:5400 Corelib.Init.Datatypes <> orb def
+def 5630:5634 <> BVxor
+R5640:5650 Stdlib.Vectors.Vector <> map2 def
+R5658:5661 Corelib.Init.Datatypes <> xorb def
+def 5891:5894 <> BVeq
+binder 5896:5896 <> m:1
+binder 5898:5898 <> n:2
+R5904:5913 Stdlib.Vectors.Vector <> eqb def
+R5915:5918 Corelib.Init.Datatypes <> bool ind
+R5920:5922 Stdlib.Bool.Bool <> eqb def
+R5924:5924 Stdlib.Vectors.Bvector <> m:1 var
+R5926:5926 Stdlib.Vectors.Bvector <> n:2 var
+def 6156:6162 <> BshiftL
+R6167:6169 Corelib.Init.Datatypes <> nat ind
+binder 6165:6165 <> n:3
+R6176:6182 Stdlib.Vectors.Bvector <> Bvector def
+R6185:6185 Corelib.Init.Datatypes <> S constr
+R6187:6187 Stdlib.Vectors.Bvector <> n:3 var
+binder 6173:6174 <> bv:4
+R6198:6201 Corelib.Init.Datatypes <> bool ind
+binder 6192:6196 <> carry:5
+R6209:6213 Stdlib.Vectors.Bvector <> Bcons def
+R6215:6219 Stdlib.Vectors.Bvector <> carry:5 var
+R6221:6221 Stdlib.Vectors.Bvector <> n:3 var
+R6224:6238 Stdlib.Vectors.Vector <> shiftout def
+R6240:6241 Stdlib.Vectors.Bvector <> bv:4 var
+def 6472:6479 <> BshiftRl
+R6484:6486 Corelib.Init.Datatypes <> nat ind
+binder 6482:6482 <> n:6
+R6493:6499 Stdlib.Vectors.Bvector <> Bvector def
+R6502:6502 Corelib.Init.Datatypes <> S constr
+R6504:6504 Stdlib.Vectors.Bvector <> n:6 var
+binder 6490:6491 <> bv:7
+R6515:6518 Corelib.Init.Datatypes <> bool ind
+binder 6509:6513 <> carry:8
+R6526:6530 Stdlib.Vectors.Bvector <> Bhigh def
+R6533:6533 Corelib.Init.Datatypes <> S constr
+R6535:6535 Stdlib.Vectors.Bvector <> n:6 var
+R6539:6552 Stdlib.Vectors.Vector <> shiftin def
+R6560:6561 Stdlib.Vectors.Bvector <> bv:7 var
+R6554:6558 Stdlib.Vectors.Bvector <> carry:8 var
+def 6792:6799 <> BshiftRa
+R6804:6806 Corelib.Init.Datatypes <> nat ind
+binder 6802:6802 <> n:9
+R6813:6819 Stdlib.Vectors.Bvector <> Bvector def
+R6822:6822 Corelib.Init.Datatypes <> S constr
+R6824:6824 Stdlib.Vectors.Bvector <> n:9 var
+binder 6810:6811 <> bv:10
+R6833:6837 Stdlib.Vectors.Bvector <> Bhigh def
+R6840:6840 Corelib.Init.Datatypes <> S constr
+R6842:6842 Stdlib.Vectors.Bvector <> n:9 var
+R6846:6863 Stdlib.Vectors.Vector <> shiftrepeat def
+R6865:6866 Stdlib.Vectors.Bvector <> bv:10 var
+def 7095:7106 <> BshiftL_iter
+R7111:7113 Corelib.Init.Datatypes <> nat ind
+binder 7109:7109 <> n:11
+R7120:7126 Stdlib.Vectors.Bvector <> Bvector def
+R7129:7129 Corelib.Init.Datatypes <> S constr
+R7131:7131 Stdlib.Vectors.Bvector <> n:11 var
+binder 7117:7118 <> bv:12
+R7138:7140 Corelib.Init.Datatypes <> nat ind
+binder 7136:7136 <> p:13
+R7145:7151 Stdlib.Vectors.Bvector <> Bvector def
+R7154:7154 Corelib.Init.Datatypes <> S constr
+R7156:7156 Stdlib.Vectors.Bvector <> n:11 var
+R7170:7170 Stdlib.Vectors.Bvector <> p:13 var
+R7183:7183 Corelib.Init.Datatypes <> O constr
+R7188:7189 Stdlib.Vectors.Bvector <> bv:12 var
+R7197:7197 Corelib.Init.Datatypes <> S constr
+R7205:7211 Stdlib.Vectors.Bvector <> BshiftL def
+R7213:7213 Stdlib.Vectors.Bvector <> n:11 var
+R7216:7227 Stdlib.Vectors.Bvector <> BshiftL_iter:14 def
+R7231:7232 Stdlib.Vectors.Bvector <> bv:12 var
+R7229:7229 Stdlib.Vectors.Bvector <> n:11 var
+R7238:7242 Corelib.Init.Datatypes <> false constr
+def 7476:7488 <> BshiftRl_iter
+R7493:7495 Corelib.Init.Datatypes <> nat ind
+binder 7491:7491 <> n:16
+R7502:7508 Stdlib.Vectors.Bvector <> Bvector def
+R7511:7511 Corelib.Init.Datatypes <> S constr
+R7513:7513 Stdlib.Vectors.Bvector <> n:16 var
+binder 7499:7500 <> bv:17
+R7520:7522 Corelib.Init.Datatypes <> nat ind
+binder 7518:7518 <> p:18
+R7527:7533 Stdlib.Vectors.Bvector <> Bvector def
+R7536:7536 Corelib.Init.Datatypes <> S constr
+R7538:7538 Stdlib.Vectors.Bvector <> n:16 var
+R7552:7552 Stdlib.Vectors.Bvector <> p:18 var
+R7565:7565 Corelib.Init.Datatypes <> O constr
+R7570:7571 Stdlib.Vectors.Bvector <> bv:17 var
+R7579:7579 Corelib.Init.Datatypes <> S constr
+R7587:7594 Stdlib.Vectors.Bvector <> BshiftRl def
+R7596:7596 Stdlib.Vectors.Bvector <> n:16 var
+R7599:7611 Stdlib.Vectors.Bvector <> BshiftRl_iter:19 def
+R7615:7616 Stdlib.Vectors.Bvector <> bv:17 var
+R7613:7613 Stdlib.Vectors.Bvector <> n:16 var
+R7622:7626 Corelib.Init.Datatypes <> false constr
+def 7860:7872 <> BshiftRa_iter
+R7877:7879 Corelib.Init.Datatypes <> nat ind
+binder 7875:7875 <> n:21
+R7886:7892 Stdlib.Vectors.Bvector <> Bvector def
+R7895:7895 Corelib.Init.Datatypes <> S constr
+R7897:7897 Stdlib.Vectors.Bvector <> n:21 var
+binder 7883:7884 <> bv:22
+R7904:7906 Corelib.Init.Datatypes <> nat ind
+binder 7902:7902 <> p:23
+R7911:7917 Stdlib.Vectors.Bvector <> Bvector def
+R7920:7920 Corelib.Init.Datatypes <> S constr
+R7922:7922 Stdlib.Vectors.Bvector <> n:21 var
+R7936:7936 Stdlib.Vectors.Bvector <> p:23 var
+R7949:7949 Corelib.Init.Datatypes <> O constr
+R7954:7955 Stdlib.Vectors.Bvector <> bv:22 var
+R7963:7963 Corelib.Init.Datatypes <> S constr
+R7971:7978 Stdlib.Vectors.Bvector <> BshiftRa def
+R7980:7980 Stdlib.Vectors.Bvector <> n:21 var
+R7983:7995 Stdlib.Vectors.Bvector <> BshiftRa_iter:24 def
+R7999:8000 Stdlib.Vectors.Bvector <> bv:22 var
+R7997:7997 Stdlib.Vectors.Bvector <> n:21 var
+R8018:8032 Stdlib.Vectors.Bvector BOOLEAN_VECTORS <> sec
+mod 8043:8058 <> BvectorNotations
+R8367:8370 Stdlib.Vectors.Bvector <> Bneg def
+not 8356:8356 BvectorNotations ::Bvector_scope:'^~'_x
+R8664:8668 Stdlib.Vectors.Bvector <> BVand def
+not 8653:8653 BvectorNotations ::Bvector_scope:x_'^&'_x
+R8963:8967 Stdlib.Vectors.Bvector <> BVxor def
+not 8950:8950 BvectorNotations ::Bvector_scope:x_'^⊕'_x
+R9260:9263 Stdlib.Vectors.Bvector <> BVor def
+not 9249:9249 BvectorNotations ::Bvector_scope:x_'^|'_x
+R9557:9560 Stdlib.Vectors.Bvector <> BVeq def
+not 9546:9546 BvectorNotations ::Bvector_scope:x_'=?'_x
+R9649:9664 Stdlib.Vectors.Bvector BvectorNotations <> mod

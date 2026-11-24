@@ -1,0 +1,1830 @@
+DIGEST 3db292f9c4c972339ed2ca3eb034dcb9
+FStdlib.Numbers.Integer.Abstract.ZDivFloor
+R703:709 Stdlib.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R711:719 Stdlib.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R721:727 Stdlib.Numbers.Integer.Abstract.ZSgnAbs <> <> lib
+R729:733 Stdlib.Numbers.NatInt.NZDiv <> <> lib
+R1425:1435 Stdlib.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> modtype
+R1451:1463 Stdlib.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> modtype
+R1465:1465 Stdlib.Numbers.Integer.Abstract.ZDivFloor A <> mod
+R1481:1491 Stdlib.Numbers.Integer.Abstract.ZSgnAbs ZSgnAbsProp <> modtype
+R1493:1493 Stdlib.Numbers.Integer.Abstract.ZDivFloor A <> mod
+R1495:1495 Stdlib.Numbers.Integer.Abstract.ZDivFloor B <> mod
+modtype 1403:1410 <> ZDivProp
+R1403:1410 Stdlib.Numbers.Integer.Abstract.ZDivFloor A <> mod
+R1403:1410 Stdlib.Numbers.Integer.Abstract.ZDivFloor B <> mod
+R1403:1410 Stdlib.Numbers.Integer.Abstract.ZDivFloor C <> mod
+R1581:1583 Stdlib.Structures.Equalities Nop <> modtype
+R1588:1596 Stdlib.Numbers.NatInt.NZDiv NZDivProp <> modtype
+R1598:1598 Stdlib.Numbers.Integer.Abstract.ZDivFloor A <> mod
+R1600:1600 Stdlib.Numbers.Integer.Abstract.ZDivFloor A <> mod
+R1602:1602 Stdlib.Numbers.Integer.Abstract.ZDivFloor B <> mod
+mod 1564:1576 <> ZDivProp.Private_NZDiv
+R1564:1576 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp.Private_NZDiv <> mod
+prf 1661:1666 ZDivProp mod_eq
+binder 1678:1678 <> a:1
+binder 1680:1680 <> b:2
+R1687:1690 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1684:1685 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1683:1683 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:2 var
+R1698:1701 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R1692:1696 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1691:1691 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:1 var
+R1697:1697 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:2 var
+R1703:1705 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1702:1702 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:1 var
+R1707:1708 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1712:1712 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1706:1706 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:2 var
+R1710:1710 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1709:1709 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:1 var
+R1711:1711 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:2 var
+R1741:1750 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_move_l thm
+R1773:1779 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 1846:1858 ZDivProp mod_bound_abs
+binder 1870:1870 <> a:3
+binder 1872:1872 <> b:4
+R1879:1882 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1876:1877 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R1875:1875 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:4 var
+R1896:1898 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R1883:1885 Stdlib.Numbers.Integer.Abstract.ZDivFloor A abs defax
+R1889:1893 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1888:1888 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:3 var
+R1894:1894 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:4 var
+R1899:1901 Stdlib.Numbers.Integer.Abstract.ZDivFloor A abs defax
+R1903:1903 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:4 var
+R1938:1945 Stdlib.Numbers.Integer.Abstract.ZDivFloor C abs_spec thm
+R1996:2008 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R2043:2048 Stdlib.Numbers.Integer.Abstract.ZDivFloor A abs_eq prfax
+R2063:2075 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R2106:2112 Stdlib.Numbers.Integer.Abstract.ZDivFloor A abs_neq prfax
+R2143:2153 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+prf 2198:2211 ZDivProp div_mod_unique
+R2238:2238 Stdlib.Numbers.Integer.Abstract.ZDivFloor A t defax
+binder 2222:2222 <> b:5
+binder 2224:2225 <> q1:6
+binder 2227:2228 <> q2:7
+binder 2230:2231 <> r1:8
+binder 2233:2234 <> r2:9
+R2243:2243 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2262:2266 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2251:2254 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2245:2246 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2249:2249 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2247:2248 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r1:8 var
+R2250:2250 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2256:2256 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2259:2260 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2255:2255 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2257:2258 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r1:8 var
+R2267:2267 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2286:2292 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2275:2278 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2269:2270 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2273:2273 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2271:2272 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r2:9 var
+R2274:2274 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2280:2280 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2283:2284 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2279:2279 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2281:2282 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r2:9 var
+R2311:2314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2300:2303 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2297:2297 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2294:2294 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2293:2293 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2295:2296 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q1:6 var
+R2298:2299 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r1:8 var
+R2308:2308 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2305:2305 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2304:2304 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:5 var
+R2306:2307 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q2:7 var
+R2309:2310 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r2:9 var
+R2323:2326 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2317:2320 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2315:2316 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q1:6 var
+R2321:2322 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q2:7 var
+R2329:2332 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2327:2328 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r1:8 var
+R2333:2334 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r2:9 var
+R2437:2450 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mod_unique thm
+R2483:2492 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_inj_wd thm
+R2531:2531 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2510:2523 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mod_unique thm
+R2560:2570 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R2573:2589 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_nonneg_nonpos thm
+R2614:2624 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R2627:2643 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_nonneg_nonpos thm
+R2671:2679 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_l thm
+R2687:2699 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R2702:2711 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_inj_wd thm
+prf 2728:2737 ZDivProp div_unique
+binder 2748:2748 <> a:10
+binder 2750:2750 <> b:11
+binder 2752:2752 <> q:12
+binder 2754:2754 <> r:13
+R2757:2757 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2774:2778 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2764:2767 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2759:2760 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2762:2762 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R2761:2761 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:13 var
+R2763:2763 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:11 var
+R2769:2769 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2771:2772 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R2768:2768 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:11 var
+R2770:2770 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:13 var
+R2791:2794 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2780:2783 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2779:2779 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:10 var
+R2787:2789 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2785:2785 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2784:2784 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:11 var
+R2786:2786 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:12 var
+R2790:2790 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:13 var
+R2796:2799 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R2795:2795 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:12 var
+R2801:2801 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2800:2800 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:10 var
+R2802:2802 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:11 var
+R2848:2849 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R2899:2912 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mod_unique thm
+R2920:2920 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2928:2932 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2975:2987 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R3002:3014 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R3054:3060 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 3077:3090 ZDivProp div_unique_pos
+binder 3101:3101 <> a:14
+binder 3103:3103 <> b:15
+binder 3105:3105 <> q:16
+binder 3107:3107 <> r:17
+R3116:3119 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3111:3112 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3114:3114 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3113:3113 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:17 var
+R3115:3115 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:15 var
+R3132:3135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3121:3124 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3120:3120 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:14 var
+R3128:3130 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3126:3126 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3125:3125 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:15 var
+R3127:3127 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:16 var
+R3131:3131 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:17 var
+R3137:3140 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3136:3136 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:16 var
+R3142:3142 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3141:3141 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:14 var
+R3143:3143 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:15 var
+R3178:3187 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+prf 3217:3230 ZDivProp div_unique_neg
+binder 3241:3241 <> a:18
+binder 3243:3243 <> b:19
+binder 3245:3245 <> q:20
+binder 3247:3247 <> r:21
+R3256:3259 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3251:3251 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3253:3254 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3250:3250 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:19 var
+R3252:3252 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:21 var
+R3272:3275 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3261:3264 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3260:3260 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:18 var
+R3268:3270 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3266:3266 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3265:3265 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:19 var
+R3267:3267 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:20 var
+R3271:3271 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:21 var
+R3277:3280 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3276:3276 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:20 var
+R3282:3282 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3281:3281 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:18 var
+R3283:3283 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:19 var
+R3318:3327 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+prf 3357:3366 ZDivProp mod_unique
+binder 3377:3377 <> a:22
+binder 3379:3379 <> b:23
+binder 3381:3381 <> q:24
+binder 3383:3383 <> r:25
+R3386:3386 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3403:3407 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3393:3396 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3388:3389 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3391:3391 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3390:3390 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:25 var
+R3392:3392 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:23 var
+R3398:3398 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3400:3401 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3397:3397 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:23 var
+R3399:3399 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:25 var
+R3420:3423 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3409:3412 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3408:3408 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:22 var
+R3416:3418 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3414:3414 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3413:3413 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:23 var
+R3415:3415 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:24 var
+R3419:3419 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:25 var
+R3425:3428 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3424:3424 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:25 var
+R3430:3434 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3429:3429 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:22 var
+R3435:3435 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:23 var
+R3481:3482 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R3532:3545 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mod_unique thm
+R3553:3553 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3561:3565 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3608:3620 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R3635:3647 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R3687:3693 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 3710:3723 ZDivProp mod_unique_pos
+binder 3734:3734 <> a:26
+binder 3736:3736 <> b:27
+binder 3738:3738 <> q:28
+binder 3740:3740 <> r:29
+R3749:3752 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3744:3745 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3747:3747 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R3746:3746 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:29 var
+R3748:3748 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:27 var
+R3765:3768 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3754:3757 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3753:3753 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:26 var
+R3761:3763 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3759:3759 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3758:3758 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:27 var
+R3760:3760 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:28 var
+R3764:3764 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:29 var
+R3770:3773 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3769:3769 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:29 var
+R3775:3779 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3774:3774 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:26 var
+R3780:3780 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:27 var
+R3815:3824 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+prf 3854:3867 ZDivProp mod_unique_neg
+binder 3878:3878 <> a:30
+binder 3880:3880 <> b:31
+binder 3882:3882 <> q:32
+binder 3884:3884 <> r:33
+R3893:3896 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3888:3888 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3890:3891 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3887:3887 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:31 var
+R3889:3889 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:33 var
+R3909:3912 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3898:3901 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3897:3897 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:30 var
+R3905:3907 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3903:3903 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3902:3902 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:31 var
+R3904:3904 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:32 var
+R3908:3908 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:33 var
+R3914:3917 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R3913:3913 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:33 var
+R3919:3923 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3918:3918 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:30 var
+R3924:3924 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:31 var
+R3959:3968 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+R4091:4101 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_gt_cases thm
+R4133:4143 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_pos_neg thm
+prf 4159:4170 ZDivProp mod_bound_or
+binder 4181:4181 <> a:34
+binder 4183:4183 <> b:35
+R4190:4193 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4187:4188 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4186:4186 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:35 var
+R4206:4209 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4195:4196 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4204:4204 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4198:4202 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4197:4197 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:34 var
+R4203:4203 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:35 var
+R4205:4205 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:35 var
+R4211:4211 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R4219:4220 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R4210:4210 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:35 var
+R4213:4217 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4212:4212 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:34 var
+R4218:4218 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:35 var
+R4256:4266 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R4296:4308 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R4328:4340 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+prf 4361:4376 ZDivProp opp_mod_bound_or
+binder 4387:4387 <> a:36
+binder 4389:4389 <> b:37
+R4396:4400 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4393:4394 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4392:4392 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:37 var
+R4421:4424 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4402:4405 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4416:4418 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R4406:4407 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4415:4415 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4409:4413 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4408:4408 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:36 var
+R4414:4414 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:37 var
+R4419:4419 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4420:4420 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:37 var
+R4427:4429 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R4440:4443 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R4425:4425 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4426:4426 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:37 var
+R4430:4431 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4439:4439 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4433:4437 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4432:4432 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:36 var
+R4438:4438 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:37 var
+R4479:4489 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R4524:4534 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R4537:4553 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_nonpos_nonneg thm
+R4568:4580 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R4619:4629 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R4632:4648 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_nonneg_nonpos thm
+R4663:4675 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+prf 4713:4723 ZDivProp div_opp_opp
+binder 4734:4734 <> a:38
+binder 4736:4736 <> b:39
+R4743:4746 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4740:4741 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4739:4739 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:39 var
+R4752:4755 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4749:4749 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4747:4747 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4748:4748 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:38 var
+R4750:4750 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4751:4751 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:39 var
+R4757:4757 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4756:4756 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:38 var
+R4758:4758 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:39 var
+R4816:4818 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4826:4826 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4820:4824 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4799:4808 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R4842:4857 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp opp_mod_bound_or thm
+R4870:4878 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_l thm
+R4884:4896 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R4902:4908 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 4930:4940 ZDivProp mod_opp_opp
+binder 4951:4951 <> a:40
+binder 4953:4953 <> b:41
+R4960:4963 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4957:4958 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R4956:4956 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:41 var
+R4977:4980 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R4964:4964 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4967:4973 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4976:4976 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4965:4965 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4966:4966 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:40 var
+R4974:4974 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4975:4975 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:41 var
+R4981:4983 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4991:4991 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R4985:4989 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4984:4984 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:40 var
+R4990:4990 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:41 var
+R5050:5050 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5032:5041 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+R5067:5082 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp opp_mod_bound_or thm
+R5095:5103 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_l thm
+R5109:5121 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R5127:5133 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 5234:5244 ZDivProp div_opp_l_z
+binder 5256:5256 <> a:42
+binder 5258:5258 <> b:43
+R5265:5268 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5262:5263 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5261:5261 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:43 var
+R5281:5284 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5276:5279 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5270:5274 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5269:5269 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:42 var
+R5275:5275 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:43 var
+R5291:5294 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5285:5285 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5288:5289 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5286:5286 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5287:5287 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:42 var
+R5290:5290 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:43 var
+R5295:5296 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5300:5300 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5298:5298 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5297:5297 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:42 var
+R5299:5299 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:43 var
+R5343:5352 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R5374:5384 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R5442:5446 Stdlib.Numbers.Integer.Abstract.ZDivFloor A opp_0 prfax
+R5465:5473 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_r thm
+R5479:5491 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R5497:5503 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 5525:5536 ZDivProp div_opp_l_nz
+binder 5548:5548 <> a:44
+binder 5550:5550 <> b:45
+R5557:5560 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5554:5555 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5553:5553 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:45 var
+R5573:5576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5568:5571 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R5562:5566 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5561:5561 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:44 var
+R5567:5567 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:45 var
+R5583:5586 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R5577:5577 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5580:5581 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5578:5578 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5579:5579 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:44 var
+R5582:5582 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:45 var
+R5593:5593 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5587:5588 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5592:5592 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R5590:5590 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5589:5589 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:44 var
+R5591:5591 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:45 var
+R5655:5657 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5659:5663 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5637:5646 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R5680:5690 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R5724:5731 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_0_sub thm
+R5746:5752 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sub_0_r prfax
+R5774:5786 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_lt_mono_l thm
+R5803:5815 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R5853:5860 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_sub_0 thm
+R5875:5881 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sub_0_r prfax
+R5903:5915 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_lt_mono_l thm
+R5932:5944 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R5984:5992 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_opp_r thm
+R5998:6012 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_sub_distr_l thm
+R6015:6021 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_1_r thm
+R6024:6040 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_add_simpl_r_l thm
+R6053:6061 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_r thm
+R6066:6078 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R6083:6089 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 6111:6121 ZDivProp mod_opp_l_z
+binder 6133:6133 <> a:46
+binder 6135:6135 <> b:47
+R6142:6145 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6139:6140 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6138:6138 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:47 var
+R6158:6161 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6153:6156 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6147:6151 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6146:6146 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:46 var
+R6152:6152 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:47 var
+R6172:6175 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6162:6162 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6165:6170 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6163:6163 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6164:6164 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:46 var
+R6171:6171 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:47 var
+R6236:6237 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6241:6241 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6239:6239 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R6219:6228 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+R6257:6267 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R6325:6329 Stdlib.Numbers.Integer.Abstract.ZDivFloor A opp_0 prfax
+R6348:6356 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_r thm
+R6362:6374 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R6380:6386 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 6408:6419 ZDivProp mod_opp_l_nz
+binder 6431:6431 <> a:48
+binder 6433:6433 <> b:49
+R6440:6443 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6437:6438 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6436:6436 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:49 var
+R6456:6459 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6451:6454 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R6445:6449 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6444:6444 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:48 var
+R6450:6450 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:49 var
+R6470:6473 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R6460:6460 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6463:6468 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6461:6461 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6462:6462 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:48 var
+R6469:6469 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:49 var
+R6475:6477 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6474:6474 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:49 var
+R6479:6483 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6478:6478 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:48 var
+R6484:6484 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:49 var
+R6550:6550 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R6544:6545 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6549:6549 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6547:6547 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R6527:6536 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+R6567:6577 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R6611:6618 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_0_sub thm
+R6633:6639 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sub_0_r prfax
+R6661:6673 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_lt_mono_l thm
+R6690:6702 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R6740:6747 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_sub_0 thm
+R6762:6768 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sub_0_r prfax
+R6790:6802 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_lt_mono_l thm
+R6819:6831 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R6871:6879 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_opp_r thm
+R6885:6899 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_sub_distr_l thm
+R6902:6908 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_1_r thm
+R6911:6927 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_add_simpl_r_l thm
+R6940:6948 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_r thm
+R6953:6965 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_add_distr thm
+R6970:6976 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 6998:7008 ZDivProp div_opp_r_z
+binder 7020:7020 <> a:50
+binder 7022:7022 <> b:51
+R7029:7032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7026:7027 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7025:7025 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:51 var
+R7045:7048 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7040:7043 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7034:7038 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7033:7033 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:50 var
+R7039:7039 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:51 var
+R7055:7058 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7050:7051 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7054:7054 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7049:7049 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:50 var
+R7052:7052 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7053:7053 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:51 var
+R7059:7060 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7064:7064 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7062:7062 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7061:7061 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:50 var
+R7063:7063 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:51 var
+R7101:7114 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_involutive thm
+R7133:7143 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R7157:7167 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_l_z thm
+prf 7182:7193 ZDivProp div_opp_r_nz
+binder 7205:7205 <> a:52
+binder 7207:7207 <> b:53
+R7214:7217 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7211:7212 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7210:7210 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:53 var
+R7230:7233 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7225:7228 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7219:7223 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7218:7218 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:52 var
+R7224:7224 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:53 var
+R7240:7243 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7235:7236 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7239:7239 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7234:7234 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:52 var
+R7237:7237 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7238:7238 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:53 var
+R7250:7250 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7244:7245 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7249:7249 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7247:7247 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7246:7246 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:52 var
+R7248:7248 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:53 var
+R7288:7301 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_involutive thm
+R7320:7330 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R7344:7355 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_l_nz thm
+prf 7370:7380 ZDivProp mod_opp_r_z
+binder 7392:7392 <> a:54
+binder 7394:7394 <> b:55
+R7401:7404 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7398:7399 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7397:7397 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:55 var
+R7417:7420 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7412:7415 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7406:7410 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7405:7405 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:54 var
+R7411:7411 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:55 var
+R7431:7434 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7422:7427 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7430:7430 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7421:7421 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:54 var
+R7428:7428 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7429:7429 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:55 var
+R7472:7485 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_involutive thm
+R7508:7518 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_opp_opp thm
+R7521:7531 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_opp_l_z thm
+R7534:7538 Stdlib.Numbers.Integer.Abstract.ZDivFloor A opp_0 prfax
+prf 7553:7564 ZDivProp mod_opp_r_nz
+binder 7576:7576 <> a:56
+binder 7578:7578 <> b:57
+R7585:7588 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7582:7583 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7581:7581 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:57 var
+R7601:7604 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7596:7599 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7590:7594 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7589:7589 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:56 var
+R7595:7595 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:57 var
+R7615:7618 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7606:7611 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7614:7614 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7605:7605 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:56 var
+R7612:7612 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R7613:7613 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:57 var
+R7619:7619 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7627:7630 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R7621:7625 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7620:7620 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:56 var
+R7626:7626 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:57 var
+R7631:7631 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:57 var
+R7668:7681 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_involutive thm
+R7700:7710 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_opp_opp thm
+R7713:7724 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_opp_l_nz thm
+R7750:7762 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_sub_distr thm
+R7765:7772 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R7775:7783 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_opp_r thm
+prf 7867:7877 ZDivProp mod_sign_nz
+binder 7888:7888 <> a:58
+binder 7890:7890 <> b:59
+R7897:7900 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7894:7895 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7893:7893 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:59 var
+R7913:7917 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7908:7911 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R7902:7906 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7901:7901 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:58 var
+R7907:7907 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:59 var
+R7931:7934 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R7918:7920 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn defax
+R7924:7928 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7923:7923 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:58 var
+R7929:7929 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:59 var
+R7935:7937 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn defax
+R7939:7939 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:59 var
+R7976:7986 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R8019:8031 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R8053:8059 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn_pos prfax
+R8081:8093 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R8122:8128 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn_neg prfax
+prf 8150:8157 ZDivProp mod_sign
+binder 8168:8168 <> a:60
+binder 8170:8170 <> b:61
+R8177:8180 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8174:8175 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8173:8173 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:61 var
+R8194:8197 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8181:8183 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn defax
+R8187:8191 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R8186:8186 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:60 var
+R8192:8192 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:61 var
+R8198:8198 Stdlib.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R8199:8201 Stdlib.Numbers.Integer.Abstract.ZDivFloor A sgn defax
+R8203:8203 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:61 var
+R8240:8251 Stdlib.Numbers.Integer.Abstract.ZDivFloor B eq_decidable thm
+R8255:8259 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R8291:8302 Stdlib.Numbers.Integer.Abstract.ZDivFloor C sgn_null_iff thm
+R8305:8311 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_inj thm
+R8332:8336 Stdlib.Numbers.Integer.Abstract.ZDivFloor A opp_0 prfax
+R8343:8347 Stdlib.Numbers.Integer.Abstract.ZDivFloor C sgn_0 thm
+R8362:8373 Stdlib.Numbers.Integer.Abstract.ZDivFloor C sgn_null_iff thm
+R8382:8391 Stdlib.Numbers.Integer.Abstract.ZDivFloor B eq_mul_0_l thm
+R8431:8442 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_move_0_l thm
+R8479:8489 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_sign_nz thm
+prf 8504:8515 ZDivProp mod_sign_mul
+binder 8526:8526 <> a:62
+binder 8528:8528 <> b:63
+R8535:8538 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8532:8533 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8531:8531 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:63 var
+R8540:8543 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R8544:8544 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8552:8555 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8546:8550 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R8545:8545 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:62 var
+R8551:8551 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:63 var
+R8556:8556 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:63 var
+R8591:8601 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R8617:8633 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_nonneg_nonneg thm
+R8646:8658 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R8681:8697 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_nonpos_nonpos thm
+R8710:8722 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+prf 8788:8795 ZDivProp div_same
+binder 8806:8806 <> a:64
+R8813:8816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8810:8811 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8809:8809 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:64 var
+R8820:8823 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8818:8818 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R8817:8817 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:64 var
+R8819:8819 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:64 var
+R8872:8879 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_same thm
+R8904:8914 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R8938:8945 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_same thm
+prf 8960:8967 ZDivProp mod_same
+binder 8978:8978 <> a:65
+R8985:8988 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8982:8983 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R8981:8981 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:65 var
+R8996:8999 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R8990:8994 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R8989:8989 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:65 var
+R8995:8995 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:65 var
+R9026:9031 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_eq thm
+R9034:9041 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_same thm
+R9070:9077 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_diag thm
+prf 9160:9168 ZDivProp div_small
+binder 9178:9178 <> a:66
+binder 9180:9180 <> b:67
+R9189:9192 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9184:9185 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R9187:9187 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R9186:9186 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:66 var
+R9188:9188 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:67 var
+R9196:9199 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9194:9194 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R9193:9193 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:66 var
+R9195:9195 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:67 var
+R9216:9224 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_small thm
+prf 9284:9292 ZDivProp mod_small
+binder 9302:9302 <> a:68
+binder 9304:9304 <> b:69
+R9313:9316 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9308:9309 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R9311:9311 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R9310:9310 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:68 var
+R9312:9312 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:69 var
+R9324:9327 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9318:9322 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R9317:9317 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:68 var
+R9323:9323 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:69 var
+R9328:9328 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:68 var
+R9344:9352 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_small thm
+prf 9415:9421 ZDivProp div_0_l
+binder 9431:9431 <> a:70
+R9438:9441 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9435:9436 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R9434:9434 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:70 var
+R9445:9448 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9443:9443 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R9444:9444 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:70 var
+R9497:9503 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_0_l thm
+R9528:9538 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R9541:9545 Stdlib.Numbers.Integer.Abstract.ZDivFloor A opp_0 prfax
+R9569:9575 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_0_l thm
+prf 9590:9596 ZDivProp mod_0_l
+binder 9606:9606 <> a:71
+R9613:9616 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9610:9611 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R9609:9609 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:71 var
+R9624:9627 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9618:9622 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R9623:9623 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:71 var
+R9654:9659 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_eq thm
+R9662:9668 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_0_l thm
+prf 9696:9702 ZDivProp div_1_r
+binder 9712:9712 <> a:72
+R9718:9721 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9716:9716 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R9715:9715 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:72 var
+R9722:9722 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:72 var
+R9758:9767 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R9809:9814 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_0_1 thm
+prf 9846:9852 ZDivProp mod_1_r
+binder 9862:9862 <> a:73
+R9872:9875 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R9866:9870 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R9865:9865 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:73 var
+R9902:9907 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_eq thm
+R9910:9916 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_1_r thm
+R9939:9946 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_diag thm
+R9992:9997 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_neq thm
+R10006:10011 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_0_1 thm
+prf 10026:10032 ZDivProp div_1_l
+binder 10042:10042 <> a:74
+R10048:10051 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10046:10046 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10047:10047 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:74 var
+R10055:10058 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10053:10053 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10054:10054 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:74 var
+R10075:10081 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_1_l thm
+prf 10096:10102 ZDivProp mod_1_l
+binder 10112:10112 <> a:75
+R10118:10121 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10116:10116 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10117:10117 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:75 var
+R10129:10132 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10123:10127 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R10128:10128 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:75 var
+R10149:10155 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_1_l thm
+prf 10170:10176 ZDivProp div_mul
+binder 10187:10187 <> a:76
+binder 10189:10189 <> b:77
+R10196:10199 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10193:10194 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R10192:10192 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:77 var
+R10207:10210 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10200:10200 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10204:10205 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10202:10202 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10201:10201 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:76 var
+R10203:10203 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:77 var
+R10206:10206 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:77 var
+R10211:10211 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:76 var
+R10251:10260 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R10282:10292 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R10345:10352 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 10367:10373 ZDivProp mod_mul
+binder 10384:10384 <> a:78
+binder 10386:10386 <> b:79
+R10393:10396 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10390:10391 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R10389:10389 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:79 var
+R10408:10411 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10397:10397 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R10401:10406 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R10399:10399 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10398:10398 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:78 var
+R10400:10400 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:79 var
+R10407:10407 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:79 var
+R10438:10443 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_eq thm
+R10446:10452 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul thm
+R10474:10481 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R10490:10497 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_diag thm
+prf 10514:10529 ZDivProp div_unique_exact
+binder 10531:10531 <> a:80
+binder 10533:10533 <> b:81
+binder 10535:10535 <> q:82
+R10542:10545 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10539:10540 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R10538:10538 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:81 var
+R10554:10557 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10547:10550 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10546:10546 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:80 var
+R10552:10552 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10551:10551 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:81 var
+R10553:10553 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:82 var
+R10559:10562 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R10558:10558 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:82 var
+R10564:10564 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10563:10563 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:80 var
+R10565:10565 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:81 var
+R10600:10607 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R10630:10636 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul thm
+prf 10751:10756 ZDivProp mod_le
+binder 10766:10766 <> a:83
+binder 10768:10768 <> b:84
+R10775:10778 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10772:10773 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10774:10774 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:83 var
+R10782:10785 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10780:10780 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10781:10781 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:84 var
+R10793:10796 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10787:10791 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R10786:10786 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:83 var
+R10792:10792 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:84 var
+R10797:10797 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:83 var
+R10813:10818 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_le thm
+prf 10835:10841 ZDivProp div_pos
+binder 10852:10852 <> a:85
+binder 10854:10854 <> b:86
+R10861:10864 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10858:10859 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10860:10860 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:85 var
+R10868:10871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10866:10866 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10867:10867 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:86 var
+R10873:10875 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R10877:10877 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10876:10876 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:85 var
+R10878:10878 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:86 var
+R10894:10900 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_pos thm
+prf 10915:10925 ZDivProp div_str_pos
+binder 10936:10936 <> a:87
+binder 10938:10938 <> b:88
+R10947:10950 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10942:10942 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R10944:10945 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R10943:10943 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:88 var
+R10946:10946 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:87 var
+R10952:10954 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R10956:10956 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R10955:10955 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:87 var
+R10957:10957 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:88 var
+R10973:10983 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_str_pos thm
+prf 10998:11010 ZDivProp div_small_iff
+binder 11021:11021 <> a:89
+binder 11023:11023 <> b:90
+R11030:11034 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11062:11062 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11027:11028 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R11026:11026 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:90 var
+R11041:11045 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11038:11039 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11036:11036 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R11035:11035 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:89 var
+R11037:11037 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:90 var
+R11052:11055 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11047:11048 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R11050:11050 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R11049:11049 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:89 var
+R11051:11051 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:90 var
+R11057:11057 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R11059:11060 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R11056:11056 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:90 var
+R11058:11058 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:89 var
+R11118:11124 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R11160:11171 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+R11202:11210 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_small thm
+R11228:11238 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R11258:11266 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_small thm
+R11293:11303 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R11306:11322 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_nonneg_nonpos thm
+prf 11344:11356 ZDivProp mod_small_iff
+binder 11367:11367 <> a:91
+binder 11369:11369 <> b:92
+R11376:11380 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11414:11414 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11373:11374 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R11372:11372 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:92 var
+R11393:11397 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R11388:11391 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R11382:11386 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R11381:11381 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:91 var
+R11387:11387 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:92 var
+R11392:11392 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:91 var
+R11404:11407 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R11399:11400 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R11402:11402 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R11401:11401 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:91 var
+R11403:11403 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:92 var
+R11409:11409 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R11411:11412 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R11408:11408 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:92 var
+R11410:11410 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:91 var
+R11450:11462 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_small_iff thm
+R11465:11470 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_eq thm
+R11492:11501 Stdlib.Numbers.Integer.Abstract.ZDivFloor B sub_move_r thm
+R11508:11514 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_0_r thm
+R11533:11544 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_l thm
+R11555:11564 Stdlib.Numbers.Integer.Abstract.ZDivFloor B eq_sym_iff thm
+R11567:11574 Stdlib.Numbers.Integer.Abstract.ZDivFloor B eq_mul_0 thm
+prf 11696:11701 ZDivProp div_lt
+binder 11712:11712 <> a:93
+binder 11714:11714 <> b:94
+R11720:11723 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11718:11718 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11719:11719 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:93 var
+R11727:11730 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11725:11725 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11726:11726 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:94 var
+R11734:11736 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11732:11732 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R11731:11731 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:93 var
+R11733:11733 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:94 var
+R11737:11737 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:93 var
+R11753:11758 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_lt thm
+prf 11826:11836 ZDivProp div_le_mono
+binder 11847:11847 <> a:95
+binder 11849:11849 <> b:96
+binder 11851:11851 <> c:97
+R11857:11860 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11855:11855 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R11856:11856 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:97 var
+R11865:11868 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11862:11863 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11861:11861 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:95 var
+R11864:11864 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:96 var
+R11872:11875 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R11870:11870 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R11869:11869 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:95 var
+R11871:11871 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:97 var
+R11877:11877 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R11876:11876 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:96 var
+R11878:11878 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:97 var
+R11917:11927 Stdlib.Numbers.Integer.Abstract.ZDivFloor A lt_eq_cases prfax
+R11996:12004 Stdlib.Numbers.Integer.Abstract.ZDivFloor A lt_succ_r prfax
+R12016:12032 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_lt_mono_pos_l thm
+R12065:12077 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_lt_mono_r thm
+R12085:12089 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R12106:12112 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R12130:12140 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_le_trans thm
+R12168:12174 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R12207:12215 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_assoc thm
+R12221:12233 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_le_mono_l thm
+R12258:12258 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12242:12249 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_trans thm
+R12284:12296 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R12324:12336 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_le_mono_l thm
+R12349:12361 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+prf 12683:12692 ZDivProp mul_div_le
+binder 12703:12703 <> a:98
+binder 12705:12705 <> b:99
+R12711:12714 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12709:12709 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12710:12710 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:99 var
+R12722:12725 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R12716:12717 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12721:12721 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12715:12715 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:99 var
+R12719:12719 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R12718:12718 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:98 var
+R12720:12720 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:99 var
+R12726:12726 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:98 var
+R12760:12766 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R12802:12808 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_0_r thm
+R12812:12813 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12817:12817 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12815:12815 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R12838:12850 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_le_mono_l thm
+R12867:12879 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+prf 12899:12908 ZDivProp mul_div_ge
+binder 12919:12919 <> a:100
+binder 12921:12921 <> b:101
+R12927:12930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12925:12925 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R12924:12924 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:101 var
+R12932:12935 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R12931:12931 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:100 var
+R12937:12938 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12942:12942 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12936:12936 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:101 var
+R12940:12940 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R12939:12939 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:100 var
+R12941:12941 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:101 var
+R12971:12981 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R12984:12994 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_le_mono thm
+R12999:13007 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_l thm
+R13025:13034 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_div_le thm
+R13049:13059 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_pos_neg thm
+prf 13187:13201 ZDivProp mul_succ_div_gt
+binder 13211:13211 <> a:102
+binder 13213:13213 <> b:103
+R13219:13222 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13217:13217 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13218:13218 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:103 var
+R13224:13226 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13223:13223 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:102 var
+R13228:13229 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13237:13237 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13227:13227 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:103 var
+R13230:13230 Stdlib.Numbers.Integer.Abstract.ZDivFloor A S abbrev
+R13234:13234 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R13233:13233 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:102 var
+R13235:13235 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:103 var
+R13279:13285 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R13320:13332 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_lt_mono_l thm
+R13345:13357 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+prf 13384:13398 ZDivProp mul_succ_div_lt
+binder 13408:13408 <> a:104
+binder 13410:13410 <> b:105
+R13416:13419 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13414:13414 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13413:13413 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:105 var
+R13431:13433 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R13421:13422 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13430:13430 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13420:13420 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:105 var
+R13423:13423 Stdlib.Numbers.Integer.Abstract.ZDivFloor A S abbrev
+R13427:13427 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R13426:13426 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:104 var
+R13428:13428 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:105 var
+R13434:13434 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:104 var
+R13463:13473 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_opp_opp thm
+R13476:13486 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_lt_mono thm
+R13491:13499 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_opp_l thm
+R13517:13531 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_succ_div_gt thm
+R13546:13556 Stdlib.Numbers.Integer.Abstract.ZDivFloor B opp_pos_neg thm
+prf 13724:13732 ZDivProp div_exact
+binder 13743:13743 <> a:106
+binder 13745:13745 <> b:107
+R13752:13756 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13786:13786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13749:13750 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R13748:13748 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:107 var
+R13769:13773 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R13758:13761 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13757:13757 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:106 var
+R13763:13764 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13768:13768 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13762:13762 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:107 var
+R13766:13766 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R13765:13765 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:106 var
+R13767:13767 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:107 var
+R13781:13784 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R13775:13779 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R13774:13774 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:106 var
+R13780:13780 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:107 var
+R13820:13826 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R13862:13868 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_0_r thm
+R13872:13873 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13877:13877 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R13875:13875 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R13893:13904 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_l thm
+prf 13969:13986 ZDivProp div_lt_upper_bound
+binder 13998:13998 <> a:108
+binder 14000:14000 <> b:109
+binder 14002:14002 <> q:110
+R14008:14011 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14006:14006 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14007:14007 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:109 var
+R14019:14022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14013:14015 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14012:14012 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:108 var
+R14017:14017 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14016:14016 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:109 var
+R14018:14018 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:110 var
+R14026:14028 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14024:14024 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14023:14023 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:108 var
+R14025:14025 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:109 var
+R14029:14029 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:110 var
+R14065:14081 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_lt_mono_pos_l thm
+R14104:14114 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_lt_trans thm
+R14143:14152 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_div_le thm
+prf 14169:14186 ZDivProp div_le_upper_bound
+binder 14198:14198 <> a:111
+binder 14200:14200 <> b:112
+binder 14202:14202 <> q:113
+R14208:14211 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14206:14206 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14207:14207 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:112 var
+R14220:14223 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14213:14216 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14212:14212 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:111 var
+R14218:14218 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14217:14217 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:112 var
+R14219:14219 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:113 var
+R14227:14230 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14225:14225 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14224:14224 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:111 var
+R14226:14226 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:112 var
+R14231:14231 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:113 var
+R14270:14276 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul thm
+R14299:14309 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_le_mono thm
+R14333:14340 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 14357:14374 ZDivProp div_le_lower_bound
+binder 14386:14386 <> a:114
+binder 14388:14388 <> b:115
+binder 14390:14390 <> q:116
+R14396:14399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14394:14394 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R14395:14395 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:115 var
+R14408:14411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14403:14406 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14401:14401 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14400:14400 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:115 var
+R14402:14402 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:116 var
+R14407:14407 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:114 var
+R14413:14416 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14412:14412 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:116 var
+R14418:14418 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14417:14417 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:114 var
+R14419:14419 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:115 var
+R14458:14464 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul thm
+R14487:14497 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_le_mono thm
+R14521:14528 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 14609:14623 ZDivProp div_le_compat_l
+binder 14633:14633 <> p:117
+binder 14635:14635 <> q:118
+binder 14637:14637 <> r:119
+R14644:14647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14641:14642 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14643:14643 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> p:117 var
+R14654:14657 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14649:14649 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R14651:14652 Stdlib.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R14650:14650 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:118 var
+R14653:14653 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:119 var
+R14661:14664 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R14659:14659 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14658:14658 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> p:117 var
+R14660:14660 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> r:119 var
+R14666:14666 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14665:14665 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> p:117 var
+R14667:14667 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> q:118 var
+R14683:14697 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_le_compat_l thm
+prf 14773:14779 ZDivProp mod_add
+binder 14790:14790 <> a:120
+binder 14792:14792 <> b:121
+binder 14794:14794 <> c:122
+R14801:14805 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14798:14799 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R14797:14797 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:122 var
+R14823:14826 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R14806:14806 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R14816:14821 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R14808:14810 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14807:14807 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:120 var
+R14812:14814 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R14811:14811 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:121 var
+R14815:14815 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:122 var
+R14822:14822 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:122 var
+R14828:14832 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R14827:14827 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:120 var
+R14833:14833 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:122 var
+R14896:14896 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R14894:14894 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R14876:14885 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_unique thm
+R14922:14933 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+R14946:14960 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R14963:14974 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_shuffle0 thm
+R14980:14986 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R15012:15019 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 15034:15040 ZDivProp div_add
+binder 15051:15051 <> a:123
+binder 15053:15053 <> b:124
+binder 15055:15055 <> c:125
+R15062:15066 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15059:15060 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15058:15058 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:125 var
+R15082:15085 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15067:15067 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15077:15080 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15069:15071 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15068:15068 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:123 var
+R15073:15075 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15072:15072 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:124 var
+R15076:15076 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:125 var
+R15081:15081 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:125 var
+R15091:15093 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15087:15089 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15086:15086 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:123 var
+R15090:15090 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:125 var
+R15094:15094 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:124 var
+R15128:15139 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_cancel_l thm
+R15167:15178 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_r thm
+R15185:15185 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R15191:15196 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R15187:15187 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15189:15189 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15213:15219 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R15222:15228 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_add thm
+R15248:15262 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R15265:15276 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_shuffle0 thm
+R15282:15288 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R15312:15319 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 15334:15342 ZDivProp div_add_l
+binder 15352:15352 <> a:126
+binder 15354:15354 <> b:127
+binder 15356:15356 <> c:128
+R15363:15367 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15360:15361 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15359:15359 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:127 var
+R15383:15386 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15368:15368 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15378:15381 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15374:15376 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15370:15372 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15369:15369 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:126 var
+R15373:15373 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:127 var
+R15377:15377 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:128 var
+R15382:15382 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:127 var
+R15388:15390 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R15387:15387 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:126 var
+R15392:15394 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15391:15391 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:128 var
+R15395:15395 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:127 var
+R15429:15436 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R15445:15452 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R15469:15475 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_add thm
+prf 15513:15528 ZDivProp div_mul_cancel_r
+binder 15539:15539 <> a:129
+binder 15541:15541 <> b:130
+binder 15543:15543 <> c:131
+R15550:15553 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15547:15548 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15546:15546 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:130 var
+R15558:15562 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15555:15556 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R15554:15554 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:131 var
+R15574:15577 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R15563:15563 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15567:15569 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15573:15573 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15565:15565 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15564:15564 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:129 var
+R15566:15566 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:131 var
+R15571:15571 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15570:15570 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:130 var
+R15572:15572 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:131 var
+R15579:15579 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R15578:15578 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:129 var
+R15580:15580 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:130 var
+R15640:15640 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15648:15649 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R15642:15646 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R15623:15632 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R15680:15690 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_ge_cases thm
+R15713:15719 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mul_0_l prfax
+R15728:15744 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_lt_mono_pos_r thm
+R15750:15766 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_le_mono_pos_r thm
+R15794:15805 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+R15823:15829 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mul_0_l prfax
+R15838:15854 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_lt_mono_neg_r thm
+R15860:15876 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_le_mono_neg_r thm
+R15902:15913 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+R15956:15962 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R15994:16008 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_r thm
+R16021:16032 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_r thm
+R16050:16058 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_assoc thm
+R16074:16081 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 16099:16114 ZDivProp div_mul_cancel_l
+binder 16125:16125 <> a:132
+binder 16127:16127 <> b:133
+binder 16129:16129 <> c:134
+R16136:16139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16133:16134 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16132:16132 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:133 var
+R16144:16148 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16141:16142 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16140:16140 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:134 var
+R16160:16163 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16149:16149 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16153:16155 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16159:16159 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16151:16151 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16150:16150 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:134 var
+R16152:16152 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:132 var
+R16157:16157 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16156:16156 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:134 var
+R16158:16158 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:133 var
+R16165:16165 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16164:16164 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:132 var
+R16166:16166 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:133 var
+R16203:16210 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R16226:16241 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul_cancel_r thm
+prf 16256:16270 ZDivProp mul_mod_distr_l
+binder 16280:16280 <> a:135
+binder 16282:16282 <> b:136
+binder 16284:16284 <> c:137
+R16291:16294 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16288:16289 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16287:16287 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:136 var
+R16299:16304 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16296:16297 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16295:16295 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:137 var
+R16320:16323 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16305:16305 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16309:16315 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16319:16319 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16307:16307 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16306:16306 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:137 var
+R16308:16308 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:135 var
+R16317:16317 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16316:16316 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:137 var
+R16318:16318 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:136 var
+R16325:16328 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16336:16336 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16324:16324 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:137 var
+R16330:16334 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16329:16329 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:135 var
+R16335:16335 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:136 var
+R16375:16386 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_l thm
+R16393:16393 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16397:16400 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16412:16412 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16395:16395 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16401:16401 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16405:16407 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16411:16411 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R16403:16403 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16409:16409 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16428:16434 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R16447:16462 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul_cancel_l thm
+R16489:16497 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_assoc thm
+R16503:16517 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R16520:16531 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_cancel_l thm
+R16551:16557 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R16580:16588 Stdlib.Numbers.Integer.Abstract.ZDivFloor B neq_mul_0 thm
+prf 16609:16623 ZDivProp mul_mod_distr_r
+binder 16633:16633 <> a:138
+binder 16635:16635 <> b:139
+binder 16637:16637 <> c:140
+R16644:16647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16641:16642 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16640:16640 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:139 var
+R16652:16657 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16649:16650 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16648:16648 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:140 var
+R16673:16676 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16658:16658 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16662:16668 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16672:16672 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16660:16660 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16659:16659 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:138 var
+R16661:16661 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:140 var
+R16670:16670 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16669:16669 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:139 var
+R16671:16671 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:140 var
+R16677:16677 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16685:16688 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R16679:16683 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16678:16678 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:138 var
+R16684:16684 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:139 var
+R16689:16689 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:140 var
+R16727:16734 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R16754:16768 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_mod_distr_l thm
+prf 16813:16819 ZDivProp mod_mod
+binder 16829:16829 <> a:141
+binder 16831:16831 <> n:142
+R16838:16842 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16835:16836 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16834:16834 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:142 var
+R16858:16861 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16843:16843 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16851:16856 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16845:16849 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16844:16844 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:141 var
+R16850:16850 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:142 var
+R16857:16857 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:142 var
+R16863:16867 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16862:16862 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:141 var
+R16868:16868 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:142 var
+R16894:16906 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_small_iff thm
+R16930:16941 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+prf 16956:16970 ZDivProp mul_mod_idemp_l
+binder 16981:16981 <> a:143
+binder 16983:16983 <> b:144
+binder 16985:16985 <> n:145
+R16992:16996 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16989:16990 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R16988:16988 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:145 var
+R17016:17019 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R16997:16997 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17009:17014 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16998:16998 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17006:17007 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17000:17004 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R16999:16999 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:143 var
+R17005:17005 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:145 var
+R17008:17008 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:144 var
+R17015:17015 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:145 var
+R17020:17020 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17024:17029 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17022:17022 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17021:17021 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:143 var
+R17023:17023 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:144 var
+R17030:17030 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:145 var
+R17078:17084 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R17115:17122 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R17126:17133 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R17140:17147 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R17164:17178 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R17181:17189 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_assoc thm
+R17209:17215 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_add thm
+R17242:17249 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+prf 17264:17278 ZDivProp mul_mod_idemp_r
+binder 17289:17289 <> a:146
+binder 17291:17291 <> b:147
+binder 17293:17293 <> n:148
+R17300:17304 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17297:17298 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17296:17296 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:148 var
+R17324:17327 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17305:17305 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17317:17322 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17307:17308 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17316:17316 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17306:17306 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:146 var
+R17310:17314 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17309:17309 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:147 var
+R17315:17315 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:148 var
+R17323:17323 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:148 var
+R17328:17328 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17332:17337 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17330:17330 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17329:17329 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:146 var
+R17331:17331 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:147 var
+R17338:17338 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:148 var
+R17376:17383 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R17399:17413 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_mod_idemp_l thm
+prf 17430:17436 ZDivProp mul_mod
+binder 17446:17446 <> a:149
+binder 17448:17448 <> b:150
+binder 17450:17450 <> n:151
+R17457:17461 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17454:17455 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17453:17453 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:151 var
+R17475:17478 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17462:17462 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17468:17473 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17464:17466 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17463:17463 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:149 var
+R17467:17467 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:150 var
+R17474:17474 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:151 var
+R17479:17479 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17501:17506 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17480:17480 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17488:17492 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17500:17500 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R17482:17486 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17481:17481 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:149 var
+R17487:17487 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:151 var
+R17494:17498 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17493:17493 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:150 var
+R17499:17499 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:151 var
+R17507:17507 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:151 var
+R17538:17552 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_mod_idemp_l thm
+R17555:17569 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mul_mod_idemp_r thm
+prf 17584:17598 ZDivProp add_mod_idemp_l
+binder 17609:17609 <> a:152
+binder 17611:17611 <> b:153
+binder 17613:17613 <> n:154
+R17620:17624 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17617:17618 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17616:17616 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:154 var
+R17644:17647 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17625:17625 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17637:17642 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17626:17626 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17634:17635 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17628:17632 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17627:17627 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:152 var
+R17633:17633 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:154 var
+R17636:17636 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:153 var
+R17643:17643 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:154 var
+R17648:17648 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17652:17657 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17650:17650 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17649:17649 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:152 var
+R17651:17651 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:153 var
+R17658:17658 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:154 var
+R17706:17712 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R17746:17754 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_assoc thm
+R17757:17764 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R17767:17774 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_comm thm
+R17798:17804 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_add thm
+prf 17819:17833 ZDivProp add_mod_idemp_r
+binder 17844:17844 <> a:155
+binder 17846:17846 <> b:156
+binder 17848:17848 <> n:157
+R17855:17859 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17852:17853 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R17851:17851 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:157 var
+R17879:17882 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R17860:17860 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17872:17877 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17862:17863 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17871:17871 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17861:17861 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:155 var
+R17865:17869 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17864:17864 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:156 var
+R17870:17870 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:157 var
+R17878:17878 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:157 var
+R17883:17883 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17887:17892 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R17885:17885 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R17884:17884 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:155 var
+R17886:17886 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:156 var
+R17893:17893 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:157 var
+R17931:17938 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_comm thm
+R17954:17968 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp add_mod_idemp_l thm
+prf 17985:17991 ZDivProp add_mod
+binder 18001:18001 <> a:158
+binder 18003:18003 <> b:159
+binder 18005:18005 <> n:160
+R18012:18016 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18009:18010 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18008:18008 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:160 var
+R18028:18031 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18017:18017 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18021:18026 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18019:18019 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18018:18018 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:158 var
+R18020:18020 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:159 var
+R18027:18027 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:160 var
+R18032:18032 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18050:18055 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18040:18042 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18034:18038 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18033:18033 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:158 var
+R18039:18039 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:160 var
+R18044:18048 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18043:18043 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:159 var
+R18049:18049 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:160 var
+R18056:18056 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> n:160 var
+R18087:18101 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp add_mod_idemp_l thm
+R18104:18118 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp add_mod_idemp_r thm
+prf 18345:18351 ZDivProp div_div
+binder 18362:18362 <> a:161
+binder 18364:18364 <> b:162
+binder 18366:18366 <> c:163
+R18373:18376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18370:18371 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R18369:18369 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:162 var
+R18380:18384 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18378:18378 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R18379:18379 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:163 var
+R18392:18395 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R18385:18385 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18389:18390 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18387:18387 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18386:18386 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:161 var
+R18388:18388 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:162 var
+R18391:18391 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:163 var
+R18397:18398 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18402:18402 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18396:18396 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:161 var
+R18400:18400 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18399:18399 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:162 var
+R18401:18401 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:163 var
+R18472:18474 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18458:18459 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18471:18471 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18460:18460 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18464:18469 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18462:18462 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18476:18480 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18440:18449 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_unique thm
+R18529:18541 Stdlib.Numbers.Integer.Abstract.ZDivFloor B neg_pos_cases thm
+R18601:18613 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R18617:18617 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18626:18638 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_neg_bound prfax
+R18713:18715 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R18699:18700 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18712:18712 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R18701:18701 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18705:18710 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R18703:18703 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18680:18690 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_lt_trans thm
+R18744:18753 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_succ_r thm
+R18759:18775 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_le_mono_neg_l thm
+R18778:18786 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_succ_l thm
+R18813:18825 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_lt_mono_l thm
+R18841:18857 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_nonpos_nonpos thm
+R18882:18898 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_nonpos_nonneg thm
+R18934:18946 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R18950:18950 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R18959:18971 Stdlib.Numbers.Integer.Abstract.ZDivFloor A mod_pos_bound prfax
+R19013:19029 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_nonneg_nonneg thm
+R19054:19070 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_nonneg_nonneg thm
+R19126:19128 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19112:19113 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19125:19125 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19114:19114 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19118:19123 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19116:19116 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R19093:19103 Stdlib.Numbers.Integer.Abstract.ZDivFloor B lt_le_trans thm
+R19157:19169 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_lt_mono_l thm
+R19196:19205 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_succ_r thm
+R19211:19227 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_le_mono_pos_l thm
+R19230:19238 Stdlib.Numbers.Integer.Abstract.ZDivFloor B le_succ_l thm
+R19287:19293 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R19326:19334 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_assoc thm
+R19337:19348 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_r thm
+R19365:19373 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_assoc thm
+R19379:19393 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R19396:19407 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_cancel_l thm
+R19428:19434 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 19618:19626 ZDivProp rem_mul_r
+binder 19637:19637 <> a:164
+binder 19639:19639 <> b:165
+binder 19641:19641 <> c:166
+R19648:19651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19645:19646 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R19644:19644 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:165 var
+R19655:19659 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19653:19653 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R19654:19654 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:166 var
+R19671:19674 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R19661:19666 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19670:19670 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19660:19660 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:164 var
+R19668:19668 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19667:19667 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:165 var
+R19669:19669 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:166 var
+R19682:19684 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R19676:19680 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19675:19675 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:164 var
+R19681:19681 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:165 var
+R19686:19687 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19699:19699 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19685:19685 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:165 var
+R19688:19688 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19692:19697 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R19690:19690 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R19689:19689 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:164 var
+R19691:19691 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:165 var
+R19698:19698 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:166 var
+R19759:19760 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19768:19768 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19757:19757 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19762:19763 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R19767:19767 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R19765:19765 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R19737:19748 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_cancel_l thm
+R19802:19810 Stdlib.Numbers.Integer.Abstract.ZDivFloor B neq_mul_0 thm
+R19784:19790 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R19840:19846 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_div thm
+R19869:19877 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_assoc thm
+R19880:19891 Stdlib.Numbers.Integer.Abstract.ZDivFloor B add_shuffle0 thm
+R19897:19905 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_assoc thm
+R19911:19925 Stdlib.Numbers.Integer.Abstract.ZDivFloor B mul_add_distr_l thm
+R19940:19946 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+R19965:19971 Stdlib.Numbers.Integer.Abstract.ZDivFloor A div_mod prfax
+prf 19993:19999 ZDivProp mod_div
+binder 20009:20009 <> a:167
+binder 20011:20011 <> b:168
+R20018:20022 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20015:20016 Stdlib.Structures.Equalities EqNotation :::x_'~='_x not
+R20014:20014 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:168 var
+R20034:20037 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20030:20032 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R20024:20028 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20023:20023 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:167 var
+R20029:20029 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:168 var
+R20033:20033 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:168 var
+R20073:20085 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_small_iff thm
+R20114:20125 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp mod_bound_or thm
+prf 20140:20158 ZDivProp add_mul_mod_distr_l
+binder 20169:20169 <> a:169
+binder 20171:20171 <> b:170
+binder 20173:20173 <> c:171
+binder 20175:20175 <> d:172
+R20182:20185 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20179:20180 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20181:20181 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:169 var
+R20189:20192 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20187:20187 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R20188:20188 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:170 var
+R20199:20203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20194:20195 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R20197:20197 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R20196:20196 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:172 var
+R20198:20198 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:171 var
+R20221:20224 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20204:20204 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20210:20216 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20220:20220 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20208:20208 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R20206:20206 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20205:20205 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:171 var
+R20207:20207 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:169 var
+R20209:20209 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:172 var
+R20218:20218 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20217:20217 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:171 var
+R20219:20219 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:170 var
+R20236:20236 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R20226:20227 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20235:20235 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20225:20225 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:171 var
+R20229:20233 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20228:20228 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:169 var
+R20234:20234 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:170 var
+R20237:20237 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:172 var
+R20261:20279 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp add_mul_mod_distr_l thm
+prf 20306:20324 ZDivProp add_mul_mod_distr_r
+binder 20334:20334 <> a:173
+binder 20336:20336 <> b:174
+binder 20338:20338 <> c:175
+binder 20340:20340 <> d:176
+R20347:20350 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20344:20345 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20346:20346 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:173 var
+R20354:20357 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20352:20352 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R20353:20353 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:174 var
+R20364:20368 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20359:20360 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R20362:20362 Stdlib.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R20361:20361 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:176 var
+R20363:20363 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:175 var
+R20386:20389 Stdlib.Structures.Equalities EqNotation :::x_'=='_x not
+R20369:20369 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20375:20381 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20385:20385 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20373:20373 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R20371:20371 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20370:20370 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:173 var
+R20372:20372 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:175 var
+R20374:20374 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:176 var
+R20383:20383 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20382:20382 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:174 var
+R20384:20384 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:175 var
+R20401:20401 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R20390:20390 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20398:20399 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20392:20396 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R20391:20391 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:173 var
+R20397:20397 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:174 var
+R20400:20400 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:175 var
+R20402:20402 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> d:176 var
+R20426:20444 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp add_mul_mod_distr_r thm
+prf 20500:20509 ZDivProp div_mul_le
+binder 20520:20520 <> a:177
+binder 20522:20522 <> b:178
+binder 20524:20524 <> c:179
+R20531:20534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20528:20529 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20530:20530 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:177 var
+R20538:20541 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20536:20536 Stdlib.Structures.Orders LtNotation :::x_'<'_x not
+R20537:20537 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:178 var
+R20546:20549 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20543:20544 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20545:20545 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:179 var
+R20557:20560 Stdlib.Structures.Orders LeNotation :::x_'<='_x not
+R20551:20552 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20556:20556 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20550:20550 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:179 var
+R20554:20554 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R20553:20553 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:177 var
+R20555:20555 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:178 var
+R20561:20561 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R20565:20566 Stdlib.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R20563:20563 Stdlib.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R20562:20562 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> c:179 var
+R20564:20564 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> a:177 var
+R20567:20567 Stdlib.Numbers.Integer.Abstract.ZDivFloor <> b:178 var
+R20583:20592 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp div_mul_le thm
+R20605:20612 Stdlib.Numbers.Integer.Abstract.ZDivFloor ZDivProp <> modtype

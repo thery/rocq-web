@@ -1,0 +1,131 @@
+DIGEST f01ac30e6fcee095ccc07cc6079feecc
+FStdlib.Sets.Integers
+R1850:1860 Stdlib.Sets.Finite_sets <> <> lib
+R1890:1906 Stdlib.Sets.Constructive_sets <> <> lib
+R1936:1944 Stdlib.Logic.Classical <> <> lib
+R1974:1987 Stdlib.Sets.Classical_sets <> <> lib
+R2017:2024 Stdlib.Sets.Powerset <> <> lib
+R2054:2067 Stdlib.Sets.Powerset_facts <> <> lib
+R2097:2120 Stdlib.Sets.Powerset_Classical_facts <> <> lib
+R2150:2166 Stdlib.Sets.Finite_sets_facts <> <> lib
+R2196:2200 Stdlib.Sets.Image <> <> lib
+R2230:2242 Stdlib.Sets.Infinite_sets <> <> lib
+R2272:2282 Stdlib.Arith.Compare_dec <> <> lib
+R2312:2322 Stdlib.Sets.Relations_1 <> <> lib
+R2352:2364 Stdlib.Sets.Partial_Order <> <> lib
+R2394:2396 Stdlib.Sets.Cpo <> <> lib
+sec 2408:2420 <> Integers_sect
+ind 2436:2443 <> Integers
+constr 2467:2479 <> Integers_defn
+R2447:2454 Stdlib.Sets.Ensembles <> Ensemble def
+R2456:2458 Corelib.Init.Datatypes <> nat ind
+R2492:2494 Corelib.Init.Datatypes <> nat ind
+binder 2490:2490 <> x:3
+R2497:2498 Stdlib.Sets.Ensembles <> In def
+R2504:2511 Stdlib.Sets.Integers <> Integers:1 ind
+R2513:2513 Stdlib.Sets.Integers <> x:3 var
+R2500:2502 Corelib.Init.Datatypes <> nat ind
+scheme 2436:2443 <> Integers_ind
+scheme 2436:2443 <> Integers_sind
+prf 2525:2536 <> le_reflexive
+R2540:2548 Stdlib.Sets.Relations_1 <> Reflexive def
+R2554:2555 Corelib.Init.Peano <> le ind
+R2550:2552 Corelib.Init.Datatypes <> nat ind
+prf 2609:2618 <> le_antisym
+R2622:2634 Stdlib.Sets.Relations_1 <> Antisymmetric def
+R2640:2641 Corelib.Init.Peano <> le ind
+R2636:2638 Corelib.Init.Datatypes <> nat ind
+R2688:2702 Stdlib.Arith.PeanoNat Nat le_antisymm thm
+prf 2732:2739 <> le_trans
+R2743:2752 Stdlib.Sets.Relations_1 <> Transitive def
+R2758:2759 Corelib.Init.Peano <> le ind
+R2754:2756 Corelib.Init.Datatypes <> nat ind
+R2794:2805 Stdlib.Arith.PeanoNat Nat le_trans thm
+prf 2837:2844 <> le_Order
+R2848:2852 Stdlib.Sets.Relations_1 <> Order ind
+R2858:2859 Corelib.Init.Peano <> le ind
+R2854:2856 Corelib.Init.Datatypes <> nat ind
+R2889:2900 Stdlib.Sets.Integers <> le_reflexive thm
+R2910:2917 Stdlib.Sets.Integers <> le_trans thm
+R2927:2936 Stdlib.Sets.Integers <> le_antisym thm
+prf 2956:2963 <> triv_nat
+R2976:2978 Corelib.Init.Datatypes <> nat ind
+binder 2974:2974 <> n:4
+R2981:2982 Stdlib.Sets.Ensembles <> In def
+R2988:2995 Stdlib.Sets.Integers <> Integers ind
+R2997:2997 Stdlib.Sets.Integers <> n:4 var
+R2984:2986 Corelib.Init.Datatypes <> nat ind
+R3019:3031 Stdlib.Sets.Integers <> Integers_defn constr
+def 3055:3060 <> nat_po
+R3064:3065 Stdlib.Sets.Partial_Order <> PO rec
+R3067:3069 Corelib.Init.Datatypes <> nat ind
+R3128:3135 Stdlib.Sets.Integers <> Integers ind
+R3149:3150 Corelib.Init.Peano <> le ind
+R3091:3106 Stdlib.Sets.Partial_Order <> Definition_of_PO constr
+R3194:3208 Stdlib.Sets.Ensembles <> Inhabited_intro constr
+R3237:3249 Stdlib.Sets.Integers <> Integers_defn constr
+R3264:3271 Stdlib.Sets.Integers <> le_Order thm
+prf 3294:3307 <> le_total_order
+R3311:3325 Stdlib.Sets.Cpo <> Totally_ordered ind
+R3338:3345 Stdlib.Sets.Integers <> Integers ind
+R3331:3336 Stdlib.Sets.Integers <> nat_po def
+R3327:3329 Corelib.Init.Datatypes <> nat ind
+R3367:3392 Stdlib.Sets.Cpo <> Totally_ordered_definition constr
+R3438:3452 Stdlib.Arith.PeanoNat Nat le_gt_cases thm
+R3559:3572 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+prf 3603:3623 <> Finite_subset_has_lub
+R3640:3647 Stdlib.Sets.Ensembles <> Ensemble def
+R3649:3651 Corelib.Init.Datatypes <> nat ind
+binder 3638:3638 <> X:5
+R3672:3676 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3660:3665 Stdlib.Sets.Finite_sets <> Finite ind
+R3671:3671 Stdlib.Sets.Integers <> X:5 var
+R3667:3669 Corelib.Init.Datatypes <> nat ind
+R3677:3683 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3691:3692 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3688:3690 Corelib.Init.Datatypes <> nat ind
+binder 3684:3684 <> m:6
+R3693:3703 Stdlib.Sets.Cpo <> Upper_Bound ind
+R3716:3716 Stdlib.Sets.Integers <> X:5 var
+R3718:3718 Stdlib.Sets.Integers <> m:6 var
+R3709:3714 Stdlib.Sets.Integers <> nat_po def
+R3705:3707 Corelib.Init.Datatypes <> nat ind
+R3784:3805 Stdlib.Sets.Cpo <> Upper_Bound_definition constr
+R3823:3828 Stdlib.Sets.Integers <> nat_po def
+R3844:3851 Stdlib.Sets.Integers <> triv_nat thm
+R4007:4020 Stdlib.Sets.Integers <> le_total_order thm
+R4407:4428 Stdlib.Sets.Cpo <> Upper_Bound_definition constr
+R4454:4461 Stdlib.Sets.Integers <> triv_nat thm
+R4522:4529 Stdlib.Sets.Integers <> le_trans thm
+R4776:4781 Stdlib.Sets.Integers <> nat_po def
+R4833:4854 Stdlib.Sets.Cpo <> Upper_Bound_definition constr
+R4874:4879 Stdlib.Sets.Integers <> nat_po def
+R4895:4902 Stdlib.Sets.Integers <> triv_nat thm
+R5147:5154 Stdlib.Sets.Integers <> triv_nat thm
+prf 5173:5190 <> Integers_has_no_ub
+R5198:5200 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5250:5250 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5201:5207 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5215:5216 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5212:5214 Corelib.Init.Datatypes <> nat ind
+binder 5208:5208 <> m:7
+R5217:5227 Stdlib.Sets.Cpo <> Upper_Bound ind
+R5240:5247 Stdlib.Sets.Integers <> Integers ind
+R5249:5249 Stdlib.Sets.Integers <> m:7 var
+R5233:5238 Stdlib.Sets.Integers <> nat_po def
+R5229:5231 Corelib.Init.Datatypes <> nat ind
+R5347:5348 Stdlib.Sets.Ensembles <> In def
+R5354:5361 Stdlib.Sets.Integers <> Integers ind
+R5364:5364 Corelib.Init.Datatypes <> S constr
+R5350:5352 Corelib.Init.Datatypes <> nat ind
+R5420:5420 Corelib.Init.Datatypes <> S constr
+R5512:5530 Stdlib.Arith.PeanoNat Nat nle_succ_diag_l thm
+R5564:5571 Stdlib.Sets.Integers <> triv_nat thm
+prf 5590:5606 <> Integers_infinite
+R5610:5611 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5612:5617 Stdlib.Sets.Finite_sets <> Finite ind
+R5623:5630 Stdlib.Sets.Integers <> Integers ind
+R5619:5621 Corelib.Init.Datatypes <> nat ind
+R5657:5674 Stdlib.Sets.Integers <> Integers_has_no_ub thm
+R5746:5766 Stdlib.Sets.Integers <> Finite_subset_has_lub thm
+R5803:5815 Stdlib.Sets.Integers Integers_sect <> sec

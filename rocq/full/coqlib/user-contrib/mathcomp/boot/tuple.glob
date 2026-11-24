@@ -1,0 +1,2458 @@
+DIGEST b18c4989ff1be8eef3013e8d8184c63d
+Fmathcomp.boot.tuple
+R183:192 HB.structures <> <> lib
+R224:232 mathcomp.boot.ssreflect <> <> lib
+R234:239 mathcomp.boot.ssrfun <> <> lib
+R241:247 mathcomp.boot.ssrbool <> <> lib
+R249:254 mathcomp.boot.eqtype <> <> lib
+R256:261 mathcomp.boot.ssrnat <> <> lib
+R293:295 mathcomp.boot.seq <> <> lib
+R297:302 mathcomp.boot.choice <> <> lib
+R304:310 mathcomp.boot.fintype <> <> lib
+R312:315 mathcomp.boot.path <> <> lib
+sec 4056:4063 <> TupleDef
+var 4078:4078 TupleDef n
+var 4088:4088 TupleDef T
+R4082:4084 Corelib.Init.Datatypes <> nat ind
+rec 4110:4117 <> tuple_of
+proj 4136:4139 <> tval
+R4144:4146 mathcomp.boot.seq <> seq abbrev
+R4148:4148 mathcomp.boot.tuple <> TupleDef.T var
+R4164:4167 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R4155:4158 mathcomp.boot.seq <> size def
+R4160:4163 mathcomp.boot.tuple <> tval:6 meth
+R4168:4168 mathcomp.boot.tuple <> TupleDef.n var
+R4201:4211 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R4216:4216 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R4212:4215 mathcomp.boot.tuple <> tval proj
+def 4173:4217 <> HB_unnamed_factory_1
+def 4173:4217 <> tuple_tuple_of__canonical__eqtype_SubType
+R4238:4245 mathcomp.boot.tuple <> tuple_of rec
+def 4260:4264 <> tsize
+R4268:4275 mathcomp.boot.tuple <> tuple_of rec
+R4280:4280 mathcomp.boot.tuple <> TupleDef.n var
+prf 4290:4299 <> size_tuple
+binder 4301:4301 <> t:7
+R4311:4313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4305:4308 mathcomp.boot.seq <> size def
+R4310:4310 mathcomp.boot.tuple <> t:7 var
+R4314:4314 mathcomp.boot.tuple <> TupleDef.n var
+R4332:4334 mathcomp.boot.eqtype <> eqP def
+R4337:4340 mathcomp.boot.eqtype <> valP thm
+prf 4359:4370 <> tnth_default
+binder 4372:4372 <> t:8
+R4380:4383 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4376:4378 mathcomp.boot.fintype <> :::'''I_'_x not
+R4379:4379 mathcomp.boot.tuple <> TupleDef.n var
+R4384:4384 mathcomp.boot.tuple <> TupleDef.T var
+R4407:4416 mathcomp.boot.tuple <> size_tuple thm
+R4429:4432 mathcomp.boot.tuple <> tval proj
+def 4467:4470 <> tnth
+binder 4472:4472 <> t:9
+binder 4474:4474 <> i:10
+R4479:4481 mathcomp.boot.seq <> nth def
+R4504:4504 mathcomp.boot.tuple <> i:10 var
+R4502:4502 mathcomp.boot.tuple <> t:9 var
+R4484:4495 mathcomp.boot.tuple <> tnth_default thm
+R4499:4499 mathcomp.boot.tuple <> i:10 var
+R4497:4497 mathcomp.boot.tuple <> t:9 var
+prf 4514:4521 <> tnth_nth
+binder 4523:4523 <> x:11
+binder 4525:4525 <> t:12
+binder 4527:4527 <> i:13
+R4539:4541 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4531:4534 mathcomp.boot.tuple <> tnth def
+R4538:4538 mathcomp.boot.tuple <> i:13 var
+R4536:4536 mathcomp.boot.tuple <> t:12 var
+R4542:4544 mathcomp.boot.seq <> nth def
+R4550:4550 mathcomp.boot.tuple <> i:13 var
+R4548:4548 mathcomp.boot.tuple <> t:12 var
+R4546:4546 mathcomp.boot.tuple <> x:11 var
+R4570:4584 mathcomp.boot.seq <> set_nth_default thm
+R4595:4604 mathcomp.boot.tuple <> size_tuple thm
+prf 4619:4627 <> tnth_onth
+binder 4629:4629 <> x:14
+binder 4631:4631 <> t:15
+binder 4633:4633 <> i:16
+R4649:4653 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4645:4647 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4637:4640 mathcomp.boot.tuple <> tnth def
+R4644:4644 mathcomp.boot.tuple <> i:16 var
+R4642:4642 mathcomp.boot.tuple <> t:15 var
+R4648:4648 mathcomp.boot.tuple <> x:14 var
+R4662:4664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4654:4657 mathcomp.boot.seq <> onth def
+R4661:4661 mathcomp.boot.tuple <> i:16 var
+R4659:4659 mathcomp.boot.tuple <> t:15 var
+R4665:4668 Corelib.Init.Datatypes <> Some constr
+R4670:4670 mathcomp.boot.tuple <> x:14 var
+R4689:4696 mathcomp.boot.tuple <> tnth_nth thm
+R4701:4705 mathcomp.boot.seq <> onthE thm
+R4708:4714 mathcomp.boot.seq <> nth_map thm
+R4720:4729 mathcomp.boot.tuple <> size_tuple thm
+prf 4771:4783 <> map_tnth_enum
+binder 4785:4785 <> t:17
+R4813:4815 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4789:4791 mathcomp.boot.seq <> map def
+R4803:4806 mathcomp.boot.fintype <> enum abbrev
+R4808:4810 mathcomp.boot.fintype <> :::'''I_'_x not
+R4811:4811 mathcomp.boot.tuple <> TupleDef.n var
+R4794:4797 mathcomp.boot.tuple <> tnth def
+R4799:4799 mathcomp.boot.tuple <> t:17 var
+R4816:4816 mathcomp.boot.tuple <> t:17 var
+R4842:4844 mathcomp.boot.eqtype <> val abbrev
+R4876:4879 mathcomp.boot.fintype <> enum abbrev
+R4883:4890 mathcomp.boot.seq <> size0nil thm
+R4896:4900 mathcomp.boot.fintype <> cardE thm
+R4902:4909 mathcomp.boot.fintype <> card_ord thm
+R4913:4922 mathcomp.boot.tuple <> size_tuple thm
+R4943:4953 mathcomp.boot.seq <> eq_from_nth thm
+R4978:4985 mathcomp.boot.seq <> size_map thm
+R5002:5006 mathcomp.boot.fintype <> cardE thm
+R5008:5017 mathcomp.boot.tuple <> size_tuple thm
+R5019:5026 mathcomp.boot.fintype <> card_ord thm
+R5075:5079 mathcomp.boot.fintype <> cardE thm
+R5081:5088 mathcomp.boot.fintype <> card_ord thm
+R5058:5060 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R5061:5061 mathcomp.boot.tuple <> TupleDef.n var
+R5113:5119 mathcomp.boot.seq <> nth_map thm
+R5122:5128 mathcomp.boot.fintype <> Ordinal constr
+R5143:5150 mathcomp.boot.tuple <> tnth_nth thm
+R5156:5167 mathcomp.boot.fintype <> nth_enum_ord thm
+prf 5182:5193 <> eq_from_tnth
+binder 5195:5196 <> t1:18
+binder 5198:5199 <> t2:19
+R5221:5224 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5210:5213 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R5203:5206 mathcomp.boot.tuple <> tnth def
+R5208:5209 mathcomp.boot.tuple <> t1:18 var
+R5214:5217 mathcomp.boot.tuple <> tnth def
+R5219:5220 mathcomp.boot.tuple <> t2:19 var
+R5227:5229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5225:5226 mathcomp.boot.tuple <> t1:18 var
+R5230:5231 mathcomp.boot.tuple <> t2:19 var
+R5271:5277 mathcomp.boot.eqtype <> val_inj thm
+R5293:5305 mathcomp.boot.tuple <> map_tnth_enum thm
+R5249:5254 mathcomp.boot.seq <> eq_map thm
+def 5330:5334 <> tuple
+binder 5336:5336 <> t:20
+binder 5338:5340 <> mkT:21
+R5344:5351 mathcomp.boot.tuple <> tuple_of rec
+R5358:5360 mathcomp.boot.tuple <> mkT:21 var
+R5382:5382 mathcomp.boot.tuple <> t:20 var
+R5397:5400 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R5391:5394 mathcomp.boot.seq <> size def
+R5396:5396 mathcomp.boot.tuple <> t:22 var
+R5401:5401 mathcomp.boot.tuple <> TupleDef.n var
+R5368:5372 mathcomp.boot.tuple <> Tuple constr
+prf 5418:5423 <> tupleE
+binder 5425:5425 <> t:23
+R5458:5460 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5429:5433 mathcomp.boot.tuple <> tuple def
+binder 5440:5441 <> sP:24
+R5447:5451 mathcomp.boot.tuple <> Tuple constr
+R5453:5453 mathcomp.boot.tuple <> t:23 var
+R5455:5456 mathcomp.boot.tuple <> sP:24 var
+R5461:5461 mathcomp.boot.tuple <> t:23 var
+R5493:5500 mathcomp.boot.tuple TupleDef <> sec
+R5529:5536 mathcomp.boot.tuple <> tuple_of rec
+not 5513:5513 <> ::type_scope:x_'.-tuple'
+R5626:5636 Corelib.ssr.ssrbool <> predArgType def
+R5614:5622 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+not 5586:5586 <> ::type_scope:'{'_'tuple'_x_'of'_x_'}'
+R5705:5709 mathcomp.boot.tuple <> tuple def
+binder 5716:5717 <> sP:25
+R5723:5727 mathcomp.boot.tuple <> Tuple constr
+R5735:5736 mathcomp.boot.tuple <> sP:25 var
+not 5680:5680 <> ::form_scope:'['_'tuple'_'of'_x_']'
+R5819:5822 mathcomp.boot.tuple <> tnth def
+R5828:5834 mathcomp.boot.fintype <> Ordinal constr
+R5837:5841 mathcomp.boot.tuple <> tsize def
+R5849:5853 Corelib.ssr.ssrfun <> erefl abbrev
+R5855:5858 Corelib.Init.Datatypes <> true constr
+not 5798:5798 <> ::form_scope:'['_'tnth'_x_x_']'
+def 5935:5943 <> nil_tuple
+binder 5945:5945 <> T:26
+R5950:5954 mathcomp.boot.tuple <> Tuple constr
+R5975:5978 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R5964:5967 mathcomp.boot.seq <> size def
+R5969:5969 mathcomp.boot.tuple <> T:26 var
+R5971:5974 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R5957:5959 Corelib.ssr.ssrbool <> isT def
+def 5993:6002 <> cons_tuple
+binder 6004:6004 <> n:27
+binder 6006:6006 <> T:28
+binder 6008:6008 <> x:29
+R6016:6024 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R6015:6015 mathcomp.boot.tuple <> n:27 var
+R6024:6024 mathcomp.boot.tuple <> T:28 var
+binder 6011:6011 <> t:30
+R6032:6036 mathcomp.boot.tuple <> Tuple constr
+R6061:6064 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R6048:6051 mathcomp.boot.seq <> size def
+R6055:6058 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R6054:6054 mathcomp.boot.tuple <> x:29 var
+R6059:6059 mathcomp.boot.tuple <> t:30 var
+R6066:6068 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R6065:6065 mathcomp.boot.tuple <> n:27 var
+R6039:6042 mathcomp.boot.eqtype <> valP thm
+R6044:6044 mathcomp.boot.tuple <> t:30 var
+R6112:6121 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R6141:6141 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R6124:6127 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R6131:6134 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R6137:6137 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+not 6082:6082 <> ::form_scope:'['_'tuple'_x_';'_'..'_';'_x_']'
+R6241:6250 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R6255:6255 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R6251:6254 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+not 6224:6224 <> ::form_scope:'['_'tuple'_']'
+sec 6303:6311 <> CastTuple
+var 6324:6324 CastTuple T
+def 6346:6353 <> in_tuple
+R6360:6362 mathcomp.boot.seq <> seq abbrev
+R6364:6364 mathcomp.boot.tuple <> CastTuple.T var
+binder 6356:6356 <> s:33
+R6370:6374 mathcomp.boot.tuple <> Tuple constr
+R6377:6380 mathcomp.boot.eqtype <> eqxx abbrev
+R6383:6386 mathcomp.boot.seq <> size def
+R6388:6388 mathcomp.boot.tuple <> s:33 var
+def 6405:6409 <> tcast
+binder 6411:6411 <> m:34
+binder 6413:6413 <> n:35
+R6425:6427 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6424:6424 mathcomp.boot.tuple <> m:34 var
+R6428:6428 mathcomp.boot.tuple <> n:35 var
+binder 6416:6420 <> eq_mn:36
+binder 6431:6431 <> t:37
+R6461:6465 mathcomp.boot.tuple <> eq_mn:36 var
+R6453:6455 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6475:6483 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R6474:6474 mathcomp.boot.tuple <> n:39 var
+R6483:6483 mathcomp.boot.tuple <> CastTuple.T var
+R6443:6447 Corelib.ssr.ssrfun <> erefl abbrev
+R6488:6488 mathcomp.boot.tuple <> t:37 var
+prf 6498:6503 <> tcastE
+binder 6505:6505 <> m:40
+binder 6507:6507 <> n:41
+R6519:6521 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6518:6518 mathcomp.boot.tuple <> m:40 var
+R6522:6522 mathcomp.boot.tuple <> n:41 var
+binder 6510:6514 <> eq_mn:42
+binder 6525:6525 <> t:43
+binder 6527:6527 <> i:44
+R6555:6557 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6533:6536 mathcomp.boot.tuple <> tnth def
+R6554:6554 mathcomp.boot.tuple <> i:44 var
+R6539:6543 mathcomp.boot.tuple <> tcast def
+R6551:6551 mathcomp.boot.tuple <> t:43 var
+R6545:6549 mathcomp.boot.tuple <> eq_mn:42 var
+R6558:6561 mathcomp.boot.tuple <> tnth def
+R6566:6573 mathcomp.boot.fintype <> cast_ord def
+R6588:6588 mathcomp.boot.tuple <> i:44 var
+R6576:6579 Corelib.ssr.ssrfun <> esym def
+R6581:6585 mathcomp.boot.tuple <> eq_mn:42 var
+R6563:6563 mathcomp.boot.tuple <> t:43 var
+R6634:6644 mathcomp.boot.fintype <> cast_ord_id thm
+prf 6659:6666 <> tcast_id
+binder 6668:6668 <> n:45
+R6680:6682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6679:6679 mathcomp.boot.tuple <> n:45 var
+R6683:6683 mathcomp.boot.tuple <> n:45 var
+binder 6671:6675 <> eq_nn:46
+binder 6686:6686 <> t:47
+R6703:6705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6690:6694 mathcomp.boot.tuple <> tcast def
+R6702:6702 mathcomp.boot.tuple <> t:47 var
+R6696:6700 mathcomp.boot.tuple <> eq_nn:46 var
+R6706:6706 mathcomp.boot.tuple <> t:47 var
+R6728:6736 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 6758:6763 <> tcastK
+binder 6765:6765 <> m:48
+binder 6767:6767 <> n:49
+R6779:6781 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6778:6778 mathcomp.boot.tuple <> m:48 var
+R6782:6782 mathcomp.boot.tuple <> n:49 var
+binder 6770:6774 <> eq_mn:50
+R6787:6792 Corelib.ssr.ssrfun <> cancel def
+R6809:6813 mathcomp.boot.tuple <> tcast def
+R6816:6819 Corelib.ssr.ssrfun <> esym def
+R6821:6825 mathcomp.boot.tuple <> eq_mn:50 var
+R6795:6799 mathcomp.boot.tuple <> tcast def
+R6801:6805 mathcomp.boot.tuple <> eq_mn:50 var
+prf 6869:6875 <> tcastKV
+binder 6877:6877 <> m:51
+binder 6879:6879 <> n:52
+R6891:6893 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6890:6890 mathcomp.boot.tuple <> m:51 var
+R6894:6894 mathcomp.boot.tuple <> n:52 var
+binder 6882:6886 <> eq_mn:53
+R6899:6904 Corelib.ssr.ssrfun <> cancel def
+R6928:6932 mathcomp.boot.tuple <> tcast def
+R6934:6938 mathcomp.boot.tuple <> eq_mn:53 var
+R6907:6911 mathcomp.boot.tuple <> tcast def
+R6914:6917 Corelib.ssr.ssrfun <> esym def
+R6919:6923 mathcomp.boot.tuple <> eq_mn:53 var
+prf 6981:6991 <> tcast_trans
+binder 6993:6993 <> m:54
+binder 6995:6995 <> n:55
+binder 6997:6997 <> p:56
+R7009:7011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7008:7008 mathcomp.boot.tuple <> m:54 var
+R7012:7012 mathcomp.boot.tuple <> n:55 var
+binder 7000:7004 <> eq_mn:57
+R7025:7027 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7024:7024 mathcomp.boot.tuple <> n:55 var
+R7028:7028 mathcomp.boot.tuple <> p:56 var
+binder 7016:7020 <> eq_np:58
+binder 7031:7031 <> t:59
+R7064:7066 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7036:7040 mathcomp.boot.tuple <> tcast def
+R7063:7063 mathcomp.boot.tuple <> t:59 var
+R7043:7048 Corelib.ssr.ssrfun <> etrans def
+R7056:7060 mathcomp.boot.tuple <> eq_np:58 var
+R7050:7054 mathcomp.boot.tuple <> eq_mn:57 var
+R7067:7071 mathcomp.boot.tuple <> tcast def
+R7080:7084 mathcomp.boot.tuple <> tcast def
+R7092:7092 mathcomp.boot.tuple <> t:59 var
+R7086:7090 mathcomp.boot.tuple <> eq_mn:57 var
+R7073:7077 mathcomp.boot.tuple <> eq_np:58 var
+prf 7152:7156 <> tvalK
+binder 7158:7158 <> n:60
+R7166:7174 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R7165:7165 mathcomp.boot.tuple <> n:60 var
+R7174:7174 mathcomp.boot.tuple <> CastTuple.T var
+binder 7161:7161 <> t:61
+R7189:7191 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7179:7186 mathcomp.boot.tuple <> in_tuple def
+R7188:7188 mathcomp.boot.tuple <> t:61 var
+R7192:7196 mathcomp.boot.tuple <> tcast def
+R7220:7220 mathcomp.boot.tuple <> t:61 var
+R7199:7202 Corelib.ssr.ssrfun <> esym def
+R7205:7214 mathcomp.boot.tuple <> size_tuple thm
+R7216:7216 mathcomp.boot.tuple <> t:61 var
+R7240:7246 mathcomp.boot.eqtype <> val_inj thm
+R7266:7269 Corelib.ssr.ssrfun <> esym def
+prf 7287:7295 <> val_tcast
+binder 7297:7297 <> m:62
+binder 7299:7299 <> n:63
+R7311:7313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7310:7310 mathcomp.boot.tuple <> m:62 var
+R7314:7314 mathcomp.boot.tuple <> n:63 var
+binder 7302:7306 <> eq_mn:64
+R7323:7331 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R7322:7322 mathcomp.boot.tuple <> m:62 var
+R7331:7331 mathcomp.boot.tuple <> CastTuple.T var
+binder 7318:7318 <> t:65
+R7351:7353 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7355:7358 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7359:7361 mathcomp.boot.seq <> seq abbrev
+R7363:7363 mathcomp.boot.tuple <> CastTuple.T var
+R7338:7342 mathcomp.boot.tuple <> tcast def
+R7350:7350 mathcomp.boot.tuple <> t:65 var
+R7344:7348 mathcomp.boot.tuple <> eq_mn:64 var
+R7354:7354 mathcomp.boot.tuple <> t:65 var
+prf 7405:7413 <> in_tupleE
+binder 7415:7415 <> s:66
+R7429:7431 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7433:7436 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7437:7439 mathcomp.boot.seq <> seq abbrev
+R7441:7441 mathcomp.boot.tuple <> CastTuple.T var
+R7419:7426 mathcomp.boot.tuple <> in_tuple def
+R7428:7428 mathcomp.boot.tuple <> s:66 var
+R7432:7432 mathcomp.boot.tuple <> s:66 var
+prf 7470:7482 <> tnth_in_tuple
+binder 7484:7484 <> n:67
+R7492:7500 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R7491:7491 mathcomp.boot.tuple <> n:67 var
+R7500:7500 mathcomp.boot.tuple <> CastTuple.T var
+binder 7487:7487 <> t:68
+binder 7503:7503 <> i:69
+R7529:7531 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7510:7513 mathcomp.boot.tuple <> tnth def
+R7528:7528 mathcomp.boot.tuple <> i:69 var
+R7516:7523 mathcomp.boot.tuple <> in_tuple def
+R7525:7525 mathcomp.boot.tuple <> t:68 var
+R7532:7535 mathcomp.boot.tuple <> tnth def
+R7540:7547 mathcomp.boot.fintype <> cast_ord def
+R7564:7564 mathcomp.boot.tuple <> i:69 var
+R7550:7559 mathcomp.boot.tuple <> size_tuple thm
+R7537:7537 mathcomp.boot.tuple <> t:68 var
+R7581:7595 mathcomp.boot.seq <> set_nth_default thm
+prf 7610:7623 <> in_tuple_tuple
+binder 7625:7625 <> n:70
+R7633:7641 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R7632:7632 mathcomp.boot.tuple <> n:70 var
+R7641:7641 mathcomp.boot.tuple <> CastTuple.T var
+binder 7628:7628 <> t:71
+R7658:7660 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7648:7655 mathcomp.boot.tuple <> in_tuple def
+R7657:7657 mathcomp.boot.tuple <> t:71 var
+R7661:7665 mathcomp.boot.tuple <> tcast def
+R7689:7689 mathcomp.boot.tuple <> t:71 var
+R7668:7671 Corelib.ssr.ssrfun <> esym def
+R7674:7683 mathcomp.boot.tuple <> size_tuple thm
+R7708:7719 mathcomp.boot.tuple <> eq_from_tnth thm
+R7734:7746 mathcomp.boot.tuple <> tnth_in_tuple thm
+R7750:7755 mathcomp.boot.tuple <> tcastE thm
+R7757:7761 Corelib.ssr.ssrfun <> esymK thm
+prf 7776:7788 <> in_tuple_cons
+binder 7790:7790 <> x:72
+binder 7792:7792 <> s:73
+R7813:7815 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7796:7803 mathcomp.boot.tuple <> in_tuple def
+R7807:7810 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R7806:7806 mathcomp.boot.tuple <> x:72 var
+R7811:7811 mathcomp.boot.tuple <> s:73 var
+R7817:7820 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R7816:7816 mathcomp.boot.tuple <> x:72 var
+R7821:7828 mathcomp.boot.tuple <> in_tuple def
+R7830:7830 mathcomp.boot.tuple <> s:73 var
+R7846:7852 mathcomp.boot.eqtype <> val_inj thm
+R7856:7866 mathcomp.boot.seq <> eq_from_nth thm
+R7884:7892 mathcomp.boot.tuple CastTuple <> sec
+sec 7904:7911 <> SeqTuple
+var 7926:7926 SeqTuple n
+var 7928:7928 SeqTuple m
+var 7938:7938 SeqTuple T
+var 7940:7940 SeqTuple U
+var 7942:7943 SeqTuple rT
+R7932:7934 Corelib.Init.Datatypes <> nat ind
+R7973:7981 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R7972:7972 mathcomp.boot.tuple <> SeqTuple.n var
+R7981:7981 mathcomp.boot.tuple <> SeqTuple.T var
+prf 7991:7999 <> in_tupleP
+R8012:8015 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8006:8009 Corelib.Init.Datatypes <> list ind
+R8011:8011 mathcomp.boot.tuple <> SeqTuple.T var
+binder 8002:8002 <> P:84
+R8024:8024 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8055:8059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 8032:8032 <> n:85
+R8040:8048 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R8039:8039 mathcomp.boot.tuple <> n:85 var
+R8048:8048 mathcomp.boot.tuple <> SeqTuple.T var
+binder 8035:8035 <> t:86
+R8052:8052 mathcomp.boot.tuple <> P:84 var
+R8054:8054 mathcomp.boot.tuple <> t:86 var
+binder 8067:8067 <> l:87
+R8070:8070 mathcomp.boot.tuple <> P:84 var
+R8072:8072 mathcomp.boot.tuple <> l:87 var
+R8106:8113 mathcomp.boot.tuple <> in_tuple def
+prf 8132:8143 <> rcons_tupleP
+binder 8145:8145 <> t:88
+binder 8147:8147 <> x:89
+R8167:8170 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8151:8154 mathcomp.boot.seq <> size def
+R8157:8161 mathcomp.boot.seq <> rcons def
+R8165:8165 mathcomp.boot.tuple <> x:89 var
+R8163:8163 mathcomp.boot.tuple <> t:88 var
+R8172:8174 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R8171:8171 mathcomp.boot.tuple <> SeqTuple.n var
+R8195:8204 mathcomp.boot.seq <> size_rcons thm
+R8206:8215 mathcomp.boot.tuple <> size_tuple thm
+def 8233:8243 <> rcons_tuple
+binder 8245:8245 <> t:90
+binder 8247:8247 <> x:91
+R8252:8256 mathcomp.boot.tuple <> Tuple constr
+R8259:8270 mathcomp.boot.tuple <> rcons_tupleP thm
+R8274:8274 mathcomp.boot.tuple <> x:91 var
+R8272:8272 mathcomp.boot.tuple <> t:90 var
+prf 8285:8295 <> nseq_tupleP
+binder 8297:8297 <> x:92
+R8319:8322 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8302:8305 mathcomp.boot.seq <> size def
+R8307:8307 mathcomp.boot.tuple <> SeqTuple.T var
+R8310:8313 mathcomp.boot.seq <> nseq def
+R8317:8317 mathcomp.boot.tuple <> x:92 var
+R8315:8315 mathcomp.boot.tuple <> SeqTuple.n var
+R8323:8323 mathcomp.boot.tuple <> SeqTuple.n var
+R8344:8352 mathcomp.boot.seq <> size_nseq thm
+def 8370:8379 <> nseq_tuple
+binder 8381:8381 <> x:93
+R8386:8390 mathcomp.boot.tuple <> Tuple constr
+R8393:8403 mathcomp.boot.tuple <> nseq_tupleP thm
+R8405:8405 mathcomp.boot.tuple <> x:93 var
+prf 8416:8426 <> iota_tupleP
+R8445:8448 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8430:8433 mathcomp.boot.seq <> size def
+R8436:8439 mathcomp.boot.seq <> iota def
+R8443:8443 mathcomp.boot.tuple <> SeqTuple.n var
+R8441:8441 mathcomp.boot.tuple <> SeqTuple.m var
+R8449:8449 mathcomp.boot.tuple <> SeqTuple.n var
+R8470:8478 mathcomp.boot.seq <> size_iota thm
+def 8496:8505 <> iota_tuple
+R8510:8514 mathcomp.boot.tuple <> Tuple constr
+R8516:8526 mathcomp.boot.tuple <> iota_tupleP thm
+prf 8536:8548 <> behead_tupleP
+binder 8550:8550 <> t:94
+R8569:8572 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8554:8557 mathcomp.boot.seq <> size def
+R8560:8565 mathcomp.boot.seq <> behead def
+R8567:8567 mathcomp.boot.tuple <> t:94 var
+R8574:8576 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R8573:8573 mathcomp.boot.tuple <> SeqTuple.n var
+R8597:8607 mathcomp.boot.seq <> size_behead thm
+R8609:8618 mathcomp.boot.tuple <> size_tuple thm
+def 8636:8647 <> behead_tuple
+binder 8649:8649 <> t:95
+R8654:8658 mathcomp.boot.tuple <> Tuple constr
+R8661:8673 mathcomp.boot.tuple <> behead_tupleP thm
+R8675:8675 mathcomp.boot.tuple <> t:95 var
+prf 8686:8698 <> belast_tupleP
+binder 8700:8700 <> x:96
+binder 8702:8702 <> t:97
+R8723:8726 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8706:8709 mathcomp.boot.seq <> size def
+R8712:8717 mathcomp.boot.seq <> belast def
+R8721:8721 mathcomp.boot.tuple <> t:97 var
+R8719:8719 mathcomp.boot.tuple <> x:96 var
+R8727:8727 mathcomp.boot.tuple <> SeqTuple.n var
+R8748:8758 mathcomp.boot.seq <> size_belast thm
+R8760:8769 mathcomp.boot.tuple <> size_tuple thm
+def 8787:8798 <> belast_tuple
+binder 8800:8800 <> x:98
+binder 8802:8802 <> t:99
+R8807:8811 mathcomp.boot.tuple <> Tuple constr
+R8814:8826 mathcomp.boot.tuple <> belast_tupleP thm
+R8830:8830 mathcomp.boot.tuple <> t:99 var
+R8828:8828 mathcomp.boot.tuple <> x:98 var
+prf 8841:8850 <> cat_tupleP
+binder 8852:8852 <> t:100
+R8860:8868 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R8859:8859 mathcomp.boot.tuple <> SeqTuple.m var
+R8868:8868 mathcomp.boot.tuple <> SeqTuple.T var
+binder 8855:8855 <> u:101
+R8886:8889 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R8873:8876 mathcomp.boot.seq <> size def
+R8880:8883 mathcomp.boot.seq <> ::seq_scope:x_'++'_x not
+R8879:8879 mathcomp.boot.tuple <> t:100 var
+R8884:8884 mathcomp.boot.tuple <> u:101 var
+R8891:8893 mathcomp.boot.ssrnat <> ::nat_scope:x_'+'_x not
+R8890:8890 mathcomp.boot.tuple <> SeqTuple.n var
+R8894:8894 mathcomp.boot.tuple <> SeqTuple.m var
+R8915:8922 mathcomp.boot.seq <> size_cat thm
+R8925:8934 mathcomp.boot.tuple <> size_tuple thm
+def 8952:8960 <> cat_tuple
+binder 8962:8962 <> t:102
+binder 8964:8964 <> u:103
+R8969:8973 mathcomp.boot.tuple <> Tuple constr
+R8976:8985 mathcomp.boot.tuple <> cat_tupleP thm
+R8989:8989 mathcomp.boot.tuple <> u:103 var
+R8987:8987 mathcomp.boot.tuple <> t:102 var
+prf 9000:9010 <> take_tupleP
+binder 9012:9012 <> t:104
+R9031:9034 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9016:9019 mathcomp.boot.seq <> size def
+R9022:9025 mathcomp.boot.seq <> take def
+R9029:9029 mathcomp.boot.tuple <> t:104 var
+R9027:9027 mathcomp.boot.tuple <> SeqTuple.m var
+R9035:9038 mathcomp.boot.ssrnat <> minn def
+R9042:9042 mathcomp.boot.tuple <> SeqTuple.n var
+R9040:9040 mathcomp.boot.tuple <> SeqTuple.m var
+R9063:9071 mathcomp.boot.seq <> size_take thm
+R9073:9082 mathcomp.boot.tuple <> size_tuple thm
+R9084:9087 mathcomp.boot.eqtype <> eqxx abbrev
+def 9105:9114 <> take_tuple
+binder 9116:9116 <> t:105
+R9121:9125 mathcomp.boot.tuple <> Tuple constr
+R9128:9138 mathcomp.boot.tuple <> take_tupleP thm
+R9140:9140 mathcomp.boot.tuple <> t:105 var
+prf 9151:9161 <> drop_tupleP
+binder 9163:9163 <> t:106
+R9182:9185 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9167:9170 mathcomp.boot.seq <> size def
+R9173:9176 mathcomp.boot.seq <> drop def
+R9180:9180 mathcomp.boot.tuple <> t:106 var
+R9178:9178 mathcomp.boot.tuple <> SeqTuple.m var
+R9187:9189 mathcomp.boot.ssrnat <> ::nat_scope:x_'-'_x not
+R9186:9186 mathcomp.boot.tuple <> SeqTuple.n var
+R9190:9190 mathcomp.boot.tuple <> SeqTuple.m var
+R9211:9219 mathcomp.boot.seq <> size_drop thm
+R9221:9230 mathcomp.boot.tuple <> size_tuple thm
+def 9248:9257 <> drop_tuple
+binder 9259:9259 <> t:107
+R9264:9268 mathcomp.boot.tuple <> Tuple constr
+R9271:9281 mathcomp.boot.tuple <> drop_tupleP thm
+R9283:9283 mathcomp.boot.tuple <> t:107 var
+prf 9294:9303 <> rev_tupleP
+binder 9305:9305 <> t:108
+R9321:9324 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9309:9312 mathcomp.boot.seq <> size def
+R9315:9317 mathcomp.boot.seq <> rev def
+R9319:9319 mathcomp.boot.tuple <> t:108 var
+R9325:9325 mathcomp.boot.tuple <> SeqTuple.n var
+R9346:9353 mathcomp.boot.seq <> size_rev thm
+R9355:9364 mathcomp.boot.tuple <> size_tuple thm
+def 9382:9390 <> rev_tuple
+binder 9392:9392 <> t:109
+R9397:9401 mathcomp.boot.tuple <> Tuple constr
+R9404:9413 mathcomp.boot.tuple <> rev_tupleP thm
+R9415:9415 mathcomp.boot.tuple <> t:109 var
+prf 9426:9435 <> rot_tupleP
+binder 9437:9437 <> t:110
+R9455:9458 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9441:9444 mathcomp.boot.seq <> size def
+R9447:9449 mathcomp.boot.seq <> rot def
+R9453:9453 mathcomp.boot.tuple <> t:110 var
+R9451:9451 mathcomp.boot.tuple <> SeqTuple.m var
+R9459:9459 mathcomp.boot.tuple <> SeqTuple.n var
+R9480:9487 mathcomp.boot.seq <> size_rot thm
+R9489:9498 mathcomp.boot.tuple <> size_tuple thm
+def 9516:9524 <> rot_tuple
+binder 9526:9526 <> t:111
+R9531:9535 mathcomp.boot.tuple <> Tuple constr
+R9538:9547 mathcomp.boot.tuple <> rot_tupleP thm
+R9549:9549 mathcomp.boot.tuple <> t:111 var
+prf 9560:9570 <> rotr_tupleP
+binder 9572:9572 <> t:112
+R9591:9594 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9576:9579 mathcomp.boot.seq <> size def
+R9582:9585 mathcomp.boot.seq <> rotr def
+R9589:9589 mathcomp.boot.tuple <> t:112 var
+R9587:9587 mathcomp.boot.tuple <> SeqTuple.m var
+R9595:9595 mathcomp.boot.tuple <> SeqTuple.n var
+R9616:9624 mathcomp.boot.seq <> size_rotr thm
+R9626:9635 mathcomp.boot.tuple <> size_tuple thm
+def 9653:9662 <> rotr_tuple
+binder 9664:9664 <> t:113
+R9669:9673 mathcomp.boot.tuple <> Tuple constr
+R9676:9686 mathcomp.boot.tuple <> rotr_tupleP thm
+R9688:9688 mathcomp.boot.tuple <> t:113 var
+prf 9699:9708 <> map_tupleP
+binder 9710:9710 <> f:114
+binder 9712:9712 <> t:115
+R9734:9737 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9717:9720 mathcomp.boot.seq <> size def
+R9722:9723 mathcomp.boot.tuple <> SeqTuple.rT var
+R9726:9728 mathcomp.boot.seq <> map def
+R9732:9732 mathcomp.boot.tuple <> t:115 var
+R9730:9730 mathcomp.boot.tuple <> f:114 var
+R9738:9738 mathcomp.boot.tuple <> SeqTuple.n var
+R9759:9766 mathcomp.boot.seq <> size_map thm
+R9768:9777 mathcomp.boot.tuple <> size_tuple thm
+def 9795:9803 <> map_tuple
+binder 9805:9805 <> f:116
+binder 9807:9807 <> t:117
+R9812:9816 mathcomp.boot.tuple <> Tuple constr
+R9819:9828 mathcomp.boot.tuple <> map_tupleP thm
+R9832:9832 mathcomp.boot.tuple <> t:117 var
+R9830:9830 mathcomp.boot.tuple <> f:116 var
+prf 9843:9854 <> scanl_tupleP
+binder 9856:9856 <> f:118
+binder 9858:9858 <> x:119
+binder 9860:9860 <> t:120
+R9886:9889 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R9865:9868 mathcomp.boot.seq <> size def
+R9870:9871 mathcomp.boot.tuple <> SeqTuple.rT var
+R9874:9878 mathcomp.boot.seq <> scanl def
+R9884:9884 mathcomp.boot.tuple <> t:120 var
+R9882:9882 mathcomp.boot.tuple <> x:119 var
+R9880:9880 mathcomp.boot.tuple <> f:118 var
+R9890:9890 mathcomp.boot.tuple <> SeqTuple.n var
+R9911:9920 mathcomp.boot.seq <> size_scanl thm
+R9922:9931 mathcomp.boot.tuple <> size_tuple thm
+def 9949:9959 <> scanl_tuple
+binder 9961:9961 <> f:121
+binder 9963:9963 <> x:122
+binder 9965:9965 <> t:123
+R9970:9974 mathcomp.boot.tuple <> Tuple constr
+R9977:9988 mathcomp.boot.tuple <> scanl_tupleP thm
+R9994:9994 mathcomp.boot.tuple <> t:123 var
+R9992:9992 mathcomp.boot.tuple <> x:122 var
+R9990:9990 mathcomp.boot.tuple <> f:121 var
+prf 10005:10018 <> pairmap_tupleP
+binder 10020:10020 <> f:124
+binder 10022:10022 <> x:125
+binder 10024:10024 <> t:126
+R10052:10055 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R10029:10032 mathcomp.boot.seq <> size def
+R10034:10035 mathcomp.boot.tuple <> SeqTuple.rT var
+R10038:10044 mathcomp.boot.seq <> pairmap def
+R10050:10050 mathcomp.boot.tuple <> t:126 var
+R10048:10048 mathcomp.boot.tuple <> x:125 var
+R10046:10046 mathcomp.boot.tuple <> f:124 var
+R10056:10056 mathcomp.boot.tuple <> SeqTuple.n var
+R10077:10088 mathcomp.boot.seq <> size_pairmap thm
+R10090:10099 mathcomp.boot.tuple <> size_tuple thm
+def 10117:10129 <> pairmap_tuple
+binder 10131:10131 <> f:127
+binder 10133:10133 <> x:128
+binder 10135:10135 <> t:129
+R10140:10144 mathcomp.boot.tuple <> Tuple constr
+R10147:10160 mathcomp.boot.tuple <> pairmap_tupleP thm
+R10166:10166 mathcomp.boot.tuple <> t:129 var
+R10164:10164 mathcomp.boot.tuple <> x:128 var
+R10162:10162 mathcomp.boot.tuple <> f:127 var
+prf 10177:10186 <> zip_tupleP
+binder 10188:10188 <> t:130
+R10196:10204 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R10195:10195 mathcomp.boot.tuple <> SeqTuple.n var
+R10204:10204 mathcomp.boot.tuple <> SeqTuple.U var
+binder 10191:10191 <> u:131
+R10223:10226 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R10209:10212 mathcomp.boot.seq <> size def
+R10215:10217 mathcomp.boot.seq <> zip def
+R10221:10221 mathcomp.boot.tuple <> u:131 var
+R10219:10219 mathcomp.boot.tuple <> t:130 var
+R10227:10227 mathcomp.boot.tuple <> SeqTuple.n var
+R10248:10256 mathcomp.boot.seq <> size1_zip thm
+R10259:10268 mathcomp.boot.tuple <> size_tuple thm
+def 10286:10294 <> zip_tuple
+binder 10296:10296 <> t:132
+binder 10298:10298 <> u:133
+R10303:10307 mathcomp.boot.tuple <> Tuple constr
+R10310:10319 mathcomp.boot.tuple <> zip_tupleP thm
+R10323:10323 mathcomp.boot.tuple <> u:133 var
+R10321:10321 mathcomp.boot.tuple <> t:132 var
+prf 10334:10348 <> allpairs_tupleP
+binder 10350:10350 <> f:134
+binder 10352:10352 <> t:135
+R10360:10368 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R10359:10359 mathcomp.boot.tuple <> SeqTuple.m var
+R10368:10368 mathcomp.boot.tuple <> SeqTuple.U var
+binder 10355:10355 <> u:136
+R10398:10401 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R10374:10377 mathcomp.boot.seq <> size def
+R10379:10380 mathcomp.boot.tuple <> SeqTuple.rT var
+R10383:10390 mathcomp.boot.seq <> allpairs def
+R10396:10396 mathcomp.boot.tuple <> u:136 var
+R10394:10394 mathcomp.boot.tuple <> t:135 var
+R10392:10392 mathcomp.boot.tuple <> f:134 var
+R10403:10405 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R10402:10402 mathcomp.boot.tuple <> SeqTuple.n var
+R10406:10406 mathcomp.boot.tuple <> SeqTuple.m var
+R10427:10439 mathcomp.boot.seq <> size_allpairs thm
+R10442:10451 mathcomp.boot.tuple <> size_tuple thm
+def 10469:10482 <> allpairs_tuple
+binder 10484:10484 <> f:137
+binder 10486:10486 <> t:138
+binder 10488:10488 <> u:139
+R10493:10497 mathcomp.boot.tuple <> Tuple constr
+R10500:10514 mathcomp.boot.tuple <> allpairs_tupleP thm
+R10520:10520 mathcomp.boot.tuple <> u:139 var
+R10518:10518 mathcomp.boot.tuple <> t:138 var
+R10516:10516 mathcomp.boot.tuple <> f:137 var
+prf 10531:10541 <> sort_tupleP
+binder 10543:10543 <> r:140
+binder 10545:10545 <> t:141
+R10564:10567 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R10549:10552 mathcomp.boot.seq <> size def
+R10555:10558 mathcomp.boot.path <> sort def
+R10562:10562 mathcomp.boot.tuple <> t:141 var
+R10560:10560 mathcomp.boot.tuple <> r:140 var
+R10568:10568 mathcomp.boot.tuple <> SeqTuple.n var
+R10589:10597 mathcomp.boot.path <> size_sort thm
+R10599:10608 mathcomp.boot.tuple <> size_tuple thm
+def 10626:10635 <> sort_tuple
+binder 10637:10637 <> r:142
+binder 10639:10639 <> t:143
+R10644:10648 mathcomp.boot.tuple <> Tuple constr
+R10651:10661 mathcomp.boot.tuple <> sort_tupleP thm
+R10665:10665 mathcomp.boot.tuple <> t:143 var
+R10663:10663 mathcomp.boot.tuple <> r:142 var
+def 10681:10685 <> thead
+R10696:10704 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R10693:10695 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R10692:10692 mathcomp.boot.tuple <> SeqTuple.n var
+R10704:10704 mathcomp.boot.tuple <> SeqTuple.T var
+binder 10688:10688 <> u:144
+R10710:10713 mathcomp.boot.tuple <> tnth def
+R10717:10720 mathcomp.boot.fintype <> ord0 def
+R10715:10715 mathcomp.boot.tuple <> u:144 var
+prf 10730:10734 <> tnth0
+binder 10736:10736 <> x:145
+binder 10738:10738 <> t:146
+R10769:10771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10742:10745 mathcomp.boot.tuple <> tnth def
+R10765:10768 mathcomp.boot.fintype <> ord0 def
+R10747:10756 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10763:10763 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10758:10761 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R10757:10757 mathcomp.boot.tuple <> x:145 var
+R10762:10762 mathcomp.boot.tuple <> t:146 var
+R10772:10772 mathcomp.boot.tuple <> x:145 var
+prf 10801:10805 <> tnthS
+binder 10807:10807 <> x:147
+binder 10809:10809 <> t:148
+binder 10811:10811 <> i:149
+R10851:10853 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10815:10818 mathcomp.boot.tuple <> tnth def
+R10839:10842 mathcomp.boot.fintype <> lift def
+R10849:10849 mathcomp.boot.tuple <> i:149 var
+R10844:10847 mathcomp.boot.fintype <> ord0 def
+R10820:10829 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10836:10836 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10831:10834 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R10830:10830 mathcomp.boot.tuple <> x:147 var
+R10835:10835 mathcomp.boot.tuple <> t:148 var
+R10854:10857 mathcomp.boot.tuple <> tnth def
+R10861:10861 mathcomp.boot.tuple <> i:149 var
+R10859:10859 mathcomp.boot.tuple <> t:148 var
+R10883:10890 mathcomp.boot.tuple <> tnth_nth thm
+R10893:10904 mathcomp.boot.tuple <> tnth_default thm
+prf 10925:10930 <> theadE
+binder 10932:10932 <> x:150
+binder 10934:10934 <> t:151
+R10961:10963 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10938:10942 mathcomp.boot.tuple <> thead def
+R10944:10953 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10960:10960 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R10955:10958 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R10954:10954 mathcomp.boot.tuple <> x:150 var
+R10959:10959 mathcomp.boot.tuple <> t:151 var
+R10964:10964 mathcomp.boot.tuple <> x:150 var
+prf 10993:10998 <> tuple0
+R11002:11013 Corelib.ssr.ssrfun <> all_equal_to def
+R11027:11035 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R11035:11035 mathcomp.boot.tuple <> SeqTuple.T var
+R11016:11022 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_']' not
+R11066:11072 mathcomp.boot.eqtype <> val_inj thm
+ind 11106:11116 <> tuple1_spec
+constr 11147:11156 <> Tuple1spec
+R11133:11136 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11124:11132 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R11121:11123 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11120:11120 mathcomp.boot.tuple <> SeqTuple.n var
+R11132:11132 mathcomp.boot.tuple <> SeqTuple.T var
+binder 11158:11158 <> x:154
+binder 11160:11160 <> t:155
+R11164:11174 mathcomp.boot.tuple <> tuple1_spec:152 ind
+R11176:11185 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11192:11192 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11187:11190 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R11186:11186 mathcomp.boot.tuple <> x:154 var
+R11191:11191 mathcomp.boot.tuple <> t:155 var
+prf 11202:11207 <> tupleP
+binder 11209:11209 <> u:156
+R11213:11223 mathcomp.boot.tuple <> tuple1_spec variant
+R11225:11225 mathcomp.boot.tuple <> u:156 var
+R11276:11280 mathcomp.boot.tuple <> Tuple constr
+R11282:11282 mathcomp.boot.tuple <> SeqTuple.n var
+R11317:11319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11310:11314 mathcomp.boot.tuple <> Tuple constr
+R11320:11329 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11336:11336 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11331:11334 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R11350:11356 mathcomp.boot.eqtype <> val_inj thm
+prf 11371:11378 <> tnth_map
+binder 11380:11380 <> f:157
+binder 11382:11382 <> t:158
+binder 11384:11384 <> i:159
+R11413:11415 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11428:11431 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11432:11433 mathcomp.boot.tuple <> SeqTuple.rT var
+R11388:11391 mathcomp.boot.tuple <> tnth def
+R11412:11412 mathcomp.boot.tuple <> i:159 var
+R11393:11402 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11410:11410 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11403:11405 mathcomp.boot.seq <> map def
+R11409:11409 mathcomp.boot.tuple <> t:158 var
+R11407:11407 mathcomp.boot.tuple <> f:157 var
+R11416:11416 mathcomp.boot.tuple <> f:157 var
+R11419:11422 mathcomp.boot.tuple <> tnth def
+R11426:11426 mathcomp.boot.tuple <> i:159 var
+R11424:11424 mathcomp.boot.tuple <> t:158 var
+R11453:11459 mathcomp.boot.seq <> nth_map thm
+R11470:11479 mathcomp.boot.tuple <> size_tuple thm
+prf 11494:11502 <> tnth_nseq
+binder 11504:11504 <> x:160
+binder 11506:11506 <> i:161
+R11536:11538 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11510:11513 mathcomp.boot.tuple <> tnth def
+R11535:11535 mathcomp.boot.tuple <> i:161 var
+R11515:11524 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11533:11533 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11525:11528 mathcomp.boot.seq <> nseq def
+R11532:11532 mathcomp.boot.tuple <> x:160 var
+R11530:11530 mathcomp.boot.tuple <> SeqTuple.n var
+R11539:11539 mathcomp.boot.tuple <> x:160 var
+R11562:11569 mathcomp.boot.tuple <> tnth_nth thm
+R11572:11583 mathcomp.boot.tuple <> tnth_default thm
+R11586:11595 mathcomp.boot.tuple <> nseq_tuple canonstruc
+R11604:11611 mathcomp.boot.seq <> nth_nseq thm
+R11613:11619 mathcomp.boot.fintype <> ltn_ord thm
+R11632:11639 mathcomp.boot.tuple SeqTuple <> sec
+prf 11649:11659 <> tnth_behead
+binder 11661:11661 <> n:162
+binder 11663:11663 <> T:163
+R11674:11682 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R11671:11673 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11670:11670 mathcomp.boot.tuple <> n:162 var
+R11682:11682 mathcomp.boot.tuple <> T:163 var
+binder 11666:11666 <> t:164
+binder 11685:11685 <> i:165
+R11717:11719 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11691:11694 mathcomp.boot.tuple <> tnth def
+R11716:11716 mathcomp.boot.tuple <> i:165 var
+R11696:11705 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11714:11714 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11706:11711 mathcomp.boot.seq <> behead def
+R11713:11713 mathcomp.boot.tuple <> t:164 var
+R11720:11723 mathcomp.boot.tuple <> tnth def
+R11728:11732 mathcomp.boot.fintype <> inord def
+R11735:11737 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11734:11734 mathcomp.boot.tuple <> i:165 var
+R11725:11725 mathcomp.boot.tuple <> t:164 var
+R11784:11791 mathcomp.boot.tuple <> tnth_nth thm
+R11796:11801 mathcomp.boot.fintype <> inordK thm
+R11804:11807 mathcomp.boot.ssrnat <> ltnS thm
+R11756:11761 mathcomp.boot.tuple <> tupleP thm
+prf 11822:11830 <> tuple_eta
+binder 11832:11832 <> n:166
+binder 11834:11834 <> T:167
+R11845:11853 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R11842:11844 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R11841:11841 mathcomp.boot.tuple <> n:166 var
+R11853:11853 mathcomp.boot.tuple <> T:167 var
+binder 11837:11837 <> t:168
+R11859:11861 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11858:11858 mathcomp.boot.tuple <> t:168 var
+R11862:11871 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11891:11891 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R11879:11882 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R11872:11876 mathcomp.boot.tuple <> thead def
+R11878:11878 mathcomp.boot.tuple <> t:168 var
+R11883:11888 mathcomp.boot.seq <> behead def
+R11890:11890 mathcomp.boot.tuple <> t:168 var
+R11934:11940 mathcomp.boot.eqtype <> val_inj thm
+R11909:11914 mathcomp.boot.tuple <> tupleP thm
+sec 11957:11966 <> tnth_shift
+var  11978:11978 tnth_shift T
+var  11989:11990 tnth_shift n1
+var  11992:11993 tnth_shift n2
+var  11997:11998 tnth_shift t1
+var  12016:12017 tnth_shift t2
+R12004:12012 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R12002:12003 mathcomp.boot.tuple <> n1:170 var
+R12012:12012 mathcomp.boot.tuple <> T:169 var
+R12023:12031 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R12021:12022 mathcomp.boot.tuple <> n2:171 var
+R12031:12031 mathcomp.boot.tuple <> T:169 var
+prf 12042:12052 <> tnth_lshift
+binder 12054:12054 <> i:174
+R12096:12098 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12058:12061 mathcomp.boot.tuple <> tnth def
+R12084:12089 mathcomp.boot.fintype <> lshift def
+R12094:12094 mathcomp.boot.tuple <> i:174 var
+R12091:12092 mathcomp.boot.tuple <> tnth_shift.n2 var
+R12063:12072 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R12081:12081 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R12075:12078 mathcomp.boot.seq <> ::seq_scope:x_'++'_x not
+R12073:12074 mathcomp.boot.tuple <> tnth_shift.t1 var
+R12079:12080 mathcomp.boot.tuple <> tnth_shift.t2 var
+R12099:12102 mathcomp.boot.tuple <> tnth def
+R12107:12107 mathcomp.boot.tuple <> i:174 var
+R12104:12105 mathcomp.boot.tuple <> tnth_shift.t1 var
+R12157:12164 mathcomp.boot.tuple <> tnth_nth thm
+R12128:12139 mathcomp.boot.tuple <> tnth_default thm
+R12141:12142 mathcomp.boot.tuple <> tnth_shift.t1 var
+R12182:12188 mathcomp.boot.seq <> nth_cat thm
+R12190:12199 mathcomp.boot.tuple <> size_tuple thm
+R12204:12210 mathcomp.boot.fintype <> ltn_ord thm
+prf 12225:12235 <> tnth_rshift
+binder 12237:12237 <> j:175
+R12279:12281 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12241:12244 mathcomp.boot.tuple <> tnth def
+R12267:12272 mathcomp.boot.fintype <> rshift def
+R12277:12277 mathcomp.boot.tuple <> j:175 var
+R12274:12275 mathcomp.boot.tuple <> tnth_shift.n1 var
+R12246:12255 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R12264:12264 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R12258:12261 mathcomp.boot.seq <> ::seq_scope:x_'++'_x not
+R12256:12257 mathcomp.boot.tuple <> tnth_shift.t1 var
+R12262:12263 mathcomp.boot.tuple <> tnth_shift.t2 var
+R12282:12285 mathcomp.boot.tuple <> tnth def
+R12290:12290 mathcomp.boot.tuple <> j:175 var
+R12287:12288 mathcomp.boot.tuple <> tnth_shift.t2 var
+R12340:12347 mathcomp.boot.tuple <> tnth_nth thm
+R12311:12322 mathcomp.boot.tuple <> tnth_default thm
+R12324:12325 mathcomp.boot.tuple <> tnth_shift.t2 var
+R12365:12371 mathcomp.boot.seq <> nth_cat thm
+R12373:12382 mathcomp.boot.tuple <> size_tuple thm
+R12384:12389 mathcomp.boot.ssrnat <> ltnNge thm
+R12391:12398 mathcomp.boot.ssrnat <> leq_addr thm
+R12403:12407 mathcomp.boot.ssrnat <> addKn thm
+R12419:12428 mathcomp.boot.tuple tnth_shift <> sec
+sec 12440:12455 <> TupleQuantifiers
+var 12470:12470 TupleQuantifiers n
+var 12480:12480 TupleQuantifiers T
+R12474:12476 Corelib.Init.Datatypes <> nat ind
+R12511:12514 Corelib.ssr.ssrbool <> pred def
+R12516:12516 mathcomp.boot.tuple <> TupleQuantifiers.T var
+R12525:12533 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R12524:12524 mathcomp.boot.tuple <> TupleQuantifiers.n var
+R12533:12533 mathcomp.boot.tuple <> TupleQuantifiers.T var
+prf 12544:12555 <> forallb_tnth
+binder 12557:12557 <> a:180
+binder 12559:12559 <> t:181
+R12587:12589 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12563:12570 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+R12586:12586 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+binder 12571:12571 <> i:182
+R12572:12573 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R12574:12574 mathcomp.boot.tuple <> a:180 var
+R12577:12580 mathcomp.boot.tuple <> tnth def
+R12584:12584 mathcomp.boot.tuple <> i:182 var
+R12582:12582 mathcomp.boot.tuple <> t:181 var
+binder 12571:12571 <> i:183
+binder 12571:12571 <> i:184
+R12590:12592 mathcomp.boot.seq <> all def
+R12596:12596 mathcomp.boot.tuple <> t:181 var
+R12594:12594 mathcomp.boot.tuple <> a:180 var
+R12613:12620 Corelib.ssr.ssrbool <> negb_inj thm
+R12632:12640 mathcomp.boot.seq <> has_predC thm
+R12643:12649 mathcomp.boot.seq <> has_map thm
+R12651:12661 mathcomp.boot.fintype <> negb_forall thm
+R12670:12676 mathcomp.boot.fintype <> existsP thm
+R12679:12686 mathcomp.boot.seq <> has_nthP thm
+R12688:12691 Corelib.Init.Datatypes <> true constr
+R12753:12762 mathcomp.boot.tuple <> size_tuple thm
+R12768:12775 mathcomp.boot.tuple <> tnth_nth thm
+R12777:12784 mathcomp.boot.tuple <> tnth_map thm
+R12795:12804 mathcomp.boot.tuple <> size_tuple thm
+R12825:12831 mathcomp.boot.fintype <> Ordinal constr
+R12854:12861 mathcomp.boot.tuple <> tnth_map thm
+R12864:12871 mathcomp.boot.tuple <> tnth_nth thm
+R12873:12876 Corelib.Init.Datatypes <> true constr
+prf 12892:12903 <> existsb_tnth
+binder 12905:12905 <> a:185
+binder 12907:12907 <> t:186
+R12935:12937 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12911:12918 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_x_']' not
+R12934:12934 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_x_']' not
+binder 12919:12919 <> i:187
+R12920:12921 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R12922:12922 mathcomp.boot.tuple <> a:185 var
+R12925:12928 mathcomp.boot.tuple <> tnth def
+R12932:12932 mathcomp.boot.tuple <> i:187 var
+R12930:12930 mathcomp.boot.tuple <> t:186 var
+binder 12919:12919 <> i:188
+binder 12919:12919 <> i:189
+R12938:12940 mathcomp.boot.seq <> has def
+R12944:12944 mathcomp.boot.tuple <> t:186 var
+R12942:12942 mathcomp.boot.tuple <> a:185 var
+R12964:12971 Corelib.ssr.ssrbool <> negb_inj thm
+R12982:12992 mathcomp.boot.fintype <> negb_exists thm
+R12995:13003 mathcomp.boot.seq <> all_predC thm
+R13006:13017 mathcomp.boot.tuple <> forallb_tnth thm
+prf 13032:13040 <> all_tnthP
+binder 13042:13042 <> a:190
+binder 13044:13044 <> t:191
+R13048:13054 Corelib.Init.Datatypes <> reflect ind
+R13082:13084 mathcomp.boot.seq <> all def
+R13088:13088 mathcomp.boot.tuple <> t:191 var
+R13086:13086 mathcomp.boot.tuple <> a:190 var
+binder 13064:13064 <> i:192
+R13067:13067 mathcomp.boot.tuple <> a:190 var
+R13070:13073 mathcomp.boot.tuple <> tnth def
+R13077:13077 mathcomp.boot.tuple <> i:192 var
+R13075:13075 mathcomp.boot.tuple <> t:191 var
+R13111:13122 mathcomp.boot.tuple <> forallb_tnth thm
+R13132:13138 mathcomp.boot.fintype <> forallP thm
+prf 13153:13161 <> has_tnthP
+binder 13163:13163 <> a:193
+binder 13165:13165 <> t:194
+R13169:13175 Corelib.Init.Datatypes <> reflect ind
+R13203:13205 mathcomp.boot.seq <> has def
+R13209:13209 mathcomp.boot.tuple <> t:194 var
+R13207:13207 mathcomp.boot.tuple <> a:193 var
+R13178:13184 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13186:13187 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13185:13185 <> i:195
+R13188:13188 mathcomp.boot.tuple <> a:193 var
+R13191:13194 mathcomp.boot.tuple <> tnth def
+R13198:13198 mathcomp.boot.tuple <> i:195 var
+R13196:13196 mathcomp.boot.tuple <> t:194 var
+R13232:13243 mathcomp.boot.tuple <> existsb_tnth thm
+R13253:13259 mathcomp.boot.fintype <> existsP thm
+R13272:13287 mathcomp.boot.tuple TupleQuantifiers <> sec
+R13301:13309 mathcomp.boot.tuple <> all_tnthP thm
+R13332:13340 mathcomp.boot.tuple <> has_tnthP thm
+sec 13362:13368 <> EqTuple
+var 13383:13383 EqTuple n
+var 13393:13393 EqTuple T
+R13387:13389 Corelib.Init.Datatypes <> nat ind
+R13397:13402 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R13434:13441 mathcomp.boot.eqtype <> hasDecEq abbrev
+R13445:13453 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13444:13444 mathcomp.boot.tuple <> EqTuple.n var
+R13453:13453 mathcomp.boot.tuple <> EqTuple.T var
+R13461:13473 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R13484:13490 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R13475:13483 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13474:13474 mathcomp.boot.tuple <> EqTuple.n var
+R13483:13483 mathcomp.boot.tuple <> EqTuple.T var
+def 13407:13491 <> HB_unnamed_factory_3
+def 13407:13491 <> tuple_tuple_of__canonical__eqtype_Equality
+def 13407:13491 <> tuple_tuple_of__canonical__eqtype_SubEquality
+def 13503:13516 <> tuple_predType
+R13521:13528 Corelib.ssr.ssrbool <> PredType constr
+R13555:13558 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13546:13554 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13545:13545 mathcomp.boot.tuple <> EqTuple.n var
+R13554:13554 mathcomp.boot.tuple <> EqTuple.T var
+R13559:13562 Corelib.ssr.ssrbool <> pred def
+R13564:13564 mathcomp.boot.tuple <> EqTuple.T var
+R13531:13541 mathcomp.boot.seq <> pred_of_seq coe
+prf 13575:13582 <> eqEtuple
+R13594:13602 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13593:13593 mathcomp.boot.tuple <> EqTuple.n var
+R13602:13602 mathcomp.boot.tuple <> EqTuple.T var
+binder 13585:13586 <> t1:200
+binder 13588:13589 <> t2:201
+R13609:13609 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13618:13621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13612:13615 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R13610:13611 mathcomp.boot.tuple <> t1:200 var
+R13616:13617 mathcomp.boot.tuple <> t2:201 var
+R13622:13629 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+R13655:13655 mathcomp.boot.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+binder 13630:13630 <> i:202
+R13631:13632 mathcomp.boot.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R13642:13645 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R13633:13636 mathcomp.boot.tuple <> tnth def
+R13641:13641 mathcomp.boot.tuple <> i:202 var
+R13638:13639 mathcomp.boot.tuple <> t1:200 var
+R13646:13649 mathcomp.boot.tuple <> tnth def
+R13654:13654 mathcomp.boot.tuple <> i:202 var
+R13651:13652 mathcomp.boot.tuple <> t2:201 var
+binder 13630:13630 <> i:203
+binder 13630:13630 <> i:204
+R13674:13676 mathcomp.boot.eqtype <> eqP def
+R13678:13685 mathcomp.boot.fintype <> :::'''forall_'_x not
+R13686:13688 mathcomp.boot.eqtype <> eqP def
+R13698:13709 mathcomp.boot.tuple <> eq_from_tnth thm
+prf 13725:13729 <> memtE
+R13737:13745 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13736:13736 mathcomp.boot.tuple <> EqTuple.n var
+R13745:13745 mathcomp.boot.tuple <> EqTuple.T var
+binder 13732:13732 <> t:205
+R13755:13757 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13750:13752 Corelib.ssr.ssrbool <> mem def
+R13754:13754 mathcomp.boot.tuple <> t:205 var
+R13758:13760 Corelib.ssr.ssrbool <> mem def
+R13763:13766 mathcomp.boot.tuple <> tval proj
+R13768:13768 mathcomp.boot.tuple <> t:205 var
+prf 13798:13805 <> mem_tnth
+binder 13807:13807 <> i:206
+R13815:13823 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13814:13814 mathcomp.boot.tuple <> EqTuple.n var
+R13823:13823 mathcomp.boot.tuple <> EqTuple.T var
+binder 13810:13810 <> t:207
+R13836:13840 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13828:13831 mathcomp.boot.tuple <> tnth def
+R13835:13835 mathcomp.boot.tuple <> i:206 var
+R13833:13833 mathcomp.boot.tuple <> t:207 var
+R13841:13841 mathcomp.boot.tuple <> t:207 var
+R13862:13868 mathcomp.boot.seq <> mem_nth thm
+R13871:13880 mathcomp.boot.tuple <> size_tuple thm
+prf 13895:13902 <> memt_nth
+binder 13904:13905 <> x0:208
+R13913:13921 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R13912:13912 mathcomp.boot.tuple <> EqTuple.n var
+R13921:13921 mathcomp.boot.tuple <> EqTuple.T var
+binder 13908:13908 <> t:209
+binder 13924:13924 <> i:210
+R13933:13936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13929:13931 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R13928:13928 mathcomp.boot.tuple <> i:210 var
+R13932:13932 mathcomp.boot.tuple <> EqTuple.n var
+R13947:13951 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13937:13939 mathcomp.boot.seq <> nth def
+R13946:13946 mathcomp.boot.tuple <> i:210 var
+R13944:13944 mathcomp.boot.tuple <> t:209 var
+R13941:13942 mathcomp.boot.tuple <> x0:208 var
+R13952:13952 mathcomp.boot.tuple <> t:209 var
+R13988:13994 mathcomp.boot.seq <> mem_nth thm
+R13997:14006 mathcomp.boot.tuple <> size_tuple thm
+prf 14021:14025 <> tnthP
+R14033:14041 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R14032:14032 mathcomp.boot.tuple <> EqTuple.n var
+R14041:14041 mathcomp.boot.tuple <> EqTuple.T var
+binder 14028:14028 <> t:211
+binder 14044:14044 <> x:212
+R14048:14054 Corelib.Init.Datatypes <> reflect ind
+R14083:14087 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R14082:14082 mathcomp.boot.tuple <> x:212 var
+R14088:14088 mathcomp.boot.tuple <> t:211 var
+R14057:14063 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14065:14066 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14064:14064 <> i:213
+R14068:14070 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14067:14067 mathcomp.boot.tuple <> x:212 var
+R14071:14074 mathcomp.boot.tuple <> tnth def
+R14078:14078 mathcomp.boot.tuple <> i:213 var
+R14076:14076 mathcomp.boot.tuple <> t:211 var
+R14107:14110 Corelib.ssr.ssrbool <> iffP thm
+R14112:14114 Corelib.ssr.ssrbool <> idP thm
+R14165:14172 mathcomp.boot.tuple <> mem_tnth thm
+R14123:14126 mathcomp.boot.seq <> nthP thm
+R14186:14195 mathcomp.boot.tuple <> size_tuple thm
+R14214:14220 mathcomp.boot.fintype <> Ordinal constr
+R14238:14245 mathcomp.boot.tuple <> tnth_nth thm
+prf 14263:14271 <> seq_tnthP
+R14278:14280 mathcomp.boot.seq <> seq abbrev
+R14282:14282 mathcomp.boot.tuple <> EqTuple.T var
+binder 14274:14274 <> s:214
+binder 14285:14285 <> x:215
+R14296:14299 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14290:14294 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R14289:14289 mathcomp.boot.tuple <> x:215 var
+R14295:14295 mathcomp.boot.tuple <> s:214 var
+R14300:14300 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R14302:14304 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R14328:14328 Corelib.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 14301:14301 <> i:216
+R14306:14308 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14305:14305 mathcomp.boot.tuple <> x:215 var
+R14309:14312 mathcomp.boot.tuple <> tnth def
+R14327:14327 mathcomp.boot.tuple <> i:216 var
+R14315:14322 mathcomp.boot.tuple <> in_tuple def
+R14324:14324 mathcomp.boot.tuple <> s:214 var
+R14404:14412 mathcomp.boot.seq <> index_mem thm
+R14360:14364 mathcomp.boot.seq <> index def
+R14383:14385 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R14386:14389 mathcomp.boot.seq <> size def
+R14426:14432 mathcomp.boot.fintype <> Ordinal constr
+R14450:14457 mathcomp.boot.tuple <> tnth_nth thm
+R14462:14470 mathcomp.boot.seq <> nth_index thm
+prf 14485:14495 <> tuple_uniqP
+R14503:14511 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R14502:14502 mathcomp.boot.tuple <> EqTuple.n var
+R14511:14511 mathcomp.boot.tuple <> EqTuple.T var
+binder 14498:14498 <> t:217
+R14516:14522 Corelib.Init.Datatypes <> reflect ind
+R14546:14549 mathcomp.boot.seq <> uniq def
+R14551:14551 mathcomp.boot.tuple <> t:217 var
+R14525:14533 Corelib.ssr.ssrfun <> injective def
+R14536:14539 mathcomp.boot.tuple <> tnth def
+R14541:14541 mathcomp.boot.tuple <> t:217 var
+R14571:14571 mathcomp.boot.tuple <> EqTuple.n var
+R14606:14611 mathcomp.boot.tuple <> tuple0 thm
+R14665:14670 Corelib.ssr.ssrbool <> equivP thm
+R14673:14677 mathcomp.boot.seq <> uniqP thm
+R14645:14648 mathcomp.boot.tuple <> tnth def
+R14652:14655 mathcomp.boot.fintype <> ord0 def
+R14718:14725 mathcomp.boot.tuple <> tnth_nth thm
+R14764:14773 mathcomp.boot.tuple <> size_tuple thm
+R14775:14777 mathcomp.boot.seq <> inE def
+R14740:14746 mathcomp.boot.eqtype <> val_inj thm
+R14789:14798 mathcomp.boot.tuple <> size_tuple thm
+R14801:14803 mathcomp.boot.seq <> inE def
+R14829:14835 mathcomp.boot.fintype <> Ordinal constr
+R14842:14848 mathcomp.boot.fintype <> Ordinal constr
+R14868:14875 mathcomp.boot.tuple <> tnth_nth thm
+R14885:14891 Corelib.ssr.ssreflect ipat ::ssripat_scope:'['_'apply'_']' not
+R14907:14913 mathcomp.boot.tuple EqTuple <> sec
+R14949:14958 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R14966:14976 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R14987:14993 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R14978:14986 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R14977:14977 mathcomp.boot.tuple <> n:218 var
+R14986:14986 mathcomp.boot.tuple <> T:219 var
+sec 14917:14994 hb_instance_5 hb_instance_5
+var 14917:14994 hb_instance_5 n
+var 14917:14994 hb_instance_5 T
+def 14917:14994 <> HB_unnamed_factory_6
+def 14917:14994 <> choice_Choice__to__choice_hasChoice
+def 14917:14994 <> choice_Choice__to__eqtype_hasDecEq
+def 14917:14994 <> HB_unnamed_mixin_9
+def 14917:14994 <> tuple_tuple_of__canonical__choice_Choice
+def 14917:14994 <> tuple_tuple_of__canonical__choice_SubChoice
+R14917:14994 mathcomp.boot.tuple <> <> sec
+R15028:15036 mathcomp.boot.choice Countable.Exports countType abbrev
+R15044:15057 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R15068:15074 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R15059:15067 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R15058:15058 mathcomp.boot.tuple <> n:220 var
+R15067:15067 mathcomp.boot.tuple <> T:221 var
+sec 14996:15075 hb_instance_10 hb_instance_10
+var 14996:15075 hb_instance_10 n
+var 14996:15075 hb_instance_10 T
+def 14996:15075 <> HB_unnamed_factory_11
+def 14996:15075 <> choice_Countable__to__choice_hasChoice
+def 14996:15075 <> choice_Countable__to__eqtype_hasDecEq
+def 14996:15075 <> choice_Countable__to__choice_Choice_isCountable
+def 14996:15075 <> HB_unnamed_mixin_15
+def 14996:15075 <> tuple_tuple_of__canonical__choice_Countable
+def 14996:15075 <> tuple_tuple_of__canonical__choice_SubCountable
+R14996:15075 mathcomp.boot.tuple <> <> sec
+modtype 15090:15100 <> FinTupleSig
+sec 15111:15121 FinTupleSig FinTupleSig
+var 15135:15135 FinTupleSig.FinTupleSig n
+var 15145:15145 FinTupleSig.FinTupleSig T
+R15139:15141 Corelib.Init.Datatypes <> nat ind
+R15149:15155 mathcomp.boot.fintype Finite.Exports finType abbrev
+var 15169:15172 FinTupleSig.FinTupleSig enum
+R15176:15178 mathcomp.boot.seq <> seq abbrev
+R15182:15190 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R15181:15181 mathcomp.boot.tuple <> FinTupleSig.FinTupleSig.n var
+R15190:15190 mathcomp.boot.tuple <> FinTupleSig.FinTupleSig.T var
+var 15200:15204 FinTupleSig.FinTupleSig enumP
+R15208:15219 mathcomp.boot.fintype FiniteNES.Finite axiom abbrev
+R15221:15224 mathcomp.boot.tuple FinTupleSig enum defax
+var 15233:15241 FinTupleSig.FinTupleSig size_enum
+R15254:15256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15245:15248 mathcomp.boot.seq <> size def
+R15250:15253 mathcomp.boot.tuple FinTupleSig enum defax
+R15261:15263 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R15257:15258 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R15260:15260 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R15259:15259 mathcomp.boot.tuple <> FinTupleSig.FinTupleSig.T var
+R15264:15264 mathcomp.boot.tuple <> FinTupleSig.FinTupleSig.n var
+R15271:15281 mathcomp.boot.tuple FinTupleSig.FinTupleSig <> sec
+R15288:15298 mathcomp.boot.tuple FinTupleSig <> modtype
+R15320:15330 mathcomp.boot.tuple FinTupleSig <> modtype
+mod 15309:15316 <> FinTuple
+sec 15341:15348 FinTuple FinTuple
+var 15362:15362 FinTuple.FinTuple n
+var 15372:15372 FinTuple.FinTuple T
+R15366:15368 Corelib.Init.Datatypes <> nat ind
+R15376:15382 mathcomp.boot.fintype Finite.Exports finType abbrev
+def 15398:15401 FinTuple enum
+R15405:15407 mathcomp.boot.seq <> seq abbrev
+R15411:15419 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R15410:15410 mathcomp.boot.tuple <> FinTuple.FinTuple.n var
+R15419:15419 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+binder 15438:15438 <> e:236
+R15443:15449 mathcomp.boot.seq <> flatten def
+R15452:15456 mathcomp.boot.fintype <> codom def
+binder 15463:15463 <> x:237
+R15468:15470 mathcomp.boot.seq <> map def
+R15481:15481 mathcomp.boot.tuple <> e:236 var
+R15473:15476 Corelib.Init.Datatypes <> cons constr
+R15478:15478 mathcomp.boot.tuple <> x:237 var
+binder 15431:15436 <> extend:238
+R15490:15493 mathcomp.boot.seq <> pmap def
+R15502:15505 mathcomp.boot.ssrnat <> iter def
+R15516:15518 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R15523:15523 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R15519:15522 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R15509:15514 mathcomp.boot.tuple <> extend:238 var
+R15507:15507 mathcomp.boot.tuple <> FinTuple.FinTuple.n var
+R15495:15499 mathcomp.boot.eqtype <> insub def
+prf 15534:15538 FinTuple enumP
+R15542:15553 mathcomp.boot.fintype FiniteNES.Finite axiom abbrev
+R15555:15558 mathcomp.boot.tuple FinTuple enum def
+R15595:15603 mathcomp.boot.seq <> count_map thm
+R15608:15612 mathcomp.boot.eqtype <> pred1 def
+R15619:15629 mathcomp.boot.seq <> pmap_filter thm
+R15632:15637 mathcomp.boot.eqtype <> insubK thm
+R15652:15663 mathcomp.boot.seq <> count_filter thm
+R15668:15675 mathcomp.boot.seq <> eq_count thm
+R15680:15684 mathcomp.boot.eqtype <> pred1 def
+R15715:15726 mathcomp.boot.eqtype <> isSome_insub thm
+R15735:15737 mathcomp.boot.eqtype <> eqP def
+R15754:15754 mathcomp.boot.tuple <> FinTuple.FinTuple.n var
+R15800:15803 mathcomp.boot.ssrnat <> iter def
+R15847:15849 Corelib.Init.Datatypes <> nat ind
+R15838:15842 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15843:15843 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+R15865:15872 mathcomp.boot.fintype <> mem_enum thm
+R15874:15879 mathcomp.boot.fintype <> codomE thm
+R15889:15900 mathcomp.boot.fintype <> enum abbrev
+R15902:15902 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+R15906:15914 mathcomp.boot.fintype <> enum_uniq thm
+R15916:15916 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+R15935:15938 Corelib.ssr.ssrbool <> andP thm
+R15941:15945 Corelib.ssr.ssrbool <> negPf thm
+R15961:15969 mathcomp.boot.seq <> count_cat thm
+R15971:15979 mathcomp.boot.seq <> count_map thm
+R15981:15983 mathcomp.boot.seq <> inE def
+R15986:15990 Corelib.ssr.ssrbool <> preim def
+R15999:16001 Corelib.ssrmatching.ssrmatching SsrMatchingSyntax LHS abbrev
+R16004:16008 mathcomp.boot.eqtype <> eq_op def
+R16013:16018 mathcomp.boot.eqtype <> eq_sym thm
+R16040:16042 mathcomp.boot.eqtype <> eqP def
+R16064:16064 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16068:16069 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16081:16082 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16086:16086 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16070:16080 mathcomp.boot.seq <> count_pred0 thm
+prf 16101:16109 FinTuple size_enum
+R16122:16124 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16113:16116 mathcomp.boot.seq <> size def
+R16118:16121 mathcomp.boot.tuple FinTuple enum def
+R16129:16131 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R16125:16126 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16128:16128 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16127:16127 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+R16132:16132 mathcomp.boot.tuple <> FinTuple.FinTuple.n var
+R16153:16157 mathcomp.boot.fintype <> cardE thm
+R16159:16171 mathcomp.boot.seq <> size_pmap_sub thm
+R16180:16180 mathcomp.boot.tuple <> FinTuple.FinTuple.n var
+R16204:16208 mathcomp.boot.ssrnat <> expnS thm
+R16211:16215 mathcomp.boot.fintype <> codom def
+R16218:16226 mathcomp.boot.fintype <> image_mem def
+R16241:16252 mathcomp.boot.fintype <> enum abbrev
+R16254:16254 mathcomp.boot.tuple <> FinTuple.FinTuple.T var
+R16284:16292 mathcomp.boot.seq <> count_cat thm
+R16300:16308 mathcomp.boot.seq <> count_map thm
+R16325:16332 mathcomp.boot.tuple FinTuple.FinTuple <> sec
+R16339:16346 mathcomp.boot.tuple FinTuple <> mod
+sec 16358:16368 <> UseFinTuple
+var 16383:16383 UseFinTuple n
+var 16393:16393 UseFinTuple T
+R16387:16389 Corelib.Init.Datatypes <> nat ind
+R16397:16403 mathcomp.boot.fintype Finite.Exports finType abbrev
+R16841:16854 mathcomp.boot.fintype isFinite Build abbrev
+R16858:16866 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R16857:16857 mathcomp.boot.tuple <> UseFinTuple.n var
+R16866:16866 mathcomp.boot.tuple <> UseFinTuple.T var
+R16871:16884 mathcomp.boot.tuple <> enumP prfax
+R16886:16886 mathcomp.boot.tuple <> UseFinTuple.n var
+R16888:16888 mathcomp.boot.tuple <> UseFinTuple.T var
+def 16813:16890 <> HB_unnamed_factory_16
+def 16813:16890 <> tuple_tuple_of__canonical__fintype_Finite
+def 16813:16890 <> tuple_tuple_of__canonical__fintype_SubFinite
+prf 16899:16908 <> card_tuple
+R16928:16930 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16912:16913 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16927:16927 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16914:16915 Corelib.ssr.ssrbool <> ::type_scope:'{'_':'_x_'}' not
+R16926:16926 Corelib.ssr.ssrbool <> ::type_scope:'{'_':'_x_'}' not
+R16917:16925 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R16916:16916 mathcomp.boot.tuple <> UseFinTuple.n var
+R16925:16925 mathcomp.boot.tuple <> UseFinTuple.T var
+R16935:16937 mathcomp.boot.ssrnat <> ::nat_scope:x_'^'_x not
+R16931:16932 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16934:16934 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16933:16933 mathcomp.boot.tuple <> UseFinTuple.T var
+R16938:16938 mathcomp.boot.tuple <> UseFinTuple.n var
+R16960:16961 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16963:16963 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R16965:16969 mathcomp.boot.fintype <> cardT thm
+R16971:16975 mathcomp.boot.fintype <> enumT thm
+R16977:16982 Corelib.ssr.ssreflect <> unlock thm
+R16984:17001 mathcomp.boot.tuple <> size_enum prfax
+prf 17016:17026 <> enum_tupleP
+R17033:17038 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17040:17040 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17039:17039 mathcomp.boot.tuple <> UseFinTuple.T var
+binder 17029:17029 <> A:243
+R17058:17061 mathcomp.boot.eqtype <> ::bool_scope:x_'=='_x not
+R17045:17048 mathcomp.boot.seq <> size def
+R17051:17054 mathcomp.boot.fintype <> enum abbrev
+R17056:17056 mathcomp.boot.tuple <> A:243 var
+R17062:17063 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17065:17065 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17064:17064 mathcomp.boot.tuple <> A:243 var
+R17087:17091 mathcomp.boot.fintype <> cardE thm
+def 17109:17118 <> enum_tuple
+binder 17120:17120 <> A:244
+R17125:17129 mathcomp.boot.tuple <> Tuple constr
+R17132:17142 mathcomp.boot.tuple <> enum_tupleP thm
+R17144:17144 mathcomp.boot.tuple <> A:244 var
+def 17160:17168 <> ord_tuple
+R17173:17184 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R17172:17172 mathcomp.boot.tuple <> UseFinTuple.n var
+R17181:17183 mathcomp.boot.fintype <> :::'''I_'_x not
+R17184:17184 mathcomp.boot.tuple <> UseFinTuple.n var
+R17189:17193 mathcomp.boot.tuple <> Tuple constr
+R17196:17201 Corelib.ssr.ssrbool <> introT thm
+R17208:17220 mathcomp.boot.fintype <> size_enum_ord thm
+R17222:17222 mathcomp.boot.tuple <> UseFinTuple.n var
+R17203:17205 mathcomp.boot.eqtype <> eqP def
+prf 17233:17245 <> val_ord_tuple
+R17262:17264 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17249:17251 mathcomp.boot.eqtype <> val abbrev
+R17253:17261 mathcomp.boot.tuple <> ord_tuple def
+R17265:17268 mathcomp.boot.fintype <> enum abbrev
+R17270:17272 mathcomp.boot.fintype <> :::'''I_'_x not
+R17273:17273 mathcomp.boot.tuple <> UseFinTuple.n var
+prf 17302:17314 <> tuple_map_ord
+binder 17316:17316 <> U:245
+R17324:17332 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R17323:17323 mathcomp.boot.tuple <> UseFinTuple.n var
+R17332:17332 mathcomp.boot.tuple <> U:245 var
+binder 17319:17319 <> t:246
+R17338:17340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17337:17337 mathcomp.boot.tuple <> t:246 var
+R17341:17350 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17373:17373 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17351:17353 mathcomp.boot.seq <> map def
+R17364:17372 mathcomp.boot.tuple <> ord_tuple def
+R17356:17359 mathcomp.boot.tuple <> tnth def
+R17361:17361 mathcomp.boot.tuple <> t:246 var
+R17393:17399 mathcomp.boot.eqtype <> val_inj thm
+R17416:17428 mathcomp.boot.tuple <> map_tnth_enum thm
+prf 17443:17456 <> tnth_ord_tuple
+binder 17458:17458 <> i:247
+R17478:17480 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17462:17465 mathcomp.boot.tuple <> tnth def
+R17477:17477 mathcomp.boot.tuple <> i:247 var
+R17467:17475 mathcomp.boot.tuple <> ord_tuple def
+R17481:17481 mathcomp.boot.tuple <> i:247 var
+R17503:17510 mathcomp.boot.tuple <> tnth_nth thm
+R17515:17527 mathcomp.boot.tuple <> val_ord_tuple thm
+R17529:17540 mathcomp.boot.fintype <> nth_ord_enum thm
+sec 17557:17566 UseFinTuple ImageTuple
+var 17581:17582 UseFinTuple.ImageTuple T'
+var 17593:17593 UseFinTuple.ImageTuple f
+var 17607:17607 UseFinTuple.ImageTuple A
+R17598:17601 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17597:17597 mathcomp.boot.tuple <> UseFinTuple.T var
+R17602:17603 mathcomp.boot.tuple <> T':249 var
+R17611:17616 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17618:17618 Corelib.ssr.ssrbool <> ::type_scope:'{'_'pred'_x_'}' not
+R17617:17617 mathcomp.boot.tuple <> UseFinTuple.T var
+def 17633:17643 <> image_tuple
+R17651:17660 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R17647:17648 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17650:17650 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17649:17649 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.A var
+R17659:17660 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.T' var
+R17665:17674 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17684:17684 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17675:17679 mathcomp.boot.fintype <> image abbrev
+R17681:17681 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.f var
+R17683:17683 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.A var
+def 17697:17707 <> codom_tuple
+R17715:17724 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R17711:17712 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17714:17714 mathcomp.boot.fintype <> ::nat_scope:'#|'_x_'|' not
+R17713:17713 mathcomp.boot.tuple <> UseFinTuple.T var
+R17723:17724 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.T' var
+R17729:17738 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17746:17746 mathcomp.boot.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R17739:17743 mathcomp.boot.fintype <> codom def
+R17745:17745 mathcomp.boot.tuple <> UseFinTuple.ImageTuple.f var
+R17754:17763 mathcomp.boot.tuple UseFinTuple.ImageTuple <> sec
+sec 17775:17781 UseFinTuple MkTuple
+var 17796:17797 UseFinTuple.MkTuple T'
+var 17808:17808 UseFinTuple.MkTuple f
+R17816:17819 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17812:17814 mathcomp.boot.fintype <> :::'''I_'_x not
+R17815:17815 mathcomp.boot.tuple <> UseFinTuple.n var
+R17820:17821 mathcomp.boot.tuple <> T':255 var
+def 17837:17843 <> mktuple
+R17848:17856 mathcomp.boot.tuple <> map_tuple canonstruc
+R17860:17868 mathcomp.boot.tuple <> ord_tuple def
+R17858:17858 mathcomp.boot.tuple <> UseFinTuple.MkTuple.f var
+prf 17878:17889 <> tnth_mktuple
+binder 17891:17891 <> i:258
+R17909:17911 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17895:17898 mathcomp.boot.tuple <> tnth def
+R17908:17908 mathcomp.boot.tuple <> i:258 var
+R17900:17906 mathcomp.boot.tuple <> mktuple def
+R17912:17912 mathcomp.boot.tuple <> UseFinTuple.MkTuple.f var
+R17914:17914 mathcomp.boot.tuple <> i:258 var
+R17935:17942 mathcomp.boot.tuple <> tnth_map thm
+R17944:17957 mathcomp.boot.tuple <> tnth_ord_tuple thm
+prf 17972:17982 <> nth_mktuple
+binder 17984:17985 <> x0:259
+R17992:17994 mathcomp.boot.fintype <> :::'''I_'_x not
+R17995:17995 mathcomp.boot.tuple <> UseFinTuple.n var
+binder 17988:17988 <> i:260
+R18016:18018 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18000:18002 mathcomp.boot.seq <> nth def
+R18015:18015 mathcomp.boot.tuple <> i:260 var
+R18007:18013 mathcomp.boot.tuple <> mktuple def
+R18004:18005 mathcomp.boot.tuple <> x0:259 var
+R18019:18019 mathcomp.boot.tuple <> UseFinTuple.MkTuple.f var
+R18021:18021 mathcomp.boot.tuple <> i:260 var
+R18043:18050 mathcomp.boot.tuple <> tnth_nth thm
+R18052:18063 mathcomp.boot.tuple <> tnth_mktuple thm
+R18076:18082 mathcomp.boot.tuple UseFinTuple.MkTuple <> sec
+prf 18092:18101 <> eq_mktuple
+binder 18103:18104 <> T':261
+R18119:18122 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18115:18117 mathcomp.boot.fintype <> :::'''I_'_x not
+R18118:18118 mathcomp.boot.tuple <> UseFinTuple.n var
+R18123:18124 mathcomp.boot.tuple <> T':261 var
+binder 18107:18108 <> f1:262
+binder 18110:18111 <> f2:263
+R18139:18142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18133:18136 Corelib.ssr.ssrfun <> ::type_scope:x_'=1'_x not
+R18131:18132 mathcomp.boot.tuple <> f1:262 var
+R18137:18138 mathcomp.boot.tuple <> f2:263 var
+R18153:18155 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18143:18149 mathcomp.boot.tuple <> mktuple def
+R18151:18152 mathcomp.boot.tuple <> f1:262 var
+R18156:18162 mathcomp.boot.tuple <> mktuple def
+R18164:18165 mathcomp.boot.tuple <> f2:263 var
+R18197:18208 mathcomp.boot.tuple <> eq_from_tnth thm
+R18224:18231 mathcomp.boot.tuple <> tnth_map thm
+R18249:18259 mathcomp.boot.tuple UseFinTuple <> sec
+R18300:18306 mathcomp.boot.tuple <> mktuple def
+R18317:18319 mathcomp.boot.fintype <> :::'''I_'_x not
+binder 18313:18313 <> i:264
+not 18272:18272 <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']'
+R18425:18434 mathcomp.boot.tuple <> eq_mktuple thm
+sec 18468:18474 <> BseqDef
+var 18489:18489 BseqDef n
+var 18499:18499 BseqDef T
+R18493:18495 Corelib.Init.Datatypes <> nat ind
+rec 18521:18527 <> bseq_of
+proj 18545:18551 <> bseqval
+R18556:18558 mathcomp.boot.seq <> seq abbrev
+R18560:18560 mathcomp.boot.tuple <> BseqDef.T var
+R18579:18582 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R18567:18570 mathcomp.boot.seq <> size def
+R18572:18578 mathcomp.boot.tuple <> bseqval:270 meth
+R18583:18583 mathcomp.boot.tuple <> BseqDef.n var
+R18616:18626 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R18634:18634 mathcomp.boot.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R18627:18633 mathcomp.boot.tuple <> bseqval proj
+def 18588:18635 <> HB_unnamed_factory_18
+def 18588:18635 <> tuple_bseq_of__canonical__eqtype_SubType
+R18657:18663 mathcomp.boot.tuple <> bseq_of rec
+prf 18673:18681 <> size_bseq
+binder 18683:18684 <> bs:271
+R18695:18698 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R18688:18691 mathcomp.boot.seq <> size def
+R18693:18694 mathcomp.boot.tuple <> bs:271 var
+R18699:18699 mathcomp.boot.tuple <> BseqDef.n var
+def 18739:18742 <> bseq
+binder 18744:18745 <> bs:272
+binder 18747:18749 <> mkB:273
+R18753:18759 mathcomp.boot.tuple <> bseq_of rec
+R18766:18768 mathcomp.boot.tuple <> mkB:273 var
+R18790:18791 mathcomp.boot.tuple <> bs:272 var
+R18807:18810 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R18800:18803 mathcomp.boot.seq <> size def
+R18805:18806 mathcomp.boot.tuple <> bs:274 var
+R18811:18811 mathcomp.boot.tuple <> BseqDef.n var
+R18776:18779 mathcomp.boot.tuple <> Bseq constr
+prf 18829:18833 <> bseqE
+binder 18835:18836 <> bs:275
+R18868:18870 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18840:18843 mathcomp.boot.tuple <> bseq def
+binder 18850:18851 <> sP:276
+R18857:18860 mathcomp.boot.tuple <> Bseq constr
+R18862:18863 mathcomp.boot.tuple <> bs:275 var
+R18865:18866 mathcomp.boot.tuple <> sP:276 var
+R18871:18872 mathcomp.boot.tuple <> bs:275 var
+R18905:18911 mathcomp.boot.tuple BseqDef <> sec
+def 18925:18932 <> nil_bseq
+binder 18934:18934 <> n:277
+binder 18936:18936 <> T:278
+R18941:18944 mathcomp.boot.tuple <> Bseq constr
+R18965:18968 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R18954:18957 mathcomp.boot.seq <> size def
+R18959:18959 mathcomp.boot.tuple <> T:278 var
+R18961:18964 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+R18969:18969 mathcomp.boot.tuple <> n:277 var
+R18947:18949 Corelib.ssr.ssrbool <> isT def
+def 18983:18991 <> cons_bseq
+binder 18993:18993 <> n:279
+binder 18995:18995 <> T:280
+binder 18997:18997 <> x:281
+R19004:19010 mathcomp.boot.tuple <> bseq_of rec
+R19014:19014 mathcomp.boot.tuple <> T:280 var
+R19012:19012 mathcomp.boot.tuple <> n:279 var
+binder 19000:19000 <> t:282
+R19022:19025 mathcomp.boot.tuple <> Bseq constr
+R19050:19053 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R19037:19040 mathcomp.boot.seq <> size def
+R19044:19047 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R19043:19043 mathcomp.boot.tuple <> x:281 var
+R19048:19048 mathcomp.boot.tuple <> t:282 var
+R19055:19057 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R19054:19054 mathcomp.boot.tuple <> n:279 var
+R19028:19031 mathcomp.boot.eqtype <> valP thm
+R19033:19033 mathcomp.boot.tuple <> t:282 var
+R19086:19092 mathcomp.boot.tuple <> bseq_of rec
+not 19071:19071 <> ::type_scope:x_'.-bseq'
+R19179:19189 Corelib.ssr.ssrbool <> predArgType def
+R19168:19175 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+not 19141:19141 <> ::type_scope:'{'_'bseq'_x_'of'_x_'}'
+R19257:19260 mathcomp.boot.tuple <> bseq def
+binder 19267:19268 <> sP:283
+R19274:19277 mathcomp.boot.tuple <> Bseq constr
+R19285:19286 mathcomp.boot.tuple <> sP:283 var
+not 19233:19233 <> ::form_scope:'['_'bseq'_'of'_x_']'
+R19376:19384 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_'of'_x_']' not
+R19404:19404 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_'of'_x_']' not
+R19387:19390 mathcomp.boot.seq <> ::seq_scope:x_'::'_x not
+R19394:19397 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+R19400:19400 mathcomp.boot.seq <> ::seq_scope:'['_'::'_x_']' not
+not 19347:19347 <> ::form_scope:'['_'bseq'_x_';'_'..'_';'_x_']'
+R19502:19510 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_'of'_x_']' not
+R19515:19515 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_'of'_x_']' not
+R19511:19514 mathcomp.boot.seq <> ::seq_scope:'['_'::'_']' not
+not 19486:19486 <> ::form_scope:'['_'bseq'_']'
+def 19563:19575 <> bseq_of_tuple
+binder 19577:19577 <> n:284
+binder 19579:19579 <> T:285
+R19587:19595 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R19586:19586 mathcomp.boot.tuple <> n:284 var
+R19595:19595 mathcomp.boot.tuple <> T:285 var
+binder 19582:19582 <> t:286
+R19601:19608 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R19600:19600 mathcomp.boot.tuple <> n:284 var
+R19608:19608 mathcomp.boot.tuple <> T:285 var
+R19615:19618 mathcomp.boot.tuple <> Bseq constr
+R19621:19626 mathcomp.boot.ssrnat <> eq_leq thm
+R19629:19638 mathcomp.boot.tuple <> size_tuple thm
+R19640:19640 mathcomp.boot.tuple <> t:286 var
+def 19657:19666 <> insub_bseq
+binder 19668:19668 <> n:287
+binder 19670:19670 <> T:288
+R19677:19679 mathcomp.boot.seq <> seq abbrev
+R19681:19681 mathcomp.boot.tuple <> T:288 var
+binder 19673:19673 <> s:289
+R19687:19694 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R19686:19686 mathcomp.boot.tuple <> n:287 var
+R19694:19694 mathcomp.boot.tuple <> T:288 var
+R19699:19704 mathcomp.boot.eqtype <> insubd def
+R19713:19713 mathcomp.boot.tuple <> s:289 var
+R19706:19711 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_']' not
+prf 19723:19737 <> size_insub_bseq
+binder 19739:19739 <> n:290
+binder 19741:19741 <> T:291
+R19748:19750 mathcomp.boot.seq <> seq abbrev
+R19752:19752 mathcomp.boot.tuple <> T:291 var
+binder 19744:19744 <> s:292
+R19778:19781 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R19757:19760 mathcomp.boot.seq <> size def
+R19763:19772 mathcomp.boot.tuple <> insub_bseq def
+R19776:19776 mathcomp.boot.tuple <> s:292 var
+R19774:19774 mathcomp.boot.tuple <> n:290 var
+R19782:19785 mathcomp.boot.seq <> size def
+R19787:19787 mathcomp.boot.tuple <> s:292 var
+R19809:19818 mathcomp.boot.tuple <> insub_bseq def
+R19821:19826 mathcomp.boot.eqtype <> insubd def
+R19835:19840 mathcomp.boot.eqtype <> insubP thm
+sec 19870:19877 <> CastBseq
+var 19890:19890 CastBseq T
+def 19912:19918 <> in_bseq
+R19925:19927 mathcomp.boot.seq <> seq abbrev
+R19929:19929 mathcomp.boot.tuple <> CastBseq.T var
+binder 19921:19921 <> s:295
+R19934:19934 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R19941:19949 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R19935:19938 mathcomp.boot.seq <> size def
+R19940:19940 mathcomp.boot.tuple <> s:295 var
+R19949:19949 mathcomp.boot.tuple <> CastBseq.T var
+R19954:19957 mathcomp.boot.tuple <> Bseq constr
+R19960:19964 mathcomp.boot.ssrnat <> leqnn thm
+R19967:19970 mathcomp.boot.seq <> size def
+R19972:19972 mathcomp.boot.tuple <> s:295 var
+def 19989:19997 <> cast_bseq
+binder 19999:19999 <> m:296
+binder 20001:20001 <> n:297
+R20013:20015 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20012:20012 mathcomp.boot.tuple <> m:296 var
+R20016:20016 mathcomp.boot.tuple <> n:297 var
+binder 20004:20008 <> eq_mn:298
+binder 20019:20020 <> bs:299
+R20050:20054 mathcomp.boot.tuple <> eq_mn:298 var
+R20042:20044 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20064:20071 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R20063:20063 mathcomp.boot.tuple <> n:301 var
+R20071:20071 mathcomp.boot.tuple <> CastBseq.T var
+R20032:20036 Corelib.ssr.ssrfun <> erefl abbrev
+R20076:20077 mathcomp.boot.tuple <> bs:299 var
+def 20092:20101 <> widen_bseq
+binder 20103:20103 <> m:302
+binder 20105:20105 <> n:303
+R20116:20119 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R20115:20115 mathcomp.boot.tuple <> m:302 var
+R20120:20120 mathcomp.boot.tuple <> n:303 var
+binder 20108:20111 <> lemn:304
+R20130:20137 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R20129:20129 mathcomp.boot.tuple <> m:302 var
+R20137:20137 mathcomp.boot.tuple <> CastBseq.T var
+binder 20124:20125 <> bs:305
+R20143:20150 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R20142:20142 mathcomp.boot.tuple <> n:303 var
+R20150:20150 mathcomp.boot.tuple <> CastBseq.T var
+R20158:20161 mathcomp.boot.tuple <> Bseq constr
+R20163:20163 mathcomp.boot.tuple <> n:303 var
+R20165:20165 mathcomp.boot.tuple <> CastBseq.T var
+R20167:20168 mathcomp.boot.tuple <> bs:305 var
+R20171:20179 mathcomp.boot.ssrnat <> leq_trans thm
+R20196:20199 mathcomp.boot.tuple <> lemn:304 var
+R20182:20190 mathcomp.boot.tuple <> size_bseq thm
+R20192:20193 mathcomp.boot.tuple <> bs:305 var
+prf 20210:20221 <> cast_bseq_id
+binder 20223:20223 <> n:306
+R20235:20237 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20234:20234 mathcomp.boot.tuple <> n:306 var
+R20238:20238 mathcomp.boot.tuple <> n:306 var
+binder 20226:20230 <> eq_nn:307
+binder 20241:20242 <> bs:308
+R20264:20266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20246:20254 mathcomp.boot.tuple <> cast_bseq def
+R20262:20263 mathcomp.boot.tuple <> bs:308 var
+R20256:20260 mathcomp.boot.tuple <> eq_nn:307 var
+R20267:20268 mathcomp.boot.tuple <> bs:308 var
+R20290:20298 mathcomp.boot.eqtype <> eq_axiomK thm
+prf 20320:20329 <> cast_bseqK
+binder 20331:20331 <> m:309
+binder 20333:20333 <> n:310
+R20345:20347 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20344:20344 mathcomp.boot.tuple <> m:309 var
+R20348:20348 mathcomp.boot.tuple <> n:310 var
+binder 20336:20340 <> eq_mn:311
+R20355:20360 Corelib.ssr.ssrfun <> cancel def
+R20381:20389 mathcomp.boot.tuple <> cast_bseq def
+R20392:20395 Corelib.ssr.ssrfun <> esym def
+R20397:20401 mathcomp.boot.tuple <> eq_mn:311 var
+R20363:20371 mathcomp.boot.tuple <> cast_bseq def
+R20373:20377 mathcomp.boot.tuple <> eq_mn:311 var
+prf 20445:20455 <> cast_bseqKV
+binder 20457:20457 <> m:312
+binder 20459:20459 <> n:313
+R20471:20473 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20470:20470 mathcomp.boot.tuple <> m:312 var
+R20474:20474 mathcomp.boot.tuple <> n:313 var
+binder 20462:20466 <> eq_mn:314
+R20481:20486 Corelib.ssr.ssrfun <> cancel def
+R20514:20522 mathcomp.boot.tuple <> cast_bseq def
+R20524:20528 mathcomp.boot.tuple <> eq_mn:314 var
+R20489:20497 mathcomp.boot.tuple <> cast_bseq def
+R20500:20503 Corelib.ssr.ssrfun <> esym def
+R20505:20509 mathcomp.boot.tuple <> eq_mn:314 var
+prf 20571:20585 <> cast_bseq_trans
+binder 20587:20587 <> m:315
+binder 20589:20589 <> n:316
+binder 20591:20591 <> p:317
+R20603:20605 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20602:20602 mathcomp.boot.tuple <> m:315 var
+R20606:20606 mathcomp.boot.tuple <> n:316 var
+binder 20594:20598 <> eq_mn:318
+R20619:20621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20618:20618 mathcomp.boot.tuple <> n:316 var
+R20622:20622 mathcomp.boot.tuple <> p:317 var
+binder 20610:20614 <> eq_np:319
+binder 20625:20626 <> bs:320
+R20665:20667 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20632:20640 mathcomp.boot.tuple <> cast_bseq def
+R20663:20664 mathcomp.boot.tuple <> bs:320 var
+R20643:20648 Corelib.ssr.ssrfun <> etrans def
+R20656:20660 mathcomp.boot.tuple <> eq_np:319 var
+R20650:20654 mathcomp.boot.tuple <> eq_mn:318 var
+R20668:20676 mathcomp.boot.tuple <> cast_bseq def
+R20685:20693 mathcomp.boot.tuple <> cast_bseq def
+R20701:20702 mathcomp.boot.tuple <> bs:320 var
+R20695:20699 mathcomp.boot.tuple <> eq_mn:318 var
+R20678:20682 mathcomp.boot.tuple <> eq_np:319 var
+prf 20762:20775 <> size_cast_bseq
+binder 20777:20777 <> m:321
+binder 20779:20779 <> n:322
+R20791:20793 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20790:20790 mathcomp.boot.tuple <> m:321 var
+R20794:20794 mathcomp.boot.tuple <> n:322 var
+binder 20782:20786 <> eq_mn:323
+R20804:20811 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R20803:20803 mathcomp.boot.tuple <> m:321 var
+R20811:20811 mathcomp.boot.tuple <> CastBseq.T var
+binder 20798:20799 <> bs:324
+R20843:20845 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20818:20821 mathcomp.boot.seq <> size def
+R20824:20832 mathcomp.boot.tuple <> cast_bseq def
+R20840:20841 mathcomp.boot.tuple <> bs:324 var
+R20834:20838 mathcomp.boot.tuple <> eq_mn:323 var
+R20846:20849 mathcomp.boot.seq <> size def
+R20851:20852 mathcomp.boot.tuple <> bs:324 var
+prf 20894:20906 <> widen_bseq_id
+binder 20908:20908 <> n:325
+R20919:20922 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R20918:20918 mathcomp.boot.tuple <> n:325 var
+R20923:20923 mathcomp.boot.tuple <> n:325 var
+binder 20911:20914 <> lenn:326
+R20933:20940 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R20932:20932 mathcomp.boot.tuple <> n:325 var
+R20940:20940 mathcomp.boot.tuple <> CastBseq.T var
+binder 20927:20928 <> bs:327
+R20965:20967 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20947:20956 mathcomp.boot.tuple <> widen_bseq def
+R20963:20964 mathcomp.boot.tuple <> bs:327 var
+R20958:20961 mathcomp.boot.tuple <> lenn:326 var
+R20968:20969 mathcomp.boot.tuple <> bs:327 var
+R20986:20992 mathcomp.boot.eqtype <> val_inj thm
+prf 21007:21021 <> cast_bseqEwiden
+binder 21023:21023 <> m:328
+binder 21025:21025 <> n:329
+R21037:21039 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21036:21036 mathcomp.boot.tuple <> m:328 var
+R21040:21040 mathcomp.boot.tuple <> n:329 var
+binder 21028:21032 <> eq_mn:330
+R21050:21057 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R21049:21049 mathcomp.boot.tuple <> m:328 var
+R21057:21057 mathcomp.boot.tuple <> CastBseq.T var
+binder 21044:21045 <> bs:331
+R21082:21084 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21064:21072 mathcomp.boot.tuple <> cast_bseq def
+R21080:21081 mathcomp.boot.tuple <> bs:331 var
+R21074:21078 mathcomp.boot.tuple <> eq_mn:330 var
+R21085:21094 mathcomp.boot.tuple <> widen_bseq def
+R21111:21112 mathcomp.boot.tuple <> bs:331 var
+R21097:21102 mathcomp.boot.ssrnat <> eq_leq thm
+R21104:21108 mathcomp.boot.tuple <> eq_mn:330 var
+R21150:21162 mathcomp.boot.tuple <> widen_bseq_id thm
+prf 21177:21187 <> widen_bseqK
+binder 21189:21189 <> m:332
+binder 21191:21191 <> n:333
+R21202:21205 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21201:21201 mathcomp.boot.tuple <> m:332 var
+R21206:21206 mathcomp.boot.tuple <> n:333 var
+binder 21194:21197 <> lemn:334
+R21218:21221 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21217:21217 mathcomp.boot.tuple <> n:333 var
+R21222:21222 mathcomp.boot.tuple <> m:332 var
+binder 21210:21213 <> lenm:335
+R21230:21235 Corelib.ssr.ssrfun <> cancel def
+R21261:21270 mathcomp.boot.tuple <> widen_bseq def
+R21272:21275 mathcomp.boot.tuple <> lenm:335 var
+R21239:21248 mathcomp.boot.tuple <> widen_bseq def
+R21250:21250 mathcomp.boot.tuple <> m:332 var
+R21252:21252 mathcomp.boot.tuple <> n:333 var
+R21254:21257 mathcomp.boot.tuple <> lemn:334 var
+R21306:21312 mathcomp.boot.eqtype <> val_inj thm
+prf 21327:21342 <> widen_bseq_trans
+binder 21344:21344 <> m:336
+binder 21346:21346 <> n:337
+binder 21348:21348 <> p:338
+R21359:21362 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21358:21358 mathcomp.boot.tuple <> m:336 var
+R21363:21363 mathcomp.boot.tuple <> n:337 var
+binder 21351:21354 <> lemn:339
+R21375:21378 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21374:21374 mathcomp.boot.tuple <> n:337 var
+R21379:21379 mathcomp.boot.tuple <> p:338 var
+binder 21367:21370 <> lenp:340
+R21389:21396 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R21388:21388 mathcomp.boot.tuple <> m:336 var
+R21396:21396 mathcomp.boot.tuple <> CastBseq.T var
+binder 21383:21384 <> bs:341
+R21438:21440 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21403:21412 mathcomp.boot.tuple <> widen_bseq def
+R21436:21437 mathcomp.boot.tuple <> bs:341 var
+R21415:21423 mathcomp.boot.ssrnat <> leq_trans thm
+R21430:21433 mathcomp.boot.tuple <> lenp:340 var
+R21425:21428 mathcomp.boot.tuple <> lemn:339 var
+R21441:21450 mathcomp.boot.tuple <> widen_bseq def
+R21458:21467 mathcomp.boot.tuple <> widen_bseq def
+R21474:21475 mathcomp.boot.tuple <> bs:341 var
+R21469:21472 mathcomp.boot.tuple <> lemn:339 var
+R21452:21455 mathcomp.boot.tuple <> lenp:340 var
+R21492:21498 mathcomp.boot.eqtype <> val_inj thm
+prf 21513:21527 <> size_widen_bseq
+binder 21529:21529 <> m:342
+binder 21531:21531 <> n:343
+R21542:21545 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21541:21541 mathcomp.boot.tuple <> m:342 var
+R21546:21546 mathcomp.boot.tuple <> n:343 var
+binder 21534:21537 <> lemn:344
+R21556:21563 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R21555:21555 mathcomp.boot.tuple <> m:342 var
+R21563:21563 mathcomp.boot.tuple <> CastBseq.T var
+binder 21550:21551 <> bs:345
+R21595:21597 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21570:21573 mathcomp.boot.seq <> size def
+R21576:21585 mathcomp.boot.tuple <> widen_bseq def
+R21592:21593 mathcomp.boot.tuple <> bs:345 var
+R21587:21590 mathcomp.boot.tuple <> lemn:344 var
+R21598:21601 mathcomp.boot.seq <> size def
+R21603:21604 mathcomp.boot.tuple <> bs:345 var
+prf 21633:21640 <> in_bseqE
+binder 21642:21642 <> s:346
+R21655:21657 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21659:21662 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21663:21665 mathcomp.boot.seq <> seq abbrev
+R21667:21667 mathcomp.boot.tuple <> CastBseq.T var
+R21646:21652 mathcomp.boot.tuple <> in_bseq def
+R21654:21654 mathcomp.boot.tuple <> s:346 var
+R21658:21658 mathcomp.boot.tuple <> s:346 var
+prf 21696:21713 <> widen_bseq_in_bseq
+binder 21715:21715 <> n:347
+R21724:21731 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R21723:21723 mathcomp.boot.tuple <> n:347 var
+R21731:21731 mathcomp.boot.tuple <> CastBseq.T var
+binder 21718:21719 <> bs:348
+R21776:21778 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21738:21747 mathcomp.boot.tuple <> widen_bseq def
+R21765:21771 mathcomp.boot.tuple <> in_bseq def
+R21773:21774 mathcomp.boot.tuple <> bs:348 var
+R21750:21758 mathcomp.boot.tuple <> size_bseq thm
+R21760:21761 mathcomp.boot.tuple <> bs:348 var
+R21779:21780 mathcomp.boot.tuple <> bs:348 var
+R21797:21803 mathcomp.boot.eqtype <> val_inj thm
+R21816:21823 mathcomp.boot.tuple CastBseq <> sec
+sec 21835:21841 <> SeqBseq
+var 21856:21856 SeqBseq n
+var 21858:21858 SeqBseq m
+var 21868:21868 SeqBseq T
+var 21870:21870 SeqBseq U
+var 21872:21873 SeqBseq rT
+R21862:21864 Corelib.Init.Datatypes <> nat ind
+R21903:21910 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R21902:21902 mathcomp.boot.tuple <> SeqBseq.n var
+R21910:21910 mathcomp.boot.tuple <> SeqBseq.T var
+prf 21920:21930 <> rcons_bseqP
+binder 21932:21932 <> s:359
+binder 21934:21934 <> x:360
+R21954:21957 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R21938:21941 mathcomp.boot.seq <> size def
+R21944:21948 mathcomp.boot.seq <> rcons def
+R21952:21952 mathcomp.boot.tuple <> x:360 var
+R21950:21950 mathcomp.boot.tuple <> s:359 var
+R21959:21961 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R21958:21958 mathcomp.boot.tuple <> SeqBseq.n var
+R21982:21991 mathcomp.boot.seq <> size_rcons thm
+R21993:21996 mathcomp.boot.ssrnat <> ltnS thm
+R21998:22006 mathcomp.boot.tuple <> size_bseq thm
+def 22024:22033 <> rcons_bseq
+binder 22035:22035 <> s:361
+binder 22037:22037 <> x:362
+R22042:22045 mathcomp.boot.tuple <> Bseq constr
+R22048:22058 mathcomp.boot.tuple <> rcons_bseqP thm
+R22062:22062 mathcomp.boot.tuple <> x:362 var
+R22060:22060 mathcomp.boot.tuple <> s:361 var
+prf 22073:22084 <> behead_bseqP
+binder 22086:22086 <> s:363
+R22105:22108 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22090:22093 mathcomp.boot.seq <> size def
+R22096:22101 mathcomp.boot.seq <> behead def
+R22103:22103 mathcomp.boot.tuple <> s:363 var
+R22110:22112 mathcomp.boot.ssrnat <> ::nat_scope:x_'.-1' not
+R22109:22109 mathcomp.boot.tuple <> SeqBseq.n var
+R22130:22140 mathcomp.boot.seq <> size_behead thm
+R22144:22148 mathcomp.boot.ssrnat <> subn1 thm
+R22157:22165 mathcomp.boot.ssrnat <> leq_sub2r thm
+R22167:22175 mathcomp.boot.tuple <> size_bseq thm
+def 22193:22203 <> behead_bseq
+binder 22205:22205 <> s:364
+R22210:22213 mathcomp.boot.tuple <> Bseq constr
+R22216:22227 mathcomp.boot.tuple <> behead_bseqP thm
+R22229:22229 mathcomp.boot.tuple <> s:364 var
+prf 22240:22251 <> belast_bseqP
+binder 22253:22253 <> x:365
+binder 22255:22255 <> s:366
+R22276:22279 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22259:22262 mathcomp.boot.seq <> size def
+R22265:22270 mathcomp.boot.seq <> belast def
+R22274:22274 mathcomp.boot.tuple <> s:366 var
+R22272:22272 mathcomp.boot.tuple <> x:365 var
+R22280:22280 mathcomp.boot.tuple <> SeqBseq.n var
+R22301:22311 mathcomp.boot.seq <> size_belast thm
+R22320:22328 mathcomp.boot.tuple <> size_bseq thm
+def 22346:22356 <> belast_bseq
+binder 22358:22358 <> x:367
+binder 22360:22360 <> s:368
+R22365:22368 mathcomp.boot.tuple <> Bseq constr
+R22371:22382 mathcomp.boot.tuple <> belast_bseqP thm
+R22386:22386 mathcomp.boot.tuple <> s:368 var
+R22384:22384 mathcomp.boot.tuple <> x:367 var
+prf 22397:22405 <> cat_bseqP
+binder 22407:22407 <> s:369
+R22416:22423 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R22415:22415 mathcomp.boot.tuple <> SeqBseq.m var
+R22423:22423 mathcomp.boot.tuple <> SeqBseq.T var
+binder 22410:22411 <> s':370
+R22442:22445 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22428:22431 mathcomp.boot.seq <> size def
+R22435:22438 mathcomp.boot.seq <> ::seq_scope:x_'++'_x not
+R22434:22434 mathcomp.boot.tuple <> s:369 var
+R22439:22440 mathcomp.boot.tuple <> s':370 var
+R22447:22449 mathcomp.boot.ssrnat <> ::nat_scope:x_'+'_x not
+R22446:22446 mathcomp.boot.tuple <> SeqBseq.n var
+R22450:22450 mathcomp.boot.tuple <> SeqBseq.m var
+R22471:22478 mathcomp.boot.seq <> size_cat thm
+R22487:22493 mathcomp.boot.ssrnat <> leq_add thm
+R22495:22503 mathcomp.boot.tuple <> size_bseq thm
+R22505:22513 mathcomp.boot.tuple <> size_bseq thm
+def 22531:22538 <> cat_bseq
+binder 22540:22540 <> s:371
+R22549:22556 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R22548:22548 mathcomp.boot.tuple <> SeqBseq.m var
+R22556:22556 mathcomp.boot.tuple <> SeqBseq.T var
+binder 22543:22544 <> s':372
+R22562:22565 mathcomp.boot.tuple <> Bseq constr
+R22568:22576 mathcomp.boot.tuple <> cat_bseqP thm
+R22580:22581 mathcomp.boot.tuple <> s':372 var
+R22578:22578 mathcomp.boot.tuple <> s:371 var
+prf 22592:22601 <> take_bseqP
+binder 22603:22603 <> s:373
+R22622:22625 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22607:22610 mathcomp.boot.seq <> size def
+R22613:22616 mathcomp.boot.seq <> take def
+R22620:22620 mathcomp.boot.tuple <> s:373 var
+R22618:22618 mathcomp.boot.tuple <> SeqBseq.m var
+R22626:22626 mathcomp.boot.tuple <> SeqBseq.n var
+R22647:22659 mathcomp.boot.seq <> size_take_min thm
+R22662:22670 mathcomp.boot.ssrnat <> leq_trans thm
+R22675:22683 mathcomp.boot.tuple <> size_bseq thm
+R22692:22699 mathcomp.boot.ssrnat <> geq_minr thm
+def 22717:22725 <> take_bseq
+binder 22727:22727 <> s:374
+R22732:22735 mathcomp.boot.tuple <> Bseq constr
+R22738:22747 mathcomp.boot.tuple <> take_bseqP thm
+R22749:22749 mathcomp.boot.tuple <> s:374 var
+prf 22760:22769 <> drop_bseqP
+binder 22771:22771 <> s:375
+R22790:22793 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22775:22778 mathcomp.boot.seq <> size def
+R22781:22784 mathcomp.boot.seq <> drop def
+R22788:22788 mathcomp.boot.tuple <> s:375 var
+R22786:22786 mathcomp.boot.tuple <> SeqBseq.m var
+R22795:22797 mathcomp.boot.ssrnat <> ::nat_scope:x_'-'_x not
+R22794:22794 mathcomp.boot.tuple <> SeqBseq.n var
+R22798:22798 mathcomp.boot.tuple <> SeqBseq.m var
+R22819:22827 mathcomp.boot.seq <> size_drop thm
+R22836:22844 mathcomp.boot.ssrnat <> leq_sub2r thm
+R22846:22854 mathcomp.boot.tuple <> size_bseq thm
+def 22872:22880 <> drop_bseq
+binder 22882:22882 <> s:376
+R22887:22890 mathcomp.boot.tuple <> Bseq constr
+R22893:22902 mathcomp.boot.tuple <> drop_bseqP thm
+R22904:22904 mathcomp.boot.tuple <> s:376 var
+prf 22915:22923 <> rev_bseqP
+binder 22925:22925 <> s:377
+R22941:22944 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R22929:22932 mathcomp.boot.seq <> size def
+R22935:22937 mathcomp.boot.seq <> rev def
+R22939:22939 mathcomp.boot.tuple <> s:377 var
+R22945:22945 mathcomp.boot.tuple <> SeqBseq.n var
+R22966:22973 mathcomp.boot.seq <> size_rev thm
+R22975:22983 mathcomp.boot.tuple <> size_bseq thm
+def 23001:23008 <> rev_bseq
+binder 23010:23010 <> s:378
+R23015:23018 mathcomp.boot.tuple <> Bseq constr
+R23021:23029 mathcomp.boot.tuple <> rev_bseqP thm
+R23031:23031 mathcomp.boot.tuple <> s:378 var
+prf 23042:23050 <> rot_bseqP
+binder 23052:23052 <> s:379
+R23070:23073 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23056:23059 mathcomp.boot.seq <> size def
+R23062:23064 mathcomp.boot.seq <> rot def
+R23068:23068 mathcomp.boot.tuple <> s:379 var
+R23066:23066 mathcomp.boot.tuple <> SeqBseq.m var
+R23074:23074 mathcomp.boot.tuple <> SeqBseq.n var
+R23095:23102 mathcomp.boot.seq <> size_rot thm
+R23104:23112 mathcomp.boot.tuple <> size_bseq thm
+def 23130:23137 <> rot_bseq
+binder 23139:23139 <> s:380
+R23144:23147 mathcomp.boot.tuple <> Bseq constr
+R23150:23158 mathcomp.boot.tuple <> rot_bseqP thm
+R23160:23160 mathcomp.boot.tuple <> s:380 var
+prf 23171:23180 <> rotr_bseqP
+binder 23182:23182 <> s:381
+R23201:23204 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23186:23189 mathcomp.boot.seq <> size def
+R23192:23195 mathcomp.boot.seq <> rotr def
+R23199:23199 mathcomp.boot.tuple <> s:381 var
+R23197:23197 mathcomp.boot.tuple <> SeqBseq.m var
+R23205:23205 mathcomp.boot.tuple <> SeqBseq.n var
+R23226:23234 mathcomp.boot.seq <> size_rotr thm
+R23236:23244 mathcomp.boot.tuple <> size_bseq thm
+def 23262:23270 <> rotr_bseq
+binder 23272:23272 <> s:382
+R23277:23280 mathcomp.boot.tuple <> Bseq constr
+R23283:23292 mathcomp.boot.tuple <> rotr_bseqP thm
+R23294:23294 mathcomp.boot.tuple <> s:382 var
+prf 23305:23313 <> map_bseqP
+binder 23315:23315 <> f:383
+binder 23317:23317 <> s:384
+R23339:23342 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23322:23325 mathcomp.boot.seq <> size def
+R23327:23328 mathcomp.boot.tuple <> SeqBseq.rT var
+R23331:23333 mathcomp.boot.seq <> map def
+R23337:23337 mathcomp.boot.tuple <> s:384 var
+R23335:23335 mathcomp.boot.tuple <> f:383 var
+R23343:23343 mathcomp.boot.tuple <> SeqBseq.n var
+R23364:23371 mathcomp.boot.seq <> size_map thm
+R23373:23381 mathcomp.boot.tuple <> size_bseq thm
+def 23399:23406 <> map_bseq
+binder 23408:23408 <> f:385
+binder 23410:23410 <> s:386
+R23415:23418 mathcomp.boot.tuple <> Bseq constr
+R23421:23429 mathcomp.boot.tuple <> map_bseqP thm
+R23433:23433 mathcomp.boot.tuple <> s:386 var
+R23431:23431 mathcomp.boot.tuple <> f:385 var
+prf 23444:23454 <> scanl_bseqP
+binder 23456:23456 <> f:387
+binder 23458:23458 <> x:388
+binder 23460:23460 <> s:389
+R23486:23489 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23465:23468 mathcomp.boot.seq <> size def
+R23470:23471 mathcomp.boot.tuple <> SeqBseq.rT var
+R23474:23478 mathcomp.boot.seq <> scanl def
+R23484:23484 mathcomp.boot.tuple <> s:389 var
+R23482:23482 mathcomp.boot.tuple <> x:388 var
+R23480:23480 mathcomp.boot.tuple <> f:387 var
+R23490:23490 mathcomp.boot.tuple <> SeqBseq.n var
+R23511:23520 mathcomp.boot.seq <> size_scanl thm
+R23522:23530 mathcomp.boot.tuple <> size_bseq thm
+def 23548:23557 <> scanl_bseq
+binder 23559:23559 <> f:390
+binder 23561:23561 <> x:391
+binder 23563:23563 <> s:392
+R23568:23571 mathcomp.boot.tuple <> Bseq constr
+R23574:23584 mathcomp.boot.tuple <> scanl_bseqP thm
+R23590:23590 mathcomp.boot.tuple <> s:392 var
+R23588:23588 mathcomp.boot.tuple <> x:391 var
+R23586:23586 mathcomp.boot.tuple <> f:390 var
+prf 23601:23613 <> pairmap_bseqP
+binder 23615:23615 <> f:393
+binder 23617:23617 <> x:394
+binder 23619:23619 <> s:395
+R23647:23650 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23624:23627 mathcomp.boot.seq <> size def
+R23629:23630 mathcomp.boot.tuple <> SeqBseq.rT var
+R23633:23639 mathcomp.boot.seq <> pairmap def
+R23645:23645 mathcomp.boot.tuple <> s:395 var
+R23643:23643 mathcomp.boot.tuple <> x:394 var
+R23641:23641 mathcomp.boot.tuple <> f:393 var
+R23651:23651 mathcomp.boot.tuple <> SeqBseq.n var
+R23672:23683 mathcomp.boot.seq <> size_pairmap thm
+R23685:23693 mathcomp.boot.tuple <> size_bseq thm
+def 23711:23722 <> pairmap_bseq
+binder 23724:23724 <> f:396
+binder 23726:23726 <> x:397
+binder 23728:23728 <> s:398
+R23733:23736 mathcomp.boot.tuple <> Bseq constr
+R23739:23751 mathcomp.boot.tuple <> pairmap_bseqP thm
+R23757:23757 mathcomp.boot.tuple <> s:398 var
+R23755:23755 mathcomp.boot.tuple <> x:397 var
+R23753:23753 mathcomp.boot.tuple <> f:396 var
+prf 23768:23781 <> allpairs_bseqP
+binder 23783:23783 <> f:399
+binder 23785:23785 <> s:400
+R23794:23801 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R23793:23793 mathcomp.boot.tuple <> SeqBseq.m var
+R23801:23801 mathcomp.boot.tuple <> SeqBseq.U var
+binder 23788:23789 <> s':401
+R23832:23835 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R23807:23810 mathcomp.boot.seq <> size def
+R23812:23813 mathcomp.boot.tuple <> SeqBseq.rT var
+R23816:23823 mathcomp.boot.seq <> allpairs def
+R23829:23830 mathcomp.boot.tuple <> s':401 var
+R23827:23827 mathcomp.boot.tuple <> s:400 var
+R23825:23825 mathcomp.boot.tuple <> f:399 var
+R23837:23839 mathcomp.boot.ssrnat <> ::nat_scope:x_'*'_x not
+R23836:23836 mathcomp.boot.tuple <> SeqBseq.n var
+R23840:23840 mathcomp.boot.tuple <> SeqBseq.m var
+R23861:23873 mathcomp.boot.seq <> size_allpairs thm
+R23882:23888 mathcomp.boot.ssrnat <> leq_mul thm
+R23890:23898 mathcomp.boot.tuple <> size_bseq thm
+R23900:23908 mathcomp.boot.tuple <> size_bseq thm
+def 23926:23938 <> allpairs_bseq
+binder 23940:23940 <> f:402
+binder 23942:23942 <> s:403
+R23951:23958 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R23950:23950 mathcomp.boot.tuple <> SeqBseq.m var
+R23958:23958 mathcomp.boot.tuple <> SeqBseq.U var
+binder 23945:23946 <> s':404
+R23964:23967 mathcomp.boot.tuple <> Bseq constr
+R23970:23983 mathcomp.boot.tuple <> allpairs_bseqP thm
+R23989:23990 mathcomp.boot.tuple <> s':404 var
+R23987:23987 mathcomp.boot.tuple <> s:403 var
+R23985:23985 mathcomp.boot.tuple <> f:402 var
+prf 24001:24010 <> sort_bseqP
+binder 24012:24012 <> r:405
+binder 24014:24014 <> s:406
+R24033:24036 mathcomp.boot.ssrnat <> ::nat_scope:x_'<='_x not
+R24018:24021 mathcomp.boot.seq <> size def
+R24024:24027 mathcomp.boot.path <> sort def
+R24031:24031 mathcomp.boot.tuple <> s:406 var
+R24029:24029 mathcomp.boot.tuple <> r:405 var
+R24037:24037 mathcomp.boot.tuple <> SeqBseq.n var
+R24058:24066 mathcomp.boot.path <> size_sort thm
+R24068:24076 mathcomp.boot.tuple <> size_bseq thm
+def 24094:24102 <> sort_bseq
+binder 24104:24104 <> r:407
+binder 24106:24106 <> s:408
+R24111:24114 mathcomp.boot.tuple <> Bseq constr
+R24117:24126 mathcomp.boot.tuple <> sort_bseqP thm
+R24130:24130 mathcomp.boot.tuple <> s:408 var
+R24128:24128 mathcomp.boot.tuple <> r:407 var
+prf 24141:24145 <> bseq0
+R24149:24160 Corelib.ssr.ssrfun <> all_equal_to def
+R24173:24180 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24180:24180 mathcomp.boot.tuple <> SeqBseq.T var
+R24163:24168 mathcomp.boot.tuple <> ::form_scope:'['_'bseq'_']' not
+R24211:24217 mathcomp.boot.eqtype <> val_inj thm
+R24247:24253 mathcomp.boot.tuple SeqBseq <> sec
+R24301:24306 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+R24314:24326 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R24336:24342 mathcomp.boot.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R24328:24335 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24327:24327 mathcomp.boot.tuple <> n:409 var
+R24335:24335 mathcomp.boot.tuple <> T:410 var
+sec 24257:24343 hb_instance_20 hb_instance_20
+var 24257:24343 hb_instance_20 n
+var 24257:24343 hb_instance_20 T
+def 24257:24343 <> bseq_hasDecEq
+def 24257:24343 <> eqtype_Equality__to__eqtype_hasDecEq
+def 24257:24343 <> HB_unnamed_mixin_22
+def 24257:24343 <> tuple_bseq_of__canonical__eqtype_Equality
+def 24257:24343 <> tuple_bseq_of__canonical__eqtype_SubEquality
+R24257:24343 mathcomp.boot.tuple <> <> sec
+def 24356:24368 <> bseq_predType
+binder 24370:24370 <> n:411
+R24377:24382 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+binder 24373:24373 <> T:412
+R24402:24409 Corelib.ssr.ssrbool <> PredType constr
+R24421:24428 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24420:24420 mathcomp.boot.tuple <> n:411 var
+R24428:24428 mathcomp.boot.tuple <> T:412 var
+binder 24416:24416 <> t:413
+R24433:24439 mathcomp.boot.seq <> mem_seq def
+R24441:24441 mathcomp.boot.tuple <> t:413 var
+prf 24452:24457 <> membsE
+binder 24459:24459 <> n:414
+R24466:24471 mathcomp.boot.eqtype Equality.Exports eqType abbrev
+binder 24462:24462 <> T:415
+R24481:24488 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24480:24480 mathcomp.boot.tuple <> n:414 var
+R24488:24488 mathcomp.boot.tuple <> T:415 var
+binder 24475:24476 <> bs:416
+R24499:24501 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24493:24495 Corelib.ssr.ssrbool <> mem def
+R24497:24498 mathcomp.boot.tuple <> bs:416 var
+R24502:24504 Corelib.ssr.ssrbool <> mem def
+R24507:24513 mathcomp.boot.tuple <> bseqval proj
+R24515:24516 mathcomp.boot.tuple <> bs:416 var
+R24585:24594 mathcomp.boot.choice Choice.Exports choiceType abbrev
+R24602:24612 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R24622:24628 mathcomp.boot.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R24614:24621 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24613:24613 mathcomp.boot.tuple <> n:417 var
+R24621:24621 mathcomp.boot.tuple <> T:418 var
+sec 24540:24629 hb_instance_23 hb_instance_23
+var 24540:24629 hb_instance_23 n
+var 24540:24629 hb_instance_23 T
+def 24540:24629 <> bseq_hasChoice
+def 24540:24629 <> choice_Choice__to__choice_hasChoice__25
+def 24540:24629 <> choice_Choice__to__eqtype_hasDecEq__27
+def 24540:24629 <> HB_unnamed_mixin_28
+def 24540:24629 <> tuple_bseq_of__canonical__choice_Choice
+def 24540:24629 <> tuple_bseq_of__canonical__choice_SubChoice
+R24540:24629 mathcomp.boot.tuple <> <> sec
+R24679:24687 mathcomp.boot.choice Countable.Exports countType abbrev
+R24695:24708 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R24718:24724 mathcomp.boot.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R24710:24717 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24709:24709 mathcomp.boot.tuple <> n:419 var
+R24717:24717 mathcomp.boot.tuple <> T:420 var
+sec 24632:24725 hb_instance_29 hb_instance_29
+var 24632:24725 hb_instance_29 n
+var 24632:24725 hb_instance_29 T
+def 24632:24725 <> bseq_isCountable
+def 24632:24725 <> choice_Countable__to__choice_hasChoice__31
+def 24632:24725 <> choice_Countable__to__eqtype_hasDecEq__33
+def 24632:24725 <> choice_Countable__to__choice_Choice_isCountable__35
+def 24632:24725 <> HB_unnamed_mixin_36
+def 24632:24725 <> tuple_bseq_of__canonical__choice_Countable
+def 24632:24725 <> tuple_bseq_of__canonical__choice_SubCountable
+R24632:24725 mathcomp.boot.tuple <> <> sec
+def 24739:24755 <> bseq_tagged_tuple
+binder 24757:24757 <> n:421
+binder 24759:24759 <> T:422
+R24767:24774 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24766:24766 mathcomp.boot.tuple <> n:421 var
+R24774:24774 mathcomp.boot.tuple <> T:422 var
+binder 24762:24762 <> s:423
+R24779:24779 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24781:24783 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24791:24793 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24804:24804 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24784:24786 mathcomp.boot.fintype <> :::'''I_'_x not
+R24788:24790 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R24787:24787 mathcomp.boot.tuple <> n:421 var
+binder 24780:24780 <> k:424
+R24795:24803 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R24794:24794 mathcomp.boot.tuple <> k:424 var
+R24803:24803 mathcomp.boot.tuple <> T:422 var
+R24811:24816 Corelib.ssr.ssrfun <> Tagged def
+R24834:24834 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R24872:24881 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R24835:24841 mathcomp.boot.fintype <> Ordinal constr
+R24864:24866 mathcomp.boot.ssrnat <> ::nat_scope:x_'<'_x not
+R24858:24861 mathcomp.boot.seq <> size def
+R24863:24863 mathcomp.boot.tuple <> s:423 var
+R24868:24870 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R24867:24867 mathcomp.boot.tuple <> n:421 var
+R24844:24852 mathcomp.boot.tuple <> size_bseq thm
+R24854:24854 mathcomp.boot.tuple <> s:423 var
+R24821:24828 mathcomp.boot.tuple <> in_tuple def
+R24830:24830 mathcomp.boot.tuple <> s:423 var
+R24895:24911 mathcomp.boot.tuple <> bseq_tagged_tuple def
+def 24932:24948 <> tagged_tuple_bseq
+binder 24950:24950 <> n:425
+binder 24952:24952 <> T:426
+R24959:24959 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24961:24963 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24971:24973 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24984:24984 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R24964:24966 mathcomp.boot.fintype <> :::'''I_'_x not
+R24968:24970 mathcomp.boot.ssrnat <> ::nat_scope:x_'.+1' not
+R24967:24967 mathcomp.boot.tuple <> n:425 var
+binder 24960:24960 <> k:427
+R24975:24983 mathcomp.boot.tuple <> ::type_scope:x_'.-tuple' not
+R24974:24974 mathcomp.boot.tuple <> k:427 var
+R24983:24983 mathcomp.boot.tuple <> T:426 var
+binder 24955:24955 <> t:428
+R24990:24997 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R24989:24989 mathcomp.boot.tuple <> n:425 var
+R24997:24997 mathcomp.boot.tuple <> T:426 var
+R25004:25013 mathcomp.boot.tuple <> widen_bseq def
+R25034:25039 Corelib.ssr.ssrfun <> tagged def
+R25041:25041 mathcomp.boot.tuple <> t:428 var
+R25016:25022 mathcomp.boot.fintype <> leq_ord thm
+R25025:25027 Corelib.ssr.ssrfun <> tag def
+R25029:25029 mathcomp.boot.tuple <> t:428 var
+R25055:25071 mathcomp.boot.tuple <> tagged_tuple_bseq def
+prf 25087:25104 <> bseq_tagged_tupleK
+binder 25107:25107 <> n:429
+binder 25109:25109 <> T:430
+R25116:25121 Corelib.ssr.ssrfun <> cancel def
+R25148:25164 mathcomp.boot.tuple <> tagged_tuple_bseq def
+R25125:25141 mathcomp.boot.tuple <> bseq_tagged_tuple def
+R25143:25143 mathcomp.boot.tuple <> n:429 var
+R25145:25145 mathcomp.boot.tuple <> T:430 var
+R25194:25200 mathcomp.boot.eqtype <> val_inj thm
+prf 25215:25232 <> tagged_tuple_bseqK
+binder 25235:25235 <> n:431
+binder 25237:25237 <> T:432
+R25244:25249 Corelib.ssr.ssrfun <> cancel def
+R25276:25292 mathcomp.boot.tuple <> bseq_tagged_tuple def
+R25253:25269 mathcomp.boot.tuple <> tagged_tuple_bseq def
+R25271:25271 mathcomp.boot.tuple <> n:431 var
+R25273:25273 mathcomp.boot.tuple <> T:432 var
+R25331:25347 Corelib.Init.Specif <> eq_existT_curried thm
+R25367:25373 mathcomp.boot.eqtype <> val_inj thm
+R25392:25401 mathcomp.boot.tuple <> size_tuple thm
+R25420:25424 Corelib.ssr.ssrfun <> erefl abbrev
+prf 25453:25473 <> bseq_tagged_tuple_bij
+binder 25476:25476 <> n:435
+binder 25478:25478 <> T:436
+R25483:25491 Corelib.ssr.ssrfun <> bijective variant
+R25495:25511 mathcomp.boot.tuple <> bseq_tagged_tuple def
+R25513:25513 mathcomp.boot.tuple <> n:435 var
+R25515:25515 mathcomp.boot.tuple <> T:436 var
+R25532:25540 Corelib.ssr.ssrfun <> Bijective constr
+R25542:25559 mathcomp.boot.tuple <> tagged_tuple_bseqK thm
+R25561:25578 mathcomp.boot.tuple <> bseq_tagged_tupleK thm
+prf 25593:25613 <> tagged_tuple_bseq_bij
+binder 25616:25616 <> n:437
+binder 25618:25618 <> T:438
+R25623:25631 Corelib.ssr.ssrfun <> bijective variant
+R25635:25651 mathcomp.boot.tuple <> tagged_tuple_bseq def
+R25653:25653 mathcomp.boot.tuple <> n:437 var
+R25655:25655 mathcomp.boot.tuple <> T:438 var
+R25672:25680 Corelib.ssr.ssrfun <> Bijective constr
+R25682:25699 mathcomp.boot.tuple <> bseq_tagged_tupleK thm
+R25701:25718 mathcomp.boot.tuple <> tagged_tuple_bseqK thm
+R25864:25870 mathcomp.boot.fintype Finite.Exports finType abbrev
+R25876:25889 mathcomp.boot.fintype isFinite Build abbrev
+R25893:25900 mathcomp.boot.tuple <> ::type_scope:x_'.-bseq' not
+R25892:25892 mathcomp.boot.tuple <> n:439 var
+R25900:25900 mathcomp.boot.tuple <> T:440 var
+R25906:25915 mathcomp.boot.fintype <> pcan_enumP thm
+R25918:25925 Corelib.ssr.ssrfun <> can_pcan thm
+R25929:25946 mathcomp.boot.tuple <> bseq_tagged_tupleK thm
+R25948:25948 mathcomp.boot.tuple <> n:439 var
+R25950:25950 mathcomp.boot.tuple <> T:440 var
+sec 25803:25954 hb_instance_37 hb_instance_37
+var 25803:25954 hb_instance_37 n
+var 25803:25954 hb_instance_37 T
+def 25803:25954 <> HB_unnamed_factory_38
+def 25803:25954 <> tuple_bseq_of__canonical__fintype_Finite
+def 25803:25954 <> tuple_bseq_of__canonical__fintype_SubFinite
+R25803:25954 mathcomp.boot.tuple <> <> sec
