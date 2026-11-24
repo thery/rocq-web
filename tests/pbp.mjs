@@ -55,7 +55,9 @@ async function goTo(after, n = 1, text = original) {
 }
 
 // Selects the [k]-th occurrence of [s] in the text of a part: the
-// conclusion of goal [goal], or the type of hypothesis [hyp]
+// conclusion of goal [goal], or the type of hypothesis [hyp]; as with the
+// mouse, the editor loses the focus (else, focused, it puts its own
+// selection back at its next update: when the checking ends, say)
 async function select(s, k, { goal = 0, hyp } = {}) {
   return page.evaluate(
     ({ s, k, goal, hyp }) => {
@@ -74,6 +76,7 @@ async function select(s, k, { goal = 0, hyp } = {}) {
       const r = document.createRange();
       r.setStart(...at(i));
       r.setEnd(...at(i + s.length));
+      document.activeElement?.blur();
       const sel = document.getSelection();
       sel.removeAllRanges();
       sel.addRange(r);
@@ -183,7 +186,8 @@ for (const c of process.env.ONLY === "checked" ? [] : cases) {
   if (c.name === "linking") await shot("link-written");
   if (c.name === "nested") await shot("error");
   if (c.proves) {
-    // the line checked: no error
+    // the line checked: no error (the editor focused again, as by a click)
+    await page.evaluate(() => window.rocqView.focus());
     await page.keyboard.press("Alt+ArrowDown");
     await idle();
     await page.waitForTimeout(1500);
@@ -192,6 +196,15 @@ for (const c of process.env.ONLY === "checked" ? [] : cases) {
     if (c.name === "last A") await shot("checked");
   }
 }
+// The text of the goals panel, without the Point bar (shown in it while a
+// part is selected: it goes away once its button is clicked, the goals
+// unchanged)
+const goalsNow = () =>
+  goals.evaluate((g) => {
+    const c = g.cloneNode(true);
+    c.querySelectorAll(".point-bar").forEach((b) => b.remove());
+    return c.textContent;
+  });
 // "check": the line written is checked at once (step by step, the
 // checking moved past it; else the cursor after it)
 const concl = () => textNow(goals.locator(".concl"));
@@ -205,7 +218,7 @@ async function after(before, fails = false) {
   for (let i = 0; i < 150; i++) {
     const p = await problem();
     if (p) return { problem: p };
-    const now = await goals.textContent();
+    const now = await goalsNow();
     if (!fails && now !== before && !/Nothing checked|Not in a proof/.test(now)) return { goals: now, concl: await concl() };
     await page.waitForTimeout(200);
   }
@@ -221,7 +234,7 @@ for (const c of checked) {
   await select(...c.sel[0]);
   await page.waitForSelector(".point-bar input");
   if (!(await page.locator(".point-bar input").isChecked())) await page.locator(".point-bar input").check();
-  const before = await goals.textContent();
+  const before = await goalsNow();
   await point(c);
   const got = await written(line);
   const r = await after(before, c.fails);
