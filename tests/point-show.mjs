@@ -29,6 +29,8 @@ const kind = supported ? "show" : "point";
 const showFile = await fetch(new URL(`examples/${example}/point_actions_show.v`, url));
 const real = supported && showFile.ok && /point-action "Type of" show/.test(await showFile.text());
 if (real) console.log("the show actions of point_actions_show.v: tested too");
+// (compiled before the document opens when it requires it)
+const required = real && /point_actions_show/.test(await (await fetch(new URL(`examples/${example}/${file}`, url))).text());
 console.log(supported ? "the kind show is known by point_actions.v" : "MOCK: point_actions.v does not know the kind show: declared as point, listed as show");
 
 const browser = await launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
@@ -58,7 +60,7 @@ const idle = async () => {
 };
 await page.goto(`${url}?example=${example}&file=${file}`);
 await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("server ready"), null, { timeout: 120000 });
-await page.waitForFunction((m) => document.querySelector(".log")?.textContent.includes(m), `compiled ${example}/${real ? "point_actions_show.v" : compiled}`, { timeout: 600000 });
+await page.waitForFunction((m) => document.querySelector(".log")?.textContent.includes(m), `compiled ${example}/${required ? "point_actions_show.v" : compiled}`, { timeout: 600000 });
 await idle();
 const original = await page.evaluate(() => window.rocqView.state.doc.toString());
 const text = `${original.trimEnd()}
