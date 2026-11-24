@@ -10,6 +10,8 @@
 // says show for them (MOCK in the output): the rest is real (point_run
 // runs, its text is the one shown).
 // EXAMPLE=pbp-paths (the example pbp-paths, where it exists: by paths).
+// When the example has point_actions_show.v (coq_tmp point-paths), its
+// actions (Type of, Check this, ...) are tested too.
 //   ROCQ_WEB_URL=http://localhost:5173/ CHROME=/usr/bin/google-chrome node tests/point-show.mjs
 import { launch } from "./launch.mjs";
 
@@ -23,6 +25,10 @@ const [file, compiled] = example === "pbp-paths" ? ["pbp_paths_demo.v", "point_a
 const actionsFile = await (await fetch(new URL(`examples/${example}/point_actions.v`, url))).text();
 const supported = /point-kind-name show /.test(actionsFile);
 const kind = supported ? "show" : "point";
+// (the show actions of coq_tmp, when the example has them)
+const showFile = await fetch(new URL(`examples/${example}/point_actions_show.v`, url));
+const real = supported && showFile.ok && /point-action "Type of" show/.test(await showFile.text());
+if (real) console.log("the show actions of point_actions_show.v: tested too");
 console.log(supported ? "the kind show is known by point_actions.v" : "MOCK: point_actions.v does not know the kind show: declared as point, listed as show");
 
 const browser = await launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
@@ -52,13 +58,13 @@ const idle = async () => {
 };
 await page.goto(`${url}?example=${example}&file=${file}`);
 await page.waitForFunction(() => document.querySelector(".log")?.textContent.includes("server ready"), null, { timeout: 120000 });
-await page.waitForFunction((m) => document.querySelector(".log")?.textContent.includes(m), `compiled ${example}/${compiled}`, { timeout: 600000 });
+await page.waitForFunction((m) => document.querySelector(".log")?.textContent.includes(m), `compiled ${example}/${real ? "point_actions_show.v" : compiled}`, { timeout: 600000 });
 await idle();
 const original = await page.evaluate(() => window.rocqView.state.doc.toString());
 const text = `${original.trimEnd()}
 
 (* Scratch: actions of kind ${kind} declared here *)
-PointAction "Echo" ${kind} "{text}" "show the selection".
+${real ? "From coq_tmp Require Import point_actions_show.\n" : ""}PointAction "Echo" ${kind} "{text}" "show the selection".
 PointAction "Twice" ${kind} "{text}
 {text}" "show the selection twice".
 PointAction "Head" ${kind} "{head}" "show the head constant".
@@ -213,6 +219,31 @@ const err = await result();
 check(err.startsWith("error: ") && (await shown()) === null, `Head on a: ${JSON.stringify(err)}`);
 await shot("error");
 check(await unchanged(), "nothing written by the show actions");
+
+if (real) {
+  // the show actions of point_actions_show.v
+  const has = await buttons();
+  const names = ["Type of", "Check this", "Normal form", "Head normal form", "Where defined", "Unfolds to"];
+  check(names.every((n) => has.includes(n)), `the show actions of point_actions_show.v: ${JSON.stringify(has)}`);
+  const cases = [
+    ["1 + 1", "Type of", (t) => /^1 \+ 1 : nat$/.test(t)],
+    ["1 + 1", "Check this", (t) => /^1 \+ 1\n\s*: nat$/.test(t)],
+    ["1 + 1", "Normal form", (t) => /⇒ 2$/.test(t)],
+    ["double (1 + a)", "Unfolds to", (t) => t.includes("⇒") && t.includes("1 + a")],
+    ["double (1 + a)", "Where defined", (t) => t.includes("double")],
+    ["double (1 + a)", "Head normal form", (t) => t.includes("⇒")],
+  ];
+  for (const [s, n, ok] of cases) {
+    await select(s);
+    await buttons();
+    await click(n);
+    const t = await result();
+    check(ok(t), `${n} on ${s}: ${JSON.stringify(t)}`);
+    if (n === "Check this") await shot("check-this");
+    await page.keyboard.press("Escape");
+  }
+  check(await unchanged(), "nothing written by the show actions of point_actions_show.v");
+}
 
 // new goals: closed
 await select("1 + 1");
