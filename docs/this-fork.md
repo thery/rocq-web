@@ -146,6 +146,9 @@ those loaded at the sentence the goals are shown for.
   before it, its error shown as usual. When checking as you type, the
   cursor is put after the line in any case, so the goals shown are
   already those after it.
+- The goals asked again unchanged (when the checking of the rest of the
+  file ends, say) are kept as they are: what is selected in them, and
+  the first part of a link, stay.
 
 ### Declaring an action
 

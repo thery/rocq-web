@@ -17,6 +17,11 @@ import type { Workspace } from "./useWorkspace";
 // (at: the point they are for, where a query about them runs)
 export type Goals = { now: GoalsResult; before: GoalsResult | null; at: Position };
 
+// (the same goals, at the same point: asked again, when the checking ends
+// say, they are kept as they are, so that what was selected in them, a
+// part to point at, stays)
+const sameGoals = (a: Goals | null, b: Goals) => a !== null && JSON.stringify(a) === JSON.stringify(b);
+
 // Where the checking goes: the next sentence, the previous one, the
 // cursor, the start, the end
 export type Move = "next" | "previous" | "cursor" | "start" | "end";
@@ -97,7 +102,10 @@ export function useDocument({
         // (before the sentence: at its start)
         const s = sentenceAt(sentences(text), offsetAt(text, at));
         const before = s ? await c.goals(uri, v, positionAt(text, s.start), "Prev").catch(() => null) : null;
-        if (current()) setGoals({ now, before, at });
+        if (current()) {
+          const g = { now, before, at };
+          setGoals((old) => (sameGoals(old, g) ? old : g));
+        }
       },
       (e: Error) => log(`goals: ${e.message}`),
     );
