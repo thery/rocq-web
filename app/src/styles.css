@@ -107,6 +107,8 @@ aside.right .tabs { flex: 2; }
 .point-bar .error { color: #b00020; }
 .point-bar label { display: flex; align-items: center; gap: 0.2rem; padding: 0 0.3rem; color: #777; }
 .point-bar input { width: auto; margin: 0; }
+.point-shown { flex-basis: 100%; display: flex; align-items: flex-start; gap: 0.2rem; }
+.point-shown pre { flex: 1; min-width: 0; margin: 0; padding: 0.2rem 0.35rem; max-height: 40vh; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-family: ui-monospace, monospace; font-size: 0.8rem; background: #f5f6f8; border-radius: 3px; user-select: text; cursor: text; }
 ::highlight(pbp-first) { background: #ffe08a; }
 .pp-constr-keyword { color: #7a3e9d; }
 .pp-constr-notation { color: #555; }
@@ -204,6 +206,7 @@ button.info:hover, button.info[aria-expanded="true"] { color: #3b6fd8; }
   .point-bar { background: #282c34; border-color: #444b58; }
   .point-bar button:hover { background: #333946; }
   .point-bar .error { color: #ff7b7b; }
+  .point-shown pre { background: #21252b; }
   ::highlight(pbp-first) { background: #5c4a14; }
   .pp-constr-keyword { color: #c678dd; }
   .pp-constr-notation { color: #abb2bf; }

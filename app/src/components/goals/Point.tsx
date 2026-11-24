@@ -3,8 +3,10 @@
 // shows the pointing actions declared in Rocq (hooks/usePoint.ts), one
 // button each, its doc as tooltip; one of kind point writes its line for
 // the part. One of kind link ("Name…") keeps the part (highlighted), the
-// next one is linked with it ("Name"); Escape forgets it. "check": the line
-// written is checked at once (remembered).
+// next one is linked with it ("Name"); Escape forgets it. One of kind show
+// writes nothing: the text it prints is shown in the bar (selectable), until
+// ✕, Escape, a new selection or new goals; it is not offered during a link.
+// "check": the line written is checked at once (remembered).
 import { type RefObject, useEffect, useRef, useState } from "react";
 import { usePersistentState } from "../../hooks/usePersistentState";
 import type { PointAction, Pointed, Pointing } from "../../hooks/usePoint";
@@ -48,6 +50,9 @@ export function PointBar({ root, goals, point }: {
   // (the first part of a link, and its action)
   const [first, setFirst] = useState<(Selected & { action: PointAction }) | null>(null);
   const [status, setStatus] = useState<string | null>(null);
+  // the text shown by an action of kind show
+  const [text, setText] = useState<string | null>(null);
+  const bar = useRef<HTMLDivElement>(null);
   // the mouse, followed during a link (null: not followed)
   const [mouse, setMouse] = useState<{ x: number; y: number } | null>(null);
   const [check, setCheck] = usePersistentState("point-check", false);
@@ -57,6 +62,9 @@ export function PointBar({ root, goals, point }: {
   useEffect(() => {
     const change = () => {
       const s = document.getSelection();
+      // (a selection in the bar, in the text shown, changes nothing)
+      if (s?.anchorNode && bar.current?.contains(s.anchorNode)) return;
+      setText(null);
       const r = s && s.rangeCount > 0 && !s.isCollapsed ? s.getRangeAt(0) : null;
       const p = r && root.current ? pointed(root.current, r) : null;
       setSelected(p && r ? { p, range: r.cloneRange() } : null);
@@ -68,6 +76,7 @@ export function PointBar({ root, goals, point }: {
   useEffect(() => {
     setSelected(null);
     setFirst(null);
+    setText(null);
   }, [goals]);
   const asked = useRef<unknown>(undefined);
   useEffect(() => {
@@ -84,6 +93,12 @@ export function PointBar({ root, goals, point }: {
     document.addEventListener("keydown", key);
     return () => document.removeEventListener("keydown", key);
   }, [first]);
+  useEffect(() => {
+    if (text === null) return;
+    const key = (e: KeyboardEvent) => e.key === "Escape" && setText(null);
+    document.addEventListener("keydown", key);
+    return () => document.removeEventListener("keydown", key);
+  }, [text]);
   useEffect(() => {
     if (!first || selected) {
       setMouse(null);
@@ -105,6 +120,19 @@ export function PointBar({ root, goals, point }: {
     setFirst(null);
     document.getSelection()?.removeAllRanges();
   };
+  // (the selection is kept: the bar stays below it)
+  const show = async (action: PointAction) => {
+    if (!selected) return;
+    setStatus("…");
+    setText(null);
+    const r = await point.show(action.name, selected.p);
+    if ("error" in r) {
+      setStatus(r.error);
+      return;
+    }
+    setStatus(null);
+    setText(r.text);
+  };
   const keep = (action: PointAction) => {
     if (!selected) return;
     setFirst({ ...selected, action });
@@ -122,7 +150,7 @@ export function PointBar({ root, goals, point }: {
     : { left: Math.max(4, Math.min(box.right, window.innerWidth - 430)), top: box.bottom + 4 };
   return (
     // (a click on it keeps the selection)
-    <div className="point-bar" style={style} onMouseDown={(e) => e.preventDefault()} data-testid="point-bar">
+    <div ref={bar} className="point-bar" style={style} onMouseDown={(e) => e.preventDefault()} data-testid="point-bar">
       {first ? (
         selected ? (
           <button onClick={() => run(first.action)} title={first.action.doc || undefined}>
@@ -141,7 +169,11 @@ export function PointBar({ root, goals, point }: {
         <span className="muted">No pointing actions</span>
       ) : (
         list.map((a) =>
-          a.kind === "point" ? (
+          a.kind === "show" ? (
+            <button key={a.name} onClick={() => show(a)} title={a.doc || undefined}>
+              {a.name}
+            </button>
+          ) : a.kind === "point" ? (
             <button key={a.name} onClick={() => run(a)} title={a.doc || undefined}>
               {a.name}
             </button>
@@ -157,10 +189,21 @@ export function PointBar({ root, goals, point }: {
           ✕
         </button>
       )}
-      <label title="Check the line once written">
-        <input type="checkbox" checked={check} onChange={(e) => setCheck(e.target.checked)} /> check
-      </label>
+      {(first || !Array.isArray(list) || list.some((a) => a.kind !== "show")) && (
+        <label title="Check the line once written">
+          <input type="checkbox" checked={check} onChange={(e) => setCheck(e.target.checked)} /> check
+        </label>
+      )}
       {status && <span className={status === "…" ? "muted" : "error"} title={status}>{status}</span>}
+      {text !== null && (
+        <div className="point-shown" data-testid="point-shown">
+          {/* (its text can be selected and copied) */}
+          <pre onMouseDown={(e) => e.stopPropagation()}>{text}</pre>
+          <button onClick={() => setText(null)} title="Close (Escape)" aria-label="Close">
+            ✕
+          </button>
+        </div>
+      )}
     </div>
   );
 }

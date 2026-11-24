@@ -129,6 +129,12 @@ those loaded at the sentence the goals are shown for.
   `elpi point_run "Name" S E S' E'` (or `H S E S' E'`, `S E H S' E'`,
   `H S E H' S' E'`), the parts in the order they were selected (the first
   is `X` of the pattern, the second `Y`). Escape or ✕ forgets the first.
+- **An action of kind `show`** (once coq_tmp's point_actions.v has it:
+  `Type of`, `Normal form`, ...): run as one of kind point, but nothing
+  is written: the text it prints is shown in the bar (monospace, all its
+  lines, it can be selected and copied) until ✕, Escape, another
+  selection or new goals. It takes one part: it is not offered while a
+  link waits for its second part; **check** does not apply to it.
 - The widened warning (`pbp-widened`) and the errors go to the Log panel;
   an error is also shown in the bar (the text after `point_run: `).
 - **check** (a box in the bar, off by default, remembered in the
@@ -148,7 +154,8 @@ point_actions.`, with a template:
 PointAction "Name it" point "set x := ({text})." "name the selected subterm".
 ```
 
-The kind is `point` (one part) or `link` (two); the last string, the
+The kind is `point` (one part), `link` (two) or `show` (one part, the
+text shown; when point_actions.v has it); the last string, the
 tooltip, is optional. The placeholders of the template are `{pattern}`
 (the pattern of pbp, `[X in ...]`), `{revert}` (`move: H; ` for a part
 of a hypothesis), `{local}` (the pattern in the conclusion or in the
@@ -169,6 +176,11 @@ them in a few seconds. When coq_tmp's change, copy them again from its
 root. (`pbp.v` has one warning of Elpi, a linear variable `H` at line
 276, as in coq_tmp.) Its code: `app/src/components/goals/Point.tsx` (the
 selection, the bar), `app/src/hooks/usePoint.ts` (the queries, the line
-written). Test: `CHECK=step|all node tests/pbp.mjs`
+written), `app/src/lib/pointActions.ts` (the list of the actions).
+Tests: `CHECK=step|all node tests/pbp.mjs`; `node tests/point-show.mjs`
+(the kind show, on actions declared in a scratch part; while
+point_actions.v does not know the kind, they are declared of kind point
+and listed as show: it says MOCK); `node tests/point-show-unit.mjs` (no
+browser)
 (`CHROME=/usr/bin/google-chrome` for the system's Chrome, `SHOTS=DIR`
 for screenshots).

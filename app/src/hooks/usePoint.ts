@@ -6,9 +6,11 @@
 // unchanged); the line printed is written after that sentence, its warnings
 // and errors in the log; checked at once if asked (step by step, the
 // checking moved to its end; else the cursor, put after it, shows the goals
-// after it).
+// after it). An action of kind show writes nothing: the text point_run
+// prints is shown (in the bar).
 import { type RefObject, useCallback, useMemo } from "react";
 import type { EditorHandle } from "../components/editor/Editor";
+import { type PointAction, parseActions, pointLine, shownText } from "../lib/pointActions";
 import { offsetAt, positionAt, sentenceAt, sentences } from "../lib/sentences";
 import { isRocq } from "../lib/storage";
 import { workerUri } from "../lib/workspaces";
@@ -21,8 +23,7 @@ import type { Workspace } from "./useWorkspace";
 // not blanks of its text as shown
 export type Pointed = { goal: number; hyp?: string; start: number; end: number };
 
-// An action of point_actions: [kind] point takes one part, link two
-export type PointAction = { name: string; kind: "point" | "link"; doc: string };
+export type { PointAction };
 
 export type Pointing = {
   // the actions where the goals are shown, or why there are none
@@ -30,6 +31,9 @@ export type Pointing = {
   // writes the line of the action [name] for the parts [ps] (the error, or
   // null once the line is written)
   run: (name: string, ps: Pointed[], check: boolean) => Promise<string | null>;
+  // the text of the action [name] (of kind show) for the part [p]: written
+  // nothing
+  show: (name: string, p: Pointed) => Promise<{ text: string } | { error: string }>;
 };
 
 const NOTICE = 3;
@@ -39,18 +43,6 @@ const NOTICE = 3;
 const args = (ps: Pointed[]) => ps.map((p) => [p.hyp, p.start, p.end].filter((x) => x !== undefined).join(" ")).join(" ");
 // (a Rocq string)
 const quoted = (s: string) => `"${s.replaceAll('"', '""')}"`;
-
-function parseActions(json: string): PointAction[] | null {
-  try {
-    const a: unknown = JSON.parse(json);
-    if (!Array.isArray(a)) return null;
-    return a.filter(
-      (x): x is PointAction => typeof x?.name === "string" && (x.kind === "point" || x.kind === "link"),
-    ).map((x) => ({ name: x.name, kind: x.kind, doc: typeof x.doc === "string" ? x.doc : "" }));
-  } catch {
-    return null;
-  }
-}
 
 export function usePoint({ session, ws, doc, editor, log }: {
   session: Session;
@@ -87,15 +79,27 @@ export function usePoint({ session, ws, doc, editor, log }: {
     return (json && parseActions(json)) || "point_actions printed no list.";
   }, [query]);
 
+  // what point_run prints for the action [name] on the parts [ps] (its last
+  // notice), or the error
+  const output = useCallback(
+    async (name: string, ps: Pointed[]): Promise<{ text: string } | { error: string }> => {
+      const goal = ps[0].goal > 0 ? `${ps[0].goal + 1}: ` : "";
+      const r = await query(`${goal}elpi point_run ${quoted(name)} ${args(ps)}.`, "point_run");
+      if (typeof r === "string") return { error: r };
+      const text = r.filter(([level]) => level === NOTICE).at(-1)?.[1];
+      return text ? { text } : { error: "point_run printed nothing." };
+    },
+    [query],
+  );
+
   const run = useCallback(
     async (name: string, ps: Pointed[], check: boolean): Promise<string | null> => {
       if (ps.some((p) => p.goal !== ps[0].goal)) return "The two parts are not in the same goal.";
       // (a goal selector for another goal than the first)
       const goal = ps[0].goal > 0 ? `${ps[0].goal + 1}: ` : "";
-      const r = await query(`${goal}elpi point_run ${quoted(name)} ${args(ps)}.`, "point_run");
-      if (typeof r === "string") return r;
-      const line = r.filter(([level]) => level === NOTICE).at(-1)?.[1];
-      if (!line) return "point_run printed no line.";
+      const r = await output(name, ps);
+      if ("error" in r) return r.error;
+      const line = pointLine(r.text);
       const active = ws.current.current.active;
       const at = doc.goals?.at;
       if (!at) return "No goal here.";
@@ -112,8 +116,16 @@ export function usePoint({ session, ws, doc, editor, log }: {
       if (check && doc.stepByStep) doc.move("cursor", positionAt(ws.read(active), from + written.length));
       return null;
     },
-    [query, ws, doc, editor],
+    [output, ws, doc, editor],
   );
 
-  return useMemo(() => ({ actions, run }), [actions, run]);
+  const show = useCallback(
+    async (name: string, p: Pointed) => {
+      const r = await output(name, [p]);
+      return "error" in r ? r : { text: shownText(r.text) };
+    },
+    [output],
+  );
+
+  return useMemo(() => ({ actions, run, show }), [actions, run, show]);
 }
